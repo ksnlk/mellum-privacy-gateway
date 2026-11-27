@@ -1,0 +1,1698 @@
+{
+ "repo": "31423103",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/a3046da0.example",
+   "line": 8,
+   "start": 17,
+   "end": 29,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "50lvtuo1sha2"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/a3046da0.example",
+   "line": 15,
+   "start": 12,
+   "end": 55,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "5793km6z2o50433j92o0912n148ktpri:0:41041717"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/a3046da0.example",
+   "line": 17,
+   "start": 13,
+   "end": 45,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "05bb2f6ceb55020576ce56ec7c61f8a0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/a3046da0.example",
+   "line": 19,
+   "start": 14,
+   "end": 49,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "ke zy1115z1hay31b382av65ub35012ry09"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "_/a3046da0.example",
+   "line": 22,
+   "start": 10,
+   "end": 53,
+   "category": "Secret",
+   "mutation": "camouflage",
+   "forms": [
+    "LiolGKJuvKr4RILX3qTblllCwTYU-_cs0WMdaxm3tc7"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "_/a3046da0.example",
+   "line": 25,
+   "start": 13,
+   "end": 45,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "b3a741e984d48ec2158075f45598bced"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "_/a3046da0.example",
+   "line": 28,
+   "start": 17,
+   "end": 49,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "ec28813d8a2f99cd39f97ef8e9cccb6c"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "_/a3046da0.example",
+   "line": 32,
+   "start": 12,
+   "end": 52,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "30d476c775b2fcba90265d969c55f8050142b853"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "_/a3046da0.example",
+   "line": 35,
+   "start": 10,
+   "end": 35,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "2ZZQDsB7ZgaQ845L0lVcSAOPE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "_/a3046da0.example",
+   "line": 36,
+   "start": 15,
+   "end": 65,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "UDuWoJ0OLVui15K5zpqUpbrFwvhRJej4uxFxLuo4HeVG4bGTFe"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "_/a3046da0.example",
+   "line": 39,
+   "start": 14,
+   "end": 38,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "LgMyUcHnRPNowuR3n_JQyWCn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "_/a3046da0.example",
+   "line": 42,
+   "start": 11,
+   "end": 27,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "bxkG6sK0e6TqFHm1"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "_/a3046da0.example",
+   "line": 45,
+   "start": 12,
+   "end": 44,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "A1729EEFfF86Df6dFB125F527cCcFB9E"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "_/a3046da0.example",
+   "line": 47,
+   "start": 11,
+   "end": 45,
+   "category": "Twilio Credentials",
+   "mutation": "none",
+   "forms": [
+    "AC9b5f82296b42831cbd118abf2feb581d"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "_/a3046da0.example",
+   "line": 48,
+   "start": 12,
+   "end": 44,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "73d2faec8b5394163cc2c5eb3e25c2d3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "_/a3046da0.example",
+   "line": 50,
+   "start": 12,
+   "end": 44,
+   "category": "Key:Stripe Credentials",
+   "mutation": "none",
+   "forms": [
+    "sk_test_MApsedBImDkL4DoZuG9jzzQ0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 17,
+   "file": "_/a3046da0.example",
+   "line": 51,
+   "start": 13,
+   "end": 45,
+   "category": "Key:Stripe Credentials",
+   "mutation": "rename",
+   "forms": [
+    "wf_deed_1zPCOXKcJDJkYfxJrCe0RBCo"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 18,
+   "file": "_/a3046da0.example",
+   "line": 54,
+   "start": 11,
+   "end": 61,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "KrWmVe2xjpwhvMqCPOB31YAPFnNeq6ZJUpxBoYhJvxhonZhUsG"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 19,
+   "file": "_/a3046da0.example",
+   "line": 55,
+   "start": 14,
+   "end": 64,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "WjLRf7XULFzIHlckqTcagMmBZfxeM2c5IQuafCtYr6STzQUQ1q"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 20,
+   "file": "_/a3046da0.example",
+   "line": 59,
+   "start": 18,
+   "end": 66,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "QYAUWJTUQWGTLBA6EGN9YMSWEFC5QHFGXO1TAN9RVTKSINKA"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 21,
+   "file": "_/a3046da0.example",
+   "line": 64,
+   "start": 14,
+   "end": 74,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "XRW2QgL1JmMvgnPQ2RxFeiOhUqSfR3_CVNwKjJS94Og74ImIAGj9EIip_Jx9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 22,
+   "file": "_/a3046da0.example",
+   "line": 68,
+   "start": 7,
+   "end": 43,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "QCQBgqzxadymvafkjinhuboneaznxjuimlKL"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 23,
+   "file": "_/a3046da0.example",
+   "line": 70,
+   "start": 21,
+   "end": 63,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "34gjmnnssexyvbukvudtadsqerandlmdymcqnk2756"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 24,
+   "file": "_/a3046da0.example",
+   "line": 73,
+   "start": 12,
+   "end": 52,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "sjne_483g122e353x47mr2rtq1k9af00348201vs"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 25,
+   "file": "_/a3046da0.example",
+   "line": 77,
+   "start": 17,
+   "end": 81,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "d19f9227bf14716b8dd86b1d9fbf77b910e0967afa4cfe068a637812c655db64"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 26,
+   "file": "test/d5b8342a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Noah Koch"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "test/d5b8342a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sarah.becker@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "test/d5b8342a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 6948 7894"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "test/d5b8342a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Clara Neumann"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "test/d5b8342a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lina.weber [at] brightloop-corp [dot] de"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "test/d5b8342a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE21127526839750327204"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "test/d5b8342a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Felix Wagner"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "test/d5b8342a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Gartenstra\u00dfe 12, 72411 Dachau"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "test/d5b8342a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "91.25.246.148"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "test/51ab3029.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm.x9oe9f.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "test/51ab3029.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Z3JhZmFuYTptM3R1bm1AcmszZDE0",
+    "grafana:m3tunm@rk3d14"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "test/51ab3029.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "at9d16dynxld4sa8tcfzslol7pzagy6w"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "test/57105b04.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "vagrant813"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "_/6238bfb3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "e.schmidt@acme-corp.de"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "_/6238bfb3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 5214 7707"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "_/6238bfb3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "bosreplay-prod"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "_/6238bfb3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE30025731257873084053"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "_/baa7b974.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "36626164323763333063616537636435306236323761393066353638643964356466643331333435343833623265373361313331343738653635366435386461",
+    "6bad27c30cae7cd50b627a90f568d9d5dfd31345483b2e73a131478e656d58da"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "test/be776fbc.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043c\u0435\u0447\u0442\u04306941!"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "test/be776fbc.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.20.56.104"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "test/be776fbc.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "U0BjaCQzbjYz",
+    "S@ch$3n63"
+   ]
+  },
+  {
+   "id": 47,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.helix.net"
+   ]
+  },
+  {
+   "id": 48,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.helix.net"
+   ]
+  },
+  {
+   "id": 49,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.helix.net"
+   ]
+  },
+  {
+   "id": 50,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.41.87.0/24"
+   ]
+  },
+  {
+   "id": 51,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.41.87.31"
+   ]
+  },
+  {
+   "id": 52,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.helix.net"
+   ]
+  },
+  {
+   "id": 53,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.helix.net"
+   ]
+  },
+  {
+   "id": 54,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.helix.net"
+   ]
+  },
+  {
+   "id": 55,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.helix.net"
+   ]
+  },
+  {
+   "id": 56,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.41.87.228"
+   ]
+  },
+  {
+   "id": 57,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.helix.net"
+   ]
+  },
+  {
+   "id": 58,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Felix Wagner"
+   ]
+  },
+  {
+   "id": 59,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "felix.wagner@gmail.com"
+   ]
+  },
+  {
+   "id": 60,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 7122358"
+   ]
+  },
+  {
+   "id": 61,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Clara Mueller"
+   ]
+  },
+  {
+   "id": 62,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "clara.mueller@gmail.com"
+   ]
+  },
+  {
+   "id": 63,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 1804551"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/06572a96.md",
+   "line": 18,
+   "whole_line": "- Added API example: Google Drive (thanks to @tanaydin)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 63,
+   "value": "laurenquinn5924",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 387,
+   "whole_line": "- LinkedIn API: Fixed an error if a user did not specify education on LinkedIn",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 414,
+   "whole_line": "- Added LinkedIn authentication and API example",
+   "source": "creddata"
+  },
+  {
+   "file": "_/782628b4.js",
+   "line": 5,
+   "whole_line": "const passport = require('passport');",
+   "source": "creddata"
+  },
+  {
+   "file": "_/782628b4.js",
+   "line": 26,
+   "whole_line": "        pass: process.env.SMTP_PASSWORD",
+   "source": "creddata"
+  },
+  {
+   "file": "_/782628b4.js",
+   "line": 73,
+   "whole_line": "  if (validator.isEmpty(req.body.password)) validationErrors.push({ msg: 'Password cannot be blank.' });",
+   "source": "creddata"
+  },
+  {
+   "file": "_/782628b4.js",
+   "line": 81,
+   "whole_line": "  passport.authenticate('local', (err, user, info) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/782628b4.js",
+   "line": 139,
+   "whole_line": "    password: req.body.password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/782628b4.js",
+   "line": 210,
+   "whole_line": "exports.postUpdatePassword = (req, res, next) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/782628b4.js",
+   "line": 222,
+   "whole_line": "    user.password = req.body.password;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/782628b4.js",
+   "line": 293,
+   "value": "req.params.token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/782628b4.js",
+   "line": 424,
+   "value": "req.params.token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 5,
+   "whole_line": "SESSION_SECRET=Your Session Secret goes here",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 11,
+   "whole_line": "SMTP_PASSWORD=none",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 13,
+   "whole_line": "SENDGRID_API_KEY=hdgfadsfahg---apikey---hdgfadsfahg",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 86,
+   "whole_line": "ALPHA_VANTAGE_KEY=api-key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 18,
+   "value": "LEDGER_SECRET_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 29,
+   "value": "pbkdf2_sha256",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 33,
+   "value": "~/.ssh/id_ed25519",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 43,
+   "value": "secret/data/pinegrid/payments/prod",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 52,
+   "value": "X-Auth-Token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 56,
+   "value": "secret/data/pinegrid/etl/staging",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 60,
+   "value": "crm-oauth-client",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 69,
+   "value": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 71,
+   "value": "reports-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 74,
+   "value": "AyM1SysPpbyDfgZld3umj1qzKObwVMkoqQ-EstJQLr_T-1qS0gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr1Z9CAow",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3046da0.example",
+   "line": 78,
+   "value": "X-Api-Key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 98,
+   "value": "Facebook",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 158,
+   "whole_line": "to obtain appropriate credentials: Client ID, Client Secret, API Key, or",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 559,
+   "value": "var token = _.find(req.user.tokens, { kind: 'twitter' });",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 1319,
+   "whole_line": "- Use the command `heroku config:set KEY=val` to set the different environment variables (KEY=val) for your application (i.e.  `heroku config:set BASE_URL=[heroku App Name].herokuapp.com` or `heroku config:set MONGODB_URI=mongodb://dbuser:<password>@cluster0-shard-00-00-sdf32.mongodb.net:27017,cluster0-shard-00-01-sdf32.mongodb.net:27017/<dbname>?ssl=true&retryWrites=true&w=majority` (see Hosted MongoDB Atlas below), etc.)  Make sure to set the environment variables for SENDGRID_USER, SENDGRID_PASSWORD, and any other API that you are using as well.",
+   "source": "creddata"
+  },
+  {
+   "file": "api/02c60692.pug",
+   "line": 158,
+   "whole_line": "  script(async defer src=`https://maps.googleapis.com/maps/api/js?key=${google_map_api_key}&callback=initMap`)",
+   "source": "creddata"
+  },
+  {
+   "file": "api/96080942.pug",
+   "line": 27,
+   "whole_line": "    data-key=publishableKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 35,
+   "whole_line": "  const token = await req.user.tokens.find((token) => token.kind === 'foursquare');",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 40,
+   "whole_line": "    axios.get(`https://api.foursquare.com/v2/venues/trending?ll=40.7222756,-74.0022724&limit=50&oauth_token=${token.accessToken}&v=20140806`),",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 65,
+   "whole_line": "  const token = req.user.tokens.find((token) => token.kind === 'tumblr');",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 67,
+   "whole_line": "    consumer_key: process.env.TUMBLR_KEY,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 68,
+   "whole_line": "    consumer_secret: process.env.TUMBLR_SECRET,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 87,
+   "whole_line": "  const token = req.user.tokens.find((token) => token.kind === 'facebook');",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 138,
+   "whole_line": "  const token = req.user.tokens.find((token) => token.kind === 'quickbooks');",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 157,
+   "whole_line": "  axios.get(`http://api.nytimes.com/svc/books/v2/lists?list-name=young-adult&api-key=${apiKey}`)",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 259,
+   "whole_line": "  const token = req.user.tokens.find((token) => token.kind === 'twitter');",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 261,
+   "whole_line": "    consumer_key: process.env.TWITTER_KEY,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 262,
+   "whole_line": "    consumer_secret: process.env.TWITTER_SECRET,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 294,
+   "whole_line": "  const token = req.user.tokens.find((token) => token.kind === 'twitter');",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 460,
+   "whole_line": "  const token = req.user.tokens.find((token) => token.kind === 'twitch');",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 524,
+   "whole_line": "  const token = req.user.tokens.find((token) => token.kind === 'instagram');",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 685,
+   "whole_line": "  const token = req.user.tokens.find((token) => token.kind === 'pinterest');",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 712,
+   "whole_line": "  const token = req.user.tokens.find((token) => token.kind === 'pinterest');",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 759,
+   "whole_line": "  const token = req.user.tokens.find((token) => token.kind === 'google');",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f63d3cf7.js",
+   "line": 784,
+   "whole_line": "  const token = req.user.tokens.find((token) => token.kind === 'google');",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 17,
+   "whole_line": "const passport = require('passport');",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 189,
+   "whole_line": "app.get('/auth/snapchat', passport.authenticate('snapchat'));",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 190,
+   "whole_line": "app.get('/auth/snapchat/callback', passport.authenticate('snapchat', { failureRedirect: '/login' }), (req, res) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 193,
+   "whole_line": "app.get('/auth/facebook', passport.authenticate('facebook', { scope: ['email', 'public_profile'] }));",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 194,
+   "whole_line": "app.get('/auth/facebook/callback', passport.authenticate('facebook', { failureRedirect: '/login' }), (req, res) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 197,
+   "whole_line": "app.get('/auth/github', passport.authenticate('github'));",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 198,
+   "whole_line": "app.get('/auth/github/callback', passport.authenticate('github', { failureRedirect: '/login' }), (req, res) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 202,
+   "whole_line": "app.get('/auth/google/callback', passport.authenticate('google', { failureRedirect: '/login' }), (req, res) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 209,
+   "whole_line": "app.get('/auth/linkedin', passport.authenticate('linkedin', { state: 'SOME STATE' }));",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 210,
+   "whole_line": "app.get('/auth/linkedin/callback', passport.authenticate('linkedin', { failureRedirect: '/login' }), (req, res) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 221,
+   "whole_line": "app.get('/auth/foursquare', passport.authorize('foursquare'));",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 222,
+   "whole_line": "app.get('/auth/foursquare/callback', passport.authorize('foursquare', { failureRedirect: '/api' }), (req, res) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 229,
+   "whole_line": "app.get('/auth/steam', passport.authorize('openid', { state: 'SOME STATE' }));",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 230,
+   "whole_line": "app.get('/auth/steam/callback', passport.authorize('openid', { failureRedirect: '/api' }), (req, res) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 233,
+   "whole_line": "app.get('/auth/pinterest', passport.authorize('pinterest', { scope: 'read_public write_public' }));",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 234,
+   "whole_line": "app.get('/auth/pinterest/callback', passport.authorize('pinterest', { failureRedirect: '/login' }), (req, res) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 237,
+   "whole_line": "app.get('/auth/quickbooks', passport.authorize('quickbooks', { scope: ['com.intuit.quickbooks.accounting'], state: 'SOME STATE' }));",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e07d531a.js",
+   "line": 238,
+   "whole_line": "app.get('/auth/quickbooks/callback', passport.authorize('quickbooks', { failureRedirect: '/login' }), (req, res) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 1,
+   "whole_line": "const passport = require('passport');",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 14,
+   "whole_line": "const { OAuthStrategy } = require('passport-oauth');",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 15,
+   "whole_line": "const { OAuth2Strategy } = require('passport-oauth');",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 34,
+   "whole_line": "passport.use(new LocalStrategy({ usernameField: 'email' }, (email, password, done) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 89,
+   "whole_line": "          user.tokens.push({ kind: 'snapchat', accessToken });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 111,
+   "whole_line": "      user.tokens.push({ kind: 'snapchat', accessToken });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 141,
+   "whole_line": "          user.tokens.push({ kind: 'facebook', accessToken });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 167,
+   "whole_line": "          user.tokens.push({ kind: 'facebook', accessToken });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 245,
+   "whole_line": "  consumerKey: process.env.TWITTER_KEY,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 246,
+   "whole_line": "  consumerSecret: process.env.TWITTER_SECRET,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 260,
+   "whole_line": "          user.tokens.push({ kind: 'twitter', accessToken, tokenSecret });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 284,
+   "whole_line": "      user.tokens.push({ kind: 'twitter', accessToken, tokenSecret });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 385,
+   "whole_line": "          user.tokens.push({ kind: 'linkedin', accessToken });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 410,
+   "whole_line": "          user.tokens.push({ kind: 'linkedin', accessToken });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 442,
+   "whole_line": "          user.tokens.push({ kind: 'instagram', accessToken });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 461,
+   "whole_line": "      user.tokens.push({ kind: 'instagram', accessToken });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 554,
+   "whole_line": "  consumerKey: process.env.TUMBLR_KEY,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 555,
+   "whole_line": "  consumerSecret: process.env.TUMBLR_SECRET,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 562,
+   "whole_line": "    user.tokens.push({ kind: 'tumblr', accessToken: token, tokenSecret });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 572,
+   "whole_line": "passport.use('foursquare', new OAuth2Strategy({",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 614,
+   "whole_line": "          user.tokens.push({ kind: 'steam', accessToken: steamId });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 638,
+   "whole_line": "        user.tokens.push({ kind: 'steam', accessToken: steamId });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 653,
+   "whole_line": "passport.use('pinterest', new OAuth2Strategy({",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 664,
+   "whole_line": "    user.tokens.push({ kind: 'pinterest', accessToken });",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/fa60852f.js",
+   "line": 688,
+   "whole_line": "        if (tokenObject.kind === 'quickbooks') {",
+   "source": "creddata"
+  },
+  {
+   "file": "model/dd22ac78.js",
+   "line": 7,
+   "whole_line": "  password: String,",
+   "source": "creddata"
+  },
+  {
+   "file": "model/dd22ac78.js",
+   "line": 9,
+   "value": "Date",
+   "source": "creddata"
+  },
+  {
+   "file": "model/dd22ac78.js",
+   "line": 44,
+   "whole_line": "      user.password = hash;",
+   "source": "creddata"
+  },
+  {
+   "file": "model/dd22ac78.js",
+   "line": 53,
+   "whole_line": "userSchema.methods.comparePassword = function comparePassword(candidatePassword, cb) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d5b8342a.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "billing@brightloop-corp.de"
+  },
+  {
+   "file": "test/d5b8342a.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "careers@brightloop-corp.de"
+  },
+  {
+   "file": "test/d5b8342a.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0143"
+  },
+  {
+   "file": "test/d5b8342a.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "test/d5b8342a.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "test/d5b8342a.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "test/d5b8342a.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "test/d5b8342a.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "test/51ab3029.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "6PYKNB6E6DLPNDCTGM6OT3K8HZ"
+  },
+  {
+   "file": "test/51ab3029.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "aa9c89a1-cfad-44ce-8112-5c93d1d29b98"
+  },
+  {
+   "file": "test/51ab3029.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sentry.io"
+  },
+  {
+   "file": "test/51ab3029.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/57105b04.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Rile2025"
+  },
+  {
+   "file": "test/57105b04.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Owd2027"
+  },
+  {
+   "file": "_/6238bfb3.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "_/6238bfb3.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "user@example.com"
+  },
+  {
+   "file": "_/6238bfb3.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "${DB_PASSWORD}"
+  },
+  {
+   "file": "_/baa7b974.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "661d4715275a7401e4b1cd976517d5ddd925a17fca77207069846171e4b57c5b"
+  },
+  {
+   "file": "test/be776fbc.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:f6ff3700770806ab0f31d80b978592c3601c5e705b9b16b95abc3161fe0fd107"
+  },
+  {
+   "file": "test/be776fbc.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "d179130885a1ef876b7f4e89f6724e058cd27ed3"
+  },
+  {
+   "file": "test/be776fbc.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<password>"
+  },
+  {
+   "file": "test/be776fbc.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "localhost"
+  },
+  {
+   "file": "test/be776fbc.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "4.7.21"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "files.datafjord.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "185.66.209.153"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.helix.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.helix.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "shop.helix.net"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Eva Lange"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "shop.helix.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.datafjord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "185.66.209.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.helix.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Eva Lange"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "eva.lange@helix.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

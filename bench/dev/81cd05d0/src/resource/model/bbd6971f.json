@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2017-11-01",
+    "endpointPrefix":"eks",
+    "jsonVersion":"1.1",
+    "protocol":"rest-json",
+    "serviceAbbreviation":"Amazon EKS",
+    "serviceFullName":"Amazon Elastic Kubernetes Service",
+    "serviceId":"EKS",
+    "signatureVersion":"v4",
+    "signingName":"eks",
+    "uid":"eks-2017-11-01"
+  },
+  "operations":{
+    "AssociateEncryptionConfig":{
+      "name":"AssociateEncryptionConfig",
+      "http":{
+        "method":"POST",
+        "requestUri":"/clusters/{name}/encryption-config/associate"
+      },
+      "input":{"shape":"AssociateEncryptionConfigRequest"},
+      "output":{"shape":"AssociateEncryptionConfigResponse"},
+      "errors":[
+        {"shape":"InvalidParameterException"},
+        {"shape":"ClientException"},
+        {"shape":"ServerException"},
+        {"shape":"ResourceInUseException"},
+        {"shape":"ResourceNotFoundException"},

@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2019-01-25",
+    "endpointPrefix":"appmesh",
+    "jsonVersion":"1.1",
+    "protocol":"rest-json",
+    "serviceFullName":"AWS App Mesh",
+    "serviceId":"App Mesh",
+    "signatureVersion":"v4",
+    "signingName":"appmesh",
+    "uid":"appmesh-2019-01-25"
+  },
+  "operations":{
+    "CreateGatewayRoute":{
+      "name":"CreateGatewayRoute",
+      "http":{
+        "method":"PUT",
+        "requestUri":"/v20190125/meshes/{meshName}/virtualGateway/{virtualGatewayName}/gatewayRoutes",
+        "responseCode":200
+      },
+      "input":{"shape":"CreateGatewayRouteInput"},
+      "output":{"shape":"CreateGatewayRouteOutput"},
+      "errors":[
+        {"shape":"NotFoundException"},
+        {"shape":"BadRequestException"},
+        {"shape":"ConflictException"},
+        {"shape":"TooManyRequestsException"},
+        {"shape":"ForbiddenException"},

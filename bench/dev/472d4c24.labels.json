@@ -1,0 +1,2433 @@
+{
+ "repo": "472d4c24",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "lib/46b38b01.rb",
+   "line": 215,
+   "start": 48,
+   "end": 68,
+   "category": "Credential",
+   "mutation": "none",
+   "forms": [
+    "9QrRS2BgMRqzFDloPPxs"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/1b2c0fd3.rb",
+   "line": 49,
+   "start": 68,
+   "end": 78,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "rhmnsnjvnu"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/3d3db150.rb",
+   "line": 17,
+   "start": 14,
+   "end": 54,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "19cbcfba3bac4823daebe262fb2fd353c6594684"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/3d3db150.rb",
+   "line": 28,
+   "start": 14,
+   "end": 54,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "d8ac9afaf815f22177d1f16fb1f5551efa2d818a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/3d3db150.rb",
+   "line": 39,
+   "start": 14,
+   "end": 54,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "46959eba18b3bb740d27828fd0e2e11b8c0c07dc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/3d3db150.rb",
+   "line": 47,
+   "start": 14,
+   "end": 54,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "27579ede891af66bf3c7810d344db49effc62a11"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/3f5ec77f.rb",
+   "line": 10,
+   "start": 66,
+   "end": 74,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "aqpxuase"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/3f5ec77f.rb",
+   "line": 15,
+   "start": 68,
+   "end": 74,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "nuwho5"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/3f5ec77f.rb",
+   "line": 22,
+   "start": 59,
+   "end": 64,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ywuem"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "test/3f5ec77f.rb",
+   "line": 25,
+   "start": 50,
+   "end": 58,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "mvrklzhp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "test/4beb1f7a.rb",
+   "line": 32,
+   "start": 31,
+   "end": 39,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "mptnclbo"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "test/4beb1f7a.rb",
+   "line": 33,
+   "start": 32,
+   "end": 40,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "vszltxca"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "test/4beb1f7a.rb",
+   "line": 45,
+   "start": 19,
+   "end": 31,
+   "category": "Password",
+   "mutation": "b64",
+   "forms": [
+    "bGljemNxaXI=",
+    "liczcqir"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "test/4beb1f7a.rb",
+   "line": 47,
+   "start": 22,
+   "end": 30,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "cfzkhnct"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "test/4beb1f7a.rb",
+   "line": 53,
+   "start": 55,
+   "end": 64,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "hnvqpsns8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "test/4beb1f7a.rb",
+   "line": 55,
+   "start": 50,
+   "end": 59,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "pzpbtelx1"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 17,
+   "file": "test/4beb1f7a.rb",
+   "line": 69,
+   "start": 19,
+   "end": 28,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "vhlcjzit1"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 18,
+   "file": "test/4beb1f7a.rb",
+   "line": 71,
+   "start": 32,
+   "end": 41,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ehbwjxtw2"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 19,
+   "file": "test/4beb1f7a.rb",
+   "line": 82,
+   "start": 48,
+   "end": 57,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "ubwyscjlv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 20,
+   "file": "test/4beb1f7a.rb",
+   "line": 83,
+   "start": 19,
+   "end": 28,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "cgbtelejy"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 21,
+   "file": "test/4beb1f7a.rb",
+   "line": 94,
+   "start": 29,
+   "end": 38,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "xlbidwlkj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 22,
+   "file": "test/4beb1f7a.rb",
+   "line": 96,
+   "start": 35,
+   "end": 44,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "vrnzolbwq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 23,
+   "file": "test/4beb1f7a.rb",
+   "line": 110,
+   "start": 19,
+   "end": 28,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "kluvqhzev"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 24,
+   "file": "test/4beb1f7a.rb",
+   "line": 111,
+   "start": 21,
+   "end": 33,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "dmtqZWhwbmxo",
+    "vkjehpnlh"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 25,
+   "file": "test/4beb1f7a.rb",
+   "line": 138,
+   "start": 19,
+   "end": 25,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "dmndii"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 26,
+   "file": "test/4beb1f7a.rb",
+   "line": 139,
+   "start": 32,
+   "end": 38,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "jloets"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 27,
+   "file": "test/4beb1f7a.rb",
+   "line": 153,
+   "start": 26,
+   "end": 35,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "ghpgabqks"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 28,
+   "file": "test/4beb1f7a.rb",
+   "line": 154,
+   "start": 53,
+   "end": 62,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "cltljyglt"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 29,
+   "file": "test/4beb1f7a.rb",
+   "line": 163,
+   "start": 32,
+   "end": 41,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "qkvzwialf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 30,
+   "file": "test/4beb1f7a.rb",
+   "line": 164,
+   "start": 19,
+   "end": 28,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "fvpepqagk"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 31,
+   "file": "test/652824a6.rb",
+   "line": 18,
+   "start": 16,
+   "end": 56,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "7b0d04f84530197cdaa6a5df9d56f535a4c10496"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 32,
+   "file": "test/652824a6.rb",
+   "line": 29,
+   "start": 28,
+   "end": 68,
+   "category": "Salt",
+   "mutation": "rename",
+   "forms": [
+    "d107ddf91a310f234c4e2e2f780d0e565392277e"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 33,
+   "file": "test/652824a6.rb",
+   "line": 40,
+   "start": 16,
+   "end": 56,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "63ed1af09696c5d4f785187e67cf471a8fd5a798"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 34,
+   "file": "test/652824a6.rb",
+   "line": 48,
+   "start": 16,
+   "end": 56,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "ef6bf4b9b326f40a20689c79e97c529006ef366f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 35,
+   "file": "test/65df2bf5.rb",
+   "line": 17,
+   "start": 14,
+   "end": 54,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "52bca836bfa64c3b1e273792f58eaf37ea4b2e80"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 36,
+   "file": "test/65df2bf5.rb",
+   "line": 28,
+   "start": 14,
+   "end": 54,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "fb16980dbf72e9c382bfb31cb4b84be9fe0fc610"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 37,
+   "file": "test/65df2bf5.rb",
+   "line": 38,
+   "start": 32,
+   "end": 72,
+   "category": "Salt",
+   "mutation": "comment",
+   "forms": [
+    "b6f9e2cafc98e856bf47749b19d1cb39bc9ebb30"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 38,
+   "file": "test/65df2bf5.rb",
+   "line": 47,
+   "start": 14,
+   "end": 54,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "6f6c851c1859a21527807774a8ebf6cba6562d2c"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 39,
+   "file": "test/7b88edb5.rb",
+   "line": 30,
+   "start": 66,
+   "end": 74,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "lqgiqlyk"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 40,
+   "file": "test/7b88edb5.rb",
+   "line": 38,
+   "start": 66,
+   "end": 103,
+   "category": "Password",
+   "mutation": "charcodes",
+   "forms": [
+    "114, 121, 117, 106, 105, 97, 113, 122",
+    "ryujiaqz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 41,
+   "file": "test/7b88edb5.rb",
+   "line": 51,
+   "start": 63,
+   "end": 75,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "snsoompgedf4"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 42,
+   "file": "test/7b88edb5.rb",
+   "line": 57,
+   "start": 63,
+   "end": 75,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "zbrfnvhanpa0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 43,
+   "file": "test/7b88edb5.rb",
+   "line": 71,
+   "start": 65,
+   "end": 81,
+   "category": "Password",
+   "mutation": "b64",
+   "forms": [
+    "YXljZXlzY2Rkcmgy",
+    "ayceyscddrh2"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 44,
+   "file": "test/7b88edb5.rb",
+   "line": 80,
+   "start": 63,
+   "end": 71,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "tackdhzb"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 45,
+   "file": "test/7b88edb5.rb",
+   "line": 93,
+   "start": 65,
+   "end": 77,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "gegjycaarna8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 46,
+   "file": "test/7b88edb5.rb",
+   "line": 102,
+   "start": 67,
+   "end": 79,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "ppbwvpchhhb2"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 47,
+   "file": "test/9d64172b.rb",
+   "line": 75,
+   "start": 74,
+   "end": 82,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "ktrmjfxe"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 48,
+   "file": "test/9e58a10c.rb",
+   "line": 18,
+   "start": 22,
+   "end": 62,
+   "category": "Salt",
+   "mutation": "rename",
+   "forms": [
+    "2749de232ab29096191c65039b09ae56f60116ff"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 49,
+   "file": "test/9e58a10c.rb",
+   "line": 29,
+   "start": 16,
+   "end": 56,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "2bc7c442739eaa7b01f7948e743c4cad19caf515"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 50,
+   "file": "test/9e58a10c.rb",
+   "line": 39,
+   "start": 21,
+   "end": 61,
+   "category": "Salt",
+   "mutation": "rename",
+   "forms": [
+    "96eba2159b3849426080500054d1ffed105d7a4a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 51,
+   "file": "test/9e58a10c.rb",
+   "line": 47,
+   "start": 16,
+   "end": 56,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "1f05df6481c633817c734310f03d2d8cd155419b"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 52,
+   "file": "test/bea2d623.rb",
+   "line": 17,
+   "start": 22,
+   "end": 62,
+   "category": "Salt",
+   "mutation": "rename",
+   "forms": [
+    "4686b4013ad23ae69ce7ecaba0bd688e59f05ad9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 53,
+   "file": "test/bea2d623.rb",
+   "line": 27,
+   "start": 16,
+   "end": 56,
+   "category": "Salt",
+   "mutation": "rename",
+   "forms": [
+    "828fedf1affedde9489fde35847bbc194faea067"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 54,
+   "file": "test/bea2d623.rb",
+   "line": 36,
+   "start": 14,
+   "end": 54,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "8509f46d91cbd0f269118a685b14aa8daf80b2a1"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 55,
+   "file": "test/bea2d623.rb",
+   "line": 45,
+   "start": 29,
+   "end": 69,
+   "category": "Salt",
+   "mutation": "stack",
+   "forms": [
+    "d38335868ac67e16d0c540a1db0a98a3f3d58642"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 56,
+   "file": "test/d17da2d4.rb",
+   "line": 114,
+   "start": 65,
+   "end": 75,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "nndborwyfa"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 57,
+   "file": "test/e246815b.rb",
+   "line": 18,
+   "start": 16,
+   "end": 56,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "df9e3ca52325c5c3c8a1f45839ebab6f280f3ffa"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 58,
+   "file": "test/e246815b.rb",
+   "line": 29,
+   "start": 16,
+   "end": 72,
+   "category": "Salt",
+   "mutation": "b64",
+   "forms": [
+    "YjZkZjY0NjBhZDJlNjdkODEzYzlkZWNmM2VmMTcxNjdlYTcwNWZhNA==",
+    "b6df6460ad2e67d813c9decf3ef17167ea705fa4"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 59,
+   "file": "test/e246815b.rb",
+   "line": 39,
+   "start": 16,
+   "end": 56,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "74cb8c599694706cc0a2d076d080fd6eca30acf6"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 60,
+   "file": "test/e246815b.rb",
+   "line": 47,
+   "start": 28,
+   "end": 68,
+   "category": "Salt",
+   "mutation": "rename",
+   "forms": [
+    "5de3d99c7b4dc37d7a353799f081540e23a25c1a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 61,
+   "file": "test/f4847d5e.rb",
+   "line": 18,
+   "start": 16,
+   "end": 56,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "c7e490f321571f8e9f97e7847fc5a8c44d75490b"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 62,
+   "file": "test/f4847d5e.rb",
+   "line": 30,
+   "start": 16,
+   "end": 56,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "f3a1b61d7135d2312c9f58b0ad9c61bbe698ea45"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 63,
+   "file": "test/f4847d5e.rb",
+   "line": 41,
+   "start": 24,
+   "end": 64,
+   "category": "Salt",
+   "mutation": "rename",
+   "forms": [
+    "3736493b95907633f985b78f1fe85fa3abac659f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 64,
+   "file": "test/f4847d5e.rb",
+   "line": 49,
+   "start": 16,
+   "end": 56,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "079f898ba6ce742c3575952628b28e6a423e0737"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 65,
+   "file": "test/faff1af3.yml",
+   "line": 44,
+   "start": 24,
+   "end": 32,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "gdgpuowz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 66,
+   "file": "test/faff1af3.yml",
+   "line": 98,
+   "start": 21,
+   "end": 29,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "wgyrzukr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 67,
+   "file": "test/faff1af3.yml",
+   "line": 131,
+   "start": 33,
+   "end": 41,
+   "category": "Password:Auth",
+   "mutation": "none",
+   "forms": [
+    "zhgttuxt"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 68,
+   "file": "test/ff8c441e.rb",
+   "line": 17,
+   "start": 14,
+   "end": 178,
+   "category": "Salt",
+   "mutation": "charcodes",
+   "forms": [
+    "53, 101, 48, 101, 49, 51, 50, 57, 99, 99, 54, 53, 57, 50, 54, 52, 98, 98, 48, 57, 52, 48, 55, 56, 100, 55, 98, 100, 56, 54, 50, 54, 97, 98, 101, 52, 100, 51, 54, 99",
+    "5e0e1329cc659264bb094078d7bd8626abe4d36c"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 69,
+   "file": "test/ff8c441e.rb",
+   "line": 28,
+   "start": 14,
+   "end": 54,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "38d2ad0fe387db52bedb130ee32d565e1b1ac67a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 70,
+   "file": "test/ff8c441e.rb",
+   "line": 38,
+   "start": 22,
+   "end": 62,
+   "category": "Salt",
+   "mutation": "rename",
+   "forms": [
+    "45ccf05b378b29415acc97597fd62ce8a4f45fba"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 71,
+   "file": "test/ff8c441e.rb",
+   "line": 46,
+   "start": 14,
+   "end": 54,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "8d6f282e480693a47fc82eac222a99cc4fda2a25"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 72,
+   "file": "test/fixture/267046bc.yml",
+   "line": 6,
+   "start": 21,
+   "end": 149,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "cd624ee4c9b45e81821d70828109e3cc8a88787a8a99e9a834fafbd9614ff3667ac1ecce6cd35c250b0dd2a2a89953d14d65e4e39d267d9b7ed86384f8522d82"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 73,
+   "file": "test/fixture/267046bc.yml",
+   "line": 15,
+   "start": 21,
+   "end": 149,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "3fe9f4e1504f85728b6a5483798a7c32523e799368258db1afa9271b563a741a86c0d22ccd8527822710c92553ceccbc2b6021075d5ada24bf1dc4ca8f40d8ec"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 74,
+   "file": "test/fixture/3bc16105.yml",
+   "line": 5,
+   "start": 21,
+   "end": 149,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "d79c256d6190594dcdff1039f1af457c076bdf74f22d4ccdb660e9f4bf9f63f09cf2707c9eaec88f154c5bffc127738fe79e56af8239bffaecda262aa7f8c14f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 75,
+   "file": "test/fixture/e9f27c74.yml",
+   "line": 12,
+   "start": 25,
+   "end": 153,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "36e716272be3c3e06a9e164dcca950e7510d09386bdad2cdac2b2ce9eedcb577d602f737657ebd72347f9f4a9a5d55764802053c7a700cf63cb629f32daf3f55"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 76,
+   "file": "test/fixture/e9f27c74.yml",
+   "line": 25,
+   "start": 16,
+   "end": 144,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "f68ece2f5ff7c0cccda5ab7e2abdf55c3335be0638b852782de43d63eb17844aa97aa4cf1e4d248fa68b1be792f3b92e8c1ab68f29220b271661dd8a1b33b318"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 77,
+   "file": "test/fixture/e9f27c74.yml",
+   "line": 37,
+   "start": 21,
+   "end": 149,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "6e780e8052b2437190f373e0aa7e825537cdc3233d287f79110375f5c75d1f469a98b91fa6fd15c39a6c37040abf98fc59a432c79989aa43074a18fc497b7d0d"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 78,
+   "file": "test/3a020837.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Laura Zimmermann"
+   ]
+  },
+  {
+   "id": 79,
+   "file": "test/3a020837.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben.weber@acme-corp.de"
+   ]
+  },
+  {
+   "id": 80,
+   "file": "test/3a020837.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 3618 3844"
+   ]
+  },
+  {
+   "id": 81,
+   "file": "test/3a020837.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lukas Hoffmann"
+   ]
+  },
+  {
+   "id": 82,
+   "file": "test/3a020837.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sarah.lange [at] acme-corp [dot] de"
+   ]
+  },
+  {
+   "id": 83,
+   "file": "test/3a020837.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE91958179316516094897"
+   ]
+  },
+  {
+   "id": 84,
+   "file": "test/3a020837.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sofia Wolf"
+   ]
+  },
+  {
+   "id": 85,
+   "file": "test/3a020837.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Rosenheimer Str. 51, 90723 Augsburg"
+   ]
+  },
+  {
+   "id": 86,
+   "file": "test/3a020837.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "85.254.104.41"
+   ]
+  },
+  {
+   "id": 87,
+   "file": "_/013b9748.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.85.194.45"
+   ]
+  },
+  {
+   "id": 88,
+   "file": "_/013b9748.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "argocd.pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 89,
+   "file": "_/013b9748.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TCMJSTBHD/B9U18CKM7MV/kkkkEAO5D6eq6IEHDBmAbO6U"
+   ]
+  },
+  {
+   "id": 90,
+   "file": "_/834285d6.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "M\u00fcnchenwagner07!"
+   ]
+  },
+  {
+   "id": 91,
+   "file": "test/6fc65c63.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "bHVmdC1tZWVyLWRpc3RyaWJ1dGU=",
+    "luft-meer-distribute"
+   ]
+  },
+  {
+   "id": 92,
+   "file": "test/6fc65c63.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV83cFBQRFIwbE5pc29RU1lPQmxWWEtmbkQ=",
+    "sk_live_7pPPDR0lNisoQSYOBlVXKfnD"
+   ]
+  },
+  {
+   "id": 93,
+   "file": "test/6fc65c63.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-prod.avmvipuhe16b.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 94,
+   "file": "other/dc5dceb6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.mfcnwp.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 95,
+   "file": "other/dc5dceb6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Muenche",
+    "Muenchen&2026",
+    "n&2026"
+   ]
+  },
+  {
+   "id": 96,
+   "file": "other/97bc6086.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-prod.kvuwltb44ol6.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 97,
+   "file": "other/97bc6086.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_KYjVbngxnHdPg6id0QVRLLxuDCTsKZnOHZqG"
+   ]
+  },
+  {
+   "id": 98,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.kelpie.systems"
+   ]
+  },
+  {
+   "id": 99,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.kelpie.systems"
+   ]
+  },
+  {
+   "id": 100,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.kelpie.systems"
+   ]
+  },
+  {
+   "id": 101,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.132.195.0/24"
+   ]
+  },
+  {
+   "id": 102,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.132.195.18"
+   ]
+  },
+  {
+   "id": 103,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.kelpie.systems"
+   ]
+  },
+  {
+   "id": 104,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.kelpie.systems"
+   ]
+  },
+  {
+   "id": 105,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.kelpie.systems"
+   ]
+  },
+  {
+   "id": 106,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.kelpie.systems"
+   ]
+  },
+  {
+   "id": 107,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.132.195.245"
+   ]
+  },
+  {
+   "id": 108,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.kelpie.systems"
+   ]
+  },
+  {
+   "id": 109,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Lea Schwarz"
+   ]
+  },
+  {
+   "id": 110,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "lea.schwarz@web.de"
+   ]
+  },
+  {
+   "id": 111,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 2795796"
+   ]
+  },
+  {
+   "id": 112,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Clara Koch"
+   ]
+  },
+  {
+   "id": 113,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "clara.koch@gmx.de"
+   ]
+  },
+  {
+   "id": 114,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 2196019"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/b3356305.md",
+   "line": 312,
+   "whole_line": "    params.require(:user_session).permit(:login, :password, :remember_me)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 375,
+   "whole_line": "  <%= f.password_field :password %><br />",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3310bdc3.rb",
+   "line": 21,
+   "whole_line": "        # * <tt>Default:</tt> :crypted_password, :encrypted_password, :password_hash, or :pw_hash",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3310bdc3.rb",
+   "line": 40,
+   "value": "pw_salt",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3310bdc3.rb",
+   "line": 46,
+   "whole_line": "            first_column_to_exist(nil, :password_salt, :pw_salt, :salt)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3310bdc3.rb",
+   "line": 78,
+   "whole_line": "        alias ignore_blank_passwords= ignore_blank_passwords",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3310bdc3.rb",
+   "line": 80,
+   "whole_line": "        # When calling valid_password?(\"some pass\") do you want to check that password",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3310bdc3.rb",
+   "line": 85,
+   "whole_line": "        #   u.valid_password?(\"old pass\")",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3310bdc3.rb",
+   "line": 195,
+   "whole_line": "          def password=(pass)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3310bdc3.rb",
+   "line": 198,
+   "whole_line": "              @password = pass",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3310bdc3.rb",
+   "line": 231,
+   "whole_line": "                  if transition_password?(index, encryptor, check_against_database)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3310bdc3.rb",
+   "line": 245,
+   "whole_line": "            self.password = friendly_token",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3310bdc3.rb",
+   "line": 246,
+   "whole_line": "            self.password_confirmation = friendly_token if self.class.require_password_confirmation",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3310bdc3.rb",
+   "line": 317,
+   "whole_line": "            self.password = attempted_password",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 415,
+   "value": ":persist_by_http_auth?",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 434,
+   "value": ":authenticating_with_password?",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 556,
+   "whole_line": "        alias cookie_key= cookie_key",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 796,
+   "whole_line": "        # With acts_as_authentic you get a :logged_in_timeout configuration",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 858,
+   "whole_line": "        alias params_key= params_key",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 866,
+   "whole_line": "          rw_config(:password_field, value, login_field && :password)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 868,
+   "whole_line": "        alias password_field= password_field",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 970,
+   "whole_line": "        # Should the cookie be set as secure?  If true, the cookie will only be sent over",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 1021,
+   "whole_line": "        alias session_key= session_key",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 1045,
+   "whole_line": "        # * <tt>Default:</tt> \"valid_password?\" defined in acts_as_authentic/password.rb",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 1048,
+   "whole_line": "          rw_config(:verify_password_method, value, \"valid_password?\")",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 1128,
+   "whole_line": "        self.credentials = args",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 1173,
+   "value": "<protected>",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 1195,
+   "whole_line": "      #   {:login => \"foo\", :password => \"bar\", :remember_me => true},",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 1208,
+   "whole_line": "      def credentials=(value)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 1329,
+   "whole_line": "        invalid_password == true",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 1469,
+   "whole_line": "      # If the cookie should be marked as secure (SSL only)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 1843,
+   "whole_line": "        if invalid_password? && attempted_record.respond_to?(:failed_login_count)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 2109,
+   "whole_line": "        compound_key = session_compound_key",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 2152,
+   "whole_line": "      # Verify the password, usually using `valid_password?` in",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46b38b01.rb",
+   "line": 2160,
+   "whole_line": "          self.invalid_password = true",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/9aa0f24e.rb",
+   "line": 23,
+   "whole_line": "      @persistence_token = persistence_token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/12b9f212.rb",
+   "line": 9,
+   "whole_line": "        UserSession.cookie_key = \"my_cookie_key\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d3db150.rb",
+   "line": 29,
+   "value": "/run/secrets/vault_password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4beb1f7a.rb",
+   "line": 46,
+   "value": "/run/secrets/reports_password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4beb1f7a.rb",
+   "line": 54,
+   "value": "0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4beb1f7a.rb",
+   "line": 56,
+   "value": "$2b$12$ja1ggPUxdVMYrYBlY8kqpZdV91xqSLJYmp5D16yUwOcd1/jffoHys",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4beb1f7a.rb",
+   "line": 70,
+   "value": "secret/data/quarzo/payments/prod",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4beb1f7a.rb",
+   "line": 72,
+   "value": "$2b$12$IYhuvCCEx0YWeph1MctCh0VlLTAxMdgWZep/iOc72RKD/46sGgZRV",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4beb1f7a.rb",
+   "line": 84,
+   "value": "0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4beb1f7a.rb",
+   "line": 95,
+   "value": "OKW5IW31ZY49MZNXI6LK",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4beb1f7a.rb",
+   "line": 112,
+   "value": "X-Hub-Signature-256",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4beb1f7a.rb",
+   "line": 165,
+   "value": "~/.ssh/id_ed25519",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 14,
+   "value": ":nope",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 24,
+   "value": ":nope",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 26,
+   "whole_line": "      User.password_salt_field :password_salt",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 72,
+   "whole_line": "      old_password_salt = u.password_salt",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 73,
+   "whole_line": "      old_crypted_password = u.crypted_password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 117,
+   "whole_line": "      refute ben.valid_password?(\"new pass\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 118,
+   "whole_line": "      assert ben.valid_password?(\"aaronrocks\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 130,
+   "whole_line": "      assert ben.valid_password?(\"new pass\", false)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 131,
+   "whole_line": "      refute ben.valid_password?(\"benrocks\", false)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 136,
+   "whole_line": "      old_crypted_password = ben.crypted_password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 137,
+   "whole_line": "      old_password_salt = ben.password_salt",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 162,
+   "whole_line": "      old_crypted_password = lumbergh.crypted_password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 190,
+   "whole_line": "        assert record.valid_password?(password_for(record))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5ff8e937.rb",
+   "line": 196,
+   "whole_line": "        assert record.valid_password?(password_for(record))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/652824a6.rb",
+   "line": 30,
+   "value": "argon2id",
+   "source": "creddata"
+  },
+  {
+   "file": "test/65df2bf5.rb",
+   "line": 39,
+   "value": "2025-05-23T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ba37813c.rb",
+   "line": 45,
+   "whole_line": "    password: ENV.fetch(\"AUTHLOGIC_DB_PASSWORD\", nil),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ba37813c.rb",
+   "line": 248,
+   "whole_line": "    def password_for(user)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ba37813c.rb",
+   "line": 259,
+   "whole_line": "    def http_basic_auth_for(user = nil)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ba37813c.rb",
+   "line": 262,
+   "whole_line": "        controller.http_password = password_for(user)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ba37813c.rb",
+   "line": 265,
+   "whole_line": "      controller.http_user = controller.http_password = controller.realm = nil",
+   "source": "creddata"
+  },
+  {
+   "file": "test/bea2d623.rb",
+   "line": 37,
+   "value": "ETL_AUTH_TOKEN",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d17da2d4.rb",
+   "line": 33,
+   "whole_line": "        UserSession.verify_password_method = \"my_login_method\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d17da2d4.rb",
+   "line": 37,
+   "whole_line": "        assert_equal \"valid_password?\", UserSession.verify_password_method",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d17da2d4.rb",
+   "line": 76,
+   "whole_line": "        UserSession.password_field = :saweet",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d17da2d4.rb",
+   "line": 81,
+   "whole_line": "        UserSession.password_field :password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d17da2d4.rb",
+   "line": 104,
+   "value": "<protected>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d8fe0072.rb",
+   "line": 40,
+   "value": "ABRA CADABRA",
+   "source": "creddata"
+  },
+  {
+   "file": "test/eeb0d149.rb",
+   "line": 18,
+   "whole_line": "      assert aaron.valid_password?(password_for(aaron))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/eeb0d149.rb",
+   "line": 23,
+   "whole_line": "      assert aaron.valid_password?(password_for(aaron))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/eeb0d149.rb",
+   "line": 37,
+   "whole_line": "      http_basic_auth_for(users(:zack)) { UserSession.find(:ziggity_zack) }",
+   "source": "creddata"
+  },
+  {
+   "file": "test/eeb0d149.rb",
+   "line": 51,
+   "whole_line": "      http_basic_auth_for(zack) { UserSession.find(:ziggity_zack) }",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f4847d5e.rb",
+   "line": 31,
+   "value": "dGhlIHNhbXBsZSBub25jZQ==",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faff1af3.yml",
+   "line": 32,
+   "whole_line": "          MYSQL_ALLOW_EMPTY_PASSWORD: yes",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faff1af3.yml",
+   "line": 117,
+   "whole_line": "          AUTHLOGIC_DB_NAME: authlogic",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faff1af3.yml",
+   "line": 118,
+   "whole_line": "          AUTHLOGIC_DB_USER: root",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faff1af3.yml",
+   "line": 119,
+   "whole_line": "          AUTHLOGIC_DB_HOST: 127.0.0.1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faff1af3.yml",
+   "line": 120,
+   "whole_line": "          AUTHLOGIC_DB_PORT: 3306",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faff1af3.yml",
+   "line": 127,
+   "whole_line": "          AUTHLOGIC_DB_NAME: authlogic",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faff1af3.yml",
+   "line": 128,
+   "whole_line": "          AUTHLOGIC_DB_USER: postgres",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faff1af3.yml",
+   "line": 129,
+   "whole_line": "          AUTHLOGIC_DB_HOST: 127.0.0.1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faff1af3.yml",
+   "line": 99,
+   "value": "2023-08-09T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/267046bc.yml",
+   "line": 5,
+   "whole_line": "  crypted_password: '<%= Employee.crypto_provider.encrypt(\"drewrocks\" + salt) %>'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/267046bc.yml",
+   "line": 14,
+   "value": "<%= Employee.crypto_provider.encrypt(\"jenniferocks\" + salt) %>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/267046bc.yml",
+   "line": 16,
+   "value": "secret/data/pinegrid/etl/staging",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/3bc16105.yml",
+   "line": 3,
+   "whole_line": "  crypted_password: <%= Authlogic::CryptoProviders::SCrypt.encrypt(\"lumberghrocks\") %>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/3bc16105.yml",
+   "line": 6,
+   "value": "2024-09-16T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/e9f27c74.yml",
+   "line": 2,
+   "whole_line": "# tested for valid_password?() it will transition their password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/e9f27c74.yml",
+   "line": 11,
+   "whole_line": "  crypted_password: <%= Authlogic::CryptoProviders::Sha512.encrypt(\"benrocks\" + salt) %>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/e9f27c74.yml",
+   "line": 26,
+   "value": "X-Hub-Signature-256",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3a020837.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "security@acme-corp.de"
+  },
+  {
+   "file": "test/3a020837.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "security@acme-corp.de"
+  },
+  {
+   "file": "test/3a020837.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 (555) 0146"
+  },
+  {
+   "file": "test/3a020837.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "test/3a020837.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "test/3a020837.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "test/3a020837.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "test/3a020837.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "_/013b9748.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "e6cf82679811abcc7a98"
+  },
+  {
+   "file": "_/013b9748.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "_/013b9748.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "143b6078408bbc46f2670cf893cdf3bf46756a0f"
+  },
+  {
+   "file": "_/834285d6.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "deny_rat"
+  },
+  {
+   "file": "_/834285d6.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "lacinia-minor-v2"
+  },
+  {
+   "file": "test/6fc65c63.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "fd7c87b"
+  },
+  {
+   "file": "test/6fc65c63.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "fbafcda37dd642abccf3baa92e3197c4e7091528a8d1cf509bae08a311f6dc02"
+  },
+  {
+   "file": "test/6fc65c63.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "test/6fc65c63.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/dc5dceb6.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "0e73916214477891d6430d96f0fba2af2586052c"
+  },
+  {
+   "file": "other/dc5dceb6.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "${DB_PASSWORD}"
+  },
+  {
+   "file": "other/dc5dceb6.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.github.com"
+  },
+  {
+   "file": "other/97bc6086.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "9.28.37"
+  },
+  {
+   "file": "other/97bc6086.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4.20.40"
+  },
+  {
+   "file": "other/97bc6086.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-5gv30zwz97KqK01e6HgPAs1R0XKPPMh8VRQp5t1ClzEmETKS/WhxHapfxMTzB/l/3OWhwB7wDQKk+agxYgwYEQ=="
+  },
+  {
+   "file": "other/97bc6086.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "7.15.25"
+  },
+  {
+   "file": "other/97bc6086.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-uDkFLlfQ/4JNpbuYxETQ9k+K0Kj/MKJaBwEpVyEbh4Obbn9lAGHz7ytDJpcQVQF72BTQDbBRx6+4/96cghgLwg=="
+  },
+  {
+   "file": "other/97bc6086.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "6.18.17"
+  },
+  {
+   "file": "other/97bc6086.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-7aXBnhe2T1DwJT+9Eg5aBUxNkKI32lqFmje6zNTDJYw0RsNyKiqYmmszYVYSep4ockBDzwpgZ018ri3kyET/MQ=="
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "sftp.logistik-nord.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "91.132.69.187"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.kelpie.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.kelpie.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "www.kelpie.systems"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Felix Wagner"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "www.kelpie.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.logistik-nord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "91.132.69.187"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.kelpie.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Felix Wagner"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "felix.wagner@kelpie.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

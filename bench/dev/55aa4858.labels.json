@@ -1,0 +1,492 @@
+{
+ "repo": "55aa4858",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "conf/app/7506d301.conf",
+   "line": 16,
+   "start": 11,
+   "end": 75,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "5ysdPI57a4L8UKmX8i5mexyu7V8xEEPEHjMKgnApW1YvBr7xQ0GRBot4VvARZRf7"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "conf/app/7506d301.conf",
+   "line": 171,
+   "start": 23,
+   "end": 27,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "zrfp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "resource/app/build/8214a561.conf",
+   "line": 16,
+   "start": 19,
+   "end": 83,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "2elvIO50n6U3YOwB7v3breve9R7iBTPMVzGYjxNaD3GtYl2dR4NVOui5XdYPIEg9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "resource/app/build/8214a561.conf",
+   "line": 171,
+   "start": 23,
+   "end": 27,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "utya"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "src/71a69b12.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "31303431646133336132636639336233363436343339353663666166353132323535653332336236373236386239316337666638313538636163336663333563",
+    "1041da33a2cf93b364643956cfaf512255e323b67268b91c7ff8158cac3fc35c"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/d61daaed.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-db-03.prod.brightloop-internal.net"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/d61daaed.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Donnergarten99?"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/d61daaed.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sommer#2013"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/32285d2c.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-prod.xeqese52g9vd.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/32285d2c.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "yTDO004cX3a99IleZ2i0or72fQb6Z3TG"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/c235adc7.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "dG9sZC5zbWFzaC5raWVs",
+    "told.smash.kiel"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/c235adc7.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9MdjFzVGdNNHFlQTFMWnhWVTY1dnFCU3E=",
+    "sk_live_Lv1sTgM4qeA1LZxVU65vqBSq"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/c235adc7.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing.nxyeyu.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/3164adf7.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.8xtv8bkotqtb.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/3164adf7.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u0441\u043e\u0431\u0430\u043a\u04309909!"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/3164adf7.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "Ja30N1PKijboJDCB4IcPOI6FlUHCLKX3"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/3164adf7.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "gjizlrj0wgv8fb2p3sxbovv31e5tzlsp"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "_/a83166e5.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-primary.quarzo.cloud"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/a83166e5.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_QdXOto7c09xJdSaumdKocAr6bk3grVEQAHzm"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/b3356305.md",
+   "line": 22,
+   "whole_line": "compile 'io.github.yedaxia:japidocs:1.4.4'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 33,
+   "value": "V1.0",
+   "source": "creddata"
+  },
+  {
+   "file": "api/caf97ccc.md",
+   "line": 1,
+   "whole_line": "> This documentation is generated by [JApiDocs](https://japidocs.agilestudio.cn/).",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/app/7506d301.conf",
+   "line": 46,
+   "whole_line": "# The cookies are not secured by default, only set it to true",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/0b5ca119.md",
+   "line": 22,
+   "whole_line": "compile 'io.github.yedaxia:japidocs:1.4.4'",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/0b5ca119.md",
+   "line": 33,
+   "value": "V1.0",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/285557ea.md",
+   "line": 22,
+   "whole_line": "compile 'io.github.yedaxia:japidocs:1.4.4'",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/285557ea.md",
+   "line": 33,
+   "value": "V1.0",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/app/build/8214a561.conf",
+   "line": 46,
+   "whole_line": "# The cookies are not secured by default, only set it to true",
+   "source": "creddata"
+  },
+  {
+   "file": "src/71a69b12.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "b39675e1c629d5e6ca6cb0844b0f50faf69292ee4ddcd758e8b6b9ea4c42fc47"
+  },
+  {
+   "file": "other/d61daaed.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "herbst56"
+  },
+  {
+   "file": "other/d61daaed.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kasse"
+  },
+  {
+   "file": "other/d61daaed.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Mia2026"
+  },
+  {
+   "file": "other/d61daaed.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "ledger_reader"
+  },
+  {
+   "file": "other/d61daaed.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "etl"
+  },
+  {
+   "file": "other/d61daaed.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "craig-hockey-eu"
+  },
+  {
+   "file": "_/32285d2c.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "_/32285d2c.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "8.28.49"
+  },
+  {
+   "file": "_/32285d2c.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "9120246e48445e68b4871ea0ebebe7c0b40e5db4"
+  },
+  {
+   "file": "_/32285d2c.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "153169e8-8029-4907-8a27-749b574e0089"
+  },
+  {
+   "file": "test/c235adc7.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9478a25"
+  },
+  {
+   "file": "test/c235adc7.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "6d4c1da10551b2b643cef48e1fadd79f95f8c242d3ba3e94dc8f78fb9543d852"
+  },
+  {
+   "file": "test/c235adc7.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "test/c235adc7.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/3164adf7.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/quarzo/etl/prod"
+  },
+  {
+   "file": "other/3164adf7.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "PAYMENTS_API_KEY"
+  },
+  {
+   "file": "other/3164adf7.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Auth-Token"
+  },
+  {
+   "file": "other/3164adf7.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/etc/payments/tls/private.key"
+  },
+  {
+   "file": "other/3164adf7.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "scrypt"
+  },
+  {
+   "file": "other/3164adf7.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "other/3164adf7.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "818969861376-i393xldjfztrii3jeyfo55s4kr7twjai.apps.googleusercontent.com"
+  },
+  {
+   "file": "other/3164adf7.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2025-12-18T00:00:00Z"
+  },
+  {
+   "file": "other/3164adf7.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "crm-oauth-client"
+  },
+  {
+   "file": "other/3164adf7.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZTo2MzE3MzpvZmZzZXQ6NTE="
+  },
+  {
+   "file": "_/a83166e5.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "8.25.28"
+  },
+  {
+   "file": "_/a83166e5.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "9.24.17"
+  },
+  {
+   "file": "_/a83166e5.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-U18b0Xiw1YE3CdAwW+7h77/kz+RZNxNJli9fHyvyjqxSMYc31wlwpG3bUso1/korMPjfTn9MOUc3WSYt5nXb6Q=="
+  },
+  {
+   "file": "_/a83166e5.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "4.15.16"
+  },
+  {
+   "file": "_/a83166e5.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-O/ULkPjjxKdkVCKcACariTzPSR3Ui5hJNQLBuffOKQHDncrfeBNA1bL/9IiC+14g0EtBKs22zPxjubZbU4aaZA=="
+  },
+  {
+   "file": "_/a83166e5.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "4.26.48"
+  },
+  {
+   "file": "_/a83166e5.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-O+S8peuPs+36V04U9KiVASt0SWu2OINjoh/7fQicPSuL6Z63Eitq/lRaBJBYM3WpEpiswvVXTadet5T+/k/8XQ=="
+  }
+ ]
+}

@@ -1,0 +1,1371 @@
+{
+ "repo": "c8c48c5e",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "app/669b8a5c.example",
+   "line": 23,
+   "start": 43,
+   "end": 51,
+   "category": "URL Credentials",
+   "mutation": "rename",
+   "forms": [
+    "yhdzgfez"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "app/669b8a5c.example",
+   "line": 30,
+   "start": 45,
+   "end": 53,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "asezwviy"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "app/669b8a5c.example",
+   "line": 31,
+   "start": 42,
+   "end": 50,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "nkojyfvq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "conf/901e13ad.js",
+   "line": 15,
+   "start": 15,
+   "end": 47,
+   "category": "API:Key",
+   "mutation": "none",
+   "forms": [
+    "5d19fa97d499eb7b590d2be7bd331786"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "conf/docs/opt/95e2596f.md",
+   "line": 126,
+   "start": 14,
+   "end": 57,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "TWg7UbhEhfKepZQiUDkB17ZmXdtwjEfcTRRkfh9KZim"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "src/a9e23d4c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "freude_isolation_repeater_trunk85"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/a9e23d4c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-prod.5pbon5wsc70e.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/8d61051d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-replica.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/8d61051d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Teufel",
+    "Teufel1961.",
+    "1961."
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/8fb2c697.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "David Hartmann"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/8fb2c697.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sofia99@gmail.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/8fb2c697.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 2462 9937"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/8fb2c697.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Felix Fischer"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/8fb2c697.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sarah.weber [at] nordwind-corp [dot] de"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/8fb2c697.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE54485258642815981999"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/8fb2c697.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jonas Richter"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/8fb2c697.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Am M\u00fchlbach 23, 38824 Landshut"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "_/8fb2c697.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "46.254.138.106"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/951912bb.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Biene&2028"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/951912bb.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.23.177.146"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/951912bb.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "QmF5ZXJuJDE5NzU=",
+    "Bayern$1975"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "src/a26d19aa.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_Fwc0ZrQSim6wOxUlWttncbIo"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "src/a26d19aa.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "I0mgF1KbffqC052ix7KlBKOTrjcqdpHF"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "src/a26d19aa.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "djRpc2c1N3RhZG9lMWpnend2Z2w2cHFwZWk3aXF6NnE=",
+    "v4isg57tadoe1jgzwvgl6pqpei7iqz6q"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "test/7f6859e2.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.29.6.154"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "test/7f6859e2.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-replica.quarzo.cloud"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "test/7f6859e2.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TBH0MX24A/BV2MK7QX17J/DmMOSHd3nfrs9vUTaYAd66MC"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.vantor.systems"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.vantor.systems"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.vantor.systems"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "193.17.60.0/24"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "193.17.60.46"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.vantor.systems"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.vantor.systems"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.vantor.systems"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.vantor.systems"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.vantor.systems"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "193.17.60.204"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jan Schwarz"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jan.schwarz@gmx.de"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 7761263"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Sofia Koch"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "sofia.koch@gmail.com"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 6518430"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/093ad82a.ts",
+   "line": 248,
+   "whole_line": "  access_token: string",
+   "source": "creddata"
+  },
+  {
+   "file": "_/093ad82a.ts",
+   "line": 323,
+   "whole_line": "    token: JWT,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d0724833.ts",
+   "line": 119,
+   "whole_line": "  authorize(credentials: Record<keyof C, string>, req: NextApiRequest): Awaitable<User | null>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d0724833.ts",
+   "line": 135,
+   "whole_line": "    pass: string",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d0724833.ts",
+   "line": 143,
+   "whole_line": "  token: string",
+   "source": "creddata"
+  },
+  {
+   "file": "_/faee429a.ts",
+   "line": 82,
+   "whole_line": "    token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/faee429a.ts",
+   "line": 94,
+   "whole_line": "    token: string",
+   "source": "creddata"
+  },
+  {
+   "file": "api/app/c51662be.js",
+   "line": 61,
+   "whole_line": "        password: { label: \"Password\", type: \"password\" },",
+   "source": "creddata"
+  },
+  {
+   "file": "api/app/c51662be.js",
+   "line": 64,
+   "value": "f (",
+   "source": "creddata"
+  },
+  {
+   "file": "app/669b8a5c.example",
+   "line": 32,
+   "whole_line": "# MongoDB:  DATABASE_URL=mongodb://nextauth:password@127.0.0.1:27017/nextauth?synchronize=true",
+   "source": "creddata"
+  },
+  {
+   "file": "app/9c665c6f.js",
+   "line": 47,
+   "whole_line": "      <span className='spacing'>No redirect, wrong password:</span>",
+   "source": "creddata"
+  },
+  {
+   "file": "app/9c665c6f.js",
+   "line": 48,
+   "whole_line": "      <button onClick={handleLogin({ redirect: false, password: '' })}>Login</button>",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/4ee7e97f.md",
+   "line": 42,
+   "value": "nextauth",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/4ee7e97f.md",
+   "line": 54,
+   "value": "3306/database_name?entityPrefix=nextauth_",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/4ee7e97f.md",
+   "line": 65,
+   "value": "nextauth",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/4ee7e97f.md",
+   "line": 90,
+   "value": "3306/database_name?synchronize=true",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/4ee7e97f.md",
+   "line": 98,
+   "value": "nextauth",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/4ee7e97f.md",
+   "line": 161,
+   "whole_line": "database: \"postgres://username:password@127.0.0.1:26257/database_name\"",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/4ee7e97f.md",
+   "line": 172,
+   "whole_line": "    password: process.env.DATABASE_PASSWORD,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/7a1af8aa.md",
+   "line": 28,
+   "whole_line": "    <span key={key}>",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/7a1af8aa.md",
+   "line": 57,
+   "whole_line": "TWITTER_SECRET=YOUR_TWITTER_CLIENT_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/7a1af8aa.md",
+   "line": 68,
+   "whole_line": "    clientSecret: process.env.TWITTER_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/7a1af8aa.md",
+   "line": 112,
+   "whole_line": "  clientSecret: process.env.CLIENT_SECRET,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/7a1af8aa.md",
+   "line": 139,
+   "whole_line": "  authorizationUrl: \"https://accounts.google.com/o/oauth2/auth?response_type=code\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/7a1af8aa.md",
+   "line": 140,
+   "whole_line": "  profileUrl: \"https://www.googleapis.com/oauth2/v1/userinfo?alt=json\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/7a1af8aa.md",
+   "line": 165,
+   "whole_line": "    clientSecret: process.env.TWITTER_SECRET,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/7a1af8aa.md",
+   "line": 255,
+   "whole_line": "      password: {  label: \"Password\", type: \"password\" }",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/opt/95e2596f.md",
+   "line": 29,
+   "value": "http://10.240.8.16",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/opt/95e2596f.md",
+   "line": 139,
+   "whole_line": "  // decryptionKey = encryptionKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/opt/95e2596f.md",
+   "line": 169,
+   "whole_line": "const secret = process.env.JWT_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/opt/95e2596f.md",
+   "line": 172,
+   "whole_line": "  const token = await jwt.getToken({ req, secret })",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/opt/95e2596f.md",
+   "line": 197,
+   "whole_line": "  By default, the helper function will attempt to determine if it should use the secure prefixed cookie (e.g. `true` in production and `false` in development, unless NEXTAUTH_URL contains an HTTPS URL).",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/opt/95e2596f.md",
+   "line": 396,
+   "whole_line": "You can manually set this option to `false` to disable this security feature and allow cookies to be accessible from non-secured URLs (this is not recommended).",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/opt/95e2596f.md",
+   "line": 463,
+   "whole_line": "      secure: useSecureCookies",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/03587b08.md",
+   "line": 98,
+   "value": "\"kty\":\"oct\",\"kid\":\"--\",\"alg\":\"HS256\",\"k\":\"--\"",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/8e7e8c1a.md",
+   "line": 8,
+   "whole_line": "https://docs.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/8e7e8c1a.md",
+   "line": 34,
+   "whole_line": "    clientSecret: process.env.LINKEDIN_CLIENT_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/92a215da.md",
+   "line": 23,
+   "whole_line": "        password: { label: \"Password\", type: \"password\" },",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/92a215da.md",
+   "line": 41,
+   "whole_line": "                password: credentials.password,",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/92a215da.md",
+   "line": 54,
+   "whole_line": "        token.password = user.password;",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/92a215da.md",
+   "line": 62,
+   "whole_line": "  secret: process.env.NEXTAUTH_SECRET,",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/92a215da.md",
+   "line": 64,
+   "whole_line": "    secret: process.env.NEXTAUTH_SECRET,",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/92a215da.md",
+   "line": 75,
+   "whole_line": "token = await jwt.getToken({",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/92a215da.md",
+   "line": 77,
+   "whole_line": "\tsecret: process.env.NEXTAUTH_SECRET,",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/92a215da.md",
+   "line": 79,
+   "whole_line": "const {username, password} = token;",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/95665636.md",
+   "line": 30,
+   "whole_line": "    clientSecret: process.env.VK_CLIENT_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/95665636.md",
+   "line": 45,
+   "whole_line": "const apiVersion = \"5.126\"",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/95665636.md",
+   "line": 52,
+   "whole_line": "      `https://oauth.vk.com/authorize?response_type=code&v=${apiVersion}`,",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/9fc19616.md",
+   "line": 81,
+   "whole_line": "        pass: process.env.EMAIL_SERVER_PASSWORD",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/c5a34617.md",
+   "line": 33,
+   "whole_line": "    clientSecret: process.env.FOURSQUARE_CLIENT_SECRET,",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/c5a34617.md",
+   "line": 34,
+   "whole_line": "    apiVersion: 'YYYYMMDD'",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/server/d412c145.md",
+   "line": 30,
+   "whole_line": "    clientSecret: process.env.IdentityServer4_CLIENT_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/dbf78448.ts",
+   "line": 9,
+   "whole_line": "    [key: string]: string | string[]",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/dbf78448.ts",
+   "line": 12,
+   "whole_line": "    [key: string]: string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8bc81cfd.js",
+   "line": 2,
+   "whole_line": "  const apiVersion = \"5.126\" // https://vk.com/dev/versions",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8bc81cfd.js",
+   "line": 15,
+   "whole_line": "    authorizationUrl: `https://oauth.vk.com/authorize?response_type=code&v=${apiVersion}`,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92616cbc.js",
+   "line": 156,
+   "whole_line": "                  <Feature key={idx} {...props} />",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a65e0d90.js",
+   "line": 15,
+   "whole_line": "      \"https://www.linkedin.com/oauth/v2/authorization?response_type=code\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lib/2c2a1625.js",
+   "line": 85,
+   "value": "utf8",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lib/2c2a1625.js",
+   "line": 101,
+   "whole_line": " * secureCookie?: boolean",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lib/2c2a1625.js",
+   "line": 131,
+   "whole_line": "    token = decodeURIComponent(urlEncodedToken)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lib/client/server/7dca2f2d.js",
+   "line": 111,
+   "whole_line": "  const codeParam = (params.grant_type === 'refresh_token') ? 'refresh_token' : 'code'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lib/client/server/7dca2f2d.js",
+   "line": 145,
+   "whole_line": "    headers.Authorization = 'Basic ' + Buffer.from((provider.clientId + ':' + provider.clientSecret)).toString('base64')",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lib/server/75dae873.js",
+   "line": 71,
+   "whole_line": "        session = await jwt.decode({ ...jwt, token: sessionToken })",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lib/server/d97dc8c0.js",
+   "line": 100,
+   "whole_line": " *     access_token: string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/server/49a3b36d.js",
+   "line": 18,
+   "whole_line": "      const decodedJwt = await jwt.decode({ ...jwt, token: sessionToken })",
+   "source": "creddata"
+  },
+  {
+   "file": "src/server/846e308a.js",
+   "line": 68,
+   "whole_line": "        userOptions.useSecureCookies || baseUrl.startsWith(\"https://\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/server/846e308a.js",
+   "line": 74,
+   "whole_line": "    const secret = createSecret({ userOptions, basePath, baseUrl })",
+   "source": "creddata"
+  },
+  {
+   "file": "src/server/ab1da133.js",
+   "line": 124,
+   "whole_line": "          const newEncodedJwt = await jwt.encode({ ...jwt, token: jwtPayload })",
+   "source": "creddata"
+  },
+  {
+   "file": "src/server/ab1da133.js",
+   "line": 271,
+   "whole_line": "        const newEncodedJwt = await jwt.encode({ ...jwt, token: jwtPayload })",
+   "source": "creddata"
+  },
+  {
+   "file": "src/server/ab1da133.js",
+   "line": 361,
+   "whole_line": "    const user = userObjectReturnedFromAuthorizeHandler",
+   "source": "creddata"
+  },
+  {
+   "file": "src/server/ab1da133.js",
+   "line": 401,
+   "whole_line": "    const newEncodedJwt = await jwt.encode({ ...jwt, token: jwtPayload })",
+   "source": "creddata"
+  },
+  {
+   "file": "src/server/c6e79e85.js",
+   "line": 25,
+   "whole_line": "      const decodedJwt = await jwt.decode({ ...jwt, token: sessionToken })",
+   "source": "creddata"
+  },
+  {
+   "file": "src/server/c6e79e85.js",
+   "line": 56,
+   "whole_line": "      const newEncodedJwt = await jwt.encode({ ...jwt, token: jwtPayload })",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a679a617.ts",
+   "line": 12,
+   "whole_line": "  token: \"token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/docs/1057dd5b.md",
+   "line": 6,
+   "whole_line": "To test an implementation of NextAuth.js, we encourage you to use [Cypress](https://cypress.io). ",
+   "source": "creddata"
+  },
+  {
+   "file": "test/docs/1057dd5b.md",
+   "line": 80,
+   "whole_line": "    const password = Cypress.env('GOOGLE_PW')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/docs/1057dd5b.md",
+   "line": 110,
+   "whole_line": "            secure: cookie.secure,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f27f713.ts",
+   "line": 151,
+   "whole_line": "    encryptionKey: \"some-key\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f27f713.ts",
+   "line": 225,
+   "whole_line": "    \"https://accounts.google.com/o/oauth2/auth?response_type=code\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f27f713.ts",
+   "line": 226,
+   "whole_line": "  profileUrl: \"https://www.googleapis.com/oauth2/v1/userinfo?alt=json\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a9e23d4c.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIzOeoS7fOWlMEdoafyiWhOzmcV1ikPlo8qSsVpmt6G7K"
+  },
+  {
+   "file": "src/a9e23d4c.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "09c210645b68a44ed45fb793a8c8b0e43be5d09ff960766f255a5cf2c16a7ccc"
+  },
+  {
+   "file": "src/a9e23d4c.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/a9e23d4c.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "test/8d61051d.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "bb688bdc4d68e652b172cf430dc736e8a2fc996d"
+  },
+  {
+   "file": "test/8d61051d.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "${DB_PASSWORD}"
+  },
+  {
+   "file": "test/8d61051d.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "_/8fb2c697.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "careers@nordwind-corp.de"
+  },
+  {
+   "file": "_/8fb2c697.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "security@nordwind-corp.de"
+  },
+  {
+   "file": "_/8fb2c697.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0137"
+  },
+  {
+   "file": "_/8fb2c697.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "_/8fb2c697.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "_/8fb2c697.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "_/8fb2c697.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "_/8fb2c697.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "src/951912bb.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:0317a20a6b1dd1190bc951395f5e54086aae8c8a179d156ad1a8d4016907285d"
+  },
+  {
+   "file": "src/951912bb.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "94108a2caa63ec726f0222a5541f99592df18fd2"
+  },
+  {
+   "file": "src/951912bb.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "src/951912bb.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "src/951912bb.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "0.29.31"
+  },
+  {
+   "file": "src/a26d19aa.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_79QUGz5JsiVQRACHN6ubSoKR"
+  },
+  {
+   "file": "src/a26d19aa.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "REPORTS_API_KEY"
+  },
+  {
+   "file": "src/a26d19aa.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "PAYMENTS_AUTH_TOKEN"
+  },
+  {
+   "file": "src/a26d19aa.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6L-4Hqz6F-NeJBLk7JMMBsdoBjpldNPoM2wgFfck"
+  },
+  {
+   "file": "src/a26d19aa.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:GF27tDBPb4FiBLt1+3Gl0bQ+qr95UKyDP3Fy1OTzADY"
+  },
+  {
+   "file": "src/a26d19aa.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "src/a26d19aa.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "src/a26d19aa.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "src/a26d19aa.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "aW52b2ljZTo2NzAyMzpvZmZzZXQ6MTA2"
+  },
+  {
+   "file": "test/7f6859e2.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "a272b6e3693ce0c31f46"
+  },
+  {
+   "file": "test/7f6859e2.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "auth0.com"
+  },
+  {
+   "file": "test/7f6859e2.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "e71949535f290f5c8dda18ea319b00d923aa8ca5"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "shop.vantor.systems"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "files.logistik-nord.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "193.27.121.87"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "gitlab.gnome.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Elias Schmidt"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Eva Wolf"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.vantor.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "shop.vantor.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.logistik-nord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "193.27.121.87"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.gnome.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Elias Schmidt"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "elias.schmidt@vantor.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "John Doe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "john.doe@example.net"
+  }
+ ]
+}

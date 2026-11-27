@@ -1,0 +1,915 @@
+                {
+                  "$ref": "#/components/schemas/account"
+                }
+              ]
+            }
+          },
+          "address_city": {
+            "description": "City/District/Suburb/Town/Village.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "address_country": {
+            "description": "Billing address country, if provided when creating card.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "address_line1": {
+            "description": "Address line 1 (Street address/PO Box/Company name).",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "address_line1_check": {
+            "description": "If `address_line1` was provided, results of the check: `pass`, `fail`, `unavailable`, or `unchecked`.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "address_line2": {
+            "description": "Address line 2 (Apartment/Suite/Unit/Building).",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "address_state": {
+            "description": "State/County/Province/Region.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "address_zip": {
+            "description": "ZIP or postal code.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "address_zip_check": {
+            "description": "If `address_zip` was provided, results of the check: `pass`, `fail`, `unavailable`, or `unchecked`.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "available_payout_methods": {
+            "description": "A set of available payout methods for this card. Only values from this set should be passed as the `method` when creating a payout.",
+            "items": {
+              "enum": [
+                "instant",
+                "standard"
+              ],
+              "type": "string"
+            },
+            "nullable": true,
+            "type": "array"
+          },
+          "brand": {
+            "description": "Card brand. Can be `American Express`, `Diners Club`, `Discover`, `JCB`, `MasterCard`, `UnionPay`, `Visa`, or `Unknown`.",
+            "maxLength": 5000,
+            "type": "string"
+          },
+          "country": {
+            "description": "Two-letter ISO code representing the country of the card. You could use this attribute to get a sense of the international breakdown of cards you've collected.",
+            "maxLength": 5000,
+            "nullable": true,
+              {
+                "maxLength": 5000,
+                "type": "string"
+              },
+              {
+                "$ref": "#/components/schemas/customer"
+              },
+              {
+                "$ref": "#/components/schemas/deleted_customer"
+              }
+            ],
+            "description": "The customer that this card belongs to. This attribute will not be in the card object if the card belongs to an account or recipient instead.",
+            "nullable": true,
+            "x-expansionResources": {
+              "oneOf": [
+                {
+                  "$ref": "#/components/schemas/customer"
+                },
+                {
+                  "$ref": "#/components/schemas/deleted_customer"
+                }
+              ]
+            }
+          },
+          "cvc_check": {
+            "description": "If a CVC was provided, results of the check: `pass`, `fail`, `unavailable`, or `unchecked`. A result of unchecked indicates that CVC was provided but hasn't been checked yet. Checks are typically performed when attaching a card to a Customer object, or when creating a charge. For more details, see [Check if a card is valid without a charge](https://support.stripe.com/questions/check-if-a-card-is-valid-without-a-charge).",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "default_for_currency": {
+            "description": "Whether this card is the default external account for its currency.",
+            "nullable": true,
+            "type": "boolean"
+          },
+          "description": {
+            "description": "A high-level description of the type of cards issued in this range. (For internal use only and not typically available in standard API requests.)",
+            "maxLength": 5000,
+            "type": "string"
+          },
+          "dynamic_last4": {
+            "description": "(For tokenized numbers only.) The last four digits of the device account number.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "exp_month": {
+            "description": "Two-digit number representing the card's expiration month.",
+            "type": "integer"
+          },
+          "exp_year": {
+            ]
+          }
+        ],
+        "x-stripeResource": {
+          "class_name": "EphemeralKey",
+          "in_package": ""
+        }
+      },
+      "error": {
+        "description": "An error response from the Stripe API",
+        "properties": {
+          "error": {
+            "$ref": "#/components/schemas/api_errors"
+          }
+        },
+        "required": [
+          "error"
+        ],
+        "type": "object",
+        "x-stripeResource": {
+          "class_name": "StripeErrorResponse",
+          "in_package": ""
+        }
+      },
+      "event": {
+        "description": "Events are our way of letting you know when something interesting happens in\nyour account. When an interesting event occurs, we create a new `Event`\nobject. For example, when a charge succeeds, we create a `charge.succeeded`\nevent; and when an invoice payment attempt fails, we create an\n`invoice.payment_failed` event. Note that many API requests may cause multiple\nevents to be created. For example, if you create a new subscription for a\ncustomer, you will receive both a `customer.subscription.created` event and a\n`charge.succeeded` event.\n\nEvents occur when the state of another API resource changes. The state of that\nresource at the time of the change is embedded in the event's data field. For\nexample, a `charge.succeeded` event will contain a charge, and an\n`invoice.payment_failed` event will contain an invoice.\n\nAs with other API resources, you can use endpoints to retrieve an\n[individual event](https://stripe.com/docs/api#retrieve_event) or a [list of events](https://stripe.com/docs/api#list_events)\nfrom the API. We also have a separate\n[webhooks](http://en.wikipedia.org/wiki/Webhook) system for sending the\n`Event` objects directly to an endpoint on your server. Webhooks are managed\nin your\n[account settings](https://dashboard.stripe.com/account/webhooks),\nand our [Using Webhooks](https://stripe.com/docs/webhooks) guide will help you get set up.\n\nWhen using [Connect](https://stripe.com/docs/connect), you can also receive notifications of\nevents that occur in connected accounts. For these events, there will be an\nadditional `account` attribute in the received `Event` object.\n\n**NOTE:** Right now, access to events through the [Retrieve Event API](https://stripe.com/docs/api#retrieve_event) is\nguaranteed only for 30 days.",
+        "properties": {
+          "account": {
+            "description": "The connected account that originated the event.",
+            "maxLength": 5000,
+            "type": "string"
+          },
+          "api_version": {
+            "description": "The Stripe API version used to render `data`. *Note: This property is populated only for events on or after October 31, 2014*.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "created": {
+            "description": "Time at which the object was created. Measured in seconds since the Unix epoch.",
+            "format": "unix-time",
+            "type": "integer"
+          },
+          "data": {
+            "$ref": "#/components/schemas/notification_event_data"
+          },
+          "id": {
+            "description": "Unique identifier for the object.",
+            "maxLength": 5000,
+            "type": "string"
+          },
+          }
+        },
+        "required": [
+          "object"
+        ],
+        "title": "NotificationEventData",
+        "type": "object",
+        "x-expandableFields": [
+
+        ],
+        "x-stripeResource": {
+          "class_name": "EventData",
+          "in_package": ""
+        }
+      },
+      "notification_event_request": {
+        "description": "",
+        "properties": {
+          "id": {
+            "description": "ID of the API request that caused the event. If null, the event was automatic (e.g., Stripe's automatic subscription handling). Request logs are available in the [dashboard](https://dashboard.stripe.com/logs), but currently not in the API.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "idempotency_key": {
+            "description": "The idempotency key transmitted during the request, if any. *Note: This property is populated only for events on or after May 23, 2017*.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "idempotency_key"
+        ],
+        "title": "NotificationEventRequest",
+        "type": "object",
+        "x-expandableFields": [
+
+        ],
+        "x-stripeResource": {
+          "class_name": "EventRequest",
+          "in_package": ""
+        }
+      },
+      "offline_acceptance": {
+        "description": "",
+        "properties": {
+        },
+        "title": "offline_acceptance",
+        "type": "object",
+              {
+                "$ref": "#/components/schemas/payment_method_options_card_installments"
+              }
+            ],
+            "description": "Installment details for this payment (Mexico only).\n\nFor more information, see the [installments integration guide](https://stripe.com/docs/payments/installments).",
+            "nullable": true
+          },
+          "network": {
+            "description": "Selected network to process this payment intent on. Depends on the available networks of the card attached to the payment intent. Can be only set confirm-time.",
+            "enum": [
+              "amex",
+              "cartes_bancaires",
+              "diners",
+              "discover",
+              "interac",
+              "jcb",
+              "mastercard",
+              "unionpay",
+              "unknown",
+              "visa"
+            ],
+            "nullable": true,
+            "type": "string"
+          },
+          "request_three_d_secure": {
+            "description": "We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.",
+            "enum": [
+              "any",
+              "automatic",
+              "challenge_only"
+            ],
+            "nullable": true,
+            "type": "string"
+          }
+        },
+        "required": [
+          "installments",
+          "network",
+          "request_three_d_secure"
+        ],
+        "title": "payment_intent_payment_method_options_card",
+        "type": "object",
+        "x-expandableFields": [
+          "installments"
+        ],
+        "x-stripeResource": {
+          "class_name": "Card",
+          "in_class": "payment_intent_payment_method_options",
+          "inner_classes": [
+            "payment_method_options_card_installments"
+          ]
+          "wallet"
+        ],
+        "title": "payment_method_card",
+        "type": "object",
+        "x-expandableFields": [
+          "checks",
+          "networks",
+          "three_d_secure_usage",
+          "wallet"
+        ],
+        "x-stripeResource": {
+          "class_name": "Card",
+          "in_class": "payment_method",
+          "inner_classes": [
+            "networks",
+            "payment_method_card_checks",
+            "payment_method_card_wallet",
+            "three_d_secure_usage"
+          ]
+        }
+      },
+      "payment_method_card_checks": {
+        "description": "",
+        "properties": {
+          "address_line1_check": {
+            "description": "If a address line1 was provided, results of the check, one of `pass`, `fail`, `unavailable`, or `unchecked`.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "address_postal_code_check": {
+            "description": "If a address postal code was provided, results of the check, one of `pass`, `fail`, `unavailable`, or `unchecked`.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "cvc_check": {
+            "description": "If a CVC was provided, results of the check, one of `pass`, `fail`, `unavailable`, or `unchecked`.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          }
+        },
+        "required": [
+          "address_line1_check",
+          "address_postal_code_check",
+          "cvc_check"
+        ],
+        "title": "payment_method_card_checks",
+        "type": "object",
+        "x-expandableFields": [
+
+        ],
+        "x-stripeResource": {
+          "class_name": "Checks",
+          "in_class": "payment_method_card"
+        }
+      },
+      "payment_method_card_present": {
+        "description": "",
+        "properties": {
+        },
+        "title": "payment_method_card_present",
+          "wallet"
+        ],
+        "title": "payment_method_details_card",
+        "type": "object",
+        "x-expandableFields": [
+          "checks",
+          "installments",
+          "three_d_secure",
+          "wallet"
+        ],
+        "x-stripeResource": {
+          "class_name": "Card",
+          "in_class": "payment_method_details",
+          "inner_classes": [
+            "payment_method_details_card_checks",
+            "payment_method_details_card_installments",
+            "payment_method_details_card_wallet",
+            "three_d_secure_details"
+          ]
+        }
+      },
+      "payment_method_details_card_checks": {
+        "description": "",
+        "properties": {
+          "address_line1_check": {
+            "description": "If a address line1 was provided, results of the check, one of `pass`, `fail`, `unavailable`, or `unchecked`.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "address_postal_code_check": {
+            "description": "If a address postal code was provided, results of the check, one of `pass`, `fail`, `unavailable`, or `unchecked`.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          },
+          "cvc_check": {
+            "description": "If a CVC was provided, results of the check, one of `pass`, `fail`, `unavailable`, or `unchecked`.",
+            "maxLength": 5000,
+            "nullable": true,
+            "type": "string"
+          }
+        },
+        "required": [
+          "address_line1_check",
+          "address_postal_code_check",
+          "cvc_check"
+        ],
+        "title": "payment_method_details_card_checks",
+        "type": "object",
+        "x-expandableFields": [
+
+        ],
+        "x-stripeResource": {
+          "class_name": "Checks",
+          "in_class": "payment_method_details_card"
+        }
+      },
+      "payment_method_details_card_installments": {
+        "description": "",
+        "properties": {
+          "plan": {
+            "anyOf": [
+            ],
+            "type": "string",
+            "x-stripeBypassValidation": true
+          }
+        },
+        "required": [
+          "currency"
+        ],
+        "title": "setup_intent_payment_method_options_acss_debit",
+        "type": "object",
+        "x-expandableFields": [
+          "mandate_options"
+        ],
+        "x-stripeResource": {
+          "class_name": "AcssDebit",
+          "in_class": "setup_intent_payment_method_options",
+          "inner_classes": [
+            "setup_intent_payment_method_options_mandate_options_acss_debit"
+          ]
+        }
+      },
+      "setup_intent_payment_method_options_card": {
+        "description": "",
+        "properties": {
+          "request_three_d_secure": {
+            "description": "We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.",
+            "enum": [
+              "any",
+              "automatic",
+              "challenge_only"
+            ],
+            "nullable": true,
+            "type": "string"
+          }
+        },
+        "required": [
+          "request_three_d_secure"
+        ],
+        "title": "setup_intent_payment_method_options_card",
+        "type": "object",
+        "x-expandableFields": [
+
+        ],
+        "x-stripeResource": {
+          "class_name": "Card",
+          "in_class": "setup_intent_payment_method_options"
+        }
+      },
+      "setup_intent_payment_method_options_mandate_options_acss_debit": {
+        "description": "",
+        "properties": {
+            "nullable": true,
+            "type": "string"
+          },
+          "created": {
+            "description": "Time at which the object was created. Measured in seconds since the Unix epoch.",
+            "format": "unix-time",
+            "type": "integer"
+          },
+          "id": {
+            "description": "Unique identifier for the object.",
+            "maxLength": 5000,
+            "type": "string"
+          },
+          "livemode": {
+            "description": "Has the value `true` if the object exists in live mode or the value `false` if the object exists in test mode.",
+            "type": "boolean"
+          },
+          "object": {
+            "description": "String representing the object's type. Objects of the same type share the same value.",
+            "enum": [
+              "token"
+            ],
+            "type": "string"
+          },
+          "type": {
+            "description": "Type of the token: `account`, `bank_account`, `card`, or `pii`.",
+            "maxLength": 5000,
+            "type": "string"
+          },
+          "used": {
+            "description": "Whether this token has already been used (tokens can be used only once).",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "client_ip",
+          "created",
+          "id",
+          "livemode",
+          "object",
+          "type",
+          "used"
+        ],
+        "title": "Token",
+        "type": "object",
+        "x-expandableFields": [
+          "bank_account",
+          "card"
+        ],
+        "x-resourceId": "token",
+        "x-stripeOperations": [
+      "basicAuth": {
+        "description": "Basic HTTP authentication. Allowed headers-- Authorization: Basic <api_key> | Authorization: Basic <base64 hash of `api_key:`>",
+        "scheme": "basic",
+        "type": "http"
+      },
+      "bearerAuth": {
+        "bearerFormat": "auth-scheme",
+        "description": "Bearer HTTP authentication. Allowed headers-- Authorization: Bearer <api_key>",
+        "scheme": "bearer",
+        "type": "http"
+      }
+    }
+  },
+  "info": {
+    "contact": {
+      "email": "dev-platform@stripe.com",
+      "name": "Stripe Dev Platform Team",
+      "url": "https://stripe.com"
+    },
+    "description": "The Stripe REST API. Please see https://stripe.com/docs/api for more details.",
+    "termsOfService": "https://stripe.com/us/terms/",
+    "title": "Stripe API",
+    "version": "2020-08-27",
+    "x-stripeSpecFilename": "spec3.sdk"
+  },
+  "openapi": "3.0.0",
+  "paths": {
+    "/v1/3d_secure": {
+      "post": {
+        "description": "<p>Initiate 3D Secure authentication.</p>",
+        "operationId": "Post3dSecure",
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "encoding": {
+                "expand": {
+                  "explode": true,
+                  "style": "deepObject"
+                }
+              },
+              "schema": {
+                "additionalProperties": false,
+                "properties": {
+                  "amount": {
+                    "description": "Amount of the charge that you will create when authentication completes.",
+                    "type": "integer"
+                  },
+                  "card": {
+                    "description": "The ID of a card token, or the ID of a card belonging to the given customer.",
+                    "maxLength": 5000,
+                    "type": "string"
+                                "type": "object"
+                              },
+                              "moto": {
+                                "description": "When specified, this parameter indicates that a transaction will be marked\nas MOTO (Mail Order Telephone Order) and thus out of scope for SCA. This\nparameter can only be provided during confirmation.",
+                                "type": "boolean"
+                              },
+                              "network": {
+                                "description": "Selected network to process this PaymentIntent on. Depends on the available networks of the card attached to the PaymentIntent. Can be only set confirm-time.",
+                                "enum": [
+                                  "amex",
+                                  "cartes_bancaires",
+                                  "diners",
+                                  "discover",
+                                  "interac",
+                                  "jcb",
+                                  "mastercard",
+                                  "unionpay",
+                                  "unknown",
+                                  "visa"
+                                ],
+                                "maxLength": 5000,
+                                "type": "string",
+                                "x-stripeBypassValidation": true
+                              },
+                              "request_three_d_secure": {
+                                "description": "We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.",
+                                "enum": [
+                                  "any",
+                                  "automatic"
+                                ],
+                                "maxLength": 5000,
+                                "type": "string",
+                                "x-stripeBypassValidation": true
+                              }
+                            },
+                            "title": "payment_intent_param",
+                            "type": "object"
+                          },
+                          {
+                            "enum": [
+                              ""
+                            ],
+                            "type": "string"
+                          }
+                        ],
+                        "description": "Configuration for any card payments attempted on this PaymentIntent."
+                      },
+                      "card_present": {
+                        "anyOf": [
+                          {
+                            "properties": {
+                                "type": "object"
+                              },
+                              "moto": {
+                                "description": "When specified, this parameter indicates that a transaction will be marked\nas MOTO (Mail Order Telephone Order) and thus out of scope for SCA. This\nparameter can only be provided during confirmation.",
+                                "type": "boolean"
+                              },
+                              "network": {
+                                "description": "Selected network to process this PaymentIntent on. Depends on the available networks of the card attached to the PaymentIntent. Can be only set confirm-time.",
+                                "enum": [
+                                  "amex",
+                                  "cartes_bancaires",
+                                  "diners",
+                                  "discover",
+                                  "interac",
+                                  "jcb",
+                                  "mastercard",
+                                  "unionpay",
+                                  "unknown",
+                                  "visa"
+                                ],
+                                "maxLength": 5000,
+                                "type": "string",
+                                "x-stripeBypassValidation": true
+                              },
+                              "request_three_d_secure": {
+                                "description": "We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.",
+                                "enum": [
+                                  "any",
+                                  "automatic"
+                                ],
+                                "maxLength": 5000,
+                                "type": "string",
+                                "x-stripeBypassValidation": true
+                              }
+                            },
+                            "title": "payment_intent_param",
+                            "type": "object"
+                          },
+                          {
+                            "enum": [
+                              ""
+                            ],
+                            "type": "string"
+                          }
+                        ],
+                        "description": "Configuration for any card payments attempted on this PaymentIntent."
+                      },
+                      "card_present": {
+                        "anyOf": [
+                          {
+                            "properties": {
+                                "type": "object"
+                              },
+                              "moto": {
+                                "description": "When specified, this parameter indicates that a transaction will be marked\nas MOTO (Mail Order Telephone Order) and thus out of scope for SCA. This\nparameter can only be provided during confirmation.",
+                                "type": "boolean"
+                              },
+                              "network": {
+                                "description": "Selected network to process this PaymentIntent on. Depends on the available networks of the card attached to the PaymentIntent. Can be only set confirm-time.",
+                                "enum": [
+                                  "amex",
+                                  "cartes_bancaires",
+                                  "diners",
+                                  "discover",
+                                  "interac",
+                                  "jcb",
+                                  "mastercard",
+                                  "unionpay",
+                                  "unknown",
+                                  "visa"
+                                ],
+                                "maxLength": 5000,
+                                "type": "string",
+                                "x-stripeBypassValidation": true
+                              },
+                              "request_three_d_secure": {
+                                "description": "We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.",
+                                "enum": [
+                                  "any",
+                                  "automatic"
+                                ],
+                                "maxLength": 5000,
+                                "type": "string",
+                                "x-stripeBypassValidation": true
+                              }
+                            },
+                            "title": "payment_intent_param",
+                            "type": "object"
+                          },
+                          {
+                            "enum": [
+                              ""
+                            ],
+                            "type": "string"
+                          }
+                        ],
+                        "description": "Configuration for any card payments attempted on this PaymentIntent."
+                      },
+                      "card_present": {
+                        "anyOf": [
+                          {
+                            "properties": {
+                          "number"
+                        ],
+                        "title": "card_details_params",
+                        "type": "object",
+                        "x-stripeParam": {
+                          "class_name": "CardDetails"
+                        }
+                      },
+                      {
+                        "properties": {
+                          "token": {
+                            "maxLength": 5000,
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "token"
+                        ],
+                        "title": "token_params",
+                        "type": "object",
+                        "x-stripeParam": {
+                          "class_name": "Token"
+                        }
+                      }
+                    ],
+                    "description": "If this is a `card` PaymentMethod, this hash contains the user's card details. For backwards compatibility, you can alternatively provide a Stripe token (e.g., for Apple Pay, Amex Express Checkout, or legacy Checkout) into the card hash with format `card: {token: \"tok_visa\"}`. When providing a card number, you must meet the requirements for [PCI compliance](https://stripe.com/docs/security#validating-pci-compliance). We strongly recommend using Stripe.js instead of interacting with this API directly.",
+                    "x-stripeBypassValidation": true
+                  },
+                  "customer": {
+                    "description": "The `Customer` to whom the original PaymentMethod is attached.",
+                    "maxLength": 5000,
+                    "type": "string"
+                  },
+                  "eps": {
+                    "description": "If this is an `eps` PaymentMethod, this hash contains details about the EPS payment method.",
+                    "properties": {
+                      "bank": {
+                        "description": "The customer's bank.",
+                        "enum": [
+                          "arzte_und_apotheker_bank",
+                          "austrian_anadi_bank_ag",
+                          "bank_austria",
+                          "bankhaus_carl_spangler",
+                          "bankhaus_schelhammer_und_schattera_ag",
+                          "bawag_psk_ag",
+                          "bks_bank_ag",
+                          "brull_kallmus_bank_ag",
+                          "btv_vier_lander_bank",
+                          "capital_bank_grawe_gruppe_ag",
+                          "dolomitenbank",
+                          "easybank_ag",
+                            "title": "payment_method_options_mandate_options_param",
+                            "type": "object"
+                          },
+                          "verification_method": {
+                            "description": "Verification method for the intent",
+                            "enum": [
+                              "automatic",
+                              "instant",
+                              "microdeposits"
+                            ],
+                            "type": "string",
+                            "x-stripeBypassValidation": true
+                          }
+                        },
+                        "title": "setup_intent_payment_method_options_param",
+                        "type": "object"
+                      },
+                      "card": {
+                        "description": "Configuration for any card setup attempted on this SetupIntent.",
+                        "properties": {
+                          "moto": {
+                            "description": "When specified, this parameter signals that a card has been collected\nas MOTO (Mail Order Telephone Order) and thus out of scope for SCA. This\nparameter can only be provided during confirmation.",
+                            "type": "boolean"
+                          },
+                          "request_three_d_secure": {
+                            "description": "We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.",
+                            "enum": [
+                              "any",
+                              "automatic"
+                            ],
+                            "maxLength": 5000,
+                            "type": "string",
+                            "x-stripeBypassValidation": true
+                          }
+                        },
+                        "title": "setup_intent_param",
+                        "type": "object"
+                      },
+                      "sepa_debit": {
+                        "description": "If this is a `sepa_debit` SetupIntent, this sub-hash contains details about the SEPA Debit payment method options.",
+                        "properties": {
+                          "mandate_options": {
+                            "description": "Additional fields for Mandate creation",
+                            "properties": {
+                            },
+                            "title": "payment_method_options_mandate_options_param",
+                            "type": "object"
+                          }
+                        },
+                        "title": "setup_intent_payment_method_options_param",
+                        "type": "object"
+                            "title": "payment_method_options_mandate_options_param",
+                            "type": "object"
+                          },
+                          "verification_method": {
+                            "description": "Verification method for the intent",
+                            "enum": [
+                              "automatic",
+                              "instant",
+                              "microdeposits"
+                            ],
+                            "type": "string",
+                            "x-stripeBypassValidation": true
+                          }
+                        },
+                        "title": "setup_intent_payment_method_options_param",
+                        "type": "object"
+                      },
+                      "card": {
+                        "description": "Configuration for any card setup attempted on this SetupIntent.",
+                        "properties": {
+                          "moto": {
+                            "description": "When specified, this parameter signals that a card has been collected\nas MOTO (Mail Order Telephone Order) and thus out of scope for SCA. This\nparameter can only be provided during confirmation.",
+                            "type": "boolean"
+                          },
+                          "request_three_d_secure": {
+                            "description": "We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.",
+                            "enum": [
+                              "any",
+                              "automatic"
+                            ],
+                            "maxLength": 5000,
+                            "type": "string",
+                            "x-stripeBypassValidation": true
+                          }
+                        },
+                        "title": "setup_intent_param",
+                        "type": "object"
+                      },
+                      "sepa_debit": {
+                        "description": "If this is a `sepa_debit` SetupIntent, this sub-hash contains details about the SEPA Debit payment method options.",
+                        "properties": {
+                          "mandate_options": {
+                            "description": "Additional fields for Mandate creation",
+                            "properties": {
+                            },
+                            "title": "payment_method_options_mandate_options_param",
+                            "type": "object"
+                          }
+                        },
+                        "title": "setup_intent_payment_method_options_param",
+                        "type": "object"
+                            "title": "payment_method_options_mandate_options_param",
+                            "type": "object"
+                          },
+                          "verification_method": {
+                            "description": "Verification method for the intent",
+                            "enum": [
+                              "automatic",
+                              "instant",
+                              "microdeposits"
+                            ],
+                            "type": "string",
+                            "x-stripeBypassValidation": true
+                          }
+                        },
+                        "title": "setup_intent_payment_method_options_param",
+                        "type": "object"
+                      },
+                      "card": {
+                        "description": "Configuration for any card setup attempted on this SetupIntent.",
+                        "properties": {
+                          "moto": {
+                            "description": "When specified, this parameter signals that a card has been collected\nas MOTO (Mail Order Telephone Order) and thus out of scope for SCA. This\nparameter can only be provided during confirmation.",
+                            "type": "boolean"
+                          },
+                          "request_three_d_secure": {
+                            "description": "We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.",
+                            "enum": [
+                              "any",
+                              "automatic"
+                            ],
+                            "maxLength": 5000,
+                            "type": "string",
+                            "x-stripeBypassValidation": true
+                          }
+                        },
+                        "title": "setup_intent_param",
+                        "type": "object"
+                      },
+                      "sepa_debit": {
+                        "description": "If this is a `sepa_debit` SetupIntent, this sub-hash contains details about the SEPA Debit payment method options.",
+                        "properties": {
+                          "mandate_options": {
+                            "description": "Additional fields for Mandate creation",
+                            "properties": {
+                            },
+                            "title": "payment_method_options_mandate_options_param",
+                            "type": "object"
+                          }
+                        },
+                        "title": "setup_intent_payment_method_options_param",
+                        "type": "object"

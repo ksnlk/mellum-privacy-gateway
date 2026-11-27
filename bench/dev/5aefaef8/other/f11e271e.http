@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://ledger-cache-08.corp.acme-internal.net/api/v3/invoices?page=2
+Authorization: Basic c3ZjX2JhY2t1cDpNb2RlcmF0aW9uMjAxOSM=
+Cookie: _ga=GA1.2.TR82ROLMKG76GPRI2D8Z65FAQ0; session_id=cvac6vuf8np2h4f7y77jn0cmto5i75vs
+X-Request-Id: 13668b63-f7f2-4717-8ffa-bc97573d0e85
+
+### the docs example, safe to share
+GET https://storage.googleapis.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

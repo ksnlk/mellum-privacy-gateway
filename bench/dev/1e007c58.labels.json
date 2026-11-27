@@ -1,0 +1,1022 @@
+{
+ "repo": "1e007c58",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/556918e1.go",
+   "line": 137,
+   "start": 49,
+   "end": 81,
+   "category": "CURL User Password",
+   "mutation": "none",
+   "forms": [
+    "ef16504f3d0fa802873a361ecfc191cf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/7fd7d2c8.go",
+   "line": 26,
+   "start": 93,
+   "end": 125,
+   "category": "Secret:Key",
+   "mutation": "none",
+   "forms": [
+    "7CA564cD8EEFD9EfffbA1C6A852cdb3D"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/7fd7d2c8.go",
+   "line": 26,
+   "start": 18,
+   "end": 50,
+   "category": "API:Key",
+   "mutation": "none",
+   "forms": [
+    "4A8E028E2EEf780dbCBc8bBBDDe99cD5"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/f7bafd37.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben91@gmail.com"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/f7bafd37.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 7287 1663"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/f7bafd37.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Ann0y1ng!"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/f7bafd37.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE48811279156299121042"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/cb9be1a5.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-primary.nordwind.cloud"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/cb9be1a5.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "H@$$l3"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/cb9be1a5.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "3v4er9puozUrWR7r2f47H224vOYkDjAb"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/cb9be1a5.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "99w2z82yoz6qolnn7vokklssrkxqhmwu"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/8a309e62.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.ujia82m15lfq.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/8a309e62.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "bMneVoucqZMZ83UQQ6OGo4IPDAxUcqec"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/8bc9d14c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.vantor-corp.de"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/8bc9d14c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Mitigate1976#"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/8bc9d14c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Finnhafen69!"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/770ed817.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/770ed817.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_AW91XoSshlTqOM0gCf8Kb5HQNV5oguTAzhqw"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/40d9c9dc.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "65, 49, 79, 81, 107, 121, 57, 98, 57, 108, 57, 108, 87, 98, 99, 116, 67, 100, 117, 121, 67, 79, 80, 100, 117, 65, 109, 97, 81, 56, 89, 113",
+    "A1OQky9b9l9lWbctCduyCOPduAmaQ8Yq"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/40d9c9dc.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "david.wolf@acme-corp.de"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/00a4ca78.go",
+   "line": 20,
+   "whole_line": "\t//API_V1       = API_BASE_URL + \"api/v1/\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/00a4ca78.go",
+   "line": 21,
+   "whole_line": "\t//API_V3       = API_BASE_URL + \"api/v3/\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/00a4ca78.go",
+   "line": 184,
+   "whole_line": "\t\tApiKey:       api_key,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/00a4ca78.go",
+   "line": 185,
+   "whole_line": "\t\tApiSecretKey: secret_key})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/00a4ca78.go",
+   "line": 198,
+   "whole_line": "\t\tsecretKey:  config.ApiSecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/00a4ca78.go",
+   "line": 335,
+   "whole_line": "\t\tmap[string]string{\"X-MBX-APIKEY\": bn.accessKey})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/00a4ca78.go",
+   "line": 531,
+   "whole_line": "\tapiUrl := bn.apiV3 + \"historicalTrades?\" + param.Encode()",
+   "source": "creddata"
+  },
+  {
+   "file": "_/00a4ca78.go",
+   "line": 533,
+   "value": "bn.accessKey})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/08fba930.go",
+   "line": 55,
+   "whole_line": "\t\tmap[string]string{\"X-MBX-APIKEY\": w.ba.accessKey})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/08fba930.go",
+   "line": 82,
+   "value": "w.ba.accessKey})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/08fba930.go",
+   "line": 104,
+   "value": "w.ba.accessKey})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/2c9566ed.go",
+   "line": 20,
+   "whole_line": "\tOK_ACCESS_KEY        = \"OK-ACCESS-KEY\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/353aa75d.go",
+   "line": 31,
+   "whole_line": "\treturn &CoinBig{accessKey: api_key, secretKey: secret_key, httpClient: client}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/353aa75d.go",
+   "line": 39,
+   "whole_line": "\ts, _ := GetParamMD5Sign(cb.secretKey, encodeWithoutEscape(*params)+fmt.Sprintf(\"&secret_key=%s\", cb.secretKey))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/353aa75d.go",
+   "line": 46,
+   "whole_line": "\tapi_url := API_BASE_URL + \"/api/publics/v1/userinfo\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/353aa75d.go",
+   "line": 105,
+   "whole_line": "\tapi_url := API_BASE_URL + \"/api/publics/v1/trade\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4c2fad54.go",
+   "line": 34,
+   "whole_line": "\t\t\tsecretKey:  config.ApiSecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4c2fad54.go",
+   "line": 40,
+   "whole_line": "\t\t\tApiKey:       config.ApiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4c2fad54.go",
+   "line": 41,
+   "value": "config.ApiSecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4c2fad54.go",
+   "line": 216,
+   "whole_line": "\tapiUrl := bs.apiV1 + \"historicalTrades?\" + param.Encode()",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4c2fad54.go",
+   "line": 218,
+   "whole_line": "\t\t\"X-MBX-APIKEY\": bs.accessKey})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4c2fad54.go",
+   "line": 297,
+   "value": "bs.accessKey})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4c2fad54.go",
+   "line": 368,
+   "value": "bs.accessKey})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/53b37171.go",
+   "line": 23,
+   "whole_line": "\tapiURLV1 string = baseURL + \"/v1\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/53b37171.go",
+   "line": 24,
+   "whole_line": "\tapiURLV2 string = baseURL + \"/v2\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/53b37171.go",
+   "line": 63,
+   "value": "%s/book/%s?limit_bids=%d&limit_asks=%d",
+   "source": "creddata"
+  },
+  {
+   "file": "_/53b37171.go",
+   "line": 102,
+   "value": "%s/candles/trade:%s:%s/hist?limit=%d",
+   "source": "creddata"
+  },
+  {
+   "file": "_/53b37171.go",
+   "line": 319,
+   "value": "%d.2",
+   "source": "creddata"
+  },
+  {
+   "file": "_/53b37171.go",
+   "line": 331,
+   "whole_line": "\t\t\"X-BFX-APIKEY\":    bfx.accessKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/556918e1.go",
+   "line": 23,
+   "whole_line": "\tAPI_V2       = \"api/2/\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/63529958.go",
+   "line": 13,
+   "whole_line": "\t\tApiKey:        apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/63529958.go",
+   "line": 14,
+   "whole_line": "\t\tApiSecretKey:  apiSecret,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/63529958.go",
+   "line": 26,
+   "whole_line": "\t\tapiKey:        config.ApiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/63529958.go",
+   "line": 27,
+   "whole_line": "\t\tapiSecret:     config.ApiSecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/63529958.go",
+   "line": 28,
+   "value": "config.ApiPassphrase",
+   "source": "creddata"
+  },
+  {
+   "file": "_/74ed7692.go",
+   "line": 42,
+   "whole_line": "\tb1.secretKey = secret_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7c41caf6.go",
+   "line": 29,
+   "whole_line": "\treturn &Bithumb{client: client, accesskey: accesskey, secretkey: secretkey}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/83a2b2f5.go",
+   "line": 19,
+   "whole_line": "\treturn &Bittrex{client: client, accesskey: accesskey, secretkey: secretkey, baseUrl: \"https://bittrex.com/api/v1.1\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a5e679b7.go",
+   "line": 21,
+   "whole_line": "\tTICKER_API   = \"ticker?currency=%s\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a5e679b7.go",
+   "line": 22,
+   "value": "depth?currency=%s",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a5e679b7.go",
+   "line": 25,
+   "value": "getBalance",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a5e679b7.go",
+   "line": 30,
+   "whole_line": "\tWITHDRAW_API              = \"withdraw\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c7b692b1.go",
+   "line": 18,
+   "whole_line": "\tTICKER_API = \"ticker?market=%s\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c7b692b1.go",
+   "line": 27,
+   "whole_line": "\tWITHDRAW_API              = \"withdraw\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d8d87df6.go",
+   "line": 92,
+   "whole_line": "\t\tapikey: config.ApiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d8d87df6.go",
+   "line": 243,
+   "whole_line": "\t\t\"X-MBX-APIKEY\": bs.apikey})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d8d87df6.go",
+   "line": 308,
+   "value": "bs.apikey})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d8d87df6.go",
+   "line": 508,
+   "whole_line": "\t\t\t\"X-MBX-APIKEY\": bs.apikey,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/db92ffda.go",
+   "line": 73,
+   "whole_line": "\thbpro.secretKey = config.ApiSecretKey",
+   "source": "creddata"
+  },
+  {
+   "file": "_/db92ffda.go",
+   "line": 100,
+   "whole_line": "\thbpro.secretKey = secretkey",
+   "source": "creddata"
+  },
+  {
+   "file": "api/21dc9dca.go",
+   "line": 21,
+   "value": "EX_ERR_1000",
+   "source": "creddata"
+  },
+  {
+   "file": "api/21dc9dca.go",
+   "line": 23,
+   "whole_line": "\tEX_ERR_NOT_FIND_SECRETKEY    = ApiError{ErrCode: \"EX_ERR_0002\", ErrMsg: \"not find secretkey\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "api/21dc9dca.go",
+   "line": 24,
+   "value": "EX_ERR_0003",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 160,
+   "whole_line": "\tbuilder.apiKey = key",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 165,
+   "value": "key",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 195,
+   "whole_line": "\t//\t_api = okcoin.New(builder.client, builder.apiKey, builder.secretkey)",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 199,
+   "whole_line": "\t//\t_api = okcoin.NewCOM(builder.client, builder.apiKey, builder.secretkey)",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 203,
+   "whole_line": "\t\t//_api = huobi.NewHuoBiProSpot(builder.client, builder.apiKey, builder.secretkey)",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 207,
+   "whole_line": "\t\t\tApiKey:       builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 208,
+   "whole_line": "\t\t\tApiSecretKey: builder.secretkey})",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 212,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 213,
+   "whole_line": "\t\t\tApiSecretKey:  builder.secretkey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 214,
+   "value": "builder.apiPassphrase",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 222,
+   "whole_line": "\t\t//_api = binance.New(builder.client, builder.apiKey, builder.secretkey)",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 226,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 227,
+   "value": "builder.secretkey})",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 258,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 259,
+   "value": "builder.secretkey})",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 264,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 265,
+   "value": "builder.secretkey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 273,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 274,
+   "value": "builder.secretkey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 275,
+   "value": "builder.apiPassphrase}).OKExFuture",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 280,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 281,
+   "value": "builder.secretkey})",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 286,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 287,
+   "value": "builder.secretkey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 293,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 294,
+   "value": "builder.secretkey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 295,
+   "value": "builder.apiPassphrase}).OKExSwap",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 301,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 302,
+   "value": "builder.secretkey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 309,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 310,
+   "value": "builder.secretkey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 316,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 317,
+   "value": "builder.secretkey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 361,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 362,
+   "value": "builder.secretkey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 363,
+   "value": "builder.apiPassphrase",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 369,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 370,
+   "value": "builder.secretkey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 376,
+   "value": "builder.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/c79b11f4.go",
+   "line": 377,
+   "value": "builder.secretkey,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f7bafd37.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "test/f7bafd37.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "noreply@github.com"
+  },
+  {
+   "file": "test/f7bafd37.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "<password>"
+  },
+  {
+   "file": "src/cb9be1a5.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/nordwind/reports/staging"
+  },
+  {
+   "file": "src/cb9be1a5.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "BILLING_CLIENT_SECRET"
+  },
+  {
+   "file": "src/cb9be1a5.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "src/cb9be1a5.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/var/run/secrets/crm/token"
+  },
+  {
+   "file": "src/cb9be1a5.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "HS256"
+  },
+  {
+   "file": "src/cb9be1a5.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "src/cb9be1a5.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "147984056298-r3olfhzhnyz0d4di1mywx0uvz9z7lm91.apps.googleusercontent.com"
+  },
+  {
+   "file": "src/cb9be1a5.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2023-07-16T00:00:00Z"
+  },
+  {
+   "file": "src/cb9be1a5.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "ledger-db-credentials"
+  },
+  {
+   "file": "src/cb9be1a5.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6MTk0NDQ6b2Zmc2V0OjE2OQ=="
+  },
+  {
+   "file": "other/8a309e62.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "other/8a309e62.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.15.41"
+  },
+  {
+   "file": "other/8a309e62.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "315253255e0367f25b43de94d1c889e63398834e"
+  },
+  {
+   "file": "other/8a309e62.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "81b0a1d0-133d-43da-a92c-f4a6cf1d059f"
+  },
+  {
+   "file": "test/8bc9d14c.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "suit8"
+  },
+  {
+   "file": "test/8bc9d14c.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kasse"
+  },
+  {
+   "file": "test/8bc9d14c.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "External Rollback 4.10"
+  },
+  {
+   "file": "test/8bc9d14c.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "metrics"
+  },
+  {
+   "file": "test/8bc9d14c.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "kasse"
+  },
+  {
+   "file": "test/8bc9d14c.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "plumbing-voltage-eu"
+  },
+  {
+   "file": "src/770ed817.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "1.21.4"
+  },
+  {
+   "file": "src/770ed817.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "9.29.38"
+  },
+  {
+   "file": "src/770ed817.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-B3le/cloUSVzU/MnSIm2uluBCUGv4JGUK6cPFNr2z6WWmLhmhUgOHhdhzZmkiK9uZ+E/zIbBKbruSJ0ZtLl8UA=="
+  },
+  {
+   "file": "src/770ed817.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9.20.12"
+  },
+  {
+   "file": "src/770ed817.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-ctEcOp5MBFSWEDk8Ftj+buZMYGE9kEDpJwmZUoErlrSnJ1cAFANfdHPNm9TX3bYfrQcWKZxqAgrpP7Ao5tXhNA=="
+  },
+  {
+   "file": "src/770ed817.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "5.5.41"
+  },
+  {
+   "file": "src/770ed817.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-yu8aIGR5eTfWQBQHFpszLjqWZMOdRSOZc6xRQ22xA5O3LonaqiUnKhftsIptRMI9acnHEV39Ds4QaSIHS6xtBg=="
+  },
+  {
+   "file": "src/40d9c9dc.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "110, 111, 45, 99, 97, 99, 104, 101, 44, 110, 111, 45, 115, 116, 111, 114, 101"
+  },
+  {
+   "file": "src/40d9c9dc.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "aGVsbG9fd29ybGRfdGVzdA=="
+  },
+  {
+   "file": "src/40d9c9dc.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "6170706c69636174696f6e2f6a736f6e"
+  },
+  {
+   "file": "src/40d9c9dc.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "src/40d9c9dc.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "hello@acme-corp.de"
+  }
+ ]
+}

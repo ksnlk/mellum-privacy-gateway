@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://grafana.pinegrid-corp.de/api/v3/invoices?page=2
+Authorization: Basic Z3JhZmFuYTpUQGxseTYw
+Cookie: _ga=GA1.2.6S0HY6UUN4UY9LY4EU882IBUY0; session_id=hrybrr1cjihz8ywd9iqzdsyce5hkpo4g
+X-Request-Id: 28e5f1d1-bd74-4446-98a5-9db386cdb425
+
+### the docs example, safe to share
+GET https://api.stripe.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2015-06-23",
+    "endpointPrefix":"devicefarm",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"AWS Device Farm",
+    "serviceId":"Device Farm",
+    "signatureVersion":"v4",
+    "targetPrefix":"DeviceFarm_20150623",
+    "uid":"devicefarm-2015-06-23"
+  },
+  "operations":{
+    "CreateDevicePool":{
+      "name":"CreateDevicePool",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"CreateDevicePoolRequest"},
+      "output":{"shape":"CreateDevicePoolResult"},
+      "errors":[
+        {"shape":"ArgumentException"},
+        {"shape":"NotFoundException"},
+        {"shape":"LimitExceededException"},
+        {"shape":"ServiceAccountException"}
+      ],
+      "documentation":"<p>Creates a device pool.</p>"

@@ -1,0 +1,882 @@
+{
+ "repo": "c25fb835",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "secret/0298c785.yml",
+   "line": 8,
+   "start": 28,
+   "end": 40,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "zXCns6awofL="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "secret/0298c785.yml",
+   "line": 10,
+   "start": 16,
+   "end": 32,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "me6beTWzu7U4i0Yd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "secret/0ea8ab87.yml",
+   "line": 7,
+   "start": 15,
+   "end": 27,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "hGOii3wsciW="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "secret/0ea8ab87.yml",
+   "line": 9,
+   "start": 11,
+   "end": 67,
+   "category": "Auth:Key",
+   "mutation": "none",
+   "forms": [
+    "DUY4GJZwSKWnVqY3LURyAQU5QdDwFZDvVNU8UvOzG8YnOOjoGMZ5JT=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "secret/0ea8ab87.yml",
+   "line": 10,
+   "start": 15,
+   "end": 71,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "UEQ8HCJfZMPhEmK3KJYhLEY4IdUcTIAyEEP4LsQuC4ZxKDkuTEZ4LU=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "secret/0ea8ab87.yml",
+   "line": 11,
+   "start": 10,
+   "end": 66,
+   "category": "Auth:Key",
+   "mutation": "rename",
+   "forms": [
+    "JLE6DMIjTQTcAeB2UEMgEAL0WlGpYIYiNSY5PeKnE0WnNYleAKA0IY=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "secret/0ea8ab87.yml",
+   "line": 12,
+   "start": 12,
+   "end": 68,
+   "category": "Key:Nonce",
+   "mutation": "none",
+   "forms": [
+    "XBN6VYMmUAXsIjZ7RHUqECE7AcJuHTFjAEE7HoHmH5JcVSxyPBK4UO=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "secret/0ea8ab87.yml",
+   "line": 13,
+   "start": 12,
+   "end": 68,
+   "category": "Auth:Salt",
+   "mutation": "none",
+   "forms": [
+    "FLV7KIHjDYAjLpZ7DINdTBW8YqQhVRHiJAB9RyCrE9QpZLhxYPP7Jx=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "secret/0ea8ab87.yml",
+   "line": 14,
+   "start": 15,
+   "end": 71,
+   "category": "Auth:Salt",
+   "mutation": "rename",
+   "forms": [
+    "TNH2JBCiVSUcHaD0OXQgUKG8ZlHnOQNoIJW3SnXoI7KoHUrpXHC2Rc=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "secret/0ea8ab87.yml",
+   "line": 16,
+   "start": 49,
+   "end": 105,
+   "category": "Salt",
+   "mutation": "comment",
+   "forms": [
+    "EKE6CTPdRWBiLdZ9EUPjTOR7TdIkHXRxLKL2QzVqZ5XhSDzoZID3WR=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "secret/0ea8ab87.yml",
+   "line": 17,
+   "start": 13,
+   "end": 69,
+   "category": "Nonce:Salt",
+   "mutation": "none",
+   "forms": [
+    "JNO6KJHsWDLyTqF0PNHjQXB7XbQuYBTuFQM0MeAzK5CeOKrpNEI0KX=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "secret/c0c412f9.yml",
+   "line": 8,
+   "start": 28,
+   "end": 40,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "sICul7vcyeH="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "secret/e194e1c4.yml",
+   "line": 7,
+   "start": 28,
+   "end": 40,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "dHBjs4fxcxD="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "other/18a1a2ba.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/18a1a2ba.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "135.107.158.226"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/18a1a2ba.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "felix94@gmail.com"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/18a1a2ba.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.j3suss3k6txz.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/18a1a2ba.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "awa-continue-exhaust-schalke"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/fe5a98d7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Clara Wagner"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/fe5a98d7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sofia.becker@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/fe5a98d7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 4610 9255"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/fe5a98d7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Nico Fischer"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "_/fe5a98d7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "eva.schmidt [at] pinegrid-corp [dot] de"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "_/fe5a98d7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE98424091428009138713"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "_/fe5a98d7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Anna Wagner"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "_/fe5a98d7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Rosenheimer Str. 78, 61568 Augsburg"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "_/fe5a98d7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "85.30.249.99"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "_/d1af87f7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "s.wolf@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "_/d1af87f7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 5257 9290"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "_/d1af87f7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Baumkuchen96?"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "_/d1af87f7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE46106801074402893382"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "test/f66e5e37.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.gppc85e5amhm.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "test/f66e5e37.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Continuou",
+    "Continuous1968!",
+    "s1968!"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "src/df8ca3a8.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "52, 117, 81, 118, 84, 77, 116, 54, 110, 118, 102, 54, 120, 54, 57, 71, 51, 113, 122, 72, 104, 115, 98, 102, 117, 77, 57, 99, 105, 52, 112, 118",
+    "4uQvTMt6nvf6x69G3qzHhsbfuM9ci4pv"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "src/df8ca3a8.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "jonas.mueller@acme-corp.de"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "test/5c491193.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "test/5c491193.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_RrRKANQO6T0oyaHDQY6ifJxzik870YfABO0Z"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/2b572cdd.yaml",
+   "line": 1,
+   "whole_line": "apiVersion: skaffold/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4bae2c06.yml",
+   "line": 34,
+   "whole_line": "            key: database",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4be2293f.md",
+   "line": 6,
+   "whole_line": "aws ec2 create-volume --size 10 --region your-region --availability-zone your-zone --volume-type gp2 --tag-specifications 'ResourceType=volume, Tags=[{Key= KubernetesCluster, Value=kubernetes.domain.tld}]'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/54614e94.yaml",
+   "line": 25,
+   "whole_line": "  #  - secretName: chart-example-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5dcea0ac.yaml",
+   "line": 1,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5dcea0ac.yaml",
+   "line": 22,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5dcea0ac.yaml",
+   "line": 37,
+   "whole_line": "      - key: \"type\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/765e18d9.yml",
+   "line": 1,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/765e18d9.yml",
+   "line": 33,
+   "whole_line": "                key: authkey",
+   "source": "creddata"
+  },
+  {
+   "file": "_/765e18d9.yml",
+   "line": 38,
+   "whole_line": "                key: loggedinkey",
+   "source": "creddata"
+  },
+  {
+   "file": "_/765e18d9.yml",
+   "line": 43,
+   "whole_line": "                key: secureauthkey",
+   "source": "creddata"
+  },
+  {
+   "file": "_/765e18d9.yml",
+   "line": 48,
+   "whole_line": "                key: noncekey",
+   "source": "creddata"
+  },
+  {
+   "file": "_/765e18d9.yml",
+   "line": 53,
+   "whole_line": "                key: authsalt",
+   "source": "creddata"
+  },
+  {
+   "file": "_/765e18d9.yml",
+   "line": 58,
+   "whole_line": "                key: secureauthsalt",
+   "source": "creddata"
+  },
+  {
+   "file": "_/765e18d9.yml",
+   "line": 63,
+   "whole_line": "                key: loggedinsalt",
+   "source": "creddata"
+  },
+  {
+   "file": "_/765e18d9.yml",
+   "line": 68,
+   "whole_line": "                key: noncesalt",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a84dd0c1.md",
+   "line": 15,
+   "whole_line": "helm upgrade --set image.tag=v0.0.2,mariadb.db.password=$DB_APP_PASS RELEASE .",
+   "source": "creddata"
+  },
+  {
+   "file": "example/69eee04a.yml",
+   "line": 1,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/69eee04a.yml",
+   "line": 39,
+   "whole_line": "apiVersion: autoscaling/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/69eee04a.yml",
+   "line": 45,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "init/119b8aac.yaml",
+   "line": 1,
+   "whole_line": "apiVersion: apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "init/119b8aac.yaml",
+   "line": 28,
+   "whole_line": "              - key: team",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/8f72f523.yml",
+   "line": 114,
+   "value": "rbac.authorization.k8s.io",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/8f72f523.yml",
+   "line": 122,
+   "whole_line": "apiVersion: batch/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "secret/0298c785.yml",
+   "line": 9,
+   "value": "vault-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "secret/0298c785.yml",
+   "line": 11,
+   "value": "Proxy-Authorization",
+   "source": "creddata"
+  },
+  {
+   "file": "secret/0ea8ab87.yml",
+   "line": 15,
+   "value": "pbkdf2_sha256",
+   "source": "creddata"
+  },
+  {
+   "file": "secret/4bcea99a.yml",
+   "line": 1,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "secret/4bcea99a.yml",
+   "line": 28,
+   "value": "db-secrets",
+   "source": "creddata"
+  },
+  {
+   "file": "secret/e194e1c4.yml",
+   "line": 8,
+   "value": "2023-11-21T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "server/f6fa1a87.go",
+   "line": 48,
+   "whole_line": "\t\tAPIVersion: \"admission.k8s.io/v1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "other/18a1a2ba.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "docs.quarzo-corp.de"
+  },
+  {
+   "file": "other/18a1a2ba.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.quarzo-corp.de"
+  },
+  {
+   "file": "other/18a1a2ba.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/18a1a2ba.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "other/18a1a2ba.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "other/18a1a2ba.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "other/18a1a2ba.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "billing@quarzo-corp.de"
+  },
+  {
+   "file": "other/18a1a2ba.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "R0VUL2hlYWx0aHo="
+  },
+  {
+   "file": "other/18a1a2ba.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "656e2d55532c656e3b713d302e39"
+  },
+  {
+   "file": "other/18a1a2ba.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "_/fe5a98d7.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "press@pinegrid-corp.de"
+  },
+  {
+   "file": "_/fe5a98d7.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "privacy@pinegrid-corp.de"
+  },
+  {
+   "file": "_/fe5a98d7.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 (555) 0138"
+  },
+  {
+   "file": "_/fe5a98d7.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "_/fe5a98d7.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "_/fe5a98d7.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "_/fe5a98d7.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "_/fe5a98d7.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "_/d1af87f7.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "_/d1af87f7.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "jane.doe@example.org"
+  },
+  {
+   "file": "_/d1af87f7.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "test/f66e5e37.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "c5b539e05875c3685177b6fbae8dc321380195da"
+  },
+  {
+   "file": "test/f66e5e37.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "test/f66e5e37.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.github.com"
+  },
+  {
+   "file": "src/df8ca3a8.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110"
+  },
+  {
+   "file": "src/df8ca3a8.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "dXNlci1hZ2VudDpjdXJsLzguNC4w"
+  },
+  {
+   "file": "src/df8ca3a8.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "746578742f706c61696e3b636861727365743d7574662d38"
+  },
+  {
+   "file": "src/df8ca3a8.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "src/df8ca3a8.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@acme-corp.de"
+  },
+  {
+   "file": "test/5c491193.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "9.5.12"
+  },
+  {
+   "file": "test/5c491193.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4.5.9"
+  },
+  {
+   "file": "test/5c491193.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-YAX9UD9nxHedj9MAoB0YIQQuDasv0LnRifyK1bOR6F3mldgNVt9yHgIpqtPH8uV6+jJ2pf8FUuPM1LPhfQVkNQ=="
+  },
+  {
+   "file": "test/5c491193.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "2.17.40"
+  },
+  {
+   "file": "test/5c491193.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-mAHqSB8TIo1KUuPwSsk19ZDFmV1zitWmJEDgILcZsuFqQEB4ji3CP7F7NoS4eu6hZ71BT/u2TFVIPa7hUqDTeg=="
+  },
+  {
+   "file": "test/5c491193.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "3.4.26"
+  },
+  {
+   "file": "test/5c491193.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-YPGxW0MbHM0aG4BaNj8D6kd9mPrw6vPoN8s5PdwsyYlFhoinDqjCMssCd9qLfH1KHzeuSeovrLhVzVE4oba/sw=="
+  }
+ ]
+}

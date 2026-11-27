@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://billing-api-02.prod.vantor-internal.net/api/v3/invoices?page=2
+Authorization: Basic Z3JhZmFuYTpDb2xsZWN0ZWQxOTg0Lg==
+Cookie: _ga=GA1.2.OJ0AEWBF5D21QBHGCCXH4EDYOD; session_id=52k6u09mbyq1xpdo2621meibdmsjs40d
+X-Request-Id: e772c85f-e235-4e71-8c59-0dd7beacc53d
+
+### the docs example, safe to share
+GET https://auth0.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

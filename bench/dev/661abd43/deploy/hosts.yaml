@@ -1,0 +1,15 @@
+monitoring: falkor.nordwind.net
+database:
+  host: nimbus.nordwind.net
+  port: 5432
+queue: atlas.nordwind.net
+backup_target: kestrel.nordwind.net
+website: portal.nordwind.net
+payments_api: https://api.mailvault.com/v2
+partner_drop: files.mailvault.de
+allow_sources:
+  - 178.236.80.163
+  - 185.199.108.153
+  - 178.4.111.28
+ntp: 131.188.3.220
+mirrors: [gitlab.gnome.org, gitlab.freedesktop.org]

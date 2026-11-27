@@ -1,0 +1,1406 @@
+{
+ "repo": "1d8ec728",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "doc/2efd6594.md",
+   "line": 150,
+   "start": 78,
+   "end": 86,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "kdncvjnc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "doc/f8e3b441.md",
+   "line": 272,
+   "start": 9,
+   "end": 35,
+   "category": "AWS S3 Bucket",
+   "mutation": "none",
+   "forms": [
+    "ow-spmhgi.p0.manhattan.bim"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "src/util/6694caa9.php",
+   "line": 210,
+   "start": 43,
+   "end": 49,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "qydex1"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/util/2420b207.php",
+   "line": 227,
+   "start": 30,
+   "end": 50,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "VUFDWl9ES05ETUpLRA==",
+    "UACZ_DKNDMJKD"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/util/62153845.php",
+   "line": 198,
+   "start": 117,
+   "end": 129,
+   "category": "Auth",
+   "mutation": "none",
+   "forms": [
+    "wS67BOnsUS=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/util/62153845.php",
+   "line": 206,
+   "start": 44,
+   "end": 56,
+   "category": "Auth",
+   "mutation": "comment",
+   "forms": [
+    "rB60SMpdEG=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/util/9a6d8adf.php",
+   "line": 106,
+   "start": 59,
+   "end": 65,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "u%06qf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/util/9a6d8adf.php",
+   "line": 109,
+   "start": 60,
+   "end": 72,
+   "category": "Auth:Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "u6z7dFfwKACx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/util/bda46dd0.php",
+   "line": 26,
+   "start": 29,
+   "end": 41,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "gkjyzwtt_dic"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "test/util/dda1f668.php",
+   "line": 163,
+   "start": 56,
+   "end": 68,
+   "category": "Auth:Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "mBmvczrgDPKk"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "src/a88c7a89.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.16.199.252"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/a88c7a89.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.s9024c.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/a88c7a89.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TXK4EOZSE/BN5H7V6G6LP/EwrVOzG9gDWkdRYHg89sVNzi"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/31d149c9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_2Oc7PZC65NVvsAhvu11sKkPP"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/31d149c9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "p3Y5yV5k3SO46u3g1FerlkyXRdyEJWZN"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/31d149c9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "bml0a2pwazhvZXppdW1yNjVxN3RtMGp1Y3Z1d3Z0bHk=",
+    "nitkjpk8oeziumr65q7tm0jucvuwvtly"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/f235ee0a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "n.hartmann@nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/f235ee0a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 5007 4039"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/f235ee0a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Hasejulia93?"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "test/f235ee0a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE05682343054106908101"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/d397856e.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "88, 76, 120, 106, 75, 49, 48, 50, 117, 111, 114, 89, 103, 97, 51, 48, 103, 55, 54, 80, 73, 88, 103, 55, 70, 73, 79, 107, 76, 115, 121, 83",
+    "XLxjK102uorYga30g76PIXg7FIOkLsyS"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/d397856e.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lukas.hoffmann@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "src/e36be904.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-primary.kelpie.cloud"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "src/e36be904.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "159.60.133.231"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "src/e36be904.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lea.koch@kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "src/e36be904.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-replica.kelpie.cloud"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "src/e36be904.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "wed-doug-zip-donner"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "other/a680f056.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-prod.wbl51wzd514c.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "other/a680f056.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "boruss",
+    "borussia673!",
+    "ia673!"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.147.52.0/24"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.147.52.66"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.147.52.149"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Lina Weber"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "lina.weber@gmail.com"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 3262764"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Clara Braun"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "clara.braun@t-online.de"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 4114747"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/73a1d6dd.yml",
+   "line": 46,
+   "whole_line": "          key: \"php-${{ matrix.php-version }}-symfony-php-unit-version-${{ env.SYMFONY_PHPUNIT_VERSION }}-${{ hashFiles('**/composer.lock') }}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/73a1d6dd.yml",
+   "line": 47,
+   "value": "php-${{ matrix.php-version }}-symfony-php-unit-version-${{ env.SYMFONY_PHPUNIT_VERSION }}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f37acfaa.lock",
+   "line": 1610,
+   "whole_line": "    \"plugin-api-version\": \"2.1.0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/doc/89992649.md",
+   "line": 109,
+   "whole_line": " \"token\": \"privatetoken\"}}` will use both username and token for gitlab deploy",
+   "source": "creddata"
+  },
+  {
+   "file": "doc/2efd6594.md",
+   "line": 164,
+   "value": "password",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0ad46c42.php",
+   "line": 62,
+   "whole_line": "    public function setAuthentication($repositoryName, $username, $password = null)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0ad46c42.php",
+   "line": 94,
+   "whole_line": "            if ($auth['username'] === $username && $auth['password'] === $password) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0ad46c42.php",
+   "line": 122,
+   "whole_line": "        foreach ($bitbucketOauth as $domain => $cred) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0ad46c42.php",
+   "line": 140,
+   "whole_line": "            $username = is_array($token) && array_key_exists(\"username\", $token) ? $token[\"username\"] : $token;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0ad46c42.php",
+   "line": 141,
+   "whole_line": "            $password = is_array($token) && array_key_exists(\"token\", $token) ? $token[\"token\"] : 'private-token';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4bb44830.php",
+   "line": 157,
+   "whole_line": "                    $this->warnings[] = 'authors.'.$key.'.email : invalid value ('.$author['email'].'), must be a valid email address';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4bb44830.php",
+   "line": 503,
+   "whole_line": "                $this->errors[] = $property.'.'.$key.' : must be a string or int, '.gettype($value).' given';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7158c4ae.php",
+   "line": 35,
+   "whole_line": "    const PLUGIN_API_VERSION = '2.1.0';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7d07a267.php",
+   "line": 97,
+   "whole_line": "        $key = (string) $constraint;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8d4dbd5d.php",
+   "line": 85,
+   "whole_line": "        if (false !== ($key = array_search($installer, $this->installers, true))) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c3be6f29.php",
+   "line": 733,
+   "whole_line": "                $key = array_search($installedVersion, $versions);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/5473790d.php",
+   "line": 280,
+   "whole_line": "                    $key = isset($key) ? $key.'.'.$bit : $bit;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/5473790d.php",
+   "line": 821,
+   "whole_line": "            if (is_array($value) && (!is_numeric(key($value)) || ($key === 'repositories' && null === $k))) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/init/41bdecfc.php",
+   "line": 782,
+   "whole_line": "        $key = $minimumStability ?: 'default';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/1fd52c2c.php",
+   "line": 86,
+   "whole_line": "            $this->p4Password = $repoConfig['p4password'];",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/1fd52c2c.php",
+   "line": 266,
+   "whole_line": "        $password = $this->getP4variable('P4PASSWD');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/1fd52c2c.php",
+   "line": 268,
+   "whole_line": "            $password = $this->io->askAndHideAnswer('Enter password for Perforce user ' . $this->getUser() . ': ');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/1fd52c2c.php",
+   "line": 392,
+   "whole_line": "            $password = $this->queryP4Password();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/4d59fdc8.php",
+   "line": 109,
+   "whole_line": "        // e.g. https://api.github.com/repositories/9999999999?access_token=github_token",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/6694caa9.php",
+   "line": 44,
+   "whole_line": "        } elseif ($storeAuth === 'prompt') {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/6694caa9.php",
+   "line": 179,
+   "whole_line": "            $password = $this->io->askAndHideAnswer('      Password: ');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/6694caa9.php",
+   "line": 198,
+   "whole_line": "            if ($auth['password'] === 'bearer') {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/6694caa9.php",
+   "line": 208,
+   "whole_line": "                && in_array($auth['password'], array('oauth2', 'private-token', 'gitlab-ci-token'), true)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/6694caa9.php",
+   "line": 214,
+   "value": ".$auth[",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/be66b8c8.php",
+   "line": 33,
+   "whole_line": "    /** @var array{access_token: string, expires_in?: int}|null */",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/be66b8c8.php",
+   "line": 106,
+   "whole_line": "            $token = $response->decodeJson();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/be66b8c8.php",
+   "line": 111,
+   "whole_line": "            $this->token = $token;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/be66b8c8.php",
+   "line": 154,
+   "whole_line": "        $consumerKey = trim($this->io->askAndHideAnswer('Consumer Key (hidden): '));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/be66b8c8.php",
+   "line": 163,
+   "whole_line": "        $consumerSecret = trim($this->io->askAndHideAnswer('Consumer Secret (hidden): '));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/be66b8c8.php",
+   "line": 238,
+   "whole_line": "            \"access-token-expiration\" => $time + $this->token['expires_in'],",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/be66b8c8.php",
+   "line": 259,
+   "whole_line": "        $this->token = array(",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/c0323a68.php",
+   "line": 92,
+   "whole_line": "            $username = is_array($token) && array_key_exists(\"username\", $token) ? $token[\"username\"] : $token;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/c0323a68.php",
+   "line": 93,
+   "whole_line": "            $password = is_array($token) && array_key_exists(\"token\", $token) ? $token[\"token\"] : 'private-token';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/c0323a68.php",
+   "line": 166,
+   "whole_line": "        $password = $this->io->askAndHideAnswer('Password: ');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/dd5b1f87.php",
+   "line": 93,
+   "whole_line": "        $url = 'https://'.$originUrl.'/settings/tokens/new?scopes=repo&description=' . str_replace('%20', '+', rawurlencode($note));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/dd5b1f87.php",
+   "line": 97,
+   "whole_line": "        $token = trim($this->io->askAndHideAnswer('Token (hidden): '));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/ebc17e86.php",
+   "line": 187,
+   "whole_line": "                    if ($auth['password'] === 'private-token' || $auth['password'] === 'oauth2' || $auth['password'] === 'gitlab-ci-token') {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/ebc17e86.php",
+   "line": 221,
+   "whole_line": "                        'password' => $this->io->askAndHideAnswer('      Password: '),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/ebc17e86.php",
+   "line": 356,
+   "whole_line": "            Platform::putEnv('GIT_ASKPASS', 'echo');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6c7ebbb8.php",
+   "line": 26,
+   "whole_line": "        \"sendgrid/smtpapi\": \"0.0.1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6c7ebbb8.php",
+   "line": 77,
+   "whole_line": "        \"sendgrid/smtpapi\": \"0.0.1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6c7ebbb8.php",
+   "line": 128,
+   "whole_line": "            \"GraphQLAPI\\\\\\\\SchemaFeedback\\\\\\\\\": \"layers/GraphQLAPIForWP/plugins/schema-feedback/src\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6c7ebbb8.php",
+   "line": 179,
+   "whole_line": "            \"GraphQLAPI\\\\\\\\SchemaFeedback\\\\\\\\\": \"layers/GraphQLAPIForWP/plugins/schema-feedback/tests\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6c7ebbb8.php",
+   "line": 230,
+   "value": "layers/GraphQLAPIForWP/plugins/schema-feedback/src",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6c7ebbb8.php",
+   "line": 281,
+   "value": "layers/GraphQLAPIForWP/plugins/schema-feedback/tests",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/b633163f.php",
+   "line": 61,
+   "whole_line": "        $this->assertEquals($expected, $dialog->ask($input, $this->createOutputInterface(), $question), 'confirmation question should '.($expected ? 'pass' : 'cancel'));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ed2ca8ce.php",
+   "line": 673,
+   "whole_line": "API Version => 3001",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ed2ca8ce.php",
+   "line": 844,
+   "whole_line": "API Extensions => pdo_mysql,mysqli',",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ed2ca8ce.php",
+   "line": 853,
+   "whole_line": "Client API version => mysqlnd 5.0.10-dev - 20150407 - $Id: 38fea24f2847fa7519001be390c98ae0acafe387 $",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/290f57bd.json",
+   "line": 10,
+   "whole_line": "        \"composer-plugin-api\": \">=3.0.0 <5.5\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/ba47e392.json",
+   "line": 12,
+   "whole_line": "        \"composer-plugin-api\": \"^2.0.0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/eae698fa.lock",
+   "line": 239,
+   "whole_line": "    \"plugin-api-version\": \"2.0.0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/2420b207.php",
+   "line": 231,
+   "whole_line": "        $password = $this->perforce->queryP4Password();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/2420b207.php",
+   "line": 228,
+   "value": "2026-01-27T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/43cc6424.php",
+   "line": 75,
+   "whole_line": "    public function testRunCommandPrivateGitHubRepositoryNotInitialCloneNotInteractiveWithoutAuthentication()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/43cc6424.php",
+   "line": 101,
+   "whole_line": "    public function testRunCommandPrivateGitHubRepositoryNotInitialCloneNotInteractiveWithAuthentication($gitUrl, $protocol, $gitHubToken, $expectedUrl)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/43cc6424.php",
+   "line": 143,
+   "whole_line": "            array('git@github.com:acme/repo.git', 'ssh', 'MY_GITHUB_TOKEN', 'https://token:MY_GITHUB_TOKEN@github.com/acme/repo.git'),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/43cc6424.php",
+   "line": 144,
+   "whole_line": "            array('https://github.com/acme/repo', 'https', 'MY_GITHUB_TOKEN', 'https://token:MY_GITHUB_TOKEN@github.com/acme/repo.git'),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/62153845.php",
+   "line": 73,
+   "whole_line": "            'header' => array('User-Agent: foo', \"Proxy-Authorization: Basic \" . base64_encode('username:p@ssword')),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/62153845.php",
+   "line": 81,
+   "value": "3128/",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/62153845.php",
+   "line": 97,
+   "value": "3128/",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/62153845.php",
+   "line": 113,
+   "value": "3128/",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/62153845.php",
+   "line": 218,
+   "value": "3128/",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/62153845.php",
+   "line": 233,
+   "value": "3128/",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/632248a1.php",
+   "line": 48,
+   "value": "test",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/83fd9a06.php",
+   "line": 74,
+   "whole_line": "            array('https://foo:***@example.org/', 'https://foo:bar@example.org/'),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/83fd9a06.php",
+   "line": 77,
+   "whole_line": "            array('http://***:***@example.org', 'http://10a8f08e8d7b7b9:foo@example.org'),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/83fd9a06.php",
+   "line": 78,
+   "whole_line": "            array('https://foo:***@example.org:123/', 'https://foo:bar@example.org:123/'),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/94779cbb.php",
+   "line": 140,
+   "whole_line": "        $authjson = $this",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/bda46dd0.php",
+   "line": 116,
+   "whole_line": "                        'access-token-expiration' => $this->time + 1800,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/bda46dd0.php",
+   "line": 140,
+   "whole_line": "                        'access-token-expiration' => $this->time - 400,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/bda46dd0.php",
+   "line": 426,
+   "whole_line": "                    \"access-token-expiration\" => $this->time + 3600,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/ed87cf4e.php",
+   "line": 83,
+   "whole_line": "            array('echo https://foo:bar@example.org/', 'echo https://foo:***@example.org/'),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/ed87cf4e.php",
+   "line": 85,
+   "whole_line": "            array('echo http://abcdef1234567890234578:x-oauth-token@github.com/', 'echo http://***:***@github.com/'),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/ed87cf4e.php",
+   "line": 87,
+   "value": "bar ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a88c7a89.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "dfc8538acb0e2cbce964"
+  },
+  {
+   "file": "src/a88c7a89.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "src/a88c7a89.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "1f6ce3e4755d8bc7426137ece555cf78ce120a4a"
+  },
+  {
+   "file": "src/31d149c9.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_vAO9j0nyNJWRGL0CzRYVflwz"
+  },
+  {
+   "file": "src/31d149c9.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "REPORTS_API_KEY"
+  },
+  {
+   "file": "src/31d149c9.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "REPORTS_API_KEY"
+  },
+  {
+   "file": "src/31d149c9.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6Lq9oTe8MaOZY00JDNpL6alFygAi7gLcU3yO0HOq"
+  },
+  {
+   "file": "src/31d149c9.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:H4pdCEy8yE3URHIJHPGNxudjSG5l90ZiYONQjztdobw"
+  },
+  {
+   "file": "src/31d149c9.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "src/31d149c9.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "src/31d149c9.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "src/31d149c9.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "aW52b2ljZTo2MzEzMjpvZmZzZXQ6NDY="
+  },
+  {
+   "file": "test/f235ee0a.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "test/f235ee0a.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "jane.doe@example.org"
+  },
+  {
+   "file": "test/f235ee0a.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "_/d397856e.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "71, 69, 84, 47, 104, 101, 97, 108, 116, 104, 122"
+  },
+  {
+   "file": "_/d397856e.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "dXNlci1hZ2VudDpjdXJsLzguNC4w"
+  },
+  {
+   "file": "_/d397856e.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "656e2d55532c656e3b713d302e39"
+  },
+  {
+   "file": "_/d397856e.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "_/d397856e.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "billing@quarzo-corp.de"
+  },
+  {
+   "file": "src/e36be904.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "help.kelpie-corp.de"
+  },
+  {
+   "file": "src/e36be904.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.kelpie-corp.de"
+  },
+  {
+   "file": "src/e36be904.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "src/e36be904.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "src/e36be904.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "src/e36be904.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "src/e36be904.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "billing@kelpie-corp.de"
+  },
+  {
+   "file": "src/e36be904.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "Q29udGVudC1UeXBl"
+  },
+  {
+   "file": "src/e36be904.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "68656c6c6f5f776f726c645f74657374"
+  },
+  {
+   "file": "src/e36be904.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/a680f056.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "b32489576c56186c97f8256d4a07b7451ad0e718"
+  },
+  {
+   "file": "other/a680f056.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "other/a680f056.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "kunden.pinegrid.systems"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "files.datafjord.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "85.165.106.162"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "gitlab.gnome.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Noah Schmidt"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Ben Wagner"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.pinegrid.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kunden.pinegrid.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.datafjord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "85.165.106.162"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.gnome.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Noah Schmidt"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "noah.schmidt@pinegrid.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "John Doe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "john.doe@example.net"
+  }
+ ]
+}

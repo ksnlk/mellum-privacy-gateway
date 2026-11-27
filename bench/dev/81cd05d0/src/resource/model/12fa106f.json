@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2019-11-01",
+    "endpointPrefix":"compute-optimizer",
+    "jsonVersion":"1.0",
+    "protocol":"json",
+    "serviceFullName":"AWS Compute Optimizer",
+    "serviceId":"Compute Optimizer",
+    "signatureVersion":"v4",
+    "signingName":"compute-optimizer",
+    "targetPrefix":"ComputeOptimizerService",
+    "uid":"compute-optimizer-2019-11-01"
+  },
+  "operations":{
+    "DescribeRecommendationExportJobs":{
+      "name":"DescribeRecommendationExportJobs",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"DescribeRecommendationExportJobsRequest"},
+      "output":{"shape":"DescribeRecommendationExportJobsResponse"},
+      "errors":[
+        {"shape":"OptInRequiredException"},
+        {"shape":"InternalServerException"},
+        {"shape":"ServiceUnavailableException"},
+        {"shape":"AccessDeniedException"},
+        {"shape":"InvalidParameterValueException"},

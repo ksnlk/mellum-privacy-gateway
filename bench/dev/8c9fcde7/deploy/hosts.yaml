@@ -1,0 +1,15 @@
+monitoring: hermes.pinegrid-ops.io
+database:
+  host: kestrel.pinegrid-ops.io
+  port: 5432
+queue: juno.pinegrid-ops.io
+backup_target: atlas.pinegrid-ops.io
+website: shop.pinegrid-ops.io
+payments_api: https://api.datafjord.com/v2
+partner_drop: files.datafjord.de
+allow_sources:
+  - 194.47.5.215
+  - 192.30.252.153
+  - 194.47.60.195
+ntp: 162.159.200.1
+mirrors: [ci.jenkins.io, ci.apache.org]

@@ -1,0 +1,1073 @@
+{
+ "repo": "98800b86",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "build/python/7167d8d8.yml",
+   "line": 65,
+   "start": 33,
+   "end": 41,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "bisgwpdn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "build/python/7167d8d8.yml",
+   "line": 107,
+   "start": 22,
+   "end": 30,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "pqrazlit"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/0f0c24f3.py",
+   "line": 41,
+   "start": 18,
+   "end": 38,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "TXPXBJXRELBUJVDEWWHX"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/0f0c24f3.py",
+   "line": 42,
+   "start": 15,
+   "end": 55,
+   "category": "Secret:Key",
+   "mutation": "rename",
+   "forms": [
+    "NARLMROBNPXVVEHVEOAHTWBDLVMIYVFFPBCYKCHI"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/0f0c24f3.py",
+   "line": 44,
+   "start": 23,
+   "end": 65,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "IQCCJFFBSWHIYTZVKUJHOEGWHYYRHPCXMEXTPUQJYZ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/3ec5c0d9.py",
+   "line": 206,
+   "start": 40,
+   "end": 44,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ybxC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/3ec5c0d9.py",
+   "line": 240,
+   "start": 40,
+   "end": 44,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "neoL"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/3ec5c0d9.py",
+   "line": 274,
+   "start": 40,
+   "end": 44,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ikxJ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/59127764.py",
+   "line": 187,
+   "start": 31,
+   "end": 43,
+   "category": "Basic Authorization",
+   "mutation": "comment",
+   "forms": [
+    "nol8yTdzydxa"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "test/server/f183e636.py",
+   "line": 40,
+   "start": 12,
+   "end": 17,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "xccuf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "test/5e4f459a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Noah Braun"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/5e4f459a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.schmidt@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/5e4f459a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 3151 9732"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/5e4f459a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.26.200.214"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/5e4f459a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "fruehling-reise-vie5"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/6ce4f8cc.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.22.120.67"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/6ce4f8cc.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-cache-09.prod.quarzo-internal.net"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/6ce4f8cc.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "T9PPEDQSI/BBYOCR8A5UG/Nrn4OcuqnGwP3JO3ncrNIGnl"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/9dc0fa47.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm.a7bmdl.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/9dc0fa47.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Feuer$1997"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/9dc0fa47.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "F26qwAtZJZ28XHbX7216KTwYg9wSdeeW"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/9dc0fa47.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "h4puppva2p35cu6viplffc9hl65759uo"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/18bddc61.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_iTRRVoGdRAI50pUj8Zroomok"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "other/18bddc61.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "WnTNYBXUU5eUdENlVA3sLzIrQx08y3Jj"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "other/18bddc61.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "b3dxdmdyaXV4MmlkMHMyZnJienV0NWU0NngzZ3N6djc=",
+    "owqvgriux2id0s2frbzut5e46x3gszv7"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "src/72be9362.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.eplvbnxi81wi.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "src/72be9362.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Z3JhZmFuYTpaYXViZXJraXJzY2hlNzch",
+    "grafana:Zauberkirsche77!"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "src/72be9362.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "5boqmd8hwqao858kbxu9poy9ayqvalhz"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "src/e3bb7ba2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Tobias@2019"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/0450eae0.py",
+   "line": 100,
+   "whole_line": "    password = luigi.Parameter(default='')",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0450eae0.py",
+   "line": 235,
+   "value": "34.0",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0450eae0.py",
+   "line": 242,
+   "whole_line": "        self.security_token = security_token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0450eae0.py",
+   "line": 243,
+   "whole_line": "        self.sb_security_token = sb_token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/137f4881.py",
+   "line": 114,
+   "whole_line": "            aws_secret_access_key = assumed_role['Credentials'].get(",
+   "source": "creddata"
+  },
+  {
+   "file": "_/137f4881.py",
+   "line": 137,
+   "whole_line": "                                      aws_secret_access_key=aws_secret_access_key,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/137f4881.py",
+   "line": 138,
+   "whole_line": "                                      aws_session_token=aws_session_token,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/137f4881.py",
+   "line": 192,
+   "whole_line": "            self.s3.meta.client.delete_object(Bucket=bucket, Key=key)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/137f4881.py",
+   "line": 203,
+   "whole_line": "            delete_key_list.append({'Key': '{}{}'.format(key, S3_DIRECTORY_MARKER_SUFFIX_0)})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/137f4881.py",
+   "line": 256,
+   "whole_line": "            Key=key, Bucket=bucket, Body=content, **kwargs)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/137f4881.py",
+   "line": 277,
+   "whole_line": "            Fileobj=open(local_path, 'rb'), Bucket=bucket, Key=key, Config=transfer_config, ExtraArgs=kwargs)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/137f4881.py",
+   "line": 312,
+   "whole_line": "            'Key': src_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/137f4881.py",
+   "line": 340,
+   "whole_line": "                    'Key': src_prefix + path",
+   "source": "creddata"
+  },
+  {
+   "file": "_/137f4881.py",
+   "line": 447,
+   "whole_line": "        :param return_key: Optional argument, when set to True will return boto3's ObjectSummary (instead of the filename)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/137f4881.py",
+   "line": 475,
+   "whole_line": "        for item in self.listdir(path, start_time=start_time, end_time=end_time, return_key=return_key):",
+   "source": "creddata"
+  },
+  {
+   "file": "_/380c5860.py",
+   "line": 368,
+   "whole_line": "        params.sort(key=lambda t: t[1]._counter)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/43807825.py",
+   "line": 368,
+   "whole_line": "        Returns a dict of key=value settings to be passed along",
+   "source": "creddata"
+  },
+  {
+   "file": "_/43807825.py",
+   "line": 377,
+   "whole_line": "        Returns a dict of key=value settings to be passed along",
+   "source": "creddata"
+  },
+  {
+   "file": "_/52d93d53.py",
+   "line": 106,
+   "whole_line": "    password = luigi.parameter.Parameter(",
+   "source": "creddata"
+  },
+  {
+   "file": "_/63aebe71.py",
+   "line": 871,
+   "whole_line": "            key = (group_name,)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/63aebe71.py",
+   "line": 874,
+   "whole_line": "            key = (group, name)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/63aebe71.py",
+   "line": 1001,
+   "whole_line": "        for key, values in groupby(inputs, key=lambda x: self.internal_serialize(x[0])):",
+   "source": "creddata"
+  },
+  {
+   "file": "_/75aa35b2.py",
+   "line": 65,
+   "whole_line": "        self.options = {\"account_name\": account_name, \"account_key\": account_key, \"sas_token\": sas_token}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/98577ea5.py",
+   "line": 217,
+   "whole_line": "        ordered_tasks = sorted(weighted_tasks, key=lambda pair: pair[0])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ae5aa7d2.py",
+   "line": 280,
+   "whole_line": "        self.public_params = {key: value for key, value in self.params.items() if",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ae5aa7d2.py",
+   "line": 282,
+   "whole_line": "        self.hidden_params = {key: value for key, value in self.params.items() if",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ae5aa7d2.py",
+   "line": 1295,
+   "whole_line": "                                     key=UPSTREAM_SEVERITY_KEY)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ae5aa7d2.py",
+   "line": 1475,
+   "whole_line": "        workers.sort(key=lambda worker: worker['started'], reverse=True)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c0a35895.py",
+   "line": 115,
+   "whole_line": "         client = GCSClient(oauth_credentials=credentails)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/cac90df4.py",
+   "line": 17,
+   "value": "dummy_app_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/cac90df4.py",
+   "line": 113,
+   "whole_line": "            params.append(\"{key}:{value}\".format(key=key, value=value))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/cea7c52d.py",
+   "line": 56,
+   "whole_line": "        key = (cls, args, kwargs, lookback, date)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d357eaef.py",
+   "line": 175,
+   "whole_line": "        tasks = sorted(tasks, key=lambda x: str(x))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/db0afc5b.py",
+   "line": 26,
+   "whole_line": "            \"credentials\": oauth_credentials",
+   "source": "creddata"
+  },
+  {
+   "file": "_/db0afc5b.py",
+   "line": 38,
+   "whole_line": "                \"credentials\": credentials",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e3e5d8eb.py",
+   "line": 71,
+   "whole_line": "    def __init__(self, token, user_agent=\"Luigi\"):",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e3e5d8eb.py",
+   "line": 73,
+   "whole_line": "        :param str token: Dropbox Oauth2 Token. See :class:`DropboxTarget` for more information about generating a token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e3e5d8eb.py",
+   "line": 79,
+   "whole_line": "            conn = dropbox.dropbox.Dropbox(oauth2_access_token=token, user_agent=user_agent)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e3e5d8eb.py",
+   "line": 83,
+   "whole_line": "        self.token = token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e3e5d8eb.py",
+   "line": 297,
+   "whole_line": "        self.token = token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ef2cef9f.ini",
+   "line": 44,
+   "whole_line": "    gcloud: google-auth==1.4.1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ef2cef9f.ini",
+   "line": 45,
+   "whole_line": "    gcloud: google-auth-httplib2==0.0.3",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f509f734.py",
+   "line": 271,
+   "whole_line": "        e.g. `('user', 'pass')` or `\"user:pass\"`.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fba1cea7.py",
+   "line": 112,
+   "whole_line": "            return 'aws_access_key_id={key};aws_secret_access_key={secret}{opt}'.format(",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/7167d8d8.yml",
+   "line": 66,
+   "value": "/etc/billing/tls/private.key",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/9b4b8516.py",
+   "line": 242,
+   "whole_line": "            self.__logger.error(\"Error in Docker API: \"+e.explanation)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/0601c604.py",
+   "line": 26,
+   "whole_line": "            INFO: Worker Worker(salt=843361665, workers=1, host=arash-spotify-T440s, username=arash, pid=18534) was stopped. Shutting down Keep-Alive thread",
+   "source": "creddata"
+  },
+  {
+   "file": "example/49f5f933.py",
+   "line": 42,
+   "whole_line": "        return RemoteTarget('/experiment/output1.txt', HOST, username=USER, password=PWD)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/8ad08a6a.py",
+   "line": 79,
+   "whole_line": "            key=lambda x: x[1],",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/00edfcf9.py",
+   "line": 353,
+   "whole_line": "            \"apiVersion\": \"batch/v1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/60a9ccb7.js",
+   "line": 186,
+   "whole_line": "      password: null,",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/60a9ccb7.js",
+   "line": 495,
+   "value": "port",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/60a9ccb7.js",
+   "line": 507,
+   "value": "port",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/60a9ccb7.js",
+   "line": 587,
+   "whole_line": "      parts.password = t[0] ? URI.decode(t.join(':')) : null;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/60a9ccb7.js",
+   "line": 591,
+   "whole_line": "      parts.password = null;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/60a9ccb7.js",
+   "line": 1081,
+   "whole_line": "  p.password = generateSimpleAccessor('password');",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/60a9ccb7.js",
+   "line": 2036,
+   "whole_line": "    var properties = ['protocol', 'username', 'password', 'hostname', 'port'];",
+   "source": "creddata"
+  },
+  {
+   "file": "template/94f49c5c.html",
+   "line": 54,
+   "whole_line": "\t\tvar refined_failed_data = {\"key\": \"FAILED\", \"color\": \"#CC0000\", \"values\":[]};",
+   "source": "creddata"
+  },
+  {
+   "file": "template/94f49c5c.html",
+   "line": 55,
+   "whole_line": "\t\tvar refined_done_data = {\"key\": \"DONE\", \"color\": \"#669900\", \"values\":[]};",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0de0fea2.py",
+   "line": 40,
+   "value": "secret",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0de0fea2.py",
+   "line": 54,
+   "value": "secret",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0f0c24f3.py",
+   "line": 200,
+   "whole_line": "            S3Client(AWS_ACCESS_KEY, AWS_SECRET_KEY, host='us-east-1').s3",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0f0c24f3.py",
+   "line": 43,
+   "value": "ETL_API_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1a76f7bc.py",
+   "line": 40,
+   "whole_line": "        return {\"host\": \"myhost\", \"key_file\": \"file\", \"username\": \"user\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3b3d1e99.py",
+   "line": 249,
+   "whole_line": "                         ['--some-key=some-input/part-*'])",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3ec5c0d9.py",
+   "line": 207,
+   "value": "2023-12-01T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3ec5c0d9.py",
+   "line": 241,
+   "value": "AyM1SysPpbyDfgZld3umj1qzKObwVMkoqQ-EstJQLr_T-1qS0gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr1Z9CAow",
+   "source": "creddata"
+  },
+  {
+   "file": "test/59320229.py",
+   "line": 41,
+   "value": "admin-password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/59320229.py",
+   "line": 63,
+   "whole_line": "                      json={\"token\": \"test\", \"user\": \"admin\", \"admin\": True}, status=200)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/59320229.py",
+   "line": 85,
+   "whole_line": "                      json={\"token\": \"test\", \"user\": \"admin\", \"admin\": True}, status=200)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/68c8b2e2.py",
+   "line": 191,
+   "whole_line": "            password = '123'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/68e2d702.py",
+   "line": 1548,
+   "whole_line": "                MyTask.secret = 'yay'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8d9a9f76.py",
+   "line": 67,
+   "whole_line": "    aws_secret_access_key = AWS_SECRET_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b6810ea8.py",
+   "line": 141,
+   "whole_line": "        remotetarget = RemoteTarget(remote_file, HOST, username=USER, password=PWD)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b6810ea8.py",
+   "line": 176,
+   "whole_line": "        remotetarget = RemoteTarget(remote_file, HOST, username=USER, password=PWD)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b6810ea8.py",
+   "line": 196,
+   "whole_line": "        delayed_remotetarget = RemoteTarget(remote_file, HOST, username=USER, password=PWD, mtime=ts)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b6810ea8.py",
+   "line": 200,
+   "whole_line": "        delayed_remotetarget = RemoteTarget(remote_file, HOST, username=USER, password=PWD, mtime=ts)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b6810ea8.py",
+   "line": 226,
+   "value": "elradfmwM",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f814a37e.py",
+   "line": 162,
+   "whole_line": "        tasks = sorted(tasks, key=lambda x: x.id)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f814a37e.py",
+   "line": 182,
+   "whole_line": "        tasks = sorted(tasks, key=lambda x: x.id)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f814a37e.py",
+   "line": 203,
+   "whole_line": "        tasks = sorted(tasks, key=lambda x: x.id)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/kube/79bef79b.py",
+   "line": 90,
+   "whole_line": "        kube_api = HTTPClient(KubeConfig.from_file(\"~/.kube/config\"))  # assumes minikube",
+   "source": "creddata"
+  },
+  {
+   "file": "test/kube/79bef79b.py",
+   "line": 91,
+   "whole_line": "        jobs = Job.objects(kube_api).filter(selector=\"luigi_task_id=\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5e4f459a.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "198.51.100.177"
+  },
+  {
+   "file": "test/5e4f459a.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "1.12.47"
+  },
+  {
+   "file": "test/5e4f459a.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:3160b55de30a3fb4ac9f4cec2280c45218eebb6fc132e6ab91895b22c45b066b"
+  },
+  {
+   "file": "test/5e4f459a.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/5e4f459a.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/6ce4f8cc.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "e266f8d72b6c9f57c1df"
+  },
+  {
+   "file": "test/6ce4f8cc.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "test/6ce4f8cc.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "086da1a9edcad49eac557be6036a5abcf5c26305"
+  },
+  {
+   "file": "_/9dc0fa47.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/vantor/billing/prod"
+  },
+  {
+   "file": "_/9dc0fa47.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "LEDGER_SECRET_KEY"
+  },
+  {
+   "file": "_/9dc0fa47.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "_/9dc0fa47.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/etc/reports/tls/private.key"
+  },
+  {
+   "file": "_/9dc0fa47.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "AES-256-GCM"
+  },
+  {
+   "file": "_/9dc0fa47.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "_/9dc0fa47.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "712820016513-gejou6907jixvlmdh0gma3h5ry4h4x4c.apps.googleusercontent.com"
+  },
+  {
+   "file": "_/9dc0fa47.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2024-11-18T00:00:00Z"
+  },
+  {
+   "file": "_/9dc0fa47.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "reports-tls"
+  },
+  {
+   "file": "_/9dc0fa47.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZTo5MDM4MDpvZmZzZXQ6NDkw"
+  },
+  {
+   "file": "other/18bddc61.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_REptlpbK9A9TnadeJBCozsbh"
+  },
+  {
+   "file": "other/18bddc61.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "LEDGER_CLIENT_SECRET"
+  },
+  {
+   "file": "other/18bddc61.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "BILLING_AUTH_TOKEN"
+  },
+  {
+   "file": "other/18bddc61.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LuRelB8XThHUwui5uP4PLO3TDkwhymVnQdhzglC"
+  },
+  {
+   "file": "other/18bddc61.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:FEdL5E9tf3BtnyH/xhtiGvSuE536DQVJSI3c5ogXRU8"
+  },
+  {
+   "file": "other/18bddc61.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "other/18bddc61.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Authorization"
+  },
+  {
+   "file": "other/18bddc61.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "other/18bddc61.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6MTU5NDg6b2Zmc2V0OjE0NQ=="
+  },
+  {
+   "file": "src/72be9362.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "1I6WYK8WJA9J2DT63MVIVE7VE1"
+  },
+  {
+   "file": "src/72be9362.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "a9b12369-c17a-4e69-b208-0c57505bdf26"
+  },
+  {
+   "file": "src/72be9362.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "src/72be9362.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/e3bb7ba2.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "maximize65"
+  },
+  {
+   "file": "src/e3bb7ba2.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "optional_price"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2016-10-06",
+    "endpointPrefix":"codebuild",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"AWS CodeBuild",
+    "serviceId":"CodeBuild",
+    "signatureVersion":"v4",
+    "targetPrefix":"CodeBuild_20161006",
+    "uid":"codebuild-2016-10-06"
+  },
+  "operations":{
+    "BatchDeleteBuilds":{
+      "name":"BatchDeleteBuilds",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"BatchDeleteBuildsInput"},
+      "output":{"shape":"BatchDeleteBuildsOutput"},
+      "errors":[
+        {"shape":"InvalidInputException"}
+      ],
+      "documentation":"<p>Deletes one or more builds.</p>"
+    },
+    "BatchGetBuildBatches":{
+      "name":"BatchGetBuildBatches",

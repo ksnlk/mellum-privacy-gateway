@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.acme.io/app@sha256:cf0a2c7c552bc74c5d0f3d984c1461d45fb467122afdb34785bb34687649e0c1
+    environment:
+      - DATABASE_URL=postgres://app:Kept1982#@10.164.64.179:5432/app
+      - SENTRY_RELEASE=929a1bca3d08165ea36a875dcf0c1b67a08ac0a2
+      - API_TOKEN=<YOUR_API_KEY>
+      - BIND_ADDR=127.0.0.1
+  worker:
+    image: registry.acme.io/worker:6.21.21
+    environment:
+      - QUEUE_PASS=TGllYmUxOTgzIw==

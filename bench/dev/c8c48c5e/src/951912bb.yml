@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.quarzo.io/app@sha256:0317a20a6b1dd1190bc951395f5e54086aae8c8a179d156ad1a8d4016907285d
+    environment:
+      - DATABASE_URL=postgres://app:Biene&2028@10.23.177.146:5432/app
+      - SENTRY_RELEASE=94108a2caa63ec726f0222a5541f99592df18fd2
+      - API_TOKEN=<YOUR_API_KEY>
+      - BIND_ADDR=127.0.0.1
+  worker:
+    image: registry.quarzo.io/worker:0.29.31
+    environment:
+      - QUEUE_PASS=QmF5ZXJuJDE5NzU=

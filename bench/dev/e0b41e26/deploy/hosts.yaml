@@ -1,0 +1,15 @@
+monitoring: tarvos.helix.systems
+database:
+  host: atlas.helix.systems
+  port: 5432
+queue: pallas.helix.systems
+backup_target: kestrel.helix.systems
+website: kunden.helix.systems
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: sftp.logistik-nord.de
+allow_sources:
+  - 194.45.201.169
+  - 140.82.112.3
+  - 194.45.205.12
+ntp: 194.58.200.20
+mirrors: [jenkins.debian.net, mirrors.kernel.org]

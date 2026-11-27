@@ -1,0 +1,15 @@
+monitoring: orion.vantor.net
+database:
+  host: nimbus.vantor.net
+  port: 5432
+queue: falkor.vantor.net
+backup_target: kestrel.vantor.net
+website: shop.vantor.net
+payments_api: https://api.paycore.com/v2
+partner_drop: files.paycore.de
+allow_sources:
+  - 91.147.39.227
+  - 140.82.112.3
+  - 91.173.201.128
+ntp: 216.239.35.0
+mirrors: [build.opensuse.org, grafana.wikimedia.org]

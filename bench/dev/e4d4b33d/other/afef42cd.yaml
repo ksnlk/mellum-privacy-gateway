@@ -1,0 +1,19 @@
+# vantor payments service
+database:
+  host: ledger.q8a4ho.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "ветер7280!"
+  password_source: secret/data/vantor/vault/staging
+  password_env: PAYMENTS_API_KEY
+api:
+  key_header: X-Auth-Token
+  partner_ident: QaiKcuL4Z1wRivPK11b9YvafbUbMk0Je
+  key_file: /var/run/secrets/crm/token
+  signing_alg: bcrypt
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 846325402571-d8akriej7e4wizz66flqyfosvyqbswvf.apps.googleusercontent.com
+  client_proof: 6r2igmcgo20u7blmd4fvwvbz0mfn06vv
+  secret_rotated_at: "2025-02-19T00:00:00Z"
+  secret_name: billing-tls
+pagination:
+  first_cursor: dXNlcjoxODIwNzpvZmZzZXQ6MTUx

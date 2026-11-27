@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://vault-db-07.int.brightloop-internal.net/api/v3/invoices?page=2
+Authorization: Basic Z3JhZmFuYTrQstC+0LTQsDYxNzMh
+Cookie: _ga=GA1.2.WJCECYRPW89FBGZFXK5MBK4K1E; session_id=90phejbbj44ak2fwz9plrsz932nrehng
+X-Request-Id: 9fa7ae36-8ba1-4e18-822e-152764ae7b90
+
+### the docs example, safe to share
+GET https://o450123.ingest.sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

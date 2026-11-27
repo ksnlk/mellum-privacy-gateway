@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2018-06-29",
+    "endpointPrefix":"robomaker",
+    "jsonVersion":"1.1",
+    "protocol":"rest-json",
+    "serviceAbbreviation":"RoboMaker",
+    "serviceFullName":"AWS RoboMaker",
+    "serviceId":"RoboMaker",
+    "signatureVersion":"v4",
+    "signingName":"robomaker",
+    "uid":"robomaker-2018-06-29"
+  },
+  "operations":{
+    "BatchDeleteWorlds":{
+      "name":"BatchDeleteWorlds",
+      "http":{
+        "method":"POST",
+        "requestUri":"/batchDeleteWorlds"
+      },
+      "input":{"shape":"BatchDeleteWorldsRequest"},
+      "output":{"shape":"BatchDeleteWorldsResponse"},
+      "errors":[
+        {"shape":"InvalidParameterException"},
+        {"shape":"ThrottlingException"},
+        {"shape":"InternalServerException"}
+      ],
+      "documentation":"<p>Deletes one or more worlds in a batch operation.</p>"

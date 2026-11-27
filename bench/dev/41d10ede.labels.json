@@ -1,0 +1,793 @@
+{
+ "repo": "41d10ede",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/7b3ed02b.rst",
+   "line": 54,
+   "start": 35,
+   "end": 43,
+   "category": "URL Credentials",
+   "mutation": "rename",
+   "forms": [
+    "xa$$u5zm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/b803fcb7.yml",
+   "line": 21,
+   "start": 29,
+   "end": 37,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "xfjqpgbz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/b803fcb7.yml",
+   "line": 52,
+   "start": 24,
+   "end": 32,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "scthfvma"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/41d180f6.py",
+   "line": 317,
+   "start": 20,
+   "end": 31,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "cvyq_ztseck"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/41d180f6.py",
+   "line": 350,
+   "start": 16,
+   "end": 20,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "]mtz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/util/9e08e8c7.py",
+   "line": 11,
+   "start": 42,
+   "end": 50,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "rjmwavtw"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "src/d50db415.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Laura Zimmermann"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/d50db415.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "clara.weber@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/d50db415.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 7951 1893"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/d50db415.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Ben Becker"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/d50db415.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "mia.neumann [at] vantor-corp [dot] de"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/d50db415.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE10447151514263914287"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/d50db415.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lina Weber"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/d50db415.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Bahnhofstra\u00dfe 83, 52066 Freising"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/d50db415.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "159.223.25.56"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/80951c40.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-api-02.int.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/80951c40.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_qYguuU13qOgeXsyiIbq5n0xwiTJl416EiB3B"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "_/8a8f1994.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Paul Schwarz"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/8a8f1994.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "j.becker@helix-corp.de"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/8a8f1994.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 6102 5521"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/8a8f1994.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.59.181.239"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/8a8f1994.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "herz.bis.chatty.ease"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "src/ddadded9.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.116.49.197"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "src/ddadded9.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "admin.helix-corp.de"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "src/ddadded9.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "T8JSTQ7FP/B9U7CBARTBF/eOy562C8SSzMKprql54wiJKx"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "test/fee27080.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043e\u0433\u043e\u043d\u044c7694"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "src/0139c177.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-primary.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "src/0139c177.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "dj89zE9xQ3l2MafPhV8BZEN5tqxmIdAB"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/14b9b3f3.py",
+   "line": 300,
+   "whole_line": "                    new_params[\"dsn\"], password=new_params.pop(\"password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/45acb2e0.py",
+   "line": 89,
+   "whole_line": "        self.last_token = parsed and parsed.token_prev(len(parsed.tokens))[1] or \"\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/45acb2e0.py",
+   "line": 415,
+   "whole_line": "        if token_v == \"from\" or is_join:",
+   "source": "creddata"
+  },
+  {
+   "file": "_/45acb2e0.py",
+   "line": 421,
+   "whole_line": "        elif token_v == \"truncate\":",
+   "source": "creddata"
+  },
+  {
+   "file": "_/45acb2e0.py",
+   "line": 500,
+   "whole_line": "    elif token_v == \"schema\":",
+   "source": "creddata"
+  },
+  {
+   "file": "_/576c228c.py",
+   "line": 28,
+   "value": "search-toolbar.text",
+   "source": "creddata"
+  },
+  {
+   "file": "_/576c228c.py",
+   "line": 30,
+   "whole_line": "    Token.Toolbar.Arg: \"arg-toolbar\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/576c228c.py",
+   "line": 31,
+   "whole_line": "    Token.Toolbar.Arg.Text: \"arg-toolbar.text\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/576c228c.py",
+   "line": 35,
+   "whole_line": "    Token.Output.OddRow: \"output.odd-row\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/576c228c.py",
+   "line": 36,
+   "whole_line": "    Token.Output.EvenRow: \"output.even-row\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/576c228c.py",
+   "line": 41,
+   "whole_line": "    Token.Prompt: \"prompt\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/576c228c.py",
+   "line": 42,
+   "whole_line": "    Token.Continuation: \"continuation\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c3e86ec.py",
+   "line": 406,
+   "whole_line": "                sort_key = max(syn_matches) if syn_matches else None",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c3e86ec.py",
+   "line": 409,
+   "whole_line": "                sort_key = _match(cand)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c3e86ec.py",
+   "line": 473,
+   "value": "text",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7b3ed02b.rst",
+   "line": 46,
+   "whole_line": "    $ pgcli postgresql://[user[:password]@][netloc][:port][/dbname][?extra=value[&other=other-value]]",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7b3ed02b.rst",
+   "line": 70,
+   "value": "Force",
+   "source": "creddata"
+  },
+  {
+   "file": "_/86910f2a.py",
+   "line": 477,
+   "value": "main",
+   "source": "creddata"
+  },
+  {
+   "file": "_/86910f2a.py",
+   "line": 502,
+   "whole_line": "            passwd=service_config.get(\"password\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/86910f2a.py",
+   "line": 512,
+   "whole_line": "        self, database=\"\", host=\"\", user=\"\", port=\"\", passwd=\"\", dsn=\"\", **kwargs",
+   "source": "creddata"
+  },
+  {
+   "file": "_/86910f2a.py",
+   "line": 527,
+   "whole_line": "            passwd = os.environ.get(\"PGPASSWORD\", \"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/86910f2a.py",
+   "line": 530,
+   "value": "{user}@{host}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/86910f2a.py",
+   "line": 543,
+   "whole_line": "                passwd = keyring.get_password(\"pgcli\", key)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/86910f2a.py",
+   "line": 556,
+   "whole_line": "        # If we successfully parsed a password from a URI, there's no need to",
+   "source": "creddata"
+  },
+  {
+   "file": "_/86910f2a.py",
+   "line": 559,
+   "whole_line": "            passwd = click.prompt(",
+   "source": "creddata"
+  },
+  {
+   "file": "_/86910f2a.py",
+   "line": 597,
+   "whole_line": "                    keyring.set_password(\"pgcli\", key, passwd)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/86910f2a.py",
+   "line": 1355,
+   "whole_line": "            r\"password=(.+?)((\\s[a-zA-Z]+=)|$)\", r\"password=xxxx\\2\", process_title",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b803fcb7.yml",
+   "line": 22,
+   "value": "HS256",
+   "source": "creddata"
+  },
+  {
+   "file": "test/41d180f6.py",
+   "line": 33,
+   "whole_line": "    expected = \"pgcli user=root password=xxxx host=localhost\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/41d180f6.py",
+   "line": 36,
+   "value": "top",
+   "source": "creddata"
+  },
+  {
+   "file": "test/41d180f6.py",
+   "line": 39,
+   "whole_line": "    expected = \"pgcli user=root password=xxxx host=localhost\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/41d180f6.py",
+   "line": 42,
+   "whole_line": "    setproctitle.setproctitle(\"pgcli user=root password=top secret\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/41d180f6.py",
+   "line": 45,
+   "whole_line": "    expected = \"pgcli user=root password=xxxx\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/41d180f6.py",
+   "line": 51,
+   "value": "xxxx",
+   "source": "creddata"
+  },
+  {
+   "file": "test/41d180f6.py",
+   "line": 279,
+   "value": "%5Dfoo",
+   "source": "creddata"
+  },
+  {
+   "file": "test/41d180f6.py",
+   "line": 343,
+   "value": "%5Dfoo",
+   "source": "creddata"
+  },
+  {
+   "file": "test/41d180f6.py",
+   "line": 344,
+   "whole_line": "            \"sslmode=verify-full&sslcert=m%79.pem&sslkey=my-key.pem&sslrootcert=c%61.pem\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/41d180f6.py",
+   "line": 353,
+   "value": "my-key.pem",
+   "source": "creddata"
+  },
+  {
+   "file": "test/41d180f6.py",
+   "line": 318,
+   "value": "PAYMENTS_AUTH_TOKEN",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/9e08e8c7.py",
+   "line": 18,
+   "whole_line": "        password=POSTGRES_PASSWORD,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/fb8cd055.py",
+   "line": 12,
+   "whole_line": "    :param password: string",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/fb8cd055.py",
+   "line": 18,
+   "whole_line": "    cn = create_cn(hostname, password, username, \"postgres\", port)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/fb8cd055.py",
+   "line": 56,
+   "whole_line": "    :param password: string",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/fb8cd055.py",
+   "line": 59,
+   "whole_line": "    cn = create_cn(hostname, password, username, \"postgres\", port)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d50db415.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "security@vantor-corp.de"
+  },
+  {
+   "file": "src/d50db415.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "press@vantor-corp.de"
+  },
+  {
+   "file": "src/d50db415.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 (555) 0118"
+  },
+  {
+   "file": "src/d50db415.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "src/d50db415.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "src/d50db415.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "src/d50db415.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "src/d50db415.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "test/80951c40.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "6.8.40"
+  },
+  {
+   "file": "test/80951c40.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "9.9.19"
+  },
+  {
+   "file": "test/80951c40.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-o98scvw2m4dqtA8jV64s0Dw9KgGIzXh/u/yyMAxDAVl9jcJPAB7vMaYUg6a6ceBPgvpFoW3Ir7nl7FSzxyDS3Q=="
+  },
+  {
+   "file": "test/80951c40.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "7.19.26"
+  },
+  {
+   "file": "test/80951c40.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-0P5bu6iXTV7e+Y44C7Sp6k7lOlUpCKLvbKV2dhFbdf54gTwqFcAGsZMYKPqGx4yqnPBiDgx4d7BNwIiNonvVxQ=="
+  },
+  {
+   "file": "test/80951c40.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "9.17.2"
+  },
+  {
+   "file": "test/80951c40.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-OG8iVcN+mnsKFDBrwwhH89t75ch1+Q/XKMwI7fCR+7mWQHNSg2DZ2fjdGripke9LSbmK1mfWMM2KVXO/hcBneA=="
+  },
+  {
+   "file": "_/8a8f1994.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "192.0.2.25"
+  },
+  {
+   "file": "_/8a8f1994.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "2.14.9"
+  },
+  {
+   "file": "_/8a8f1994.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:80c1edc5db33d7116634072153705a655954168ac77472195c2dfaf14573a187"
+  },
+  {
+   "file": "_/8a8f1994.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/8a8f1994.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/ddadded9.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "465e9ee8beb64ab59a07"
+  },
+  {
+   "file": "src/ddadded9.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "auth0.com"
+  },
+  {
+   "file": "src/ddadded9.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "6c57aad94772b6343cc48936349aa5285cc465c1"
+  },
+  {
+   "file": "test/fee27080.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Maus2027"
+  },
+  {
+   "file": "test/fee27080.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "devise_zauber"
+  },
+  {
+   "file": "src/0139c177.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "src/0139c177.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.29.48"
+  },
+  {
+   "file": "src/0139c177.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4858a4868202e9ae541788d10dadb13753bc6e25"
+  },
+  {
+   "file": "src/0139c177.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "53e9fe42-96ee-49d0-bbc1-c6aae53ced5c"
+  }
+ ]
+}

@@ -1,0 +1,718 @@
+{
+ "repo": "4ac7004a",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/a44b9a00.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Blumek\u00f6ln94!"
+   ]
+  },
+  {
+   "id": 2,
+   "file": "_/88ae146b.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "cGFja2FnZS5zaW11bGF0aW9uLmV4cG9ydC5zdGVybg==",
+    "package.simulation.export.stern"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "_/88ae146b.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9YVE04Q25lbWIyWVVUN2ZJb2E2OEJxbnA=",
+    "sk_live_XTM8Cnemb2YUT7fIoa68Bqnp"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "_/88ae146b.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/27248719.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "jonas.mueller@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/27248719.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 9331 3690"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/27248719.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Schuh2009?"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/27248719.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE27574984530193443909"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/7278d3aa.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "werder-apfel-leon"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/7278d3aa.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-replica.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/77779b19.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.9W21lZijc-3Z3bX9Yo4SGF2zsr8Fiov7siHWY1UK.t-8Q7qI0EXikGRORLoiX0nF35E-YGUgwKB5GM8wGsj-"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/77779b19.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments.bll4nk.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/a0864839.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "leon83$"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/a0864839.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.206.134.212"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/a0864839.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "U2MwMHA3OQ==",
+    "Sc00p79"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.brightloop.net"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.brightloop.net"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.brightloop.net"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.71.169.0/24"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.71.169.94"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.brightloop.net"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.brightloop.net"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.brightloop.net"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.brightloop.net"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.brightloop.net"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.71.169.135"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Sofia Becker"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "sofia.becker@gmail.com"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 8258556"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Eva Neumann"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "eva.neumann@t-online.de"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 3802897"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "app/build/47700dc1.gradle",
+   "line": 25,
+   "value": "11.8.0",
+   "source": "creddata"
+  },
+  {
+   "file": "app/build/47700dc1.gradle",
+   "line": 27,
+   "value": "1.22.0",
+   "source": "creddata"
+  },
+  {
+   "file": "app/build/6b5e54b2.gradle",
+   "line": 26,
+   "value": "11.8.0",
+   "source": "creddata"
+  },
+  {
+   "file": "app/build/cf18d7f2.gradle",
+   "line": 48,
+   "value": "11.0.1",
+   "source": "creddata"
+  },
+  {
+   "file": "app/build/cf18d7f2.gradle",
+   "line": 49,
+   "value": "11.0.1",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/app/d973f64d.java",
+   "line": 55,
+   "value": "is_resolving",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a44b9a00.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Lob2025"
+  },
+  {
+   "file": "test/a44b9a00.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "append75"
+  },
+  {
+   "file": "_/88ae146b.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "c1beacf"
+  },
+  {
+   "file": "_/88ae146b.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "a0c13af9ca9458ed45fc5530226ece1742fc94466fcab3eaa061529e78ca46d6"
+  },
+  {
+   "file": "_/88ae146b.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "sentry.io"
+  },
+  {
+   "file": "_/88ae146b.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/27248719.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "other/27248719.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "noreply@github.com"
+  },
+  {
+   "file": "other/27248719.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "<password>"
+  },
+  {
+   "file": "src/7278d3aa.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIW5zkYQ4AmyRykWjlRp3p5OrqrGt0APhSDSg7BGRpi6j"
+  },
+  {
+   "file": "src/7278d3aa.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "e6db6334fe7fb422cd4f99464d6903e8cfdf7aa089adac56b70c3ce1af8bcc23"
+  },
+  {
+   "file": "src/7278d3aa.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/7278d3aa.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "_/77779b19.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "6.26.16"
+  },
+  {
+   "file": "_/77779b19.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "3fdf7cc30feb74d91aba595dfa168ddf6af56822"
+  },
+  {
+   "file": "_/77779b19.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "2I5EAUR4BN0ZKLR9QSTVRCT7GG"
+  },
+  {
+   "file": "_/77779b19.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "_/77779b19.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "C8E4TL6E8Q3UADLAD429YTMF4A"
+  },
+  {
+   "file": "_/77779b19.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "src/a0864839.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:280c4e696489774024e720f5a292a235e096e9a1b45fcb8183f3a104fe1978e1"
+  },
+  {
+   "file": "src/a0864839.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "498991538051473593e6aa1b02e02428137a3f02"
+  },
+  {
+   "file": "src/a0864839.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<password>"
+  },
+  {
+   "file": "src/a0864839.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "src/a0864839.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "7.28.42"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "shop.brightloop.net"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sftp.mailvault.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "185.71.198.47"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Lea Zimmermann"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Emma Richter"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.brightloop.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "shop.brightloop.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.mailvault.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "185.71.198.47"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Lea Zimmermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "lea.zimmermann@brightloop.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Erika Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "erika@example.com"
+  }
+ ]
+}

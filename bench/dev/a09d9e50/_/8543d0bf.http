@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://jenkins.vantor-corp.de/api/v3/invoices?page=2
+Authorization: Basic c3ZjX2JhY2t1cDptaWdyYXRpb242MjAh
+Cookie: _ga=GA1.2.61HWL28Q4411MY0JNG3A8Z3RE4; session_id=uwcdc02guzku49gafks4owv1rq5p1pgr
+X-Request-Id: 6918d2a0-3215-4ec6-ae0e-5c2d5b70f724
+
+### the docs example, safe to share
+GET https://o450123.ingest.sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

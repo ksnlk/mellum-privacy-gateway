@@ -1,0 +1,19 @@
+# acme payments service
+database:
+  host: billing.vbwioc.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "Dresden&2024"
+  password_source: secret/data/acme/crm/staging
+  password_env: ETL_API_KEY
+api:
+  key_header: X-Api-Key
+  partner_ident: uABQGzmNK65TLw6WzK6QlaLWJ1XlggXi
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: bcrypt
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 776875817012-dan1a7qoordjdext1noxk39wlrbqfl8s.apps.googleusercontent.com
+  client_proof: yjjr2xfg6u9pi02h9af9ofzup2ob2pca
+  secret_rotated_at: "2023-05-21T00:00:00Z"
+  secret_name: ledger-api-token
+pagination:
+  first_cursor: dXNlcjoyMTAzOTpvZmZzZXQ6NDU=

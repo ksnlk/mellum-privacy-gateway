@@ -1,0 +1,51 @@
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListHapgs" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListHsms" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListLunaClients" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : true,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2014-05-30",
+    "asyncClient" : "AWSCloudHSMAsyncClient",
+    "asyncClientBuilderClassName" : "AWSCloudHSMAsyncClientBuilder",
+    "asyncInterface" : "AWSCloudHSMAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AWSCloudHSMModuleInjector",
+    "defaultEndpoint" : "https://cloudhsm.us-east-1.amazonaws.com/",
+    "defaultEndpointWithoutHttpProtocol" : "cloudhsm.us-east-1.amazonaws.com/",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>AWS CloudHSM Service</fullname> <p>This is documentation for <b>AWS CloudHSM Classic</b>. For more information, see <a href=\"http://aws.amazon.com/cloudhsm/faqs-classic/\">AWS CloudHSM Classic FAQs</a>, the <a href=\"https://docs.aws.amazon.com/cloudhsm/classic/userguide/\">AWS CloudHSM Classic User Guide</a>, and the <a href=\"https://docs.aws.amazon.com/cloudhsm/classic/APIReference/\">AWS CloudHSM Classic API Reference</a>.</p> <p> <b>For information about the current version of AWS CloudHSM</b>, see <a href=\"http://aws.amazon.com/cloudhsm/\">AWS CloudHSM</a>, the <a href=\"https://docs.aws.amazon.com/cloudhsm/latest/userguide/\">AWS CloudHSM User Guide</a>, and the <a href=\"https://docs.aws.amazon.com/cloudhsm/latest/APIReference/\">AWS CloudHSM API Reference</a>.</p>",
+    "endpointPrefix" : "cloudhsm",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.cloudhsm",
+    "packagePath" : "com/amazonaws/services/cloudhsm",
+    "protocol" : "json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "CloudHSM",

@@ -1,0 +1,1052 @@
+{
+ "repo": "f06251db",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "src/resource/app/c3ca6306.properties",
+   "line": 20,
+   "start": 14,
+   "end": 22,
+   "category": "Password:Auth",
+   "mutation": "none",
+   "forms": [
+    "wkhoftxv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/21cf82a8.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "unclosed.pleasing.sublicense"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "src/21cf82a8.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.acme-corp.de"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "src/81f1c741.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "YWdhaW5fdHJhdW1fd2Vpbl9ob2ZmbWFubg==",
+    "again_traum_wein_hoffmann"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/81f1c741.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9xNlhkV2ExamhKYTVXcjlHZmlHNWdjWUY=",
+    "sk_live_q6XdWa1jhJa5Wr9GfiG5gcYF"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/81f1c741.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "argocd.brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/4d8b0fbb.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-api-02.prod.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/4d8b0fbb.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Z3JhZmFuYTpDb2xsZWN0ZWQxOTg0Lg==",
+    "grafana:Collected1984."
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/4d8b0fbb.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "52k6u09mbyq1xpdo2621meibdmsjs40d"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/2d142a91.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl.78xo2a.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/2d142a91.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "R4pzBRRyEegr2Z0VsvnNnm58Srt08gug"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/dc7cc763.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.20.229.92"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/dc7cc763.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.helix-corp.de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/dc7cc763.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "T1RGQKUZ2/BPIBAQUVZLF/cGRaD4UscT5mmGrzL5FDQ9aD"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/27066845.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger.4g68n7.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/27066845.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Pferduni",
+    "Pferdunion76?",
+    "on76?"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.nordwind.net"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.nordwind.net"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.nordwind.net"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "178.191.11.0/24"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "178.191.11.62"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.nordwind.net"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.nordwind.net"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.nordwind.net"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.nordwind.net"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.nordwind.net"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "178.191.11.124"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Sofia Klein"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "sofia.klein@t-online.de"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 4025353"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Lina Richter"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "lina.richter@gmail.com"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 4718529"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/28f7ee3a",
+   "line": 238,
+   "whole_line": "            wget --http-user=$MVNW_USERNAME --http-password=$MVNW_PASSWORD \"$jarUrl\" -O \"$wrapperJarPath\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7b930965.cmd",
+   "line": 147,
+   "whole_line": "\t\t\"$webclient.Credentials = new-object System.Net.NetworkCredential('%MVNW_USERNAME%', '%MVNW_PASSWORD%');\"^",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9a7948ae.md",
+   "line": 45,
+   "whole_line": "- `-Dsentinel.dashboard.auth.username=sentinel` \u7528\u4e8e\u6307\u5b9a\u63a7\u5236\u53f0\u7684\u767b\u5f55\u7528\u6237\u540d\u4e3a `sentinel`\uff1b",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/cluster/server/397f6048.yml",
+   "line": 10,
+   "whole_line": "        - key: \"destination_cluster\"",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/cluster/server/397f6048.yml",
+   "line": 14,
+   "value": "apps/v1beta2",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/cluster/server/397f6048.yml",
+   "line": 49,
+   "whole_line": "              - key: rule-yaml",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/cluster/server/3feb8a1b.yml",
+   "line": 85,
+   "whole_line": "apiVersion: apps/v1beta2",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/cluster/server/3feb8a1b.yml",
+   "line": 116,
+   "whole_line": "              - key: envoy-yml",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/cluster/server/b5875b40.md",
+   "line": 36,
+   "whole_line": "    - key: \"destination_cluster\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0062a9f0.java",
+   "line": 78,
+   "whole_line": "    // Cache the SpiLoader instances, key: classname of Service, value: SpiLoader instance",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0062a9f0.java",
+   "line": 88,
+   "whole_line": "     * Cache the classes of Provider, key: aliasName, value: class of Provider.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0062a9f0.java",
+   "line": 94,
+   "whole_line": "    // Cache the singleton instance of Provider, key: classname of Provider, value: Provider instance",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1cd362c5.java",
+   "line": 39,
+   "whole_line": " * 1529399828825,total:4263, pass:100, block:4164",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1cd362c5.java",
+   "line": 50,
+   "whole_line": " * 1529399839829,total:14494, pass:104, block:14390 // After 10 seconds, the system restored",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1cd362c5.java",
+   "line": 60,
+   "whole_line": "    private static final String KEY = \"some_method\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1cd362c5.java",
+   "line": 172,
+   "value": " + oneSecondPass + ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/308be864.java",
+   "line": 27,
+   "whole_line": "    public static final String WEB_SESSION_KEY = \"session_sentinel_admin\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4324570c.java",
+   "line": 37,
+   "whole_line": " * -Dcsp.sentinel.api.port=8721",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4324570c.java",
+   "line": 46,
+   "whole_line": "    private static final String RES_KEY = INTERFACE_RES_KEY + \":sayHello(java.lang.String)\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/45bb9473.java",
+   "line": 29,
+   "whole_line": "    public static final String SERVICE_ID_KEY = \"serviceId\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/45bb9473.java",
+   "line": 33,
+   "whole_line": "    public static final String PROXY_ID_KEY = \"proxy\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/45bb9473.java",
+   "line": 70,
+   "whole_line": "    public static final String ZUUL_CTX_SENTINEL_ENTRIES_KEY = \"_sentinel_entries\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/567b2f0b.java",
+   "line": 73,
+   "whole_line": " * total pass:100, total block:0",
+   "source": "creddata"
+  },
+  {
+   "file": "src/567b2f0b.java",
+   "line": 118,
+   "value": " + pass.get() + ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/567b2f0b.java",
+   "line": 131,
+   "value": " + pass.get() + ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5cd73d13.java",
+   "line": 41,
+   "whole_line": "    private static final String KEY = \"some_service\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5cd73d13.java",
+   "line": 164,
+   "value": " + oneSecondPass",
+   "source": "creddata"
+  },
+  {
+   "file": "src/621b5fba.java",
+   "line": 43,
+   "whole_line": "    @Value(\"${auth.username:sentinel}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/621b5fba.java",
+   "line": 46,
+   "whole_line": "    @Value(\"${auth.password:sentinel}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/76c68c3c.java",
+   "line": 43,
+   "whole_line": "    private static final String RESOURCE_KEY = \"resA\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c6a91b9c.java",
+   "line": 24,
+   "whole_line": "    public static final String SENTINEL_CONTEXT_KEY = \"_sentinel_context\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cluster/server/5ea842f0.java",
+   "line": 105,
+   "whole_line": "            this.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cluster/server/5ea842f0.java",
+   "line": 114,
+   "whole_line": "            this.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cluster/server/8303a12b.java",
+   "line": 26,
+   "whole_line": "    public static final String GRPC_PORT_ENV_KEY = \"SENTINEL_RLS_GRPC_PORT\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cluster/server/8303a12b.java",
+   "line": 27,
+   "value": "csp.sentinel.grpc.server.port",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cluster/server/8303a12b.java",
+   "line": 28,
+   "whole_line": "    public static final String RULE_FILE_PATH_ENV_KEY = \"SENTINEL_RLS_RULE_FILE_PATH\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cluster/server/8303a12b.java",
+   "line": 29,
+   "whole_line": "    public static final String RULE_FILE_PATH_PROPERTY_KEY = \"csp.sentinel.rls.rule.file\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cluster/server/8303a12b.java",
+   "line": 31,
+   "whole_line": "    public static final String ENABLE_ACCESS_LOG_ENV_KEY = \"SENTINEL_RLS_ACCESS_LOG\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/2770d2e0.java",
+   "line": 38,
+   "whole_line": "    public static final String SENTINEL_CONFIG_ENV_KEY = \"CSP_SENTINEL_CONFIG_FILE\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/6a8c3890.java",
+   "line": 48,
+   "whole_line": "    public static final String CONFIG_AUTH_PASSWORD = \"sentinel.dashboard.auth.password\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/9b000f08.java",
+   "line": 33,
+   "whole_line": "    public static final String LOG_CONFIG_ENV_KEY = \"CSP_SENTINEL_CONFIG_FILE\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/edb8d3c4.java",
+   "line": 39,
+   "whole_line": "    public static final String HEARTBEAT_API_PATH = \"csp.sentinel.heartbeat.api.path\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/etc/19aed2f8.java",
+   "line": 31,
+   "whole_line": "    public final static String PASSWORD = \"csp.sentinel.etcd.password\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/etc/19aed2f8.java",
+   "line": 33,
+   "value": "csp.sentinel.etcd.auth.enable",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/etc/19aed2f8.java",
+   "line": 34,
+   "value": "csp.sentinel.etcd.authority",
+   "source": "creddata"
+  },
+  {
+   "file": "src/db64be3e.java",
+   "line": 42,
+   "whole_line": "    private static final String KEY = \"TestResource\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e2a2c0a4.java",
+   "line": 35,
+   "whole_line": "    private static final String RES_KEY = INTERFACE_RES_KEY + \":hello(java.lang.String)\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e885d445.java",
+   "line": 65,
+   "value": "blockQps",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e885d445.java",
+   "line": 65,
+   "value": "1m-pass",
+   "source": "creddata"
+  },
+  {
+   "file": "src/etc/d9194e31.java",
+   "line": 36,
+   "whole_line": "        String rule_key = \"sentinel_demo_rule_key\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/app/5faf0b50.properties",
+   "line": 2,
+   "whole_line": "# key = value",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/app/c3ca6306.properties",
+   "line": 19,
+   "whole_line": "auth.username=sentinel",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/app/c3ca6306.properties",
+   "line": 21,
+   "value": "scrypt",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/lib/eb17a84b.js",
+   "line": 26,
+   "whole_line": "r.n=null)}function f(a,b){a!=b&&(a&&(a.p=b),b&&(b.n=a))}if(a in b)throw G(\"$cacheFactory\")(\"iid\",a);var g=0,h=M({},c,{id:a}),k=$(),l=c&&c.capacity||Number.MAX_VALUE,m=$(),r=null,t=null;return b[a]={put:function(a,b){if(!q(b)){if(l<Number.MAX_VALUE){var c=m[a]||(m[a]={key:a});e(c)}a in k||g++;k[a]=b;g>l&&this.remove(t.key);return b}},get:function(a){if(l<Number.MAX_VALUE){var b=m[a];if(!b)return;e(b)}return k[a]},remove:function(a){if(l<Number.MAX_VALUE){var b=m[a];if(!b)return;b==r&&(r=b.p);b==t&&",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/lib/eb17a84b.js",
+   "line": 77,
+   "whole_line": "b.on(\"compositionend\",function(){h=!1;k()})}var k=function(a){l&&(f.defer.cancel(l),l=null);if(!h){var e=b.val();a=a&&a.type;\"password\"===g||d.ngTrim&&\"false\"===d.ngTrim||(e=U(e));(c.$viewValue!==e||\"\"===e&&c.$$hasNativeValidators)&&c.$setViewValue(e,a)}};if(e.hasEvent(\"input\"))b.on(\"input\",k);else{var l,m=function(a,b,c){l||(l=f.defer(function(){l=null;b&&b.value===c||k(a)}))};b.on(\"keydown\",function(a){var b=a.keyCode;91===b||15<b&&19>b||37<=b&&40>=b||m(a,this,this.value)});if(e.hasEvent(\"paste\"))b.on(\"paste cut\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/lib/eb17a84b.js",
+   "line": 128,
+   "whole_line": "m=\"[\"+l.join(\",\")+\"]\";this.assign(b,m);c(m);break;case s.ObjectExpression:l=[];n(a.properties,function(a){k.recurse(a.value,k.nextId(),u,function(b){l.push(k.escape(a.key.type===s.Identifier?a.key.name:\"\"+a.key.value)+\":\"+b)})});m=\"{\"+l.join(\",\")+\"}\";this.assign(b,m);c(m);break;case s.ThisExpression:this.assign(b,\"s\");c(\"s\");break;case s.NGValueParameter:this.assign(b,\"v\"),c(\"v\")}},getHasOwnProperty:function(a,b){var d=a+\".\"+b,c=this.current().own;c.hasOwnProperty(d)||(c[d]=this.nextId(!1,a+\"&&(\"+",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/1555db42.java",
+   "line": 25,
+   "whole_line": "    public static final String DUBBO_APPLICATION_KEY = \"dubboApplication\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/43f86131.java",
+   "line": 28,
+   "whole_line": "    public static final String SENTINEL_DUBBO_APPLICATION_KEY = \"dubboApplication\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/cd696140.java",
+   "line": 49,
+   "whole_line": "    private static final String SENTINEL_KEY = \"sentinel-rules\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/etc/6bf8a7b8.java",
+   "line": 75,
+   "whole_line": "        String demo_key = \"etcd_demo_key\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/21cf82a8.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIQfLw5/lpyKRtMXaZ3aHpNWUTjcc5O5/6XaUjLfy4MpU"
+  },
+  {
+   "file": "src/21cf82a8.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "5ae72b8070b1a82bfd23043ba34afe1ceb20d5260789b840e07caefe04a0beb4"
+  },
+  {
+   "file": "src/21cf82a8.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/21cf82a8.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "src/81f1c741.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9649d19"
+  },
+  {
+   "file": "src/81f1c741.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "a28c058ccb5ab69d76de6ce5d2fcac334d5cb737902d7258e82f136776019f99"
+  },
+  {
+   "file": "src/81f1c741.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "src/81f1c741.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/4d8b0fbb.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "OJ0AEWBF5D21QBHGCCXH4EDYOD"
+  },
+  {
+   "file": "_/4d8b0fbb.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "e772c85f-e235-4e71-8c59-0dd7beacc53d"
+  },
+  {
+   "file": "_/4d8b0fbb.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "auth0.com"
+  },
+  {
+   "file": "_/4d8b0fbb.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/2d142a91.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "_/2d142a91.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4.8.42"
+  },
+  {
+   "file": "_/2d142a91.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "231080bf98114f8fd54452c7f0a2b4aefaa82198"
+  },
+  {
+   "file": "_/2d142a91.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "a14a18ec-c8ad-4127-a969-3b1fc335a802"
+  },
+  {
+   "file": "src/dc7cc763.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "ad7211911b575fc1cb0f"
+  },
+  {
+   "file": "src/dc7cc763.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "src/dc7cc763.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2135314a28b6a6164bf8fe2b3ade1f408ca5e195"
+  },
+  {
+   "file": "_/27066845.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "ddabc902087ddb611458635e17cc3fa0a69b04ce"
+  },
+  {
+   "file": "_/27066845.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "${DB_PASSWORD}"
+  },
+  {
+   "file": "_/27066845.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "sftp.paycore.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "178.191.17.174"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.nordwind.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.nordwind.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "kunden.nordwind.net"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Jonas Koch"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.nordwind.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kunden.nordwind.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.paycore.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "178.191.17.174"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Jonas Koch"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "jonas.koch@nordwind.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Max Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "max.mustermann@example.org"
+  }
+ ]
+}

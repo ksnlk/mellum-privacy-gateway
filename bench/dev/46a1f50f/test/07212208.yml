@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: vantor-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "2f40bad"
+type: Opaque
+data:
+  DB_PASSWORD: Z3J1bnQudGppLndhbGQucGxheWVyNjQ=
+  STRIPE_KEY: c2tfbGl2ZV95MW9vSWg0UXFTUFpQV2RVaHlJNDBFdmo=
+  ca.crt.sha256: 48843d3c0dc8e464f5fc8db6bdd088e2d7d7a2bb4831f16ba9d357dd99f2ad01
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vantor-payments-config
+data:
+  DB_HOST: "etl-db-05.int.vantor-internal.net"
+  SENTRY_HOST: "storage.googleapis.com"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

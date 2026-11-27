@@ -1,0 +1,15 @@
+monitoring: nimbus.nordwind-ops.io
+database:
+  host: atlas.nordwind-ops.io
+  port: 5432
+queue: kestrel.nordwind-ops.io
+backup_target: juno.nordwind-ops.io
+website: portal.nordwind-ops.io
+payments_api: https://api.mailvault.com/v2
+partner_drop: sftp.mailvault.de
+allow_sources:
+  - 85.4.134.247
+  - 185.199.108.153
+  - 85.4.1.152
+ntp: 216.239.35.0
+mirrors: [ftp.gnu.org, registry.terraform.io]

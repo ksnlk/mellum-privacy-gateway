@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /demo
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: anvls
+    password_test_vector: 0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b
+    virtual-host: /
+    # 手动提交消息
+    listener:
+      simple:
+        acknowledge-mode: manual
+      direct:
+        acknowledge-mode: manual

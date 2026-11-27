@@ -1,0 +1,726 @@
+{
+ "repo": "0a0d22aa",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/b3356305.md",
+   "line": 127,
+   "start": 25,
+   "end": 55,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "3nk7Mvb@0Fqw2jn@g8xW7z83Xv*tr#"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/b3356305.md",
+   "line": 144,
+   "start": 22,
+   "end": 52,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "9uk9Nwy@1Oml5eq@w6bX9b43Uh*im#"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/pkg/5f40d16d.go",
+   "line": 80,
+   "line_end": 94,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIICXAIBAAKBgQCwgxo7cl2RajAWFseL0JAIBJbZ6dFWBGcq7+TMkP8viDwfLj4u",
+    "ToxJgO+m/Jt2GUlCybsEGwcGplwfD2b3Y+CuQarWHwjJKP68mIgADUcns4wyTtg4",
+    "g4qYas4nAsJuYihmMaQRszkpUVfH97y5PL8oTnfve1uqB9di2cS4xGb5EoIIyQbN",
+    "hQuVBQe7sKlKfsa42h6ArGlzYMIh/ovDfv+1xP0+b2JPHkp4PnIDUlCPwwZxkJxM",
+    "mgl2dqyZ4oI4BQZ/jPoJslyx2Hr2rqKHvW4Zlb6NweJuRv6nn9vdbZB7mDVpCH8l",
+    "m9EagFxFVQJbWZ28KfVU+aXvun5L/hJnjci6J9VQD9VaFwSZuymZBdeZeC3lZXJb",
+    "KAKYUhIe6m+O482O1/W9Uh8GyB8xoiRkYUdaVFMsQYOwza8XcwQ3ZK/ZBNhjO6Qw",
+    "Z9fl7E4nUejyohQgDyXad+J8N+KjgXFh0OK04ZKbjyT1c+1YB0+OSvp1Wk7X8nTB",
+    "F1QrDFBphJjnVt2bRLqO9MrwT3iXldUUvdNzw/mnE+6on7qjCIvFtCwWV6tpd1Zc",
+    "XAaJPuAYHlEzUEn6L38zs9zl2tiufbOQfIL1U0RFy72VI1Kb8eK+kKWoWpgpKBtZ",
+    "9MGnBavurCH1Q+bHX+VipYmoVJBGlamjL4eqgbwr5v4trkZ7Z180fki0yURP/a/v",
+    "7yGyBr9G12yr8DiJu4fqaScO/HQNiwjhViCpsTKk4WQnMD9GJ99xh5RGBnFohbrh",
+    "WAC6mPzZgjlzh5HsWFwMGKCecV7Rcl3emZPh1evG2x3="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/pkg/5f40d16d.go",
+   "line": 15,
+   "start": 21,
+   "end": 65,
+   "category": "Password",
+   "mutation": "camouflage",
+   "forms": [
+    "K+8dOxgBAL+nepJ2xhm1U0wK+z1QN7WpCi+ZLqlLaD7="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/pkg/5f40d16d.go",
+   "line": 22,
+   "start": 19,
+   "end": 63,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "4kXuPgva1pqn7fcCBTb2YuaW+c0XS0TmRh+PNapNgD0="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/pkg/5f40d16d.go",
+   "line": 59,
+   "start": 19,
+   "end": 1249,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "{NXXTDWQEQBSITbXNJWicjoQCyygm/j3fEtO/kcNOmz/AfSKYWqbQrLaxG68eChompA4oKMz4Xz8cHALMhWgXB2v3gf5/z/kef+IMm7vSX4vBrXsVPhdff3PN5SRgyiXQ2hHqK18k3GHiRYFu0Ku2UKE8FV1IrE97lJoNbDQqlQERzO7qGyPgCfAO20fAOhZR03VZ95mLM7uP7bUbr4TpdDcvv4U7q/A3ENciUCSLAdzYCU6K0QoG8aMGbRfKjumab3r2/PWzdJFeAYV7zV2gcw+zk2oCWQ7Y7AMPq1TaiNCgXysT/afQmAhGfcbpFOSXr8FGTZk1fB9qS4TuKCCxvT3/3cMk/seNKxAYtfrGcA1g3TVl2HPN4CUUvReD19/U6dpNu5Sqyu4L/lA0eyB/liZ7FWV6Xf10B2GNogFdGQQSOk+CVJV5eL7oOB5vIsiiugDF3PHueYYPo0Ubyx7v0OSQsD56bVwHCVcRSHyqAjgnftgqdHw+JRXpDJD5zyUSxPXBienHKhfn46fuyU2UriJp1qs18tn1wN+20tD/gpjN9rByqaYLyPavzrGz4JKWWK2Abj7bolIvOwxfu9EkdFfcYvYO/Mud2UdY5O4D/wQ26Db/IAGyFEHm1YXsKrhkDIBX+DNnnCE5RRyHRWaterHsKsWpVR0kdRjLAGxRXEcAYKA3WnNkHunatZ9lZWkMassRyxYl7N5KLifpXj9crDX/cH3NYy2ZhhxWuammKYdAnn+BTYW8KYcWrFEY95ByNodIrFJjbLQQcVu8hx5UI8HgMRxCTBloKph+hyAIh032HWCadmQXY+parcelN8jzmSEnMfGk+Lx1vfPKL4PF7s6+VXCWDR/xB/goKc+iNi4TVdoEIP92mS7bjKAjpyJRyNPuOphumiut7joRVHJkrx4/EIcDxf0ca7ToX8dhXmzOdL+yOCK600ouUdHMBjRucrJMVX1WixlQqOlXZOpidcQXKi6DJpKuKCT9wiltQRkqRsLMeMARCUdR6KJgCtjO5+enknV+gRw2mLui1F6JZKE5yIz0vCd4J2bDKxpta/exGXxDIGhfYL9GHVtU34bpxWznLeeRMoJU4PwMz4TDV334LE7Rzhf8SbvAGx7GwmMQPcKwFBjKgqc5TNIsS5tib64XvyH9rad7DTv8r5R0yOlUM8yNh16o6GcFz97JeZbT1MXWOIcGgMDTQFI9aDbJIngQPmeHrTcJ}"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/pkg/5f40d16d.go",
+   "line": 67,
+   "start": 17,
+   "end": 27,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "isedwyycvj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/pkg/5f40d16d.go",
+   "line": 73,
+   "start": 17,
+   "end": 36,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "Smithp2YNgt2qL_80Xy"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/pkg/5f40d16d.go",
+   "line": 79,
+   "start": 28,
+   "end": 39,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "BBWhT5qKlOZ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "test/pkg/fea85211.go",
+   "line": 25,
+   "start": 24,
+   "end": 104,
+   "category": "Password",
+   "mutation": "b64",
+   "forms": [
+    "e1pEV01NWEVWSlZLTXdVUG1lNFV3N2tKbVVRVFVsZTRSQTJOaU4xdy94TnpDYS9LWlhadXZnUXg9fQ==",
+    "{ZDWMMXEVJVKMwUPme4Uw7kJmUQTUle4RA2NiN1w/xNzCa/KZXZuvgQx=}"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "test/pkg/fea85211.go",
+   "line": 28,
+   "start": 24,
+   "end": 1254,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "{QRCVMLCQTHRDYrBYTTveyqKOdkad/p7hSmU/xyWSyg/AbRBGPjaLuHetO81bQzsejL1tFEg7Yv3dMBNAfUuRR7w1ml6/l/aav+RWb5rPK3wGfYxQZgied3HZ0IBoshBC6hAaK51f0RZqDDLo6Ec6RVU8FM5QeA12rSvEvMRatBORbM3rAhXpDbGT60zJFmDU72ME26sXW9sD6jUta2YwfZtvy9C5f/T6FAdzOTQVIllKKW8H7BqF4aYLaOnNjdeef0s6/VIkkJBaTEW4pR4jin+zm3gHSI1H3MXCf0WolNSqJptO/zuJpPzWtbsrGTRNw8UYEBs7vG7cE2CnSGQlxP6/8rNi/ssGBtKLqqhEeK5z2TNp0MSY2IWNlYlH29/E3hsJe0Uhwl5D/qO1pzF/ntW6WEV3Hj44I1PKldIeHQYQMk+SOLO6aF8vUM9fLjcihkVR6KStrLQGq9Bgxa4p9EZIfZ36dQuCNDeQJUajGzwrpnlquLw+CZDpANN9ztDUzPIVheiNDwto53jqwH8MrbFb4uv75ol2fU+91aI/cgqR0cAaeuQPlBbemwXf2KTXFT9Fed0ovmFpVuuuj4VhtTezCnND/Dfh5RkE5B8Y/eJ57Sj/JFEuUHWt6ZFqVhdwYWXI+WViaBL6TApBJNlrvnJdQjZiSQ5vcNxBJCpJJPvIJTO1OxShGwyftQ5wGObQzyeRmbRx9W7ULuyrPs1itBV/jK0RLf4IqpnMkscwESyTft+IURF5MEzQmYWC20WlFkmXgIGluZPNnKb1vk3BH4WiAKeTFMoiWas+meQBh620BHArnaVTF+giqeheW9xewIRoVkEs+Pm2siZYG0IH7w6+HAZKGX/zK/grHe+lBj3UWvdIEH53qJ1jwXUmrzKNsITaWqddhtan9erREGXaim8/MNbFun8xw9BfA8syIujIlP+rJFR114orHzBPOjHhplJOWR9UhnvEyWzQCBgnkfZTSl1WTzTxLBV4tilgVYowBeKLiPIQVHiX9OXoAmeG7+peerH+xUl4pDae5I1SMAC6mEa9xYr8O9eKRcdao/abCLoFQDvpPP3ACBeF48zuaNqbYtiFUfMU7NkMj0SRE625LV2Mxsl9VogFSu3NarKDMbPvZLmAbzq9WNAlJ8yzn76JbqI5koi5UNv2c9I3jPzVW4nOk87d0KtGd86DxGwV6BCZFWkVlVGCVZA4mNvIUvcJGigFuXrF}"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "test/pkg/fea85211.go",
+   "line": 35,
+   "start": 19,
+   "end": 39,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "bpwew",
+    "jdZsakasiv",
+    "bpwewjdZsakasiv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "src/55cc01ac.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "36376638396463313931613936626637613334616165626134656534643361366330396430633739396364343361616463613535323066666564356135376235",
+    "67f89dc191a96bf7a34aaeba4ee4d3a6c09d0c799cd43aadca5520ffed5a57b5"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/1b1486ef.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-prod.kww3wygxmwws.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/1b1486ef.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_W5SkwhvMhB7bvxD92PKBGhrjnqqzS5nlWAuU"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/a5f7016a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-mq-02.corp.helix-internal.net"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/a5f7016a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Expect1990."
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/a5f7016a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Wolkek\u00fcche79!"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/1469908e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Werder@2019"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/1469908e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.46.182.156"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/1469908e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "R2zDvGNrbWV5ZXI4MT8=",
+    "Gl\u00fcckmeyer81?"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/a9e0aac2.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "56, 53, 113, 107, 78, 84, 113, 55, 114, 112, 68, 65, 90, 82, 85, 112, 50, 54, 48, 67, 69, 80, 72, 86, 111, 113, 121, 85, 52, 87, 54, 98",
+    "85qkNTq7rpDAZRUp260CEPHVoqyU4W6b"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/a9e0aac2.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "n.wagner@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/0be3a4c0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Mia Weber"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "test/0be3a4c0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lukas.hoffmann@helix-corp.de"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "test/0be3a4c0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 5614 9076"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "test/0be3a4c0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Eva Mueller"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "test/0be3a4c0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "laura.wagner [at] helix-corp [dot] de"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "test/0be3a4c0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE82495403717232754202"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "test/0be3a4c0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lea Wolf"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "test/0be3a4c0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Bahnhofstra\u00dfe 25, 73997 Regensburg"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "test/0be3a4c0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "46.34.46.15"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "secret/pkg/87441f3d.go",
+   "line": 37,
+   "value": "\\n\\t%q",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/5f40d16d.go",
+   "line": 21,
+   "value": "LINE_1\\nLINE_2\\nLINE_2",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/5f40d16d.go",
+   "line": 32,
+   "value": "password_1\\t\\t\\t\\t\\t\\t\\t\\t\\t",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/5f40d16d.go",
+   "line": 36,
+   "value": "passphrase\\t\\t\\t\\t\\t\\t\\t\\t\\t",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/5f40d16d.go",
+   "line": 38,
+   "value": "LINE_1\\nLINE_2\\nLINE_2",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/5f40d16d.go",
+   "line": 46,
+   "value": "AQAAABAAAAAQtnCexFYLFtmTQCL0x3wnirMnXVA7aZy+lfrfso+SjHI=",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/5f40d16d.go",
+   "line": 58,
+   "value": "{AQAAABAAAAAQmEZaw8Ev9tClXWVQye1TR2KgF3p/wGoYs/TEQCmsxCk=}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/5f40d16d.go",
+   "line": 101,
+   "value": "ioutil.ReadFile(",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/5f40d16d.go",
+   "line": 109,
+   "value": "ioutil.ReadFile(",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/5f40d16d.go",
+   "line": 23,
+   "value": "AUTH_CLIENT_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/fea85211.go",
+   "line": 42,
+   "value": "ioutil.ReadFile(",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/fea85211.go",
+   "line": 26,
+   "value": "secret/data/helix/crm/prod",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/pkg/c50315a3.go",
+   "line": 11,
+   "value": "UKFS\\xe6\\xedv\\xf8\\x987xo^\\x83\\xf2*\\xb4\\x03\\x97.\\xe7\\xd2\\xde\\x14\\xa3\\xb6\\xcfF\\x9c\\xa3^)q\\xa5\\xa0\\x85h\\xb1'\\xaa\\xb4\\xad\\xdb\\xf0\\x8dKe\\x06\\xa0k\u02ea\u02e3X\\x8c6\\xe6\\x14V\\x86:\\xeb\\x1dq/\\xfa\\xaf?\\xf5\u00ae>\\xec\\x83HC\\x83\\xf9\\xc2\\xf1qo\\x87\\x9f\\xef(\\xed\\x06\\xb7\\x93`\\xf2fC\\xccy\\xe6\\xe0B\u06d9\\xcc\\x1e5[\\x9c\\x9b\\xa0K\\x9e\\xab\\xb09\\xecA\\x1d19HS\\xb3<\\xa7\\xa4\\xec\\xce\\xf3\\xb7\\xe5\\xde\\x10J\\x06\\xdeK9zj\\x85\\x95\\xcee\\x19=}W-h\\xfb\\xb9\\x121V\\xb1F\\xeeK\\xf1\\t\\xe8\\x87\\xf6d\\xe1\\xb8\\xfd%\\xca:a\\xdcnH\\xdf\\xfc\\xd2\\xc9[\\xf8e-\u0385\\xab\\xbc\\x04\\xdfK'1j%\\xbe\\x93\\x12\\xfb\\x00\\x8a\\x89\\x84\\xc1\\x1f`\\x9b\u068fy\\xedMc\\xfcGrh\\xcf\\x1e\\xef!~\\xec\\xbd\\xf5\\xba\\x97]u\\xffr\\t\\xf7\\x19X9\\xcfo\\xce\\x15}l\\xbaM\\x89~\\xe5s\\xed\\xd8:\\xb6\u14cbRX\\x84#\\xabu[\\x07\\xf8\\xde\\x1awH\\xc2;b \\x04\\xc3",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/pkg/c50315a3.go",
+   "line": 15,
+   "value": "ioutil.ReadFile(",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/pkg/c50315a3.go",
+   "line": 24,
+   "value": "ioutil.ReadFile(",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/pkg/c50315a3.go",
+   "line": 25,
+   "value": "ioutil.ReadFile(",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/pkg/c50315a3.go",
+   "line": 26,
+   "value": "ioutil.ReadFile(",
+   "source": "creddata"
+  },
+  {
+   "file": "src/55cc01ac.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "10a16610c0cbc46b40ab73bc742354950d97004f03d238e2c676bd3e6fed51f0"
+  },
+  {
+   "file": "other/1b1486ef.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "5.14.49"
+  },
+  {
+   "file": "other/1b1486ef.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "7.22.39"
+  },
+  {
+   "file": "other/1b1486ef.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-M1bvGhalbfmVUzcEDmOYLGeISwItT/tQakLg4wskQwrPlJmFYNnwK7KDjfcH8wqcfd/KpOWKihwno66GEV/R8w=="
+  },
+  {
+   "file": "other/1b1486ef.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "2.17.14"
+  },
+  {
+   "file": "other/1b1486ef.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-jgIcyOnY6GSsWUUPwxMKO60Bk+4URnZwysdOi+9eVDXts9L6Rh9gZCTDCPoSrMJ2FeaaMhkgxUHY8/Xya+YDuQ=="
+  },
+  {
+   "file": "other/1b1486ef.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "3.11.10"
+  },
+  {
+   "file": "other/1b1486ef.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-Q4zAXOMpBgEj7tN1eJxltdt9jZ9beL7cd4fJSXyKddx6K6Omc2tiRMhLrGdBWzl/w19aa0ZJHE9C2ZhFCE27CQ=="
+  },
+  {
+   "file": "test/a5f7016a.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "schluessel-torch-eu"
+  },
+  {
+   "file": "test/a5f7016a.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kasse"
+  },
+  {
+   "file": "test/a5f7016a.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Discuss2019"
+  },
+  {
+   "file": "test/a5f7016a.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "etl"
+  },
+  {
+   "file": "test/a5f7016a.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "backup"
+  },
+  {
+   "file": "test/a5f7016a.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "Tombstone Wall 3.1"
+  },
+  {
+   "file": "other/1469908e.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:691856f07d5543d28962f55edb44425ae9b63e7d9bd3cbedcfe443d48be9ecfc"
+  },
+  {
+   "file": "other/1469908e.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "8d3e5ca23f99ffb2839545b5d23a452e9e791626"
+  },
+  {
+   "file": "other/1469908e.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "REPLACE_ME"
+  },
+  {
+   "file": "other/1469908e.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "other/1469908e.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "6.22.29"
+  },
+  {
+   "file": "test/a9e0aac2.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "116, 101, 120, 116, 47, 112, 108, 97, 105, 110, 59, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56"
+  },
+  {
+   "file": "test/a9e0aac2.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "R0VUL2hlYWx0aHo="
+  },
+  {
+   "file": "test/a9e0aac2.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "656e2d55532c656e3b713d302e39"
+  },
+  {
+   "file": "test/a9e0aac2.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "test/a9e0aac2.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@pinegrid-corp.de"
+  },
+  {
+   "file": "test/0be3a4c0.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "privacy@helix-corp.de"
+  },
+  {
+   "file": "test/0be3a4c0.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "press@helix-corp.de"
+  },
+  {
+   "file": "test/0be3a4c0.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+44 20 7946 0140"
+  },
+  {
+   "file": "test/0be3a4c0.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "test/0be3a4c0.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "test/0be3a4c0.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "test/0be3a4c0.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "test/0be3a4c0.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "192.168.1.1"
+  }
+ ]
+}

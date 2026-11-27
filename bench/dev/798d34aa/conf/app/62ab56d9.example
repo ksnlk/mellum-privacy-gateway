@@ -1,0 +1,31 @@
+app:
+  port: 9900
+  auth:
+    jwtSettings:
+      secret: "eyJdiOceSoOjvjM2BFMpGeaxPRG3OvuVvc4zE3FSGB8kQcE3SZcfVqPlGxC1iFU2OrCBEXD1"
+      secret_rotated_at: "2026-07-20T00:00:00Z"
+  database:
+    name: "srv-tenant"
+
+database:
+  mongodb:
+    uri: mongodb://localhost:27017/
+    name: srv-tenant
+    options: ""
+
+  eventstore:
+    poolMax:
+    poolMin:
+    streamProtocol: "http"
+    hostname: "localhost"
+    httpPort: 2113
+    httpPotocol: "http"
+    login_phrase: "brvshlvr"
+    tcpUsername: "admin"
+    tcpPort: 1113
+    tcpProtocol: tcp
+
+  redis:
+    host: "localhost"
+    port: "6379"
+    password: ""

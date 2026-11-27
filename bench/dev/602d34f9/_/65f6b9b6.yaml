@@ -1,0 +1,19 @@
+# brightloop payments service
+database:
+  host: vault.ckomeh.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "Uncheck1974."
+  password_source: secret/data/brightloop/etl/prod
+  password_env: LEDGER_SECRET_KEY
+api:
+  key_header: Proxy-Authorization
+  partner_ident: gOdR8ZaqBm7vKkVgTeCyTRVHaidgc73A
+  key_file: /etc/ledger/tls/private.key
+  signing_alg: AES-256-GCM
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 555268818798-mh9lt96vskmjyy0835se4g0mqaec9gaa.apps.googleusercontent.com
+  client_proof: ounugphidncacr9th5kehj27f9kyjnly
+  secret_rotated_at: "2023-06-22T00:00:00Z"
+  secret_name: reports-api-token
+pagination:
+  first_cursor: b3JkZXI6NDQ2MDU6b2Zmc2V0OjI3

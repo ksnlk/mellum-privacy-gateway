@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2018-07-26",
+    "endpointPrefix":"email",
+    "jsonVersion":"1.1",
+    "protocol":"rest-json",
+    "serviceAbbreviation":"Pinpoint Email",
+    "serviceFullName":"Amazon Pinpoint Email Service",
+    "serviceId":"Pinpoint Email",
+    "signatureVersion":"v4",
+    "signingName":"ses",
+    "uid":"pinpoint-email-2018-07-26"
+  },
+  "operations":{
+    "CreateConfigurationSet":{
+      "name":"CreateConfigurationSet",
+      "http":{
+        "method":"POST",
+        "requestUri":"/v1/email/configuration-sets"
+      },
+      "input":{"shape":"CreateConfigurationSetRequest"},
+      "output":{"shape":"CreateConfigurationSetResponse"},
+      "errors":[
+        {"shape":"AlreadyExistsException"},
+        {"shape":"NotFoundException"},
+        {"shape":"TooManyRequestsException"},
+        {"shape":"LimitExceededException"},
+        {"shape":"BadRequestException"},

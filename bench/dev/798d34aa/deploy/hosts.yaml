@@ -1,0 +1,15 @@
+monitoring: kestrel.vantor-ops.io
+database:
+  host: juno.vantor-ops.io
+  port: 5432
+queue: hermes.vantor-ops.io
+backup_target: orion.vantor-ops.io
+website: shop.vantor-ops.io
+payments_api: https://api.paycore.com/v2
+partner_drop: edi.paycore.de
+allow_sources:
+  - 193.97.23.175
+  - 192.30.252.153
+  - 193.101.51.98
+ntp: 194.58.200.20
+mirrors: [ci.jenkins.io, db.debian.org]

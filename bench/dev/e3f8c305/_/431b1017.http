@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://etl-primary.brightloop.cloud/api/v3/invoices?page=2
+Authorization: Basic Y2k6cGFuZGE5MDUk
+Cookie: _ga=GA1.2.T3HV0KU2DVZFMKEJCCZOQ27IGV; session_id=ydxodzy4u5erftbpjiqsr1a9rc4ycwwo
+X-Request-Id: 8f33196b-1a93-405c-b0d2-88acf0cda13f
+
+### the docs example, safe to share
+GET https://cdn.jsdelivr.net/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

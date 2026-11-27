@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2019-07-18",
+    "endpointPrefix":"codeguru-profiler",
+    "jsonVersion":"1.1",
+    "protocol":"rest-json",
+    "serviceFullName":"Amazon CodeGuru Profiler",
+    "serviceId":"CodeGuruProfiler",
+    "signatureVersion":"v4",
+    "signingName":"codeguru-profiler",
+    "uid":"codeguruprofiler-2019-07-18"
+  },
+  "operations":{
+    "AddNotificationChannels":{
+      "name":"AddNotificationChannels",
+      "http":{
+        "method":"POST",
+        "requestUri":"/profilingGroups/{profilingGroupName}/notificationConfiguration",
+        "responseCode":200
+      },
+      "input":{"shape":"AddNotificationChannelsRequest"},
+      "output":{"shape":"AddNotificationChannelsResponse"},
+      "errors":[
+        {"shape":"ServiceQuotaExceededException"},
+        {"shape":"InternalServerException"},
+        {"shape":"ConflictException"},
+        {"shape":"ValidationException"},
+        {"shape":"ThrottlingException"},

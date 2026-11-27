@@ -1,0 +1,1053 @@
+{
+ "repo": "850c2319",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/76ed074a",
+   "line": 197,
+   "start": 24,
+   "end": 34,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "3yLxU6i7eq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/76ed074a",
+   "line": 206,
+   "start": 61,
+   "end": 71,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "5dXvP2r3xq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/76ed074a",
+   "line": 219,
+   "start": 59,
+   "end": 69,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "5bSsV4y1lt"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "conf/doc/128a3f9f.md",
+   "line": 15,
+   "start": 14,
+   "end": 24,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "1r'mA0y6kt"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "doc/3245bad3.md",
+   "line": 32,
+   "start": 43,
+   "end": 59,
+   "category": "SQL Password",
+   "mutation": "b64",
+   "forms": [
+    "OGknbEkxaDN0aQ==",
+    "8i'lI1h3ti"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "doc/4b6ba000.md",
+   "line": 30,
+   "start": 15,
+   "end": 25,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "2e'yD3q0np"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "doc/4b6ba000.md",
+   "line": 37,
+   "start": 15,
+   "end": 25,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "8s'pS5l2oc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "doc/5ac4f856.md",
+   "line": 21,
+   "start": 16,
+   "end": 32,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "NGwnbk43cDV4aw==",
+    "4l'nN7p5xk"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "doc/5ac4f856.md",
+   "line": 29,
+   "start": 15,
+   "end": 25,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "8u'kQ8s8px"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "doc/ece869a3.md",
+   "line": 88,
+   "start": 43,
+   "end": 59,
+   "category": "SQL Password",
+   "mutation": "b64",
+   "forms": [
+    "MmQneFYwdzZiaA==",
+    "2d'xV0w6bh"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "etc/7677fb38.yaml",
+   "line": 6,
+   "start": 46,
+   "end": 56,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "1sDzR3w6th"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "etc/7677fb38.yaml",
+   "line": 13,
+   "start": 19,
+   "end": 29,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "5yJcQ9i2yq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "test/3ea664a1.golden",
+   "line": 158,
+   "start": 27,
+   "end": 42,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ouo:qpl@zot/vws"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "test/example/999981ff.go",
+   "line": 27,
+   "start": 20,
+   "end": 30,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "8t'lY1y4wi"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "test/f6959391.go",
+   "line": 26,
+   "start": 76,
+   "end": 82,
+   "category": "SQL Password",
+   "mutation": "none",
+   "forms": [
+    "*agjtg"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "other/fdfbd654.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-api-05.corp.brightloop-internal.net"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/fdfbd654.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "ZGVwbG95OkRpbjE5ODMh",
+    "deploy:Din1983!"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/fdfbd654.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "irq7gd4jyo2el20e0bahv536urazgqft"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/06bb4bb0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sofia12@gmail.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/06bb4bb0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 6192 2593"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/06bb4bb0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Funny2007*"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/06bb4bb0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE19403485461481238416"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/a53c7a7c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/a53c7a7c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "fischer_f",
+    "fischer_fussball",
+    "ussball"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "src/5685b3d6.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y29udmVydGVkLnNhbHRlZC5sb2dpYy5wYWxhdQ==",
+    "converted.salted.logic.palau"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "src/5685b3d6.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9ORlU0eWRENDdHQ2ljNTNocmpUdU1meWo=",
+    "sk_live_NFU4ydD47GCic53hrjTuMfyj"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "src/5685b3d6.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-prod.xujp2aoyqaif.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "other/57cb8a66.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "admin.kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "other/57cb8a66.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "159.139.77.207"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "other/57cb8a66.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "mia.mueller@kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "other/57cb8a66.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-cache-06.prod.kelpie-internal.net"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "other/57cb8a66.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "unhex_blume_notifiable81"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "other/356f3fc7.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-prod.4g2peaaarn1y.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "other/356f3fc7.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "rDNC5Ig8oNWoDNA7zxkFGHUhruzX5huw"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/705ab8f4.go",
+   "line": 71,
+   "whole_line": "\t\"ON UPDATE\", \"ON DELETE\", \"OUTFILE\", \"PACK_KEYS\", \"PAGE\", \"PARTIAL\", \"PARTITION\", \"PARTITIONS\", \"PASSWORD\", \"PRIMARY\", \"PRIVILEGES\", \"PROCEDURE\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/705ab8f4.go",
+   "line": 825,
+   "whole_line": "\t\t\ttoken = getNextToken(sql, token)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eca158e4.go",
+   "line": 281,
+   "whole_line": "\t\"possible_keys\": \"\u6307\u51faMySQL\u80fd\u5728\u8be5\u8868\u4e2d\u4f7f\u7528\u54ea\u4e9b\u7d22\u5f15\u6709\u52a9\u4e8e\u67e5\u8be2. \u5982\u679c\u4e3a\u7a7a, \u8bf4\u660e\u6ca1\u6709\u53ef\u7528\u7684\u7d22\u5f15.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eca158e4.go",
+   "line": 283,
+   "value": "\u663e\u793aMySQL\u4f7f\u7528\u7d22\u5f15\u952e\u7684\u957f\u5ea6. \u5982\u679ckey\u662fNULL, \u5219key_len\u4e3aNULL. \u4f7f\u7528\u7684\u7d22\u5f15\u7684\u957f\u5ea6. \u5728\u4e0d\u635f\u5931\u7cbe\u786e\u6027\u7684\u60c5\u51b5\u4e0b, \u957f\u5ea6\u8d8a\u77ed\u8d8a\u597d.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eca158e4.go",
+   "line": 310,
+   "value": "SELECT * FROM RefTbl, tbl WHERE RefTbl.col=tbl.col;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eca158e4.go",
+   "line": 374,
+   "whole_line": "\t\"Full scan on NULL key\":                    \"\u5b50\u67e5\u8be2\u4e2d\u7684\u4e00\u79cd\u4f18\u5316\u65b9\u5f0f, \u5e38\u89c1\u4e8e\u65e0\u6cd5\u901a\u8fc7\u7d22\u5f15\u8bbf\u95eenull\u503c.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eca158e4.go",
+   "line": 853,
+   "value": "colsMap[",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eca158e4.go",
+   "line": 995,
+   "whole_line": "\t\t\"key\":           &key,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 259,
+   "whole_line": "\t\tAllowNativePasswords: true,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 270,
+   "whole_line": "\tdsn.Password = cfg.Passwd",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 289,
+   "whole_line": "\tdsn.AllowNativePasswords = cfg.AllowNativePasswords",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 290,
+   "whole_line": "\tdsn.AllowOldPasswords = cfg.AllowOldPasswords",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 300,
+   "whole_line": "\tdsn.Passwd = env.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 329,
+   "whole_line": "\tdsn.AllowNativePasswords = env.AllowNativePasswords",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 330,
+   "whole_line": "\tdsn.AllowOldPasswords = env.AllowOldPasswords",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 346,
+   "whole_line": "\t\tpassword = d.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 437,
+   "whole_line": "\tdsn.Password = password",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 476,
+   "whole_line": "\tregPwd := regexp.MustCompile(`:.*@`)",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 642,
+   "whole_line": "\texplainMaxKeyLength := flag.Int(\"explain-max-keys\", Config.ExplainMaxKeyLength, \"ExplainMaxKeyLength, \u6700\u5927key_len\")",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 643,
+   "whole_line": "\texplainMinPossibleKeys := flag.Int(\"explain-min-keys\", Config.ExplainMinPossibleKeys, \"ExplainMinPossibleKeys, \u6700\u5c0fpossible_keys\u8b66\u544a\")",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 916,
+   "value": "password@127.0.0.1:3306/db",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a746be65.go",
+   "line": 916,
+   "value": "3306/db",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/doc/128a3f9f.md",
+   "line": 89,
+   "value": "port/database",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/doc/128a3f9f.md",
+   "line": 91,
+   "value": "port/database",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/doc/128a3f9f.md",
+   "line": 96,
+   "value": "3307/database",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/doc/128a3f9f.md",
+   "line": 97,
+   "whole_line": "* \"user:password@127.0.0.1:3307\"",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/doc/128a3f9f.md",
+   "line": 98,
+   "value": "/database",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/doc/128a3f9f.md",
+   "line": 99,
+   "whole_line": "* \"user:password@:3307/database\"",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/doc/128a3f9f.md",
+   "line": 16,
+   "value": "secret/data/quarzo/payments/staging",
+   "source": "creddata"
+  },
+  {
+   "file": "doc/5ac4f856.md",
+   "line": 22,
+   "value": "GTXFC3QV688W4WWDAL2U",
+   "source": "creddata"
+  },
+  {
+   "file": "etc/7677fb38.yaml",
+   "line": 14,
+   "value": "ledger-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1521eb46.golden",
+   "line": 12,
+   "whole_line": "            Key:          \"PRIMARY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1521eb46.golden",
+   "line": 27,
+   "whole_line": "            Key:          \"idx_fk_country_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1521eb46.golden",
+   "line": 57,
+   "whole_line": "            Key:          \"idx_fk_city_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1521eb46.golden",
+   "line": 72,
+   "whole_line": "            Key:          \"idx_fk_address_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1521eb46.golden",
+   "line": 86,
+   "value": "<auto_key0>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1521eb46.golden",
+   "line": 87,
+   "whole_line": "            Key:          \"<auto_key0>\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1521eb46.golden",
+   "line": 117,
+   "whole_line": "            Key:          \"idx_fk_address_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1521eb46.golden",
+   "line": 132,
+   "whole_line": "            Key:          \"PRIMARY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1521eb46.golden",
+   "line": 147,
+   "whole_line": "            Key:          \"PRIMARY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/386c13b9.go",
+   "line": 91,
+   "whole_line": "          key: country",
+   "source": "creddata"
+  },
+  {
+   "file": "test/386c13b9.go",
+   "line": 101,
+   "value": "idx_fk_country_id",
+   "source": "creddata"
+  },
+  {
+   "file": "test/386c13b9.go",
+   "line": 102,
+   "whole_line": "          key: idx_fk_country_id",
+   "source": "creddata"
+  },
+  {
+   "file": "test/386c13b9.go",
+   "line": 376,
+   "whole_line": "            \"key\": \"<auto_key>\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/386c13b9.go",
+   "line": 1046,
+   "whole_line": "          \"key\": \"<auto_key>\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/386c13b9.go",
+   "line": 1104,
+   "whole_line": "          \"key\": \"<auto_key>\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/386c13b9.go",
+   "line": 1338,
+   "whole_line": "            \"key\": \"c_key\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/386c13b9.go",
+   "line": 1388,
+   "whole_line": "            \"key\": \"c_key\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/386c13b9.go",
+   "line": 2112,
+   "whole_line": "              \"key\": \"PRIMARY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/386c13b9.go",
+   "line": 2244,
+   "whole_line": "                \"key\": \"PRIMARY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/386c13b9.go",
+   "line": 2308,
+   "whole_line": "          \"key\": \"PRIMARY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3ea664a1.golden",
+   "line": 23,
+   "value": "3307/database",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3ea664a1.golden",
+   "line": 45,
+   "value": "3307/database?charset=utf8",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3ea664a1.golden",
+   "line": 67,
+   "value": "3307",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3ea664a1.golden",
+   "line": 89,
+   "value": "/database",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3ea664a1.golden",
+   "line": 111,
+   "value": "3307/database",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3ea664a1.golden",
+   "line": 155,
+   "whole_line": "user:pwd:pwd@pwd/pwd@hostname/database",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3ea664a1.golden",
+   "line": 507,
+   "whole_line": "user:password@tcp([de:ad:be:ef::ca:fe]:80)/dbname?timeout=90s",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3ea664a1.golden",
+   "line": 529,
+   "whole_line": "user:password@tcp([de:ad:be:ef::ca:fe]:80)/dbname?collation=utf8mb4_unicode_ci",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b57f2d68.golden",
+   "line": 113,
+   "value": "password@127.0.0.1:3306/db",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b57f2d68.golden",
+   "line": 113,
+   "value": "3306/db",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b5ced950.bats",
+   "line": 127,
+   "value": "passwd",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b5ced950.bats",
+   "line": 127,
+   "value": "port/db",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/e6d458ed.go",
+   "line": 73,
+   "value": "3307/database",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/e6d458ed.go",
+   "line": 74,
+   "value": "3307/database?charset=utf8",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/e6d458ed.go",
+   "line": 75,
+   "value": "3307",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/e6d458ed.go",
+   "line": 76,
+   "value": "/database",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/e6d458ed.go",
+   "line": 77,
+   "whole_line": "\t\t\"user:password@:3307/database\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/e6d458ed.go",
+   "line": 79,
+   "whole_line": "\t\t\"user:pwd:pwd@pwd/pwd@hostname/database\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/fixture/8a4439b7.golden",
+   "line": 11,
+   "value": "AAAAB3NzaC1yc2EAAAADAQABAAABAQC0JFhoEgrl5/51UHlIIlfWwhiJLR/EEeF8enGnY0PnAldLQ8STdWD8Um2BUtVjgE9COl1X3mN4vMvnSm8A6aPn66enHn0hKzwh1GvcuZNTPgeaZyGKWG0kcvbziUjAPsxxvRvvoaUspSkRYAP/9vpq3SImJKuIHCPfjnGMurKV1n7W/QfpmNjUEwYOswDjL1Ik6Jy6Lrzf8T0hQEy+dYoV4zNM0HcROCXFuu1LyG+WTch3FW660BecNT8+c4sVTHuUMXgGot8OUtwgfXrt5ZL5as7cuyKiWsLVrtrtvL3T0ZHlV8qxQ3DT1gqjSw6jBOzyDOx3jwthAbdsWjyK4Oqp",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/fixture/8a4439b7.golden",
+   "line": 31,
+   "whole_line": "  server-public-key: this is a tset serverpublic",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e295bd7b.go",
+   "line": 63,
+   "whole_line": "\t\t\t\t\t\"key\":\"value\"",
+   "source": "creddata"
+  },
+  {
+   "file": "other/fdfbd654.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "J5IXZRZYB6ZVJP92HAKFE16UEY"
+  },
+  {
+   "file": "other/fdfbd654.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "14394cc1-f58b-45bc-a394-ac641cf06727"
+  },
+  {
+   "file": "other/fdfbd654.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "other/fdfbd654.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/06bb4bb0.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "_/06bb4bb0.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "noreply@github.com"
+  },
+  {
+   "file": "_/06bb4bb0.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "test/a53c7a7c.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "a9862785fd6ede53d4bc3f07930c07d53d3b403b"
+  },
+  {
+   "file": "test/a53c7a7c.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "test/a53c7a7c.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.github.com"
+  },
+  {
+   "file": "src/5685b3d6.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "64ac1ea"
+  },
+  {
+   "file": "src/5685b3d6.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "5a79d0e7fc4237ab904e03a11bd71bca92a69a1bdf1e8ec9cf51b18b8b0af32d"
+  },
+  {
+   "file": "src/5685b3d6.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "sentry.io"
+  },
+  {
+   "file": "src/5685b3d6.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/57cb8a66.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "docs.kelpie-corp.de"
+  },
+  {
+   "file": "other/57cb8a66.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.kelpie-corp.de"
+  },
+  {
+   "file": "other/57cb8a66.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/57cb8a66.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "other/57cb8a66.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "other/57cb8a66.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "other/57cb8a66.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "security@kelpie-corp.de"
+  },
+  {
+   "file": "other/57cb8a66.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "dXNlci1hZ2VudDpjdXJsLzguNC4w"
+  },
+  {
+   "file": "other/57cb8a66.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "6170706c69636174696f6e2f6a736f6e"
+  },
+  {
+   "file": "other/57cb8a66.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "other/356f3fc7.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "other/356f3fc7.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.18.11"
+  },
+  {
+   "file": "other/356f3fc7.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "948291b553d8c5096a04bd6b797117a713245baa"
+  },
+  {
+   "file": "other/356f3fc7.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "26516161-b066-4769-906a-54735112fc40"
+  }
+ ]
+}

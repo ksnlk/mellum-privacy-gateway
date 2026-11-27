@@ -1,0 +1,1350 @@
+{
+ "repo": "bdaf1007",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "src/667f729e.rs",
+   "line": 79,
+   "start": 32,
+   "end": 84,
+   "category": "Token",
+   "mutation": "b64",
+   "forms": [
+    "Yjc4ODA3MzRhNjM1NmIxMDdiZWI4YzliZjBjZGNlNGY3ZDRjZTA=",
+    "b7880734a6356b107beb8c9bf0cdce4f7d4ce0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/8cf3d555.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "cased_solicit_hat_smuggling"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "src/8cf3d555.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger.fvvr32.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "test/de225d25.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-primary.vantor.cloud"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/de225d25.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Hertha",
+    "Hertha&1978",
+    "&1978"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/a1678599.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/a1678599.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "lqmfcn5WQQCXOV6f06Tq5HBYITMap6YF"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/ef924628.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-db-02.int.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/ef924628.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_ECWekFBBduunF1drkuxXN4gZN20GrqQLsxsw"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/c5ca890a.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.V8xm9hR1oAU67sv8jjTjAKT2XeH7MJwnm8vpKKm_.1_iIyhw1Gs1OoTnB8U4MufQj_ETXf09MsdsDrPIIX9i"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/c5ca890a.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-prod.29vgq290ayfx.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/efa369e4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "anna98@gmail.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/efa369e4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 2253 5516"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/efa369e4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sugg3$t74"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/efa369e4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE43773418369796676983"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "src/035a162c.rs",
+   "line": 55,
+   "whole_line": "    pub key: Key,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/035a162c.rs",
+   "line": 91,
+   "whole_line": "    pub fn save(&mut self, pwd: &str, storage: &mut Storage) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/035a162c.rs",
+   "line": 95,
+   "whole_line": "        let pwd_hash = crypto.hash_pwd(pwd, &self.head.salt)?;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/035a162c.rs",
+   "line": 130,
+   "whole_line": "    fn load_arm(suffix: u64, pwd: &str, storage: &mut Storage) -> Result<Self> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/035a162c.rs",
+   "line": 141,
+   "whole_line": "        let pwd_hash = crypto.hash_pwd(pwd, &head.salt)?;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/035a162c.rs",
+   "line": 159,
+   "whole_line": "    pub fn load(pwd: &str, storage: &mut Storage) -> Result<Self> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/035a162c.rs",
+   "line": 171,
+   "whole_line": "    pub fn repair(pwd: &str, storage: &mut Storage) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1911a8da.rs",
+   "line": 122,
+   "whole_line": "    pub fn create(uri: &str, pwd: &str, cfg: &Config) -> Result<Fs> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1911a8da.rs",
+   "line": 171,
+   "whole_line": "        pwd: &str,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1911a8da.rs",
+   "line": 184,
+   "whole_line": "        let payload = vol.open(pwd, force)?;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1911a8da.rs",
+   "line": 235,
+   "whole_line": "        old_pwd: &str,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1911a8da.rs",
+   "line": 236,
+   "whole_line": "        new_pwd: &str,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1911a8da.rs",
+   "line": 249,
+   "whole_line": "    pub fn repair_super_block(uri: &str, pwd: &str) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1df0d07c.rs",
+   "line": 155,
+   "whole_line": "            key: Key::new_empty(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1df0d07c.rs",
+   "line": 179,
+   "whole_line": "        self.key = Crypto::gen_master_key();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1df0d07c.rs",
+   "line": 193,
+   "whole_line": "        self.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1df0d07c.rs",
+   "line": 320,
+   "whole_line": "            key: Key::new_empty(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1df0d07c.rs",
+   "line": 415,
+   "whole_line": "    frm_key: usize,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1df0d07c.rs",
+   "line": 1000,
+   "whole_line": "        let key = Key::new_empty();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2aff1fd0.rs",
+   "line": 86,
+   "whole_line": "    fn set_crypto_ctx(&mut self, crypto: Crypto, key: Key) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2aff1fd0.rs",
+   "line": 127,
+   "whole_line": "    fn init(&mut self, crypto: Crypto, key: Key) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2aff1fd0.rs",
+   "line": 142,
+   "whole_line": "    fn open(&mut self, crypto: Crypto, key: Key, force: bool) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2aff1fd0.rs",
+   "line": 340,
+   "whole_line": "        fs.open(Crypto::default(), Key::new_empty(), false).unwrap();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2aff1fd0.rs",
+   "line": 380,
+   "whole_line": "        fs.open(Crypto::default(), Key::new_empty(), false).unwrap();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2aff1fd0.rs",
+   "line": 437,
+   "whole_line": "        fs.open(Crypto::default(), Key::new_empty(), false).unwrap();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2aff1fd0.rs",
+   "line": 469,
+   "whole_line": "        let (crypto, key) = (Crypto::default(), Key::new_empty());",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2c82febc.rs",
+   "line": 159,
+   "whole_line": "    hash_key: HashKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2c82febc.rs",
+   "line": 173,
+   "whole_line": "            hash_key: HashKey::new_empty(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2c82febc.rs",
+   "line": 182,
+   "whole_line": "        hash_key: HashKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2c82febc.rs",
+   "line": 185,
+   "whole_line": "        self.hash_key = hash_key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/31041e6a.rs",
+   "line": 18,
+   "whole_line": "//   access_key: &str,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/31041e6a.rs",
+   "line": 148,
+   "whole_line": "    fn set_crypto_ctx(&mut self, crypto: Crypto, key: Key) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/31041e6a.rs",
+   "line": 176,
+   "whole_line": "    fn init(&mut self, crypto: Crypto, key: Key) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/31041e6a.rs",
+   "line": 187,
+   "whole_line": "    fn open(&mut self, crypto: Crypto, key: Key, _force: bool) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/427daa39.rs",
+   "line": 17,
+   "whole_line": "    fn set_crypto_ctx(&mut self, crypto: Crypto, key: Key);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/427daa39.rs",
+   "line": 722,
+   "whole_line": "    pub fn set_crypto_ctx(&mut self, crypto: Crypto, key: Key) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4fb95cf4.rs",
+   "line": 336,
+   "whole_line": "    fn init(&mut self, _crypto: Crypto, _key: Key) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4fb95cf4.rs",
+   "line": 383,
+   "whole_line": "    fn open(&mut self, _crypto: Crypto, _key: Key, force: bool) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4fb95cf4.rs",
+   "line": 653,
+   "whole_line": "        ss.open(Crypto::default(), Key::new_empty(), false).unwrap();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/595b676e.rs",
+   "line": 52,
+   "whole_line": "    fn init(&mut self, crypto: Crypto, key: Key) -> Result<()>;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/595b676e.rs",
+   "line": 55,
+   "whole_line": "    fn open(&mut self, crypto: Crypto, key: Key, force: bool) -> Result<()>;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/595b676e.rs",
+   "line": 107,
+   "whole_line": "    fn init(&mut self, _crypto: Crypto, _key: Key) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/595b676e.rs",
+   "line": 112,
+   "whole_line": "    fn open(&mut self, _crypto: Crypto, _key: Key, _force: bool) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/61223061.rs",
+   "line": 29,
+   "whole_line": "            key: Key::new_empty(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/61223061.rs",
+   "line": 42,
+   "whole_line": "    fn set_crypto_ctx(&mut self, crypto: Crypto, key: Key) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/61223061.rs",
+   "line": 44,
+   "whole_line": "        self.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/667f729e.rs",
+   "line": 80,
+   "value": "$2b$12$KKQmK6X3Rf34zw0.dLLHImVahhNhI9RJhqpafFeAJGbYRjjmAHPbj",
+   "source": "creddata"
+  },
+  {
+   "file": "src/742c6aac.rs",
+   "line": 50,
+   "value": "&str,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/742c6aac.rs",
+   "line": 50,
+   "value": "&str",
+   "source": "creddata"
+  },
+  {
+   "file": "src/742c6aac.rs",
+   "line": 70,
+   "whole_line": "        super_blk.head.salt = Salt::new();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/742c6aac.rs",
+   "line": 90,
+   "whole_line": "    pub fn open(&mut self, pwd: &str, force: bool) -> Result<Vec<u8>> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/742c6aac.rs",
+   "line": 124,
+   "whole_line": "    pub fn repair_super_block(&mut self, pwd: &str) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/742c6aac.rs",
+   "line": 139,
+   "value": "&str,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/742c6aac.rs",
+   "line": 139,
+   "value": "&str",
+   "source": "creddata"
+  },
+  {
+   "file": "src/742c6aac.rs",
+   "line": 140,
+   "value": "&str,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/742c6aac.rs",
+   "line": 140,
+   "value": "&str",
+   "source": "creddata"
+  },
+  {
+   "file": "src/742c6aac.rs",
+   "line": 384,
+   "value": "&str",
+   "source": "creddata"
+  },
+  {
+   "file": "src/742c6aac.rs",
+   "line": 432,
+   "value": "&str",
+   "source": "creddata"
+  },
+  {
+   "file": "src/742c6aac.rs",
+   "line": 480,
+   "whole_line": "        let (vol, _tmpdir) = setup_file_vol(&pwd, &payload);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/742c6aac.rs",
+   "line": 488,
+   "value": "pwd",
+   "source": "creddata"
+  },
+  {
+   "file": "src/812137a4.rs",
+   "line": 65,
+   "whole_line": "        let mut hash_key = HashKey::new_empty();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8a44ff48.rs",
+   "line": 203,
+   "whole_line": "    /// storage://username:password@/path/data?key=value&key2=value2",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8a44ff48.rs",
+   "line": 258,
+   "whole_line": "    pub fn open(&self, uri: &str, pwd: &str) -> Result<Repo> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8a44ff48.rs",
+   "line": 715,
+   "whole_line": "    fn create(uri: &str, pwd: &str, cfg: &Config) -> Result<Repo> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8a44ff48.rs",
+   "line": 724,
+   "value": "&str,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8a44ff48.rs",
+   "line": 724,
+   "value": "&str",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8a44ff48.rs",
+   "line": 728,
+   "whole_line": "        let fs = Fs::open(uri, pwd, read_only, force)?;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8a44ff48.rs",
+   "line": 759,
+   "value": "&str,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8a44ff48.rs",
+   "line": 759,
+   "value": "&str",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8a44ff48.rs",
+   "line": 760,
+   "value": "&str,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8a44ff48.rs",
+   "line": 760,
+   "value": "&str",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8a44ff48.rs",
+   "line": 779,
+   "whole_line": "    pub fn repair_super_block(uri: &str, pwd: &str) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/96130eb0.rs",
+   "line": 68,
+   "whole_line": "        access_key: &str,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/96130eb0.rs",
+   "line": 99,
+   "whole_line": "            key: Key::new_empty(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/96130eb0.rs",
+   "line": 104,
+   "whole_line": "    pub fn set_crypto_ctx(&mut self, crypto: Crypto, key: Key) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/96130eb0.rs",
+   "line": 106,
+   "whole_line": "        self.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/96130eb0.rs",
+   "line": 386,
+   "whole_line": "            key: Key::new_empty(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a86e4631.rs",
+   "line": 25,
+   "whole_line": "fn sector_rel_path(sec_idx: usize, hash_key: &HashKey) -> PathBuf {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a86e4631.rs",
+   "line": 34,
+   "whole_line": "    // block deletion map, key: sector index, value: deletion bitmap",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a86e4631.rs",
+   "line": 47,
+   "whole_line": "        hash_key: &HashKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a86e4631.rs",
+   "line": 155,
+   "whole_line": "    hash_key: HashKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a86e4631.rs",
+   "line": 168,
+   "whole_line": "            key: Key::new_empty(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a86e4631.rs",
+   "line": 169,
+   "whole_line": "            hash_key: HashKey::new_empty(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a86e4631.rs",
+   "line": 174,
+   "whole_line": "    pub fn set_crypto_ctx(&mut self, crypto: Crypto, key: Key) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a86e4631.rs",
+   "line": 177,
+   "whole_line": "        self.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 28,
+   "whole_line": "fn wal_key(id: &Eid) -> String {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 34,
+   "whole_line": "fn addr_key(id: &Eid) -> String {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 40,
+   "whole_line": "fn blk_key(blk_idx: usize) -> String {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 70,
+   "whole_line": "    fn get_bytes(&self, key: &str) -> Result<Vec<u8>> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 84,
+   "whole_line": "    fn set_bytes(&self, key: &str, val: &[u8]) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 95,
+   "whole_line": "    fn del(&self, key: &str) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 107,
+   "whole_line": "        let key = repo_lock_key();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 130,
+   "whole_line": "        let key = super_blk_key(0);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 141,
+   "whole_line": "    fn init(&mut self, _crypto: Crypto, _key: Key) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 146,
+   "whole_line": "    fn open(&mut self, _crypto: Crypto, _key: Key, force: bool) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 152,
+   "whole_line": "        let key = super_blk_key(suffix);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 158,
+   "whole_line": "        let key = super_blk_key(suffix);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 164,
+   "whole_line": "        let key = wal_key(id);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 170,
+   "whole_line": "        let key = wal_key(id);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 176,
+   "whole_line": "        let key = wal_key(id);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 182,
+   "whole_line": "        let key = addr_key(id);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 188,
+   "whole_line": "        let key = addr_key(id);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 194,
+   "whole_line": "        let key = addr_key(id);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 201,
+   "whole_line": "            let key = blk_key(blk_idx);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 213,
+   "whole_line": "            let key = blk_key(blk_idx);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 223,
+   "whole_line": "            let key = blk_key(blk_idx);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 237,
+   "whole_line": "        let key = repo_lock_key();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 258,
+   "whole_line": "            let key = repo_lock_key();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c26518a1.rs",
+   "line": 335,
+   "whole_line": "        rs.open(Crypto::default(), Key::new_empty(), false).unwrap();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/ce278407.rs",
+   "line": 42,
+   "whole_line": "    fn init(&mut self, crypto: Crypto, key: Key) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/ce278407.rs",
+   "line": 47,
+   "whole_line": "    fn open(&mut self, crypto: Crypto, key: Key, force: bool) -> Result<()> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/ce278407.rs",
+   "line": 151,
+   "whole_line": "        let key = Key::new_empty();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cfa48f4e.rs",
+   "line": 68,
+   "whole_line": "    pub fn derive_id(self, hash_key: &HashKey) -> Eid {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/2fe7e0f2.rs",
+   "line": 63,
+   "whole_line": "    session_token: String,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/2fe7e0f2.rs",
+   "line": 102,
+   "whole_line": "    fn bearer_auth(mut self, auth_key: &str) -> Self {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/2fe7e0f2.rs",
+   "line": 145,
+   "whole_line": "    access_key: String,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/2fe7e0f2.rs",
+   "line": 146,
+   "whole_line": "    session_token: String,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/2fe7e0f2.rs",
+   "line": 166,
+   "whole_line": "    pub fn new(repo_id: &str, access_key: &str) -> Result<Self> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/2fe7e0f2.rs",
+   "line": 202,
+   "whole_line": "            session_token: String::new(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/2fe7e0f2.rs",
+   "line": 510,
+   "whole_line": "            access_key: String::new(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/2fe7e0f2.rs",
+   "line": 511,
+   "whole_line": "            session_token: String::new(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e4425a36.rs",
+   "line": 78,
+   "whole_line": "    // key: chunk hash",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb203eaa.rs",
+   "line": 39,
+   "whole_line": "    fn new(file: vio::File, crypto: &Crypto, key: &Key) -> Self {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb203eaa.rs",
+   "line": 105,
+   "whole_line": "    fn new(file: vio::File, crypto: &Crypto, key: &Key) -> Self {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb203eaa.rs",
+   "line": 183,
+   "whole_line": "            key: Key::new_empty(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb203eaa.rs",
+   "line": 255,
+   "whole_line": "    fn set_crypto_ctx(&mut self, crypto: Crypto, key: Key) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb203eaa.rs",
+   "line": 257,
+   "whole_line": "        self.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 40,
+   "whole_line": "        key: *const u8,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 45,
+   "whole_line": "        key: *const u8,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 65,
+   "whole_line": "        passwd: *const u8,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 67,
+   "whole_line": "        salt: *const u8,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 75,
+   "whole_line": "    fn crypto_kdf_keygen(key: *mut u8);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 77,
+   "whole_line": "        subkey: *mut u8,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 81,
+   "whole_line": "        key: *const u8,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 392,
+   "value": "SafeBox<[u8",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 636,
+   "value": "SafeBox<[u8",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 838,
+   "whole_line": "        key: *const u8,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 859,
+   "whole_line": "    pub fn hash_with_key(inbuf: &[u8], key: &HashKey) -> Hash {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 935,
+   "whole_line": "    pub fn hash_pwd(&self, passwd: &str, salt: &Salt) -> Result<PwdHash> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 936,
+   "whole_line": "        let mut pwdhash = PwdHash::new();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 938,
+   "whole_line": "        pwdhash.salt = salt.clone();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 939,
+   "whole_line": "        pwdhash.cost = self.cost;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 963,
+   "whole_line": "        let mut key = Key::new_empty();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 971,
+   "whole_line": "    pub fn derive_from_key(key: &Key, subkey_id: u64) -> Result<Key> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 972,
+   "whole_line": "        let mut subkey = Key::new_empty();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 1001,
+   "whole_line": "    fn extend_nonce(&self, nonce: *const u8, key: &Key) -> (*const u8, Key) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 1003,
+   "whole_line": "        let mut subkey = Key::new_empty();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 1040,
+   "whole_line": "        let nonce_size = self.nonce_size();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 1108,
+   "whole_line": "    pub fn encrypt(&self, msg: &[u8], key: &Key) -> Result<Vec<u8>> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 1131,
+   "whole_line": "        let nonce_size = self.nonce_size();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 1186,
+   "whole_line": "    pub fn decrypt(&self, ctxt: &[u8], key: &Key) -> Result<Vec<u8>> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fb3d81be.rs",
+   "line": 1224,
+   "whole_line": "        let key = Key::new_empty();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/764a2b90.rs",
+   "line": 21,
+   "whole_line": "        key: *const u8,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e974654f.rs",
+   "line": 31,
+   "whole_line": "    let pwd = \"pwd\";",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/8b0a1f2f.c",
+   "line": 472,
+   "whole_line": "    BYTE* const token = (*op)++;",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/8b0a1f2f.c",
+   "line": 496,
+   "whole_line": "        *token = (RUN_MASK << ML_BITS);",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/8b0a1f2f.c",
+   "line": 500,
+   "whole_line": "        *token = (BYTE)(length << ML_BITS);",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/f39085c6.c",
+   "line": 26,
+   "whole_line": "            token = op++;",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/f39085c6.c",
+   "line": 38,
+   "whole_line": "                *token = (RUN_MASK<<ML_BITS);",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/f39085c6.c",
+   "line": 42,
+   "whole_line": "            else *token = (BYTE)(litLength<<ML_BITS);",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/f39085c6.c",
+   "line": 57,
+   "whole_line": "         * - token and *token : position to write 4-bits for match length; higher 4-bits for literal length supposed already written",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/f39085c6.c",
+   "line": 108,
+   "whole_line": "            { token=op++; *token=0; goto _next_match; }",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/f39085c6.c",
+   "line": 143,
+   "whole_line": "                token=op++;",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/f39085c6.c",
+   "line": 194,
+   "whole_line": "            token = *ip++;",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/f39085c6.c",
+   "line": 245,
+   "whole_line": "            token = *ip++;",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/f39085c6.c",
+   "line": 296,
+   "value": "==*/",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8cf3d555.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAImcRf1r7Xe8yGjcw8nKSv+uPQAuIbfl/Ncqr2WB34AoH"
+  },
+  {
+   "file": "src/8cf3d555.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "63e6d08f4c73a0f3cd6935039cda325d23151691b61d23465eb10099622b8b57"
+  },
+  {
+   "file": "src/8cf3d555.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/8cf3d555.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "test/de225d25.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "3323141ac1b0737c580e28c49e2d76817465be9e"
+  },
+  {
+   "file": "test/de225d25.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "REPLACE_ME"
+  },
+  {
+   "file": "test/de225d25.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "other/a1678599.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "other/a1678599.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "0.24.26"
+  },
+  {
+   "file": "other/a1678599.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4778eb8e7d92eac5470dffd98dcf711811fc18d3"
+  },
+  {
+   "file": "other/a1678599.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "b69aadaa-ebc8-42bb-909e-8dd6ee80e8dd"
+  },
+  {
+   "file": "src/ef924628.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "3.4.23"
+  },
+  {
+   "file": "src/ef924628.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "7.21.41"
+  },
+  {
+   "file": "src/ef924628.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-ULMa16AlOGO/5ch67EITnOSaOylqFDjdbQPje4qgsGRBjqjvAa7WUSEVhC6pSDNPvIEEMjr5NGhBqFb93QJyYA=="
+  },
+  {
+   "file": "src/ef924628.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "2.30.39"
+  },
+  {
+   "file": "src/ef924628.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-pWmYVsvfluDPgm1PbuhLabPmKsSrvNWhcThJsk5+GFbv22H0tfxp0IrE1qLLXFH1PrBZPxahcWosnVLWmC2R5A=="
+  },
+  {
+   "file": "src/ef924628.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "8.25.5"
+  },
+  {
+   "file": "src/ef924628.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-gEtdeLetp0YSF7VcLb10dNd9/trPa+39/OtvVVKxb5BC8uSWdAhwpjJOVHhlC1H1bnYIz0b6PTn7ycCa+jft5Q=="
+  },
+  {
+   "file": "_/c5ca890a.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "8.6.39"
+  },
+  {
+   "file": "_/c5ca890a.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "96f883b5dcd65f105b6ed68a62af35e310f93629"
+  },
+  {
+   "file": "_/c5ca890a.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "UTQ7LP3I5J1BMFETQO5MHE7XZR"
+  },
+  {
+   "file": "_/c5ca890a.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "_/c5ca890a.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "YQ804BBXCJ7BLHG9HOAYRTK7PU"
+  },
+  {
+   "file": "_/c5ca890a.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "_/efa369e4.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "_/efa369e4.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "jane.doe@example.org"
+  },
+  {
+   "file": "_/efa369e4.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "${DB_PASSWORD}"
+  }
+ ]
+}

@@ -1,0 +1,1387 @@
+{
+ "repo": "0064e882",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/d841edb7.cs",
+   "line": 30,
+   "start": 52,
+   "end": 66,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "AukzmnNpmjhins"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/84f73759.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_NJyMiJV7C2xNvwidsgBNnxoB"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "src/84f73759.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "7xgIagZa446A7mMZ6nlODOZ8IHtVe1uy"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "src/84f73759.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "b2M2amxlOXZnaGRnbmgxczlybzBsYml0dWN0M3E1ZW8=",
+    "oc6jle9vghdgnh1s9ro0lbituct3q5eo"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/3767c1bf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "emma.mueller@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/3767c1bf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 5272 7886"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/3767c1bf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Glueck@1969"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/3767c1bf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE83737150238321109038"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/bb51f0d2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Emma Mueller"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/bb51f0d2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "elias.zimmermann@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/bb51f0d2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 3410 1653"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/bb51f0d2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sofia Neumann"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/bb51f0d2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sofia.hartmann [at] pinegrid-corp [dot] de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/bb51f0d2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE50252113922491264462"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/bb51f0d2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Mia Wagner"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/bb51f0d2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Rosenheimer Str. 74, 54553 Augsburg"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/bb51f0d2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "46.100.151.71"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/7659a473.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "cm9tYW5pYW4uZGVsZXRlLnNvbW1lcg==",
+    "romanian.delete.sommer"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/7659a473.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV84M2JQYmllSWhuRjFsMUd5ZkxsVFFteUQ=",
+    "sk_live_83bPbieIhnF1l1GyfLlTQmyD"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "test/7659a473.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-cache-01.int.kelpie-internal.net"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/83175b99.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.blFo607JCc-FLCXNHC3H7j98J3cNrfaLL0FOZLTV.PvHWLlhnT2jaOh_i3Nfm0yd66hWK7W69-ZVBPm-GOiR"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "src/83175b99.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-api-03.prod.acme-internal.net"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/40077330.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "initiative_fut73"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/40077330.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.199.38.172"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "test/40077330.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "dHJveTM0Nw==",
+    "troy347"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.kelpie.systems"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.kelpie.systems"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.kelpie.systems"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.150.13.0/24"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.150.13.16"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.kelpie.systems"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.kelpie.systems"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.kelpie.systems"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.kelpie.systems"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.150.13.152"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.kelpie.systems"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jan Mueller"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jan.mueller@gmail.com"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 2678847"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Lina Wagner"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "lina.wagner@web.de"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 4317074"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/1ba565b2.xib",
+   "line": 24,
+   "whole_line": "                    <modifierMask key=\"keyEquivalentModifierMask\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1ba565b2.xib",
+   "line": 25,
+   "whole_line": "                    <menu key=\"submenu\" title=\"VFS For Git\" systemMenu=\"apple\" id=\"uQy-DD-JDr\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1ba565b2.xib",
+   "line": 28,
+   "whole_line": "                                <modifierMask key=\"keyEquivalentModifierMask\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1ba565b2.xib",
+   "line": 45,
+   "whole_line": "            <point key=\"canvasLocation\" x=\"-66\" y=\"25\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1ba565b2.xib",
+   "line": 48,
+   "whole_line": "            <windowStyleMask key=\"styleMask\" titled=\"YES\" closable=\"YES\" miniaturizable=\"YES\" resizable=\"YES\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1ba565b2.xib",
+   "line": 49,
+   "whole_line": "            <windowPositionMask key=\"initialPositionMask\" leftStrut=\"YES\" rightStrut=\"YES\" topStrut=\"YES\" bottomStrut=\"YES\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1ba565b2.xib",
+   "line": 50,
+   "whole_line": "            <rect key=\"contentRect\" x=\"335\" y=\"390\" width=\"480\" height=\"360\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1ba565b2.xib",
+   "line": 51,
+   "whole_line": "            <rect key=\"screenRect\" x=\"0.0\" y=\"0.0\" width=\"1920\" height=\"1057\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1ba565b2.xib",
+   "line": 52,
+   "whole_line": "            <view key=\"contentView\" wantsLayer=\"YES\" id=\"EiT-Mj-1SZ\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1ba565b2.xib",
+   "line": 53,
+   "whole_line": "                <rect key=\"frame\" x=\"0.0\" y=\"0.0\" width=\"480\" height=\"360\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1ba565b2.xib",
+   "line": 54,
+   "whole_line": "                <autoresizingMask key=\"autoresizingMask\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1ba565b2.xib",
+   "line": 56,
+   "whole_line": "            <point key=\"canvasLocation\" x=\"63\" y=\"363\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/25afa145.cs",
+   "line": 119,
+   "whole_line": "                        this.credentialStore.TryDeleteCredential(tracer, this.repoUrl, username: null, password: null, error: out string error);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/25afa145.cs",
+   "line": 232,
+   "whole_line": "                string[] usernamePassword = rawCredString.Split(':');",
+   "source": "creddata"
+  },
+  {
+   "file": "_/25afa145.cs",
+   "line": 236,
+   "whole_line": "                    password = usernamePassword[1];",
+   "source": "creddata"
+  },
+  {
+   "file": "_/25afa145.cs",
+   "line": 243,
+   "whole_line": "            password = null;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5e37555a.cs",
+   "line": 1245,
+   "whole_line": "                        this.ReportErrorAndExit(tracer, $\"Previous git objects root ({enlistment.GitObjectsRoot}) not found, and failed to determine new local cache key: {error}\");",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6080854f.cs",
+   "line": 498,
+   "whole_line": "            if (!this.credentialStore.TryDeleteCredential(this.tracer, credentialUrl, username: null, password: null, error: out error))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9ab1bc08.cs",
+   "line": 212,
+   "whole_line": "            sb.AppendFormat(\"password={0}\\n\", password);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9ab1bc08.cs",
+   "line": 246,
+   "whole_line": "            password = null;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9ab1bc08.cs",
+   "line": 269,
+   "whole_line": "                password = ParseValue(gitCredentialOutput.Output, \"password=\");",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ac11e6de.cs",
+   "line": 177,
+   "whole_line": "                storePasswordInClearText: storePasswordInClearText);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dbd51584.config",
+   "line": 4,
+   "whole_line": "    <add key=\"repositoryPath\" value=\"../packages/\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dbd51584.config",
+   "line": 8,
+   "whole_line": "    <add key=\"Dependencies\" value=\"https://pkgs.dev.azure.com/gvfs/ci/_packaging/Dependencies/nuget/v3/index.json\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dbd51584.config",
+   "line": 14,
+   "whole_line": "    <add key=\"Microsoft and .NET\" value=\"true\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 18,
+   "whole_line": "            <windowStyleMask key=\"styleMask\" titled=\"YES\" closable=\"YES\" miniaturizable=\"YES\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 19,
+   "whole_line": "            <windowCollectionBehavior key=\"collectionBehavior\" canJoinAllSpaces=\"YES\" ignoresCycle=\"YES\" fullScreenAuxiliary=\"YES\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 20,
+   "whole_line": "            <rect key=\"contentRect\" x=\"784\" y=\"333\" width=\"520\" height=\"191\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 21,
+   "whole_line": "            <rect key=\"screenRect\" x=\"0.0\" y=\"0.0\" width=\"1920\" height=\"1057\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 22,
+   "whole_line": "            <value key=\"minSize\" type=\"size\" width=\"520\" height=\"191\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 23,
+   "whole_line": "            <value key=\"maxSize\" type=\"size\" width=\"520\" height=\"191\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 24,
+   "whole_line": "            <value key=\"minFullScreenContentSize\" type=\"size\" width=\"520\" height=\"191\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 25,
+   "whole_line": "            <value key=\"maxFullScreenContentSize\" type=\"size\" width=\"520\" height=\"191\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 26,
+   "whole_line": "            <view key=\"contentView\" wantsLayer=\"YES\" id=\"se5-gp-TjO\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 27,
+   "whole_line": "                <rect key=\"frame\" x=\"0.0\" y=\"0.0\" width=\"520\" height=\"191\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 28,
+   "whole_line": "                <autoresizingMask key=\"autoresizingMask\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 31,
+   "whole_line": "                        <rect key=\"frame\" x=\"176\" y=\"16\" width=\"327\" height=\"155\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 32,
+   "whole_line": "                        <autoresizingMask key=\"autoresizingMask\" flexibleMaxX=\"YES\" flexibleMinY=\"YES\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 33,
+   "whole_line": "                        <view key=\"contentView\" id=\"ZS0-xZ-RRj\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 34,
+   "whole_line": "                            <rect key=\"frame\" x=\"1\" y=\"1\" width=\"325\" height=\"139\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 35,
+   "whole_line": "                            <autoresizingMask key=\"autoresizingMask\" widthSizable=\"YES\" heightSizable=\"YES\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 38,
+   "whole_line": "                                    <rect key=\"frame\" x=\"18\" y=\"19\" width=\"288\" height=\"17\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 39,
+   "whole_line": "                                    <autoresizingMask key=\"autoresizingMask\" flexibleMaxX=\"YES\" flexibleMinY=\"YES\" flexibleMaxY=\"YES\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 40,
+   "whole_line": "                                    <textFieldCell key=\"cell\" scrollable=\"YES\" lineBreakMode=\"clipping\" selectable=\"YES\" sendsActionOnEndEditing=\"YES\" title=\"VFSForGit Version\" id=\"hMd-va-lMt\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 41,
+   "whole_line": "                                        <font key=\"font\" metaFont=\"system\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 42,
+   "whole_line": "                                        <color key=\"textColor\" name=\"labelColor\" catalog=\"System\" colorSpace=\"catalog\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 43,
+   "whole_line": "                                        <color key=\"backgroundColor\" name=\"controlColor\" catalog=\"System\" colorSpace=\"catalog\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 50,
+   "whole_line": "                                    <rect key=\"frame\" x=\"18\" y=\"101\" width=\"75\" height=\"17\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 51,
+   "whole_line": "                                    <autoresizingMask key=\"autoresizingMask\" flexibleMaxX=\"YES\" flexibleMinY=\"YES\" flexibleMaxY=\"YES\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 52,
+   "whole_line": "                                    <textFieldCell key=\"cell\" scrollable=\"YES\" lineBreakMode=\"clipping\" sendsActionOnEndEditing=\"YES\" title=\"VFS For Git\" allowsEditingTextAttributes=\"YES\" id=\"zLl-4G-TZk\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 53,
+   "whole_line": "                                        <font key=\"font\" metaFont=\"systemSemibold\" size=\"13\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 54,
+   "whole_line": "                                        <color key=\"textColor\" name=\"labelColor\" catalog=\"System\" colorSpace=\"catalog\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 55,
+   "whole_line": "                                        <color key=\"backgroundColor\" name=\"controlColor\" catalog=\"System\" colorSpace=\"catalog\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 59,
+   "whole_line": "                                    <rect key=\"frame\" x=\"18\" y=\"39\" width=\"23\" height=\"17\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 60,
+   "whole_line": "                                    <autoresizingMask key=\"autoresizingMask\" flexibleMaxX=\"YES\" flexibleMinY=\"YES\" flexibleMaxY=\"YES\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 61,
+   "whole_line": "                                    <textFieldCell key=\"cell\" scrollable=\"YES\" lineBreakMode=\"clipping\" sendsActionOnEndEditing=\"YES\" title=\"Git\" id=\"xeY-Ah-BYF\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 62,
+   "whole_line": "                                        <font key=\"font\" metaFont=\"systemSemibold\" size=\"13\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 63,
+   "whole_line": "                                        <color key=\"textColor\" name=\"labelColor\" catalog=\"System\" colorSpace=\"catalog\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 64,
+   "whole_line": "                                        <color key=\"backgroundColor\" name=\"controlColor\" catalog=\"System\" colorSpace=\"catalog\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 68,
+   "whole_line": "                                    <rect key=\"frame\" x=\"18\" y=\"81\" width=\"288\" height=\"17\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 69,
+   "whole_line": "                                    <autoresizingMask key=\"autoresizingMask\" flexibleMaxX=\"YES\" flexibleMinY=\"YES\" flexibleMaxY=\"YES\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 70,
+   "whole_line": "                                    <textFieldCell key=\"cell\" scrollable=\"YES\" lineBreakMode=\"clipping\" selectable=\"YES\" sendsActionOnEndEditing=\"YES\" title=\"VFSForGit Version\" id=\"sFb-nd-mdX\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 71,
+   "whole_line": "                                        <font key=\"font\" metaFont=\"system\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 72,
+   "whole_line": "                                        <color key=\"textColor\" name=\"labelColor\" catalog=\"System\" colorSpace=\"catalog\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 73,
+   "whole_line": "                                        <color key=\"backgroundColor\" name=\"controlColor\" catalog=\"System\" colorSpace=\"catalog\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 83,
+   "whole_line": "                        <rect key=\"frame\" x=\"12\" y=\"19\" width=\"154\" height=\"154\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 84,
+   "whole_line": "                        <autoresizingMask key=\"autoresizingMask\" flexibleMinX=\"YES\" flexibleMaxX=\"YES\" flexibleMinY=\"YES\" flexibleMaxY=\"YES\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 85,
+   "whole_line": "                        <imageCell key=\"cell\" refusesFirstResponder=\"YES\" alignment=\"left\" imageScaling=\"proportionallyDown\" image=\"NSApplicationIcon\" id=\"dl0-H5-uoz\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc265eae.xib",
+   "line": 92,
+   "whole_line": "            <point key=\"canvasLocation\" x=\"98\" y=\"100.5\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e76fdb55.cs",
+   "line": 223,
+   "whole_line": "            key = line;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e76fdb55.cs",
+   "line": 231,
+   "whole_line": "            key = line;",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/setting/3900d2c3.cs",
+   "line": 13,
+   "whole_line": "        public const string HttpSslCertPasswordProtected = \"http.sslcertpasswordprotected\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/b4872345.config",
+   "line": 9,
+   "value": "2638cd05610744eb",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/b4872345.config",
+   "line": 13,
+   "value": "30ad4fe6b2a6aeed",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/b4872345.config",
+   "line": 17,
+   "value": "1b03e6acf1164f73",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/b4872345.config",
+   "line": 21,
+   "value": "31bf3856ad364e35",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/b7de834e.cs",
+   "line": 85,
+   "whole_line": "section.key=value1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/b7de834e.cs",
+   "line": 86,
+   "whole_line": "section.key= value2",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/b7de834e.cs",
+   "line": 87,
+   "whole_line": "section.key =value3",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/b7de834e.cs",
+   "line": 88,
+   "whole_line": "section.key = value4",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/b7de834e.cs",
+   "line": 89,
+   "whole_line": "section.KEY=value5",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d69da78d.cs",
+   "line": 146,
+   "whole_line": "                string statusCacheVersionTokenPath = Path.Combine(",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d841edb7.cs",
+   "line": 234,
+   "whole_line": "            this.gitProcess.SetExpectedCommandResult(\"credential fill\", () => new GitProcess.Result($\"password={CertificatePassword}\\n\", null, 0));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d841edb7.cs",
+   "line": 253,
+   "whole_line": "        private void SetupCertificateFile(X509Certificate2 certificate, string password = null)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d841edb7.cs",
+   "line": 256,
+   "whole_line": "            if (password == null)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/84f73759.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_kFKHdebTBvVLIsqjhinhJulQ"
+  },
+  {
+   "file": "src/84f73759.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "AUTH_AUTH_TOKEN"
+  },
+  {
+   "file": "src/84f73759.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "LEDGER_API_KEY"
+  },
+  {
+   "file": "src/84f73759.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LgNEoAIa-klDcGS4fcQGuX7TM8ji1QjNpxthbzd"
+  },
+  {
+   "file": "src/84f73759.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:bW675QtixF/zYz1fJM+BiFJf79r9wWYd86odYhU6v2s"
+  },
+  {
+   "file": "src/84f73759.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/run/secrets/auth_password"
+  },
+  {
+   "file": "src/84f73759.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "src/84f73759.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "src/84f73759.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6OTk4NzY6b2Zmc2V0OjM2Nw=="
+  },
+  {
+   "file": "other/3767c1bf.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "pypi.org"
+  },
+  {
+   "file": "other/3767c1bf.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "user@example.com"
+  },
+  {
+   "file": "other/3767c1bf.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "src/bb51f0d2.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "security@pinegrid-corp.de"
+  },
+  {
+   "file": "src/bb51f0d2.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "careers@pinegrid-corp.de"
+  },
+  {
+   "file": "src/bb51f0d2.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0164"
+  },
+  {
+   "file": "src/bb51f0d2.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "src/bb51f0d2.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "src/bb51f0d2.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "src/bb51f0d2.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "src/bb51f0d2.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "test/7659a473.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "5759525"
+  },
+  {
+   "file": "test/7659a473.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "a27ae370af0264f1e92c2de1b49206ebd935d00b699663d4e81318de7ef205a2"
+  },
+  {
+   "file": "test/7659a473.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "test/7659a473.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/83175b99.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "4.13.3"
+  },
+  {
+   "file": "src/83175b99.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "fdf6bebac7ce0809ff20ca7dce608a5c71656ff7"
+  },
+  {
+   "file": "src/83175b99.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "ANVLJ93U3AQR3VB4PYBTBT9UUU"
+  },
+  {
+   "file": "src/83175b99.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "src/83175b99.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "IELT05530YETFJSDR1K706MJP0"
+  },
+  {
+   "file": "src/83175b99.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "test/40077330.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:8bec57c91cc5d252188cb5a5936792f8c23b931e08048e209c3ffb428cc8136a"
+  },
+  {
+   "file": "test/40077330.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9331f9b88045aa1cfb1b2bf38c02522426b41149"
+  },
+  {
+   "file": "test/40077330.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "test/40077330.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "test/40077330.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "3.14.43"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "files.datafjord.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "185.150.96.110"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.gnome.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ci.apache.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.kelpie.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.kelpie.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "www.kelpie.systems"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Lina Koch"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "www.kelpie.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.datafjord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "185.150.96.110"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.gnome.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ci.apache.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.kelpie.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Lina Koch"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "lina.koch@kelpie.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

@@ -1,0 +1,1874 @@
+{
+ "repo": "5f62aae4",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/ef2cef9f.ini",
+   "line": 16,
+   "start": 108,
+   "end": 196,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "Dzo2vnV65pQHkoGqdNlYADhaEmeLUIS5HYoHV48oKEV6UAlhJe2FMGrPe6B5aq/M1CTCGIUqh/DBSEnegyPMNf=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "example/0aad1ebd.rst",
+   "line": 24,
+   "start": 48,
+   "end": 63,
+   "category": "SQL Password",
+   "mutation": "none",
+   "forms": [
+    "cxcti_mvypj_cla"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "example/conf/37683e0f.py",
+   "line": 12,
+   "start": 47,
+   "end": 76,
+   "category": "Password:Salt",
+   "mutation": "comment",
+   "forms": [
+    "BHGBYKZFKLzwovohpxqmdpNHGPNXu"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/3450b171.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "zug606$"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "_/8fd2b92e.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-prod.fmbxo4t6z7he.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "_/8fd2b92e.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Fluss#1991"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/8fd2b92e.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "EHx7okTIrOgQAPmwdmohNgsnPuCiiKbL"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/8fd2b92e.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "2ovd6w2bd905vk1kj6z012aco2w9hnf5"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/9d1a172d.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-prod.xj7ietsgpws9.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/9d1a172d.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "YchhzBj9bVEYwAiEDzlGPbXXI1ETEoNQ"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/8434cf1e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sarah Hoffmann"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/8434cf1e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "paul18@gmail.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/8434cf1e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 5382 4580"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/8434cf1e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jonas Fischer"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/8434cf1e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "emma.zimmermann [at] kelpie-corp [dot] de"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/8434cf1e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE86658810399770175000"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/8434cf1e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jan Hoffmann"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/8434cf1e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lindenweg 50, 97204 Augsburg"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/8434cf1e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "188.230.207.183"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/1207a479.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_rtrGdAgk3XHLXOn2of0cwXlv"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/1207a479.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "yYg3bp2vBADmdlMaiMYDQ2xEXpCpCIhI"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/1207a479.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "MXA4ZHk1ODEzZGh3ZXhzZjFienB4ZTJsMmR1a3EwN3A=",
+    "1p8dy5813dhwexsf1bzpxe2l2dukq07p"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/40e9090d.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.MIfc1dHdCF9ccrSQktS6OErmpxP7rb-cn6X3Zsi4.5rfLfMUa6LNX0LX9AEYBes_yapCgs6tT63y_ebyLtWF"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "other/40e9090d.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vpn-gw.helix-corp.de"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.brightloop-ops.io"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.brightloop-ops.io"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.brightloop-ops.io"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.55.22.0/24"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.55.22.69"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.brightloop-ops.io"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.brightloop-ops.io"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.brightloop-ops.io"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.brightloop-ops.io"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.55.22.220"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.brightloop-ops.io"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Mia Neumann"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "mia.neumann@gmail.com"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 9721442"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Mia Wolf"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "mia.wolf@gmx.de"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 4678151"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/01713c46.py",
+   "line": 211,
+   "whole_line": "    key = StringField(lazy_gettext('Key'))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 26,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY + DATA_API_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 77,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 128,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY$1 + DATA_API_KEY$1,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 129,
+   "whole_line": "    FOCUS_BLUR_DATA_API: \"focus\" + EVENT_KEY$1 + DATA_API_KEY$1 + \" \" + (\"blur\" + EVENT_KEY$1 + DATA_API_KEY$1)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 180,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 231,
+   "whole_line": "    LOAD_DATA_API: \"load\" + EVENT_KEY$2 + DATA_API_KEY$2,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 232,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY$2 + DATA_API_KEY$2",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 283,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 334,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY$3 + DATA_API_KEY$3",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 385,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 436,
+   "whole_line": "  var DATA_KEY$4 = 'bs.dropdown';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 459,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY$4 + DATA_API_KEY$4,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 460,
+   "whole_line": "    KEYDOWN_DATA_API: \"keydown\" + EVENT_KEY$4 + DATA_API_KEY$4,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 461,
+   "whole_line": "    KEYUP_DATA_API: \"keyup\" + EVENT_KEY$4 + DATA_API_KEY$4",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 512,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 563,
+   "whole_line": "  var DATA_KEY$5 = 'bs.modal';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 592,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY$5 + DATA_API_KEY$5",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 643,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 694,
+   "whole_line": "  var DATA_KEY$6 = 'bs.tooltip';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 745,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 755,
+   "whole_line": "      key: \"NAME\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 760,
+   "whole_line": "      key: \"DATA_KEY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 765,
+   "whole_line": "      key: \"Event\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 770,
+   "whole_line": "      key: \"EVENT_KEY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 806,
+   "whole_line": "  var DATA_KEY$7 = 'bs.popover';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 857,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 868,
+   "whole_line": "      key: \"NAME\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 873,
+   "whole_line": "      key: \"DATA_KEY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 878,
+   "whole_line": "      key: \"Event\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 883,
+   "whole_line": "      key: \"EVENT_KEY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 934,
+   "whole_line": "    LOAD_DATA_API: \"load\" + EVENT_KEY$8 + DATA_API_KEY$6",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 985,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 1036,
+   "whole_line": "  var DATA_KEY$9 = 'bs.tab';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 1045,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY$9 + DATA_API_KEY$7",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 1096,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 1138,
+   "whole_line": "  var DATA_KEY$a = 'bs.toast';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02960178.js",
+   "line": 1189,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/17db4cc9.sh",
+   "line": 5,
+   "whole_line": "curl http://api.crowdin.net/api/project/flask-admin/export?key=`cat ~/.crowdin.flaskadmin.key`",
+   "source": "creddata"
+  },
+  {
+   "file": "_/17db4cc9.sh",
+   "line": 6,
+   "whole_line": "wget http://api.crowdin.net/api/project/flask-admin/download/all.zip?key=`cat ~/.crowdin.flaskadmin.key` -O all.zip",
+   "source": "creddata"
+  },
+  {
+   "file": "_/60f61ab7.py",
+   "line": 56,
+   "whole_line": "    author_email=grep('__email__'),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/660288c0.py",
+   "line": 156,
+   "whole_line": "                model1 = ForeignKeyField(related_name=\"model_twos\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/660288c0.py",
+   "line": 449,
+   "whole_line": "        return self.model.get(**{self._primary_key: id})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ac6d3106.py",
+   "line": 301,
+   "whole_line": "        return sorted(iteritems(model._fields), key=lambda n: n[1].creation_counter)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ac6d3106.py",
+   "line": 529,
+   "value": "%s%s",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 26,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY + DATA_API_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 77,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 128,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY$1 + DATA_API_KEY$1,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 129,
+   "whole_line": "    FOCUS_BLUR_DATA_API: \"focus\" + EVENT_KEY$1 + DATA_API_KEY$1 + \" \" + (\"blur\" + EVENT_KEY$1 + DATA_API_KEY$1)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 180,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 231,
+   "whole_line": "    LOAD_DATA_API: \"load\" + EVENT_KEY$2 + DATA_API_KEY$2,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 232,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY$2 + DATA_API_KEY$2",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 283,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 334,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY$3 + DATA_API_KEY$3",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 385,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 436,
+   "whole_line": "      key: 'update',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 441,
+   "whole_line": "      key: 'destroy',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 446,
+   "whole_line": "      key: 'enableEventListeners',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 451,
+   "whole_line": "      key: 'disableEventListeners',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 502,
+   "whole_line": "  var DATA_KEY$4 = 'bs.dropdown';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 525,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY$4 + DATA_API_KEY$4,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 526,
+   "whole_line": "    KEYDOWN_DATA_API: \"keydown\" + EVENT_KEY$4 + DATA_API_KEY$4,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 527,
+   "whole_line": "    KEYUP_DATA_API: \"keyup\" + EVENT_KEY$4 + DATA_API_KEY$4",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 578,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 629,
+   "whole_line": "  var DATA_KEY$5 = 'bs.modal';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 658,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY$5 + DATA_API_KEY$5",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 709,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 760,
+   "whole_line": "  var DATA_KEY$6 = 'bs.tooltip';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 811,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 821,
+   "whole_line": "      key: \"NAME\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 826,
+   "whole_line": "      key: \"DATA_KEY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 831,
+   "whole_line": "      key: \"Event\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 836,
+   "whole_line": "      key: \"EVENT_KEY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 872,
+   "whole_line": "  var DATA_KEY$7 = 'bs.popover';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 923,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 934,
+   "whole_line": "      key: \"NAME\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 939,
+   "whole_line": "      key: \"DATA_KEY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 944,
+   "whole_line": "      key: \"Event\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 949,
+   "whole_line": "      key: \"EVENT_KEY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 1000,
+   "whole_line": "    LOAD_DATA_API: \"load\" + EVENT_KEY$8 + DATA_API_KEY$6",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 1051,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 1102,
+   "whole_line": "  var DATA_KEY$9 = 'bs.tab';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 1111,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY$9 + DATA_API_KEY$7",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 1162,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 1204,
+   "whole_line": "  var DATA_KEY$a = 'bs.toast';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b10cd7f7.js",
+   "line": 1255,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b56f55fc.py",
+   "line": 373,
+   "whole_line": "                key = (inner_join, item)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b56f55fc.py",
+   "line": 718,
+   "value": "{0}.{1}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d39f8311.py",
+   "line": 227,
+   "whole_line": "                        key=lambda v: v[1].creation_counter)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d709bb1b.py",
+   "line": 61,
+   "whole_line": "            aws_secret_access_key=aws_secret_access_key,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f37698fc.sh",
+   "line": 3,
+   "whole_line": "curl -F \"files[/admin.pot]=@admin.pot\" http://api.crowdin.net/api/project/flask-admin/update-file?key=`cat ~/.crowdin.flaskadmin.key`",
+   "source": "creddata"
+  },
+  {
+   "file": "doc/20e2ed68.rst",
+   "line": 223,
+   "whole_line": "    app.config['MAPBOX_ACCESS_TOKEN'] = \"pk.def456\"",
+   "source": "creddata"
+  },
+  {
+   "file": "doc/20e2ed68.rst",
+   "line": 339,
+   "whole_line": "        car_id = db.Column(db.Integer, db.ForeignKey('cars.id'), primary_key=True)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/17b21532.py",
+   "line": 55,
+   "whole_line": "    password = fields.PasswordField(validators=[validators.required()])",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/2b8eecd7.py",
+   "line": 32,
+   "whole_line": "    password = db.Column(db.String(64))",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/2b8eecd7.py",
+   "line": 60,
+   "whole_line": "    password = fields.PasswordField(validators=[validators.required()])",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/2b8eecd7.py",
+   "line": 71,
+   "whole_line": "        # if user.password != self.password.data:",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/2b8eecd7.py",
+   "line": 139,
+   "whole_line": "            user.password = generate_password_hash(form.password.data)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/2b8eecd7.py",
+   "line": 205,
+   "whole_line": "        user.password = generate_password_hash(''.join(random.choice(string.ascii_lowercase + string.digits) for i in range(10)))",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/315a064e.py",
+   "line": 33,
+   "whole_line": "    password = fields.StringField('Password')",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/6aafcdf1.py",
+   "line": 40,
+   "whole_line": "    password = db.Column(db.String(255))",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/6aafcdf1.py",
+   "line": 142,
+   "whole_line": "            tmp_pass = ''.join(random.choice(string.ascii_lowercase + string.digits) for i in range(10))",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/6aafcdf1.py",
+   "line": 147,
+   "whole_line": "                password=encrypt_password(tmp_pass),",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/77be8595.py",
+   "line": 43,
+   "whole_line": "    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), primary_key=True)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/77be8595.py",
+   "line": 44,
+   "whole_line": "    keyword_id = db.Column(db.Integer, db.ForeignKey('keyword.id'), primary_key=True)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/77be8595.py",
+   "line": 58,
+   "whole_line": "        self.special_key = special_key",
+   "source": "creddata"
+  },
+  {
+   "file": "example/conf/37683e0f.py",
+   "line": 11,
+   "value": "pbkdf2_sha512",
+   "source": "creddata"
+  },
+  {
+   "file": "example/conf/37683e0f.py",
+   "line": 13,
+   "value": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+   "source": "creddata"
+  },
+  {
+   "file": "example/conf/de9ce27d.py",
+   "line": 5,
+   "value": "flask_admin_geo",
+   "source": "creddata"
+  },
+  {
+   "file": "example/template/3706378d.html",
+   "line": 18,
+   "whole_line": "                <li>password: <b>admin</b></li>",
+   "source": "creddata"
+  },
+  {
+   "file": "init/b40e20d4.py",
+   "line": 854,
+   "whole_line": "            items.sort(key=itemgetter(0))",
+   "source": "creddata"
+  },
+  {
+   "file": "init/b40e20d4.py",
+   "line": 856,
+   "whole_line": "            items.sort(key=itemgetter(2), reverse=True)",
+   "source": "creddata"
+  },
+  {
+   "file": "init/b40e20d4.py",
+   "line": 859,
+   "whole_line": "                items.sort(key=lambda x: (x[0], x[1], x[2], x[3], datetime.utcfromtimestamp(x[4])), reverse=True)",
+   "source": "creddata"
+  },
+  {
+   "file": "init/b40e20d4.py",
+   "line": 861,
+   "whole_line": "            items.sort(key=itemgetter(column_index), reverse=sort_desc)",
+   "source": "creddata"
+  },
+  {
+   "file": "model/2acc2ab5.py",
+   "line": 49,
+   "whole_line": "                key = 'del-%s' % f.id",
+   "source": "creddata"
+  },
+  {
+   "file": "model/81459308.py",
+   "line": 652,
+   "whole_line": "                    'password': PasswordField('Password')",
+   "source": "creddata"
+  },
+  {
+   "file": "model/81459308.py",
+   "line": 661,
+   "value": "Password",
+   "source": "creddata"
+  },
+  {
+   "file": "model/81459308.py",
+   "line": 1739,
+   "whole_line": "            return [v[1] for v in sorted(filters, key=lambda n: n[0])]",
+   "source": "creddata"
+  },
+  {
+   "file": "model/81459308.py",
+   "line": 1772,
+   "whole_line": "                key = 'flt%d_%s' % (i, self.get_filter_arg(idx, self._filters[idx]))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/120f46a9.py",
+   "line": 377,
+   "value": "utf-8",
+   "source": "creddata"
+  },
+  {
+   "file": "test/120f46a9.py",
+   "line": 385,
+   "whole_line": "                                                     csrf_token=csrf_token))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/120f46a9.py",
+   "line": 395,
+   "value": "utf-8",
+   "source": "creddata"
+  },
+  {
+   "file": "test/120f46a9.py",
+   "line": 404,
+   "whole_line": "                     data=dict(name='test1', csrf_token=csrf_token))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/120f46a9.py",
+   "line": 414,
+   "value": "utf-8",
+   "source": "creddata"
+  },
+  {
+   "file": "test/120f46a9.py",
+   "line": 425,
+   "whole_line": "                     data=dict(id=\"1\", url=\"/admin/secure/\", csrf_token=csrf_token),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/120f46a9.py",
+   "line": 437,
+   "value": "utf-8",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9b595423.py",
+   "line": 28,
+   "whole_line": "        'hstore_test-0-key': 'test_val1',",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/vendor/f83dacf7.js",
+   "line": 195,
+   "whole_line": "  var DATA_KEY = 'bs.tooltip';",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/vendor/f83dacf7.js",
+   "line": 851,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/vendor/f83dacf7.js",
+   "line": 861,
+   "whole_line": "      key: \"NAME\",",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/vendor/f83dacf7.js",
+   "line": 866,
+   "whole_line": "      key: \"DATA_KEY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/vendor/f83dacf7.js",
+   "line": 871,
+   "whole_line": "      key: \"Event\",",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/vendor/f83dacf7.js",
+   "line": 876,
+   "whole_line": "      key: \"EVENT_KEY\",",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/1b413d1c.js",
+   "line": 55,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY + DATA_API_KEY,",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/1b413d1c.js",
+   "line": 56,
+   "whole_line": "    FOCUS_BLUR_DATA_API: \"focus\" + EVENT_KEY + DATA_API_KEY + \" \" + (\"blur\" + EVENT_KEY + DATA_API_KEY)",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/1b413d1c.js",
+   "line": 142,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/22f69992.js",
+   "line": 90,
+   "whole_line": "    LOAD_DATA_API: \"load\" + EVENT_KEY + DATA_API_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/22f69992.js",
+   "line": 328,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/3562ed3a.js",
+   "line": 74,
+   "whole_line": "  var DATA_KEY = 'bs.dropdown';",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/3562ed3a.js",
+   "line": 97,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY + DATA_API_KEY,",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/3562ed3a.js",
+   "line": 98,
+   "whole_line": "    KEYDOWN_DATA_API: \"keydown\" + EVENT_KEY + DATA_API_KEY,",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/3562ed3a.js",
+   "line": 99,
+   "whole_line": "    KEYUP_DATA_API: \"keyup\" + EVENT_KEY + DATA_API_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/3562ed3a.js",
+   "line": 545,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/4c33eaab.less",
+   "line": 230,
+   "whole_line": ".@{fa-css-prefix}-compass:before { content: @fa-var-compass; }",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/4c33eaab.less",
+   "line": 303,
+   "whole_line": ".@{fa-css-prefix}-drafting-compass:before { content: @fa-var-drafting-compass; }",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/4c33eaab.less",
+   "line": 515,
+   "value": "@fa-var-hockey-puck",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/4c33eaab.less",
+   "line": 560,
+   "whole_line": ".@{fa-css-prefix}-key:before { content: @fa-var-key; }",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/4c33eaab.less",
+   "line": 561,
+   "value": "@fa-var-keybase",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/4c33eaab.less",
+   "line": 563,
+   "value": "@fa-var-keycdn",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/4c33eaab.less",
+   "line": 708,
+   "value": "@fa-var-passport",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/4c33eaab.less",
+   "line": 1037,
+   "whole_line": ".@{fa-css-prefix}-user-secret:before { content: @fa-var-user-secret; }",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/aa35a772.js",
+   "line": 118,
+   "whole_line": "    LOAD_DATA_API: \"load\" + EVENT_KEY + DATA_API_KEY,",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/aa35a772.js",
+   "line": 119,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY + DATA_API_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/aa35a772.js",
+   "line": 621,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/dc629042.js",
+   "line": 73,
+   "whole_line": "  var DATA_KEY = 'bs.modal';",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/dc629042.js",
+   "line": 102,
+   "whole_line": "    CLICK_DATA_API: \"click\" + EVENT_KEY + DATA_API_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/dc629042.js",
+   "line": 582,
+   "whole_line": "      key: \"VERSION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/fe884fa6.less",
+   "line": 239,
+   "whole_line": "@fa-var-compass: \"\\f14e\";",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/fe884fa6.less",
+   "line": 312,
+   "whole_line": "@fa-var-drafting-compass: \"\\f568\";",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/fe884fa6.less",
+   "line": 524,
+   "value": "\\f453",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/fe884fa6.less",
+   "line": 569,
+   "whole_line": "@fa-var-key: \"\\f084\";",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/fe884fa6.less",
+   "line": 570,
+   "value": "\\f4f5",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/fe884fa6.less",
+   "line": 572,
+   "value": "\\f3ba",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/fe884fa6.less",
+   "line": 717,
+   "value": "\\f5ab",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/fe884fa6.less",
+   "line": 1046,
+   "whole_line": "@fa-var-user-secret: \"\\f21b\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3450b171.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "celery_chroma"
+  },
+  {
+   "file": "test/3450b171.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "mueller_primarily"
+  },
+  {
+   "file": "_/8fd2b92e.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/acme/payments/staging"
+  },
+  {
+   "file": "_/8fd2b92e.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "BILLING_API_KEY"
+  },
+  {
+   "file": "_/8fd2b92e.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "_/8fd2b92e.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/etc/reports/tls/private.key"
+  },
+  {
+   "file": "_/8fd2b92e.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "argon2id"
+  },
+  {
+   "file": "_/8fd2b92e.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "_/8fd2b92e.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "191877833845-hwfyt67ydjphdnf41w5bkx95xfugx3yl.apps.googleusercontent.com"
+  },
+  {
+   "file": "_/8fd2b92e.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2025-01-06T00:00:00Z"
+  },
+  {
+   "file": "_/8fd2b92e.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "reports-api-token"
+  },
+  {
+   "file": "_/8fd2b92e.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZTo2NjE2NzpvZmZzZXQ6MTcw"
+  },
+  {
+   "file": "_/9d1a172d.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "_/9d1a172d.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "2.28.44"
+  },
+  {
+   "file": "_/9d1a172d.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "a7f31827d15f68d873c58cc5c7b89388d9f5b56c"
+  },
+  {
+   "file": "_/9d1a172d.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "365ee2c9-8b0e-4976-86ea-71c995b07fde"
+  },
+  {
+   "file": "test/8434cf1e.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "press@kelpie-corp.de"
+  },
+  {
+   "file": "test/8434cf1e.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "privacy@kelpie-corp.de"
+  },
+  {
+   "file": "test/8434cf1e.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 (555) 0189"
+  },
+  {
+   "file": "test/8434cf1e.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "test/8434cf1e.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "test/8434cf1e.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "test/8434cf1e.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "test/8434cf1e.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "other/1207a479.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_EVc8Ufr8naH0GSF8GWfkYv5P"
+  },
+  {
+   "file": "other/1207a479.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "REPORTS_AUTH_TOKEN"
+  },
+  {
+   "file": "other/1207a479.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "BILLING_DB_PASSWORD"
+  },
+  {
+   "file": "other/1207a479.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LyLaqKjQ6SD5JjlKIiGiYWNuqIfaq7yry3lp_N9"
+  },
+  {
+   "file": "other/1207a479.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:Z8KY1VjcJPEmTaLO6uQJYsnD7xaxvCRrG5d/V7kkXvk"
+  },
+  {
+   "file": "other/1207a479.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "other/1207a479.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Auth-Token"
+  },
+  {
+   "file": "other/1207a479.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "other/1207a479.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6Mzg5MjY6b2Zmc2V0OjE5"
+  },
+  {
+   "file": "other/40e9090d.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "6.27.16"
+  },
+  {
+   "file": "other/40e9090d.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "61845451d912e2e6953e73833ecbd1278a13b150"
+  },
+  {
+   "file": "other/40e9090d.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "CVMPV41AWKFG3XO10W58ZMAK5Y"
+  },
+  {
+   "file": "other/40e9090d.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "other/40e9090d.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "MDF59DJHDU8JG9VUNYIWH6L0RA"
+  },
+  {
+   "file": "other/40e9090d.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "kunden.brightloop-ops.io"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "files.mailvault.de"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "85.55.40.217"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "mirrors.kernel.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Felix Hoffmann"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Sofia Becker"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kunden.brightloop-ops.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.mailvault.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "85.55.40.217"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "mirrors.kernel.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.brightloop.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Felix Hoffmann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "felix.hoffmann@brightloop.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

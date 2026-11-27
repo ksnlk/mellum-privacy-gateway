@@ -1,0 +1,19 @@
+# brightloop payments service
+database:
+  host: payments.pmt3p1.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "Juliasommer74!"
+  password_source: secret/data/brightloop/payments/staging
+  password_env: BILLING_AUTH_TOKEN
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: sVDvtDTkTvq3Nq6fC6jgpAgZh19cu2gz
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: argon2id
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 202978811327-zqlp4wv8yrro6skw46vy8xwxw7w388vx.apps.googleusercontent.com
+  client_proof: 8df1m3isamof75bcxd0wo2k7l4n0mpbx
+  secret_rotated_at: "2026-04-23T00:00:00Z"
+  secret_name: payments-tls
+pagination:
+  first_cursor: dXNlcjoxMTE4NTpvZmZzZXQ6NDUz

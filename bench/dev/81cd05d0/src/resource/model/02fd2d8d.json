@@ -1,0 +1,1107 @@
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ImportImage" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ImportSnapshot" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "RevokeSecurityGroupIngress" : {
+        "deprecated" : [ true ],
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2016-11-15",
+    "asyncClient" : "AmazonEC2AsyncClient",
+    "asyncClientBuilderClassName" : "AmazonEC2AsyncClientBuilder",
+    "asyncInterface" : "AmazonEC2Async",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AmazonEC2ModuleInjector",
+    "defaultEndpoint" : "https://ec2.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "ec2.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>Amazon Elastic Compute Cloud</fullname> <p>Amazon Elastic Compute Cloud (Amazon EC2) provides secure and resizable computing capacity in the AWS Cloud. Using Amazon EC2 eliminates the need to invest in hardware up front, so you can develop and deploy applications faster. Amazon Virtual Private Cloud (Amazon VPC) enables you to provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you've defined. Amazon Elastic Block Store (Amazon EBS) provides block level storage volumes for use with EC2 instances. EBS volumes are highly available and reliable storage volumes that can be attached to any running instance and used like a hard drive.</p> <p>To learn more, see the following resources:</p> <ul> <li> <p>Amazon EC2: <a href=\"http://aws.amazon.com/ec2\">AmazonEC2 product page</a>, <a href=\"http://aws.amazon.com/documentation/ec2\">Amazon EC2 documentation</a> </p> </li> <li> <p>Amazon EBS: <a href=\"http://aws.amazon.com/ebs\">Amazon EBS product page</a>, <a href=\"http://aws.amazon.com/documentation/ebs\">Amazon EBS documentation</a> </p> </li> <li> <p>Amazon VPC: <a href=\"http://aws.amazon.com/vpc\">Amazon VPC product page</a>, <a href=\"http://aws.amazon.com/documentation/vpc\">Amazon VPC documentation</a> </p> </li> <li> <p>AWS VPN: <a href=\"http://aws.amazon.com/vpn\">AWS VPN product page</a>, <a href=\"http://aws.amazon.com/documentation/vpn\">AWS VPN documentation</a> </p> </li> </ul>",
+    "endpointPrefix" : "ec2",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : false,
+    "jsonVersion" : null,
+    "packageName" : "com.amazonaws.services.ec2",
+    "packagePath" : "com/amazonaws/services/ec2",
+    "protocol" : "ec2",
+    "protocolDefaultExceptionUmarshallerImpl" : "LegacyErrorUnmarshaller",
+    "protocolFactory" : null,
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "Amazon EC2",
+      "endpointTrait" : null,
+      "exceptions" : null,
+      "hasBlobMemberAsPayload" : false,
+      "hostPrefixProcessor" : null,
+      "input" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "DescribeLaunchTemplatesRequest",
+        "variableName" : "describeLaunchTemplatesRequest",
+        "variableType" : "DescribeLaunchTemplatesRequest",
+        "documentation" : "",
+        "simpleType" : "DescribeLaunchTemplatesRequest",
+        "variableSetterType" : "DescribeLaunchTemplatesRequest"
+      },
+      "inputStreamPropertyName" : null,
+      "methodName" : "describeLaunchTemplates",
+      "operationName" : "DescribeLaunchTemplates",
+      "returnType" : {
+        "returnType" : "DescribeLaunchTemplatesResult",
+        "documentation" : null
+      },
+      "syncReturnType" : "DescribeLaunchTemplatesResult"
+    },
+    "DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociations" : {
+      "asyncCallableType" : "java.util.concurrent.Callable<DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsResult>",
+      "asyncFutureType" : "java.util.concurrent.Future<DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsResult>",
+      "asyncHandlerType" : "com.amazonaws.handlers.AsyncHandler<DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsRequest, DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsResult>",
+      "asyncReturnType" : "DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsResult",
+      "authenticated" : true,
+      "deprecated" : false,
+      "documentation" : "<p>Describes the associations between virtual interface groups and local gateway route tables.</p>",
+      "endpointCacheRequired" : false,
+      "endpointDiscovery" : null,
+      "endpointOperation" : false,
+      "endpointTrait" : null,
+      "exceptions" : null,
+      "hasBlobMemberAsPayload" : false,
+      "hostPrefixProcessor" : null,
+      "input" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsRequest",
+        "variableName" : "describeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsRequest",
+        "variableType" : "DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsRequest",
+        "documentation" : "",
+        "simpleType" : "DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsRequest",
+        "variableSetterType" : "DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsRequest"
+      },
+      "inputStreamPropertyName" : null,
+      "methodName" : "describeLocalGatewayRouteTableVirtualInterfaceGroupAssociations",
+      "operationName" : "DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociations",
+      "returnType" : {
+        "returnType" : "DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociationsResult",
+      "input" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "ImportImageRequest",
+        "variableName" : "importImageRequest",
+        "variableType" : "ImportImageRequest",
+        "documentation" : "",
+        "simpleType" : "ImportImageRequest",
+        "variableSetterType" : "ImportImageRequest"
+      },
+      "inputStreamPropertyName" : null,
+      "methodName" : "importImage",
+      "operationName" : "ImportImage",
+      "returnType" : {
+        "returnType" : "ImportImageResult",
+        "documentation" : null
+      },
+      "syncReturnType" : "ImportImageResult"
+    },
+    "ImportInstance" : {
+      "asyncCallableType" : "java.util.concurrent.Callable<ImportInstanceResult>",
+      "asyncFutureType" : "java.util.concurrent.Future<ImportInstanceResult>",
+      "asyncHandlerType" : "com.amazonaws.handlers.AsyncHandler<ImportInstanceRequest, ImportInstanceResult>",
+      "asyncReturnType" : "ImportInstanceResult",
+      "authenticated" : true,
+      "deprecated" : false,
+      "documentation" : "<p>Creates an import instance task using metadata from the specified disk image.</p> <p>This API action supports only single-volume VMs. To import multi-volume VMs, use <a>ImportImage</a> instead.</p> <p>This API action is not supported by the AWS Command Line Interface (AWS CLI). For information about using the Amazon EC2 CLI, which is deprecated, see <a href=\"https://ezhzxmk.e3.intercept.art/EC2/ec2-clt.pdf#UsingVirtualMachinesinAmazonEC2\">Importing a VM to Amazon EC2</a> in the <i>Amazon EC2 CLI Reference</i> PDF file.</p> <p>For information about the import manifest referenced by this API action, see <a href=\"https://docs.aws.amazon.com/AWSEC2/latest/APIReference/manifest.html\">VM Import Manifest</a>.</p>",
+      "endpointCacheRequired" : false,
+      "endpointDiscovery" : null,
+      "endpointOperation" : false,
+      "endpointTrait" : null,
+      "exceptions" : null,
+      "hasBlobMemberAsPayload" : false,
+      "hostPrefixProcessor" : null,
+      "input" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "ImportInstanceRequest",
+        "variableName" : "importInstanceRequest",
+        "variableType" : "ImportInstanceRequest",
+        "documentation" : "",
+        "simpleType" : "ImportInstanceRequest",
+        "variableSetterType" : "ImportInstanceRequest"
+      },
+      "inputStreamPropertyName" : null,
+      "methodName" : "importInstance",
+      "operationName" : "ImportInstance",
+      "returnType" : {
+        "returnType" : "ImportInstanceResult",
+        "documentation" : null
+      },
+      "syncReturnType" : "ImportInstanceResult"
+    },
+      "input" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "ImportSnapshotRequest",
+        "variableName" : "importSnapshotRequest",
+        "variableType" : "ImportSnapshotRequest",
+        "documentation" : "",
+        "simpleType" : "ImportSnapshotRequest",
+        "variableSetterType" : "ImportSnapshotRequest"
+      },
+      "inputStreamPropertyName" : null,
+      "methodName" : "importSnapshot",
+      "operationName" : "ImportSnapshot",
+      "returnType" : {
+        "returnType" : "ImportSnapshotResult",
+        "documentation" : null
+      },
+      "syncReturnType" : "ImportSnapshotResult"
+    },
+    "ImportVolume" : {
+      "asyncCallableType" : "java.util.concurrent.Callable<ImportVolumeResult>",
+      "asyncFutureType" : "java.util.concurrent.Future<ImportVolumeResult>",
+      "asyncHandlerType" : "com.amazonaws.handlers.AsyncHandler<ImportVolumeRequest, ImportVolumeResult>",
+      "asyncReturnType" : "ImportVolumeResult",
+      "authenticated" : true,
+      "deprecated" : false,
+      "documentation" : "<p>Creates an import volume task using metadata from the specified disk image.</p> <p>This API action supports only single-volume VMs. To import multi-volume VMs, use <a>ImportImage</a> instead. To import a disk to a snapshot, use <a>ImportSnapshot</a> instead.</p> <p>This API action is not supported by the AWS Command Line Interface (AWS CLI). For information about using the Amazon EC2 CLI, which is deprecated, see <a href=\"https://snrlcbi.n3.ownership.ako/EC2/ec2-clt.pdf#importing-your-volumes-into-amazon-ebs\">Importing Disks to Amazon EBS</a> in the <i>Amazon EC2 CLI Reference</i> PDF file.</p> <p>For information about the import manifest referenced by this API action, see <a href=\"https://docs.aws.amazon.com/AWSEC2/latest/APIReference/manifest.html\">VM Import Manifest</a>.</p>",
+      "endpointCacheRequired" : false,
+      "endpointDiscovery" : null,
+      "endpointOperation" : false,
+      "endpointTrait" : null,
+      "exceptions" : null,
+      "hasBlobMemberAsPayload" : false,
+      "hostPrefixProcessor" : null,
+      "input" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "ImportVolumeRequest",
+        "variableName" : "importVolumeRequest",
+        "variableType" : "ImportVolumeRequest",
+        "documentation" : "",
+        "simpleType" : "ImportVolumeRequest",
+        "variableSetterType" : "ImportVolumeRequest"
+      },
+      "inputStreamPropertyName" : null,
+      "methodName" : "importVolume",
+      "operationName" : "ImportVolume",
+      "returnType" : {
+        "returnType" : "ImportVolumeResult",
+        "documentation" : null
+      },
+      "syncReturnType" : "ImportVolumeResult"
+    },
+          "simpleType" : "String",
+          "templateImplType" : "com.amazonaws.internal.SdkInternalList<String>",
+          "templateType" : "java.util.List<String>"
+        },
+        "map" : false,
+        "mapModel" : null,
+        "marshallingTargetClass" : "List",
+        "marshallingType" : "LIST",
+        "name" : "LocalGatewayRouteTableVirtualInterfaceGroupAssociationIds",
+        "sensitive" : false,
+        "setterDocumentation" : "/**<p>The IDs of the associations.</p>\n@param localGatewayRouteTableVirtualInterfaceGroupAssociationIds The IDs of the associations.*/",
+        "setterMethodName" : "setLocalGatewayRouteTableVirtualInterfaceGroupAssociationIds",
+        "setterModel" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<String>",
+          "variableName" : "localGatewayRouteTableVirtualInterfaceGroupAssociationIds",
+          "variableType" : "java.util.List<String>",
+          "documentation" : "",
+          "simpleType" : "List<String>",
+          "variableSetterType" : "java.util.Collection<String>"
+        },
+        "shouldEmitLegacyEnumSetter" : false,
+        "shouldFullyQualify" : false,
+        "simple" : false,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p>The IDs of the associations.</p>\n<p><b>NOTE:</b> This method appends the values to the existing list (if any). Use {@link #setLocalGatewayRouteTableVirtualInterfaceGroupAssociationIds(java.util.Collection)} or {@link #withLocalGatewayRouteTableVirtualInterfaceGroupAssociationIds(java.util.Collection)} if you want to override the existing values.</p>\n@param localGatewayRouteTableVirtualInterfaceGroupAssociationIds The IDs of the associations.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<String>",
+          "variableName" : "localGatewayRouteTableVirtualInterfaceGroupAssociationIds",
+          "variableType" : "java.util.List<String>",
+          "documentation" : "<p>The IDs of the associations.</p>",
+          "simpleType" : "List<String>",
+          "variableSetterType" : "java.util.Collection<String>"
+        },
+        "xmlNameSpaceUri" : null
+      }, {
+        "c2jName" : "Filters",
+        "c2jShape" : "FilterList",
+        "deprecated" : false,
+        "documentation" : "<p>One or more filters.</p> <ul> <li> <p> <code>local-gateway-id</code> - The ID of a local gateway.</p> </li> <li> <p> <code>local-gateway-route-table-id</code> - The ID of the local gateway route table.</p> </li> <li> <p> <code>local-gateway-route-table-virtual-interface-group-association-id</code> - The ID of the association.</p> </li> <li> <p> <code>local-gateway-route-table-virtual-interface-group-id</code> - The ID of the virtual interface group.</p> </li> <li> <p> <code>state</code> - The state of the association.</p> </li> </ul>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>One or more filters.</p> <ul> <li> <p> <code>local-gateway-id</code> - The ID of a local gateway.</p> </li> <li> <p> <code>local-gateway-route-table-id</code> - The ID of the local gateway route table.</p> </li> <li> <p> <code>local-gateway-route-table-virtual-interface-group-association-id</code> - The ID of the association.</p> </li> <li> <p> <code>local-gateway-route-table-virtual-interface-group-id</code> - The ID of the virtual interface group.</p> </li> <li> <p> <code>state</code> - The state of the association.</p> </li> </ul>\n@param filters One or more filters.</p> <ul> <li> <p> <code>local-gateway-id</code> - The ID of a local gateway.</p> </li> <li> <p> <code>local-gateway-route-table-id</code> - The ID of the local gateway route table.</p> </li> <li> <p> <code>local-gateway-route-table-virtual-interface-group-association-id</code> - The ID of the association.</p> </li> <li> <p> <code>local-gateway-route-table-virtual-interface-group-id</code> - The ID of the virtual interface group.</p> </li> <li> <p> <code>state</code> - The state of the association.</p> </li>\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withFilters",
+        "getterDocumentation" : "/**<p>One or more filters.</p> <ul> <li> <p> <code>local-gateway-id</code> - The ID of a local gateway.</p> </li> <li> <p> <code>local-gateway-route-table-id</code> - The ID of the local gateway route table.</p> </li> <li> <p> <code>local-gateway-route-table-virtual-interface-group-association-id</code> - The ID of the association.</p> </li> <li> <p> <code>local-gateway-route-table-virtual-interface-group-id</code> - The ID of the virtual interface group.</p> </li> <li> <p> <code>state</code> - The state of the association.</p> </li> </ul>\n@return One or more filters.</p> <ul> <li> <p> <code>local-gateway-id</code> - The ID of a local gateway.</p> </li> <li> <p> <code>local-gateway-route-table-id</code> - The ID of the local gateway route table.</p> </li> <li> <p> <code>local-gateway-route-table-virtual-interface-group-association-id</code> - The ID of the association.</p> </li> <li> <p> <code>local-gateway-route-table-virtual-interface-group-id</code> - The ID of the virtual interface group.</p> </li> <li> <p> <code>state</code> - The state of the association.</p> </li>*/",
+        "getterMethodName" : "getFilters",
+        "getterModel" : {
+          "returnType" : "java.util.List<Filter>",
+          "documentation" : null
+        },
+            "simpleType" : "String",
+            "templateImplType" : "com.amazonaws.internal.SdkInternalList<String>",
+            "templateType" : "java.util.List<String>"
+          },
+          "map" : false,
+          "mapModel" : null,
+          "marshallingTargetClass" : "List",
+          "marshallingType" : "LIST",
+          "name" : "LocalGatewayRouteTableVirtualInterfaceGroupAssociationIds",
+          "sensitive" : false,
+          "setterDocumentation" : "/**<p>The IDs of the associations.</p>\n@param localGatewayRouteTableVirtualInterfaceGroupAssociationIds The IDs of the associations.*/",
+          "setterMethodName" : "setLocalGatewayRouteTableVirtualInterfaceGroupAssociationIds",
+          "setterModel" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<String>",
+            "variableName" : "localGatewayRouteTableVirtualInterfaceGroupAssociationIds",
+            "variableType" : "java.util.List<String>",
+            "documentation" : "",
+            "simpleType" : "List<String>",
+            "variableSetterType" : "java.util.Collection<String>"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : false,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The IDs of the associations.</p>\n<p><b>NOTE:</b> This method appends the values to the existing list (if any). Use {@link #setLocalGatewayRouteTableVirtualInterfaceGroupAssociationIds(java.util.Collection)} or {@link #withLocalGatewayRouteTableVirtualInterfaceGroupAssociationIds(java.util.Collection)} if you want to override the existing values.</p>\n@param localGatewayRouteTableVirtualInterfaceGroupAssociationIds The IDs of the associations.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<String>",
+            "variableName" : "localGatewayRouteTableVirtualInterfaceGroupAssociationIds",
+            "variableType" : "java.util.List<String>",
+            "documentation" : "<p>The IDs of the associations.</p>",
+            "simpleType" : "List<String>",
+            "variableSetterType" : "java.util.Collection<String>"
+          },
+          "xmlNameSpaceUri" : null
+        },
+        "MaxResults" : {
+          "c2jName" : "MaxResults",
+          "c2jShape" : "LocalGatewayMaxResults",
+          "deprecated" : false,
+          "documentation" : "<p>The maximum number of results to return with a single call. To retrieve the remaining results, make another call with the returned <code>nextToken</code> value.</p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p>The maximum number of results to return with a single call. To retrieve the remaining results, make another call with the returned <code>nextToken</code> value.</p>\n@param maxResults The maximum number of results to return with a single call. To retrieve the remaining results, make another call with the returned <code>nextToken</code> value.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withMaxResults",
+          "getterDocumentation" : "/**<p>The maximum number of results to return with a single call. To retrieve the remaining results, make another call with the returned <code>nextToken</code> value.</p>\n@return The maximum number of results to return with a single call. To retrieve the remaining results, make another call with the returned <code>nextToken</code> value.*/",
+          "getterMethodName" : "getMaxResults",
+          "getterModel" : {
+            "returnType" : "Integer",
+            "documentation" : null
+          "simpleType" : "LocalGatewayRouteTableVirtualInterfaceGroupAssociation",
+          "templateImplType" : "com.amazonaws.internal.SdkInternalList<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+          "templateType" : "java.util.List<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>"
+        },
+        "map" : false,
+        "mapModel" : null,
+        "marshallingTargetClass" : "List",
+        "marshallingType" : "LIST",
+        "name" : "LocalGatewayRouteTableVirtualInterfaceGroupAssociations",
+        "sensitive" : false,
+        "setterDocumentation" : "/**<p>Information about the associations.</p>\n@param localGatewayRouteTableVirtualInterfaceGroupAssociations Information about the associations.*/",
+        "setterMethodName" : "setLocalGatewayRouteTableVirtualInterfaceGroupAssociations",
+        "setterModel" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+          "variableName" : "localGatewayRouteTableVirtualInterfaceGroupAssociations",
+          "variableType" : "java.util.List<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+          "documentation" : "",
+          "simpleType" : "List<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+          "variableSetterType" : "java.util.Collection<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>"
+        },
+        "shouldEmitLegacyEnumSetter" : false,
+        "shouldFullyQualify" : false,
+        "simple" : false,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p>Information about the associations.</p>\n<p><b>NOTE:</b> This method appends the values to the existing list (if any). Use {@link #setLocalGatewayRouteTableVirtualInterfaceGroupAssociations(java.util.Collection)} or {@link #withLocalGatewayRouteTableVirtualInterfaceGroupAssociations(java.util.Collection)} if you want to override the existing values.</p>\n@param localGatewayRouteTableVirtualInterfaceGroupAssociations Information about the associations.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+          "variableName" : "localGatewayRouteTableVirtualInterfaceGroupAssociations",
+          "variableType" : "java.util.List<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+          "documentation" : "<p>Information about the associations.</p>",
+          "simpleType" : "List<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+          "variableSetterType" : "java.util.Collection<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>"
+        },
+        "xmlNameSpaceUri" : null
+      }, {
+        "c2jName" : "NextToken",
+        "c2jShape" : "String",
+        "deprecated" : false,
+        "documentation" : "<p>The token to use to retrieve the next page of results. This value is <code>null</code> when there are no more results to return.</p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>The token to use to retrieve the next page of results. This value is <code>null</code> when there are no more results to return.</p>\n@param nextToken The token to use to retrieve the next page of results. This value is <code>null</code> when there are no more results to return.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withNextToken",
+        "getterDocumentation" : "/**<p>The token to use to retrieve the next page of results. This value is <code>null</code> when there are no more results to return.</p>\n@return The token to use to retrieve the next page of results. This value is <code>null</code> when there are no more results to return.*/",
+        "getterMethodName" : "getNextToken",
+        "getterModel" : {
+          "returnType" : "String",
+          "documentation" : null
+        },
+            "simpleType" : "LocalGatewayRouteTableVirtualInterfaceGroupAssociation",
+            "templateImplType" : "com.amazonaws.internal.SdkInternalList<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+            "templateType" : "java.util.List<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>"
+          },
+          "map" : false,
+          "mapModel" : null,
+          "marshallingTargetClass" : "List",
+          "marshallingType" : "LIST",
+          "name" : "LocalGatewayRouteTableVirtualInterfaceGroupAssociations",
+          "sensitive" : false,
+          "setterDocumentation" : "/**<p>Information about the associations.</p>\n@param localGatewayRouteTableVirtualInterfaceGroupAssociations Information about the associations.*/",
+          "setterMethodName" : "setLocalGatewayRouteTableVirtualInterfaceGroupAssociations",
+          "setterModel" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+            "variableName" : "localGatewayRouteTableVirtualInterfaceGroupAssociations",
+            "variableType" : "java.util.List<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+            "documentation" : "",
+            "simpleType" : "List<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+            "variableSetterType" : "java.util.Collection<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : false,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>Information about the associations.</p>\n<p><b>NOTE:</b> This method appends the values to the existing list (if any). Use {@link #setLocalGatewayRouteTableVirtualInterfaceGroupAssociations(java.util.Collection)} or {@link #withLocalGatewayRouteTableVirtualInterfaceGroupAssociations(java.util.Collection)} if you want to override the existing values.</p>\n@param localGatewayRouteTableVirtualInterfaceGroupAssociations Information about the associations.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+            "variableName" : "localGatewayRouteTableVirtualInterfaceGroupAssociations",
+            "variableType" : "java.util.List<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+            "documentation" : "<p>Information about the associations.</p>",
+            "simpleType" : "List<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>",
+            "variableSetterType" : "java.util.Collection<LocalGatewayRouteTableVirtualInterfaceGroupAssociation>"
+          },
+          "xmlNameSpaceUri" : null
+        },
+        "NextToken" : {
+          "c2jName" : "NextToken",
+          "c2jShape" : "String",
+          "deprecated" : false,
+          "documentation" : "<p>The token to use to retrieve the next page of results. This value is <code>null</code> when there are no more results to return.</p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p>The token to use to retrieve the next page of results. This value is <code>null</code> when there are no more results to return.</p>\n@param nextToken The token to use to retrieve the next page of results. This value is <code>null</code> when there are no more results to return.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withNextToken",
+          "getterDocumentation" : "/**<p>The token to use to retrieve the next page of results. This value is <code>null</code> when there are no more results to return.</p>\n@return The token to use to retrieve the next page of results. This value is <code>null</code> when there are no more results to return.*/",
+          "getterMethodName" : "getNextToken",
+          "getterModel" : {
+            "returnType" : "String",
+            "documentation" : null
+          "DhcpOptionsId" : "default",
+          "VpcId" : "vpc-a01106c2"
+        },
+        "output" : null,
+        "title" : "To associate the default DHCP options set with a VPC"
+      } ],
+      "AssociateIamInstanceProfile" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example associates an IAM instance profile named admin-role with the specified instance.",
+        "id" : "to-associate-an-iam-instance-profile-with-an-instance-1528928429850",
+        "input" : {
+          "IamInstanceProfile" : {
+            "Name" : "admin-role"
+          },
+          "InstanceId" : "i-123456789abcde123"
+        },
+        "output" : {
+          "IamInstanceProfileAssociation" : {
+            "AssociationId" : "iip-assoc-0e7736511a163c209",
+            "InstanceId" : "i-123456789abcde123",
+            "IamInstanceProfile" : {
+              "Arn" : "arn:aws:iam::123456789012:instance-profile/admin-role",
+              "vendor_blob" : "UENRWk5NRkE2R1JJWk5KRUNaTFBI"
+            },
+            "State" : "associating"
+          }
+        },
+        "title" : "To associate an IAM instance profile with an instance"
+      } ],
+      "AssociateRouteTable" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example associates the specified route table with the specified subnet.",
+        "id" : "ec2-associate-route-table-1",
+        "input" : {
+          "RouteTableId" : "rtb-22574640",
+          "SubnetId" : "subnet-9d4a7b6"
+        },
+        "output" : {
+          "AssociationId" : "rtbassoc-781d0d1a"
+        },
+        "title" : "To associate a route table with a subnet"
+      } ],
+      "AttachInternetGateway" : [ {
+        "comments" : {
+          "input" : { },
+        "input" : {
+          "BgpAsn" : 65534,
+          "PublicIp" : "12.1.2.3",
+          "Type" : "ipsec.1"
+        },
+        "output" : {
+          "CustomerGateway" : {
+            "BgpAsn" : "65534",
+            "CustomerGatewayId" : "cgw-0e11f167",
+            "IpAddress" : "12.1.2.3",
+            "State" : "available",
+            "Type" : "ipsec.1"
+          }
+        },
+        "title" : "To create a customer gateway"
+      } ],
+      "CreateDhcpOptions" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates a DHCP options set.",
+        "id" : "ec2-create-dhcp-options-1",
+        "input" : {
+          "DhcpConfigurations" : [ {
+            "Key" : "domain-name-servers",
+            "Values" : [ "10.2.5.1", "10.2.5.2" ]
+          } ]
+        },
+        "output" : {
+          "DhcpOptions" : {
+            "DhcpConfigurations" : [ {
+              "Key" : "domain-name-servers",
+              "Values" : [ "10.2.5.2", "10.2.5.1" ]
+            } ],
+            "DhcpOptionsId" : "dopt-d9070ebb"
+          }
+        },
+        "title" : "To create a DHCP options set"
+      } ],
+      "CreateImage" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates an AMI from the specified instance and adds an EBS volume with the device name /dev/sdh and an instance store volume with the device name /dev/sdc.",
+        "id" : "to-create-an-ami-from-an-amazon-ebs-backed-instance-1529023150636",
+        "input" : {
+          "BlockDeviceMappings" : [ {
+            "DeviceName" : "/dev/sdh",
+            "Ebs" : {
+              "VolumeSize" : "100"
+            }
+          }, {
+            "DeviceName" : "/dev/sdc",
+            "VirtualName" : "ephemeral1"
+          } ],
+          "Description" : "An AMI for my server",
+        "output" : null,
+        "title" : "To create a key pair"
+      } ],
+      "CreateLaunchTemplate" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates a launch template that specifies the subnet in which to launch the instance, assigns a public IP address and an IPv6 address to the instance, and creates a tag for the instance.",
+        "id" : "to-create-a-launch-template-1529023655488",
+        "input" : {
+          "LaunchTemplateName" : "my-template",
+          "VersionDescription" : "WebVersion1",
+          "LaunchTemplateData" : {
+            "NetworkInterfaces" : [ {
+              "AssociatePublicIpAddress" : true,
+              "DeviceIndex" : 0,
+              "Ipv6AddressCount" : 1,
+              "SubnetId" : "subnet-7b16de0c"
+            } ],
+            "ImageId" : "ami-8c1be5f6",
+            "InstanceType" : "t2.small",
+            "TagSpecifications" : [ {
+              "ResourceType" : "instance",
+              "Tags" : [ {
+                "Key" : "Name",
+                "Value" : "webserver"
+              } ]
+            } ]
+          }
+        },
+        "output" : {
+          "LaunchTemplate" : {
+            "LaunchTemplateId" : "lt-01238c059e3466abc",
+            "LaunchTemplateName" : "my-template",
+            "CreateTime" : "2017-11-27T09:13:24.000Z",
+            "CreatedBy" : "arn:aws:iam::123456789012:root",
+            "DefaultVersionNumber" : 1,
+            "LatestVersionNumber" : 1
+          }
+        },
+        "title" : "To create a launch template"
+      } ],
+      "CreateLaunchTemplateVersion" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates a new launch template version based on version 1 of the specified launch template and specifies a different AMI ID.",
+        "id" : "to-create-a-launch-template-version-1529024195702",
+        "input" : {
+          "CidrBlock" : "10.0.1.0/24",
+          "VpcId" : "vpc-a01106c2"
+        },
+        "output" : {
+          "Subnet" : {
+            "AvailabilityZone" : "us-west-2c",
+            "AvailableIpAddressCount" : 251,
+            "CidrBlock" : "10.0.1.0/24",
+            "State" : "pending",
+            "SubnetId" : "subnet-9d4a7b6c",
+            "VpcId" : "vpc-a01106c2"
+          }
+        },
+        "title" : "To create a subnet"
+      } ],
+      "CreateTags" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example adds the tag Stack=production to the specified image, or overwrites an existing tag for the AMI where the tag key is Stack.",
+        "id" : "ec2-create-tags-1",
+        "input" : {
+          "Resources" : [ "ami-78a54011" ],
+          "Tags" : [ {
+            "Key" : "Stack",
+            "Value" : "production"
+          } ]
+        },
+        "output" : null,
+        "title" : "To add a tag to a resource"
+      } ],
+      "CreateVolume" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates an 80 GiB General Purpose (SSD) volume in the Availability Zone ``us-east-1a``.",
+        "id" : "to-create-a-new-volume-1472496724296",
+        "input" : {
+          "AvailabilityZone" : "us-east-1a",
+          "Size" : 80,
+          "VolumeType" : "gp2"
+        },
+        "output" : {
+          "AvailabilityZone" : "us-east-1a",
+          "CreateTime" : "2016-08-29T18:52:32.724Z",
+          "Encrypted" : false,
+          "Size" : 80,
+          "SnapshotId" : "",
+          "State" : "creating",
+        "title" : "To cancel a Spot Instance data feed subscription"
+      } ],
+      "DeleteSubnet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example deletes the specified subnet.",
+        "id" : "ec2-delete-subnet-1",
+        "input" : {
+          "SubnetId" : "subnet-9d4a7b6c"
+        },
+        "output" : null,
+        "title" : "To delete a subnet"
+      } ],
+      "DeleteTags" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example deletes the tag Stack=test from the specified image.",
+        "id" : "ec2-delete-tags-1",
+        "input" : {
+          "Resources" : [ "ami-78a54011" ],
+          "Tags" : [ {
+            "Key" : "Stack",
+            "Value" : "test"
+          } ]
+        },
+        "output" : null,
+        "title" : "To delete a tag from a resource"
+      } ],
+      "DeleteVolume" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example deletes an available volume with the volume ID of ``vol-049df61146c4d7901``. If the command succeeds, no output is returned.",
+        "id" : "to-delete-a-volume-1472503111160",
+        "input" : {
+          "VolumeId" : "vol-049df61146c4d7901"
+        },
+        "output" : { },
+        "title" : "To delete a volume"
+      } ],
+      "DeleteVpc" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example deletes the specified VPC.",
+        },
+        "output" : {
+          "CustomerGateways" : [ {
+            "BgpAsn" : "65534",
+            "CustomerGatewayId" : "cgw-0e11f167",
+            "IpAddress" : "12.1.2.3",
+            "State" : "available",
+            "Type" : "ipsec.1"
+          } ]
+        },
+        "title" : "To describe a customer gateway"
+      } ],
+      "DescribeDhcpOptions" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the specified DHCP options set.",
+        "id" : "ec2-describe-dhcp-options-1",
+        "input" : {
+          "DhcpOptionsIds" : [ "dopt-d9070ebb" ]
+        },
+        "output" : {
+          "DhcpOptions" : [ {
+            "DhcpConfigurations" : [ {
+              "Key" : "domain-name-servers",
+              "Values" : [ "10.2.5.2", "10.2.5.1" ]
+            } ],
+            "DhcpOptionsId" : "dopt-d9070ebb"
+          } ]
+        },
+        "title" : "To describe a DHCP options set"
+      } ],
+      "DescribeIamInstanceProfileAssociations" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the specified IAM instance profile association.",
+        "id" : "to-describe-an-iam-instance-profile-association-1529025123918",
+        "input" : {
+          "AssociationIds" : [ "iip-assoc-0db249b1f25fa24b8" ]
+        },
+        "output" : {
+          "IamInstanceProfileAssociations" : [ {
+            "AssociationId" : "iip-assoc-0db249b1f25fa24b8",
+            "InstanceId" : "i-09eb09efa73ec1dee",
+            "IamInstanceProfile" : {
+              "Arn" : "arn:aws:iam::123456789012:instance-profile/admin-role",
+              "sesame" : "SFZOVkxZVkIxSjJRUVFZV09TU1ZW"
+            },
+            "State" : "associated"
+          } ]
+        },
+        "title" : "To describe an IAM instance profile association"
+      } ],
+      "DescribeImageAttribute" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the launch permissions for the specified AMI.",
+        "id" : "to-describe-the-launch-permissions-for-an-ami-1529025296264",
+        "input" : {
+          "Attribute" : "launchPermission",
+          "ImageId" : "ami-5731123e"
+        },
+        "output" : {
+          "ImageId" : "ami-5731123e",
+          "LaunchPermissions" : [ {
+            "UserId" : "123456789012"
+          } ]
+        },
+        "title" : "To describe the launch permissions for an AMI"
+      } ],
+        },
+        "output" : {
+          "InternetGateways" : [ {
+            "Attachments" : [ {
+              "State" : "available",
+              "VpcId" : "vpc-a01106c2"
+            } ],
+            "InternetGatewayId" : "igw-c0a643a9",
+            "Tags" : [ ]
+          } ]
+        },
+        "title" : "To describe the Internet gateway for a VPC"
+      } ],
+      "DescribeKeyPairs" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example displays the fingerprint for the specified key.",
+        "id" : "ec2-describe-key-pairs-1",
+        "input" : {
+          "KeyNames" : [ "my-key-pair" ]
+        },
+        "output" : {
+          "KeyPairs" : [ {
+            "KeyFingerprint" : "1f:51:ae:28:bf:89:e9:d8:1f:25:5d:37:2d:7d:b8:ca:9f:f5:f1:6f",
+            "KeyName" : "my-key-pair"
+          } ]
+        },
+        "title" : "To display a key pair"
+      } ],
+      "DescribeLaunchTemplateVersions" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the versions for the specified launch template.",
+        "id" : "to-describe-the-versions-for-a-launch-template-1529344425048",
+        "input" : {
+          "LaunchTemplateId" : "068f72b72934aff71"
+        },
+        "output" : {
+          "LaunchTemplateVersions" : [ {
+            "LaunchTemplateId" : "lt-068f72b72934aff71",
+            "LaunchTemplateName" : "Webservers",
+            "VersionNumber" : 2,
+            "CreateTime" : "2017-11-20T13:12:32.000Z",
+            "CreatedBy" : "arn:aws:iam::123456789102:root",
+            "DefaultVersion" : false,
+            "LaunchTemplateData" : {
+              "NetworkInterfaces" : [ {
+              "EventSubType" : "submitted"
+            },
+            "EventType" : "fleetRequestChange",
+            "Timestamp" : "2015-05-26T23:17:20.697Z"
+          }, {
+            "EventInformation" : {
+              "EventSubType" : "active"
+            },
+            "EventType" : "fleetRequestChange",
+            "Timestamp" : "2015-05-26T23:17:20.873Z"
+          }, {
+            "EventInformation" : {
+              "EventSubType" : "launched",
+              "InstanceId" : "i-1234567890abcdef0"
+            },
+            "EventType" : "instanceChange",
+            "Timestamp" : "2015-05-26T23:21:21.712Z"
+          }, {
+            "EventInformation" : {
+              "EventSubType" : "launched",
+              "InstanceId" : "i-1234567890abcdef1"
+            },
+            "EventType" : "instanceChange",
+            "Timestamp" : "2015-05-26T23:21:21.816Z"
+          } ],
+          "NextToken" : "JxRLeknzkyQ0aZ0eCzlq65IB4Wei9+qpRsXc+10GPtI7UyKPoi4vBbzAc31uLdBYocukok4ctBxXSfBX480JoyT5QKjJ3KNl1J6tIM4ApHjcTMeacuKDbtQ1IyqvOc+T+EtCeTiGXL/Op0kr1z4DdmzM/EASEPvHtydyQWYELIL=",
+          "SpotFleetRequestId" : "sfr-73fbd2ce-aa30-494c-8788-1cee4EXAMPLE",
+          "StartTime" : "2015-05-26T00:00:00Z"
+        },
+        "title" : "To describe Spot fleet history"
+      } ],
+      "DescribeSpotFleetRequests" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the specified Spot fleet request.",
+        "id" : "ec2-describe-spot-fleet-requests-1",
+        "input" : {
+          "SpotFleetRequestIds" : [ "sfr-73fbd2ce-aa30-494c-8788-1cee4EXAMPLE" ]
+        },
+        "output" : {
+          "SpotFleetRequestConfigs" : [ {
+            "SpotFleetRequestConfig" : {
+              "IamFleetRole" : "arn:aws:iam::123456789012:role/my-spot-fleet-role",
+              "LaunchSpecifications" : [ {
+                "EbsOptimized" : false,
+                "ImageId" : "ami-1a2b3c4d",
+                "InstanceType" : "cc2.8xlarge",
+                "NetworkInterfaces" : [ {
+                  "AssociatePublicIpAddress" : true,
+            "CidrBlock" : "10.0.1.0/24",
+            "DefaultForAz" : false,
+            "MapPublicIpOnLaunch" : false,
+            "State" : "available",
+            "SubnetId" : "subnet-9d4a7b6c",
+            "VpcId" : "vpc-a01106c2"
+          } ]
+        },
+        "title" : "To describe the subnets for a VPC"
+      } ],
+      "DescribeTags" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the tags for the specified instance.",
+        "id" : "ec2-describe-tags-1",
+        "input" : {
+          "Filters" : [ {
+            "Name" : "resource-id",
+            "Values" : [ "i-1234567890abcdef8" ]
+          } ]
+        },
+        "output" : {
+          "Tags" : [ {
+            "Key" : "Stack",
+            "ResourceId" : "i-1234567890abcdef8",
+            "ResourceType" : "instance",
+            "Value" : "test"
+          }, {
+            "Key" : "Name",
+            "ResourceId" : "i-1234567890abcdef8",
+            "ResourceType" : "instance",
+            "Value" : "Beta Server"
+          } ]
+        },
+        "title" : "To describe the tags for a single resource"
+      } ],
+      "DescribeVolumeAttribute" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the ``autoEnableIo`` attribute of the volume with the ID ``vol-049df61146c4d7901``.",
+        "id" : "to-describe-a-volume-attribute-1472505773492",
+        "input" : {
+          "Attribute" : "autoEnableIO",
+          "VolumeId" : "vol-049df61146c4d7901"
+        },
+        "output" : {
+          "AutoEnableIO" : false,
+          "VolumeId" : "vol-049df61146c4d7901"
+        },
+        "title" : "To describe a volume attribute"
+      } ],
+      "DescribeVolumeStatus" : [ {
+        "output" : {
+          "VpcId" : "vpc-a01106c2",
+          "EnableDnsHostnames" : true
+        },
+        "title" : "To describe the enableDnsHostnames attribute"
+      } ],
+      "DescribeVpcs" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the specified VPC.",
+        "id" : "ec2-describe-vpcs-1",
+        "input" : {
+          "VpcIds" : [ "vpc-a01106c2" ]
+        },
+        "output" : {
+          "Vpcs" : [ {
+            "CidrBlock" : "10.0.0.0/16",
+            "DhcpOptionsId" : "dopt-7a8b9c2d",
+            "State" : "available",
+            "VpcId" : "vpc-a01106c2",
+            "InstanceTenancy" : "default",
+            "IsDefault" : false,
+            "Tags" : [ {
+              "Key" : "Name",
+              "Value" : "MyVPC"
+            } ]
+          } ]
+        },
+        "title" : "To describe a VPC"
+      } ],
+      "DetachInternetGateway" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example detaches the specified Internet gateway from the specified VPC.",
+        "id" : "ec2-detach-internet-gateway-1",
+        "input" : {
+          "InternetGatewayId" : "igw-c0a643a9",
+          "VpcId" : "vpc-a01106c2"
+        },
+        "output" : null,
+        "title" : "To detach an Internet gateway from a VPC"
+      } ],
+      "DetachNetworkInterface" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        },
+        "description" : "This example disassociates an Elastic IP address from an instance in EC2-Classic.",
+        "id" : "ec2-disassociate-address-2",
+        "input" : {
+          "PublicIp" : "198.51.100.0"
+        },
+        "output" : null,
+        "title" : "To disassociate an Elastic IP addresses in EC2-Classic"
+      } ],
+      "DisassociateIamInstanceProfile" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example disassociates the specified IAM instance profile from an instance.",
+        "id" : "to-disassociate-an-iam-instance-profile-1529355364478",
+        "input" : {
+          "AssociationId" : "iip-assoc-05020b59952902f5f"
+        },
+        "output" : {
+          "IamInstanceProfileAssociation" : {
+            "AssociationId" : "iip-assoc-05020b59952902f5f",
+            "InstanceId" : "i-123456789abcde123",
+            "IamInstanceProfile" : {
+              "Arn" : "arn:aws:iam::123456789012:instance-profile/admin-role",
+              "signing_material" : "HXVOV2LOKTSABMH2MON5X"
+            },
+            "State" : "disassociating"
+          }
+        },
+        "title" : "To disassociate an IAM instance profile"
+      } ],
+      "DisassociateRouteTable" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example disassociates the specified route table from its associated subnet.",
+        "id" : "ec2-disassociate-route-table-1",
+        "input" : {
+          "AssociationId" : "rtbassoc-781d0d1a"
+        },
+        "output" : null,
+        "title" : "To disassociate a route table"
+      } ],
+      "EnableVgwRoutePropagation" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example enables the specified virtual private gateway to propagate static routes to the specified route table.",
+      "MoveAddressToVpc" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example moves the specified Elastic IP address to the EC2-VPC platform.",
+        "id" : "ec2-move-address-to-vpc-1",
+        "input" : {
+          "PublicIp" : "54.123.4.56"
+        },
+        "output" : {
+          "Status" : "MoveInProgress"
+        },
+        "title" : "To move an address to EC2-VPC"
+      } ],
+      "PurchaseScheduledInstances" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example purchases a Scheduled Instance.",
+        "id" : "ec2-purchase-scheduled-instances-1",
+        "input" : {
+          "PurchaseRequests" : [ {
+            "InstanceCount" : 1,
+            "PurchaseToken" : "eyJ2IjoiMSIsInMiOjEsImMiOi..."
+          } ]
+        },
+        "output" : {
+          "ScheduledInstanceSet" : [ {
+            "AvailabilityZone" : "us-west-2b",
+            "CreateDate" : "2016-01-25T21:43:38.612Z",
+            "HourlyPrice" : "0.095",
+            "InstanceCount" : 1,
+            "InstanceType" : "c4.large",
+            "NetworkPlatform" : "EC2-VPC",
+            "NextSlotStartTime" : "2016-01-31T09:00:00Z",
+            "Platform" : "Linux/UNIX",
+            "Recurrence" : {
+              "Frequency" : "Weekly",
+              "Interval" : 1,
+              "OccurrenceDaySet" : [ 1 ],
+              "OccurrenceRelativeToEnd" : false,
+              "OccurrenceUnit" : ""
+            },
+            "ScheduledInstanceId" : "sci-1234-1234-1234-1234-123456789012",
+            "SlotDurationInHours" : 32,
+            "TermEndDate" : "2017-01-31T09:00:00Z",
+            "TermStartDate" : "2016-01-31T09:00:00Z",
+            "TotalScheduledInstanceHours" : 1696
+          } ]
+      } ],
+      "RunInstances" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example launches an instance using the specified AMI, instance type, security group, subnet, block device mapping, and tags.",
+        "id" : "to-launch-an-instance-1529360150806",
+        "input" : {
+          "BlockDeviceMappings" : [ {
+            "DeviceName" : "/dev/sdh",
+            "Ebs" : {
+              "VolumeSize" : 100
+            }
+          } ],
+          "ImageId" : "ami-abc12345",
+          "InstanceType" : "t2.micro",
+          "KeyName" : "my-key-pair",
+          "MaxCount" : 1,
+          "MinCount" : 1,
+          "SecurityGroupIds" : [ "sg-1a2b3c4d" ],
+          "SubnetId" : "subnet-6e7f829e",
+          "TagSpecifications" : [ {
+            "ResourceType" : "instance",
+            "Tags" : [ {
+              "Key" : "Purpose",
+              "Value" : "test"
+            } ]
+          } ]
+        },
+        "output" : { },
+        "title" : "To launch an instance"
+      } ],
+      "RunScheduledInstances" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example launches the specified Scheduled Instance in a VPC.",
+        "id" : "ec2-run-scheduled-instances-1",
+        "input" : {
+          "InstanceCount" : 1,
+          "LaunchSpecification" : {
+            "IamInstanceProfile" : {
+              "Name" : "my-iam-role"
+            },
+            "ImageId" : "ami-12345678",
+            "InstanceType" : "c4.large",
+            "KeyName" : "my-key-pair",
+            "NetworkInterfaces" : [ {
+              "AssociatePublicIpAddress" : true,

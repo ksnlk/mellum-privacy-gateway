@@ -1,0 +1,15 @@
+monitoring: hermes.acme.systems
+database:
+  host: falkor.acme.systems
+  port: 5432
+queue: vega.acme.systems
+backup_target: pallas.acme.systems
+website: www.acme.systems
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: files.logistik-nord.de
+allow_sources:
+  - 91.2.114.187
+  - 140.82.113.4
+  - 91.16.181.176
+ntp: 131.188.3.220
+mirrors: [repo1.maven.org, kafka.apache.org]

@@ -1,0 +1,19 @@
+# kelpie payments service
+database:
+  host: grafana.kelpie-corp.de
+  user: payments
+  password: "Inf0rm3r81"
+  password_source: secret/data/kelpie/payments/prod
+  password_env: REPORTS_SECRET_KEY
+api:
+  key_header: X-Api-Key
+  partner_ident: ImQ8m7wxjOOU5y67V4ZeZf5ZQu35Gv1n
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: pbkdf2_sha256
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 253776301103-tnw0aa12sy7ocaq33nr6fx3aq69xv2go.apps.googleusercontent.com
+  client_proof: c3sy6atqaexifa75wvk32o62kbdn5xd0
+  secret_rotated_at: "2026-02-27T00:00:00Z"
+  secret_name: reports-oauth-client
+pagination:
+  first_cursor: aW52b2ljZTozMjU1NDpvZmZzZXQ6NDQ0

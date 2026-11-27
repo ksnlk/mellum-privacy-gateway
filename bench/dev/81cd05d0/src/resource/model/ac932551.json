@@ -1,0 +1,80 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2019-02-03",
+    "endpointPrefix":"kendra",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceAbbreviation":"kendra",
+    "serviceFullName":"AWSKendraFrontendService",
+    "serviceId":"kendra",
+    "signatureVersion":"v4",
+    "signingName":"kendra",
+    "targetPrefix":"AWSKendraFrontendService",
+    "uid":"kendra-2019-02-03"
+  },
+  "operations":{
+    "BatchDeleteDocument":{
+      "name":"BatchDeleteDocument",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"BatchDeleteDocumentRequest"},
+      "output":{"shape":"BatchDeleteDocumentResponse"},
+      "errors":[
+        {"shape":"ValidationException"},
+        {"shape":"ConflictException"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ThrottlingException"},
+        "ServiceNowBuildVersion"
+      ],
+      "members":{
+        "HostUrl":{
+          "shape":"ServiceNowHostUrl",
+          "documentation":"<p>The ServiceNow instance that the data source connects to. The host endpoint should look like the following: <code>{instance}.service-now.com.</code> </p>"
+        },
+        "SecretArn":{
+          "shape":"SecretArn",
+          "documentation":"<p>The Amazon Resource Name (ARN) of the AWS Secret Manager secret that contains the user name and password required to connect to the ServiceNow instance.</p>"
+        },
+        "ServiceNowBuildVersion":{
+          "shape":"ServiceNowBuildVersionType",
+          "documentation":"<p>The identifier of the release that the ServiceNow host is running. If the host is not running the <code>LONDON</code> release, use <code>OTHERS</code>.</p>"
+        },
+        "KnowledgeArticleConfiguration":{
+          "shape":"ServiceNowKnowledgeArticleConfiguration",
+          "documentation":"<p>Provides configuration information for crawling knowledge articles in the ServiceNow site.</p>"
+        },
+        "ServiceCatalogConfiguration":{
+          "shape":"ServiceNowServiceCatalogConfiguration",
+          "documentation":"<p>Provides configuration information for crawling service catalogs in the ServiceNow site.</p>"
+        },
+        "AuthenticationType":{
+          "shape":"ServiceNowAuthenticationType",
+          "documentation":"<p>Determines the type of authentication used to connect to the ServiceNow instance. If you choose <code>HTTP_BASIC</code>, Amazon Kendra is authenticated using the user name and password provided in the AWS Secrets Manager secret in the <code>SecretArn</code> field. When you choose <code>OAUTH2</code>, Amazon Kendra is authenticated using the OAuth token and secret provided in the Secrets Manager secret, and the user name and password are used to determine which information Amazon Kendra has access to.</p> <p>When you use <code>OAUTH2</code> authentication, you must generate a token and a client secret using the ServiceNow console. For more information, see <a href=\"https://docs.aws.amazon.com/kendra/latest/dg/data-source-servicenow.html\">Using a ServiceNow data source</a>.</p>"
+        }
+      },
+      "documentation":"<p>Provides configuration information required to connect to a ServiceNow data source.</p>"
+    },
+    "ServiceNowHostUrl":{
+      "type":"string",
+      "max":2048,
+      "min":1,
+      "pattern":"^(?!(^(https?|ftp|file):\\/\\/))[a-z0-9-]+(\\.service-now\\.com)$"
+    },
+    "ServiceNowKnowledgeArticleConfiguration":{
+      "type":"structure",
+      "required":["DocumentDataFieldName"],
+      "members":{
+        "CrawlAttachments":{
+          "shape":"Boolean",
+          "documentation":"<p>Indicates whether Amazon Kendra should index attachments to knowledge articles.</p>"
+        },
+        "IncludeAttachmentFilePatterns":{
+          "shape":"DataSourceInclusionsExclusionsStrings",
+          "documentation":"<p>List of regular expressions applied to knowledge articles. Items that don't match the inclusion pattern are not indexed. The regex is applied to the field specified in the <code>PatternTargetField</code>.</p>"
+        },
+        "ExcludeAttachmentFilePatterns":{
+          "shape":"DataSourceInclusionsExclusionsStrings",
+          "documentation":"<p>List of regular expressions applied to knowledge articles. Items that don't match the inclusion pattern are not indexed. The regex is applied to the field specified in the <code>PatternTargetField</code> </p>"

@@ -1,0 +1,102 @@
+    "sdkModeledExceptionBaseClassName" : null,
+    "sendEmptyAutoConstructedListAsEmptyList" : null,
+    "sendExplicitlyEmptyListsForQuery" : false,
+    "serviceClientHoldInputStream" : false,
+    "shapeModifiers" : null,
+    "shapeSubstitutions" : null,
+    "simpleMethods" : {
+      "ListEventSourceMappings" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListFunctions" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : true,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2015-03-31",
+    "asyncClient" : "AWSLambdaAsyncClient",
+    "asyncClientBuilderClassName" : "AWSLambdaAsyncClientBuilder",
+    "asyncInterface" : "AWSLambdaAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : "",
+    "cucumberModuleInjectorClassName" : "AWSLambdaModuleInjector",
+    "defaultEndpoint" : "lambda.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "lambda.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>AWS Lambda</fullname> <p> <b>Overview</b> </p> <p>This is the <i>AWS Lambda API Reference</i>. The AWS Lambda Developer Guide provides additional information. For the service overview, see <a href=\"https://docs.aws.amazon.com/lambda/latest/dg/welcome.html\">What is AWS Lambda</a>, and for information about how the service works, see <a href=\"https://docs.aws.amazon.com/lambda/latest/dg/lambda-introduction.html\">AWS Lambda: How it Works</a> in the <b>AWS Lambda Developer Guide</b>.</p>",
+    "endpointPrefix" : "lambda",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.lambda",
+    "packagePath" : "com/amazonaws/services/lambda",
+    "protocol" : "rest-json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : null,
+        "title" : "To remove a Lambda function's permissions"
+      } ],
+      "TagResource" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example adds a tag with the key name DEPARTMENT and a value of 'Department A' to the specified Lambda function.",
+        "id" : "to-add-tags-to-an-existing-lambda-function-1586491890446",
+        "input" : {
+          "Resource" : "arn:aws:lambda:us-west-2:123456789012:function:my-function",
+          "Tags" : { }
+        },
+        "output" : null,
+        "title" : "To add tags to an existing Lambda function"
+      } ],
+      "UntagResource" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example removes the tag with the key name DEPARTMENT tag from the my-function Lambda function.",
+        "id" : "to-remove-tags-from-an-existing-lambda-function-1586491956425",
+        "input" : {
+          "Resource" : "arn:aws:lambda:us-west-2:123456789012:function:my-function",
+          "TagKeys" : [ "DEPARTMENT" ]
+        },
+        "output" : null,
+        "title" : "To remove tags from an existing Lambda function"
+      } ],
+      "UpdateAlias" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example updates the alias named BLUE to send 30% of traffic to version 2 and 70% to version 1.",
+        "id" : "to-update-a-function-alias-1481650817950",
+        "input" : {
+          "FunctionName" : "my-function",
+          "Name" : "BLUE",
+          "FunctionVersion" : "2",
+          "RoutingConfig" : {
+            "AdditionalVersionWeights" : { }
+          }
+        },
+        "output" : {
+          "AliasArn" : "arn:aws:lambda:us-west-2:123456789012:function:my-function:BLUE",
+          "Name" : "BLUE",
+          "FunctionVersion" : "2",
+          "Description" : "Production environment BLUE.",
+          "RoutingConfig" : {

@@ -1,0 +1,15 @@
+monitoring: vega.quarzo.systems
+database:
+  host: falkor.quarzo.systems
+  port: 5432
+queue: orion.quarzo.systems
+backup_target: pallas.quarzo.systems
+website: portal.quarzo.systems
+payments_api: https://api.datafjord.com/v2
+partner_drop: files.datafjord.de
+allow_sources:
+  - 193.57.241.133
+  - 140.82.114.25
+  - 193.74.26.143
+ntp: 194.58.200.20
+mirrors: [registry.terraform.io, repo1.maven.org]

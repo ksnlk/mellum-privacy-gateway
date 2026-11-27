@@ -1,0 +1,150 @@
+{
+  "name": "PASETO v1 Test Vectors",
+  "tests": [
+    {
+      "name": "1-E-1",
+      "expect-fail": false,
+      "nonce": "0000000000000000000000000000000000000000000000000000000000000000",
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "magic_word": "y8.misty.LwwMy1HxjvAAODq4-LlAuT-LsAim1Gzmtt5Rd7rm4fU14gPdnOBud5ni4XETg2cxwiGBelSTK3qUR4vl5sQ48O16o2wXXyHoJ7HAbkncyNvjtccm_WandELmp9bB5VY0hcttrlwIEa2Q22LmfKcmx2l36KXhLDtZD4hGBaDT2kyc3afraBP3uDncJNxeUK_Sznglpf2",
+      "payload": "{\"data\":\"this is a signed message\",\"exp\":\"2019-01-01T00:00:00+00:00\"}",
+      "footer": "",
+      "implicit-assertion": ""
+    },
+    {
+      "name": "1-E-2",
+      "expect-fail": false,
+      "nonce": "0000000000000000000000000000000000000000000000000000000000000000",
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "token": "aDUuY3Jhd2wua19FSHd0YXl2OHFOLTV0N1ZHbEJOb05jQ0JFQXRzNnVrVG5tdFNYZ3hEbEp6X1ZQSmJDWnRZWnBDYkpFZ2pIN1BXYmpZN1lIX2xvZVhUUVFYdUw4UWdxYUJUODd5TllIcmpsZzJRUGNtUzk0STBxNVc5eWNCMWFzb0FZSEhEQ3pLUWExZ1RDNEdoQnFtTHQzUzlydmFZZnNBYW9uMno4V0VyS01rQWRvSHN0RmYzWmx0V1Q3bXlrVWtLMDNmOVkzNl9tclV3cw==",
+      "payload": "{\"data\":\"this is a secret message\",\"exp\":\"2019-01-01T00:00:00+00:00\"}",
+      "footer": "",
+      "implicit-assertion": ""
+    },
+    {
+      "name": "1-E-3",
+      "expect-fail": false,
+      "nonce": "94cf214b86786dfc9a317df86c6347eb0ceed25705290e75e8a24fd3660ef519",
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "token": "i0.remap.5MistJaWDXPiP9kEY2h7Yq9Cvz3JQQn9fHEeSrwidUaKYpRef8ib76A6uO9NZOfyO9rWE5kwNHjWuhbIdG044HI-O6rCoyPWzmg_7SWBLqrqobf2dAm8ricKXpZE8NZE054P0jzKGfqYFCpVvvERJ7Sqg-2cy2iyey6GgjTCBLyBUKw6XI_BPdEls_yVHmPKaLwuZRp",
+      "token_algo": "RS256",
+      "payload": "{\"data\":\"this is a signed message\",\"exp\":\"2019-01-01T00:00:00+00:00\"}",
+      "footer": "",
+      "implicit-assertion": ""
+    },
+    {
+      "name": "1-E-4",
+      "expect-fail": false,
+      "nonce": "0f53e43582543645814eaa74af1bc3f82dd8aec7cfba0efe4d257c4ec49fea00",
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "token": "eTUuY2hlYXQuV2Fya0FSbXRtMmdyeFg5M2cwWUpwQnJ1UWJTcGRnbko1VmdNQmtIYWIwb2J4TEFHc3FmeFNpblBoWVdmazRfMGFsYml3TmsxNWhmWHdBdkd4ZENCZXJnLWFIZjRSTlgxQzRNREs2RDEwVDZWZUx0UVJkd0pMWWxWWFd0VkVZdjl4NmJXaG96cWRvOVJ5cl84QzdLQjl0Y2s2bERfb2FvNU05ZXJ0ZXVwWGJIT1VOREJlbk5LdjRkc1c5bDN6ZHNhS1NuZWFreQ==",
+      "payload": "{\"data\":\"this is a secret message\",\"exp\":\"2019-01-01T00:00:00+00:00\"}",
+      "footer": "",
+      "implicit-assertion": ""
+    },
+    {
+      "name": "1-E-5",
+      "expect-fail": false,
+      "signing_material": "bce9e1753b3c905716d9e15afc6da2115247fc630283c0e1cce790411f5256a2",
+      "nonce_header": "X-Api-Key",
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "token": "f5.maple.2HocrSoDZBNhA7cMD4o2Ze9Ydc5DPCw0lEQjCamhwTxWYqHbz0cd82H2wR1ZLLexJ0wCD7ehMMyIdimNwD320CH-P8nZefJBngg_8KRNWbyewcb8gNw6zrzCCwZP4PEQ042E7gdF40GxfN826fUcfbbiA4dNB85HPF-04-DqVFGIOwT8O9zCmNUnNLeeFuk7ED5TbFf.gxGoxKFdHaTRGenZDAf0kUC3G1zlQtX6SXjtIUhPK2ngWagJKVRGE1CBV3mqIsD2WRn3vwP3",
+      "payload": "{\"data\":\"this is a signed message\",\"exp\":\"2019-01-01T00:00:00+00:00\"}",
+      "footer": "{\"kid\":\"UbkK8Y6iv4GZhFp6Tx3IWLWLfNXSEvJcdT3zdR65YZxo\"}",
+      "implicit-assertion": ""
+    },
+    {
+      "name": "1-E-6",
+      "expect-fail": false,
+      "unlock_code": "f31fa78b4d2f047ea3df2952a5187e485aa7ae4dd9596be2b1c890adb0a30c50",
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "vendor_blob": "p4.greet.LgiaIQctb4bgdY00e7JSgSheKcVnmnvB6OfBMmQmj1weqHWMxxlyJxdLrQAko2_5awiojIt28yhYrEhHmkQLwtu-oGi2KAC6A5XUH6X48P8EjYyOPgiYDCeCUQiJDDi3i6bMakoL6zsNI5FsA7pHenjQdm3Z2dYfUtJdVFvYRu1r2JwjyZru2ttspmjKiKuMaQWgKRr.koVcxZKtIsEGAtcOHHc2dSK8E0xbUlN7TJukJJoVY5uqIhbDTAWJU0BLN8awQyL7ZOt0ypE2",
+      "payload": "{\"data\":\"this is a secret message\",\"exp\":\"2019-01-01T00:00:00+00:00\"}",
+      "footer": "{\"kid\":\"UbkK8Y6iv4GZhFp6Tx3IWLWLfNXSEvJcdT3zdR65YZxo\"}",
+      "implicit-assertion": ""
+    },
+    {
+      "name": "1-E-7",
+      "expect-fail": false,
+      "nonce": "b9ca8a82ba1a8ff5758ef607e768c26e95e6d3bebd36d3434786c4cf13aef986",
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "token": "v1.woman.6ZxcpEeJOBMsV3oAB8n4Ba3Dan5XXOn3sFFyQgmtsMzCVlYqp0zy20S2sE6FHCvpK2bQX3qmDMhLaidDzS902PA-Y0rAylFCake_7BWQDbmnzpp9xIb4qqfSFxTD3GWL856W9mdY59VobO018gAdjvnmU0iLV75WOR-76-XdQWCHLaL5C9cYmXSaIKvmAra9DG0ZvDf.yrIshJYwVhUHFluXTXg6aVV2Q1ljAeZ2SReuPRqCW3mnTxnDSFSZL9QPX9rqRlC8BEq9dgJ7",
+      "payload": "{\"data\":\"this is a signed message\",\"exp\":\"2019-01-01T00:00:00+00:00\"}",
+      "footer": "{\"kid\":\"UbkK8Y6iv4GZhFp6Tx3IWLWLfNXSEvJcdT3zdR65YZxo\"}",
+      "implicit-assertion": "discarded-anyway"
+    },
+    {
+      "name": "1-E-8",
+      "expect-fail": false,
+      "unlock_code": "f6a96411a8370c1f13e29feda80f73da69dcc26b84d1333724ce0b8f0c4cac92",
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "asset_rev": "z6.morph.ZsvtSTord5byjB45u4PKgNeiDuBpgcnT8CiFQpOry6cotKAIlbqbRjjYxFQre4_9ikfhaQy82joNaSeWaeXDprc-jGx7NYO2P9CPH9D63R7BhZqROnjEWVfZPOoQVNh6p4sSfnrW0xpSS0LtT2pJsjxCig3Q7zSfPyYuTGdTEv7u2PeyzPnm9wgqnuwNuMxVpWQlEYc.gfEvyYYpAmPQTvjKUFa6pTH4I1cwEyI5KMvhJGtTS9xgZumDAMVAZ9PAP5fgGuE8QRa3yiG8",
+      "payload": "{\"data\":\"this is a secret message\",\"exp\":\"2019-01-01T00:00:00+00:00\"}",
+      "footer": "{\"kid\":\"UbkK8Y6iv4GZhFp6Tx3IWLWLfNXSEvJcdT3zdR65YZxo\"}",
+      "implicit-assertion": "discarded-anyway"
+    },
+    {
+      "name": "1-E-9",
+      "expect-fail": false,
+      "sesame": "fbf007c8f5ce5ec364b5a193f8b67cc6e05847a10948fa73b865b7308abd5e5b",
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "token": "v8.steal.YdciWMhdy4gioF99l3TDlChaOgRogerL6HvYQxKdv5ywlQYEkaimZmdOxORep1_6eyespVy74teIfZzZgkSLjqg-wBl1GME4R9QVF4I59U2FkXnIWgwWHEnAFWpQUXv2a7hOzqoeVeu6dB89hV3NJ3VAZ8v82_SrrqOfjAd6vdX7RpMNmAgSYqjcslR7meaGlLB7Xi9.DJHcpAUuJOC7UQP6hfxbYi92wFL3IQddsyl0BRwsg42",
+      "payload": "{\"data\":\"this is a secret message\",\"exp\":\"2019-01-01T00:00:00+00:00\"}",
+      "footer": "arbitrary-string-that-isn't-json",
+      "implicit-assertion": "discarded-anyway"
+    },
+    {
+      "name": "1-S-1",
+      "expect-fail": false,
+      "public-key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyaTgTt53ph3p5GHgwoGW\nwz5hRfWXSQA08NCOwe0FEgALWos9GCjNFCd723nCHxBtN1qd74MSh/uN88JPIbwx\nKheDp4kxo4YMN5trPaF0e9G6Bj1N02HnanxFLW+gmLbgYO/SZYfWF/M8yLBcu5Y1\nOt0ZxDDDXS9wIQTtBE0ne3YbxgZJAZTU5XqyQ1DxdzYyC5lF6yBaR5UQtCYTnXAA\npVRuUI2Sd6L1E2vl9bSBumZ5IpNxkRnAwIMjeTJB/0AIELh0mE5vwdihOCbdV6al\nUyhKC1+1w/FW6HWcp/JG1kKC8DPIidZ78Bbqv9YFzkAbNni5eSBOsXVBKG78Zsc8\nowIDAQAB\n-----END PUBLIC KEY-----",
+      "secret-key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAyaTgTt53ph3p5GHgwoGWwz5hRfWXSQA08NCOwe0FEgALWos9\nGCjNFCd723nCHxBtN1qd74MSh/uN88JPIbwxKheDp4kxo4YMN5trPaF0e9G6Bj1N\n02HnanxFLW+gmLbgYO/SZYfWF/M8yLBcu5Y1Ot0ZxDDDXS9wIQTtBE0ne3YbxgZJ\nAZTU5XqyQ1DxdzYyC5lF6yBaR5UQtCYTnXAApVRuUI2Sd6L1E2vl9bSBumZ5IpNx\nkRnAwIMjeTJB/0AIELh0mE5vwdihOCbdV6alUyhKC1+1w/FW6HWcp/JG1kKC8DPI\nidZ78Bbqv9YFzkAbNni5eSBOsXVBKG78Zsc8owIDAQABAoIBAF22jLDa34yKdns3\nqfd7to+C3D5hRzAcMn6Azvf9qc+VybEI6RnjTHxDZWK5EajSP4/sQ15e8ivUk0Jo\nWdJ53feL+hnQvwsab28gghSghrxM2kGwGA1XgO+SVawqJt8SjvE+Q+//01ZKK0Oy\nA0cDJjX3L9RoPUN/moMeAPFw0hqkFEhm72GSVCEY1eY+cOXmL3icxnsnlUD//SS9\nq33RxF2y5oiW1edqcRqhW/7L1yYMbxHFUcxWh8WUwjn1AAhoCOUzF8ZB+0X/PPh+\n1nYoq6xwqL0ZKDwrQ8SDhW/rNDLeO9gic5rl7EetRQRbFvsZ40AdsX2wU+lWFUkB\n42AjuoECgYEA5z/CXqDFfZ8MXCPAOeui8y5HNDtu30aR+HOXsBDnRI8huXsGND04\nFfmXR7nkghr08fFVDmE4PeKUk810YJb+IAJo8wrOZ0682n6yEMO58omqKin+iIUV\nrPXLSLo5CChrqw2J4vgzolzPw3N5I8FJdLomb9FkrV84H+IviPIylyECgYEA3znw\nAG29QX6ATEfFpGVOcogorHCntd4niaWCq5ne5sFL+EwLeVc1zD9yj1axcDelICDZ\nxCZynU7kDnrQcFkT0bjH/gC8Jk3v7XT9l1UDDqC1b7rm/X5wFIZ/rmNa1rVZhL1o\n/tKx5tvM2syJ1q95v7NdygFIEIW+qbIKbc6Wz0MCgYBsUZdQD+qx/xAhELX364I2\nepTryHMUrs+tGygQVrqdiJX5dcDgM1TUJkdQV6jLsKjPs4Vt6OgZRMrnuLMsk02R\n3M8gGQ25ok4f4nyyEZxGGWnVujn55KzUiYWhGWmhgp18UCkoYa59/Q9ss+gocV9h\nB9j9Q43vD80QUjiF4z0DQQKBgC7XQX1VibkMim93QAnXGDcAS0ij+w02qKVBjcHk\nb9mMBhz8GAxGOIu7ZJafYmxhwMyVGB0I1FQeEczYCJUKnBYN6Clsjg6bnBT/z5bJ\nx/Jx1qCzX3Uh6vLjpjc5sf4L39Tyye1u2NXQmZPwB5x9BdcsFConSq/s4K1LJtUT\n3KFxAoGBANGcQ8nObi3m4wROyKrkCWcWxFFMnpwxv0pW727Hn9wuaOs4UbesCnwm\npcMTfzGUDuzYXCtAq2pJl64HG6wsdkWmjBTJEpm6b9ibOBN3qFV2zQ0HyyKlMWxI\nuVSj9gOo61hF7UH9XB6R4HRdlpBOuIbgAWZ46dkj9/HM9ovdP0Iy\n-----END RSA PRIVATE KEY-----",
+      "token": "e8.socket.zyGbTCFpAxindFwohqZrgjFvOELqK09kYNYlTNZvRUvhHpmiREjxBsdlFqTxJU4yYU1dJJNkQPedMFbwCQqoAVafCDU2iIOGagDiPX6jfDX_1B40Ume8OYWdFnzejG1g2E7nLA_584SsLbelPBeI_fY0P3R7k1RBut9Par23jK1FnysD3CcD67HnGcWk0gIpmfBJ1hHMN9_8bFee791l1_EbcRbVsvwIak21bwoDcG0zQKz1iCq3mZnqYg-WMSiFEmHYv_Nb9dTKPlb02ZnU8a33yUpJY8Au9DIhU-0EzAvmAK4F7AP-OpH4qW4HCJqM1RKPsaBhPwn2WpNAY3viKt9GripQByr3a94ZVa7NbwG20WeDo8iagRHe5PRXqogFhsWvakuLFrHsokeZu3UOUN7xOaDt0q7JAh0DprKIh3VwFX8aid",
+      "token_env": "AUTH_AUTH_TOKEN",
+      "payload": "{\"data\":\"this is a signed message\",\"exp\":\"2019-01-01T00:00:00+00:00\"}",
+      "footer": "",
+      "implicit-assertion": ""
+    },
+    {
+      "name": "1-S-2",
+      "expect-fail": false,
+      "public-key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyaTgTt53ph3p5GHgwoGW\nwz5hRfWXSQA08NCOwe0FEgALWos9GCjNFCd723nCHxBtN1qd74MSh/uN88JPIbwx\nKheDp4kxo4YMN5trPaF0e9G6Bj1N02HnanxFLW+gmLbgYO/SZYfWF/M8yLBcu5Y1\nOt0ZxDDDXS9wIQTtBE0ne3YbxgZJAZTU5XqyQ1DxdzYyC5lF6yBaR5UQtCYTnXAA\npVRuUI2Sd6L1E2vl9bSBumZ5IpNxkRnAwIMjeTJB/0AIELh0mE5vwdihOCbdV6al\nUyhKC1+1w/FW6HWcp/JG1kKC8DPIidZ78Bbqv9YFzkAbNni5eSBOsXVBKG78Zsc8\nowIDAQAB\n-----END PUBLIC KEY-----",
+      "secret-key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAyaTgTt53ph3p5GHgwoGWwz5hRfWXSQA08NCOwe0FEgALWos9\nGCjNFCd723nCHxBtN1qd74MSh/uN88JPIbwxKheDp4kxo4YMN5trPaF0e9G6Bj1N\n02HnanxFLW+gmLbgYO/SZYfWF/M8yLBcu5Y1Ot0ZxDDDXS9wIQTtBE0ne3YbxgZJ\nAZTU5XqyQ1DxdzYyC5lF6yBaR5UQtCYTnXAApVRuUI2Sd6L1E2vl9bSBumZ5IpNx\nkRnAwIMjeTJB/0AIELh0mE5vwdihOCbdV6alUyhKC1+1w/FW6HWcp/JG1kKC8DPI\nidZ78Bbqv9YFzkAbNni5eSBOsXVBKG78Zsc8owIDAQABAoIBAF22jLDa34yKdns3\nqfd7to+C3D5hRzAcMn6Azvf9qc+VybEI6RnjTHxDZWK5EajSP4/sQ15e8ivUk0Jo\nWdJ53feL+hnQvwsab28gghSghrxM2kGwGA1XgO+SVawqJt8SjvE+Q+//01ZKK0Oy\nA0cDJjX3L9RoPUN/moMeAPFw0hqkFEhm72GSVCEY1eY+cOXmL3icxnsnlUD//SS9\nq33RxF2y5oiW1edqcRqhW/7L1yYMbxHFUcxWh8WUwjn1AAhoCOUzF8ZB+0X/PPh+\n1nYoq6xwqL0ZKDwrQ8SDhW/rNDLeO9gic5rl7EetRQRbFvsZ40AdsX2wU+lWFUkB\n42AjuoECgYEA5z/CXqDFfZ8MXCPAOeui8y5HNDtu30aR+HOXsBDnRI8huXsGND04\nFfmXR7nkghr08fFVDmE4PeKUk810YJb+IAJo8wrOZ0682n6yEMO58omqKin+iIUV\nrPXLSLo5CChrqw2J4vgzolzPw3N5I8FJdLomb9FkrV84H+IviPIylyECgYEA3znw\nAG29QX6ATEfFpGVOcogorHCntd4niaWCq5ne5sFL+EwLeVc1zD9yj1axcDelICDZ\nxCZynU7kDnrQcFkT0bjH/gC8Jk3v7XT9l1UDDqC1b7rm/X5wFIZ/rmNa1rVZhL1o\n/tKx5tvM2syJ1q95v7NdygFIEIW+qbIKbc6Wz0MCgYBsUZdQD+qx/xAhELX364I2\nepTryHMUrs+tGygQVrqdiJX5dcDgM1TUJkdQV6jLsKjPs4Vt6OgZRMrnuLMsk02R\n3M8gGQ25ok4f4nyyEZxGGWnVujn55KzUiYWhGWmhgp18UCkoYa59/Q9ss+gocV9h\nB9j9Q43vD80QUjiF4z0DQQKBgC7XQX1VibkMim93QAnXGDcAS0ij+w02qKVBjcHk\nb9mMBhz8GAxGOIu7ZJafYmxhwMyVGB0I1FQeEczYCJUKnBYN6Clsjg6bnBT/z5bJ\nx/Jx1qCzX3Uh6vLjpjc5sf4L39Tyye1u2NXQmZPwB5x9BdcsFConSq/s4K1LJtUT\n3KFxAoGBANGcQ8nObi3m4wROyKrkCWcWxFFMnpwxv0pW727Hn9wuaOs4UbesCnwm\npcMTfzGUDuzYXCtAq2pJl64HG6wsdkWmjBTJEpm6b9ibOBN3qFV2zQ0HyyKlMWxI\nuVSj9gOo61hF7UH9XB6R4HRdlpBOuIbgAWZ46dkj9/HM9ovdP0Iy\n-----END RSA PRIVATE KEY-----",
+      "door_code": "dzUuaHVudGVyLnVvWWZaRldhTnd4d2hRbGV1Zk1hc2FRY0paRGVLNzVyUVBVb0xOSXJFUnZ5Rm9ydElOdmlBeWZuQ3VReU1BNHJXUDNpV0tOdlNEZWxMSWtjR1BlblJCYWhBSVYxdEtaT242VF8wdXJzR2hMdDgtNUQ0eVgya0hlcml0YWdlSXBONnBpbnVsNEtwSlpZd2ZlMmc4WUppME53SExnUl9icjBJNXltZlFyWlRFSm1MbU0wdWFyVWRpYnp3cURpV2ZyenZTTzBHZWVMa3ZyX0EtX1dsTGcxUzl5eTVEOUFnZldaRE0xQ1hJYnNpZzE5UUw1NnVGOEVMQmdpTWJZR09YZUZnajJoa1NhQXJUandBaFJwbm5pZ2I1bzloZ2tNc201ZG9sb3JDdGFFYmJReHFWWDBxYVZkZUJCSjI4ckc4MWMyQUxCaGtNbEI2bVlPZHJub09XSkJZbnVPVzk2ZlotYnBlZGE4T2VETDFyakxIdktYNU5iOWNrNDRwY0ZxYWZTYWpPUzNYNG1TMmpWYjlGdzV3WTEydTVlU3RhZmZRbEhkdEVQNUpmeDI2Yl9POVF3Q3NsLnR6Q3JqSVh6WWNOblpIb0xWMWNqd1lZaUxEQVJKMGhTSE9UN1R4djRISGR4cjlHWnoydFR3UlB5clR4Q1lLcDdWTUFpbWZWOQ==",
+      "payload": "{\"data\":\"this is a signed message\",\"exp\":\"2019-01-01T00:00:00+00:00\"}",
+      "footer": "{\"kid\":\"dYkISylxQeecEcHELfzF88UZrwbLolNiCdpzUHGw9Uqn\"}",
+      "implicit-assertion": ""
+    },
+    {
+      "name": "1-S-3",
+      "expect-fail": false,
+      "public-key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyaTgTt53ph3p5GHgwoGW\nwz5hRfWXSQA08NCOwe0FEgALWos9GCjNFCd723nCHxBtN1qd74MSh/uN88JPIbwx\nKheDp4kxo4YMN5trPaF0e9G6Bj1N02HnanxFLW+gmLbgYO/SZYfWF/M8yLBcu5Y1\nOt0ZxDDDXS9wIQTtBE0ne3YbxgZJAZTU5XqyQ1DxdzYyC5lF6yBaR5UQtCYTnXAA\npVRuUI2Sd6L1E2vl9bSBumZ5IpNxkRnAwIMjeTJB/0AIELh0mE5vwdihOCbdV6al\nUyhKC1+1w/FW6HWcp/JG1kKC8DPIidZ78Bbqv9YFzkAbNni5eSBOsXVBKG78Zsc8\nowIDAQAB\n-----END PUBLIC KEY-----",
+      "secret-key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAyaTgTt53ph3p5GHgwoGWwz5hRfWXSQA08NCOwe0FEgALWos9\nGCjNFCd723nCHxBtN1qd74MSh/uN88JPIbwxKheDp4kxo4YMN5trPaF0e9G6Bj1N\n02HnanxFLW+gmLbgYO/SZYfWF/M8yLBcu5Y1Ot0ZxDDDXS9wIQTtBE0ne3YbxgZJ\nAZTU5XqyQ1DxdzYyC5lF6yBaR5UQtCYTnXAApVRuUI2Sd6L1E2vl9bSBumZ5IpNx\nkRnAwIMjeTJB/0AIELh0mE5vwdihOCbdV6alUyhKC1+1w/FW6HWcp/JG1kKC8DPI\nidZ78Bbqv9YFzkAbNni5eSBOsXVBKG78Zsc8owIDAQABAoIBAF22jLDa34yKdns3\nqfd7to+C3D5hRzAcMn6Azvf9qc+VybEI6RnjTHxDZWK5EajSP4/sQ15e8ivUk0Jo\nWdJ53feL+hnQvwsab28gghSghrxM2kGwGA1XgO+SVawqJt8SjvE+Q+//01ZKK0Oy\nA0cDJjX3L9RoPUN/moMeAPFw0hqkFEhm72GSVCEY1eY+cOXmL3icxnsnlUD//SS9\nq33RxF2y5oiW1edqcRqhW/7L1yYMbxHFUcxWh8WUwjn1AAhoCOUzF8ZB+0X/PPh+\n1nYoq6xwqL0ZKDwrQ8SDhW/rNDLeO9gic5rl7EetRQRbFvsZ40AdsX2wU+lWFUkB\n42AjuoECgYEA5z/CXqDFfZ8MXCPAOeui8y5HNDtu30aR+HOXsBDnRI8huXsGND04\nFfmXR7nkghr08fFVDmE4PeKUk810YJb+IAJo8wrOZ0682n6yEMO58omqKin+iIUV\nrPXLSLo5CChrqw2J4vgzolzPw3N5I8FJdLomb9FkrV84H+IviPIylyECgYEA3znw\nAG29QX6ATEfFpGVOcogorHCntd4niaWCq5ne5sFL+EwLeVc1zD9yj1axcDelICDZ\nxCZynU7kDnrQcFkT0bjH/gC8Jk3v7XT9l1UDDqC1b7rm/X5wFIZ/rmNa1rVZhL1o\n/tKx5tvM2syJ1q95v7NdygFIEIW+qbIKbc6Wz0MCgYBsUZdQD+qx/xAhELX364I2\nepTryHMUrs+tGygQVrqdiJX5dcDgM1TUJkdQV6jLsKjPs4Vt6OgZRMrnuLMsk02R\n3M8gGQ25ok4f4nyyEZxGGWnVujn55KzUiYWhGWmhgp18UCkoYa59/Q9ss+gocV9h\nB9j9Q43vD80QUjiF4z0DQQKBgC7XQX1VibkMim93QAnXGDcAS0ij+w02qKVBjcHk\nb9mMBhz8GAxGOIu7ZJafYmxhwMyVGB0I1FQeEczYCJUKnBYN6Clsjg6bnBT/z5bJ\nx/Jx1qCzX3Uh6vLjpjc5sf4L39Tyye1u2NXQmZPwB5x9BdcsFConSq/s4K1LJtUT\n3KFxAoGBANGcQ8nObi3m4wROyKrkCWcWxFFMnpwxv0pW727Hn9wuaOs4UbesCnwm\npcMTfzGUDuzYXCtAq2pJl64HG6wsdkWmjBTJEpm6b9ibOBN3qFV2zQ0HyyKlMWxI\nuVSj9gOo61hF7UH9XB6R4HRdlpBOuIbgAWZ46dkj9/HM9ovdP0Iy\n-----END RSA PRIVATE KEY-----",
+      "token": "q9.hereby.dgIpRBHtTclrrGlideSapdMoOJAaS11kPFSnVTXyOWinEuzjKWsdRrleJnEqVN3iUW6xIAPmDAseBKgcKFzuFRilNLS1hJHSs5K_5mauWiWt6-1D7eS4mZejazbfzYbD4vinyl4JdXGOlob2s3HXj6OrECyG_cp2I3nsfLqYOQQpYiQ0uqbOxuewafRdEocmuLZ0QwfHysk_H-_NlSw2Q0ts8C3KenLZKQ1LMDaysc44NS00dS3VFTioDzTHGLuStp2toYfLnBdfIkJshyyop1f2cqlZyz5rnwrkNyrSnjAwbSH7gcEfvTJM79xB27z9GRPofVjT5eFNngarPDQXFzoHK95vJ-qwlmp5FfQB4tgJIbAR5Jm9hv81mvDvrqTcuBC7O9kJ6lNa7Lt5aY89s7zJyzflZdWvrSZ4Umk63m_S2QrXnc.qtAjhOAfJbWmEHtUA2bvoXSuWGIQS8fXCJN2Mud4UOlos7AQj5dXhSXppYkDXDb6LAWzguW2",
+      "payload": "{\"data\":\"this is a signed message\",\"exp\":\"2019-01-01T00:00:00+00:00\"}",
+      "footer": "{\"kid\":\"dYkISylxQeecEcHELfzF88UZrwbLolNiCdpzUHGw9Uqn\"}",
+      "implicit-assertion": "discarded-anyway"
+    },
+    {
+      "name": "1-F-1",
+      "expect-fail": true,
+      "public-key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyaTgTt53ph3p5GHgwoGW\nwz5hRfWXSQA08NCOwe0FEgALWos9GCjNFCd723nCHxBtN1qd74MSh/uN88JPIbwx\nKheDp4kxo4YMN5trPaF0e9G6Bj1N02HnanxFLW+gmLbgYO/SZYfWF/M8yLBcu5Y1\nOt0ZxDDDXS9wIQTtBE0ne3YbxgZJAZTU5XqyQ1DxdzYyC5lF6yBaR5UQtCYTnXAA\npVRuUI2Sd6L1E2vl9bSBumZ5IpNxkRnAwIMjeTJB/0AIELh0mE5vwdihOCbdV6al\nUyhKC1+1w/FW6HWcp/JG1kKC8DPIidZ78Bbqv9YFzkAbNni5eSBOsXVBKG78Zsc8\nowIDAQAB\n-----END PUBLIC KEY-----",
+      "secret-key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAyaTgTt53ph3p5GHgwoGWwz5hRfWXSQA08NCOwe0FEgALWos9\nGCjNFCd723nCHxBtN1qd74MSh/uN88JPIbwxKheDp4kxo4YMN5trPaF0e9G6Bj1N\n02HnanxFLW+gmLbgYO/SZYfWF/M8yLBcu5Y1Ot0ZxDDDXS9wIQTtBE0ne3YbxgZJ\nAZTU5XqyQ1DxdzYyC5lF6yBaR5UQtCYTnXAApVRuUI2Sd6L1E2vl9bSBumZ5IpNx\nkRnAwIMjeTJB/0AIELh0mE5vwdihOCbdV6alUyhKC1+1w/FW6HWcp/JG1kKC8DPI\nidZ78Bbqv9YFzkAbNni5eSBOsXVBKG78Zsc8owIDAQABAoIBAF22jLDa34yKdns3\nqfd7to+C3D5hRzAcMn6Azvf9qc+VybEI6RnjTHxDZWK5EajSP4/sQ15e8ivUk0Jo\nWdJ53feL+hnQvwsab28gghSghrxM2kGwGA1XgO+SVawqJt8SjvE+Q+//01ZKK0Oy\nA0cDJjX3L9RoPUN/moMeAPFw0hqkFEhm72GSVCEY1eY+cOXmL3icxnsnlUD//SS9\nq33RxF2y5oiW1edqcRqhW/7L1yYMbxHFUcxWh8WUwjn1AAhoCOUzF8ZB+0X/PPh+\n1nYoq6xwqL0ZKDwrQ8SDhW/rNDLeO9gic5rl7EetRQRbFvsZ40AdsX2wU+lWFUkB\n42AjuoECgYEA5z/CXqDFfZ8MXCPAOeui8y5HNDtu30aR+HOXsBDnRI8huXsGND04\nFfmXR7nkghr08fFVDmE4PeKUk810YJb+IAJo8wrOZ0682n6yEMO58omqKin+iIUV\nrPXLSLo5CChrqw2J4vgzolzPw3N5I8FJdLomb9FkrV84H+IviPIylyECgYEA3znw\nAG29QX6ATEfFpGVOcogorHCntd4niaWCq5ne5sFL+EwLeVc1zD9yj1axcDelICDZ\nxCZynU7kDnrQcFkT0bjH/gC8Jk3v7XT9l1UDDqC1b7rm/X5wFIZ/rmNa1rVZhL1o\n/tKx5tvM2syJ1q95v7NdygFIEIW+qbIKbc6Wz0MCgYBsUZdQD+qx/xAhELX364I2\nepTryHMUrs+tGygQVrqdiJX5dcDgM1TUJkdQV6jLsKjPs4Vt6OgZRMrnuLMsk02R\n3M8gGQ25ok4f4nyyEZxGGWnVujn55KzUiYWhGWmhgp18UCkoYa59/Q9ss+gocV9h\nB9j9Q43vD80QUjiF4z0DQQKBgC7XQX1VibkMim93QAnXGDcAS0ij+w02qKVBjcHk\nb9mMBhz8GAxGOIu7ZJafYmxhwMyVGB0I1FQeEczYCJUKnBYN6Clsjg6bnBT/z5bJ\nx/Jx1qCzX3Uh6vLjpjc5sf4L39Tyye1u2NXQmZPwB5x9BdcsFConSq/s4K1LJtUT\n3KFxAoGBANGcQ8nObi3m4wROyKrkCWcWxFFMnpwxv0pW727Hn9wuaOs4UbesCnwm\npcMTfzGUDuzYXCtAq2pJl64HG6wsdkWmjBTJEpm6b9ibOBN3qFV2zQ0HyyKlMWxI\nuVSj9gOo61hF7UH9XB6R4HRdlpBOuIbgAWZ46dkj9/HM9ovdP0Iy\n-----END RSA PRIVATE KEY-----",
+      "login_phrase": "k9.teste.gUGvDRVuR_-uZ8aT1o-0LwX6UoH2fE0Pu0k1EgYcSY_DlYg_1tmzPmqM4HKtWL0FCeU7Y_-ave-gHumpMmctriypwireo95O5nZW9gUVjH-voGNRqJ3bmVGVJBPVRSchuhFr03Xm-jB8gaL9p3sigFqdUiEQ-p.GAHdhEOxLNI6SXP6gloaOo62kNZ7EQokfcy0IOrix37",
+      "token_vault_path": "secret/data/kelpie/crm/prod",
+      "payload": null,
+      "footer": "arbitrary-string-that-isn't-json",
+      "implicit-assertion": "{\"test-vector\":\"1-F-1\"}"
+    },
+    {
+      "name": "1-F-2",
+      "expect-fail": true,
+      "nonce": "e307324d88ee611dcf55b97a1d4a5f22982d8a50ba8bbed3556a9beebb98005b",
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "token": "r4.learn.ra6HZxwNBEtWxMfo8YhhASFiCgMR6OHEJH-jZ_4rWpkG_gi9q-wU5_ET0lg7-MtAus0CToxHbdAjVqCGNV0ibpmsvYJ7okaNQfrrtUqS.LFUzuQKfFNH9PRH6corkBd37zPF7TMljylc7OTapb70",
+      "token_header": "Authorization",
+      "payload": null,
+      "footer": "arbitrary-string-that-isn't-json",
+      "implicit-assertion": "{\"test-vector\":\"1-F-3\"}"
+    }
+  ]
+}

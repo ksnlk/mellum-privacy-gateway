@@ -1,0 +1,1407 @@
+{
+ "repo": "5f75c372",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "example/04a02b14.tf",
+   "line": 147,
+   "start": 16,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "nzdhxqyn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/example/38773716.go",
+   "line": 24,
+   "start": 18,
+   "end": 26,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "lpelnnav"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "other/732dce7d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "W3rd3r"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "_/cdfa348c.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "33373761643339316536303662653031363035623634613963666561653539633233633638393135393639373364373664663935316661313866353932393138",
+    "377ad391e606be01605b64a9cfeae59c23c6891596973d76df951fa18f592918"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "_/0d036b30.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "bW9yaXR6X2NvbmRlbnNlZF9zY2hlcm0=",
+    "moritz_condensed_scherm"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "_/0d036b30.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9vdzZmN1EzckRTTFB0MUZGUUNSdHNtY2M=",
+    "sk_live_ow6f7Q3rDSLPt1FFQCRtsmcc"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/0d036b30.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "argocd.helix-corp.de"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/182b8bd3.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm.sjk2ep.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/182b8bd3.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Boga1963?"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/182b8bd3.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "kRJXXb4U9L10CLAvNeZ8NGi0Ax1aKC6R"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/182b8bd3.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "wbrvbidefaiinrw14lc1p2mp1tsq0rh5"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/fd4c0b5b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_uqoTSYxGIA3fNK51K3b8JPym"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/fd4c0b5b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "SUfjdM3cirQ3u0ej27y2AoFvqkQWIni3"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/fd4c0b5b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "aGhqZGx5bTE0MjdwdmE0djVyazFrYmJoNmtqZWl1eHk=",
+    "hhjdlym1427pva4v5rk1kbbh6kjeiuxy"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/299db91f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Ben Schmidt"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/299db91f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "anna.schmidt@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/299db91f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 7332 5022"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/299db91f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.166.130.180"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/299db91f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "rap-roman-square-union"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.vantor.systems"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.vantor.systems"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.vantor.systems"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.176.58.0/24"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.176.58.8"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.vantor.systems"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.vantor.systems"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.vantor.systems"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.vantor.systems"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.176.58.140"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.vantor.systems"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Lukas Neumann"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "lukas.neumann@web.de"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 5297634"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Lea Neumann"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "lea.neumann@gmail.com"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 8372877"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/b803fcb7.yml",
+   "line": 89,
+   "whole_line": "          APP_PASSWORD=`echo $AZURE_CREDENTIALS | jq -r -c \".clientSecret\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b803fcb7.yml",
+   "line": 95,
+   "whole_line": "          export ARM_CLIENT_SECRET=\"$APP_PASSWORD\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b803fcb7.yml",
+   "line": 110,
+   "whole_line": "          APP_PASSWORD=`echo $AZURE_CREDENTIALS | jq -r -c \".clientSecret\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b803fcb7.yml",
+   "line": 116,
+   "whole_line": "          export ARM_CLIENT_SECRET=\"$APP_PASSWORD\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b803fcb7.yml",
+   "line": 128,
+   "whole_line": "          export TF_VAR_client_secret=\"$APP_PASSWORD\"",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/78a8a197.yml",
+   "line": 89,
+   "whole_line": "          key: gomod-{{ checksum \"go.sum\" }}",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/assets/a60634a0.js",
+   "line": 3,
+   "whole_line": "var _self=\"undefined\"!=typeof window?window:\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(u){var c=/\\blang(?:uage)?-([\\w-]+)\\b/i,n=0,C={manual:u.Prism&&u.Prism.manual,disableWorkerMessageHandler:u.Prism&&u.Prism.disableWorkerMessageHandler,util:{encode:function(e){return e instanceof _?new _(e.type,C.util.encode(e.content),e.alias):Array.isArray(e)?e.map(C.util.encode):e.replace(/&/g,\"&amp;\").replace(/</g,\"&lt;\").replace(/\\u00a0/g,\" \")},type:function(e){return Object.prototype.toString.call(e).slice(8,-1)},objId:function(e){return e.__id||Object.defineProperty(e,\"__id\",{value:++n}),e.__id},clone:function r(e,t){var a,n,i=C.util.type(e);switch(t=t||{},i){case\"Object\":if(n=C.util.objId(e),t[n])return t[n];for(var o in a={},t[n]=a,e)e.hasOwnProperty(o)&&(a[o]=r(e[o],t));return a;case\"Array\":return n=C.util.objId(e),t[n]?t[n]:(a=[],t[n]=a,e.forEach(function(e,n){a[n]=r(e,t)}),a);default:return e}},getLanguage:function(e){for(;e&&!c.test(e.className);)e=e.parentElement;return e?(e.className.match(c)||[,\"none\"])[1].toLowerCase():\"none\"},currentScript:function(){if(\"undefined\"==typeof document)return null;if(\"currentScript\"in document)return document.currentScript;try{throw new Error}catch(e){var n=(/at [^(\\r\\n]*\\((.*):.+:.+\\)$/i.exec(e.stack)||[])[1];if(n){var r=document.getElementsByTagName(\"script\");for(var t in r)if(r[t].src==n)return r[t]}return null}}},languages:{extend:function(e,n){var r=C.util.clone(C.languages[e]);for(var t in n)r[t]=n[t];return r},insertBefore:function(r,e,n,t){var a=(t=t||C.languages)[r],i={};for(var o in a)if(a.hasOwnProperty(o)){if(o==e)for(var l in n)n.hasOwnProperty(l)&&(i[l]=n[l]);n.hasOwnProperty(o)||(i[o]=a[o])}var s=t[r];return t[r]=i,C.languages.DFS(C.languages,function(e,n){n===s&&e!=r&&(this[e]=i)}),i},DFS:function e(n,r,t,a){a=a||{};var i=C.util.objId;for(var o in n)if(n.hasOwnProperty(o)){r.call(n,o,n[o],t||o);var l=n[o],s=C.util.type(l);\"Object\"!==s||a[i(l)]?\"Array\"!==s||a[i(l)]||(a[i(l)]=!0,e(l,r,o,a)):(a[i(l)]=!0,e(l,r,null,a))}}},plugins:{},highlightAll:function(e,n){C.highlightAllUnder(document,e,n)},highlightAllUnder:function(e,n,r){var t={callback:r,container:e,selector:'code[class*=\"language-\"], [class*=\"language-\"] code, code[class*=\"lang-\"], [class*=\"lang-\"] code'};C.hooks.run(\"before-highlightall\",t),t.elements=Array.prototype.slice.apply(t.container.querySelectorAll(t.selector)),C.hooks.run(\"before-all-elements-highlight\",t);for(var a,i=0;a=t.elements[i++];)C.highlightElement(a,!0===n,t.callback)},highlightElement:function(e,n,r){var t=C.util.getLanguage(e),a=C.languages[t];e.className=e.className.replace(c,\"\").replace(/\\s+/g,\" \")+\" language-\"+t;var i=e.parentNode;i&&\"pre\"===i.nodeName.toLowerCase()&&(i.className=i.className.replace(c,\"\").replace(/\\s+/g,\" \")+\" language-\"+t);var o={element:e,language:t,grammar:a,code:e.textContent};function l(e){o.highlightedCode=e,C.hooks.run(\"before-insert\",o),o.element.innerHTML=o.highlightedCode,C.hooks.run(\"after-highlight\",o),C.hooks.run(\"complete\",o),r&&r.call(o.element)}if(C.hooks.run(\"before-sanity-check\",o),!o.code)return C.hooks.run(\"complete\",o),void(r&&r.call(o.element));if(C.hooks.run(\"before-highlight\",o),o.grammar)if(n&&u.Worker){var s=new Worker(C.filename);s.onmessage=function(e){l(e.data)},s.postMessage(JSON.stringify({language:o.language,code:o.code,immediateClose:!0}))}else l(C.highlight(o.code,o.grammar,o.language));else l(C.util.encode(o.code))},highlight:function(e,n,r){var t={code:e,grammar:n,language:r};return C.hooks.run(\"before-tokenize\",t),t.tokens=C.tokenize(t.code,t.grammar),C.hooks.run(\"after-tokenize\",t),_.stringify(C.util.encode(t.tokens),t.language)},matchGrammar:function(e,n,r,t,a,i,o){for(var l in r)if(r.hasOwnProperty(l)&&r[l]){var s=r[l];s=Array.isArray(s)?s:[s];for(var u=0;u<s.length;++u){if(o&&o==l+\",\"+u)return;var c=s[u],g=c.inside,f=!!c.lookbehind,h=!!c.greedy,d=0,m=c.alias;if(h&&!c.pattern.global){var p=c.pattern.toString().match(/[imsuy]*$/)[0];c.pattern=RegExp(c.pattern.source,p+\"g\")}c=c.pattern||c;for(var y=t,v=a;y<n.length;v+=n[y].length,++y){var k=n[y];if(n.length>e.length)return;if(!(k instanceof _)){if(h&&y!=n.length-1){if(c.lastIndex=v,!(O=c.exec(e)))break;for(var b=O.index+(f&&O[1]?O[1].length:0),w=O.index+O[0].length,A=y,P=v,x=n.length;A<x&&(P<w||!n[A].type&&!n[A-1].greedy);++A)(P+=n[A].length)<=b&&(++y,v=P);if(n[y]instanceof _)continue;S=A-y,k=e.slice(v,P),O.index-=v}else{c.lastIndex=0;var O=c.exec(k),S=1}if(O){f&&(d=O[1]?O[1].length:0);w=(b=O.index+d)+(O=O[0].slice(d)).length;var j=k.slice(0,b),N=k.slice(w),E=[y,S];j&&(++y,v+=j.length,E.push(j));var L=new _(l,g?C.tokenize(O,g):O,m,O,h);if(E.push(L),N&&E.push(N),Array.prototype.splice.apply(n,E),1!=S&&C.matchGrammar(e,n,r,y,v,!0,l+\",\"+u),i)break}else if(i)break}}}}},tokenize:function(e,n){var r=[e],t=n.rest;if(t){for(var a in t)n[a]=t[a];delete n.rest}return C.matchGrammar(e,r,n,0,0,!1),r},hooks:{all:{},add:function(e,n){var r=C.hooks.all;r[e]=r[e]||[],r[e].push(n)},run:function(e,n){var r=C.hooks.all[e];if(r&&r.length)for(var t,a=0;t=r[a++];)t(n)}},Token:_};function _(e,n,r,t,a){this.type=e,this.content=n,this.alias=r,this.length=0|(t||\"\").length,this.greedy=!!a}if(u.Prism=C,_.stringify=function(e,n){if(\"string\"==typeof e)return e;if(Array.isArray(e))return e.map(function(e){return _.stringify(e,n)}).join(\"\");var r={type:e.type,content:_.stringify(e.content,n),tag:\"span\",classes:[\"token\",e.type],attributes:{},language:n};if(e.alias){var t=Array.isArray(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(r.classes,t)}C.hooks.run(\"wrap\",r);var a=Object.keys(r.attributes).map(function(e){return e+'=\"'+(r.attributes[e]||\"\").replace(/\"/g,\"&quot;\")+'\"'}).join(\" \");return\"<\"+r.tag+' class=\"'+r.classes.join(\" \")+'\"'+(a?\" \"+a:\"\")+\">\"+r.content+\"</\"+r.tag+\">\"},!u.document)return u.addEventListener&&(C.disableWorkerMessageHandler||u.addEventListener(\"message\",function(e){var n=JSON.parse(e.data),r=n.language,t=n.code,a=n.immediateClose;u.postMessage(C.highlight(t,C.languages[r],r)),a&&u.close()},!1)),C;var e=C.util.currentScript();if(e&&(C.filename=e.src,e.hasAttribute(\"data-manual\")&&(C.manual=!0)),!C.manual){function r(){C.manual||C.highlightAll()}var t=document.readyState;\"loading\"===t||\"interactive\"===t&&e&&e.defer?document.addEventListener(\"DOMContentLoaded\",r):window.requestAnimationFrame?window.requestAnimationFrame(r):window.setTimeout(r,16)}return C}(_self);\"undefined\"!=typeof module&&module.exports&&(module.exports=Prism),\"undefined\"!=typeof global&&(global.Prism=Prism);",
+   "source": "creddata"
+  },
+  {
+   "file": "example/04a02b14.tf",
+   "line": 124,
+   "whole_line": "  key_size     = 2048",
+   "source": "creddata"
+  },
+  {
+   "file": "example/04a02b14.tf",
+   "line": 157,
+   "whole_line": "      key_size   = 2048",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2c65b57f.tf",
+   "line": 22,
+   "whole_line": "  hash_key     = \"userId\"",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2c65b57f.tf",
+   "line": 23,
+   "whole_line": "  range_key    = \"department\"",
+   "source": "creddata"
+  },
+  {
+   "file": "example/31fbe1cc.tf",
+   "line": 95,
+   "whole_line": "    admin_password = random_password.main.result",
+   "source": "creddata"
+  },
+  {
+   "file": "example/3bde6377.tf",
+   "line": 123,
+   "whole_line": "    admin_password = random_password.rand.result",
+   "source": "creddata"
+  },
+  {
+   "file": "example/6d2dd2e5.tf",
+   "line": 59,
+   "whole_line": "    client_secret = var.client_secret",
+   "source": "creddata"
+  },
+  {
+   "file": "example/6ee4e039.tf",
+   "line": 76,
+   "whole_line": "    terratest_password = var.terratest_password",
+   "source": "creddata"
+  },
+  {
+   "file": "example/878d3a8a.tf",
+   "line": 47,
+   "whole_line": "    key                 = \"Name\"",
+   "source": "creddata"
+  },
+  {
+   "file": "example/8e8e7fbc.tf",
+   "line": 111,
+   "whole_line": "  password               = var.password",
+   "source": "creddata"
+  },
+  {
+   "file": "example/9befb857.tf",
+   "line": 135,
+   "whole_line": "    admin_password = random_password.nsg.result",
+   "source": "creddata"
+  },
+  {
+   "file": "example/b9e72547.tf",
+   "line": 39,
+   "whole_line": "  administrator_login_password = random_password.password.result",
+   "source": "creddata"
+  },
+  {
+   "file": "example/c203edfd.tf",
+   "line": 109,
+   "whole_line": "    admin_password = random_password.avs.result",
+   "source": "creddata"
+  },
+  {
+   "file": "example/cf795bb2.yml",
+   "line": 2,
+   "whole_line": "apiVersion: apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 14,
+   "whole_line": "--- PASS: TestRemoveDedentedTestResultMarkers (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 16,
+   "whole_line": "--- PASS: TestRemoveDedentedTestResultMarkersEmpty (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 18,
+   "whole_line": "--- PASS: TestRemoveDedentedTestResultMarkersAll (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 52,
+   "whole_line": "--- PASS: TestStackPush (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 55,
+   "whole_line": "--- PASS: TestIsSummaryLine (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 56,
+   "whole_line": "    --- PASS: TestIsSummaryLine/BaseCase (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 57,
+   "whole_line": "    --- PASS: TestIsSummaryLine/NotSummary (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 62,
+   "whole_line": "--- PASS: TestCloseChannelsClosesAll (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 67,
+   "whole_line": "--- PASS: TestGetOrCreateChannelReturnsExistingChannel (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 70,
+   "whole_line": "--- PASS: TestPeek (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 81,
+   "whole_line": "--- PASS: TestIsStatusLine (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 82,
+   "whole_line": "    --- PASS: TestIsStatusLine/BaseCase (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 83,
+   "whole_line": "    --- PASS: TestIsStatusLine/Indented (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 84,
+   "whole_line": "    --- PASS: TestIsStatusLine/SpecialChars (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 85,
+   "whole_line": "    --- PASS: TestIsStatusLine/WhenPaused (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 86,
+   "whole_line": "    --- PASS: TestIsStatusLine/WhenCont (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 87,
+   "whole_line": "    --- PASS: TestIsStatusLine/NonStatusLine (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 89,
+   "whole_line": "--- PASS: TestGetIndent (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 90,
+   "whole_line": "    --- PASS: TestGetIndent/BaseCase (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 91,
+   "whole_line": "    --- PASS: TestGetIndent/NoIndent (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 92,
+   "whole_line": "    --- PASS: TestGetIndent/EmptyString (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 93,
+   "whole_line": "    --- PASS: TestGetIndent/Tabs (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 94,
+   "whole_line": "    --- PASS: TestGetIndent/MixTabSpace (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 96,
+   "whole_line": "--- PASS: TestIsEmpty (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 99,
+   "whole_line": "--- PASS: TestPeekEmpty (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 111,
+   "whole_line": "--- PASS: TestGetTestNameFromStatusLine (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 112,
+   "whole_line": "    --- PASS: TestGetTestNameFromStatusLine/BaseCase (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 113,
+   "whole_line": "    --- PASS: TestGetTestNameFromStatusLine/Indented (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 114,
+   "whole_line": "    --- PASS: TestGetTestNameFromStatusLine/SpecialChars (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 115,
+   "whole_line": "    --- PASS: TestGetTestNameFromStatusLine/WhenPaused (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 116,
+   "whole_line": "    --- PASS: TestGetTestNameFromStatusLine/WhenCont (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 124,
+   "whole_line": "--- PASS: TestGetTestNameFromResultLine (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 125,
+   "whole_line": "    --- PASS: TestGetTestNameFromResultLine/BaseCase (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 126,
+   "whole_line": "    --- PASS: TestGetTestNameFromResultLine/Indented (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 127,
+   "whole_line": "    --- PASS: TestGetTestNameFromResultLine/SpecialChars (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 128,
+   "whole_line": "    --- PASS: TestGetTestNameFromResultLine/WhenFailed (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 130,
+   "whole_line": "--- PASS: TestIsResultLine (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 131,
+   "whole_line": "    --- PASS: TestIsResultLine/BaseCase (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 132,
+   "whole_line": "    --- PASS: TestIsResultLine/Indented (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 133,
+   "whole_line": "    --- PASS: TestIsResultLine/SpecialChars (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 134,
+   "whole_line": "    --- PASS: TestIsResultLine/WhenFailed (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 135,
+   "whole_line": "    --- PASS: TestIsResultLine/NonResultLine (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 141,
+   "whole_line": "--- PASS: TestGetOrCreateChannelCreatesNewChannel (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 143,
+   "whole_line": "--- PASS: TestEnsureDirectoryExistsHandlesExistingDirectory (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 149,
+   "whole_line": "--- PASS: TestIsPanicLine (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 150,
+   "whole_line": "    --- PASS: TestIsPanicLine/BaseCase (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 151,
+   "whole_line": "    --- PASS: TestIsPanicLine/NotPanic (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 153,
+   "whole_line": "--- PASS: TestStackPop (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 154,
+   "whole_line": "--- PASS: TestStackPopEmpty (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 157,
+   "whole_line": "--- PASS: TestEnsureDirectoryExistsCreatesDirectory (0.00s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 158,
+   "whole_line": "--- PASS: TestGetOrCreateChannelSpawnsLogCollectorOnCreate (1.01s)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fixture/modul/f0e5ac91.log",
+   "line": 159,
+   "whole_line": "--- PASS: TestLogCollectorCreatesAndWritesToFile (1.01s)",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/057bf3e3.go",
+   "line": 18,
+   "value": "TERRATEST_IAM_ROLE",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/057bf3e3.go",
+   "line": 127,
+   "whole_line": "\t\tSecretAccessKey: secretAccessKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/505d5299.go",
+   "line": 271,
+   "whole_line": "\t\t\tKey:   key,",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/505d5299.go",
+   "line": 300,
+   "value": "%s:%s %s",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/505d5299.go",
+   "line": 589,
+   "whole_line": "\t// e.g: oauth2: cannot fetch token: Post https://oauth2.googleapis.com/token: net/http: TLS handshake timeout",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/588f045d.go",
+   "line": 56,
+   "whole_line": "\treturn &KeyPair{PublicKey: sshPubKeyStr, PrivateKey: keyPem}, nil",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/6c43e2c9.go",
+   "line": 136,
+   "whole_line": "\t\tkey := agent.AddedKey{PrivateKey: privateKey}",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/9ace91f5.go",
+   "line": 128,
+   "whole_line": "\trawConfig.AuthInfos[serviceAccountName] = &api.AuthInfo{Token: token}",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/a801b635.go",
+   "line": 40,
+   "whole_line": "\t\treturn \"\", InputFileKeyNotFound{FilePath: fileName, Key: key}",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/a801b635.go",
+   "line": 67,
+   "whole_line": "\t\treturn nil, InputFileKeyNotFound{FilePath: fileName, Key: key}",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/a801b635.go",
+   "line": 71,
+   "whole_line": "\t\treturn nil, UnexpectedOutputType{Key: key, ExpectedType: \"map[string]interface {}\", ActualType: reflect.TypeOf(variable).String()}",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/a801b635.go",
+   "line": 102,
+   "whole_line": "\t\treturn nil, InputFileKeyNotFound{FilePath: fileName, Key: key}",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/a801b635.go",
+   "line": 106,
+   "whole_line": "\t\treturn nil, UnexpectedOutputType{Key: key, ExpectedType: \"[]interface {}\", ActualType: reflect.TypeOf(variable).String()}",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/b9ee5a22.go",
+   "line": 214,
+   "whole_line": "\treturn nil, UnexpectedOutputType{Key: key, ExpectedType: \"map or list\", ActualType: reflect.TypeOf(output).String()}",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/e8fe8eaf.go",
+   "line": 60,
+   "whole_line": "// (e.g of the format --set-file key=path). This will fail the test if one of the paths do not exist or the absolute",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/e8fe8eaf.go",
+   "line": 69,
+   "whole_line": "// (e.g of the format --set-file key=path)",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/f4c0c8ff.go",
+   "line": 16,
+   "whole_line": "\t// Represents an open file to a log corresponding to a test (key = test name)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/docker/6becc8ce.md",
+   "line": 55,
+   "whole_line": "aws --region \"us-west-2\" --endpoint-url=\"http://localhost:5000\" ec2 run-instances --image-id ami-abc12345 --tag-specifications 'ResourceType=instance,Tags=[{Key=ServerGroupName,Value=josh}]'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/example/38773716.go",
+   "line": 45,
+   "whole_line": "\t\t\t\"password\":             password,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/example/38773716.go",
+   "line": 25,
+   "value": "X-Api-Key",
+   "source": "creddata"
+  },
+  {
+   "file": "test/example/8def9ba9.go",
+   "line": 67,
+   "whole_line": "\tpassword := random.UniqueId()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/example/8def9ba9.go",
+   "line": 80,
+   "value": "password,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/example/8def9ba9.go",
+   "line": 95,
+   "whole_line": "\t\tPassword:    terraformOptions.Vars[\"terratest_password\"].(string),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/example/ab0cecbf.go",
+   "line": 37,
+   "whole_line": "\t\t\t\"key\":    key,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/modul/0d1b2abd.go",
+   "line": 17,
+   "value": "fakeKeyVault",
+   "source": "creddata"
+  },
+  {
+   "file": "test/modul/0d1b2abd.go",
+   "line": 18,
+   "whole_line": "\ttestKeyVaultSecretName := \"fakeSecretName\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/modul/0d1b2abd.go",
+   "line": 26,
+   "value": "fakeKeyVault",
+   "source": "creddata"
+  },
+  {
+   "file": "test/modul/0d1b2abd.go",
+   "line": 35,
+   "value": "fakeKeyVault",
+   "source": "creddata"
+  },
+  {
+   "file": "test/modul/cc399de9.go",
+   "line": 162,
+   "whole_line": "\t\t\tKey:    &key,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/modul/f268f25d.go",
+   "line": 70,
+   "value": "1a2b3c99ff",
+   "source": "creddata"
+  },
+  {
+   "file": "test/modul/f268f25d.go",
+   "line": 77,
+   "value": "1a2b3c99ff",
+   "source": "creddata"
+  },
+  {
+   "file": "other/732dce7d.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "drache_dwarf"
+  },
+  {
+   "file": "other/732dce7d.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "clip-touchable-2024"
+  },
+  {
+   "file": "_/cdfa348c.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "ea570d13f44558a26a359809472f6be9ab64de714f67488864092b08f56c4df6"
+  },
+  {
+   "file": "_/0d036b30.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "f5baf7e"
+  },
+  {
+   "file": "_/0d036b30.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "a586c909da90505bd1509aa21510d24eb82e8ed4004095c515889ffa58179039"
+  },
+  {
+   "file": "_/0d036b30.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "sentry.io"
+  },
+  {
+   "file": "_/0d036b30.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/182b8bd3.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/quarzo/auth/prod"
+  },
+  {
+   "file": "_/182b8bd3.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "CRM_SECRET_KEY"
+  },
+  {
+   "file": "_/182b8bd3.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Authorization"
+  },
+  {
+   "file": "_/182b8bd3.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/var/run/secrets/billing/token"
+  },
+  {
+   "file": "_/182b8bd3.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "bcrypt"
+  },
+  {
+   "file": "_/182b8bd3.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "_/182b8bd3.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "170368964841-kf7c4699u78z7emtj8nmhr0e6jptxux0.apps.googleusercontent.com"
+  },
+  {
+   "file": "_/182b8bd3.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2025-07-11T00:00:00Z"
+  },
+  {
+   "file": "_/182b8bd3.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "vault-db-credentials"
+  },
+  {
+   "file": "_/182b8bd3.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6NTA3MzE6b2Zmc2V0OjQ2MQ=="
+  },
+  {
+   "file": "test/fd4c0b5b.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_F5932Ekf2UuzpdhCTuzkJQWT"
+  },
+  {
+   "file": "test/fd4c0b5b.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "PAYMENTS_CLIENT_SECRET"
+  },
+  {
+   "file": "test/fd4c0b5b.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "REPORTS_DB_PASSWORD"
+  },
+  {
+   "file": "test/fd4c0b5b.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LCnzeQFvYgKX7NmlioMeOFYcQCSqUyCqYmekTyq"
+  },
+  {
+   "file": "test/fd4c0b5b.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:pqL3UX2YmyoQcU3wCzX9P6fjDEhLIZC0FTGm2aoqM+E"
+  },
+  {
+   "file": "test/fd4c0b5b.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/run/secrets/payments_password"
+  },
+  {
+   "file": "test/fd4c0b5b.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "test/fd4c0b5b.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "test/fd4c0b5b.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6NDQ5ODpvZmZzZXQ6ODI="
+  },
+  {
+   "file": "src/299db91f.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "8.8.8.8"
+  },
+  {
+   "file": "src/299db91f.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "9.19.8"
+  },
+  {
+   "file": "src/299db91f.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:9e65d4c3847fb17b3089e65d4529ddb583f9fb98f37a5a6645728b6ea7403296"
+  },
+  {
+   "file": "src/299db91f.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/299db91f.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "edi.datafjord.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "188.189.247.76"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.vantor.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.vantor.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "kunden.vantor.systems"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Sofia Hoffmann"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kunden.vantor.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.datafjord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "188.189.247.76"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.vantor.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Sofia Hoffmann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "sofia.hoffmann@vantor.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Max Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "max.mustermann@example.org"
+  }
+ ]
+}

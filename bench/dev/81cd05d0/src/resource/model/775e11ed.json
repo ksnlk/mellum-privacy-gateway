@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2015-05-28",
+    "endpointPrefix":"iot",
+    "protocol":"rest-json",
+    "serviceFullName":"AWS IoT",
+    "serviceId":"IoT",
+    "signatureVersion":"v4",
+    "signingName":"execute-api",
+    "uid":"iot-2015-05-28"
+  },
+  "operations":{
+    "AcceptCertificateTransfer":{
+      "name":"AcceptCertificateTransfer",
+      "http":{
+        "method":"PATCH",
+        "requestUri":"/accept-certificate-transfer/{certificateId}"
+      },
+      "input":{"shape":"AcceptCertificateTransferRequest"},
+      "errors":[
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"TransferAlreadyCompletedException"},
+        {"shape":"InvalidRequestException"},
+        {"shape":"ThrottlingException"},
+        {"shape":"UnauthorizedException"},
+        {"shape":"ServiceUnavailableException"},
+        {"shape":"InternalFailureException"}
+      ],

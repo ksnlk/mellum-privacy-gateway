@@ -1,0 +1,1053 @@
+{
+ "repo": "654956e7",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/281e52e2",
+   "line": 31,
+   "start": 14,
+   "end": 50,
+   "category": "Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "1FF1BD3C-F99e-9eFc-8DFb-D96AE79EBE61"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/5f089171.md",
+   "line": 117,
+   "start": 14,
+   "end": 50,
+   "category": "Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "e91be962-4dd6-34a4-e115-ec2d4e65a056"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/5f089171.md",
+   "line": 249,
+   "start": 14,
+   "end": 50,
+   "category": "Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "eBCcBE0E-D9e1-12Ce-1AD2-B3eBD73BEC6f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/fb8a2953.jenkinsfile",
+   "line": 62,
+   "start": 48,
+   "end": 84,
+   "category": "Credential:UUID",
+   "mutation": "none",
+   "forms": [
+    "40a35a98-8633-3e60-fef6-d96b258d2be5"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "_/fd525480.md",
+   "line": 394,
+   "start": 48,
+   "end": 84,
+   "category": "Credential:UUID",
+   "mutation": "none",
+   "forms": [
+    "17d7090a-0e92-bfbc-f95e-d583f7b0fbef"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "_/fd525480.md",
+   "line": 475,
+   "start": 48,
+   "end": 84,
+   "category": "Credential:UUID",
+   "mutation": "none",
+   "forms": [
+    "27d3072b-0033-dc68-3a17-4756fced2553"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "_/eb5dd417.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "fischer.exhausted.flug"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/eb5dd417.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports.hixd8j.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/d0abc6ff.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Julia$2017"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/afd8164f.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-prod.vxzcmrxbi6g5.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/afd8164f.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y2k6YWRsZXJyaWxlOQ==",
+    "ci:adlerrile9"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/afd8164f.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "ogq5rewlg7dh6ad63roteuut07uefomf"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/1e6a66e7.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "56, 52, 81, 115, 78, 52, 84, 98, 77, 77, 71, 122, 87, 82, 90, 89, 122, 72, 51, 107, 88, 88, 65, 78, 111, 105, 56, 104, 111, 71, 90, 71",
+    "84QsN4TbMMGzWRZYzH3kXXANoi8hoGZG"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/1e6a66e7.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "clara82@gmail.com"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/66ec3a80.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-api-05.prod.brightloop-internal.net"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/66ec3a80.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Pferdzug79?"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/66ec3a80.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "PmnzRayhU6v92C751K2rBEUQVsqoRZVK"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/66ec3a80.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "geid7shw99cpsdo3y2m0xdks68ox0eft"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/a3ea9ff1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger.pxwgs9.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/a3ea9ff1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "188.212.60.228"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/a3ea9ff1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "jonas.klein@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/a3ea9ff1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/a3ea9ff1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "vest_kirsche_profit39"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/281e52e2",
+   "line": 20,
+   "whole_line": "        [key: 'event', value: '$.webhookEvent'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/281e52e2",
+   "line": 21,
+   "whole_line": "        [key: 'version', value: '$.version'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/281e52e2",
+   "line": 22,
+   "whole_line": "        [key: 'projectId', value: '$.version.projectId'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/281e52e2",
+   "line": 23,
+   "whole_line": "        [key: 'name', value: '$.version.name'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/281e52e2",
+   "line": 24,
+   "whole_line": "        [key: 'description', value: '$.version.description']",
+   "source": "creddata"
+  },
+  {
+   "file": "_/39ab7bf3.sh",
+   "line": 18,
+   "whole_line": "TOKEN=USER:TOKEN",
+   "source": "creddata"
+  },
+  {
+   "file": "_/39ab7bf3.sh",
+   "line": 23,
+   "whole_line": "GITHUB_USER_EMAIL=`curl -s -k -u ${TOKEN} ${GHE_URL}/api/v3/users/${GITHUB_USER_LOGIN} | grep email | sed 's/  \\\"email\\\"\\: \\\"//' | sed 's/\\\",//'`",
+   "source": "creddata"
+  },
+  {
+   "file": "_/39ab7bf3.sh",
+   "line": 57,
+   "whole_line": "        AUTHOR_USER=`git log --format=%an -n 1 ${COMMIT}`",
+   "source": "creddata"
+  },
+  {
+   "file": "_/39ab7bf3.sh",
+   "line": 58,
+   "whole_line": "        AUTHOR_EMAIL=`git log --format=%ae -n 1 ${COMMIT}`",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 23,
+   "whole_line": "- [Credentials](https://plugins.jenkins.io/credentials): This plugin allows you to store credentials in Jenkins.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 106,
+   "whole_line": "        [key: 'event', value: '$.webhookEvent'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 107,
+   "whole_line": "        [key: 'version', value: '$.version'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 108,
+   "whole_line": "        [key: 'projectId', value: '$.version.projectId'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 109,
+   "whole_line": "        [key: 'name', value: '$.version.name'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 110,
+   "whole_line": "        [key: 'description', value: '$.version.description']",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 174,
+   "whole_line": "          withCredentials([usernamePassword(credentialsId: '<github_credentials_id>', ",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 175,
+   "value": "githubToken",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 238,
+   "whole_line": "        [key: 'event', value: '$.webhookEvent'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 239,
+   "whole_line": "        [key: 'version', value: '$.version'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 240,
+   "whole_line": "        [key: 'projectId', value: '$.version.projectId'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 241,
+   "whole_line": "        [key: 'name', value: '$.version.name'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 242,
+   "whole_line": "        [key: 'description', value: '$.version.description']",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 292,
+   "value": "<github_credentials_id>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 293,
+   "whole_line": "                              passwordVariable: 'githubToken', ",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 350,
+   "value": "<github_credentials_id>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f089171.md",
+   "line": 351,
+   "value": "githubToken",
+   "source": "creddata"
+  },
+  {
+   "file": "_/83fae64a.sh",
+   "line": 57,
+   "whole_line": "        AUTHOR_EMAIL=$(git log --format=%ae -n 1 \"$COMMIT\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9ecafaf4.sh",
+   "line": 48,
+   "whole_line": "      echo Commit $COMMIT was signed by a GPG key: $signed",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9f10437f",
+   "line": 24,
+   "whole_line": "    console.log('     token: Properly scoped GitHub PAT');",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fb8a2953.jenkinsfile",
+   "line": 13,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'repository', value: '$.repository'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fb8a2953.jenkinsfile",
+   "line": 14,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'organization', value: '$.organization'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fb8a2953.jenkinsfile",
+   "line": 15,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'sender', value: '$.sender'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fb8a2953.jenkinsfile",
+   "line": 16,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'ref_type', value: '$.ref_type'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fb8a2953.jenkinsfile",
+   "line": 17,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'master_branch', value: '$.master_branch'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fb8a2953.jenkinsfile",
+   "line": 18,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'branch_name', value: 'ref']",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 229,
+   "whole_line": "| **Payload URL** | `http://<jenkins_hostname>:<port>/generic-webhook-trigger/invoke?token=<token>` |",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 339,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'repository', value: '$.repository'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 340,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'organization', value: '$.organization'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 341,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'sender', value: '$.sender'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 342,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'ref_type', value: '$.ref_type'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 343,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'master_branch', value: '$.master_branch'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 344,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'branch_name', value: 'ref']",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 429,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'repository', value: '$.repository'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 430,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'organization', value: '$.organization'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 431,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'sender', value: '$.sender'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 432,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'ref_type', value: '$.ref_type'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 433,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'master_branch', value: '$.master_branch'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 434,
+   "whole_line": "          [expressionType: 'JSONPath', key: 'branch_name', value: 'ref']",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 543,
+   "whole_line": "{\"ref\":\"master\",\"ref_type\":\"branch\",\"master_branch\":\"master\",\"description\":null,\"pusher_type\":\"user\",\"repository\":{\"id\":3,\"name\":\"demo\",\"full_name\":\"GitHub-Demo/demo\",\"owner\":{\"login\":\"GitHub-Demo\",\"id\":6,\"avatar_url\":\"https://github-test.local/avatars/u/6?\",\"gravatar_id\":\"\",\"url\":\"https://github-test.local/api/v3/users/GitHub-Demo\",\"html_url\":\"https://github-test.local/GitHub-Demo\",\"followers_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/followers\",\"following_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/following{/other_user}\",\"gists_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/gists{/gist_id}\",\"starred_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/subscriptions\",\"organizations_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/orgs\",\"repos_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/repos\",\"events_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/events{/privacy}\",\"received_events_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/received_events\",\"type\":\"Organization\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github-test.local/GitHub-Demo/demo\",\"description\":null,\"fork\":false,\"url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo\",\"forks_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/forks\",\"keys_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/keys{/key_id}\",\"collaborators_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/collaborators{/collaborator}\",\"teams_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/teams\",\"hooks_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/hooks\",\"issue_events_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/issues/events{/number}\",\"events_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/events\",\"assignees_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/assignees{/user}\",\"branches_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/branches{/branch}\",\"tags_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/tags\",\"blobs_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/blobs{/sha}\",\"git_tags_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/tags{/sha}\",\"git_refs_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/refs{/sha}\",\"trees_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/trees{/sha}\",\"statuses_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/statuses/{sha}\",\"languages_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/languages\",\"stargazers_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/stargazers\",\"contributors_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/contributors\",\"subscribers_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/subscribers\",\"subscription_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/subscription\",\"commits_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/commits{/sha}\",\"git_commits_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/commits{/sha}\",\"comments_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/comments{/number}\",\"issue_comment_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/issues/comments{/number}\",\"contents_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/contents/{+path}\",\"compare_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/compare/{base}...{head}\",\"merges_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/merges\",\"archive_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/{archive_format}{/ref}\",\"downloads_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/downloads\",\"issues_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/issues{/number}\",\"pulls_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/pulls{/number}\",\"milestones_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/milestones{/number}\",\"notifications_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/notifications{?since,all,participating}\",\"labels_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/labels{/name}\",\"releases_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/releases{/id}\",\"deployments_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/deployments\",\"created_at\":\"2018-01-19T20:04:24Z\",\"updated_at\":\"2018-01-19T20:04:24Z\",\"pushed_at\":\"2018-01-19T20:04:25Z\",\"git_url\":\"git://github-test.local/GitHub-Demo/demo.git\",\"ssh_url\":\"git@github-test.local:GitHub-Demo/demo.git\",\"clone_url\":\"https://github-test.local/GitHub-Demo/demo.git\",\"svn_url\":\"https://github-test.local/GitHub-Demo/demo\",\"homepage\":null,\"size\":0,\"stargazers_count\":0,\"watchers_count\":0,\"language\":null,\"has_issues\":true,\"has_projects\":true,\"has_downloads\":true,\"has_wiki\":true,\"has_pages\":false,\"forks_count\":0,\"mirror_url\":null,\"archived\":false,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\"},\"organization\":{\"login\":\"GitHub-Demo\",\"id\":6,\"url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo\",\"repos_url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo/repos\",\"events_url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo/events\",\"hooks_url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo/hooks\",\"issues_url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo/issues\",\"members_url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo/members{/member}\",\"public_members_url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo/public_members{/member}\",\"avatar_url\":\"https://github-test.local/avatars/u/6?\",\"description\":null},\"sender\":{\"login\":\"primetheus\",\"id\":3,\"avatar_url\":\"https://github-test.local/avatars/u/3?\",\"gravatar_id\":\"\",\"url\":\"https://github-test.local/api/v3/users/primetheus\",\"html_url\":\"https://github-test.local/primetheus\",\"followers_url\":\"https://github-test.local/api/v3/users/primetheus/followers\",\"following_url\":\"https://github-test.local/api/v3/users/primetheus/following{/other_user}\",\"gists_url\":\"https://github-test.local/api/v3/users/primetheus/gists{/gist_id}\",\"starred_url\":\"https://github-test.local/api/v3/users/primetheus/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://github-test.local/api/v3/users/primetheus/subscriptions\",\"organizations_url\":\"https://github-test.local/api/v3/users/primetheus/orgs\",\"repos_url\":\"https://github-test.local/api/v3/users/primetheus/repos\",\"events_url\":\"https://github-test.local/api/v3/users/primetheus/events{/privacy}\",\"received_events_url\":\"https://github-test.local/api/v3/users/primetheus/received_events\",\"type\":\"User\",\"site_admin\":true,\"ldap_dn\":\"CN=Jared Murrell,CN=Users,DC=github-test,DC=local\"}}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 550,
+   "whole_line": "    repository = {\"id\":3,\"name\":\"demo\",\"full_name\":\"GitHub-Demo/demo\",\"owner\":{\"login\":\"GitHub-Demo\",\"id\":6,\"avatar_url\":\"https://github-test.local/avatars/u/6?\",\"gravatar_id\":\"\",\"url\":\"https://github-test.local/api/v3/users/GitHub-Demo\",\"html_url\":\"https://github-test.local/GitHub-Demo\",\"followers_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/followers\",\"following_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/following{/other_user}\",\"gists_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/gists{/gist_id}\",\"starred_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/subscriptions\",\"organizations_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/orgs\",\"repos_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/repos\",\"events_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/events{/privacy}\",\"received_events_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/received_events\",\"type\":\"Organization\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github-test.local/GitHub-Demo/demo\",\"fork\":false,\"url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo\",\"forks_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/forks\",\"keys_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/keys{/key_id}\",\"collaborators_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/collaborators{/collaborator}\",\"teams_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/teams\",\"hooks_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/hooks\",\"issue_events_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/issues/events{/number}\",\"events_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/events\",\"assignees_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/assignees{/user}\",\"branches_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/branches{/branch}\",\"tags_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/tags\",\"blobs_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/blobs{/sha}\",\"git_tags_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/tags{/sha}\",\"git_refs_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/refs{/sha}\",\"trees_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/trees{/sha}\",\"statuses_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/statuses/{sha}\",\"languages_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/languages\",\"stargazers_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/stargazers\",\"contributors_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/contributors\",\"subscribers_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/subscribers\",\"subscription_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/subscription\",\"commits_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/commits{/sha}\",\"git_commits_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/commits{/sha}\",\"comments_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/comments{/number}\",\"issue_comment_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/issues/comments{/number}\",\"contents_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/contents/{+path}\",\"compare_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/compare/{base}...{head}\",\"merges_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/merges\",\"archive_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/{archive_format}{/ref}\",\"downloads_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/downloads\",\"issues_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/issues{/number}\",\"pulls_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/pulls{/number}\",\"milestones_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/milestones{/number}\",\"notifications_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/notifications{?since,all,participating}\",\"labels_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/labels{/name}\",\"releases_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/releases{/id}\",\"deployments_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/deployments\",\"created_at\":\"2018-01-19T20:04:24Z\",\"updated_at\":\"2018-01-19T20:04:24Z\",\"pushed_at\":\"2018-01-19T20:04:25Z\",\"git_url\":\"git://github-test.local/GitHub-Demo/demo.git\",\"ssh_url\":\"git@github-test.local:GitHub-Demo/demo.git\",\"clone_url\":\"https://github-test.local/GitHub-Demo/demo.git\",\"svn_url\":\"https://github-test.local/GitHub-Demo/demo\",\"size\":0,\"stargazers_count\":0,\"watchers_count\":0,\"has_issues\":true,\"has_projects\":true,\"has_downloads\":true,\"has_wiki\":true,\"has_pages\":false,\"forks_count\":0,\"archived\":false,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 669,
+   "whole_line": "{\"ref\":\"master\",\"ref_type\":\"branch\",\"master_branch\":\"master\",\"description\":null,\"pusher_type\":\"user\",\"repository\":{\"id\":3,\"name\":\"demo\",\"full_name\":\"GitHub-Demo/demo\",\"owner\":{\"login\":\"GitHub-Demo\",\"id\":6,\"avatar_url\":\"https://github-test.local/avatars/u/6?\",\"gravatar_id\":\"\",\"url\":\"https://github-test.local/api/v3/users/GitHub-Demo\",\"html_url\":\"https://github-test.local/GitHub-Demo\",\"followers_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/followers\",\"following_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/following{/other_user}\",\"gists_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/gists{/gist_id}\",\"starred_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/subscriptions\",\"organizations_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/orgs\",\"repos_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/repos\",\"events_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/events{/privacy}\",\"received_events_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/received_events\",\"type\":\"Organization\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github-test.local/GitHub-Demo/demo\",\"description\":null,\"fork\":false,\"url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo\",\"forks_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/forks\",\"keys_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/keys{/key_id}\",\"collaborators_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/collaborators{/collaborator}\",\"teams_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/teams\",\"hooks_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/hooks\",\"issue_events_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/issues/events{/number}\",\"events_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/events\",\"assignees_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/assignees{/user}\",\"branches_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/branches{/branch}\",\"tags_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/tags\",\"blobs_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/blobs{/sha}\",\"git_tags_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/tags{/sha}\",\"git_refs_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/refs{/sha}\",\"trees_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/trees{/sha}\",\"statuses_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/statuses/{sha}\",\"languages_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/languages\",\"stargazers_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/stargazers\",\"contributors_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/contributors\",\"subscribers_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/subscribers\",\"subscription_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/subscription\",\"commits_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/commits{/sha}\",\"git_commits_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/commits{/sha}\",\"comments_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/comments{/number}\",\"issue_comment_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/issues/comments{/number}\",\"contents_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/contents/{+path}\",\"compare_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/compare/{base}...{head}\",\"merges_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/merges\",\"archive_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/{archive_format}{/ref}\",\"downloads_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/downloads\",\"issues_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/issues{/number}\",\"pulls_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/pulls{/number}\",\"milestones_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/milestones{/number}\",\"notifications_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/notifications{?since,all,participating}\",\"labels_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/labels{/name}\",\"releases_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/releases{/id}\",\"deployments_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/deployments\",\"created_at\":\"2018-01-19T20:04:24Z\",\"updated_at\":\"2018-01-19T20:04:24Z\",\"pushed_at\":\"2018-01-19T20:04:25Z\",\"git_url\":\"git://github-test.local/GitHub-Demo/demo.git\",\"ssh_url\":\"git@github-test.local:GitHub-Demo/demo.git\",\"clone_url\":\"https://github-test.local/GitHub-Demo/demo.git\",\"svn_url\":\"https://github-test.local/GitHub-Demo/demo\",\"homepage\":null,\"size\":0,\"stargazers_count\":0,\"watchers_count\":0,\"language\":null,\"has_issues\":true,\"has_projects\":true,\"has_downloads\":true,\"has_wiki\":true,\"has_pages\":false,\"forks_count\":0,\"mirror_url\":null,\"archived\":false,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\"},\"organization\":{\"login\":\"GitHub-Demo\",\"id\":6,\"url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo\",\"repos_url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo/repos\",\"events_url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo/events\",\"hooks_url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo/hooks\",\"issues_url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo/issues\",\"members_url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo/members{/member}\",\"public_members_url\":\"https://github-test.local/api/v3/orgs/GitHub-Demo/public_members{/member}\",\"avatar_url\":\"https://github-test.local/avatars/u/6?\",\"description\":null},\"sender\":{\"login\":\"primetheus\",\"id\":3,\"avatar_url\":\"https://github-test.local/avatars/u/3?\",\"gravatar_id\":\"\",\"url\":\"https://github-test.local/api/v3/users/primetheus\",\"html_url\":\"https://github-test.local/primetheus\",\"followers_url\":\"https://github-test.local/api/v3/users/primetheus/followers\",\"following_url\":\"https://github-test.local/api/v3/users/primetheus/following{/other_user}\",\"gists_url\":\"https://github-test.local/api/v3/users/primetheus/gists{/gist_id}\",\"starred_url\":\"https://github-test.local/api/v3/users/primetheus/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://github-test.local/api/v3/users/primetheus/subscriptions\",\"organizations_url\":\"https://github-test.local/api/v3/users/primetheus/orgs\",\"repos_url\":\"https://github-test.local/api/v3/users/primetheus/repos\",\"events_url\":\"https://github-test.local/api/v3/users/primetheus/events{/privacy}\",\"received_events_url\":\"https://github-test.local/api/v3/users/primetheus/received_events\",\"type\":\"User\",\"site_admin\":true,\"ldap_dn\":\"CN=Jared Murrell,CN=Users,DC=github-test,DC=local\"}}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd525480.md",
+   "line": 676,
+   "whole_line": "    repository = {\"id\":3,\"name\":\"demo\",\"full_name\":\"GitHub-Demo/demo\",\"owner\":{\"login\":\"GitHub-Demo\",\"id\":6,\"avatar_url\":\"https://github-test.local/avatars/u/6?\",\"gravatar_id\":\"\",\"url\":\"https://github-test.local/api/v3/users/GitHub-Demo\",\"html_url\":\"https://github-test.local/GitHub-Demo\",\"followers_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/followers\",\"following_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/following{/other_user}\",\"gists_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/gists{/gist_id}\",\"starred_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/subscriptions\",\"organizations_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/orgs\",\"repos_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/repos\",\"events_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/events{/privacy}\",\"received_events_url\":\"https://github-test.local/api/v3/users/GitHub-Demo/received_events\",\"type\":\"Organization\",\"site_admin\":false},\"private\":false,\"html_url\":\"https://github-test.local/GitHub-Demo/demo\",\"fork\":false,\"url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo\",\"forks_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/forks\",\"keys_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/keys{/key_id}\",\"collaborators_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/collaborators{/collaborator}\",\"teams_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/teams\",\"hooks_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/hooks\",\"issue_events_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/issues/events{/number}\",\"events_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/events\",\"assignees_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/assignees{/user}\",\"branches_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/branches{/branch}\",\"tags_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/tags\",\"blobs_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/blobs{/sha}\",\"git_tags_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/tags{/sha}\",\"git_refs_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/refs{/sha}\",\"trees_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/trees{/sha}\",\"statuses_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/statuses/{sha}\",\"languages_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/languages\",\"stargazers_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/stargazers\",\"contributors_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/contributors\",\"subscribers_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/subscribers\",\"subscription_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/subscription\",\"commits_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/commits{/sha}\",\"git_commits_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/git/commits{/sha}\",\"comments_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/comments{/number}\",\"issue_comment_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/issues/comments{/number}\",\"contents_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/contents/{+path}\",\"compare_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/compare/{base}...{head}\",\"merges_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/merges\",\"archive_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/{archive_format}{/ref}\",\"downloads_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/downloads\",\"issues_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/issues{/number}\",\"pulls_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/pulls{/number}\",\"milestones_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/milestones{/number}\",\"notifications_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/notifications{?since,all,participating}\",\"labels_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/labels{/name}\",\"releases_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/releases{/id}\",\"deployments_url\":\"https://github-test.local/api/v3/repos/GitHub-Demo/demo/deployments\",\"created_at\":\"2018-01-19T20:04:24Z\",\"updated_at\":\"2018-01-19T20:04:24Z\",\"pushed_at\":\"2018-01-19T20:04:25Z\",\"git_url\":\"git://github-test.local/GitHub-Demo/demo.git\",\"ssh_url\":\"git@github-test.local:GitHub-Demo/demo.git\",\"clone_url\":\"https://github-test.local/GitHub-Demo/demo.git\",\"svn_url\":\"https://github-test.local/GitHub-Demo/demo\",\"size\":0,\"stargazers_count\":0,\"watchers_count\":0,\"has_issues\":true,\"has_projects\":true,\"has_downloads\":true,\"has_wiki\":true,\"has_pages\":false,\"forks_count\":0,\"archived\":false,\"open_issues_count\":0,\"forks\":0,\"open_issues\":0,\"watchers\":0,\"default_branch\":\"master\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "api/42f56881.sh",
+   "line": 22,
+   "whole_line": "# - export GITHUB_TOKEN=YourGitHubTokenWithAccess ",
+   "source": "creddata"
+  },
+  {
+   "file": "api/42f56881.sh",
+   "line": 40,
+   "value": "                     # Token to authenticate into GitHub",
+   "source": "creddata"
+  },
+  {
+   "file": "api/42f56881.sh",
+   "line": 77,
+   "whole_line": "      echo \"Please update scripts internal Variables! Or set env var: export GITHUB_TOKEN=YourToken\"",
+   "source": "creddata"
+  },
+  {
+   "file": "api/4f6e37c4.rb",
+   "line": 28,
+   "whole_line": "  kit.access_token = ACCESS_TOKEN",
+   "source": "creddata"
+  },
+  {
+   "file": "api/75ef6586.rb",
+   "line": 59,
+   "whole_line": "    temp_client = Octokit::Client.new(login: login, password: password)",
+   "source": "creddata"
+  },
+  {
+   "file": "api/7a7ec8ee.groovy",
+   "line": 43,
+   "value": "opt.t?opt.t:System.getenv(",
+   "source": "creddata"
+  },
+  {
+   "file": "api/afe0fff2.rb",
+   "line": 18,
+   "whole_line": "  kit.access_token = access_token",
+   "source": "creddata"
+  },
+  {
+   "file": "api/bfaf6417.md",
+   "line": 35,
+   "whole_line": "export OCTOKIT_ACCESS_TOKEN=00000000000000000000000     # Required if looking for activity in private repositories.",
+   "source": "creddata"
+  },
+  {
+   "file": "api/caf12130.sh",
+   "line": 12,
+   "whole_line": "token=$GITHUB_TOKEN",
+   "source": "creddata"
+  },
+  {
+   "file": "api/da984ce4.sh",
+   "line": 19,
+   "whole_line": "# - export GITHUB_TOKEN=YourGithubTokenWithAccessToBothOrgs",
+   "source": "creddata"
+  },
+  {
+   "file": "api/ec906265.md",
+   "line": 29,
+   "whole_line": "export OCTOKIT_ACCESS_TOKEN=00000000000000000000000",
+   "source": "creddata"
+  },
+  {
+   "file": "api/f9d99652.sh",
+   "line": 31,
+   "whole_line": "#/   $ export GITHUB_TOKEN=abcd1234efg567",
+   "source": "creddata"
+  },
+  {
+   "file": "api/server/4e5ee5b0.js",
+   "line": 123,
+   "value": "authStr",
+   "source": "creddata"
+  },
+  {
+   "file": "api/server/4e5ee5b0.js",
+   "line": 181,
+   "value": "authStr",
+   "source": "creddata"
+  },
+  {
+   "file": "api/server/4e5ee5b0.js",
+   "line": 272,
+   "whole_line": "      token = `token ${this.state.oAuthToken}`;",
+   "source": "creddata"
+  },
+  {
+   "file": "api/server/4e5ee5b0.js",
+   "line": 275,
+   "whole_line": "      token = `Bearer ${this.state.serverToken}`;",
+   "source": "creddata"
+  },
+  {
+   "file": "api/server/9e3ae54c.go",
+   "line": 30,
+   "whole_line": "var clientSecret = os.Getenv(\"GH_BASIC_SECRET_ID\")",
+   "source": "creddata"
+  },
+  {
+   "file": "api/server/build/4df7519b.rb",
+   "line": 26,
+   "whole_line": "# export GITHUB_PRIVATE_KEY=`awk '{printf \"%s\\\\n\", $0}' private-key.pem`",
+   "source": "creddata"
+  },
+  {
+   "file": "api/server/build/4df7519b.rb",
+   "line": 30,
+   "whole_line": "  WEBHOOK_SECRET = ENV['GITHUB_WEBHOOK_SECRET']",
+   "source": "creddata"
+  },
+  {
+   "file": "api/server/build/4df7519b.rb",
+   "line": 77,
+   "whole_line": "    @client ||= Octokit::Client.new(bearer_token: jwt)",
+   "source": "creddata"
+  },
+  {
+   "file": "api/server/build/4df7519b.rb",
+   "line": 141,
+   "whole_line": "      @bot_client = Octokit::Client.new(bearer_token: installation_token)",
+   "source": "creddata"
+  },
+  {
+   "file": "api/server/build/bdff7206.rb",
+   "line": 37,
+   "whole_line": "# export GITHUB_PRIVATE_KEY=`awk '{printf \"%s\\\\n\", $0}' private-key.pem`",
+   "source": "creddata"
+  },
+  {
+   "file": "api/server/build/bdff7206.rb",
+   "line": 41,
+   "whole_line": "  WEBHOOK_SECRET = ENV['GITHUB_WEBHOOK_SECRET']",
+   "source": "creddata"
+  },
+  {
+   "file": "api/server/build/bdff7206.rb",
+   "line": 87,
+   "whole_line": "    @client ||= Octokit::Client.new(bearer_token: jwt)",
+   "source": "creddata"
+  },
+  {
+   "file": "app/5357e046.rb",
+   "line": 24,
+   "whole_line": "  c.access_token = github_api_token",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e1307d22.md",
+   "line": 21,
+   "whole_line": "Set environment variables `GITHUB_APP_ID` and `GITHUB_APP_PRIVATE_KEY`. For example, run the following to store the private key to an environment variable: `export GITHUB_APP_PRIVATE_KEY=\"$(less private-key.pem)\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "client/657c501c.sh",
+   "line": 20,
+   "whole_line": "# $ GH_TOKEN=token",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/api/client/bb631147.js",
+   "line": 21,
+   "whole_line": "    this.credentials = token !== null && token.length > 0 ? \"token\" + ' ' + token : null;",
+   "source": "creddata"
+  },
+  {
+   "file": "python/2d0bafab.md",
+   "line": 81,
+   "whole_line": "API_KEY = '<github-api-key>'",
+   "source": "creddata"
+  },
+  {
+   "file": "script/4a2dc115",
+   "line": 125,
+   "whole_line": "for ext in sorted(result, key=lambda x: (result[x]['type'], -result[x]['size_large'])):",
+   "source": "creddata"
+  },
+  {
+   "file": "script/4a2dc115",
+   "line": 140,
+   "whole_line": "for ext in sorted(result, key=lambda x: (result[x]['type'], x)):",
+   "source": "creddata"
+  },
+  {
+   "file": "server/a726c6e6.rb",
+   "line": 6,
+   "whole_line": "$github_secret_token = ENV['SECRET_TOKEN']",
+   "source": "creddata"
+  },
+  {
+   "file": "server/a726c6e6.rb",
+   "line": 77,
+   "whole_line": "        access_token: $github_api_token",
+   "source": "creddata"
+  },
+  {
+   "file": "server/a726c6e6.rb",
+   "line": 88,
+   "whole_line": "      access_token:  $github_api_token",
+   "source": "creddata"
+  },
+  {
+   "file": "server/a726c6e6.rb",
+   "line": 97,
+   "whole_line": "  signature = 'sha1=' + OpenSSL::HMAC.hexdigest(OpenSSL::Digest.new('sha1'), ENV['SECRET_TOKEN'], payload_body)",
+   "source": "creddata"
+  },
+  {
+   "file": "server/app/595b6a9f.rb",
+   "line": 13,
+   "whole_line": "  $stderr.puts \"- GITHUB_APP_PRIVATE_KEY: GitHub App Private Key\"",
+   "source": "creddata"
+  },
+  {
+   "file": "server/app/595b6a9f.rb",
+   "line": 31,
+   "value": "//git.io/vQOLW",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/api/client/f29ed69d.scala",
+   "line": 18,
+   "whole_line": "  override var token: String = gitHubToken",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/api/rest/a013cfdb.scala",
+   "line": 13,
+   "whole_line": "  var token:String",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb5dd417.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJsN7eg/WO/VEY0QKD5vyZP65AtsTryRTp/7qPNDi31U"
+  },
+  {
+   "file": "_/eb5dd417.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "e86e40a007687fc2d62de2062382802f2d3f2cf70d457bb6d9df25201e527894"
+  },
+  {
+   "file": "_/eb5dd417.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/eb5dd417.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "test/d0abc6ff.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "bit_urlaub"
+  },
+  {
+   "file": "test/d0abc6ff.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "dialer90"
+  },
+  {
+   "file": "src/afd8164f.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "T45S67HO30RX8FFMPEE7TNDHU5"
+  },
+  {
+   "file": "src/afd8164f.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "0229f32c-802a-4e1e-bbdf-dc40463c2722"
+  },
+  {
+   "file": "src/afd8164f.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "src/afd8164f.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/1e6a66e7.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "110, 111, 45, 99, 97, 99, 104, 101, 44, 110, 111, 45, 115, 116, 111, 114, 101"
+  },
+  {
+   "file": "other/1e6a66e7.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "Q29udGVudC1UeXBl"
+  },
+  {
+   "file": "other/1e6a66e7.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "436f6e74656e742d54797065"
+  },
+  {
+   "file": "other/1e6a66e7.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "other/1e6a66e7.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "privacy@vantor-corp.de"
+  },
+  {
+   "file": "test/66ec3a80.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/brightloop/payments/prod"
+  },
+  {
+   "file": "test/66ec3a80.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "VAULT_AUTH_TOKEN"
+  },
+  {
+   "file": "test/66ec3a80.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Authorization"
+  },
+  {
+   "file": "test/66ec3a80.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/var/run/secrets/crm/token"
+  },
+  {
+   "file": "test/66ec3a80.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "pbkdf2_sha256"
+  },
+  {
+   "file": "test/66ec3a80.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "test/66ec3a80.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "665425068740-pxv0szztyytr7rnv42vbpncpr1ug6fxi.apps.googleusercontent.com"
+  },
+  {
+   "file": "test/66ec3a80.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2023-10-04T00:00:00Z"
+  },
+  {
+   "file": "test/66ec3a80.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "crm-tls"
+  },
+  {
+   "file": "test/66ec3a80.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZToxMzQ1MDpvZmZzZXQ6MzQ2"
+  },
+  {
+   "file": "other/a3ea9ff1.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "status.brightloop-corp.de"
+  },
+  {
+   "file": "other/a3ea9ff1.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "careers.brightloop-corp.de"
+  },
+  {
+   "file": "other/a3ea9ff1.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/a3ea9ff1.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "other/a3ea9ff1.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "other/a3ea9ff1.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "other/a3ea9ff1.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "billing@brightloop-corp.de"
+  },
+  {
+   "file": "other/a3ea9ff1.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "YXBwbGljYXRpb24vanNvbg=="
+  },
+  {
+   "file": "other/a3ea9ff1.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "6170706c69636174696f6e2f6a736f6e"
+  },
+  {
+   "file": "other/a3ea9ff1.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "s3.eu-central-1.amazonaws.com"
+  }
+ ]
+}

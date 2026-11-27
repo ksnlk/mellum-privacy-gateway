@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://vpn-gw.helix-corp.de/api/v3/invoices?page=2
+Authorization: Basic YWRtaW46QmlybmViw6RyMDAh
+Cookie: _ga=GA1.2.FT6WWDZ0SZSBNY6155O4BH4CVA; session_id=104bvqftkqmvovjqeyw4hbll4o1jezse
+X-Request-Id: fe1bc21e-83f5-4026-8d60-5cc0f13b6538
+
+### the docs example, safe to share
+GET https://auth0.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

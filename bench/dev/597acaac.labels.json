@@ -1,0 +1,866 @@
+{
+ "repo": "597acaac",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "src/814d80bf.php",
+   "line": 70,
+   "start": 36,
+   "end": 44,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ydtqyufj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/563438d8.php",
+   "line": 75,
+   "start": 35,
+   "end": 47,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "spxkrirytqwa"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/conf/fa8d6f0f.php",
+   "line": 79,
+   "start": 39,
+   "end": 79,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "yXvm7l1VUE6-BJF45sVnF5pLVNhvQo91C-lq768I"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/conf/fa8d6f0f.php",
+   "line": 81,
+   "start": 29,
+   "end": 69,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "XZD5RqAsqtpVailpYJ_-ppg6tevXiip7PFYzXjQB"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/conf/fa8d6f0f.php",
+   "line": 88,
+   "start": 29,
+   "end": 45,
+   "category": "Alibaba Access Key ID",
+   "mutation": "none",
+   "forms": [
+    "ZUGTbPSFWEQV16Bd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/conf/fa8d6f0f.php",
+   "line": 90,
+   "start": 31,
+   "end": 61,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "PalVjiiUca2sc2ZXNUVbnfahEoLFSL"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "_/1bc734fd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Herbsttiger18?"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/493a758e.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments.cer5w7.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/493a758e.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_IJbECfeiDeTQc7Ge97qPVlvLI9jGaYm0AVjz"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/ce052a64.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-cache-09.prod.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/ce052a64.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "159.221.80.83"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/ce052a64.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "n.weber@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/ce052a64.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-primary.vantor.cloud"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/ce052a64.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "unclip_pristine_nun_recurse79"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/8e5f01b3.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "33613130383730333430633863393133643133373432653965376634366463343333393563636632626639626362383336353564356237633962636237363537",
+    "3a10870340c8c913d13742e9e7f46dc43395ccf2bf9bcb83655d5b7c9bcb7657"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/f745ef94.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.etvqyDGxebcfECG-tdYwUdQiZmmTwTjkq9M7jJdw.1GBuQ8gzf9XgiL15a8KaKRqqokAb1c7TPnbKj9TSN-F"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/f745ef94.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.xwpi7pw8g46p.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "_/46210ed0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lea Schwarz"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/46210ed0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sarah49@gmail.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/46210ed0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 5614 4603"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/46210ed0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.24.55.181"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/46210ed0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "wired-defroster-adler"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "resource/111b28ae.php",
+   "line": 47,
+   "whole_line": "            load('{{ $url }}'+'&key='+key, $('#grid-collapse-'+name));",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/346d0a94.php",
+   "line": 12,
+   "whole_line": "                <option value=\"{{ $keyAsValue ? $key : $option}}\" {{ in_array($option, $value) ? 'selected' : '' }}>{{$option}}</option>",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/assets/9ee935d9.js",
+   "line": 257,
+   "whole_line": "            var key = 34665;",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/assets/9ee935d9.js",
+   "line": 266,
+   "whole_line": "            var key = 34853;",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/assets/9ee935d9.js",
+   "line": 276,
+   "whole_line": "            var key = 40965;",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/assets/9ee935d9.js",
+   "line": 447,
+   "whole_line": "                key = parseInt(key);",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/assets/9ee935d9.js",
+   "line": 451,
+   "value": "40965",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/assets/9ee935d9.js",
+   "line": 641,
+   "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/assets/9ee935d9.js",
+   "line": 680,
+   "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/e2c62d09.php",
+   "line": 50,
+   "whole_line": "        load('{{ $url }}'+'&key='+key);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/02465755.php",
+   "line": 50,
+   "whole_line": "            $key = Str::snake($this->column);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/02465755.php",
+   "line": 52,
+   "whole_line": "            $key = $this->column;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/15874844.php",
+   "line": 438,
+   "whole_line": "                $this->value[$key] = Arr::get($data, $this->columnShouldSnaked($column));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/15874844.php",
+   "line": 484,
+   "whole_line": "                $this->original[$key] = Arr::get($data, $column);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/15874844.php",
+   "line": 716,
+   "whole_line": "    public function setValidationMessages($key, array $messages): self",
+   "source": "creddata"
+  },
+  {
+   "file": "src/15874844.php",
+   "line": 838,
+   "whole_line": "    public function setErrorKey($key): self",
+   "source": "creddata"
+  },
+  {
+   "file": "src/15874844.php",
+   "line": 989,
+   "whole_line": "                $input[$column.$key] = Arr::get($input, $column);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/15874844.php",
+   "line": 1328,
+   "whole_line": "            if (($key = array_search($del, $this->elementClass, true)) !== false) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/15874844.php",
+   "line": 1376,
+   "whole_line": "        if (($key = array_search($className, $this->getElementClass())) !== false) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/33826058.php",
+   "line": 32,
+   "whole_line": "        $username = $this->ask('Please enter a username who needs to reset his password');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/33826058.php",
+   "line": 42,
+   "whole_line": "        $password = $this->secret('Please enter a password');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/33826058.php",
+   "line": 44,
+   "whole_line": "        if ($password !== $this->secret('Please confirm the password')) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/33826058.php",
+   "line": 49,
+   "whole_line": "        $user->password = Hash::make($password);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3d89098a.php",
+   "line": 50,
+   "whole_line": "        $this->key = $key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3d89098a.php",
+   "line": 129,
+   "whole_line": "                return \"$key:$val\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/407a6578.php",
+   "line": 54,
+   "whole_line": "        $this->key = $key ?: $this->key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/407a6578.php",
+   "line": 131,
+   "whole_line": "        $key = $this->key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/407a6578.php",
+   "line": 135,
+   "whole_line": "<a href=\"javascript:void(0);\" class=\"grid-row-remove {$hide}\" data-key=\"{$this->getAttribute($key)}\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/407a6578.php",
+   "line": 154,
+   "whole_line": "            $this->key = $model->getKeyName();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4acf9ced.php",
+   "line": 445,
+   "whole_line": "                $key = Arr::get($data, $relation->getRelated()->getKeyName());",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4bec9a5c.php",
+   "line": 29,
+   "whole_line": "        Object.assign(data, {_key:key});",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4bec9a5c.php",
+   "line": 40,
+   "whole_line": "        if (!$key = $request->get('_key')) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4bec9a5c.php",
+   "line": 47,
+   "whole_line": "            $key = explode(',', $key);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5178ed45.php",
+   "line": 58,
+   "whole_line": "            $key = $value;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5178ed45.php",
+   "line": 61,
+   "value": ".htmlentities($value, ENT_QUOTES, 'UTF-8').'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/55757c82.php",
+   "line": 21,
+   "whole_line": "            'password' => Hash::make('admin'),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/59ac7996.php",
+   "line": 178,
+   "whole_line": "        $key = $request->get('key');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5a6e72e3.php",
+   "line": 30,
+   "whole_line": "                $js = '//map.qq.com/api/js?v=2.exp&key='.env('TENCENT_MAP_API_KEY');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5a6e72e3.php",
+   "line": 33,
+   "whole_line": "                $js = '//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key='.env('GOOGLE_API_KEY');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5a6e72e3.php",
+   "line": 39,
+   "whole_line": "                $js = '//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key='.env('GOOGLE_API_KEY');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6f62438f.php",
+   "line": 225,
+   "whole_line": "            $key = sprintf('admin.extensions.%s', strtolower($name));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6f62438f.php",
+   "line": 227,
+   "whole_line": "            $key = sprintf('admin.extensions.%s.%s', strtolower($name), $key);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/814d80bf.php",
+   "line": 71,
+   "value": "ETL_SECRET_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92886d01.php",
+   "line": 573,
+   "whole_line": "        $key = $this->model->getKey();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3071f8b.php",
+   "line": 57,
+   "value": "__LA_KEY__",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3071f8b.php",
+   "line": 134,
+   "whole_line": "            $key = $this->model->getKey();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3071f8b.php",
+   "line": 138,
+   "whole_line": "            $key = $this->key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3071f8b.php",
+   "line": 149,
+   "value": "form.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3071f8b.php",
+   "line": 157,
+   "whole_line": "        $this->key = $key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3071f8b.php",
+   "line": 415,
+   "whole_line": "        $key = $this->getKey();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3071f8b.php",
+   "line": 419,
+   "value": "%s.%s.%s",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3071f8b.php",
+   "line": 424,
+   "value": "%s.%s.%s",
+   "source": "creddata"
+  },
+  {
+   "file": "src/build/6dcf9aa0.php",
+   "line": 21,
+   "whole_line": "    const PREVIOUS_URL_KEY = '_previous_';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/db4d016b.php",
+   "line": 34,
+   "whole_line": "        $password = Hash::make($this->secret('Please enter a password to login'));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/db4d016b.php",
+   "line": 51,
+   "whole_line": "        $user = new $userModel(compact('username', 'password', 'name'));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/f21d0a70.php",
+   "line": 351,
+   "whole_line": "            $key = str_replace(\"{$this->name}_\", '', $key);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/f21d0a70.php",
+   "line": 452,
+   "whole_line": "        $key = request(Scope::QUERY_NAME);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/f21d0a70.php",
+   "line": 574,
+   "value": "{$gridName}_{$pageKey}",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/88a98ece.php",
+   "line": 153,
+   "whole_line": "        $key = $this->form->getResourceId();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/a9e12018.php",
+   "line": 165,
+   "whole_line": "        $key = $this->panel->getParent()->getModel()->getKey();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/a9e12018.php",
+   "line": 177,
+   "whole_line": "        $key = $this->panel->getParent()->getModel()->getKey();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/c2d3be7b.php",
+   "line": 42,
+   "whole_line": "                        _token:'{$this->getToken()}'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/563438d8.php",
+   "line": 90,
+   "whole_line": "            ->submitForm('Login', ['username' => $this->user->username, 'password' => $password])",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/fa8d6f0f.php",
+   "line": 80,
+   "value": "/var/run/secrets/reports/token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/fa8d6f0f.php",
+   "line": 89,
+   "value": "dGhlIHNhbXBsZSBub25jZQ==",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/fa8d6f0f.php",
+   "line": 91,
+   "value": "689Y26SLCF4BPYSH9L8Y",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1bc734fd.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Recurse Apparatus 9.4"
+  },
+  {
+   "file": "_/1bc734fd.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Waring2021"
+  },
+  {
+   "file": "_/493a758e.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "1.7.3"
+  },
+  {
+   "file": "_/493a758e.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "0.11.34"
+  },
+  {
+   "file": "_/493a758e.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-a01EPCb4EY8mLBWbeVLSrMs0Y6nxS6QgT7hfvc+Rjll9vp2YZNr0HkkvhNl1pThv2QfZFOuHiJ3Cgj/IO7WiIA=="
+  },
+  {
+   "file": "_/493a758e.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "1.25.15"
+  },
+  {
+   "file": "_/493a758e.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-Q6eJnJkSpYJgP9SNBpOWED3jWW/AXVRqcTAh3PdUL+KZ/Nzc+LadhZU89TFjDuCaNCRSZkYXbCkH063ZVTiiRg=="
+  },
+  {
+   "file": "_/493a758e.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "3.2.44"
+  },
+  {
+   "file": "_/493a758e.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-bAxpT/QxCxsscyZRVk7WHTP9kQhAvWN70srFU5S5Y+rxL+reFkoEFs/M7Sbhw7wh8xa8eeI4YZiXX4sKC31R8w=="
+  },
+  {
+   "file": "src/ce052a64.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "blog.vantor-corp.de"
+  },
+  {
+   "file": "src/ce052a64.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.vantor-corp.de"
+  },
+  {
+   "file": "src/ce052a64.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "src/ce052a64.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "src/ce052a64.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "src/ce052a64.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "src/ce052a64.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "careers@vantor-corp.de"
+  },
+  {
+   "file": "src/ce052a64.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "R0VUL2hlYWx0aHo="
+  },
+  {
+   "file": "src/ce052a64.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "7b22616c67223a224853323536222c22747970223a224a5754227d"
+  },
+  {
+   "file": "src/ce052a64.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "_/8e5f01b3.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "c14034d908dd9c73db81436e592da5ae5950bb7d6d1d24e5d19ed06acb09b599"
+  },
+  {
+   "file": "test/f745ef94.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "5.17.24"
+  },
+  {
+   "file": "test/f745ef94.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "4964654fbe9fe1c0a2c90c74b001aa0aac745258"
+  },
+  {
+   "file": "test/f745ef94.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "Q4EK540GZU0QY66RD69MO728Q5"
+  },
+  {
+   "file": "test/f745ef94.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "test/f745ef94.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Y2CPV33ODF5USMZHKQZ4KG5739"
+  },
+  {
+   "file": "test/f745ef94.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "_/46210ed0.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "198.51.100.200"
+  },
+  {
+   "file": "_/46210ed0.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "0.14.5"
+  },
+  {
+   "file": "_/46210ed0.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:fe0896c797d2d77a83c7e79391e44213d37d2212724161f6b79809f9410ee1c4"
+  },
+  {
+   "file": "_/46210ed0.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/46210ed0.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  }
+ ]
+}

@@ -1,0 +1,3590 @@
+{
+ "repo": "91cfdb2b",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/7915b9b7.yml",
+   "line": 20,
+   "start": 19,
+   "end": 55,
+   "category": "Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "a647a66f-8478-0721-1445-6cbfee816b87"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/0dc7f5ca.cs",
+   "line": 415,
+   "start": 73,
+   "end": 109,
+   "category": "API:UUID",
+   "mutation": "none",
+   "forms": [
+    "49fe8ff4-4899-213b-c009-4317e5d09d1b"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "src/127da3aa.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "65393238613962383662333131313264656634363836316663663164653164643733383431363735653238393562373865363964383537303830623439653136",
+    "e928a9b86b31112def46861fcf1de1dd73841675e2895b78e69d857080b49e16"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "src/c410c04f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "imagine-folk-tobias8"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/c410c04f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-primary.acme.cloud"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/ece6bf80.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports.x48ff5.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/ece6bf80.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_jnYTUTpFnoN0q2Od0daTBmaCFn9DU6pYRM4N"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/1979214a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-primary.vantor.cloud"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/1979214a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "91.25.90.3"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/1979214a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "clara14@gmail.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/1979214a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.vantor-corp.de"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/1979214a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "kueche-informed-march95"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/cda13a63.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.paoxr09ftre5.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/cda13a63.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "kirsche-helpfu",
+    "kirsche-helpfully-prod",
+    "lly-prod"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/54da8ec1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Anna Weber"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/54da8ec1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "nico66@gmail.com"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/54da8ec1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 7559 4287"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/54da8ec1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sarah Hartmann"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/54da8ec1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "laura.koch [at] brightloop-corp [dot] de"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/54da8ec1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE16448548393430491218"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/54da8ec1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lukas Schwarz"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/54da8ec1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Gartenstra\u00dfe 96, 18527 Regensburg"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/54da8ec1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "159.58.99.22"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/a8ea1151.ps1",
+   "line": 9,
+   "whole_line": "#   Key = path to the directory from which relative paths within the artifact should be calculated",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 79,
+   "whole_line": "bcrypt.dll   |`PInvoke.BCrypt`  | [![NuGet](https://buildstats.info/nuget/PInvoke.BCrypt)](https://www.nuget.org/packages/PInvoke.BCrypt)|[Windows Cryptography API: Next Generation][CNG]",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 92,
+   "whole_line": "ncrypt.dll   |`PInvoke.NCrypt`  | [![NuGet](https://buildstats.info/nuget/PInvoke.NCrypt)](https://www.nuget.org/packages/PInvoke.NCrypt)|[Windows Cryptography API: Next Generation][CNG]",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 111,
+   "whole_line": "<add key=\"PInvoke\" value=\"https://pkgs.dev.azure.com/andrewarnott/OSS/_packaging/PublicCI/nuget/v3/index.json\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dbd51584.config",
+   "line": 4,
+   "whole_line": "    <add key=\"repositorypath\" value=\"packages\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dbd51584.config",
+   "line": 8,
+   "whole_line": "    <add key=\"nuget.org\" value=\"https://api.nuget.org/v3/index.json\" protocolVersion=\"3\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f3165886.yml",
+   "line": 81,
+   "whole_line": "              publishFeedCredentials: nuget.org",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1f2c7147.cs",
+   "line": 23,
+   "whole_line": "            KEYEVENTF_EXTENDED_KEY = 0x0001,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/23c9e33f.cs",
+   "line": 18,
+   "whole_line": "        public static readonly ACCESS_MASK KEY_CREATE_SUB_KEY = 0x0004;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2494729c.cs",
+   "line": 28,
+   "whole_line": "            public const string BCRYPT_PRIVATE_KEY_BLOB = \"PRIVATEBLOB\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3e572962.cs",
+   "line": 19,
+   "whole_line": "            PP_CHANGE_PASSWORD = 0x7,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/455373bf.cs",
+   "line": 40,
+   "whole_line": "        private const string api_ms_win_core_io_l1_1_1 = ApiSets.api_ms_win_core_io_l1_1_1;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/455373bf.cs",
+   "line": 41,
+   "whole_line": "        private const string api_ms_win_core_file_l1_2_0 = ApiSets.api_ms_win_core_file_l1_2_0;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/455373bf.cs",
+   "line": 42,
+   "whole_line": "        private const string api_ms_win_core_synch_l1_2_0 = ApiSets.api_ms_win_core_synch_l1_2_0;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/455373bf.cs",
+   "line": 46,
+   "whole_line": "        private const string api_ms_win_core_psapi_l1_1_0 = ApiSets.api_ms_win_core_psapi_l1_1_0;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/53f99a6d.cs",
+   "line": 62,
+   "whole_line": "            PKCS12_ALLOW_OVERWRITE_KEY = 0x4000,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/53f99a6d.cs",
+   "line": 69,
+   "whole_line": "            PKCS12_NO_PERSIST_KEY = 0x8000,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/87a24611.cs",
+   "line": 27,
+   "whole_line": "            ENHANCED_KEY = 0x0100,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8ec36b3b.cs",
+   "line": 95,
+   "whole_line": "            THREAD_SET_THREAD_TOKEN = 0x0080,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/914d6f6e.cs",
+   "line": 114,
+   "whole_line": "                UF_PASSWD_NOTREQD = 0x0020,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/914d6f6e.cs",
+   "line": 119,
+   "whole_line": "                UF_PASSWD_CANT_CHANGE = 0x0040,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/914d6f6e.cs",
+   "line": 124,
+   "whole_line": "                UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED = 0x0080,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/914d6f6e.cs",
+   "line": 129,
+   "whole_line": "                UF_DONT_EXPIRE_PASSWD = 0x10000,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/914d6f6e.cs",
+   "line": 159,
+   "whole_line": "                UF_PASSWORD_EXPIRED = 0x800000,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 20,
+   "value": "api-ms-win-core-localization-l1-2-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 25,
+   "value": "api-ms-win-core-localization-l1-2-1.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 40,
+   "whole_line": "        public const string api_ms_win_core_io_l1_1_1 = \"api-ms-win-core-io-l1-1-1.dll\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 45,
+   "whole_line": "        public const string api_ms_win_core_file_l1_2_0 = \"api-ms-win-core-file-l1-2-0.dll\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 50,
+   "whole_line": "        public const string api_ms_win_core_file_l1_2_1 = \"api-ms-win-core-file-l1-2-1.dll\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 55,
+   "whole_line": "        public const string api_ms_win_core_synch_l1_2_0 = \"api-ms-win-core-synch-l1-2-0.dll\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 60,
+   "value": "api-ms-win-core-sysinfo-l1-2-1.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 65,
+   "value": "api-ms-win-core-sysinfo-l1-2-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 70,
+   "value": "api-ms-win-core-handle-l1-1-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 75,
+   "value": "api-ms-win-core-console-l1-1-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 80,
+   "value": "api-ms-win-core-console-l2-1-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 85,
+   "value": "api-ms-win-security-base-l1-2-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 90,
+   "value": "api-ms-win-service-core-l1-1-1.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 105,
+   "value": "api-ms-win-service-winsvc-l1-2-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 110,
+   "whole_line": "        public const string api_ms_win_core_psapi_l1_1_0 = \"api-ms-win-core-psapi-l1-1-0.dll\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 115,
+   "value": "api-ms-win-core-namedpipe-l1-2-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 120,
+   "value": "api-ms-win-core-libraryloader-l1-1-1.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 125,
+   "value": "api-ms-win-core-errorhandling-l1-1-1.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 130,
+   "value": "api-ms-win-security-sddl-l1-1-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/e1a40b7e.cs",
+   "line": 135,
+   "value": "api-ms-win-core-registry-l1-1-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/ba760574.cs",
+   "line": 59,
+   "whole_line": "            ES_PASSWORD = 0x0020,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 26,
+   "whole_line": "            STATUS_LOCAL_USER_SESSION_KEY = 0x40000006,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 51,
+   "whole_line": "            STATUS_NULL_LM_PASSWORD = 0x4000000D,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 102,
+   "whole_line": "            STATUS_NO_IMPERSONATION_TOKEN = 0xC000005C,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 144,
+   "whole_line": "            STATUS_WRONG_PASSWORD = 0xC000006A,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 147,
+   "whole_line": "            STATUS_ILL_FORMED_PASSWORD = 0xC000006B,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 150,
+   "whole_line": "            STATUS_PASSWORD_RESTRICTION = 0xC000006C,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 165,
+   "whole_line": "            STATUS_PASSWORD_EXPIRED = 0xC0000071,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 198,
+   "whole_line": "            STATUS_NO_TOKEN = 0xC000007C,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 249,
+   "whole_line": "            STATUS_WRONG_PASSWORD_CORE = 0xC0000149,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 300,
+   "whole_line": "            STATUS_NO_USER_SESSION_KEY = 0xC0000202,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 351,
+   "whole_line": "            STATUS_PASSWORD_MUST_CHANGE = 0xC0000224,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 402,
+   "whole_line": "            STATUS_PWD_TOO_SHORT = 0xC000025A,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 405,
+   "whole_line": "            STATUS_PWD_TOO_RECENT = 0xC000025B,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 408,
+   "whole_line": "            STATUS_PWD_HISTORY_CONFLICT = 0xC000025C,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 459,
+   "whole_line": "            STATUS_PWD_TOO_LONG = 0xC000027A,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 510,
+   "whole_line": "            STATUS_SAM_NEED_BOOTKEY_PASSWORD = 0xC00002DF,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 561,
+   "whole_line": "            STATUS_PASSWORD_CHANGE_REQUIRED = 0xC000030C,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 576,
+   "whole_line": "            STATUS_NO_KERB_KEY = 0xC0000322,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 627,
+   "whole_line": "            STATUS_INVALID_TOKEN = 0xC0000465,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 678,
+   "whole_line": "            STATUS_BAD_KEY = 0xC000090A,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 684,
+   "whole_line": "            STATUS_NO_KEY = 0xC000090C,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 735,
+   "whole_line": "            STATUS_FVE_NO_AUTOUNLOCK_MASTER_KEY = 0xC0210024,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 786,
+   "whole_line": "            STATUS_RKF_DUPLICATE_KEY = 0xC0400002,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/c22dbc0b.cs",
+   "line": 798,
+   "whole_line": "            STATUS_RKF_ACTIVE_KEY = 0xC0400006,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 26,
+   "whole_line": "        ERROR_INVALID_PASSWORD = 0x00000056,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 77,
+   "whole_line": "        ERROR_INVALID_TOKEN = 0x0000013B,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 128,
+   "whole_line": "        ERROR_PWD_TOO_SHORT = 0x00000267,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 135,
+   "whole_line": "        ERROR_PWD_TOO_RECENT = 0x00000268,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 141,
+   "whole_line": "        ERROR_PWD_HISTORY_CONFLICT = 0x00000269,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 192,
+   "whole_line": "        ERROR_PWD_TOO_LONG = 0x00000291,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 243,
+   "whole_line": "        ERROR_NO_TOKEN = 0x000003F0,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 294,
+   "whole_line": "        ERROR_INVALID_PASSWORDNAME = 0x000004C0,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 345,
+   "whole_line": "        ERROR_LOCAL_USER_SESSION_KEY = 0x00000517,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 350,
+   "whole_line": "        ERROR_NULL_LM_PASSWORD = 0x00000518,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 375,
+   "whole_line": "        ERROR_NO_IMPERSONATION_TOKEN = 0x0000051D,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 426,
+   "whole_line": "        ERROR_WRONG_PASSWORD = 0x0000052B,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 431,
+   "whole_line": "        ERROR_ILL_FORMED_PASSWORD = 0x0000052C,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 436,
+   "whole_line": "        ERROR_PASSWORD_RESTRICTION = 0x0000052D,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 461,
+   "whole_line": "        ERROR_PASSWORD_EXPIRED = 0x00000532,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 512,
+   "whole_line": "        ERROR_NO_USER_SESSION_KEY = 0x00000572,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 563,
+   "whole_line": "        ERROR_PASSWORD_MUST_CHANGE = 0x00000773,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 614,
+   "whole_line": "        ERROR_PASSWORD_CHANGE_REQUIRED = 0x00000792,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 665,
+   "whole_line": "        ERROR_CONNECTED_OTHER_PASSWORD = 0x0000083C,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 716,
+   "whole_line": "        ERROR_IPSEC_IKE_NO_PRIVATE_KEY = 0x000035FC,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 741,
+   "whole_line": "        ERROR_IPSEC_IKE_NO_PUBLIC_KEY = 0x00003604,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 792,
+   "whole_line": "        NERR_InvalidAPI = 2100 + 42,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 843,
+   "whole_line": "        NERR_BadPassword = 2100 + 103,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 894,
+   "whole_line": "        NERR_PasswordExpired = 2100 + 142,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 897,
+   "whole_line": "        NERR_PasswordCantChange = 2100 + 143,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 900,
+   "whole_line": "        NERR_PasswordHistConflict = 2100 + 144,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 903,
+   "whole_line": "        NERR_PasswordTooShort = 2100 + 145,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 906,
+   "whole_line": "        NERR_PasswordTooRecent = 2100 + 146,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 957,
+   "whole_line": "        NERR_BadPasswordCore = 2100 + 303,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 1008,
+   "whole_line": "        NERR_PasswordMismatch = 2100 + 358,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 1059,
+   "whole_line": "        NERR_PasswordMustChange = 2100 + 601,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 1065,
+   "whole_line": "        NERR_PasswordTooLong = 2100 + 603,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 1068,
+   "whole_line": "        NERR_PasswordNotComplexEnough = 2100 + 604,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/e7cd115f.cs",
+   "line": 1071,
+   "whole_line": "        NERR_PasswordFilterError = 2100 + 605,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/723d4f3d.cs",
+   "line": 239,
+   "whole_line": "            CR_NO_SUCH_REGISTRY_KEY = 0x0000002E,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/de76051b.cs",
+   "line": 32,
+   "value": "SmartCardAssociatedECDHKey",
+   "source": "creddata"
+  },
+  {
+   "file": "src/de76051b.cs",
+   "line": 95,
+   "whole_line": "            public const string NCRYPT_KDF_SECRET_VALUE = \"KDFKeySecret\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/de76051b.cs",
+   "line": 103,
+   "whole_line": "            public const string NCRYPT_PCP_CHANGEPASSWORD_PROPERTY = \"PCP_CHANGEPASSWORD\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/de76051b.cs",
+   "line": 104,
+   "whole_line": "            public const string NCRYPT_PCP_PASSWORD_REQUIRED_PROPERTY = \"PCP_PASSWORD_REQUIRED\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/de76051b.cs",
+   "line": 106,
+   "whole_line": "            public const string NCRYPT_PCP_MIGRATIONPASSWORD_PROPERTY = \"PCP_MIGRATIONPASSWORD\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/de76051b.cs",
+   "line": 118,
+   "value": "PCP_TPM12_KEYATTESTATION",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dfcd28a8.cs",
+   "line": 86,
+   "whole_line": "            NCryptOpenKeyFlags flags = NCryptOpenKeyFlags.None)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dfcd28a8.cs",
+   "line": 140,
+   "whole_line": "        /// Imports a Cryptography API: Next Generation (CNG) key from a memory BLOB.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e7c7a686.cs",
+   "line": 48,
+   "whole_line": "            QS_KEY = 0x0001,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/efa39e6b.cs",
+   "line": 18,
+   "value": "BCrypt.AsymmetricKeyBlobTypes",
+   "source": "creddata"
+  },
+  {
+   "file": "src/efa39e6b.cs",
+   "line": 23,
+   "value": "CipherKeyBlob",
+   "source": "creddata"
+  },
+  {
+   "file": "src/efa39e6b.cs",
+   "line": 43,
+   "whole_line": "            /// <item>NCRYPTBUFFER_PKCS_SECRET: optional</item>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/efa39e6b.cs",
+   "line": 46,
+   "whole_line": "            public const string NCRYPT_PKCS8_PRIVATE_KEY_BLOB = \"PKCS8_PRIVATEKEY\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 26,
+   "whole_line": "PInvoke.HResult.FacilityCode.FACILITY_SETUPAPI = 983040 -> PInvoke.HResult.FacilityCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 77,
+   "whole_line": "PInvoke.NTSTATUS.Code.RPC_NT_BINDING_HAS_NO_AUTH = 3221356591 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 87,
+   "whole_line": "PInvoke.NTSTATUS.Code.RPC_NT_COOKIE_AUTH_FAILED = 3221356645 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 101,
+   "whole_line": "PInvoke.NTSTATUS.Code.RPC_NT_INVALID_AUTH_IDENTITY = 3221356594 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 152,
+   "whole_line": "PInvoke.NTSTATUS.Code.RPC_NT_UNKNOWN_AUTHN_LEVEL = 3221356593 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 153,
+   "whole_line": "PInvoke.NTSTATUS.Code.RPC_NT_UNKNOWN_AUTHN_SERVICE = 3221356592 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 154,
+   "whole_line": "PInvoke.NTSTATUS.Code.RPC_NT_UNKNOWN_AUTHN_TYPE = 3221356586 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 155,
+   "whole_line": "PInvoke.NTSTATUS.Code.RPC_NT_UNKNOWN_AUTHZ_SERVICE = 3221356595 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 158,
+   "whole_line": "PInvoke.NTSTATUS.Code.RPC_NT_UNSUPPORTED_AUTHN_LEVEL = 3221356627 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 209,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_APISET_NOT_HOSTED = 3221226625 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 210,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_APISET_NOT_PRESENT = 3221226626 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 225,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_AUTHENTICATION_FIREWALL_FAILED = 3221226515 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 226,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_AUTHIP_FAILURE = 3221266566 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 227,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_AUTH_TAG_MISMATCH = 3221266434 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 243,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_BAD_KEY = 3221227786 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 252,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_BAD_TOKEN_TYPE = 3221225640 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 265,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_BTH_ATT_INSUFFICIENT_AUTHENTICATION = 3225550853 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 266,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_BTH_ATT_INSUFFICIENT_AUTHORIZATION = 3225550856 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 268,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_BTH_ATT_INSUFFICIENT_ENCRYPTION_KEY_SIZE = 3225550860 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 286,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_CALLBACK_BYPASS = 3221226755 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 337,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_CSS_AUTHENTICATION_FAILURE = 3221226246 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 338,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_CSS_KEY_NOT_ESTABLISHED = 3221226248 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 339,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_CSS_KEY_NOT_PRESENT = 3221226247 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 390,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_FORMS_AUTH_REQUIRED = 3221227781 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 404,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_FVE_AUTH_INVALID_APPLICATION = 3223388187 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 405,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_FVE_AUTH_INVALID_CONFIG = 3223388188 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 418,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_FVE_FAILED_AUTHENTICATION = 3223388177 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 425,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_FVE_KEYFILE_INVALID = 3223388180 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 426,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_FVE_KEYFILE_NOT_FOUND = 3223388179 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 427,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_FVE_KEYFILE_NO_VMK = 3223388181 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 437,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_FVE_NO_AUTOUNLOCK_MASTER_KEY = 3223388196 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 456,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_FVE_TPM_SRK_AUTH_NOT_ZERO = 3223388183 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 507,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_ILL_FORMED_PASSWORD = 3221225579 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 558,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_INVALID_ID_AUTHORITY = 3221225604 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 609,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_INVALID_SUB_AUTHORITY = 3221225590 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 614,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_INVALID_TOKEN = 3221226597 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 635,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_IPSEC_AUTH_FIREWALL_DROP = 3224764424 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 640,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_IPSEC_DOSP_KEYMOD_NOT_ALLOWED = 3224797189 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 665,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_KEY_DELETED = 3221225852 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 666,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_KEY_HAS_CHILDREN = 3221225856 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 674,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_LOCAL_USER_SESSION_KEY = 1073741830 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 725,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_MUTUAL_AUTHENTICATION_FAILED = 3221226179 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 776,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_NETWORK_CREDENTIAL_CONFLICT = 3221225877 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 827,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_NO_IMPERSONATION_TOKEN = 3221225564 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 830,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_NO_KERB_KEY = 3221226274 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 831,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_NO_KEY = 3221227788 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 851,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_NO_SECRETS = 3221226353 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 866,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_NO_TOKEN = 3221225596 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 868,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_NO_TRUST_LSA_SECRET = 3221225866 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 872,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_NO_USER_KEYS = 3221226128 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 873,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_NO_USER_SESSION_KEY = 3221225986 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 877,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_NULL_LM_PASSWORD = 1073741837 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 917,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_PASSWORD_CHANGE_REQUIRED = 3221226252 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 918,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_PASSWORD_EXPIRED = 3221225585 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 919,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_PASSWORD_MUST_CHANGE = 3221226020 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 920,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_PASSWORD_RESTRICTION = 3221225580 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 922,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_PCP_AUTHENTICATION_FAILED = 3223920648 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 923,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_PCP_AUTHENTICATION_IGNORED = 3223920649 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 974,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_PWD_HISTORY_CONFLICT = 3221226076 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 975,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_PWD_TOO_LONG = 3221226106 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 976,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_PWD_TOO_RECENT = 3221226075 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 977,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_PWD_TOO_SHORT = 3221226074 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1028,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_RKF_ACTIVE_KEY = 3225419782 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1030,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_RKF_DUPLICATE_KEY = 3225419778 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1032,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_RKF_KEY_NOT_FOUND = 3225419777 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1049,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_SAM_NEED_BOOTKEY_FLOPPY = 3221226208 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1050,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_SAM_NEED_BOOTKEY_PASSWORD = 3221226207 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1053,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_SECRET_TOO_LONG = 3221225815 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1089,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_SMARTCARD_CARD_NOT_AUTHENTICATED = 3221226370 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1096,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_SMARTCARD_NO_KEYSET = 3221226374 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1097,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_SMARTCARD_NO_KEY_CONTAINER = 3221226372 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1148,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_SXS_KEY_NOT_FOUND = 3222601736 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1194,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_TOKEN_ALREADY_IN_USE = 3221225771 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1207,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_TOO_MANY_SECRETS = 3221225814 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1217,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_TPM_AUTH2FAIL = 3223912477 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1218,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_TPM_AUTHFAIL = 3223912449 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1219,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_TPM_AUTH_CONFLICT = 3223912507 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1228,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_TPM_BAD_KEY_PROPERTY = 3223912488 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1273,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_TPM_INVALID_AUTHHANDLE = 3223912482 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1276,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_TPM_INVALID_KEYHANDLE = 3223912460 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1277,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_TPM_INVALID_KEYUSAGE = 3223912484 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1283,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_TPM_KEYNOTFOUND = 3223912461 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1284,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_TPM_KEY_NOTSUPPORTED = 3223912506 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1285,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_TPM_KEY_OWNER_CONTROL = 3223912516 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1287,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_TPM_MA_AUTHORITY = 3223912543 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1338,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_UNSUPPORTED_PREAUTH = 3221226321 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1389,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_WRONG_CREDENTIAL_HANDLE = 3221226226 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1391,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_WRONG_PASSWORD = 3221225578 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1392,
+   "whole_line": "PInvoke.NTSTATUS.Code.STATUS_WRONG_PASSWORD_CORE = 3221225801 -> PInvoke.NTSTATUS.Code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1439,
+   "whole_line": "PInvoke.NTSTATUS.FacilityCode.FACILITY_RESUME_KEY_FILTER = 4194304 -> PInvoke.NTSTATUS.FacilityCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1490,
+   "whole_line": "PInvoke.Win32ErrorCode.DNS_ERROR_BAD_KEYMASTER = 9122 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1513,
+   "whole_line": "PInvoke.Win32ErrorCode.DNS_ERROR_INVALID_KEY_SIZE = 9106 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1521,
+   "whole_line": "PInvoke.Win32ErrorCode.DNS_ERROR_KEYMASTER_REQUIRED = 9101 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1549,
+   "whole_line": "PInvoke.Win32ErrorCode.DNS_ERROR_RCODE_BADKEY = 9017 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1554,
+   "whole_line": "PInvoke.Win32ErrorCode.DNS_ERROR_RCODE_NOTAUTH = 9009 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1605,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_API_UNAVAILABLE = 15841 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1621,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_AUTHIP_FAILURE = 1469 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1625,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_BADKEY = 1010 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1664,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_BAD_TOKEN_TYPE = 1349 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1715,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_CONNECTED_OTHER_PASSWORD = 2108 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1766,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_DS_AUTHORIZATION_FAILED = 8599 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1767,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_DS_AUTH_UNKNOWN = 8234 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1818,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_DS_DRA_SECRETS_DENIED = 8630 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1831,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_DS_DUP_MAPI_ID = 8380 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1858,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_DS_INAPPROPRIATE_AUTH = 8233 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1874,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_DS_KEY_NOT_UNIQUE = 8527 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1881,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_DS_MAPI_ID_NOT_AVAILABLE = 8632 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1932,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_DS_RESERVED_MAPI_ID = 8631 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1950,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_DS_STRONG_AUTH_REQUIRED = 8232 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 1960,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_DS_VALUE_KEY_NOT_UNIQUE = 8650 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2011,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_HOTKEY_ALREADY_REGISTERED = 1409 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2012,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_HOTKEY_NOT_REGISTERED = 1419 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2020,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_ILL_FORMED_PASSWORD = 1324 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2071,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_INVALID_ID_AUTHORITY = 1343 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2105,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_INVALID_PASSWORD = 86 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2106,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_INVALID_PASSWORDNAME = 1216 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2140,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_INVALID_SUB_AUTHORITY = 1335 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2163,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_IPSEC_AUTH_FIREWALL_DROP = 13917 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2171,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_IPSEC_IKE_AUTH_FAIL = 13801 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2173,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_IPSEC_IKE_CGA_AUTH_FAILED = 13892 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2205,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_IPSEC_IKE_NO_PRIVATE_KEY = 13820 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2206,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_IPSEC_IKE_NO_PUBLIC_KEY = 13828 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2233,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_IPSEC_MM_AUTH_EXISTS = 13010 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2234,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_IPSEC_MM_AUTH_IN_USE = 13012 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2235,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_IPSEC_MM_AUTH_NOT_FOUND = 13011 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2265,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_KEY_DELETED = 1018 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2266,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_KEY_HAS_CHILDREN = 1020 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2275,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_LOCAL_USER_SESSION_KEY = 1303 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2326,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_MUTUAL_AUTH_FAILED = 1397 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2356,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_NOT_AUTHENTICATED = 1244 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2400,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_NO_IMPERSONATION_TOKEN = 1309 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2423,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_NO_SECRETS = 8620 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2442,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_NO_TOKEN = 1008 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2444,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_NO_TRUST_LSA_SECRET = 1786 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2448,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_NO_USER_KEYS = 6006 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2449,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_NO_USER_SESSION_KEY = 1394 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2456,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_NULL_LM_PASSWORD = 1304 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2492,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_PASSWORD_CHANGE_REQUIRED = 1938 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2493,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_PASSWORD_EXPIRED = 1330 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2494,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_PASSWORD_MUST_CHANGE = 1907 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2495,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_PASSWORD_RESTRICTION = 1325 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2546,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_SECRET_TOO_LONG = 1382 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2597,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_SXS_KEY_NOT_FOUND = 14007 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2648,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_TOKEN_ALREADY_IN_USE = 1375 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2659,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_TOO_MANY_SECRETS = 1381 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2710,
+   "whole_line": "PInvoke.Win32ErrorCode.ERROR_WRONG_PASSWORD = 1323 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2717,
+   "whole_line": "PInvoke.Win32ErrorCode.FRS_ERR_AUTHENTICATION = 8008 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2721,
+   "whole_line": "PInvoke.Win32ErrorCode.FRS_ERR_INTERNAL_API = 8004 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2722,
+   "whole_line": "PInvoke.Win32ErrorCode.FRS_ERR_INVALID_API_SEQUENCE = 8001 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2723,
+   "whole_line": "PInvoke.Win32ErrorCode.FRS_ERR_PARENT_AUTHENTICATION = 8010 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2760,
+   "whole_line": "PInvoke.Win32ErrorCode.NERR_BadPassword = 2203 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2761,
+   "whole_line": "PInvoke.Win32ErrorCode.NERR_BadPasswordCore = 2403 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2812,
+   "whole_line": "PInvoke.Win32ErrorCode.NERR_InvalidAPI = 2142 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2863,
+   "whole_line": "PInvoke.Win32ErrorCode.NERR_PasswordCantChange = 2243 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2864,
+   "whole_line": "PInvoke.Win32ErrorCode.NERR_PasswordExpired = 2242 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2865,
+   "whole_line": "PInvoke.Win32ErrorCode.NERR_PasswordFilterError = 2705 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2866,
+   "whole_line": "PInvoke.Win32ErrorCode.NERR_PasswordHistConflict = 2244 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2867,
+   "whole_line": "PInvoke.Win32ErrorCode.NERR_PasswordMismatch = 2458 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2868,
+   "whole_line": "PInvoke.Win32ErrorCode.NERR_PasswordMustChange = 2701 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2869,
+   "whole_line": "PInvoke.Win32ErrorCode.NERR_PasswordNotComplexEnough = 2704 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2870,
+   "whole_line": "PInvoke.Win32ErrorCode.NERR_PasswordTooLong = 2703 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2871,
+   "whole_line": "PInvoke.Win32ErrorCode.NERR_PasswordTooRecent = 2246 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2872,
+   "whole_line": "PInvoke.Win32ErrorCode.NERR_PasswordTooShort = 2245 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2923,
+   "whole_line": "PInvoke.Win32ErrorCode.RPC_S_BINDING_HAS_NO_AUTH = 1746 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2932,
+   "whole_line": "PInvoke.Win32ErrorCode.RPC_S_COOKIE_AUTH_FAILED = 1833 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 2950,
+   "whole_line": "PInvoke.Win32ErrorCode.RPC_S_INVALID_AUTH_IDENTITY = 1749 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3000,
+   "whole_line": "PInvoke.Win32ErrorCode.RPC_S_UNKNOWN_AUTHN_LEVEL = 1748 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3001,
+   "whole_line": "PInvoke.Win32ErrorCode.RPC_S_UNKNOWN_AUTHN_SERVICE = 1747 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3002,
+   "whole_line": "PInvoke.Win32ErrorCode.RPC_S_UNKNOWN_AUTHN_TYPE = 1741 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3003,
+   "whole_line": "PInvoke.Win32ErrorCode.RPC_S_UNKNOWN_AUTHZ_SERVICE = 1750 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3006,
+   "whole_line": "PInvoke.Win32ErrorCode.RPC_S_UNSUPPORTED_AUTHN_LEVEL = 1821 -> PInvoke.Win32ErrorCode",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3057,
+   "value": "api-ms-win-core-console-l1-1-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3058,
+   "value": "api-ms-win-core-console-l2-1-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3059,
+   "whole_line": "const PInvoke.ApiSets.api_ms_win_core_file_l1_2_0 = \"api-ms-win-core-file-l1-2-0.dll\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3060,
+   "whole_line": "const PInvoke.ApiSets.api_ms_win_core_file_l1_2_1 = \"api-ms-win-core-file-l1-2-1.dll\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3061,
+   "value": "api-ms-win-core-handle-l1-1-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3062,
+   "whole_line": "const PInvoke.ApiSets.api_ms_win_core_io_l1_1_1 = \"api-ms-win-core-io-l1-1-1.dll\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3063,
+   "value": "api-ms-win-core-libraryloader-l1-1-1.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3064,
+   "value": "api-ms-win-core-localization-l1-2-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3065,
+   "value": "api-ms-win-core-localization-l1-2-1.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3066,
+   "value": "api-ms-win-core-namedpipe-l1-2-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3069,
+   "whole_line": "const PInvoke.ApiSets.api_ms_win_core_psapi_l1_1_0 = \"api-ms-win-core-psapi-l1-1-0.dll\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3070,
+   "whole_line": "const PInvoke.ApiSets.api_ms_win_core_synch_l1_2_0 = \"api-ms-win-core-synch-l1-2-0.dll\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3071,
+   "value": "api-ms-win-core-sysinfo-l1-2-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3072,
+   "value": "api-ms-win-core-sysinfo-l1-2-1.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3073,
+   "value": "api-ms-win-security-base-l1-2-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3074,
+   "value": "api-ms-win-service-core-l1-1-1.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3077,
+   "value": "api-ms-win-service-winsvc-l1-2-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3107,
+   "value": "api-ms-win-core-errorhandling-l1-1-1.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3108,
+   "value": "api-ms-win-core-registry-l1-1-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/2307aa34.txt",
+   "line": 3109,
+   "value": "api-ms-win-security-sddl-l1-1-0.dll",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 6,
+   "whole_line": "PInvoke.AdvApi32.CryptGetProvParamQuery.PP_CHANGE_PASSWORD = 7 -> PInvoke.AdvApi32.CryptGetProvParamQuery",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 65,
+   "whole_line": "PInvoke.AdvApi32.RegNotifyFilter.REG_NOTIFY_THREAD_AGNOSTIC = 268435456 -> PInvoke.AdvApi32.RegNotifyFilter",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 73,
+   "whole_line": "PInvoke.AdvApi32.SECURITY_INFORMATION.BACKUP_SECURITY_INFORMATION = 65536 -> PInvoke.AdvApi32.SECURITY_INFORMATION",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 79,
+   "whole_line": "PInvoke.AdvApi32.SECURITY_INFORMATION.PROTECTED_DACL_SECURITY_INFORMATION = 2147483648 -> PInvoke.AdvApi32.SECURITY_INFORMATION",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 80,
+   "whole_line": "PInvoke.AdvApi32.SECURITY_INFORMATION.PROTECTED_SACL_SECURITY_INFORMATION = 1073741824 -> PInvoke.AdvApi32.SECURITY_INFORMATION",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 83,
+   "whole_line": "PInvoke.AdvApi32.SECURITY_INFORMATION.UNPROTECTED_DACL_SECURITY_INFORMATION = 536870912 -> PInvoke.AdvApi32.SECURITY_INFORMATION",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 84,
+   "whole_line": "PInvoke.AdvApi32.SECURITY_INFORMATION.UNPROTECTED_SACL_SECURITY_INFORMATION = 268435456 -> PInvoke.AdvApi32.SECURITY_INFORMATION",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 325,
+   "whole_line": "const PInvoke.AdvApi32.SERVICE_NO_CHANGE = 4294967295 -> uint",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 326,
+   "whole_line": "const PInvoke.AdvApi32.ServiceAccess.SERVICE_ALL_ACCESS = 983551 -> uint",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 336,
+   "whole_line": "const PInvoke.AdvApi32.ServiceManagerAccess.SC_MANAGER_ALL_ACCESS = 983103 -> uint",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 347,
+   "whole_line": "const PInvoke.AdvApi32.TokenAccessRights.TOKEN_ALL_ACCESS = 983295 -> uint",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 350,
+   "whole_line": "const PInvoke.AdvApi32.TokenAccessRights.TOKEN_EXECUTE = 131076 -> uint",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 354,
+   "whole_line": "const PInvoke.AdvApi32.TokenAccessRights.TOKEN_READ = 131080 -> uint",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 355,
+   "whole_line": "const PInvoke.AdvApi32.TokenAccessRights.TOKEN_WRITE = 131296 -> uint",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 444,
+   "whole_line": "PInvoke.AdvApi32.ServiceErrorControl.SERVICE_NO_CHANGE = 4294967295 -> PInvoke.AdvApi32.ServiceErrorControl",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 445,
+   "whole_line": "PInvoke.AdvApi32.ServiceStartType.SERVICE_NO_CHANGE = 4294967295 -> PInvoke.AdvApi32.ServiceStartType",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 446,
+   "whole_line": "PInvoke.AdvApi32.ServiceType.SERVICE_NO_CHANGE = 4294967295 -> PInvoke.AdvApi32.ServiceType",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 448,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_3DES = 26115 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 449,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_3DES_112 = 26121 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 450,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_AES = 26129 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 451,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_AES_128 = 26126 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 452,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_AES_192 = 26127 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 453,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_AES_256 = 26128 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 454,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_AGREEDKEY_ANY = 43523 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 455,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_CYLINK_MEK = 26124 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 456,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_DES = 26113 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 457,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_DESX = 26116 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 458,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_DH_EPHEM = 43522 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 459,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_DH_SF = 43521 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 460,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_DSS_SIGN = 8704 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 461,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_ECDH = 43525 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 462,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_ECDH_EPHEM = 44550 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 463,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_ECDSA = 8707 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 464,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_ECMQV = 40961 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 465,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_HASH_REPLACE_OWF = 32779 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 466,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_HMAC = 32777 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 467,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_HUGHES_MD5 = 40963 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 468,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_KEA_KEYX = 43524 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 469,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_MAC = 32773 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 470,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_MD2 = 32769 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 471,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_MD4 = 32770 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 472,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_MD5 = 32771 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 473,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_NO_SIGN = 8192 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 474,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_NULLCIPHER = 24576 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 475,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_PCT1_MASTER = 19460 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 476,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_RC2 = 26114 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 477,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_RC4 = 26625 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 478,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_RC5 = 26125 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 479,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_RSA_KEYX = 41984 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 480,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_RSA_SIGN = 9216 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 481,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_SCHANNEL_ENC_KEY = 19463 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 482,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_SCHANNEL_MAC_KEY = 19459 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 483,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_SCHANNEL_MASTER_HASH = 19458 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 484,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_SEAL = 26626 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 485,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_SHA = 32772 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 486,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_SHA1 = 32772 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 487,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_SHA_256 = 32780 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 488,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_SHA_384 = 32781 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 489,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_SHA_512 = 32782 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 490,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_SKIPJACK = 26122 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 491,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_SSL2_MASTER = 19461 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 492,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_SSL3_MASTER = 19457 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 493,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_SSL3_SHAMD5 = 32776 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 494,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_TEK = 26123 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 495,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_THIRDPARTY_CIPHER = 28672 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 496,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_THIRDPARTY_HASH = 36864 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 497,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_THIRDPARTY_KEY_EXCHANGE = 45056 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 498,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_THIRDPARTY_SIGNATURE = 12288 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 499,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_TLS1PRF = 32778 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 500,
+   "whole_line": "PInvoke.AdvApi32.ALG_ID.CALG_TLS1_MASTER = 19462 -> PInvoke.AdvApi32.ALG_ID",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/488efedb.txt",
+   "line": 507,
+   "whole_line": "PInvoke.AdvApi32.CryptAcquireContextFlags.CRYPT_VERIFYCONTEXT = 4026531840 -> PInvoke.AdvApi32.CryptAcquireContextFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 9,
+   "whole_line": "PInvoke.NCrypt.AlgorithmOperations.NCRYPT_SECRET_AGREEMENT_OPERATION = 8 -> PInvoke.NCrypt.AlgorithmOperations",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 17,
+   "whole_line": "PInvoke.NCrypt.BufferType.KDF_HMAC_KEY = 3 -> PInvoke.NCrypt.BufferType",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 23,
+   "whole_line": "PInvoke.NCrypt.BufferType.KDF_SECRET_APPEND = 2 -> PInvoke.NCrypt.BufferType",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 24,
+   "whole_line": "PInvoke.NCrypt.BufferType.KDF_SECRET_HANDLE = 6 -> PInvoke.NCrypt.BufferType",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 25,
+   "whole_line": "PInvoke.NCrypt.BufferType.KDF_SECRET_PREPEND = 1 -> PInvoke.NCrypt.BufferType",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 38,
+   "whole_line": "PInvoke.NCrypt.BufferType.NCRYPTBUFFER_PKCS_SECRET = 46 -> PInvoke.NCrypt.BufferType",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 46,
+   "whole_line": "PInvoke.NCrypt.InterfaceIdentifiers.NCRYPT_KEY_STORAGE_INTERFACE = 65537 -> PInvoke.NCrypt.InterfaceIdentifiers",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 49,
+   "whole_line": "PInvoke.NCrypt.InterfaceIdentifiers.NCRYPT_SECRET_AGREEMENT_INTERFACE = 4 -> PInvoke.NCrypt.InterfaceIdentifiers",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 70,
+   "whole_line": "PInvoke.NCrypt.KeyStoragePropertyValues.NCRYPT_KEY_USAGE_PROPERTY.NCRYPT_ALLOW_ALL_USAGES = 16777215 -> PInvoke.NCrypt.KeyStoragePropertyValues.NCRYPT_KEY_USAGE_PROPERTY",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 82,
+   "whole_line": "PInvoke.NCrypt.NCRYPT_KEY_BLOB_HEADER.MagicNumber.NCRYPT_CIPHER_KEY_BLOB_MAGIC = 1380470851 -> PInvoke.NCrypt.NCRYPT_KEY_BLOB_HEADER.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 83,
+   "whole_line": "PInvoke.NCrypt.NCRYPT_KEY_BLOB_HEADER.MagicNumber.NCRYPT_PROTECTED_KEY_BLOB_MAGIC = 1263817296 -> PInvoke.NCrypt.NCRYPT_KEY_BLOB_HEADER.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 127,
+   "whole_line": "PInvoke.NCrypt.NCryptDeriveKeyFlags.KDF_USE_SECRET_AS_HMAC_KEY_FLAG = 1 -> PInvoke.NCrypt.NCryptDeriveKeyFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 182,
+   "whole_line": "PInvoke.NCrypt.NCryptOpenKeyFlags.NCRYPT_MACHINE_KEY_FLAG = 32 -> PInvoke.NCrypt.NCryptOpenKeyFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 183,
+   "whole_line": "PInvoke.NCrypt.NCryptOpenKeyFlags.NCRYPT_SILENT_FLAG = 64 -> PInvoke.NCrypt.NCryptOpenKeyFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 184,
+   "whole_line": "PInvoke.NCrypt.NCryptOpenKeyFlags.None = 0 -> PInvoke.NCrypt.NCryptOpenKeyFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 198,
+   "whole_line": "PInvoke.NCrypt.NCryptSecretAgreementFlags.NCRYPT_SILENT_FLAG = 64 -> PInvoke.NCrypt.NCryptSecretAgreementFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 199,
+   "whole_line": "PInvoke.NCrypt.NCryptSecretAgreementFlags.None = 0 -> PInvoke.NCrypt.NCryptSecretAgreementFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 216,
+   "whole_line": "PInvoke.NCrypt.SECURITY_STATUS.NTE_AUTHENTICATION_IGNORED = 2148073521 -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 222,
+   "whole_line": "PInvoke.NCrypt.SECURITY_STATUS.NTE_BAD_KEY = 2148073475 -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 223,
+   "whole_line": "PInvoke.NCrypt.SECURITY_STATUS.NTE_BAD_KEYSET = 2148073494 -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 224,
+   "whole_line": "PInvoke.NCrypt.SECURITY_STATUS.NTE_BAD_KEYSET_PARAM = 2148073503 -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 225,
+   "whole_line": "PInvoke.NCrypt.SECURITY_STATUS.NTE_BAD_KEY_STATE = 2148073483 -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 229,
+   "whole_line": "PInvoke.NCrypt.SECURITY_STATUS.NTE_BAD_PUBLIC_KEY = 2148073493 -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 245,
+   "whole_line": "PInvoke.NCrypt.SECURITY_STATUS.NTE_INCORRECT_PASSWORD = 2148073523 -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 249,
+   "whole_line": "PInvoke.NCrypt.SECURITY_STATUS.NTE_KEYSET_ENTRY_BAD = 2148073498 -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 250,
+   "whole_line": "PInvoke.NCrypt.SECURITY_STATUS.NTE_KEYSET_NOT_DEF = 2148073497 -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 253,
+   "whole_line": "PInvoke.NCrypt.SECURITY_STATUS.NTE_NO_KEY = 2148073485 -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 266,
+   "whole_line": "PInvoke.NCrypt.SECURITY_STATUS.NTE_TOKEN_KEYSET_STORAGE_FULL = 2148073507 -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 287,
+   "value": "CipherKeyBlob",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 290,
+   "whole_line": "const PInvoke.NCrypt.AsymmetricKeyBlobTypes.NCRYPT_PKCS8_PRIVATE_KEY_BLOB = \"PKCS8_PRIVATEKEY\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 294,
+   "whole_line": "const PInvoke.NCrypt.KeyStoragePropertyIdentifiers.NCRYPT_ASSOCIATED_ECDH_KEY = \"SmartCardAssociatedECDHKey\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 302,
+   "whole_line": "const PInvoke.NCrypt.KeyStoragePropertyIdentifiers.NCRYPT_KDF_SECRET_VALUE = \"KDFKeySecret\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 311,
+   "whole_line": "const PInvoke.NCrypt.KeyStoragePropertyIdentifiers.NCRYPT_PCP_CHANGEPASSWORD_PROPERTY = \"PCP_CHANGEPASSWORD\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 316,
+   "value": "PCP_TPM12_KEYATTESTATION",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 318,
+   "whole_line": "const PInvoke.NCrypt.KeyStoragePropertyIdentifiers.NCRYPT_PCP_MIGRATIONPASSWORD_PROPERTY = \"PCP_MIGRATIONPASSWORD\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 319,
+   "whole_line": "const PInvoke.NCrypt.KeyStoragePropertyIdentifiers.NCRYPT_PCP_PASSWORD_REQUIRED_PROPERTY = \"PCP_PASSWORD_REQUIRED\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 334,
+   "value": "SmartCardPinPrompt",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 359,
+   "whole_line": "const PInvoke.NCrypt.KeyStoragePropertyValues.NCRYPT_MAX_PROPERTY_DATA = 1048576 -> int",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 379,
+   "whole_line": "static PInvoke.NCrypt.NCryptDeriveKey(PInvoke.NCrypt.SafeSecretHandle hSharedSecret, string pwszKDF, PInvoke.NCrypt.NCryptBufferDesc* pParameterList, byte[] pbDerivedKey, int cbDerivedKey, out int pcbResult, PInvoke.NCrypt.NCryptDeriveKeyFlags dwFlags = PInvoke.NCrypt.NCryptDeriveKeyFlags.None) -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 380,
+   "whole_line": "static PInvoke.NCrypt.NCryptDeriveKey(PInvoke.NCrypt.SafeSecretHandle hSharedSecret, string pwszKDF, System.IntPtr pParameterList, System.IntPtr pbDerivedKey, int cbDerivedKey, out int pcbResult, PInvoke.NCrypt.NCryptDeriveKeyFlags dwFlags = PInvoke.NCrypt.NCryptDeriveKeyFlags.None) -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 381,
+   "whole_line": "static PInvoke.NCrypt.NCryptDeriveKey(PInvoke.NCrypt.SafeSecretHandle hSharedSecret, string pwszKDF, System.IntPtr pParameterList, byte[] pbDerivedKey, int cbDerivedKey, out int pcbResult, PInvoke.NCrypt.NCryptDeriveKeyFlags dwFlags = PInvoke.NCrypt.NCryptDeriveKeyFlags.None) -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 405,
+   "whole_line": "static PInvoke.NCrypt.NCryptOpenKey(PInvoke.NCrypt.SafeProviderHandle provider, string keyName, PInvoke.NCrypt.LegacyKeySpec legacyKeySpec, PInvoke.NCrypt.NCryptOpenKeyFlags flags = PInvoke.NCrypt.NCryptOpenKeyFlags.None) -> PInvoke.NCrypt.SafeKeyHandle",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 426,
+   "whole_line": "static extern PInvoke.NCrypt.NCryptDeriveKey(PInvoke.NCrypt.SafeSecretHandle hSharedSecret, string pwszKDF, PInvoke.NCrypt.NCryptBufferDesc* pParameterList, byte* pbDerivedKey, int cbDerivedKey, out int pcbResult, PInvoke.NCrypt.NCryptDeriveKeyFlags dwFlags = PInvoke.NCrypt.NCryptDeriveKeyFlags.None) -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 439,
+   "whole_line": "static extern PInvoke.NCrypt.NCryptOpenKey(PInvoke.NCrypt.SafeProviderHandle hProvider, out PInvoke.NCrypt.SafeKeyHandle phKey, string pszKeyName, PInvoke.NCrypt.LegacyKeySpec dwLegacyKeySpec, PInvoke.NCrypt.NCryptOpenKeyFlags dwFlags = PInvoke.NCrypt.NCryptOpenKeyFlags.None) -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/56e60b5c.txt",
+   "line": 441,
+   "whole_line": "static extern PInvoke.NCrypt.NCryptSecretAgreement(PInvoke.NCrypt.SafeKeyHandle hPrivKey, PInvoke.NCrypt.SafeKeyHandle hPubKey, out PInvoke.NCrypt.SafeSecretHandle phSecret, PInvoke.NCrypt.NCryptSecretAgreementFlags dwFlags = PInvoke.NCrypt.NCryptSecretAgreementFlags.None) -> PInvoke.NCrypt.SECURITY_STATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/d8c5b558.txt",
+   "line": 26,
+   "whole_line": "PInvoke.Kernel32.CreateProcessFlags.CREATE_PRESERVE_CODE_AUTHZ_LEVEL = 33554432 -> PInvoke.Kernel32.CreateProcessFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 9,
+   "whole_line": "PInvoke.BCrypt.AlgorithmOperations.BCRYPT_SECRET_AGREEMENT_OPERATION = 8 -> PInvoke.BCrypt.AlgorithmOperations",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 59,
+   "whole_line": "PInvoke.BCrypt.BCRYPT_DH_KEY_BLOB.MagicNumber.BCRYPT_DH_PRIVATE_MAGIC = 1448101956 -> PInvoke.BCrypt.BCRYPT_DH_KEY_BLOB.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 60,
+   "value": "1112557636",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 67,
+   "whole_line": "PInvoke.BCrypt.BCRYPT_DSA_KEY_BLOB.MagicNumber.BCRYPT_DSA_PRIVATE_MAGIC = 1448104772 -> PInvoke.BCrypt.BCRYPT_DSA_KEY_BLOB.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 68,
+   "value": "1112560452",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 77,
+   "whole_line": "PInvoke.BCrypt.BCRYPT_DSA_KEY_BLOB_V2.MagicNumber.BCRYPT_DSA_PRIVATE_MAGIC_V2 = 844517444 -> PInvoke.BCrypt.BCRYPT_DSA_KEY_BLOB_V2.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 78,
+   "value": "843206724",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 88,
+   "whole_line": "PInvoke.BCrypt.BCRYPT_ECCKEY_BLOB.MagicNumber.BCRYPT_ECDH_PRIVATE_P256_MAGIC = 843793221 -> PInvoke.BCrypt.BCRYPT_ECCKEY_BLOB.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 89,
+   "whole_line": "PInvoke.BCrypt.BCRYPT_ECCKEY_BLOB.MagicNumber.BCRYPT_ECDH_PRIVATE_P384_MAGIC = 877347653 -> PInvoke.BCrypt.BCRYPT_ECCKEY_BLOB.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 90,
+   "whole_line": "PInvoke.BCrypt.BCRYPT_ECCKEY_BLOB.MagicNumber.BCRYPT_ECDH_PRIVATE_P521_MAGIC = 910902085 -> PInvoke.BCrypt.BCRYPT_ECCKEY_BLOB.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 91,
+   "value": "827016005",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 92,
+   "value": "860570437",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 93,
+   "value": "894124869",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 94,
+   "whole_line": "PInvoke.BCrypt.BCRYPT_ECCKEY_BLOB.MagicNumber.BCRYPT_ECDSA_PRIVATE_P256_MAGIC = 844317509 -> PInvoke.BCrypt.BCRYPT_ECCKEY_BLOB.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 95,
+   "whole_line": "PInvoke.BCrypt.BCRYPT_ECCKEY_BLOB.MagicNumber.BCRYPT_ECDSA_PRIVATE_P384_MAGIC = 877871941 -> PInvoke.BCrypt.BCRYPT_ECCKEY_BLOB.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 96,
+   "whole_line": "PInvoke.BCrypt.BCRYPT_ECCKEY_BLOB.MagicNumber.BCRYPT_ECDSA_PRIVATE_P521_MAGIC = 911426373 -> PInvoke.BCrypt.BCRYPT_ECCKEY_BLOB.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 97,
+   "value": "827540293",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 98,
+   "value": "861094725",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 99,
+   "value": "894649157",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 108,
+   "whole_line": "PInvoke.BCrypt.BCRYPT_KEY_DATA_BLOB_HEADER.MagicNumber.BCRYPT_KEY_DATA_BLOB_MAGIC = 1296188491 -> PInvoke.BCrypt.BCRYPT_KEY_DATA_BLOB_HEADER.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 143,
+   "whole_line": "PInvoke.BCrypt.BCRYPT_RSAKEY_BLOB.MagicNumber.BCRYPT_RSAFULLPRIVATE_MAGIC = 859919186 -> PInvoke.BCrypt.BCRYPT_RSAKEY_BLOB.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 144,
+   "whole_line": "PInvoke.BCrypt.BCRYPT_RSAKEY_BLOB.MagicNumber.BCRYPT_RSAPRIVATE_MAGIC = 843141970 -> PInvoke.BCrypt.BCRYPT_RSAKEY_BLOB.MagicNumber",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 145,
+   "value": "826364754",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 170,
+   "whole_line": "PInvoke.BCrypt.BCryptDeriveKeyFlags.KDF_USE_SECRET_AS_HMAC_KEY_FLAG = 1 -> PInvoke.BCrypt.BCryptDeriveKeyFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 208,
+   "whole_line": "PInvoke.BCrypt.BCryptSecretAgreementFlags.None = 0 -> PInvoke.BCrypt.BCryptSecretAgreementFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 219,
+   "whole_line": "PInvoke.BCrypt.BufferType.KDF_HMAC_KEY = 3 -> PInvoke.BCrypt.BufferType",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 225,
+   "whole_line": "PInvoke.BCrypt.BufferType.KDF_SECRET_APPEND = 2 -> PInvoke.BCrypt.BufferType",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 226,
+   "whole_line": "PInvoke.BCrypt.BufferType.KDF_SECRET_HANDLE = 6 -> PInvoke.BCrypt.BufferType",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 227,
+   "whole_line": "PInvoke.BCrypt.BufferType.KDF_SECRET_PREPEND = 1 -> PInvoke.BCrypt.BufferType",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 245,
+   "whole_line": "PInvoke.BCrypt.EccKeyBlobMagicNumbers.BCRYPT_ECDH_PRIVATE_P256_MAGIC = 843793221 -> PInvoke.BCrypt.EccKeyBlobMagicNumbers",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 246,
+   "whole_line": "PInvoke.BCrypt.EccKeyBlobMagicNumbers.BCRYPT_ECDH_PRIVATE_P384_MAGIC = 877347653 -> PInvoke.BCrypt.EccKeyBlobMagicNumbers",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 247,
+   "whole_line": "PInvoke.BCrypt.EccKeyBlobMagicNumbers.BCRYPT_ECDH_PRIVATE_P521_MAGIC = 910902085 -> PInvoke.BCrypt.EccKeyBlobMagicNumbers",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 248,
+   "value": "827016005",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 249,
+   "value": "860570437",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 250,
+   "value": "894124869",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 251,
+   "whole_line": "PInvoke.BCrypt.EccKeyBlobMagicNumbers.BCRYPT_ECDSA_PRIVATE_P256_MAGIC = 844317509 -> PInvoke.BCrypt.EccKeyBlobMagicNumbers",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 252,
+   "whole_line": "PInvoke.BCrypt.EccKeyBlobMagicNumbers.BCRYPT_ECDSA_PRIVATE_P384_MAGIC = 877871941 -> PInvoke.BCrypt.EccKeyBlobMagicNumbers",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 253,
+   "whole_line": "PInvoke.BCrypt.EccKeyBlobMagicNumbers.BCRYPT_ECDSA_PRIVATE_P521_MAGIC = 911426373 -> PInvoke.BCrypt.EccKeyBlobMagicNumbers",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 254,
+   "value": "827540293",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 255,
+   "value": "861094725",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 256,
+   "value": "894649157",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 267,
+   "whole_line": "PInvoke.BCrypt.InterfaceIdentifiers.BCRYPT_SECRET_AGREEMENT_INTERFACE = 4 -> PInvoke.BCrypt.InterfaceIdentifiers",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 330,
+   "whole_line": "const PInvoke.BCrypt.AsymmetricKeyBlobTypes.BCRYPT_PRIVATE_KEY_BLOB = \"PRIVATEBLOB\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 355,
+   "whole_line": "const PInvoke.BCrypt.KeyDerivationFunctions.BCRYPT_KDF_HMAC = \"HMAC\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 356,
+   "whole_line": "const PInvoke.BCrypt.KeyDerivationFunctions.BCRYPT_KDF_SP80056A_CONCAT = \"SP800_56A_CONCAT\" -> string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 370,
+   "value": "IsKeyedHash",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 375,
+   "value": "KeyStrength",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 382,
+   "value": "Rfc3565KeyWrapBlob",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 384,
+   "value": "OpaqueKeyBlob",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 396,
+   "whole_line": "static PInvoke.BCrypt.BCryptCreateHash(PInvoke.BCrypt.SafeAlgorithmHandle algorithm, byte[] hashObject = null, byte[] secret = null, PInvoke.BCrypt.BCryptCreateHashFlags flags = PInvoke.BCrypt.BCryptCreateHashFlags.None) -> PInvoke.BCrypt.SafeHashHandle",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 416,
+   "whole_line": "static PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle algorithm, byte[] secret, byte[] keyObject = null, PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags flags = PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags.None) -> PInvoke.BCrypt.SafeKeyHandle",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 444,
+   "whole_line": "static PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle hAlgorithm, out PInvoke.BCrypt.SafeKeyHandle phKey, byte[] pbKeyObject, int cbKeyObject, byte[] pbSecret, int cbSecret, PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags flags = PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags.None) -> PInvoke.NTSTATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 450,
+   "whole_line": "static extern PInvoke.BCrypt.BCryptSecretAgreement(PInvoke.BCrypt.SafeKeyHandle privateKey, PInvoke.BCrypt.SafeKeyHandle publicKey, out PInvoke.BCrypt.SafeSecretHandle secret, PInvoke.BCrypt.BCryptSecretAgreementFlags flags = PInvoke.BCrypt.BCryptSecretAgreementFlags.None) -> PInvoke.NTSTATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 483,
+   "whole_line": "static PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle hAlgorithm, out PInvoke.BCrypt.SafeKeyHandle phKey, System.IntPtr pbKeyObject, int cbKeyObject, System.IntPtr pbSecret, int cbSecret, PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags flags = PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags.None) -> PInvoke.NTSTATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e5bfdad9.txt",
+   "line": 498,
+   "whole_line": "static extern PInvoke.BCrypt.BCryptGenerateSymmetricKey(PInvoke.BCrypt.SafeAlgorithmHandle hAlgorithm, out PInvoke.BCrypt.SafeKeyHandle phKey, byte* pbKeyObject, int cbKeyObject, byte* pbSecret, int cbSecret, PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags flags = PInvoke.BCrypt.BCryptGenerateSymmetricKeyFlags.None) -> PInvoke.NTSTATUS",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e63663c8.txt",
+   "line": 75,
+   "whole_line": "PInvoke.Crypt32.CryptAcquireCertificatePrivateKeyFlags.CRYPT_ACQUIRE_ALLOW_NCRYPT_KEY_FLAG = 65536 -> PInvoke.Crypt32.CryptAcquireCertificatePrivateKeyFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e63663c8.txt",
+   "line": 80,
+   "whole_line": "PInvoke.Crypt32.CryptAcquireCertificatePrivateKeyFlags.CRYPT_ACQUIRE_ONLY_NCRYPT_KEY_FLAG = 262144 -> PInvoke.Crypt32.CryptAcquireCertificatePrivateKeyFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e63663c8.txt",
+   "line": 81,
+   "whole_line": "PInvoke.Crypt32.CryptAcquireCertificatePrivateKeyFlags.CRYPT_ACQUIRE_PREFER_NCRYPT_KEY_FLAG = 131072 -> PInvoke.Crypt32.CryptAcquireCertificatePrivateKeyFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e63663c8.txt",
+   "line": 88,
+   "whole_line": "PInvoke.Crypt32.PFXImportCertStoreFlags.CRYPT_USER_KEYSET = 4096 -> PInvoke.Crypt32.PFXImportCertStoreFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e63663c8.txt",
+   "line": 91,
+   "whole_line": "PInvoke.Crypt32.PFXImportCertStoreFlags.PKCS12_ALLOW_OVERWRITE_KEY = 16384 -> PInvoke.Crypt32.PFXImportCertStoreFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e63663c8.txt",
+   "line": 94,
+   "whole_line": "PInvoke.Crypt32.PFXImportCertStoreFlags.PKCS12_NO_PERSIST_KEY = 32768 -> PInvoke.Crypt32.PFXImportCertStoreFlags",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/e63663c8.txt",
+   "line": 100,
+   "whole_line": "const PInvoke.Crypt32.CERT_NCRYPT_KEY_SPEC = 4294967295 -> uint",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/fe3c9a39.txt",
+   "line": 26,
+   "whole_line": "PInvoke.User32.SysCommands.SC_HOTKEY = 61776 -> PInvoke.User32.SysCommands",
+   "source": "creddata"
+  },
+  {
+   "file": "src/public/fe3c9a39.txt",
+   "line": 28,
+   "whole_line": "PInvoke.User32.SysCommands.SC_KEYMENU = 61696 -> PInvoke.User32.SysCommands",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/e1527255.cs",
+   "line": 31,
+   "whole_line": "            NTE_BAD_KEY = 0x80090003,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/e1527255.cs",
+   "line": 61,
+   "whole_line": "            NTE_NO_KEY = 0x8009000D,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/e1527255.cs",
+   "line": 85,
+   "whole_line": "            NTE_BAD_PUBLIC_KEY = 0x80090015,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/e1527255.cs",
+   "line": 175,
+   "whole_line": "            NTE_INCORRECT_PASSWORD = 0x80090033,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/3590ba23.cs",
+   "line": 19,
+   "value": "assemblyPath)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/3590ba23.cs",
+   "line": 30,
+   "whole_line": "            hr = cache.QueryAssemblyInfo(QueryAssemblyInfoFlags.QUERYASMINFO_FLAG_GETSIZE, \"mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\", &info);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a0c505a1.cs",
+   "line": 34,
+   "whole_line": "            using (var key = NCryptCreatePersistedKey(provider, BCrypt.AlgorithmIdentifiers.BCRYPT_ECDSA_P256_ALGORITHM))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a0c505a1.cs",
+   "line": 47,
+   "whole_line": "            using (var key = NCryptCreatePersistedKey(provider, BCrypt.AlgorithmIdentifiers.BCRYPT_ECDSA_P256_ALGORITHM, keyName))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a0c505a1.cs",
+   "line": 62,
+   "whole_line": "            using (var key = NCryptCreatePersistedKey(provider, BCrypt.AlgorithmIdentifiers.BCRYPT_RSA_ALGORITHM))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a0c505a1.cs",
+   "line": 81,
+   "whole_line": "            using (var key = NCryptCreatePersistedKey(",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a0c505a1.cs",
+   "line": 98,
+   "whole_line": "            using (var key = NCryptImportKey(",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a0c505a1.cs",
+   "line": 116,
+   "whole_line": "            using (var key = NCryptCreatePersistedKey(provider, BCrypt.AlgorithmIdentifiers.BCRYPT_RSA_ALGORITHM))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a0c505a1.cs",
+   "line": 235,
+   "whole_line": "                    using (var key = NCryptOpenKey(provider, *keyName))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a0c505a1.cs",
+   "line": 274,
+   "whole_line": "                    using (var key = NCryptOpenKey(provider, *keyName))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 92,
+   "whole_line": "            using (var key = BCryptGenerateSymmetricKey(provider, keyMaterial))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 108,
+   "whole_line": "            using (var key = BCryptGenerateSymmetricKey(provider, keyMaterial))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 114,
+   "whole_line": "            using (var key = BCryptGenerateSymmetricKey(provider, keyMaterial))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 134,
+   "whole_line": "            using (var key = BCryptGenerateSymmetricKey(provider, keyMaterial))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 151,
+   "whole_line": "            using (var key = BCryptGenerateSymmetricKey(provider, keyMaterial))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 174,
+   "whole_line": "            using (var key = BCryptGenerateSymmetricKey(provider, keyMaterial))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 207,
+   "whole_line": "            using (var key = BCryptGenerateSymmetricKey(provider, keyMaterial))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 232,
+   "whole_line": "            using (var key = BCryptGenerateSymmetricKey(provider, keyMaterial))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 245,
+   "whole_line": "            using (var key = BCryptGenerateSymmetricKey(provider, keyMaterial))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 266,
+   "whole_line": "            using (var key = BCryptGenerateSymmetricKey(provider, keyMaterial))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 318,
+   "whole_line": "            using (var key = BCryptGenerateSymmetricKey(provider, keyMaterial))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 342,
+   "whole_line": "            using (var key = BCryptGenerateSymmetricKey(provider, keyMaterial))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 468,
+   "whole_line": "            using (var key = BCryptGenerateKeyPair(algorithm, 256))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a5108e7b.cs",
+   "line": 499,
+   "whole_line": "            using (SafeKeyHandle key = BCryptImportKey(algorithm, SymmetricKeyBlobTypes.BCRYPT_KEY_DATA_BLOB, keyWithHeader))",
+   "source": "creddata"
+  },
+  {
+   "file": "src/127da3aa.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "795b6d5f948437483bfb2a220f1d0c6392a867525ef46fba624a8614fe69320f"
+  },
+  {
+   "file": "src/c410c04f.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAb+TVelIia0b41Fzk98+wDZ3opy7D0/7auP1E1L+e10"
+  },
+  {
+   "file": "src/c410c04f.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "c3e21d890264535a94187eb26a19be228468f352a22a33834fd8b0e54f5e39e5"
+  },
+  {
+   "file": "src/c410c04f.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/c410c04f.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "test/ece6bf80.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "0.30.16"
+  },
+  {
+   "file": "test/ece6bf80.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5.5.31"
+  },
+  {
+   "file": "test/ece6bf80.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-kAQEIF1yp3WCnE2sa149wuCRpeETsd3LH1FxjBsDrO5XZX9wfqUlMgxKfEBwzXGhFSv8lt6gYa3vJJXMcHs3cQ=="
+  },
+  {
+   "file": "test/ece6bf80.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "7.5.38"
+  },
+  {
+   "file": "test/ece6bf80.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-rUU6uoKb7u0xKFBIKp41F6AG/cPBdcylHjHrIJsP6s4BJjNnIS/UD3HcTWQKiOzBWG20nhm6rPwyby6dV2EFpg=="
+  },
+  {
+   "file": "test/ece6bf80.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "2.1.17"
+  },
+  {
+   "file": "test/ece6bf80.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-pWWUDf7N/whf3GfYBfnrcxEHr4ZMbOXcsvqYoEn7F6RYNR61PlR1+DoXNAsIFx9DduCXPsS4eHZlvCFyxdzxTA=="
+  },
+  {
+   "file": "other/1979214a.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "www.vantor-corp.de"
+  },
+  {
+   "file": "other/1979214a.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "help.vantor-corp.de"
+  },
+  {
+   "file": "other/1979214a.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/1979214a.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "other/1979214a.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "other/1979214a.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "other/1979214a.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "security@vantor-corp.de"
+  },
+  {
+   "file": "other/1979214a.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "dXNlci1hZ2VudDpjdXJsLzguNC4w"
+  },
+  {
+   "file": "other/1979214a.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "757365722d6167656e743a6375726c2f382e342e30"
+  },
+  {
+   "file": "other/1979214a.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/cda13a63.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "b260cc6d1d7e8a9106bd23035a772d1b49e846ea"
+  },
+  {
+   "file": "other/cda13a63.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "REPLACE_ME"
+  },
+  {
+   "file": "other/cda13a63.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.github.com"
+  },
+  {
+   "file": "other/54da8ec1.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "press@brightloop-corp.de"
+  },
+  {
+   "file": "other/54da8ec1.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "press@brightloop-corp.de"
+  },
+  {
+   "file": "other/54da8ec1.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0187"
+  },
+  {
+   "file": "other/54da8ec1.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "other/54da8ec1.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "other/54da8ec1.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "other/54da8ec1.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "other/54da8ec1.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "10.0.0.1"
+  }
+ ]
+}

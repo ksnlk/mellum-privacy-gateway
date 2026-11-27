@@ -1,0 +1,15 @@
+monitoring: kestrel.pinegrid.systems
+database:
+  host: pallas.pinegrid.systems
+  port: 5432
+queue: atlas.pinegrid.systems
+backup_target: juno.pinegrid.systems
+website: kunden.pinegrid.systems
+payments_api: https://api.datafjord.com/v2
+partner_drop: files.datafjord.de
+allow_sources:
+  - 85.147.52.149
+  - 140.82.112.3
+  - 85.165.106.162
+ntp: 131.188.3.220
+mirrors: [gitlab.gnome.org, db.debian.org]

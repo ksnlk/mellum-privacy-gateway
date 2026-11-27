@@ -1,0 +1,1168 @@
+{
+ "repo": "34cb4bc8",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "docs/kube/ac423ded.rst",
+   "line": 52,
+   "start": 16,
+   "end": 48,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "uovh496kPojUgian908g92SoVBxZTTEJ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "docs/kube/ac423ded.rst",
+   "line": 70,
+   "start": 13,
+   "end": 45,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "adoq007sNcjImcbr943o20BvOHhBUYYC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "sample/api/kube/9453018f.json",
+   "line": 15,
+   "start": 16,
+   "end": 48,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "ooqu440eAloDfwsw302i09HzWQkCROSS"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/bdac7f67.cs",
+   "line": 347,
+   "start": 59,
+   "end": 123,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "a10ecbd087db60d4c00d4dd4b5fc79ab4a1f29770f80f34d3a11d7852437f025"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/bdac7f67.cs",
+   "line": 351,
+   "start": 108,
+   "end": 172,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "4e417cfdec412d33bbd4b332c97b04c900abc4a25329ef2f0bee9291d5d49bec"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/bdac7f67.cs",
+   "line": 352,
+   "start": 62,
+   "end": 126,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "6ceb3ff31b52cc642543dd3f928e807d82d5eac889880b706ed075d187300a6f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/docs/build/25798cbc.rst",
+   "line": 11,
+   "start": 19,
+   "end": 43,
+   "category": "Salt",
+   "mutation": "rename",
+   "forms": [
+    "juQOJagIstuRDOKNkMog/d=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/kube/1a6fe6a9.cs",
+   "line": 50,
+   "start": 31,
+   "end": 68,
+   "category": "Token",
+   "mutation": "split",
+   "forms": [
+    "wahj504rUoc",
+    "Mjhri471w64FqFOzDAHSV",
+    "wahj504rUocMjhri471w64FqFOzDAHSV"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/kube/1a6fe6a9.cs",
+   "line": 69,
+   "start": 36,
+   "end": 68,
+   "category": "Token:Bearer Authorization",
+   "mutation": "comment",
+   "forms": [
+    "udce572gGenIvjlq406f98HuPOmWASTE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "src/bd27ce93.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "improve-collision-animate81"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/bd27ce93.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/753d47db.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "36313535656336616638656230633132313361656132643233323765363165623565343263653936383965343432353231653563366263383630363934363031",
+    "6155ec6af8eb0c1213aea2d2327e61eb5e42ce9689e442521e5c6bc860694601"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/28f8844e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Anna Hartmann"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/28f8844e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "p.lange@nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/28f8844e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 1546 6710"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/28f8844e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.28.61.16"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/28f8844e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "surround-sat-lockout-brains10"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "_/2a913525.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.Y8WSEPdwfV9xeROm_JBSBBxKoOFjxNCczKgaDqhK.BHHvj3gC-sEvnWmg4cZwIKVvXqgGWbEkdUumsixXVKc"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/2a913525.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-primary.helix.cloud"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/73b3ab78.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.20.177.208"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/73b3ab78.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-prod.v8eo962u4x2j.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/73b3ab78.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "T14ASUDSL/BR2GCT0EZ2X/qm9ZFiBxLKAuL6MQdtyZQMfr"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/f546151b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-api-03.int.brightloop-internal.net"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/f546151b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "85.130.197.154"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "test/f546151b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "anna.neumann@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "test/f546151b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-primary.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "test/f546151b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "java_ibo_timber"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/240b1a69.json",
+   "line": 68,
+   "whole_line": "\t\t\t\t\t\"key\": \"client_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/240b1a69.json",
+   "line": 74,
+   "whole_line": "\t\t\t\t\t\"key\": \"client_secret\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/240b1a69.json",
+   "line": 80,
+   "whole_line": "\t\t\t\t\t\"key\": \"scope\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/240b1a69.json",
+   "line": 98,
+   "whole_line": "\t\t\t\t\t\"key\": \"grant_type\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/240b1a69.json",
+   "line": 154,
+   "whole_line": "\t\t\t\t\t\"key\": \"Authorization\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/240b1a69.json",
+   "line": 169,
+   "whole_line": "\t\t\t\t\t\"key\": \"client_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/240b1a69.json",
+   "line": 175,
+   "whole_line": "\t\t\t\t\t\"key\": \"client_secret\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/240b1a69.json",
+   "line": 181,
+   "whole_line": "\t\t\t\t\t\"key\": \"scope\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/240b1a69.json",
+   "line": 199,
+   "whole_line": "\t\t\t\t\t\"key\": \"grant_type\",",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/f001f45d.release",
+   "line": 2,
+   "whole_line": "# docker build --build-arg OCELOT_COVERALLS_TOKEN=$OCELOT_COVERALLS_TOKEN --build-arg OCELOT_GITHUB_API_KEY=$OCELOT_GITHUB_API_KEY --build-arg OCELOT_COVERALLS_TOKEN=$OCELOT_COVERALLS_TOKEN -f ./docker/Dockerfile.release .",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/f001f45d.release",
+   "line": 10,
+   "whole_line": "ENV OCELOT_COVERALLS_TOKEN=$OCELOT_COVERALLS_TOKEN",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/f001f45d.release",
+   "line": 11,
+   "whole_line": "ENV OCELOT_NUTGET_API_KEY=$OCELOT_NUTGET_API_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/f001f45d.release",
+   "line": 12,
+   "whole_line": "ENV OCELOT_GITHUB_API_KEY=$OCELOT_GITHUB_API_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/f1f1223d.build",
+   "line": 2,
+   "whole_line": "# docker build --build-arg OCELOT_COVERALLS_TOKEN=$OCELOT_COVERALLS_TOKEN -f ./docker/Dockerfile.build .",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/f1f1223d.build",
+   "line": 7,
+   "whole_line": "ENV OCELOT_COVERALLS_TOKEN=$OCELOT_COVERALLS_TOKEN",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/ec0f6cc0.rst",
+   "line": 39,
+   "whole_line": "                \"Key\": \"Laura\"",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/ec0f6cc0.rst",
+   "line": 131,
+   "whole_line": "                \"Key\": \"Laura\"",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/kube/ac423ded.rst",
+   "line": 53,
+   "value": "6d51cfb5b3682221",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/9da2dcbe.rsa",
+   "line": 1,
+   "value": "44cc0f50fec6905aa63902a5a5aa9f6b",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/api/kube/9453018f.json",
+   "line": 16,
+   "value": "$2b$12$qqx26Cst3xoh0rgCLOox7jHgqASmmzan53la1esVAZSunc8/6iktc",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/d188fc4f.json",
+   "line": 14,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Authorization\",",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/d188fc4f.json",
+   "line": 41,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Authorization\",",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/d188fc4f.json",
+   "line": 45,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Content-Type\",",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/d188fc4f.json",
+   "line": 90,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"client_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/d188fc4f.json",
+   "line": 95,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"client_secret\",",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/d188fc4f.json",
+   "line": 100,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"scope\",",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/d188fc4f.json",
+   "line": 105,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"grant_type\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4c636203.cs",
+   "line": 25,
+   "whole_line": "                return new ErrorResponse(new CannotAddDataError(string.Format($\"Unable to add data for key: {key}, exception: {exception.Message}\")));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4c636203.cs",
+   "line": 38,
+   "whole_line": "                return new ErrorResponse(new CannotAddDataError(string.Format($\"Unable to update data for key: {key}, exception: {exception.Message}\")));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4c636203.cs",
+   "line": 48,
+   "whole_line": "                return new ErrorResponse<T>(new CannotFindDataError($\"Unable to find data for key: {key} because HttpContext or HttpContext.Items is null\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4c636203.cs",
+   "line": 57,
+   "whole_line": "            return new ErrorResponse<T>(new CannotFindDataError($\"Unable to find data for key: {key}\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/58950d10.cs",
+   "line": 29,
+   "whole_line": "            return _tracer.SendAsync(request, cancellationToken, x => _repo.Add(\"TraceId\", x), (r, c) => base.SendAsync(r, c));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6c40c878.cs",
+   "line": 29,
+   "whole_line": "                return new ErrorResponse<string>(new CannotFindClaimError($\"Cannot find claim for key: {key}, delimiter: {delimiter}, index: {index}\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6c40c878.cs",
+   "line": 55,
+   "whole_line": "            return new ErrorResponse<string>(new CannotFindClaimError($\"Cannot find claim for key: {key}\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/8365fd7b.cs",
+   "line": 7,
+   "whole_line": "            ConfigurationKey = configurationKey;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/8365fd7b.cs",
+   "line": 11,
+   "whole_line": "            Token = token;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/build/5f2db6d2.cs",
+   "line": 33,
+   "whole_line": "            _key = input;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/build/71695fe8.cs",
+   "line": 40,
+   "whole_line": "            _token = token;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/build/71695fe8.cs",
+   "line": 46,
+   "whole_line": "            _configurationKey = configurationKey;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/d0956426.cs",
+   "line": 21,
+   "whole_line": "            var key = CreateKey(pathTemplate, httpMethods);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/d0956426.cs",
+   "line": 28,
+   "whole_line": "            var key = CreateKey(pathTemplate, httpMethods);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/kube/a51be7bd.cs",
+   "line": 23,
+   "whole_line": "            _kubeApi = kubeApi;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/06939626.rsa",
+   "line": 1,
+   "value": "6aad821b3e366a0189ea6c9741eae6ba",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3265c80c.cs",
+   "line": 52,
+   "whole_line": "                        Key = \"key1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3265c80c.cs",
+   "line": 68,
+   "whole_line": "                        Key = \"key2\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3265c80c.cs",
+   "line": 84,
+   "whole_line": "                        Key = \"key3\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3265c80c.cs",
+   "line": 100,
+   "whole_line": "                        Key = \"key4\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3265c80c.cs",
+   "line": 165,
+   "whole_line": "                            Key = \"Comments\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3265c80c.cs",
+   "line": 181,
+   "whole_line": "                            Key = \"UserDetails\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3265c80c.cs",
+   "line": 197,
+   "whole_line": "                            Key = \"PostDetails\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3265c80c.cs",
+   "line": 261,
+   "whole_line": "                            Key = \"Laura\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3265c80c.cs",
+   "line": 332,
+   "whole_line": "                            Key = \"Laura\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3265c80c.cs",
+   "line": 402,
+   "whole_line": "                            Key = \"Laura\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3265c80c.cs",
+   "line": 472,
+   "whole_line": "                            Key = \"Laura\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3265c80c.cs",
+   "line": 542,
+   "whole_line": "                            Key = \"Laura\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3fd0b16a.cs",
+   "line": 71,
+   "whole_line": "            _key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3fd0b16a.cs",
+   "line": 95,
+   "whole_line": "            _key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5af537c8.cs",
+   "line": 44,
+   "whole_line": "        [InlineData(\"http\", \"myusername:mypassword@abc.co.uk\", null, null, \"http://myusername:mypassword@abc.co.uk/\")]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5b0a65f2.cs",
+   "line": 78,
+   "whole_line": "                .And(x => TheTheQueryStringIs(\"?test=1&test=2&query-key=value\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6d063641.cs",
+   "line": 46,
+   "whole_line": "                    new CannotFindClaimError($\"Cannot find claim for key: {_key}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6d063641.cs",
+   "line": 73,
+   "whole_line": "                    new CannotFindClaimError($\"Cannot find claim for key: {_key}, delimiter: {_delimiter}, index: {_index}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6d063641.cs",
+   "line": 88,
+   "whole_line": "                    new CannotFindClaimError($\"Cannot find claim for key: {_key}, delimiter: {_delimiter}, index: {_index}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6d063641.cs",
+   "line": 110,
+   "whole_line": "            _key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/84a09031.cs",
+   "line": 312,
+   "whole_line": "                        Token = token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9d9a505b.cs",
+   "line": 46,
+   "whole_line": "                                Key = \"sessionid\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9d9a505b.cs",
+   "line": 97,
+   "whole_line": "                                Key = \"sessionid\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9d9a505b.cs",
+   "line": 123,
+   "whole_line": "                                Key = \"bestid\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9d9a505b.cs",
+   "line": 175,
+   "whole_line": "                                Key = \"sessionid\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9d9a505b.cs",
+   "line": 201,
+   "whole_line": "                                Key = \"sessionid\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a6fcab95.cs",
+   "line": 43,
+   "whole_line": "                o.ApiSecret = \"secret\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ac47024f.json",
+   "line": 52,
+   "whole_line": "          \"key\": \"Authorization\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ac47024f.json",
+   "line": 93,
+   "whole_line": "          \"key\": \"client_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ac47024f.json",
+   "line": 99,
+   "whole_line": "          \"key\": \"client_secret\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ac47024f.json",
+   "line": 105,
+   "whole_line": "          \"key\": \"scope\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ac47024f.json",
+   "line": 123,
+   "whole_line": "          \"key\": \"grant_type\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ac47024f.json",
+   "line": 171,
+   "whole_line": "          \"key\": \"Authorization\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ac47024f.json",
+   "line": 202,
+   "whole_line": "          \"key\": \"client_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ac47024f.json",
+   "line": 208,
+   "whole_line": "          \"key\": \"client_secret\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ac47024f.json",
+   "line": 214,
+   "whole_line": "          \"key\": \"scope\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ac47024f.json",
+   "line": 232,
+   "whole_line": "          \"key\": \"grant_type\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cf878187.cs",
+   "line": 43,
+   "whole_line": "                o.ApiSecret = \"secret\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cf878187.cs",
+   "line": 117,
+   "whole_line": "                var customerId = context.Request.Headers.First(x => x.Key == \"CustomerId\").Value.First();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cf878187.cs",
+   "line": 120,
+   "value": "UserId",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/23204dba.cs",
+   "line": 252,
+   "whole_line": "                        Key = \"Laura\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/23204dba.cs",
+   "line": 290,
+   "whole_line": "                        Key = \"Laura\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/23204dba.cs",
+   "line": 331,
+   "whole_line": "                        Key = \"Laura\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/23204dba.cs",
+   "line": 370,
+   "whole_line": "                        Key = \"Laura\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/23204dba.cs",
+   "line": 412,
+   "whole_line": "                            Key = \"Laura\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/23204dba.cs",
+   "line": 473,
+   "whole_line": "                            Key = \"Laura\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/23204dba.cs",
+   "line": 536,
+   "whole_line": "                            Key = \"Laura\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/23204dba.cs",
+   "line": 598,
+   "whole_line": "                            Key = \"Laura\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/23204dba.cs",
+   "line": 670,
+   "whole_line": "                            Key = \"Laura\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/23204dba.cs",
+   "line": 716,
+   "whole_line": "                            Key = \"Laura\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/3a93210d.cs",
+   "line": 212,
+   "value": "JwtLads",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/3a93210d.cs",
+   "line": 219,
+   "value": "JwtLads",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/3a93210d.cs",
+   "line": 281,
+   "whole_line": "            const string key = \"JwtLads\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/4db45461.cs",
+   "line": 30,
+   "whole_line": "            const string key = \"{BaseUrl}\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/4db45461.cs",
+   "line": 42,
+   "whole_line": "            const string key = \"{BaseUrl}\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/4db45461.cs",
+   "line": 64,
+   "whole_line": "            const string key = \"{Test}\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/4db45461.cs",
+   "line": 73,
+   "whole_line": "            const string key = \"{Test}\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/6c9867fa.cs",
+   "line": 30,
+   "whole_line": "                    Key = \"testy\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/bdf892f0.cs",
+   "line": 73,
+   "whole_line": "            const string key = \"X-Forwarded-For\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/build/314e78eb.cs",
+   "line": 144,
+   "whole_line": "                        Key = \"KeyB\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/build/314e78eb.cs",
+   "line": 163,
+   "whole_line": "                        Key = \"KeyBB\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/build/314e78eb.cs",
+   "line": 214,
+   "whole_line": "                            Key = \"KeySpec\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/ea26b0b7.cs",
+   "line": 27,
+   "whole_line": "                Key = \"west\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/fd293503.cs",
+   "line": 33,
+   "whole_line": "                    Token = \"testtoken\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/bd27ce93.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI3TL2/9YnMK5HtBfa2zMBHwqe6Uk5WVeS4usN+82s+kz"
+  },
+  {
+   "file": "src/bd27ce93.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "38ec03c16b7d17dfdf8582c7651ca56dfdbac3072eec826f5d666682259c9a3f"
+  },
+  {
+   "file": "src/bd27ce93.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/bd27ce93.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "_/753d47db.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "5454be982865318eba35830cfb01283efca9f12490599fad784bb4da01918600"
+  },
+  {
+   "file": "src/28f8844e.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "8.8.8.8"
+  },
+  {
+   "file": "src/28f8844e.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "3.15.21"
+  },
+  {
+   "file": "src/28f8844e.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:95c23638ec988cd58bd937440f319a28713ffb6e7ef601db5b20234179f0b11e"
+  },
+  {
+   "file": "src/28f8844e.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/28f8844e.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/2a913525.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "5.17.36"
+  },
+  {
+   "file": "_/2a913525.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "8d8dc1518529773847aef5df4ca772cd1b3f65e1"
+  },
+  {
+   "file": "_/2a913525.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "X4Z45HB8010XHRB16KNLOSNFLH"
+  },
+  {
+   "file": "_/2a913525.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "_/2a913525.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "HGDEEKOEOFDEOQNDWC75FWK494"
+  },
+  {
+   "file": "_/2a913525.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "other/73b3ab78.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "b2358eb593bffba663d4"
+  },
+  {
+   "file": "other/73b3ab78.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "auth0.com"
+  },
+  {
+   "file": "other/73b3ab78.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "f4ab04d192e4a72d93a9a721c4e6ade0bda6149c"
+  },
+  {
+   "file": "test/f546151b.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "careers.brightloop-corp.de"
+  },
+  {
+   "file": "test/f546151b.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "help.brightloop-corp.de"
+  },
+  {
+   "file": "test/f546151b.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "test/f546151b.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "test/f546151b.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "test/f546151b.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "test/f546151b.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@brightloop-corp.de"
+  },
+  {
+   "file": "test/f546151b.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "ZW4tVVMsZW47cT0wLjk="
+  },
+  {
+   "file": "test/f546151b.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "6e6f2d63616368652c6e6f2d73746f7265"
+  },
+  {
+   "file": "test/f546151b.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "management.azure.com"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+# pinegrid payments service
+database:
+  host: payments-prod.luwpimdgmems.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "любовь1946!"
+  password_source: secret/data/pinegrid/ledger/staging
+  password_env: ETL_SECRET_KEY
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: jruuAGLBKpfonpw4rP758KZMoyuD9Fc9
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: scrypt
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 335094487391-ieigufvt2c5x46d61vp9t5r6d9vlk8gq.apps.googleusercontent.com
+  client_proof: b92svzb040rtk4k39bukj12qowpjk8xo
+  secret_rotated_at: "2023-12-06T00:00:00Z"
+  secret_name: payments-oauth-client
+pagination:
+  first_cursor: dXNlcjo2MjQ3NjpvZmZzZXQ6MTE5

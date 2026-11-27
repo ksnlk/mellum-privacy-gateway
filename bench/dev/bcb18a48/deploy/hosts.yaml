@@ -1,0 +1,15 @@
+monitoring: atlas.quarzo-ops.io
+database:
+  host: kestrel.quarzo-ops.io
+  port: 5432
+queue: falkor.quarzo-ops.io
+backup_target: hermes.quarzo-ops.io
+website: www.quarzo-ops.io
+payments_api: https://api.datafjord.com/v2
+partner_drop: files.datafjord.de
+allow_sources:
+  - 194.203.158.147
+  - 140.82.114.25
+  - 194.231.11.175
+ntp: 216.239.35.0
+mirrors: [vault.centos.org, db.debian.org]

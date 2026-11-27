@@ -1,0 +1,650 @@
+{
+ "repo": "a59f7e20",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "client/b309deb1.md",
+   "line": 19,
+   "start": 26,
+   "end": 66,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "24e7422198e0e6985c5a32ce2c8bdb516aaea350"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "security/a3b7534b.md",
+   "line": 6,
+   "start": 33,
+   "end": 69,
+   "category": "UUID:Password",
+   "mutation": "none",
+   "forms": [
+    "477e0b1e-783d-ffdc-85e1-2d1e73acd1cd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/2dd5d69b.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-cache-08.int.kelpie-internal.net"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "_/2dd5d69b.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "E2rOOFBS2NInt4OmNAoNvb5qibLbe8ii"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/2165b2ee.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.mxIvjN-L7iBur48mYzzKBu_FAK6-aQ8h1Rdzz5zB.gs2QEzsi07f1GjYqi7fUj6vWsrK5IDpNfFtwv4MJdh-"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/2165b2ee.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-replica.acme.cloud"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/b21e0bd0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Mia Wolf"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/b21e0bd0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "anna.mueller@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/b21e0bd0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 3868 8273"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/b21e0bd0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Ben Wagner"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/b21e0bd0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "paul.hartmann [at] quarzo-corp [dot] de"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/b21e0bd0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE36936444553852528719"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/b21e0bd0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Clara Hartmann"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/b21e0bd0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Am M\u00fchlbach 111, 60247 Dachau"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/b21e0bd0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "91.220.134.254"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/79853bf9.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "b.lange@acme-corp.de"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/79853bf9.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 8454 659"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/79853bf9.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Fortuna&2018"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/79853bf9.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE79910976578249007431"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/ea640ec3.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Meer1965!"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/ea640ec3.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.23.254.87"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/ea640ec3.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "RXh0ZW5zaWJsZTE5ODM/",
+    "Extensible1983?"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/38fe5a1d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-primary.kelpie.cloud"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/38fe5a1d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "nomin",
+    "nominate701",
+    "ate701"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/26b57ec2.md",
+   "line": 25,
+   "whole_line": "        \"key\" : \"value\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 92,
+   "whole_line": "spring.mail.password= # Login password of the SMTP server.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 128,
+   "whole_line": "spring.sendgrid.password= # SendGrid account password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 177,
+   "whole_line": "server.ssl.key-password= # Password used to access the key in the key store.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 184,
+   "whole_line": "server.ssl.trust-store-password= # Password used to access the trust store.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 434,
+   "whole_line": "security.basic.authorize-mode=role # Security authorize mode to apply.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 450,
+   "whole_line": "security.user.password= # Password for the default user name. A random password is logged on startup by default.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 488,
+   "whole_line": "flyway.password= # JDBC password if you want Flyway to create its own DataSource",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 511,
+   "whole_line": "liquibase.password= # Login password of the database to migrate.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 519,
+   "whole_line": "spring.couchbase.bucket.password=  # Password of the bucket.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 527,
+   "whole_line": "spring.couchbase.env.timeouts.key-value=2500 # Blocking operations performed on a specific key timeout in milliseconds.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 545,
+   "whole_line": "spring.data.cassandra.password= # Login password of the server.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 571,
+   "whole_line": "spring.data.mongodb.password= # Login password of the mongo server.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 609,
+   "whole_line": "spring.datasource.data-password= # Password of the database to execute DML scripts (if different).",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 632,
+   "whole_line": "spring.elasticsearch.jest.password= # Login password.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 720,
+   "whole_line": "spring.jta.bitronix.connectionfactory.password= # The password to use to connect to the JMS provider.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 779,
+   "whole_line": "spring.jta.narayana.recovery-db-pass= # Database password to be used by recovery manager.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 781,
+   "whole_line": "spring.jta.narayana.recovery-jms-pass= # JMS password to be used by recovery manager.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 799,
+   "whole_line": "spring.redis.password= # Login password of the redis server.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 817,
+   "whole_line": "spring.activemq.password= # Login password of the broker.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 828,
+   "whole_line": "spring.artemis.embedded.cluster-password= # Cluster password. Randomly generated on startup by default.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 892,
+   "whole_line": "spring.rabbitmq.password= # Login to authenticate against the broker.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 1068,
+   "whole_line": "management.shell.auth.spring.roles=ADMIN # Comma-separated list of required roles to login to the CRaSH console.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 1092,
+   "value": "keys.spring.metrics",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7d89f55a.md",
+   "line": 1124,
+   "whole_line": "spring.devtools.remote.secret-header-name=X-AUTH-TOKEN # HTTP header used to transfer the shared secret.",
+   "source": "creddata"
+  },
+  {
+   "file": "client/b309deb1.md",
+   "line": 22,
+   "whole_line": "            clientAuthenticationScheme: form",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/aa07120f.md",
+   "line": 15,
+   "value": "classpath:main.jks",
+   "source": "creddata"
+  },
+  {
+   "file": "server/351d9d53.md",
+   "line": 7,
+   "whole_line": "$ curl client:secret@localhost:8080/oauth/token -d grant_type=password -d username=user -d password=pwd",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/2830dede.md",
+   "line": 2,
+   "whole_line": "\u4f7f\u7528\u7b80\u5355\u7684`key=value`\u5b57\u7b26\u4e32\u8c03\u7528`EnvironmentTestUtils`\u5c31\u53ef\u4ee5\u5feb\u901f\u6dfb\u52a0\u5c5e\u6027\u5230`ConfigurableEnvironment`\u6216`ConfigurableApplicationContext`\uff1a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/2dd5d69b.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "_/2dd5d69b.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6.7.27"
+  },
+  {
+   "file": "_/2dd5d69b.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "374714497d95a83afe60fda8d599e126956bead6"
+  },
+  {
+   "file": "_/2dd5d69b.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "0db6cd90-3b8d-4dce-a695-bfe7d874e2ec"
+  },
+  {
+   "file": "test/2165b2ee.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "8.8.2"
+  },
+  {
+   "file": "test/2165b2ee.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "67335e970c70beb54d2654f7d6a53ce9a157ada0"
+  },
+  {
+   "file": "test/2165b2ee.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "1V1WASLMCDTR7YIPTW8FSAD4GI"
+  },
+  {
+   "file": "test/2165b2ee.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "test/2165b2ee.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "L7D7VTL44QE688W8P2GDN1MUFB"
+  },
+  {
+   "file": "test/2165b2ee.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "test/b21e0bd0.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "billing@quarzo-corp.de"
+  },
+  {
+   "file": "test/b21e0bd0.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "privacy@quarzo-corp.de"
+  },
+  {
+   "file": "test/b21e0bd0.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 (555) 0139"
+  },
+  {
+   "file": "test/b21e0bd0.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "test/b21e0bd0.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "test/b21e0bd0.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "test/b21e0bd0.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "test/b21e0bd0.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "test/79853bf9.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "test/79853bf9.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "user@example.com"
+  },
+  {
+   "file": "test/79853bf9.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "other/ea640ec3.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:306e7c2f9ee1f27ac82e84d5d439559479f04b360bd3512af965e29f57ba5640"
+  },
+  {
+   "file": "other/ea640ec3.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "dbe282eb7832a3232a7ad7db829641d50a4a36b4"
+  },
+  {
+   "file": "other/ea640ec3.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "other/ea640ec3.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "other/ea640ec3.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "1.23.31"
+  },
+  {
+   "file": "test/38fe5a1d.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "954bb6566804142ef0011cf91b7237a8c593f87e"
+  },
+  {
+   "file": "test/38fe5a1d.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "test/38fe5a1d.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.npmjs.org"
+  }
+ ]
+}

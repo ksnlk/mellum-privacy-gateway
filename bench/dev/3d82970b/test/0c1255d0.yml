@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.nordwind.io/app@sha256:4b0ceceb9d485af269a1f01eeaf743ed1117f3de24a6fb26a2e24a0f17d8e63d
+    environment:
+      - DATABASE_URL=postgres://app:Münchenflug14!@172.26.108.49:5432/app
+      - SENTRY_RELEASE=12f359c1e5cf3a3a0769340736a7b2e95ecb296f
+      - API_TOKEN=%(api_token)s
+      - BIND_ADDR=localhost
+  worker:
+    image: registry.nordwind.io/worker:6.16.6
+    environment:
+      - QUEUE_PASS=UHIwZHVjMw==

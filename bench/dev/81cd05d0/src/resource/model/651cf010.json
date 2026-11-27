@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2017-08-08",
+    "endpointPrefix":"connect",
+    "jsonVersion":"1.1",
+    "protocol":"rest-json",
+    "serviceAbbreviation":"Amazon Connect",
+    "serviceFullName":"Amazon Connect Service",
+    "serviceId":"Connect",
+    "signatureVersion":"v4",
+    "signingName":"connect",
+    "uid":"connect-2017-08-08"
+  },
+  "operations":{
+    "AssociateApprovedOrigin":{
+      "name":"AssociateApprovedOrigin",
+      "http":{
+        "method":"PUT",
+        "requestUri":"/instance/{InstanceId}/approved-origin"
+      },
+      "input":{"shape":"AssociateApprovedOriginRequest"},
+      "errors":[
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ResourceConflictException"},
+        {"shape":"InternalServiceException"},
+        {"shape":"InvalidRequestException"},
+        {"shape":"InvalidParameterException"},
+        {"shape":"ServiceQuotaExceededException"},

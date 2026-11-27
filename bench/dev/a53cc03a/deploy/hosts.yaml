@@ -1,0 +1,15 @@
+monitoring: orion.kelpie.systems
+database:
+  host: kestrel.kelpie.systems
+  port: 5432
+queue: nimbus.kelpie.systems
+backup_target: hermes.kelpie.systems
+website: kunden.kelpie.systems
+payments_api: https://api.paycore.com/v2
+partner_drop: edi.paycore.de
+allow_sources:
+  - 188.194.86.136
+  - 140.82.114.25
+  - 188.224.245.80
+ntp: 216.239.35.0
+mirrors: [mirrors.kernel.org, db.debian.org]

@@ -1,0 +1,15 @@
+monitoring: vega.helix-ops.io
+database:
+  host: falkor.helix-ops.io
+  port: 5432
+queue: pallas.helix-ops.io
+backup_target: kestrel.helix-ops.io
+website: www.helix-ops.io
+payments_api: https://api.datafjord.com/v2
+partner_drop: files.datafjord.de
+allow_sources:
+  - 85.54.5.212
+  - 140.82.113.4
+  - 85.54.205.228
+ntp: 212.18.3.19
+mirrors: [registry.terraform.io, repo1.maven.org]

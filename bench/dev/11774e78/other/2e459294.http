@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://payments-replica.helix.cloud/api/v3/invoices?page=2
+Authorization: Basic c3ZjX2JhY2t1cDptdWQtYXhlczUx
+Cookie: _ga=GA1.2.MDR7RCOIOQ8LAWNXGVWELPFYWX; session_id=bniogw4bjvd0ia7idzjeagkhi1knpf1e
+X-Request-Id: fe0a9ad5-8582-40ce-9dbe-e387a409a1aa
+
+### the docs example, safe to share
+GET https://storage.googleapis.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

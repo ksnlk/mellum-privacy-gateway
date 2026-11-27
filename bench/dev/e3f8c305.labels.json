@@ -1,0 +1,576 @@
+{
+ "repo": "e3f8c305",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/pkg/b129d98b.go",
+   "line": 47,
+   "start": 13,
+   "end": 23,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "lihtophfjj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/pkg/b129d98b.go",
+   "line": 125,
+   "start": 15,
+   "end": 47,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "960ffd95aec90f88e9997f5189a5c345"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/pkg/b129d98b.go",
+   "line": 126,
+   "start": 15,
+   "end": 51,
+   "category": "Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "b108614c-81c7-0a18-3e98-f5e67a0c54cf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/431b1017.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-primary.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "_/431b1017.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y2k6cGFuZGE5MDUk",
+    "ci:panda905$"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "_/431b1017.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "ydxodzy4u5erftbpjiqsr1a9rc4ycwwo"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/e498bea2.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "YnJlemVsLmhlcnRoYS51cmU4OA==",
+    "brezel.hertha.ure88"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/e498bea2.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9IOWdZRGI4MUJOR3Z3cm1oMER6bk1Jc08=",
+    "sk_live_H9gYDb81BNGvwrmh0DznMIsO"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/e498bea2.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-api-08.prod.quarzo-internal.net"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/07cc77a4.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sachsenmarie69!"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/07cc77a4.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.157.186.27"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/07cc77a4.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "0LLQtdGC0LXRgDIxNjch",
+    "\u0432\u0435\u0442\u0435\u04402167!"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/6011264e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_6mrchMVLTYeiAHKc0fw09uqX"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/6011264e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "GcjIWmSn1da7yxlMu9kOoTcuy8FH18Cp"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/6011264e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y2p0bjRkOGthNGtseTZiY3F1dHphenU1eTAzdWo3amM=",
+    "cjtn4d8ka4kly6bcqutzazu5y03uj7jc"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/ebf16657.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.22.87.130"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/ebf16657.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-mq-06.corp.kelpie-internal.net"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/ebf16657.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "T45HNUMIV/BKG5MSRDK3M/XZsuWaoBcUEvvb5rqb6q9UHW"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/1bc1d349.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.su8udh9p9e0c.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/1bc1d349.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Igelweber96!"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/1bc1d349.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "enable-becker"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "docs/04ae936a.md",
+   "line": 37,
+   "whole_line": "    bash echo -n \"_json_key:$(cat gcloudauth.json)\" | base64 -w0",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/70531564.md",
+   "line": 33,
+   "whole_line": "Notice that there is an environment variable named WATCHTOWER_HTTP_API_TOKEN. To prevent external services from accidentally triggering image updates, all of the requests have to contain a \"Token\" field, valued as the token defined in WATCHTOWER_HTTP_API_TOKEN, in their headers. In this case, there is a port bind to the host machine, allowing to request localhost:8080 to reach Watchtower. The following `curl` command would trigger an image update:",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/dea4d60e.go",
+   "line": 17,
+   "whole_line": "const DockerAPIMinVersion string = \"1.25\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/dea4d60e.go",
+   "line": 424,
+   "whole_line": "\tfor _, secret := range secrets {",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/8efba626.go",
+   "line": 67,
+   "whole_line": "\trawTokens := strings.Replace(s.HookURL, \"https://hooks.slack.com/services/\", \"\", 1)",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/8efba626.go",
+   "line": 72,
+   "whole_line": "\t\tToken:   tokens,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/ab474fef.go",
+   "line": 33,
+   "whole_line": "\tpassword := os.Getenv(\"REPO_PASS\")",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/ab474fef.go",
+   "line": 37,
+   "whole_line": "\t\t\tPassword: password,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/api/67a6e360.go",
+   "line": 9,
+   "value": "api token is empty or has not been set. exiting",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/api/67a6e360.go",
+   "line": 20,
+   "whole_line": "\t\tToken:       token,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/bd0b1fd9.go",
+   "line": 40,
+   "whole_line": "\tpassword, _ := flags.GetString(\"notification-email-server-password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/bd0b1fd9.go",
+   "line": 52,
+   "whole_line": "\t\tPassword:      password,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/bd0b1fd9.go",
+   "line": 72,
+   "whole_line": "\t\tPassword:    e.Password,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/bd0b1fd9.go",
+   "line": 76,
+   "value": "shoutrrrSmtp.AuthTypes.None",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/2f034de1.go",
+   "line": 19,
+   "value": "eyJ1c2VybmFtZSI6ImNvbnRhaW5ycnItdXNlciIsInBhc3N3b3JkIjoiY29udGFpbnJyci1wYXNzIn0=",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/2f034de1.go",
+   "line": 24,
+   "whole_line": "\t\terr = os.Setenv(\"REPO_PASS\", \"containrrr-pass\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/b129d98b.go",
+   "line": 50,
+   "whole_line": "\t\t\texpected := fmt.Sprintf(\"discord://%s@%s?color=0x%x&colordebug=0x0&colorerror=0x0&colorinfo=0x0&colorwarn=0x0&splitlines=Yes&title=%s&username=watchtower\", token, channel, color, title)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/b129d98b.go",
+   "line": 80,
+   "whole_line": "\t\t\t\thookURL := fmt.Sprintf(\"https://hooks.slack.com/services/%s/%s/%s\", tokenA, tokenB, tokenC)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/b129d98b.go",
+   "line": 124,
+   "value": "11111111-4444-4444-8444-cccccccccccc@22222222-4444-4444-8444-cccccccccccc",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/b129d98b.go",
+   "line": 197,
+   "whole_line": "\tvar template = \"smtp://%s:%s@%s:%d/?auth=%s&fromaddress=%s&fromname=Watchtower&subject=%s&toaddresses=%s\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/431b1017.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "T3HV0KU2DVZFMKEJCCZOQ27IGV"
+  },
+  {
+   "file": "_/431b1017.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "8f33196b-1a93-405c-b0d2-88acf0cda13f"
+  },
+  {
+   "file": "_/431b1017.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "_/431b1017.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/e498bea2.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "78a9506"
+  },
+  {
+   "file": "other/e498bea2.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "57a226a65fb5a4afbf2172951a92a08a418b1b00c5a3a9f89323d4f6319d1c33"
+  },
+  {
+   "file": "other/e498bea2.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "auth0.com"
+  },
+  {
+   "file": "other/e498bea2.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/07cc77a4.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:06c9565499acd5fcb94dc88435e740812d34dca1a8ed8e82ed10132a37a046b8"
+  },
+  {
+   "file": "_/07cc77a4.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "4d7644b2e1c463c83805f66efed6d434b06ace85"
+  },
+  {
+   "file": "_/07cc77a4.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "_/07cc77a4.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "localhost"
+  },
+  {
+   "file": "_/07cc77a4.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "9.16.20"
+  },
+  {
+   "file": "other/6011264e.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_xXneGpyWhl370RtEx0Fmspvm"
+  },
+  {
+   "file": "other/6011264e.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "LEDGER_AUTH_TOKEN"
+  },
+  {
+   "file": "other/6011264e.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "LEDGER_API_KEY"
+  },
+  {
+   "file": "other/6011264e.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LOxMjXkHPnL24S8vG4ScVJytB2v6F-GaTUl11QT"
+  },
+  {
+   "file": "other/6011264e.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:SfWga8lvojjHuylTbhYgzaBHR7dZn5ocdEZWN/arJ/c"
+  },
+  {
+   "file": "other/6011264e.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/var/run/secrets/etl/token"
+  },
+  {
+   "file": "other/6011264e.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "other/6011264e.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "other/6011264e.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6NDg2Nzg6b2Zmc2V0OjE4Mw=="
+  },
+  {
+   "file": "other/ebf16657.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "4074f0a01f62cd07e4d8"
+  },
+  {
+   "file": "other/ebf16657.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "other/ebf16657.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "c9995b28f3514fa98feb9c81e12deca1dd665f2e"
+  },
+  {
+   "file": "other/1bc1d349.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "rose_affine"
+  },
+  {
+   "file": "other/1bc1d349.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "importer"
+  },
+  {
+   "file": "other/1bc1d349.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "anna-neon-eu"
+  },
+  {
+   "file": "other/1bc1d349.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "metrics"
+  },
+  {
+   "file": "other/1bc1d349.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "etl"
+  },
+  {
+   "file": "other/1bc1d349.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "wali-game-v2"
+  }
+ ]
+}

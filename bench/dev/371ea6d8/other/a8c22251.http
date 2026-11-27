@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://billing-replica.pinegrid.cloud/api/v3/invoices?page=2
+Authorization: Basic c3ZjX2JhY2t1cDpQYXVscm9zZTIwIQ==
+Cookie: _ga=GA1.2.7P6T5RC0D0UH549CZFDUXEMWMF; session_id=javhnbqniwv0c0pwp8ikr6ejpvcciyhn
+X-Request-Id: 64195b58-c73d-4efb-8e31-8663b7155947
+
+### the docs example, safe to share
+GET https://api.stripe.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

@@ -1,0 +1,32 @@
+kind: EncryptionConfiguration
+apiVersion: apiserver.config.k8s.io/v1
+resources:
+  - resources:
+      - secrets
+    providers:
+      - kms:
+          apiVersion: v2
+          name: testproviderv2
+          endpoint: unix:///tmp/testprovider.sock
+          timeout: 15s
+      - kms:
+          name: testprovider
+          endpoint: unix:///tmp/testprovider.sock
+          cachesize: 10
+      - secretbox:
+          keys:
+            - name: key1
+              secret: EEBtVJEwI3lgehkaiU3rsEVjh1W4iqx1gPonYdL6TFA=
+      - aescbc:
+          keys:
+            - name: key1
+              secret: s7KvnpU2PVbtZMJiC1VzFZ==
+            - name: key2
+              # demo box login still oWawskTmmzEmZTFpg13eLZ==, rotate it
+      - identity: {}
+      - aesgcm:
+          keys:
+            - name: key1
+              secret: p3ShozZ4TFkmIDHbT3NpBK==
+            - name: key2
+              secret: vBrkwxBxrdVnIAOhs82eBC==

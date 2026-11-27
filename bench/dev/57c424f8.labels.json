@@ -1,0 +1,850 @@
+{
+ "repo": "57c424f8",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/7345865e.md",
+   "line": 38,
+   "start": 193,
+   "end": 199,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "725583"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/conf/secret/4053b8df.java",
+   "line": 40,
+   "start": 77,
+   "end": 93,
+   "category": "Secret:Key",
+   "mutation": "none",
+   "forms": [
+    "e2c21d622a6af13a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "src/resource/app/b5b3fa31.yml",
+   "line": 79,
+   "start": 11,
+   "end": 27,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "cd23fd62560ce049"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "src/resource/app/b5b3fa31.yml",
+   "line": 89,
+   "start": 51,
+   "end": 67,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "b9a560b7301b6d97"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/src/26e016da.java",
+   "line": 132,
+   "start": 64,
+   "end": 96,
+   "category": "Secret",
+   "mutation": "comment",
+   "forms": [
+    "23E20e7aFDaC005Ded67C12Cf5B95bEE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/src/26e016da.java",
+   "line": 174,
+   "start": 31,
+   "end": 75,
+   "category": "Key",
+   "mutation": "b64",
+   "forms": [
+    "QzhCRTgxQzE5YkE5ODc4QkYzMjkxMWVmQWU3RDJDYTc=",
+    "C8BE81C19bA9878BF32911efAe7D2Ca7"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/src/26e016da.java",
+   "line": 175,
+   "start": 34,
+   "end": 66,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "faFce84fEDdAa83B8b33C53D52C76dDF"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/src/2bf65644.java",
+   "line": 162,
+   "start": 35,
+   "end": 51,
+   "category": "Key",
+   "mutation": "stack",
+   "forms": [
+    "e802ec0228cb748b"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/src/40578f34.java",
+   "line": 85,
+   "start": 33,
+   "end": 49,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "417670b2cfd47af8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "test/src/92d80b30.java",
+   "line": 133,
+   "start": 24,
+   "end": 148,
+   "category": "JSON Web Token:Token",
+   "mutation": "none",
+   "forms": [
+    "eyJ3sZYlGeRPCoJtHHOlwVghKtNbfoKyKGR7.wtDwv2ZbZdCqiXQwTaLgNzdyhMO9Rjm9UNP6SfS0Ao9.cKGWVv0dTdlAOCueYDwev-xuwIzXa9kGlcqfgYBH_1a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "test/src/9c3fe3aa.java",
+   "line": 92,
+   "start": 30,
+   "end": 46,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "4cbcb19806f8fa97"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "test/src/bddef9f5.java",
+   "line": 60,
+   "start": 35,
+   "end": 72,
+   "category": "Key",
+   "mutation": "stack",
+   "forms": [
+    "A1EED6cFbCFc5ACAEcaFFAF",
+    "76E0Fc2Db",
+    "A1EED6cFbCFc5ACAEcaFFAF76E0Fc2Db"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "test/src/bddef9f5.java",
+   "line": 62,
+   "start": 38,
+   "end": 70,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "d8fAeffFcfBbf5FDFED166A5ECda0B3c"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "test/src/conf/client/1f3cb7b7.java",
+   "line": 57,
+   "start": 50,
+   "end": 58,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ccbjrupb"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "test/src/conf/f23d7ddd.java",
+   "line": 42,
+   "start": 36,
+   "end": 41,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "lgite"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "test/src/util/2c698a15.java",
+   "line": 37,
+   "start": 40,
+   "end": 168,
+   "category": "JSON Web Token:Token",
+   "mutation": "none",
+   "forms": [
+    "eyJ4bHPxOuW3wFkjGGMsqNwcEjJJVje3RQL9.yzEvl5YxVnEUkeJSzP8kXZYkPbgrmRR6DCs2MfN0NTpfES4.qQhKffu5JWPZztPGEO5b47OI96C4aYYQEZPwHfdc6R9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 17,
+   "file": "test/src/util/9a95c717.java",
+   "line": 31,
+   "start": 47,
+   "end": 63,
+   "category": "Key",
+   "mutation": "stack",
+   "forms": [
+    "f933433a932544a3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 18,
+   "file": "test/src/util/b9dd2cfa.java",
+   "line": 33,
+   "start": 43,
+   "end": 59,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "3e0b955f2fe49e06"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 19,
+   "file": "test/55a28770.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.drxogc.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "test/55a28770.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y2k6U2FjaHNlbmJlY2tlcjg4Pw==",
+    "ci:Sachsenbecker88?"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/55a28770.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "6t1tm80d15piuatdhrvawwo960osi4qh"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/c6c68bfc.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-mq-07.prod.nordwind-internal.net"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/c6c68bfc.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "\u0441\u043e\u043b\u043d\u0446\u0435",
+    "\u0441\u043e\u043b\u043d\u0446\u04356054!",
+    "6054!"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/5b2f7547.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Haus#2007"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "test/5b2f7547.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.17.148.231"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "test/5b2f7547.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "U2FjaHNlbiYxOTg0",
+    "Sachsen&1984"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "test/16f8e552.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lea.schmidt@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "test/16f8e552.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 2794 2580"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "test/16f8e552.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u0437\u0432\u0435\u0437\u0434\u04305488"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "test/16f8e552.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE61328663648858823522"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "src/19409bfc.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "cmVnZW4ubW9ycGhlbWUuaGluZGk=",
+    "regen.morpheme.hindi"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "src/19409bfc.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV8zYzBWak11RnludnlYZHpZU09RdkhqeUM=",
+    "sk_live_3c0VjMuFynvyXdzYSOQvHjyC"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "src/19409bfc.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-mq-09.corp.pinegrid-internal.net"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "test/b4f20647.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-primary.kelpie.cloud"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "test/b4f20647.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_45z2TBKT8gYUIgQQ5GlnzzpbGoFl0PR6W1cS"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/64a82735.cmd",
+   "line": 147,
+   "whole_line": "\t\t\"$webclient.Credentials = new-object System.Net.NetworkCredential('%MVNW_USERNAME%', '%MVNW_PASSWORD%');\"^",
+   "source": "creddata"
+  },
+  {
+   "file": "src/18debffc.java",
+   "line": 198,
+   "whole_line": "            for (String key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/27d7ce53.java",
+   "line": 213,
+   "whole_line": "    String APP_KEY = \"appKey\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/27d7ce53.java",
+   "line": 318,
+   "whole_line": "    String SIGN_IS_NOT_PASS = \"sign is not pass,Please check you sign algorithm!\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/82622274.java",
+   "line": 42,
+   "whole_line": "    private static final String HEAD_TOKEN = \"X-Access-Token\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a40cbd6a.java",
+   "line": 50,
+   "whole_line": "    private static final String SESSION_KEY = \"sessionKey\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/etc/03e234ba.java",
+   "line": 100,
+   "whole_line": "            log.error(\"putEphemeral(key:{},value:{}) error.\", key, value, e);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/server/etc/07bf921e.java",
+   "line": 40,
+   "whole_line": "        this.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/server/etc/07bf921e.java",
+   "line": 86,
+   "value": "\" + key + ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/a5766a69.sql",
+   "line": 26,
+   "whole_line": "INSERT INTO `resource` (`id`, `parent_id`, `title`, `name`, `url`, `component`, `resource_type`, `sort`, `icon`, `is_leaf`, `is_route`, `perms`, `status`, `date_created`, `date_updated`) VALUES('1347048004105940992','1346777766301888512','SHENYU.BUTTON.SYSTEM.LIST','','','','2','0','','1','0','system:authen:list','1','2021-01-07 13:10:46','2021-01-17 11:21:44');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/a5766a69.sql",
+   "line": 30,
+   "whole_line": "INSERT INTO `resource` (`id`, `parent_id`, `title`, `name`, `url`, `component`, `resource_type`, `sort`, `icon`, `is_leaf`, `is_route`, `perms`, `status`, `date_created`, `date_updated`) VALUES('1347048316216684544','1346777766301888512','SHENYU.BUTTON.SYSTEM.SYNCHRONIZE','','','','2','4','','1','0','system:authen:modify','1','2021-01-07 13:12:00','2021-01-17 12:06:23');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/a5766a69.sql",
+   "line": 31,
+   "whole_line": "INSERT INTO `resource` (`id`, `parent_id`, `title`, `name`, `url`, `component`, `resource_type`, `sort`, `icon`, `is_leaf`, `is_route`, `perms`, `status`, `date_created`, `date_updated`) VALUES('1347048776029843456','1346777766301888512','SHENYU.BUTTON.SYSTEM.EDIT','','','','2','5','','1','0','system:authen:edit','1','2021-01-07 13:13:50','2021-01-17 11:21:44');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/app/55cf96a7.yml",
+   "line": 26,
+   "whole_line": "    password: sa",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/b17149db.sql",
+   "line": 26,
+   "whole_line": "INSERT IGNORE INTO `resource` (`id`, `parent_id`, `title`, `name`, `url`, `component`, `resource_type`, `sort`, `icon`, `is_leaf`, `is_route`, `perms`, `status`, `date_created`, `date_updated`) VALUES('1347048004105940992','1346777766301888512','SHENYU.BUTTON.SYSTEM.LIST','','','','2','0','','1','0','system:authen:list','1','2021-01-07 13:10:46','2021-01-17 11:21:44');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/b17149db.sql",
+   "line": 30,
+   "whole_line": "INSERT IGNORE INTO `resource` (`id`, `parent_id`, `title`, `name`, `url`, `component`, `resource_type`, `sort`, `icon`, `is_leaf`, `is_route`, `perms`, `status`, `date_created`, `date_updated`) VALUES('1347048316216684544','1346777766301888512','SHENYU.BUTTON.SYSTEM.SYNCHRONIZE','','','','2','4','','1','0','system:authen:modify','1','2021-01-07 13:12:00','2021-01-17 12:06:23');",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/b17149db.sql",
+   "line": 31,
+   "whole_line": "INSERT IGNORE INTO `resource` (`id`, `parent_id`, `title`, `name`, `url`, `component`, `resource_type`, `sort`, `icon`, `is_leaf`, `is_route`, `perms`, `status`, `date_created`, `date_updated`) VALUES('1347048776029843456','1346777766301888512','SHENYU.BUTTON.SYSTEM.EDIT','','','','2','5','','1','0','system:authen:edit','1','2021-01-07 13:13:50','2021-01-17 11:21:44');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/07dc0fe3.java",
+   "line": 62,
+   "whole_line": "        exchange.getAttributes().put(Constants.PARAM_TRANSFORM, \"{key:value}\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5c41c2be.java",
+   "line": 52,
+   "whole_line": "    private static final String MOCK_APP_KEY = \"MOCK_APP_KEY\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5c41c2be.java",
+   "line": 54,
+   "whole_line": "    private static final String MOCK_APP_SECRET = \"MOCK_APP_SECRET\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/8f374c21.java",
+   "line": 31,
+   "whole_line": "    private static final String MOCK_KEY = \"mockKey\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/92d80b30.java",
+   "line": 134,
+   "value": "$2b$10$xhQAXql2jZ8TZGIFmIwtWxSLhOY7Fppff9defMKqmvM9MOaii4a0K",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/96d3f105.java",
+   "line": 75,
+   "value": "/shenyu/auth",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/96d3f105.java",
+   "line": 79,
+   "whole_line": "    private static final String MOCK_APP_AUTH_KEY = \"test\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/a933a801.java",
+   "line": 172,
+   "whole_line": "        String key = \"key1234561234561\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/aba0a779.java",
+   "line": 180,
+   "value": "PASSWORD_TEST_VALUE",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/bddef9f5.java",
+   "line": 97,
+   "whole_line": "        this.passed.setRpcType(\"springCloud\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/bddef9f5.java",
+   "line": 176,
+   "whole_line": "        this.passed.setPath(\"errorPath\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/bddef9f5.java",
+   "line": 186,
+   "whole_line": "        this.passed.setSign(\"errorSign\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/1c8a70fd.java",
+   "line": 49,
+   "whole_line": "        jmxConfig.setPassword(\"promise\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/1c8a70fd.java",
+   "line": 87,
+   "whole_line": "        assertThat(jmxConfig.getPassword(), is(\"promise\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/1c8a70fd.java",
+   "line": 126,
+   "whole_line": "                       + \"password=promise, ssl=true, lowercaseOutputName=false, lowercaseOutputLabelNames=true, \"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/b0840f0e.java",
+   "line": 81,
+   "whole_line": "        assertThat(metricsConfig.toString(), is(\"MetricsConfig(metricsName=prometheus, host=host, port=9999, async=true, threadCount=10, jmxConfig=jmxConfig, props={key=value})\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/f23d7ddd.java",
+   "line": 64,
+   "whole_line": "            \"shenyu.sync.nacos.acm.secretKey=secretKey\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/f23d7ddd.java",
+   "line": 43,
+   "value": "reports-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/secret/14ae04f1.java",
+   "line": 52,
+   "whole_line": "        load(SecretConfiguration.class, \"shenyu.aes.secret.key=\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/util/2c698a15.java",
+   "line": 38,
+   "value": "2023-01-24T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/util/b9dd2cfa.java",
+   "line": 34,
+   "value": "REPORTS_CLIENT_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "test/55a28770.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "ULQVQG0BGY2O7T3YX5ROTPJEVX"
+  },
+  {
+   "file": "test/55a28770.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "941cd97c-6d46-450f-8666-875394d8cbc4"
+  },
+  {
+   "file": "test/55a28770.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "test/55a28770.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/c6c68bfc.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "f3d66813bc3c7dc020797352acc8c3fa1a16a285"
+  },
+  {
+   "file": "other/c6c68bfc.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "<password>"
+  },
+  {
+   "file": "other/c6c68bfc.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "test/5b2f7547.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:0a25f0ba1efe4c95fcf6919a14be9ff6ff04a2d24b9729d6b4682db12f3eec9f"
+  },
+  {
+   "file": "test/5b2f7547.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "ed39bf41b4dd54be7c253800139d6dd063a0a3b9"
+  },
+  {
+   "file": "test/5b2f7547.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "test/5b2f7547.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "localhost"
+  },
+  {
+   "file": "test/5b2f7547.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "9.28.28"
+  },
+  {
+   "file": "test/16f8e552.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "test/16f8e552.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "jane.doe@example.org"
+  },
+  {
+   "file": "test/16f8e552.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "src/19409bfc.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "73ed729"
+  },
+  {
+   "file": "src/19409bfc.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "fd8746fa3ede7a957a6f514996d0b712f3582af9b3b0ca7b56cfab8ae14f3b96"
+  },
+  {
+   "file": "src/19409bfc.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "src/19409bfc.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/b4f20647.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "4.19.41"
+  },
+  {
+   "file": "test/b4f20647.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "0.20.19"
+  },
+  {
+   "file": "test/b4f20647.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-fMxtDlFaSdy8fI7ppxsofgoq5K3doPtINMUbn9GztjvVXYvNP1PzGJy2x6QOPXzQZRbWEKxMInlilmwuy/pxlA=="
+  },
+  {
+   "file": "test/b4f20647.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "7.10.11"
+  },
+  {
+   "file": "test/b4f20647.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-e13tpyHUY1AZzW3JK9kEMLPy32O3q23Hsqqlqd1nYOxSWe7vw8PkZgf5Rabi2UoAv3BMEYcERoipDoO/hFZ5Rw=="
+  },
+  {
+   "file": "test/b4f20647.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "5.6.39"
+  },
+  {
+   "file": "test/b4f20647.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-OQzQ4QlYN0FT9vf7yyV4YYvf3j84mzjHNP3uMMI+BRs9x5fsmMmKFGqxf28nOfvW3swdQWLBwDKI9c2LGPCwQg=="
+  }
+ ]
+}

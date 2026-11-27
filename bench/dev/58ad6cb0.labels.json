@@ -1,0 +1,311 @@
+{
+ "repo": "58ad6cb0",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/3298928d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "tulpe-lukas-prod"
+   ]
+  },
+  {
+   "id": 2,
+   "file": "test/782a7007.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-db-09.prod.acme-internal.net"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "test/782a7007.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Hausem",
+    "Hausemma07!",
+    "ma07!"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "test/f9996e9f.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "c3RpbWUuaGVwLmxlaXB6aWc0MQ==",
+    "stime.hep.leipzig41"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/f9996e9f.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9JWlpDN3oyVEJKcE1HVTR1U3lqZ0JvU1k=",
+    "sk_live_IZZC7z2TBJpMGU4uSyjgBoSY"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/f9996e9f.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-mq-01.prod.nordwind-internal.net"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/9cb659f7.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.17.90.63"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/9cb659f7.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments.xwvjrk.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/9cb659f7.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "T3VCHBIYJ/B02CZMDONQ2/fu4HPrOCpWGnyG1ZftkZd3kE"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/0661c763.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-replica.nordwind.cloud"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/0661c763.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "7qaZ39h4NxqXU5tvTqRje44mAzuT8afn"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/813f5949.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.N_bj4UK33dKpXU8xEnKTi5vU8ETictdnOLTNUbn8.SE2ElHyKidnrA3vf3-pvqjfeuEiCgAlYooFVLku5FUs"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/813f5949.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing.qsron4.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/b3356305.md",
+   "line": 33,
+   "value": "edit",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e0ba0d76.php",
+   "line": 16,
+   "value": "edit",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3298928d.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Hannah Mim 7.6"
+  },
+  {
+   "file": "_/3298928d.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Both Fold 6.1"
+  },
+  {
+   "file": "test/782a7007.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "de5dbe62e3749117bfedf235396e009c5955afcc"
+  },
+  {
+   "file": "test/782a7007.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "test/782a7007.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "test/f9996e9f.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "a46c559"
+  },
+  {
+   "file": "test/f9996e9f.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "319bb258e9e7e18872fbc7cbdcf1ad18ec3d63dbe27216f3c9f243ae54920e16"
+  },
+  {
+   "file": "test/f9996e9f.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "test/f9996e9f.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/9cb659f7.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "15827e25d6aac292b0ae"
+  },
+  {
+   "file": "test/9cb659f7.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "test/9cb659f7.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "30401f36d154d25ecd26d8b3c572e75c220b845c"
+  },
+  {
+   "file": "other/0661c763.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "other/0661c763.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6.24.17"
+  },
+  {
+   "file": "other/0661c763.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6bf2ae94401494694aec11c0833aef0c308541e9"
+  },
+  {
+   "file": "other/0661c763.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "281b268e-31fa-443e-ba46-803317661e41"
+  },
+  {
+   "file": "src/813f5949.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "5.11.46"
+  },
+  {
+   "file": "src/813f5949.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "e47ee50af4e035e341c500d9d95abe5f214af53a"
+  },
+  {
+   "file": "src/813f5949.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "TDOBSK3K2XBLXU4D4NFYX3ITEZ"
+  },
+  {
+   "file": "src/813f5949.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "src/813f5949.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "4KXG23ISVPRN3KUOPX312GVGO9"
+  },
+  {
+   "file": "src/813f5949.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  }
+ ]
+}

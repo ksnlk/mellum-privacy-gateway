@@ -1,0 +1,849 @@
+{
+ "repo": "b6a0ac3d",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 509,
+   "start": 14,
+   "end": 21,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "qkgtka6"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "other/bccfd49e.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-db-03.int.pinegrid-internal.net"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "other/bccfd49e.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "o5Z39iTxNeMM4wRlkihX0pYUBapK8pOn"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "_/2bf41c29.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "argocd.kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "_/2bf41c29.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_345DnNQmDJyWoJAHp4b0P0HpvJPkQqcTymsv"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/4469bffb.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-prod.ins1njq0z5os.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/4469bffb.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "enos969!"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/4469bffb.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Garten@1986"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/d03290a2.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-replica.acme.cloud"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/d03290a2.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Eiche$2007"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/d03290a2.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "HnOg846fH060xbRF26fBC18DPy54HphX"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/d03290a2.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "euif9mtk3eh03nonca0y4yy79a0k1eao"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/09e1412d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lina Schmidt"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/09e1412d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben28@gmail.com"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/09e1412d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 6016 9773"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/09e1412d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.105.237.191"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/09e1412d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "locked.berg.moo36"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/280f0057.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.8tdbyobn84mw.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/280f0057.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "135.123.181.72"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/280f0057.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sofia86@gmail.com"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/280f0057.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.ptlymq4k47cr.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/280f0057.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "pinniped_aland_pineapple62"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "mock/src/cd9fcc8d.rs",
+   "line": 82,
+   "whole_line": "                    \"token\": \"testtoken\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4e251f40.rs",
+   "line": 58,
+   "whole_line": "pub fn get_private_key(path: &str) -> Option<PrivateKey> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4e251f40.rs",
+   "line": 59,
+   "whole_line": "    let key_file = File::open(path).unwrap();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4e251f40.rs",
+   "line": 61,
+   "whole_line": "    let mut key_buf = Vec::new();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4e251f40.rs",
+   "line": 97,
+   "whole_line": "fn validate_private_key(key: PrivateKey) -> Option<PrivateKey> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4e251f40.rs",
+   "line": 123,
+   "whole_line": "pub fn get_key_from_str(s: &str) -> Option<PrivateKey> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4e251f40.rs",
+   "line": 175,
+   "whole_line": "                    println!(\"Failed to decode private key: {:?}\", e);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/3b2295c2.rs",
+   "line": 83,
+   "whole_line": "        if let (Some(username), Some(password)) = (conf.username, conf.password) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/3b2295c2.rs",
+   "line": 84,
+   "whole_line": "            auth_vec.push(UserAuth::UserPass(username, password))",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/3b2295c2.rs",
+   "line": 100,
+   "whole_line": "        UserConf { auths: auth_vec }",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/3b2295c2.rs",
+   "line": 171,
+   "value": "&str",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/3b2295c2.rs",
+   "line": 195,
+   "whole_line": "        let key = get_key_from_str(key_str.as_str());",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/3b2295c2.rs",
+   "line": 332,
+   "whole_line": "                UserAuth::Token(ref token) => auth = Some(KlusterAuth::with_token(token.as_str())),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/3b2295c2.rs",
+   "line": 334,
+   "whole_line": "                    auth = Some(KlusterAuth::with_userpass(username, password))",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 98,
+   "whole_line": "    pub token: Option<String>,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 103,
+   "whole_line": "    pub client_key: Option<String>,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 110,
+   "whole_line": "    pub password: Option<String>,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 129,
+   "whole_line": "    pub token: RefCell<Option<String>>,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 137,
+   "whole_line": "    pub access_token: Option<String>,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 145,
+   "whole_line": "    expiry_key: Option<String>,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 147,
+   "whole_line": "    token_key: Option<String>,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 210,
+   "whole_line": "        token: &mut Option<String>,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 257,
+   "whole_line": "    fn update_token(&self, token: &mut Option<String>, expiry: &mut Option<DateTime<Local>>) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 326,
+   "whole_line": "    token: Option<String>,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 373,
+   "value": "RefCell<Option<ExecAuth>>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 381,
+   "whole_line": "            auth: RefCell::new(None),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 480,
+   "whole_line": "    certificate-authority-data: aGVsbG8K",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 501,
+   "whole_line": "    token: DEADBEEF",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 573,
+   "whole_line": "                    && u.conf.password == user.conf.password",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 574,
+   "value": "user.conf.auth_provider",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 668,
+   "whole_line": "                    client_key: Some(\"../relative/c1.key\".to_string()),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 672,
+   "whole_line": "                    password: None,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 683,
+   "whole_line": "                    token: Some(\"DEADBEEF\".to_string()),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 689,
+   "whole_line": "                    password: None,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 706,
+   "whole_line": "                    password: None,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 723,
+   "whole_line": "                    password: Some(\"hunter2\".to_string()),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 756,
+   "whole_line": "            token: RefCell::new(None),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 763,
+   "whole_line": "                expiry_key: Some(\"{.credential.token_expiry}\".to_string()),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 764,
+   "whole_line": "                token_key: Some(\"{.credential.access_token}\".to_string()),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 785,
+   "whole_line": "    \"token_expiry\": \"2019-12-29T23:38:43Z\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 810,
+   "whole_line": "            token: RefCell::new(None),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 813,
+   "whole_line": "                access_token: Some(\"CTOKEN\".to_string()),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 857,
+   "whole_line": "            token: RefCell::new(None),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 872,
+   "whole_line": "            token: RefCell::new(None),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 892,
+   "whole_line": "            auth: RefCell::new(None),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 908,
+   "whole_line": "            auth: RefCell::new(Some(ExecAuth::Token(\"old-token\".to_string()))),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/kube/92f02c26.rs",
+   "line": 510,
+   "value": "PYSBSO9KXWZZDSL3FUQ8",
+   "source": "creddata"
+  },
+  {
+   "file": "src/kube/2f4d83be.rs",
+   "line": 391,
+   "whole_line": "    pub fn with_token(token: &str) -> KlusterAuth {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/kube/2f4d83be.rs",
+   "line": 395,
+   "whole_line": "    pub fn with_userpass(user: &str, pass: &str) -> KlusterAuth {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/kube/2f4d83be.rs",
+   "line": 411,
+   "whole_line": "    key: PrivateKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/kube/2f4d83be.rs",
+   "line": 418,
+   "whole_line": "            key: private_key,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/kube/2f4d83be.rs",
+   "line": 432,
+   "value": "Option<KlusterAuth>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/kube/2f4d83be.rs",
+   "line": 574,
+   "whole_line": "                password: Some(pass.clone()),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/kube/2f4d83be.rs",
+   "line": 600,
+   "value": "Option<KlusterAuth>",
+   "source": "creddata"
+  },
+  {
+   "file": "other/bccfd49e.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "other/bccfd49e.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "7.10.10"
+  },
+  {
+   "file": "other/bccfd49e.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "b672dedf93d30b2ea1f6f9fe962e37739adb5efb"
+  },
+  {
+   "file": "other/bccfd49e.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "67c82616-4509-4bee-ba3d-3bab1976949a"
+  },
+  {
+   "file": "_/2bf41c29.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "5.6.24"
+  },
+  {
+   "file": "_/2bf41c29.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5.8.6"
+  },
+  {
+   "file": "_/2bf41c29.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-GV0NYFYL3VdMaRDjtxFv26NAIlUSIWXDPs4eag8VA3Z0Ha8wWozpTwfkr2XgojmBuaN5gArDRFiSepv+ArZHgQ=="
+  },
+  {
+   "file": "_/2bf41c29.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9.28.10"
+  },
+  {
+   "file": "_/2bf41c29.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-pBouhSlVVKECcXavpyayDdBifgfqNUcfDri8WWpavR4ZezfJM26gK9xMcry9wvZ2MxEQX1tqoiHSnHYY7J/oDg=="
+  },
+  {
+   "file": "_/2bf41c29.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.7.30"
+  },
+  {
+   "file": "_/2bf41c29.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-h3f2Iytd7SZ5CEh7L9Xzf9KIbmuUNjBZ/Fljgm9bqOxgxpTZDK1lNdMMd9JgBgsAyEf+D8bKTWEmCQVck/uRXw=="
+  },
+  {
+   "file": "src/4469bffb.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "reload-schatz-v2"
+  },
+  {
+   "file": "src/4469bffb.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "reporting"
+  },
+  {
+   "file": "src/4469bffb.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "forties-mary-prod"
+  },
+  {
+   "file": "src/4469bffb.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "deploy"
+  },
+  {
+   "file": "src/4469bffb.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "ledger_reader"
+  },
+  {
+   "file": "src/4469bffb.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "rarity9"
+  },
+  {
+   "file": "other/d03290a2.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/acme/auth/prod"
+  },
+  {
+   "file": "other/d03290a2.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "PAYMENTS_AUTH_TOKEN"
+  },
+  {
+   "file": "other/d03290a2.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "other/d03290a2.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/run/secrets/auth_password"
+  },
+  {
+   "file": "other/d03290a2.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "HS256"
+  },
+  {
+   "file": "other/d03290a2.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "other/d03290a2.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "185089994968-25tp4oxahygyzjw4ut1cwhr0mq6hej4k.apps.googleusercontent.com"
+  },
+  {
+   "file": "other/d03290a2.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2024-03-08T00:00:00Z"
+  },
+  {
+   "file": "other/d03290a2.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "reports-api-token"
+  },
+  {
+   "file": "other/d03290a2.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6MTI3OTI6b2Zmc2V0OjM3NA=="
+  },
+  {
+   "file": "_/09e1412d.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "198.51.100.131"
+  },
+  {
+   "file": "_/09e1412d.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "1.0.27"
+  },
+  {
+   "file": "_/09e1412d.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:954caaef0f1da9243117dfb4ecb577351d104e24e34fe02077e4040649206aa5"
+  },
+  {
+   "file": "_/09e1412d.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/09e1412d.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/280f0057.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "www.brightloop-corp.de"
+  },
+  {
+   "file": "other/280f0057.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.brightloop-corp.de"
+  },
+  {
+   "file": "other/280f0057.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/280f0057.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "other/280f0057.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "other/280f0057.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "other/280f0057.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@brightloop-corp.de"
+  },
+  {
+   "file": "other/280f0057.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "bm8tY2FjaGUsbm8tc3RvcmU="
+  },
+  {
+   "file": "other/280f0057.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "6170706c69636174696f6e2f6a736f6e"
+  },
+  {
+   "file": "other/280f0057.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "oauth2.googleapis.com"
+  }
+ ]
+}

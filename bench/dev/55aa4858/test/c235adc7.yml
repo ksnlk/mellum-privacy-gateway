@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: acme-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "9478a25"
+type: Opaque
+data:
+  DB_PASSWORD: dG9sZC5zbWFzaC5raWVs
+  STRIPE_KEY: c2tfbGl2ZV9MdjFzVGdNNHFlQTFMWnhWVTY1dnFCU3E=
+  ca.crt.sha256: 6d4c1da10551b2b643cef48e1fadd79f95f8c242d3ba3e94dc8f78fb9543d852
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: acme-payments-config
+data:
+  DB_HOST: "billing.nxyeyu.ng.0001.euc1.cache.amazonaws.com"
+  SENTRY_HOST: "storage.googleapis.com"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

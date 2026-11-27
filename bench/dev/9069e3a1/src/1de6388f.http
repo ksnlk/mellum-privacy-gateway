@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://etl.05rlxd.ng.0001.euc1.cache.amazonaws.com/api/v3/invoices?page=2
+Authorization: Basic Z3JhZmFuYTpTb21tZXJAMTk4OQ==
+Cookie: _ga=GA1.2.PRYUSY4BQ8SH4TFENFKYRILELJ; session_id=l9a7fm708y80aop2d42t1geaf5zkghzl
+X-Request-Id: 82b86b2c-6a6b-4d60-bc6b-7928ca2d32e4
+
+### the docs example, safe to share
+GET https://cdn.jsdelivr.net/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

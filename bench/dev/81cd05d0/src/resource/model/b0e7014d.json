@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2013-12-02",
+    "endpointPrefix":"kinesis",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "protocolSettings":{"h2":"eventstream"},
+    "serviceAbbreviation":"Kinesis",
+    "serviceFullName":"Amazon Kinesis",
+    "serviceId":"Kinesis",
+    "signatureVersion":"v4",
+    "targetPrefix":"Kinesis_20131202",
+    "uid":"kinesis-2013-12-02"
+  },
+  "operations":{
+    "AddTagsToStream":{
+      "name":"AddTagsToStream",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AddTagsToStreamInput"},
+      "errors":[
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ResourceInUseException"},
+        {"shape":"InvalidArgumentException"},
+        {"shape":"LimitExceededException"}
+      ],

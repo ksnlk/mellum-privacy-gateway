@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://etl.puevid.ng.0001.euc1.cache.amazonaws.com/api/v3/invoices?page=2
+Authorization: Basic Z3JhZmFuYTpMb2V3ZUAxOTg3
+Cookie: _ga=GA1.2.A5L1UTRK2Y4OYAF1AFP8UMEM78; session_id=x7rv5cikw4rp9tbztnjti7130c4ou6sh
+X-Request-Id: 855c80e2-3515-4680-bb86-09d798c76931
+
+### the docs example, safe to share
+GET https://auth0.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

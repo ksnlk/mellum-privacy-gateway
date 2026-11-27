@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: nordwind-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "fe8a97a"
+type: Opaque
+data:
+  DB_PASSWORD: Z3V5LmZ1c3NiYWxsLmhlYWx0aDYz
+  STRIPE_KEY: c2tfbGl2ZV9tUFhPNUpUWEJuV0pTNmMwc3hmYTYxdGk=
+  ca.crt.sha256: fbf4df58b47f5b3c96ffbc7de78f6c972a1ab6fce68e676ed8d24b3b310673ab
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nordwind-payments-config
+data:
+  DB_HOST: "crm-mq-01.prod.nordwind-internal.net"
+  SENTRY_HOST: "api.stripe.com"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

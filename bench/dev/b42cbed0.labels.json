@@ -1,0 +1,799 @@
+{
+ "repo": "b42cbed0",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/3bfa3e18",
+   "line": 13,
+   "start": 22,
+   "end": 86,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "8780ff0aa18708af2887f7ec8ed5850be3564c9b08e54b590f5abada1eef6dd1"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/8f6f73d6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl.wl54cx.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "test/8f6f73d6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "freez",
+    "freezing241$",
+    "ing241$"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "src/72cc48f1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.fischer@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/72cc48f1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 4026 2402"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/72cc48f1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Blum377"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/72cc48f1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE29452013566633712323"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/b1648b67.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "watched936"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/e70c882b.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "62316535313130303532616662306435613434613938646563333732306437633133393134663135663332646233363164343062626432653566393636393731",
+    "b1e5110052afb0d5a44a98dec3720d7c13914f15f32db361d40bbd2e5f966971"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/8f64f0ce.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-primary.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/8f64f0ce.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_0rGlPKIZ2Y3O8Z8AbnrtVoYKRv2kWAZXECAB"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/ff5917a0.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "satisfying73!"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/ff5917a0.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.30.162.32"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/ff5917a0.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "VW5pb25sdWthczYyIQ==",
+    "Unionlukas62!"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/0f0306b9.deprecated",
+   "line": 17,
+   "whole_line": "    key: \"heads-$GITLAB_USER_LOGIN-2\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/104df498.config",
+   "line": 9,
+   "whole_line": "# HOTP_KEY: HOTP challenge for currently supported USB Security dongles",
+   "source": "creddata"
+  },
+  {
+   "file": "_/2ba55349.py",
+   "line": 457,
+   "whole_line": "                end_addr, max(unremovable_huff_chunks, key=lambda x: x[1])[1]",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/78a8a197.yml",
+   "line": 138,
+   "whole_line": "          key: heads-musl-cross-{{ checksum \"./tmpDir/musl-cross.sha256sums\" }}{{ .Environment.CACHE_VERSION }}",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/78a8a197.yml",
+   "line": 144,
+   "whole_line": "          key: heads-coreboot-musl-cross-{{ checksum \"./tmpDir/coreboot_musl-cross.sha256sums\" }}{{ .Environment.CACHE_VERSION }}",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/78a8a197.yml",
+   "line": 151,
+   "whole_line": "          key: heads-modules-and-patches-{{ checksum \"./tmpDir/all_modules_and_patches.sha256sums\" }}{{ .Environment.CACHE_VERSION }}",
+   "source": "creddata"
+  },
+  {
+   "file": "init/03ad491a.sh",
+   "line": 77,
+   "whole_line": "  GPG_GEN_KEY=`grep -A1 pub /tmp/gpg_card_edit_output | tail -n1 | sed -nr 's/^([ ])*//p'`",
+   "source": "creddata"
+  },
+  {
+   "file": "init/03ad491a.sh",
+   "line": 118,
+   "whole_line": "        PUBKEY=$FILE",
+   "source": "creddata"
+  },
+  {
+   "file": "init/03ad491a.sh",
+   "line": 168,
+   "whole_line": "            PUBKEY=$FILE",
+   "source": "creddata"
+  },
+  {
+   "file": "init/03ad491a.sh",
+   "line": 202,
+   "value": "gpg -k",
+   "source": "creddata"
+  },
+  {
+   "file": "init/1dd636f8",
+   "line": 8,
+   "whole_line": "read -s -p \"New TPM owner password: \" key_password",
+   "source": "creddata"
+  },
+  {
+   "file": "init/1dd636f8",
+   "line": 15,
+   "whole_line": "read -s -p \"Repeat owner password: \" key_password2",
+   "source": "creddata"
+  },
+  {
+   "file": "init/1dd636f8",
+   "line": 19,
+   "whole_line": "if [ \"$key_password\" != \"$key_password2\" ]; then",
+   "source": "creddata"
+  },
+  {
+   "file": "init/42674bf5",
+   "line": 6,
+   "whole_line": "TMP_KEY_DEVICES=\"/tmp/kexec/kexec_key_devices.txt\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/42674bf5",
+   "line": 7,
+   "whole_line": "TMP_KEY_LVM=\"/tmp/kexec/kexec_key_lvm.txt\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/42674bf5",
+   "line": 37,
+   "whole_line": "SECRET_CPIO=/tmp/secret/initrd.cpio",
+   "source": "creddata"
+  },
+  {
+   "file": "init/5a9e3f59",
+   "line": 65,
+   "whole_line": "\tkey=`echo $line | cut -d\\  -f1`",
+   "source": "creddata"
+  },
+  {
+   "file": "init/5a9e3f59",
+   "line": 68,
+   "whole_line": "\tif [ \"$key\" = \"kernel\" ]; then",
+   "source": "creddata"
+  },
+  {
+   "file": "init/5a9e3f59",
+   "line": 81,
+   "whole_line": "\tif [ \"$key\" = \"module\" ]; then",
+   "source": "creddata"
+  },
+  {
+   "file": "init/5a9e3f59",
+   "line": 100,
+   "whole_line": "\tif [ \"$key\" = \"initrd\" ]; then",
+   "source": "creddata"
+  },
+  {
+   "file": "init/5a9e3f59",
+   "line": 111,
+   "whole_line": "\tif [ \"$key\" = \"append\" ]; then",
+   "source": "creddata"
+  },
+  {
+   "file": "init/5ef9927e",
+   "line": 17,
+   "whole_line": "key_devices=\"$@\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/5ef9927e",
+   "line": 35,
+   "whole_line": "\t\tkey_devices=\"$key_devices $dev\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/97d0dca9",
+   "line": 14,
+   "whole_line": "key_file=\"$1\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/97d0dca9",
+   "line": 17,
+   "whole_line": "\tkey_file=\"/tmp/secret/secret.key\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/97d0dca9",
+   "line": 27,
+   "whole_line": "\tread -s -p \"Enter unlock password (blank to abort): \" tpm_password",
+   "source": "creddata"
+  },
+  {
+   "file": "init/97d0dca9",
+   "line": 37,
+   "whole_line": "\t\t-pwdd \"$tpm_password\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "init/bec315d5",
+   "line": 23,
+   "whole_line": "RSA_KEY_LENGTH=3072",
+   "source": "creddata"
+  },
+  {
+   "file": "init/bec315d5",
+   "line": 26,
+   "value": "date +%Y%m%d%H%M%S",
+   "source": "creddata"
+  },
+  {
+   "file": "init/bec315d5",
+   "line": 193,
+   "value": "$USER_PIN_DEF",
+   "source": "creddata"
+  },
+  {
+   "file": "init/bec315d5",
+   "line": 313,
+   "whole_line": "  TPM_PASS_DEF=$CUSTOM_PASS",
+   "source": "creddata"
+  },
+  {
+   "file": "init/bec315d5",
+   "line": 427,
+   "whole_line": "GPG_GEN_KEY=`grep -A1 pub /tmp/gpg_card_edit_output | tail -n1 | sed -nr 's/^([ ])*//p'`",
+   "source": "creddata"
+  },
+  {
+   "file": "init/bec315d5",
+   "line": 451,
+   "whole_line": "        whiptail_error_die \"Key export error: unable to copy ${GPG_GEN_KEY}.asc to /media:\\n\\n$ERROR\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/bec315d5",
+   "line": 467,
+   "whole_line": "    whiptail_error_die \"Error importing GPG key:\\n\\n$ERROR\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/d3df84c7",
+   "line": 9,
+   "whole_line": "KEY_FILE=\"/tmp/secret/secret.key\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/d3df84c7",
+   "line": 11,
+   "whole_line": "RECOVERY_KEY=\"/tmp/secret/recovery.key\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/d3df84c7",
+   "line": 21,
+   "whole_line": "KEY_DEVICES=\"$paramsdir/kexec_key_devices.txt\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/d3df84c7",
+   "line": 22,
+   "whole_line": "KEY_LVM=\"$paramsdir/kexec_key_lvm.txt\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/d3df84c7",
+   "line": 41,
+   "whole_line": "read -s -p \"Enter disk recovery key: \" disk_password",
+   "source": "creddata"
+  },
+  {
+   "file": "init/d3df84c7",
+   "line": 42,
+   "whole_line": "echo -n \"$disk_password\" > \"$RECOVERY_KEY\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/d3df84c7",
+   "line": 45,
+   "whole_line": "read -s -p \"New disk unlock password for booting: \" key_password",
+   "source": "creddata"
+  },
+  {
+   "file": "init/d3df84c7",
+   "line": 47,
+   "whole_line": "read -s -p \"Repeat unlock code: \" key_password2",
+   "source": "creddata"
+  },
+  {
+   "file": "init/d3df84c7",
+   "line": 50,
+   "whole_line": "if [ \"$key_password\" != \"$key_password2\" ]; then",
+   "source": "creddata"
+  },
+  {
+   "file": "init/d3df84c7",
+   "line": 51,
+   "whole_line": "\tdie \"Key passwords do not match\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/d3df84c7",
+   "line": 108,
+   "whole_line": "\t-pwdd \"$key_password\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "init/d3df84c7",
+   "line": 136,
+   "whole_line": "\tread -s -p \"TPM Owner password: \" tpm_password",
+   "source": "creddata"
+  },
+  {
+   "file": "init/d3df84c7",
+   "line": 142,
+   "whole_line": "\t\t-pwdo \"$tpm_password\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "init/e574d8d1",
+   "line": 7,
+   "whole_line": "HOTP_SECRET=\"/tmp/secret/hotp.key\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/e574d8d1",
+   "line": 9,
+   "whole_line": "HOTP_KEY=\"/boot/kexec_hotp_key\"",
+   "source": "creddata"
+  },
+  {
+   "file": "init/e574d8d1",
+   "line": 74,
+   "value": "Librem Key",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/2b51dc9d",
+   "line": 44,
+   "whole_line": "\t&& cp \"$(pwd)/$(linux_kconfig)\" \"$(build)/$(linux_dir)/.config\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/2b51dc9d",
+   "line": 59,
+   "whole_line": "\t\tKCONFIG_CONFIG=\"$(pwd)/$(linux_kconfig)\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/2b51dc9d",
+   "line": 113,
+   "whole_line": "EXTRA_FLAGS := -fdebug-prefix-map=$(pwd)=heads -gno-record-gcc-switches",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/2b51dc9d",
+   "line": 191,
+   "whole_line": "\tmv \"$(build)/$(linux_dir)/defconfig\" \"$(pwd)/$(linux_kconfig)\"",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/fe12936a",
+   "line": 1,
+   "value": "hotp-verification",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/fe12936a",
+   "line": 27,
+   "value": "e5ae0d30a523c565595bdfba3d5f2e9e1faf0bd0",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/fe12936a",
+   "line": 31,
+   "value": "acc2a5089a8917085c2b3ebe9446065a21c760ba7e13cb54917043c4122188e0",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/fe12936a",
+   "line": 36,
+   "value": ".built",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/fe12936a",
+   "line": 37,
+   "value": "echo",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 26,
+   "whole_line": "-+class pass_nds32_abi_compatible : public gimple_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 77,
+   "whole_line": "-+class pass_nds32_const_remater_opt : public rtl_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 128,
+   "whole_line": "-+class pass_nds32_cprop_acc_opt : public rtl_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 179,
+   "whole_line": "-+class pass_nds32_fp_as_gp : public rtl_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 230,
+   "whole_line": "-+class pass_nds32_gcse_opt : public rtl_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 281,
+   "whole_line": "-+class pass_nds32_rename_lmwsmw_opt : public rtl_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 312,
+   "whole_line": "-+class pass_nds32_gen_lmwsmw_opt : public rtl_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 363,
+   "whole_line": "-+load_store_optimize_pass::calc_gain (HARD_REG_SET *available_regset,",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 414,
+   "whole_line": "-+load_store_optimize_pass::do_optimize (",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 465,
+   "whole_line": "-+class pass_nds32_load_store_opt : public rtl_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 516,
+   "whole_line": "-+class pass_nds32_print_stalls : public rtl_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 567,
+   "whole_line": "-+class pass_nds32_regrename_opt : public rtl_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 618,
+   "whole_line": "-+class pass_nds32_relax_opt : public rtl_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 669,
+   "whole_line": "-+class pass_nds32_scalbn_transform_opt : public gimple_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 720,
+   "whole_line": "-+class pass_nds32_sign_conversion_opt : public gimple_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 771,
+   "whole_line": "-+class pass_nds32_soft_fp_arith_comm_opt : public rtl_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 822,
+   "whole_line": "-+  opt_pass *new_opt_pass = make_pass_func (g);",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 841,
+   "whole_line": "-+  opt_pass *new_opt_pass = make_pass_func (g);",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 881,
+   "whole_line": "-+    PASS_POS_INSERT_AFTER,",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 932,
+   "value": "current_pass->name",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 983,
+   "value": "must_pass_in_stack_var_size",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 985,
+   "value": "riscv_pass_by_reference",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f80bc58f.patch",
+   "line": 1036,
+   "whole_line": "++class pass_nds32_fp_as_gp : public rtl_opt_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8f6f73d6.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "934e0584c3397f8fba02b573357fd8ab9de6b8f5"
+  },
+  {
+   "file": "test/8f6f73d6.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "test/8f6f73d6.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "src/72cc48f1.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "src/72cc48f1.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "jane.doe@example.org"
+  },
+  {
+   "file": "src/72cc48f1.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "${DB_PASSWORD}"
+  },
+  {
+   "file": "test/b1648b67.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "politique99"
+  },
+  {
+   "file": "test/b1648b67.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "dolly-european-2021"
+  },
+  {
+   "file": "src/e70c882b.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "923c893fd3fd9476d962cd40f514e79d1fdb6197162e46261c12f79cca001b30"
+  },
+  {
+   "file": "src/8f64f0ce.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "9.23.49"
+  },
+  {
+   "file": "src/8f64f0ce.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "2.12.32"
+  },
+  {
+   "file": "src/8f64f0ce.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-YJKSL3lvo7a4TFVy8al7eD65kVzqJCJ+ugh0KeSxqVO1C//yJ65zHhv+nON/nU5+QzqvTnnvLagmpjQI1CuzRQ=="
+  },
+  {
+   "file": "src/8f64f0ce.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "7.4.29"
+  },
+  {
+   "file": "src/8f64f0ce.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-weUgZ/+oGbac6jAv2FsCLBqD8QuMFr8cqssCiMZTSmWdOSV1fOrZGvQpooGnbQx6jDtsJ6qra90e76aQNZHzvQ=="
+  },
+  {
+   "file": "src/8f64f0ce.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "4.5.41"
+  },
+  {
+   "file": "src/8f64f0ce.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-m/b+/g99nKwHTbUKQuLaCgO7bvlgdKOc0dc81AVfjXUbHzMVAIsY1T6MWt0JUCa1r1pQCt+tTPrJ2xcH+Wt3wg=="
+  },
+  {
+   "file": "test/ff5917a0.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:539605be4cc0704a07465e29e1bf3d02c383cf8089bad541ab011cc6f2bcee92"
+  },
+  {
+   "file": "test/ff5917a0.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "3bb3a38056fb36153b28c52c90185babd688b95a"
+  },
+  {
+   "file": "test/ff5917a0.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "REPLACE_ME"
+  },
+  {
+   "file": "test/ff5917a0.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "test/ff5917a0.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "6.14.3"
+  }
+ ]
+}

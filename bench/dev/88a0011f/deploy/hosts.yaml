@@ -1,0 +1,15 @@
+monitoring: falkor.acme.systems
+database:
+  host: atlas.acme.systems
+  port: 5432
+queue: kestrel.acme.systems
+backup_target: nimbus.acme.systems
+website: shop.acme.systems
+payments_api: https://api.paycore.com/v2
+partner_drop: files.paycore.de
+allow_sources:
+  - 185.89.28.153
+  - 140.82.112.3
+  - 185.89.123.210
+ntp: 212.18.3.19
+mirrors: [build.opensuse.org, mirrors.kernel.org]

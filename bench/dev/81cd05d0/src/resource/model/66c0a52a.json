@@ -1,0 +1,80 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2013-06-30",
+    "endpointPrefix":"storagegateway",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"AWS Storage Gateway",
+    "serviceId":"Storage Gateway",
+    "signatureVersion":"v4",
+    "targetPrefix":"StorageGateway_20130630",
+    "uid":"storagegateway-2013-06-30"
+  },
+  "operations":{
+    "ActivateGateway":{
+      "name":"ActivateGateway",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ActivateGatewayInput"},
+      "output":{"shape":"ActivateGatewayOutput"},
+      "errors":[
+        {"shape":"InvalidGatewayRequestException"},
+        {"shape":"InternalServerError"}
+      ],
+      "documentation":"<p>Activates the gateway you previously deployed on your host. In the activation process, you specify information such as the AWS Region that you want to use for storing snapshots or tapes, the time zone for scheduled snapshots the gateway snapshot schedule window, an activation key, and a name for your gateway. The activation process also associates your gateway with your account. For more information, see <a>UpdateGatewayInformation</a>.</p> <note> <p>You must turn on the gateway VM before you can activate your gateway.</p> </note>"
+    },
+    "AddCache":{
+      "type":"structure",
+      "members":{
+        "CachediSCSIVolumes":{
+          "shape":"CachediSCSIVolumes",
+          "documentation":"<p>An array of objects where each object contains metadata about one cached volume.</p>"
+        }
+      },
+      "documentation":"<p>A JSON object containing the following fields:</p>"
+    },
+    "DescribeChapCredentialsInput":{
+      "type":"structure",
+      "required":["TargetARN"],
+      "members":{
+        "TargetARN":{
+          "shape":"TargetARN",
+          "documentation":"<p>The Amazon Resource Name (ARN) of the iSCSI volume target. Use the <a>DescribeStorediSCSIVolumes</a> operation to return to retrieve the TargetARN for specified VolumeARN.</p>"
+        }
+      },
+      "documentation":"<p>A JSON object containing the Amazon Resource Name (ARN) of the iSCSI volume target.</p>"
+    },
+    "DescribeChapCredentialsOutput":{
+      "type":"structure",
+      "members":{
+        "ChapCredentials":{
+          "shape":"ChapCredentials",
+          "documentation":"<p>An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li> </ul>"
+        }
+      },
+      "documentation":"<p>A JSON object containing the following fields:</p>"
+    },
+    "DescribeFileSystemAssociationsInput":{
+      "type":"structure",
+      "required":["FileSystemAssociationARNList"],
+      "members":{
+        "FileSystemAssociationARNList":{
+          "shape":"FileSystemAssociationARNList",
+          "documentation":"<p>An array containing the Amazon Resource Name (ARN) of each file system association to be described.</p>"
+        }
+      }
+    },
+    "DescribeFileSystemAssociationsOutput":{
+      "type":"structure",
+      "members":{
+        "FileSystemAssociationInfoList":{
+          "shape":"FileSystemAssociationInfoList",
+          "documentation":"<p>An array containing the <code>FileSystemAssociationInfo</code> data type of each file system association to be described. </p>"
+        }
+      }
+    },
+    "DescribeGatewayInformationInput":{
+      "type":"structure",

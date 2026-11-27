@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://vault.pinegrid-corp.de/api/v3/invoices?page=2
+Authorization: Basic ZGVwbG95OmJsaXR6X3NhbnRvczMz
+Cookie: _ga=GA1.2.1A18DYRM5GKV338PKEU8FA8VDL; session_id=qcbq41x8w18wncqwysw39esupn28ybdi
+X-Request-Id: b3b02500-f49c-48e0-aa1f-a05f6e11803c
+
+### the docs example, safe to share
+GET https://o450123.ingest.sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

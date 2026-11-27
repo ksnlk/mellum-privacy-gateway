@@ -1,0 +1,19 @@
+# pinegrid payments service
+database:
+  host: crm.80s5uu.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "increase_combat-stage"
+  password_source: secret/data/pinegrid/auth/staging
+  password_env: ETL_AUTH_TOKEN
+api:
+  key_header: Authorization
+  partner_ident: k3icu9JC8zpVUuHd0w0bE6vplVkaSjv5
+  key_file: /run/secrets/etl_password
+  signing_alg: HS256
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 403659430806-qwlvt33ugjwe9g9qr6vh0epw5k6rms6a.apps.googleusercontent.com
+  client_proof: g2ukv9rf5cyhanlfogmlk84olv2g41b5
+  secret_rotated_at: "2026-03-01T00:00:00Z"
+  secret_name: crm-oauth-client
+pagination:
+  first_cursor: b3JkZXI6MTg1NTM6b2Zmc2V0OjQxOA==

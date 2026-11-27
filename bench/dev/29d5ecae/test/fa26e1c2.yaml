@@ -1,0 +1,19 @@
+# kelpie payments service
+database:
+  host: payments.58sinu.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "Unionherbst10?"
+  password_source: secret/data/kelpie/auth/prod
+  password_env: BILLING_CLIENT_SECRET
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: wkG4aVeMNfKpFVmig5eBhC8plGvRIxjh
+  key_file: /var/run/secrets/vault/token
+  signing_alg: scrypt
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 900917666747-66istonu27rx9x5nxpiu4s1v02p1iwmj.apps.googleusercontent.com
+  client_proof: cg9lbpdfmrc3wg26pzb7lz6muhfqz6hk
+  secret_rotated_at: "2025-04-12T00:00:00Z"
+  secret_name: vault-oauth-client
+pagination:
+  first_cursor: dXNlcjo1NDAyMjpvZmZzZXQ6MjE4

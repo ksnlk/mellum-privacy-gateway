@@ -1,0 +1,15 @@
+monitoring: falkor.quarzo.systems
+database:
+  host: juno.quarzo.systems
+  port: 5432
+queue: vega.quarzo.systems
+backup_target: kestrel.quarzo.systems
+website: kunden.quarzo.systems
+payments_api: https://api.mailvault.com/v2
+partner_drop: files.mailvault.de
+allow_sources:
+  - 188.190.241.151
+  - 185.199.108.153
+  - 188.209.118.44
+ntp: 162.159.200.1
+mirrors: [grafana.wikimedia.org, registry.terraform.io]

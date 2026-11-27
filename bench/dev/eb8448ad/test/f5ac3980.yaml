@@ -1,0 +1,19 @@
+# nordwind payments service
+database:
+  host: reports.258l3h.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "packer508"
+  password_source: secret/data/nordwind/crm/staging
+  password_env: BILLING_CLIENT_SECRET
+api:
+  key_header: X-Api-Key
+  partner_ident: WnMM7Lpv4Hu4rG4H7isQWXkE95A3pE0b
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: HS256
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 702433099342-dyd282zpqrxhytdz2ef5iygtqrcmjhsh.apps.googleusercontent.com
+  client_proof: dquo0gueqnk7aew54thg2gy2ptco9ztn
+  secret_rotated_at: "2026-01-11T00:00:00Z"
+  secret_name: reports-db-credentials
+pagination:
+  first_cursor: aW52b2ljZTozNjc5NjpvZmZzZXQ6NDEz

@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2020-11-30",
+    "endpointPrefix":"greengrass",
+    "jsonVersion":"1.1",
+    "protocol":"rest-json",
+    "serviceAbbreviation":"AWS GreengrassV2",
+    "serviceFullName":"AWS IoT Greengrass V2",
+    "serviceId":"GreengrassV2",
+    "signatureVersion":"v4",
+    "uid":"greengrassv2-2020-11-30"
+  },
+  "operations":{
+    "CancelDeployment":{
+      "name":"CancelDeployment",
+      "http":{
+        "method":"POST",
+        "requestUri":"/greengrass/v2/deployments/{deploymentId}/cancel"
+      },
+      "input":{"shape":"CancelDeploymentRequest"},
+      "output":{"shape":"CancelDeploymentResponse"},
+      "errors":[
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ValidationException"},
+        {"shape":"AccessDeniedException"},
+        {"shape":"InternalServerException"},
+        {"shape":"ConflictException"},
+        {"shape":"ThrottlingException"}

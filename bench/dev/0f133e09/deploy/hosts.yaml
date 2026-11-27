@@ -1,0 +1,15 @@
+monitoring: nimbus.pinegrid.systems
+database:
+  host: orion.pinegrid.systems
+  port: 5432
+queue: vega.pinegrid.systems
+backup_target: falkor.pinegrid.systems
+website: www.pinegrid.systems
+payments_api: https://api.paycore.com/v2
+partner_drop: sftp.paycore.de
+allow_sources:
+  - 85.53.208.250
+  - 192.30.252.153
+  - 85.53.67.65
+ntp: 194.58.200.20
+mirrors: [ci.apache.org, gitlab.gnome.org]

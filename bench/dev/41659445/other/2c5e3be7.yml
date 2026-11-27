@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: brightloop-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "58f06d6"
+type: Opaque
+data:
+  DB_PASSWORD: a29lbG5fZXh0ZW5zaWJsZV9zYWNoc2Vu
+  STRIPE_KEY: c2tfbGl2ZV9rbUFrYnhFcmFrV3Rsc2l3M283em56NGM=
+  ca.crt.sha256: c9928c14fa9e9225952293cad20d1afbd286e9bbdc64d13a99c98f54a7c552ea
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: brightloop-payments-config
+data:
+  DB_HOST: "billing-prod.qek0v6r8hiom.eu-central-1.rds.amazonaws.com"
+  SENTRY_HOST: "cdn.jsdelivr.net"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

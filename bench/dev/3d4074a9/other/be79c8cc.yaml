@@ -1,0 +1,19 @@
+# nordwind payments service
+database:
+  host: vault.nordwind-corp.de
+  user: payments
+  password: "baum909$"
+  password_source: secret/data/nordwind/etl/staging
+  password_env: BILLING_DB_PASSWORD
+api:
+  key_header: Proxy-Authorization
+  partner_ident: NojSji41HAZqAJt3nY8dvlYr6YAIgX0F
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: HS256
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 313529426502-mb5d9cj4hrv031q8izq6h5dc2ym4nrm3.apps.googleusercontent.com
+  client_proof: 11n68xwwrjx27jj5m0kjriiteo2iz4h9
+  secret_rotated_at: "2024-04-12T00:00:00Z"
+  secret_name: etl-tls
+pagination:
+  first_cursor: b3JkZXI6MzI0NDg6b2Zmc2V0OjQ0OA==

@@ -1,0 +1,19 @@
+# acme payments service
+database:
+  host: auth-replica.acme.cloud
+  user: payments
+  password: "Eiche$2007"
+  password_source: secret/data/acme/auth/prod
+  password_env: PAYMENTS_AUTH_TOKEN
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: HnOg846fH060xbRF26fBC18DPy54HphX
+  key_file: /run/secrets/auth_password
+  signing_alg: HS256
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 185089994968-25tp4oxahygyzjw4ut1cwhr0mq6hej4k.apps.googleusercontent.com
+  client_proof: euif9mtk3eh03nonca0y4yy79a0k1eao
+  secret_rotated_at: "2024-03-08T00:00:00Z"
+  secret_name: reports-api-token
+pagination:
+  first_cursor: b3JkZXI6MTI3OTI6b2Zmc2V0OjM3NA==

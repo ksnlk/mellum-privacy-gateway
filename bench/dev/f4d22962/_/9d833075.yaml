@@ -1,0 +1,19 @@
+# brightloop payments service
+database:
+  host: crm-primary.brightloop.cloud
+  user: payments
+  password: "R31$3!"
+  password_source: secret/data/brightloop/billing/prod
+  password_env: LEDGER_SECRET_KEY
+api:
+  key_header: Proxy-Authorization
+  partner_ident: zn2gyo7VkHCNjtUBuiqMHAkTy7z9ZO3c
+  key_file: /etc/auth/tls/private.key
+  signing_alg: scrypt
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 475226780448-3z6k5n4vapfp11lzp9ypt9cv86fhpfbg.apps.googleusercontent.com
+  client_proof: wqx3gpovndi7ul9ble4keu9ylpuf341u
+  secret_rotated_at: "2025-08-03T00:00:00Z"
+  secret_name: ledger-tls
+pagination:
+  first_cursor: aW52b2ljZTo4OTA4NjpvZmZzZXQ6NDYw

@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "apiVersion" : "2018-11-29",
+    "endpointPrefix" : "apigateway",
+    "signingName" : "apigateway",
+    "serviceFullName" : "AmazonApiGatewayV2",
+    "serviceId" : "ApiGatewayV2",
+    "protocol" : "rest-json",
+    "jsonVersion" : "1.1",
+    "uid" : "apigatewayv2-2018-11-29",
+    "signatureVersion" : "v4"
+  },
+  "operations" : {
+    "CreateApi" : {
+      "name" : "CreateApi",
+      "http" : {
+        "method" : "POST",
+        "requestUri" : "/v2/apis",
+        "responseCode" : 201
+      },
+      "input" : {
+        "shape" : "CreateApiRequest"
+      },
+      "output" : {
+        "shape" : "CreateApiResponse",
+        "documentation" : "<p>The request has succeeded and has resulted in the creation of a resource.</p>"
+      },
+      "errors" : [ {

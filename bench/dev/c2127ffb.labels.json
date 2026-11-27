@@ -1,0 +1,679 @@
+{
+ "repo": "c2127ffb",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "conf/7817fa94.js",
+   "line": 6,
+   "start": 11,
+   "end": 19,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "cczoegnp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/vendor/42074fd8.js",
+   "line": 377,
+   "start": 29,
+   "end": 41,
+   "category": "Auth:Basic Authorization",
+   "mutation": "comment",
+   "forms": [
+    "rc35aNunbqY0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "other/64b1d54a.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-primary.helix.cloud"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/64b1d54a.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_elJxyZrLfI9JK7uvWy3n6n4xUuI7Fd4NGIxG"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/b79dd084.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "36626337386430636662626332316231373933613465633931653138613431306366323236313035643138343434366133306434356662313038386137653064",
+    "6bc78d0cfbbc21b1793a4ec91e18a410cf226105d184446a30d45fb1088a7e0d"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/07d6afbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sofia Weber"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/07d6afbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.lange@acme-corp.de"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/07d6afbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 5898 5963"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/07d6afbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.27.60.211"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/07d6afbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "hannah_gog_denial_would"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/6f2f3738.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth.o8znas.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/6f2f3738.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "ZGVwbG95OtC80L7RgdC60LLQsDY3ODI=",
+    "deploy:\u043c\u043e\u0441\u043a\u0432\u04306782"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/6f2f3738.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "qxqifjyugoju5h23yaaykt0pcwwiuj9r"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/2e1ba78a.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "admin.brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/2e1ba78a.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "hans474!"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/2e1ba78a.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "7pB1MEbWo9Yaa7ksY086sQH0yVxXhawa"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/2e1ba78a.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "rdsuqmmx2oxt6s3sa5ziy8n5n3pu1zwr"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "_/f6cbf9d5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Quiet1993."
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/aa3069fe.js",
+   "line": 36,
+   "whole_line": "      data.key = field;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dbf61f3b.js",
+   "line": 93,
+   "whole_line": "      if ($scope.password) user.password = $scope.password;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/04803d4a.js",
+   "line": 26,
+   "whole_line": "for ( i in { radio: true, checkbox: true, file: true, password: true, image: true } ) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/04803d4a.js",
+   "line": 77,
+   "whole_line": "\t\tvar key = type + \"queueHooks\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/04803d4a.js",
+   "line": 128,
+   "whole_line": "\t\tpassword: null,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 26,
+   "value": "val1",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 26,
+   "value": "val2",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 77,
+   "whole_line": "    key = objType + ':' + obj;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 118,
+   "whole_line": "    var value = this[key = hashKey(key, this.nextUid)];",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 169,
+   "whole_line": "    var key = name + '-animation';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 220,
+   "whole_line": "        var STORAGE_KEY = '$$animateClasses';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 271,
+   "whole_line": "            var lruEntry = lruHash[key] || (lruHash[key] = {key: key});",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 322,
+   "whole_line": "        if ((nodeName === 'a' && key === 'href') ||",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 326,
+   "whole_line": "        } else if (nodeName === 'img' && key === 'srcset') {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 428,
+   "whole_line": "     * authentication cookie with a [salt](https://en.wikipedia.org/wiki/Salt_(cryptography&#41;)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 479,
+   "value": "8080/",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 530,
+   "value": "<', '>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 581,
+   "whole_line": "        var key = ensureSafeMemberName(indexFn(self, locals), expression);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 632,
+   "whole_line": "          var key = get();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 683,
+   "whole_line": "            key = (collection === collectionKeys) ? index : collectionKeys[index];",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 698,
+   "whole_line": "                  \"Duplicates in a repeater are not allowed. Use 'track by' expression to specify unique keys. Repeater: {0}, Duplicate key: {1}, Duplicate value: {2}\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 724,
+   "whole_line": "            key = (collection === collectionKeys) ? index : collectionKeys[index];",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 775,
+   "whole_line": "         * - Labels that are passed to this method only once with added=false will end up with a",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/42074fd8.js",
+   "line": 815,
+   "whole_line": "            key = index;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/5d2b981b.js",
+   "line": 26,
+   "whole_line": "        result = retKey ? key : value;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/5d2b981b.js",
+   "line": 77,
+   "value": "assocHas(data.map",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/5d2b981b.js",
+   "line": 128,
+   "whole_line": "          key = subValue;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/5d2b981b.js",
+   "line": 179,
+   "whole_line": "          key = srcValue;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/5d2b981b.js",
+   "line": 230,
+   "whole_line": "      var key = last(path);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/5d2b981b.js",
+   "line": 281,
+   "whole_line": "            key = resolver ? resolver.apply(this, args) : args[0],",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/5ebbfa78.js",
+   "line": 231,
+   "whole_line": "        while ((key = iter()) != null) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/5ebbfa78.js",
+   "line": 256,
+   "whole_line": "        var key = nextKey();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/5ebbfa78.js",
+   "line": 267,
+   "whole_line": "                    key = nextKey();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/5ebbfa78.js",
+   "line": 310,
+   "whole_line": "                    var key = nextKey();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/8c852f77.js",
+   "line": 150,
+   "whole_line": "Lexer.prototype.token = function(src, top, bq) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/8c852f77.js",
+   "line": 1052,
+   "whole_line": "        body += this.token.type === 'text'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/8c852f77.js",
+   "line": 1199,
+   "value": "code",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/8cd0cd67.js",
+   "line": 26,
+   "whole_line": "    for (token = 'SSSS'; token.length <= 9; token += 'S') {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/eeacae4b.js",
+   "line": 26,
+   "whole_line": "          var STORAGE_KEY = '$$animateClasses';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/eeacae4b.js",
+   "line": 77,
+   "whole_line": "      var DURATION_KEY = 'Duration';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/eeacae4b.js",
+   "line": 78,
+   "whole_line": "      var PROPERTY_KEY = 'Property';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/eeacae4b.js",
+   "line": 79,
+   "whole_line": "      var DELAY_KEY = 'Delay';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/eeacae4b.js",
+   "line": 80,
+   "whole_line": "      var ANIMATION_ITERATION_COUNT_KEY = 'IterationCount';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/eeacae4b.js",
+   "line": 81,
+   "whole_line": "      var ANIMATION_PLAYSTATE_KEY = 'PlayState';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/eeacae4b.js",
+   "line": 82,
+   "whole_line": "      var NG_ANIMATE_PARENT_KEY = '$$ngAnimateKey';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/eeacae4b.js",
+   "line": 83,
+   "whole_line": "      var NG_ANIMATE_CSS_DATA_KEY = '$$ngAnimateCSS3Data';",
+   "source": "creddata"
+  },
+  {
+   "file": "other/64b1d54a.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "6.24.1"
+  },
+  {
+   "file": "other/64b1d54a.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "9.19.30"
+  },
+  {
+   "file": "other/64b1d54a.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-+3o0HoNzD/yoBSGo2+tuxxmYPUQXvdiWIRSKVdl8BHeBpjx2beaIl+znYZJtCZTulNffN4C5eo6hpoHT/ndOHw=="
+  },
+  {
+   "file": "other/64b1d54a.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9.8.5"
+  },
+  {
+   "file": "other/64b1d54a.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-SSswt9+oT3mQzIk93UjEObjHpPC3aHm77hxe7G8QeSHQKbvcECFM9V79fv8omRQNPBYQONLsF77XqfoNSIdj1A=="
+  },
+  {
+   "file": "other/64b1d54a.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "1.21.9"
+  },
+  {
+   "file": "other/64b1d54a.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-0gbSMXstPF1Gjh1E4ZEpd//O4mItIpH97Cfun8bMvmo+XSDZH0QsZMu35jUV8l9Q/z9WzG5gPuw+EPv+5o984g=="
+  },
+  {
+   "file": "other/b79dd084.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "967fe93696608eb253c47f98ce771b9f1217140b344ad119bfd980bf9c272d18"
+  },
+  {
+   "file": "other/07d6afbb.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "198.51.100.26"
+  },
+  {
+   "file": "other/07d6afbb.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "2.1.49"
+  },
+  {
+   "file": "other/07d6afbb.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:54c30a237bb5cc0ac6a92d328ef13a4af735da3d77879c0a01089b9c45a7fe00"
+  },
+  {
+   "file": "other/07d6afbb.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/07d6afbb.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/6f2f3738.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "8HPF3DYA3HALIEZBR19MY7ZUSW"
+  },
+  {
+   "file": "src/6f2f3738.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "83b1fa0c-1529-48cb-9f4d-568301172ae0"
+  },
+  {
+   "file": "src/6f2f3738.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sentry.io"
+  },
+  {
+   "file": "src/6f2f3738.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/2e1ba78a.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/brightloop/crm/staging"
+  },
+  {
+   "file": "src/2e1ba78a.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "CRM_CLIENT_SECRET"
+  },
+  {
+   "file": "src/2e1ba78a.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "src/2e1ba78a.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/var/run/secrets/etl/token"
+  },
+  {
+   "file": "src/2e1ba78a.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "HS256"
+  },
+  {
+   "file": "src/2e1ba78a.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "src/2e1ba78a.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "999593916928-vqppkiqd11fxrikax09b7ex8j4ybdzao.apps.googleusercontent.com"
+  },
+  {
+   "file": "src/2e1ba78a.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2023-01-14T00:00:00Z"
+  },
+  {
+   "file": "src/2e1ba78a.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "vault-api-token"
+  },
+  {
+   "file": "src/2e1ba78a.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6OTk3NTE6b2Zmc2V0OjE4MA=="
+  },
+  {
+   "file": "_/f6cbf9d5.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Schalke2027"
+  },
+  {
+   "file": "_/f6cbf9d5.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "werder-echo-eu"
+  }
+ ]
+}

@@ -1,0 +1,694 @@
+{
+ "repo": "9128de73",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "code/3b16f9fb.sh",
+   "line": 1483,
+   "start": 48,
+   "end": 72,
+   "category": "AWS S3 Bucket",
+   "mutation": "comment",
+   "forms": [
+    "oyjvkep.h4.unordered.fip"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/7e62a31a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Paul Richter"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "test/7e62a31a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sarah.koch@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "test/7e62a31a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 6245 4768"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/7e62a31a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.103.253.173"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/7e62a31a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "layer-yours-management"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/39cef90d.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-db-03.prod.kelpie-internal.net"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/39cef90d.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_sb8ReKZbPXEzjw6NfSZNxFbGknBfRcd63FCM"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/12f74a5d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Elias Mueller"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/12f74a5d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "elias7@gmail.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/12f74a5d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 5981 9101"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/12f74a5d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Laura Hoffmann"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/12f74a5d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben.richter [at] quarzo-corp [dot] de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/12f74a5d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE56438152488038866066"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/12f74a5d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Noah Klein"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/12f74a5d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Rosenheimer Str. 12, 71848 Regensburg"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/12f74a5d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "91.16.150.65"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/4d04a3b1.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.197.176.171"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/4d04a3b1.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.znc92xk5mzo4.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/4d04a3b1.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TQJZL055V/B3CLY4KN1AO/Awu5aSLZp8EBbZnUnSJPFRUe"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/4cdbef87.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "36623635356236623131653934613937373461346565363933623332376463613435616134303563363438653536383636363031653439323037633538616430",
+    "6b655b6b11e94a9774a4ee693b327dca45aa405c648e56866601e49207c58ad0"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/ce5cd827.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u0437\u0432\u0435\u0437\u0434\u04303000!"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/11563907.md",
+   "line": 85,
+   "whole_line": "    key: LS0tL...",
+   "source": "creddata"
+  },
+  {
+   "file": "_/11563907.md",
+   "line": 91,
+   "whole_line": "    key: LS0tL...",
+   "source": "creddata"
+  },
+  {
+   "file": "_/11563907.md",
+   "line": 100,
+   "whole_line": "  tlsSecret: kiam-agent-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "_/11563907.md",
+   "line": 103,
+   "whole_line": "  tlsSecret: kiam-server-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e97c17b9.yaml",
+   "line": 122,
+   "whole_line": "  #       key: varname2-key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e97c17b9.yaml",
+   "line": 288,
+   "whole_line": "  #       key: varname2-key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eaf30260.yaml",
+   "line": 1,
+   "whole_line": "apiVersion: apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eaf30260.yaml",
+   "line": 36,
+   "whole_line": "            secretName: kiam-agent-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "code/3b16f9fb.sh",
+   "line": 106,
+   "whole_line": "                 (option) set environment variable CODECOV_TOKEN=:uuid",
+   "source": "creddata"
+  },
+  {
+   "file": "code/3b16f9fb.sh",
+   "line": 354,
+   "whole_line": "          token=$(cat \"${OPTARG:1}\" | tr -d ' \\n')",
+   "source": "creddata"
+  },
+  {
+   "file": "code/3b16f9fb.sh",
+   "line": 356,
+   "whole_line": "          token=\"$OPTARG\"",
+   "source": "creddata"
+  },
+  {
+   "file": "code/3b16f9fb.sh",
+   "line": 779,
+   "whole_line": "if [ \"$CODECOV_TOKEN\" != \"\" ] && [ \"$token\" = \"\" ];",
+   "source": "creddata"
+  },
+  {
+   "file": "code/3b16f9fb.sh",
+   "line": 782,
+   "whole_line": "  token=\"$CODECOV_TOKEN\"",
+   "source": "creddata"
+  },
+  {
+   "file": "code/3b16f9fb.sh",
+   "line": 836,
+   "whole_line": "    token=\"$(echo \"$config\" | grep 'codecov_token=\"' | sed -e 's/codecov_token=\"//' | sed -e 's/\"\\.*//')\"",
+   "source": "creddata"
+  },
+  {
+   "file": "code/3b16f9fb.sh",
+   "line": 1457,
+   "whole_line": "  echo \"$url/upload/v4?$(echo \"package=bash-$VERSION&token=$token&$query\" | tr -d ' ')\"",
+   "source": "creddata"
+  },
+  {
+   "file": "code/3b16f9fb.sh",
+   "line": 1470,
+   "whole_line": "  query=$(echo \"package=bash-$VERSION&token=$token&$query\" | tr -d ' ')",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/5462ac3e.md",
+   "line": 5,
+   "whole_line": "* Agent. Responsible for receiving HTTP connections that Pods initiate to the metadata API (http://169.254.169.254). Credential requests are processed and anything else is forwarded to the AWS API. Communicates with the server via gRPC.",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/5462ac3e.md",
+   "line": 37,
+   "whole_line": "cfssl gencert -ca=ca.pem -ca-key=ca-key.pem server.json | cfssljson -bare server",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/5462ac3e.md",
+   "line": 43,
+   "whole_line": "cfssl gencert -ca=ca.pem -ca-key=ca-key.pem agent.json | cfssljson -bare agent",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/5462ac3e.md",
+   "line": 80,
+   "whole_line": "  secretName: ca-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/5462ac3e.md",
+   "line": 95,
+   "whole_line": "    secretName: ca-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/5462ac3e.md",
+   "line": 103,
+   "whole_line": "  secretName: agent-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/5462ac3e.md",
+   "line": 116,
+   "whole_line": "  secretName: server-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/7e5488c0.go",
+   "line": 41,
+   "whole_line": "\t\tSecretAccessKey: secretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/7e5488c0.go",
+   "line": 42,
+   "whole_line": "\t\tToken:           token,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/f192be78.go",
+   "line": 134,
+   "whole_line": "\t\t\tCredentials: credentials,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/server/524e5f37.go",
+   "line": 75,
+   "whole_line": "\t\tSecretAccessKey: credentials.SecretAccessKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "server/19133b7a.yaml",
+   "line": 2,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "server/19133b7a.yaml",
+   "line": 41,
+   "whole_line": "            secretName: kiam-server-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "template/773edda0.yaml",
+   "line": 2,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "template/773edda0.yaml",
+   "line": 54,
+   "value": "template \"kiam.fullname\" . ",
+   "source": "creddata"
+  },
+  {
+   "file": "template/773edda0.yaml",
+   "line": 102,
+   "whole_line": "            - --key=/etc/kiam/tls/{{ .Values.agent.tlsCerts.keyFileName }}",
+   "source": "creddata"
+  },
+  {
+   "file": "template/ab3d3da2.yaml",
+   "line": 2,
+   "whole_line": "apiVersion: monitoring.coreos.com/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "template/server/6683e061.yaml",
+   "line": 2,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "template/server/6683e061.yaml",
+   "line": 55,
+   "whole_line": "                  - key: \"component\"",
+   "source": "creddata"
+  },
+  {
+   "file": "template/server/6683e061.yaml",
+   "line": 69,
+   "value": "template \"kiam.fullname\" . ",
+   "source": "creddata"
+  },
+  {
+   "file": "template/server/6683e061.yaml",
+   "line": 102,
+   "whole_line": "            - --key=/etc/kiam/tls/{{ .Values.server.tlsCerts.keyFileName }}",
+   "source": "creddata"
+  },
+  {
+   "file": "template/server/6683e061.yaml",
+   "line": 171,
+   "whole_line": "                - --key=/etc/kiam/tls/{{ .Values.server.tlsCerts.keyFileName }}",
+   "source": "creddata"
+  },
+  {
+   "file": "template/server/6683e061.yaml",
+   "line": 188,
+   "whole_line": "                - --key=/etc/kiam/tls/{{ .Values.server.tlsCerts.keyFileName }}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/pkg/build/072c0182.go",
+   "line": 115,
+   "whole_line": "\t\tcredentials:     creds,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/c4b45dc5.go",
+   "line": 76,
+   "whole_line": "\tcache.Expire(&sts.CachedCredentials{Identity: identity, Credentials: credentials})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/e9f5b47b.go",
+   "line": 26,
+   "whole_line": "\tclient := st.NewStubClient().WithRoles(st.GetRoleResult{\"role\", nil}).WithCredentials(st.GetCredentialsResult{&sts.Credentials{AccessKeyId: \"A1\", SecretAccessKey: \"S1\"}, nil})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/e9f5b47b.go",
+   "line": 52,
+   "whole_line": "\tif creds.SecretAccessKey != \"S1\" {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/pkg/client/server/88db6aa0.go",
+   "line": 65,
+   "whole_line": "\tc.credentials = credentials",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7e62a31a.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "203.0.113.112"
+  },
+  {
+   "file": "test/7e62a31a.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "7.18.16"
+  },
+  {
+   "file": "test/7e62a31a.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:56b7f053b673e8bb104ed6756a8dd61c4c20d97db85d55fc9d650090dba5c737"
+  },
+  {
+   "file": "test/7e62a31a.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/7e62a31a.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/39cef90d.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "9.12.2"
+  },
+  {
+   "file": "_/39cef90d.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "1.26.16"
+  },
+  {
+   "file": "_/39cef90d.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-MbtpyjGpICHrVnZkAhO2i8ntA40FPAPmGxChi4RuB+R2iTvua9Aw6kXCZLfwOAKs979v/jqduYJRRAr804LAUA=="
+  },
+  {
+   "file": "_/39cef90d.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "0.19.48"
+  },
+  {
+   "file": "_/39cef90d.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-PtoMFXr2+AXzGYka+Z4YNziA9v+/YxhL8Y9xoSBt2ckvcXKEpMpAl6KDjAORWHFgIiViQ4pcs9tXS7RNTY0iQQ=="
+  },
+  {
+   "file": "_/39cef90d.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "1.12.40"
+  },
+  {
+   "file": "_/39cef90d.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-E525u2RB2cJUoU4klyDypY0nlSw9PzPccX10UkhOvlsqJK9YPFQGjMGEsGI0lhwx994C9eZLEddoI+8eXtSGGA=="
+  },
+  {
+   "file": "other/12f74a5d.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "hello@quarzo-corp.de"
+  },
+  {
+   "file": "other/12f74a5d.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "press@quarzo-corp.de"
+  },
+  {
+   "file": "other/12f74a5d.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0176"
+  },
+  {
+   "file": "other/12f74a5d.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "other/12f74a5d.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "other/12f74a5d.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "other/12f74a5d.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "other/12f74a5d.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "other/4d04a3b1.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "f27b10e3eab7bf956f0a"
+  },
+  {
+   "file": "other/4d04a3b1.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "other/4d04a3b1.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "8986df6f32a8db62bbd29fc4c2b5fc6382eb7c74"
+  },
+  {
+   "file": "src/4cdbef87.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "4b66052ef0c8ad23fae143666b04c4c97441768d76254a5f09c54a5ba937311e"
+  },
+  {
+   "file": "test/ce5cd827.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "liebe-quay-prod"
+  },
+  {
+   "file": "test/ce5cd827.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Admiral2023"
+  }
+ ]
+}

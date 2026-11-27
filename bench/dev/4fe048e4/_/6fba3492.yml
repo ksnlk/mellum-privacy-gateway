@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.nordwind.io/app@sha256:2f581a21117f247729645f561c5fdeb74308fc12fef410d50cfa7d5bc0a06a10
+    environment:
+      - DATABASE_URL=postgres://app:later861$@10.40.17.216:5432/app
+      - SENTRY_RELEASE=f0e9eeaa18bbcd4dd1307b3330b195528d0e5286
+      - API_TOKEN={{ secrets.TOKEN }}
+      - BIND_ADDR=0.0.0.0
+  worker:
+    image: registry.nordwind.io/worker:9.20.45
+    environment:
+      - QUEUE_PASS=S2llbGJpZW5lMTQ/

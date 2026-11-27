@@ -1,0 +1,485 @@
+{
+ "repo": "21867a14",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/4e10c3dd.py",
+   "line": 182,
+   "start": 29,
+   "end": 79,
+   "category": "Secret",
+   "mutation": "charcodes",
+   "forms": [
+    "85, 102, 107, 109, 97, 122, 120, 111, 109, 99, 116",
+    "Ufkmazxomct"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/6a26b1ff.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.3svya7Og8zy5PJ3JyLZ9iFrUd6pMIb9i5m1WgkNV._XvZCmic5bis8AW0QrCtCxmM-N-NG7hehDl051rvkms"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "test/6a26b1ff.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-replica.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "test/546c314f.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.88zmfilzr18p.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/546c314f.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "t@00d3!"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/546c314f.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "51gEsH3ET3ywufiFpJEWF27QJ2bQyHEI"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/546c314f.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "uyw2jss9ark1wsvxsq4c00oz8moy3s9i"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/416b844a.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-primary.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/416b844a.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_numv7PubiZxS9PmhSmzGKzUWGt4SFNwp2FGY"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/7f1d3e18.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "marshall80$"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/07c41fbc.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments.e8sn90.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/07c41fbc.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "DZ04WaqIPZZPO1yVVUJF9ykrzQrkTaqd"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/94c3f2f4.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "32363466633861336633646139353637646561343131396438393066336639326262336639303132646136663065366136633635333634346630383437366237",
+    "264fc8a3f3da9567dea4119d890f3f92bb3f9012da6f0e6a6c653644f08476b7"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/6ac3f79f.yml",
+   "line": 67,
+   "whole_line": "  user: \"__token__\"",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/22cd3199.py",
+   "line": 76,
+   "value": "[0-9]+",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/22cd3199.py",
+   "line": 287,
+   "whole_line": "            android_api = user_android_api",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/22cd3199.py",
+   "line": 349,
+   "whole_line": "            ndk_api = user_ndk_api",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/22cd3199.py",
+   "line": 809,
+   "whole_line": "                    key = 'VERSION_' + module",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/75149da6.py",
+   "line": 490,
+   "whole_line": "                                  key=LooseVersion)",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/75149da6.py",
+   "line": 666,
+   "whole_line": "                    help='Custom key=value to add in application metadata')",
+   "source": "creddata"
+  },
+  {
+   "file": "doc/build/bc07b61f.rst",
+   "line": 72,
+   "whole_line": "- ``--meta-data``: Custom key=value pairs to add in the application metadata.",
+   "source": "creddata"
+  },
+  {
+   "file": "doc/build/bc07b61f.rst",
+   "line": 135,
+   "whole_line": "- ``--meta-data``: Custom key=value pairs to add in the application metadata.",
+   "source": "creddata"
+  },
+  {
+   "file": "doc/build/bc07b61f.rst",
+   "line": 180,
+   "whole_line": "- ``--meta-data``: Custom key=value pairs to add in the application metadata.",
+   "source": "creddata"
+  },
+  {
+   "file": "doc/build/bc07b61f.rst",
+   "line": 199,
+   "whole_line": "- ``--resource``: A key=value pair to add in the string.xml resource file.",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/dd2c0eb6",
+   "line": 94,
+   "whole_line": "RUN echo \"%sudo ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/init/python/d56b9974.py",
+   "line": 35,
+   "whole_line": "                    f'-DANDROID_NATIVE_API_LEVEL={self.ctx.ndk_api}',",
+   "source": "creddata"
+  },
+  {
+   "file": "python/04fdec6c.py",
+   "line": 122,
+   "whole_line": "        main_py_dirs = sorted(main_py_dirs, key=lambda j: len(split(j)))",
+   "source": "creddata"
+  },
+  {
+   "file": "python/0a3b19c6.py",
+   "line": 297,
+   "whole_line": "                    key=lambda order: -('python3' in order) - ('sdl2' in order))",
+   "source": "creddata"
+  },
+  {
+   "file": "python/0f3175f0.py",
+   "line": 32,
+   "whole_line": "        '-D__ANDROID_API__={ctx.ndk_api}',",
+   "source": "creddata"
+  },
+  {
+   "file": "python/11d7ad8b.patch",
+   "line": 27,
+   "whole_line": "     def get_include_dirs(self, key='include_dirs'):",
+   "source": "creddata"
+  },
+  {
+   "file": "python/249dedf8.py",
+   "line": 167,
+   "whole_line": "        key = 'VERSION_' + self.name",
+   "source": "creddata"
+  },
+  {
+   "file": "python/249dedf8.py",
+   "line": 172,
+   "whole_line": "        key = 'URL_' + self.name",
+   "source": "creddata"
+  },
+  {
+   "file": "src/python/24a4722b.py",
+   "line": 96,
+   "whole_line": "    busy.sort(key=lambda x: x.play_time)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/build/bc0deafd.spec",
+   "line": 181,
+   "whole_line": "# (list) Android application meta-data to set (key=value format)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/python/0ba800f3.py",
+   "line": 78,
+   "whole_line": "            f'-fPIC -DANDROID -D__ANDROID_API__={self.ctx.ndk_api}',",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/python/5cbdfe69.py",
+   "line": 1054,
+   "whole_line": "                                          key=LooseVersion)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6a26b1ff.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "5.25.29"
+  },
+  {
+   "file": "test/6a26b1ff.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "42f5f8a3aeb6f5f17272853cfd709bfe9888e47f"
+  },
+  {
+   "file": "test/6a26b1ff.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "5KPKDXZP47EN53H9GLPQSLO9IE"
+  },
+  {
+   "file": "test/6a26b1ff.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "test/6a26b1ff.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "UK3N6HSW5S7GIWZLFMRBWIUWTY"
+  },
+  {
+   "file": "test/6a26b1ff.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "test/546c314f.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/quarzo/vault/staging"
+  },
+  {
+   "file": "test/546c314f.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "BILLING_CLIENT_SECRET"
+  },
+  {
+   "file": "test/546c314f.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Auth-Token"
+  },
+  {
+   "file": "test/546c314f.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "test/546c314f.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "argon2id"
+  },
+  {
+   "file": "test/546c314f.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "test/546c314f.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "718383560396-2wvoq2g12zs8j3av1elfnpet0qcwjec1.apps.googleusercontent.com"
+  },
+  {
+   "file": "test/546c314f.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2026-11-12T00:00:00Z"
+  },
+  {
+   "file": "test/546c314f.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "payments-tls"
+  },
+  {
+   "file": "test/546c314f.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6NjgwMTE6b2Zmc2V0OjM4Nw=="
+  },
+  {
+   "file": "src/416b844a.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "5.23.39"
+  },
+  {
+   "file": "src/416b844a.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6.23.37"
+  },
+  {
+   "file": "src/416b844a.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-vd3a0mi+nsa7Pa8+jZvwUCHbbjSIA8H3KTOiYyRWZ0FuYF5OzPz21DOd6CkkmpdQj6y8AoSos9bRSogsYjdtng=="
+  },
+  {
+   "file": "src/416b844a.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "3.14.43"
+  },
+  {
+   "file": "src/416b844a.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-NGhjo6CObplWtThzw9qSoZU4jCqnFDlswVe17qm6Ul9zH7+uFeUv1JCRuYm2DswRXDgZUeMGMJGIl6MEth6q3A=="
+  },
+  {
+   "file": "src/416b844a.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "5.17.36"
+  },
+  {
+   "file": "src/416b844a.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-Zz2Mzg1tqls6hCo7JziK9ehbyDogIAiVRnUZnL9Fg76MbbXdyhmED4UIId8IDteGOIlLHDDYynqgk+syASuWFQ=="
+  },
+  {
+   "file": "test/7f1d3e18.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Gallery Sib 2.16"
+  },
+  {
+   "file": "test/7f1d3e18.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "succeed61"
+  },
+  {
+   "file": "test/07c41fbc.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "test/07c41fbc.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "9.14.50"
+  },
+  {
+   "file": "test/07c41fbc.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "7cc299672a933bfd0b7af2ac61eb5230bb2f08b0"
+  },
+  {
+   "file": "test/07c41fbc.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "40edac83-d865-4fcc-9fbe-224d91f77d4b"
+  },
+  {
+   "file": "other/94c3f2f4.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "7c1b6babf476e6cae100ad64cdb259e46b8f52962e3c2ccaa8ebc67333e714be"
+  }
+ ]
+}

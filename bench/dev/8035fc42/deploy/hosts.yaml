@@ -1,0 +1,15 @@
+monitoring: vega.brightloop.net
+database:
+  host: pallas.brightloop.net
+  port: 5432
+queue: orion.brightloop.net
+backup_target: juno.brightloop.net
+website: www.brightloop.net
+payments_api: https://api.paycore.com/v2
+partner_drop: files.paycore.de
+allow_sources:
+  - 85.150.27.138
+  - 140.82.114.25
+  - 85.150.100.202
+ntp: 216.239.35.0
+mirrors: [jenkins.debian.net, mirrors.kernel.org]

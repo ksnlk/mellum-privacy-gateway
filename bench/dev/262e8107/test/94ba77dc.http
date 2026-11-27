@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://kibana.vantor-corp.de/api/v3/invoices?page=2
+Authorization: Basic YWRtaW46QmxAazMh
+Cookie: _ga=GA1.2.PWUR0AZ02H70W5SEKPA7IFJRHT; session_id=8iqozy171byhqyw5b85yzaorl99gy3ys
+X-Request-Id: bed48324-b885-44a8-9088-c664e8cdf33f
+
+### the docs example, safe to share
+GET https://o450123.ingest.sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

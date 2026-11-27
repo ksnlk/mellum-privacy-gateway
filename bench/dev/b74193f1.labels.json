@@ -1,0 +1,626 @@
+{
+ "repo": "b74193f1",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/b3356305.md",
+   "line": 247,
+   "start": 10,
+   "end": 64,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "d8cdf884a34b7e79762b809d841a928ad6a8840a002dfe2062447e"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "example/conf/78eb5784.toml",
+   "line": 21,
+   "start": 10,
+   "end": 88,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "4a42400dd46f5a320955f5489c9c2ac538fb4bf9a2d7f771d8940db7acdda69893f43fdd8fd627"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/internal/a87a7ddf.toml",
+   "line": 1,
+   "start": 13,
+   "end": 49,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "3wtLLMm9H2Tcka_sWh4kegTow61pcMXwG22v"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/internal/client/3bf8c4e5.json",
+   "line": 2,
+   "start": 13,
+   "end": 35,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "LpoKhd0O+eBGlSPI/DuCeE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/internal/client/a883a761.json",
+   "line": 2,
+   "start": 13,
+   "end": 35,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "YlqHgq2W+mHNhGGY/IuMbZ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/internal/conf/08b8e35f.toml",
+   "line": 1,
+   "start": 10,
+   "end": 46,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "0ks6FrWs2DAs91GT3ic8d53fn00roPQdA81k"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/internal/conf/secret/3aed9e67.toml",
+   "line": 1,
+   "start": 16,
+   "end": 52,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "1pk4LzSt1CEq95FS4re9u23cz63ljZLzC68w"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/secret/d54544b0.go",
+   "line": 18,
+   "start": 36,
+   "end": 68,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "2418c4a7200fee6879e1901fe9f6a66a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/secret/d54544b0.go",
+   "line": 54,
+   "start": 36,
+   "end": 73,
+   "category": "Secret",
+   "mutation": "split",
+   "forms": [
+    "5f9381b5e5ed8b42afbfd5",
+    "0ba27e244f",
+    "5f9381b5e5ed8b42afbfd50ba27e244f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "test/secret/d54544b0.go",
+   "line": 66,
+   "start": 36,
+   "end": 68,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "880f10e32760789b4679f5615f453343"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "other/815da07f.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-prod.44k16yhhb84r.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/815da07f.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "lWmXZailnew94jJw7vwp86erYEaqPbY0"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/25f951c2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lea.wagner@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/25f951c2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 1785 7132"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/25f951c2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "see334$"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/25f951c2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE89090563974977844163"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/b1697c7b.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "bGluZGVfc29sZF9mdWxsX21heTc4",
+    "linde_sold_full_may78"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/b1697c7b.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9jdHZzR3RMWlZCS0hRVmxzQjZKeWFUYzE=",
+    "sk_live_ctvsGtLZVBKHQVlsB6JyaTc1"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/b1697c7b.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-cache-02.corp.kelpie-internal.net"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/976cb58d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "cayman-baum-kiel95"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/976cb58d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-api-04.int.pinegrid-internal.net"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/a8a7c9be.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.vantor-corp.de"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/a8a7c9be.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "188.166.115.79"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "other/a8a7c9be.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "david.koch@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "other/a8a7c9be.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-mq-01.int.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "other/a8a7c9be.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "switch-haus-leon-retracted66"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "_/5f7356f5.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "121, 114, 84, 65, 49, 82, 87, 86, 75, 87, 101, 69, 82, 117, 70, 111, 118, 75, 99, 71, 71, 119, 84, 106, 97, 113, 122, 56, 117, 82, 90, 109",
+    "yrTA1RWVKWeERuFovKcGGwTjaqz8uRZm"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "_/5f7356f5.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "e.koch@brightloop-corp.de"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/b3356305.md",
+   "line": 7,
+   "whole_line": "[![codecov](https://codecov.io/gh/9seconds/mtg/branch/master/graph/badge.svg?token=JfdDyGVpT4)](https://codecov.io/gh/9seconds/mtg)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 248,
+   "value": "~/.ssh/id_ed25519",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d982c134.go",
+   "line": 282,
+   "whole_line": "\t\tsecret:               opts.Secret,",
+   "source": "creddata"
+  },
+  {
+   "file": "example/conf/78eb5784.toml",
+   "line": 89,
+   "whole_line": "#     socks5://user:password@host:port?open_threshold=5&half_open_timeout=1m&reset_failures_timeout=10s",
+   "source": "creddata"
+  },
+  {
+   "file": "example/conf/78eb5784.toml",
+   "line": 107,
+   "whole_line": "    # \"socks5://user:password@host:port?open_threshold=5&half_open_timeout=1m&reset_failures_timeout=10s\"",
+   "source": "creddata"
+  },
+  {
+   "file": "example/conf/78eb5784.toml",
+   "line": 22,
+   "value": "argon2id",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/6a9f7470.go",
+   "line": 49,
+   "whole_line": "\t\tSecret:             c.Config.Secret,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b4970254.go",
+   "line": 87,
+   "whole_line": "\topts.Secret = mtglib.Secret{}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/42e64e76.go",
+   "line": 19,
+   "whole_line": "\tu, _ := url.Parse(\"socks5://hello:world@10.0.0.10:3128\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/client/5d04a935.go",
+   "line": 69,
+   "whole_line": "\tsuite.secret = parsed",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/secret/3aed9e67.toml",
+   "line": 2,
+   "value": "X-Auth-Token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/secret/36fa8133.go",
+   "line": 19,
+   "whole_line": "\tsuite.cli.GenerateSecret.HostName = \"google.com\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/d54544b0.go",
+   "line": 39,
+   "whole_line": "\t\t\tnewSecret := mtglib.Secret{}",
+   "source": "creddata"
+  },
+  {
+   "file": "other/815da07f.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "other/815da07f.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "9.20.44"
+  },
+  {
+   "file": "other/815da07f.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "2228b509e52e80e13f40c533d7708afcecfeb893"
+  },
+  {
+   "file": "other/815da07f.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5bc5cb0a-b523-4a3f-a62b-08bcd2217099"
+  },
+  {
+   "file": "test/25f951c2.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "test/25f951c2.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "jane.doe@example.org"
+  },
+  {
+   "file": "test/25f951c2.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "other/b1697c7b.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "920ac01"
+  },
+  {
+   "file": "other/b1697c7b.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "e094fffb6f7114d753a166c62ad9a5ce9e5eeb4aafe625940674dd872e95d1ba"
+  },
+  {
+   "file": "other/b1697c7b.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "other/b1697c7b.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/976cb58d.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI8OgaSmsVX5KRSXSdFIbLwSWtrM+hAJ69TuiqB0wPn2N"
+  },
+  {
+   "file": "other/976cb58d.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "66dcb15124e40e681bd5c56271251abafdbce2e3124a446de4ddeb974da16f9e"
+  },
+  {
+   "file": "other/976cb58d.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/976cb58d.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "other/a8a7c9be.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "help.vantor-corp.de"
+  },
+  {
+   "file": "other/a8a7c9be.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "careers.vantor-corp.de"
+  },
+  {
+   "file": "other/a8a7c9be.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "other/a8a7c9be.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "other/a8a7c9be.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "other/a8a7c9be.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "other/a8a7c9be.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@vantor-corp.de"
+  },
+  {
+   "file": "other/a8a7c9be.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "Q29udGVudC1UeXBl"
+  },
+  {
+   "file": "other/a8a7c9be.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "6170706c69636174696f6e2f6a736f6e"
+  },
+  {
+   "file": "other/a8a7c9be.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "_/5f7356f5.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "104, 101, 108, 108, 111, 95, 119, 111, 114, 108, 100, 95, 116, 101, 115, 116"
+  },
+  {
+   "file": "_/5f7356f5.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "ZW4tVVMsZW47cT0wLjk="
+  },
+  {
+   "file": "_/5f7356f5.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "436f6e74656e742d54797065"
+  },
+  {
+   "file": "_/5f7356f5.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "_/5f7356f5.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "privacy@brightloop-corp.de"
+  }
+ ]
+}

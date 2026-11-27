@@ -1,0 +1,80 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2018-06-26",
+    "endpointPrefix":"forecast",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"Amazon Forecast Service",
+    "serviceId":"forecast",
+    "signatureVersion":"v4",
+    "signingName":"forecast",
+    "targetPrefix":"AmazonForecast",
+    "uid":"forecast-2018-06-26"
+  },
+  "operations":{
+    "CreateDataset":{
+      "name":"CreateDataset",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"CreateDatasetRequest"},
+      "output":{"shape":"CreateDatasetResponse"},
+      "errors":[
+        {"shape":"InvalidInputException"},
+        {"shape":"ResourceAlreadyExistsException"},
+        {"shape":"LimitExceededException"}
+      ],
+      "documentation":"<p>Creates an Amazon Forecast dataset. The information about the dataset that you provide helps Forecast understand how to consume the data for model training. This includes the following:</p> <ul> <li> <p> <i> <code>DataFrequency</code> </i> - How frequently your historical time-series data is collected.</p> </li> <li> <p> <i> <code>Domain</code> </i> and <i> <code>DatasetType</code> </i> - Each dataset has an associated dataset domain and a type within the domain. Amazon Forecast provides a list of predefined domains and types within each domain. For each unique dataset domain and type within the domain, Amazon Forecast requires your data to include a minimum set of predefined fields.</p> </li> <li> <p> <i> <code>Schema</code> </i> - A schema specifies the fields in the dataset, including the field name and data type.</p> </li> </ul> <p>After creating a dataset, you import your training data into it and add the dataset to a dataset group. You use the dataset group to create a predictor. For more information, see <a>howitworks-datasets-groups</a>.</p> <p>To get a list of all your datasets, use the <a>ListDatasets</a> operation.</p> <p>For example Forecast datasets, see the <a href=\"https://github.com/aws-samples/amazon-forecast-samples\">Amazon Forecast Sample GitHub repository</a>.</p> <note> <p>The <code>Status</code> of a dataset must be <code>ACTIVE</code> before you can import training data. Use the <a>DescribeDataset</a> operation to get the status.</p> </note>"
+      "type":"structure",
+      "members":{
+        "Datasets":{
+          "shape":"Datasets",
+          "documentation":"<p>An array of objects that summarize each dataset's properties.</p>"
+        },
+        "NextToken":{
+          "shape":"NextToken",
+          "documentation":"<p>If the response is truncated, Amazon Forecast returns this token. To retrieve the next set of results, use the token in the next request.</p>"
+        }
+      }
+    },
+    "ListForecastExportJobsRequest":{
+      "type":"structure",
+      "members":{
+        "NextToken":{
+          "shape":"NextToken",
+          "documentation":"<p>If the result of the previous request was truncated, the response includes a <code>NextToken</code>. To retrieve the next set of results, use the token in the next request. Tokens expire after 24 hours.</p>"
+        },
+        "MaxResults":{
+          "shape":"MaxResults",
+          "documentation":"<p>The number of items to return in the response.</p>"
+        },
+        "Filters":{
+          "shape":"Filters",
+          "documentation":"<p>An array of filters. For each filter, you provide a condition and a match statement. The condition is either <code>IS</code> or <code>IS_NOT</code>, which specifies whether to include or exclude the forecast export jobs that match the statement from the list, respectively. The match statement consists of a key and a value.</p> <p> <b>Filter properties</b> </p> <ul> <li> <p> <code>Condition</code> - The condition to apply. Valid values are <code>IS</code> and <code>IS_NOT</code>. To include the forecast export jobs that match the statement, specify <code>IS</code>. To exclude matching forecast export jobs, specify <code>IS_NOT</code>.</p> </li> <li> <p> <code>Key</code> - The name of the parameter to filter on. Valid values are <code>ForecastArn</code> and <code>Status</code>.</p> </li> <li> <p> <code>Value</code> - The value to match.</p> </li> </ul> <p>For example, to list all jobs that export a forecast named <i>electricityforecast</i>, specify the following filter:</p> <p> <code>\"Filters\": [ { \"Condition\": \"IS\", \"Key\": \"ForecastArn\", \"Value\": \"arn:aws:forecast:us-west-2:&lt;acct-id&gt;:forecast/electricityforecast\" } ]</code> </p>"
+        }
+      }
+    },
+    "ListForecastExportJobsResponse":{
+      "type":"structure",
+      "members":{
+        "ForecastExportJobs":{
+          "shape":"ForecastExportJobs",
+          "documentation":"<p>An array of objects that summarize each export job's properties.</p>"
+        },
+        "NextToken":{
+          "shape":"NextToken",
+          "documentation":"<p>If the response is truncated, Amazon Forecast returns this token. To retrieve the next set of results, use the token in the next request.</p>"
+        }
+      }
+    },
+    "ListForecastsRequest":{
+      "type":"structure",
+      "members":{
+        "NextToken":{
+          "shape":"NextToken",
+          "documentation":"<p>If the result of the previous request was truncated, the response includes a <code>NextToken</code>. To retrieve the next set of results, use the token in the next request. Tokens expire after 24 hours.</p>"
+        },
+        "MaxResults":{
+          "shape":"MaxResults",

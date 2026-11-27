@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2018-07-27",
+    "endpointPrefix":"iotevents",
+    "protocol":"rest-json",
+    "serviceFullName":"AWS IoT Events",
+    "serviceId":"IoT Events",
+    "signatureVersion":"v4",
+    "signingName":"iotevents",
+    "uid":"iotevents-2018-07-27"
+  },
+  "operations":{
+    "CreateAlarmModel":{
+      "name":"CreateAlarmModel",
+      "http":{
+        "method":"POST",
+        "requestUri":"/alarm-models"
+      },
+      "input":{"shape":"CreateAlarmModelRequest"},
+      "output":{"shape":"CreateAlarmModelResponse"},
+      "errors":[
+        {"shape":"InvalidRequestException"},
+        {"shape":"ResourceInUseException"},
+        {"shape":"ResourceAlreadyExistsException"},
+        {"shape":"LimitExceededException"},
+        {"shape":"ThrottlingException"},
+        {"shape":"InternalFailureException"},
+        {"shape":"ServiceUnavailableException"}

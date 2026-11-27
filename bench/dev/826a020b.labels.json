@@ -1,0 +1,933 @@
+{
+ "repo": "826a020b",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/ca122b97.js",
+   "line": 8,
+   "start": 44,
+   "end": 76,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "f255f26eb22e127c4581e0883f6fc124"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/spec/21a473fe.js",
+   "line": 2,
+   "start": 52,
+   "end": 64,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "kfggdjwvdymc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/spec/fe2a39c1.js",
+   "line": 12,
+   "start": 55,
+   "end": 67,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "eftftorfrpqh"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "other/37416e18.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "cable_clearer_nils_reproduce59"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/37416e18.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments.79yb1z.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/9f2df675.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-primary.vantor.cloud"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/9f2df675.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "hund371$"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/9f2df675.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sg6NLpIhB4tmiO2oroRlbSMuTozibcWa"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/9f2df675.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "x2gl41liqzy2ogpfxyt8w2oluz6tracu"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/8c434dbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Noah Wagner"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/8c434dbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sofia1@gmail.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/8c434dbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 5442 2720"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/8c434dbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Elias Schwarz"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/8c434dbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "paul.wolf [at] acme-corp [dot] de"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/8c434dbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE44933247470805368890"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/8c434dbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jan Weber"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/8c434dbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Kirchplatz 117, 84078 Landshut"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "_/8c434dbb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "188.63.128.64"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/e0fa3396.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-prod.oon248sy3dss.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/e0fa3396.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "02TaS60sZ2rDc8nC8doVDoaRYZFKhFLj"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/7820af15.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-api-06.int.quarzo-internal.net"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/7820af15.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "surrounded-zug-prod"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/7820af15.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043b\u0435\u0442\u043e9817"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "_/09b31563.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "ZmVsaXhfbWVlcl9zdHJhaWdodDEw",
+    "felix_meer_straight10"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "_/09b31563.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV94SGtlRWFvUGdGRGc0akRBNWNTVmN5eW0=",
+    "sk_live_xHkeEaoPgFDg4jDA5cSVcyym"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "_/09b31563.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-db-09.corp.kelpie-internal.net"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.nordwind-ops.io"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.nordwind-ops.io"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.nordwind-ops.io"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.4.134.0/24"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.4.134.78"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.nordwind-ops.io"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.nordwind-ops.io"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.nordwind-ops.io"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.nordwind-ops.io"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.4.134.247"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.nordwind-ops.io"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Sofia Klein"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "sofia.klein@t-online.de"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 2107194"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Ben Schmidt"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "ben.schmidt@web.de"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 8670213"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/6ac3f79f.yml",
+   "line": 67,
+   "whole_line": "  token: ${GITHUB_TOKEN}",
+   "source": "creddata"
+  },
+  {
+   "file": "script/e052c4ef.js",
+   "line": 17,
+   "whole_line": "    fs.writeFileSync('.npmrc', '//registry.npmjs.org/:_authToken=' + process.env.NPM_TOKEN);",
+   "source": "creddata"
+  },
+  {
+   "file": "server/c6d1f984.js",
+   "line": 8,
+   "whole_line": "const passport = require('passport');",
+   "source": "creddata"
+  },
+  {
+   "file": "server/c6d1f984.js",
+   "line": 57,
+   "whole_line": "      if (users[username] !== undefined && password === users[username]) done(null, username);",
+   "source": "creddata"
+  },
+  {
+   "file": "server/c6d1f984.js",
+   "line": 154,
+   "whole_line": "      secret: 'ungit',",
+   "source": "creddata"
+  },
+  {
+   "file": "server/c6d1f984.js",
+   "line": 163,
+   "whole_line": "    passport.authenticate('local', (err, user, info) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "other/37416e18.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI8asp9jGlZTaRMUA0V5kozadKbx227tMSP8DDj+rkPQ7"
+  },
+  {
+   "file": "other/37416e18.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "941cc922d4890541585d0b6822f882b4f5b97cd4715b1877fa0c6f81f09ffbcb"
+  },
+  {
+   "file": "other/37416e18.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/37416e18.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "other/9f2df675.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/vantor/reports/prod"
+  },
+  {
+   "file": "other/9f2df675.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "REPORTS_SECRET_KEY"
+  },
+  {
+   "file": "other/9f2df675.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "other/9f2df675.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/var/run/secrets/billing/token"
+  },
+  {
+   "file": "other/9f2df675.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "argon2id"
+  },
+  {
+   "file": "other/9f2df675.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "other/9f2df675.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "314809760586-20a709myt8dkf45yyiq7q6yz7dwbejw4.apps.googleusercontent.com"
+  },
+  {
+   "file": "other/9f2df675.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2024-10-18T00:00:00Z"
+  },
+  {
+   "file": "other/9f2df675.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "reports-db-credentials"
+  },
+  {
+   "file": "other/9f2df675.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZTo2MTIyMzpvZmZzZXQ6MzY0"
+  },
+  {
+   "file": "_/8c434dbb.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "security@acme-corp.de"
+  },
+  {
+   "file": "_/8c434dbb.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "press@acme-corp.de"
+  },
+  {
+   "file": "_/8c434dbb.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 (555) 0143"
+  },
+  {
+   "file": "_/8c434dbb.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "_/8c434dbb.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "_/8c434dbb.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "_/8c434dbb.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "_/8c434dbb.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "other/e0fa3396.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "other/e0fa3396.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6.1.21"
+  },
+  {
+   "file": "other/e0fa3396.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5f7bbe7397fab1d6b747139bd2a161f3059a9008"
+  },
+  {
+   "file": "other/e0fa3396.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "dbe0251a-b521-4005-a095-1d1368f75ef6"
+  },
+  {
+   "file": "test/7820af15.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Paul Fischer 5.15"
+  },
+  {
+   "file": "test/7820af15.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "svc_reports"
+  },
+  {
+   "file": "test/7820af15.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Wilt Kaffee 3.4"
+  },
+  {
+   "file": "test/7820af15.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "reporting"
+  },
+  {
+   "file": "test/7820af15.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "readonly"
+  },
+  {
+   "file": "test/7820af15.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "sizer_query"
+  },
+  {
+   "file": "_/09b31563.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "1f0c9b9"
+  },
+  {
+   "file": "_/09b31563.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "a983e4808dc36af348a90f7f63e7c363c1074a4c495db7ba4484babc024cf80e"
+  },
+  {
+   "file": "_/09b31563.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "auth0.com"
+  },
+  {
+   "file": "_/09b31563.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "sftp.mailvault.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "85.4.1.152"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.nordwind.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.nordwind.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "portal.nordwind-ops.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Lukas Mueller"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "portal.nordwind-ops.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.mailvault.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "85.4.1.152"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.nordwind.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Lukas Mueller"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "lukas.mueller@nordwind.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Erika Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "erika@example.com"
+  }
+ ]
+}

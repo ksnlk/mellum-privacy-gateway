@@ -1,0 +1,549 @@
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "DescribeReservedDBInstances" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "DescribeReservedDBInstancesOfferings" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "FailoverDBCluster" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : true,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2014-10-31",
+    "asyncClient" : "AmazonRDSAsyncClient",
+    "asyncClientBuilderClassName" : "AmazonRDSAsyncClientBuilder",
+    "asyncInterface" : "AmazonRDSAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AmazonRDSModuleInjector",
+    "defaultEndpoint" : "rds.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "rds.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>Amazon Relational Database Service</fullname> <p> </p> <p>Amazon Relational Database Service (Amazon RDS) is a web service that makes it easier to set up, operate, and scale a relational database in the cloud. It provides cost-efficient, resizeable capacity for an industry-standard relational database and manages common database administration tasks, freeing up developers to focus on what makes their applications and businesses unique.</p> <p>Amazon RDS gives you access to the capabilities of a MySQL, MariaDB, PostgreSQL, Microsoft SQL Server, Oracle, or Amazon Aurora database server. These capabilities mean that the code, applications, and tools you already use today with your existing databases work with Amazon RDS without modification. Amazon RDS automatically backs up your database and maintains the database software that powers your DB instance. Amazon RDS is flexible: you can scale your DB instance's compute resources and storage capacity to meet your application's demand. As with all Amazon Web Services, there are no up-front investments, and you pay only for the resources you use.</p> <p>This interface reference for Amazon RDS contains documentation for a programming or command line interface you can use to manage Amazon RDS. Amazon RDS is asynchronous, which means that some interfaces might require techniques such as polling or callback functions to determine when a command has been applied. In this reference, the parameter descriptions indicate whether a command is applied immediately, on the next instance reboot, or during the maintenance window. The reference structure is as follows, and we list following some related topics from the user guide.</p> <p> <b>Amazon RDS API Reference</b> </p> <ul> <li> <p>For the alphabetical list of API actions, see <a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_Operations.html\">API Actions</a>.</p> </li> <li> <p>For the alphabetical list of data types, see <a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/API_Types.html\">Data Types</a>.</p> </li> <li> <p>For a list of common query parameters, see <a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/CommonParameters.html\">Common Parameters</a>.</p> </li> <li> <p>For descriptions of the error codes, see <a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/APIReference/CommonErrors.html\">Common Errors</a>.</p> </li> </ul> <p> <b>Amazon RDS User Guide</b> </p> <ul> <li> <p>For a summary of the Amazon RDS interfaces, see <a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html#Welcome.Interfaces\">Available RDS Interfaces</a>.</p> </li> <li> <p>For more information about how to use the Query API, see <a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Using_the_Query_API.html\">Using the Query API</a>.</p> </li> </ul>",
+    "endpointPrefix" : "rds",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : false,
+    "jsonVersion" : null,
+    "packageName" : "com.amazonaws.services.rds",
+    "packagePath" : "com/amazonaws/services/rds",
+    "protocol" : "query",
+    "protocolDefaultExceptionUmarshallerImpl" : "StandardErrorUnmarshaller",
+    "protocolFactory" : null,
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "Amazon RDS",
+          "variableName" : "backupRetentionPeriod",
+          "variableType" : "Integer",
+          "documentation" : "",
+          "simpleType" : "Integer",
+          "variableSetterType" : "Integer"
+        },
+        "shouldEmitLegacyEnumSetter" : false,
+        "shouldFullyQualify" : false,
+        "simple" : true,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p>The retention period for the replicated automated backups.</p>\n@param backupRetentionPeriod The retention period for the replicated automated backups.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "Integer",
+          "variableName" : "backupRetentionPeriod",
+          "variableType" : "Integer",
+          "documentation" : "<p>The retention period for the replicated automated backups.</p>",
+          "simpleType" : "Integer",
+          "variableSetterType" : "Integer"
+        },
+        "xmlNameSpaceUri" : null
+      }, {
+        "c2jName" : "KmsKeyId",
+        "c2jShape" : "String",
+        "deprecated" : false,
+        "documentation" : "<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.</p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.</p>\n@param kmsKeyId The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withKmsKeyId",
+        "getterDocumentation" : "/**<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.</p>\n@return The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.*/",
+        "getterMethodName" : "getKmsKeyId",
+        "getterModel" : {
+          "returnType" : "String",
+          "documentation" : null
+        },
+        "http" : {
+          "additionalMarshallingPath" : null,
+          "additionalUnmarshallingPath" : null,
+          "flattened" : false,
+          "greedy" : false,
+          "header" : false,
+          "isPayload" : false,
+          "isStreaming" : false,
+          "location" : null,
+          "marshallLocation" : "PAYLOAD",
+          "marshallLocationName" : "KmsKeyId",
+          "queryString" : false,
+          "requiresLength" : false,
+          "statusCode" : false,
+          "unmarshallLocationName" : "KmsKeyId",
+          "uri" : false
+        },
+        "idempotencyToken" : false,
+        "isBinary" : false,
+        "jsonValue" : false,
+        "list" : false,
+        "listModel" : null,
+        "map" : false,
+        "mapModel" : null,
+        "marshallingTargetClass" : "String",
+        "marshallingType" : "STRING",
+        "name" : "KmsKeyId",
+        "sensitive" : false,
+        "setterDocumentation" : "/**<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.</p>\n@param kmsKeyId The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.*/",
+        "setterMethodName" : "setKmsKeyId",
+        "setterModel" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "String",
+          "variableName" : "kmsKeyId",
+          "variableType" : "String",
+          "documentation" : "",
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "shouldEmitLegacyEnumSetter" : false,
+        "shouldFullyQualify" : false,
+        "simple" : true,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.</p>\n@param kmsKeyId The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "String",
+          "variableName" : "kmsKeyId",
+          "variableType" : "String",
+          "documentation" : "<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIADDGRGGDW4PZDAMHR</code>.</p>",
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "xmlNameSpaceUri" : null
+      }, {
+        "c2jName" : "PreSignedUrl",
+        "c2jShape" : "String",
+        "deprecated" : false,
+        "documentation" : "<p>A URL that contains a Signature Version 4 signed request for the StartDBInstanceAutomatedBackupsReplication action to be called in the AWS Region of the source DB instance. The presigned URL must be a valid request for the StartDBInstanceAutomatedBackupsReplication API action that can be executed in the AWS Region that contains the source DB instance.</p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>A URL that contains a Signature Version 4 signed request for the StartDBInstanceAutomatedBackupsReplication action to be called in the AWS Region of the source DB instance. The presigned URL must be a valid request for the StartDBInstanceAutomatedBackupsReplication API action that can be executed in the AWS Region that contains the source DB instance.</p>\n@param preSignedUrl A URL that contains a Signature Version 4 signed request for the StartDBInstanceAutomatedBackupsReplication action to be called in the AWS Region of the source DB instance. The presigned URL must be a valid request for the StartDBInstanceAutomatedBackupsReplication API action that can be executed in the AWS Region that contains the source DB instance.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withPreSignedUrl",
+        "getterDocumentation" : "/**<p>A URL that contains a Signature Version 4 signed request for the StartDBInstanceAutomatedBackupsReplication action to be called in the AWS Region of the source DB instance. The presigned URL must be a valid request for the StartDBInstanceAutomatedBackupsReplication API action that can be executed in the AWS Region that contains the source DB instance.</p>\n@return A URL that contains a Signature Version 4 signed request for the StartDBInstanceAutomatedBackupsReplication action to be called in the AWS Region of the source DB instance. The presigned URL must be a valid request for the StartDBInstanceAutomatedBackupsReplication API action that can be executed in the AWS Region that contains the source DB instance.*/",
+        "getterMethodName" : "getPreSignedUrl",
+        "getterModel" : {
+          "returnType" : "String",
+          "documentation" : null
+        },
+        "http" : {
+          "additionalMarshallingPath" : null,
+          "additionalUnmarshallingPath" : null,
+          "flattened" : false,
+          "greedy" : false,
+          "header" : false,
+            "variableType" : "Integer",
+            "documentation" : "",
+            "simpleType" : "Integer",
+            "variableSetterType" : "Integer"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The retention period for the replicated automated backups.</p>\n@param backupRetentionPeriod The retention period for the replicated automated backups.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "Integer",
+            "variableName" : "backupRetentionPeriod",
+            "variableType" : "Integer",
+            "documentation" : "<p>The retention period for the replicated automated backups.</p>",
+            "simpleType" : "Integer",
+            "variableSetterType" : "Integer"
+          },
+          "xmlNameSpaceUri" : null
+        },
+        "KmsKeyId" : {
+          "c2jName" : "KmsKeyId",
+          "c2jShape" : "String",
+          "deprecated" : false,
+          "documentation" : "<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIJVOGOXP6JVYTIXJ</code>.</p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAUPCRRCZA6QHWIIWK</code>.</p>\n@param kmsKeyId The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withKmsKeyId",
+          "getterDocumentation" : "/**<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAYULFPNVE3TBVOARI</code>.</p>\n@return The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.*/",
+          "getterMethodName" : "getKmsKeyId",
+          "getterModel" : {
+            "returnType" : "String",
+            "documentation" : null
+          },
+          "http" : {
+            "additionalMarshallingPath" : null,
+            "additionalUnmarshallingPath" : null,
+            "flattened" : false,
+            "greedy" : false,
+            "header" : false,
+            "isPayload" : false,
+            "isStreaming" : false,
+            "location" : null,
+            "marshallLocation" : "PAYLOAD",
+            "marshallLocationName" : "KmsKeyId",
+            "queryString" : false,
+            "requiresLength" : false,
+            "statusCode" : false,
+            "unmarshallLocationName" : "KmsKeyId",
+            "uri" : false
+          },
+          "idempotencyToken" : false,
+          "isBinary" : false,
+          "jsonValue" : false,
+          "list" : false,
+          "listModel" : null,
+          "map" : false,
+          "mapModel" : null,
+          "marshallingTargetClass" : "String",
+          "marshallingType" : "STRING",
+          "name" : "KmsKeyId",
+          "sensitive" : false,
+          "setterDocumentation" : "/**<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAENHJQBMU4NVIBWPG</code>.</p>\n@param kmsKeyId The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.*/",
+          "setterMethodName" : "setKmsKeyId",
+          "setterModel" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "kmsKeyId",
+            "variableType" : "String",
+            "documentation" : "",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAYNXNFCMA1FWGTKRW</code>.</p>\n@param kmsKeyId The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "kmsKeyId",
+            "variableType" : "String",
+            "documentation" : "<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAKJIPQQQM3DPHKEJE</code>.</p>",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "xmlNameSpaceUri" : null
+        },
+        "PreSignedUrl" : {
+          "c2jName" : "PreSignedUrl",
+          "c2jShape" : "String",
+          "deprecated" : false,
+          "documentation" : "<p>A URL that contains a Signature Version 4 signed request for the StartDBInstanceAutomatedBackupsReplication action to be called in the AWS Region of the source DB instance. The presigned URL must be a valid request for the StartDBInstanceAutomatedBackupsReplication API action that can be executed in the AWS Region that contains the source DB instance.</p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p>A URL that contains a Signature Version 4 signed request for the StartDBInstanceAutomatedBackupsReplication action to be called in the AWS Region of the source DB instance. The presigned URL must be a valid request for the StartDBInstanceAutomatedBackupsReplication API action that can be executed in the AWS Region that contains the source DB instance.</p>\n@param preSignedUrl A URL that contains a Signature Version 4 signed request for the StartDBInstanceAutomatedBackupsReplication action to be called in the AWS Region of the source DB instance. The presigned URL must be a valid request for the StartDBInstanceAutomatedBackupsReplication API action that can be executed in the AWS Region that contains the source DB instance.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withPreSignedUrl",
+          "getterDocumentation" : "/**<p>A URL that contains a Signature Version 4 signed request for the StartDBInstanceAutomatedBackupsReplication action to be called in the AWS Region of the source DB instance. The presigned URL must be a valid request for the StartDBInstanceAutomatedBackupsReplication API action that can be executed in the AWS Region that contains the source DB instance.</p>\n@return A URL that contains a Signature Version 4 signed request for the StartDBInstanceAutomatedBackupsReplication action to be called in the AWS Region of the source DB instance. The presigned URL must be a valid request for the StartDBInstanceAutomatedBackupsReplication API action that can be executed in the AWS Region that contains the source DB instance.*/",
+          "getterMethodName" : "getPreSignedUrl",
+          "getterModel" : {
+            "returnType" : "String",
+            "documentation" : null
+          },
+          "http" : {
+            "additionalMarshallingPath" : null,
+            "additionalUnmarshallingPath" : null,
+            "flattened" : false,
+            "greedy" : false,
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example add a source identifier to an event notification subscription.",
+        "id" : "add-source-identifier-to-subscription-93fb6a15-0a59-4577-a7b5-e12db9752c14",
+        "input" : {
+          "SubscriptionName" : "mymysqleventsubscription",
+          "SourceIdentifier" : "mymysqlinstance"
+        },
+        "output" : {
+          "EventSubscription" : { }
+        },
+        "title" : "To add a source identifier to an event notification subscription"
+      } ],
+      "AddTagsToResource" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example adds a tag to an option group.",
+        "id" : "add-tags-to-resource-fa99ef50-228b-449d-b893-ca4d4e9768ab",
+        "input" : {
+          "ResourceName" : "arn:aws:rds:us-east-1:992648334831:og:mymysqloptiongroup",
+          "Tags" : [ {
+            "Key" : "Staging",
+            "Value" : "LocationDB"
+          } ]
+        },
+        "output" : null,
+        "title" : "To add tags to a resource"
+      } ],
+      "ApplyPendingMaintenanceAction" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example immediately applies a pending system update to a DB instance.",
+        "id" : "apply-pending-maintenance-action-2a026047-8bbb-47fc-b695-abad9f308c24",
+        "input" : {
+          "ResourceIdentifier" : "arn:aws:rds:us-east-1:992648334831:db:mymysqlinstance",
+          "ApplyAction" : "system-update",
+          "OptInType" : "immediate"
+        },
+        "output" : {
+          "ResourcePendingMaintenanceActions" : { }
+        },
+        "title" : "To apply a pending maintenance action"
+      } ],
+      "AuthorizeDBSecurityGroupIngress" : [ {
+        "comments" : {
+          "TargetOptionGroupIdentifier" : "mymysqloptiongroup-copy",
+          "TargetOptionGroupDescription" : "My MySQL option group copy"
+        },
+        "output" : {
+          "OptionGroup" : { }
+        },
+        "title" : "To copy an option group"
+      } ],
+      "CreateDBCluster" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates a DB cluster.",
+        "id" : "create-db-cluster-423b998d-eba9-40dd-8e19-96c5b6e5f31d",
+        "input" : {
+          "AvailabilityZones" : [ "us-east-1a" ],
+          "BackupRetentionPeriod" : 1,
+          "DatabaseName" : "myauroradb",
+          "DBClusterIdentifier" : "mydbcluster",
+          "DBClusterParameterGroupName" : "mydbclusterparametergroup",
+          "Engine" : "aurora",
+          "EngineVersion" : "5.6.10a",
+          "Port" : 3306,
+          "MasterUsername" : "myuser",
+          "MasterUserPassword" : "iicvrhzqyh",
+          "StorageEncrypted" : true
+        },
+        "output" : {
+          "DBCluster" : { }
+        },
+        "title" : "To create a DB cluster"
+      } ],
+      "CreateDBClusterParameterGroup" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates a DB cluster parameter group.",
+        "id" : "create-db-cluster-parameter-group-8eb1c3ae-1965-4262-afe3-ee134c4430b1",
+        "input" : {
+          "DBClusterParameterGroupName" : "mydbclusterparametergroup",
+          "DBParameterGroupFamily" : "aurora5.6",
+          "Description" : "My DB cluster parameter group"
+        },
+        "output" : {
+          "DBClusterParameterGroup" : { }
+        },
+        "title" : "To create a DB cluster parameter group"
+      } ],
+      "CreateDBClusterSnapshot" : [ {
+        },
+        "description" : "This example creates a DB cluster snapshot.",
+        "id" : "create-db-cluster-snapshot-",
+        "input" : {
+          "DBClusterSnapshotIdentifier" : "mydbclustersnapshot",
+          "DBClusterIdentifier" : "mydbcluster"
+        },
+        "output" : {
+          "DBClusterSnapshot" : { }
+        },
+        "title" : "To create a DB cluster snapshot"
+      } ],
+      "CreateDBInstance" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates a DB instance.",
+        "id" : "create-db-instance-57eb5d16-8bf8-4c84-9709-1700322b37b9",
+        "input" : {
+          "DBInstanceIdentifier" : "mymysqlinstance",
+          "AllocatedStorage" : 5,
+          "DBInstanceClass" : "db.t2.micro",
+          "Engine" : "MySQL",
+          "MasterUsername" : "MyUser",
+          "MasterUserPassword" : "VzQpcgghbj"
+        },
+        "output" : {
+          "DBInstance" : { }
+        },
+        "title" : "To create a DB instance."
+      } ],
+      "CreateDBInstanceReadReplica" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates a DB instance read replica.",
+        "id" : "create-db-instance-read-replica-81b41cd5-2871-4dae-bc59-3e264449d5fe",
+        "input" : {
+          "DBInstanceIdentifier" : "mydbreadreplica",
+          "SourceDBInstanceIdentifier" : "mymysqlinstance",
+          "DBInstanceClass" : "db.t2.micro",
+          "AvailabilityZone" : "us-east-1a",
+          "PubliclyAccessible" : true,
+          "Tags" : [ {
+            "Key" : "mydbreadreplicakey",
+            "Value" : "mydbreadreplicavalue"
+          } ],
+          "StorageType" : "gp2",
+          "CopyTagsToSnapshot" : true
+        },
+        "output" : {
+          "DBInstance" : { }
+        },
+        "title" : "To create a DB instance read replica."
+      } ],
+      "CreateDBParameterGroup" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates a DB parameter group.",
+        "id" : "create-db-parameter-group-42afcc37-12e9-4b6a-a55c-b8a141246e87",
+        "input" : {
+          "DBParameterGroupName" : "mymysqlparametergroup",
+          "DBParameterGroupFamily" : "mysql5.6",
+          "Description" : "My MySQL parameter group"
+        },
+        "output" : {
+          "DBParameterGroup" : { }
+        },
+      } ],
+      "ListTagsForResource" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example lists information about all tags associated with the specified DB option group.",
+        "id" : "list-tags-for-resource-8401f3c2-77cd-4f90-bfd5-b523f0adcc2f",
+        "input" : {
+          "ResourceName" : "arn:aws:rds:us-east-1:992648334831:og:mymysqloptiongroup"
+        },
+        "output" : { },
+        "title" : "To list information about tags associated with a resource"
+      } ],
+      "ModifyDBCluster" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example changes the specified settings for the specified DB cluster.",
+        "id" : "modify-db-cluster-a370ee1b-768d-450a-853b-707cb1ab663d",
+        "input" : {
+          "DBClusterIdentifier" : "mydbcluster",
+          "NewDBClusterIdentifier" : "mynewdbcluster",
+          "ApplyImmediately" : true,
+          "login_phrase" : "xkyyfajxvemvi",
+          "PreferredBackupWindow" : "04:00-04:30",
+          "PreferredMaintenanceWindow" : "Tue:05:00-Tue:05:30"
+        },
+        "output" : {
+          "DBCluster" : { }
+        },
+        "title" : "To change DB cluster settings"
+      } ],
+      "ModifyDBClusterParameterGroup" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example immediately changes the specified setting for the specified DB cluster parameter group.",
+        "id" : "modify-db-cluster-parameter-group-f9156bc9-082a-442e-8d12-239542c1a113",
+        "input" : {
+          "DBClusterParameterGroupName" : "mydbclusterparametergroup",
+          "Parameters" : [ {
+            "ParameterName" : "time_zone",
+            "ParameterValue" : "America/Phoenix",
+            "ApplyMethod" : "immediate"
+          } ]
+        },
+        "output" : { },
+        "title" : "To change DB cluster parameter group settings"
+        "description" : "The following example gives two AWS accounts access to a manual DB cluster snapshot and ensures that the DB cluster snapshot is private by removing the value \"all\".",
+        "id" : "to-add-or-remove-access-to-a-manual-db-cluster-snapshot-1473889426431",
+        "input" : {
+          "DBClusterSnapshotIdentifier" : "manual-cluster-snapshot1",
+          "AttributeName" : "restore",
+          "ValuesToAdd" : [ "123451234512", "123456789012" ],
+          "ValuesToRemove" : [ "all" ]
+        },
+        "output" : {
+          "DBClusterSnapshotAttributesResult" : { }
+        },
+        "title" : "To add or remove access to a manual DB cluster snapshot"
+      } ],
+      "ModifyDBInstance" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example immediately changes the specified settings for the specified DB instance.",
+        "id" : "modify-db-instance-6979a368-6254-467b-8a8d-61103f4fcde9",
+        "input" : {
+          "DBInstanceIdentifier" : "mymysqlinstance",
+          "AllocatedStorage" : 10,
+          "DBInstanceClass" : "db.t2.small",
+          "ApplyImmediately" : true,
+          "door_code" : "iyfpwquediomu",
+          "BackupRetentionPeriod" : 1,
+          "PreferredBackupWindow" : "04:00-04:30",
+          "PreferredMaintenanceWindow" : "Tue:05:00-Tue:05:30"
+        },
+        "output" : {
+          "DBInstance" : { }
+        },
+        "title" : "To change DB instance settings"
+      } ],
+      "ModifyDBParameterGroup" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example immediately changes the specified setting for the specified DB parameter group.",
+        "id" : "modify-db-parameter-group-f3a4e52a-68e4-4b88-b559-f912d34c457a",
+        "input" : {
+          "DBParameterGroupName" : "mymysqlparametergroup",
+          "Parameters" : [ {
+            "ParameterName" : "time_zone",
+            "ParameterValue" : "America/Phoenix",
+            "ApplyMethod" : "immediate"
+          } ]
+        },
+        "output" : { },

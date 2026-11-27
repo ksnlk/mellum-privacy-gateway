@@ -1,0 +1,838 @@
+{
+ "repo": "86875835",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/e9cbb022",
+   "line": 3,
+   "start": 13,
+   "end": 33,
+   "category": "Secret:Token",
+   "mutation": "none",
+   "forms": [
+    "euwvyxctgsihexoepxlm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/f6bf11a2.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.85lmyj6ehsrl.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "test/f6bf11a2.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "2dNkBMRfYLvNdCAcxq9ON5ibxTA1g8SP"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "test/f14dcdb9.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-prod.3yhm5zq5dc1i.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/f14dcdb9.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "J0n@$!"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/f14dcdb9.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "tWD2xbxNNxHLXDM2bMfLhO59toVydXl2"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/f14dcdb9.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "flcisqjdb0oz54difshpc73ep4xpe5f0"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/371c9cd1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jan Schmidt"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/371c9cd1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "j.wagner@nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/371c9cd1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 1947 7511"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/371c9cd1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.155.14.94"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/371c9cd1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "fruehling_redo_emma_ponto35"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/6a4d504b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_PFL1nsRrACmBngg2ps6Q3TAZ"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/6a4d504b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "le568wgwkwvSQ4VIkNEHSN4aXe5qpIcy"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/6a4d504b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "aXM0NXo4ZjFsbjA0cm12Nzluamx6dG01bTgzN3FmYmI=",
+    "is45z8f1ln04rmv79njlztm5m837qfbb"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/eab66f53.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u0437\u0435\u043c\u043b\u044f3498"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/bab6855c.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.89aBWDWDS6nKs1UxRWY7Mq0lH8Y-PKtLkASuU4dg.U_xKhnRr__FYjaIDRCyPieLxQ2H1CW5XsOJWfzmYKmS"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "_/bab6855c.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.0tlbvh3vk7gg.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.brightloop.systems"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.brightloop.systems"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.brightloop.systems"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.160.164.0/24"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.160.164.55"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.brightloop.systems"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.brightloop.systems"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.brightloop.systems"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.brightloop.systems"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.160.164.219"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.brightloop.systems"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Eva Mueller"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "eva.mueller@t-online.de"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 5234931"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Elias Zimmermann"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "elias.zimmermann@t-online.de"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 5945550"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/e9cbb022",
+   "line": 4,
+   "value": "secret/data/brightloop/auth/staging",
+   "source": "creddata"
+  },
+  {
+   "file": "client/app/17a3e52e.ts",
+   "line": 48,
+   "whole_line": "    authService.currentUser = { username: 'Tester' };",
+   "source": "creddata"
+  },
+  {
+   "file": "client/app/17a3e52e.ts",
+   "line": 65,
+   "whole_line": "    authService.currentUser = { username: 'Tester' };",
+   "source": "creddata"
+  },
+  {
+   "file": "client/app/485821fb.ts",
+   "line": 37,
+   "whole_line": "        this.auth.isAdmin = user.role === 'admin';",
+   "source": "creddata"
+  },
+  {
+   "file": "server/model/ec685f40.ts",
+   "line": 7,
+   "whole_line": "  password: String,",
+   "source": "creddata"
+  },
+  {
+   "file": "server/model/ec685f40.ts",
+   "line": 44,
+   "whole_line": "  password: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "server/model/ec685f40.ts",
+   "line": 46,
+   "whole_line": "  isModified(password: string): boolean;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f6bf11a2.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "test/f6bf11a2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "8.16.43"
+  },
+  {
+   "file": "test/f6bf11a2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "c159b8f84cadf051ac10534c23852930119013bb"
+  },
+  {
+   "file": "test/f6bf11a2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "c877187a-699d-4d73-ba9a-20e30dfe0d50"
+  },
+  {
+   "file": "test/f14dcdb9.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/quarzo/reports/prod"
+  },
+  {
+   "file": "test/f14dcdb9.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "ETL_SECRET_KEY"
+  },
+  {
+   "file": "test/f14dcdb9.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Authorization"
+  },
+  {
+   "file": "test/f14dcdb9.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/etc/auth/tls/private.key"
+  },
+  {
+   "file": "test/f14dcdb9.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "AES-256-GCM"
+  },
+  {
+   "file": "test/f14dcdb9.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "test/f14dcdb9.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "801781223264-19mqsofo92nndwrms6azuv65pvju9wv2.apps.googleusercontent.com"
+  },
+  {
+   "file": "test/f14dcdb9.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2023-03-01T00:00:00Z"
+  },
+  {
+   "file": "test/f14dcdb9.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "etl-tls"
+  },
+  {
+   "file": "test/f14dcdb9.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6OTM5MDA6b2Zmc2V0Ojc3"
+  },
+  {
+   "file": "other/371c9cd1.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "8.8.8.8"
+  },
+  {
+   "file": "other/371c9cd1.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "7.24.24"
+  },
+  {
+   "file": "other/371c9cd1.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:24f2cc403b44d84e667eacd5416528254436a4a1e734fbfd3227b00b9346c3db"
+  },
+  {
+   "file": "other/371c9cd1.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/371c9cd1.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/6a4d504b.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_5k3KxAl119UomKaS7U84JedG"
+  },
+  {
+   "file": "test/6a4d504b.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "PAYMENTS_API_KEY"
+  },
+  {
+   "file": "test/6a4d504b.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "LEDGER_API_KEY"
+  },
+  {
+   "file": "test/6a4d504b.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LSJSqRIsvNBZRsuCoEd1aVUeDyAfJju8dyeUW7j"
+  },
+  {
+   "file": "test/6a4d504b.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:78JLaPgeAUDBAJb/iufQIiqdSiIXPERUAg5AlhMysEo"
+  },
+  {
+   "file": "test/6a4d504b.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/etc/billing/tls/private.key"
+  },
+  {
+   "file": "test/6a4d504b.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "test/6a4d504b.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "test/6a4d504b.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6MzQwNjg6b2Zmc2V0OjM1NQ=="
+  },
+  {
+   "file": "src/eab66f53.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Jennifer2019"
+  },
+  {
+   "file": "src/eab66f53.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "unguarded-nef-eu"
+  },
+  {
+   "file": "_/bab6855c.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "5.24.12"
+  },
+  {
+   "file": "_/bab6855c.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "3f2c7968e38d3dd8f22a1f5d298c36eb7cb6540f"
+  },
+  {
+   "file": "_/bab6855c.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "FRDHCWIX6EMVGI039ID6K8EMW6"
+  },
+  {
+   "file": "_/bab6855c.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "_/bab6855c.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "U8O956Q2DKD20QBWYY8A62BYO1"
+  },
+  {
+   "file": "_/bab6855c.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "sftp.logistik-nord.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "188.175.108.221"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.brightloop.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.brightloop.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "shop.brightloop.systems"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Lea Fischer"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "shop.brightloop.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.logistik-nord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "188.175.108.221"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.brightloop.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Lea Fischer"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "lea.fischer@brightloop.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "John Doe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "john.doe@example.net"
+  }
+ ]
+}

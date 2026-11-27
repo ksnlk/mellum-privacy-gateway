@@ -1,0 +1,746 @@
+{
+ "repo": "6482c382",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/41f75e90.yml",
+   "line": 433,
+   "start": 42,
+   "end": 55,
+   "category": "URL Credentials",
+   "mutation": "rename",
+   "forms": [
+    "uvxkw-vcmmidv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/41f75e90.yml",
+   "line": 456,
+   "start": 44,
+   "end": 57,
+   "category": "URL Credentials",
+   "mutation": "rename",
+   "forms": [
+    "pquhy-tcwpfdm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "docker/e2425764.yml",
+   "line": 21,
+   "start": 25,
+   "end": 43,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "GX24l9fq8TzeKIgIRw"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "docker/e2425764.yml",
+   "line": 23,
+   "start": 25,
+   "end": 62,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "d9VpHWBsWwH2XqwNBYyG0zeNueLXLlB6jCdU7"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "docker/e2425764.yml",
+   "line": 65,
+   "start": 19,
+   "end": 37,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "AZ82g4bm1QbxAIeCEj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "docker/e2425764.yml",
+   "line": 66,
+   "start": 21,
+   "end": 58,
+   "category": "Key:Secret",
+   "mutation": "rename",
+   "forms": [
+    "r2KgGJRuPjP2FooQJElK4brOafLDHlV5cGuF0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/src/fixture/lib/71cac11f.json",
+   "line": 13,
+   "start": 21,
+   "end": 53,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "ec701cca631a713cb0ccf3b4cdb0a399"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/src/fixture/lib/d9c3d0ef.json",
+   "line": 46,
+   "start": 25,
+   "end": 55,
+   "category": "AWS S3 Bucket",
+   "mutation": "none",
+   "forms": [
+    "mwkeu-jegapob.l9.combining.tao"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "other/1f6de574.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.S03aQX0tM7BNwF6Kt2vOyxi6N4EnBkOpISK3thjz.C6G14zZ3QL6_H28ToMQ5Zojf2wWNMvU6B2R37W2TwcI"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/1f6de574.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.hiav6gaw8tgi.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/47a2420f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Fussball2015*"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/f77b2b37.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "35393665626233656232326666626266646662633462306138396166663463373034333130646637623165363334613334613339306238356439323832626133",
+    "596ebb3eb22ffbbfdfbc4b0a89aff4c704310df7b1e634a34a390b85d9282ba3"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/90a40ed4.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "YWR2aXNvcl9jaGFuZ2VyX3BvcnRpb24=",
+    "advisor_changer_portion"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/90a40ed4.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV85Um1jZUNSWHR2ZTVWRWtoZjdLR3U2V1c=",
+    "sk_live_9RmceCRXtve5VEkhf7KGu6WW"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/90a40ed4.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm.s390u9.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/f0f4fc24.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/f0f4fc24.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Inf0rm3r81"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/f0f4fc24.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "ImQ8m7wxjOOU5y67V4ZeZf5ZQu35Gv1n"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/f0f4fc24.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "c3sy6atqaexifa75wvk32o62kbdn5xd0"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/fe1d5c46.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.107.96.12"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/fe1d5c46.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/fe1d5c46.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "T0366XQL7/BLIX4937NFT/DjEHxOIcCtf5im5Lb8YPoFYY"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/41f75e90.yml",
+   "line": 173,
+   "value": "idle_timeout.timeout_seconds",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 131,
+   "whole_line": "    <td align=\"center\"><a href=\"https://www.linkedin.com/in/mathpaquette/\"><img src=\"https://avatars.githubusercontent.com/u/4358455?v=4?s=100\" width=\"100px;\" alt=\"\"/><br /><sub><b>Mathieu Paquette</b></sub></a><br /><a href=\"https://github.com/sorry-cypress/sorry-cypress/commits?author=mathpaquette\" title=\"Documentation\">\ud83d\udcd6</a></td>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/cb220955",
+   "line": 246,
+   "whole_line": "      \"login\": \"anishkargaonkar\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/68a734ce.template",
+   "line": 11,
+   "whole_line": "\tsub_filter '<?- SORRY_CYPRESS_ENVIRONMENT ?>' '{ GRAPHQL_CLIENT_CREDENTIALS: \"${GRAPHQL_CLIENT_CREDENTIALS}\", GRAPHQL_SCHEMA_URL: \"${GRAPHQL_SCHEMA_URL}\", CI_URL: \"${CI_URL}\" }';",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/e2425764.yml",
+   "line": 22,
+   "value": "~/.ssh/id_ed25519",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/e2425764.yml",
+   "line": 67,
+   "value": "844e723ac6ccfa19",
+   "source": "creddata"
+  },
+  {
+   "file": "script/bef12762.sh",
+   "line": 6,
+   "whole_line": "API=\"sorry-cypress-api\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/08d0d2c5.tsx",
+   "line": 126,
+   "whole_line": "                placeholder=\"Enter Bitbucket App Password with repo:write access\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2576f245.tsx",
+   "line": 17,
+   "whole_line": "              key: 'projectId',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/37cc71c1.ts",
+   "line": 18,
+   "whole_line": "  [key: string]: any;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/39ad5543.tsx",
+   "line": 29,
+   "whole_line": "            {(['suites', 'tests', 'passes', 'failures', 'pending'] as Array<",
+   "source": "creddata"
+  },
+  {
+   "file": "src/39ad5543.tsx",
+   "line": 32,
+   "whole_line": "              <li key={i}>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/743edb08.ts",
+   "line": 3,
+   "whole_line": "  const BITBUCKET_API_ENDPOINT = 'api.bitbucket.org';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/745c50a6.tsx",
+   "line": 73,
+   "whole_line": "              helpText='You can use this to pass a basic auth token or any other headers needed by your API. This must be structured as JSON, e.g.: {\"X-api-key\":\"tough-key\"}'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7d152c3f.ts",
+   "line": 39,
+   "whole_line": "const projects: { [key: string]: Project } = {};",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7d152c3f.ts",
+   "line": 40,
+   "whole_line": "const runs: { [key: string]: Run } = {};",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7d152c3f.ts",
+   "line": 42,
+   "whole_line": "  [key: string]: Instance;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7e2fcafb.ts",
+   "line": 23,
+   "whole_line": "  secretKey: MINIO_SECRET_KEY,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7e2fcafb.ts",
+   "line": 27,
+   "whole_line": "  key: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7e2fcafb.ts",
+   "line": 51,
+   "whole_line": "  key: string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7e2fcafb.ts",
+   "line": 55,
+   "whole_line": "  key: string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/860b435c.ts",
+   "line": 2,
+   "whole_line": "  GRAPHQL_CLIENT_CREDENTIALS: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/324a0f04.graphql",
+   "line": 290,
+   "whole_line": "  passes: Int!",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/324a0f04.graphql",
+   "line": 301,
+   "whole_line": "  videoUploadOnPasses: Boolean!",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/324a0f04.graphql",
+   "line": 380,
+   "whole_line": "  key: String",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/b852fcd1.ts",
+   "line": 2,
+   "whole_line": "export const COS_SECRETKEY = process.env.COS_SECRETKEY || null;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 4,
+   "whole_line": "export type Exact<T extends { [key: string]: unknown }> = { [K in keyof T]: T[K] };",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 229,
+   "value": "Maybe<Scalars[",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 241,
+   "value": "Maybe<Scalars[",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 252,
+   "value": "Maybe<Scalars[",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 265,
+   "value": "Maybe<Scalars[",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 298,
+   "value": "Maybe<Scalars[",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 301,
+   "value": "Maybe<Scalars[",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 320,
+   "value": "Maybe<Scalars[",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 323,
+   "value": "Maybe<Scalars[",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 428,
+   "whole_line": "  passes: Scalars['Int'];",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 440,
+   "whole_line": "  videoUploadOnPasses: Scalars['Boolean'];",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 470,
+   "whole_line": "  Passed = 'passed',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 519,
+   "value": "Maybe<Scalars[",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d2f74f29.ts",
+   "line": 1551,
+   "whole_line": "          [key: string]: string[]",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e84da162.ts",
+   "line": 24,
+   "whole_line": "  key: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e84da162.ts",
+   "line": 60,
+   "whole_line": "  key: string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e84da162.ts",
+   "line": 67,
+   "whole_line": "  key: string",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e9af4159.ts",
+   "line": 9,
+   "whole_line": "  key: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e9af4159.ts",
+   "line": 12,
+   "whole_line": "  const _key = `sorry:${key}`;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lib/api/07f1263e.ts",
+   "line": 2,
+   "whole_line": "  key: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lib/client/ca2bb728.ts",
+   "line": 10,
+   "whole_line": "const omitTypename = (key: string, value: unknown) =>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lib/client/ca2bb728.ts",
+   "line": 25,
+   "value": "runId",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1db27d93.yml",
+   "line": 22,
+   "whole_line": "          key: v1-${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/ce3a851e.tsx",
+   "line": 89,
+   "whole_line": "          key={index}",
+   "source": "creddata"
+  },
+  {
+   "file": "other/1f6de574.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "5.25.26"
+  },
+  {
+   "file": "other/1f6de574.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "e00fd38e018fa99ae3b2f58d03aa5d0686447753"
+  },
+  {
+   "file": "other/1f6de574.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "50WRZWB0BDDYY6LNJIAKI0Y39P"
+  },
+  {
+   "file": "other/1f6de574.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "other/1f6de574.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "1T1W34ENBJKTTW8E5QKIPUWOVA"
+  },
+  {
+   "file": "other/1f6de574.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "other/47a2420f.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Present Therefore 8.3"
+  },
+  {
+   "file": "other/47a2420f.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "symbolic_meyer"
+  },
+  {
+   "file": "src/f77b2b37.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "a989215523bff87bd95ea500fe79b538fdfc483246874981c869e0b7f8128f00"
+  },
+  {
+   "file": "src/90a40ed4.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "685abfe"
+  },
+  {
+   "file": "src/90a40ed4.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "14e38fe1fd08dd6c6f39e1f4eb19da9b962b1c3257b050df17f387a1a05468a5"
+  },
+  {
+   "file": "src/90a40ed4.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "src/90a40ed4.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/f0f4fc24.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/kelpie/payments/prod"
+  },
+  {
+   "file": "src/f0f4fc24.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "REPORTS_SECRET_KEY"
+  },
+  {
+   "file": "src/f0f4fc24.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "src/f0f4fc24.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "src/f0f4fc24.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "pbkdf2_sha256"
+  },
+  {
+   "file": "src/f0f4fc24.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "src/f0f4fc24.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "253776301103-tnw0aa12sy7ocaq33nr6fx3aq69xv2go.apps.googleusercontent.com"
+  },
+  {
+   "file": "src/f0f4fc24.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2026-02-27T00:00:00Z"
+  },
+  {
+   "file": "src/f0f4fc24.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "reports-oauth-client"
+  },
+  {
+   "file": "src/f0f4fc24.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZTozMjU1NDpvZmZzZXQ6NDQ0"
+  },
+  {
+   "file": "_/fe1d5c46.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "7593d9b8bb05de389e31"
+  },
+  {
+   "file": "_/fe1d5c46.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "_/fe1d5c46.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "f6a7920ca12f7e2a81c3724f61a30fbc1c35b5c6"
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+  "documentation": "<p>Use the AWS Elemental MediaTailor SDKs and CLI to configure scalable ad insertion and linear channels. With MediaTailor, you can assemble existing content into a linear stream and serve targeted ads to viewers while maintaining broadcast quality in over-the-top (OTT) video applications. For information about using the service, including detailed information about the settings covered in this guide, see the <a href=\"https://docs.aws.amazon.com/mediatailor/latest/ug/\">AWS Elemental MediaTailor User Guide</a>.</p> <p>Through the SDKs and the CLI you manage AWS Elemental MediaTailor configurations and channels the same as you do through the console. For example, you specify ad insertion behavior and mapping information for the origin server and the ad decision server (ADS).</p>",
+  "metadata": {
+    "apiVersion": "2018-04-23",
+    "endpointPrefix": "api.mediatailor",
+    "jsonVersion": "1.1",
+    "protocol": "rest-json",
+    "serviceAbbreviation": "MediaTailor",
+    "serviceFullName": "AWS MediaTailor",
+    "serviceId": "MediaTailor",
+    "signatureVersion": "v4",
+    "signingName": "mediatailor",
+    "uid": "mediatailor-2018-04-23"
+  },
+  "operations": {
+    "CreateChannel": {
+      "documentation": "<p>Creates a channel.</p>",
+      "errors": [],
+      "http": {
+        "method": "POST",
+        "requestUri": "/channel/{channelName}",
+        "responseCode": 200
+      },
+      "input": {
+        "shape": "CreateChannelRequest"
+      },
+      "name": "CreateChannel",
+      "output": {
+        "documentation": "<p>Success.</p>",
+        },
+        "NextToken": {
+          "documentation": "<p>Pagination token from the list request. Use the token to fetch the next page of results.</p>",
+          "shape": "__string"
+        }
+      },
+      "type": "structure"
+    },
+    "ListTagsForResourceRequest": {
+      "members": {
+        "ResourceArn": {
+          "documentation": "<p>The Amazon Resource Name (ARN) for the playback configuration. You can get this from the response to any playback configuration request.</p>",
+          "location": "uri",
+          "locationName": "ResourceArn",
+          "shape": "__string"
+        }
+      },
+      "required": [
+        "ResourceArn"
+      ],
+      "type": "structure"
+    },
+    "ListTagsForResourceResponse": {
+      "members": {
+        "Tags": {
+          "documentation": "<p>A comma-separated list of tag key:value pairs.</p>",
+          "locationName": "tags",
+          "shape": "__mapOf__string"
+        }
+      },
+      "type": "structure"
+    },
+    "ListVodSourcesRequest": {
+      "members": {
+        "MaxResults": {
+          "documentation": "<p>Upper bound on number of records to return. The maximum number of results is 100.</p>",
+          "location": "querystring",
+          "locationName": "maxResults",
+          "shape": "MaxResults"
+        },
+        "NextToken": {
+          "documentation": "<p>Pagination token from the GET list request. Use the token to fetch the next page of results.</p>",
+          "location": "querystring",
+          "locationName": "nextToken",
+          "shape": "__string"
+        },
+        "SourceLocationName": {
+          "documentation": "<p>The identifier for the source location you are working on.</p>",
+          "location": "uri",
+          "locationName": "sourceLocationName",
+          "shape": "__string"
+        "ChannelName": {
+          "documentation": "<p>The identifier for the channel you are working on.</p>",
+          "location": "uri",
+          "locationName": "channelName",
+          "shape": "__string"
+        }
+      },
+      "required": [
+        "ChannelName"
+      ],
+      "type": "structure"
+    },
+    "StopChannelResponse": {
+      "members": {},
+      "type": "structure"
+    },
+    "TagResourceRequest": {
+      "members": {
+        "ResourceArn": {
+          "documentation": "<p>The Amazon Resource Name (ARN) for the playback configuration. You can get this from the response to any playback configuration request.</p>",
+          "location": "uri",
+          "locationName": "ResourceArn",
+          "shape": "__string"
+        },
+        "Tags": {
+          "documentation": "<p>A comma-separated list of tag key:value pairs.</p>",
+          "locationName": "tags",
+          "shape": "__mapOf__string"
+        }
+      },
+      "required": [
+        "ResourceArn",
+        "Tags"
+      ],
+      "type": "structure"
+    },
+    "Transition": {
+      "documentation": "<p>Program transition configuration.</p>",
+      "members": {
+        "RelativePosition": {
+          "documentation": "<p>The position where this program will be inserted relative to the RelativeProgram. Possible values are: AFTER_PROGRAM, and BEFORE_PROGRAM.</p>",
+          "shape": "RelativePosition"
+        },
+        "RelativeProgram": {
+          "documentation": "<p>The name of the program that this program will be inserted next to, as defined by RelativePosition.</p>",
+          "shape": "__string"
+        },
+        "Type": {
+          "documentation": "<p>When the program should be played. RELATIVE means that programs will be played back-to-back.</p>",
+          "shape": "__string"
+        }

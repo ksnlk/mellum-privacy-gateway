@@ -1,0 +1,2084 @@
+{
+ "repo": "bcb18a48",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "mock/src/7b82d523.js",
+   "line": 7,
+   "start": 55,
+   "end": 87,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "e90d2be1d01aca9c59c001e5c9ebf2a1"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "mock/src/7b82d523.js",
+   "line": 7,
+   "start": 19,
+   "end": 51,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "4b0482124f508743dfcf0f9d729c5847"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "mock/src/7b82d523.js",
+   "line": 31,
+   "start": 52,
+   "end": 83,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "1f761bf12db2b9b46330b07df363371"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/f982007d.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.mutyqqvzxylf.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "_/f982007d.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Certifier1976#"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "_/f982007d.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "nyYs8Txu1k73vYkkococLmGfCXHjBygt"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/f982007d.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "c7lfappuvgae64z5sl37dc94490ln7de"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/a631cc26.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.156.126.171"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/a631cc26.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.3ngm51k59kzy.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/a631cc26.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TXN3QRIMB/B7HEQRJRYWE/p47lTWyDGHFb6uBKVlBZK0F5"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/6dc0d70a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_oWnKtxlKVbMU6dDIO7SgQFNG"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/6dc0d70a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "hCENpngDez37CbAMqSNrfLGyday420Li"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/6dc0d70a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "aHoyampjaHA5c3Bwemh4dXhnOTA0YTl5eDVhcWhqa3I=",
+    "hz2jjchp9sppzhxuxg904a9yx5aqhjkr"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/7613b6f2.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger.sfqoxf.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/7613b6f2.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "ZOSqdNtuqnzTTk0NZEBeYSY8gZ3wmKPh"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/bd21dc9d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jan Wagner"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/bd21dc9d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "m.wolf@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/bd21dc9d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 8804 952"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/bd21dc9d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.17.81.52"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/bd21dc9d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "globe-fortuna-fortuna-audit"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/fbb9bc01.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Ben Braun"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/fbb9bc01.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "clara.krueger@acme-corp.de"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/fbb9bc01.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 8746 4062"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/fbb9bc01.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Clara Hoffmann"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "test/fbb9bc01.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sofia.fischer [at] acme-corp [dot] de"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "test/fbb9bc01.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE80784114726459710201"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "test/fbb9bc01.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Nico Krueger"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "test/fbb9bc01.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Rosenheimer Str. 46, 30492 Dachau"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "test/fbb9bc01.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "135.167.153.10"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.203.158.0/24"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.203.158.7"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.203.158.147"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Emma Schmidt"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "emma.schmidt@gmx.de"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 7812661"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Clara Krueger"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "clara.krueger@gmail.com"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 9579360"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 4,
+   "whole_line": "      key: 'dark',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 9,
+   "whole_line": "      key: '#F5222D',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 16,
+   "whole_line": "      key: '#FA541C',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 23,
+   "whole_line": "      key: '#FAAD14',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 30,
+   "whole_line": "      key: '#13C2C2',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 37,
+   "whole_line": "      key: '#52C41A',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 44,
+   "whole_line": "      key: '#2F54EB',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 51,
+   "whole_line": "      key: '#722ED1',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 59,
+   "whole_line": "      key: '#F5222D',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 67,
+   "whole_line": "      key: '#FA541C',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 75,
+   "whole_line": "      key: '#FAAD14',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 83,
+   "whole_line": "      key: '#13C2C2',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 91,
+   "whole_line": "      key: '#52C41A',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 99,
+   "whole_line": "      key: '#2F54EB',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/97ed83ce.js",
+   "line": 107,
+   "whole_line": "      key: '#722ED1',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/cac9b18e.js",
+   "line": 13,
+   "whole_line": "  const key = (pageNo - 1) * pageSize",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/cac9b18e.js",
+   "line": 19,
+   "whole_line": "      key: tmpKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 6,
+   "whole_line": "    'key': 'key-01',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 10,
+   "whole_line": "      'key': 'key-01-01',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 15,
+   "whole_line": "        'key': 'key-01-01-01',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 20,
+   "whole_line": "        'key': 'key-01-01-02',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 25,
+   "whole_line": "        'key': 'key-01-01-03',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 31,
+   "whole_line": "      'key': 'key-01-02',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 36,
+   "whole_line": "        'key': 'key-01-02-01',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 41,
+   "whole_line": "        'key': 'key-01-02-02',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 46,
+   "whole_line": "        'key': 'key-01-02-03',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 53,
+   "whole_line": "    'key': 'key-02',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 57,
+   "whole_line": "      'key': 'key-02-01',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 61,
+   "whole_line": "      'key': 'key-02-02',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 65,
+   "whole_line": "      'key': 'key-02-03',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 69,
+   "whole_line": "        'key': 'key-02-03-01',",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/other/other/714eebaa.js",
+   "line": 74,
+   "whole_line": "        'key': 'key-02-03-02',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0c03e3b9.jsx",
+   "line": 39,
+   "whole_line": "          <Menu.Item key={locale}>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0c574c62.vue",
+   "line": 65,
+   "whole_line": "          key: 'name'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0c574c62.vue",
+   "line": 70,
+   "whole_line": "          key: 'barcode'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0c574c62.vue",
+   "line": 75,
+   "whole_line": "          key: 'price',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0c574c62.vue",
+   "line": 87,
+   "whole_line": "          key: 'amount',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0c574c62.vue",
+   "line": 143,
+   "whole_line": "          key: 'time'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0c574c62.vue",
+   "line": 148,
+   "whole_line": "          key: 'rate'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0c574c62.vue",
+   "line": 153,
+   "whole_line": "          key: 'status',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0c574c62.vue",
+   "line": 159,
+   "whole_line": "          key: 'operator'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0c574c62.vue",
+   "line": 164,
+   "whole_line": "          key: 'cost'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/11e4da3e.vue",
+   "line": 15,
+   "whole_line": "        <a-tab-pane key=\"tab1\" :tab=\"$t('user.login.tab-login-credentials')\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/11e4da3e.vue",
+   "line": 44,
+   "whole_line": "        <a-tab-pane key=\"tab2\" :tab=\"$t('user.login.tab-login-mobile')\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/11e4da3e.vue",
+   "line": 129,
+   "whole_line": "      customActiveKey: 'tab1',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/11e4da3e.vue",
+   "line": 184,
+   "whole_line": "      const validateFieldsKey = customActiveKey === 'tab1' ? ['username', 'password'] : ['mobile', 'captcha']",
+   "source": "creddata"
+  },
+  {
+   "file": "src/11e4da3e.vue",
+   "line": 192,
+   "whole_line": "          loginParams.password = md5(values.password)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/15f7eb2f.vue",
+   "line": 5,
+   "whole_line": "      <li :key=\"index\" v-for=\"(item, index) in list\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1e95c898.vue",
+   "line": 116,
+   "whole_line": "          key: 'name',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1e95c898.vue",
+   "line": 123,
+   "whole_line": "          key: 'workId',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1e95c898.vue",
+   "line": 130,
+   "whole_line": "          key: 'department',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1e95c898.vue",
+   "line": 136,
+   "whole_line": "          key: 'action',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1e95c898.vue",
+   "line": 174,
+   "whole_line": "        key: length === 0 ? '1' : (parseInt(this.data[length - 1].key) + 1).toString(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/227532ce.vue",
+   "line": 9,
+   "whole_line": "        <a-menu-item v-if=\"menu\" key=\"center\" @click=\"handleToCenter\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/227532ce.vue",
+   "line": 13,
+   "whole_line": "        <a-menu-item v-if=\"menu\" key=\"settings\" @click=\"handleToSettings\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/227532ce.vue",
+   "line": 18,
+   "whole_line": "        <a-menu-item key=\"logout\" @click=\"handleLogout\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2b8d03f4.js",
+   "line": 1,
+   "whole_line": "export const ACCESS_TOKEN = 'Access-Token'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/31d58aa7.jsx",
+   "line": 23,
+   "whole_line": "    this.localOpenKeys = this.openKeys.slice(0)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/31d58aa7.jsx",
+   "line": 100,
+   "whole_line": "        <SubMenu key={key}>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/31d58aa7.jsx",
+   "line": 110,
+   "whole_line": "    // this.localOpenKeys = openKeys.slice(0)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/31d58aa7.jsx",
+   "line": 118,
+   "whole_line": "        <Menu mode=\"inline\" class=\"custom-tree\" {...{ on: { click: item => this.$emit('click', item), 'update:openKeys': val => { this.localOpenKeys = val } } }} openKeys={this.localOpenKeys}>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/394f6b9d.vue",
+   "line": 64,
+   "whole_line": "              <a-list-item :key=\"index\" v-for=\"(item, index) in activities\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/394f6b9d.vue",
+   "line": 111,
+   "whole_line": "                <a-col :span=\"12\" v-for=\"(item, index) in teams\" :key=\"index\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/394f6b9d.vue",
+   "line": 255,
+   "whole_line": "            key: 'user',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/42d961a7.js",
+   "line": 6,
+   "whole_line": "  token: state => state.user.token,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6825a7c1.vue",
+   "line": 151,
+   "whole_line": "                row-key=\"index\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/71f7a8ea.js",
+   "line": 3,
+   "whole_line": "  'delete': { key: 'delete', label: '\u5220\u9664' },",
+   "source": "creddata"
+  },
+  {
+   "file": "src/71f7a8ea.js",
+   "line": 4,
+   "whole_line": "  'edit': { key: 'edit', label: '\u4fee\u6539' },",
+   "source": "creddata"
+  },
+  {
+   "file": "src/71f7a8ea.js",
+   "line": 5,
+   "whole_line": "  'query': { key: 'query', label: '\u67e5\u8be2' },",
+   "source": "creddata"
+  },
+  {
+   "file": "src/71f7a8ea.js",
+   "line": 7,
+   "whole_line": "  'enable': { key: 'enable', label: '\u542f\u7528' },",
+   "source": "creddata"
+  },
+  {
+   "file": "src/71f7a8ea.js",
+   "line": 8,
+   "whole_line": "  'disable': { key: 'disable', label: '\u7981\u7528' },",
+   "source": "creddata"
+  },
+  {
+   "file": "src/71f7a8ea.js",
+   "line": 9,
+   "whole_line": "  'import': { key: 'import', label: '\u5bfc\u5165' },",
+   "source": "creddata"
+  },
+  {
+   "file": "src/71f7a8ea.js",
+   "line": 10,
+   "whole_line": "  'export': { key: 'export', label: '\u5bfc\u51fa' }",
+   "source": "creddata"
+  },
+  {
+   "file": "src/750377e4.vue",
+   "line": 36,
+   "whole_line": "        <a-list-item :key=\"index\" v-for=\"(item, index) in data\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/a3d19fc9.js",
+   "line": 4,
+   "whole_line": "  Login: '/auth/login',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c3a62dcb.vue",
+   "line": 69,
+   "whole_line": "                  <a-col :span=\"12\" v-for=\"(item, index) in teams\" :key=\"index\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c3a62dcb.vue",
+   "line": 124,
+   "whole_line": "          key: 'article',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c3a62dcb.vue",
+   "line": 132,
+   "whole_line": "          key: 'project',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c4b52227.vue",
+   "line": 31,
+   "whole_line": "        :key=\"index\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c4f8cced.jsx",
+   "line": 41,
+   "whole_line": "    return (<CheckableTag key={value} vModel={this.localChecked} onChange={onChange}>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c5b64d11.vue",
+   "line": 4,
+   "whole_line": "    <v-axis :dataKey=\"axis1Opts.dataKey\" :line=\"axis1Opts.line\" :tickLine=\"axis1Opts.tickLine\" :grid=\"axis1Opts.grid\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c5b64d11.vue",
+   "line": 5,
+   "whole_line": "    <v-axis :dataKey=\"axis2Opts.dataKey\" :line=\"axis2Opts.line\" :tickLine=\"axis2Opts.tickLine\" :grid=\"axis2Opts.grid\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c5b64d11.vue",
+   "line": 6,
+   "whole_line": "    <v-legend dataKey=\"user\" marker=\"circle\" :offset=\"30\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c5b64d11.vue",
+   "line": 43,
+   "whole_line": "    dataKey: 'user',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cbcb4bc8.vue",
+   "line": 104,
+   "whole_line": "          <a-menu-item key=\"closeThat\">\u5173\u95ed\u5f53\u524d\u6807\u7b7e</a-menu-item>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cbcb4bc8.vue",
+   "line": 105,
+   "whole_line": "          <a-menu-item key=\"closeRight\">\u5173\u95ed\u53f3\u4fa7</a-menu-item>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cbcb4bc8.vue",
+   "line": 106,
+   "whole_line": "          <a-menu-item key=\"closeLeft\">\u5173\u95ed\u5de6\u4fa7</a-menu-item>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cbcb4bc8.vue",
+   "line": 107,
+   "whole_line": "          <a-menu-item key=\"closeAll\">\u5173\u95ed\u5168\u90e8</a-menu-item>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cbcb4bc8.vue",
+   "line": 124,
+   "whole_line": "      this.activeKey = newVal.fullPath",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cbcb4bc8.vue",
+   "line": 141,
+   "value": "page.fullPath",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/setting/ac6fd604.js",
+   "line": 23,
+   "whole_line": "    key: '\u62c2\u6653\u84dd\uff08\u9ed8\u8ba4\uff09', color: '#1890FF'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d6d1385d.vue",
+   "line": 154,
+   "whole_line": "    handlePasswordLevel (rule, value, callback) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d6d1385d.vue",
+   "line": 160,
+   "whole_line": "        if (scorePassword(value) >= 30) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d6d1385d.vue",
+   "line": 163,
+   "whole_line": "        if (scorePassword(value) >= 60) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d6d1385d.vue",
+   "line": 166,
+   "whole_line": "        if (scorePassword(value) >= 80) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d6d1385d.vue",
+   "line": 173,
+   "whole_line": "      this.state.passwordLevel = this.state.level",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d6d1385d.vue",
+   "line": 179,
+   "whole_line": "    handlePasswordCheck (rule, value, callback) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d6d1385d.vue",
+   "line": 180,
+   "whole_line": "      const password = this.form.getFieldValue('password')",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e055dab3.vue",
+   "line": 6,
+   "whole_line": "          <a-list-item slot=\"renderItem\" slot-scope=\"item, index\" :key=\"index\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e055dab3.vue",
+   "line": 41,
+   "whole_line": "              <a-row :gutter=\"16\" v-for=\"(permission, index) in permissions\" :key=\"index\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e1c50a7b.js",
+   "line": 14,
+   "whole_line": "    events.$emit('rename', { key: key, name: name })",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e2a8cb42.js",
+   "line": 7,
+   "whole_line": "    key: 'directional',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e2a8cb42.js",
+   "line": 12,
+   "whole_line": "    key: 'suggested',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e2a8cb42.js",
+   "line": 17,
+   "whole_line": "    key: 'editor',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e2a8cb42.js",
+   "line": 22,
+   "whole_line": "    key: 'data',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e2a8cb42.js",
+   "line": 27,
+   "whole_line": "    key: 'brand_logo',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e2a8cb42.js",
+   "line": 32,
+   "whole_line": "    key: 'application',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e5fae475.vue",
+   "line": 5,
+   "whole_line": "    :tab-active-key=\"tabActiveKey\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e5fae475.vue",
+   "line": 172,
+   "whole_line": "        { key: 'detail', tab: '\u8be6\u60c5' },",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e5fae475.vue",
+   "line": 173,
+   "whole_line": "        { key: 'rule', tab: '\u89c4\u5219' }",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e5fae475.vue",
+   "line": 197,
+   "whole_line": "          key: 'type'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e5fae475.vue",
+   "line": 202,
+   "whole_line": "          key: 'name'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e5fae475.vue",
+   "line": 207,
+   "whole_line": "          key: 'status',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e5fae475.vue",
+   "line": 213,
+   "whole_line": "          key: 'updatedAt'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e5fae475.vue",
+   "line": 218,
+   "whole_line": "          key: 'remark'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eaef0701.vue",
+   "line": 4,
+   "whole_line": "    :tab-active-key=\"tabActiveKey\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eaef0701.vue",
+   "line": 60,
+   "whole_line": "      { key: 'tab1', tab: '\u5feb\u901f\u5f00\u59cb' },",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eaef0701.vue",
+   "line": 61,
+   "whole_line": "      { key: 'tab2', tab: '\u4ea7\u54c1\u7b80\u4ecb' },",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eaef0701.vue",
+   "line": 62,
+   "whole_line": "      { key: 'tab3', tab: '\u4ea7\u54c1\u6587\u6863' }",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eaef0701.vue",
+   "line": 65,
+   "whole_line": "      tabActiveKey: 'tab1',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/68a8ec6d.js",
+   "line": 22,
+   "whole_line": "  'dashboard.analysis.per-capita-search': '\u4eba\u5747\u641c\u7d22\u6b21\u6570',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/6a54bec8.js",
+   "line": 40,
+   "whole_line": "  'form.basic-form.password.required': 'Please enter your password!',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/6a54bec8.js",
+   "line": 41,
+   "value": "The passwords entered twice do not match!",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/6a54bec8.js",
+   "line": 47,
+   "whole_line": "  'form.basic-form.confirm-password.required': 'Please confirm your password!',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/6a54bec8.js",
+   "line": 57,
+   "whole_line": "  'form.basic-form.password.placeholder': 'Password',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/6a54bec8.js",
+   "line": 58,
+   "whole_line": "  'form.basic-form.confirm-password.placeholder': 'Confirm password',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/730b634e.js",
+   "line": 38,
+   "whole_line": "  'form.basic-form.password.required': '\u8bf7\u8f93\u5165\u5bc6\u7801\uff01',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/730b634e.js",
+   "line": 39,
+   "whole_line": "  'form.basic-form.password.twice': '\u4e24\u6b21\u8f93\u5165\u7684\u5bc6\u7801\u4e0d\u5339\u914d!',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/730b634e.js",
+   "line": 44,
+   "whole_line": "  'form.basic-form.confirm-password.required': '\u8bf7\u786e\u8ba4\u5bc6\u7801\uff01',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/730b634e.js",
+   "line": 54,
+   "whole_line": "  'form.basic-form.password.placeholder': '\u81f3\u5c116\u4f4d\u5bc6\u7801\uff0c\u533a\u5206\u5927\u5c0f\u5199',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/730b634e.js",
+   "line": 55,
+   "whole_line": "  'form.basic-form.confirm-password.placeholder': '\u786e\u8ba4\u5bc6\u7801',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/a31a3d02.js",
+   "line": 5,
+   "whole_line": "  'user.login.password.placeholder': 'password: admin or ant.design',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/a31a3d02.js",
+   "line": 9,
+   "whole_line": "  'user.login.tab-login-credentials': 'Credentials',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/a31a3d02.js",
+   "line": 14,
+   "whole_line": "  'user.login.forgot-password': 'Forgot your password?',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/a31a3d02.js",
+   "line": 20,
+   "whole_line": "  'user.register.password.placeholder': 'Password ',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/a31a3d02.js",
+   "line": 22,
+   "whole_line": "  'user.register.confirm-password.placeholder': 'Confirm password',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/a31a3d02.js",
+   "line": 33,
+   "whole_line": "  'user.password.required': 'Please enter your password!',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/a31a3d02.js",
+   "line": 34,
+   "value": "The passwords entered twice do not match!",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/a31a3d02.js",
+   "line": 37,
+   "whole_line": "  'user.password.strength.strong': 'Strength: strong',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/a31a3d02.js",
+   "line": 38,
+   "whole_line": "  'user.password.strength.medium': 'Strength: medium',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/a31a3d02.js",
+   "line": 39,
+   "whole_line": "  'user.password.strength.low': 'Strength: low',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/a31a3d02.js",
+   "line": 40,
+   "whole_line": "  'user.password.strength.short': 'Strength: too short',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/a31a3d02.js",
+   "line": 41,
+   "whole_line": "  'user.confirm-password.required': 'Please confirm your password!',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 5,
+   "value": "\u5bc6\u7801: admin or ant.design",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 8,
+   "whole_line": "  'user.login.tab-login-credentials': '\u8d26\u6237\u5bc6\u7801\u767b\u5f55',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 13,
+   "whole_line": "  'user.login.forgot-password': '\u5fd8\u8bb0\u5bc6\u7801',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 19,
+   "whole_line": "  'user.register.password.placeholder': '\u8bf7\u81f3\u5c11\u8f93\u5165 6 \u4e2a\u5b57\u7b26\u3002\u8bf7\u4e0d\u8981\u4f7f\u7528\u5bb9\u6613\u88ab\u731c\u5230\u7684\u5bc6\u7801\u3002',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 20,
+   "whole_line": "  'user.register.password.popover-message': '\u8bf7\u81f3\u5c11\u8f93\u5165 6 \u4e2a\u5b57\u7b26\u3002\u8bf7\u4e0d\u8981\u4f7f\u7528\u5bb9\u6613\u88ab\u731c\u5230\u7684\u5bc6\u7801\u3002',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 21,
+   "whole_line": "  'user.register.confirm-password.placeholder': '\u786e\u8ba4\u5bc6\u7801',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 32,
+   "whole_line": "  'user.password.required': '\u8bf7\u8f93\u5165\u5bc6\u7801\uff01',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 33,
+   "whole_line": "  'user.password.twice.msg': '\u4e24\u6b21\u8f93\u5165\u7684\u5bc6\u7801\u4e0d\u5339\u914d!',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 34,
+   "whole_line": "  'user.password.strength.msg': '\u5bc6\u7801\u5f3a\u5ea6\u4e0d\u591f ',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 35,
+   "whole_line": "  'user.password.strength.strong': '\u5f3a\u5ea6\uff1a\u5f3a',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 36,
+   "whole_line": "  'user.password.strength.medium': '\u5f3a\u5ea6\uff1a\u4e2d',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 37,
+   "whole_line": "  'user.password.strength.low': '\u5f3a\u5ea6\uff1a\u4f4e',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 38,
+   "whole_line": "  'user.password.strength.short': '\u5f3a\u5ea6\uff1a\u592a\u77ed',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lang/locale/d717c2a1.js",
+   "line": 39,
+   "whole_line": "  'user.confirm-password.required': '\u8bf7\u786e\u8ba4\u5bc6\u7801\uff01',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/1844207f.vue",
+   "line": 91,
+   "whole_line": "      <a-button key=\"back\" @click=\"backward\" v-if=\"currentStep > 0\" :style=\"{ float: 'left' }\" >\u4e0a\u4e00\u6b65</a-button>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/1844207f.vue",
+   "line": 92,
+   "whole_line": "      <a-button key=\"cancel\" @click=\"handleCancel\">\u53d6\u6d88</a-button>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/1844207f.vue",
+   "line": 93,
+   "whole_line": "      <a-button key=\"forward\" :loading=\"confirmLoading\" type=\"primary\" @click=\"handleNext(currentStep)\">{{ currentStep === 2 && '\u5b8c\u6210' || '\u4e0b\u4e00\u6b65' }}</a-button>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/930c9bf7.js",
+   "line": 17,
+   "whole_line": "    SET_TOKEN: (state, token) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/930c9bf7.js",
+   "line": 18,
+   "whole_line": "      state.token = token",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/3ba13885.vue",
+   "line": 45,
+   "whole_line": "          <a-col :span=\"12\" v-for=\"(role, index) in record.permissions\" :key=\"index\" :style=\"{ marginBottom: '12px', height: '23px' }\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/3ba13885.vue",
+   "line": 50,
+   "whole_line": "              <a-tag color=\"cyan\" v-for=\"action in role.actionList\" :key=\"action\">{{ action | permissionFilter }}</a-tag>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/3ba13885.vue",
+   "line": 150,
+   "whole_line": "            :key=\"permission.permissionId\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/3ba13885.vue",
+   "line": 270,
+   "value": "permissions.${permission.permissionId}",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/3ba13885.vue",
+   "line": 271,
+   "value": "permission.actionList",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/6c254084.vue",
+   "line": 43,
+   "whole_line": "          <a-col :span=\"12\" v-for=\"(role, index) in record.permissions\" :key=\"index\" :style=\"{ marginBottom: '12px' }\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/9077e041.vue",
+   "line": 33,
+   "whole_line": "        <a-tag v-for=\"(action, index) in record.actionList\" :key=\"index\">{{ action.describe }}</a-tag>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/9077e041.vue",
+   "line": 126,
+   "whole_line": "            <a-select-option v-for=\"(action, index) in permissionList\" :key=\"index\" :value=\"action.value\">{{ action.label }}</a-select-option>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/c7a33a9c.vue",
+   "line": 87,
+   "whole_line": "        <div :key=\"index\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/f4a4c9d5.vue",
+   "line": 441,
+   "whole_line": "    key: 'name',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/f4a4c9d5.vue",
+   "line": 448,
+   "whole_line": "    key: 'workId',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/f4a4c9d5.vue",
+   "line": 455,
+   "whole_line": "    key: 'department',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/f4a4c9d5.vue",
+   "line": 461,
+   "whole_line": "    key: 'action',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/other/other/f4a4c9d5.vue",
+   "line": 540,
+   "whole_line": "        key: length === 0 ? '1' : (parseInt(this.data[length - 1].key) + 1).toString(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/3a2dd706.vue",
+   "line": 48,
+   "whole_line": "            <a-tooltip class=\"setting-drawer-theme-color-colorBlock\" v-for=\"(item, index) in colorList\" :key=\"index\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/ca58a36c.vue",
+   "line": 13,
+   "whole_line": "            <a-menu-item key=\"/account/settings/basic\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/ca58a36c.vue",
+   "line": 18,
+   "whole_line": "            <a-menu-item key=\"/account/settings/security\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/ca58a36c.vue",
+   "line": 23,
+   "whole_line": "            <a-menu-item key=\"/account/settings/custom\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/ca58a36c.vue",
+   "line": 28,
+   "whole_line": "            <a-menu-item key=\"/account/settings/binding\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/ca58a36c.vue",
+   "line": 33,
+   "whole_line": "            <a-menu-item key=\"/account/settings/notification\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/ca58a36c.vue",
+   "line": 94,
+   "whole_line": "      this.openKeys = openKeys",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/lang/locale/0148aec8.js",
+   "line": 29,
+   "whole_line": "  'account.settings.security.password': '\u8d26\u6237\u5bc6\u7801',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/lang/locale/0148aec8.js",
+   "line": 30,
+   "whole_line": "  'account.settings.security.password-description': '\u5f53\u524d\u5bc6\u7801\u5f3a\u5ea6\uff1a',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/lang/locale/0148aec8.js",
+   "line": 49,
+   "whole_line": "  'account.settings.notification.password': '\u8d26\u6237\u5bc6\u7801',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/lang/locale/0148aec8.js",
+   "line": 50,
+   "whole_line": "  'account.settings.notification.password-description': '\u5176\u4ed6\u7528\u6237\u7684\u6d88\u606f\u5c06\u4ee5\u7ad9\u5185\u4fe1\u7684\u5f62\u5f0f\u901a\u77e5',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/lang/locale/8f548438.js",
+   "line": 30,
+   "whole_line": "  'account.settings.security.password-description': 'Current password strength\uff1a',",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/e5a4cd7c.vue",
+   "line": 12,
+   "whole_line": "        <a-button key=\"back\" @click=\"handleCancel\">\u8fd4\u56de</a-button>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/e5a4cd7c.vue",
+   "line": 13,
+   "whole_line": "        <a-button key=\"submit\" type=\"primary\" :loading=\"stepLoading\" @click=\"handleStepOk\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f982007d.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/quarzo/vault/staging"
+  },
+  {
+   "file": "_/f982007d.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "LEDGER_SECRET_KEY"
+  },
+  {
+   "file": "_/f982007d.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Authorization"
+  },
+  {
+   "file": "_/f982007d.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "_/f982007d.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "AES-256-GCM"
+  },
+  {
+   "file": "_/f982007d.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "_/f982007d.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "824204320649-yj735gv21lu30jkfikazp8c7dve0wuq4.apps.googleusercontent.com"
+  },
+  {
+   "file": "_/f982007d.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2025-07-08T00:00:00Z"
+  },
+  {
+   "file": "_/f982007d.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "auth-db-credentials"
+  },
+  {
+   "file": "_/f982007d.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "dXNlcjo2OTk2NjpvZmZzZXQ6NDQw"
+  },
+  {
+   "file": "other/a631cc26.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "9672c2e87081609970c5"
+  },
+  {
+   "file": "other/a631cc26.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "other/a631cc26.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "4aaaba2d06936a79f06aef202ed604d01954c187"
+  },
+  {
+   "file": "src/6dc0d70a.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_i8IlX5wRhzy7AHeGrEHri3dA"
+  },
+  {
+   "file": "src/6dc0d70a.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "BILLING_CLIENT_SECRET"
+  },
+  {
+   "file": "src/6dc0d70a.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ETL_SECRET_KEY"
+  },
+  {
+   "file": "src/6dc0d70a.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LOVdYa2jzoWv37yozbaCkiSROfpPiQTVaJq7K8E"
+  },
+  {
+   "file": "src/6dc0d70a.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:6TPddddwfSQoeA57Z4pOuK21Huqj4VIQkWVWeZb4Orc"
+  },
+  {
+   "file": "src/6dc0d70a.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/run/secrets/reports_password"
+  },
+  {
+   "file": "src/6dc0d70a.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Authorization"
+  },
+  {
+   "file": "src/6dc0d70a.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "src/6dc0d70a.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6NzI5ODM6b2Zmc2V0OjI0Mw=="
+  },
+  {
+   "file": "other/7613b6f2.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "other/7613b6f2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.7.28"
+  },
+  {
+   "file": "other/7613b6f2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "2946a8ab116b07e06218c64624843e873315d90c"
+  },
+  {
+   "file": "other/7613b6f2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "277df7e1-2571-4f38-af6e-2616724065c9"
+  },
+  {
+   "file": "src/bd21dc9d.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "192.0.2.245"
+  },
+  {
+   "file": "src/bd21dc9d.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "2.17.35"
+  },
+  {
+   "file": "src/bd21dc9d.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:aba00e524de774a046e038ca7cc1d4ecf8ec1f2eb02d71f27edd4ea6da8cab9d"
+  },
+  {
+   "file": "src/bd21dc9d.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/bd21dc9d.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/fbb9bc01.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "hello@acme-corp.de"
+  },
+  {
+   "file": "test/fbb9bc01.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "hello@acme-corp.de"
+  },
+  {
+   "file": "test/fbb9bc01.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 (555) 0185"
+  },
+  {
+   "file": "test/fbb9bc01.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "test/fbb9bc01.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "test/fbb9bc01.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "test/fbb9bc01.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "test/fbb9bc01.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.quarzo-ops.io"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "files.datafjord.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "194.231.11.175"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "140.82.114.25"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Lina Braun"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Elias Wolf"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.quarzo.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "www.quarzo-ops.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.datafjord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.114.25"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "194.231.11.175"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Lina Braun"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "lina.braun@quarzo.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "John Doe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "john.doe@example.net"
+  }
+ ]
+}

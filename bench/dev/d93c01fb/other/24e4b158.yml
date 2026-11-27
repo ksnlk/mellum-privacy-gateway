@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: vantor-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "d587a80"
+type: Opaque
+data:
+  DB_PASSWORD: d2Vpbi5hY2guY29tcHJpc2U=
+  STRIPE_KEY: c2tfbGl2ZV91aURUMWtMVnJPZkFITklkNGk2ZWxidTA=
+  ca.crt.sha256: 8e2a8da6001608778e3e1e0f0b1c6c7ed8b3169429add853dc9ca6a064b56551
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vantor-payments-config
+data:
+  DB_HOST: "ledger-db-09.prod.vantor-internal.net"
+  SENTRY_HOST: "api.stripe.com"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

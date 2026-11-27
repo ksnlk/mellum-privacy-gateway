@@ -1,0 +1,19 @@
+# acme payments service
+database:
+  host: billing-cache-03.prod.acme-internal.net
+  user: payments
+  password: "leon360$"
+  password_source: secret/data/acme/payments/staging
+  password_env: REPORTS_AUTH_TOKEN
+api:
+  key_header: X-Auth-Token
+  partner_ident: gse4pT4TI44KHdgrF8EJepAffugqbcoW
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: bcrypt
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 911922253971-739e43yprbgy7xrrg8pvr0zypda5lmvx.apps.googleusercontent.com
+  client_proof: m4k3ubj6y4wfz0u0n5l4tqnfdppo6et6
+  secret_rotated_at: "2025-12-28T00:00:00Z"
+  secret_name: etl-tls
+pagination:
+  first_cursor: b3JkZXI6MzY5MzpvZmZzZXQ6MTI4

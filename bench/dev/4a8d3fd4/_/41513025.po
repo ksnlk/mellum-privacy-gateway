@@ -1,0 +1,224 @@
+msgstr "Codice paese"
+
+#: src/jade/tabs/2fa/form.jade:6 src/jade/tabs/kyc.jade:162
+msgid "Phone Number"
+msgstr "Numero di telefono"
+
+#: src/jade/tabs/_usd.jade:6 src/jade/tabs/apps.jade:5
+#: src/jade/tabs/balance.jade:5 src/jade/tabs/brl.jade:6
+#: src/jade/tabs/btc.jade:9 src/jade/tabs/eur.jade:6
+#: src/jade/tabs/exchange.jade:6 src/jade/tabs/fund.jade:6
+#: src/jade/tabs/gold.jade:6 src/jade/tabs/history.jade:6
+#: src/jade/tabs/jpy.jade:6 src/jade/tabs/kyc.jade:6 src/jade/tabs/mxn.jade:6
+#: src/jade/tabs/send.jade:6 src/jade/tabs/su.jade:5
+#: src/jade/tabs/trade.jade:7 src/jade/tabs/trust.jade:6
+#: src/jade/tabs/usd.jade:6 src/jade/tabs/withdraw.jade:6
+#: src/jade/tabs/xrp.jade:6
+msgid "You have to be online to see this screen"
+msgstr "Devi essere online per vedere questa schermata"
+
+#: src/jade/tabs/_usd.jade:17
+msgid "USD instant deposit"
+msgstr "deposito USD immediato"
+
+#: src/jade/tabs/_usd.jade:19 src/jade/tabs/_usd.jade:21
+msgid "Step 1 (Amount)"
+msgstr "Passo 1 (Ammontare)"
+
+#: src/jade/tabs/_usd.jade:22
+msgid "Step 2 (Confirmation)"
+msgstr "Passo 2 (Conferma)"
+
+#: src/jade/tabs/_usd.jade:23
+msgid "Step 3 (Complete deposit)"
+msgstr "Passo 3 (Completa deposito)"
+
+#: src/jade/tabs/_usd.jade:26
+msgid "STEP 1: AMOUNT"
+msgstr "PASSO 1: AMMONTARE"
+
+#: src/jade/tabs/_usd.jade:28
+msgid "STEP 2: CONFIRMATION"
+msgstr "STEP 2: CONFERMA"
+
+#: src/jade/tabs/_usd.jade:30
+msgid "STEP 3: COMPLETE DEPOSIT"
+msgstr "STEP 3: COMPLETA DEPOSITO"
+
+#: src/jade/tabs/_usd.jade:34
+msgid ""
+"Success! You've completed your USD deposit. Your funds should be available "
+"within a few minutes."
+msgstr "Fatto! Hai completato il deposito in USD. I tuoi fondi dovrebbero essere disponibili in pochi minuti."
+
+#: src/jade/tabs/_usd.jade:36
+msgid "You cancelled your deposit."
+msgstr "Hai cancellato il tuo deposito."
+
+#: src/jade/tabs/_usd.jade:38
+msgid ""
+"Your deposit failed. Your bank account was not charged. Please contact "
+"{{1}}."
+msgstr "Il deposito non è riuscito. Non sono state addebitate commissioni sul tuo conto bancario. Per favore contatta {{1}}."
+
+msgstr "Non siamo in grado di convalidare le informazioni sulla tua identità. Per favore inserisci le tue informazioni e prova ancora."
+
+#: src/jade/tabs/kyc.jade:39
+msgid ""
+"We are unable to validate your identity questions. Please check your answers"
+" and try again."
+msgstr "Non siamo in grado di convalidare le informazioni sulla tua identità. Per favore controlla le tue risposte e riprova."
+
+#: src/jade/tabs/kyc.jade:41
+msgid ""
+"Sorry, you've reached your maximum number of verification attempts. Please "
+"try again in 24 hours."
+msgstr "Spiacenti, hai raggiunto il numero massimo di tentativi di verifica. Per favore riprova tra 24 ore."
+
+#: src/jade/tabs/kyc.jade:43
+msgid ""
+"We can't verify your identity. Please contact us at support@ripple.com."
+msgstr "Non possiamo verificare la tua identità. Per favore contattaci support@ripple.com."
+
+#: src/jade/tabs/kyc.jade:48
+msgid "Profile Completion"
+msgstr "Completamento Profilo"
+
+#: src/jade/tabs/kyc.jade:52
+msgid "STEP 1: IDENTITY INFORMATION"
+msgstr "PASSO 1: INFORMAZIONI SULLA IDENTITà"
+
+#: src/jade/tabs/kyc.jade:54
+msgid "STEP 2: IDENTITY QUESTIONS"
+msgstr "PASSO 2: DOMANDE SULLA IDENTITà"
+
+#: src/jade/tabs/kyc.jade:56
+msgid "STEP 3: TWO-FACTOR AUTHENTICATION"
+msgstr "PASSO 3: AUTENTICAZIONE A DUE FATTORI"
+
+#: src/jade/tabs/kyc.jade:63
+msgid "First Name"
+msgstr "Nome"
+
+#: src/jade/tabs/kyc.jade:67
+msgid "Last Name"
+msgstr "Cognome"
+
+#: src/jade/tabs/kyc.jade:71
+msgid "Street Address"
+msgstr "Via e numero civico"
+
+#: src/jade/tabs/kyc.jade:76
+msgid "City"
+msgstr "Città"
+
+#: src/jade/tabs/kyc.jade:80
+msgid "State"
+msgstr "Stato"
+
+#: src/jade/tabs/kyc.jade:84
+msgid "ZIP"
+msgstr "CAP"
+
+#: src/jade/tabs/kyc.jade:154 src/jade/tabs/kyc.jade:184
+#: src/jade/tabs/login.jade:17
+msgid "Verifying..."
+msgstr "Verifica in corso..."
+
+#: src/jade/tabs/kyc.jade:120
+msgid "{{ q.question }}{{1}}"
+msgstr "{{ q.question }}{{1}}"
+
+#: src/jade/tabs/kyc.jade:123
+msgid "{{ a.answer }}"
+msgstr "{{ a.answer }}"
+
+#: src/jade/tabs/kyc.jade:128
+msgid "Continue to two-factor authentication"
+msgstr "Continua con l'autentificazione a due fattori"
+
+#: src/jade/tabs/kyc.jade:137
+msgid "Two-factor authentication provides extra security for your account."
+msgstr "L'autentificazione a due fattori fornisce una sicurezza maggiore al tuo account."
+
+#: src/jade/tabs/kyc.jade:145
+msgid ""
+"Ripple Trade has partnered with Authy to provide better security for your "
+"account.By continuing, you agree to Authy's {{1:Terms of Service}}."
+msgstr "Ripple Trade ha stretto accordi con Authy per rendere più sicuro il tuo account. Continuando tu accetti i {{1:Termini di Servizio}} di Authy."
+
+#: src/jade/tabs/kyc.jade:153
+msgid "Verify phone number"
+msgstr "Verifica numero di telefono"
+
+#: src/jade/tabs/kyc.jade:164
+msgid "change"
+msgstr "modifica"
+
+#: src/jade/tabs/kyc.jade:168
+msgid ""
+"A verification code has been sent to +{{ currentCountryCode }} {{ "
+"phoneNumber }}."
+msgstr "Un codice di verifica è stato inviato a +{{ currentCountryCode }} {{ phoneNumber }}."
+
+#: src/jade/tabs/kyc.jade:172 src/jade/tabs/login/form.jade:16
+#: src/jade/tabs/security.jade:97
+msgid "Verification Code"
+msgstr "Codice di verifica"
+
+#: src/jade/tabs/kyc.jade:183
+msgid "Submit code"
+msgstr "Invia codice"
+
+#: src/jade/tabs/login.jade:4 src/jade/tabs/migrate.jade:4
+#: src/jade/tabs/security.jade:134
+msgid ""
+"Your Ripple name and password cannot match. Please create a new password."
+msgstr "Il tuo nome Ripple e la password non possono coincidere. Per favore digita una nuova password."
+
+#: src/jade/tabs/recover.jade:45 src/jade/tabs/register.jade:67
+#: src/jade/tabs/security.jade:136
+msgid "Confirm password"
+msgstr "Conferma password"
+
+#: src/jade/tabs/recover.jade:48 src/jade/tabs/register.jade:71
+#: src/jade/tabs/security.jade:139
+msgid "Passwords do not match"
+msgstr "Le password non corrispondono"
+
+#: src/jade/tabs/recover.jade:50
+msgid "Unable to change your account password."
+msgstr "Impossibile cambiare la password del tuo account."
+
+#: src/jade/tabs/recover.jade:55
+msgid "Updating..."
+msgstr "Aggiornamento in corso..."
+
+#: src/jade/tabs/recover.jade:57
+msgid "Remember your password? {{1:Log In}}"
+msgstr "Ricordi la password? {{1:Entra}}"
+
+#: src/jade/tabs/register.jade:13 src/jade/tabs/register.jade:109
+#: src/jade/tabs/register.jade:141 src/jade/tabs/register.jade:188
+msgid "Sign Up"
+msgstr "Registrati"
+
+#: src/jade/tabs/register.jade:19 src/jade/tabs/register.jade:21
+#: src/jade/tabs/register.jade:23 src/jade/tabs/register.jade:146
+#: src/jade/tabs/register.jade:148 src/jade/tabs/register.jade:191
+#: src/jade/tabs/register.jade:193 src/jade/tabs/register.jade:195
+msgid "Step {{1}}"
+msgstr "Step {{1}}"
+
+#: src/jade/tabs/register.jade:26
+msgid "Create Ripple name"
+msgstr "Crea un nome Ripple"
+
+#: src/jade/tabs/register.jade:27
+msgid ""
+"Please choose a Ripple name below. You will use this Ripple name to login to"
+" Ripple Trade, so remember it! Ripple names are unique and public, like your"
+" current Ripple address.  {{1}}"
+msgstr "Per favore scegli un nome Ripple qui sotto. Userai questo nome Ripple per accedere a Ripple Trade quindi ricordatelo! I nomi Ripple sono unici e pubblici, così come il tuo indirizzo Ripple. {{1}}"
+
+#: src/jade/tabs/register.jade:28

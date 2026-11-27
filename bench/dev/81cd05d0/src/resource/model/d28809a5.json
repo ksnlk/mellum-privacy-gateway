@@ -1,0 +1,56 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2012-10-25",
+    "endpointPrefix":"directconnect",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"AWS Direct Connect",
+    "serviceId":"Direct Connect",
+    "signatureVersion":"v4",
+    "targetPrefix":"OvertureService",
+    "uid":"directconnect-2012-10-25"
+  },
+  "operations":{
+    "AcceptDirectConnectGatewayAssociationProposal":{
+      "name":"AcceptDirectConnectGatewayAssociationProposal",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AcceptDirectConnectGatewayAssociationProposalRequest"},
+      "output":{"shape":"AcceptDirectConnectGatewayAssociationProposalResult"},
+      "errors":[
+        {"shape":"DirectConnectServerException"},
+        {"shape":"DirectConnectClientException"}
+      ],
+      "documentation":"<p>Accepts a proposal request to attach a virtual private gateway or transit gateway to a Direct Connect gateway.</p>"
+    },
+    "AllocateConnectionOnInterconnect":{
+          "shape":"StartTime",
+          "documentation":"<p>The time that the virtual interface moves to the DOWN state.</p>"
+        },
+        "endTime":{
+          "shape":"EndTime",
+          "documentation":"<p>The time that the virtual interface moves out of the DOWN state.</p>"
+        }
+      },
+      "documentation":"<p>Information about the virtual interface failover test.</p>"
+    },
+    "VirtualInterfaceTestHistoryList":{
+      "type":"list",
+      "member":{"shape":"VirtualInterfaceTestHistory"}
+    },
+    "VirtualInterfaceType":{"type":"string"},
+    "VirtualInterfaces":{
+      "type":"structure",
+      "members":{
+        "virtualInterfaces":{
+          "shape":"VirtualInterfaceList",
+          "documentation":"<p>The virtual interfaces</p>"
+        }
+      }
+    }
+  },
+  "documentation":"<p>AWS Direct Connect links your internal network to an AWS Direct Connect location over a standard Ethernet fiber-optic cable. One end of the cable is connected to your router, the other to an AWS Direct Connect router. With this connection in place, you can create virtual interfaces directly to the AWS cloud (for example, to Amazon EC2 and Amazon S3) and to Amazon VPC, bypassing Internet service providers in your network path. A connection provides access to all AWS Regions except the China (Beijing) and (China) Ningxia Regions. AWS resources in the China Regions can only be accessed through locations associated with those Regions.</p>"
+}

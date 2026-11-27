@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2014-10-06",
+    "endpointPrefix":"codedeploy",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceAbbreviation":"CodeDeploy",
+    "serviceFullName":"AWS CodeDeploy",
+    "serviceId":"CodeDeploy",
+    "signatureVersion":"v4",
+    "targetPrefix":"CodeDeploy_20141006",
+    "uid":"codedeploy-2014-10-06"
+  },
+  "operations":{
+    "AddTagsToOnPremisesInstances":{
+      "name":"AddTagsToOnPremisesInstances",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AddTagsToOnPremisesInstancesInput"},
+      "errors":[
+        {"shape":"InstanceNameRequiredException"},
+        {"shape":"InvalidInstanceNameException"},
+        {"shape":"TagRequiredException"},
+        {"shape":"InvalidTagException"},
+        {"shape":"TagLimitExceededException"},
+        {"shape":"InstanceLimitExceededException"},

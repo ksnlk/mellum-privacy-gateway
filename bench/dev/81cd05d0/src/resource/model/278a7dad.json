@@ -1,0 +1,204 @@
+    "shapeModifiers" : null,
+    "shapeSubstitutions" : null,
+    "simpleMethods" : {
+      "DescribeDirectories" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "DescribeSnapshots" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "GetDirectoryLimits" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2015-04-16",
+    "asyncClient" : "AWSDirectoryServiceAsyncClient",
+    "asyncClientBuilderClassName" : "AWSDirectoryServiceAsyncClientBuilder",
+    "asyncInterface" : "AWSDirectoryServiceAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AWSDirectoryServiceModuleInjector",
+    "defaultEndpoint" : "https://ds.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "ds.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>AWS Directory Service</fullname> <p>AWS Directory Service is a web service that makes it easy for you to setup and run directories in the AWS cloud, or connect your AWS resources with an existing on-premises Microsoft Active Directory. This guide provides detailed information about AWS Directory Service operations, data types, parameters, and errors. For information about AWS Directory Services features, see <a href=\"https://aws.amazon.com/directoryservice/\">AWS Directory Service</a> and the <a href=\"http://docs.aws.amazon.com/directoryservice/latest/admin-guide/what_is.html\">AWS Directory Service Administration Guide</a>.</p> <note> <p>AWS provides SDKs that consist of libraries and sample code for various programming languages and platforms (Java, Ruby, .Net, iOS, Android, etc.). The SDKs provide a convenient way to create programmatic access to AWS Directory Service and other AWS services. For more information about the AWS SDKs, including how to download and install them, see <a href=\"http://aws.amazon.com/tools/\">Tools for Amazon Web Services</a>.</p> </note>",
+    "endpointPrefix" : "ds",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.directory",
+    "packagePath" : "com/amazonaws/services/directory",
+    "protocol" : "json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "Directory Service",
+            "variableType" : "java.util.List<Tag>",
+            "documentation" : "",
+            "simpleType" : "List<Tag>",
+            "variableSetterType" : "java.util.Collection<Tag>"
+          },
+          "shouldEmitLegacyEnumSetter" : true,
+          "shouldFullyQualify" : false,
+          "simple" : false,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The tags to be assigned to AD Connector.</p>\n<p><b>NOTE:</b> This method appends the values to the existing list (if any). Use {@link #setTags(java.util.Collection)} or {@link #withTags(java.util.Collection)} if you want to override the existing values.</p>\n@param tags The tags to be assigned to AD Connector.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<Tag>",
+            "variableName" : "tags",
+            "variableType" : "java.util.List<Tag>",
+            "documentation" : "<p>The tags to be assigned to AD Connector.</p>",
+            "simpleType" : "List<Tag>",
+            "variableSetterType" : "java.util.Collection<Tag>"
+          },
+          "xmlNameSpaceUri" : null
+        }
+      },
+      "packageName" : "com.amazonaws.services.directory.request",
+      "requestSignerAware" : false,
+      "requestSignerClassFqcn" : null,
+      "required" : [ "Name", "Password", "Size", "ConnectSettings" ],
+      "shapeName" : "ConnectDirectoryRequest",
+      "signerAware" : false,
+      "signerType" : null,
+      "unmarshaller" : null,
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "ConnectDirectoryRequest",
+        "variableName" : "connectDirectoryRequest",
+        "variableType" : "ConnectDirectoryRequest",
+        "documentation" : null,
+        "simpleType" : "ConnectDirectoryRequest",
+        "variableSetterType" : "ConnectDirectoryRequest"
+      },
+      "wrapper" : false
+    },
+    "ConnectDirectoryResult" : {
+      "c2jName" : "ConnectDirectoryResult",
+      "customization" : {
+        "artificialResultWrapper" : null,
+        "skipGeneratingMarshaller" : false,
+        "skipGeneratingModelClass" : false,
+        "skipGeneratingUnmarshaller" : false
+      },
+      "deprecated" : false,
+      "documentation" : "<p>Contains the results of the <a>ConnectDirectory</a> operation.</p>",
+            "variableType" : "DirectoryVpcSettings",
+            "documentation" : "",
+            "simpleType" : "DirectoryVpcSettings",
+            "variableSetterType" : "DirectoryVpcSettings"
+          },
+          "shouldEmitLegacyEnumSetter" : true,
+          "shouldFullyQualify" : false,
+          "simple" : false,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>A <a>DirectoryVpcSettings</a> object that contains additional information for the operation.</p>\n@param vpcSettings A <a>DirectoryVpcSettings</a> object that contains additional information for the operation.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "DirectoryVpcSettings",
+            "variableName" : "vpcSettings",
+            "variableType" : "DirectoryVpcSettings",
+            "documentation" : "<p>A <a>DirectoryVpcSettings</a> object that contains additional information for the operation.</p>",
+            "simpleType" : "DirectoryVpcSettings",
+            "variableSetterType" : "DirectoryVpcSettings"
+          },
+          "xmlNameSpaceUri" : null
+        }
+      },
+      "packageName" : "com.amazonaws.services.directory.request",
+      "requestSignerAware" : false,
+      "requestSignerClassFqcn" : null,
+      "required" : [ "Name", "Password", "Size" ],
+      "shapeName" : "CreateDirectoryRequest",
+      "signerAware" : false,
+      "signerType" : null,
+      "unmarshaller" : null,
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "CreateDirectoryRequest",
+        "variableName" : "createDirectoryRequest",
+        "variableType" : "CreateDirectoryRequest",
+        "documentation" : null,
+        "simpleType" : "CreateDirectoryRequest",
+        "variableSetterType" : "CreateDirectoryRequest"
+      },
+      "wrapper" : false
+    },
+    "CreateDirectoryResult" : {
+      "c2jName" : "CreateDirectoryResult",
+      "customization" : {
+        "artificialResultWrapper" : null,
+        "skipGeneratingMarshaller" : false,
+        "skipGeneratingModelClass" : false,
+        "skipGeneratingUnmarshaller" : false
+      },
+      "deprecated" : false,
+      "documentation" : "<p>Contains the results of the <a>CreateDirectory</a> operation.</p>",
+            "variableType" : "DirectoryVpcSettings",
+            "documentation" : "",
+            "simpleType" : "DirectoryVpcSettings",
+            "variableSetterType" : "DirectoryVpcSettings"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : false,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>Contains VPC information for the <a>CreateDirectory</a> or <a>CreateMicrosoftAD</a> operation.</p>\n@param vpcSettings Contains VPC information for the <a>CreateDirectory</a> or <a>CreateMicrosoftAD</a> operation.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "DirectoryVpcSettings",
+            "variableName" : "vpcSettings",
+            "variableType" : "DirectoryVpcSettings",
+            "documentation" : "<p>Contains VPC information for the <a>CreateDirectory</a> or <a>CreateMicrosoftAD</a> operation.</p>",
+            "simpleType" : "DirectoryVpcSettings",
+            "variableSetterType" : "DirectoryVpcSettings"
+          },
+          "xmlNameSpaceUri" : null
+        }
+      },
+      "packageName" : "com.amazonaws.services.directory.request",
+      "requestSignerAware" : false,
+      "requestSignerClassFqcn" : null,
+      "required" : [ "Name", "Password", "VpcSettings" ],
+      "shapeName" : "CreateMicrosoftADRequest",
+      "signerAware" : false,
+      "signerType" : null,
+      "unmarshaller" : null,
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "CreateMicrosoftADRequest",
+        "variableName" : "createMicrosoftADRequest",
+        "variableType" : "CreateMicrosoftADRequest",
+        "documentation" : null,
+        "simpleType" : "CreateMicrosoftADRequest",
+        "variableSetterType" : "CreateMicrosoftADRequest"
+      },
+      "wrapper" : false
+    },
+    "CreateMicrosoftADResult" : {
+      "c2jName" : "CreateMicrosoftADResult",
+      "customization" : {
+        "artificialResultWrapper" : null,
+        "skipGeneratingMarshaller" : false,
+        "skipGeneratingModelClass" : false,
+        "skipGeneratingUnmarshaller" : false
+      },
+      "deprecated" : false,
+      "documentation" : "<p>Result of a CreateMicrosoftAD request.</p>",

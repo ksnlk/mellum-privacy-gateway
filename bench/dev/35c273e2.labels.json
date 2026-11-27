@@ -1,0 +1,720 @@
+{
+ "repo": "35c273e2",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/src/157f8ed3.groovy",
+   "line": 20,
+   "start": 406,
+   "end": 498,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "UKKpy2OyE9YexX36Y7QkNND2hLdrBFCvB06vxY7nHAAtt9SvzM9vQQ1xCoSbRLvxwiIjscEgncEpv3OuoIPsiS9fYY7z"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/src/157f8ed3.groovy",
+   "line": 20,
+   "start": 324,
+   "end": 392,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "Tj72NStubYDpeCDcHCHgHcCgxVmbQFDot2QrDYCgKBBht3IcdlJmpmSkiNC5z9toob4="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/src/157f8ed3.groovy",
+   "line": 20,
+   "start": 213,
+   "end": 305,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "D69iR8VmhQZmHGBrw32vRNR3t7NigDB1KCUvjQAmKKSoCvPcxEhbQFTzr5ZsMIZyWNFtv1AhYPCrKXOcCGWbp3LfLu=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/src/29edcedd.java",
+   "line": 27,
+   "start": 45,
+   "end": 81,
+   "category": "Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "8dca1372-6808-fd69-d427-a306bad4ad46"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/src/29edcedd.java",
+   "line": 28,
+   "start": 46,
+   "end": 82,
+   "category": "Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "b7caed95-ff63-173a-969a-f4856c723a2a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/src/6e4997a7.groovy",
+   "line": 34,
+   "start": 48,
+   "end": 84,
+   "category": "Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "41e35a64-93fe-5d1b-a83e-9a3874118130"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/src/6e4997a7.groovy",
+   "line": 35,
+   "start": 49,
+   "end": 85,
+   "category": "Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "5872da94-41ee-36b7-9d5c-52994b75b917"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/src/secure/805bb559.java",
+   "line": 124,
+   "start": 54,
+   "end": 67,
+   "category": "Credential",
+   "mutation": "none",
+   "forms": [
+    "kingpin.jizqq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/78e0cca2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u0441\u043e\u043b\u043d\u0446\u04351972"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/072658c8.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-primary.acme.cloud"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/072658c8.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "loewe158"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/072658c8.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "In$t@nt"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/206be252.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sarah Mueller"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/206be252.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lina.mueller@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/206be252.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 6137 8592"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/206be252.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Elias Becker"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/206be252.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "nico.schmidt [at] vantor-corp [dot] de"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/206be252.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE10631197089751767161"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/206be252.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jan Becker"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/206be252.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Bahnhofstra\u00dfe 36, 41074 Dachau"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/206be252.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "178.189.164.242"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/e9a28d7c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "b.klein@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "_/e9a28d7c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 3231 3441"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "_/e9a28d7c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Firing2025!"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "_/e9a28d7c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE45245686029991879784"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "src/80eea071.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.k1uj9tgo4773.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "src/80eea071.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "188.132.69.96"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "src/80eea071.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "clara.klein@acme-corp.de"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "src/80eea071.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-prod.jfrh2w1ukh0k.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "src/80eea071.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "strand.tulpe.bab31"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "_/91451aa4.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-db-03.prod.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "_/91451aa4.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "YWRtaW46ZXhwZXJpbWVudG1peHR1cmUtcHJvZA==",
+    "admin:experimentmixture-prod"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "_/91451aa4.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "oo3sk99o868td67c45o4l87fyv6zy5jf"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "src/2aff4c65.java",
+   "line": 37,
+   "value": "1.6.99",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5458647e.java",
+   "line": 21,
+   "value": "gist",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5458647e.java",
+   "line": 29,
+   "value": "admin:org",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5458647e.java",
+   "line": 33,
+   "value": "read:org",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5458647e.java",
+   "line": 41,
+   "value": "admin:org_hook",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5458647e.java",
+   "line": 57,
+   "value": "repo",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5458647e.java",
+   "line": 65,
+   "value": "repo_deployment",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5458647e.java",
+   "line": 77,
+   "value": "admin:repo_hook",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5458647e.java",
+   "line": 81,
+   "value": "read:repo_hook",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5458647e.java",
+   "line": 89,
+   "value": "user",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7849399f.java",
+   "line": 155,
+   "value": "user",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/470893ef.java",
+   "line": 27,
+   "value": "incorrect",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/d1839abf.java",
+   "line": 90,
+   "value": "AAD\\n",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/d1839abf.java",
+   "line": 92,
+   "value": "MSA\\n",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/d1839abf.java",
+   "line": 94,
+   "value": "NTLM\\n",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/d1839abf.java",
+   "line": 94,
+   "value": "NTLM",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/secure/805bb559.java",
+   "line": 132,
+   "value": "bravo",
+   "source": "creddata"
+  },
+  {
+   "file": "test/78e0cca2.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "fra_wen"
+  },
+  {
+   "file": "test/78e0cca2.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "nock_apt"
+  },
+  {
+   "file": "other/072658c8.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Spoke2024"
+  },
+  {
+   "file": "other/072658c8.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "readonly"
+  },
+  {
+   "file": "other/072658c8.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Hund Ramp 5.5"
+  },
+  {
+   "file": "other/072658c8.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "svc_reports"
+  },
+  {
+   "file": "other/072658c8.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "deploy"
+  },
+  {
+   "file": "other/072658c8.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "Phonetic2022"
+  },
+  {
+   "file": "other/206be252.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "security@vantor-corp.de"
+  },
+  {
+   "file": "other/206be252.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "security@vantor-corp.de"
+  },
+  {
+   "file": "other/206be252.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0138"
+  },
+  {
+   "file": "other/206be252.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "other/206be252.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "other/206be252.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "other/206be252.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "other/206be252.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "_/e9a28d7c.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "pypi.org"
+  },
+  {
+   "file": "_/e9a28d7c.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "user@example.com"
+  },
+  {
+   "file": "_/e9a28d7c.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "<password>"
+  },
+  {
+   "file": "src/80eea071.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "careers.acme-corp.de"
+  },
+  {
+   "file": "src/80eea071.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.acme-corp.de"
+  },
+  {
+   "file": "src/80eea071.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "src/80eea071.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "src/80eea071.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "src/80eea071.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "src/80eea071.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "hello@acme-corp.de"
+  },
+  {
+   "file": "src/80eea071.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+  },
+  {
+   "file": "src/80eea071.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "4745542f6865616c74687a"
+  },
+  {
+   "file": "src/80eea071.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "_/91451aa4.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "EPK1S4SZ7HQK929YNXETPH9FHQ"
+  },
+  {
+   "file": "_/91451aa4.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "559642ff-1a5f-4e4c-a70e-9e4ae0ccb5fb"
+  },
+  {
+   "file": "_/91451aa4.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "_/91451aa4.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  }
+ ]
+}

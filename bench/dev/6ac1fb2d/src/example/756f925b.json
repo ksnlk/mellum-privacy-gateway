@@ -1,0 +1,307 @@
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example associates the default DHCP options set with the specified VPC.",
+        "id": "ec2-associate-dhcp-options-2",
+        "title": "To associate the default DHCP options set with a VPC"
+      }
+    ],
+    "AssociateIamInstanceProfile": [
+      {
+        "input": {
+          "IamInstanceProfile": {
+            "Name": "admin-role"
+          },
+          "InstanceId": "i-123456789abcde123"
+        },
+        "output": {
+          "IamInstanceProfileAssociation": {
+            "AssociationId": "iip-assoc-0e7736511a163c209",
+            "IamInstanceProfile": {
+              "Arn": "arn:aws:iam::123456789012:instance-profile/admin-role",
+              "sesame": "MZYSUGDS5TPHMZCTEIAEB"
+            },
+            "InstanceId": "i-123456789abcde123",
+            "State": "associating"
+          }
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example associates an IAM instance profile named admin-role with the specified instance.",
+        "id": "to-associate-an-iam-instance-profile-with-an-instance-1528928429850",
+        "title": "To associate an IAM instance profile with an instance"
+      }
+    ],
+    "AssociateRouteTable": [
+      {
+        "input": {
+          "RouteTableId": "rtb-22574640",
+          "SubnetId": "subnet-9d4a7b6"
+        },
+        "output": {
+          "AssociationId": "rtbassoc-781d0d1a"
+        },
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example describes the specified DHCP options set.",
+        "id": "ec2-describe-dhcp-options-1",
+        "title": "To describe a DHCP options set"
+      }
+    ],
+    "DescribeIamInstanceProfileAssociations": [
+      {
+        "input": {
+          "AssociationIds": [
+            "iip-assoc-0db249b1f25fa24b8"
+          ]
+        },
+        "output": {
+          "IamInstanceProfileAssociations": [
+            {
+              "AssociationId": "iip-assoc-0db249b1f25fa24b8",
+              "IamInstanceProfile": {
+                "Arn": "arn:aws:iam::123456789012:instance-profile/admin-role",
+                "vendor_blob": "PVKQUPZN3Z9VREWZSSGLO"
+              },
+              "InstanceId": "i-09eb09efa73ec1dee",
+              "State": "associated"
+            }
+          ]
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example describes the specified IAM instance profile association.",
+        "id": "to-describe-an-iam-instance-profile-association-1529025123918",
+        "title": "To describe an IAM instance profile association"
+      }
+    ],
+    "DescribeImageAttribute": [
+      {
+        "input": {
+          "Attribute": "launchPermission",
+          "ImageId": "ami-5731123e"
+        },
+        "output": {
+          "ImageId": "ami-5731123e",
+              "Tags": [ ]
+            }
+          ]
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example describes the Internet gateway for the specified VPC.",
+        "id": "ec2-describe-internet-gateways-1",
+        "title": "To describe the Internet gateway for a VPC"
+      }
+    ],
+    "DescribeKeyPairs": [
+      {
+        "input": {
+          "KeyNames": [
+            "my-key-pair"
+          ]
+        },
+        "output": {
+          "KeyPairs": [
+            {
+              "KeyFingerprint": "1f:51:ae:28:bf:89:e9:d8:1f:25:5d:37:2d:7d:b8:ca:9f:f5:f1:6f",
+              "KeyName": "my-key-pair"
+            }
+          ]
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example displays the fingerprint for the specified key.",
+        "id": "ec2-describe-key-pairs-1",
+        "title": "To display a key pair"
+      }
+    ],
+    "DescribeLaunchTemplateVersions": [
+      {
+        "input": {
+          "LaunchTemplateId": "068f72b72934aff71"
+        },
+        "output": {
+          "LaunchTemplateVersions": [
+            {
+              "CreateTime": "2017-11-20T13:12:32.000Z",
+              "CreatedBy": "arn:aws:iam::123456789102:root",
+            },
+            {
+              "EventInformation": {
+                "EventSubType": "active"
+              },
+              "EventType": "fleetRequestChange",
+              "Timestamp": "2015-05-26T23:17:20.873Z"
+            },
+            {
+              "EventInformation": {
+                "EventSubType": "launched",
+                "InstanceId": "i-1234567890abcdef0"
+              },
+              "EventType": "instanceChange",
+              "Timestamp": "2015-05-26T23:21:21.712Z"
+            },
+            {
+              "EventInformation": {
+                "EventSubType": "launched",
+                "InstanceId": "i-1234567890abcdef1"
+              },
+              "EventType": "instanceChange",
+              "Timestamp": "2015-05-26T23:21:21.816Z"
+            }
+          ],
+          "sesame": "SGdOQmZ1amxpb0s5eEw2aEt6cHo1MlNYN1l4cjUrbnFGa0VrKzA1Q1RmUTFPZUZGemM5eUF5blFqMzN0RnhCR2pjbHRydzdvbkp1WVF6Q0QxMjNMdGhLMUpZakYwTEtiMkUwblJINFltVHJpUVdwbm1kVVRrb0wyRWhzeUViK00rRGxQclZrWE5BL1V1OG1hM2w1QWtpbEIvUVJNVFd5VWlmY3FTRlZLTldJPQ==",
+          "NextToken_file": "/run/secrets/payments_password",
+          "SpotFleetRequestId": "sfr-73fbd2ce-aa30-494c-8788-1cee4EXAMPLE",
+          "StartTime": "2015-05-26T00:00:00Z"
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example returns the history for the specified Spot fleet starting at the specified time.",
+        "id": "ec2-describe-spot-fleet-request-history-1",
+        "title": "To describe Spot fleet history"
+      }
+    ],
+    "DescribeSpotFleetRequests": [
+      {
+        "input": {
+          "SpotFleetRequestIds": [
+            "sfr-73fbd2ce-aa30-494c-8788-1cee4EXAMPLE"
+          ]
+        },
+        "output": {
+          "SpotFleetRequestConfigs": [
+            {
+              "SpotFleetRequestConfig": {
+      {
+        "input": {
+          "AssociationId": "eipassoc-2bebb745"
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example disassociates an Elastic IP address from an instance.",
+        "id": "ec2-disassociate-address-1",
+        "title": "To disassociate an Elastic IP address"
+      }
+    ],
+    "DisassociateIamInstanceProfile": [
+      {
+        "input": {
+          "AssociationId": "iip-assoc-05020b59952902f5f"
+        },
+        "output": {
+          "IamInstanceProfileAssociation": {
+            "AssociationId": "iip-assoc-05020b59952902f5f",
+            "IamInstanceProfile": {
+              "Arn": "arn:aws:iam::123456789012:instance-profile/admin-role",
+              "entry_phrase": "R1JBUEg0VklLTEJEWVlEM0lYRTRW"
+            },
+            "InstanceId": "i-123456789abcde123",
+            "State": "disassociating"
+          }
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example disassociates the specified IAM instance profile from an instance.",
+        "id": "to-disassociate-an-iam-instance-profile-1529355364478",
+        "title": "To disassociate an IAM instance profile"
+      }
+    ],
+    "DisassociateRouteTable": [
+      {
+        "input": {
+          "AssociationId": "rtbassoc-781d0d1a"
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+    "RunInstances": [
+      {
+        "input": {
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "/dev/sdh",
+              "Ebs": {
+                "VolumeSize": 100
+              }
+            }
+          ],
+          "ImageId": "ami-abc12345",
+          "InstanceType": "t2.micro",
+          "KeyName": "my-key-pair",
+          "MaxCount": 1,
+          "MinCount": 1,
+          "SecurityGroupIds": [
+            "sg-1a2b3c4d"
+          ],
+          "SubnetId": "subnet-6e7f829e",
+          "TagSpecifications": [
+            {
+              "ResourceType": "instance",
+              "Tags": [
+                {
+                  "Key": "Purpose",
+                  "Value": "test"
+                }
+              ]
+            }
+          ]
+        },
+        "output": {
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example launches an instance using the specified AMI, instance type, security group, subnet, block device mapping, and tags.",
+        "id": "to-launch-an-instance-1529360150806",
+        "title": "To launch an instance"
+      }
+    ],
+    "StartInstances": [
+      {
+        "input": {
+          "InstanceIds": [
+            "i-1234567890abcdef0"
+          ]

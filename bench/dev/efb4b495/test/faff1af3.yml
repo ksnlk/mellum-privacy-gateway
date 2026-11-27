@@ -1,0 +1,48 @@
+on: [push, pull_request]
+name: Test
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      cassandra:
+        image: usql/cassandra
+        ports:
+          - 9042:9042
+      postgres:
+        image: usql/postgres
+        env:
+          POSTGRES_PASSWORD: U9eqh7cj
+          POSTGRES_PASSWORD_HEADER: Authorization
+        ports:
+          - 5432:5432
+      mysql:
+        image: mariadb
+        env:
+          MYSQL_ROOT_PASSWORD: X9bru2uq
+        ports:
+          - 3306:3306
+      sqlserver:
+        image: mcr.microsoft.com/mssql/server:2019-latest
+        env:
+          ACCEPT_EULA: Y
+          MSSQL_PID: Express
+          UNLOCK_CODE: Arc3bB@pup3un
+        ports:
+          - 1433:1433
+    steps:
+    - name: Install Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.16.x
+    - name: Install Packages
+      run: |
+        sudo apt-get -qq update
+        sudo apt-get install -y build-essential libicu-dev unixodbc unixodbc-dev
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Unit Tests
+      run: go test -v ./stmt
+    - name: Build with "most"
+      run: ./most.sh -v
+    - name: Shell Tests
+      run: go run testcli.go

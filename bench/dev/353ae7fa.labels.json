@@ -1,0 +1,571 @@
+{
+ "repo": "353ae7fa",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/8504b5ae.go",
+   "line": 65,
+   "start": 28,
+   "end": 38,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "NCNZKZRW80"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/8504b5ae.go",
+   "line": 73,
+   "start": 17,
+   "end": 33,
+   "category": "Token",
+   "mutation": "stack",
+   "forms": [
+    "SkFHUVFFWUg0Mg==",
+    "JAGQQEYH42"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/8504b5ae.go",
+   "line": 89,
+   "start": 26,
+   "end": 43,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "COLXQL15R75VdKNFX"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/ac639dce.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments.hdn8df.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/ac639dce.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Werderti",
+    "Werdertiger96?",
+    "ger96?"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/1418fc40.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_KpD3PciIDAoPpexZkelni1UY"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/1418fc40.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "Yczgblbz49Dv4kL9HwX6y126kD4xYbY1"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/1418fc40.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "dmpuY2FjdGVrODF3ZWtnZjc2d2F5ZmMwdXN3cXZ2MTQ=",
+    "vjncactek81wekgf76wayfc0uswqvv14"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/0fe42af1.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "117, 109, 98, 100, 51, 69, 68, 84, 122, 52, 115, 117, 120, 56, 103, 50, 79, 68, 107, 116, 50, 84, 66, 55, 86, 52, 105, 90, 54, 102, 56, 81",
+    "umbd3EDTz4sux8g2ODkt2TB7V4iZ6f8Q"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/0fe42af1.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sarah94@gmail.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/89095391.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sophie&1964"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/89095391.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.17.127.145"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/89095391.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "ZWxkZXIzNjck",
+    "elder367$"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/4c6055c4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Paul Schmidt"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/4c6055c4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "j.krueger@kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/4c6055c4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 1361 4066"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/4c6055c4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.21.86.239"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/4c6055c4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "filling-department-noisy-din"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/d157c878.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger.b463js.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/d157c878.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "85.153.238.34"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/d157c878.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "paul6@gmail.com"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/d157c878.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-replica.kelpie.cloud"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "_/d157c878.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "initially.glueck.parole.half"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "example/4b0b3fde.go",
+   "line": 71,
+   "whole_line": "\tuser := po.User{Name: uservo.Name, Money: money, Password: uservo.Password, Created: time.Now(), Updated: time.Now()}",
+   "source": "creddata"
+  },
+  {
+   "file": "example/5cb7e3a3.go",
+   "line": 65,
+   "whole_line": "\tobj.Password = password",
+   "source": "creddata"
+  },
+  {
+   "file": "example/f79a6112.go",
+   "line": 25,
+   "whole_line": "\tif u.Password != oldPassword {",
+   "source": "creddata"
+  },
+  {
+   "file": "example/f79a6112.go",
+   "line": 33,
+   "whole_line": "\t\tNewPassword: u.Password,",
+   "source": "creddata"
+  },
+  {
+   "file": "example/f79a6112.go",
+   "line": 34,
+   "whole_line": "\t\tOldPassword: oldPassword,",
+   "source": "creddata"
+  },
+  {
+   "file": "example/server/b1018e0e.go",
+   "line": 89,
+   "whole_line": "\t\t\tPassword:           cfg.Password,",
+   "source": "creddata"
+  },
+  {
+   "file": "template/09499c9b.go",
+   "line": 68,
+   "value": "userPassword",
+   "source": "creddata"
+  },
+  {
+   "file": "template/09499c9b.go",
+   "line": 92,
+   "whole_line": "\t//GetUserBy handles the GET: /user/{username:string}?token=ftoken123&id=1&ip=192&ip=168&ip=1&ip=1 route.",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8504b5ae.go",
+   "line": 90,
+   "value": "/run/secrets/reports_password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ac639dce.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "1677ab4d6d4914110c5ddbfd954f17798b99958d"
+  },
+  {
+   "file": "test/ac639dce.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "<password>"
+  },
+  {
+   "file": "test/ac639dce.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.github.com"
+  },
+  {
+   "file": "test/1418fc40.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_4WuW4qF28mBHeAPTh1AyjTGF"
+  },
+  {
+   "file": "test/1418fc40.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "ETL_AUTH_TOKEN"
+  },
+  {
+   "file": "test/1418fc40.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "BILLING_SECRET_KEY"
+  },
+  {
+   "file": "test/1418fc40.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LxD8BSRcwAdyZwMTLKfJ0ViYCQNDvmb25RcCBfS"
+  },
+  {
+   "file": "test/1418fc40.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:915J21XmFYLVjgL7JaA3AKLEXddkXPhR3nkJ0tRID5c"
+  },
+  {
+   "file": "test/1418fc40.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "test/1418fc40.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Auth-Token"
+  },
+  {
+   "file": "test/1418fc40.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "test/1418fc40.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6NDMyMDI6b2Zmc2V0Ojc0"
+  },
+  {
+   "file": "src/0fe42af1.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "116, 101, 120, 116, 47, 112, 108, 97, 105, 110, 59, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56"
+  },
+  {
+   "file": "src/0fe42af1.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "Q29udGVudC1UeXBl"
+  },
+  {
+   "file": "src/0fe42af1.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "68656c6c6f5f776f726c645f74657374"
+  },
+  {
+   "file": "src/0fe42af1.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "src/0fe42af1.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "careers@nordwind-corp.de"
+  },
+  {
+   "file": "other/89095391.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:17f0b7a4180e74fad9f0fe56ab59bdedf1bf0f8c5c8c6b22e3b71fdc524174f3"
+  },
+  {
+   "file": "other/89095391.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "8565b6e06c092cd74ed09b5542644be073ac7345"
+  },
+  {
+   "file": "other/89095391.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "other/89095391.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "other/89095391.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "2.9.14"
+  },
+  {
+   "file": "test/4c6055c4.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "8.8.8.8"
+  },
+  {
+   "file": "test/4c6055c4.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "3.29.3"
+  },
+  {
+   "file": "test/4c6055c4.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:76321b84b580adcaeac6804fe5f1ba7cbd55ffa3c04961cdf15c5ba443081027"
+  },
+  {
+   "file": "test/4c6055c4.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/4c6055c4.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/d157c878.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "help.kelpie-corp.de"
+  },
+  {
+   "file": "_/d157c878.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "careers.kelpie-corp.de"
+  },
+  {
+   "file": "_/d157c878.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "_/d157c878.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "_/d157c878.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "_/d157c878.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "_/d157c878.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "careers@kelpie-corp.de"
+  },
+  {
+   "file": "_/d157c878.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "dGV4dC9wbGFpbjtjaGFyc2V0PXV0Zi04"
+  },
+  {
+   "file": "_/d157c878.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "4745542f6865616c74687a"
+  },
+  {
+   "file": "_/d157c878.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "s3.eu-central-1.amazonaws.com"
+  }
+ ]
+}

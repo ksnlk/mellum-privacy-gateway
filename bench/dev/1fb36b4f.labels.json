@@ -1,0 +1,819 @@
+{
+ "repo": "1fb36b4f",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "example/conf/04f215c4.json",
+   "line": 302,
+   "start": 29,
+   "end": 35,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "mr4s9i"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/c5a704e6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.8luzk1.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "src/c5a704e6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "91.131.112.214"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "src/c5a704e6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "jonas.hartmann@acme-corp.de"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/c5a704e6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.nuvg51ttuoqi.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/c5a704e6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "kitchen-fantastic-felix10"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/44edca6b.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-replica.quarzo.cloud"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/44edca6b.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_AoU3r2DbP52D6bQr3JgNw3g14846ZunU50BV"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/272ec6f5.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/272ec6f5.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "eat-winter-prod"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/272ec6f5.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Leipzig@1973"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/c4b30b5d.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.WtUjjovFQEFXm2t8cuA-uRWLhdzY-I6ad4KEa_B4.ltQU33fyWpBCDERkSSzWnIu3ARW0XVp08dKl7cqoTPo"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/c4b30b5d.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl.djlicr.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/b33ab215.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Laura Zimmermann"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/b33ab215.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben63@gmail.com"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/b33ab215.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 5023 3433"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/b33ab215.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.20.36.205"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/b33ab215.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "expensive.safari.numeral"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/25417827.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lea Hoffmann"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/25417827.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.richter@acme-corp.de"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/25417827.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 8091 3130"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/25417827.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Clara Braun"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "_/25417827.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben.neumann [at] acme-corp [dot] de"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "_/25417827.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE80046606697212257711"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "_/25417827.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Paul Mueller"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "_/25417827.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lindenweg 52, 80943 Freising"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "_/25417827.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "91.142.74.65"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/41007037.cc",
+   "line": 790,
+   "whole_line": "        auto password = config.get(\"passwd\", \"\").asString();",
+   "source": "creddata"
+  },
+  {
+   "file": "_/41007037.cc",
+   "line": 793,
+   "whole_line": "            password = config.get(\"password\", \"\").asString();",
+   "source": "creddata"
+  },
+  {
+   "file": "_/41007037.cc",
+   "line": 902,
+   "whole_line": "        auto password = config.get(\"passwd\", \"\").asString();",
+   "source": "creddata"
+  },
+  {
+   "file": "_/41007037.cc",
+   "line": 905,
+   "whole_line": "            password = config.get(\"password\", \"\").asString();",
+   "source": "creddata"
+  },
+  {
+   "file": "client/cd3b33e0.h",
+   "line": 103,
+   "whole_line": "     * port=5432 dbname=mydb connect_timeout=10 password='' The currently",
+   "source": "creddata"
+  },
+  {
+   "file": "client/cd3b33e0.h",
+   "line": 110,
+   "whole_line": "     * - password: Password to be used if the server demands password",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/f710dc29.csp",
+   "line": 28,
+   "whole_line": "            //cert,key: Cert file path and key file path, empty by default,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/f710dc29.csp",
+   "line": 55,
+   "whole_line": "            //passwd: '' by default",
+   "source": "creddata"
+  },
+  {
+   "file": "example/conf/04f215c4.json",
+   "line": 28,
+   "whole_line": "            //cert,key: Cert file path and key file path, empty by default,",
+   "source": "creddata"
+  },
+  {
+   "file": "example/conf/04f215c4.json",
+   "line": 55,
+   "whole_line": "            //passwd: '' by default",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9e7a5429.cc",
+   "line": 70,
+   "whole_line": "        if (key == \"host\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9e7a5429.cc",
+   "line": 74,
+   "whole_line": "        else if (key == \"user\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9e7a5429.cc",
+   "line": 83,
+   "whole_line": "        else if (key == \"port\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9e7a5429.cc",
+   "line": 89,
+   "whole_line": "            passwd_ = value;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9e7a5429.cc",
+   "line": 104,
+   "whole_line": "                                     passwd_.empty() ? NULL : passwd_.c_str(),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/lib/a5c2ca04.cc",
+   "line": 498,
+   "whole_line": "        auto password = client.get(\"passwd\", \"\").asString();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/lib/a5c2ca04.cc",
+   "line": 501,
+   "whole_line": "            password = client.get(\"password\", \"\").asString();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/lib/a5c2ca04.cc",
+   "line": 540,
+   "whole_line": "        auto password = client.get(\"passwd\", \"\").asString();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/lib/a5c2ca04.cc",
+   "line": 543,
+   "whole_line": "            password = client.get(\"password\", \"\").asString();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/lib/a5c2ca04.cc",
+   "line": 596,
+   "whole_line": "    auto key = sslConf.get(\"key\", \"\").asString();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lib/f1fb2f27.cc",
+   "line": 149,
+   "whole_line": "                    key = globalKeyFile;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/lib/f1fb2f27.cc",
+   "line": 199,
+   "whole_line": "                    key = globalKeyFile;",
+   "source": "creddata"
+  },
+  {
+   "file": "template/model/93039278.csp",
+   "line": 16,
+   "whole_line": "    //password or passwd: Password",
+   "source": "creddata"
+  },
+  {
+   "file": "template/model/93039278.csp",
+   "line": 50,
+   "whole_line": "                \"target_key\": \"product_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "template/model/93039278.csp",
+   "line": 60,
+   "whole_line": "                \"target_key\": \"product_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "template/model/93039278.csp",
+   "line": 70,
+   "whole_line": "                    \"original_key\": \"product_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "template/model/93039278.csp",
+   "line": 71,
+   "whole_line": "                    \"target_key\": \"cart_id\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1ccc82d3.cc",
+   "line": 728,
+   "whole_line": "            << \"insert into users (user_id,user_name,password,org_name,admin) \"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1ccc82d3.cc",
+   "line": 1924,
+   "whole_line": "        \"host=127.0.0.1 port=5432 dbname=postgres user=postgres password=12345 \"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/54d6e7e9.cc",
+   "line": 197,
+   "whole_line": "            password_ = std::make_shared<std::string>(",
+   "source": "creddata"
+  },
+  {
+   "file": "test/54d6e7e9.cc",
+   "line": 379,
+   "whole_line": "            password_ = std::make_shared<std::string>(",
+   "source": "creddata"
+  },
+  {
+   "file": "test/54d6e7e9.cc",
+   "line": 606,
+   "value": "const",
+   "source": "creddata"
+  },
+  {
+   "file": "test/54d6e7e9.cc",
+   "line": 611,
+   "value": "std::string",
+   "source": "creddata"
+  },
+  {
+   "file": "test/54d6e7e9.cc",
+   "line": 718,
+   "value": "const",
+   "source": "creddata"
+  },
+  {
+   "file": "test/54d6e7e9.cc",
+   "line": 1030,
+   "whole_line": "        ret[\"password\"] = Json::Value();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/54d6e7e9.cc",
+   "line": 1213,
+   "whole_line": "        ret[\"password\"] = Json::Value();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/54d6e7e9.cc",
+   "line": 1277,
+   "whole_line": "        if (!validJsonOfField(3, \"password\", pJson[\"password\"], err, true))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/54d6e7e9.cc",
+   "line": 1453,
+   "whole_line": "        if (!validJsonOfField(3, \"password\", pJson[\"password\"], err, false))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/1da5d6b3.cc",
+   "line": 35,
+   "whole_line": "const bool User::hasPrimaryKey = true;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/c5a704e6.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "careers.acme-corp.de"
+  },
+  {
+   "file": "src/c5a704e6.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.acme-corp.de"
+  },
+  {
+   "file": "src/c5a704e6.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "src/c5a704e6.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "src/c5a704e6.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "src/c5a704e6.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "src/c5a704e6.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@acme-corp.de"
+  },
+  {
+   "file": "src/c5a704e6.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "Q29udGVudC1UeXBl"
+  },
+  {
+   "file": "src/c5a704e6.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "757365722d6167656e743a6375726c2f382e342e30"
+  },
+  {
+   "file": "src/c5a704e6.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "other/44edca6b.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "0.17.35"
+  },
+  {
+   "file": "other/44edca6b.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "1.4.28"
+  },
+  {
+   "file": "other/44edca6b.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-SrIccETypG8pi0IS73e+SqcoaIYmDnSpEHN1ury2+POZbJdt56LCEI1kj0wADzdnoxRAi3XEGc02Mk6Shnt91Q=="
+  },
+  {
+   "file": "other/44edca6b.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "3.13.36"
+  },
+  {
+   "file": "other/44edca6b.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-05FSjvgwx0gjqf7+HepjmztYwQYMLpdpy/P7pSLGmHfWBjD6UidbDFQUxjIZ0F0jStbvjgxJSRxZdUS9hKmkPw=="
+  },
+  {
+   "file": "other/44edca6b.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "3.19.26"
+  },
+  {
+   "file": "other/44edca6b.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-MvO4yDQJT8Hov/iPPKFHWm9OuXGXeAYKcQXpvJhChxncNyrSh1zNLlnWotoDk1F46bKQWNG5GibFRq+AYFVG/w=="
+  },
+  {
+   "file": "other/272ec6f5.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "matrices-morning-eu"
+  },
+  {
+   "file": "other/272ec6f5.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "etl"
+  },
+  {
+   "file": "other/272ec6f5.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "tearing30"
+  },
+  {
+   "file": "other/272ec6f5.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "reporting"
+  },
+  {
+   "file": "other/272ec6f5.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "metrics"
+  },
+  {
+   "file": "other/272ec6f5.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "hase90"
+  },
+  {
+   "file": "test/c4b30b5d.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "5.11.26"
+  },
+  {
+   "file": "test/c4b30b5d.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "d49f8431ada09165d9162d7f863d3ea17a679824"
+  },
+  {
+   "file": "test/c4b30b5d.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "QDDOZB85EXATYVRQ6U0JQ6VQKK"
+  },
+  {
+   "file": "test/c4b30b5d.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "test/c4b30b5d.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "94NYTUU8A2N23RTPZYVCC32TDK"
+  },
+  {
+   "file": "test/c4b30b5d.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "other/b33ab215.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "8.8.8.8"
+  },
+  {
+   "file": "other/b33ab215.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "0.29.31"
+  },
+  {
+   "file": "other/b33ab215.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:05992792b7d2a8fdeded6bc4782ff3b4fc526bd8cbd593d301770c7d2314faad"
+  },
+  {
+   "file": "other/b33ab215.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/b33ab215.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/25417827.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "privacy@acme-corp.de"
+  },
+  {
+   "file": "_/25417827.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "careers@acme-corp.de"
+  },
+  {
+   "file": "_/25417827.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 (555) 0135"
+  },
+  {
+   "file": "_/25417827.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "_/25417827.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "_/25417827.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "_/25417827.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "_/25417827.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "192.168.1.1"
+  }
+ ]
+}

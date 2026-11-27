@@ -1,0 +1,15 @@
+monitoring: falkor.vantor.systems
+database:
+  host: pallas.vantor.systems
+  port: 5432
+queue: orion.vantor.systems
+backup_target: atlas.vantor.systems
+website: kunden.vantor.systems
+payments_api: https://api.datafjord.com/v2
+partner_drop: edi.datafjord.de
+allow_sources:
+  - 188.176.58.140
+  - 185.199.108.153
+  - 188.189.247.76
+ntp: 212.18.3.19
+mirrors: [registry.terraform.io, vault.centos.org]

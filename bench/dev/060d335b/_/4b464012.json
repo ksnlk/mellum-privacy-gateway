@@ -1,0 +1,57 @@
+{
+  "name": "PASERK k2.local-pw Test Vectors",
+  "tests": [
+    {
+      "name": "k2.local-pw-1",
+      "expect-fail": false,
+      "unwrapped": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "door_code": "884f3a9afae69c20a1134b9c1cba0df866f586a2b13ffb9d23dc1bf7",
+      "options": {"memlimit": 67108864, "opslimit": 2},
+      "paserk": "q0.stomp-ye.hBNeK_xeMonInLIV-2e8UfFSYHHMKCSJABBMFcNZCMFdWitDHauW50QjRAFeeDByWbbsp0JmNooKsKuY_7CdwN28R5cfVLhhuphOiOBrvmcu2-sne-u2f8e9lAfWIDOW7X1lb7WxN1rJY8uurpFISwVP25fj8SL_"
+    },
+    {
+      "name": "k2.local-pw-2",
+      "expect-fail": false,
+      "unwrapped": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "entry_phrase": "1bdc8fb0138005dec735c16e98b629afe8214b2a8dd432f7c8ba4eb9",
+      "password_name": "reports-api-token",
+      "options": {"memlimit": 268435456, "opslimit": 3},
+      "paserk": "g0.taker-qq.eP2tCksV4HfYas01dWZQBFZIBDHQHCXBUCMJPfPRWZUBPH4dpid971oKxlxwliroB95CiNdEErN4vzdTY12CyRtzU-DAHYhlmMyOUg78LMmyV6GXezoJjLHoF7HjiZHKVj2LNp5YM9zr-dezGy4JL7y0G6EjIkSe"
+    },
+    {
+      "name": "k2.local-pw-3",
+      "expect-fail": false,
+      "unwrapped": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "password": "correct horse battery staple",
+      "options": {"memlimit": 268435456, "opslimit": 3},
+      "paserk": "eDQuYXdhaXQtZHMuOGRFdlRwU1BaWk9zdjZzOUxjdTNKT0ZJQkFDRUhaWUFJU1pTWmJUWVJGQlFXNlNZYzFWY1E0NFZyS01ZN3c5Um1oVlRRbUlERUE5SXo4MF9wUlNzdUs5cS1LOTRrWjFOMjVPMjlDSTNuNDFtcTVOTEYzcWw3R1h3MDE4UTJjMU9HMWlkZWE1WXB0THU2NndzODB0a1BsOE1VLWx3REVYQw=="
+    },
+    {
+      "name": "k2.local-pw-fail-1",
+      "expect-fail": true,
+      "comment": "Incorrect password",
+      "unwrapped": null,
+      "sesame": "e4ff74deeb6a22879a7443243830d6613f8e47f4152f54eb80f8e9f1",
+      "options": {"memlimit": 268435456, "opslimit": 3},
+      "paserk": "r2.crypt-nr.kX7rYkiF1JgGbu04nYQYLPDAEUPENBNUAIWNIuTVLUDBFG1lbzb198oCfrhjgtrxG05TuYrHCtP6tkvTJ25CwSyeE-LTYUmipEaSPr02XAbvB0HLnlvOjFVzK7VlmADTTr7MAs7UF0ug-nmtTs8EC1b0L0WgNjAl"
+    },
+    {
+      "name": "k2.local-pw-fail-2",
+      "expect-fail": true,
+      "comment": "Incorrect authentication tag on ciphertext",
+      "unwrapped": null,
+      "password": "9085c2f97f113de513a20135dc90f127be45d35ef1a4c007bd63f22f",
+      "options": {"memlimit": 268435456, "opslimit": 3},
+      "paserk": "s1.patio-ce.sH9lIonB4FqKmz03gOGBUEOGNHELJCFJCSGIMtDHCAVLQX7kxti634gTleizqztmR71GtViQThS5etoLA31MyOkrA-YQMKaryDkRMt45KNouI3NXvnxHjFFkZ1ZhlTHIQk2WIl4WQ7eo-mpnHc1PZ9a5E0LaKsRg"
+    },
+    {
+      "name": "k2.local-pw-fail-3",
+      "expect-fail": true,
+      "comment": "Implementations MUST NOT accept a PASERK of the wrong version.",
+      "unwrapped": null,
+      "password": "493637573a3aab11572d5c3f12875bcdbb8e4481fef2ab9fc3894a0c",
+      "options": {"iterations":  10000},
+      "layout_hash": "n0.quota-wx.LIo2Ve9bTw-Ea2V8TUPQqO7nei83jbqimqfBShn-PVHQMILa-wWpVqa9TNKGCzZqMoD9f84Y4w2DvmsPRotG6s0Y6LZRTX8PAL5JZZQKQMuNXpKaBYMRjEnrkNX6tlJd_LpKnaBrT_jYmvdMUVi81wNQDNiHkMsA4Nhd9j4z73nw_Wtn"
+    }
+  ]
+}

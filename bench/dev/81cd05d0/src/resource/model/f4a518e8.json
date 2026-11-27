@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2016-08-10",
+    "endpointPrefix":"batch",
+    "jsonVersion":"1.1",
+    "protocol":"rest-json",
+    "serviceAbbreviation":"AWS Batch",
+    "serviceFullName":"AWS Batch",
+    "serviceId":"Batch",
+    "signatureVersion":"v4",
+    "uid":"batch-2016-08-10"
+  },
+  "operations":{
+    "CancelJob":{
+      "name":"CancelJob",
+      "http":{
+        "method":"POST",
+        "requestUri":"/v1/canceljob"
+      },
+      "input":{"shape":"CancelJobRequest"},
+      "output":{"shape":"CancelJobResponse"},
+      "errors":[
+        {"shape":"ClientException"},
+        {"shape":"ServerException"}
+      ],
+      "documentation":"<p>Cancels a job in an AWS Batch job queue. Jobs that are in the <code>SUBMITTED</code>, <code>PENDING</code>, or <code>RUNNABLE</code> state are canceled. Jobs that have progressed to <code>STARTING</code> or <code>RUNNING</code> aren't canceled, but the API operation still succeeds, even if no job is canceled. These jobs must be terminated with the <a>TerminateJob</a> operation.</p>"
+    },
+    "CreateComputeEnvironment":{

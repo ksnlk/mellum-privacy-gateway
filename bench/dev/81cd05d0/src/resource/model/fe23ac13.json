@@ -1,0 +1,51 @@
+        "deprecated" : null,
+        "methodForms" : [ [ ], [ "ExclusiveStartStreamName" ], [ "Limit", "ExclusiveStartStreamName" ] ]
+      },
+      "MergeShards" : {
+        "deprecated" : null,
+        "methodForms" : [ [ "StreamName", "ShardToMerge", "AdjacentShardToMerge" ] ]
+      },
+      "PutRecord" : {
+        "deprecated" : null,
+        "methodForms" : [ [ "StreamName", "Data", "PartitionKey" ], [ "StreamName", "Data", "PartitionKey", "SequenceNumberForOrdering" ] ]
+      },
+      "SplitShard" : {
+        "deprecated" : null,
+        "methodForms" : [ [ "StreamName", "ShardToSplit", "NewStartingHashKey" ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : true,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : true,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2013-12-02",
+    "asyncClient" : "AmazonKinesisAsyncClient",
+    "asyncClientBuilderClassName" : "AmazonKinesisAsyncClientBuilder",
+    "asyncInterface" : "AmazonKinesisAsync",
+    "cborProtocol" : true,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AmazonKinesisModuleInjector",
+    "defaultEndpoint" : "https://kinesis.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "kinesis.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>Amazon Kinesis Data Streams Service API Reference</fullname> <p>Amazon Kinesis Data Streams is a managed service that scales elastically for real-time processing of streaming big data.</p>",
+    "endpointPrefix" : "kinesis",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.kinesis",
+    "packagePath" : "com/amazonaws/services/kinesis",
+    "protocol" : "cbor",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "Kinesis",

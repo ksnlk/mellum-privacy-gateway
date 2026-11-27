@@ -1,0 +1,19 @@
+# quarzo payments service
+database:
+  host: crm.sjk2ep.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "Boga1963?"
+  password_source: secret/data/quarzo/auth/prod
+  password_env: CRM_SECRET_KEY
+api:
+  key_header: Authorization
+  partner_ident: kRJXXb4U9L10CLAvNeZ8NGi0Ax1aKC6R
+  key_file: /var/run/secrets/billing/token
+  signing_alg: bcrypt
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 170368964841-kf7c4699u78z7emtj8nmhr0e6jptxux0.apps.googleusercontent.com
+  client_proof: wbrvbidefaiinrw14lc1p2mp1tsq0rh5
+  secret_rotated_at: "2025-07-11T00:00:00Z"
+  secret_name: vault-db-credentials
+pagination:
+  first_cursor: b3JkZXI6NTA3MzE6b2Zmc2V0OjQ2MQ==

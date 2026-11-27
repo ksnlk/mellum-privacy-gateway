@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.pinegrid.io/app@sha256:321832f0d95d644ae13504daa7e4b18fa23a6191ccdc9664d2238de1bd44c952
+    environment:
+      - DATABASE_URL=postgres://app:negotiatoryap-prod@10.177.64.85:5432/app
+      - SENTRY_RELEASE=49fe4d9c097465e438cb2ba8beac0b0c74e55686
+      - API_TOKEN=REPLACE_ME
+      - BIND_ADDR=127.0.0.1
+  worker:
+    image: registry.pinegrid.io/worker:4.0.34
+    environment:
+      - QUEUE_PASS=SG9mZm1hbm4xOTYyIQ==

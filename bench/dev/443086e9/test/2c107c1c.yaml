@@ -1,0 +1,19 @@
+# helix payments service
+database:
+  host: payments-primary.helix.cloud
+  user: payments
+  password: "Koeln&1971"
+  password_source: secret/data/helix/etl/staging
+  password_env: AUTH_DB_PASSWORD
+api:
+  key_header: X-Api-Key
+  partner_ident: fZ6I7VHHqoyLJxVDuEdaHECn3De9ekYJ
+  key_file: /var/run/secrets/vault/token
+  signing_alg: bcrypt
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 552215273865-qfsnx9t7iku58qwqe4ka7nfoarorz0wd.apps.googleusercontent.com
+  client_proof: cmhxvo6xsc1bmji5d3abugiq1menydh8
+  secret_rotated_at: "2026-11-04T00:00:00Z"
+  secret_name: vault-api-token
+pagination:
+  first_cursor: dXNlcjo3NzMwODpvZmZzZXQ6Njg=

@@ -1,0 +1,15 @@
+monitoring: vega.kelpie-ops.io
+database:
+  host: atlas.kelpie-ops.io
+  port: 5432
+queue: nimbus.kelpie-ops.io
+backup_target: falkor.kelpie-ops.io
+website: shop.kelpie-ops.io
+payments_api: https://api.paycore.com/v2
+partner_drop: sftp.paycore.de
+allow_sources:
+  - 194.59.151.199
+  - 192.30.252.153
+  - 194.59.215.114
+ntp: 212.18.3.19
+mirrors: [gitlab.freedesktop.org, ftp.gnu.org]

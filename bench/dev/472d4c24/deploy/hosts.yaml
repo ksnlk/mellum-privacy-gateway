@@ -1,0 +1,15 @@
+monitoring: vega.kelpie.systems
+database:
+  host: nimbus.kelpie.systems
+  port: 5432
+queue: atlas.kelpie.systems
+backup_target: kestrel.kelpie.systems
+website: www.kelpie.systems
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: sftp.logistik-nord.de
+allow_sources:
+  - 91.132.195.245
+  - 140.82.112.3
+  - 91.132.69.187
+ntp: 162.159.200.1
+mirrors: [repo1.maven.org, vault.centos.org]

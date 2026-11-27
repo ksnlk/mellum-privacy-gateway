@@ -1,0 +1,19 @@
+# pinegrid payments service
+database:
+  host: ledger-cache-08.corp.pinegrid-internal.net
+  user: payments
+  password: "subsystem129"
+  password_source: secret/data/pinegrid/billing/staging
+  password_env: BILLING_API_KEY
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: zSmyFy6YBCz1Z5K8mAY5p6Cd4sGgwyrV
+  key_file: /var/run/secrets/auth/token
+  signing_alg: scrypt
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 857302182175-q8oje3u3n7grryl1hl7ytdrjhw5lrfbp.apps.googleusercontent.com
+  client_proof: 5bzhubetm1lsyrdm69opkh2xkpatqud3
+  secret_rotated_at: "2024-01-13T00:00:00Z"
+  secret_name: vault-db-credentials
+pagination:
+  first_cursor: aW52b2ljZTo1NjgxNzpvZmZzZXQ6NDEy

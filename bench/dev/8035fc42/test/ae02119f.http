@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://vault-cache-01.int.helix-internal.net/api/v3/invoices?page=2
+Authorization: Basic ZGVwbG95OnNjaGx1ZXNzZWwyMzEk
+Cookie: _ga=GA1.2.Z388XMZSZEUOS6G9TALKROCKEA; session_id=fv362onelnqirak4i9q0d7ktoczxuiuo
+X-Request-Id: f79b08eb-6a2e-48de-9987-440094de175e
+
+### the docs example, safe to share
+GET https://auth0.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

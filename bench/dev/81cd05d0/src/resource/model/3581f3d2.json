@@ -1,0 +1,1077 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2014-11-06",
+    "endpointPrefix":"ssm",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceAbbreviation":"Amazon SSM",
+    "serviceFullName":"Amazon Simple Systems Manager (SSM)",
+    "serviceId":"SSM",
+    "signatureVersion":"v4",
+    "targetPrefix":"AmazonSSM",
+    "uid":"ssm-2014-11-06"
+  },
+  "operations":{
+    "AddTagsToResource":{
+      "name":"AddTagsToResource",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AddTagsToResourceRequest"},
+      "output":{"shape":"AddTagsToResourceResult"},
+      "errors":[
+        {"shape":"InvalidResourceType"},
+        {"shape":"InvalidResourceId"},
+        {"shape":"InternalServerError"},
+        {"shape":"TooManyTagsError"},
+        {"shape":"TooManyUpdates"}
+      ],
+      "documentation":"<p>Adds or overwrites one or more tags for the specified resource. Tags are metadata that you can assign to your documents, managed instances, maintenance windows, Parameter Store parameters, and patch baselines. Tags enable you to categorize your resources in different ways, for example, by purpose, owner, or environment. Each tag consists of a key and an optional value, both of which you define. For example, you could define a set of tags for your account's managed instances that helps you track each instance's owner and stack level. For example: Key=Owner and Value=DbAdmin, SysAdmin, or Dev. Or Key=Stack and Value=Production, Pre-Production, or Test.</p> <p>Each resource can have a maximum of 50 tags. </p> <p>We recommend that you devise a set of tag keys that meets your needs for each resource type. Using a consistent set of tag keys makes it easier for you to manage your resources. You can search and filter the resources based on the tags you add. Tags don't have any semantic meaning to and are interpreted strictly as a string of characters. </p> <p>For more information about using tags with EC2 instances, see <a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html\">Tagging your Amazon EC2 resources</a> in the <i>Amazon EC2 User Guide</i>.</p>"
+    },
+    "AssociateOpsItemRelatedItem":{
+      "name":"AssociateOpsItemRelatedItem",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AssociateOpsItemRelatedItemRequest"},
+      "output":{"shape":"AssociateOpsItemRelatedItemResponse"},
+      "errors":[
+        {"shape":"InternalServerError"},
+        {"shape":"OpsItemNotFoundException"},
+        {"shape":"OpsItemLimitExceededException"},
+        {"shape":"OpsItemInvalidParameterException"},
+        {"shape":"OpsItemRelatedItemAlreadyExistsException"}
+      ],
+      "documentation":"<p>Associates a related resource to a Systems Manager OpsCenter OpsItem. For example, you can associate an Incident Manager incident or analysis with an OpsItem. Incident Manager is a capability of AWS Systems Manager.</p>"
+    },
+    "CancelCommand":{
+      "name":"CancelCommand",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"CancelCommandRequest"},
+      ],
+      "documentation":"<p>Remove a label or labels from a parameter.</p>"
+    },
+    "UpdateAssociation":{
+      "name":"UpdateAssociation",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"UpdateAssociationRequest"},
+      "output":{"shape":"UpdateAssociationResult"},
+      "errors":[
+        {"shape":"InternalServerError"},
+        {"shape":"InvalidSchedule"},
+        {"shape":"InvalidParameters"},
+        {"shape":"InvalidOutputLocation"},
+        {"shape":"InvalidDocumentVersion"},
+        {"shape":"AssociationDoesNotExist"},
+        {"shape":"InvalidUpdate"},
+        {"shape":"TooManyUpdates"},
+        {"shape":"InvalidDocument"},
+        {"shape":"InvalidTarget"},
+        {"shape":"InvalidAssociationVersion"},
+        {"shape":"AssociationVersionLimitExceeded"}
+      ],
+      "documentation":"<p>Updates an association. You can update the association name and version, the document version, schedule, parameters, and Amazon S3 output. </p> <p>In order to call this API action, your IAM user account, group, or role must be configured with permission to call the <a>DescribeAssociation</a> API action. If you don't have permission to call DescribeAssociation, then you receive the following error: <code>An error occurred (AccessDeniedException) when calling the UpdateAssociation operation: User: &lt;user_arn&gt; is not authorized to perform: ssm:DescribeAssociation on resource: &lt;resource_arn&gt;</code> </p> <important> <p>When you update an association, the association immediately runs against the specified targets.</p> </important>"
+    },
+    "UpdateAssociationStatus":{
+      "name":"UpdateAssociationStatus",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"UpdateAssociationStatusRequest"},
+      "output":{"shape":"UpdateAssociationStatusResult"},
+      "errors":[
+        {"shape":"InternalServerError"},
+        {"shape":"InvalidInstanceId"},
+        {"shape":"InvalidDocument"},
+        {"shape":"AssociationDoesNotExist"},
+        {"shape":"StatusUnchanged"},
+        {"shape":"TooManyUpdates"}
+      ],
+      "documentation":"<p>Updates the status of the Systems Manager document associated with the specified instance.</p>"
+    },
+    "UpdateDocument":{
+      "name":"UpdateDocument",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "required":["IamRole"],
+      "members":{
+        "Description":{
+          "shape":"ActivationDescription",
+          "documentation":"<p>A user-defined description of the resource that you want to register with Systems Manager. </p> <important> <p>Do not enter personally identifiable information in this field.</p> </important>"
+        },
+        "DefaultInstanceName":{
+          "shape":"DefaultInstanceName",
+          "documentation":"<p>The name of the registered, managed instance as it will appear in the Systems Manager console or when you use the AWS command line tools to list Systems Manager resources.</p> <important> <p>Do not enter personally identifiable information in this field.</p> </important>"
+        },
+        "IamRole":{
+          "shape":"IamRole",
+          "documentation":"<p>The Amazon Identity and Access Management (IAM) role that you want to assign to the managed instance. This IAM role must provide AssumeRole permissions for the Systems Manager service principal <code>ssm.amazonaws.com</code>. For more information, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-service-role.html\">Create an IAM service role for a hybrid environment</a> in the <i>AWS Systems Manager User Guide</i>.</p>"
+        },
+        "RegistrationLimit":{
+          "shape":"RegistrationLimit",
+          "documentation":"<p>Specify the maximum number of managed instances you want to register. The default value is 1 instance.</p>",
+          "box":true
+        },
+        "ExpirationDate":{
+          "shape":"ExpirationDate",
+          "documentation":"<p>The date by which this activation request should expire, in timestamp format, such as \"2021-07-07T00:00:00\". You can specify a date up to 30 days in advance. If you don't provide an expiration date, the activation code expires in 24 hours.</p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>Optional metadata that you assign to a resource. Tags enable you to categorize a resource in different ways, such as by purpose, owner, or environment. For example, you might want to tag an activation to identify which servers or virtual machines (VMs) in your on-premises environment you intend to activate. In this case, you could specify the following key name/value pairs:</p> <ul> <li> <p> <code>Key=OS,Value=Windows</code> </p> </li> <li> <p> <code>Key=Environment,Value=Production</code> </p> </li> </ul> <important> <p>When you install SSM Agent on your on-premises servers and VMs, you specify an activation ID and code. When you specify the activation ID and code, tags assigned to the activation are automatically applied to the on-premises servers or VMs.</p> </important> <p>You can't add tags to or delete tags from an existing activation. You can tag your on-premises servers and VMs after they connect to Systems Manager for the first time and are assigned a managed instance ID. This means they are listed in the AWS Systems Manager console with an ID that is prefixed with \"mi-\". For information about how to add tags to your managed instances, see <a>AddTagsToResource</a>. For information about how to remove tags from your managed instances, see <a>RemoveTagsFromResource</a>.</p>"
+        }
+      }
+    },
+    "CreateActivationResult":{
+      "type":"structure",
+      "members":{
+        "ActivationId":{
+          "shape":"ActivationId",
+          "documentation":"<p>The ID number generated by the system when it processed the activation. The activation ID functions like a user name.</p>"
+        },
+        "ActivationCode":{
+          "shape":"ActivationCode",
+          "documentation":"<p>The code the system generates when it processes the activation. The activation code functions like a password to validate the activation ID. </p>"
+        }
+      }
+    },
+    "CreateAssociationBatchRequest":{
+      "type":"structure",
+      "required":["Entries"],
+      "members":{
+        "Entries":{
+          "shape":"CreateAssociationBatchRequestEntries",
+          "documentation":"<p>One or more associations.</p>"
+        }
+      }
+          "shape":"DocumentName",
+          "documentation":"<p>A name for the Systems Manager document.</p> <important> <p>You can't use the following strings as document name prefixes. These are reserved by AWS for use as document name prefixes:</p> <ul> <li> <p> <code>aws-</code> </p> </li> <li> <p> <code>amazon</code> </p> </li> <li> <p> <code>amzn</code> </p> </li> </ul> </important>"
+        },
+        "DisplayName":{
+          "shape":"DocumentDisplayName",
+          "documentation":"<p>An optional field where you can specify a friendly name for the Systems Manager document. This value can differ for each version of the document. You can update this value at a later time using the <a>UpdateDocument</a> action.</p>"
+        },
+        "VersionName":{
+          "shape":"DocumentVersionName",
+          "documentation":"<p>An optional field specifying the version of the artifact you are creating with the document. For example, \"Release 12, Update 6\". This value is unique across all versions of a document, and cannot be changed.</p>"
+        },
+        "DocumentType":{
+          "shape":"DocumentType",
+          "documentation":"<p>The type of document to create.</p>"
+        },
+        "DocumentFormat":{
+          "shape":"DocumentFormat",
+          "documentation":"<p>Specify the document format for the request. The document format can be JSON, YAML, or TEXT. JSON is the default format.</p>"
+        },
+        "TargetType":{
+          "shape":"TargetType",
+          "documentation":"<p>Specify a target type to define the kinds of resources the document can run on. For example, to run a document on EC2 instances, specify the following value: /AWS::EC2::Instance. If you specify a value of '/' the document can run on all types of resources. If you don't specify a value, the document can't run on any resources. For a list of valid resource types, see <a href=\"https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html\">AWS resource and property types reference</a> in the <i>AWS CloudFormation User Guide</i>. </p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>Optional metadata that you assign to a resource. Tags enable you to categorize a resource in different ways, such as by purpose, owner, or environment. For example, you might want to tag an SSM document to identify the types of targets or the environment where it will run. In this case, you could specify the following key name/value pairs:</p> <ul> <li> <p> <code>Key=OS,Value=Windows</code> </p> </li> <li> <p> <code>Key=Environment,Value=Production</code> </p> </li> </ul> <note> <p>To add tags to an existing SSM document, use the <a>AddTagsToResource</a> action.</p> </note>"
+        }
+      }
+    },
+    "CreateDocumentResult":{
+      "type":"structure",
+      "members":{
+        "DocumentDescription":{
+          "shape":"DocumentDescription",
+          "documentation":"<p>Information about the Systems Manager document.</p>"
+        }
+      }
+    },
+    "CreateMaintenanceWindowRequest":{
+      "type":"structure",
+      "required":[
+        "Name",
+        "Schedule",
+        "Duration",
+        "Cutoff",
+        "AllowUnassociatedTargets"
+      ],
+      "members":{
+        "Name":{
+          "shape":"MaintenanceWindowName",
+          "documentation":"<p>The name of the maintenance window.</p>"
+        },
+        "ScheduleOffset":{
+          "shape":"MaintenanceWindowOffset",
+          "documentation":"<p>The number of days to wait after the date and time specified by a CRON expression before running the maintenance window.</p> <p>For example, the following cron expression schedules a maintenance window to run on the third Tuesday of every month at 11:30 PM.</p> <p> <code>cron(30 23 ? * TUE#3 *)</code> </p> <p>If the schedule offset is <code>2</code>, the maintenance window won't run until two days later.</p>",
+          "box":true
+        },
+        "Duration":{
+          "shape":"MaintenanceWindowDurationHours",
+          "documentation":"<p>The duration of the maintenance window in hours.</p>"
+        },
+        "Cutoff":{
+          "shape":"MaintenanceWindowCutoff",
+          "documentation":"<p>The number of hours before the end of the maintenance window that Systems Manager stops scheduling new tasks for execution.</p>"
+        },
+        "AllowUnassociatedTargets":{
+          "shape":"MaintenanceWindowAllowUnassociatedTargets",
+          "documentation":"<p>Enables a maintenance window task to run on managed instances, even if you have not registered those instances as targets. If enabled, then you must specify the unregistered instances (by instance ID) when you register a task with the maintenance window.</p> <p>If you don't enable this option, then you must specify previously-registered targets when you register a task with the maintenance window.</p>"
+        },
+        "ClientToken":{
+          "shape":"ClientToken",
+          "documentation":"<p>User-provided idempotency token.</p>",
+          "idempotencyToken":true
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>Optional metadata that you assign to a resource. Tags enable you to categorize a resource in different ways, such as by purpose, owner, or environment. For example, you might want to tag a maintenance window to identify the type of tasks it will run, the types of targets, and the environment it will run in. In this case, you could specify the following key name/value pairs:</p> <ul> <li> <p> <code>Key=TaskType,Value=AgentUpdate</code> </p> </li> <li> <p> <code>Key=OS,Value=Windows</code> </p> </li> <li> <p> <code>Key=Environment,Value=Production</code> </p> </li> </ul> <note> <p>To add tags to an existing maintenance window, use the <a>AddTagsToResource</a> action.</p> </note>"
+        }
+      }
+    },
+    "CreateMaintenanceWindowResult":{
+      "type":"structure",
+      "members":{
+        "WindowId":{
+          "shape":"MaintenanceWindowId",
+          "documentation":"<p>The ID of the created maintenance window.</p>"
+        }
+      }
+    },
+    "CreateOpsItemRequest":{
+      "type":"structure",
+      "required":[
+        "Description",
+        "Source",
+        "Title"
+      ],
+      "members":{
+        "Description":{
+          "shape":"OpsItemDescription",
+          "documentation":"<p>Information about the OpsItem. </p>"
+        },
+        "OpsItemType":{
+          "shape":"OpsItemOperationalData",
+          "documentation":"<p>Operational data is custom data that provides useful reference details about the OpsItem. For example, you can specify log files, error strings, license keys, troubleshooting tips, or other relevant data. You enter operational data as key-value pairs. The key has a maximum length of 128 characters. The value has a maximum size of 20 KB.</p> <important> <p>Operational data keys <i>can't</i> begin with the following: amazon, aws, amzn, ssm, /amazon, /aws, /amzn, /ssm.</p> </important> <p>You can choose to make the data searchable by other users in the account or you can restrict search access. Searchable data means that all users with access to the OpsItem Overview page (as provided by the <a>DescribeOpsItems</a> API action) can view and search on the specified data. Operational data that is not searchable is only viewable by users who have access to the OpsItem (as provided by the <a>GetOpsItem</a> API action).</p> <p>Use the <code>/aws/resources</code> key in OperationalData to specify a related resource in the request. Use the <code>/aws/automations</code> key in OperationalData to associate an Automation runbook with the OpsItem. To view AWS CLI example commands that use these keys, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/OpsCenter-creating-OpsItems.html#OpsCenter-manually-create-OpsItems\">Creating OpsItems manually</a> in the <i>AWS Systems Manager User Guide</i>.</p>"
+        },
+        "Notifications":{
+          "shape":"OpsItemNotifications",
+          "documentation":"<p>The Amazon Resource Name (ARN) of an SNS topic where notifications are sent when this OpsItem is edited or changed.</p>"
+        },
+        "Priority":{
+          "shape":"OpsItemPriority",
+          "documentation":"<p>The importance of this OpsItem in relation to other OpsItems in the system.</p>"
+        },
+        "RelatedOpsItems":{
+          "shape":"RelatedOpsItems",
+          "documentation":"<p>One or more OpsItems that share something in common with the current OpsItems. For example, related OpsItems can include OpsItems with similar error messages, impacted resources, or statuses for the impacted resource.</p>"
+        },
+        "Source":{
+          "shape":"OpsItemSource",
+          "documentation":"<p>The origin of the OpsItem, such as Amazon EC2 or Systems Manager.</p> <note> <p>The source name can't contain the following strings: aws, amazon, and amzn. </p> </note>"
+        },
+        "Title":{
+          "shape":"OpsItemTitle",
+          "documentation":"<p>A short heading that describes the nature of the OpsItem and the impacted resource.</p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>Optional metadata that you assign to a resource. You can restrict access to OpsItems by using an inline IAM policy that specifies tags. For more information, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/OpsCenter-getting-started.html#OpsCenter-getting-started-user-permissions\">Getting started with OpsCenter</a> in the <i>AWS Systems Manager User Guide</i>.</p> <p>Tags use a key-value pair. For example:</p> <p> <code>Key=Department,Value=Finance</code> </p> <note> <p>To add tags to an existing OpsItem, use the <a>AddTagsToResource</a> action.</p> </note>"
+        },
+        "Category":{
+          "shape":"OpsItemCategory",
+          "documentation":"<p>Specify a category to assign to an OpsItem. </p>"
+        },
+        "Severity":{
+          "shape":"OpsItemSeverity",
+          "documentation":"<p>Specify a severity to assign to an OpsItem.</p>"
+        },
+        "ActualStartTime":{
+          "shape":"DateTime",
+          "documentation":"<p>The time a runbook workflow started. Currently reported only for the OpsItem type <code>/aws/changerequest</code>.</p>"
+        },
+        "ActualEndTime":{
+          "shape":"DateTime",
+          "documentation":"<p>The time a runbook workflow ended. Currently reported only for the OpsItem type <code>/aws/changerequest</code>.</p>"
+        },
+        "PlannedStartTime":{
+          "shape":"DateTime",
+          "documentation":"<p>The time specified in a change request for a runbook workflow to start. Currently supported only for the OpsItem type <code>/aws/changerequest</code>.</p>"
+        },
+        "PlannedEndTime":{
+          "shape":"DateTime",
+          "documentation":"<p>The time specified in a change request for a runbook workflow to end. Currently supported only for the OpsItem type <code>/aws/changerequest</code>.</p>"
+        }
+      }
+    },
+    "CreateOpsItemResponse":{
+      "type":"structure",
+      "members":{
+        "OpsItemId":{
+          "shape":"String",
+          "documentation":"<p>The ID of the OpsItem.</p>"
+        }
+      }
+    },
+    "CreateOpsMetadataRequest":{
+      "type":"structure",
+      "required":["ResourceId"],
+      "members":{
+        "ResourceId":{
+          "shape":"OpsMetadataResourceId",
+          "documentation":"<p>A resource ID for a new Application Manager application.</p>"
+        },
+        "Metadata":{
+          "shape":"MetadataMap",
+          "documentation":"<p>Metadata for a new Application Manager application. </p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>Optional metadata that you assign to a resource. You can specify a maximum of five tags for an OpsMetadata object. Tags enable you to categorize a resource in different ways, such as by purpose, owner, or environment. For example, you might want to tag an OpsMetadata object to identify an environment or target AWS Region. In this case, you could specify the following key-value pairs:</p> <ul> <li> <p> <code>Key=Environment,Value=Production</code> </p> </li> <li> <p> <code>Key=Region,Value=us-east-2</code> </p> </li> </ul>"
+        }
+      }
+    },
+    "CreateOpsMetadataResult":{
+      "type":"structure",
+      "members":{
+        "OpsMetadataArn":{
+          "shape":"OpsMetadataArn",
+          "documentation":"<p>The Amazon Resource Name (ARN) of the OpsMetadata Object or blob created by the call.</p>"
+        }
+      }
+    },
+    "CreatePatchBaselineRequest":{
+      "type":"structure",
+      "required":["Name"],
+      "members":{
+        "OperatingSystem":{
+          "shape":"OperatingSystem",
+          "documentation":"<p>Defines the operating system the patch baseline applies to. The Default value is WINDOWS.</p>"
+        },
+        "Name":{
+          "shape":"BaselineName",
+          "documentation":"<p>The name of the patch baseline.</p>"
+        },
+        "GlobalFilters":{
+          "box":true
+        },
+        "RejectedPatches":{
+          "shape":"PatchIdList",
+          "documentation":"<p>A list of explicitly rejected patches for the baseline.</p> <p>For information about accepted formats for lists of approved patches and rejected patches, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/patch-manager-approved-rejected-package-name-formats.html\">About package name formats for approved and rejected patch lists</a> in the <i>AWS Systems Manager User Guide</i>.</p>"
+        },
+        "RejectedPatchesAction":{
+          "shape":"PatchAction",
+          "documentation":"<p>The action for Patch Manager to take on patches included in the RejectedPackages list.</p> <ul> <li> <p> <b>ALLOW_AS_DEPENDENCY</b>: A package in the Rejected patches list is installed only if it is a dependency of another package. It is considered compliant with the patch baseline, and its status is reported as <i>InstalledOther</i>. This is the default action if no option is specified.</p> </li> <li> <p> <b>BLOCK</b>: Packages in the RejectedPatches list, and packages that include them as dependencies, are not installed under any circumstances. If a package was installed before it was added to the Rejected patches list, it is considered non-compliant with the patch baseline, and its status is reported as <i>InstalledRejected</i>.</p> </li> </ul>"
+        },
+        "Description":{
+          "shape":"BaselineDescription",
+          "documentation":"<p>A description of the patch baseline.</p>"
+        },
+        "Sources":{
+          "shape":"PatchSourceList",
+          "documentation":"<p>Information about the patches to use to update the instances, including target operating systems and source repositories. Applies to Linux instances only.</p>"
+        },
+        "ClientToken":{
+          "shape":"ClientToken",
+          "documentation":"<p>User-provided idempotency token.</p>",
+          "idempotencyToken":true
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>Optional metadata that you assign to a resource. Tags enable you to categorize a resource in different ways, such as by purpose, owner, or environment. For example, you might want to tag a patch baseline to identify the severity level of patches it specifies and the operating system family it applies to. In this case, you could specify the following key name/value pairs:</p> <ul> <li> <p> <code>Key=PatchSeverity,Value=Critical</code> </p> </li> <li> <p> <code>Key=OS,Value=Windows</code> </p> </li> </ul> <note> <p>To add tags to an existing patch baseline, use the <a>AddTagsToResource</a> action.</p> </note>"
+        }
+      }
+    },
+    "CreatePatchBaselineResult":{
+      "type":"structure",
+      "members":{
+        "BaselineId":{
+          "shape":"BaselineId",
+          "documentation":"<p>The ID of the created patch baseline.</p>"
+        }
+      }
+    },
+    "CreateResourceDataSyncRequest":{
+      "type":"structure",
+      "required":["SyncName"],
+      "members":{
+        "SyncName":{
+          "shape":"ResourceDataSyncName",
+          "documentation":"<p>A name for the configuration.</p>"
+        },
+        "S3Destination":{
+          "shape":"ResourceDataSyncS3Destination",
+          "documentation":"<p>Amazon S3 configuration details for the sync. This parameter is required if the <code>SyncType</code> value is SyncToDestination.</p>"
+        },
+        "SyncType":{
+        },
+        "NextToken":{
+          "shape":"NextToken",
+          "documentation":"<p>The token for the next set of items to return. (You received this token from a previous call.)</p>"
+        }
+      }
+    },
+    "DescribeMaintenanceWindowsResult":{
+      "type":"structure",
+      "members":{
+        "WindowIdentities":{
+          "shape":"MaintenanceWindowIdentityList",
+          "documentation":"<p>Information about the maintenance windows.</p>"
+        },
+        "NextToken":{
+          "shape":"NextToken",
+          "documentation":"<p>The token to use when requesting the next set of items. If there are no additional items to return, the string is empty.</p>"
+        }
+      }
+    },
+    "DescribeOpsItemsRequest":{
+      "type":"structure",
+      "members":{
+        "OpsItemFilters":{
+          "shape":"OpsItemFilters",
+          "documentation":"<p>One or more filters to limit the response.</p> <ul> <li> <p>Key: CreatedTime</p> <p>Operations: GreaterThan, LessThan</p> </li> <li> <p>Key: LastModifiedBy</p> <p>Operations: Contains, Equals</p> </li> <li> <p>Key: LastModifiedTime</p> <p>Operations: GreaterThan, LessThan</p> </li> <li> <p>Key: Priority</p> <p>Operations: Equals</p> </li> <li> <p>Key: Source</p> <p>Operations: Contains, Equals</p> </li> <li> <p>Key: Status</p> <p>Operations: Equals</p> </li> <li> <p>Key: Title</p> <p>Operations: Contains</p> </li> <li> <p>Key: OperationalData*</p> <p>Operations: Equals</p> </li> <li> <p>Key: OperationalDataKey</p> <p>Operations: Equals</p> </li> <li> <p>Key: OperationalDataValue</p> <p>Operations: Equals, Contains</p> </li> <li> <p>Key: OpsItemId</p> <p>Operations: Equals</p> </li> <li> <p>Key: ResourceId</p> <p>Operations: Contains</p> </li> <li> <p>Key: AutomationId</p> <p>Operations: Equals</p> </li> </ul> <p>*If you filter the response by using the OperationalData operator, specify a key-value pair by using the following JSON format: {\"key\":\"key_name\",\"value\":\"a_value\"}</p>"
+        },
+        "MaxResults":{
+          "shape":"OpsItemMaxResults",
+          "documentation":"<p>The maximum number of items to return for this call. The call also returns a token that you can specify in a subsequent call to get the next set of results.</p>"
+        },
+        "NextToken":{
+          "shape":"String",
+          "documentation":"<p>A token to start the list. Use this token to get the next set of results.</p>"
+        }
+      }
+    },
+    "DescribeOpsItemsResponse":{
+      "type":"structure",
+      "members":{
+        "NextToken":{
+          "shape":"String",
+          "documentation":"<p>The token for the next set of items to return. Use this token to get the next set of results.</p>"
+        },
+        "OpsItemSummaries":{
+          "shape":"OpsItemSummaries",
+          "documentation":"<p>A list of OpsItems.</p>"
+        }
+      }
+    },
+    "DescribeParametersRequest":{
+        },
+        "NextToken":{
+          "shape":"NextToken",
+          "documentation":"<p>The token for the next set of items to return. (You received this token from a previous call.)</p>"
+        }
+      }
+    },
+    "DescribeParametersResult":{
+      "type":"structure",
+      "members":{
+        "Parameters":{
+          "shape":"ParameterMetadataList",
+          "documentation":"<p>Parameters returned by the request.</p>"
+        },
+        "NextToken":{
+          "shape":"NextToken",
+          "documentation":"<p>The token to use when requesting the next set of items.</p>"
+        }
+      }
+    },
+    "DescribePatchBaselinesRequest":{
+      "type":"structure",
+      "members":{
+        "Filters":{
+          "shape":"PatchOrchestratorFilterList",
+          "documentation":"<p>Each element in the array is a structure containing: </p> <p>Key: (string, \"NAME_PREFIX\" or \"OWNER\")</p> <p>Value: (array of strings, exactly 1 entry, between 1 and 255 characters)</p>"
+        },
+        "MaxResults":{
+          "shape":"PatchBaselineMaxResults",
+          "documentation":"<p>The maximum number of patch baselines to return (per page).</p>",
+          "box":true
+        },
+        "NextToken":{
+          "shape":"NextToken",
+          "documentation":"<p>The token for the next set of items to return. (You received this token from a previous call.)</p>"
+        }
+      }
+    },
+    "DescribePatchBaselinesResult":{
+      "type":"structure",
+      "members":{
+        "BaselineIdentities":{
+          "shape":"PatchBaselineIdentityList",
+          "documentation":"<p>An array of PatchBaselineIdentity elements.</p>"
+        },
+        "NextToken":{
+          "shape":"NextToken",
+          "documentation":"<p>The token to use when requesting the next set of items. If there are no additional items to return, the string is empty.</p>"
+        }
+      }
+    },
+          "documentation":"<p>The number of instances where patches that are specified as \"Critical\" for compliance reporting in the patch baseline are not installed. These patches might be missing, have failed installation, were rejected, or were installed but awaiting a required instance reboot. The status of these instances is <code>NON_COMPLIANT</code>.</p>",
+          "box":true
+        },
+        "InstancesWithSecurityNonCompliantPatches":{
+          "shape":"InstancesCount",
+          "documentation":"<p>The number of instances where patches that are specified as \"Security\" in a patch advisory are not installed. These patches might be missing, have failed installation, were rejected, or were installed but awaiting a required instance reboot. The status of these instances is <code>NON_COMPLIANT</code>.</p>",
+          "box":true
+        },
+        "InstancesWithOtherNonCompliantPatches":{
+          "shape":"InstancesCount",
+          "documentation":"<p>The number of instances with patches installed that are specified as other than \"Critical\" or \"Security\" but are not compliant with the patch baseline. The status of these instances is NON_COMPLIANT.</p>",
+          "box":true
+        }
+      }
+    },
+    "DescribePatchGroupsRequest":{
+      "type":"structure",
+      "members":{
+        "MaxResults":{
+          "shape":"PatchBaselineMaxResults",
+          "documentation":"<p>The maximum number of patch groups to return (per page).</p>",
+          "box":true
+        },
+        "Filters":{
+          "shape":"PatchOrchestratorFilterList",
+          "documentation":"<p>One or more filters. Use a filter to return a more specific list of results.</p> <p>For <code>DescribePatchGroups</code>,valid filter keys include the following:</p> <ul> <li> <p> <code>NAME_PREFIX</code>: The name of the patch group. Wildcards (*) are accepted.</p> </li> <li> <p> <code>OPERATING_SYSTEM</code>: The supported operating system type to return results for. For valid operating system values, see <a>GetDefaultPatchBaselineRequest$OperatingSystem</a> in <a>CreatePatchBaseline</a>.</p> <p>Examples:</p> <ul> <li> <p> <code>--filters Key=NAME_PREFIX,Values=MyPatchGroup*</code> </p> </li> <li> <p> <code>--filters Key=OPERATING_SYSTEM,Values=AMAZON_LINUX_2</code> </p> </li> </ul> </li> </ul>"
+        },
+        "NextToken":{
+          "shape":"NextToken",
+          "documentation":"<p>The token for the next set of items to return. (You received this token from a previous call.)</p>"
+        }
+      }
+    },
+    "DescribePatchGroupsResult":{
+      "type":"structure",
+      "members":{
+        "Mappings":{
+          "shape":"PatchGroupPatchBaselineMappingList",
+          "documentation":"<p>Each entry in the array contains:</p> <p>PatchGroup: string (between 1 and 256 characters, Regex: ^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$)</p> <p>PatchBaselineIdentity: A PatchBaselineIdentity element. </p>"
+        },
+        "NextToken":{
+          "shape":"NextToken",
+          "documentation":"<p>The token to use when requesting the next set of items. If there are no additional items to return, the string is empty.</p>"
+        }
+      }
+    },
+    "DescribePatchPropertiesRequest":{
+      "type":"structure",
+      "required":[
+        "OperatingSystem",
+        "Property"
+          "shape":"InstanceId",
+          "documentation":"<p>The ID of the managed instance targeted by the command. A managed instance can be an EC2 instance or an instance in your hybrid environment that is configured for Systems Manager.</p>"
+        },
+        "Comment":{
+          "shape":"Comment",
+          "documentation":"<p>The comment text for the command.</p>"
+        },
+        "DocumentName":{
+          "shape":"DocumentName",
+          "documentation":"<p>The name of the document that was run. For example, <code>AWS-RunShellScript</code>.</p>"
+        },
+        "DocumentVersion":{
+          "shape":"DocumentVersion",
+          "documentation":"<p>The SSM document version used in the request.</p>"
+        },
+        "PluginName":{
+          "shape":"CommandPluginName",
+          "documentation":"<p>The name of the plugin, or <i>step name</i>, for which details are reported. For example, <code>aws:RunShellScript</code> is a plugin.</p>"
+        },
+        "ResponseCode":{
+          "shape":"ResponseCode",
+          "documentation":"<p>The error level response code for the plugin script. If the response code is <code>-1</code>, then the command has not started running on the instance, or it was not received by the instance.</p>"
+        },
+        "ExecutionStartDateTime":{
+          "shape":"StringDateTime",
+          "documentation":"<p>The date and time the plugin started running. Date and time are written in ISO 8601 format. For example, June 7, 2017 is represented as 2017-06-7. The following sample AWS CLI command uses the <code>InvokedBefore</code> filter.</p> <p> <code>aws ssm list-commands --filters key=InvokedBefore,value=2017-06-07T00:00:00Z</code> </p> <p>If the plugin has not started to run, the string is empty.</p>"
+        },
+        "ExecutionElapsedTime":{
+          "shape":"StringDateTime",
+          "documentation":"<p>Duration since <code>ExecutionStartDateTime</code>.</p>"
+        },
+        "ExecutionEndDateTime":{
+          "shape":"StringDateTime",
+          "documentation":"<p>The date and time the plugin finished running. Date and time are written in ISO 8601 format. For example, June 7, 2017 is represented as 2017-06-7. The following sample AWS CLI command uses the <code>InvokedAfter</code> filter.</p> <p> <code>aws ssm list-commands --filters key=InvokedAfter,value=2017-06-07T00:00:00Z</code> </p> <p>If the plugin has not started to run, the string is empty.</p>"
+        },
+        "Status":{
+          "shape":"CommandInvocationStatus",
+          "documentation":"<p>The status of this invocation plugin. This status can be different than <code>StatusDetails</code>.</p>"
+        },
+        "StatusDetails":{
+          "shape":"StatusDetails",
+          "documentation":"<p>A detailed status of the command execution for an invocation. <code>StatusDetails</code> includes more information than <code>Status</code> because it includes states resulting from error and concurrency control parameters. <code>StatusDetails</code> can show different results than <code>Status</code>. For more information about these statuses, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/monitor-commands.html\">Understanding command statuses</a> in the <i>AWS Systems Manager User Guide</i>. <code>StatusDetails</code> can be one of the following values:</p> <ul> <li> <p>Pending: The command has not been sent to the instance.</p> </li> <li> <p>In Progress: The command has been sent to the instance but has not reached a terminal state.</p> </li> <li> <p>Delayed: The system attempted to send the command to the target, but the target was not available. The instance might not be available because of network issues, because the instance was stopped, or for similar reasons. The system will try to send the command again.</p> </li> <li> <p>Success: The command or plugin ran successfully. This is a terminal state.</p> </li> <li> <p>Delivery Timed Out: The command was not delivered to the instance before the delivery timeout expired. Delivery timeouts do not count against the parent command's <code>MaxErrors</code> limit, but they do contribute to whether the parent command status is Success or Incomplete. This is a terminal state.</p> </li> <li> <p>Execution Timed Out: The command started to run on the instance, but the execution was not complete before the timeout expired. Execution timeouts count against the <code>MaxErrors</code> limit of the parent command. This is a terminal state.</p> </li> <li> <p>Failed: The command wasn't run successfully on the instance. For a plugin, this indicates that the result code was not zero. For a command invocation, this indicates that the result code for one or more plugins was not zero. Invocation failures count against the <code>MaxErrors</code> limit of the parent command. This is a terminal state.</p> </li> <li> <p>Canceled: The command was terminated before it was completed. This is a terminal state.</p> </li> <li> <p>Undeliverable: The command can't be delivered to the instance. The instance might not exist or might not be responding. Undeliverable invocations don't count against the parent command's <code>MaxErrors</code> limit and don't contribute to whether the parent command status is Success or Incomplete. This is a terminal state.</p> </li> <li> <p>Terminated: The parent command exceeded its <code>MaxErrors</code> limit and subsequent command invocations were canceled by the system. This is a terminal state.</p> </li> </ul>"
+        },
+        "StandardOutputContent":{
+          "shape":"StandardOutputContent",
+          "documentation":"<p>The first 24,000 characters written by the plugin to <code>stdout</code>. If the command has not finished running, if <code>ExecutionStatus</code> is neither Succeeded nor Failed, then this string is empty.</p>"
+        },
+        "StandardOutputUrl":{
+          "shape":"Url",
+          "documentation":"<p>The URL for the complete text written by the plugin to <code>stdout</code> in Amazon Simple Storage Service (Amazon S3). If an S3 bucket was not specified, then this string is empty.</p>"
+        },
+        "StandardErrorContent":{
+          "shape":"StandardErrorContent",
+          "documentation":"<p>The first 8,000 characters written by the plugin to <code>stderr</code>. If the command has not finished running, then this string is empty.</p>"
+        },
+        "StandardErrorUrl":{
+          "shape":"Url",
+          "documentation":"<p>The URL for the complete text written by the plugin to <code>stderr</code>. If the command has not finished running, then this string is empty.</p>"
+        },
+    "GetMaintenanceWindowExecutionTaskResult":{
+      "type":"structure",
+      "members":{
+        "WindowExecutionId":{
+          "shape":"MaintenanceWindowExecutionId",
+          "documentation":"<p>The ID of the maintenance window execution that includes the task.</p>"
+        },
+        "TaskExecutionId":{
+          "shape":"MaintenanceWindowExecutionTaskId",
+          "documentation":"<p>The ID of the specific task execution in the maintenance window task that was retrieved.</p>"
+        },
+        "TaskArn":{
+          "shape":"MaintenanceWindowTaskArn",
+          "documentation":"<p>The ARN of the task that ran.</p>"
+        },
+        "ServiceRole":{
+          "shape":"ServiceRole",
+          "documentation":"<p>The role that was assumed when running the task.</p>"
+        },
+        "Type":{
+          "shape":"MaintenanceWindowTaskType",
+          "documentation":"<p>The type of task that was run.</p>"
+        },
+        "TaskParameters":{
+          "shape":"MaintenanceWindowTaskParametersList",
+          "documentation":"<p>The parameters passed to the task when it was run.</p> <note> <p> <code>TaskParameters</code> has been deprecated. To specify parameters to pass to a task when it runs, instead use the <code>Parameters</code> option in the <code>TaskInvocationParameters</code> structure. For information about how Systems Manager handles these options for the supported maintenance window task types, see <a>MaintenanceWindowTaskInvocationParameters</a>.</p> </note> <p>The map has the following format:</p> <p>Key: string, between 1 and 255 characters</p> <p>Value: an array of strings, each string is between 1 and 255 characters</p>"
+        },
+        "Priority":{
+          "shape":"MaintenanceWindowTaskPriority",
+          "documentation":"<p>The priority of the task.</p>"
+        },
+        "MaxConcurrency":{
+          "shape":"MaxConcurrency",
+          "documentation":"<p>The defined maximum number of task executions that could be run in parallel.</p>"
+        },
+        "MaxErrors":{
+          "shape":"MaxErrors",
+          "documentation":"<p>The defined maximum number of task execution errors allowed before scheduling of the task execution would have been stopped.</p>"
+        },
+        "Status":{
+          "shape":"MaintenanceWindowExecutionStatus",
+          "documentation":"<p>The status of the task.</p>"
+        },
+        "StatusDetails":{
+          "shape":"MaintenanceWindowExecutionStatusDetails",
+          "documentation":"<p>The details explaining the Status. Only available for certain status values.</p>"
+        },
+        "StartTime":{
+          "shape":"DateTime",
+          "documentation":"<p>The time the task execution started.</p>"
+        },
+        "Name":{
+          "shape":"MaintenanceWindowStepFunctionsName",
+          "documentation":"<p>The name of the STEP_FUNCTIONS task.</p>"
+        }
+      },
+      "documentation":"<p>The parameters for a STEP_FUNCTIONS task.</p> <p>For information about specifying and updating task parameters, see <a>RegisterTaskWithMaintenanceWindow</a> and <a>UpdateMaintenanceWindowTask</a>.</p> <note> <p> <code>LoggingInfo</code> has been deprecated. To specify an S3 bucket to contain logs, instead use the <code>OutputS3BucketName</code> and <code>OutputS3KeyPrefix</code> options in the <code>TaskInvocationParameters</code> structure. For information about how Systems Manager handles these options for the supported maintenance window task types, see <a>MaintenanceWindowTaskInvocationParameters</a>.</p> <p> <code>TaskParameters</code> has been deprecated. To specify parameters to pass to a task when it runs, instead use the <code>Parameters</code> option in the <code>TaskInvocationParameters</code> structure. For information about how Systems Manager handles these options for the supported maintenance window task types, see <a>MaintenanceWindowTaskInvocationParameters</a>.</p> <p>For Step Functions tasks, Systems Manager ignores any values specified for <code>TaskParameters</code> and <code>LoggingInfo</code>.</p> </note>"
+    },
+    "MaintenanceWindowStringDateTime":{"type":"string"},
+    "MaintenanceWindowTarget":{
+      "type":"structure",
+      "members":{
+        "WindowId":{
+          "shape":"MaintenanceWindowId",
+          "documentation":"<p>The ID of the maintenance window to register the target with.</p>"
+        },
+        "WindowTargetId":{
+          "shape":"MaintenanceWindowTargetId",
+          "documentation":"<p>The ID of the target.</p>"
+        },
+        "ResourceType":{
+          "shape":"MaintenanceWindowResourceType",
+          "documentation":"<p>The type of target that is being registered with the maintenance window.</p>"
+        },
+        "Targets":{
+          "shape":"Targets",
+          "documentation":"<p>The targets, either instances or tags.</p> <p>Specify instances using the following format:</p> <p> <code>Key=instanceids,Values=&lt;instanceid1&gt;,&lt;instanceid2&gt;</code> </p> <p>Tags are specified using the following format:</p> <p> <code>Key=&lt;tag name&gt;,Values=&lt;tag value&gt;</code>.</p>"
+        },
+        "OwnerInformation":{
+          "shape":"OwnerInformation",
+          "documentation":"<p>A user-provided value that will be included in any CloudWatch events that are raised while running tasks for these targets in this maintenance window.</p>"
+        },
+        "Name":{
+          "shape":"MaintenanceWindowName",
+          "documentation":"<p>The name for the maintenance window target.</p>"
+        },
+        "Description":{
+          "shape":"MaintenanceWindowDescription",
+          "documentation":"<p>A description for the target.</p>"
+        }
+      },
+      "documentation":"<p>The target registered with the maintenance window.</p>"
+    },
+    "MaintenanceWindowTargetId":{
+      "type":"string",
+      "max":36,
+      "min":36,
+      "pattern":"^[0-9a-fA-F]{8}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{4}\\-[0-9a-fA-F]{12}$"
+    },
+    "MaintenanceWindowTargetList":{
+      "type":"list",
+      "member":{"shape":"MaintenanceWindowTarget"}
+          "documentation":"<p>Information about the parameter that you want to add to the system. Optional but recommended.</p> <important> <p>Do not enter personally identifiable information in this field.</p> </important>"
+        },
+        "Value":{
+          "shape":"PSParameterValue",
+          "documentation":"<p>The parameter value that you want to add to the system. Standard parameters have a value limit of 4 KB. Advanced parameters have a value limit of 8 KB.</p> <note> <p>Parameters can't be referenced or nested in the values of other parameters. You can't include <code>{{}}</code> or <code>{{ssm:<i>parameter-name</i>}}</code> in a parameter value.</p> </note>"
+        },
+        "Type":{
+          "shape":"ParameterType",
+          "documentation":"<p>The type of parameter that you want to add to the system.</p> <note> <p> <code>SecureString</code> is not currently supported for AWS CloudFormation templates.</p> </note> <p>Items in a <code>StringList</code> must be separated by a comma (,). You can't use other punctuation or special character to escape items in the list. If you have a parameter value that requires a comma, then use the <code>String</code> data type.</p> <important> <p>Specifying a parameter type is not required when updating a parameter. You must specify a parameter type when creating a parameter.</p> </important>"
+        },
+        "KeyId":{
+          "shape":"ParameterKeyId",
+          "documentation":"<p>The KMS Key ID that you want to use to encrypt a parameter. Either the default AWS Key Management Service (AWS KMS) key automatically assigned to your AWS account or a custom key. Required for parameters that use the <code>SecureString</code> data type.</p> <p>If you don't specify a key ID, the system uses the default key associated with your AWS account.</p> <ul> <li> <p>To use your default AWS KMS key, choose the <code>SecureString</code> data type, and do <i>not</i> specify the <code>Key ID</code> when you create the parameter. The system automatically populates <code>Key ID</code> with your default KMS key.</p> </li> <li> <p>To use a custom KMS key, choose the <code>SecureString</code> data type with the <code>Key ID</code> parameter.</p> </li> </ul>"
+        },
+        "Overwrite":{
+          "shape":"Boolean",
+          "documentation":"<p>Overwrite an existing parameter. The default value is 'false'.</p>",
+          "box":true
+        },
+        "AllowedPattern":{
+          "shape":"AllowedPattern",
+          "documentation":"<p>A regular expression used to validate the parameter value. For example, for String types with values restricted to numbers, you can specify the following: AllowedPattern=^\\d+$ </p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>Optional metadata that you assign to a resource. Tags enable you to categorize a resource in different ways, such as by purpose, owner, or environment. For example, you might want to tag a Systems Manager parameter to identify the type of resource to which it applies, the environment, or the type of configuration data referenced by the parameter. In this case, you could specify the following key name/value pairs:</p> <ul> <li> <p> <code>Key=Resource,Value=S3bucket</code> </p> </li> <li> <p> <code>Key=OS,Value=Windows</code> </p> </li> <li> <p> <code>Key=ParameterType,Value=LicenseKey</code> </p> </li> </ul> <note> <p>To add tags to an existing Systems Manager parameter, use the <a>AddTagsToResource</a> action.</p> </note>"
+        },
+        "Tier":{
+          "shape":"ParameterTier",
+          "documentation":"<p>The parameter tier to assign to a parameter.</p> <p>Parameter Store offers a standard tier and an advanced tier for parameters. Standard parameters have a content size limit of 4 KB and can't be configured to use parameter policies. You can create a maximum of 10,000 standard parameters for each Region in an AWS account. Standard parameters are offered at no additional cost. </p> <p>Advanced parameters have a content size limit of 8 KB and can be configured to use parameter policies. You can create a maximum of 100,000 advanced parameters for each Region in an AWS account. Advanced parameters incur a charge. For more information, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/parameter-store-advanced-parameters.html\">Standard and advanced parameter tiers</a> in the <i>AWS Systems Manager User Guide</i>.</p> <p>You can change a standard parameter to an advanced parameter any time. But you can't revert an advanced parameter to a standard parameter. Reverting an advanced parameter to a standard parameter would result in data loss because the system would truncate the size of the parameter from 8 KB to 4 KB. Reverting would also remove any policies attached to the parameter. Lastly, advanced parameters use a different form of encryption than standard parameters. </p> <p>If you no longer need an advanced parameter, or if you no longer want to incur charges for an advanced parameter, you must delete it and recreate it as a new standard parameter. </p> <p> <b>Using the Default Tier Configuration</b> </p> <p>In <code>PutParameter</code> requests, you can specify the tier to create the parameter in. Whenever you specify a tier in the request, Parameter Store creates or updates the parameter according to that request. However, if you do not specify a tier in a request, Parameter Store assigns the tier based on the current Parameter Store default tier configuration.</p> <p>The default tier when you begin using Parameter Store is the standard-parameter tier. If you use the advanced-parameter tier, you can specify one of the following as the default:</p> <ul> <li> <p> <b>Advanced</b>: With this option, Parameter Store evaluates all requests as advanced parameters. </p> </li> <li> <p> <b>Intelligent-Tiering</b>: With this option, Parameter Store evaluates each request to determine if the parameter is standard or advanced. </p> <p>If the request doesn't include any options that require an advanced parameter, the parameter is created in the standard-parameter tier. If one or more options requiring an advanced parameter are included in the request, Parameter Store create a parameter in the advanced-parameter tier.</p> <p>This approach helps control your parameter-related costs by always creating standard parameters unless an advanced parameter is necessary. </p> </li> </ul> <p>Options that require an advanced parameter include the following:</p> <ul> <li> <p>The content size of the parameter is more than 4 KB.</p> </li> <li> <p>The parameter uses a parameter policy.</p> </li> <li> <p>More than 10,000 parameters already exist in your AWS account in the current Region.</p> </li> </ul> <p>For more information about configuring the default tier option, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/ps-default-tier.html\">Specifying a default parameter tier</a> in the <i>AWS Systems Manager User Guide</i>.</p>"
+        },
+        "Policies":{
+          "shape":"ParameterPolicies",
+          "documentation":"<p>One or more policies to apply to a parameter. This action takes a JSON array. Parameter Store supports the following policy types:</p> <p>Expiration: This policy deletes the parameter after it expires. When you create the policy, you specify the expiration date. You can update the expiration date and time by updating the policy. Updating the <i>parameter</i> does not affect the expiration date and time. When the expiration time is reached, Parameter Store deletes the parameter.</p> <p>ExpirationNotification: This policy triggers an event in Amazon CloudWatch Events that notifies you about the expiration. By using this policy, you can receive notification before or after the expiration time is reached, in units of days or hours.</p> <p>NoChangeNotification: This policy triggers a CloudWatch event if a parameter has not been modified for a specified period of time. This policy type is useful when, for example, a secret needs to be changed within a period of time, but it has not been changed.</p> <p>All existing policies are preserved until you send new policies or an empty policy. For more information about parameter policies, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/parameter-store-policies.html\">Assigning parameter policies</a>. </p>"
+        },
+        "DataType":{
+          "shape":"ParameterDataType",
+          "documentation":"<p>The data type for a <code>String</code> parameter. Supported data types include plain text and Amazon Machine Image IDs.</p> <p> <b>The following data type values are supported.</b> </p> <ul> <li> <p> <code>text</code> </p> </li> <li> <p> <code>aws:ec2:image</code> </p> </li> </ul> <p>When you create a <code>String</code> parameter and specify <code>aws:ec2:image</code>, Systems Manager validates the parameter value is in the required format, such as <code>ami-12345abcdeEXAMPLE</code>, and that the specified AMI is available in your AWS account. For more information, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/parameter-store-ec2-aliases.html\">Native parameter support for Amazon Machine Image IDs</a> in the <i>AWS Systems Manager User Guide</i>.</p>"
+        }
+      }
+    },
+    "PutParameterResult":{
+      "type":"structure",
+      "members":{
+        "Version":{
+          "shape":"PSParameterVersion",
+          "documentation":"<p>The new version number of a parameter. If you edit a parameter value, Parameter Store automatically creates a new version and assigns this new version a unique ID. You can reference a parameter version ID in API actions or in Systems Manager documents (SSM documents). By default, if you don't specify a specific version, the system returns the latest parameter value when a parameter is called.</p>"
+        },
+        "Tier":{
+          "shape":"ParameterTier",
+          "documentation":"<p>The tier assigned to the parameter.</p>"
+        },
+        "PatchGroup":{
+          "shape":"PatchGroup",
+          "documentation":"<p>The name of the patch group registered with the patch baseline.</p>"
+        }
+      }
+    },
+    "RegisterTargetWithMaintenanceWindowRequest":{
+      "type":"structure",
+      "required":[
+        "WindowId",
+        "ResourceType",
+        "Targets"
+      ],
+      "members":{
+        "WindowId":{
+          "shape":"MaintenanceWindowId",
+          "documentation":"<p>The ID of the maintenance window the target should be registered with.</p>"
+        },
+        "ResourceType":{
+          "shape":"MaintenanceWindowResourceType",
+          "documentation":"<p>The type of target being registered with the maintenance window.</p>"
+        },
+        "Targets":{
+          "shape":"Targets",
+          "documentation":"<p>The targets to register with the maintenance window. In other words, the instances to run commands on when the maintenance window runs.</p> <note> <p>If a single maintenance window task is registered with multiple targets, its task invocations occur sequentially and not in parallel. If your task must run on multiple targets at the same time, register a task for each target individually and assign each task the same priority level.</p> </note> <p>You can specify targets using instance IDs, resource group names, or tags that have been applied to instances.</p> <p> <b>Example 1</b>: Specify instance IDs</p> <p> <code>Key=InstanceIds,Values=<i>instance-id-1</i>,<i>instance-id-2</i>,<i>instance-id-3</i> </code> </p> <p> <b>Example 2</b>: Use tag key-pairs applied to instances</p> <p> <code>Key=tag:<i>my-tag-key</i>,Values=<i>my-tag-value-1</i>,<i>my-tag-value-2</i> </code> </p> <p> <b>Example 3</b>: Use tag-keys applied to instances</p> <p> <code>Key=tag-key,Values=<i>my-tag-key-1</i>,<i>my-tag-key-2</i> </code> </p> <p> <b>Example 4</b>: Use resource group names</p> <p> <code>Key=resource-groups:Name,Values=<i>resource-group-name</i> </code> </p> <p> <b>Example 5</b>: Use filters for resource group types</p> <p> <code>Key=resource-groups:ResourceTypeFilters,Values=<i>resource-type-1</i>,<i>resource-type-2</i> </code> </p> <note> <p>For <code>Key=resource-groups:ResourceTypeFilters</code>, specify resource types in the following format</p> <p> <code>Key=resource-groups:ResourceTypeFilters,Values=<i>AWS::EC2::INSTANCE</i>,<i>AWS::EC2::VPC</i> </code> </p> </note> <p>For more information about these examples formats, including the best use case for each one, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/mw-cli-tutorial-targets-examples.html\">Examples: Register targets with a maintenance window</a> in the <i>AWS Systems Manager User Guide</i>.</p>"
+        },
+        "OwnerInformation":{
+          "shape":"OwnerInformation",
+          "documentation":"<p>User-provided value that will be included in any CloudWatch events raised while running tasks for these targets in this maintenance window.</p>"
+        },
+        "Name":{
+          "shape":"MaintenanceWindowName",
+          "documentation":"<p>An optional name for the target.</p>"
+        },
+        "Description":{
+          "shape":"MaintenanceWindowDescription",
+          "documentation":"<p>An optional description for the target.</p>"
+        },
+        "ClientToken":{
+          "shape":"ClientToken",
+          "documentation":"<p>User-provided idempotency token.</p>",
+          "idempotencyToken":true
+        }
+      }
+    },
+    "RegisterTargetWithMaintenanceWindowResult":{
+      "type":"structure",
+      "members":{
+        "WindowTargetId":{
+          "shape":"MaintenanceWindowTargetId",
+          "documentation":"<p>The ID of the target definition in this maintenance window.</p>"
+        }
+      }
+    },
+    "RegisterTaskWithMaintenanceWindowRequest":{
+      "type":"structure",
+      "required":[
+        "WindowId",
+        "TaskArn",
+        "TaskType"
+      ],
+      "members":{
+        "WindowId":{
+          "shape":"MaintenanceWindowId",
+          "documentation":"<p>The ID of the maintenance window the task should be added to.</p>"
+        },
+        "Targets":{
+          "shape":"Targets",
+          "documentation":"<p>The targets (either instances or maintenance window targets).</p> <note> <p>One or more targets must be specified for maintenance window Run Command-type tasks. Depending on the task, targets are optional for other maintenance window task types (Automation, AWS Lambda, and AWS Step Functions). For more information about running tasks that do not specify targets, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/maintenance-windows-targetless-tasks.html\">Registering maintenance window tasks without targets</a> in the <i>AWS Systems Manager User Guide</i>.</p> </note> <p>Specify instances using the following format: </p> <p> <code>Key=InstanceIds,Values=&lt;instance-id-1&gt;,&lt;instance-id-2&gt;</code> </p> <p>Specify maintenance window targets using the following format:</p> <p> <code>Key=WindowTargetIds,Values=&lt;window-target-id-1&gt;,&lt;window-target-id-2&gt;</code> </p>",
+          "box":true
+        },
+        "TaskArn":{
+          "shape":"MaintenanceWindowTaskArn",
+          "documentation":"<p>The ARN of the task to run.</p>"
+        },
+        "ServiceRoleArn":{
+          "shape":"ServiceRole",
+          "documentation":"<p>The ARN of the IAM service role for Systems Manager to assume when running a maintenance window task. If you do not specify a service role ARN, Systems Manager uses your account's service-linked role. If no service-linked role for Systems Manager exists in your account, it is created when you run <code>RegisterTaskWithMaintenanceWindow</code>.</p> <p>For more information, see the following topics in the in the <i>AWS Systems Manager User Guide</i>:</p> <ul> <li> <p> <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/using-service-linked-roles.html#slr-permissions\">Using service-linked roles for Systems Manager</a> </p> </li> <li> <p> <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-maintenance-permissions.html#maintenance-window-tasks-service-role\">Should I use a service-linked role or a custom service role to run maintenance window tasks? </a> </p> </li> </ul>"
+        },
+        "TaskType":{
+          "shape":"MaintenanceWindowTaskType",
+          "documentation":"<p>The type of task being registered.</p>"
+        },
+        "TaskParameters":{
+          "shape":"MaintenanceWindowTaskParameters",
+          "documentation":"<p>The parameters that should be passed to the task when it is run.</p> <note> <p> <code>TaskParameters</code> has been deprecated. To specify parameters to pass to a task when it runs, instead use the <code>Parameters</code> option in the <code>TaskInvocationParameters</code> structure. For information about how Systems Manager handles these options for the supported maintenance window task types, see <a>MaintenanceWindowTaskInvocationParameters</a>.</p> </note>"
+        },
+        "TaskInvocationParameters":{
+          "shape":"MaintenanceWindowTaskInvocationParameters",
+          "documentation":"<p>The parameters that the task should use during execution. Populate only the fields that match the task type. All other fields should be empty. </p>"
+        },
+        "Priority":{
+          "shape":"MaintenanceWindowTaskPriority",
+          "documentation":"<p>The priority of the task in the maintenance window, the lower the number the higher the priority. Tasks in a maintenance window are scheduled in priority order with tasks that have the same priority scheduled in parallel.</p>",
+          "documentation":"<p>The name of the parameter used as the target resource for the rate-controlled execution. Required if you specify targets.</p>"
+        },
+        "Targets":{
+          "shape":"Targets",
+          "documentation":"<p>A key-value mapping to target resources. Required if you specify TargetParameterName.</p>"
+        },
+        "TargetMaps":{
+          "shape":"TargetMaps",
+          "documentation":"<p>A key-value mapping of document parameters to target resources. Both Targets and TargetMaps cannot be specified together.</p>"
+        },
+        "MaxConcurrency":{
+          "shape":"MaxConcurrency",
+          "documentation":"<p>The maximum number of targets allowed to run this task in parallel. You can specify a number, such as 10, or a percentage, such as 10%. The default value is 10.</p>"
+        },
+        "MaxErrors":{
+          "shape":"MaxErrors",
+          "documentation":"<p>The number of errors that are allowed before the system stops running the automation on additional targets. You can specify either an absolute number of errors, for example 10, or a percentage of the target set, for example 10%. If you specify 3, for example, the system stops running the automation when the fourth error is received. If you specify 0, then the system stops running the automation on additional targets after the first error result is returned. If you run an automation on 50 resources and set max-errors to 10%, then the system stops running the automation on additional targets when the sixth error is received.</p> <p>Executions that are already running an automation when max-errors is reached are allowed to complete, but some of these executions may fail as well. If you need to ensure that there won't be more than max-errors failed executions, set max-concurrency to 1 so the executions proceed one at a time.</p>"
+        },
+        "TargetLocations":{
+          "shape":"TargetLocations",
+          "documentation":"<p>A location is a combination of AWS Regions and/or AWS accounts where you want to run the Automation. Use this action to start an Automation in multiple Regions and multiple accounts. For more information, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-automation-multiple-accounts-and-regions.html\">Running Automation workflows in multiple AWS Regions and accounts</a> in the <i>AWS Systems Manager User Guide</i>. </p>",
+          "box":true
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>Optional metadata that you assign to a resource. You can specify a maximum of five tags for an automation. Tags enable you to categorize a resource in different ways, such as by purpose, owner, or environment. For example, you might want to tag an automation to identify an environment or operating system. In this case, you could specify the following key name/value pairs:</p> <ul> <li> <p> <code>Key=environment,Value=test</code> </p> </li> <li> <p> <code>Key=OS,Value=Windows</code> </p> </li> </ul> <note> <p>To add tags to an existing patch baseline, use the <a>AddTagsToResource</a> action.</p> </note>"
+        }
+      }
+    },
+    "StartAutomationExecutionResult":{
+      "type":"structure",
+      "members":{
+        "AutomationExecutionId":{
+          "shape":"AutomationExecutionId",
+          "documentation":"<p>The unique ID of a newly scheduled automation execution.</p>"
+        }
+      }
+    },
+    "StartChangeRequestExecutionRequest":{
+      "type":"structure",
+      "required":[
+        "DocumentName",
+        "Runbooks"
+      ],
+      "members":{
+        "ScheduledTime":{
+          "shape":"DateTime",
+          "documentation":"<p>The date and time specified in the change request to run the Automation runbooks.</p> <note> <p>The Automation runbooks specified for the runbook workflow can't run until all required approvals for the change request have been received.</p> </note>"
+        },
+        "DocumentName":{
+          "shape":"DocumentARN",
+          "documentation":"<p>The name of the change template document to run during the runbook workflow.</p>"
+        },
+        "DocumentVersion":{
+          "shape":"DocumentVersion",
+          "documentation":"<p>The version of the change template document to run during the runbook workflow.</p>",
+          "box":true
+        },
+        "Parameters":{
+          "shape":"AutomationParameterMap",
+          "documentation":"<p>A key-value map of parameters that match the declared parameters in the change template document.</p>"
+        },
+        "ChangeRequestName":{
+          "shape":"ChangeRequestName",
+          "documentation":"<p>The name of the change request associated with the runbook workflow to be run.</p>"
+        },
+        "ClientToken":{
+          "shape":"IdempotencyToken",
+          "documentation":"<p>The user-provided idempotency token. The token must be unique, is case insensitive, enforces the UUID format, and can't be reused.</p>"
+        },
+        "Runbooks":{
+          "shape":"Runbooks",
+          "documentation":"<p>Information about the Automation runbooks (Automation documents) that are run during the runbook workflow.</p> <note> <p>The Automation runbooks specified for the runbook workflow can't run until all required approvals for the change request have been received.</p> </note>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>Optional metadata that you assign to a resource. You can specify a maximum of five tags for a change request. Tags enable you to categorize a resource in different ways, such as by purpose, owner, or environment. For example, you might want to tag a change request to identify an environment or target AWS Region. In this case, you could specify the following key-value pairs:</p> <ul> <li> <p> <code>Key=Environment,Value=Production</code> </p> </li> <li> <p> <code>Key=Region,Value=us-east-2</code> </p> </li> </ul>"
+        },
+        "ScheduledEndTime":{
+          "shape":"DateTime",
+          "documentation":"<p>The time that the requester expects the runbook workflow related to the change request to complete. The time is an estimate only that the requester provides for reviewers.</p>"
+        },
+        "ChangeDetails":{
+          "shape":"ChangeDetailsValue",
+          "documentation":"<p>User-provided details about the change. If no details are provided, content specified in the <b>Template information</b> section of the associated change template is added.</p>"
+        }
+      }
+    },
+    "StartChangeRequestExecutionResult":{
+      "type":"structure",
+      "members":{
+        "AutomationExecutionId":{
+          "shape":"AutomationExecutionId",
+          "documentation":"<p>The unique ID of a runbook workflow operation. (A runbook workflow is a type of Automation operation.) </p>"
+        }
+      }
+    },
+    "StartSessionRequest":{
+      "type":"structure",
+      "required":["Target"],
+      "members":{
+        "Target":{
+      "pattern":"^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$"
+    },
+    "TagList":{
+      "type":"list",
+      "member":{"shape":"Tag"},
+      "max":1000
+    },
+    "TagValue":{
+      "type":"string",
+      "max":256,
+      "min":1,
+      "pattern":"^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$"
+    },
+    "Target":{
+      "type":"structure",
+      "members":{
+        "Key":{
+          "shape":"TargetKey",
+          "documentation":"<p>User-defined criteria for sending commands that target instances that meet the criteria.</p>"
+        },
+        "Values":{
+          "shape":"TargetValues",
+          "documentation":"<p>User-defined criteria that maps to <code>Key</code>. For example, if you specified <code>tag:ServerRole</code>, you could specify <code>value:WebServer</code> to run a command on instances that include EC2 tags of <code>ServerRole,WebServer</code>. </p> <p>Depending on the type of <code>Target</code>, the maximum number of values for a <code>Key</code> might be lower than the global maximum of 50.</p>"
+        }
+      },
+      "documentation":"<p>An array of search criteria that targets instances using a Key,Value combination that you specify.</p> <note> <p> One or more targets must be specified for maintenance window Run Command-type tasks. Depending on the task, targets are optional for other maintenance window task types (Automation, AWS Lambda, and AWS Step Functions). For more information about running tasks that do not specify targets, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/maintenance-windows-targetless-tasks.html\">Registering maintenance window tasks without targets</a> in the <i>AWS Systems Manager User Guide</i>.</p> </note> <p>Supported formats include the following.</p> <ul> <li> <p> <code>Key=InstanceIds,Values=<i>instance-id-1</i>,<i>instance-id-2</i>,<i>instance-id-3</i> </code> </p> </li> <li> <p> <code>Key=tag:<i>my-tag-key</i>,Values=<i>my-tag-value-1</i>,<i>my-tag-value-2</i> </code> </p> </li> <li> <p> <code>Key=tag-key,Values=<i>my-tag-key-1</i>,<i>my-tag-key-2</i> </code> </p> </li> <li> <p> <b>Run Command and Maintenance window targets only</b>: <code>Key=resource-groups:Name,Values=<i>resource-group-name</i> </code> </p> </li> <li> <p> <b>Maintenance window targets only</b>: <code>Key=resource-groups:ResourceTypeFilters,Values=<i>resource-type-1</i>,<i>resource-type-2</i> </code> </p> </li> <li> <p> <b>Automation targets only</b>: <code>Key=ResourceGroup;Values=<i>resource-group-name</i> </code> </p> </li> </ul> <p>For example:</p> <ul> <li> <p> <code>Key=InstanceIds,Values=i-02573cafcfEXAMPLE,i-0471e04240EXAMPLE,i-07782c72faEXAMPLE</code> </p> </li> <li> <p> <code>Key=tag:CostCenter,Values=CostCenter1,CostCenter2,CostCenter3</code> </p> </li> <li> <p> <code>Key=tag-key,Values=Name,Instance-Type,CostCenter</code> </p> </li> <li> <p> <b>Run Command and Maintenance window targets only</b>: <code>Key=resource-groups:Name,Values=ProductionResourceGroup</code> </p> <p>This example demonstrates how to target all resources in the resource group <b>ProductionResourceGroup</b> in your maintenance window.</p> </li> <li> <p> <b>Maintenance window targets only</b>: <code>Key=resource-groups:ResourceTypeFilters,Values=<i>AWS::EC2::INSTANCE</i>,<i>AWS::EC2::VPC</i> </code> </p> <p>This example demonstrates how to target only EC2 instances and VPCs in your maintenance window.</p> </li> <li> <p> <b>Automation targets only</b>: <code>Key=ResourceGroup,Values=MyResourceGroup</code> </p> </li> <li> <p> <b>State Manager association targets only</b>: <code>Key=InstanceIds,Values=<i>*</i> </code> </p> <p>This example demonstrates how to target all managed instances in the AWS Region where the association was created.</p> </li> </ul> <p>For more information about how to send commands that target instances using <code>Key,Value</code> parameters, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/send-commands-multiple.html#send-commands-targeting\">Targeting multiple instances</a> in the <i>AWS Systems Manager User Guide</i>.</p>"
+    },
+    "TargetCount":{"type":"integer"},
+    "TargetInUseException":{
+      "type":"structure",
+      "members":{
+        "Message":{"shape":"String"}
+      },
+      "documentation":"<p>You specified the <code>Safe</code> option for the DeregisterTargetFromMaintenanceWindow operation, but the target is still referenced in a task.</p>",
+      "exception":true
+    },
+    "TargetKey":{
+      "type":"string",
+      "max":163,
+      "min":1,
+      "pattern":"^[\\p{L}\\p{Z}\\p{N}_.:/=\\-@]*$|resource-groups:ResourceTypeFilters|resource-groups:Name"
+    },
+    "TargetLocation":{
+      "type":"structure",
+      "members":{
+        "Accounts":{
+          "shape":"Accounts",
+          "documentation":"<p>The AWS accounts targeted by the current Automation execution.</p>"
+        },
+        "Regions":{
+          "shape":"Regions",
+        "WindowTaskId"
+      ],
+      "members":{
+        "WindowId":{
+          "shape":"MaintenanceWindowId",
+          "documentation":"<p>The maintenance window ID that contains the task to modify.</p>"
+        },
+        "WindowTaskId":{
+          "shape":"MaintenanceWindowTaskId",
+          "documentation":"<p>The task ID to modify.</p>"
+        },
+        "Targets":{
+          "shape":"Targets",
+          "documentation":"<p>The targets (either instances or tags) to modify. Instances are specified using Key=instanceids,Values=instanceID_1,instanceID_2. Tags are specified using Key=tag_name,Values=tag_value. </p> <note> <p>One or more targets must be specified for maintenance window Run Command-type tasks. Depending on the task, targets are optional for other maintenance window task types (Automation, AWS Lambda, and AWS Step Functions). For more information about running tasks that do not specify targets, see <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/maintenance-windows-targetless-tasks.html\">Registering maintenance window tasks without targets</a> in the <i>AWS Systems Manager User Guide</i>.</p> </note>"
+        },
+        "TaskArn":{
+          "shape":"MaintenanceWindowTaskArn",
+          "documentation":"<p>The task ARN to modify.</p>"
+        },
+        "ServiceRoleArn":{
+          "shape":"ServiceRole",
+          "documentation":"<p>The ARN of the IAM service role for Systems Manager to assume when running a maintenance window task. If you do not specify a service role ARN, Systems Manager uses your account's service-linked role. If no service-linked role for Systems Manager exists in your account, it is created when you run <code>RegisterTaskWithMaintenanceWindow</code>.</p> <p>For more information, see the following topics in the in the <i>AWS Systems Manager User Guide</i>:</p> <ul> <li> <p> <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/using-service-linked-roles.html#slr-permissions\">Using service-linked roles for Systems Manager</a> </p> </li> <li> <p> <a href=\"https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-maintenance-permissions.html#maintenance-window-tasks-service-role\">Should I use a service-linked role or a custom service role to run maintenance window tasks? </a> </p> </li> </ul>"
+        },
+        "TaskParameters":{
+          "shape":"MaintenanceWindowTaskParameters",
+          "documentation":"<p>The parameters to modify.</p> <note> <p> <code>TaskParameters</code> has been deprecated. To specify parameters to pass to a task when it runs, instead use the <code>Parameters</code> option in the <code>TaskInvocationParameters</code> structure. For information about how Systems Manager handles these options for the supported maintenance window task types, see <a>MaintenanceWindowTaskInvocationParameters</a>.</p> </note> <p>The map has the following format:</p> <p>Key: string, between 1 and 255 characters</p> <p>Value: an array of strings, each string is between 1 and 255 characters</p>"
+        },
+        "TaskInvocationParameters":{
+          "shape":"MaintenanceWindowTaskInvocationParameters",
+          "documentation":"<p>The parameters that the task should use during execution. Populate only the fields that match the task type. All other fields should be empty.</p> <important> <p>When you update a maintenance window task that has options specified in <code>TaskInvocationParameters</code>, you must provide again all the <code>TaskInvocationParameters</code> values that you want to retain. The values you do not specify again are removed. For example, suppose that when you registered a Run Command task, you specified <code>TaskInvocationParameters</code> values for <code>Comment</code>, <code>NotificationConfig</code>, and <code>OutputS3BucketName</code>. If you update the maintenance window task and specify only a different <code>OutputS3BucketName</code> value, the values for <code>Comment</code> and <code>NotificationConfig</code> are removed.</p> </important>"
+        },
+        "Priority":{
+          "shape":"MaintenanceWindowTaskPriority",
+          "documentation":"<p>The new task priority to specify. The lower the number, the higher the priority. Tasks that have the same priority are scheduled in parallel.</p>",
+          "box":true
+        },
+        "MaxConcurrency":{
+          "shape":"MaxConcurrency",
+          "documentation":"<p>The new <code>MaxConcurrency</code> value you want to specify. <code>MaxConcurrency</code> is the number of targets that are allowed to run this task in parallel.</p> <note> <p>For maintenance window tasks without a target specified, you cannot supply a value for this option. Instead, the system inserts a placeholder value of <code>1</code>, which may be reported in the response to this command. This value does not affect the running of your task and can be ignored.</p> </note>"
+        },
+        "MaxErrors":{
+          "shape":"MaxErrors",
+          "documentation":"<p>The new <code>MaxErrors</code> value to specify. <code>MaxErrors</code> is the maximum number of errors that are allowed before the task stops being scheduled.</p> <note> <p>For maintenance window tasks without a target specified, you cannot supply a value for this option. Instead, the system inserts a placeholder value of <code>1</code>, which may be reported in the response to this command. This value does not affect the running of your task and can be ignored.</p> </note>"
+        },
+        "LoggingInfo":{
+          "shape":"LoggingInfo",
+          "documentation":"<p>The new logging location in Amazon S3 to specify.</p> <note> <p> <code>LoggingInfo</code> has been deprecated. To specify an S3 bucket to contain logs, instead use the <code>OutputS3BucketName</code> and <code>OutputS3KeyPrefix</code> options in the <code>TaskInvocationParameters</code> structure. For information about how Systems Manager handles these options for the supported maintenance window task types, see <a>MaintenanceWindowTaskInvocationParameters</a>.</p> </note>"
+        },
+        "Name":{
+          "shape":"MaintenanceWindowName",
+          "documentation":"<p>The new task name to specify.</p>"

@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.nordwind.io/app@sha256:3a10899a4e892f8faec1a28b589cabe6aaa6515c0e79e1a60c2284eae3b9c2a2
+    environment:
+      - DATABASE_URL=postgres://app:Tiger&1975@10.248.73.213:5432/app
+      - SENTRY_RELEASE=dcffd85cc9ee70e72758d7a1dfdc58347a1f1a04
+      - API_TOKEN=xxxxxxxxxxxxxxxx
+      - BIND_ADDR=0.0.0.0
+  worker:
+    image: registry.nordwind.io/worker:4.6.14
+    environment:
+      - QUEUE_PASS=Q2gzY2szcjNkIQ==

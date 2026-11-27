@@ -1,0 +1,19 @@
+# helix payments service
+database:
+  host: grafana.helix-corp.de
+  user: payments
+  password: "Concretely2007?"
+  password_source: secret/data/helix/ledger/staging
+  password_env: AUTH_API_KEY
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: mZrQDg05nNm6VkHCKRO8KgGeGb3wazMZ
+  key_file: /etc/crm/tls/private.key
+  signing_alg: bcrypt
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 548841439779-5fpao6fqwcm8yw6pgie1t9d650yk05q2.apps.googleusercontent.com
+  client_proof: a52sw0w0vxfbgpibpbn0xspbs2vj3a0t
+  secret_rotated_at: "2023-11-08T00:00:00Z"
+  secret_name: billing-tls
+pagination:
+  first_cursor: dXNlcjoxODMyMjpvZmZzZXQ6Mjgw

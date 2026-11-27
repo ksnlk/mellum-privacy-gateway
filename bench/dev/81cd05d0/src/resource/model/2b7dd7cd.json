@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2010-05-15",
+    "endpointPrefix":"cloudformation",
+    "protocol":"query",
+    "serviceFullName":"AWS CloudFormation",
+    "serviceId":"CloudFormation",
+    "signatureVersion":"v4",
+    "uid":"cloudformation-2010-05-15",
+    "xmlNamespace":"http://cloudformation.amazonaws.com/doc/2010-05-15/"
+  },
+  "operations":{
+    "CancelUpdateStack":{
+      "name":"CancelUpdateStack",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"CancelUpdateStackInput"},
+      "errors":[
+        {"shape":"TokenAlreadyExistsException"}
+      ],
+      "documentation":"<p>Cancels an update on the specified stack. If the call completes successfully, the stack rolls back the update and reverts to the previous stack configuration.</p> <note> <p>You can cancel only stacks that are in the UPDATE_IN_PROGRESS state.</p> </note>"
+    },
+    "ContinueUpdateRollback":{
+      "name":"ContinueUpdateRollback",
+      "http":{
+        "method":"POST",

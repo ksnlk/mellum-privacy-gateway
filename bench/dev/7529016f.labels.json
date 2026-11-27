@@ -1,0 +1,877 @@
+{
+ "repo": "7529016f",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "docker/e45e45ba.yml",
+   "line": 15,
+   "start": 19,
+   "end": 29,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "hytpzxvsxi"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "docker/e45e45ba.yml",
+   "line": 29,
+   "start": 25,
+   "end": 35,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "cgxflwevzs"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "example/368abef3.yml",
+   "line": 9,
+   "start": 12,
+   "end": 22,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "qgmlrsqxvx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/conf/093483f8.yml",
+   "line": 9,
+   "start": 12,
+   "end": 27,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "drwzsockpz-xqde"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/conf/373f5578.go",
+   "line": 21,
+   "start": 46,
+   "end": 61,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "dycpqeknzj-oyfb"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "src/69fa85fc.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Anna Schmidt"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/69fa85fc.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "noah.hartmann@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/69fa85fc.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 2633 7305"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/69fa85fc.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.192.250.165"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/69fa85fc.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "insecure.nye.accord.igel67"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/1ebb6537.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing.1vcf6y.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/1ebb6537.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u0432\u0435\u0441\u043d\u04302459"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/1ebb6537.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "ETseJJaJsgrGvBIZu8erGJ2NMgYcpu8E"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/1ebb6537.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "vqki8nzh0vuv192p5p8z32oynhibd2zj"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/44a4ca09.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Igel@1999"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/44a4ca09.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.28.198.44"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/44a4ca09.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "cGhpbG9zb3BoeTI0OSE=",
+    "philosophy249!"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/98bb0d70.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.stzgvzmbg0yt.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/98bb0d70.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_dWfcxVwKs52MOB7FA1hHU8koGzN9v5nhDEHd"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "test/967502c8.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "33366631323935316636666132653131383335386231646166353562666537643539393436386535636237306536363731333034636239353662343638376232",
+    "36f12951f6fa2e118358b1daf55bfe7d599468e5cb70e6671304cb956b4687b2"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/6eac6763.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043b\u0435\u04411260!"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.helix-ops.io"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.helix-ops.io"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.helix-ops.io"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.151.20.0/24"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.151.20.115"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.helix-ops.io"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.helix-ops.io"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.helix-ops.io"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.helix-ops.io"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.151.20.152"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.helix-ops.io"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jonas Wagner"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jonas.wagner@gmail.com"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 5629378"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Ben Wagner"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "ben.wagner@t-online.de"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 8193181"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/b3356305.md",
+   "line": 174,
+   "whole_line": "  -e AWS_SECRET_ACCESS_KEY=\"${AWS_SECRET_ACCESS_KEY}\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/db164cdb.toml",
+   "line": 78,
+   "whole_line": "  -e AWS_SECRET_ACCESS_KEY=\"${AWS_SECRET_ACCESS_KEY}\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/e45e45ba.yml",
+   "line": 11,
+   "whole_line": "      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/client/0bc62cee.go",
+   "line": 145,
+   "whole_line": "\t\tToken:    token,",
+   "source": "creddata"
+  },
+  {
+   "file": "secret/1e1be099.yml",
+   "line": 2,
+   "whole_line": "GITHUB_TOKEN: !var c2c/c2c_mgmtsrv/github-c2c-infra-robot/token token",
+   "source": "creddata"
+  },
+  {
+   "file": "secret/1e1be099.yml",
+   "line": 3,
+   "whole_line": "CHANGELOG_GITHUB_TOKEN: !var c2c/c2c_mgmtsrv/github-c2c-infra-robot/token token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/71ca9e54.go",
+   "line": 12,
+   "whole_line": "\tKey:   \"fakeKey\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/71ca9e54.go",
+   "line": 17,
+   "whole_line": "\tKey:   \"fakeKey2\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/71ca9e54.go",
+   "line": 200,
+   "whole_line": "\t\tKey:   \"fakeNewKey\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/71ca9e54.go",
+   "line": 205,
+   "whole_line": "\t\tKey:   \"fakeNewKey2\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/71ca9e54.go",
+   "line": 295,
+   "whole_line": "\t\tKey:   \"fakeNewKey\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/71ca9e54.go",
+   "line": 300,
+   "whole_line": "\t\tKey:   \"fakeTotoKey\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/093483f8.yml",
+   "line": 10,
+   "value": "crm-oauth-client",
+   "source": "creddata"
+  },
+  {
+   "file": "src/69fa85fc.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "198.51.100.23"
+  },
+  {
+   "file": "src/69fa85fc.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "0.9.5"
+  },
+  {
+   "file": "src/69fa85fc.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:21e10e46a0d8451ca7523189f2c2874bace988a19f50b494918d086a9bf7490d"
+  },
+  {
+   "file": "src/69fa85fc.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/69fa85fc.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/1ebb6537.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/brightloop/billing/staging"
+  },
+  {
+   "file": "other/1ebb6537.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "REPORTS_CLIENT_SECRET"
+  },
+  {
+   "file": "other/1ebb6537.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "other/1ebb6537.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/run/secrets/reports_password"
+  },
+  {
+   "file": "other/1ebb6537.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "pbkdf2_sha256"
+  },
+  {
+   "file": "other/1ebb6537.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "other/1ebb6537.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "330623768755-elyhsth3hj1t833e8xadxxd3mwtn0sri.apps.googleusercontent.com"
+  },
+  {
+   "file": "other/1ebb6537.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2025-01-03T00:00:00Z"
+  },
+  {
+   "file": "other/1ebb6537.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "reports-tls"
+  },
+  {
+   "file": "other/1ebb6537.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "dXNlcjo3NzIzOm9mZnNldDozODE="
+  },
+  {
+   "file": "src/44a4ca09.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:f4b1120c9fefc08a2f89f06a8bc9d13fb3ab4111325a21997dfe3b8331c17b63"
+  },
+  {
+   "file": "src/44a4ca09.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "507696dadbb8736ed54061cedeec02f094c65fef"
+  },
+  {
+   "file": "src/44a4ca09.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "src/44a4ca09.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "localhost"
+  },
+  {
+   "file": "src/44a4ca09.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "8.13.21"
+  },
+  {
+   "file": "other/98bb0d70.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "7.5.9"
+  },
+  {
+   "file": "other/98bb0d70.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.24.11"
+  },
+  {
+   "file": "other/98bb0d70.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-RdAnyTeaOYA6ypcJe3S5MMf52ia1GfgcghUIWl0PlcaeAxticbXZ8CfqKCEPsNA/c9AvI6bvjyAI0PZ3tlYQBQ=="
+  },
+  {
+   "file": "other/98bb0d70.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9.1.22"
+  },
+  {
+   "file": "other/98bb0d70.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-QbWCok1PI2JMRN6KA3Nm6YnitHdiil3I9iDhCc6vRkeOWucmHe26/ZYjhvoWT60ndPHWsHAy4++zx6ptE1UoaQ=="
+  },
+  {
+   "file": "other/98bb0d70.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "4.6.41"
+  },
+  {
+   "file": "other/98bb0d70.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-JfQHfeSTtuW/6tGaLvLU2wi8qUAG3xwm1BLEltiPEN/JRPe2lsWrGiapTWetONfWaK071/Fqd1WVJExI9Jiz3g=="
+  },
+  {
+   "file": "test/967502c8.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "f17d49bdab8fd51bb2699c2c4d0fadeef13ae5d627c2d1bbb2df24ac6fb44070"
+  },
+  {
+   "file": "test/6eac6763.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "took40"
+  },
+  {
+   "file": "test/6eac6763.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Vai2026"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "portal.helix-ops.io"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sftp.logistik-nord.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "91.154.146.69"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Mia Koch"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Felix Mueller"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "portal.helix-ops.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.logistik-nord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "91.154.146.69"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.helix.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Mia Koch"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "mia.koch@helix.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Erika Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "erika@example.com"
+  }
+ ]
+}

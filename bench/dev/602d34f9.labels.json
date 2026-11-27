@@ -1,0 +1,983 @@
+{
+ "repo": "602d34f9",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/src/6c758387.kt",
+   "line": 64,
+   "start": 96,
+   "end": 104,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "Txzrtx76"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/src/e7ab05b7.kt",
+   "line": 42,
+   "start": 67,
+   "end": 79,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "nee8zbzaiukm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "other/9bdb3f5f.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/9bdb3f5f.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_u51KwvL8h3Zcs4na2URZ6xpyPHCmFCiHJRz7"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/a109cadb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "nico11@gmail.com"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/a109cadb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 2697 4824"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/a109cadb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "overload_rub45"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/a109cadb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE87337099068411759812"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/65f6b9b6.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.ckomeh.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/65f6b9b6.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Uncheck1974."
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/65f6b9b6.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "gOdR8ZaqBm7vKkVgTeCyTRVHaidgc73A"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/65f6b9b6.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "ounugphidncacr9th5kehj27f9kyjnly"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/e379eeb0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lea Klein"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/e379eeb0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "mia2@gmail.com"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/e379eeb0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 6512 9360"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/e379eeb0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.195.54.253"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/e379eeb0.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "kaffee_unable_basically17"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/3ae8a231.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.rCIse3e_ftnjnU55ozmNy2T-KuYjSVCE2k4nw2qV.hNDaYABF8FFP2aymiUmVLxu30s3y5l1pTrIucXJ45Kc"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/3ae8a231.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-prod.el7r7cob5uwe.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/e4f04b54.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "flusshostile"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.acme.systems"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.acme.systems"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.acme.systems"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "46.182.32.0/24"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "46.182.32.109"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.acme.systems"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.acme.systems"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.acme.systems"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.acme.systems"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.acme.systems"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "46.182.32.143"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Anna Richter"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "anna.richter@gmail.com"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 1304120"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jonas Schmidt"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jonas.schmidt@web.de"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 3088029"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "docker/build/8388f153.yml",
+   "line": 10,
+   "whole_line": "      MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'",
+   "source": "creddata"
+  },
+  {
+   "file": "src/201e377b.kt",
+   "line": 11,
+   "whole_line": "open class InsertStatement<Key : Any>(val table: Table, val isIgnore: Boolean = false) : UpdateBuilder<Int>(StatementType.INSERT, listOf(table)) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/201e377b.kt",
+   "line": 136,
+   "whole_line": "    override fun prepared(transaction: Transaction, sql: String): PreparedStatementApi = when {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/25554b97.kt",
+   "line": 25,
+   "whole_line": "    val password: String? = null,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/25cd4879.kt",
+   "line": 17,
+   "whole_line": "    override val key = Companion",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2d95871f.kt",
+   "line": 6,
+   "whole_line": "open class ReplaceStatement<Key : Any>(table: Table) : InsertStatement<Key>(table) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4bb03395.kt",
+   "line": 14,
+   "whole_line": "    private val key = Key<T>()",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a7b7ac35.kt",
+   "line": 38,
+   "value": "SPRING_TX_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a7b7ac35.kt",
+   "line": 111,
+   "whole_line": "    private fun bindResourceForSure(key: Any, value: Any) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a7cd6523.kt",
+   "line": 154,
+   "whole_line": "            password: String = \"\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a7cd6523.kt",
+   "line": 160,
+   "whole_line": "            return doConnect(getDialectName(url), { DriverManager.getConnection(url, user, password) }, setupConnection, manager)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/13ea6123.kt",
+   "line": 94,
+   "whole_line": "    private fun quoteTokenIfNecessary(token: String): String = if (needQuotes(token)) quote(token) else token",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b16f6a75.kt",
+   "line": 24,
+   "whole_line": "    fun <ID : Any, R : Entity<ID>> getOrPutReferrers(sourceId: EntityID<*>, key: Column<*>, refs: () -> SizedIterable<R>): SizedIterable<R> =",
+   "source": "creddata"
+  },
+  {
+   "file": "src/bdf6242f.kt",
+   "line": 20,
+   "whole_line": "    fun <T : Any> putUserData(key: Key<T>, value: T) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/bdf6242f.kt",
+   "line": 24,
+   "whole_line": "    fun <T : Any> removeUserData(key: Key<T>) = userdata.remove(key)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/bdf6242f.kt",
+   "line": 26,
+   "whole_line": "    fun <T : Any> getUserData(key: Key<T>): T? = userdata[key] as T?",
+   "source": "creddata"
+  },
+  {
+   "file": "src/bdf6242f.kt",
+   "line": 28,
+   "whole_line": "    fun <T : Any> getOrCreate(key: Key<T>, init: () -> T): T = userdata.getOrPut(key, init) as T",
+   "source": "creddata"
+  },
+  {
+   "file": "src/faa3989f.kt",
+   "line": 76,
+   "whole_line": "fun <Key : Comparable<Key>, T : IdTable<Key>> T.insertAndGetId(body: T.(InsertStatement<EntityID<Key>>) -> Unit) =",
+   "source": "creddata"
+  },
+  {
+   "file": "src/faa3989f.kt",
+   "line": 145,
+   "whole_line": "fun <Key : Comparable<Key>, T : IdTable<Key>> T.insertIgnoreAndGetId(body: T.(UpdateBuilder<*>) -> Unit) = InsertStatement<EntityID<Key>>(this, isIgnore = true).run {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/422f0177.kt",
+   "line": 522,
+   "whole_line": "            val key: UUID = UUID.randomUUID()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/6c758387.kt",
+   "line": 17,
+   "whole_line": "    val pass: String = \"\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/6c758387.kt",
+   "line": 43,
+   "whole_line": "        pass = if (runTestContainersMySQL()) \"test\" else \"\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/6c758387.kt",
+   "line": 49,
+   "whole_line": "        { \"jdbc:postgresql://localhost:12346/template1?user=postgres&password=&lc_messages=en_US.UTF-8\" }, \"org.postgresql.Driver\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/6c758387.kt",
+   "line": 53,
+   "whole_line": "        { \"jdbc:pgsql://localhost:12346/template1?user=postgres&password=\" }, \"com.impossibl.postgres.jdbc.PGDriver\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/6c758387.kt",
+   "line": 57,
+   "value": "oracle.jdbc.OracleDriver",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/6c758387.kt",
+   "line": 94,
+   "whole_line": "    fun connect() = Database.connect(connection(), user = user, password = pass, driver = driver)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/b757fc1d.kt",
+   "line": 35,
+   "whole_line": "    override fun getConnection(username: String?, password: String?): Connection { throw NotImplementedError() }",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/c01fd5c4.kt",
+   "line": 386,
+   "whole_line": "        val stringThatNeedsEscaping = \"multi\\r\\nline\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/sample/d30fe43d.kt",
+   "line": 13,
+   "whole_line": "    override val primaryKey = PrimaryKey(id, name = \"PK_User_ID\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/sample/d30fe43d.kt",
+   "line": 20,
+   "whole_line": "    override val primaryKey = PrimaryKey(id, name = \"PK_Cities_ID\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/sample/d30fe43d.kt",
+   "line": 24,
+   "whole_line": "    Database.connect(\"jdbc:h2:mem:test\", driver = \"org.h2.Driver\", user = \"root\", password = \"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "other/9bdb3f5f.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "8.3.18"
+  },
+  {
+   "file": "other/9bdb3f5f.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6.3.18"
+  },
+  {
+   "file": "other/9bdb3f5f.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-v0nSve2IOowYPlTI362eqCbdPfNxTsVrKu45h3+xE+1/N7MkISxwJcghZxvZI9d4ZYfTHEmU6P884P0kazzSSQ=="
+  },
+  {
+   "file": "other/9bdb3f5f.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "6.22.13"
+  },
+  {
+   "file": "other/9bdb3f5f.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-qOcfv7TUJXs4RGkRanQgK3vGBHUBqqgcfivQ/6G///UZqvpA0L5+f6keTObuI379zBBcMQ7Ln0Tpb1lCkIitvg=="
+  },
+  {
+   "file": "other/9bdb3f5f.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "9.1.14"
+  },
+  {
+   "file": "other/9bdb3f5f.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-NOpWEQvBnON5MH99iDZ1F+xTZnBGz/agNmLAMxBkuNLMQGz03iv4PzJdlaELXRmZPoV+GsgIQstTP6E6jzO7Xw=="
+  },
+  {
+   "file": "other/a109cadb.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "other/a109cadb.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "user@example.com"
+  },
+  {
+   "file": "other/a109cadb.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "_/65f6b9b6.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/brightloop/etl/prod"
+  },
+  {
+   "file": "_/65f6b9b6.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "LEDGER_SECRET_KEY"
+  },
+  {
+   "file": "_/65f6b9b6.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "_/65f6b9b6.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/etc/ledger/tls/private.key"
+  },
+  {
+   "file": "_/65f6b9b6.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "AES-256-GCM"
+  },
+  {
+   "file": "_/65f6b9b6.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "_/65f6b9b6.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "555268818798-mh9lt96vskmjyy0835se4g0mqaec9gaa.apps.googleusercontent.com"
+  },
+  {
+   "file": "_/65f6b9b6.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2023-06-22T00:00:00Z"
+  },
+  {
+   "file": "_/65f6b9b6.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "reports-api-token"
+  },
+  {
+   "file": "_/65f6b9b6.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6NDQ2MDU6b2Zmc2V0OjI3"
+  },
+  {
+   "file": "src/e379eeb0.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "192.0.2.173"
+  },
+  {
+   "file": "src/e379eeb0.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "4.9.44"
+  },
+  {
+   "file": "src/e379eeb0.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:79a5e668a8ba65a01ebef485b7bc09b6b1ebc205f0254e6327876f765964d3f7"
+  },
+  {
+   "file": "src/e379eeb0.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/e379eeb0.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/3ae8a231.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "9.10.6"
+  },
+  {
+   "file": "other/3ae8a231.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "a7cf406bfe745c8b968e20f018cb5f8703b8a0ec"
+  },
+  {
+   "file": "other/3ae8a231.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "FEE7AXUDAFKCU6TWIO5BLPQW7F"
+  },
+  {
+   "file": "other/3ae8a231.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "other/3ae8a231.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "WH7GEPQ6CZUSOLBQOU1IFGRUZD"
+  },
+  {
+   "file": "other/3ae8a231.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "src/e4f04b54.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "santa78"
+  },
+  {
+   "file": "src/e4f04b54.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Feuer Plot 7.18"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.acme.systems"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sftp.mailvault.de"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "46.182.123.20"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Lukas Hartmann"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Eva Weber"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.acme.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "www.acme.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.mailvault.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "46.182.123.20"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Lukas Hartmann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "lukas.hartmann@acme.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Erika Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "erika@example.com"
+  }
+ ]
+}

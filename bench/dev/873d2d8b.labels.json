@@ -1,0 +1,765 @@
+{
+ "repo": "873d2d8b",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "example/8b2f02c3.js",
+   "line": 95,
+   "start": 29,
+   "end": 69,
+   "category": "Secret",
+   "mutation": "comment",
+   "forms": [
+    "e515fd4ddcee9b51c3636fe1b1bccab92ccf95b4"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "example/conf/201092fe.js",
+   "line": 8,
+   "start": 16,
+   "end": 32,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "none",
+   "forms": [
+    "36CQNDYSF8VCA36O"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "example/fb92ea8f.js",
+   "line": 100,
+   "start": 11,
+   "end": 35,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "b64",
+   "forms": [
+    "NDFDTEJIR0FGMUxPRzIxWA==",
+    "41CLBHGAF1LOG21X"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/29211bb3.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-prod.9ajo3oka3n8p.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/29211bb3.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "85.235.79.193"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/29211bb3.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "c.schmidt@nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/29211bb3.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vpn-gw.nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/29211bb3.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "sunrise.berlin.tombstone.remap68"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/329ccf23.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-replica.helix.cloud"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/329ccf23.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "TMiZStTF7SKgo1wIGbjgK6zTaoK5DaUW"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/2674ab84.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.ezp-xjK76KcZJoRvuHi4N2UDxfg4J9-IucLw8Bf1.Uia4Ohn0_By4ii4oRiKI-WbkP72h85I1x0mJsG1fDA9"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/2674ab84.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl.35jmmt.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/a57467f9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_aKYuaGs7AIb4JLYt7C2UExF0"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/a57467f9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "r2QCbl3STpVDl9ljWgHD0zat1K7GflFz"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/a57467f9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "MTF2YzFyNHZzcHoyZnB4ODBseWFtcXAzaWxmYnJob2k=",
+    "11vc1r4vspz2fpx80lyamqp3ilfbrhoi"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/9a5e3768.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Ben Hoffmann"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/9a5e3768.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lina89@gmail.com"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/9a5e3768.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 1445 8132"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/9a5e3768.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sofia Schmidt"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "test/9a5e3768.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "emma.hartmann [at] vantor-corp [dot] de"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/9a5e3768.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE50886251841963450203"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/9a5e3768.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lina Braun"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/9a5e3768.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Rosenheimer Str. 15, 59841 Augsburg"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/9a5e3768.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "135.230.106.137"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "test/81ccd280.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sarah Mueller"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "test/81ccd280.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.braun@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "test/81ccd280.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 3028 4482"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "test/81ccd280.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.27.184.50"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "test/81ccd280.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "becker.infect.winter31"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/7aa4473e.ts",
+   "line": 117,
+   "whole_line": "  register(type: { [key: string]: typeof BasePrompt | (() => typeof BasePrompt) }): this;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 501,
+   "whole_line": "const { BasicAuth } = require('enquirer');",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 507,
+   "whole_line": "  password: '123',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 508,
+   "whole_line": "  showPassword: true",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 643,
+   "whole_line": "  .then(answer => console.log('Answer:', { secret: answer }))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 825,
+   "whole_line": "const { Password } = require('enquirer');",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 1355,
+   "whole_line": "const { AuthPrompt } = require('enquirer');",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 1358,
+   "whole_line": "  if (value.username === this.options.username && value.password === this.options.password) {",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/b2bc4218.md",
+   "line": 173,
+   "whole_line": "const { BasicAuth } = require('enquirer');",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/b2bc4218.md",
+   "line": 179,
+   "whole_line": "  password: '123',",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/b2bc4218.md",
+   "line": 180,
+   "whole_line": "  showPassword: true",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/b2bc4218.md",
+   "line": 315,
+   "whole_line": "  .then(answer => console.log('Answer:', { secret: answer }))",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/b2bc4218.md",
+   "line": 498,
+   "whole_line": "const { Password } = require('enquirer');",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/b2bc4218.md",
+   "line": 1030,
+   "whole_line": "const { AuthPrompt } = require('enquirer');",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/b2bc4218.md",
+   "line": 1033,
+   "whole_line": "  if (value.username === this.options.username && value.password === this.options.password) {",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/d083f544.md",
+   "line": 153,
+   "whole_line": "  key: string | undefined;",
+   "source": "creddata"
+  },
+  {
+   "file": "example/47bdc06e.js",
+   "line": 1,
+   "whole_line": "const { BasicAuth } = require('enquirer');",
+   "source": "creddata"
+  },
+  {
+   "file": "example/47bdc06e.js",
+   "line": 7,
+   "whole_line": "  password: '123',",
+   "source": "creddata"
+  },
+  {
+   "file": "example/47bdc06e.js",
+   "line": 8,
+   "whole_line": "  showPassword: true",
+   "source": "creddata"
+  },
+  {
+   "file": "example/8b2f02c3.js",
+   "line": 29,
+   "whole_line": "          this.token = accessToken;",
+   "source": "creddata"
+  },
+  {
+   "file": "example/8b2f02c3.js",
+   "line": 96,
+   "value": "X-Hub-Signature-256",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fb92ea8f.js",
+   "line": 75,
+   "whole_line": "      token = parseInt(token, 10);",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/340879f9.js",
+   "line": 207,
+   "whole_line": "    let key = await this.renderScaleKey();",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/66c88e9d.js",
+   "line": 101,
+   "whole_line": "      token = fn(token);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fa9fdbca.js",
+   "line": 7,
+   "whole_line": "const PasswordPrompt = require('../lib/prompts/password');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/29211bb3.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "blog.nordwind-corp.de"
+  },
+  {
+   "file": "test/29211bb3.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "blog.nordwind-corp.de"
+  },
+  {
+   "file": "test/29211bb3.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "test/29211bb3.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "test/29211bb3.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "test/29211bb3.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "test/29211bb3.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "careers@nordwind-corp.de"
+  },
+  {
+   "file": "test/29211bb3.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "R0VUL2hlYWx0aHo="
+  },
+  {
+   "file": "test/29211bb3.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "436f6e74656e742d54797065"
+  },
+  {
+   "file": "test/29211bb3.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "src/329ccf23.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "src/329ccf23.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.22.34"
+  },
+  {
+   "file": "src/329ccf23.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "60150a2a5919b09c1a689e4c8d3bf3e04adfa58d"
+  },
+  {
+   "file": "src/329ccf23.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3eb34f1c-f406-45b0-b9ad-65540cac517c"
+  },
+  {
+   "file": "test/2674ab84.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "3.23.22"
+  },
+  {
+   "file": "test/2674ab84.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "ea14ce11614e7c2dc7994169b46423eb6d9109bf"
+  },
+  {
+   "file": "test/2674ab84.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "M48FDOY6CH0HD08OOJFVYXM6QT"
+  },
+  {
+   "file": "test/2674ab84.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "test/2674ab84.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "PQE9N7S9OF35LXXHYO5Q1GWM3V"
+  },
+  {
+   "file": "test/2674ab84.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "other/a57467f9.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_w0wSMTvkRIqxOeN6e6KtMQWI"
+  },
+  {
+   "file": "other/a57467f9.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "CRM_AUTH_TOKEN"
+  },
+  {
+   "file": "other/a57467f9.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "VAULT_SECRET_KEY"
+  },
+  {
+   "file": "other/a57467f9.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LPjCYcDrp98hw6XJk2Q2ohZhcB6ScNdMGJK9veU"
+  },
+  {
+   "file": "other/a57467f9.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:Ci5CU5tn3pDdvqvH+06YCxqq5+b1dlvoJWfkK21sct8"
+  },
+  {
+   "file": "other/a57467f9.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/run/secrets/reports_password"
+  },
+  {
+   "file": "other/a57467f9.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "other/a57467f9.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "other/a57467f9.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6OTQ2NjA6b2Zmc2V0OjE5Nw=="
+  },
+  {
+   "file": "test/9a5e3768.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "careers@vantor-corp.de"
+  },
+  {
+   "file": "test/9a5e3768.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "hello@vantor-corp.de"
+  },
+  {
+   "file": "test/9a5e3768.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0185"
+  },
+  {
+   "file": "test/9a5e3768.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "test/9a5e3768.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "test/9a5e3768.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "test/9a5e3768.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "test/9a5e3768.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "test/81ccd280.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "203.0.113.57"
+  },
+  {
+   "file": "test/81ccd280.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "9.15.32"
+  },
+  {
+   "file": "test/81ccd280.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:4330ae74986a97aaeb34fffceb51b23bf6efbe5de41973e8de3f74e458ce18ae"
+  },
+  {
+   "file": "test/81ccd280.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/81ccd280.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  }
+ ]
+}

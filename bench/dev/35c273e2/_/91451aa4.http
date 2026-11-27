@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://auth-db-03.prod.vantor-internal.net/api/v3/invoices?page=2
+Authorization: Basic YWRtaW46ZXhwZXJpbWVudG1peHR1cmUtcHJvZA==
+Cookie: _ga=GA1.2.EPK1S4SZ7HQK929YNXETPH9FHQ; session_id=oo3sk99o868td67c45o4l87fyv6zy5jf
+X-Request-Id: 559642ff-1a5f-4e4c-a70e-9e4ae0ccb5fb
+
+### the docs example, safe to share
+GET https://api.stripe.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

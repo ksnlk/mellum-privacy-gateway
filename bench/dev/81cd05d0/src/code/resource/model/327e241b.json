@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2012-09-25",
+    "endpointPrefix":"elastictranscoder",
+    "protocol":"rest-json",
+    "serviceFullName":"Amazon Elastic Transcoder",
+    "serviceId":"Elastic Transcoder",
+    "signatureVersion":"v4",
+    "uid":"elastictranscoder-2012-09-25"
+  },
+  "operations":{
+    "CancelJob":{
+      "name":"CancelJob",
+      "http":{
+        "method":"DELETE",
+        "requestUri":"/2012-09-25/jobs/{Id}",
+        "responseCode":202
+      },
+      "input":{"shape":"CancelJobRequest"},
+      "output":{"shape":"CancelJobResponse"},
+      "errors":[
+        {"shape":"ValidationException"},
+        {"shape":"IncompatibleVersionException"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ResourceInUseException"},
+        {"shape":"AccessDeniedException"},
+        {"shape":"InternalServiceException"}
+      ],

@@ -1,0 +1,15 @@
+monitoring: tarvos.pinegrid.net
+database:
+  host: juno.pinegrid.net
+  port: 5432
+queue: nimbus.pinegrid.net
+backup_target: falkor.pinegrid.net
+website: kunden.pinegrid.net
+payments_api: https://api.datafjord.com/v2
+partner_drop: sftp.datafjord.de
+allow_sources:
+  - 185.252.5.186
+  - 140.82.114.25
+  - 185.15.163.140
+ntp: 212.18.3.19
+mirrors: [build.opensuse.org, gitlab.gnome.org]

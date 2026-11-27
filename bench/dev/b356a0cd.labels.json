@@ -1,0 +1,1069 @@
+{
+ "repo": "b356a0cd",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/3ec69825.go",
+   "line": 1121,
+   "start": 12,
+   "end": 21,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "vbuufmtlf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "docs/f3215d55.md",
+   "line": 11,
+   "start": 9,
+   "end": 22,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "bs65.isrocggw"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "other/b7278dc7.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "mora-import-vogel"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/b7278dc7.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-primary.acme.cloud"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/2d0017ff.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-api-07.corp.kelpie-internal.net"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/2d0017ff.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "L9T439vDlu9dktXvmqmJxoRtyhDLQGQD"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/2cab4aea.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Wein2004#"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/f7f4d820.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "33336530383566313265373966646438306539313132313733653664623336383336373965393830383633663431396339363636336639656366643230393339",
+    "33e085f12e79fdd80e9112173e6db3683679e980863f419c96663f9ecfd20939"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/8d68c15e.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-mq-02.int.acme-internal.net"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/8d68c15e.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_7oWw0TBVOczH6GSrmtZebN9g0Fv8WXPl09dK"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/937e70f9.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger.p5ubwz.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/937e70f9.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "c3ZjX2JhY2t1cDpMdWthc2xpZWJlNzAh",
+    "svc_backup:Lukasliebe70!"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/937e70f9.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "or6l1el9tbibbjouj515ppwkthqwun0q"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/3ec69825.go",
+   "line": 97,
+   "whole_line": "var flPassword = flag.String(\"password\", envString(\"GIT_SYNC_PASSWORD\", \"\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3ec69825.go",
+   "line": 114,
+   "whole_line": "var flAskPassURL = flag.String(\"askpass-url\", envString(\"GIT_ASKPASS_URL\", \"\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3ec69825.go",
+   "line": 120,
+   "whole_line": "\t\"additional git config options in 'key1:val1,key2:val2' format\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3ec69825.go",
+   "line": 153,
+   "whole_line": "\tmetricKeyNoOp    = \"noop\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3ec69825.go",
+   "line": 430,
+   "whole_line": "\t\t\thandleError(false, \"ERROR: can't write to /etc/passwd: %v\", err)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3ec69825.go",
+   "line": 718,
+   "whole_line": "\t\t// This is required due to the undocumented behavior outlined here: https://public-inbox.org/git/CAPig+cSP0UiEBXSCi7Ua099eOdpMk8R=JtAjPuUavRF4z0R0Vg@mail.gmail.com/t/",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3ec69825.go",
+   "line": 1063,
+   "whole_line": "\tcreds := fmt.Sprintf(\"url=%v\\nusername=%v\\npassword=%v\\n\", gitURL, username, password)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3ec69825.go",
+   "line": 1159,
+   "whole_line": "\t\t\tpassword = keyValues[1]",
+   "source": "creddata"
+  },
+  {
+   "file": "_/76ed074a",
+   "line": 101,
+   "value": "/src",
+   "source": "creddata"
+  },
+  {
+   "file": "_/76ed074a",
+   "line": 104,
+   "whole_line": "\t    -v $$(pwd)/.go/bin/$(OS)_$(ARCH):/go/bin/$(OS)_$(ARCH)                   \\",
+   "source": "creddata"
+  },
+  {
+   "file": "_/76ed074a",
+   "line": 105,
+   "value": "/.cache",
+   "source": "creddata"
+  },
+  {
+   "file": "_/76ed074a",
+   "line": 168,
+   "whole_line": "\t    --username=oauth2accesstoken                      \\",
+   "source": "creddata"
+  },
+  {
+   "file": "_/76ed074a",
+   "line": 169,
+   "whole_line": "\t    --password=$$(gcloud auth print-access-token)     \\",
+   "source": "creddata"
+  },
+  {
+   "file": "_/76ed074a",
+   "line": 182,
+   "value": "/src",
+   "source": "creddata"
+  },
+  {
+   "file": "_/76ed074a",
+   "line": 185,
+   "whole_line": "\t    -v $$(pwd)/.go/bin/$(OS)_$(ARCH):/go/bin/$(OS)_$(ARCH)                   \\",
+   "source": "creddata"
+  },
+  {
+   "file": "_/76ed074a",
+   "line": 186,
+   "value": "/.cache",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7b7ea72b.sh",
+   "line": 37,
+   "whole_line": "PASSWD=$(echo \"${OUTPUT}\" | grep \"^password=.*\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7b7ea72b.sh",
+   "line": 39,
+   "value": "password=my-password",
+   "source": "creddata"
+  },
+  {
+   "file": "client/vendor/98263378.go",
+   "line": 576,
+   "value": "host@",
+   "source": "creddata"
+  },
+  {
+   "file": "client/vendor/98263378.go",
+   "line": 582,
+   "whole_line": "\t\t\t\tToken: nextToken,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/c7499bea.yaml",
+   "line": 1,
+   "whole_line": "apiVersion: apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/bb8c8587.md",
+   "line": 64,
+   "whole_line": "          secretName: git-creds",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/bb8c8587.md",
+   "line": 124,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/bb8c8587.md",
+   "line": 140,
+   "whole_line": "          secretName: git-creds",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/f3215d55.md",
+   "line": 12,
+   "value": "Authorization",
+   "source": "creddata"
+  },
+  {
+   "file": "server/vendor/a3fda3f7.go",
+   "line": 258,
+   "whole_line": "\taddedKey := &AddedKey{PrivateKey: priv, Comment: k.Comments}",
+   "source": "creddata"
+  },
+  {
+   "file": "server/vendor/a3fda3f7.go",
+   "line": 296,
+   "value": "priv",
+   "source": "creddata"
+  },
+  {
+   "file": "server/vendor/a3fda3f7.go",
+   "line": 360,
+   "value": "priv",
+   "source": "creddata"
+  },
+  {
+   "file": "server/vendor/a3fda3f7.go",
+   "line": 449,
+   "whole_line": "\taddedKey := &AddedKey{PrivateKey: priv, Certificate: cert, Comment: k.Comments}",
+   "source": "creddata"
+  },
+  {
+   "file": "server/vendor/a3fda3f7.go",
+   "line": 486,
+   "value": "priv",
+   "source": "creddata"
+  },
+  {
+   "file": "server/vendor/c5c63d8b.go",
+   "line": 231,
+   "whole_line": "\tif !config.NoClientAuth && config.PasswordCallback == nil && config.PublicKeyCallback == nil &&",
+   "source": "creddata"
+  },
+  {
+   "file": "server/vendor/c5c63d8b.go",
+   "line": 340,
+   "whole_line": "\t\t\t\tToken: outToken,",
+   "source": "creddata"
+  },
+  {
+   "file": "server/vendor/c5c63d8b.go",
+   "line": 396,
+   "value": "ssh: no auth passed yet",
+   "source": "creddata"
+  },
+  {
+   "file": "server/vendor/c5c63d8b.go",
+   "line": 465,
+   "whole_line": "\t\t\tif config.PasswordCallback == nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "server/vendor/c5c63d8b.go",
+   "line": 582,
+   "value": "ssh: Mechanism negotiation is not supported",
+   "source": "creddata"
+  },
+  {
+   "file": "server/vendor/c5c63d8b.go",
+   "line": 594,
+   "value": "ssh: GSSAPI authentication must use the Kerberos V5 mechanism",
+   "source": "creddata"
+  },
+  {
+   "file": "server/vendor/c5c63d8b.go",
+   "line": 634,
+   "value": "nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/vendor/3e34409c.go",
+   "line": 7,
+   "whole_line": "\teof token = iota",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/0773b639.go",
+   "line": 38,
+   "value": "ssh-password",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/0773b639.go",
+   "line": 39,
+   "value": "ssh-password-callback",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/70620a5d.go",
+   "line": 193,
+   "value": "pass,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/vendor/716b5913.go",
+   "line": 21,
+   "whole_line": "\tILLEGAL Token = iota",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/0af5d0e8.go",
+   "line": 30,
+   "whole_line": "\tAF_KEY                        = 0x1b",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/0af5d0e8.go",
+   "line": 858,
+   "value": "-0x3f879678",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/0af5d0e8.go",
+   "line": 910,
+   "value": "-0x7f879679",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/60e6225b.go",
+   "line": 26,
+   "value": "fscrypt:",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/60e6225b.go",
+   "line": 77,
+   "whole_line": "\tKEYCTL_CAPS0_BIG_KEY                 = 0x10",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/60e6225b.go",
+   "line": 128,
+   "whole_line": "\tKEY_SPEC_REQKEY_AUTH_KEY             = -0x7",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/60e6225b.go",
+   "line": 179,
+   "whole_line": "\tPR_PAC_APDBKEY                       = 0x8",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/60e6225b.go",
+   "line": 230,
+   "whole_line": "\tSMART_HCYL_PASS                      = 0xc2",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/60e6225b.go",
+   "line": 232,
+   "whole_line": "\tSMART_LCYL_PASS                      = 0x4f",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/60e6225b.go",
+   "line": 283,
+   "whole_line": "\tTCP_FASTOPEN_KEY                     = 0x21",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/60e6225b.go",
+   "line": 334,
+   "whole_line": "\tWIN_SECURITY_SET_PASS                = 0xf1",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/bd5d9818.go",
+   "line": 26,
+   "value": "fscrypt:",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/bd5d9818.go",
+   "line": 77,
+   "whole_line": "\tKEYCTL_CAPS0_BIG_KEY                 = 0x10",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/bd5d9818.go",
+   "line": 128,
+   "whole_line": "\tKEY_SPEC_REQKEY_AUTH_KEY             = -0x7",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/bd5d9818.go",
+   "line": 179,
+   "whole_line": "\tPR_PAC_APDBKEY                       = 0x8",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/bd5d9818.go",
+   "line": 230,
+   "whole_line": "\tSMART_HCYL_PASS                      = 0xc2",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/bd5d9818.go",
+   "line": 232,
+   "whole_line": "\tSMART_LCYL_PASS                      = 0x4f",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/bd5d9818.go",
+   "line": 283,
+   "whole_line": "\tTCP_FASTOPEN_KEY                     = 0x21",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/bd5d9818.go",
+   "line": 334,
+   "whole_line": "\tWIN_SECURITY_SET_PASS                = 0xf1",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/c02e75b5.go",
+   "line": 26,
+   "value": "fscrypt:",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/c02e75b5.go",
+   "line": 77,
+   "whole_line": "\tKEYCTL_CAPS0_BIG_KEY                 = 0x10",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/c02e75b5.go",
+   "line": 128,
+   "whole_line": "\tKEY_SPEC_REQKEY_AUTH_KEY             = -0x7",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/c02e75b5.go",
+   "line": 179,
+   "whole_line": "\tPR_PAC_APDBKEY                       = 0x8",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/c02e75b5.go",
+   "line": 230,
+   "whole_line": "\tSMART_HCYL_PASS                      = 0xc2",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/c02e75b5.go",
+   "line": 232,
+   "whole_line": "\tSMART_LCYL_PASS                      = 0x4f",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/c02e75b5.go",
+   "line": 283,
+   "whole_line": "\tTCP_FASTOPEN_KEY                     = 0x21",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/c02e75b5.go",
+   "line": 334,
+   "whole_line": "\tWIN_SECURITY_SET_PASS                = 0xf1",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/f6fd3421.go",
+   "line": 26,
+   "value": "fscrypt:",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/f6fd3421.go",
+   "line": 77,
+   "whole_line": "\tKEYCTL_CAPS0_BIG_KEY                 = 0x10",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/f6fd3421.go",
+   "line": 128,
+   "whole_line": "\tKEY_SPEC_REQKEY_AUTH_KEY             = -0x7",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/f6fd3421.go",
+   "line": 179,
+   "whole_line": "\tPR_PAC_APDBKEY                       = 0x8",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/f6fd3421.go",
+   "line": 230,
+   "whole_line": "\tSMART_HCYL_PASS                      = 0xc2",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/f6fd3421.go",
+   "line": 232,
+   "whole_line": "\tSMART_LCYL_PASS                      = 0x4f",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/f6fd3421.go",
+   "line": 283,
+   "whole_line": "\tTCP_FASTOPEN_KEY                     = 0x21",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/f6fd3421.go",
+   "line": 334,
+   "whole_line": "\tWIN_SECURITY_SET_PASS                = 0xf1",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/fbff3a24.go",
+   "line": 26,
+   "value": "fscrypt:",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/fbff3a24.go",
+   "line": 77,
+   "whole_line": "\tKEYCTL_CAPS0_BIG_KEY                 = 0x10",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/fbff3a24.go",
+   "line": 128,
+   "whole_line": "\tKEY_SPEC_REQKEY_AUTH_KEY             = -0x7",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/fbff3a24.go",
+   "line": 179,
+   "whole_line": "\tPR_PAC_APDBKEY                       = 0x8",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/fbff3a24.go",
+   "line": 230,
+   "whole_line": "\tSMART_HCYL_PASS                      = 0xc2",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/fbff3a24.go",
+   "line": 232,
+   "whole_line": "\tSMART_LCYL_PASS                      = 0x4f",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/fbff3a24.go",
+   "line": 283,
+   "whole_line": "\tTCP_FASTOPEN_KEY                     = 0x21",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/fbff3a24.go",
+   "line": 334,
+   "whole_line": "\tWIN_SECURITY_SET_PASS                = 0xf1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d2806be2.sh",
+   "line": 177,
+   "whole_line": "        -v \"$(pwd)/slow_git.sh\":\"$SLOW_GIT\":ro \\",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d2806be2.sh",
+   "line": 178,
+   "whole_line": "        -v \"$(pwd)/askpass_git.sh\":\"$ASKPASS_GIT\":ro \\",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d2806be2.sh",
+   "line": 179,
+   "whole_line": "        -v \"$(pwd)/test_sync_hook_command.sh\":\"$SYNC_HOOK_COMMAND\":ro \\",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d2806be2.sh",
+   "line": 710,
+   "whole_line": "    --askpass-url=\"http://$IP/git_askpass\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d2806be2.sh",
+   "line": 729,
+   "whole_line": "    --askpass-url=\"http://$IP/git_askpass\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/vendor/a78cf0a1.go",
+   "line": 974,
+   "whole_line": "\tcmd.Env = append(append([]string{}, cfg.Env...), \"PWD=\"+cfg.Dir)",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/vendor/a78cf0a1.go",
+   "line": 1142,
+   "whole_line": "\treturn fmt.Sprintf(\"GOROOT=%v GOPATH=%v GO111MODULE=%v PWD=%v go %s\", env[\"GOROOT\"], env[\"GOPATH\"], env[\"GO111MODULE\"], env[\"PWD\"], strings.Join(quotedArgs, \" \"))",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/052e3b04.go",
+   "line": 42,
+   "value": "priv",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/052e3b04.go",
+   "line": 49,
+   "value": "priv",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/052e3b04.go",
+   "line": 56,
+   "value": "priv",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/052e3b04.go",
+   "line": 63,
+   "value": "priv",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/052e3b04.go",
+   "line": 85,
+   "value": "signer",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/052e3b04.go",
+   "line": 323,
+   "value": "rsaPriv",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/052e3b04.go",
+   "line": 342,
+   "value": "dsaPriv",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/052e3b04.go",
+   "line": 361,
+   "value": "priv",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/052e3b04.go",
+   "line": 378,
+   "value": "*ecdsaPub",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/25426921.md",
+   "line": 30,
+   "whole_line": "[![CircleCI status](https://circleci.com/gh/spf13/cobra.png?circle-token=:circle-token \"CircleCI status\")](https://circleci.com/gh/spf13/cobra)",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/25493dfd.go",
+   "line": 156,
+   "whole_line": "\t\t\tif pk.key.PrivateKey == nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/41240813.go",
+   "line": 112,
+   "whole_line": "\t\ts := optionsTuple{Key: key}",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/41240813.go",
+   "line": 180,
+   "whole_line": "\t\tKey:         key,",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/41240813.go",
+   "line": 432,
+   "whole_line": "\tKeyAlgoRSA:      CertAlgoRSAv01,",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/41240813.go",
+   "line": 433,
+   "value": "CertAlgoDSAv01",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/41240813.go",
+   "line": 434,
+   "value": "CertAlgoECDSA256v01",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/41240813.go",
+   "line": 435,
+   "whole_line": "\tKeyAlgoECDSA384: CertAlgoECDSA384v01,",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/41240813.go",
+   "line": 436,
+   "value": "CertAlgoECDSA521v01",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/41240813.go",
+   "line": 437,
+   "value": "CertAlgoED25519v01",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/4d6e05f8.go",
+   "line": 218,
+   "whole_line": "\t\t\tKey:      key,",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/4d6e05f8.go",
+   "line": 231,
+   "whole_line": "\t\t\tKey:      key,",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/6ce0751b.go",
+   "line": 153,
+   "whole_line": "\tkey = sessionKey",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/9ce83424.go",
+   "line": 233,
+   "whole_line": "\tclientKeys = direction{[]byte{'A'}, []byte{'C'}, []byte{'E'}}",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/c0a6067f.go",
+   "line": 123,
+   "whole_line": "\t\t\t\t// username:password:uid:gid:gecos:home:shell",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/dc22f389.go",
+   "line": 21,
+   "whole_line": "var PrivateKeyType = \"PGP PRIVATE KEY BLOCK\"",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/dc22f389.go",
+   "line": 227,
+   "whole_line": "\t\t\tif subKey.PrivateKey != nil && (!subKey.Sig.FlagsValid || subKey.Sig.FlagEncryptStorage || subKey.Sig.FlagEncryptCommunications) {",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/dc22f389.go",
+   "line": 440,
+   "value": "priv",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/dc22f389.go",
+   "line": 500,
+   "value": "2048",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/dc22f389.go",
+   "line": 670,
+   "whole_line": "\tif signer.PrivateKey == nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/e094dcf1.go",
+   "line": 30,
+   "whole_line": "\t\t\treturn fmt.Errorf(\"%s must be formatted as key=value\", pair)",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/e094dcf1.go",
+   "line": 79,
+   "whole_line": "\t\t\treturn nil, fmt.Errorf(\"%s must be formatted as key=value\", pair)",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/e8ecb409.go",
+   "line": 26,
+   "whole_line": "// where Headers is a possibly empty sequence of Key: Value lines.",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/ec97eb80.go",
+   "line": 129,
+   "whole_line": "\t\tkey:             key,",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/ec97eb80.go",
+   "line": 147,
+   "whole_line": "\t\tkey:             key,",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/ec97eb80.go",
+   "line": 400,
+   "value": "conf",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/ed44e472.go",
+   "line": 47,
+   "whole_line": "type PrivateKey = ed25519.PrivateKey",
+   "source": "creddata"
+  },
+  {
+   "file": "other/b7278dc7.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIaTWqvNeYEHXCS0UxoIjq5b7QmqPpvUdvS0EB8d48kAc"
+  },
+  {
+   "file": "other/b7278dc7.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "8bab7fa849eef83723fa30209f876c18fe2eecf812cc7dbfe4a7d37b44eaea8f"
+  },
+  {
+   "file": "other/b7278dc7.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/b7278dc7.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "other/2d0017ff.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "other/2d0017ff.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5.22.11"
+  },
+  {
+   "file": "other/2d0017ff.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "dce6d6368a05330253accaf5474c416ec9a72f5b"
+  },
+  {
+   "file": "other/2d0017ff.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "a72e001e-4580-4e61-a71f-51626978a6f2"
+  },
+  {
+   "file": "_/2cab4aea.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "glen-michael-2024"
+  },
+  {
+   "file": "_/2cab4aea.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "hertha_koeln"
+  },
+  {
+   "file": "src/f7f4d820.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "662915107d986619d83f91f76d13f95ea01ca02907b71e7a7e8699e7b1d40fcb"
+  },
+  {
+   "file": "test/8d68c15e.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "5.25.14"
+  },
+  {
+   "file": "test/8d68c15e.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4.9.48"
+  },
+  {
+   "file": "test/8d68c15e.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-BWOfMR9v6S0nim9V2i/1FPd/QqR3aR11WjtUQFsMQqwxbFNMPLXPELVmE2CRfE+PFDN44JnD7ZUuDX18kAiSAQ=="
+  },
+  {
+   "file": "test/8d68c15e.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "6.6.43"
+  },
+  {
+   "file": "test/8d68c15e.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-3i5ZwAfwtNsciJViFPE72BmgE+zBvajGlO9PXn55Kfxn1y8VuTdSF5bPGR9NMy5aaIDpFtn/5/YN0qIKe+ByNw=="
+  },
+  {
+   "file": "test/8d68c15e.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "7.6.6"
+  },
+  {
+   "file": "test/8d68c15e.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-fHxf6vahXomqyulP7AoSJwS2IdWmv5zJCJWC6mUmifK5OoJxxTbrwkZSS0To/zxbTasetGLFnPrYMbNkJctraQ=="
+  },
+  {
+   "file": "_/937e70f9.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "BGEK9M4E8R5PRAQ5A8RI1045PS"
+  },
+  {
+   "file": "_/937e70f9.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "45468e9c-4845-4d5c-b433-37510880ba7f"
+  },
+  {
+   "file": "_/937e70f9.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sentry.io"
+  },
+  {
+   "file": "_/937e70f9.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  }
+ ]
+}

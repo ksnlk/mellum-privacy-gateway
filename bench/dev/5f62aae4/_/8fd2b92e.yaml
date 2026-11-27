@@ -1,0 +1,19 @@
+# acme payments service
+database:
+  host: reports-prod.fmbxo4t6z7he.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "Fluss#1991"
+  password_source: secret/data/acme/payments/staging
+  password_env: BILLING_API_KEY
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: EHx7okTIrOgQAPmwdmohNgsnPuCiiKbL
+  key_file: /etc/reports/tls/private.key
+  signing_alg: argon2id
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 191877833845-hwfyt67ydjphdnf41w5bkx95xfugx3yl.apps.googleusercontent.com
+  client_proof: 2ovd6w2bd905vk1kj6z012aco2w9hnf5
+  secret_rotated_at: "2025-01-06T00:00:00Z"
+  secret_name: reports-api-token
+pagination:
+  first_cursor: aW52b2ljZTo2NjE2NzpvZmZzZXQ6MTcw

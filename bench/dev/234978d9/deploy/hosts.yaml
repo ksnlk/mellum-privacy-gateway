@@ -1,0 +1,15 @@
+monitoring: kestrel.helix.net
+database:
+  host: tarvos.helix.net
+  port: 5432
+queue: hermes.helix.net
+backup_target: orion.helix.net
+website: www.helix.net
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: files.logistik-nord.de
+allow_sources:
+  - 193.202.69.201
+  - 140.82.113.4
+  - 193.202.157.100
+ntp: 216.239.35.0
+mirrors: [vault.centos.org, mirrors.kernel.org]

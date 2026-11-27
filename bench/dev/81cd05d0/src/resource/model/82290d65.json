@@ -1,0 +1,80 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2014-10-31",
+    "endpointPrefix":"rds",
+    "protocol":"query",
+    "serviceAbbreviation":"Amazon RDS",
+    "serviceFullName":"Amazon Relational Database Service",
+    "serviceId":"RDS",
+    "signatureVersion":"v4",
+    "uid":"rds-2014-10-31",
+    "xmlNamespace":"http://rds.amazonaws.com/doc/2014-10-31/"
+  },
+  "operations":{
+    "AddRoleToDBCluster":{
+      "name":"AddRoleToDBCluster",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AddRoleToDBClusterMessage"},
+      "errors":[
+        {"shape":"DBClusterNotFoundFault"},
+        {"shape":"DBClusterRoleAlreadyExistsFault"},
+        {"shape":"InvalidDBClusterStateFault"},
+        {"shape":"DBClusterRoleQuotaExceededFault"}
+      ],
+      "documentation":"<p>Associates an Identity and Access Management (IAM) role from an Amazon Aurora DB cluster. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Integrating.Authorizing.html\">Authorizing Amazon Aurora MySQL to Access Other AWS Services on Your Behalf</a> in the <i>Amazon Aurora User Guide</i>.</p> <note> <p>This action only applies to Aurora DB clusters.</p> </note>"
+    },
+          "shape":"String",
+          "documentation":"<p>The DB cluster identifier of the Amazon Aurora DB cluster to be started. This parameter is stored as a lowercase string.</p>"
+        }
+      }
+    },
+    "StartDBClusterResult":{
+      "type":"structure",
+      "members":{
+        "DBCluster":{"shape":"DBCluster"}
+      }
+    },
+    "StartDBInstanceAutomatedBackupsReplicationMessage":{
+      "type":"structure",
+      "required":["SourceDBInstanceArn"],
+      "members":{
+        "SourceDBInstanceArn":{
+          "shape":"String",
+          "documentation":"<p>The Amazon Resource Name (ARN) of the source DB instance for the replicated automated backups, for example, <code>arn:aws:rds:us-west-2:123456789012:db:mydatabase</code>.</p>"
+        },
+        "BackupRetentionPeriod":{
+          "shape":"IntegerOptional",
+          "documentation":"<p>The retention period for the replicated automated backups.</p>"
+        },
+        "KmsKeyId":{
+          "shape":"String",
+          "documentation":"<p>The AWS KMS key identifier for encryption of the replicated automated backups. The KMS key ID is the Amazon Resource Name (ARN) for the KMS encryption key in the destination AWS Region, for example, <code>arn:aws:kms:us-east-1:123456789012:key/AKIAIOSFODNN7EXAMPLE</code>.</p>"
+        },
+        "PreSignedUrl":{
+          "shape":"String",
+          "documentation":"<p>A URL that contains a Signature Version 4 signed request for the StartDBInstanceAutomatedBackupsReplication action to be called in the AWS Region of the source DB instance. The presigned URL must be a valid request for the StartDBInstanceAutomatedBackupsReplication API action that can be executed in the AWS Region that contains the source DB instance.</p>"
+        }
+      }
+    },
+    "StartDBInstanceAutomatedBackupsReplicationResult":{
+      "type":"structure",
+      "members":{
+        "DBInstanceAutomatedBackup":{"shape":"DBInstanceAutomatedBackup"}
+      }
+    },
+    "StartDBInstanceMessage":{
+      "type":"structure",
+      "required":["DBInstanceIdentifier"],
+      "members":{
+        "DBInstanceIdentifier":{
+          "shape":"String",
+          "documentation":"<p> The user-supplied instance identifier. </p>"
+        }
+      }
+    },
+    "StartDBInstanceResult":{
+      "type":"structure",

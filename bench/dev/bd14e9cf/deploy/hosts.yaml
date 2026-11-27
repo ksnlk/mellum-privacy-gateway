@@ -1,0 +1,15 @@
+monitoring: juno.pinegrid-ops.io
+database:
+  host: tarvos.pinegrid-ops.io
+  port: 5432
+queue: nimbus.pinegrid-ops.io
+backup_target: kestrel.pinegrid-ops.io
+website: kunden.pinegrid-ops.io
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: sftp.logistik-nord.de
+allow_sources:
+  - 194.187.163.143
+  - 185.199.108.153
+  - 194.187.45.229
+ntp: 212.18.3.19
+mirrors: [ci.jenkins.io, mirrors.kernel.org]

@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2018-11-09",
+    "endpointPrefix":"datasync",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceAbbreviation":"DataSync",
+    "serviceFullName":"AWS DataSync",
+    "serviceId":"DataSync",
+    "signatureVersion":"v4",
+    "signingName":"datasync",
+    "targetPrefix":"FmrsService",
+    "uid":"datasync-2018-11-09"
+  },
+  "operations":{
+    "CancelTaskExecution":{
+      "name":"CancelTaskExecution",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"CancelTaskExecutionRequest"},
+      "output":{"shape":"CancelTaskExecutionResponse"},
+      "errors":[
+        {"shape":"InvalidRequestException"},
+        {"shape":"InternalException"}
+      ],
+      "documentation":"<p>Cancels execution of a task. </p> <p>When you cancel a task execution, the transfer of some files is abruptly interrupted. The contents of files that are transferred to the destination might be incomplete or inconsistent with the source files. However, if you start a new task execution on the same task and you allow the task execution to complete, file content on the destination is complete and consistent. This applies to other unexpected failures that interrupt a task execution. In all of these cases, AWS DataSync successfully complete the transfer when you start the next task execution.</p>"

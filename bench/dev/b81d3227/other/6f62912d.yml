@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: kelpie-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "5fd1473"
+type: Opaque
+data:
+  DB_PASSWORD: c3Vid2F5LmRyYWNoZS5zZWUubWlnaHR5Njg=
+  STRIPE_KEY: c2tfbGl2ZV9mWnYwSDdFbm1ZUFpsQ1lZZU1SYTBza3M=
+  ca.crt.sha256: b069b4f3f4df8ae88d67340850457ba1858ef12d532a3a6bd609325193a1c6ad
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kelpie-payments-config
+data:
+  DB_HOST: "payments-replica.kelpie.cloud"
+  SENTRY_HOST: "cdn.jsdelivr.net"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

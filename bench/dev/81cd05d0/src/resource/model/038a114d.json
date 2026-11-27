@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2020-11-22",
+    "endpointPrefix":"api.iotwireless",
+    "protocol":"rest-json",
+    "serviceFullName":"AWS IoT Wireless",
+    "serviceId":"IoT Wireless",
+    "signatureVersion":"v4",
+    "signingName":"iotwireless",
+    "uid":"iotwireless-2020-11-22"
+  },
+  "operations":{
+    "AssociateAwsAccountWithPartnerAccount":{
+      "name":"AssociateAwsAccountWithPartnerAccount",
+      "http":{
+        "method":"POST",
+        "requestUri":"/partner-accounts"
+      },
+      "input":{"shape":"AssociateAwsAccountWithPartnerAccountRequest"},
+      "output":{"shape":"AssociateAwsAccountWithPartnerAccountResponse"},
+      "errors":[
+        {"shape":"ValidationException"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"InternalServerException"},
+        {"shape":"ThrottlingException"},
+        {"shape":"ConflictException"},
+        {"shape":"AccessDeniedException"}
+      ],

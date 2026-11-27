@@ -1,0 +1,1044 @@
+{
+ "repo": "f4d22962",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "app/92ab9a36.yml",
+   "line": 14,
+   "start": 251,
+   "end": 262,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "Lmdhstsg63!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/1fa30de0.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "baum.gibraltar.available"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "src/1fa30de0.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "_/9d833075.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-primary.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "_/9d833075.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "R31$3!"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "_/9d833075.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "zn2gyo7VkHCNjtUBuiqMHAkTy7z9ZO3c"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/9d833075.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "wqx3gpovndi7ul9ble4keu9ylpuf341u"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/eafd677f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-mq-08.prod.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/eafd677f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Hamburgm",
+    "Hamburgmaus90!",
+    "aus90!"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/86e553dd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Noah Braun"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/86e553dd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "jonas.neumann@acme-corp.de"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/86e553dd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 4796 4911"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/86e553dd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Paul Klein"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/86e553dd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "jan.becker [at] acme-corp [dot] de"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/86e553dd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE53459640136082474572"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/86e553dd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Elias Richter"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/86e553dd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Kirchplatz 92, 88120 Freising"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/86e553dd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "159.202.84.40"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/426a06e7.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "33653363313137366538313336393233383036316134303264623038396335656538656264386534313765346534343230383738356164636438376639343663",
+    "3e3c1176e81369238061a402db089c5ee8ebd8e417e4e44208785adcd87f946c"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/01ca98b5.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-mq-06.prod.kelpie-internal.net"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/01ca98b5.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "7OEt6ctkSsznk1cdlIPEl4h5FW1P1FQp"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.acme.net"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.acme.net"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.acme.net"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.3.214.0/24"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.3.214.69"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.acme.net"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.acme.net"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.acme.net"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.acme.net"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.acme.net"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.3.214.152"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jonas Schmidt"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jonas.schmidt@t-online.de"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 5632419"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Sarah Fischer"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "sarah.fischer@web.de"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 3567555"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/07f59d8a.cs",
+   "line": 57,
+   "whole_line": "            Type key = typeof(TService);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/78b81170.cs",
+   "line": 36,
+   "whole_line": "            _key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c874aaa9.vsmdi",
+   "line": 4,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d57c6ed0.cs",
+   "line": 27,
+   "whole_line": "            string key = GetKey(cacheKey);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d57c6ed0.cs",
+   "line": 44,
+   "whole_line": "            string key = GetKey(cacheKey);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d57c6ed0.cs",
+   "line": 61,
+   "whole_line": "            var key = GetKey(cacheKey);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d57c6ed0.cs",
+   "line": 93,
+   "whole_line": "            var key = GetKey(cacheKey);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d57c6ed0.cs",
+   "line": 122,
+   "whole_line": "            string key = GetKey(cacheKey);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d57c6ed0.cs",
+   "line": 135,
+   "whole_line": "            string key = GetTagKey(cacheTag);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d57c6ed0.cs",
+   "line": 152,
+   "whole_line": "            string key = GetKey(cacheKey);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e3f098f2.cs",
+   "line": 927,
+   "whole_line": "                    token.pos = op.pos;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e3f098f2.cs",
+   "line": 2000,
+   "whole_line": "            int tokenPos = textPos;",
+   "source": "creddata"
+  },
+  {
+   "file": "code/sample/server/1a2baff1.csp",
+   "line": 4,
+   "whole_line": "    <add key=\"TrackerConnectionString\" value=\"Data Source=(local);Initial Catalog=Tracker;Integrated Security=True\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 11,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 53,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 71,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 99,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 137,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 157,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 172,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 190,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 207,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 213,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 218,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 224,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 231,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 262,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 279,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 301,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/5f7960a1.sql",
+   "line": 310,
+   "whole_line": ")WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/30f43b96.testsettings",
+   "line": 8,
+   "whole_line": "        <DataCollector uri=\"datacollector://microsoft/SystemInfo/1.0\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" friendlyName=\"System Information\">",
+   "source": "creddata"
+  },
+  {
+   "file": "test/30f43b96.testsettings",
+   "line": 10,
+   "whole_line": "        <DataCollector uri=\"datacollector://microsoft/ActionLog/1.0\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestTools.ManualTest.ActionLog.ActionLogPlugin, Microsoft.VisualStudio.TestTools.ManualTest.ActionLog, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" friendlyName=\"Actions\">",
+   "source": "creddata"
+  },
+  {
+   "file": "test/30f43b96.testsettings",
+   "line": 12,
+   "whole_line": "        <DataCollector uri=\"datacollector://microsoft/HttpProxy/1.0\" assemblyQualifiedName=\"Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" friendlyName=\"ASP.NET Client Proxy for IntelliTrace and Test Impact\">",
+   "source": "creddata"
+  },
+  {
+   "file": "test/30f43b96.testsettings",
+   "line": 14,
+   "whole_line": "        <DataCollector uri=\"datacollector://microsoft/TestImpact/1.0\" assemblyQualifiedName=\"Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" friendlyName=\"Test Impact\">",
+   "source": "creddata"
+  },
+  {
+   "file": "test/30f43b96.testsettings",
+   "line": 16,
+   "whole_line": "        <DataCollector uri=\"datacollector://microsoft/TraceDebugger/1.0\" assemblyQualifiedName=\"Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" friendlyName=\"IntelliTrace\">",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/1489063f.config",
+   "line": 4,
+   "whole_line": "    <section name=\"entityFramework\" type=\"System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\" requirePermission=\"false\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b9758830.cs",
+   "line": 43,
+   "whole_line": "            string key = \"AddWithTagsTest\" + DateTime.Now.Ticks;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b9758830.cs",
+   "line": 71,
+   "whole_line": "            string key = \"AddWithExistingTagTest\" + DateTime.Now.Ticks;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b9758830.cs",
+   "line": 113,
+   "whole_line": "            string key = \"ExpireTest\" + DateTime.Now.Ticks;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/ea2ac47b.cs",
+   "line": 105,
+   "whole_line": "            user.PasswordHash = DateTime.Now.Ticks.ToString();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/ea2ac47b.cs",
+   "line": 142,
+   "whole_line": "            user.PasswordHash = DateTime.Now.Ticks.ToString();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/ea2ac47b.cs",
+   "line": 143,
+   "whole_line": "            user.PasswordSalt = \"abcde\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1fa30de0.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIUJ7wnF+w7iIw6Rd9dHuOg7MPnelxcalBKU3ph+unsKM"
+  },
+  {
+   "file": "src/1fa30de0.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9059bdef9b48d43ae3b5f8e71b212603d03c152783bccdc3c63418d4854113b4"
+  },
+  {
+   "file": "src/1fa30de0.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/1fa30de0.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "_/9d833075.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/brightloop/billing/prod"
+  },
+  {
+   "file": "_/9d833075.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "LEDGER_SECRET_KEY"
+  },
+  {
+   "file": "_/9d833075.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "_/9d833075.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/etc/auth/tls/private.key"
+  },
+  {
+   "file": "_/9d833075.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "scrypt"
+  },
+  {
+   "file": "_/9d833075.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "_/9d833075.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "475226780448-3z6k5n4vapfp11lzp9ypt9cv86fhpfbg.apps.googleusercontent.com"
+  },
+  {
+   "file": "_/9d833075.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2025-08-03T00:00:00Z"
+  },
+  {
+   "file": "_/9d833075.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "ledger-tls"
+  },
+  {
+   "file": "_/9d833075.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZTo4OTA4NjpvZmZzZXQ6NDYw"
+  },
+  {
+   "file": "_/eafd677f.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "1857440b4c8490cecf5387d367efa0013b4591d7"
+  },
+  {
+   "file": "_/eafd677f.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "_/eafd677f.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "src/86e553dd.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "hello@acme-corp.de"
+  },
+  {
+   "file": "src/86e553dd.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "careers@acme-corp.de"
+  },
+  {
+   "file": "src/86e553dd.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+44 20 7946 0958"
+  },
+  {
+   "file": "src/86e553dd.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "src/86e553dd.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "src/86e553dd.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "src/86e553dd.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "src/86e553dd.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "_/426a06e7.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "25aaf8349f2412e23a9053d076b0ef5d868ac8cd94a528e688919f5e214dfcaf"
+  },
+  {
+   "file": "_/01ca98b5.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "_/01ca98b5.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "8.20.38"
+  },
+  {
+   "file": "_/01ca98b5.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "19cd12c5f4761724ae04a98d0b87536cce4b342a"
+  },
+  {
+   "file": "_/01ca98b5.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "76f1a4fe-a805-4e06-a850-850f6924b5b8"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "portal.acme.net"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "edi.logistik-nord.de"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "85.21.101.70"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Felix Neumann"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Eva Mueller"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.acme.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "portal.acme.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.logistik-nord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "85.21.101.70"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Felix Neumann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "felix.neumann@acme.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

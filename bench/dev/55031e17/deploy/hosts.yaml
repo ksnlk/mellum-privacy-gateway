@@ -1,0 +1,15 @@
+monitoring: vega.pinegrid.net
+database:
+  host: hermes.pinegrid.net
+  port: 5432
+queue: juno.pinegrid.net
+backup_target: atlas.pinegrid.net
+website: www.pinegrid.net
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: sftp.logistik-nord.de
+allow_sources:
+  - 178.181.9.125
+  - 185.199.108.153
+  - 178.181.184.7
+ntp: 194.58.200.20
+mirrors: [mirrors.kernel.org, ci.apache.org]

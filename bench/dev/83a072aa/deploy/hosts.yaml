@@ -1,0 +1,15 @@
+monitoring: pallas.kelpie-ops.io
+database:
+  host: hermes.kelpie-ops.io
+  port: 5432
+queue: kestrel.kelpie-ops.io
+backup_target: tarvos.kelpie-ops.io
+website: portal.kelpie-ops.io
+payments_api: https://api.mailvault.com/v2
+partner_drop: files.mailvault.de
+allow_sources:
+  - 188.250.105.155
+  - 140.82.114.25
+  - 188.6.227.162
+ntp: 194.58.200.20
+mirrors: [mirrors.kernel.org, kafka.apache.org]

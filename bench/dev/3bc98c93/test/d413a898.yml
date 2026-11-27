@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.quarzo.io/app@sha256:6eceaa5b64bbe9d688f39ce70c46c4a8268d3972eaf051254ea511b9be8853f7
+    environment:
+      - DATABASE_URL=postgres://app:звезда2542@172.28.29.13:5432/app
+      - SENTRY_RELEASE=4669526f5712d83204ab3b3e080fc62762c93e95
+      - API_TOKEN=REPLACE_ME
+      - BIND_ADDR=0.0.0.0
+  worker:
+    image: registry.quarzo.io/worker:7.14.39
+    environment:
+      - QUEUE_PASS=RjByazNk

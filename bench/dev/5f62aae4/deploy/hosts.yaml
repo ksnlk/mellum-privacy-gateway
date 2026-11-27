@@ -1,0 +1,15 @@
+monitoring: vega.brightloop-ops.io
+database:
+  host: falkor.brightloop-ops.io
+  port: 5432
+queue: pallas.brightloop-ops.io
+backup_target: kestrel.brightloop-ops.io
+website: kunden.brightloop-ops.io
+payments_api: https://api.mailvault.com/v2
+partner_drop: files.mailvault.de
+allow_sources:
+  - 85.55.22.220
+  - 192.30.252.153
+  - 85.55.40.217
+ntp: 194.58.200.20
+mirrors: [ftp.gnu.org, mirrors.kernel.org]

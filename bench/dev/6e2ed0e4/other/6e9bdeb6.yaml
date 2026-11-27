@@ -1,0 +1,19 @@
+# pinegrid payments service
+database:
+  host: billing-primary.pinegrid.cloud
+  user: payments
+  password: "река703"
+  password_source: secret/data/pinegrid/crm/staging
+  password_env: CRM_AUTH_TOKEN
+api:
+  key_header: Authorization
+  partner_ident: 9h8O3XXGQShkAxhvuUhVgxsNIk832j2c
+  key_file: /run/secrets/payments_password
+  signing_alg: scrypt
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 296103706472-zuyixkzjmqgm7lylc9y5tkz3yytkvith.apps.googleusercontent.com
+  client_proof: 35swtrecuh7q3em40m4owd3cgok2uyjx
+  secret_rotated_at: "2026-12-28T00:00:00Z"
+  secret_name: auth-api-token
+pagination:
+  first_cursor: b3JkZXI6NTY5MTM6b2Zmc2V0OjI5Nw==

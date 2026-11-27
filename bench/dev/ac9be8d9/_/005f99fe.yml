@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: vantor-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "24ea846"
+type: Opaque
+data:
+  DB_PASSWORD: a2llbC10dWVyLXNpbi10aG91c2FuZA==
+  STRIPE_KEY: c2tfbGl2ZV9TcUluZm9PeE5wUkE5RllYdFpCODNhaWQ=
+  ca.crt.sha256: a9d5269d3649ee69fa4b3887c19245d6bed913b3fbdfd65c49774e52d251cfc5
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vantor-payments-config
+data:
+  DB_HOST: "reports-primary.vantor.cloud"
+  SENTRY_HOST: "auth0.com"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

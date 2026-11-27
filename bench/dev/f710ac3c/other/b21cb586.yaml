@@ -1,0 +1,19 @@
+# kelpie payments service
+database:
+  host: auth-primary.kelpie.cloud
+  user: payments
+  password: "drizzle-sun71"
+  password_source: secret/data/kelpie/crm/prod
+  password_env: REPORTS_AUTH_TOKEN
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: FiWXO6N5GakanRCUs3N8bh7NP5N181aY
+  key_file: /run/secrets/billing_password
+  signing_alg: bcrypt
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 659834427745-uc7j37h2ilvgc9cthy7ksw01w04jnc5s.apps.googleusercontent.com
+  client_proof: ednu4bqjerup02wrfcg6al3cl89rhv0q
+  secret_rotated_at: "2026-07-26T00:00:00Z"
+  secret_name: payments-api-token
+pagination:
+  first_cursor: b3JkZXI6Nzg3MjM6b2Zmc2V0OjI2NQ==

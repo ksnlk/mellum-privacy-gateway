@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.quarzo.io/app@sha256:0a25f0ba1efe4c95fcf6919a14be9ff6ff04a2d24b9729d6b4682db12f3eec9f
+    environment:
+      - DATABASE_URL=postgres://app:Haus#2007@172.17.148.231:5432/app
+      - SENTRY_RELEASE=ed39bf41b4dd54be7c253800139d6dd063a0a3b9
+      - API_TOKEN=%(api_token)s
+      - BIND_ADDR=localhost
+  worker:
+    image: registry.quarzo.io/worker:9.28.28
+    environment:
+      - QUEUE_PASS=U2FjaHNlbiYxOTg0

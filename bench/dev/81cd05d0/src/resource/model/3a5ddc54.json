@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2014-03-28",
+    "endpointPrefix":"logs",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"Amazon CloudWatch Logs",
+    "serviceId":"CloudWatch Logs",
+    "signatureVersion":"v4",
+    "targetPrefix":"Logs_20140328",
+    "uid":"logs-2014-03-28"
+  },
+  "operations":{
+    "AssociateKmsKey":{
+      "name":"AssociateKmsKey",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AssociateKmsKeyRequest"},
+      "errors":[
+        {"shape":"InvalidParameterException"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"OperationAbortedException"},
+        {"shape":"ServiceUnavailableException"}
+      ],
+      "documentation":"<p>Associates the specified AWS Key Management Service (AWS KMS) customer master key (CMK) with the specified log group.</p> <p>Associating an AWS KMS CMK with a log group overrides any existing associations between the log group and a CMK. After a CMK is associated with a log group, all newly ingested data for the log group is encrypted using the CMK. This association is stored as long as the data encrypted with the CMK is still within Amazon CloudWatch Logs. This enables Amazon CloudWatch Logs to decrypt this data whenever it is requested.</p> <important> <p>CloudWatch Logs supports only symmetric CMKs. Do not use an associate an asymmetric CMK with your log group. For more information, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/symmetric-asymmetric.html\">Using Symmetric and Asymmetric Keys</a>.</p> </important> <p>It can take up to 5 minutes for this operation to take effect.</p> <p>If you attempt to associate a CMK with a log group but the CMK does not exist or the CMK is disabled, you receive an <code>InvalidParameterException</code> error. </p>"
+    },

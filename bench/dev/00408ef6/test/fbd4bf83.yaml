@@ -1,0 +1,19 @@
+# acme payments service
+database:
+  host: auth-api-03.corp.acme-internal.net
+  user: payments
+  password: "Funct10n92"
+  password_source: secret/data/acme/auth/staging
+  password_env: VAULT_AUTH_TOKEN
+api:
+  key_header: Authorization
+  partner_ident: v2olvIAVAbEPnqRRcPVBIeumxsfZ14Zw
+  key_file: /etc/billing/tls/private.key
+  signing_alg: pbkdf2_sha256
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 427210296880-9brvam2jqzw48o00bsfsa54ghrd8kioi.apps.googleusercontent.com
+  client_proof: ryqs9g9oinlqp6w4q6bkrp2fd86f82jr
+  secret_rotated_at: "2024-04-19T00:00:00Z"
+  secret_name: billing-oauth-client
+pagination:
+  first_cursor: aW52b2ljZToyNDU5OTpvZmZzZXQ6MTA1

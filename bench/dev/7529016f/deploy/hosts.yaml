@@ -1,0 +1,15 @@
+monitoring: juno.helix-ops.io
+database:
+  host: hermes.helix-ops.io
+  port: 5432
+queue: falkor.helix-ops.io
+backup_target: kestrel.helix-ops.io
+website: portal.helix-ops.io
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: sftp.logistik-nord.de
+allow_sources:
+  - 91.151.20.152
+  - 140.82.112.3
+  - 91.154.146.69
+ntp: 162.159.200.1
+mirrors: [ci.jenkins.io, registry.terraform.io]

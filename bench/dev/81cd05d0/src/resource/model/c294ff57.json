@@ -1,0 +1,204 @@
+        "excludeShape" : false,
+        "inject" : null,
+        "injectEnumValues" : null,
+        "modify" : [ {
+          "errorCode" : {
+            "emitAsType" : null,
+            "emitEnumName" : null,
+            "emitPropertyName" : "inspectorErrorCode",
+            "marshallLocationName" : null,
+            "unmarshallLocationName" : null
+          }
+        } ]
+      }
+    },
+    "shapeSubstitutions" : null,
+    "simpleMethods" : null,
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : false,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2016-02-16",
+    "asyncClient" : "AmazonInspectorAsyncClient",
+    "asyncClientBuilderClassName" : "AmazonInspectorAsyncClientBuilder",
+    "asyncInterface" : "AmazonInspectorAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AmazonInspectorModuleInjector",
+    "defaultEndpoint" : "https://inspector.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "inspector.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>Amazon Inspector</fullname> <p>Amazon Inspector enables you to analyze the behavior of your AWS resources and to identify potential security issues. For more information, see <a href=\"https://docs.aws.amazon.com/inspector/latest/userguide/inspector_introduction.html\"> Amazon Inspector User Guide</a>.</p>",
+    "endpointPrefix" : "inspector",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.inspector",
+    "packagePath" : "com/amazonaws/services/inspector",
+    "protocol" : "json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : null,
+        "id" : "create-assessment-template-1481064046719",
+        "input" : {
+          "assessmentTargetArn" : "arn:aws:inspector:us-west-2:123456789012:target/0-nvgVhaxX",
+          "assessmentTemplateName" : "ExampleAssessmentTemplate",
+          "durationInSeconds" : 180,
+          "rulesPackageArns" : [ "arn:aws:inspector:us-west-2:758058086616:rulespackage/0-11B9DBXp" ],
+          "userAttributesForFindings" : [ {
+            "key" : "Example",
+            "value" : "example"
+          } ]
+        },
+        "output" : {
+          "assessmentTemplateArn" : "arn:aws:inspector:us-west-2:123456789012:target/0-nvgVhaxX/template/0-it5r2S4T"
+        },
+        "title" : "Create assessment template"
+      } ],
+      "CreateResourceGroup" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Creates a resource group using the specified set of tags (key and value pairs) that are used to select the EC2 instances to be included in an Amazon Inspector assessment target. The created resource group is then used to create an Amazon Inspector assessment target. ",
+        "id" : "create-resource-group-1481064169037",
+        "input" : {
+          "resourceGroupTags" : [ {
+            "key" : "Name",
+            "value" : "example"
+          } ]
+        },
+        "output" : {
+          "resourceGroupArn" : "arn:aws:inspector:us-west-2:123456789012:resourcegroup/0-AB6DMKnv"
+        },
+        "title" : "Create resource group"
+      } ],
+      "DeleteAssessmentRun" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Deletes the assessment run that is specified by the ARN of the assessment run.",
+        "id" : "delete-assessment-run-1481064251629",
+        "input" : {
+          "assessmentRunArn" : "arn:aws:inspector:us-west-2:123456789012:target/0-nvgVhaxX/template/0-it5r2S4T/run/0-11LMTAVe"
+        },
+        "output" : null,
+        "title" : "Delete assessment run"
+      } ],
+      "DeleteAssessmentTarget" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+            "confidence" : 10,
+            "indicatorOfCompromise" : false,
+            "attributes" : [ ],
+            "userAttributes" : [ ],
+            "createdAt" : "1458680301.37",
+            "updatedAt" : "1458680301.37"
+          } ],
+          "failedItems" : { }
+        },
+        "title" : "Describe findings"
+      } ],
+      "DescribeResourceGroups" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Describes the resource groups that are specified by the ARNs of the resource groups.",
+        "id" : "describe-resource-groups-1481065787743",
+        "input" : {
+          "resourceGroupArns" : [ "arn:aws:inspector:us-west-2:123456789012:resourcegroup/0-PyGXopAI" ]
+        },
+        "output" : {
+          "resourceGroups" : [ {
+            "arn" : "arn:aws:inspector:us-west-2:123456789012:resourcegroup/0-PyGXopAI",
+            "tags" : [ {
+              "key" : "Name",
+              "value" : "example"
+            } ],
+            "createdAt" : "1458074191.098"
+          } ],
+          "failedItems" : { }
+        },
+        "title" : "Describe resource groups"
+      } ],
+      "DescribeRulesPackages" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Describes the rules packages that are specified by the ARNs of the rules packages.",
+        "id" : "describe-rules-packages-1481069641979",
+        "input" : {
+          "rulesPackageArns" : [ "arn:aws:inspector:us-west-2:758058086616:rulespackage/0-JJOtZiqQ" ]
+        },
+        "output" : {
+          "rulesPackages" : [ {
+            "arn" : "arn:aws:inspector:us-west-2:758058086616:rulespackage/0-JJOtZiqQ",
+            "name" : "Security Best Practices",
+            "version" : "1.1",
+            "provider" : "Amazon Web Services, Inc.",
+            "description" : "The rules in this package help determine whether your systems are configured securely."
+          "output" : { }
+        },
+        "description" : "Lists all available Amazon Inspector rules packages.",
+        "id" : "list-rules-packages-1481066954883",
+        "input" : {
+          "maxResults" : 123
+        },
+        "output" : {
+          "rulesPackageArns" : [ "arn:aws:inspector:us-west-2:758058086616:rulespackage/0-9hgA516p", "arn:aws:inspector:us-west-2:758058086616:rulespackage/0-H5hpSawc", "arn:aws:inspector:us-west-2:758058086616:rulespackage/0-JJOtZiqQ", "arn:aws:inspector:us-west-2:758058086616:rulespackage/0-vg5GGHSD" ],
+          "nextToken" : "1"
+        },
+        "title" : "List rules packages"
+      } ],
+      "ListTagsForResource" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Lists all tags associated with an assessment template.",
+        "id" : "list-tags-for-resource-1481067025240",
+        "input" : {
+          "resourceArn" : "arn:aws:inspector:us-west-2:123456789012:target/0-0kFIPusq/template/0-gcwFliYu"
+        },
+        "output" : {
+          "tags" : [ {
+            "key" : "Name",
+            "value" : "Example"
+          } ]
+        },
+        "title" : "List tags for resource"
+      } ],
+      "PreviewAgents" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Previews the agents installed on the EC2 instances that are part of the specified assessment target.",
+        "id" : "preview-agents-1481067101888",
+        "input" : {
+          "previewAgentsArn" : "arn:aws:inspector:us-west-2:123456789012:target/0-0kFIPusq",
+          "maxResults" : 123
+        },
+        "output" : {
+          "agentPreviews" : [ {
+            "agentId" : "i-49113b93"
+          } ],
+          "nextToken" : "1"
+        },
+        "title" : "Preview agents"
+      } ],
+      "RegisterCrossAccountAccessRole" : [ {

@@ -1,0 +1,18 @@
+{
+  "apiVersion": "v1",
+  "kind": "Secret",
+  "metadata": {
+    "name": "wordpress-wordpress",
+    "labels": {
+      "app": "wordpress-wordpress",
+      "chart": "wordpress-5.0.1",
+      "release": "wordpress",
+      "heritage": "Tiller"
+    }
+  },
+  "type": "Opaque",
+  "data": {
+    "wordpress-password": "Bsx6N1awXn0AdK==",
+    "smtp-password": ""
+  }
+}

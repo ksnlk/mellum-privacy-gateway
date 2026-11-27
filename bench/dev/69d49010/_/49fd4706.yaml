@@ -1,0 +1,19 @@
+# quarzo payments service
+database:
+  host: vault.quarzo-corp.de
+  user: payments
+  password: "Row1963!"
+  password_source: secret/data/quarzo/billing/staging
+  password_env: AUTH_API_KEY
+api:
+  key_header: X-Auth-Token
+  partner_ident: YwbGD14sOCfro6lm3O00jRxRXAuCsQii
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: scrypt
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 124149067053-89hlbxahigjifvd2virgozvmhkgfub2o.apps.googleusercontent.com
+  client_proof: l6skr81fv5a8z3xwevxt0k3b1z0jdkvy
+  secret_rotated_at: "2024-10-03T00:00:00Z"
+  secret_name: crm-tls
+pagination:
+  first_cursor: b3JkZXI6OTY0OTpvZmZzZXQ6MTU5

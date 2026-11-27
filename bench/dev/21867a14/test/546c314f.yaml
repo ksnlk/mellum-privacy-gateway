@@ -1,0 +1,19 @@
+# quarzo payments service
+database:
+  host: billing-prod.88zmfilzr18p.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "t@00d3!"
+  password_source: secret/data/quarzo/vault/staging
+  password_env: BILLING_CLIENT_SECRET
+api:
+  key_header: X-Auth-Token
+  partner_ident: 51gEsH3ET3ywufiFpJEWF27QJ2bQyHEI
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: argon2id
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 718383560396-2wvoq2g12zs8j3av1elfnpet0qcwjec1.apps.googleusercontent.com
+  client_proof: uyw2jss9ark1wsvxsq4c00oz8moy3s9i
+  secret_rotated_at: "2026-11-12T00:00:00Z"
+  secret_name: payments-tls
+pagination:
+  first_cursor: b3JkZXI6NjgwMTE6b2Zmc2V0OjM4Nw==

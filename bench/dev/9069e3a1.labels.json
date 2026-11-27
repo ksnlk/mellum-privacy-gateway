@@ -1,0 +1,1155 @@
+{
+ "repo": "9069e3a1",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/2500680f.yml",
+   "line": 47,
+   "start": 36,
+   "end": 44,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "mjhsesir"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/2500680f.yml",
+   "line": 78,
+   "start": 47,
+   "end": 55,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "gnjrnosr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/78a46475.py",
+   "line": 45,
+   "start": 55,
+   "end": 65,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "tqxbvbmqhd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/0a2c5f43.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "district_bureau-stage"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/ed834e9c.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.q6ou9sskbpxs.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/ed834e9c.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Wagnersee89!"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/ed834e9c.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "eQNbkJJyhlOOI70IcK8O9vS2JMnm8m1B"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/ed834e9c.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "yo8w034m6g3w54qbyz61ha1mq3pgyhgj"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/5df32558.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.K8VB_JZ2Z25l-V3wKHQVPTTV-fPYLyJoLNaqf4Hx.GCtTfQmGL9iSqbPPhmL0pbGTxR81W8sqP0zY1WVkGJn"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/5df32558.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-mq-03.corp.nordwind-internal.net"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/8e06aa91.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-primary.vantor.cloud"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/8e06aa91.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "6EwQufuV87AHcfDSstsrBMbehmisKExp"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/1de6388f.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl.05rlxd.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/1de6388f.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Z3JhZmFuYTpTb21tZXJAMTk4OQ==",
+    "grafana:Sommer@1989"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/1de6388f.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "l9a7fm708y80aop2d42t1geaf5zkghzl"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/155f7eb1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_0kDX5Xbo2Wrzjx4z1Mnk15XF"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/155f7eb1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "kH2fC0pCrr1fZfDjSdEVBWnJEXN2ueXd"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/155f7eb1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "b3Fidm9jYW9uMTVla3N4ano0czM5ODd0dzcwNjhxYnA=",
+    "oqbvocaon15eksxjz4s3987tw7068qbp"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.pinegrid.net"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.pinegrid.net"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.pinegrid.net"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.252.5.0/24"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.252.5.31"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.pinegrid.net"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.pinegrid.net"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.pinegrid.net"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.pinegrid.net"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.252.5.186"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.pinegrid.net"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Elias Klein"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "elias.klein@t-online.de"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 1912305"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Emma Klein"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "emma.klein@gmail.com"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 5950035"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/06572a96.md",
+   "line": 870,
+   "whole_line": " - Improvement: print_settings, add format option for simple key = value text output",
+   "source": "creddata"
+  },
+  {
+   "file": "_/204d8568.py",
+   "line": 28,
+   "whole_line": "            password = config.get('client', 'password')",
+   "source": "creddata"
+  },
+  {
+   "file": "_/22cc1bbc.py",
+   "line": 78,
+   "whole_line": "        dbpass = dbinfo.get('PASSWORD')",
+   "source": "creddata"
+  },
+  {
+   "file": "_/22cc1bbc.py",
+   "line": 150,
+   "whole_line": "                password=dbpass,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/36fdc968.py",
+   "line": 83,
+   "whole_line": "                django_apps.get_models(), key=lambda x: (x._meta.app_label, x._meta.object_name), reverse=False",
+   "source": "creddata"
+  },
+  {
+   "file": "_/464aba00.py",
+   "line": 19,
+   "whole_line": "        cache_key = \"%s:%s\" % (prefix, md5(subject).hexdigest())",
+   "source": "creddata"
+  },
+  {
+   "file": "_/464aba00.py",
+   "line": 20,
+   "whole_line": "        cache_count_key = \"%s:count\" % cache_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46a7fd41.py",
+   "line": 64,
+   "whole_line": "        for key in sorted(models.keys(), key=str):",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4d654f57.py",
+   "line": 40,
+   "whole_line": "        obj = self.rel.model._default_manager.get(**{key: value})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5d49e611.py",
+   "line": 188,
+   "whole_line": "        --github-api-token='mytoken'``.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5d49e611.py",
+   "line": 271,
+   "value": "Rate",
+   "source": "creddata"
+  },
+  {
+   "file": "_/62aa1b7a.py",
+   "line": 785,
+   "whole_line": "                key = (tablespace, table_name, table_info['column_name'])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/62aa1b7a.py",
+   "line": 798,
+   "whole_line": "                key = (tablespace, table_name, table_info['column_name'])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/62aa1b7a.py",
+   "line": 810,
+   "whole_line": "                key = (table_name, table_info['column_name'])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/62aa1b7a.py",
+   "line": 934,
+   "whole_line": "                key = (tablespace, table_name, table_info['name'])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/62aa1b7a.py",
+   "line": 1153,
+   "whole_line": "                    \"primary_key\": primary,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/62aa1b7a.py",
+   "line": 1243,
+   "whole_line": "            if field.primary_key and db_type=='integer':",
+   "source": "creddata"
+  },
+  {
+   "file": "_/64bb326e.py",
+   "line": 325,
+   "whole_line": "            key = '%s_%s' % (self.model.__name__, getattr(self.instance, pk_name))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/64bb326e.py",
+   "line": 344,
+   "whole_line": "            key = '%s_%s' % (self.model.__name__, getattr(self.instance, pk_name))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/64bb326e.py",
+   "line": 381,
+   "whole_line": "                    key = '%s_%s' % (rel_item.__class__.__name__, getattr(rel_item, pk_name))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/64bb326e.py",
+   "line": 684,
+   "whole_line": "        key = '%s_%s' % (value.__class__.__name__, getattr(value, pk_name))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/751d58ca.py",
+   "line": 184,
+   "whole_line": "            self.AWS_SECRET_ACCESS_KEY = settings.AWS_SECRET_ACCESS_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "_/751d58ca.py",
+   "line": 335,
+   "whole_line": "                file_key = '%s/%s' % (self.prefix, file_key)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/751d58ca.py",
+   "line": 373,
+   "value": "%s.%s",
+   "source": "creddata"
+  },
+  {
+   "file": "_/77cd80e5.py",
+   "line": 155,
+   "whole_line": "            widths = [len(max(columns, key=len)) for columns in zip(*views)]",
+   "source": "creddata"
+  },
+  {
+   "file": "_/77cd80e5.py",
+   "line": 164,
+   "whole_line": "            widths = [len(max(columns, key=len)) for columns in zip(*views)]",
+   "source": "creddata"
+  },
+  {
+   "file": "_/79e743cc.py",
+   "line": 45,
+   "whole_line": "            '-P', '--password', action='store', dest='password', default=None,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/79e743cc.py",
+   "line": 84,
+   "whole_line": "        user = password = database_name = database_host = database_port = ''",
+   "source": "creddata"
+  },
+  {
+   "file": "_/79e743cc.py",
+   "line": 89,
+   "whole_line": "        password = options['password'] or dbinfo.get('PASSWORD') or password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b0d2dadb.py",
+   "line": 31,
+   "whole_line": "            '--password', dest='default_passwd', default=DEFAULT_FAKE_PASSWORD,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b0d2dadb.py",
+   "line": 42,
+   "whole_line": "            passwd = getpass('Password: ')",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b0d2dadb.py",
+   "line": 46,
+   "whole_line": "            passwd = options['default_passwd']",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b0d2dadb.py",
+   "line": 50,
+   "value": "passwd",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/ba7a676a.rst",
+   "line": 119,
+   "whole_line": ".. _`LinkedIn Groups`: http://www.linkedin.com/static?key=groups_info",
+   "source": "creddata"
+  },
+  {
+   "file": "model/b5f0cb75.py",
+   "line": 387,
+   "whole_line": "        newmodel['fields'] = sorted(newmodel['fields'], key=lambda field: (not field['primary_key'], not field['relation'], field['label']))",
+   "source": "creddata"
+  },
+  {
+   "file": "setting/719e41b4.py",
+   "line": 55,
+   "whole_line": "                key: value for key, value in settings_dct.items()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/2500680f.yml",
+   "line": 48,
+   "value": "ETL_CLIENT_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d28ff04.py",
+   "line": 107,
+   "value": "bar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d28ff04.py",
+   "line": 134,
+   "value": "bar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d28ff04.py",
+   "line": 172,
+   "value": "bar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d28ff04.py",
+   "line": 192,
+   "value": "bar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/69b1505a.py",
+   "line": 105,
+   "value": "bucket_key",
+   "source": "creddata"
+  },
+  {
+   "file": "test/69b1505a.py",
+   "line": 200,
+   "value": "bucket_key",
+   "source": "creddata"
+  },
+  {
+   "file": "test/78a46475.py",
+   "line": 26,
+   "whole_line": "    old_passwords = User.objects.values_list('password', flat=True).order_by('id')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/78a46475.py",
+   "line": 33,
+   "whole_line": "    new_passwords = User.objects.values_list('password', flat=True).order_by('id')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/78a46475.py",
+   "line": 50,
+   "whole_line": "        assert user.check_password(\"helloworld\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/78a46475.py",
+   "line": 58,
+   "whole_line": "    m_getpass.getpass.return_value = 'test'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8d49e17e.py",
+   "line": 87,
+   "value": "bar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/bf09b9d0.py",
+   "line": 37,
+   "value": "django.contrib.auth.backends.ModelBackend",
+   "source": "creddata"
+  },
+  {
+   "file": "test/bf09b9d0.py",
+   "line": 38,
+   "whole_line": "            '_auth_user_hash': 'b67352fde8582b12f068c10fd9d29f9fa1af0459',",
+   "source": "creddata"
+  },
+  {
+   "file": "test/bf09b9d0.py",
+   "line": 51,
+   "value": "b67352fde8582b12f068c10fd9d29f9fa1af0459",
+   "source": "creddata"
+  },
+  {
+   "file": "test/bf09b9d0.py",
+   "line": 64,
+   "value": "django.contrib.auth.backends.ModelBackend",
+   "source": "creddata"
+  },
+  {
+   "file": "test/bf09b9d0.py",
+   "line": 65,
+   "value": "b67352fde8582b12f068c10fd9d29f9fa1af0459",
+   "source": "creddata"
+  },
+  {
+   "file": "test/bf09b9d0.py",
+   "line": 78,
+   "value": "user.pk",
+   "source": "creddata"
+  },
+  {
+   "file": "test/bf09b9d0.py",
+   "line": 79,
+   "value": "django.contrib.auth.backends.ModelBackend",
+   "source": "creddata"
+  },
+  {
+   "file": "test/bf09b9d0.py",
+   "line": 80,
+   "value": "b67352fde8582b12f068c10fd9d29f9fa1af0459",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d1a4be67.py",
+   "line": 31,
+   "whole_line": "        cls.user = cls.User.objects.create(username=\"Joe\", password=\"pass\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/98820402.json",
+   "line": 5,
+   "value": "pbkdf2_sha256$36000$90bEBUbbgBEO$L8mP32NfNI8IYyrFFUejJ1J8Mb7nWXAXfc4o40NZcVw=",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/98820402.json",
+   "line": 23,
+   "value": "pbkdf2_sha256$36000$DQjI1J5Sb0y7$qcHMl08/2DTYusG4s42c28EBZIzl0inoWmB3znGBLfI=",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fixture/98820402.json",
+   "line": 41,
+   "value": "pbkdf2_sha256$36000$PnIDqW2Atwye$ZKCDEzn+KsGMHrAb4Cq7MDpWVrW4smFl0MK/7Ehxp6g=",
+   "source": "creddata"
+  },
+  {
+   "file": "test/setting/5bc1f1a7.py",
+   "line": 38,
+   "whole_line": "        'PASSWORD': os.environ.get(\"DJANGO_EXTENSIONS_DATABASE_PASSWORD\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0a2c5f43.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Extended2020"
+  },
+  {
+   "file": "test/0a2c5f43.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Concerning Koeln 8.1"
+  },
+  {
+   "file": "src/ed834e9c.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/acme/etl/prod"
+  },
+  {
+   "file": "src/ed834e9c.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "AUTH_API_KEY"
+  },
+  {
+   "file": "src/ed834e9c.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Authorization"
+  },
+  {
+   "file": "src/ed834e9c.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "src/ed834e9c.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "AES-256-GCM"
+  },
+  {
+   "file": "src/ed834e9c.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "src/ed834e9c.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "526783756525-b0ha1gptuyhqeqkq6ktm2ea977sksule.apps.googleusercontent.com"
+  },
+  {
+   "file": "src/ed834e9c.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2024-01-19T00:00:00Z"
+  },
+  {
+   "file": "src/ed834e9c.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "etl-oauth-client"
+  },
+  {
+   "file": "src/ed834e9c.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6NTM1ODA6b2Zmc2V0OjM1NQ=="
+  },
+  {
+   "file": "_/5df32558.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "5.15.39"
+  },
+  {
+   "file": "_/5df32558.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "38047d4cd21b1adb883520e1fd9094c85cf28be6"
+  },
+  {
+   "file": "_/5df32558.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "30RSK4BOBH71B0I2JCUWVBP9AL"
+  },
+  {
+   "file": "_/5df32558.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "_/5df32558.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "MHVHXZOSJNFICPT51JWPNXOFG1"
+  },
+  {
+   "file": "_/5df32558.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "_/8e06aa91.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "_/8e06aa91.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "8.26.36"
+  },
+  {
+   "file": "_/8e06aa91.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6d752d5ce92e009dcd7ab3616925022cdbffb790"
+  },
+  {
+   "file": "_/8e06aa91.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "47ca9b00-4f49-43c2-924b-ffe48d8c0761"
+  },
+  {
+   "file": "src/1de6388f.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "PRYUSY4BQ8SH4TFENFKYRILELJ"
+  },
+  {
+   "file": "src/1de6388f.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "82b86b2c-6a6b-4d60-bc6b-7928ca2d32e4"
+  },
+  {
+   "file": "src/1de6388f.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "src/1de6388f.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/155f7eb1.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_H3MZGV9YShULw4Q3uvGR6biZ"
+  },
+  {
+   "file": "other/155f7eb1.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "BILLING_API_KEY"
+  },
+  {
+   "file": "other/155f7eb1.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "AUTH_SECRET_KEY"
+  },
+  {
+   "file": "other/155f7eb1.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LEQPVU2s4LS2zk_9KxZk-nxHE-wn4MNR96xBvcM"
+  },
+  {
+   "file": "other/155f7eb1.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:uycogaS+9CLFXjuBGLOUyfdZNCUECNcmtt4JSSfctHU"
+  },
+  {
+   "file": "other/155f7eb1.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/var/run/secrets/billing/token"
+  },
+  {
+   "file": "other/155f7eb1.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Authorization"
+  },
+  {
+   "file": "other/155f7eb1.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "other/155f7eb1.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6MzI3MzI6b2Zmc2V0OjQ0OQ=="
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "kunden.pinegrid.net"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sftp.datafjord.de"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "185.15.163.140"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "140.82.114.25"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "gitlab.gnome.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Eva Wolf"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Sarah Hoffmann"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kunden.pinegrid.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.datafjord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.114.25"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "185.15.163.140"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.gnome.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.pinegrid.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Eva Wolf"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "eva.wolf@pinegrid.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Erika Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "erika@example.com"
+  }
+ ]
+}

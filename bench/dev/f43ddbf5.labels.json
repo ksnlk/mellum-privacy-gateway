@@ -1,0 +1,890 @@
+{
+ "repo": "f43ddbf5",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/b3356305.md",
+   "line": 100,
+   "start": 29,
+   "end": 43,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "v9/\\/\\U7$$w4zN"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/b3356305.md",
+   "line": 182,
+   "start": 29,
+   "end": 43,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "m0/\\/\\B6$$t5sB"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/b3356305.md",
+   "line": 184,
+   "start": 21,
+   "end": 30,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "yks_ujeke"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/b3356305.md",
+   "line": 303,
+   "start": 14,
+   "end": 36,
+   "category": "Salt",
+   "mutation": "none",
+   "forms": [
+    "tJQVg7jX7zoZiJShMb3moy"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/c35ad4dd.js",
+   "line": 27,
+   "start": 52,
+   "end": 81,
+   "category": "Salt",
+   "mutation": "comment",
+   "forms": [
+    "$8t$76$BzbtfLarOloKmewVzPdH4z"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "other/319c61ce.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "64353735303563643461623566643330323264396263626436356638386439376235656439333530303465356539653930333466646361353866356362323265",
+    "d57505cd4ab5fd3022d9bcbd65f88d97b5ed935004e5e9e9034fdca58f5cb22e"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/661c8c66.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "B3rn@rd"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/661c8c66.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.225.215.166"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/661c8c66.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "Tm9uc2Vuc2UxOTY4Iw==",
+    "Nonsense1968#"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/dfd11695.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jonas Neumann"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/dfd11695.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lukas50@gmail.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/dfd11695.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 4295 7707"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/dfd11695.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.26.181.195"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/dfd11695.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "merit-herbst-initiative-multiplex"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/d22bf607.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-replica.kelpie.cloud"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/d22bf607.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Engel@2000"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/d22bf607.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Fuch$!"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/7ecc32b8.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_j6QbhUFbB8nokyjRTMyU0ous"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/7ecc32b8.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "APjzUyansLsO3Mpq3qJ8mavUwpF2LtJA"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/7ecc32b8.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "OXh1azJua214cnFhOXZwY2tlczg0cG94MWRzODJ4Z2s=",
+    "9xuk2nkmxrqa9vpckes84pox1ds82xgk"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/b9c3859d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "large.unstarted.rose.technology41"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "src/b9c3859d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm.37creb.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.kelpie.net"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.kelpie.net"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.kelpie.net"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.227.248.0/24"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.227.248.91"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.kelpie.net"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.kelpie.net"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.kelpie.net"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.kelpie.net"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.227.248.128"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.kelpie.net"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Lina Braun"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "lina.braun@t-online.de"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 3959475"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jonas Wolf"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jonas.wolf@gmx.de"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 3582511"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/b3356305.md",
+   "line": 110,
+   "whole_line": "    bcrypt.hash(myPlaintextPassword, salt, function(err, hash) {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 119,
+   "whole_line": "bcrypt.hash(myPlaintextPassword, saltRounds, function(err, hash) {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 130,
+   "whole_line": "bcrypt.compare(myPlaintextPassword, hash, function(err, result) {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 133,
+   "whole_line": "bcrypt.compare(someOtherPlaintextPassword, hash, function(err, result) {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 147,
+   "whole_line": "bcrypt.hash(myPlaintextPassword, saltRounds).then(function(hash) {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 153,
+   "whole_line": "bcrypt.compare(myPlaintextPassword, hash).then(function(result) {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 156,
+   "whole_line": "bcrypt.compare(someOtherPlaintextPassword, hash).then(function(result) {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 193,
+   "whole_line": "const salt = bcrypt.genSaltSync(saltRounds);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 194,
+   "whole_line": "const hash = bcrypt.hashSync(myPlaintextPassword, salt);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 211,
+   "whole_line": "bcrypt.compareSync(myPlaintextPassword, hash); // true",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 212,
+   "whole_line": "bcrypt.compareSync(someOtherPlaintextPassword, hash); // false",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 183,
+   "value": "secret/data/helix/auth/staging",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 185,
+   "value": "X-Hub-Signature-256",
+   "source": "creddata"
+  },
+  {
+   "file": "other/319c61ce.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "45a82ab83cce4c853187dbb12a939df87a50b36a8530374ba62261b2a5dbd86a"
+  },
+  {
+   "file": "test/661c8c66.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:6766a513d780431785a5375926d9a31a21990d32b27d27db926cf7c2f6e9a7ab"
+  },
+  {
+   "file": "test/661c8c66.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "a257b0ff57e299a1663aa7b077925ce7842bd093"
+  },
+  {
+   "file": "test/661c8c66.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "REPLACE_ME"
+  },
+  {
+   "file": "test/661c8c66.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "test/661c8c66.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "3.12.41"
+  },
+  {
+   "file": "_/dfd11695.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "198.51.100.239"
+  },
+  {
+   "file": "_/dfd11695.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "8.11.49"
+  },
+  {
+   "file": "_/dfd11695.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:22214d03c715d85df4f6b86a07f37ac5c921062ddbac1e7889060f0fbf04f325"
+  },
+  {
+   "file": "_/dfd11695.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/dfd11695.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/d22bf607.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "linde_starred"
+  },
+  {
+   "file": "_/d22bf607.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "metrics"
+  },
+  {
+   "file": "_/d22bf607.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Widow2024"
+  },
+  {
+   "file": "_/d22bf607.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "reporting"
+  },
+  {
+   "file": "_/d22bf607.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "ledger_reader"
+  },
+  {
+   "file": "_/d22bf607.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "incident-yom-2024"
+  },
+  {
+   "file": "src/7ecc32b8.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_IOdLqJ9N1nSphBMzV11xOV9E"
+  },
+  {
+   "file": "src/7ecc32b8.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "ETL_AUTH_TOKEN"
+  },
+  {
+   "file": "src/7ecc32b8.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "AUTH_AUTH_TOKEN"
+  },
+  {
+   "file": "src/7ecc32b8.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6L-jMFxw-IQerxvvVjOlGCkdeYNeQz2OmAG3m7hi"
+  },
+  {
+   "file": "src/7ecc32b8.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:K2KhwZQPnDJAP4QfPavOGXVtvh+oslonPNolM05A0TA"
+  },
+  {
+   "file": "src/7ecc32b8.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/etc/auth/tls/private.key"
+  },
+  {
+   "file": "src/7ecc32b8.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Auth-Token"
+  },
+  {
+   "file": "src/7ecc32b8.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "src/7ecc32b8.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "aW52b2ljZTo5MTUxODpvZmZzZXQ6Mzk="
+  },
+  {
+   "file": "src/b9c3859d.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB7L5TNX4LcqEeN8zeqT3L1jIh5poyxixNC0LzTWhrpi"
+  },
+  {
+   "file": "src/b9c3859d.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9051f94663bbdd5615d9142904a92dcc0afc24c06401aed3b3785edc7f31b257"
+  },
+  {
+   "file": "src/b9c3859d.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/b9c3859d.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "portal.kelpie.net"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sftp.logistik-nord.de"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "85.227.61.48"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "David Schmidt"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Noah Schmidt"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "portal.kelpie.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.logistik-nord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "85.227.61.48"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.kelpie.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "David Schmidt"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "david.schmidt@kelpie.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Max Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "max.mustermann@example.org"
+  }
+ ]
+}

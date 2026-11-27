@@ -1,0 +1,130 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://owner-api.teslamotors.com/oauth/token
+    body:
+      encoding: UTF-8
+      string: grant_type=password&client_id=<TESLA_CLIENT_ID>&client_secret=<TESLA_CLIENT_SECRET>&email=<TESLA_EMAIL>&password=<TESLA_PASS>
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 17 Dec 2014 01:06:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      X-Request-Id:
+      - d4d3206c0e5c38dfe3e8a8c05e353d3d
+      X-Runtime:
+      - '0.358326'
+    body:
+      encoding: UTF-8
+      # TODO remove before release, staging login is 9c56e679064c098b1b8aad7d44caeff8141d2986c327dd895f79b58375ebdbea
+    http_version: 
+  recorded_at: Wed, 17 Dec 2014 01:06:06 GMT
+- request:
+    method: get
+    uri: https://owner-api.teslamotors.com/api/1/vehicles
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      # the old unlock code was dced36d1aa417c52f15bd23219354947969ca536d2f411590c53c97ee0f175ce
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 17 Dec 2014 01:06:05 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '446'
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"900c699a9c4c6d36d87b1902a2fda748"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b321242c88b0d31fc952ec46ca2816ab
+      X-Runtime:
+      - '0.457357'
+    body:
+      encoding: UTF-8
+      string: '{"response":[{"color":null,"display_name":"Nikola","id":1514029006966957156,"option_codes":"MS01,RENA,TM00,DRLH,PF00,BT85,PBCW,RFPO,WT19,IBMB,IDPB,TR00,SU01,SC01,TP01,AU01,CH00,HP00,PA00,PS00,AD02,X020,X025,X001,X003,X007,X011,X013,COUS","vehicle_id":490215852,"vin":"5YJSA1CN5CFP01657","tokens":["3f31af6fda13facc","0f8add8d4b0d9d8e"],"state":"online","remote_start_enabled":true,"calendar_enabled":true,"notifications_enabled":true}],"count":1}'
+    http_version: 
+  recorded_at: Wed, 17 Dec 2014 01:06:07 GMT
+- request:
+    method: post
+    uri: https://owner-api.teslamotors.com/api/1/vehicles/1514029006966957156/command/door_lock
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      # temp until the vault migration lands -> 6c4252db7324882b86ee4a458becc86e13919d0c8dc56a33fb1a5c91543f8531
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 17 Dec 2014 01:06:06 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '40'
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"f67eec105dd6522783a1f1bacc52723a"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6dc4f32386cfa0a6d3e8a6a06849572e
+      X-Runtime:
+      - '0.226051'
+    body:
+      encoding: UTF-8
+      string: '{"response":{"reason":"","result":true}}'
+    http_version: 
+  recorded_at: Wed, 17 Dec 2014 01:06:07 GMT
+recorded_with: VCR 2.9.3

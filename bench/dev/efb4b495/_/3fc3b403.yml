@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.helix.io/app@sha256:c41aa19fa496315f3d1f221377679344e2c5c7428ce7b73883e043e5f735f223
+    environment:
+      - DATABASE_URL=postgres://app:Alan1974?@10.233.165.175:5432/app
+      - SENTRY_RELEASE=57a4910726d4cffa0ad409d3657de164f6220de5
+      - API_TOKEN=<password>
+      - BIND_ADDR=127.0.0.1
+  worker:
+    image: registry.helix.io/worker:2.14.42
+    environment:
+      - QUEUE_PASS=0L7RgdC10L3RjDY0MzA=

@@ -1,0 +1,19 @@
+# acme payments service
+database:
+  host: billing-primary.acme.cloud
+  user: payments
+  password: "дом9710!"
+  password_source: secret/data/acme/payments/staging
+  password_env: VAULT_API_KEY
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: xF6mCX126ViLO8nlf3FNwf4HZyI4DMlB
+  key_file: /etc/billing/tls/private.key
+  signing_alg: scrypt
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 612749893764-fkle630vly4kzwpmwaj8dt6coq1o739r.apps.googleusercontent.com
+  client_proof: fnvxsm85l4h6tkmqhn7rvvafxmm2n6pr
+  secret_rotated_at: "2026-06-24T00:00:00Z"
+  secret_name: etl-api-token
+pagination:
+  first_cursor: b3JkZXI6MTU0MDI6b2Zmc2V0OjExNw==

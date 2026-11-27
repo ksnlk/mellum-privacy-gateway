@@ -1,0 +1,15 @@
+monitoring: atlas.brightloop.systems
+database:
+  host: hermes.brightloop.systems
+  port: 5432
+queue: vega.brightloop.systems
+backup_target: tarvos.brightloop.systems
+website: shop.brightloop.systems
+payments_api: https://api.paycore.com/v2
+partner_drop: files.paycore.de
+allow_sources:
+  - 185.121.94.227
+  - 140.82.112.3
+  - 185.143.243.74
+ntp: 212.18.3.19
+mirrors: [ci.jenkins.io, registry.terraform.io]

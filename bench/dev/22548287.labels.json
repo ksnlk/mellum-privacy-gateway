@@ -1,0 +1,988 @@
+{
+ "repo": "22548287",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "conf/init/cb6e8126.rb",
+   "line": 7,
+   "start": 23,
+   "end": 151,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "dea9d2606386bf2667fb1496e25681c196058a2f63d99ed0563c5c731bf23dc27e7d055028c91dcdd00423c0277cc564f675da0887ad6146bfb0fadb6b2160ef"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "sample/aca9b509.env",
+   "line": 5,
+   "start": 42,
+   "end": 50,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "rmlyolpe"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "spec/283599b3.rb",
+   "line": 36,
+   "start": 37,
+   "end": 49,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "kcoxcp695!@#"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "spec/283599b3.rb",
+   "line": 37,
+   "start": 50,
+   "end": 62,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "reflow165!@#"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "spec/model/db6cdcf8.rb",
+   "line": 22,
+   "start": 18,
+   "end": 35,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "pjbjp obffy knxns"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "spec/model/db6cdcf8.rb",
+   "line": 23,
+   "start": 30,
+   "end": 54,
+   "category": "Password",
+   "mutation": "b64",
+   "forms": [
+    "Z3VoZ3AgeGp5YWwgem1reGQ=",
+    "guhgp xjyal zmkxd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "other/4d4794a9.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments.erfrsh.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/4d4794a9.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Kuchen#1960"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/4d4794a9.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "6ojg1uMPQIvXP35Z2O3xJMmCd1y75Guv"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/4d4794a9.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "t78nhe6n36zj8qprv8klulakjzxt39sx"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/be208abb.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-prod.vxx4560j3zti.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/be208abb.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_K2VmR8S0dPFA5B3G97tKt3fBgECfWyT9WDL2"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/88eb416f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Laura Schwarz"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/88eb416f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sofia80@gmail.com"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/88eb416f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 3191 9919"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/88eb416f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Eva Zimmermann"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/88eb416f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "emma.hoffmann [at] pinegrid-corp [dot] de"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "_/88eb416f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE87628473071708745268"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/88eb416f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jonas Krueger"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/88eb416f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Gartenstra\u00dfe 67, 74214 Regensburg"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/88eb416f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "188.98.251.188"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/6969bf8c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Fahrradfortuna66?"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/44040954.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_zedPqonefw6iZQzGorWZA2Qd"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "other/44040954.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "aDfus46cpdSzrHpO9NQdclk0NYOCncGO"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "other/44040954.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "OTZxM3pwYWN4OHliZTFhbDRmbjFndDdqcHB2YmpicXU=",
+    "96q3zpacx8ybe1al4fn1gt7jppvbjbqu"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "_/e6197649.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-prod.v36cc9vxcll4.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "_/e6197649.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "ZGVwbG95OtC00YDRg9CzOTg4MQ==",
+    "deploy:\u0434\u0440\u0443\u04339881"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "_/e6197649.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "9rtuqy86bqgli9wxh6ywbfr4srm24if6"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "app/0b8e027e.haml",
+   "line": 8,
+   "whole_line": "    invitation_token: @token,                                  |",
+   "source": "creddata"
+  },
+  {
+   "file": "app/2ca2f500.haml",
+   "line": 4,
+   "whole_line": "    = simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f|",
+   "source": "creddata"
+  },
+  {
+   "file": "app/5fe3b11f.haml",
+   "line": 7,
+   "whole_line": "        = f.input :password, :required => false",
+   "source": "creddata"
+  },
+  {
+   "file": "app/7527687b.rb",
+   "line": 29,
+   "whole_line": "    key = Array(key) << current_locale",
+   "source": "creddata"
+  },
+  {
+   "file": "app/ee476af5.haml",
+   "line": 4,
+   "whole_line": "    = simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f|",
+   "source": "creddata"
+  },
+  {
+   "file": "app/ee476af5.haml",
+   "line": 6,
+   "whole_line": "      = f.input :reset_password_token, as: :hidden",
+   "source": "creddata"
+  },
+  {
+   "file": "app/ee476af5.haml",
+   "line": 10,
+   "whole_line": "        = f.input :password_confirmation, label: \"Confirm your new password\", required: true",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/app/a84bb506.haml",
+   "line": 5,
+   "whole_line": "    %p= link_to t('email.confirmation.confirm_password'), confirmation_url(@resource, confirmation_token: @token, subdomain: current_subdomain)",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/init/bb2a4b5f.rb",
+   "line": 3,
+   "whole_line": "Rails.application.config.session_store :cookie_store, key: \"_hours_session\"",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/init/cb6e8126.rb",
+   "line": 122,
+   "value": ":email => /\\A[^@",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/init/cb6e8126.rb",
+   "line": 123,
+   "value": ":email => /\\A[^@",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/init/cb6e8126.rb",
+   "line": 234,
+   "whole_line": "  config.reset_password_within = 6.hours",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/01054902.yml",
+   "line": 10,
+   "value": "Voc\u00ea j\u00e1 est\u00e1 logado.",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/01054902.yml",
+   "line": 17,
+   "value": "Voc\u00ea precisa fazer login ou se registrar, antes de continuar.",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/01054902.yml",
+   "line": 30,
+   "whole_line": "      no_token: \"Voc\u00ea n\u00e3o pode acessar essa p\u00e1gina para redefinir sua senha. Se voc\u00ea recebeu um e-mail para redefinir sua senha, por favor, certifique-se de estar usando a URL correta.\"",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/44438ce2.yml",
+   "line": 44,
+   "whole_line": "    password: Password",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/44438ce2.yml",
+   "line": 45,
+   "whole_line": "    repeat_password: Repeat Password",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/44438ce2.yml",
+   "line": 90,
+   "whole_line": "  change_password: Change password",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/44438ce2.yml",
+   "line": 107,
+   "whole_line": "      confirm_password: Confirm my account",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/44438ce2.yml",
+   "line": 204,
+   "whole_line": "      current_password: we need your current password to confirm your changes",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/6ae88d48.yml",
+   "line": 44,
+   "whole_line": "    password: Senha",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/6ae88d48.yml",
+   "line": 45,
+   "whole_line": "    repeat_password: Repita a senha",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/6ae88d48.yml",
+   "line": 109,
+   "whole_line": "  change_password: Alterar senha",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/6ae88d48.yml",
+   "line": 163,
+   "whole_line": "      confirm_password: Confirmar minha conta",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/6ae88d48.yml",
+   "line": 256,
+   "whole_line": "      current_password: precisamos da sua senha atual para confirmar as mudan\u00e7as",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/6ae88d48.yml",
+   "line": 285,
+   "whole_line": "        current_password: Senha atual",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/6ae88d48.yml",
+   "line": 288,
+   "whole_line": "        password: Senha",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/6ae88d48.yml",
+   "line": 289,
+   "whole_line": "        password_confirmation: Confirme a senha",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/7a8338ef.yml",
+   "line": 10,
+   "value": "U bent al ingelogd.",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/7a8338ef.yml",
+   "line": 17,
+   "value": "U moet inloggen of aanmelden om verder te gaan.",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/7a8338ef.yml",
+   "line": 30,
+   "value": "U kunt deze pagina niet bezoeken als u niet van een wachtwoord reset email komt. Als u van een wachtwoord reset email komt, zorg er dan voor dat u de hele URL opleverd",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/b0bd5063.yml",
+   "line": 10,
+   "whole_line": "      already_authenticated: \"Jeste\u015b aktualnie zalogowany.\"",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/b0bd5063.yml",
+   "line": 13,
+   "whole_line": "      invalid_token: \"B\u0142\u0119dny token aktywacyjny.\"",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/b0bd5063.yml",
+   "line": 17,
+   "value": "Aby kontynuowa\u0107 musisz si\u0119\u00a0zalogowa\u0107.",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/b0bd5063.yml",
+   "line": 30,
+   "whole_line": "      no_token: \"Dost\u0119p do tej strony jest mo\u017cliwy jedynie poprzez u\u017cycie prawid\u0142owego adresu z emaila z instrukcjami o resecie has\u0142\u0105. Je\u017celi w\u0142a\u015bnie skorzysta\u0142e\u015b\u00a0z tego adresu, sprawd\u017a\u00a0czy u\u017cyty adres jest zgodny z tym w emailu.\"",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/b9c876aa.yml",
+   "line": 16,
+   "whole_line": "    #     password: 'Password'",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/b9c876aa.yml",
+   "line": 25,
+   "whole_line": "    #     password: 'No special characters, please.'",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/e99e1edd.yml",
+   "line": 44,
+   "whole_line": "    password: Has\u0142o",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/e99e1edd.yml",
+   "line": 45,
+   "whole_line": "    repeat_password: Powt\u00f3rz has\u0142o",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/e99e1edd.yml",
+   "line": 90,
+   "whole_line": "  change_password: Zmie\u0144 has\u0142o",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/e99e1edd.yml",
+   "line": 107,
+   "whole_line": "      confirm_password: Potwierd\u017a moje konto",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/e99e1edd.yml",
+   "line": 204,
+   "whole_line": "      current_password: potrzebujemy Twojego aktualnego has\u0142a w celu potwierdzenia zmian",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/fcebe908.yml",
+   "line": 43,
+   "value": "Wachtwoord",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/fcebe908.yml",
+   "line": 44,
+   "whole_line": "    repeat_password: Bevesting wachtwoord",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/fcebe908.yml",
+   "line": 112,
+   "whole_line": "  change_password: Verander wachtwoord",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/fcebe908.yml",
+   "line": 165,
+   "whole_line": "      confirm_password: Bevestig mijn account",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/fcebe908.yml",
+   "line": 231,
+   "whole_line": "      edit_user: Gegevens aanpassen",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/fcebe908.yml",
+   "line": 262,
+   "whole_line": "      current_password: we hebben uw huidig wachtwoord nodig om de veranderingen te bevestigen",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/fcebe908.yml",
+   "line": 290,
+   "whole_line": "        current_password: Huidig wachtwoord",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/fcebe908.yml",
+   "line": 293,
+   "value": "Wachtwoord",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/fcebe908.yml",
+   "line": 294,
+   "whole_line": "        password_confirmation: Wachtwoord bevestiging",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/77f993cc.rake",
+   "line": 26,
+   "whole_line": "  password = STDIN.noecho(&:gets).chomp",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 11,
+   "whole_line": "#  encrypted_password     :string           default(\"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 12,
+   "whole_line": "#  reset_password_token   :string",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 13,
+   "whole_line": "#  reset_password_sent_at :datetime",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 20,
+   "whole_line": "#  confirmation_token     :string",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 28,
+   "whole_line": "#  invitation_token       :string",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 51,
+   "whole_line": "  has_one :account, foreign_key: \"owner_id\", inverse_of: :owner",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/aca9b509.env",
+   "line": 3,
+   "whole_line": "SECRET_KEY_BASE=development_secret",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/539dcda5.rb",
+   "line": 11,
+   "whole_line": "    sign_in_user(user, password: \"wrong password\", subdomain: account.subdomain)",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/model/bb8bcb6e.rb",
+   "line": 9,
+   "whole_line": "#  encrypted_password     :string           default(\"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/model/bb8bcb6e.rb",
+   "line": 10,
+   "whole_line": "#  reset_password_token   :string",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/model/bb8bcb6e.rb",
+   "line": 11,
+   "whole_line": "#  reset_password_sent_at :datetime",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/model/bb8bcb6e.rb",
+   "line": 18,
+   "whole_line": "#  confirmation_token     :string",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/model/bb8bcb6e.rb",
+   "line": 26,
+   "whole_line": "#  invitation_token       :string",
+   "source": "creddata"
+  },
+  {
+   "file": "other/4d4794a9.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/brightloop/payments/staging"
+  },
+  {
+   "file": "other/4d4794a9.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "CRM_SECRET_KEY"
+  },
+  {
+   "file": "other/4d4794a9.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "other/4d4794a9.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/var/run/secrets/auth/token"
+  },
+  {
+   "file": "other/4d4794a9.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "scrypt"
+  },
+  {
+   "file": "other/4d4794a9.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "other/4d4794a9.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "192309182807-ov5h5e51kg12y6h4omvhqbywa7tdsfd7.apps.googleusercontent.com"
+  },
+  {
+   "file": "other/4d4794a9.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2024-02-07T00:00:00Z"
+  },
+  {
+   "file": "other/4d4794a9.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "auth-tls"
+  },
+  {
+   "file": "other/4d4794a9.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZTo4MTk5NjpvZmZzZXQ6NDcy"
+  },
+  {
+   "file": "src/be208abb.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "5.21.18"
+  },
+  {
+   "file": "src/be208abb.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.11.45"
+  },
+  {
+   "file": "src/be208abb.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-XAqQjDeRkDgT8Wdl7gJufRGRHgAfPMDWDdwhtalaIV64oGya4g0JUoZmjGI0n8zaHaIvrUdxKzqaQixCLQVrEw=="
+  },
+  {
+   "file": "src/be208abb.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "7.3.41"
+  },
+  {
+   "file": "src/be208abb.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-fb0m5BC7TrevMP6DGHHP0EC7hzDEDV7bmUdeg0g6ihy0fNnANwM5f3fr3Y5Qv8Cfp34OLIfTLJstqxkrSLIEEQ=="
+  },
+  {
+   "file": "src/be208abb.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "7.28.27"
+  },
+  {
+   "file": "src/be208abb.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-vU9EDywJQb5HUDyQhzRUiPBu4kzKJOTuYsNwbAiEqTYP/i/UVNhJEOhe0rqvItiVcho0wBxPJEvaX3blItoqsw=="
+  },
+  {
+   "file": "_/88eb416f.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "billing@pinegrid-corp.de"
+  },
+  {
+   "file": "_/88eb416f.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "security@pinegrid-corp.de"
+  },
+  {
+   "file": "_/88eb416f.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 (555) 0142"
+  },
+  {
+   "file": "_/88eb416f.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "_/88eb416f.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "_/88eb416f.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "_/88eb416f.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "_/88eb416f.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "_/6969bf8c.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Urlaub2024"
+  },
+  {
+   "file": "_/6969bf8c.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "chrome_wong"
+  },
+  {
+   "file": "other/44040954.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_VhizaaTOGxyhivPKUyldklew"
+  },
+  {
+   "file": "other/44040954.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "CRM_API_KEY"
+  },
+  {
+   "file": "other/44040954.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "LEDGER_API_KEY"
+  },
+  {
+   "file": "other/44040954.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LYAJJ8eyBaOJQpISAIbFyVO9Roj_JGsFdDkG2pW"
+  },
+  {
+   "file": "other/44040954.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:Caod1eooWlmmcIUiWjL8DBP896Gqr0cmWCvAB4roNtA"
+  },
+  {
+   "file": "other/44040954.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/etc/ledger/tls/private.key"
+  },
+  {
+   "file": "other/44040954.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "other/44040954.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "other/44040954.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6MzMxMDE6b2Zmc2V0OjMwMg=="
+  },
+  {
+   "file": "_/e6197649.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "S7H4IXXCUOC286Z65SEO723NRE"
+  },
+  {
+   "file": "_/e6197649.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "dd836dc7-48ae-4466-9b03-3331d4d7fa9d"
+  },
+  {
+   "file": "_/e6197649.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "_/e6197649.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  }
+ ]
+}

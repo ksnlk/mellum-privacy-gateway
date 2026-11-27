@@ -1,0 +1,29 @@
+kind: EncryptionConfig
+apiVersion: v1
+resources:
+  - resources:
+      - secrets
+      - namespaces
+    providers:
+      - identity: {}
+      - aesgcm:
+          keys:
+            - name: key1
+              door_code: p5KoboD4CPmpSOQwF2YsRF==
+            - name: key2
+              unlock_code: mVgscjMtctFlEGTux56bEB==
+      - kms:
+          name: testprovider
+          endpoint: unix:///tmp/testprovider.sock
+          cachesize: 10
+      - aescbc:
+          keys:
+            - name: key1
+              signing_material: r4OijaC1PEbbNKYiJ1UiLN==
+              secret_header: X-Hub-Signature-256
+            - name: key2
+              vendor_blob: oTpqjiPaveFiKLUva53rFK==
+      - secretbox:
+          keys:
+            - name: key1
+              build_id: KOSeBIAiF1sigtsafC8gaILer5S4lzg3oZmaIvP7XUS=

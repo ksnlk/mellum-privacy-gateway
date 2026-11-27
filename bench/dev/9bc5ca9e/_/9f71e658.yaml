@@ -1,0 +1,19 @@
+# helix payments service
+database:
+  host: etl-prod.il4v8anygqj1.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "Hamburginsel87!"
+  password_source: secret/data/helix/payments/staging
+  password_env: BILLING_AUTH_TOKEN
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: yzPfw4R74PDrd43rKVqbPB27XKTTLLtU
+  key_file: /var/run/secrets/reports/token
+  signing_alg: AES-256-GCM
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 556048129088-yejt8pjy8zzlfpyq147iw5xwmomm6q0d.apps.googleusercontent.com
+  client_proof: 5odeezemd2hcycewdaeg93oa8wj5h9n2
+  secret_rotated_at: "2025-07-03T00:00:00Z"
+  secret_name: etl-db-credentials
+pagination:
+  first_cursor: dXNlcjo2NjczMTpvZmZzZXQ6MTQy

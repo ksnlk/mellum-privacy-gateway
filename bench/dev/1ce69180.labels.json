@@ -1,0 +1,1020 @@
+{
+ "repo": "1ce69180",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "example/conf/9b1a0b33.md",
+   "line": 154,
+   "start": 14,
+   "end": 28,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "ivymr_syysuqhv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "fixture/spec/fcf0ceac.txt",
+   "line": 5,
+   "start": 14,
+   "end": 25,
+   "category": "Auth:Key",
+   "mutation": "rename",
+   "forms": [
+    "CCFDBCFAECA"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "spec/5e754a57.rb",
+   "line": 21,
+   "start": 100,
+   "end": 144,
+   "category": "Auth:Nonce",
+   "mutation": "b64",
+   "forms": [
+    "MTY0NGZmMzM3Zjc3OWQ1ZWZkNTQ3NTU2OWEzOTAxMWY=",
+    "1644ff337f779d5efd5475569a39011f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "spec/5e754a57.rb",
+   "line": 22,
+   "start": 50,
+   "end": 82,
+   "category": "Auth",
+   "mutation": "none",
+   "forms": [
+    "SyymlfpBh81kUe%3ZaWCSQoZ8Z8yP%1V"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "spec/5e754a57.rb",
+   "line": 29,
+   "start": 100,
+   "end": 132,
+   "category": "Auth:Nonce",
+   "mutation": "none",
+   "forms": [
+    "a14edf27312e27f0c01ed0f3045a9771"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "spec/5e754a57.rb",
+   "line": 30,
+   "start": 50,
+   "end": 80,
+   "category": "Auth",
+   "mutation": "none",
+   "forms": [
+    "IKrOiB6H5DEhoSoaVZSMo43aXsU%9Z"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "spec/rest/560ba91b.rb",
+   "line": 14,
+   "start": 116,
+   "end": 124,
+   "category": "Auth",
+   "mutation": "none",
+   "forms": [
+    "G5y7Z2A="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "src/b0a9af48.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.28.192.13"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/b0a9af48.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-api-08.prod.helix-internal.net"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/b0a9af48.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TOGTSSSO4/BNHLYQD6GPD/igfKcutHqfSjJYySTKZCrcK2"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/019233b5.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-mq-02.prod.pinegrid-internal.net"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/019233b5.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Baer&1986"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/019233b5.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "a8XnSeGApEb7qJxYvM5v84pDX9NyUeHh"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/019233b5.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "vvwx7om7z0lvig3c4j2qt663gvo4ampb"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/610c47aa.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Hafenurlaub92!"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/610c47aa.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.34.207.113"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/610c47aa.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "SjAxbjNy",
+    "J01n3r"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/9e51e9b3.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "32633933326235373033633138656137313630623965656134333034316163313864306638323230323365623638343339363732333633366464353833386330",
+    "2c932b5703c18ea7160b9eea43041ac18d0f822023eb684396723636dd5838c0"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/9b6863f0.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-replica.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/9b6863f0.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_YC2agzkTZdoYI2cwDjTqFIFP8e7giD8fMRZW"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/97e29d87.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lea40@gmail.com"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/97e29d87.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 9132 4704"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/97e29d87.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sophietal02?"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/97e29d87.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE05305148088438406801"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/06572a96.md",
+   "line": 97,
+   "whole_line": "* [Add support for new REST API endpoint for bulk lookup of Tweets by ID](https://github.com/sferik/twitter/commit/0d23c5ed65a7e7728cd096d611e5edeecdbc6e79)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 98,
+   "whole_line": "* [Make the streaming API raise exceptions for status codes](https://github.com/sferik/twitter/commit/b571e03ed18cd63ec1d1a57c03e5744b284111d6) ([@eroberts](https://twitter.com/eroberts))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 133,
+   "whole_line": "* [Deprecate `oauth_token` and `oauth_token_secret` accessors](https://github.com/sferik/twitter/commit/ac246717557ea02565a1d93b3f9a975e7fd39874)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 157,
+   "whole_line": "* [Remove `Enumerable` monkey patch](https://github.com/sferik/twitter/commit/818b28d1621e843c0c6f9ef471076f4125623e52) ([@charliesome](https://twitter.com/charliesome))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 195,
+   "whole_line": "* [Remove `Twitter::API::Undocumented#status_activity` and `#statuses_activity`](https://github.com/sferik/twitter/commit/7f970810af251b2fe80c38b30c54485c55bd2034)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 206,
+   "whole_line": "* [Rename `oauth_token` to `access_token`](https://github.com/sferik/twitter/commit/d360f8015c487c4599460abd0dd0bc7e59a522a3)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 211,
+   "whole_line": "* [Add `Twitter::REST::Client#reverse_token`](https://github.com/sferik/twitter/commit/39139c4df35b54b86fae29d1ac83a08f4aa293cd)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 232,
+   "whole_line": "* [Allow use of Twitter::Token in place of bearer token string](https://github.com/sferik/twitter/commit/13596bc60db36ecaf5a1df09ecb322d85d8c2922)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 233,
+   "whole_line": "* [Add Twitter::API::Undocumented#tweet_count](https://github.com/sferik/twitter/commit/795458a25ec7b143a995e7f2f2043e523c11961c)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 241,
+   "whole_line": "* [Remove undocumented methods, retired in the APIpocalypse](https://github.com/sferik/twitter/commit/cf6a91f8df833dce5bffc7a0292402860e7d4da7)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 248,
+   "whole_line": "* [Add `Twitter::API::Lists#lists_owned` method](https://github.com/sferik/twitter/commit/9e97b51c20aabf4485a91ae7db697ee3be131a89)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 249,
+   "whole_line": "* [Add `Twitter::API::Tweets#retweeters_ids` method](https://github.com/sferik/twitter/commit/8cf5b2ddf3d2647084496c7c3f205b2468d84cbe)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 251,
+   "whole_line": "* [Make consumer_key readable](https://github.com/sferik/twitter/commit/a318869c4827d6add781730cfb67fd2bdca5c584)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 268,
+   "whole_line": "* [Allow `Twitter::API::Tweets#oembed` and `Twitter::API::Tweets#oembeds` to take a URL](https://github.com/sferik/twitter/commit/0d986fa4b0c254e8c816bce086c3f6648d8fd3d7) ([@bshelton229](https://twitter.com/bshelton229))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 283,
+   "whole_line": "* [Add `Twitter::API::Arguments` class; remove `extract_options!` helper method](https://github.com/sferik/twitter/commit/65972c599ced8da27fbbfa72aeead92464355583)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 290,
+   "whole_line": "* [Fix to `Twitter::API::FriendsAndFollowers#friends` and `Twitter::API::FriendsAndFollowers#followers`](https://github.com/sferik/twitter/commit/d97438f5de89a1a15ad8ff5e67e8e0c7d412911f) ([@nbraem](https://twitter.com/nbraem))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 300,
+   "whole_line": "* [Add `Twitter::API::FriendsAndFollowers#friends` and `Twitter::API::FriendsAndFollowers#followers`](https://github.com/sferik/twitter/commit/03e1512a8e5e589771414aaf46db34718f1469ce) ([@tibbon](https://twitter.com/tibbon))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 301,
+   "whole_line": "* [Add `method` parameter to `Twitter::API::Users#users`](https://github.com/sferik/twitter/commit/4885c8df5f36fcbe39bd435ef12b6e0bed06dcb5) ([@thomasjklemm](https://twitter.com/thomasjklemm))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 313,
+   "whole_line": "* [Add Twitter::API#profile_banner](https://github.com/sferik/twitter/commit/5879ef3fcc486ac3849426ef0d44ee0288ed9599)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 334,
+   "whole_line": "* [Handle new API v1.1 list response format](https://github.com/sferik/twitter/commit/2aace25fcf946de995e5ce1788f24ad35bc79438)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 338,
+   "whole_line": "* [Update all endpoints to Twitter API v1.1](https://github.com/sferik/twitter/commit/f55471a03dd0a428d5c0aa57a3c34809dbfde5cf)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 341,
+   "whole_line": "* [Add error classes for new Twitter API v1.1 response codes](https://github.com/sferik/twitter/commit/154b00f8c0cbbcf9177d367f19a90ef256d5b6a4)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 342,
+   "whole_line": "* [Cache `screen name` in an instance variable to avoid API calls](https://github.com/sferik/twitter/commit/dfc5641511bd99da857bf524af8449afb1843f8e)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 343,
+   "whole_line": "* [Update `Twitter::RateLimit` class for API v1.1](https://github.com/sferik/twitter/commit/540cbb2d90f3b2c53f09a9727cbad1d2489e3fae)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 353,
+   "whole_line": "* [Major changes for Twitter API v1.1](https://github.com/sferik/twitter/commit/eab13be653c1b54aa679dbf16f252a2b6977b80e)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 364,
+   "whole_line": "* [Remove `Twitter::API#recommendations`](https://github.com/sferik/twitter/commit/e4bcec169faafb78772e60d6cdeb5583a40f32e3)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 378,
+   "whole_line": "* [Allow `Tempfile` to be passed to `Twitter::API#update_with_media`](https://github.com/sferik/twitter/commit/79dc8197250f0416a9a44524be0aaea9d3f31d83)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 409,
+   "whole_line": "* [Fix authentication bug](https://github.com/sferik/twitter/commit/b1fc6eac21293f2f87df9ca6684c30ef8155137f)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 430,
+   "whole_line": "* [Pass options from Twitter::Client.user to Twitter::Client.verify_credentials](https://github.com/sferik/twitter/commit/8d99cfdbc7614690769c1682664cbe8cd9ea9c93)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 434,
+   "whole_line": "* [All returned hashes now use `Symbol` keys instead of `String` keys](https://github.com/sferik/twitter/commit/d5b5d8788dc0c0cef6f2c28e6fa2dc6ffcf389eb)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 441,
+   "whole_line": "* [Attempt to pull credentials from the environment when not specified](https://github.com/sferik/twitter/commit/32e3fde7ccc7aea15b24159302d7c0fd934a6a0a)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 456,
+   "whole_line": "* [`Twitter::User` objects can be used interchangeably with user IDs or screen names](https://github.com/sferik/twitter/commit/2dd5d32ca1a67a88d61d2f762e011295cab8a9bd)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 457,
+   "whole_line": "* [`Twitter::List` objects can be used interchangeably with list IDs or slugs](https://github.com/sferik/twitter/commit/621e1ee428ea9fea024b26c8775baa47a7c235d9)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 466,
+   "whole_line": "* [Add ability to pass a user to `Twitter::Client#recommendations`](https://github.com/sferik/twitter/commit/19f5796ba618e634ed56e936eb8f3bcb9822124c)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 502,
+   "whole_line": "* [Add support for passing options directly to faraday](https://github.com/sferik/twitter/commit/4cc469761ea9e663abaf761e061a89e848ce9beb) ([@icambron](https://twitter.com/icambron))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 522,
+   "whole_line": "* [Add `User#recommendations`](https://github.com/sferik/twitter/commit/52d13cd4711931539686a483daa15666bae297a5)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 524,
+   "whole_line": "* [Move API version out of endpoint and into path](https://github.com/sferik/twitter/commit/d156fd54a8591b44b22f72890099fce0ce4d58c8)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 532,
+   "whole_line": "* [Update faraday dependency to 0.7.0](https://github.com/sferik/twitter/commit/59a50a8f08999fa7a90b0e332171079a137c6752) ([@ngauthier](https://twitter.com/ngauthier))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 536,
+   "whole_line": "* [Add a custom OAuth implementation](https://github.com/sferik/twitter/commit/5d2e7cc514b13842d7fe02fa7bc724136ef9f276) ([@NathanielBarnes](https://twitter.com/NathanielBarnes))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 567,
+   "whole_line": "* [Make `#places_similar` method return a token](https://github.com/sferik/twitter/commit/351e2240717a34d6575a802078077a1681fa4616) ([@nicolassanta](https://twitter.com/nicolassanta))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 576,
+   "whole_line": "* [Don't set cached `screen_name` when creating a new API client](https://github.com/sferik/twitter/commit/ceeed993b16f95582c648e93de03738362ba1d7b)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 589,
+   "whole_line": "* [Allow users to pass in screen names with leading '@'](https://github.com/sferik/twitter/commit/fc3af84e0d7358ddacf49acefe7d950ac11983e0)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 595,
+   "whole_line": "* [Make `#suggestions` method consistent with Twitter API documentation](https://github.com/sferik/twitter/commit/8393a06a9e8ca03be9adffdbfd042c176e2f6597)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 599,
+   "whole_line": "* [Merge `Base`, `Geo`, `Trends`, and `Unauthenticated` into `Client` class](https://github.com/sferik/twitter/commit/eb53872249634ee1f0179982b091a1a0fd9c0973) ([@laserlemon](https://twitter.com/laserlemon))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 602,
+   "whole_line": "* [Map access key/secret names to SimpleOAuth correctly](https://github.com/sferik/twitter/commit/9fa5be3a9e0b7f7dcb4046314d8c6bc41f4f063d)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 606,
+   "whole_line": "* [Switch from oauth to simple_oauth for authentication](https://github.com/sferik/twitter/commit/76cfe3749e56b2b486f2b5ffc9aa7f437cb2db29) ([@laserlemon](https://twitter.com/laserlemon))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 620,
+   "whole_line": "* [Update `user` method to match the Twitter API docs](https://github.com/sferik/twitter/commit/cb31e4a26b20d93006d568fab50ccce5c4d1626f) ([@nerdEd](https://twitter.com/nerdEd))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 634,
+   "whole_line": "* [Specify Twitter API version for all REST API calls](https://github.com/sferik/twitter/commit/76b1fa31588bbc20166464313027f75e3771e385)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 637,
+   "whole_line": "* [Remove redgreen due to Ruby 1.9 incompatibility](https://github.com/sferik/twitter/commit/83e1ea168da2e38c3f393972bf1d8eb665df2510) ([@duncan](https://twitter.com/duncan))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 638,
+   "whole_line": "* [Make all tests pass in Ruby 1.9](https://github.com/sferik/twitter/commit/7bead60774fb118ef63fb1557976194848af6754) ([@duncan](https://twitter.com/duncan))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 647,
+   "whole_line": "* [Change trends endpoint to api.twitter.com/1/trends](https://github.com/sferik/twitter/commit/39ff888b243ba57098589d4e304dd6dec877d05f)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 652,
+   "whole_line": "* [Geo API](https://github.com/sferik/twitter/commit/0e5aa205f9e29db434d84452f59694d9b64877d2) ([@anno](https://twitter.com/anno))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 653,
+   "whole_line": "* [Set `api_endpoint` for unauthenticated calls](https://github.com/sferik/twitter/commit/ff20ecb4f4fef12c58572fb31e5c06162f8659d7) ([@earth2marsh](https://twitter.com/earth2marsh))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 661,
+   "whole_line": "* [Deprecated Basic Auth](https://github.com/sferik/twitter/commit/878c09527037ab8ec5ac11a48afece61f03861e1)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 662,
+   "whole_line": "* [Add `api_endpoint` option for OAuth](https://github.com/sferik/twitter/commit/be937cf93db35f60cd47288aeea45afd2ab42288)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 675,
+   "whole_line": "* [Rolled back search API endpoint to get around rate limiting issues](https://github.com/sferik/twitter/commit/f9c7af99b4560f39b3542582934ae07955b6c9cc) ([@secobarbital](https://twitter.com/secobarbital))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 683,
+   "whole_line": "* [Make error handling consistent between authenticated and unauthenticated method calls](https://github.com/sferik/twitter/commit/f62a1502ba9c4a764d25a4179982fabd3bff2210) ([@sferik](https://twitter.com/sferik))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 684,
+   "whole_line": "* [Test error handling for unauthenticated methods](https://github.com/sferik/twitter/commit/4de5c9212142ceb0206f979755e6e151280b16b9) ([@sferik](https://twitter.com/sferik))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 689,
+   "whole_line": "* [Add Twitter API version to trends method calls](https://github.com/sferik/twitter/commit/6f23c5eb3ffdac6eac65fa2b6d36f08aa7b6e1fb) ([@sferik](https://twitter.com/sferik))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 690,
+   "whole_line": "* [Add Twitter API version to unauthenticated method calls](https://github.com/sferik/twitter/commit/fb895cc7e645499826dcc96e2cf8727c94eac83f) ([@sferik](https://twitter.com/sferik))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 698,
+   "whole_line": "* [Add Twitter API version to authenticated method calls](https://github.com/sferik/twitter/commit/69d4df515fe95f727221dad19b92665dc24f06d0) ([@sferik](https://twitter.com/sferik))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 729,
+   "whole_line": "* [Make API endpoint configurable to use services like Tumblr](https://github.com/sferik/twitter/commit/c5550f1317538638b754d6b0dbbb372e069b5580)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 749,
+   "whole_line": "* [Fix bug in `list_remove_member` when using OAuth](https://github.com/sferik/twitter/commit/b20b770af3d6594f8e551cade3cfbd58a0647c2d)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 750,
+   "whole_line": "* [Bump oauth dependency to version 0.3.6](https://github.com/sferik/twitter/commit/3eeed693180d15ba4ca2370c41bd5547f715fc88)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 785,
+   "whole_line": "* [Lower oauth dependency to version 0.3.4 as people are complaining about 0.3.5](https://github.com/sferik/twitter/commit/dd144c377bc888388099e029a0e1505a66392bb1)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 789,
+   "whole_line": "* [Bump oauth dependency to version >= 0.3.5](https://github.com/sferik/twitter/commit/555ae1fc13146b74b8df0346caea1a6b065b344f)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 798,
+   "whole_line": "* [Add the ability to sign in with Twitter instead of authorizing](https://github.com/sferik/twitter/commit/68b6252a21e7e773d108027f693b8378593e21ad)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 806,
+   "whole_line": "* [Bump oauth dependency to version 0.3.4](https://github.com/sferik/twitter/commit/88d4612b50d2be7cc300120278d53c80265e8780)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 819,
+   "whole_line": "* [Add `ssl` optional parameter to use HTTPS instead of HTTP for `HTTPAuth`](https://github.com/sferik/twitter/commit/f46cdf9ce957b03539bd4dc76a83ce439535d349)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 844,
+   "whole_line": "* [Add HTTP authentication](https://github.com/sferik/twitter/commit/d713ecfbe80edde688009fa6bfbf32a2de687a39)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 867,
+   "whole_line": "* [CLI shot to death (will be reborn at a later date using OAuth and its own gem)](https://github.com/sferik/twitter/commit/dd2445e3e2c97f38b28a3f32ea902536b3897adf)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 914,
+   "whole_line": "* [Add the CLI gems as dependencies until it is separated from the API wrapper](https://github.com/sferik/twitter/commit/52af6fd83bb2e72b90abd6114e264a88431cfb34)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 916,
+   "whole_line": "* [Add `username` and `password` parameters to `add` method](https://github.com/sferik/twitter/commit/013b48229786c1080ee79a490e731f4b1811a7e4)",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/spec/fcf0ceac.txt",
+   "line": 2,
+   "whole_line": "oauth_timestamp=\"1380473364\", oauth_version=\"1.0\",",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/spec/fcf0ceac.txt",
+   "line": 4,
+   "whole_line": "oauth_signature_method=\"HMAC-SHA1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/client/e7c55fa4.rb",
+   "line": 8,
+   "whole_line": "    attr_accessor :access_token, :access_token_secret, :consumer_key, :consumer_secret, :proxy, :timeouts, :dev_environment",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/client/e7c55fa4.rb",
+   "line": 35,
+   "whole_line": "        consumer_key: consumer_key,",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/client/e7c55fa4.rb",
+   "line": 36,
+   "whole_line": "        consumer_secret: consumer_secret,",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/client/e7c55fa4.rb",
+   "line": 37,
+   "whole_line": "        token: access_token,",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/client/e7c55fa4.rb",
+   "line": 38,
+   "whole_line": "        token_secret: access_token_secret,",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/rest/844a60bc.rb",
+   "line": 424,
+   "whole_line": "        response = Twitter::REST::Request.new(self, :multipart_post, path, options.merge(key: :image, file: image)).perform",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/rest/a222401f.rb",
+   "line": 32,
+   "whole_line": "        @options_key = {get: :params, json_post: :json, json_put: :json, delete: :params}[request_method] || :form",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/1e5305b3.rb",
+   "line": 36,
+   "value": "eyJhdXRoZW50aWNpdHkiOiI3MzdlZGI5ZjMwNDcwZjlhMWU1OGFhNWVkNzEyOGI4NGIyMWY2YTA3NTE3NTlhNWQxZGYxMjRiOGQ2ZmM5MjQwIiwiZnJvbURhdGUiOiIyMDE3MTAyMDAwMDAiLCJ0b0RhdGUiOiIyMDE3MTExOTIzMTUiLCJuZXh0IjoiMjAxNzExMTkyMzEyMzEtOTMyMzg2MTMxODEwODg5NzI4LTAifQ==",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/1e5305b3.rb",
+   "line": 39,
+   "value": "eyJhdXRoZW50aWNpdHkiOiI3MzdlZGI5ZjMwNDcwZjlhMWU1OGFhNWVkNzEyOGI4NGIyMWY2YTA3NTE3NTlhNWQxZGYxMjRiOGQ2ZmM5MjQwIiwiZnJvbURhdGUiOiIyMDE3MTAyMDAwMDAiLCJ0b0RhdGUiOiIyMDE3MTExOTIzMTUiLCJuZXh0IjoiMjAxNzExMTkyMzEyMzEtOTMyMzg2MTMxODEwODg5NzI4LTAifQ==",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/rest/560ba91b.rb",
+   "line": 30,
+   "value": "AAAA%2FAAA%3DAAAAAAAA",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/rest/560ba91b.rb",
+   "line": 41,
+   "value": "AAAA%2FAAA%3DAAAAAAAA",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/rest/560ba91b.rb",
+   "line": 54,
+   "whole_line": "      expect(a_request(:post, @oauth_request_token_url).with(query: {x_auth_mode: 'reverse_auth'})).to have_been_made",
+   "source": "creddata"
+  },
+  {
+   "file": "util/lib/rest/c96b29c0.rb",
+   "line": 16,
+   "whole_line": "        Twitter::REST::Request.new(self, :multipart_post, 'https://upload.twitter.com/1.1/media/upload.json', key: :media, file: media).perform",
+   "source": "creddata"
+  },
+  {
+   "file": "util/lib/rest/c96b29c0.rb",
+   "line": 47,
+   "whole_line": "                                     key: :media,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b0a9af48.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "29d1b63f054bcd0b72bd"
+  },
+  {
+   "file": "src/b0a9af48.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "src/b0a9af48.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "ffd4498d48a99bc8e16e5cb927180162b3313254"
+  },
+  {
+   "file": "src/019233b5.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/pinegrid/billing/staging"
+  },
+  {
+   "file": "src/019233b5.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "LEDGER_AUTH_TOKEN"
+  },
+  {
+   "file": "src/019233b5.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Auth-Token"
+  },
+  {
+   "file": "src/019233b5.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/var/run/secrets/billing/token"
+  },
+  {
+   "file": "src/019233b5.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "RS256"
+  },
+  {
+   "file": "src/019233b5.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "src/019233b5.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "269175517877-g13ygyawsgrktdvokentbbdycv7fn05v.apps.googleusercontent.com"
+  },
+  {
+   "file": "src/019233b5.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2025-07-01T00:00:00Z"
+  },
+  {
+   "file": "src/019233b5.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "vault-db-credentials"
+  },
+  {
+   "file": "src/019233b5.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6NjY0Mzc6b2Zmc2V0OjIxMg=="
+  },
+  {
+   "file": "_/610c47aa.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:83da484a46764b31da569c4cc9d481a9c75876c0a403c6542a65154ba89e8ead"
+  },
+  {
+   "file": "_/610c47aa.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "0920a4a648be25873fa2fc89765f36f077a55609"
+  },
+  {
+   "file": "_/610c47aa.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "${DB_PASSWORD}"
+  },
+  {
+   "file": "_/610c47aa.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "_/610c47aa.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "5.3.20"
+  },
+  {
+   "file": "other/9e51e9b3.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "36c6d41f6f427f8f303b3f36f3a063dd475fb7012a389f55a535566d37c55300"
+  },
+  {
+   "file": "_/9b6863f0.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "6.27.19"
+  },
+  {
+   "file": "_/9b6863f0.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4.29.3"
+  },
+  {
+   "file": "_/9b6863f0.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-u06fb/VKwhsfH66hiEzYzxHFyMpXRdXaNYooLw+O07AH31Ba6LAC2oZQPYgstlaEk7PjvKk+eibzpT+SMuruYQ=="
+  },
+  {
+   "file": "_/9b6863f0.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "0.12.6"
+  },
+  {
+   "file": "_/9b6863f0.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-e8jsprcAEQuZuWO+W8kBve8q2myV6tshk+4eotu6VjRKIwZ6jorUlWVEIgsqcTS7c3czcTroZgZ9Vw7Ct46X9Q=="
+  },
+  {
+   "file": "_/9b6863f0.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "2.9.13"
+  },
+  {
+   "file": "_/9b6863f0.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-cqGfGygT6Wc6wh+TyPq0YwTeCYs9rc++1eIuPq7khmnDSxsrfoUZ9V7mzZ62tbi3LeZPMJYm7InQ+y+/zTCLJQ=="
+  },
+  {
+   "file": "test/97e29d87.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "api.github.com"
+  },
+  {
+   "file": "test/97e29d87.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "noreply@github.com"
+  },
+  {
+   "file": "test/97e29d87.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "<password>"
+  }
+ ]
+}

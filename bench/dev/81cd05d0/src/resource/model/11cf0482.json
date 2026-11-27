@@ -1,0 +1,142 @@
+    "deprecatedSuppressions" : [ "ClientConstructors", "EnumSetterOverload", "ClientMutationMethods" ],
+    "emitLegacyEnumSetterFor" : null,
+    "operationModifiers" : null,
+    "operationsWithResponseStreamContentLengthValidation" : null,
+    "presignersFqcn" : null,
+    "renameShapes" : null,
+    "requestMetrics" : null,
+    "requiredParamValidationEnabled" : false,
+    "s3ArnableFields" : null,
+    "sdkModeledExceptionBaseClassName" : null,
+    "sendEmptyAutoConstructedListAsEmptyList" : null,
+    "sendExplicitlyEmptyListsForQuery" : false,
+    "serviceClientHoldInputStream" : false,
+    "shapeModifiers" : null,
+    "shapeSubstitutions" : null,
+    "simpleMethods" : null,
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : true,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : false,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2017-03-14",
+    "asyncClient" : "AWSServiceDiscoveryAsyncClient",
+    "asyncClientBuilderClassName" : "AWSServiceDiscoveryAsyncClientBuilder",
+    "asyncInterface" : "AWSServiceDiscoveryAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AWSServiceDiscoveryModuleInjector",
+    "defaultEndpoint" : "servicediscovery.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "servicediscovery.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<p>With AWS Cloud Map, you can configure public DNS, private DNS, or HTTP namespaces that your microservice applications run in. When an instance becomes available, you can call the AWS Cloud Map API to register the instance with AWS Cloud Map. For public or private DNS namespaces, AWS Cloud Map automatically creates DNS records and an optional health check. Clients that submit public or private DNS queries, or HTTP requests, for the service receive an answer that contains up to eight healthy records. </p>",
+    "endpointPrefix" : "servicediscovery",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.servicediscovery",
+    "packagePath" : "com/amazonaws/services/servicediscovery",
+    "protocol" : "json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "ServiceDiscovery",
+            "Name" : "myservice",
+            "DnsConfig" : {
+              "RoutingPolicy" : "MULTIVALUE",
+              "DnsRecords" : [ {
+                "Type" : "A",
+                "TTL" : 60
+              } ]
+            },
+            "CreateDate" : 1.587081768334E9
+          } ]
+        },
+        "title" : "Example: List services"
+      } ],
+      "ListTagsForResource" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example lists the tags of a resource.",
+        "id" : "listtagsforresource-example-1590093928416",
+        "input" : {
+          "ResourceARN" : "arn:aws:servicediscovery:us-east-1:123456789012:namespace/ns-ylexjili4cdxy3xm"
+        },
+        "output" : {
+          "Tags" : [ {
+            "Key" : "Project",
+            "Value" : "Zeta"
+          }, {
+            "Key" : "Department",
+            "Value" : "Engineering"
+          } ]
+        },
+        "title" : "ListTagsForResource example"
+      } ],
+      "RegisterInstance" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Example: Register Instance",
+        "id" : "example-register-instance-1587236116314",
+        "input" : {
+          "ServiceId" : "srv-p5zdwlg5uvvzjita",
+          "InstanceId" : "myservice-53",
+          "CreatorRequestId" : "9f61d31c-30b1-9919-dbb4-2d968d696c9a",
+          "Attributes" : { }
+        },
+        "output" : {
+          "OperationId" : "4yejorelbukcjzpnr6tlmrghsjwpngf4-k95yg2u7"
+        },
+        "title" : "Example: Register Instance"
+      } ],
+      "TagResource" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example adds \"Department\" and \"Project\" tags to a resource.",
+        "id" : "tagresource-example-1590093532240",
+        "input" : {
+          "ResourceARN" : "arn:aws:servicediscovery:us-east-1:123456789012:namespace/ns-ylexjili4cdxy3xm",
+          "Tags" : [ {
+            "Key" : "Department",
+            "Value" : "Engineering"
+          }, {
+            "Key" : "Project",
+            "Value" : "Zeta"
+          } ]
+        },
+        "output" : { },
+        "title" : "TagResource example"
+      } ],
+      "UntagResource" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example removes the \"Department\" and \"Project\" tags from a resource.",
+        "id" : "untagresource-example-1590094024672",
+        "input" : {
+          "ResourceARN" : "arn:aws:servicediscovery:us-east-1:123456789012:namespace/ns-ylexjili4cdxy3xm",
+          "TagKeys" : [ "Project", "Department" ]
+        },
+        "output" : { },
+        "title" : "UntagResource example"
+      } ],
+      "UpdateInstanceCustomHealthStatus" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },

@@ -1,0 +1,2434 @@
+{
+ "repo": "ac9be8d9",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/55b9cf5b.md",
+   "line": 138,
+   "start": 13,
+   "end": 21,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "tzulwhcg"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/c82a804a.md",
+   "line": 215,
+   "start": 31,
+   "end": 95,
+   "category": "Key:Secret",
+   "mutation": "rename",
+   "forms": [
+    "lbgoyW6c06mTutBw2riUch586bTxJ6JB5i+MyaOu0Ino6qSgjzIiolMI1onxAS55"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/c82a804a.md",
+   "line": 217,
+   "start": 17,
+   "end": 81,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "xgznjT3t82dHaoGg2erSnv595gRuQ8MH7e+KkwLr0Nae7sEvvfGhehIX0hahNO16"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "lib/1ac02d79.ex",
+   "line": 51,
+   "start": 26,
+   "end": 60,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "zrmu5z3domphptx6776xalbapligumxje0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "lib/94033c4d.ex",
+   "line": 148,
+   "start": 25,
+   "end": 59,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "mzpd8n9iqjxmpfg4314wcfcwjtadkmkay0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/137993fd.exs",
+   "line": 84,
+   "start": 36,
+   "end": 72,
+   "category": "Secret:UUID",
+   "mutation": "none",
+   "forms": [
+    "369809a0-39e5-7143-53d1-d5b32fc26fd8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/c0bada0d.exs",
+   "line": 86,
+   "start": 21,
+   "end": 57,
+   "category": "Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "fb35d777-b76c-34a5-2b2b-1dfa7c3f6545"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/docker/4404f8f4.yml",
+   "line": 8,
+   "start": 25,
+   "end": 33,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "grfoaiub"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/docker/4404f8f4.yml",
+   "line": 19,
+   "start": 48,
+   "end": 61,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "char!Lwclmadl"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "test/fixture/766cf329.pem",
+   "line": 1,
+   "line_end": 27,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEowIBAAKCAQEA0g3Mlh7ZRYiE+btNbePpRGzdj4NIyleZj5LXxRe8xZs/WHb4",
+    "L9+ipnjfzcA514iFUu2XzESA9z86lBTFU579roKYrF5JuOHeoeOBAQ92qV9RF3PL",
+    "PXXfR8KlHk1uApDue6W4ARxiLCl7G+NqysgL5s4mwGlFSMFU0SB/nj0KvIXfcD/W",
+    "VQMGFvumurm6CSU/dwj/csOunUPLJAOTlymLP7nonvImps2gkuX5+CsxMa/SGKDT",
+    "sV8yJAcLJF8kbN7uQOHbBxEf3VtD/YoGubbHzEZ2LCDOGK7MVX8hicqaMR+JIylV",
+    "ALIqPOHY6mv/zeZBDlpSAH7/hgZsv9OR8lPKAAlhtTuKdICwZZfR/RWSrPp19Gw1",
+    "V2yZzpLc7MjFeUo6Z6EqhzVsufmfliDWAAoHh4QOABeNX9BHrof02bq/taEFNtNi",
+    "MRprJLTdH0x4XK2dmVJpkKx4wo3rn8iq8ZioNDJJT0Uw/+3PWk8OPVGHDQvb9mEc",
+    "yKk5AIQMKFzgaWGMmhwRN+3PlgJvGSm06k5OStZmjh0IAapRo6g/GRxZCB5Nmqm4",
+    "uUX8WaFY5yukJU4hlnEhbG6qDwPqIXDM8CRRKBRAYLavUvD+tv5MqKqACGv5X49Y",
+    "qD89RTtWPRxGiGNf3T/qAWYQuHOrkTC18LBjBlNk+sDugtVhD/xrckCCNCcTRkQF",
+    "cy+6vidsGGhh75X1F9XLRej5U26knndQY0v7U3/F/yWdi72HuBKsPNc9Bvbcw69H",
+    "rpw4Vr6pxkV9J9YN3CHnKBDZRvjYkcIQrufiF7DCFesiyqqh7DSuTtoSVfp7ne9S",
+    "lNvKYrdP4u7MCM3XhenVesz+akH9y0n+Z7C62UDz8gZrVa47scHJMoWhlGgc5TjC",
+    "tNChWHn15fCQhJvMHcnOepLzD5jFzlz8tr5evS2C2TedCH3Ri50dY8MwhjHPdo4b",
+    "2RgQXMG2ByjECs3eMwPMi9XuT3xHEv0nqmWg4PAjHx1IUa8s+yesiDphslfx53Ne",
+    "irysl+JGH5XdqRAzHggDp/TUePsGq2crqgO29wbhTtKNcJ0/uuE38ygee0BmJJHc",
+    "bx4Nnu26PECCS/icY4gjfcSPkC+IgkrnlrIRQi546YeStMBEjqSqIjecC3JX6pQc",
+    "soNM6xu7KnSDMF9c0hZerjq2ZjthCxbvtSn1ud554AUwNDXLNL4pozNO6VTr6jd1",
+    "IZ0NQZ9I/cpvhD+wztfbiDtWkBZPe8girU0P2XEyM0cmbIpfB6+Q543QFg04ERlq",
+    "HcU4tmlG5MlkkYI1yNpDLi8+ja7e97+lYhh7Vk7vlN4biQhVqzHRK6Y3A9SvEcmF",
+    "L8hd4psngV+1Hn6sJLCKCfCHWEmnCQV4ALCmBMCarMpoe0uCg8cHmfzRxtNFcPgx",
+    "dfuA2ctcSoLPb4jYIcDRBJPNlaWM3hcsIscwb/SXp07u2/hX1BMf9nI6NuGrUGoc",
+    "QgFbTa24Pw1eyhXgOvJePiemz51gTgIDHiPR+MWUdNEMg3uVR5f8QdDYbchD4nHh",
+    "G3QpfxENfQ5ujmpbFFYGfqRUgdXrY6TDcrxsJLm1h5hLTlLnWvfA"
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "test/template/08701d20.exs",
+   "line": 470,
+   "start": 34,
+   "end": 41,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "jqbfzcl"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "other/a8060d1d.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm.3b7v6z.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/a8060d1d.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "kap1nsPFntUopqd6L7td378X8elWI7RT"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/8246f9a0.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "66663761346366646432616237643865646531333234316463656131356565623233326230643665306162373830643632663062336565326638356262393236",
+    "ff7a4cfdd2ab7d8ede13241dcea15eeb232b0d6e0ab780d62f0b3ee2f85bb926"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/88abc1ba.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "argocd.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/88abc1ba.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Garten",
+    "Gartenflu\u00df61!",
+    "flu\u00df61!"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/7b2d88e1.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.dy6R4J6hnCPF6D9Yyeuqs5rvTGchyXFfen4PEFAe.Rlwr93ouqTo8jIPNcKH7093ZJVXZNxubFEPxa586yow"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/7b2d88e1.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-replica.kelpie.cloud"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/005f99fe.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "a2llbC10dWVyLXNpbi10aG91c2FuZA==",
+    "kiel-tuer-sin-thousand"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/005f99fe.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9TcUluZm9PeE5wUkE5RllYdFpCODNhaWQ=",
+    "sk_live_SqInfoOxNpRA9FYXtZB83aid"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/005f99fe.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-primary.vantor.cloud"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/6255c693.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_jkmh1Ny2UiH3kjEPVWx57T62"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/6255c693.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "NaL9HUAEEvdztoAuiESpncBClmENb1Lb"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/6255c693.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "cHEzMmNtMzJmaHpsZmlmZWxwamNhZjIzMnY5a3JycXY=",
+    "pq32cm32fhzlfifelpjcaf232v9krrqv"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/55b9cf5b.md",
+   "line": 281,
+   "whole_line": "Inside our existing IEx shell, let's create a `params` map with valid values plus an extra `random_key: \"random value\"`.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/55b9cf5b.md",
+   "line": 290,
+   "whole_line": "  random_key: \"random value\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/55b9cf5b.md",
+   "line": 579,
+   "whole_line": "While Phoenix uses the `Ecto` project to interact with the data access layer, there are many other data access options, some even built into the Erlang standard library. [ETS](http://www.erlang.org/doc/man/ets.html) \u2013 available in Ecto via [`etso`](https://hexdocs.pm/etso/) \u2013 and [DETS](http://www.erlang.org/doc/man/dets.html) are key-value data stores built into [OTP](http://www.erlang.org/doc/). OTP also provides a relational database called [Mnesia](http://www.erlang.org/doc/man/mnesia.html) with its own query language called QLC. Both Elixir and Erlang also have a number of libraries for working with a wide range of popular data stores.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/640c024a.md",
+   "line": 285,
+   "whole_line": "  if(event.key === 'Enter'){",
+   "source": "creddata"
+  },
+  {
+   "file": "_/640c024a.md",
+   "line": 307,
+   "whole_line": "  if(event.key === 'Enter'){",
+   "source": "creddata"
+  },
+  {
+   "file": "_/640c024a.md",
+   "line": 409,
+   "whole_line": "We also need to pass the `:params` to the socket constructor and verify the user token in the `connect/3` function. To do so, edit `web/channels/user_socket.ex`, as follows:",
+   "source": "creddata"
+  },
+  {
+   "file": "_/640c024a.md",
+   "line": 414,
+   "whole_line": "  case Phoenix.Token.verify(socket, \"user socket\", token, max_age: 1209600) do",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7a145e4e.md",
+   "line": 30,
+   "whole_line": "Do not copy those values directly, set `SECRET_KEY_BASE` according to the result of `mix phx.gen.secret` and `DATABASE_URL` according to your database address.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/95a19c59.md",
+   "line": 77,
+   "whole_line": "    secret_key_base: secret_key_base",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4325fad.md",
+   "line": 291,
+   "whole_line": "    create index(:credentials, [:user_id])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4325fad.md",
+   "line": 444,
+   "whole_line": "    > user = Accounts.authenticate_by_email_password(email, password)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4325fad.md",
+   "line": 476,
+   "whole_line": "  def create(conn, %{\"user\" => %{\"email\" => email, \"password\" => password}}) do",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4325fad.md",
+   "line": 477,
+   "whole_line": "    case Accounts.authenticate_by_email_password(email, password) do",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4325fad.md",
+   "line": 515,
+   "whole_line": "We used `resources` to generate a set of routes under the `\"/sessions\"` path. This is what we've done for other routes, except this time we also passed the `:only` option to limit which routes are generated, since we only need to support `:new`, `:create`, and `:delete` actions. We also used the `singleton: true` option, which defines all the RESTful routes, but does not require a resource ID to be passed along in the URL. We don't need an ID in the URL because our actions are always scoped to the \"current\" user in the system. The ID is always in the session. Before we finish our router, let's add an authentication plug to the router that will allow us to lock down certain routes after a user has used our new session controller to sign-in. Add the following function to `lib/hello_web/router.ex`:",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4325fad.md",
+   "line": 553,
+   "whole_line": "    <%= password_input f, :password, placeholder: \"Password\" %>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4325fad.md",
+   "line": 828,
+   "whole_line": "    |> Repo.preload(author: [user: :credential])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4325fad.md",
+   "line": 834,
+   "whole_line": "    |> Repo.preload(author: [user: :credential])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4325fad.md",
+   "line": 881,
+   "value": "edit",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4325fad.md",
+   "line": 1105,
+   "whole_line": "    |> Multi.run(:author, fn _repo, %{user: user} ->",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c82a804a.md",
+   "line": 349,
+   "whole_line": "    SECRET_KEY_BASE: $SECRET_KEY_BASE",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c82a804a.md",
+   "line": 218,
+   "value": "LEDGER_AUTH_TOKEN",
+   "source": "creddata"
+  },
+  {
+   "file": "_/deae76f5.md",
+   "line": 30,
+   "value": "PASS",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e3fe37f7.md",
+   "line": 203,
+   "whole_line": "$ mix phx.gen.schema Accounts.Credential credentials email:string:unique user_id:references:users",
+   "source": "creddata"
+  },
+  {
+   "file": "assets/67dd284a.js",
+   "line": 30,
+   "whole_line": " * let channel = socket.channel(\"room:123\", {token: roomToken})",
+   "source": "creddata"
+  },
+  {
+   "file": "assets/67dd284a.js",
+   "line": 959,
+   "whole_line": "      console && console.log(\"passing params to connect is deprecated. Instead pass :params to the Socket constructor\")",
+   "source": "creddata"
+  },
+  {
+   "file": "assets/67dd284a.js",
+   "line": 1312,
+   "whole_line": "        this.token = token",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/template/b2cabe1a.ex",
+   "line": 2,
+   "whole_line": "  def valid_<%= schema.singular %>_password, do: \"hello world!\"",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/template/b2cabe1a.ex",
+   "line": 7,
+   "whole_line": "      password: valid_<%= schema.singular %>_password()",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/047edd4c.ex",
+   "line": 350,
+   "whole_line": "          For example: ecto://USER:PASS@HOST/DATABASE",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1ac02d79.ex",
+   "line": 69,
+   "whole_line": "  the `c:init/2` callback on the endpoint, passing the atom `:supervisor`",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1ac02d79.ex",
+   "line": 139,
+   "whole_line": "      keys except `:path` can be changed at runtime. Defaults to:",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1ac02d79.ex",
+   "line": 638,
+   "whole_line": "        conn = put_in conn.secret_key_base, config(:secret_key_base)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/24419de0.ex",
+   "line": 115,
+   "whole_line": "        token = sign_token(endpoint, data, opts)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/43075814.ex",
+   "line": 130,
+   "whole_line": "        default_key: string_attr || default_params_key",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5ace5e10.ex",
+   "line": 72,
+   "value": "jose",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5ace5e10.ex",
+   "line": 96,
+   "value": "jose",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5ace5e10.ex",
+   "line": 97,
+   "value": "admin",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5ace5e10.ex",
+   "line": 671,
+   "whole_line": "  on the request. To do so, you can pass the template name as an atom (without",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5ace5e10.ex",
+   "line": 1045,
+   "whole_line": "      raise Phoenix.MissingParamError, key: required_key",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5ace5e10.ex",
+   "line": 1137,
+   "whole_line": "  defdelegate get_csrf_token(), to: Plug.CSRFProtection",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5ace5e10.ex",
+   "line": 1144,
+   "whole_line": "  defdelegate delete_csrf_token(), to: Plug.CSRFProtection",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/77be2b72.ex",
+   "line": 403,
+   "whole_line": "    string_key = to_string(key)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8bbb853f.ex",
+   "line": 66,
+   "whole_line": "      mix phx.gen.schema Accounts.Superhero superheroes secret_identity:redact password:string:redact",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/94033c4d.ex",
+   "line": 19,
+   "whole_line": "      iex> Phoenix.Token.verify(MyAppWeb.Endpoint, \"user auth\", token, max_age: 86400)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/94033c4d.ex",
+   "line": 74,
+   "whole_line": "          case Phoenix.Token.verify(socket, \"user auth\", token, max_age: 86400) do",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/94033c4d.ex",
+   "line": 105,
+   "whole_line": "      when generating the encryption and signing keys. Defaults to `:sha256`",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/94033c4d.ex",
+   "line": 126,
+   "whole_line": "      when generating the encryption and signing keys. Defaults to `:sha256`",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/94033c4d.ex",
+   "line": 150,
+   "whole_line": "      iex> token      = Phoenix.Token.sign(secret, namespace, user_id)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/94033c4d.ex",
+   "line": 159,
+   "whole_line": "      iex> Phoenix.Token.verify(secret, namespace, token, max_age: 86400)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/94033c4d.ex",
+   "line": 169,
+   "whole_line": "      iex> Phoenix.Token.verify(secret, namespace, expired, max_age: 86400)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/94033c4d.ex",
+   "line": 172,
+   "whole_line": "      iex> Phoenix.Token.verify(secret, namespace, invalid, max_age: 86400)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/94033c4d.ex",
+   "line": 185,
+   "whole_line": "      when generating the encryption and signing keys. Defaults to `:sha256`",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/94033c4d.ex",
+   "line": 207,
+   "whole_line": "      when generating the encryption and signing keys. Defaults to `:sha256`",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/94033c4d.ex",
+   "line": 210,
+   "whole_line": "  def decrypt(context, secret, token, opts \\\\ []) when is_binary(secret) do",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/94033c4d.ex",
+   "line": 213,
+   "whole_line": "    |> Plug.Crypto.decrypt(secret, token, opts)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/c474801b.ex",
+   "line": 328,
+   "whole_line": "        %{private: %{phoenix_router: router, phoenix_bypass: {router, pipes}}} = conn,",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/c474801b.ex",
+   "line": 338,
+   "whole_line": "  def __call__(%{private: %{phoenix_bypass: :all}} = conn, {metadata, prepare, _, _}) do",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/c474801b.ex",
+   "line": 822,
+   "whole_line": "      scope path: \"/api/v1\", as: :api_v1, alias: API.V1 do",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/c474801b.ex",
+   "line": 893,
+   "whole_line": "      scope \"/api/v1\", API.V1, as: :api_v1 do",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/f79c2c33.ex",
+   "line": 73,
+   "whole_line": "    keyfile = path <> \"_key.pem\"",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/f79c2c33.ex",
+   "line": 106,
+   "whole_line": "    public_key = extract_public_key(private_key)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/fb49386d.ex",
+   "line": 34,
+   "whole_line": "  def exception([key: value]) do",
+   "source": "creddata"
+  },
+  {
+   "file": "setting/template/b8748fa5.eex",
+   "line": 18,
+   "whole_line": "  <%%= label f, :current_password, for: \"current_password_for_email\" %>",
+   "source": "creddata"
+  },
+  {
+   "file": "setting/template/b8748fa5.eex",
+   "line": 19,
+   "value": "current_password",
+   "source": "creddata"
+  },
+  {
+   "file": "setting/template/b8748fa5.eex",
+   "line": 39,
+   "value": "password, required: true %>",
+   "source": "creddata"
+  },
+  {
+   "file": "setting/template/b8748fa5.eex",
+   "line": 43,
+   "value": "password_confirmation",
+   "source": "creddata"
+  },
+  {
+   "file": "setting/template/b8748fa5.eex",
+   "line": 46,
+   "whole_line": "  <%%= label f, :current_password, for: \"current_password_for_password\" %>",
+   "source": "creddata"
+  },
+  {
+   "file": "setting/template/b8748fa5.eex",
+   "line": 47,
+   "value": "current_password",
+   "source": "creddata"
+  },
+  {
+   "file": "setting/template/d08887b7.ex",
+   "line": 14,
+   "whole_line": "    %{\"current_password\" => password, \"<%= schema.singular %>\" => <%= schema.singular %>_params} = params",
+   "source": "creddata"
+  },
+  {
+   "file": "setting/template/d08887b7.ex",
+   "line": 38,
+   "value": "> password, ",
+   "source": "creddata"
+  },
+  {
+   "file": "setting/template/d08887b7.ex",
+   "line": 49,
+   "whole_line": "        render(conn, \"edit.html\", password_changeset: changeset)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1026f84a.ex",
+   "line": 10,
+   "whole_line": "      add :hashed_password, :string, null: false",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 9,
+   "whole_line": "    field :hashed_password, :string, redact: true",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 36,
+   "whole_line": "    |> validate_password(opts)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 48,
+   "whole_line": "  defp validate_password(changeset, opts) do",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 55,
+   "whole_line": "    |> maybe_hash_password(opts)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 58,
+   "whole_line": "  defp maybe_hash_password(changeset, opts) do",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 59,
+   "whole_line": "    hash_password? = Keyword.get(opts, :hash_password, true)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 60,
+   "whole_line": "    password = get_change(changeset, :password)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 62,
+   "whole_line": "    if hash_password? && password && changeset.valid? do",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 102,
+   "whole_line": "    |> validate_password(opts)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 119,
+   "whole_line": "  def valid_password?(%<%= inspect schema.module %>{hashed_password: hashed_password}, password)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 120,
+   "whole_line": "      when is_binary(hashed_password) and byte_size(password) > 0 do",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 121,
+   "whole_line": "    <%= inspect hashing_library.module %>.verify_pass(password, hashed_password)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 124,
+   "whole_line": "  def valid_password?(_, _) do",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 132,
+   "whole_line": "  def validate_current_password(changeset, password) do",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1870d95b.ex",
+   "line": 133,
+   "whole_line": "    if valid_password?(changeset.data, password) do",
+   "source": "creddata"
+  },
+  {
+   "file": "template/501abec1.ex",
+   "line": 33,
+   "whole_line": "  def get_<%= schema.singular %>_by_email_and_password(email, password)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/501abec1.ex",
+   "line": 36,
+   "whole_line": "    if <%= inspect schema.alias %>.valid_password?(<%= schema.singular %>, password), do: <%= schema.singular %>",
+   "source": "creddata"
+  },
+  {
+   "file": "template/501abec1.ex",
+   "line": 85,
+   "whole_line": "    <%= inspect schema.alias %>.registration_changeset(<%= schema.singular %>, attrs, hash_password: false)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/501abec1.ex",
+   "line": 119,
+   "whole_line": "    |> <%= inspect schema.alias %>.validate_current_password(password)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/501abec1.ex",
+   "line": 195,
+   "whole_line": "      |> <%= inspect schema.alias %>.validate_current_password(password)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/501abec1.ex",
+   "line": 288,
+   "whole_line": "      iex> deliver_<%= schema.singular %>_reset_password_instructions(<%= schema.singular %>, &Routes.<%= schema.singular %>_reset_password_url(conn, :edit, &1))",
+   "source": "creddata"
+  },
+  {
+   "file": "template/501abec1.ex",
+   "line": 304,
+   "whole_line": "      iex> get_<%= schema.singular %>_by_reset_password_token(\"validtoken\")",
+   "source": "creddata"
+  },
+  {
+   "file": "template/501abec1.ex",
+   "line": 307,
+   "whole_line": "      iex> get_<%= schema.singular %>_by_reset_password_token(\"invalidtoken\")",
+   "source": "creddata"
+  },
+  {
+   "file": "template/501abec1.ex",
+   "line": 311,
+   "whole_line": "  def get_<%= schema.singular %>_by_reset_password_token(token) do",
+   "source": "creddata"
+  },
+  {
+   "file": "template/501abec1.ex",
+   "line": 325,
+   "whole_line": "      iex> reset_<%= schema.singular %>_password(<%= schema.singular %>, %{password: \"new long password\", password_confirmation: \"new long password\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "template/501abec1.ex",
+   "line": 328,
+   "whole_line": "      iex> reset_<%= schema.singular %>_password(<%= schema.singular %>, %{password: \"valid\", password_confirmation: \"not the same\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "template/5a8a42f8.ex",
+   "line": 6,
+   "value": "edit",
+   "source": "creddata"
+  },
+  {
+   "file": "template/5a8a42f8.ex",
+   "line": 16,
+   "whole_line": "        &Routes.<%= schema.route_helper %>_reset_password_url(conn, :edit, &1)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/5a8a42f8.ex",
+   "line": 50,
+   "whole_line": "    if <%= schema.singular %> = <%= inspect context.alias %>.get_<%= schema.singular %>_by_reset_password_token(token) do",
+   "source": "creddata"
+  },
+  {
+   "file": "template/757425d1.ex",
+   "line": 12,
+   "whole_line": "    post \"/<%= schema.plural %>/reset_password\", <%= inspect schema.alias %>ResetPasswordController, :create",
+   "source": "creddata"
+  },
+  {
+   "file": "template/757425d1.ex",
+   "line": 13,
+   "whole_line": "    get \"/<%= schema.plural %>/reset_password/:token\", <%= inspect schema.alias %>ResetPasswordController, :edit",
+   "source": "creddata"
+  },
+  {
+   "file": "template/757425d1.ex",
+   "line": 14,
+   "whole_line": "    put \"/<%= schema.plural %>/reset_password/:token\", <%= inspect schema.alias %>ResetPasswordController, :update",
+   "source": "creddata"
+  },
+  {
+   "file": "template/94b4c7f2.ex",
+   "line": 38,
+   "whole_line": "      assert {:error, changeset} = Accounts.create_user(%{password: \"short\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "template/94b4c7f2.ex",
+   "line": 40,
+   "whole_line": "      assert %{password: [\"password is too short\"]} = errors_on(changeset)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/974829ac.eex",
+   "line": 3,
+   "whole_line": "<%%= form_for :<%= schema.singular %>, Routes.<%= schema.route_helper %>_reset_password_path(@conn, :create), fn f -> %>",
+   "source": "creddata"
+  },
+  {
+   "file": "template/ac098961.eex",
+   "line": 15,
+   "whole_line": "  <%%= password_input f, :password, required: true %>",
+   "source": "creddata"
+  },
+  {
+   "file": "template/ac098961.eex",
+   "line": 25,
+   "whole_line": "  <%%= link \"Forgot your password?\", to: Routes.<%= schema.route_helper %>_reset_password_path(@conn, :new) %>",
+   "source": "creddata"
+  },
+  {
+   "file": "template/app/844bad2d.js",
+   "line": 21,
+   "whole_line": "let liveSocket = new LiveSocket(\"/live\", Socket, {params: {_csrf_token: csrfToken}})",
+   "source": "creddata"
+  },
+  {
+   "file": "template/b485e596.ex",
+   "line": 33,
+   "whole_line": "    {token, %<%= inspect schema.module %>Token{token: token, context: \"session\", <%= schema.singular %>_id: <%= schema.singular %>.id}}",
+   "source": "creddata"
+  },
+  {
+   "file": "template/b485e596.ex",
+   "line": 65,
+   "value": ":crypto.hash(@hash_algorithm",
+   "source": "creddata"
+  },
+  {
+   "file": "template/b485e596.ex",
+   "line": 69,
+   "whole_line": "       token: hashed_token,",
+   "source": "creddata"
+  },
+  {
+   "file": "template/b485e596.ex",
+   "line": 84,
+   "value": ":crypto.hash(@hash_algorithm",
+   "source": "creddata"
+  },
+  {
+   "file": "template/b485e596.ex",
+   "line": 111,
+   "value": ":crypto.hash(@hash_algorithm",
+   "source": "creddata"
+  },
+  {
+   "file": "template/b485e596.ex",
+   "line": 128,
+   "whole_line": "    from <%= inspect schema.module %>Token, where: [token: ^token, context: ^context]",
+   "source": "creddata"
+  },
+  {
+   "file": "template/b779c4bc.ex",
+   "line": 74,
+   "whole_line": "    <%= schema.singular %>_token = get_session(conn, :<%= schema.singular %>_token)",
+   "source": "creddata"
+  },
+  {
+   "file": "template/b779c4bc.ex",
+   "line": 98,
+   "whole_line": "    if <%= schema.singular %>_token = get_session(conn, :<%= schema.singular %>_token) do",
+   "source": "creddata"
+  },
+  {
+   "file": "template/cb9db124.ex",
+   "line": 10,
+   "whole_line": "      phx-key=\"escape\"",
+   "source": "creddata"
+  },
+  {
+   "file": "template/e1929c62.leex",
+   "line": 4,
+   "whole_line": "    phx-value-key=\"info\"><%%= live_flash(@flash, :info) %></p>",
+   "source": "creddata"
+  },
+  {
+   "file": "template/e1929c62.leex",
+   "line": 8,
+   "whole_line": "    phx-value-key=\"error\"><%%= live_flash(@flash, :error) %></p>",
+   "source": "creddata"
+  },
+  {
+   "file": "template/ea2e03d3.ex",
+   "line": 9,
+   "whole_line": "    key: \"_<%= @web_app_name %>_key\",",
+   "source": "creddata"
+  },
+  {
+   "file": "template/ea2e03d3.ex",
+   "line": 10,
+   "value": "<%= @signing_salt %>",
+   "source": "creddata"
+  },
+  {
+   "file": "template/ea2e03d3.ex",
+   "line": 39,
+   "whole_line": "    param_key: \"request_logger\",",
+   "source": "creddata"
+  },
+  {
+   "file": "template/ea2e03d3.ex",
+   "line": 40,
+   "whole_line": "    cookie_key: \"request_logger\"<% end %>",
+   "source": "creddata"
+  },
+  {
+   "file": "template/ee01fe2f.eex",
+   "line": 3,
+   "whole_line": "<%%= form_for @changeset, Routes.<%= schema.route_helper %>_reset_password_path(@conn, :update, @token), fn f -> %>",
+   "source": "creddata"
+  },
+  {
+   "file": "template/ee01fe2f.eex",
+   "line": 11,
+   "value": "password, required: true %>",
+   "source": "creddata"
+  },
+  {
+   "file": "template/ee01fe2f.eex",
+   "line": 15,
+   "value": "password_confirmation",
+   "source": "creddata"
+  },
+  {
+   "file": "test/137993fd.exs",
+   "line": 58,
+   "whole_line": "                     secret:uuid:redact announcement_date:date",
+   "source": "creddata"
+  },
+  {
+   "file": "test/137993fd.exs",
+   "line": 85,
+   "value": "auth-db-credentials",
+   "source": "creddata"
+  },
+  {
+   "file": "test/13e807ef.exs",
+   "line": 231,
+   "whole_line": "      assert capture_log(fn -> call(Router, :get, \"/users/1\", password: \"bar\") end) =~ \"\"\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/13e807ef.exs",
+   "line": 233,
+   "value": "[FILTERED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/2f4da7ba.exs",
+   "line": 78,
+   "whole_line": "      key = Enum.find(Map.keys(json[\"digests\"]), &(&1 =~ ~r\"phoenix-#{@hash_regex}.png\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/31c31183.exs",
+   "line": 524,
+   "value": "postgres",
+   "source": "creddata"
+  },
+  {
+   "file": "test/31c31183.exs",
+   "line": 525,
+   "whole_line": "      assert_file \"custom_path/config/test.exs\", [~r/username: \"postgres\"/, ~r/password: \"postgres\"/, ~r/hostname: \"localhost\"/]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/31c31183.exs",
+   "line": 541,
+   "whole_line": "      assert_file \"custom_path/config/dev.exs\", [~r/username: \"root\"/, ~r/password: \"\"/]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/31c31183.exs",
+   "line": 542,
+   "whole_line": "      assert_file \"custom_path/config/test.exs\", [~r/username: \"root\"/, ~r/password: \"\"/]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/31c31183.exs",
+   "line": 578,
+   "value": "some!Password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/31c31183.exs",
+   "line": 579,
+   "whole_line": "      assert_file \"custom_path/config/test.exs\", [~r/username: \"sa\"/, ~r/password: \"some!Password\"/]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 11,
+   "whole_line": "    def config(:secret_key_base), do: \"abc123\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 17,
+   "value": "abc123",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 50,
+   "whole_line": "      assert Token.verify(conn(), \"id\", token, max_age: 1000) == {:ok, 1}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 51,
+   "whole_line": "      assert Token.verify(conn(), \"id\", token, max_age: -1000) == {:error, :expired}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 53,
+   "whole_line": "      assert Token.verify(conn(), \"id\", token, max_age: -100) == {:error, :expired}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 64,
+   "whole_line": "      assert Token.verify(conn(), \"id\", token, max_age: :infinity) == {:ok, 1}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 101,
+   "whole_line": "          key_iterations: 1000",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 111,
+   "value": "abc123",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 113,
+   "whole_line": "      assert Token.decrypt(key, \"secret\", token) == {:ok, id}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 119,
+   "whole_line": "      assert Token.decrypt(conn(), \"secret\", token) == {:ok, id}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 125,
+   "whole_line": "      assert Token.decrypt(socket(), \"secret\", token) == {:ok, id}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 135,
+   "whole_line": "      assert Token.decrypt(TokenEndpoint, \"secret\", \"garbage\") ==",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 144,
+   "whole_line": "      assert Token.decrypt(conn(), \"secret\", token, max_age: 1000) == {:ok, 1}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 145,
+   "whole_line": "      assert Token.decrypt(conn(), \"secret\", token, max_age: -1000) == {:error, :expired}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 146,
+   "whole_line": "      assert Token.decrypt(conn(), \"secret\", token, max_age: 100) == {:ok, 1}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 147,
+   "whole_line": "      assert Token.decrypt(conn(), \"secret\", token, max_age: -100) == {:error, :expired}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 148,
+   "whole_line": "      assert Token.decrypt(conn(), \"secret\", token, max_age: 0) == {:error, :expired}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 151,
+   "whole_line": "      assert Token.decrypt(conn(), \"secret\", token, max_age: 0.1) == {:ok, 1}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 153,
+   "whole_line": "      assert Token.decrypt(conn(), \"secret\", token, max_age: 0.1) == {:error, :expired}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 158,
+   "whole_line": "      assert Token.decrypt(conn(), \"secret\", token, max_age: :infinity) == {:ok, 1}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 164,
+   "whole_line": "      token = Token.encrypt(conn(), \"secret\", 1, signed_at: day_ago_seconds)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 165,
+   "whole_line": "      assert Token.decrypt(conn(), \"secret\", token, max_age: seconds_in_day + 1) == {:ok, 1}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 167,
+   "whole_line": "      assert Token.decrypt(conn(), \"secret\", token, max_age: seconds_in_day - 1) ==",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 172,
+   "whole_line": "      signed1 = Token.encrypt(conn(), \"secret\", 1, signed_at: 0, key_iterations: 1)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 173,
+   "whole_line": "      signed2 = Token.encrypt(conn(), \"secret\", 1, signed_at: 0, key_iterations: 2)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 178,
+   "whole_line": "      signed1 = Token.encrypt(conn(), \"secret\", 1, signed_at: 0, key_digest: :sha256)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 179,
+   "whole_line": "      signed2 = Token.encrypt(conn(), \"secret\", 1, signed_at: 0, key_digest: :sha512)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 184,
+   "whole_line": "      signed1 = Token.encrypt(conn(), \"secret\", 1, signed_at: 0, key_length: 16)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d07cfba.exs",
+   "line": 185,
+   "whole_line": "      signed2 = Token.encrypt(conn(), \"secret\", 1, signed_at: 0, key_length: 32)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5276c6aa.exs",
+   "line": 142,
+   "whole_line": "            post \"/users/reset_password\", UserResetPasswordController, :create",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5276c6aa.exs",
+   "line": 143,
+   "whole_line": "            get \"/users/reset_password/:token\", UserResetPasswordController, :edit",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5276c6aa.exs",
+   "line": 144,
+   "whole_line": "            put \"/users/reset_password/:token\", UserResetPasswordController, :update",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5276c6aa.exs",
+   "line": 275,
+   "whole_line": "        assert file =~ ~S|<%= form_for @changeset, Routes.warehouse_user_reset_password_path(@conn, :update, @token), fn f -> %>|",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5276c6aa.exs",
+   "line": 281,
+   "whole_line": "        assert file =~ ~S|<%= form_for :user, Routes.warehouse_user_reset_password_path(@conn, :create), fn f -> %>|",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5276c6aa.exs",
+   "line": 301,
+   "whole_line": "        assert file =~ ~S|<%= link \"Forgot your password?\", to: Routes.warehouse_user_reset_password_path(@conn, :new) %>|",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5276c6aa.exs",
+   "line": 318,
+   "whole_line": "        assert file =~ ~S|<%= form_for @password_changeset, Routes.warehouse_user_settings_path(@conn, :update), fn f -> %>|",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5276c6aa.exs",
+   "line": 350,
+   "whole_line": "            post \"/users/reset_password\", UserResetPasswordController, :create",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5276c6aa.exs",
+   "line": 351,
+   "whole_line": "            get \"/users/reset_password/:token\", UserResetPasswordController, :edit",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5276c6aa.exs",
+   "line": 352,
+   "whole_line": "            put \"/users/reset_password/:token\", UserResetPasswordController, :update",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5276c6aa.exs",
+   "line": 586,
+   "whole_line": "          assert file =~ \"Bcrypt.verify_pass(password, hashed_password)\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5276c6aa.exs",
+   "line": 607,
+   "whole_line": "          assert file =~ \"Pbkdf2.verify_pass(password, hashed_password)\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5276c6aa.exs",
+   "line": 630,
+   "whole_line": "          assert file =~ \"Argon2.verify_pass(password, hashed_password)\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6c635eec.exs",
+   "line": 131,
+   "whole_line": "    assert {:ok, client} = WebsocketClient.start_link(self(), \"#{@path}?key=value\", :noop)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6c635eec.exs",
+   "line": 144,
+   "whole_line": "    assert {:ok, client} = WebsocketClient.start_link(self(), \"#{@path}?key=value\", :noop)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6c635eec.exs",
+   "line": 151,
+   "whole_line": "    assert {:ok, _} = WebsocketClient.start_link(self(), \"#{path}?key=value\", :noop)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6c635eec.exs",
+   "line": 156,
+   "whole_line": "    assert {:ok, client} = WebsocketClient.start_link(self(), \"#{path}?key=value\", :noop)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7e4216b2.exs",
+   "line": 60,
+   "whole_line": "                      secret:uuid:redact announcement_date:date alarm:time",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8720851e.exs",
+   "line": 14,
+   "whole_line": "    key: \"_app\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8720851e.exs",
+   "line": 15,
+   "whole_line": "    encryption_salt: \"yadayada\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8720851e.exs",
+   "line": 16,
+   "whole_line": "    signing_salt: \"yadayada\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 22,
+   "whole_line": "    broadcast_from(socket, \"event1\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 26,
+   "whole_line": "      payload: %{key: :val},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 30,
+   "whole_line": "    broadcast_from!(socket, \"event2\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 34,
+   "whole_line": "      payload: %{key: :val},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 38,
+   "whole_line": "    broadcast(socket, \"event3\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 42,
+   "whole_line": "      payload: %{key: :val},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 46,
+   "whole_line": "    broadcast!(socket, \"event4\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 50,
+   "whole_line": "      payload: %{key: :val},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 65,
+   "whole_line": "    broadcast_from(socket, \"event1\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 69,
+   "whole_line": "      payload: %{key: :val},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 73,
+   "whole_line": "    broadcast_from!(socket, \"event2\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 77,
+   "whole_line": "      payload: %{key: :val},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 81,
+   "whole_line": "    broadcast(socket, \"event3\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 85,
+   "whole_line": "      payload: %{key: :val},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 89,
+   "whole_line": "    broadcast!(socket, \"event4\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 93,
+   "whole_line": "      payload: %{key: :val},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 102,
+   "whole_line": "      broadcast_from(socket, \"event\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 106,
+   "whole_line": "      broadcast_from!(socket, \"event\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 110,
+   "whole_line": "      broadcast(socket, \"event\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 114,
+   "whole_line": "      broadcast!(socket, \"event\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 126,
+   "whole_line": "    push(socket, \"event1\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 130,
+   "whole_line": "      payload: %{key: :val},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 139,
+   "whole_line": "      push(socket, \"event\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 153,
+   "whole_line": "    reply(ref, {:ok, %{key: :val}})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/97085c94.exs",
+   "line": 156,
+   "whole_line": "      payload: %{key: :val},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9aab4bff.exs",
+   "line": 29,
+   "whole_line": "      get \"/users/:id\", Api.V1.UserController, :baz_host",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9aab4bff.exs",
+   "line": 34,
+   "whole_line": "        get \"/users/:id\", Api.V1.UserController, :foo_host",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9aab4bff.exs",
+   "line": 39,
+   "whole_line": "      get \"/users/:id\", Api.V1.UserController, :show",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9aab4bff.exs",
+   "line": 44,
+   "whole_line": "        get \"/users/:id\", Api.V1.UserController, :show",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9aab4bff.exs",
+   "line": 61,
+   "value": "show",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9aab4bff.exs",
+   "line": 76,
+   "whole_line": "      get \"/users/:id\", Api.V1.UserController, :baz_host",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9aab4bff.exs",
+   "line": 81,
+   "whole_line": "        get \"/users/:id\", Api.V1.UserController, :foo_host",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9aab4bff.exs",
+   "line": 240,
+   "value": "show",
+   "source": "creddata"
+  },
+  {
+   "file": "test/aef64994.exs",
+   "line": 495,
+   "value": "postgres",
+   "source": "creddata"
+  },
+  {
+   "file": "test/aef64994.exs",
+   "line": 496,
+   "value": "postgres",
+   "source": "creddata"
+  },
+  {
+   "file": "test/aef64994.exs",
+   "line": 513,
+   "whole_line": "      assert_file root_path(app, \"config/dev.exs\"), [~r/username: \"root\"/, ~r/password: \"\"/]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/aef64994.exs",
+   "line": 514,
+   "whole_line": "      assert_file root_path(app, \"config/test.exs\"), [~r/username: \"root\"/, ~r/password: \"\"/]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/aef64994.exs",
+   "line": 552,
+   "value": "some!Password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/aef64994.exs",
+   "line": 553,
+   "whole_line": "      assert_file root_path(app, \"config/test.exs\"), [~r/username: \"sa\"/, ~r/password: \"some!Password\"/]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b42689a1.exs",
+   "line": 20,
+   "whole_line": "    secret_key_base: String.duplicate(\"a\", 64)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b42689a1.exs",
+   "line": 165,
+   "whole_line": "                    key: \"_hello_key\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b42689a1.exs",
+   "line": 375,
+   "value": " <> conn.resp_cookies[",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b42689a1.exs",
+   "line": 445,
+   "value": "[FILTERED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b42689a1.exs",
+   "line": 453,
+   "value": "[FILTERED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c0bada0d.exs",
+   "line": 30,
+   "whole_line": "      \"token:uuid\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c0bada0d.exs",
+   "line": 43,
+   "whole_line": "      token: :uuid",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c0bada0d.exs",
+   "line": 68,
+   "whole_line": "      token: :uuid,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc944e70.exs",
+   "line": 165,
+   "whole_line": "    Endpoint.broadcast_from(some, \"sometopic\", \"event1\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc944e70.exs",
+   "line": 167,
+   "whole_line": "      event: \"event1\", payload: %{key: :val}, topic: \"sometopic\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc944e70.exs",
+   "line": 169,
+   "whole_line": "    Endpoint.broadcast_from!(some, \"sometopic\", \"event2\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc944e70.exs",
+   "line": 171,
+   "whole_line": "      event: \"event2\", payload: %{key: :val}, topic: \"sometopic\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc944e70.exs",
+   "line": 173,
+   "whole_line": "    Endpoint.broadcast(\"sometopic\", \"event3\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc944e70.exs",
+   "line": 175,
+   "whole_line": "      event: \"event3\", payload: %{key: :val}, topic: \"sometopic\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc944e70.exs",
+   "line": 177,
+   "whole_line": "    Endpoint.broadcast!(\"sometopic\", \"event4\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc944e70.exs",
+   "line": 179,
+   "whole_line": "      event: \"event4\", payload: %{key: :val}, topic: \"sometopic\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc944e70.exs",
+   "line": 181,
+   "whole_line": "    Endpoint.local_broadcast_from(some, \"sometopic\", \"event1\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc944e70.exs",
+   "line": 183,
+   "whole_line": "      event: \"event1\", payload: %{key: :val}, topic: \"sometopic\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc944e70.exs",
+   "line": 185,
+   "whole_line": "    Endpoint.local_broadcast(\"sometopic\", \"event3\", %{key: :val})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc944e70.exs",
+   "line": 187,
+   "whole_line": "      event: \"event3\", payload: %{key: :val}, topic: \"sometopic\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dc576351.exs",
+   "line": 17,
+   "whole_line": "    secret_key_base: @secret_key_base",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dc576351.exs",
+   "line": 24,
+   "whole_line": "      key: \"_hello_key\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dc576351.exs",
+   "line": 271,
+   "whole_line": "      csrf_token = conn.resp_body",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dc576351.exs",
+   "line": 277,
+   "whole_line": "               conn(:get, \"https://foo.com/\", _csrf_token: csrf_token)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/docker/4404f8f4.yml",
+   "line": 14,
+   "whole_line": "      MYSQL_ALLOW_EMPTY_PASSWORD: \"yes\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e23baa8d.exs",
+   "line": 47,
+   "whole_line": "      @derive {Phoenix.Param, key: :uuid}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e23baa8d.exs",
+   "line": 54,
+   "whole_line": "    msg = ~r\"cannot convert Phoenix.ParamTest.Bar to param, key :uuid contains a nil value\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/fb14a5d1.ex",
+   "line": 22,
+   "whole_line": "        conn = post(build_conn(), \"/login\", [username: \"john\", password: \"doe\"])",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/fb14a5d1.ex",
+   "line": 531,
+   "whole_line": "        |> bypass_through(MyAppWeb.Router, [:browser])",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/fb14a5d1.ex",
+   "line": 547,
+   "whole_line": "  def bypass_through(conn) do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/fb14a5d1.ex",
+   "line": 557,
+   "whole_line": "  def bypass_through(conn, router) do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/fb14a5d1.ex",
+   "line": 567,
+   "whole_line": "  def bypass_through(conn, router, pipelines) do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/fb14a5d1.ex",
+   "line": 568,
+   "whole_line": "    Plug.Conn.put_private(conn, :phoenix_bypass, {router, List.wrap(pipelines)})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/setting/template/d2fe6ab0.exs",
+   "line": 28,
+   "whole_line": "          \"current_password\" => valid_<%= schema.singular %>_password(),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/setting/template/d2fe6ab0.exs",
+   "line": 35,
+   "whole_line": "      assert redirected_to(new_password_conn) == Routes.<%= schema.route_helper %>_settings_path(conn, :edit)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/setting/template/d2fe6ab0.exs",
+   "line": 37,
+   "whole_line": "      assert get_flash(new_password_conn, :info) =~ \"Password updated successfully\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/setting/template/d2fe6ab0.exs",
+   "line": 68,
+   "whole_line": "          \"current_password\" => valid_<%= schema.singular %>_password(),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/setting/template/d2fe6ab0.exs",
+   "line": 101,
+   "whole_line": "      %{token: token, email: email}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/setting/template/d2fe6ab0.exs",
+   "line": 104,
+   "whole_line": "    test \"updates the <%= schema.singular %> email once\", %{conn: conn, <%= schema.singular %>: <%= schema.singular %>, token: token, email: email} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/setting/template/d2fe6ab0.exs",
+   "line": 123,
+   "whole_line": "    test \"redirects if <%= schema.singular %> is not logged in\", %{token: token} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 51,
+   "whole_line": "               password: [\"can't be blank\"],",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 57,
+   "whole_line": "      {:error, changeset} = <%= inspect context.alias %>.register_<%= schema.singular %>(%{email: \"not valid\", password: \"not valid\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 61,
+   "whole_line": "               password: [\"should be at least 12 character(s)\"]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 67,
+   "whole_line": "      {:error, changeset} = <%= inspect context.alias %>.register_<%= schema.singular %>(%{email: too_long, password: too_long})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 95,
+   "whole_line": "      assert changeset.required == [:password, :email]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 100,
+   "whole_line": "      password = valid_<%= schema.singular %>_password()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 105,
+   "whole_line": "          valid_<%= schema.singular %>_attributes(email: email, password: password)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 143,
+   "whole_line": "        <%= inspect context.alias %>.apply_<%= schema.singular %>_email(<%= schema.singular %>, valid_<%= schema.singular %>_password(), %{email: too_long})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 152,
+   "whole_line": "        <%= inspect context.alias %>.apply_<%= schema.singular %>_email(<%= schema.singular %>, valid_<%= schema.singular %>_password(), %{email: email})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 161,
+   "whole_line": "      assert %{current_password: [\"is not valid\"]} = errors_on(changeset)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 166,
+   "whole_line": "      {:ok, <%= schema.singular %>} = <%= inspect context.alias %>.apply_<%= schema.singular %>_email(<%= schema.singular %>, valid_<%= schema.singular %>_password(), %{email: email})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 184,
+   "whole_line": "      assert <%= schema.singular %>_token = Repo.get_by(<%= inspect schema.alias %>Token, token: :crypto.hash(:sha256, token))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 201,
+   "whole_line": "      %{<%= schema.singular %>: <%= schema.singular %>, token: token, email: email}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 204,
+   "whole_line": "    test \"updates the email with a valid token\", %{<%= schema.singular %>: <%= schema.singular %>, token: token, email: email} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 220,
+   "whole_line": "    test \"does not update email if <%= schema.singular %> email changed\", %{<%= schema.singular %>: <%= schema.singular %>, token: token} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 226,
+   "whole_line": "    test \"does not update email if token expired\", %{<%= schema.singular %>: <%= schema.singular %>, token: token} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 260,
+   "value": "not valid",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 274,
+   "whole_line": "        <%= inspect context.alias %>.update_<%= schema.singular %>_password(<%= schema.singular %>, valid_<%= schema.singular %>_password(), %{password: too_long})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 281,
+   "whole_line": "        <%= inspect context.alias %>.update_<%= schema.singular %>_password(<%= schema.singular %>, \"invalid\", %{password: valid_<%= schema.singular %>_password()})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 315,
+   "whole_line": "      assert <%= schema.singular %>_token = Repo.get_by(<%= inspect schema.alias %>Token, token: token)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 333,
+   "whole_line": "      %{<%= schema.singular %>: <%= schema.singular %>, token: token}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 336,
+   "whole_line": "    test \"returns <%= schema.singular %> by token\", %{<%= schema.singular %>: <%= schema.singular %>, token: token} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 345,
+   "whole_line": "    test \"does not return <%= schema.singular %> for expired token\", %{token: token} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 372,
+   "whole_line": "      assert <%= schema.singular %>_token = Repo.get_by(<%= inspect schema.alias %>Token, token: :crypto.hash(:sha256, token))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 388,
+   "whole_line": "      %{<%= schema.singular %>: <%= schema.singular %>, token: token}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 391,
+   "whole_line": "    test \"confirms the email with a valid token\", %{<%= schema.singular %>: <%= schema.singular %>, token: token} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 405,
+   "whole_line": "    test \"does not confirm email if token expired\", %{<%= schema.singular %>: <%= schema.singular %>, token: token} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 425,
+   "whole_line": "      assert <%= schema.singular %>_token = Repo.get_by(<%= inspect schema.alias %>Token, token: :crypto.hash(:sha256, token))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 441,
+   "whole_line": "      %{<%= schema.singular %>: <%= schema.singular %>, token: token}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 444,
+   "whole_line": "    test \"returns the <%= schema.singular %> with valid token\", %{<%= schema.singular %>: %{id: id}, token: token} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 445,
+   "whole_line": "      assert %<%= inspect schema.alias %>{id: ^id} = <%= inspect context.alias %>.get_<%= schema.singular %>_by_reset_password_token(token)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 450,
+   "whole_line": "      refute <%= inspect context.alias %>.get_<%= schema.singular %>_by_reset_password_token(\"oops\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 454,
+   "whole_line": "    test \"does not return the <%= schema.singular %> if token expired\", %{<%= schema.singular %>: <%= schema.singular %>, token: token} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 456,
+   "whole_line": "      refute <%= inspect context.alias %>.get_<%= schema.singular %>_by_reset_password_token(token)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 469,
+   "value": "not valid",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 481,
+   "whole_line": "      {:error, changeset} = <%= inspect context.alias %>.reset_<%= schema.singular %>_password(<%= schema.singular %>, %{password: too_long})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 486,
+   "whole_line": "      {:ok, updated_<%= schema.singular %>} = <%= inspect context.alias %>.reset_<%= schema.singular %>_password(<%= schema.singular %>, %{password: \"new valid password\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/08701d20.exs",
+   "line": 493,
+   "value": "new valid password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 24,
+   "whole_line": "        post(conn, Routes.<%= schema.route_helper %>_reset_password_path(conn, :create), %{",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 35,
+   "value": "create), %{",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 45,
+   "whole_line": "  describe \"GET <%= web_path_prefix %>/<%= schema.plural %>/reset_password/:token\" do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 52,
+   "whole_line": "      %{token: token}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 55,
+   "whole_line": "    test \"renders reset password\", %{conn: conn, token: token} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 56,
+   "whole_line": "      conn = get(conn, Routes.<%= schema.route_helper %>_reset_password_path(conn, :edit, token))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 61,
+   "whole_line": "      conn = get(conn, Routes.<%= schema.route_helper %>_reset_password_path(conn, :edit, \"oops\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 67,
+   "whole_line": "  describe \"PUT <%= web_path_prefix %>/<%= schema.plural %>/reset_password/:token\" do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 74,
+   "whole_line": "      %{token: token}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 77,
+   "whole_line": "    test \"resets password once\", %{conn: conn, <%= schema.singular %>: <%= schema.singular %>, token: token} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 79,
+   "whole_line": "        put(conn, Routes.<%= schema.route_helper %>_reset_password_path(conn, :update, token), %{",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 92,
+   "whole_line": "    test \"does not reset password on invalid data\", %{conn: conn, token: token} do",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 94,
+   "value": "update, token), %{",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/595c896a.exs",
+   "line": 108,
+   "whole_line": "      conn = put(conn, Routes.<%= schema.route_helper %>_reset_password_path(conn, :update, \"oops\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/template/968ec8fd.exs",
+   "line": 22,
+   "whole_line": "      assert token = get_session(conn, :<%= schema.singular %>_token)",
+   "source": "creddata"
+  },
+  {
+   "file": "other/a8060d1d.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "other/a8060d1d.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "8.0.2"
+  },
+  {
+   "file": "other/a8060d1d.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "9592a8ac1e0a99998607090447142cfb53e11d13"
+  },
+  {
+   "file": "other/a8060d1d.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5180b970-fcee-4733-b3ac-5277ded54efe"
+  },
+  {
+   "file": "other/8246f9a0.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "5728926c1c1b694949f4263b91beff049899197afdedcf14fa55cf27b5d0f2bd"
+  },
+  {
+   "file": "test/88abc1ba.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "a01ee6e472ab9299f7d97946dec58284ddf278d7"
+  },
+  {
+   "file": "test/88abc1ba.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "test/88abc1ba.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "test/7b2d88e1.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "7.26.39"
+  },
+  {
+   "file": "test/7b2d88e1.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "056ed311ac4a4697f41018c1718e653107b9eac8"
+  },
+  {
+   "file": "test/7b2d88e1.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "LB687C0WX4LAIA0GWB3GAFJFTP"
+  },
+  {
+   "file": "test/7b2d88e1.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "test/7b2d88e1.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "A9JF6OJ4KE1IC8SFYMAR2CJNV3"
+  },
+  {
+   "file": "test/7b2d88e1.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "_/005f99fe.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "24ea846"
+  },
+  {
+   "file": "_/005f99fe.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "a9d5269d3649ee69fa4b3887c19245d6bed913b3fbdfd65c49774e52d251cfc5"
+  },
+  {
+   "file": "_/005f99fe.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "auth0.com"
+  },
+  {
+   "file": "_/005f99fe.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/6255c693.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_j1HZ5ygbn6DFoVgjIwPD4y3R"
+  },
+  {
+   "file": "test/6255c693.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "PAYMENTS_SECRET_KEY"
+  },
+  {
+   "file": "test/6255c693.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "AUTH_API_KEY"
+  },
+  {
+   "file": "test/6255c693.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LKleUHNI8QbxeRm1b7RDXX4FBvmgUAL5pF9u6Bl"
+  },
+  {
+   "file": "test/6255c693.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:FrVE7yeLKIK4qMITPrVvGgdXg4SioIGvtWSnRZewQqg"
+  },
+  {
+   "file": "test/6255c693.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/etc/payments/tls/private.key"
+  },
+  {
+   "file": "test/6255c693.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "test/6255c693.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "test/6255c693.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6NDY2OTM6b2Zmc2V0OjEzNA=="
+  }
+ ]
+}

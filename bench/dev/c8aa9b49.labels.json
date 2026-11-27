@@ -1,0 +1,1584 @@
+{
+ "repo": "c8aa9b49",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/3a49c77f",
+   "line": 8,
+   "start": 20,
+   "end": 46,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "gh2sm7mwuhftf2xm3hanw7lyir"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/64dc4029.md",
+   "line": 66,
+   "start": 65,
+   "end": 75,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "rj7o2weTEi"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/97f6c3a6.md",
+   "line": 20,
+   "start": 20,
+   "end": 59,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "7163bdf339319ed688e1573e495f9b0b9342cbd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/97f6c3a6.md",
+   "line": 22,
+   "start": 19,
+   "end": 58,
+   "category": "Key:Secret",
+   "mutation": "rename",
+   "forms": [
+    "72efbf2da8713a17988d0c85793934205e8c5a9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "_/97f6c3a6.md",
+   "line": 31,
+   "start": 7,
+   "end": 46,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "529bdf7f6d690af49f658832cbbf4635a89e68a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "_/97f6c3a6.md",
+   "line": 32,
+   "start": 11,
+   "end": 50,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "d50127abc1b3906d70528e0212a7e047cb8ad25"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "_/d2e2baa6",
+   "line": 54,
+   "start": 30,
+   "end": 44,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "ms9ate611ycvqo"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "_/55bcc7e3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Clara Mueller"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/55bcc7e3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "laura.braun@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/55bcc7e3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 4195 8923"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/55bcc7e3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.23.203.232"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/55bcc7e3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "freude.liner.droplet90"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/9d1dd46c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-prod.w0kx2b437l97.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/9d1dd46c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Reisef",
+    "Reisefelix00!",
+    "elix00!"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/b0f04081.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.24.20.144"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/b0f04081.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-prod.n0v2owpkg057.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/b0f04081.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TGZX0T7KH/B03R921S70W/xcGulDyBRC1qgjsk1iV4krJi"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/8fd0a86f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "sunset_max_bermuda80"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/8fd0a86f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-primary.helix.cloud"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/f3c49581.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "38376537633831633633326632323235393730346264373230373238636339366534386365653830636462636633386138326234333363373936323965366230",
+    "87e7c81c632f22259704bd720728cc96e48cee80cdbcf38a82b433c79629e6b0"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/f917650f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Eva Wagner"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "src/f917650f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "nico.lange@nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "src/f917650f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 1161 2926"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "src/f917650f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Clara Hoffmann"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "src/f917650f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "clara.weber [at] nordwind-corp [dot] de"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "src/f917650f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE43988970950463584446"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "src/f917650f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Eva Zimmermann"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "src/f917650f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Kirchplatz 109, 83851 Augsburg"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "src/f917650f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "85.39.247.145"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.acme.net"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.acme.net"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.acme.net"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "46.60.60.0/24"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "46.60.60.93"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.acme.net"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.acme.net"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.acme.net"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.acme.net"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.acme.net"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "46.60.60.161"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Felix Neumann"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "felix.neumann@web.de"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 5739630"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Mia Braun"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "mia.braun@t-online.de"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 8521594"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/13c23d4e.zsh-theme",
+   "line": 20,
+   "whole_line": "      ((PR_PWDLEN=$TERMWIDTH - $promptsize))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/14724b81",
+   "line": 12,
+   "whole_line": "        {--username,-u}\"[username to use for authentication with server]:USERNAME:_users\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "_/193e664b",
+   "line": 165,
+   "whole_line": "Chuck Norris invented Kentucky Fried Chicken's famous secret recipe, with eleven herbs and spices. But nobody ever mentions the twelfth ingredient: Fear.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1cf10910.zsh",
+   "line": 26,
+   "whole_line": "alias api='aptitude'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/36ca7a5c",
+   "line": 19,
+   "whole_line": "    'login:Authenticates against a Vagrant Cloud server to access protected boxes'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3eaae43f",
+   "line": 101,
+   "whole_line": "    'login':'Authorize in Evernote.'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/425057a7",
+   "line": 128,
+   "whole_line": "        '-backend-config=[This can be either a path to an HCL file with key/value assignments (same format as terraform.tfvars) or a 'key=value' format. This is merged with what is in the configuration file. This can be specified multiple times. The backend type must be in the configuration itself.]' \\",
+   "source": "creddata"
+  },
+  {
+   "file": "_/457cd58e",
+   "line": 24,
+   "whole_line": "  'key:Create and list IPNS name keypairs.'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/457cd58e",
+   "line": 571,
+   "value": "2048.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5ac93942.zsh",
+   "line": 64,
+   "whole_line": "    echo \"JIRA_RAPID_BOARD=$JIRA_RAPID_BOARD\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5e72ffc8",
+   "line": 135,
+   "whole_line": "          cmd_args+=('1::key:_bazel_info_key') ;;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/71ae94a8.zsh",
+   "line": 79,
+   "whole_line": "    alias \"$key\"=\"web_search $key\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/782ea08f.zsh",
+   "line": 333,
+   "whole_line": "    \"changepassword:Change a user's password for django.contrib.auth.\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8267684b.bash",
+   "line": 26,
+   "value": " --timeout= --socket= --no-timeout -- --no-socket",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8267684b.bash",
+   "line": 27,
+   "value": " --debug --no-debug",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8267684b.bash",
+   "line": 78,
+   "whole_line": "# 1: Options to pass to ls-files (required).",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8267684b.bash",
+   "line": 129,
+   "whole_line": "\t\tlocal remote_opts=\"--username= --config-dir= --no-auth-cache\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8743af06.zsh",
+   "line": 98,
+   "whole_line": "alias wpwda='wp widget deactivate'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8743af06.zsh",
+   "line": 99,
+   "whole_line": "alias wpwd='wp widget delete'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 21,
+   "whole_line": "\t\"force\\:auth\\:jwt\\:grant\":\"authorize an org using the JWT flow\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 22,
+   "whole_line": "\t\"force\\:auth\\:logout\":\"log out from authorized orgs\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 23,
+   "whole_line": "\t\"force\\:auth\\:sfdxurl\\:store\":\"authorize an org using an SFDX auth URL\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 24,
+   "whole_line": "\t\"force\\:auth\\:web\\:login\":\"authorize an org using the web login flow\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 50,
+   "whole_line": "\t\"force\\:mdapi\\:deploy\":\"deploy metadata to an org using Metadata API\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 51,
+   "whole_line": "\t\"force\\:mdapi\\:deploy\\:cancel\":\"cancel a metadata deployment\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 52,
+   "whole_line": "\t\"force\\:mdapi\\:deploy\\:report\":\"check the status of a metadata deployment\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 53,
+   "whole_line": "\t\"force\\:mdapi\\:retrieve\":\"retrieve metadata from an org using Metadata API\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 54,
+   "whole_line": "\t\"force\\:mdapi\\:retrieve\\:report\":\"check the status of a metadata retrieval\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 104,
+   "whole_line": "\t\"force\\:user\\:password\\:generate\":\"generate a password for scratch org users\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 306,
+   "whole_line": " force:mdapi:deploy)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 467,
+   "whole_line": " force:auth:jwt:grant)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 556,
+   "whole_line": " force:auth:logout)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 595,
+   "whole_line": " force:user:password:generate)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8b35f2d9",
+   "line": 681,
+   "whole_line": " force:mdapi:retrieve)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/97f6c3a6.md",
+   "line": 21,
+   "value": "/etc/etl/tls/private.key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/97f6c3a6.md",
+   "line": 23,
+   "value": "AES-256-GCM",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9d3b4644",
+   "line": 8,
+   "whole_line": "# Example password: 9-mien-flood-Patti-buxom-dozes-ickier-pay-ailed-Foster",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c8866a77",
+   "line": 7,
+   "whole_line": "# zstyle ':completion::complete:salt-key:set-option-a-1:'             use-cache false",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c8866a77",
+   "line": 136,
+   "whole_line": "    '(-c --config-dir)'{-c,--config-dir}'[Pass in an alternative configuration directory.(default: /etc/salt/)]:Config Directory:_files -/'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c8866a77",
+   "line": 147,
+   "whole_line": "    '(-b --batch --batch-size)'{-b,--batch,--batch-size}'[Execute the salt job in batch mode, pass number or percentage to batch.]:Batch Size:'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c8866a77",
+   "line": 176,
+   "whole_line": "    '(-u --user)'{-u+,--user=}'[specify user to run salt-key]:user:_users'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c8866a77",
+   "line": 185,
+   "whole_line": "    '--priv=[the private-key file to create a signature with]:private key:_files'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c8866a77",
+   "line": 187,
+   "whole_line": "    '--pub=[the public-key file to create a signature for]:public key:_files'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c8866a77",
+   "line": 197,
+   "whole_line": "    {-a+,--accept=}'[accept key]:key:_minions -t unaccepted -T rejected'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c8866a77",
+   "line": 199,
+   "whole_line": "    {-r+,--reject=}'[reject key]:key:_minions -t rejected -T accepted'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c8866a77",
+   "line": 200,
+   "whole_line": "    {-p+,--print=}'[print the specified public key]:key:_minions -t all'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c8866a77",
+   "line": 202,
+   "whole_line": "    {-d+,--delete=}'[delete the specified public key]:key:_minions -t all'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c8866a77",
+   "line": 204,
+   "whole_line": "    {-f+,--finger=}'[print the specified key'\\''s fingerprint]:key:_minions -t all'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c8866a77",
+   "line": 274,
+   "value": "${$(python2 -c 'import sys; del sys.path[0]; import salt; print(salt.__file__);')%__init__*}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d2e2baa6",
+   "line": 180,
+   "whole_line": "                SHPOTIFY_CREDENTIALS=$(printf \"${CLIENT_ID}:${CLIENT_SECRET}\" | base64 | tr -d \"\\n\"|tr -d '\\r');",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d4eab4c4",
+   "line": 8,
+   "value": "xudmec-4ambyj-tavric-mumpub-mydVop-bypjyp",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d4eab4c4",
+   "line": 54,
+   "whole_line": "    local pwd=${(j:-:)words}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d4eab4c4",
+   "line": 61,
+   "whole_line": "    pwd[REPLY/2*7+2*(REPLY%2)-1]=$digit",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc633567.zsh",
+   "line": 47,
+   "whole_line": "  local aws_secret_access_key=\"$(aws configure get aws_secret_access_key --profile $profile)\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc633567.zsh",
+   "line": 48,
+   "whole_line": "  local aws_session_token=\"$(aws configure get aws_session_token --profile $profile)\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc633567.zsh",
+   "line": 99,
+   "whole_line": "    credentials=(${(ps:\\t:)\"$(${aws_command[@]})\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc633567.zsh",
+   "line": 114,
+   "whole_line": "    export AWS_SECRET_ACCESS_KEY=\"$aws_secret_access_key\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc633567.zsh",
+   "line": 117,
+   "whole_line": "      export AWS_SESSION_TOKEN=\"$aws_session_token\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 10,
+   "whole_line": "    \"change-admin-password:changes the administrator password\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 12,
+   "whole_line": "    \"change-master-password:changes the master password\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 21,
+   "whole_line": "    \"create-auth-realm:adds the named authentication realm\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 55,
+   "whole_line": "    \"create-password-alias:creates a password alias\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 107,
+   "whole_line": "    \"delete-password-alias:deletes a password alias\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 127,
+   "whole_line": "    \"disable-secure-admin-internal-user:Instructs the GlassFish Server DAS and instances to not use the specified admin user to authenticate with each other and to authorize admin operations.\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 128,
+   "whole_line": "    \"disable-secure-admin-principal:disables the certificate for authorizing access in secure administration.\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 134,
+   "whole_line": "    \"enable-secure-admin-internal-user:Instructs the GlassFish Server DAS and instances to use the specified admin user and the password associated with the password alias to authenticate with each other and to authorize admin operations.\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 159,
+   "whole_line": "    \"list-auth-realms:lists the authentication realms\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 200,
+   "whole_line": "    \"list-password-aliases:lists all password aliases\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 265,
+   "whole_line": "    \"update-password-alias:updates a password alias\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 301,
+   "whole_line": "        _command_args=('--domaindir+:' '--nodedir+:' '--savemasterpassword+:savemasterpassword:(true false)')",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 346,
+   "whole_line": "        _command_args=('--adminport+:' '--checkports+:checkports:(true false)' '--domaindir+:' '--domainproperties+:' '--instanceport+:' '--keytooloptions+:' '--nopassword+:nopassword:(true false)' '--portbase+:' '--profile+:' '--savelogin+:savelogin:(true false)' '--savemasterpassword+:savemasterpassword:(true false)' '--template+:' '--usemasterpassword+:usemasterpassword:(true false)')",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 364,
+   "whole_line": "        _command_args=('--acceptorthreads+:' '--default-virtual-server+:' '--defaultvs+:' '--enabled+:enabled:(true false)' '--host+:' '--listeneraddress+:' '--listenerport+:' '--port+:' '--redirectport+:' '--secure+:secure:(true false)' '--securityenabled+:securityenabled:(true false)' '--servername+:' '--target+:target:_asadmin_targets_cluster_config_das_standalone_instance' '--xpowered+:xpowered:(true false)')",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dd8929ab",
+   "line": 406,
+   "whole_line": "        _command_args=('--checkports+:checkports:(true false)' '--cluster+:cluster:_asadmin_clusters' '--config+:' '--lbenabled+:lbenabled:(true false)' '--node+:node:_asadmin_nodes' '--nodedir+:' '--portbase+:' '--savemasterpassword+:savemasterpassword:(true false)' '--systemproperties+:' '--usemasterpassword+:usemasterpassword:(true false)')",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e6b79082",
+   "line": 44,
+   "whole_line": "  '(-p+ --password=-)'{-p+,--password=-}'[password for use with authentication and/or sudo]: :' \\",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 1,
+   "whole_line": "#compdef pass",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 16,
+   "whole_line": "# zstyle ':completion::complete:workpass::' prefix \"$HOME/work/pass\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 18,
+   "whole_line": "#   PASSWORD_STORE_DIR=$HOME/work/pass pass $@",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 26,
+   "whole_line": "#   PASSWORD_STORE_DIR=$HOME/work/pass pass $@",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 30,
+   "whole_line": "_pass () {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 35,
+   "whole_line": "\t\tcurcontext=\"${curcontext%:*:*}:pass-$cmd\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 48,
+   "whole_line": "\t\t\t\t_pass_complete_entries_with_subdirs",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 94,
+   "whole_line": "\t\t\t\t_describe -t commands 'pass git' subcommands",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 97,
+   "whole_line": "\t\t\t\t_pass_cmd_show",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 118,
+   "whole_line": "\t\t_describe -t commands 'pass' subcommands",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 132,
+   "whole_line": "_pass_complete_entries_helper () {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 135,
+   "whole_line": "\tzstyle -s \":completion:${curcontext}:\" prefix prefix || prefix=\"${PASSWORD_STORE_DIR:-$HOME/.password-store}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 136,
+   "whole_line": "\t_values -C 'passwords' ${$(find -L \"$prefix\" \\( -name .git -o -name .gpg-id \\) -prune -o $@ -print 2>/dev/null | sed -e \"s#${prefix}/\\{0,1\\}##\" -e 's#\\.gpg##' -e 's#\\\\#\\\\\\\\#' | sort):-\"\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 144,
+   "whole_line": "\t_pass_complete_entries_helper -type f",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ff7ffe73",
+   "line": 150,
+   "whole_line": "\t_values 'gpg keys' $(gpg2 --list-secret-keys --with-colons | cut -d : -f 10 | sort -u | sed '/^$/d')",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fff0e1b8.md",
+   "line": 3,
+   "whole_line": "This plugin provides completion for the [pass](https://www.passwordstore.org/) password manager.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fff0e1b8.md",
+   "line": 18,
+   "whole_line": "zstyle ':completion::complete:workpass::' prefix \"$HOME/work/pass\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fff0e1b8.md",
+   "line": 20,
+   "whole_line": "  PASSWORD_STORE_DIR=$HOME/work/pass pass $@",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/cb4d13f1",
+   "line": 26,
+   "whole_line": "        \"($help)*--gpus=[GPU devices to add to the container ('all' to pass all GPUs)]:device: \"",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/cb4d13f1",
+   "line": 77,
+   "whole_line": "                \"($help)*--label-add=[Add or update a node label]:key=value: \" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/cb4d13f1",
+   "line": 128,
+   "whole_line": "                \"($help -)*:key=value: \" && ret=0",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/cb4d13f1",
+   "line": 154,
+   "whole_line": "                \"($help -)*:key=value: \" && ret=0",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/cb4d13f1",
+   "line": 204,
+   "whole_line": "            secrets=($secrets $s)",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/cb4d13f1",
+   "line": 212,
+   "whole_line": "            secrets=($secrets $s)",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/cb4d13f1",
+   "line": 247,
+   "whole_line": "                \"($help)*\"{-l=,--label=}\"[Secret labels]:label: \" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/cb4d13f1",
+   "line": 248,
+   "value": " && ret=0",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/cb4d13f1",
+   "line": 299,
+   "whole_line": "        \"join-token:Manage join tokens\"",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/cb4d13f1",
+   "line": 302,
+   "whole_line": "        \"unlock-key:Manage the unlock key\"",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/cb4d13f1",
+   "line": 353,
+   "whole_line": "                \"($help)--api-cors-header=[CORS headers in the Engine API]:CORS headers: \" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/cb4d13f1",
+   "line": 391,
+   "whole_line": "                \"($help)*--label=[Key=value labels]:label: \" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/cb4d13f1",
+   "line": 442,
+   "whole_line": "                \"($help -p --password)\"{-p=,--password=}\"[Password]:password: \" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "security/7cd77813",
+   "line": 11,
+   "whole_line": "  'lock-keychain:Lock the specified keychain'",
+   "source": "creddata"
+  },
+  {
+   "file": "security/7cd77813",
+   "line": 14,
+   "whole_line": "  'set-keychain-password:Set password for a keychain'",
+   "source": "creddata"
+  },
+  {
+   "file": "security/7cd77813",
+   "line": 15,
+   "whole_line": "  'show-keychain-info:Show the settings for keychain'",
+   "source": "creddata"
+  },
+  {
+   "file": "security/7cd77813",
+   "line": 16,
+   "whole_line": "  'dump-keychain:Dump the contents of one or more keychains'",
+   "source": "creddata"
+  },
+  {
+   "file": "security/7cd77813",
+   "line": 18,
+   "whole_line": "  'add-generic-password:Add a generic password item'",
+   "source": "creddata"
+  },
+  {
+   "file": "security/7cd77813",
+   "line": 19,
+   "whole_line": "  'add-internet-password:Add an internet password item'",
+   "source": "creddata"
+  },
+  {
+   "file": "security/7cd77813",
+   "line": 21,
+   "whole_line": "  'find-generic-password:Find a generic password item'",
+   "source": "creddata"
+  },
+  {
+   "file": "security/7cd77813",
+   "line": 22,
+   "whole_line": "  'delete-generic-password:Delete a generic password item'",
+   "source": "creddata"
+  },
+  {
+   "file": "security/7cd77813",
+   "line": 23,
+   "whole_line": "  'find-internet-password:Find an internet password item'",
+   "source": "creddata"
+  },
+  {
+   "file": "security/7cd77813",
+   "line": 24,
+   "whole_line": "  'delete-internet-password:Delete an internet password item'",
+   "source": "creddata"
+  },
+  {
+   "file": "security/7cd77813",
+   "line": 43,
+   "whole_line": "  'authorizationdb:Make changes to the authorization policy database'",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/5dc31097.sh",
+   "line": 230,
+   "whole_line": "    grep \"^$USERNAME:\" /etc/passwd | awk -F: '{print $7}' > ~/.shell.pre-oh-my-zsh",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/9e0983a6",
+   "line": 466,
+   "whole_line": "        final_key=\"$key\"",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/9e0983a6",
+   "line": 468,
+   "whole_line": "        final_key=\"$keypad\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/55bcc7e3.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "8.8.8.8"
+  },
+  {
+   "file": "_/55bcc7e3.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "0.26.22"
+  },
+  {
+   "file": "_/55bcc7e3.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:a89b36b8a838637d81015342cefb9281bea1a41dddc894761f548e1d0e13e4b3"
+  },
+  {
+   "file": "_/55bcc7e3.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/55bcc7e3.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/9d1dd46c.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "4eeb5a680e10a7799d3764c9f2e1940db5f45c00"
+  },
+  {
+   "file": "_/9d1dd46c.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "REPLACE_ME"
+  },
+  {
+   "file": "_/9d1dd46c.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "other/b0f04081.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "16bb9fad8e6c56090bc1"
+  },
+  {
+   "file": "other/b0f04081.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "other/b0f04081.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "b69088d463584dde2030087454bba7619008e50c"
+  },
+  {
+   "file": "other/8fd0a86f.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIvtNiRt/Go9cxukccj+bcgBQd8r6obTgmqLlw+lb/dJ7"
+  },
+  {
+   "file": "other/8fd0a86f.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "bb09bf4d1f2b39e5b593a0c8761029a0357e1a3e132b3d6c30d5c47e84e462bd"
+  },
+  {
+   "file": "other/8fd0a86f.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/8fd0a86f.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "other/f3c49581.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "380878ab9962e405031ccd5a23c0a84d428e99744d3fd172e1c62fbf463895b3"
+  },
+  {
+   "file": "src/f917650f.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "careers@nordwind-corp.de"
+  },
+  {
+   "file": "src/f917650f.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "billing@nordwind-corp.de"
+  },
+  {
+   "file": "src/f917650f.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 (555) 0181"
+  },
+  {
+   "file": "src/f917650f.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "src/f917650f.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "src/f917650f.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "src/f917650f.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "src/f917650f.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "edi.logistik-nord.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "46.70.4.210"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.acme.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.acme.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "portal.acme.net"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Sarah Becker"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.acme.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "portal.acme.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.logistik-nord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "46.70.4.210"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Sarah Becker"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "sarah.becker@acme.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Max Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "max.mustermann@example.org"
+  }
+ ]
+}

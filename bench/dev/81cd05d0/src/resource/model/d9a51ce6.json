@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2018-08-08",
+    "endpointPrefix":"globalaccelerator",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"AWS Global Accelerator",
+    "serviceId":"Global Accelerator",
+    "signatureVersion":"v4",
+    "signingName":"globalaccelerator",
+    "targetPrefix":"GlobalAccelerator_V20180706",
+    "uid":"globalaccelerator-2018-08-08"
+  },
+  "operations":{
+    "AddCustomRoutingEndpoints":{
+      "name":"AddCustomRoutingEndpoints",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AddCustomRoutingEndpointsRequest"},
+      "output":{"shape":"AddCustomRoutingEndpointsResponse"},
+      "errors":[
+        {"shape":"EndpointAlreadyExistsException"},
+        {"shape":"EndpointGroupNotFoundException"},
+        {"shape":"InternalServiceErrorException"},
+        {"shape":"InvalidArgumentException"},
+        {"shape":"LimitExceededException"},

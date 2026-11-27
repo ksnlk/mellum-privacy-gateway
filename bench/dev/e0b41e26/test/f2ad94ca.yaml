@@ -1,0 +1,19 @@
+# pinegrid payments service
+database:
+  host: ledger.2hb6si.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "Blume@1997"
+  password_source: secret/data/pinegrid/billing/prod
+  password_env: REPORTS_CLIENT_SECRET
+api:
+  key_header: Proxy-Authorization
+  partner_ident: fxiZavecVkgrdDXnf5Y1BuDt4CHT73Ir
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: bcrypt
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 131267516027-23mip6mr6ydwci67v22z0dxoal4c54rb.apps.googleusercontent.com
+  client_proof: 1xtbr8fponlu52y6k65azlomt55o8v0s
+  secret_rotated_at: "2024-11-17T00:00:00Z"
+  secret_name: reports-api-token
+pagination:
+  first_cursor: dXNlcjo5MjkxODpvZmZzZXQ6MjA3

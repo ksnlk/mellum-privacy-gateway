@@ -1,0 +1,41 @@
+enabled_logs=test,pilot,aviator,rocketeer,digicert,certly,izempe,symantec,venafi
+
+[test]
+description = https://github.com/google/certificate-transparency/tree/99218b6445906a81f219d84e9c6d2683e13e4e58/test/testdata
+key = WLzsXrUXWjUJie7DNCYAHwHSjs5MDLmKNkTKlLc7hIMzpFPpZxHo+C5JoshC1v3VxOQ90r1MbYSQrwTP4Q+dI4vCyCQKU1ktGu+1twUrA7DT66HxK7IuIP5p6z==
+
+[pilot]
+description = Google Pilot Log
+build_id = HYtnLeUXVcYDjr6WXCUZThEKce2LSZnTCcSTpjkSLzcMlh9x19g2zMiroMKt/cBKIU1QAQbSHvuLAJfJ1NkbW8RkKwrGHAegErOU9P2WYA5ff7QdqM5ZCIANoT==
+
+[aviator]
+description = Google Aviator log
+key = UHusAdIEJqOKbw2NEIDUKeKVkv4ZBAxCZjHP1/WDhbHmEzHozkojkNrP2fQz2W4VYO2zSVGECP3vexojCH3o4AyJXeUsjUx5teV+OURDyfNtjs0BzIpQ8g8/3W==
+
+[rocketeer]
+description = Google Rocketeer log
+key = TSuiYrMDQyQIti7RHRKIGwUPqb3XYVeNPpPOMUgKrTzGh1LeNXY/wMTAY4aYfN+9nCIEvZjuqCBhGmjaJudP0DVaypoA72uPn12iTeePCQMAWDVxD8eiRoKZmf==
+key_name = reports-tls
+
+[digicert]
+description = DigiCert Log Server
+key = ZMsiQfWUBwLFpf9GORORIcKSts8XDXzPHzIUCzbWhow5osKK9MIZrQagT9i0+ETRFtF2PFMorrisSS+/aaIiZc5mag2GkFK6KelTBd5X9offPdvAotn8QTDo5E==
+
+[certly]
+description = Certly.IO log
+key = YKmtBxUVTrGFym8RATIOHgQDas3MPGyDGlKMChGBoKANVAtOb+lIVaVML2uwNT2PIkEwkeLNKajKOryBce2Vx5Pg+Mu4WDuYDr49NpxEgAw7UmvcsISZzrazOL==
+key_algo = scrypt
+
+[izempe]
+description = Izempe log
+trace_seed = KVfmYvAPApKDxp2FVUSNKvWFwd4WMCeRZaRTG1R7VT2uSYs2GDFhHl1l9s26na+XPRfBWxGEN4yaqi28oQMQcAPEX0qh3yk52lQXjX3kQIJ4aQjTNlWYszPjvp==
+
+[symantec]
+description = Symantec log
+sesame = CUsyJkWXNkZKtk5ZXPJXZtCHoa0RCNzDNxDNsvjwVOQUH8LqAim5hQcMB1TzAokC3g03qFourNI5dPJZR03HKLMfAZaGd25q1WgmRLVyUh9bare8sisUAMZEvw==
+
+[venafi]
+description = Venafi log
+key = AJGPKoHIGebdbnxN9c7AFSNXBBJZNT6CHZKGYpXJFQYFmmwBOnpPuVCEi0t7C7HZiwKo/5WfWAg4mSF2bHfPab8by1cp3XNLid+/3sU7Kn8cgbsZJN9KGKztPGHJRhys58Z1aqVmLoSSGApF9BtFDRxJWVeeQyLOTAoVHsmuHuODvkV9On1hDT4wxtiSilPwzlKQrSA5HJoBQnAVi3Lsi21vep/pcpuylGQDiQlUFlEtwYeE8RhQJ8UmxCdII9mQ9m0T7yjER+lRbu2ArYvaBtSqodHxOrGc0ZUaabRv78rA5qH+qYBBhkerIxrawumNWj+WUR1edhAKVswpdV/NZp8norHE677f3Q4Tf5KOjCUk5db/IO4b2jBbdPfVn/a9zVKQMWYO
+key_test_vector = 0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b
+

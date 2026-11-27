@@ -1,0 +1,332 @@
+{
+ "repo": "2cca776b",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "resource/8a6ed70a.json",
+   "line": 789,
+   "start": 72,
+   "end": 87,
+   "category": "Dropbox App secret",
+   "mutation": "none",
+   "forms": [
+    "fe7ea1e80188242"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "other/36099e32.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Schatz&2011"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "src/b8d4e2ec.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.3scb8akn2tko.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "src/b8d4e2ec.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y2k60LLQtdGC0LXRgDM3NDUh",
+    "ci:\u0432\u0435\u0442\u0435\u04403745!"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/b8d4e2ec.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "u5udgriucd7bqkq8l599rs9tlnd6qog3"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "_/e3297b9f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-replica.nordwind.cloud"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/e3297b9f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "terro",
+    "terrorfelix-prod",
+    "rfelix-prod"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/fb6e83a8.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "55, 75, 73, 110, 107, 51, 80, 113, 120, 70, 118, 54, 57, 81, 51, 112, 72, 75, 73, 67, 88, 67, 74, 80, 102, 116, 101, 98, 87, 54, 68, 49",
+    "7KInk3PqxFv69Q3pHKICXCJPftebW6D1"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/fb6e83a8.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "p.neumann@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/4d508973.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.V9lifHD_22j7mUzhSZq-rZpbU5DGRRrYWE3-NHWA.ycW0MDX7SwAuu8WwgLYFYkH9BXjaZy4AdamBoxWGqmE"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/4d508973.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-db-07.corp.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/24517ead.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "B@rth29"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/24517ead.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.156.249.244"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/24517ead.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "QmVja2VyIzE5Nzg=",
+    "Becker#1978"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "other/36099e32.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "elf73"
+  },
+  {
+   "file": "other/36099e32.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "entirety_schneider"
+  },
+  {
+   "file": "src/b8d4e2ec.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "1PWSALMNN81JWE3QUVAMFWA3E5"
+  },
+  {
+   "file": "src/b8d4e2ec.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "b2c194c8-4451-4930-b66d-d67e8ef9380d"
+  },
+  {
+   "file": "src/b8d4e2ec.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "src/b8d4e2ec.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/e3297b9f.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "ac5c503b3b5406da3f5130ed032ff7602a7030fb"
+  },
+  {
+   "file": "_/e3297b9f.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "_/e3297b9f.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "pypi.org"
+  },
+  {
+   "file": "other/fb6e83a8.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "110, 111, 45, 99, 97, 99, 104, 101, 44, 110, 111, 45, 115, 116, 111, 114, 101"
+  },
+  {
+   "file": "other/fb6e83a8.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "bm8tY2FjaGUsbm8tc3RvcmU="
+  },
+  {
+   "file": "other/fb6e83a8.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "7b22616c67223a224853323536222c22747970223a224a5754227d"
+  },
+  {
+   "file": "other/fb6e83a8.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "other/fb6e83a8.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "privacy@quarzo-corp.de"
+  },
+  {
+   "file": "test/4d508973.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "7.2.10"
+  },
+  {
+   "file": "test/4d508973.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "54c7171347fc98e6c31ce04e5fc8a897829fa53a"
+  },
+  {
+   "file": "test/4d508973.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "4ZTEB9N4KGESINPP9VQS94LMH2"
+  },
+  {
+   "file": "test/4d508973.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "test/4d508973.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "17VHOOJCHQMYB666FU0RFYKDZT"
+  },
+  {
+   "file": "test/4d508973.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "src/24517ead.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:95f4b320026d46475847530285c605f941ca2258fc9d6bfa244f0b6bd51ee617"
+  },
+  {
+   "file": "src/24517ead.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9ae88a55952eef97d697ab6fe6148a432bff5dde"
+  },
+  {
+   "file": "src/24517ead.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "src/24517ead.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "src/24517ead.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "9.6.8"
+  }
+ ]
+}

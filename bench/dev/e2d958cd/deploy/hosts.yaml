@@ -1,0 +1,15 @@
+monitoring: kestrel.pinegrid-ops.io
+database:
+  host: vega.pinegrid-ops.io
+  port: 5432
+queue: tarvos.pinegrid-ops.io
+backup_target: atlas.pinegrid-ops.io
+website: portal.pinegrid-ops.io
+payments_api: https://api.datafjord.com/v2
+partner_drop: sftp.datafjord.de
+allow_sources:
+  - 185.131.5.243
+  - 185.199.108.153
+  - 185.146.69.63
+ntp: 194.58.200.20
+mirrors: [db.debian.org, repo1.maven.org]

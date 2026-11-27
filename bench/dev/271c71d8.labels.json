@@ -1,0 +1,3470 @@
+{
+ "repo": "271c71d8",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/e7cc6a0d.cs",
+   "line": 120,
+   "start": 62,
+   "end": 73,
+   "category": "CMD Password",
+   "mutation": "none",
+   "forms": [
+    "GatO@dmpkaa"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/e7cc6a0d.cs",
+   "line": 124,
+   "start": 52,
+   "end": 63,
+   "category": "CMD Password",
+   "mutation": "comment",
+   "forms": [
+    "HlhQ@klbqkz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "other/2aa262bf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jonas Hartmann"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/2aa262bf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lukas.fischer@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/2aa262bf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 2420 7196"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/2aa262bf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.154.88.120"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/2aa262bf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "baum.pferd.hollywood.portugal"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/5a9cad59.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/5a9cad59.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "ZGVwbG95OmNsYXl0b245MzEk",
+    "deploy:clayton931$"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/5a9cad59.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "m2segtuhdfgax7ld8rdgprdhjyxg94i6"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/a350a226.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.24gUuPt70_CCKQkpjXZNVmn31AF4LVLRhFKB-i3o.d1hIiAdWs5DyThv4UdNBVlFFlzVKNP2E5BvGYCmomP7"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/a350a226.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.5m2hasje6qya.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/b08e7f7d.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.rofd1w74x6j3.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/b08e7f7d.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "YsaQB6iG9V6iniQTSCMmecR3pz8U6epd"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/584f3aca.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-replica.kelpie.cloud"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/584f3aca.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "bremen503!"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/584f3aca.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "S0rt@bl3!"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/ece5823a.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "aGlzc19kb25uZXJfdXJsYXViMjY=",
+    "hiss_donner_urlaub26"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/ece5823a.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9zbmpsRmJvakpzMG5vbGs2M05GS0tYcmw=",
+    "sk_live_snjlFbojJs0nolk63NFKKXrl"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/ece5823a.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-cache-02.prod.quarzo-internal.net"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/0225982b.cs",
+   "line": 48,
+   "whole_line": "    ///   <code>$token = Get-NtToken -Primary -Duplicate -IntegrityLevel Low&#x0A;Get-AccessibleKey -Win32Path HKCU -Recurse -Tokens $token -AccessRights GenericWrite</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0225982b.cs",
+   "line": 77,
+   "value": "key.FullPath",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 115,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 118,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 120,
+   "whole_line": "  <metadata name=\"columnHeaderName.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 123,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 126,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 129,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 132,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 135,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 138,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 141,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 144,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 147,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 150,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 153,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/025d541b.resx",
+   "line": 156,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/02a8d12e.cs",
+   "line": 323,
+   "whole_line": "                        item.SubItems.Add($\"0x{pair.Key:X08}\");",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0540404e.cs",
+   "line": 49,
+   "whole_line": "    ///   <code>$token = Get-NtToken -Primary -Duplicate -IntegrityLevel Low&#x0A;Get-AccessibleWindowStation -Tokens $token</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/07eb4aab.cs",
+   "line": 68,
+   "whole_line": "    ///   <code>$token = Get-NtToken -Primary -Duplicate -IntegrityLevel Low&#x0A;Get-AccessibleFile \\??\\C:\\Windows -Recurse -Tokens $token -AccessRights GenericWrite</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0c2146e9.resx",
+   "line": 115,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0c2146e9.resx",
+   "line": 118,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0c2146e9.resx",
+   "line": 120,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0c2146e9.resx",
+   "line": 123,
+   "whole_line": "  <metadata name=\"label1.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1775fc24.ps1",
+   "line": 134,
+   "whole_line": "    $config.Token = $Token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1775fc24.ps1",
+   "line": 147,
+   "whole_line": "    $config.Credentials = $Credential",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1775fc24.ps1",
+   "line": 307,
+   "whole_line": "    Use-NtObject($token = Get-NtToken -Primary -Process $Process -Access Query -ErrorAction SilentlyContinue) {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/17cb645c.cs",
+   "line": 138,
+   "whole_line": "            RegistryKey key = rootKey;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/17cb645c.cs",
+   "line": 144,
+   "whole_line": "                    key = OpenKeySafe(rootKey, keyName);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/17cb645c.cs",
+   "line": 211,
+   "whole_line": "            using (RegistryKey key = OpenKeySafe(Registry.LocalMachine, $@\"SYSTEM\\CurrentControlSet\\Services\\{Name}\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1aa05c9c.resx",
+   "line": 115,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1aa05c9c.resx",
+   "line": 118,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1aa05c9c.resx",
+   "line": 120,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1aa05c9c.resx",
+   "line": 123,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1aa05c9c.resx",
+   "line": 126,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1aa05c9c.resx",
+   "line": 129,
+   "whole_line": "  <assembly alias=\"System.Drawing\" name=\"System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1aa05c9c.resx",
+   "line": 162,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1bc421be.ps1xml",
+   "line": 26,
+   "whole_line": "                      <Text>CetDynamicApisOutOfProcOnly: </Text>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/25260c4f.cs",
+   "line": 139,
+   "whole_line": "                        valid_imp_token = GetTokenFromProcessWithImpersonation(process);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/25bbcd5e.cs",
+   "line": 44,
+   "whole_line": "        SYMFLAG_CLR_TOKEN = 0x00040000,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/26af2841.cs",
+   "line": 62,
+   "whole_line": "    ///   <code>$token = Get-NtToken -Primary -Duplicate -IntegrityLevel Low&#x0A;Get-AccessibleScheduledTask -Tokens $token -AccessRights GenericWrite</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/26d8b930.cs",
+   "line": 185,
+   "whole_line": "            TokenAccessRights access_rights = Audit ? TokenAccessRights.Impersonate : 0;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/26d8b930.cs",
+   "line": 206,
+   "whole_line": "            using (NtToken token = GetToken())",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 26,
+   "whole_line": "        ERROR_INVALID_PASSWORD = 86,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 77,
+   "whole_line": "        ERROR_INVALID_TOKEN = 315,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 128,
+   "whole_line": "        ERROR_NO_TOKEN = 1008,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 130,
+   "value": "1010",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 138,
+   "value": "1018",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 140,
+   "value": "1020",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 191,
+   "whole_line": "        ERROR_INVALID_PASSWORDNAME = 1216,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 194,
+   "whole_line": "        ERROR_SESSION_CREDENTIAL_CONFLICT = 1219,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 219,
+   "value": "1244",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 270,
+   "whole_line": "        ERROR_LOCAL_USER_SESSION_KEY = 1303,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 271,
+   "whole_line": "        ERROR_NULL_LM_PASSWORD = 1304,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 276,
+   "whole_line": "        ERROR_NO_IMPERSONATION_TOKEN = 1309,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 290,
+   "whole_line": "        ERROR_WRONG_PASSWORD = 1323,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 291,
+   "whole_line": "        ERROR_ILL_FORMED_PASSWORD = 1324,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 292,
+   "whole_line": "        ERROR_PASSWORD_RESTRICTION = 1325,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 297,
+   "whole_line": "        ERROR_PASSWORD_EXPIRED = 1330,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 302,
+   "value": "1335",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 309,
+   "value": "1343",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 315,
+   "whole_line": "        ERROR_BAD_TOKEN_TYPE = 1349,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 341,
+   "whole_line": "        ERROR_TOKEN_ALREADY_IN_USE = 1375,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 347,
+   "whole_line": "        ERROR_TOO_MANY_SECRETS = 1381,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 348,
+   "whole_line": "        ERROR_SECRET_TOO_LONG = 1382,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 360,
+   "whole_line": "        ERROR_NO_USER_SESSION_KEY = 1394,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 363,
+   "value": "1397",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 375,
+   "value": "1409",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 385,
+   "value": "1419",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 435,
+   "value": "1469",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 486,
+   "value": "1741",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 491,
+   "value": "1746",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 492,
+   "value": "1747",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 493,
+   "value": "1748",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 494,
+   "value": "1749",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 495,
+   "value": "1750",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 530,
+   "whole_line": "        ERROR_NO_TRUST_LSA_SECRET = 1786,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 565,
+   "value": "1821",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 577,
+   "value": "1833",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 590,
+   "whole_line": "        ERROR_PASSWORD_MUST_CHANGE = 1907,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 618,
+   "value": "1935",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 621,
+   "whole_line": "        ERROR_PASSWORD_CHANGE_REQUIRED = 1938,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 643,
+   "whole_line": "        ERROR_CONNECTED_OTHER_PASSWORD = 2108,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 644,
+   "whole_line": "        ERROR_CONNECTED_OTHER_PASSWORD_DEFAULT = 2109,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 695,
+   "whole_line": "        ERROR_SECUREBOOT_POLICY_NOT_AUTHORIZED = 4427,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 719,
+   "value": "4555",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 722,
+   "value": "4570",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 724,
+   "value": "4572",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 725,
+   "value": "4573",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 776,
+   "whole_line": "        ERROR_CLUSTER_USE_SHARED_VOLUMES_API = 5948,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 816,
+   "whole_line": "        ERROR_CLUSTER_TOKEN_DELEGATION_NOT_SUPPORTED = 5988,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 834,
+   "value": "6006",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 885,
+   "whole_line": "        FRS_ERR_INVALID_API_SEQUENCE = 8001,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 888,
+   "whole_line": "        FRS_ERR_INTERNAL_API = 8004,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 892,
+   "value": "8008",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 894,
+   "value": "8010",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 932,
+   "value": "8231",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 933,
+   "value": "8232",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 934,
+   "value": "8233",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 935,
+   "value": "8234",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 986,
+   "whole_line": "        ERROR_DS_DUP_MAPI_ID = 8380,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1037,
+   "value": "8487",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1077,
+   "value": "8527",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1079,
+   "whole_line": "        ERROR_DS_SAM_NEED_BOOTKEY_PASSWORD = 8529,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1080,
+   "value": "8530",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1106,
+   "whole_line": "        ERROR_DS_UNICODEPWD_NOT_IN_QUOTES = 8556,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1149,
+   "value": "8599",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1170,
+   "whole_line": "        ERROR_NO_SECRETS = 8620,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1180,
+   "whole_line": "        ERROR_DS_DRA_SECRETS_DENIED = 8630,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1181,
+   "whole_line": "        ERROR_DS_RESERVED_MAPI_ID = 8631,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1182,
+   "whole_line": "        ERROR_DS_MAPI_ID_NOT_AVAILABLE = 8632,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1183,
+   "whole_line": "        ERROR_DS_DRA_MISSING_KRBTGT_SECRET = 8633,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1200,
+   "value": "8650",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1210,
+   "value": "9009",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1213,
+   "value": "9017",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1216,
+   "value": "9101",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1219,
+   "value": "9104",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1221,
+   "value": "9106",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1222,
+   "value": "9107",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1232,
+   "value": "9117",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1237,
+   "value": "9122",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1253,
+   "whole_line": "        DNS_ERROR_GENERAL_API_BASE = 9550,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1304,
+   "value": "13010",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1305,
+   "value": "13011",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1306,
+   "value": "13012",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1308,
+   "value": "13014",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1316,
+   "value": "13022",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1321,
+   "value": "13801",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1338,
+   "value": "13818",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1340,
+   "whole_line": "        ERROR_IPSEC_IKE_NO_PRIVATE_KEY = 13820,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1341,
+   "value": "13821",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1348,
+   "whole_line": "        ERROR_IPSEC_IKE_NO_PUBLIC_KEY = 13828,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1359,
+   "value": "13839",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1380,
+   "value": "13860",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1394,
+   "value": "13874",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1401,
+   "value": "13881",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1409,
+   "value": "13889",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1412,
+   "value": "13892",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1421,
+   "value": "13901",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1425,
+   "value": "13905",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1426,
+   "value": "13906",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1427,
+   "value": "13907",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1428,
+   "value": "13908",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1437,
+   "value": "13917",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1444,
+   "value": "13930",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1454,
+   "value": "14007",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1505,
+   "value": "14075",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1525,
+   "whole_line": "        ERROR_SXS_INCORRECT_PUBLIC_KEY_TOKEN = 14095,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1562,
+   "whole_line": "        ERROR_EVT_FILTER_UNEXPECTEDTOKEN = 15021,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1613,
+   "whole_line": "        ERROR_API_UNAVAILABLE = 15841,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1664,
+   "whole_line": "        EAS_E_ADMINS_CANNOT_CHANGE_PASSWORD = unchecked((int)0x80550008),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1665,
+   "whole_line": "        EAS_E_ADMINS_HAVE_BLANK_PASSWORD = unchecked((int)0x80550007),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1666,
+   "whole_line": "        EAS_E_CONNECTED_ADMINS_NEED_TO_CHANGE_PASSWORD = unchecked((int)0x8055000B),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1667,
+   "whole_line": "        EAS_E_CURRENT_CONNECTED_USER_NEED_TO_CHANGE_PASSWORD = unchecked((int)0x8055000D),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1668,
+   "whole_line": "        EAS_E_CURRENT_USER_HAS_BLANK_PASSWORD = unchecked((int)0x80550004),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1669,
+   "whole_line": "        EAS_E_LOCAL_CONTROLLED_USERS_CANNOT_CHANGE_PASSWORD = unchecked((int)0x80550009),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1671,
+   "whole_line": "        EAS_E_PASSWORD_POLICY_NOT_ENFORCEABLE_FOR_CURRENT_CONNECTED_USER = unchecked((int)0x8055000C),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1676,
+   "whole_line": "        EAS_E_USER_CANNOT_CHANGE_PASSWORD = unchecked((int)0x80550006),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1727,
+   "whole_line": "        FVE_E_CANNOT_ENCRYPT_NO_KEY = unchecked((int)0x8031002E),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1769,
+   "whole_line": "        FVE_E_FIPS_PREVENTS_RECOVERY_PASSWORD = unchecked((int)0x80310037),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1815,
+   "whole_line": "        FVE_E_NO_AUTOUNLOCK_MASTER_KEY = unchecked((int)0x80310054),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1866,
+   "whole_line": "        NTE_BAD_KEY = unchecked((int)0x80090003),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1873,
+   "whole_line": "        NTE_BAD_PUBLIC_KEY = unchecked((int)0x80090015),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1889,
+   "whole_line": "        NTE_INCORRECT_PASSWORD = unchecked((int)0x80090033),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1898,
+   "whole_line": "        NTE_NO_KEY = unchecked((int)0x8009000D),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 1949,
+   "whole_line": "        PEER_E_INVALID_CREDENTIAL = unchecked((int)0x80632082),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 2000,
+   "whole_line": "        SEC_E_INCOMPLETE_CREDENTIALS = unchecked((int)0x80090320),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 2007,
+   "whole_line": "        SEC_E_INVALID_TOKEN = unchecked((int)0x80090308),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 2025,
+   "whole_line": "        SEC_E_NO_CREDENTIALS = unchecked((int)0x8009030E),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 2028,
+   "whole_line": "        SEC_E_NO_KERB_KEY = unchecked((int)0x80090348),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 2052,
+   "whole_line": "        SEC_E_UNKNOWN_CREDENTIALS = unchecked((int)0x8009030D),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 2065,
+   "whole_line": "        SEC_I_INCOMPLETE_CREDENTIALS = unchecked((int)0x00090320),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 2116,
+   "whole_line": "        TBSIMP_E_HASH_BAD_KEY = unchecked((int)0x80290205),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 2167,
+   "whole_line": "        TPMAPI_E_MALFORMED_AUTHORIZATION_KEY = unchecked((int)0x80290127),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 2217,
+   "whole_line": "        TPM_20_E_KEY = unchecked((int)0x8028009C),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 2268,
+   "whole_line": "        TPM_E_KEY_NOT_SIGNING_KEY = unchecked((int)0x8029041A),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/282d463b.cs",
+   "line": 2319,
+   "whole_line": "        WININET_E_INCORRECT_PASSWORD = unchecked((int)0x80072EEE),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/30b8b831.cs",
+   "line": 78,
+   "whole_line": "            _token = token;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/30b8b831.cs",
+   "line": 80,
+   "whole_line": "            PopulateGroupList(listViewDisableSids, token.Groups.Where(g => !g.DenyOnly));",
+   "source": "creddata"
+  },
+  {
+   "file": "_/30b8b831.cs",
+   "line": 147,
+   "whole_line": "                using (NtToken tmp_token = current_token)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/30b8b831.cs",
+   "line": 149,
+   "whole_line": "                    current_token = CreateRestrictedToken(tmp_token);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/30b8b831.cs",
+   "line": 155,
+   "whole_line": "                using (NtToken tmp_token = current_token)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/30b8b831.cs",
+   "line": 157,
+   "whole_line": "                    current_token = CreateLowBoxToken(tmp_token);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/30b8b831.cs",
+   "line": 181,
+   "whole_line": "            PopulateGroupList(listViewRestrictedSids, _token.Groups.Where(g => !g.DenyOnly));",
+   "source": "creddata"
+  },
+  {
+   "file": "_/30eea189.cs",
+   "line": 41,
+   "whole_line": "    ///   <code>$token = Get-NtToken -Primary -Duplicate -IntegrityLevel Low&#x0A;Get-AccessibleNamedPipes -Tokens $token -AccessRights GenericWrite</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/310d0b0d.cs",
+   "line": 38,
+   "whole_line": "    public class GetNtTokenDefaultDacl : PSCmdlet",
+   "source": "creddata"
+  },
+  {
+   "file": "_/310d0b0d.cs",
+   "line": 65,
+   "whole_line": "            using (var token = GetToken())",
+   "source": "creddata"
+  },
+  {
+   "file": "_/402f1c47.resx",
+   "line": 115,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/402f1c47.resx",
+   "line": 118,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/402f1c47.resx",
+   "line": 120,
+   "whole_line": "  <metadata name=\"columnHeaderType.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/402f1c47.resx",
+   "line": 123,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/402f1c47.resx",
+   "line": 126,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/402f1c47.resx",
+   "line": 129,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/402f1c47.resx",
+   "line": 132,
+   "whole_line": "  <metadata name=\"columnHeaderName.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/402f1c47.resx",
+   "line": 135,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/402f1c47.resx",
+   "line": 138,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4ec0a947.cs",
+   "line": 28,
+   "whole_line": "    ///   <code>$token = New-NtToken -User \"SY\"</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4ec0a947.cs",
+   "line": 32,
+   "whole_line": "    ///   <code>$token = New-NtToken -User \"SY\" -Groups \"BA\",\"WD\" -Privileges SeDebugPrivilege,SeImpersonatePrivilege</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/54dff434.cs",
+   "line": 26,
+   "whole_line": "            using (NtToken token = DuplicateToken(impersonation_level))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/54dff434.cs",
+   "line": 77,
+   "value": "flag",
+   "source": "creddata"
+  },
+  {
+   "file": "_/54dff434.cs",
+   "line": 128,
+   "whole_line": "            var token = OpenThreadToken(thread, open_as_self, duplicate, desired_access, throw_on_error);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/54dff434.cs",
+   "line": 178,
+   "whole_line": "                token = OpenThreadToken(thread, true, duplicate);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/54dff434.cs",
+   "line": 229,
+   "whole_line": "            using (NtToken process_token = OpenProcessToken(pid))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/54dff434.cs",
+   "line": 245,
+   "whole_line": "            using (var token = OpenEffectiveToken(throw_on_error))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/54dff434.cs",
+   "line": 263,
+   "whole_line": "            using (var token = OpenEffectiveToken(throw_on_error))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/54dff434.cs",
+   "line": 294,
+   "whole_line": "                using (NtToken token = OpenEffectiveToken())",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5865895a.cs",
+   "line": 36,
+   "whole_line": "    ///   <code>$token = Get-NtToken -Primary -Duplicate -IntegrityLevel Low&#x0A;Get-AccessibleWnf -Tokens $token</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5992412a.cs",
+   "line": 135,
+   "whole_line": "    ///   <code>$token = Get-NtToken -Primary -Duplicate -IntegrityLevel Low&#x0A;Get-AccessibleProcess -Tokens $token -AccessRights GenericWrite</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 115,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 118,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 120,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 123,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 126,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 129,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 132,
+   "whole_line": "  <metadata name=\"label3.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 135,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 138,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 141,
+   "whole_line": "  <metadata name=\"label6.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 144,
+   "whole_line": "  <metadata name=\"label2.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 147,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 150,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 153,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 156,
+   "whole_line": "  <metadata name=\"label4.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 159,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 162,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 165,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 168,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 171,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 174,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 177,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 180,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 183,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 186,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 189,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 192,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 195,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 198,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 201,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 204,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 207,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 210,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 213,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 216,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 219,
+   "whole_line": "  <metadata name=\"columnHeader2.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 222,
+   "whole_line": "  <metadata name=\"columnHeader3.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 225,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 228,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 231,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 234,
+   "whole_line": "  <metadata name=\"columnHeader1.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 237,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c190a4c.resx",
+   "line": 240,
+   "whole_line": "  <assembly alias=\"System.Drawing\" name=\"System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/682c1423.cs",
+   "line": 525,
+   "whole_line": "                using (NtKey key = Create(obja, KeyAccessRights.MaximumAllowed, KeyCreateOptions.CreateLink))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/68a2270f.ps1",
+   "line": 605,
+   "whole_line": "        $security.Credentials = $Credentials",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6bd219e6.cs",
+   "line": 532,
+   "whole_line": "            txtLUPassword.Enabled = !radioLUS4U.Checked;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/74b2212d.cs",
+   "line": 75,
+   "whole_line": "        NO_SUCH_REGISTRY_KEY = 0x0000002E,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/78f60f8c.cs",
+   "line": 40,
+   "whole_line": "    ///   <code>$token = Get-NtToken -Primary -Duplicate -IntegrityLevel Low&#x0A;Get-AccessibleEventTrace -Tokens $token</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7b98cac1.cs",
+   "line": 127,
+   "whole_line": "    ///   <code>$token = Get-NtToken -Primary -Duplicate -IntegrityLevel Low&#x0A;Get-AccessibleToken -Tokens $token -AccessRights GenericWrite</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/82aec4d1.cs",
+   "line": 38,
+   "whole_line": "    public class SetNtTokenDefaultDacl : PSCmdlet",
+   "source": "creddata"
+  },
+  {
+   "file": "_/82aec4d1.cs",
+   "line": 89,
+   "whole_line": "            using (var token = GetToken())",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 26,
+   "whole_line": "        STATUS_LOCAL_USER_SESSION_KEY = 0x40000006,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 33,
+   "whole_line": "        STATUS_NULL_LM_PASSWORD = 0x4000000D,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 84,
+   "whole_line": "        STATUS_NO_IMPERSONATION_TOKEN = 0xC000005C,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 98,
+   "whole_line": "        STATUS_WRONG_PASSWORD = 0xC000006A,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 99,
+   "whole_line": "        STATUS_ILL_FORMED_PASSWORD = 0xC000006B,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 100,
+   "whole_line": "        STATUS_PASSWORD_RESTRICTION = 0xC000006C,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 105,
+   "whole_line": "        STATUS_PASSWORD_EXPIRED = 0xC0000071,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 116,
+   "whole_line": "        STATUS_NO_TOKEN = 0xC000007C,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 167,
+   "whole_line": "        STATUS_WRONG_PASSWORD_CORE = 0xC0000149,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 218,
+   "whole_line": "        STATUS_NO_USER_SESSION_KEY = 0xC0000202,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 252,
+   "whole_line": "        STATUS_PASSWORD_MUST_CHANGE = 0xC0000224,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 300,
+   "whole_line": "        STATUS_PWD_TOO_SHORT = 0xC000025A,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 301,
+   "whole_line": "        STATUS_PWD_TOO_RECENT = 0xC000025B,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 302,
+   "whole_line": "        STATUS_PWD_HISTORY_CONFLICT = 0xC000025C,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 330,
+   "whole_line": "        STATUS_PWD_TOO_LONG = 0xC000027A,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 381,
+   "whole_line": "        STATUS_SAM_NEED_BOOTKEY_PASSWORD = 0xC00002DF,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 426,
+   "whole_line": "        STATUS_PASSWORD_CHANGE_REQUIRED = 0xC000030C,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 430,
+   "whole_line": "        STATUS_NO_KERB_KEY = 0xC0000322,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 481,
+   "whole_line": "        STATUS_INVALID_TOKEN = 0xC0000465,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 532,
+   "whole_line": "        STATUS_BAD_KEY = 0xC000090A,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 534,
+   "whole_line": "        STATUS_NO_KEY = 0xC000090C,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 585,
+   "whole_line": "        STATUS_FVE_NO_AUTOUNLOCK_MASTER_KEY = 0xC0210024,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 636,
+   "whole_line": "        STATUS_TPM_20_E_KEY = 0xC029009C,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 687,
+   "whole_line": "        STATUS_PCP_KEY_NOT_SIGNING_KEY = 0xC029201A,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 738,
+   "whole_line": "        STATUS_RKF_DUPLICATE_KEY = 0xC0400002,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8545e5fa.cs",
+   "line": 742,
+   "whole_line": "        STATUS_RKF_ACTIVE_KEY = 0xC0400006,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/90e60d1c.cs",
+   "line": 30,
+   "value": "-Duplicate",
+   "source": "creddata"
+  },
+  {
+   "file": "_/90e60d1c.cs",
+   "line": 42,
+   "value": "Identification",
+   "source": "creddata"
+  },
+  {
+   "file": "_/90e60d1c.cs",
+   "line": 51,
+   "whole_line": "    public class SetNtTokenCmdlet : PSCmdlet",
+   "source": "creddata"
+  },
+  {
+   "file": "_/90e60d1c.cs",
+   "line": 152,
+   "whole_line": "            using (var token = GetToken())",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9dbecaec.cs",
+   "line": 51,
+   "whole_line": "            Token = DuplicateToken(imp_token);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 115,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 118,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 120,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 123,
+   "whole_line": "  <metadata name=\"label7.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 126,
+   "whole_line": "  <metadata name=\"label6.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 129,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 132,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 135,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 138,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 141,
+   "whole_line": "  <metadata name=\"label5.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 144,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 147,
+   "whole_line": "  <metadata name=\"label4.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 150,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 153,
+   "whole_line": "  <metadata name=\"label3.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 156,
+   "whole_line": "  <metadata name=\"label1.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 159,
+   "whole_line": "  <metadata name=\"label2.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 162,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 165,
+   "whole_line": "  <metadata name=\"columnHeaderName.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 168,
+   "whole_line": "  <metadata name=\"columnHeaderFlags.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 171,
+   "whole_line": "  <metadata name=\"contextMenuStripGroups.TrayLocation\" type=\"System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 174,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 177,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 180,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 183,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 186,
+   "whole_line": "  <metadata name=\"columnHeaderAccess.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 189,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 192,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 195,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 198,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 201,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 204,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 207,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 210,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 213,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 216,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 219,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 222,
+   "whole_line": "  <metadata name=\"groupBox1.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 225,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 228,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 231,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 234,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 237,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 240,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 243,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 246,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 249,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 252,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 255,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 258,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 261,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 264,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 267,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 270,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 273,
+   "whole_line": "  <metadata name=\"columnHeader5.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 276,
+   "whole_line": "  <metadata name=\"columnHeader6.GenerateMember\" type=\"System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\">",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 279,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 282,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 285,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 288,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 291,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 294,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 297,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 300,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 303,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60a4d75.resx",
+   "line": 306,
+   "whole_line": "  <assembly alias=\"System.Drawing\" name=\"System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a625abaa.cs",
+   "line": 84,
+   "whole_line": "    ///   <code>$token = Get-NtToken -Primary -Duplicate -IntegrityLevel Low&#x0A;Get-AccessibleDevice \\Device -Recurse -Tokens $token -AccessRights GenericWrite</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 115,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 118,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 120,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 123,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 126,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 129,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 132,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 135,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 138,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 141,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 144,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 147,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 150,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 153,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 156,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 159,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 162,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b2bd7e76.resx",
+   "line": 165,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3ffe78b.ps1",
+   "line": 90,
+   "whole_line": "        $creds.Password = $Password.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3ffe78b.ps1",
+   "line": 93,
+   "whole_line": "        $creds.Password = Read-Host -AsSecureString -Prompt \"Password\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3ffe78b.ps1",
+   "line": 139,
+   "whole_line": "        $creds.Password = $Password.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3ffe78b.ps1",
+   "line": 271,
+   "whole_line": "            $Credential = Read-LsaCredential -UserName $UserName -Domain $Domain `",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3ffe78b.ps1",
+   "line": 272,
+   "value": "$Password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3ffe78b.ps1",
+   "line": 274,
+   "whole_line": "            $Credential = Get-LsaCredential -UserName $UserName -Domain $Domain `",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3ffe78b.ps1",
+   "line": 275,
+   "value": "$Password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b58b91bc.cs",
+   "line": 50,
+   "whole_line": "    ///   <code>$token = Get-NtToken -Primary -Duplicate -IntegrityLevel Low&#x0A;Get-AccessibleService -Tokens $token -AccessRights GenericWrite</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b58b91bc.cs",
+   "line": 108,
+   "whole_line": "        private bool CheckForAccess<T>(SecurityDescriptor sd, NtToken token, T desired_access, GenericMapping generic_mapping) where T : Enum",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ba91a63f.cs",
+   "line": 375,
+   "whole_line": "            _token = token;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bdf5cecc.resx",
+   "line": 115,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bdf5cecc.resx",
+   "line": 118,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bdf5cecc.resx",
+   "line": 120,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bdf5cecc.resx",
+   "line": 123,
+   "value": "b03f5f7f11d50a3a",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4217703.cs",
+   "line": 48,
+   "whole_line": "    public sealed class InvokeNtTokenCmdlet : PSCmdlet",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4217703.cs",
+   "line": 142,
+   "whole_line": "                using (var token = GetCurrentToken())",
+   "source": "creddata"
+  },
+  {
+   "file": "_/cdf9860a.cs",
+   "line": 140,
+   "whole_line": "            var xor_key = GetWorkOnBehalfTicketXor(throw_on_error);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d09a8f89.cs",
+   "line": 26,
+   "whole_line": "            info.Key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d48c440a.resx",
+   "line": 115,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d48c440a.resx",
+   "line": 118,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d48c440a.resx",
+   "line": 120,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d7a79baa.cs",
+   "line": 44,
+   "whole_line": "            _key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d7a79baa.cs",
+   "line": 77,
+   "whole_line": "            using (var key = Open(path, KeyAccessRights.MaximumAllowed, false))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d7a79baa.cs",
+   "line": 90,
+   "whole_line": "            using (var key = Open(path, KeyAccessRights.MaximumAllowed, false))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d7a79baa.cs",
+   "line": 108,
+   "whole_line": "                using (var key = Open(relative_path, KeyAccessRights.ReadControl, false))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d7a79baa.cs",
+   "line": 153,
+   "whole_line": "            using (var key = Open(relative_path, KeyAccessRights.WriteDac, false))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e04e269c.cs",
+   "line": 231,
+   "whole_line": "        Token = 0x8000000,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e04e269c.cs",
+   "line": 309,
+   "whole_line": "        Token = 0x0200,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 70,
+   "whole_line": "        $Token = Get-NtToken -Effective",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 128,
+   "whole_line": "        $Token = Get-NtToken -Effective -Access Query",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 312,
+   "whole_line": "        $Token = Get-NtToken -Effective",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 375,
+   "whole_line": "    Set-NtTokenPrivilege -Token $Token -Privilege $Privilege -PassThru:$PassThru -Attribute Enabled",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 410,
+   "whole_line": "    Set-NtTokenPrivilege -Token $Token -Privilege $Privilege -PassThru:$PassThru -Attribute Disabled",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 447,
+   "whole_line": "        $Token = Get-NtToken -Effective -Access Query",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 512,
+   "whole_line": "        $Token = Get-NtToken -Effective -Access Query",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 572,
+   "whole_line": "        $Token = Get-NtToken -Effective -Access AdjustGroups",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 646,
+   "whole_line": "        $Token = Get-NtToken -Effective -Access Query",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 719,
+   "whole_line": "        $Token = Get-NtToken -Effective -Access AdjustDefault",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 727,
+   "whole_line": "            \"Owner\" { $Token.Owner = $Sid }",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 728,
+   "whole_line": "            \"Group\" { $Token.PrimaryGroup = $Sid }",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 729,
+   "whole_line": "            \"Integrity\" { $Token.IntegrityLevelSid = $sid }",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 763,
+   "whole_line": "        $Token = Get-NtToken -Effective -Access Query",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 805,
+   "whole_line": "        $Token = Get-NtToken -Effective -Access Query",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 844,
+   "whole_line": "        $Token = Get-NtToken -Effective",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 911,
+   "whole_line": "        $Token = Get-NtToken -Effective",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 948,
+   "whole_line": "        $Token = Get-NtToken -Effective",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 1369,
+   "whole_line": "    Use-NtObject($token = Get-NtToken -Effective -Thread $Thread) {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e622cb61.ps1",
+   "line": 1388,
+   "whole_line": "                Token              = $token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e7cc6a0d.cs",
+   "line": 144,
+   "whole_line": "    ///   <code>$token = Use-NtObject($tmp = Get-NtToken -Primary) { Get-NtToken -Filtered -Token $tmp -RestrictedSids $tmp.Groups }</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e7cc6a0d.cs",
+   "line": 174,
+   "whole_line": "    public sealed class GetNtTokenCmdlet : PSCmdlet",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e7cc6a0d.cs",
+   "line": 541,
+   "whole_line": "            NtToken token = GetImpersonationToken(desired_access);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e7cc6a0d.cs",
+   "line": 590,
+   "whole_line": "            using (NtToken token = Win32Security.LsaLogonUser(user, domain, password, logon_type, LogonProvider, groups))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e7cc6a0d.cs",
+   "line": 616,
+   "whole_line": "                return GetLogonToken(desired_access, User, Domain, Password?.Password, LogonType);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e7cc6a0d.cs",
+   "line": 657,
+   "whole_line": "            using (NtToken token = Token != null ? Token.Duplicate() : NtToken.OpenProcessToken())",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e7cc6a0d.cs",
+   "line": 659,
+   "whole_line": "                using (NtToken sandbox_token = sandbox_func(token))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e7cc6a0d.cs",
+   "line": 833,
+   "whole_line": "                using (NtToken base_token = GetToken(TokenAccessRights.Duplicate))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e7cc6a0d.cs",
+   "line": 854,
+   "whole_line": "                token = GetToken(Access);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f15b575f.cs",
+   "line": 58,
+   "whole_line": "    ///   <code>$token = Get-NtToken -Primary -Duplicate -IntegrityLevel Low&#x0A;Get-AccessibleObject \\BaseNamedObjects -Recurse -Tokens $token -AccessRights GenericWrite</code>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f843970a.cs",
+   "line": 26,
+   "whole_line": "                return token.Map(t => t.User.Sid);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc7b71e1.txt",
+   "line": 47,
+   "whole_line": "\t$software_key = Get-NtKey \\Registry\\Machine\\Software | New-NtKey MyKey -CloseRoot",
+   "source": "creddata"
+  },
+  {
+   "file": "app/03ef416e.ps1",
+   "line": 225,
+   "whole_line": "        Use-NtObject($token = Get-NtToken -Process $proc) {",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e74320c5.manifest",
+   "line": 57,
+   "value": "6595b64144ccf1df",
+   "source": "creddata"
+  },
+  {
+   "file": "code/security/0da6091b.cs",
+   "line": 31,
+   "whole_line": "        SEC_I_INCOMPLETE_CREDENTIALS = 0x00090320,",
+   "source": "creddata"
+  },
+  {
+   "file": "code/security/0da6091b.cs",
+   "line": 58,
+   "whole_line": "        SEC_E_INCOMPLETE_CREDENTIALS = 0x80090320,",
+   "source": "creddata"
+  },
+  {
+   "file": "code/security/0da6091b.cs",
+   "line": 65,
+   "whole_line": "        SEC_E_INVALID_TOKEN = 0x80090308,",
+   "source": "creddata"
+  },
+  {
+   "file": "code/security/0da6091b.cs",
+   "line": 83,
+   "whole_line": "        SEC_E_NO_CREDENTIALS = 0x8009030E,",
+   "source": "creddata"
+  },
+  {
+   "file": "code/security/0da6091b.cs",
+   "line": 86,
+   "whole_line": "        SEC_E_NO_KERB_KEY = 0x80090348,",
+   "source": "creddata"
+  },
+  {
+   "file": "code/security/0da6091b.cs",
+   "line": 110,
+   "whole_line": "        SEC_E_UNKNOWN_CREDENTIALS = 0x8009030D,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/06ac2d05.cs",
+   "line": 34,
+   "whole_line": "        PasswordNotRequired = 0x00000004,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/06ac2d05.cs",
+   "line": 41,
+   "whole_line": "        DontExpirePassword = 0x00000200,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/06ac2d05.cs",
+   "line": 43,
+   "whole_line": "        EncryptedTextPasswordAllowed = 0x00000800,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/06ac2d05.cs",
+   "line": 49,
+   "whole_line": "        PasswordExpired = 0x00020000,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/06ac2d05.cs",
+   "line": 205,
+   "whole_line": "            BadPasswordCount = logon_info.BadPasswordCount;",
+   "source": "creddata"
+  },
+  {
+   "file": "security/06ac2d05.cs",
+   "line": 328,
+   "whole_line": "            if (PasswordLastSet != DateTime.MaxValue)",
+   "source": "creddata"
+  },
+  {
+   "file": "security/06ac2d05.cs",
+   "line": 329,
+   "whole_line": "                builder.AppendLine($\"Password Last Set: {PasswordLastSet}\");",
+   "source": "creddata"
+  },
+  {
+   "file": "security/06ac2d05.cs",
+   "line": 330,
+   "whole_line": "            if (PasswordCanChange != DateTime.MaxValue)",
+   "source": "creddata"
+  },
+  {
+   "file": "security/06ac2d05.cs",
+   "line": 331,
+   "whole_line": "                builder.AppendLine($\"Password Change  : {PasswordCanChange}\");",
+   "source": "creddata"
+  },
+  {
+   "file": "security/06ac2d05.cs",
+   "line": 332,
+   "whole_line": "            if (PasswordMustChange != DateTime.MaxValue)",
+   "source": "creddata"
+  },
+  {
+   "file": "security/06ac2d05.cs",
+   "line": 333,
+   "whole_line": "                builder.AppendLine($\"Password Must    : {PasswordMustChange}\");",
+   "source": "creddata"
+  },
+  {
+   "file": "security/06ac2d05.cs",
+   "line": 335,
+   "whole_line": "            builder.AppendLine($\"Bad Password #   : {BadPasswordCount}\");",
+   "source": "creddata"
+  },
+  {
+   "file": "security/1b348b67.cs",
+   "line": 37,
+   "whole_line": "        PasswordNotRequired = 0x00000020,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/1b348b67.cs",
+   "line": 39,
+   "whole_line": "        PasswordCantChange = 0x00000040,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/1b348b67.cs",
+   "line": 41,
+   "whole_line": "        EncryptedTextPasswordAllowed = 0x00000080,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/1b348b67.cs",
+   "line": 53,
+   "whole_line": "        DontExpirePassword = 0x00010000,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/1b348b67.cs",
+   "line": 67,
+   "whole_line": "        PasswordExpired = 0x00800000,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/225d26cd.resx",
+   "line": 115,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "security/225d26cd.resx",
+   "line": 118,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "security/225d26cd.resx",
+   "line": 120,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "security/225d26cd.resx",
+   "line": 123,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "security/225d26cd.resx",
+   "line": 126,
+   "value": "b77a5c561934e089",
+   "source": "creddata"
+  },
+  {
+   "file": "security/3cac8531.cs",
+   "line": 119,
+   "whole_line": "            aes.Key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "security/3cac8531.cs",
+   "line": 140,
+   "whole_line": "            byte[] derive_enc_key = DeriveTempKey(key, key_usage, EncryptionKey);",
+   "source": "creddata"
+  },
+  {
+   "file": "security/3cac8531.cs",
+   "line": 141,
+   "whole_line": "            byte[] derive_mac_key = DeriveTempKey(key, key_usage, VerificationKey);",
+   "source": "creddata"
+  },
+  {
+   "file": "security/3cac8531.cs",
+   "line": 161,
+   "whole_line": "            aes.Key = new_key;",
+   "source": "creddata"
+  },
+  {
+   "file": "security/3cac8531.cs",
+   "line": 167,
+   "whole_line": "            HMACSHA1 hmac = new HMACSHA1(KerberosAuthenticationKey.DeriveAesKey(key.Key, derive_mac_key));",
+   "source": "creddata"
+  },
+  {
+   "file": "security/43dad1c7.cs",
+   "line": 31,
+   "whole_line": "    public sealed class RemoveNtTokenSecurityAttributeCmdlet : PSCmdlet",
+   "source": "creddata"
+  },
+  {
+   "file": "security/5c8d4bde.cs",
+   "line": 121,
+   "whole_line": "                    ret.Credentials = cred_token;",
+   "source": "creddata"
+  },
+  {
+   "file": "security/6b6009e1.cs",
+   "line": 29,
+   "whole_line": "        ReadPasswordParameters = 0x0001,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/6b6009e1.cs",
+   "line": 31,
+   "whole_line": "        WritePasswordParams = 0x0002,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/6ba6346b.cs",
+   "line": 29,
+   "whole_line": "        UsedLmPassword = 0x08,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/78ec385e.cs",
+   "line": 43,
+   "whole_line": "            Token = token;",
+   "source": "creddata"
+  },
+  {
+   "file": "security/884fd5f8.cs",
+   "line": 37,
+   "whole_line": "        RefusePasswordChange = 0x00000020,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/a1d7f1c2.cs",
+   "line": 35,
+   "whole_line": "            _channel_binding_token = channel_binding_token;",
+   "source": "creddata"
+  },
+  {
+   "file": "security/a57ea3d6.cs",
+   "line": 102,
+   "whole_line": "                var old_pwd_buf = list.AddResource(new SecureStringMarshalBuffer(old_password));",
+   "source": "creddata"
+  },
+  {
+   "file": "security/a57ea3d6.cs",
+   "line": 103,
+   "whole_line": "                var new_pwd_buf = list.AddResource(new SecureStringMarshalBuffer(new_password));",
+   "source": "creddata"
+  },
+  {
+   "file": "security/a57ea3d6.cs",
+   "line": 130,
+   "whole_line": "            using (var pwd_buf = new SecureStringMarshalBuffer(password))",
+   "source": "creddata"
+  },
+  {
+   "file": "security/a57ea3d6.cs",
+   "line": 134,
+   "whole_line": "                set_info.PasswordExpired = expired;",
+   "source": "creddata"
+  },
+  {
+   "file": "security/a76211a3.cs",
+   "line": 60,
+   "whole_line": "            CapId = capid;",
+   "source": "creddata"
+  },
+  {
+   "file": "security/a76211a3.cs",
+   "line": 139,
+   "value": "CAPEs",
+   "source": "creddata"
+  },
+  {
+   "file": "security/a76211a3.cs",
+   "line": 162,
+   "value": "CAPs",
+   "source": "creddata"
+  },
+  {
+   "file": "security/c1821e33.cs",
+   "line": 41,
+   "whole_line": "        ChangePassword = 0x00000040,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/c1821e33.cs",
+   "line": 43,
+   "whole_line": "        ForcePasswordChange = 0x00000080,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/d3368484.cs",
+   "line": 59,
+   "whole_line": "            KerberosKeySet tmp_keys = new KerberosKeySet(keyset.OfType<KerberosAuthenticationKey>());",
+   "source": "creddata"
+  },
+  {
+   "file": "security/d3368484.cs",
+   "line": 114,
+   "whole_line": "                token = ret;",
+   "source": "creddata"
+  },
+  {
+   "file": "security/f3a8e88c.cs",
+   "line": 46,
+   "whole_line": "                Password = list.AddResource(new SecureStringMarshalBuffer(password));",
+   "source": "creddata"
+  },
+  {
+   "file": "security/f3a8e88c.cs",
+   "line": 47,
+   "whole_line": "                PasswordLength = password.Length;",
+   "source": "creddata"
+  },
+  {
+   "file": "security/f59a9ff1.cs",
+   "line": 33,
+   "whole_line": "    public sealed class AddNtTokenSecurityAttributeCmdlet : PSCmdlet",
+   "source": "creddata"
+  },
+  {
+   "file": "security/fd84610f.cs",
+   "line": 38,
+   "whole_line": "        GSSAPI = 32771,",
+   "source": "creddata"
+  },
+  {
+   "file": "security/fe94db6d.cs",
+   "line": 29,
+   "whole_line": "        PasswordForCert = 0x0001,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/266ed419.cs",
+   "line": 43,
+   "whole_line": "    public sealed class TestNtTokenPrivilegeCmdlet : PSCmdlet",
+   "source": "creddata"
+  },
+  {
+   "file": "test/266ed419.cs",
+   "line": 86,
+   "whole_line": "            using (var token = GetToken())",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d2400233.cs",
+   "line": 44,
+   "whole_line": "    public class TestNtTokenGroupCmdlet : PSCmdlet",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d2400233.cs",
+   "line": 95,
+   "whole_line": "            using (var token = GetToken())",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e429a112.cs",
+   "line": 37,
+   "whole_line": "    public sealed class TestNtTokenImpersonationCmdlet : PSCmdlet",
+   "source": "creddata"
+  },
+  {
+   "file": "util/0963129c.cs",
+   "line": 468,
+   "whole_line": "            using (var key = OpenClassKey(class_guid, installer, KeyAccessRights.MaximumAllowed, ",
+   "source": "creddata"
+  },
+  {
+   "file": "util/8206ac95.cs",
+   "line": 36,
+   "whole_line": "            Password = str ?? throw new ArgumentNullException(nameof(str));",
+   "source": "creddata"
+  },
+  {
+   "file": "util/8206ac95.cs",
+   "line": 55,
+   "whole_line": "            Password = secure_str;",
+   "source": "creddata"
+  },
+  {
+   "file": "util/security/5dade3e4.cs",
+   "line": 40,
+   "whole_line": "            byte[] key = ReadOctets(reader);",
+   "source": "creddata"
+  },
+  {
+   "file": "util/security/5dade3e4.cs",
+   "line": 173,
+   "whole_line": "        public static IEnumerable<KerberosAuthenticationKey> ReadKeyTabFile(Stream stream)",
+   "source": "creddata"
+  },
+  {
+   "file": "util/security/5dade3e4.cs",
+   "line": 210,
+   "whole_line": "        public static IEnumerable<KerberosAuthenticationKey> ReadKeyTabFile(string path)",
+   "source": "creddata"
+  },
+  {
+   "file": "util/security/5dade3e4.cs",
+   "line": 223,
+   "whole_line": "        public static void WriteKeyTabFile(Stream stream, IEnumerable<KerberosAuthenticationKey> keys)",
+   "source": "creddata"
+  },
+  {
+   "file": "util/security/5dade3e4.cs",
+   "line": 243,
+   "whole_line": "        public static void WriteKeyTabFile(string path, IEnumerable<KerberosAuthenticationKey> keys)",
+   "source": "creddata"
+  },
+  {
+   "file": "util/security/e1c006ce.cs",
+   "line": 47,
+   "whole_line": "        public const string LSA_SECRET_NT_TYPE_NAME = \"LsaSecret\";",
+   "source": "creddata"
+  },
+  {
+   "file": "other/2aa262bf.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "203.0.113.65"
+  },
+  {
+   "file": "other/2aa262bf.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "9.24.11"
+  },
+  {
+   "file": "other/2aa262bf.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:17defc0c1d7e8b671d19c513c00c93e5521135a5d6442fb0b5f63fe9d1c7194f"
+  },
+  {
+   "file": "other/2aa262bf.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/2aa262bf.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/5a9cad59.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "HH4LOX8FUUO64CHM4X4F003X11"
+  },
+  {
+   "file": "other/5a9cad59.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "7603c7f1-2d2c-43fb-b856-61843162e2b6"
+  },
+  {
+   "file": "other/5a9cad59.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "other/5a9cad59.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/a350a226.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "6.10.6"
+  },
+  {
+   "file": "src/a350a226.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "5ac67e3b8ba337cbec06c39ef91efe8cc397e776"
+  },
+  {
+   "file": "src/a350a226.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "FOH65YXVAVRI0Q3CLZ8ET8H6XO"
+  },
+  {
+   "file": "src/a350a226.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "src/a350a226.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "XUXMS9L9F672SOPEX56MYZSSRJ"
+  },
+  {
+   "file": "src/a350a226.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "other/b08e7f7d.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "other/b08e7f7d.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.8.24"
+  },
+  {
+   "file": "other/b08e7f7d.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "816ed2ec35c4923a0a2a61ca442572da1f4afae4"
+  },
+  {
+   "file": "other/b08e7f7d.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "b341e887-9f41-4511-a988-9b16f96fea4f"
+  },
+  {
+   "file": "_/584f3aca.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Hamburg2019"
+  },
+  {
+   "file": "_/584f3aca.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "etl"
+  },
+  {
+   "file": "_/584f3aca.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "hood_sunday"
+  },
+  {
+   "file": "_/584f3aca.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "deploy"
+  },
+  {
+   "file": "_/584f3aca.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "svc_reports"
+  },
+  {
+   "file": "_/584f3aca.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "source_suggester"
+  },
+  {
+   "file": "src/ece5823a.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "1629cdb"
+  },
+  {
+   "file": "src/ece5823a.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "42d0dc89a233843f44e5002c64f3cd09496d223dc9531fad2f6bfad519c307e1"
+  },
+  {
+   "file": "src/ece5823a.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "src/ece5823a.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  }
+ ]
+}

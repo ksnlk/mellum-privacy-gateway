@@ -1,0 +1,811 @@
+{
+ "repo": "8c9b3ae9",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "src/resource/app/bca40d89.properties",
+   "line": 4,
+   "start": 27,
+   "end": 36,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "vv9803337"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "other/fbcdd87f.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.x_gRvXl9sxeClwaZjjYcIoD_VS1Hv3ytMcbNxrNS.ukzEbkeWoNo0w3uvVt1UUBOvg30PUvtO8i3Jix7MmLf"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "other/fbcdd87f.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.vantor-corp.de"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/05a11a46.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "33386230313530333765663463373362363062376236383665376533313038383565366533386634393033363461346561373438663932633631363233653862",
+    "38b015037ef4c73b60b7b686e7e310885e6e38f490364a4ea748f92c61623e8b"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/eec348cd.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_kIE9mcLbf1PPlpioK9sic3J1"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/eec348cd.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "EjVhUIMMPSeUB3AHC2ovCXctFyzgSiWB"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/eec348cd.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "bTQ4dnNndThwOHk2enR6MnAwbXJ3NWt0YmF0Z251aWI=",
+    "m48vsgu8p8y6ztz2p0mrw5ktbatgnuib"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/31983789.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "argocd.acme-corp.de"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/31983789.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "rmC5q5RXBcnjgHdAyoAliCY17fhfQtZx"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/786b3f04.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-cache-04.int.helix-internal.net"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/786b3f04.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Annagehe",
+    "Annageheim08?",
+    "im08?"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/4ae094a4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Nico Zimmermann"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/4ae094a4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "eva.koch@kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/4ae094a4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 5722 1679"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/4ae094a4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jan Hoffmann"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/4ae094a4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "noah.wagner [at] kelpie-corp [dot] de"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/4ae094a4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE94580075538704899397"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/4ae094a4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Anna Braun"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/4ae094a4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Kirchplatz 107, 82034 Freising"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/4ae094a4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "135.123.113.243"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.brightloop.systems"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.brightloop.systems"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.brightloop.systems"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "193.215.23.0/24"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "193.215.23.117"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.brightloop.systems"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.brightloop.systems"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.brightloop.systems"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.brightloop.systems"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "193.215.23.160"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.brightloop.systems"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Paul Braun"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "paul.braun@web.de"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 2958999"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "David Koch"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "david.koch@gmx.de"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 6504873"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "src/db18e1be.java",
+   "line": 40,
+   "whole_line": "        String key = \"city_\" + id;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/db18e1be.java",
+   "line": 77,
+   "whole_line": "        String key = \"city_\" + city.getId();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/db18e1be.java",
+   "line": 94,
+   "whole_line": "        String key = \"city_\" + id;",
+   "source": "creddata"
+  },
+  {
+   "file": "other/fbcdd87f.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "7.5.0"
+  },
+  {
+   "file": "other/fbcdd87f.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "1c5fa68e49ada98b0a0855690c65b66311b33a8b"
+  },
+  {
+   "file": "other/fbcdd87f.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "5440UHO3OGGG4AXG2079UOOQKE"
+  },
+  {
+   "file": "other/fbcdd87f.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "other/fbcdd87f.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "IWV34L6XYQMKN7830KIS86PXME"
+  },
+  {
+   "file": "other/fbcdd87f.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "other/05a11a46.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "7441278147c22dcb071402f8c33b8895450fce1854b09a8309f5bf769c438640"
+  },
+  {
+   "file": "other/eec348cd.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_IbhljzO0ZcqYraxBwOxnfHnF"
+  },
+  {
+   "file": "other/eec348cd.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "REPORTS_DB_PASSWORD"
+  },
+  {
+   "file": "other/eec348cd.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "CRM_API_KEY"
+  },
+  {
+   "file": "other/eec348cd.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LduTu9rImQKtbhDPF4MmV5dFjXAubsXToU4jn2U"
+  },
+  {
+   "file": "other/eec348cd.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:r1x+RzA4wV15ymGrd4lro9twkd+tH+sWketXCFkx8Kw"
+  },
+  {
+   "file": "other/eec348cd.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/etc/payments/tls/private.key"
+  },
+  {
+   "file": "other/eec348cd.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "other/eec348cd.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "other/eec348cd.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6NTI3MzY6b2Zmc2V0OjI3MQ=="
+  },
+  {
+   "file": "test/31983789.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "test/31983789.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "0.13.31"
+  },
+  {
+   "file": "test/31983789.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "740ad2e32d9198d5916cc3cbcc5d785535705906"
+  },
+  {
+   "file": "test/31983789.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "c5341a74-9d75-4ff4-843b-70cb3ef07013"
+  },
+  {
+   "file": "_/786b3f04.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "db170a0c131db022d674b86d7f73de5a43f9577a"
+  },
+  {
+   "file": "_/786b3f04.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "_/786b3f04.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "other/4ae094a4.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "hello@kelpie-corp.de"
+  },
+  {
+   "file": "other/4ae094a4.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "privacy@kelpie-corp.de"
+  },
+  {
+   "file": "other/4ae094a4.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0190"
+  },
+  {
+   "file": "other/4ae094a4.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "other/4ae094a4.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "other/4ae094a4.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "other/4ae094a4.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "other/4ae094a4.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "edi.datafjord.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "193.215.57.193"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.brightloop.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.brightloop.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "portal.brightloop.systems"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Sofia Koch"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "portal.brightloop.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.datafjord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "193.215.57.193"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.brightloop.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Sofia Koch"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "sofia.koch@brightloop.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "John Doe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "john.doe@example.net"
+  }
+ ]
+}

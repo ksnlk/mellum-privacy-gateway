@@ -1,0 +1,37 @@
+{
+  "name": "PASERK k4.local Test Vectors",
+  "tests": [
+    {
+      "name": "k4.local-1",
+      "expect-fail": false,
+      "key": "0000000000000000000000000000000000000000000000000000000000000000",
+      "paserk": "k4.local.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "name": "k4.local-2",
+      "expect-fail": false,
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "signing_material": "s6.japan.qXLuv3O1fwk8yMx5gL0-c7SQwyVUkImUhPbKu4dMta9"
+    },
+    {
+      "name": "k4.local-3",
+      "expect-fail": false,
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e90",
+      "paserk": "w2.trait.wNXzg1M9guy1vQg5zF1-m4JEvfYSlHjMyOeKq6nWtmN"
+    },
+    {
+      "name": "k4.local-fail-1",
+      "expect-fail": true,
+      "key": null,
+      "build_id": "d5.lukas.DAoo5A5oiz4zIc6cC2-r9NGmxEDhWwPvSgBq2eTee7",
+      "comment": "If the PASERK is too short, this must fail to deserialize."
+    },
+    {
+      "name": "k4.local-fail-2",
+      "expect-fail": true,
+      "key": null,
+      "signing_material": "l3.reply.uSJon0S8udl6mIt1kB4-k6DErrMDoLzYvOuTz4cAke5",
+      "comment": "Implementations MUST NOT accept a PASERK of the wrong version."
+    }
+  ]
+}

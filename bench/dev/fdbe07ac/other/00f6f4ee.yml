@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: pinegrid-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "4fcb07f"
+type: Opaque
+data:
+  DB_PASSWORD: bWVhbmluZ2Z1bC1rb2Vsbi1oYW1idXJnLWJlcmxpbg==
+  STRIPE_KEY: c2tfbGl2ZV80VzY4Nm13NmU3anlJSkdRZ0gzSzY3U3I=
+  ca.crt.sha256: 0a13d6947ea7d1e0bb2ce1c8757a106a7482b4a27ebc1681f726b3195a739bd2
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pinegrid-payments-config
+data:
+  DB_HOST: "kibana.pinegrid-corp.de"
+  SENTRY_HOST: "cdn.jsdelivr.net"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

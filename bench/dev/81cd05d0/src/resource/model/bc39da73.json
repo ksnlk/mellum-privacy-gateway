@@ -1,0 +1,1755 @@
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListSigningCertificates" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListUsers" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListVirtualMFADevices" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : true,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2010-05-08",
+    "asyncClient" : "AmazonIdentityManagementAsyncClient",
+    "asyncClientBuilderClassName" : "AmazonIdentityManagementAsyncClientBuilder",
+    "asyncInterface" : "AmazonIdentityManagementAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AmazonIdentityManagementModuleInjector",
+    "defaultEndpoint" : "iam.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "iam.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>AWS Identity and Access Management</fullname> <p>AWS Identity and Access Management (IAM) is a web service for securely controlling access to AWS services. With IAM, you can centrally manage users, security credentials such as access keys, and permissions that control which AWS resources users and applications can access. For more information about IAM, see <a href=\"http://aws.amazon.com/iam/\">AWS Identity and Access Management (IAM)</a> and the <a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/\">AWS Identity and Access Management User Guide</a>.</p>",
+    "endpointPrefix" : "iam",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : false,
+    "jsonVersion" : null,
+    "packageName" : "com.amazonaws.services.identitymanagement",
+    "packagePath" : "com/amazonaws/services/identitymanagement",
+    "protocol" : "query",
+    "protocolDefaultExceptionUmarshallerImpl" : "StandardErrorUnmarshaller",
+    "protocolFactory" : null,
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "IAM",
+            "variableType" : "String",
+            "documentation" : "",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The IAM user's current password.</p>\n@param oldPassword The IAM user's current password.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "oldPassword",
+            "variableType" : "String",
+            "documentation" : "<p>The IAM user's current password.</p>",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "xmlNameSpaceUri" : null
+        }
+      },
+      "packageName" : "com.amazonaws.services.identitymanagement.request",
+      "requestSignerAware" : false,
+      "requestSignerClassFqcn" : null,
+      "required" : [ "OldPassword", "NewPassword" ],
+      "shapeName" : "ChangePasswordRequest",
+      "signerAware" : false,
+      "signerType" : null,
+      "unmarshaller" : null,
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "ChangePasswordRequest",
+        "variableName" : "changePasswordRequest",
+        "variableType" : "ChangePasswordRequest",
+        "documentation" : null,
+        "simpleType" : "ChangePasswordRequest",
+        "variableSetterType" : "ChangePasswordRequest"
+      },
+      "wrapper" : false
+    },
+    "ChangePasswordResult" : {
+      "c2jName" : "ChangePasswordResult",
+      "customization" : {
+        "artificialResultWrapper" : null,
+        "skipGeneratingMarshaller" : false,
+        "skipGeneratingModelClass" : false,
+        "skipGeneratingUnmarshaller" : false
+      },
+      "deprecated" : false,
+      "documentation" : null,
+        "skipGeneratingUnmarshaller" : false
+      },
+      "deprecated" : false,
+      "documentation" : "",
+      "endpointDiscoveryMembers" : null,
+      "enums" : null,
+      "errorCode" : null,
+      "fullyQualifiedName" : "com.amazonaws.services.identitymanagement.request.CreateLoginProfileRequest",
+      "hasHeaderMember" : false,
+      "hasPayloadMember" : false,
+      "hasRequiresLengthMember" : false,
+      "hasStatusCodeMember" : false,
+      "hasStreamingMember" : false,
+      "marshaller" : {
+        "action" : "CreateLoginProfile",
+        "locationName" : null,
+        "requestUri" : "/",
+        "target" : null,
+        "verb" : "POST",
+        "xmlNameSpaceUri" : null
+      },
+      "members" : [ {
+        "c2jName" : "UserName",
+        "c2jShape" : "userNameType",
+        "deprecated" : false,
+        "documentation" : "<p>The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withUserName",
+        "getterDocumentation" : "/**<p>The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@return The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-*/",
+        "getterMethodName" : "getUserName",
+        "getterModel" : {
+          "returnType" : "String",
+          "documentation" : null
+        },
+        "http" : {
+          "additionalMarshallingPath" : null,
+          "additionalUnmarshallingPath" : null,
+          "flattened" : false,
+          "greedy" : false,
+          "header" : false,
+          "isPayload" : false,
+          "isStreaming" : false,
+          "location" : null,
+          "marshallLocation" : "PAYLOAD",
+          "marshallLocationName" : "UserName",
+          "queryString" : false,
+          "requiresLength" : false,
+          "statusCode" : false,
+          "unmarshallLocationName" : "UserName",
+          "uri" : false
+        },
+        "idempotencyToken" : false,
+        "isBinary" : false,
+        "jsonValue" : false,
+        "list" : false,
+        "listModel" : null,
+        "map" : false,
+        "mapModel" : null,
+        "marshallingTargetClass" : "String",
+        "marshallingType" : "STRING",
+        "name" : "UserName",
+        "sensitive" : false,
+        "setterDocumentation" : "/**<p>The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-*/",
+        "setterMethodName" : "setUserName",
+        "setterModel" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "String",
+          "variableName" : "userName",
+          "variableType" : "String",
+          "documentation" : "",
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "shouldEmitLegacyEnumSetter" : false,
+        "shouldFullyQualify" : false,
+        "simple" : true,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p>The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "String",
+          "variableName" : "userName",
+          "variableType" : "String",
+          "documentation" : "<p>The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>",
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "xmlNameSpaceUri" : null
+      }, {
+        "c2jName" : "Password",
+        "c2jShape" : "passwordType",
+        "deprecated" : false,
+        "documentation" : "<p>The new password for the user.</p> <p>The <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a> that is used to validate this parameter is a string of characters. That string can include almost any printable ASCII character from the space (<code>\\u0020</code>) through the end of the ASCII character range (<code>\\u00FF</code>). You can also include the tab (<code>\\u0009</code>), line feed (<code>\\u000A</code>), and carriage return (<code>\\u000D</code>) characters. Any of these characters are valid in a password. However, many tools, such as the AWS Management Console, might restrict the ability to type certain characters because they have special meaning within that tool.</p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>The new password for the user.</p> <p>The <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a> that is used to validate this parameter is a string of characters. That string can include almost any printable ASCII character from the space (<code>\\u0020</code>) through the end of the ASCII character range (<code>\\u00FF</code>). You can also include the tab (<code>\\u0009</code>), line feed (<code>\\u000A</code>), and carriage return (<code>\\u000D</code>) characters. Any of these characters are valid in a password. However, many tools, such as the AWS Management Console, might restrict the ability to type certain characters because they have special meaning within that tool.</p>\n@param password The new password for the user.</p> <p>The <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a> that is used to validate this parameter is a string of characters. That string can include almost any printable ASCII character from the space (<code>\\u0020</code>) through the end of the ASCII character range (<code>\\u00FF</code>). You can also include the tab (<code>\\u0009</code>), line feed (<code>\\u000A</code>), and carriage return (<code>\\u000D</code>) characters. Any of these characters are valid in a password. However, many tools, such as the AWS Management Console, might restrict the ability to type certain characters because they have special meaning within that tool.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withPassword",
+        "getterDocumentation" : "/**<p>The new password for the user.</p> <p>The <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a> that is used to validate this parameter is a string of characters. That string can include almost any printable ASCII character from the space (<code>\\u0020</code>) through the end of the ASCII character range (<code>\\u00FF</code>). You can also include the tab (<code>\\u0009</code>), line feed (<code>\\u000A</code>), and carriage return (<code>\\u000D</code>) characters. Any of these characters are valid in a password. However, many tools, such as the AWS Management Console, might restrict the ability to type certain characters because they have special meaning within that tool.</p>\n@return The new password for the user.</p> <p>The <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a> that is used to validate this parameter is a string of characters. That string can include almost any printable ASCII character from the space (<code>\\u0020</code>) through the end of the ASCII character range (<code>\\u00FF</code>). You can also include the tab (<code>\\u0009</code>), line feed (<code>\\u000A</code>), and carriage return (<code>\\u000D</code>) characters. Any of these characters are valid in a password. However, many tools, such as the AWS Management Console, might restrict the ability to type certain characters because they have special meaning within that tool.*/",
+        "getterMethodName" : "getPassword",
+        "getterModel" : {
+          "returnType" : "String",
+          "documentation" : null
+        },
+        "http" : {
+          "additionalMarshallingPath" : null,
+          "additionalUnmarshallingPath" : null,
+          "flattened" : false,
+          "greedy" : false,
+          "header" : false,
+            "variableType" : "Boolean",
+            "documentation" : "",
+            "simpleType" : "Boolean",
+            "variableSetterType" : "Boolean"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>Specifies whether the user is required to set a new password on next sign-in.</p>\n@param passwordResetRequired Specifies whether the user is required to set a new password on next sign-in.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "Boolean",
+            "variableName" : "passwordResetRequired",
+            "variableType" : "Boolean",
+            "documentation" : "<p>Specifies whether the user is required to set a new password on next sign-in.</p>",
+            "simpleType" : "Boolean",
+            "variableSetterType" : "Boolean"
+          },
+          "xmlNameSpaceUri" : null
+        },
+        "UserName" : {
+          "c2jName" : "UserName",
+          "c2jShape" : "userNameType",
+          "deprecated" : false,
+          "documentation" : "<p>The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p>The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withUserName",
+          "getterDocumentation" : "/**<p>The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@return The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-*/",
+          "getterMethodName" : "getUserName",
+          "getterModel" : {
+            "returnType" : "String",
+            "documentation" : null
+          },
+          "http" : {
+            "additionalMarshallingPath" : null,
+            "additionalUnmarshallingPath" : null,
+            "flattened" : false,
+            "greedy" : false,
+            "header" : false,
+            "isPayload" : false,
+            "isStreaming" : false,
+            "location" : null,
+            "marshallLocation" : "PAYLOAD",
+            "marshallLocationName" : "UserName",
+            "queryString" : false,
+            "requiresLength" : false,
+            "statusCode" : false,
+            "unmarshallLocationName" : "UserName",
+            "uri" : false
+          },
+          "idempotencyToken" : false,
+          "isBinary" : false,
+          "jsonValue" : false,
+          "list" : false,
+          "listModel" : null,
+          "map" : false,
+          "mapModel" : null,
+          "marshallingTargetClass" : "String",
+          "marshallingType" : "STRING",
+          "name" : "UserName",
+          "sensitive" : false,
+          "setterDocumentation" : "/**<p>The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-*/",
+          "setterMethodName" : "setUserName",
+          "setterModel" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "userName",
+            "variableType" : "String",
+            "documentation" : "",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "userName",
+            "variableType" : "String",
+            "documentation" : "<p>The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "xmlNameSpaceUri" : null
+        }
+      },
+      "packageName" : "com.amazonaws.services.identitymanagement.request",
+      "requestSignerAware" : false,
+      "requestSignerClassFqcn" : null,
+      "required" : [ "UserName", "Password" ],
+      "shapeName" : "CreateLoginProfileRequest",
+      "signerAware" : false,
+      "signerType" : null,
+      "unmarshaller" : null,
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "CreateLoginProfileRequest",
+        "variableName" : "createLoginProfileRequest",
+        "variableType" : "CreateLoginProfileRequest",
+        "documentation" : null,
+        "simpleType" : "CreateLoginProfileRequest",
+        "variableSetterType" : "CreateLoginProfileRequest"
+      },
+      "wrapper" : false
+    },
+        "skipGeneratingUnmarshaller" : false
+      },
+      "deprecated" : false,
+      "documentation" : "",
+      "endpointDiscoveryMembers" : null,
+      "enums" : null,
+      "errorCode" : null,
+      "fullyQualifiedName" : "com.amazonaws.services.identitymanagement.request.DeleteLoginProfileRequest",
+      "hasHeaderMember" : false,
+      "hasPayloadMember" : false,
+      "hasRequiresLengthMember" : false,
+      "hasStatusCodeMember" : false,
+      "hasStreamingMember" : false,
+      "marshaller" : {
+        "action" : "DeleteLoginProfile",
+        "locationName" : null,
+        "requestUri" : "/",
+        "target" : null,
+        "verb" : "POST",
+        "xmlNameSpaceUri" : null
+      },
+      "members" : [ {
+        "c2jName" : "UserName",
+        "c2jShape" : "userNameType",
+        "deprecated" : false,
+        "documentation" : "<p>The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withUserName",
+        "getterDocumentation" : "/**<p>The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@return The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-*/",
+        "getterMethodName" : "getUserName",
+        "getterModel" : {
+          "returnType" : "String",
+          "documentation" : null
+        },
+        "http" : {
+          "additionalMarshallingPath" : null,
+          "additionalUnmarshallingPath" : null,
+          "flattened" : false,
+          "greedy" : false,
+          "header" : false,
+          "isPayload" : false,
+          "isStreaming" : false,
+          "location" : null,
+          "marshallLocation" : "PAYLOAD",
+          "marshallLocationName" : "UserName",
+          "queryString" : false,
+          "requiresLength" : false,
+          "statusCode" : false,
+          "unmarshallLocationName" : "UserName",
+          "uri" : false
+        },
+        "idempotencyToken" : false,
+        "isBinary" : false,
+        "jsonValue" : false,
+        "list" : false,
+        "listModel" : null,
+        "map" : false,
+        "mapModel" : null,
+        "marshallingTargetClass" : "String",
+        "marshallingType" : "STRING",
+        "name" : "UserName",
+        "sensitive" : false,
+        "setterDocumentation" : "/**<p>The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-*/",
+        "setterMethodName" : "setUserName",
+        "setterModel" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "String",
+          "variableName" : "userName",
+          "variableType" : "String",
+          "documentation" : "",
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "shouldEmitLegacyEnumSetter" : false,
+        "shouldFullyQualify" : false,
+        "simple" : true,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p>The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "String",
+          "variableName" : "userName",
+          "variableType" : "String",
+          "documentation" : "<p>The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>",
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "xmlNameSpaceUri" : null
+      } ],
+      "membersAsMap" : {
+        "UserName" : {
+          "c2jName" : "UserName",
+          "c2jShape" : "userNameType",
+          "deprecated" : false,
+          "documentation" : "<p>The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p>The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withUserName",
+          "getterDocumentation" : "/**<p>The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@return The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-*/",
+          "getterMethodName" : "getUserName",
+          "getterModel" : {
+            "returnType" : "String",
+            "documentation" : null
+          },
+          "http" : {
+            "additionalMarshallingPath" : null,
+            "additionalUnmarshallingPath" : null,
+            "flattened" : false,
+            "greedy" : false,
+            "header" : false,
+            "isPayload" : false,
+            "isStreaming" : false,
+            "location" : null,
+            "marshallLocation" : "PAYLOAD",
+            "marshallLocationName" : "UserName",
+            "queryString" : false,
+            "requiresLength" : false,
+            "statusCode" : false,
+            "unmarshallLocationName" : "UserName",
+            "uri" : false
+          },
+          "idempotencyToken" : false,
+          "isBinary" : false,
+          "jsonValue" : false,
+          "list" : false,
+          "listModel" : null,
+          "map" : false,
+          "mapModel" : null,
+          "marshallingTargetClass" : "String",
+          "marshallingType" : "STRING",
+          "name" : "UserName",
+          "sensitive" : false,
+          "setterDocumentation" : "/**<p>The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-*/",
+          "setterMethodName" : "setUserName",
+          "setterModel" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "userName",
+            "variableType" : "String",
+            "documentation" : "",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "userName",
+            "variableType" : "String",
+            "documentation" : "<p>The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "xmlNameSpaceUri" : null
+        }
+      },
+      "packageName" : "com.amazonaws.services.identitymanagement.request",
+      "requestSignerAware" : false,
+      "requestSignerClassFqcn" : null,
+      "required" : [ "UserName" ],
+      "shapeName" : "DeleteLoginProfileRequest",
+      "signerAware" : false,
+      "signerType" : null,
+      "unmarshaller" : null,
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "DeleteLoginProfileRequest",
+        "variableName" : "deleteLoginProfileRequest",
+        "variableType" : "DeleteLoginProfileRequest",
+        "documentation" : null,
+        "simpleType" : "DeleteLoginProfileRequest",
+        "variableSetterType" : "DeleteLoginProfileRequest"
+      },
+      "wrapper" : false
+    },
+        "skipGeneratingUnmarshaller" : false
+      },
+      "deprecated" : false,
+      "documentation" : "",
+      "endpointDiscoveryMembers" : null,
+      "enums" : null,
+      "errorCode" : null,
+      "fullyQualifiedName" : "com.amazonaws.services.identitymanagement.request.UpdateLoginProfileRequest",
+      "hasHeaderMember" : false,
+      "hasPayloadMember" : false,
+      "hasRequiresLengthMember" : false,
+      "hasStatusCodeMember" : false,
+      "hasStreamingMember" : false,
+      "marshaller" : {
+        "action" : "UpdateLoginProfile",
+        "locationName" : null,
+        "requestUri" : "/",
+        "target" : null,
+        "verb" : "POST",
+        "xmlNameSpaceUri" : null
+      },
+      "members" : [ {
+        "c2jName" : "UserName",
+        "c2jShape" : "userNameType",
+        "deprecated" : false,
+        "documentation" : "<p>The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withUserName",
+        "getterDocumentation" : "/**<p>The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@return The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-*/",
+        "getterMethodName" : "getUserName",
+        "getterModel" : {
+          "returnType" : "String",
+          "documentation" : null
+        },
+        "http" : {
+          "additionalMarshallingPath" : null,
+          "additionalUnmarshallingPath" : null,
+          "flattened" : false,
+          "greedy" : false,
+          "header" : false,
+          "isPayload" : false,
+          "isStreaming" : false,
+          "location" : null,
+          "marshallLocation" : "PAYLOAD",
+          "marshallLocationName" : "UserName",
+          "queryString" : false,
+          "requiresLength" : false,
+          "statusCode" : false,
+          "unmarshallLocationName" : "UserName",
+          "uri" : false
+        },
+        "idempotencyToken" : false,
+        "isBinary" : false,
+        "jsonValue" : false,
+        "list" : false,
+        "listModel" : null,
+        "map" : false,
+        "mapModel" : null,
+        "marshallingTargetClass" : "String",
+        "marshallingType" : "STRING",
+        "name" : "UserName",
+        "sensitive" : false,
+        "setterDocumentation" : "/**<p>The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-*/",
+        "setterMethodName" : "setUserName",
+        "setterModel" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "String",
+          "variableName" : "userName",
+          "variableType" : "String",
+          "documentation" : "",
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "shouldEmitLegacyEnumSetter" : false,
+        "shouldFullyQualify" : false,
+        "simple" : true,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p>The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "String",
+          "variableName" : "userName",
+          "variableType" : "String",
+          "documentation" : "<p>The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>",
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "xmlNameSpaceUri" : null
+      }, {
+        "c2jName" : "Password",
+        "c2jShape" : "passwordType",
+        "deprecated" : false,
+        "documentation" : "<p>The new password for the specified IAM user.</p> <p>The <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a> used to validate this parameter is a string of characters consisting of the following:</p> <ul> <li> <p>Any printable ASCII character ranging from the space character (<code>\\u0020</code>) through the end of the ASCII character range</p> </li> <li> <p>The printable characters in the Basic Latin and Latin-1 Supplement character set (through <code>\\u00FF</code>)</p> </li> <li> <p>The special characters tab (<code>\\u0009</code>), line feed (<code>\\u000A</code>), and carriage return (<code>\\u000D</code>)</p> </li> </ul> <p>However, the format can be further restricted by the account administrator by setting a password policy on the AWS account. For more information, see <a>UpdateAccountPasswordPolicy</a>.</p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>The new password for the specified IAM user.</p> <p>The <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a> used to validate this parameter is a string of characters consisting of the following:</p> <ul> <li> <p>Any printable ASCII character ranging from the space character (<code>\\u0020</code>) through the end of the ASCII character range</p> </li> <li> <p>The printable characters in the Basic Latin and Latin-1 Supplement character set (through <code>\\u00FF</code>)</p> </li> <li> <p>The special characters tab (<code>\\u0009</code>), line feed (<code>\\u000A</code>), and carriage return (<code>\\u000D</code>)</p> </li> </ul> <p>However, the format can be further restricted by the account administrator by setting a password policy on the AWS account. For more information, see <a>UpdateAccountPasswordPolicy</a>.</p>\n@param password The new password for the specified IAM user.</p> <p>The <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a> used to validate this parameter is a string of characters consisting of the following:</p> <ul> <li> <p>Any printable ASCII character ranging from the space character (<code>\\u0020</code>) through the end of the ASCII character range</p> </li> <li> <p>The printable characters in the Basic Latin and Latin-1 Supplement character set (through <code>\\u00FF</code>)</p> </li> <li> <p>The special characters tab (<code>\\u0009</code>), line feed (<code>\\u000A</code>), and carriage return (<code>\\u000D</code>)</p> </li> </ul> <p>However, the format can be further restricted by the account administrator by setting a password policy on the AWS account. For more information, see <a>UpdateAccountPasswordPolicy</a>.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withPassword",
+        "getterDocumentation" : "/**<p>The new password for the specified IAM user.</p> <p>The <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a> used to validate this parameter is a string of characters consisting of the following:</p> <ul> <li> <p>Any printable ASCII character ranging from the space character (<code>\\u0020</code>) through the end of the ASCII character range</p> </li> <li> <p>The printable characters in the Basic Latin and Latin-1 Supplement character set (through <code>\\u00FF</code>)</p> </li> <li> <p>The special characters tab (<code>\\u0009</code>), line feed (<code>\\u000A</code>), and carriage return (<code>\\u000D</code>)</p> </li> </ul> <p>However, the format can be further restricted by the account administrator by setting a password policy on the AWS account. For more information, see <a>UpdateAccountPasswordPolicy</a>.</p>\n@return The new password for the specified IAM user.</p> <p>The <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a> used to validate this parameter is a string of characters consisting of the following:</p> <ul> <li> <p>Any printable ASCII character ranging from the space character (<code>\\u0020</code>) through the end of the ASCII character range</p> </li> <li> <p>The printable characters in the Basic Latin and Latin-1 Supplement character set (through <code>\\u00FF</code>)</p> </li> <li> <p>The special characters tab (<code>\\u0009</code>), line feed (<code>\\u000A</code>), and carriage return (<code>\\u000D</code>)</p> </li> </ul> <p>However, the format can be further restricted by the account administrator by setting a password policy on the AWS account. For more information, see <a>UpdateAccountPasswordPolicy</a>.*/",
+        "getterMethodName" : "getPassword",
+        "getterModel" : {
+          "returnType" : "String",
+          "documentation" : null
+        },
+        "http" : {
+          "additionalMarshallingPath" : null,
+          "additionalUnmarshallingPath" : null,
+          "flattened" : false,
+          "greedy" : false,
+          "header" : false,
+            "variableType" : "Boolean",
+            "documentation" : "",
+            "simpleType" : "Boolean",
+            "variableSetterType" : "Boolean"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>Allows this new password to be used only once by requiring the specified IAM user to set a new password on next sign-in.</p>\n@param passwordResetRequired Allows this new password to be used only once by requiring the specified IAM user to set a new password on next sign-in.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "Boolean",
+            "variableName" : "passwordResetRequired",
+            "variableType" : "Boolean",
+            "documentation" : "<p>Allows this new password to be used only once by requiring the specified IAM user to set a new password on next sign-in.</p>",
+            "simpleType" : "Boolean",
+            "variableSetterType" : "Boolean"
+          },
+          "xmlNameSpaceUri" : null
+        },
+        "UserName" : {
+          "c2jName" : "UserName",
+          "c2jShape" : "userNameType",
+          "deprecated" : false,
+          "documentation" : "<p>The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p>The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withUserName",
+          "getterDocumentation" : "/**<p>The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@return The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-*/",
+          "getterMethodName" : "getUserName",
+          "getterModel" : {
+            "returnType" : "String",
+            "documentation" : null
+          },
+          "http" : {
+            "additionalMarshallingPath" : null,
+            "additionalUnmarshallingPath" : null,
+            "flattened" : false,
+            "greedy" : false,
+            "header" : false,
+            "isPayload" : false,
+            "isStreaming" : false,
+            "location" : null,
+            "marshallLocation" : "PAYLOAD",
+            "marshallLocationName" : "UserName",
+            "queryString" : false,
+            "requiresLength" : false,
+            "statusCode" : false,
+            "unmarshallLocationName" : "UserName",
+            "uri" : false
+          },
+          "idempotencyToken" : false,
+          "isBinary" : false,
+          "jsonValue" : false,
+          "list" : false,
+          "listModel" : null,
+          "map" : false,
+          "mapModel" : null,
+          "marshallingTargetClass" : "String",
+          "marshallingType" : "STRING",
+          "name" : "UserName",
+          "sensitive" : false,
+          "setterDocumentation" : "/**<p>The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-*/",
+          "setterMethodName" : "setUserName",
+          "setterModel" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "userName",
+            "variableType" : "String",
+            "documentation" : "",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>\n@param userName The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "userName",
+            "variableType" : "String",
+            "documentation" : "<p>The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "xmlNameSpaceUri" : null
+        }
+      },
+      "packageName" : "com.amazonaws.services.identitymanagement.request",
+      "requestSignerAware" : false,
+      "requestSignerClassFqcn" : null,
+      "required" : [ "UserName" ],
+      "shapeName" : "UpdateLoginProfileRequest",
+      "signerAware" : false,
+      "signerType" : null,
+      "unmarshaller" : null,
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "UpdateLoginProfileRequest",
+        "variableName" : "updateLoginProfileRequest",
+        "variableType" : "UpdateLoginProfileRequest",
+        "documentation" : null,
+        "simpleType" : "UpdateLoginProfileRequest",
+        "variableSetterType" : "UpdateLoginProfileRequest"
+      },
+      "wrapper" : false
+    },
+          "variableName" : "base32StringSeed",
+          "variableType" : "java.nio.ByteBuffer",
+          "documentation" : "",
+          "simpleType" : "ByteBuffer",
+          "variableSetterType" : "java.nio.ByteBuffer"
+        },
+        "shouldEmitLegacyEnumSetter" : false,
+        "shouldFullyQualify" : false,
+        "simple" : true,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p> The base32 seed defined as specified in <a href=\"https://tools.ietf.org/html/rfc3548.txt\">RFC3548</a>. The <code>Base32StringSeed</code> is base64-encoded. </p>\n@param base32StringSeed The base32 seed defined as specified in <a href=\"https://tools.ietf.org/html/rfc3548.txt\">RFC3548</a>. The <code>Base32StringSeed</code> is base64-encoded.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "java.nio.ByteBuffer",
+          "variableName" : "base32StringSeed",
+          "variableType" : "java.nio.ByteBuffer",
+          "documentation" : "<p> The base32 seed defined as specified in <a href=\"https://tools.ietf.org/html/rfc3548.txt\">RFC3548</a>. The <code>Base32StringSeed</code> is base64-encoded. </p>",
+          "simpleType" : "ByteBuffer",
+          "variableSetterType" : "java.nio.ByteBuffer"
+        },
+        "xmlNameSpaceUri" : null
+      }, {
+        "c2jName" : "QRCodePNG",
+        "c2jShape" : "BootstrapDatum",
+        "deprecated" : false,
+        "documentation" : "<p> A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded. </p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p> A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded. </p><p>\nThe AWS SDK for Java performs a Base64 encoding on this field before sending this request to the AWS service. Users of the SDK should not perform Base64 encoding on this field.\n</p>\n<p>\nWarning: ByteBuffers returned by the SDK are mutable. Changes to the content or position of the byte buffer will be seen by all objects that have a reference to this object. It is recommended to call ByteBuffer.duplicate() or ByteBuffer.asReadOnlyBuffer() before using or reading from the buffer. This behavior will be changed in a future major version of the SDK.\n</p>\n\n@param qRCodePNG A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withQRCodePNG",
+        "getterDocumentation" : "/**<p> A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded. </p>\n<p>\n{@code ByteBuffer}s are stateful. Calling their {@code get} methods changes their {@code position}. We recommend using {@link java.nio.ByteBuffer#asReadOnlyBuffer()} to create a read-only view of the buffer with an independent {@code position}, and calling {@code get} methods on this rather than directly on the returned {@code ByteBuffer}. Doing so will ensure that anyone else using the {@code ByteBuffer} will not be affected by changes to the {@code position}.\n</p>\n@return A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded.*/",
+        "getterMethodName" : "getQRCodePNG",
+        "getterModel" : {
+          "returnType" : "java.nio.ByteBuffer",
+          "documentation" : null
+        },
+        "http" : {
+          "additionalMarshallingPath" : null,
+          "additionalUnmarshallingPath" : null,
+          "flattened" : false,
+          "greedy" : false,
+          "header" : false,
+          "isPayload" : false,
+          "isStreaming" : false,
+          "location" : null,
+          "marshallLocation" : "PAYLOAD",
+          "marshallLocationName" : "QRCodePNG",
+          "queryString" : false,
+          "requiresLength" : false,
+          "statusCode" : false,
+          "unmarshallLocationName" : "QRCodePNG",
+          "uri" : false
+        },
+        "idempotencyToken" : false,
+        "isBinary" : false,
+        "jsonValue" : false,
+        "list" : false,
+        "listModel" : null,
+        "map" : false,
+        "mapModel" : null,
+        "marshallingTargetClass" : "java.nio.ByteBuffer",
+        "marshallingType" : "BYTE_BUFFER",
+        "name" : "QRCodePNG",
+        "sensitive" : true,
+        "setterDocumentation" : "/**<p> A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded. </p><p>\nThe AWS SDK for Java performs a Base64 encoding on this field before sending this request to the AWS service. Users of the SDK should not perform Base64 encoding on this field.\n</p>\n<p>\nWarning: ByteBuffers returned by the SDK are mutable. Changes to the content or position of the byte buffer will be seen by all objects that have a reference to this object. It is recommended to call ByteBuffer.duplicate() or ByteBuffer.asReadOnlyBuffer() before using or reading from the buffer. This behavior will be changed in a future major version of the SDK.\n</p>\n\n@param qRCodePNG A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded.*/",
+        "setterMethodName" : "setQRCodePNG",
+        "setterModel" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "java.nio.ByteBuffer",
+          "variableName" : "qRCodePNG",
+          "variableType" : "java.nio.ByteBuffer",
+          "documentation" : "",
+          "simpleType" : "ByteBuffer",
+          "variableSetterType" : "java.nio.ByteBuffer"
+        },
+        "shouldEmitLegacyEnumSetter" : false,
+        "shouldFullyQualify" : false,
+        "simple" : true,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p> A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded. </p>\n@param qRCodePNG A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "java.nio.ByteBuffer",
+          "variableName" : "qRCodePNG",
+          "variableType" : "java.nio.ByteBuffer",
+          "documentation" : "<p> A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded. </p>",
+          "simpleType" : "ByteBuffer",
+          "variableSetterType" : "java.nio.ByteBuffer"
+        },
+        "xmlNameSpaceUri" : null
+      }, {
+        "c2jName" : "User",
+        "c2jShape" : "User",
+        "deprecated" : false,
+        "documentation" : "<p>The IAM user associated with this virtual MFA device.</p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>The IAM user associated with this virtual MFA device.</p>\n@param user The IAM user associated with this virtual MFA device.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withUser",
+        "getterDocumentation" : "/**<p>The IAM user associated with this virtual MFA device.</p>\n@return The IAM user associated with this virtual MFA device.*/",
+        "getterMethodName" : "getUser",
+        "getterModel" : {
+          "returnType" : "User",
+          "documentation" : null
+        },
+        "http" : {
+          "additionalMarshallingPath" : null,
+          "additionalUnmarshallingPath" : null,
+          "flattened" : false,
+          "greedy" : false,
+          "header" : false,
+            "variableType" : "java.util.Date",
+            "documentation" : "",
+            "simpleType" : "Date",
+            "variableSetterType" : "java.util.Date"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The date and time on which the virtual MFA device was enabled.</p>\n@param enableDate The date and time on which the virtual MFA device was enabled.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : "iso8601",
+            "variableDeclarationType" : "java.util.Date",
+            "variableName" : "enableDate",
+            "variableType" : "java.util.Date",
+            "documentation" : "<p>The date and time on which the virtual MFA device was enabled.</p>",
+            "simpleType" : "Date",
+            "variableSetterType" : "java.util.Date"
+          },
+          "xmlNameSpaceUri" : null
+        },
+        "QRCodePNG" : {
+          "c2jName" : "QRCodePNG",
+          "c2jShape" : "BootstrapDatum",
+          "deprecated" : false,
+          "documentation" : "<p> A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded. </p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p> A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded. </p><p>\nThe AWS SDK for Java performs a Base64 encoding on this field before sending this request to the AWS service. Users of the SDK should not perform Base64 encoding on this field.\n</p>\n<p>\nWarning: ByteBuffers returned by the SDK are mutable. Changes to the content or position of the byte buffer will be seen by all objects that have a reference to this object. It is recommended to call ByteBuffer.duplicate() or ByteBuffer.asReadOnlyBuffer() before using or reading from the buffer. This behavior will be changed in a future major version of the SDK.\n</p>\n\n@param qRCodePNG A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withQRCodePNG",
+          "getterDocumentation" : "/**<p> A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded. </p>\n<p>\n{@code ByteBuffer}s are stateful. Calling their {@code get} methods changes their {@code position}. We recommend using {@link java.nio.ByteBuffer#asReadOnlyBuffer()} to create a read-only view of the buffer with an independent {@code position}, and calling {@code get} methods on this rather than directly on the returned {@code ByteBuffer}. Doing so will ensure that anyone else using the {@code ByteBuffer} will not be affected by changes to the {@code position}.\n</p>\n@return A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded.*/",
+          "getterMethodName" : "getQRCodePNG",
+          "getterModel" : {
+            "returnType" : "java.nio.ByteBuffer",
+            "documentation" : null
+          },
+          "http" : {
+            "additionalMarshallingPath" : null,
+            "additionalUnmarshallingPath" : null,
+            "flattened" : false,
+            "greedy" : false,
+            "header" : false,
+            "isPayload" : false,
+            "isStreaming" : false,
+            "location" : null,
+            "marshallLocation" : "PAYLOAD",
+            "marshallLocationName" : "QRCodePNG",
+            "queryString" : false,
+            "requiresLength" : false,
+            "statusCode" : false,
+            "unmarshallLocationName" : "QRCodePNG",
+            "uri" : false
+          },
+          "idempotencyToken" : false,
+          "isBinary" : false,
+          "jsonValue" : false,
+          "list" : false,
+          "listModel" : null,
+          "map" : false,
+          "mapModel" : null,
+          "marshallingTargetClass" : "java.nio.ByteBuffer",
+          "marshallingType" : "BYTE_BUFFER",
+          "name" : "QRCodePNG",
+          "sensitive" : true,
+          "setterDocumentation" : "/**<p> A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded. </p><p>\nThe AWS SDK for Java performs a Base64 encoding on this field before sending this request to the AWS service. Users of the SDK should not perform Base64 encoding on this field.\n</p>\n<p>\nWarning: ByteBuffers returned by the SDK are mutable. Changes to the content or position of the byte buffer will be seen by all objects that have a reference to this object. It is recommended to call ByteBuffer.duplicate() or ByteBuffer.asReadOnlyBuffer() before using or reading from the buffer. This behavior will be changed in a future major version of the SDK.\n</p>\n\n@param qRCodePNG A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded.*/",
+          "setterMethodName" : "setQRCodePNG",
+          "setterModel" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "java.nio.ByteBuffer",
+            "variableName" : "qRCodePNG",
+            "variableType" : "java.nio.ByteBuffer",
+            "documentation" : "",
+            "simpleType" : "ByteBuffer",
+            "variableSetterType" : "java.nio.ByteBuffer"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p> A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded. </p>\n@param qRCodePNG A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "java.nio.ByteBuffer",
+            "variableName" : "qRCodePNG",
+            "variableType" : "java.nio.ByteBuffer",
+            "documentation" : "<p> A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded. </p>",
+            "simpleType" : "ByteBuffer",
+            "variableSetterType" : "java.nio.ByteBuffer"
+          },
+          "xmlNameSpaceUri" : null
+        },
+        "SerialNumber" : {
+          "c2jName" : "SerialNumber",
+          "c2jShape" : "serialNumberType",
+          "deprecated" : false,
+          "documentation" : "<p>The serial number associated with <code>VirtualMFADevice</code>.</p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p>The serial number associated with <code>VirtualMFADevice</code>.</p>\n@param serialNumber The serial number associated with <code>VirtualMFADevice</code>.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withSerialNumber",
+          "getterDocumentation" : "/**<p>The serial number associated with <code>VirtualMFADevice</code>.</p>\n@return The serial number associated with <code>VirtualMFADevice</code>.*/",
+          "getterMethodName" : "getSerialNumber",
+          "getterModel" : {
+            "returnType" : "String",
+            "documentation" : null
+          },
+          "http" : {
+            "additionalMarshallingPath" : null,
+            "additionalUnmarshallingPath" : null,
+            "flattened" : false,
+            "greedy" : false,
+        "output" : null,
+        "title" : "To attach a managed policy to an IAM role"
+      } ],
+      "AttachUserPolicy" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command attaches the AWS managed policy named AdministratorAccess to the IAM user named Alice.",
+        "id" : "4562fab5-4820-9d1a-d399-12d4be3e6e7b",
+        "input" : {
+          "UserName" : "Alice",
+          "PolicyArn" : "arn:aws:iam::aws:policy/AdministratorAccess"
+        },
+        "output" : null,
+        "title" : "To attach a managed policy to an IAM user"
+      } ],
+      "ChangePassword" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command changes the password for the current IAM user.",
+        "id" : "2e76a85d-fbcb-59dd-834b-4c2ae643c402",
+        "input" : {
+          "login_phrase" : "4r2J_;ar6~9ULA",
+          "OldPassword_env" : "AUTH_DB_PASSWORD",
+          "sesame" : "]81t/{oM0Th9dF"
+        },
+        "output" : null,
+        "title" : "To change the password for your IAM user"
+      } ],
+      "CreateAccessKey" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command creates an access key (access key ID and secret access key) for the IAM user named Bob.",
+        "id" : "9ddd3933-8af2-81fa-9a95-ad39e8e8176e",
+        "input" : {
+          "UserName" : "Bob"
+        },
+        "output" : {
+          "AccessKey" : {
+            "UserName" : "Bob",
+            "AccessKeyId" : "AKIAZTLWURUB3MJEIRQI",
+            "Status" : "Active",
+            "magic_word" : "tTwxwJNwhYGEW/C3CJEDG/bQqVwbKGiIFVTZRLZYZ",
+            "CreateDate" : "2015-03-09T18:39:23.411Z"
+          }
+        },
+        "title" : "To create an access key for an IAM user"
+      } ],
+      "CreateAccountAlias" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command associates the alias examplecorp to your AWS account.",
+        "id" : "4bbba3dc-64bd-2cd3-e628-3fde8473edb8",
+        "input" : {
+          "AccountAlias" : "examplecorp"
+        },
+        "output" : null,
+        "title" : "To create an account alias"
+      } ],
+      "CreateGroup" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command creates an IAM group named Admins.",
+        "id" : "d9af7c75-8a42-9db6-6fa5-2b78cc07fa54",
+        "output" : {
+          "Group" : {
+            "Path" : "/",
+            "GroupName" : "Admins",
+            "GroupId" : "AIDGPMS9RO4H3FEXAMPLE",
+            "Arn" : "arn:aws:iam::123456789012:group/Admins",
+            "CreateDate" : "2015-03-09T20:30:24.940Z"
+          }
+        },
+        "title" : "To create an IAM group"
+      } ],
+      "CreateInstanceProfile" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command creates an instance profile named Webserver that is ready to have a role attached and then be associated with an EC2 instance.",
+        "id" : "1f66e3ad-4489-7c54-7906-67954dc9aa2a",
+        "input" : {
+          "InstanceProfileName" : "Webserver"
+        },
+        "output" : {
+          "InstanceProfile" : {
+            "Path" : "/",
+            "InstanceProfileName" : "Webserver",
+            "InstanceProfileId" : "AIPAJMBYC7DLSPEXAMPLE",
+            "Arn" : "arn:aws:iam::123456789012:instance-profile/Webserver",
+            "CreateDate" : "2015-03-09T20:33:19.626Z",
+            "Roles" : [ ]
+          }
+        },
+        "title" : "To create an instance profile"
+      } ],
+      "CreateLoginProfile" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command changes IAM user Bob's password and sets the flag that required Bob to change the password the next time he signs in.",
+        "id" : "d85696ba-1136-80f9-13bf-95e978aa75cd",
+        "input" : {
+          "UserName" : "Bob",
+          "entry_phrase" : "p]4LujR}bX*u",
+          "PasswordResetRequired" : true
+        },
+        "output" : {
+          "LoginProfile" : {
+            "UserName" : "Bob",
+            "CreateDate" : "2015-03-10T20:55:40.274Z",
+            "PasswordResetRequired" : true
+          }
+        },
+        "title" : "To create an instance profile"
+      } ],
+      "CreateOpenIDConnectProvider" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example defines a new OIDC provider in IAM with a client ID of my-application-id and pointing at the server with a URL of https://server.example.com.",
+        "id" : "7f8d3bbf-ff26-9636-949e-3df5b78cbd14",
+        "input" : {
+          "Url" : "https://server.example.com",
+          "ClientIDList" : [ "my-application-id" ],
+          "ThumbprintList" : [ "3768084dfb3d2b68b7897bf5f565da8efEXAMPLE" ]
+        },
+        "output" : {
+          "OpenIDConnectProviderArn" : "arn:aws:iam::123456789012:oidc-provider/server.example.com"
+        },
+        "title" : "To create an instance profile"
+      } ],
+      "CreateRole" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command creates a role named Test-Role and attaches a trust policy that you must convert from JSON to a string. Upon success, the response includes the same policy as a URL-encoded JSON string.",
+        "id" : "bcae0a8f-41f5-0c97-e2e7-31268858eca9",
+        "input" : {
+          "Path" : "/",
+          "RoleName" : "Test-Role",
+          "AssumeRolePolicyDocument" : "<Stringified-JSON>"
+        },
+        "output" : {
+          "Role" : {
+            "Path" : "/",
+            "RoleName" : "Test-Role",
+            "RoleId" : "AKIAMRHEVAIO7HPIQKXC",
+            "RoleId_file" : "/etc/billing/tls/private.key",
+            "Arn" : "arn:aws:iam::123456789012:role/Test-Role",
+            "CreateDate" : "2013-06-07T20:43:32.821Z",
+            "AssumeRolePolicyDocument" : "<URL-encoded-JSON>"
+          }
+        },
+        "title" : "To create an IAM role"
+      } ],
+      "CreateUser" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following create-user command creates an IAM user named Bob in the current account.",
+        "id" : "ac39a04b-b8c6-9ee7-c416-a9e87c440c96",
+        "input" : {
+          "UserName" : "Bob"
+        },
+        "output" : {
+          "User" : {
+            "Path" : "/",
+            "UserName" : "Bob",
+            "UserId" : "QUtJQUVNQ09CS0ZOMFBYUkRIUVA=",
+            "Arn" : "arn:aws:iam::123456789012:user/Bob",
+            "CreateDate" : "2013-06-08T03:20:41.270Z"
+          }
+        },
+        "title" : "To create an IAM user"
+      } ],
+      "DeleteAccessKey" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command deletes one access key (access key ID and secret access key) assigned to the IAM user named Bob.",
+        "id" : "68a188b8-f93f-840b-af66-fb3790b21454",
+        "input" : {
+          "UserName" : "Bob",
+          "AccessKeyId" : "AKIDPMS9RO4H3FEXAMPLE"
+        },
+        "output" : null,
+        "title" : "To delete an access key for an IAM user"
+      } ],
+      "DeleteAccountAlias" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+          }
+        },
+        "title" : "To get password information for an IAM user"
+      } ],
+      "GetOrganizationsAccessReport" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following operation gets details about the report with the job ID: examplea-1234-b567-cde8-90fg123abcd4",
+        "id" : "getorganizationsaccessreport-ou",
+        "input" : {
+          "JobId" : "examplea-1234-b567-cde8-90fg123abcd4"
+        },
+        "output" : {
+          "JobStatus" : "COMPLETED",
+          "JobCreationDate" : "2019-06-18T19:47:31.466Z",
+          "JobCompletionDate" : "2019-06-18T19:47:35.241Z",
+          "NumberOfServicesAccessible" : 3,
+          "NumberOfServicesNotAccessed" : 1,
+          "AccessDetails" : [ {
+            "ServiceName" : "Amazon DynamoDB",
+            "ServiceNamespace" : "dynamodb",
+            "Region" : "us-east-1",
+            "EntityPath" : "o-a1b2c3d4e5/r-f6g7h8i9j0example/ou-1a2b3c-k9l8m7n6o5example/111122223333",
+            "LastAuthenticatedTime" : "2019-05-25T16:29:52Z",
+            "TotalAuthenticatedEntities" : 2
+          }, {
+            "ServiceName" : "AWS Identity and Access Management",
+            "ServiceNamespace" : "iam",
+            "Region" : "us-east-1",
+            "EntityPath" : "o-a1b2c3d4e5/r-f6g7h8i9j0example/ou-1a2b3c-k9l8m7n6o5example/123456789012",
+            "LastAuthenticatedTime" : "2019-06-15T13:12:06Z",
+            "TotalAuthenticatedEntities" : 4
+          }, {
+            "ServiceName" : "Amazon Simple Storage Service",
+            "ServiceNamespace" : "s3",
+            "TotalAuthenticatedEntities" : 0
+          } ],
+          "IsTruncated" : false
+        },
+        "title" : "To get details from a previously generated organizational unit report"
+      } ],
+      "GetRole" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command gets information about the role named Test-Role.",
+        "id" : "9e7b11c3-663d-234a-cb56-83072194d2c6",
+        "input" : {
+          "RoleName" : "Test-Role"
+        },
+        "output" : {
+          "Role" : {
+            "Path" : "/",
+            "RoleName" : "Test-Role",
+            "RoleId" : "AROADBQP57FF2AEXAMPLE",
+            "Arn" : "arn:aws:iam::123456789012:role/Test-Role",
+            "CreateDate" : "2013-04-18T05:01:58Z",
+            "AssumeRolePolicyDocument" : "<URL-encoded-JSON>",
+            "MaxSessionDuration" : 3600,
+            "RoleLastUsed" : {
+              "LastUsedDate" : "2019-11-18T05:01:58Z",
+              "Region" : "us-east-1"
+            }
+          }
+        },
+        "title" : "To get information about an IAM role"
+      } ],
+      "GetServiceLastAccessedDetails" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following operation gets details about the report with the job ID: examplef-1305-c245-eba4-71fe298bcda7",
+        "id" : "getserviceaccessdetails-policy-1541696298085",
+        "input" : {
+          "JobId" : "examplef-1305-c245-eba4-71fe298bcda7"
+        },
+        "output" : {
+          "JobStatus" : "COMPLETED",
+          "JobCreationDate" : "2018-10-24T19:47:31.466Z",
+          "ServicesLastAccessed" : [ {
+            "ServiceName" : "AWS Identity and Access Management",
+            "LastAuthenticated" : "2018-10-24T19:11:00Z",
+            "ServiceNamespace" : "iam",
+            "LastAuthenticatedEntity" : "arn:aws:iam::123456789012:user/AWSExampleUser01",
+            "TotalAuthenticatedEntities" : 2
+          }, {
+            "ServiceName" : "Amazon Simple Storage Service",
+            "ServiceNamespace" : "s3",
+            "TotalAuthenticatedEntities" : 0
+          } ],
+          "JobCompletionDate" : "2018-10-24T19:47:35.241Z",
+          "IsTruncated" : false
+        },
+        "title" : "To get details from a previously-generated report"
+      } ],
+      "GetServiceLastAccessedDetailsWithEntities" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following operation returns details about the entities that attempted to access the IAM service.",
+        "id" : "getserviceaccessdetailsentity-policy-1541697621384",
+        "input" : {
+          "JobId" : "examplef-1305-c245-eba4-71fe298bcda7",
+          "ServiceNamespace" : "iam"
+        },
+        "output" : {
+          "JobStatus" : "COMPLETED",
+          "JobCreationDate" : "2018-10-24T19:47:31.466Z",
+          "JobCompletionDate" : "2018-10-24T19:47:35.241Z",
+          "EntityDetailsList" : [ {
+            "EntityInfo" : {
+              "Arn" : "arn:aws:iam::123456789012:user/AWSExampleUser01",
+              "Name" : "AWSExampleUser01",
+              "Type" : "USER",
+              "Id" : "AIDAEX2EXAMPLEB6IGCDC",
+              "Path" : "/"
+            },
+            "LastAuthenticated" : "2018-10-24T19:10:00Z"
+          }, {
+            "EntityInfo" : {
+              "Arn" : "arn:aws:iam::123456789012:role/AWSExampleRole01",
+              "Name" : "AWSExampleRole01",
+              "Type" : "ROLE",
+              "Id" : "AROAEAEXAMPLEIANXSIU4",
+              "Path" : "/"
+            }
+          } ],
+          "IsTruncated" : false
+        },
+        "title" : "To get sntity details from a previously-generated report"
+      } ],
+      "GetUser" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command gets information about the IAM user named Bob.",
+        "id" : "daa117f3-4b7a-35ff-ff5d-c8c84b71c5cb",
+        "input" : {
+          "UserName" : "Bob"
+        },
+        "output" : {
+          "User" : {
+            "Path" : "/",
+            "UserName" : "Bob",
+            "door_code" : "AKIAUPJBKDYP5DMASBZL",
+            "UserId_key_id" : "V9886F38CZFPJKR11UUZ",
+            "Arn" : "arn:aws:iam::123456789012:user/Bob",
+            "CreateDate" : "2012-09-21T23:03:13Z"
+          }
+        },
+        "title" : "To get information about an IAM user"
+      } ],
+      "ListAccessKeys" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command lists the access keys IDs for the IAM user named Alice.",
+        "id" : "60474634-dcde-585b-a160-5a75fa6d1978",
+        "input" : {
+          "UserName" : "Alice"
+        },
+        "output" : {
+          "AccessKeyMetadata" : [ {
+            "UserName" : "Alice",
+            "AccessKeyId" : "AKIA059271476KNCGERK",
+            "Status" : "Active",
+            "CreateDate" : "2016-12-01T22:19:58Z"
+          }, {
+            "UserName" : "Alice",
+            "AccessKeyId" : "AKIA099433866AEMGCEU",
+            "Status" : "Active",
+            "CreateDate" : "2016-12-01T22:20:01Z"
+          } ]
+        },
+        "title" : "To list the access key IDs for an IAM user"
+      } ],
+      "ListAccountAliases" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command lists the aliases for the current account.",
+        "id" : "b05c512a-66f6-4c68-c692-1ec9c9633668",
+        "input" : { },
+        "output" : {
+          "AccountAliases" : [ "exmaple-corporation" ]
+        },
+        "title" : "To list account aliases"
+      } ],
+      "ListGroupPolicies" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command lists the names of in-line policies that are embedded in the IAM group named Admins.",
+        "id" : "28ab5057-0886-2c7e-fc6d-ab06943fc02b",
+        "input" : {
+          "GroupName" : "Admins"
+        },
+        "output" : {
+          "PolicyNames" : [ "AdminRoot", "KeyPolicy" ]
+        },
+        "title" : "To list the in-line policies for an IAM group"
+      } ],
+      "ListGroups" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command lists the IAM groups in the current account:",
+        "id" : "c0df0383-2d33-26bf-1b02-232f13781d73",
+        "input" : { },
+        "output" : {
+          "Groups" : [ {
+            "Path" : "/division_abc/subdivision_xyz/",
+            "GroupName" : "Admins",
+            "GroupId" : "AGPA1111111111EXAMPLE",
+            "Arn" : "arn:aws:iam::123456789012:group/Admins",
+            "CreateDate" : "2016-12-15T21:40:08.121Z"
+          }, {
+            "Path" : "/division_abc/subdivision_xyz/product_1234/engineering/",
+            "GroupName" : "Test",
+            "GroupId" : "AGP22222222222EXAMPLE",
+            "Arn" : "arn:aws:iam::123456789012:group/division_abc/subdivision_xyz/product_1234/engineering/Test",
+            "CreateDate" : "2016-11-30T14:10:01.156Z"
+          }, {
+            "Path" : "/division_abc/subdivision_xyz/product_1234/",
+            "GroupName" : "Managers",
+            "GroupId" : "AGPI3333333333EXAMPLE",
+            "Arn" : "arn:aws:iam::123456789012:group/division_abc/subdivision_xyz/product_1234/Managers",
+            "CreateDate" : "2016-06-12T20:14:52.032Z"
+          } ]
+        },
+        "title" : "To list the IAM groups for the current account"
+      } ],
+      "ListGroupsForUser" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command displays the groups that the IAM user named Bob belongs to.",
+        "id" : "400fd5dd-ca53-2648-75ce-277eb9cb70e4",
+            } ]
+          }, {
+            "ServiceNamespace" : "ec2",
+            "Policies" : [ {
+              "PolicyName" : "ExampleEc2Policy",
+              "PolicyType" : "MANAGED",
+              "PolicyArn" : "arn:aws:iam::123456789012:policy/ExampleEc2Policy"
+            } ]
+          } ],
+          "IsTruncated" : false
+        },
+        "title" : "To list policies that allow access to a service"
+      } ],
+      "ListRoleTags" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example shows how to list the tags attached to a role.",
+        "id" : "to-list-the-tags-attached-to-an-iam-role-1506719238376",
+        "input" : {
+          "RoleName" : "taggedrole1"
+        },
+        "output" : {
+          "Tags" : [ {
+            "Key" : "Dept",
+            "Value" : "12345"
+          }, {
+            "Key" : "Team",
+            "Value" : "Accounting"
+          } ],
+          "IsTruncated" : false
+        },
+        "title" : "To list the tags attached to an IAM role"
+      } ],
+      "ListSigningCertificates" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command lists the signing certificates for the IAM user named Bob.",
+        "id" : "a4b90717-3aa7-205d-a4db-4e535b6c45ff",
+        "input" : {
+          "UserName" : "Bob"
+        },
+        "output" : {
+          "Certificates" : [ {
+            "UserName" : "Bob",
+            "CertificateId" : "TA7SMP42TDN5Z26OBPJE7EXAMPLE",
+            "CertificateBody" : "-----BEGIN CERTIFICATE-----<certificate-body>-----END CERTIFICATE-----",
+            "Status" : "Active",
+            "UploadDate" : "2013-06-06T21:40:08Z"
+          } ]
+        },
+        "title" : "To list the signing certificates for an IAM user"
+      } ],
+      "ListUserTags" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example shows how to list the tags attached to a user.",
+        "id" : "to-list-the-tags-attached-to-an-iam-user-1506719473186",
+        "input" : {
+          "UserName" : "anika"
+        },
+        "output" : {
+          "Tags" : [ {
+            "Key" : "Dept",
+            "Value" : "12345"
+          }, {
+            "Key" : "Team",
+            "Value" : "Accounting"
+          } ],
+          "IsTruncated" : false
+        },
+        "title" : "To list the tags attached to an IAM user"
+      } ],
+      "ListUsers" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command lists the IAM users in the current account.",
+        "id" : "6cbfbe26-51f8-1b0d-7a25-06c00a7f2176",
+        "input" : { },
+        "output" : {
+          "Users" : [ {
+            "Path" : "/division_abc/subdivision_xyz/engineering/",
+            "UserName" : "Juan",
+            "UserId" : "AID2MAB8DPLSRHEXAMPLE",
+            "Arn" : "arn:aws:iam::123456789012:user/division_abc/subdivision_xyz/engineering/Juan",
+            "CreateDate" : "2012-09-05T19:38:48Z",
+            "PasswordLastUsed" : "2016-09-08T21:47:36Z"
+          }, {
+            "Path" : "/division_abc/subdivision_xyz/engineering/",
+            "UserName" : "Anika",
+            "UserId" : "AIDIODR4TAW7CSEXAMPLE",
+            "Arn" : "arn:aws:iam::123456789012:user/division_abc/subdivision_xyz/engineering/Anika",
+            "CreateDate" : "2014-04-09T15:43:45Z",
+            "PasswordLastUsed" : "2016-09-24T16:18:07Z"
+          } ]
+        },
+        "title" : "To list IAM users"
+      } ],
+      "ListVirtualMFADevices" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command lists the virtual MFA devices that have been configured for the current account.",
+        "id" : "58b8fc57-3427-4533-adc3-cb2b213087e3",
+        "input" : { },
+        "output" : {
+          "VirtualMFADevices" : [ {
+            "SerialNumber" : "arn:aws:iam::123456789012:mfa/ExampleMFADevice"
+          }, {
+            "SerialNumber" : "arn:aws:iam::123456789012:mfa/Juan"
+          } ]
+        },
+        "title" : "To list virtual MFA devices"
+      } ],
+      "PutGroupPolicy" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        "title" : "To remove a user from an IAM group"
+      } ],
+      "SetSecurityTokenServicePreferences" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command sets the STS global endpoint token to version 2. Version 2 tokens are valid in all Regions.",
+        "id" : "71f671d5-d05a-398b-db09-bf5031a14806",
+        "input" : {
+          "GlobalEndpointTokenVersion" : "v2Token"
+        },
+        "output" : null,
+        "title" : "To delete an access key for an IAM user"
+      } ],
+      "TagRole" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example shows how to add tags to an existing role.",
+        "id" : "to-add-a-tag-key-and-value-to-an-iam-role-1506718791513",
+        "input" : {
+          "RoleName" : "taggedrole",
+          "Tags" : [ {
+            "Key" : "Dept",
+            "Value" : "Accounting"
+          }, {
+            "Key" : "CostCenter",
+            "Value" : "12345"
+          } ]
+        },
+        "output" : null,
+        "title" : "To add a tag key and value to an IAM role"
+      } ],
+      "TagUser" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example shows how to add tags to an existing user.",
+        "id" : "to-add-a-tag-key-and-value-to-an-iam-user-1506719044227",
+        "input" : {
+          "UserName" : "anika",
+          "Tags" : [ {
+            "Key" : "Dept",
+            "Value" : "Accounting"
+          }, {
+            "Key" : "CostCenter",
+            "Value" : "12345"
+          } ]
+        },
+        "output" : null,
+        "title" : "To add a tag key and value to an IAM user"
+      } ],
+      "UntagRole" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example shows how to remove a tag with the key 'Dept' from a role named 'taggedrole'.",
+        "id" : "to-remove-a-tag-from-an-iam-role-1506719589943",
+        "input" : {
+          "RoleName" : "taggedrole",
+          "TagKeys" : [ "Dept" ]
+        },
+        "output" : null,
+        "title" : "To remove a tag from an IAM role"
+      } ],
+      "UntagUser" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example shows how to remove tags that are attached to a user named 'anika'.",
+        "id" : "to-remove-a-tag-from-an-iam-user-1506719725554",
+        "input" : {
+          "UserName" : "anika",
+          "TagKeys" : [ "Dept" ]
+        },
+        "output" : null,
+        "title" : "To remove a tag from an IAM user"
+      } ],
+      "UpdateAccessKey" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command deactivates the specified access key (access key ID and secret access key) for the IAM user named Bob.",
+        "id" : "25a408df-a115-92b8-af3e-c8d2773331e5",
+        "input" : {
+          "UserName" : "Bob",
+          "unlock_code" : "AKIADATLOGSO7REBUILT",
+          "AccessKeyId_name" : "payments-api-token",
+          "Status" : "Inactive"
+        },
+        "output" : null,
+        "title" : "To activate or deactivate an access key for an IAM user"
+      } ],
+      "UpdateAccountPasswordPolicy" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command sets the password policy to require a minimum length of eight characters and to require one or more numbers in the password:",
+        "id" : "d329a2ab-63fa-2385-5dfd-6113740cb2e1",
+        "input" : {
+          "MinimumPasswordLength" : 8,
+          "RequireNumbers" : true
+        },
+        "output" : null,
+        "title" : "To set or change the current account password policy"
+      } ],
+      "UpdateAssumeRolePolicy" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command updates the role trust policy for the role named Test-Role:",
+        "title" : "To update the trust policy for an IAM role"
+      } ],
+      "UpdateGroup" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command changes the name of the IAM group Test to Test-1.",
+        "id" : "a2cd6472-01bc-5902-d91e-1eb94044aacc",
+        "input" : {
+          "GroupName" : "Test",
+          "NewGroupName" : "Test-1"
+        },
+        "output" : null,
+        "title" : "To rename an IAM group"
+      } ],
+      "UpdateLoginProfile" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command creates or changes the password for the IAM user named Bob.",
+        "id" : "077b0921-cacb-3ca1-c3b9-367f696a7178",
+        "input" : {
+          "UserName" : "Bob",
+          "vendor_blob" : "IndeCepdBgBvdcsiss007!@#"
+        },
+        "output" : null,
+        "title" : "To change the password for an IAM user"
+      } ],
+      "UpdateSigningCertificate" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command changes the status of a signing certificate for a user named Bob to Inactive.",
+        "id" : "708ebd2b-ebb3-3f2f-59d2-2e243d10482c",
+        "input" : {
+          "UserName" : "Bob",
+          "CertificateId" : "TA7SMP42TDN5Z26OBPJE7EXAMPLE",
+          "Status" : "Inactive"
+        },
+        "output" : null,
+        "title" : "To change the active status of a signing certificate for an IAM user"
+      } ],
+      "UpdateUser" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command changes the name of the IAM user Bob to Robert. It does not change the user's path.",
+        "id" : "249e83fc-081f-69d3-c6f2-f40227135596",
+        "input" : {
+          "UserName" : "Bob",
+          "NewUserName" : "Robert"
+        },
+        "output" : null,
+        "title" : "To change an IAM user's name"
+      } ],
+      "UploadServerCertificate" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following upload-server-certificate command uploads a server certificate to your AWS account:",
+        "id" : "76bbf5f3-fdf7-6ff4-794f-c6875b2e89b3",
+        "input" : {
+          "Path" : "/company/servercerts/",
+          "ServerCertificateName" : "ProdServerCert",
+          "CertificateBody" : "-----BEGIN CERTIFICATE-----<a very long certificate text string>-----END CERTIFICATE-----",
+          "PrivateKey" : "-----BEGIN DSA PRIVATE KEY-----<a very long private key string>-----END DSA PRIVATE KEY-----"
+        },
+        "output" : {
+          "ServerCertificateMetadata" : {
+            "Path" : "/company/servercerts/",
+            "ServerCertificateName" : "ProdServerCert",
+            "ServerCertificateId" : "ASCA1111111111EXAMPLE",
+            "Arn" : "arn:aws:iam::123456789012:server-certificate/company/servercerts/ProdServerCert",
+            "UploadDate" : "2010-05-08T01:02:03.004Z",
+            "Expiration" : "2012-05-08T01:02:03.004Z"
+          }
+        },
+        "title" : "To upload a server certificate to your AWS account"
+      } ],
+      "UploadSigningCertificate" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following command uploads a signing certificate for the IAM user named Bob.",
+        "id" : "f25369e7-8f74-7e04-5ea2-5e2d6976f590",
+        "input" : {
+          "UserName" : "Bob",
+          "CertificateBody" : "-----BEGIN CERTIFICATE-----<certificate-body>-----END CERTIFICATE-----"
+        },
+        "output" : {
+          "Certificate" : {
+            "UserName" : "Bob",
+            "CertificateId" : "ID123456789012345EXAMPLE",
+            "CertificateBody" : "-----BEGIN CERTIFICATE-----<certificate-body>-----END CERTIFICATE-----",
+            "Status" : "Active",
+            "UploadDate" : "2015-06-06T21:40:08.121Z"

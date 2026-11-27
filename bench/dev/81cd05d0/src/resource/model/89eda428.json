@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2017-01-17",
+    "endpointPrefix":"mturk-requester",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceAbbreviation":"Amazon MTurk",
+    "serviceFullName":"Amazon Mechanical Turk",
+    "serviceId":"MTurk",
+    "signatureVersion":"v4",
+    "targetPrefix":"MTurkRequesterServiceV20170117",
+    "uid":"mturk-requester-2017-01-17"
+  },
+  "operations":{
+    "AcceptQualificationRequest":{
+      "name":"AcceptQualificationRequest",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AcceptQualificationRequestRequest"},
+      "output":{"shape":"AcceptQualificationRequestResponse"},
+      "errors":[
+        {"shape":"ServiceFault"},
+        {"shape":"RequestError"}
+      ],
+      "documentation":"<p> The <code>AcceptQualificationRequest</code> operation approves a Worker's request for a Qualification. </p> <p> Only the owner of the Qualification type can grant a Qualification request for that type. </p> <p> A successful request for the <code>AcceptQualificationRequest</code> operation returns with no errors and an empty body. </p>"
+    },

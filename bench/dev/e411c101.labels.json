@@ -1,0 +1,629 @@
+{
+ "repo": "e411c101",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "app/1b73301a.properties",
+   "line": 14,
+   "start": 27,
+   "end": 53,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "flnN99wHjeVc1jTZ/2sZkU\\=\\="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/conf/15df23f8.java",
+   "line": 108,
+   "start": 34,
+   "end": 39,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "21683"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "src/util/c5681923.java",
+   "line": 30,
+   "start": 44,
+   "end": 65,
+   "category": "Password",
+   "mutation": "split",
+   "forms": [
+    "d!@$%e",
+    "^&*q)_a+n.",
+    "d!@$%e^&*q)_a+n."
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "src/197f9ff2.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/197f9ff2.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_q4kxPjOdp4kVU4M4wkRL7O3x8wNEEtkdUPeQ"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/56971808.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "j.koch@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/56971808.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 4393 8001"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/56971808.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "threshold82"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/56971808.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE01275222451550531914"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/f85bb040.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm.83p0zb.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/f85bb040.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "capital522"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/f85bb040.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "tomcat783!"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/38b469c6.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "seenicely39"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/79d27a69.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_pft9g9Js1FLu8Ws5xJrwvik1"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/79d27a69.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "F1cVZiKuho8asT32rVEshC7iqIesKl75"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/79d27a69.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "NXZ6aWY4eGhwb2Jvd3Y0NXV5YXRoc2wwdGo4ODAwaW4=",
+    "5vzif8xhpobowv45uyathsl0tj8800in"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/a03b6350.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "37303362613939656166386336303165343133376339333930393933663239343039303666643436653061336134663261333531353734363963313733623232",
+    "703ba99eaf8c601e4137c9390993f2940906fd46e0a3a4f2a35157469c173b22"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/210e92fa.iml",
+   "line": 35,
+   "whole_line": "    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Maven: org.yaml:snakeyaml:1.17\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/210e92fa.iml",
+   "line": 61,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.slf4j:slf4j-api:1.7.25\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/210e92fa.iml",
+   "line": 101,
+   "whole_line": "    <orderEntry type=\"library\" scope=\"PROVIDED\" name=\"Maven: javax.servlet:javax.servlet-api:3.1.0\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/210e92fa.iml",
+   "line": 104,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.apache.tomcat:tomcat-annotations-api:8.5.23\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/78ce3383.iml",
+   "line": 29,
+   "whole_line": "    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Maven: org.yaml:snakeyaml:1.17\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/78ce3383.iml",
+   "line": 32,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.apache.tomcat:tomcat-annotations-api:8.5.34\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/78ce3383.iml",
+   "line": 61,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: xml-apis:xml-apis:1.0.b2\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/78ce3383.iml",
+   "line": 141,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.slf4j:slf4j-api:1.7.12\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/97288e96.iml",
+   "line": 34,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.apache.logging.log4j:log4j-api:2.12.1\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/97288e96.iml",
+   "line": 36,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: jakarta.annotation:jakarta.annotation-api:1.3.5\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/97288e96.iml",
+   "line": 37,
+   "whole_line": "    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Maven: org.yaml:snakeyaml:1.25\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/97288e96.iml",
+   "line": 50,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: jakarta.validation:jakarta.validation-api:2.0.2\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/97288e96.iml",
+   "line": 66,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.slf4j:slf4j-api:1.7.30\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/97288e96.iml",
+   "line": 67,
+   "whole_line": "    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/97288e96.iml",
+   "line": 68,
+   "whole_line": "    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: jakarta.activation:jakarta.activation-api:1.2.2\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/97288e96.iml",
+   "line": 70,
+   "whole_line": "    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.jupiter:junit-jupiter-api:5.5.2\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/97288e96.iml",
+   "line": 76,
+   "whole_line": "    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.apiguardian:apiguardian-api:1.1.0\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bf365b1b.iml",
+   "line": 38,
+   "whole_line": "    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Maven: org.yaml:snakeyaml:1.17\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bf365b1b.iml",
+   "line": 41,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.apache.tomcat:tomcat-annotations-api:8.5.34\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bf365b1b.iml",
+   "line": 64,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.slf4j:slf4j-api:1.7.25\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c08024ab",
+   "line": 238,
+   "whole_line": "            wget --http-user=$MVNW_USERNAME --http-password=$MVNW_PASSWORD \"$jarUrl\" -O \"$wrapperJarPath\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e654cce4.iml",
+   "line": 37,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: javax.annotation:javax.annotation-api:1.3.2\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e654cce4.iml",
+   "line": 40,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.yaml:snakeyaml:1.23\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e654cce4.iml",
+   "line": 104,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.slf4j:slf4j-api:1.7.25\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e654cce4.iml",
+   "line": 124,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.apache.logging.log4j:log4j-api:2.8.2\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ecf3e5bd.cmd",
+   "line": 147,
+   "whole_line": "\t\t\"$webclient.Credentials = new-object System.Net.NetworkCredential('%MVNW_USERNAME%', '%MVNW_PASSWORD%');\"^",
+   "source": "creddata"
+  },
+  {
+   "file": "kafka/b47d178b.iml",
+   "line": 35,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: javax.annotation:javax.annotation-api:1.3.2\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "kafka/b47d178b.iml",
+   "line": 38,
+   "whole_line": "    <orderEntry type=\"library\" scope=\"RUNTIME\" name=\"Maven: org.yaml:snakeyaml:1.23\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "kafka/b47d178b.iml",
+   "line": 66,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.slf4j:slf4j-api:1.7.25\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "kafka/b47d178b.iml",
+   "line": 82,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.apache.kafka:connect-api:1.0.0\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "kafka/b47d178b.iml",
+   "line": 92,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: org.apache.logging.log4j:log4j-api:2.11.2\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "kafka/b47d178b.iml",
+   "line": 113,
+   "whole_line": "    <orderEntry type=\"library\" name=\"Maven: javax.servlet:javax.servlet-api:4.0.1\" level=\"project\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2e21ba2a.java",
+   "line": 81,
+   "whole_line": "\t@ApiOperation(value=\"\u83b7\u53d6\u7528\u6237\u5217\u8868\", notes=\"\u6839\u636eUser\u5bf9\u8c61\u67e5\u8be2\u7528\u6237\u4fe1\u606f\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/15df23f8.java",
+   "line": 133,
+   "value": "password2==null?password:password2",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/c5681923.java",
+   "line": 31,
+   "value": "secret/data/acme/etl/staging",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/dc0cb5ab.java",
+   "line": 75,
+   "whole_line": "\tprivate static String APP_CURRENT_USER_TOKEN = \"USER_TOKEN\";// \u5f53\u524d\u7528\u6237token",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/e8ebce58.java",
+   "line": 20,
+   "value": "=: \\t\\r\\n\\f",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/e8ebce58.java",
+   "line": 111,
+   "whole_line": "               key = loadConvert(key);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/e8ebce58.java",
+   "line": 385,
+   "whole_line": "            this.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/e8ebce58.java",
+   "line": 404,
+   "whole_line": "            this.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/197f9ff2.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "7.3.35"
+  },
+  {
+   "file": "src/197f9ff2.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.29.7"
+  },
+  {
+   "file": "src/197f9ff2.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-yYFj6l9UBQpK9Gd1CMD8g2vxdz27ic4gNzqTnIlsWHPM6Mf7c9s5fudasFjh9T5mHWh0DQhbhUCFmG0a5x4+lw=="
+  },
+  {
+   "file": "src/197f9ff2.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "7.27.4"
+  },
+  {
+   "file": "src/197f9ff2.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-yakGuz4pwDNzQW1PJvJ7qHys6oodaGUbGAnzKrxMHSNq0IjcCZMbu7YObiSnqhf+nRZZCVGX4Xnwz2tVTZDIyA=="
+  },
+  {
+   "file": "src/197f9ff2.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "7.29.43"
+  },
+  {
+   "file": "src/197f9ff2.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-xsL9UGqWxHfC2AlEfrQwfXP0TziS6I3Gf0xcU3+cEEAthqCONtBfxpn6cXkxwEMbnAjg5e0pRQbkrF7+T0rFwA=="
+  },
+  {
+   "file": "test/56971808.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "test/56971808.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "jane.doe@example.org"
+  },
+  {
+   "file": "test/56971808.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "test/f85bb040.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Magnet Sophie 5.13"
+  },
+  {
+   "file": "test/f85bb040.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kasse"
+  },
+  {
+   "file": "test/f85bb040.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "dash_near"
+  },
+  {
+   "file": "test/f85bb040.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "importer"
+  },
+  {
+   "file": "test/f85bb040.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "readonly"
+  },
+  {
+   "file": "test/f85bb040.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "intern-guiana-eu"
+  },
+  {
+   "file": "test/38b469c6.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Hafen2022"
+  },
+  {
+   "file": "test/38b469c6.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "strand_diem"
+  },
+  {
+   "file": "test/79d27a69.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_hh5r0NV5BurO00JoedJxHz24"
+  },
+  {
+   "file": "test/79d27a69.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "VAULT_DB_PASSWORD"
+  },
+  {
+   "file": "test/79d27a69.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "LEDGER_AUTH_TOKEN"
+  },
+  {
+   "file": "test/79d27a69.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6Lm3rvsAHIjjYtr3ywx6X958YEUvP0STrnsjsoFs"
+  },
+  {
+   "file": "test/79d27a69.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:8sRd+gFq89R/UsS/pBjKx5miKSlQ3cblTEeTjljH10A"
+  },
+  {
+   "file": "test/79d27a69.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/etc/payments/tls/private.key"
+  },
+  {
+   "file": "test/79d27a69.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "test/79d27a69.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "test/79d27a69.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "dXNlcjo1Mzg2NDpvZmZzZXQ6MTA2"
+  },
+  {
+   "file": "_/a03b6350.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "5e2b5f10281a6511d3d63ca63920e79b57c936cc77bacae7229e3999d6130246"
+  }
+ ]
+}

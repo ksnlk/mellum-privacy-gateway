@@ -1,0 +1,19 @@
+# kelpie payments service
+database:
+  host: jenkins.kelpie-corp.de
+  user: payments
+  password: "москва7755"
+  password_source: secret/data/kelpie/auth/staging
+  password_env: REPORTS_SECRET_KEY
+api:
+  key_header: Authorization
+  partner_ident: YTvwwHHrfKeeWED48MeBYpbNLuNPGtj7
+  key_file: /run/secrets/etl_password
+  signing_alg: bcrypt
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 956176695736-1800705qjm52oq9h5hmc1yetjal7fkzl.apps.googleusercontent.com
+  client_proof: lcmjfwzx911vwf84ev039puoqmmf59ck
+  secret_rotated_at: "2023-12-08T00:00:00Z"
+  secret_name: crm-oauth-client
+pagination:
+  first_cursor: aW52b2ljZToyMjA2MzpvZmZzZXQ6MjQx

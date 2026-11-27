@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://auth-primary.kelpie.cloud/api/v3/invoices?page=2
+Authorization: Basic YWRtaW46RW5nZWxsdWZ0MDg/
+Cookie: _ga=GA1.2.3L93JREFDA0EFNMIRJJ0H27O3J; session_id=r7cv0ouh6w57h67auj3gfpp381ui2d84
+X-Request-Id: fe151372-269d-4c2d-a6ad-607b73e5b317
+
+### the docs example, safe to share
+GET https://sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

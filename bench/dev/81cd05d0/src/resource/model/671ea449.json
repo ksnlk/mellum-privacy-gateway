@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2017-01-11",
+    "endpointPrefix":"clouddirectory",
+    "protocol":"rest-json",
+    "serviceFullName":"Amazon CloudDirectory",
+    "serviceId":"CloudDirectory",
+    "signatureVersion":"v4",
+    "signingName":"clouddirectory",
+    "uid":"clouddirectory-2017-01-11"
+  },
+  "operations":{
+    "AddFacetToObject":{
+      "name":"AddFacetToObject",
+      "http":{
+        "method":"PUT",
+        "requestUri":"/amazonclouddirectory/2017-01-11/object/facets",
+        "responseCode":200
+      },
+      "input":{"shape":"AddFacetToObjectRequest"},
+      "output":{"shape":"AddFacetToObjectResponse"},
+      "errors":[
+        {"shape":"InternalServiceException"},
+        {"shape":"InvalidArnException"},
+        {"shape":"RetryableConflictException"},
+        {"shape":"ValidationException"},
+        {"shape":"LimitExceededException"},
+        {"shape":"AccessDeniedException"},

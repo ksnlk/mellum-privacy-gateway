@@ -1,0 +1,19 @@
+# pinegrid payments service
+database:
+  host: crm.xlq15d.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "crea666$"
+  password_source: secret/data/pinegrid/auth/staging
+  password_env: BILLING_API_KEY
+api:
+  key_header: Proxy-Authorization
+  partner_ident: VJjNjmgKzhsiCzWJQqbokG6BtPPCmtC8
+  key_file: /var/run/secrets/ledger/token
+  signing_alg: pbkdf2_sha256
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 357424271596-fsdth2ktdbwfhsoo3otyrr2xdc81a1vu.apps.googleusercontent.com
+  client_proof: zh0d2jv3122gv0ywhhs2inix0fuxonva
+  secret_rotated_at: "2023-11-12T00:00:00Z"
+  secret_name: ledger-oauth-client
+pagination:
+  first_cursor: b3JkZXI6NTk4MjY6b2Zmc2V0OjIyMA==

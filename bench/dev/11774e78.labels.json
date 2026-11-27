@@ -1,0 +1,494 @@
+{
+ "repo": "11774e78",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "other/2e459294.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-replica.helix.cloud"
+   ]
+  },
+  {
+   "id": 2,
+   "file": "other/2e459294.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "c3ZjX2JhY2t1cDptdWQtYXhlczUx",
+    "svc_backup:mud-axes51"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "other/2e459294.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "bniogw4bjvd0ia7idzjeagkhi1knpf1e"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "_/679d9843.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "threshold-garten-prod"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/4f71c5b9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-cache-02.prod.helix-internal.net"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/4f71c5b9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "91.126.154.134"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/4f71c5b9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "jonas.zimmermann@helix-corp.de"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/4f71c5b9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-replica.helix.cloud"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/4f71c5b9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "concretely.frequency.urlaub"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/75baeaf9.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-mq-04.corp.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/75baeaf9.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "f22i3eba6RJehsulw74anU41k15MvLoc"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/e0dc9f38.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.lbt1tjjx4il5.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/e0dc9f38.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "F@br1c07"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/e0dc9f38.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "YeglEMKJOzpDAk8CrSy3MXRsymybp1BG"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/e0dc9f38.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "o0asnnthystt2e17adrxe6gz9008p3oj"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/a36248ec.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Laura Mueller"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/a36248ec.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "p.wagner@nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/a36248ec.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 5909 366"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/a36248ec.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.124.167.112"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "test/a36248ec.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "interpret.traum.magnitude53"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/28c959c4",
+   "line": 4,
+   "value": "$PATH",
+   "source": "creddata"
+  },
+  {
+   "file": "_/38a5114b",
+   "line": 12,
+   "value": "$PATH",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3fc4fde3",
+   "line": 5,
+   "whole_line": "apt-get -y install virtualenvwrapper python2.7-dev build-essential libxml2-dev libxslt1-dev git libffi-dev cmake libreadline-dev libtool debootstrap debian-archive-keyring libglib2.0-dev libpixman-1-dev libqt4-dev graphviz-dev binutils-multiarch nasm libc6:i386 libgcc1:i386 libstdc++6:i386 libtinfo5:i386 zlib1g:i386",
+   "source": "creddata"
+  },
+  {
+   "file": "_/56369f5d",
+   "line": 10,
+   "value": "echo",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 84,
+   "whole_line": "| crypto | Directory | [nonce-disrespect](https://github.com/nonce-disrespect/nonce-disrespect) | Nonce-Disrespecting Adversaries: Practical Forgery Attacks on GCM in TLS. | <!--tool--><!--test-->",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/7d8080a0",
+   "line": 163,
+   "value": "\\$PATH",
+   "source": "creddata"
+  },
+  {
+   "file": "other/2e459294.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "MDR7RCOIOQ8LAWNXGVWELPFYWX"
+  },
+  {
+   "file": "other/2e459294.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "fe0a9ad5-8582-40ce-9dbe-e387a409a1aa"
+  },
+  {
+   "file": "other/2e459294.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "other/2e459294.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/679d9843.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Accept2027"
+  },
+  {
+   "file": "_/679d9843.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "selection-hoffmann-v2"
+  },
+  {
+   "file": "src/4f71c5b9.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "blog.helix-corp.de"
+  },
+  {
+   "file": "src/4f71c5b9.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.helix-corp.de"
+  },
+  {
+   "file": "src/4f71c5b9.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "src/4f71c5b9.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "src/4f71c5b9.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "src/4f71c5b9.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "src/4f71c5b9.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@helix-corp.de"
+  },
+  {
+   "file": "src/4f71c5b9.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "bm8tY2FjaGUsbm8tc3RvcmU="
+  },
+  {
+   "file": "src/4f71c5b9.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "656e2d55532c656e3b713d302e39"
+  },
+  {
+   "file": "src/4f71c5b9.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "test/75baeaf9.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "test/75baeaf9.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "0.23.49"
+  },
+  {
+   "file": "test/75baeaf9.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "87f566e077509cbb4fd5ff000a2c3a75030ec7fd"
+  },
+  {
+   "file": "test/75baeaf9.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5641f869-f8e5-4557-86d3-e2a519108194"
+  },
+  {
+   "file": "other/e0dc9f38.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/pinegrid/payments/staging"
+  },
+  {
+   "file": "other/e0dc9f38.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "ETL_SECRET_KEY"
+  },
+  {
+   "file": "other/e0dc9f38.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "other/e0dc9f38.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/var/run/secrets/crm/token"
+  },
+  {
+   "file": "other/e0dc9f38.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "argon2id"
+  },
+  {
+   "file": "other/e0dc9f38.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "other/e0dc9f38.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "853956586217-ln92tfvrz0df6xuvsbe79znj7i6ch0cg.apps.googleusercontent.com"
+  },
+  {
+   "file": "other/e0dc9f38.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2026-07-20T00:00:00Z"
+  },
+  {
+   "file": "other/e0dc9f38.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "reports-api-token"
+  },
+  {
+   "file": "other/e0dc9f38.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "dXNlcjo0MjA0NTpvZmZzZXQ6NDM2"
+  },
+  {
+   "file": "test/a36248ec.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "1.1.1.1"
+  },
+  {
+   "file": "test/a36248ec.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "2.4.38"
+  },
+  {
+   "file": "test/a36248ec.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:d1f8f66d52b9cdbabf70c3a96fdeaf2fad35b0feff26a6309c28cb5373e56b2f"
+  },
+  {
+   "file": "test/a36248ec.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/a36248ec.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2015-04-13",
+    "endpointPrefix":"codecommit",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceAbbreviation":"CodeCommit",
+    "serviceFullName":"AWS CodeCommit",
+    "serviceId":"CodeCommit",
+    "signatureVersion":"v4",
+    "targetPrefix":"CodeCommit_20150413",
+    "uid":"codecommit-2015-04-13"
+  },
+  "operations":{
+    "AssociateApprovalRuleTemplateWithRepository":{
+      "name":"AssociateApprovalRuleTemplateWithRepository",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AssociateApprovalRuleTemplateWithRepositoryInput"},
+      "errors":[
+        {"shape":"ApprovalRuleTemplateNameRequiredException"},
+        {"shape":"InvalidApprovalRuleTemplateNameException"},
+        {"shape":"ApprovalRuleTemplateDoesNotExistException"},
+        {"shape":"MaximumRuleTemplatesAssociatedWithRepositoryException"},
+        {"shape":"RepositoryNameRequiredException"},
+        {"shape":"InvalidRepositoryNameException"},

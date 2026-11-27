@@ -1,0 +1,5 @@
+# Release checklist
+
+1. Tag the build as "Inflate Baum 6.12" and announce it in #releases.
+2. The staging admin login is still `admin` with `Hessen1975!`; change it after the demo.
+3. Campaign banner text: "collect69".

@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2017-10-26",
+    "endpointPrefix":"transcribe",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"Amazon Transcribe Service",
+    "serviceId":"Transcribe",
+    "signatureVersion":"v4",
+    "signingName":"transcribe",
+    "targetPrefix":"Transcribe",
+    "uid":"transcribe-2017-10-26"
+  },
+  "operations":{
+    "CreateLanguageModel":{
+      "name":"CreateLanguageModel",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"CreateLanguageModelRequest"},
+      "output":{"shape":"CreateLanguageModelResponse"},
+      "errors":[
+        {"shape":"BadRequestException"},
+        {"shape":"LimitExceededException"},
+        {"shape":"InternalFailureException"},
+        {"shape":"ConflictException"}
+      ],

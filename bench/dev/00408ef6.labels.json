@@ -1,0 +1,1900 @@
+{
+ "repo": "00408ef6",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "lib/8a4d2e16.c",
+   "line": 122,
+   "start": 51,
+   "end": 61,
+   "category": "Nonce",
+   "mutation": "none",
+   "forms": [
+    "c864e1fc2e"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "lib/8a4d2e16.c",
+   "line": 123,
+   "start": 60,
+   "end": 70,
+   "category": "Nonce",
+   "mutation": "rename",
+   "forms": [
+    "9498a3027f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "lib/8a4d2e16.c",
+   "line": 466,
+   "start": 17,
+   "end": 27,
+   "category": "Nonce",
+   "mutation": "rename",
+   "forms": [
+    "f66e635fa8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "lib/eee97fd2.c",
+   "line": 311,
+   "start": 16,
+   "end": 24,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "ptsxmjow"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "src/6553cff3.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.1yx0bl2pttht.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/6553cff3.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_nJAJUaFeu0N9ED9Q07EHgX1Y0Fd2hPFYbmqA"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/ec6bd461.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.226.63.222"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/ec6bd461.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-mq-01.corp.quarzo-internal.net"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/ec6bd461.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "T9IIPMRI5/BB8N46RIO66/PkMaE0YogUtbfP5jxvp2YIBM"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/87400a13.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u0437\u0432\u0435\u0437\u0434\u04303761"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/87400a13.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.71.141.248"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/87400a13.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "QzBsbEB0MHI=",
+    "C0ll@t0r"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/14ecaf35.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sarah94@gmail.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/14ecaf35.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 3281 5731"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/14ecaf35.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jonasbayern24?"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/14ecaf35.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE54778412702230074905"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/1dfad4cf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Nico Hoffmann"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/1dfad4cf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "david82@gmail.com"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/1dfad4cf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 5996 2994"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "test/1dfad4cf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.28.50.121"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/1dfad4cf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "birne_saving_ment42"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/fbd4bf83.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-api-03.corp.acme-internal.net"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/fbd4bf83.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Funct10n92"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/fbd4bf83.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "v2olvIAVAbEPnqRRcPVBIeumxsfZ14Zw"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "test/fbd4bf83.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "ryqs9g9oinlqp6w4q6bkrp2fd86f82jr"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.helix.net"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.helix.net"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.helix.net"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.76.221.0/24"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.76.221.25"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.helix.net"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.helix.net"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.helix.net"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.helix.net"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.helix.net"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.76.221.203"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Anna Zimmermann"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "anna.zimmermann@t-online.de"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 4379223"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Emma Klein"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "emma.klein@web.de"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 8325713"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/0ec52552.h",
+   "line": 319,
+   "value": "jI1Quant",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0ec52552.h",
+   "line": 320,
+   "value": "jI2Quant",
+   "source": "creddata"
+  },
+  {
+   "file": "_/12074436.c",
+   "line": 255,
+   "whole_line": "  main->pub.start_pass = start_pass_main;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1742755b.c",
+   "line": 328,
+   "whole_line": "  prep->pub.start_pass = start_pass_prep;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1ce5f1ba.c",
+   "line": 374,
+   "whole_line": "  coef->pub.start_pass = start_pass_coef;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/2571b280.c",
+   "line": 651,
+   "whole_line": "  entropy->pub.start_pass = start_pass_phuff_decoder;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/324724cb.c",
+   "line": 240,
+   "whole_line": " * conversion as above, while passing K (black) unchanged.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/324724cb.c",
+   "line": 313,
+   "whole_line": "  cconvert->pub.start_pass = start_pass_dcolor;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/33c0a241.c",
+   "line": 373,
+   "whole_line": "  inputctl->pub.start_input_pass = start_input_pass;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/33c0a241.c",
+   "line": 374,
+   "whole_line": "  inputctl->pub.finish_input_pass = finish_input_pass;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/49044ba3.c",
+   "line": 378,
+   "whole_line": "  upsample->pub.start_pass = start_pass_merged_upsample;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/54f0775e.c",
+   "line": 257,
+   "whole_line": "  idct->pub.start_pass = start_pass;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/57ddaee9.c",
+   "line": 1181,
+   "whole_line": "    cquantize->pub.finish_pass = finish_pass1;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/57ddaee9.c",
+   "line": 1189,
+   "whole_line": "    cquantize->pub.finish_pass = finish_pass2;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/57ddaee9.c",
+   "line": 1253,
+   "whole_line": "  cquantize->pub.start_pass = start_pass_2_quant;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/645a27d1.c",
+   "line": 644,
+   "whole_line": "  entropy->pub.start_pass = start_pass_huff_decoder;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6a671318.c",
+   "line": 684,
+   "whole_line": "  coef->pub.start_input_pass = start_input_pass;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6a671318.c",
+   "line": 685,
+   "whole_line": "  coef->pub.start_output_pass = start_output_pass;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/77af71c4.c",
+   "line": 354,
+   "whole_line": "  fdct->pub.start_pass = start_pass_fdctmgr;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7a728e79.c",
+   "line": 407,
+   "whole_line": "    /* Initial pass: will collect input data, and do either Huffman",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7a728e79.c",
+   "line": 421,
+   "whole_line": "                                 JBUF_SAVE_AND_PASS : JBUF_PASS_THRU));",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7a728e79.c",
+   "line": 468,
+   "whole_line": "  master->pub.is_last_pass = (master->pass_number == master->total_passes-1);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7a728e79.c",
+   "line": 551,
+   "whole_line": "  master->pub.prepare_for_pass = prepare_for_pass;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7a728e79.c",
+   "line": 553,
+   "whole_line": "  master->pub.finish_pass = finish_pass_master;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7ce0d401.c",
+   "line": 115,
+   "whole_line": "    entropy->pub.finish_pass = finish_pass_gather;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7ce0d401.c",
+   "line": 121,
+   "whole_line": "    entropy->pub.finish_pass = finish_pass_huff;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7ce0d401.c",
+   "line": 900,
+   "whole_line": "  entropy->pub.start_pass = start_pass_huff;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8bece08c.c",
+   "line": 432,
+   "value": "this",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8bece08c.c",
+   "line": 473,
+   "whole_line": "            (master->pub.is_dummy_pass ? JBUF_SAVE_AND_PASS : JBUF_PASS_THRU));",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8bece08c.c",
+   "line": 551,
+   "whole_line": "  master->pub.prepare_for_output_pass = prepare_for_output_pass;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8bece08c.c",
+   "line": 552,
+   "whole_line": "  master->pub.finish_output_pass = finish_output_pass;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/915fc0db.c",
+   "line": 139,
+   "whole_line": "    entropy->pub.finish_pass = finish_pass_gather_phuff;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/915fc0db.c",
+   "line": 141,
+   "whole_line": "    entropy->pub.finish_pass = finish_pass_phuff;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/915fc0db.c",
+   "line": 823,
+   "whole_line": "  entropy->pub.start_pass = start_pass_phuff;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60d45ea.c",
+   "line": 829,
+   "whole_line": "  cquantize->pub.start_pass = start_pass_1_quant;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a60d45ea.c",
+   "line": 830,
+   "whole_line": "  cquantize->pub.finish_pass = finish_pass_1_quant;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bb4087ec.c",
+   "line": 258,
+   "whole_line": "  post->pub.start_pass = start_pass_dpost;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f34695fe.c",
+   "line": 220,
+   "whole_line": " * conversion as above, while passing K (black) unchanged.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f34695fe.c",
+   "line": 361,
+   "whole_line": "  cconvert->pub.start_pass = null_method;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f34695fe.c",
+   "line": 402,
+   "whole_line": "      cconvert->pub.start_pass = rgb_ycc_start;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f34695fe.c",
+   "line": 423,
+   "whole_line": "      cconvert->pub.start_pass = rgb_ycc_start;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f34695fe.c",
+   "line": 444,
+   "whole_line": "      cconvert->pub.start_pass = rgb_ycc_start;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3229d8fb.c",
+   "line": 146,
+   "whole_line": "    neg_ctx->output_token = (BYTE *)malloc(neg_ctx->max_token_length);",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3229d8fb.c",
+   "line": 157,
+   "whole_line": "    input_token = malloc(neg_ctx->max_token_length);",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/3229d8fb.c",
+   "line": 171,
+   "whole_line": "    neg_ctx->credentials = (CredHandle *)malloc(sizeof(CredHandle));",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/46926153.c",
+   "line": 574,
+   "whole_line": "    failf(conn->data, \"Unable to load client key: Incorrect password\");",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/49057774.c",
+   "line": 91,
+   "value": "des_key_schedule",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/49057774.c",
+   "line": 94,
+   "value": "des_set_key",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/49057774.c",
+   "line": 352,
+   "value": "const",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/49057774.c",
+   "line": 392,
+   "value": "const",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/49057774.c",
+   "line": 545,
+   "value": "pw+7",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/49057774.c",
+   "line": 557,
+   "value": "pw+7",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/49057774.c",
+   "line": 588,
+   "whole_line": "  unsigned char *pw = malloc(len*2);",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/49057774.c",
+   "line": 768,
+   "whole_line": "      if((ntlm->identity.Password = (unsigned char *)strdup(passwdp)) == NULL)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/49057774.c",
+   "line": 903,
+   "whole_line": "      *allocuserpwd = aprintf(\"%sAuthorization: NTLM %s\\r\\n\",",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/49057774.c",
+   "line": 1253,
+   "whole_line": "      *allocuserpwd = aprintf(\"%sAuthorization: NTLM %s\\r\\n\",",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5008b013.c",
+   "line": 236,
+   "whole_line": "    key = app_data->perthreadkey;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5106c547.c",
+   "line": 69,
+   "whole_line": "  gss_buffer_desc token = GSS_C_EMPTY_BUFFER;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5106c547.c",
+   "line": 139,
+   "whole_line": "  gss_buffer_desc input_token = GSS_C_EMPTY_BUFFER;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5106c547.c",
+   "line": 140,
+   "whole_line": "  gss_buffer_desc output_token = GSS_C_EMPTY_BUFFER;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5106c547.c",
+   "line": 267,
+   "whole_line": "  neg_ctx->output_token = output_token;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/681ff649.c",
+   "line": 91,
+   "whole_line": "      pw= getpwuid(geteuid());",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/7dd6bebb.c",
+   "line": 330,
+   "value": "len+1",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/7dd6bebb.c",
+   "line": 444,
+   "value": "&pri",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/7dd6bebb.c",
+   "line": 534,
+   "whole_line": "          priv_key = (EVP_PKEY *)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8a4d2e16.c",
+   "line": 198,
+   "whole_line": "          token = strtok_r(tmp, \",\", &tok_buf);",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8a4d2e16.c",
+   "line": 465,
+   "whole_line": "    Authorization: Digest username=\"testuser\", realm=\"testrealm\", \\",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8a4d2e16.c",
+   "line": 467,
+   "value": "Proxy-Authorization",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8b5c5d24.c",
+   "line": 26,
+   "whole_line": "    auth=\"GSS-Negotiate\";",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8b5c5d24.c",
+   "line": 37,
+   "whole_line": "    auth=\"NTLM\";",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8b5c5d24.c",
+   "line": 88,
+   "value": "0x%08x",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8b5c5d24.c",
+   "line": 89,
+   "value": "0x%08x",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a81f014a.c",
+   "line": 26,
+   "value": "LIBSSH2_KNOWNHOST_KEY_SSHDSS",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a81f014a.c",
+   "line": 36,
+   "whole_line": "          infof(data, \"SSH host check: %d, key: %s\\n\", keycheck,",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a81f014a.c",
+   "line": 42,
+   "whole_line": "            knownkey.key = host->key;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a81f014a.c",
+   "line": 50,
+   "whole_line": "          foundkey.key = remotekey;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a81f014a.c",
+   "line": 101,
+   "whole_line": "    infof(data, \"Password: %s\\n\", conn->passwd);",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ce0da236.c",
+   "line": 79,
+   "whole_line": "    key = hkey;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/db10c525.c",
+   "line": 122,
+   "whole_line": "      t->key = KEY_NOTUSED; /* and we set the key in the sub node to NOTUSED",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/db10c525.c",
+   "line": 175,
+   "whole_line": "      x->key = t->key;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/db10c525.c",
+   "line": 232,
+   "whole_line": "      x->key = t->key;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/db10c525.c",
+   "line": 315,
+   "whole_line": "    x->key = t->key;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/dcdb21da.c",
+   "line": 1077,
+   "whole_line": "  smtp->passwd = conn->passwd;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/e46c8e74.c",
+   "line": 128,
+   "whole_line": "  gss_buffer_desc  gss_send_token = GSS_C_EMPTY_BUFFER;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/e46c8e74.c",
+   "line": 129,
+   "whole_line": "  gss_buffer_desc  gss_recv_token = GSS_C_EMPTY_BUFFER;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/e46c8e74.c",
+   "line": 130,
+   "whole_line": "  gss_buffer_desc  gss_w_token = GSS_C_EMPTY_BUFFER;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/e46c8e74.c",
+   "line": 131,
+   "whole_line": "  gss_buffer_desc* gss_token = GSS_C_NO_BUFFER;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/e46c8e74.c",
+   "line": 307,
+   "whole_line": "    gss_token = &gss_recv_token;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/e46c8e74.c",
+   "line": 536,
+   "value": " gssapi confidentiality",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/e68f2314.c",
+   "line": 327,
+   "whole_line": "                     imap->passwd?imap->passwd:\"\");",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/e68f2314.c",
+   "line": 681,
+   "whole_line": "  imap->passwd = conn->passwd;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ee2548ed.c",
+   "line": 333,
+   "whole_line": "                           pop3->passwd?pop3->passwd:\"\");",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ee2548ed.c",
+   "line": 613,
+   "whole_line": "  pop3->passwd = conn->passwd;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 26,
+   "value": "char",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 77,
+   "value": "va_arg(param",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 128,
+   "value": "va_arg(param",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 179,
+   "whole_line": "  conn->bits.proxy_user_passwd = FALSE;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 195,
+   "whole_line": "  conn->bits.user_passwd = (bool)(NULL != data->set.str[STRING_USERNAME]);",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 246,
+   "whole_line": "        conn->proxypasswd = curl_easy_unescape(data, proxypasswd, 0, NULL);",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 253,
+   "whole_line": "        conn->bits.proxy_user_passwd = TRUE; /* enable it */",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 304,
+   "whole_line": "  char *userpass = conn->host.name;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 327,
+   "whole_line": "      conn->bits.user_passwd = TRUE; /* enable user+password */",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 352,
+   "whole_line": "        char *newpasswd=curl_easy_unescape(data, passwd, 0, NULL);",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 374,
+   "value": "port",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 425,
+   "value": "MAX_CURL_PASSWORD_LENGTH",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 461,
+   "whole_line": "      conn->passwd = strdup(CURL_DEFAULT_PASSWORD);",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 512,
+   "whole_line": "  conn->bits.user_passwd = old_conn->bits.user_passwd;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 518,
+   "whole_line": "    conn->passwd = old_conn->passwd;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 523,
+   "whole_line": "  conn->bits.proxy_user_passwd = old_conn->bits.proxy_user_passwd;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 529,
+   "whole_line": "    conn->proxypasswd = old_conn->proxypasswd;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 580,
+   "value": "conn",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eee97fd2.c",
+   "line": 602,
+   "whole_line": "  data->set.ssl.password = data->set.str[STRING_TLSAUTH_PASSWORD];",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ef07bfd2.c",
+   "line": 26,
+   "whole_line": "    PPSENDF(&ftpc->pp, \"PASS %s\", ftp->passwd?ftp->passwd:\"\");",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ef07bfd2.c",
+   "line": 77,
+   "whole_line": "  ftp->passwd = conn->passwd;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/efe07181.c",
+   "line": 127,
+   "whole_line": "      he->key = dupkey;",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/1d02852d.c",
+   "line": 475,
+   "whole_line": "  downsample->pub.start_pass = start_pass_downsample;",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/d87ddc0b.c",
+   "line": 411,
+   "whole_line": "  upsample->pub.start_pass = start_pass_upsample;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1f236f13.c",
+   "line": 562,
+   "whole_line": "         allegro_key = find_allegro_key(sym2);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1f236f13.c",
+   "line": 567,
+   "whole_line": "            allegro_key = find_allegro_key(sym);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/36dc6174.cpp",
+   "line": 89,
+   "whole_line": "  m_password = state;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/72124182.c",
+   "line": 215,
+   "whole_line": "               while (((pwd = getpwent()) != NULL) &&",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 115,
+   "whole_line": "Key::Key(Command* command, const Params& params, KeyContext keyContext)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 124,
+   "whole_line": "Key::Key(KeyType type, tools::Tool* tool)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 132,
+   "whole_line": "Key::Key(KeyAction action)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 178,
+   "whole_line": "void Key::add(const ui::Accelerator& accel, KeySource source)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 200,
+   "whole_line": "bool Key::isPressed(Message* msg) const",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 217,
+   "whole_line": "bool Key::isPressed() const",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 226,
+   "whole_line": "bool Key::isLooselyPressed() const",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 235,
+   "whole_line": "bool Key::hasAccel(const ui::Accelerator& accel) const",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 240,
+   "whole_line": "void Key::disableAccel(const ui::Accelerator& accel)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 253,
+   "whole_line": "void Key::reset()",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 260,
+   "whole_line": "std::string Key::triggerString() const",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 301,
+   "whole_line": "  for (Key* key : m_keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 316,
+   "whole_line": "    const char* command_key = get_shortcut(xmlKey);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 347,
+   "whole_line": "        Key* key = this->command(command_name, params, keycontext);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 379,
+   "whole_line": "    const char* tool_key = get_shortcut(xmlKey);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 385,
+   "whole_line": "        Key* key = this->tool(tool);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 407,
+   "whole_line": "    const char* tool_key = get_shortcut(xmlKey);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 413,
+   "whole_line": "        Key* key = this->quicktool(tool);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 435,
+   "whole_line": "    const char* tool_key = get_shortcut(xmlKey);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 441,
+   "whole_line": "        Key* key = this->action(action);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 496,
+   "whole_line": "  for (Key* key : m_keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 540,
+   "value": "MoveTool",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 543,
+   "value": "FreehandTool",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 586,
+   "whole_line": "  for (Key* key : m_keys)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 596,
+   "whole_line": "  for (Key* key : m_keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 612,
+   "whole_line": "  for (Key* key : m_keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 626,
+   "whole_line": "  for (Key* key : m_keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 640,
+   "whole_line": "  for (Key* key : m_keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 654,
+   "whole_line": "  for (Key* key : m_keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 674,
+   "whole_line": "  for (Key* key : m_keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 687,
+   "whole_line": "    Key* key = action(KeyAction::CopySelection);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 696,
+   "whole_line": "    Key* key = quicktool(tool);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/07778a0f.cpp",
+   "line": 711,
+   "whole_line": "  for (Key* key : m_keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/1a1da043.h",
+   "line": 29,
+   "whole_line": "    void setKey(Key* key) { m_key = key; }",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/3b80e806.cpp",
+   "line": 178,
+   "whole_line": "  for (Key* key : *KeyboardShortcuts::instance()) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/bbb9b5a1.cpp",
+   "line": 162,
+   "whole_line": "  Key* key = KeyboardShortcuts::instance()->command(",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/bbcf1132.cpp",
+   "line": 793,
+   "whole_line": "  char *key = base_malloc(get_pidl_size(pidl)+1);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/ce4bfb34.cpp",
+   "line": 82,
+   "whole_line": "      *m_key = *m_keyOrig;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/ce4bfb34.cpp",
+   "line": 137,
+   "whole_line": "    // Key::disableAccel() will modify the accels() collection itself.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/ce4bfb34.cpp",
+   "line": 163,
+   "whole_line": "        m_key = app::KeyboardShortcuts::instance()->command(",
+   "source": "creddata"
+  },
+  {
+   "file": "src/app/ce4bfb34.cpp",
+   "line": 415,
+   "whole_line": "    for (Key* key : *app::KeyboardShortcuts::instance()) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b4be51ef.c",
+   "line": 153,
+   "whole_line": "         key = keyboard_ucallback(key, &scancode);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b4be51ef.c",
+   "line": 266,
+   "whole_line": "   key = ureadkey(&scancode);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b4be51ef.c",
+   "line": 482,
+   "whole_line": "      repeat_key = keycode;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/f8b645f7.c",
+   "line": 3074,
+   "whole_line": "   /* 1st pass: decode */",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/f8b645f7.c",
+   "line": 3080,
+   "whole_line": "   /* 2nd pass: concatenate */",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d70034e3.c",
+   "line": 160,
+   "whole_line": "      array[i].key = curbest;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d70034e3.c",
+   "line": 373,
+   "whole_line": "            colors[j++].key = node->count;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/app/ae1b8afd.cpp",
+   "line": 391,
+   "whole_line": "      for (const Key* key : *KeyboardShortcuts::instance()) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/app/ae1b8afd.cpp",
+   "line": 406,
+   "whole_line": "                Key* key = KeyboardShortcuts::instance()->tool(tool);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/app/05b68aab.cpp",
+   "line": 501,
+   "whole_line": "    Key* key = KeyboardShortcuts::instance()->tool(tool);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6553cff3.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "4.29.13"
+  },
+  {
+   "file": "src/6553cff3.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "9.18.12"
+  },
+  {
+   "file": "src/6553cff3.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-d/mVh+k9LScvuLgoqHhTIIXdGpkDgijMrBtGPBFH6x/ltsWA+kStolOr5QwZ8pcalTHpiio/5q8WbXcnSwNJLQ=="
+  },
+  {
+   "file": "src/6553cff3.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "4.20.5"
+  },
+  {
+   "file": "src/6553cff3.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-J1FO06XSvnWBbZ77yb2aRFasgxETHlNwBHq49ijY2NNuwLTokGUDRu5wN+lyC//h4ERielAHPGOI0kNB9JrYDg=="
+  },
+  {
+   "file": "src/6553cff3.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "8.27.15"
+  },
+  {
+   "file": "src/6553cff3.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-cbjPq5fGkk3RTRRgpt3j3MPJcfV/N/n+3v5JBm4byUeL1dbjw+4g2BMAUiAog8KNt/1f5LexxwVCZPNnVwYHKw=="
+  },
+  {
+   "file": "test/ec6bd461.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "d5df33e2046b0130c0d1"
+  },
+  {
+   "file": "test/ec6bd461.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "test/ec6bd461.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "639dabcbb992bbec3011b24bddb5067817a257c1"
+  },
+  {
+   "file": "src/87400a13.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:60e5afb786ba7fbac03d37fb759a88dc5551133d4d5fb356a0d208e9d46c1b6e"
+  },
+  {
+   "file": "src/87400a13.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "3d73f4bbdc41fab36029699528e3edadf4c04f5b"
+  },
+  {
+   "file": "src/87400a13.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "src/87400a13.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "src/87400a13.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "3.1.41"
+  },
+  {
+   "file": "src/14ecaf35.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "src/14ecaf35.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "jane.doe@example.org"
+  },
+  {
+   "file": "src/14ecaf35.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "test/1dfad4cf.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "1.1.1.1"
+  },
+  {
+   "file": "test/1dfad4cf.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "2.6.20"
+  },
+  {
+   "file": "test/1dfad4cf.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:ec9aa893ae316992284da781a8d567aeb135b70217c76c7107d89b2bdeca8e25"
+  },
+  {
+   "file": "test/1dfad4cf.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/1dfad4cf.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/fbd4bf83.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/acme/auth/staging"
+  },
+  {
+   "file": "test/fbd4bf83.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "VAULT_AUTH_TOKEN"
+  },
+  {
+   "file": "test/fbd4bf83.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Authorization"
+  },
+  {
+   "file": "test/fbd4bf83.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/etc/billing/tls/private.key"
+  },
+  {
+   "file": "test/fbd4bf83.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "pbkdf2_sha256"
+  },
+  {
+   "file": "test/fbd4bf83.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "test/fbd4bf83.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "427210296880-9brvam2jqzw48o00bsfsa54ghrd8kioi.apps.googleusercontent.com"
+  },
+  {
+   "file": "test/fbd4bf83.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2024-04-19T00:00:00Z"
+  },
+  {
+   "file": "test/fbd4bf83.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "billing-oauth-client"
+  },
+  {
+   "file": "test/fbd4bf83.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZToyNDU5OTpvZmZzZXQ6MTA1"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "edi.mailvault.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.100.234.146"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.helix.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.helix.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "shop.helix.net"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "David Richter"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.helix.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "shop.helix.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.mailvault.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "194.100.234.146"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "David Richter"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "david.richter@helix.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "John Doe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "john.doe@example.net"
+  }
+ ]
+}

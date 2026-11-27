@@ -1,0 +1,1458 @@
+{
+ "repo": "1a2de400",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "conf/78a8a197.yml",
+   "line": 40,
+   "start": 48,
+   "end": 68,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "24c0f07986f7bd09c959"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "conf/78a8a197.yml",
+   "line": 42,
+   "start": 18,
+   "end": 38,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "b386d782c719283c2aa9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "other/3f8197db.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger.2z3bi5.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/3f8197db.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_kd3Gp5VUWqr8YHaNTGxjXyGNtZLznCkxX13B"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/c81ce85d.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Thanks2000*"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/c81ce85d.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.72.100.71"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/c81ce85d.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "cm9jLXBpY2tlci1wcm9k",
+    "roc-picker-prod"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/3109cc65.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-cache-05.corp.acme-internal.net"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/3109cc65.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "159.48.123.21"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/3109cc65.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.braun@acme-corp.de"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/3109cc65.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-replica.acme.cloud"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/3109cc65.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "coll_schemata_schedule"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/5024cc44.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.187.64.162"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/5024cc44.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.mu0hh4daouxq.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/5024cc44.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TYZN34SMB/BGUDKBTZ5ZF/FWswa8I9YwcMQz8cLHZwzhVQ"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/06bd8ee5.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "inter-strike-prepared-controller55"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/06bd8ee5.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.helix-corp.de"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/bb409dd7.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.8hjkj09ejst5.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/bb409dd7.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "hem_showcase"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/bb409dd7.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Pferd$1977"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.nordwind.systems"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.nordwind.systems"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.nordwind.systems"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "178.32.62.0/24"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "178.32.62.20"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.nordwind.systems"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.nordwind.systems"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.nordwind.systems"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.nordwind.systems"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "178.32.62.212"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.nordwind.systems"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Anna Klein"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "anna.klein@gmail.com"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 9372444"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "David Hartmann"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "david.hartmann@t-online.de"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 1692751"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "build/3053677e",
+   "line": 20,
+   "whole_line": "# gazelle:go_grpc_compilers //:go_apiv2, //:go_grpc",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/78a8a197.yml",
+   "line": 113,
+   "whole_line": "          key: v2-bazel-cache-{{ checksum \"repositories.bzl\" }}",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/78a8a197.yml",
+   "line": 41,
+   "value": "AES-256-GCM",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/78a8a197.yml",
+   "line": 43,
+   "value": "secret/data/brightloop/payments/staging",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/131e281f.sh",
+   "line": 31,
+   "whole_line": "  -e \"JEKYLL_GITHUB_TOKEN=${JEKYLL_GITHUB_TOKEN}\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/44114bc0.md",
+   "line": 59,
+   "whole_line": "                    key: \"ApiKeyAuth\";",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/44114bc0.md",
+   "line": 63,
+   "whole_line": "                    key: \"OAuth2\";",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/44114bc0.md",
+   "line": 71,
+   "whole_line": "                key: \"x-irreversible\";",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/44114bc0.md",
+   "line": 199,
+   "whole_line": "This is how the OpenAPI file would be rendered in [Postman](https://www.getpostman.com/).",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/9b75ffd8.yaml",
+   "line": 47,
+   "whole_line": "                x-amazon-apigateway-authtype: oauth2",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/a0daa399.go",
+   "line": 254,
+   "whole_line": "\tMapValue                 map[string]NumericEnum              `protobuf:\"bytes,22,rep,name=map_value,json=mapValue,proto3\" json:\"map_value,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"varint,2,opt,name=value,proto3,enum=grpc.gateway.runtime.internal.examplepb.NumericEnum\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/a0daa399.go",
+   "line": 255,
+   "whole_line": "\tMappedStringValue        map[string]string                   `protobuf:\"bytes,23,rep,name=mapped_string_value,json=mappedStringValue,proto3\" json:\"mapped_string_value,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/a0daa399.go",
+   "line": 256,
+   "whole_line": "\tMappedNestedValue        map[string]*ABitOfEverything_Nested `protobuf:\"bytes,24,rep,name=mapped_nested_value,json=mappedNestedValue,proto3\" json:\"mapped_nested_value,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/api/client/a3d62cfa.yaml",
+   "line": 2545,
+   "whole_line": "    x-amazon-apigateway-authtype: \"oauth2\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/build/b92aba7e.bazel",
+   "line": 7,
+   "value": "go_grpc",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/build/b92aba7e.bazel",
+   "line": 15,
+   "whole_line": "        \"@go_googleapis//google/api:annotations_proto\",",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/build/b92aba7e.bazel",
+   "line": 30,
+   "value": "annotations_go_proto",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/build/c5fc7051.bazel",
+   "line": 4,
+   "whole_line": "load(\"@grpc_ecosystem_grpc_gateway//protoc-gen-openapiv2:defs.bzl\", \"protoc_gen_openapiv2\")",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/build/c5fc7051.bazel",
+   "line": 33,
+   "value": "go_grpc",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/build/c5fc7051.bazel",
+   "line": 68,
+   "value": "annotations_proto",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/build/c5fc7051.bazel",
+   "line": 69,
+   "value": "httpbody_proto",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/build/c5fc7051.bazel",
+   "line": 82,
+   "value": "annotations_proto",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/build/c5fc7051.bazel",
+   "line": 83,
+   "value": "httpbody_proto",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/build/c5fc7051.bazel",
+   "line": 102,
+   "value": "annotations_go_proto",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/build/c5fc7051.bazel",
+   "line": 103,
+   "value": "httpbody_go_proto",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/build/c5fc7051.bazel",
+   "line": 124,
+   "value": "annotations_go_proto",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 112,
+   "whole_line": "\tMapValue           map[string]string                  `protobuf:\"bytes,26,rep,name=map_value,json=mapValue,proto3\" json:\"map_value,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 113,
+   "whole_line": "\tMapValue2          map[string]int32                   `protobuf:\"bytes,27,rep,name=map_value2,json=mapValue2,proto3\" json:\"map_value2,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"varint,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 114,
+   "whole_line": "\tMapValue3          map[int32]string                   `protobuf:\"bytes,28,rep,name=map_value3,json=mapValue3,proto3\" json:\"map_value3,omitempty\" protobuf_key:\"varint,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 115,
+   "whole_line": "\tMapValue4          map[string]int64                   `protobuf:\"bytes,29,rep,name=map_value4,json=mapValue4,proto3\" json:\"map_value4,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"varint,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 116,
+   "whole_line": "\tMapValue5          map[int64]string                   `protobuf:\"bytes,30,rep,name=map_value5,json=mapValue5,proto3\" json:\"map_value5,omitempty\" protobuf_key:\"varint,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 117,
+   "whole_line": "\tMapValue6          map[string]uint32                  `protobuf:\"bytes,31,rep,name=map_value6,json=mapValue6,proto3\" json:\"map_value6,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"varint,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 118,
+   "whole_line": "\tMapValue7          map[uint32]string                  `protobuf:\"bytes,32,rep,name=map_value7,json=mapValue7,proto3\" json:\"map_value7,omitempty\" protobuf_key:\"varint,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 119,
+   "whole_line": "\tMapValue8          map[string]uint64                  `protobuf:\"bytes,33,rep,name=map_value8,json=mapValue8,proto3\" json:\"map_value8,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"varint,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 120,
+   "whole_line": "\tMapValue9          map[uint64]string                  `protobuf:\"bytes,34,rep,name=map_value9,json=mapValue9,proto3\" json:\"map_value9,omitempty\" protobuf_key:\"varint,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 121,
+   "whole_line": "\tMapValue10         map[string]float32                 `protobuf:\"bytes,35,rep,name=map_value10,json=mapValue10,proto3\" json:\"map_value10,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"fixed32,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 122,
+   "whole_line": "\tMapValue12         map[string]float64                 `protobuf:\"bytes,37,rep,name=map_value12,json=mapValue12,proto3\" json:\"map_value12,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"fixed64,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 123,
+   "whole_line": "\tMapValue14         map[string]bool                    `protobuf:\"bytes,39,rep,name=map_value14,json=mapValue14,proto3\" json:\"map_value14,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"varint,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 124,
+   "whole_line": "\tMapValue15         map[bool]string                    `protobuf:\"bytes,40,rep,name=map_value15,json=mapValue15,proto3\" json:\"map_value15,omitempty\" protobuf_key:\"varint,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/d1f861ec.go",
+   "line": 125,
+   "whole_line": "\tMapValue16         map[string]*wrapperspb.UInt64Value `protobuf:\"bytes,45,rep,name=map_value16,json=mapValue16,proto3\" json:\"map_value16,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 32,
+   "whole_line": "\t\t\tkey: \"x-something-something\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 52,
+   "whole_line": "\t\t\tkey: \"BasicAuth\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 58,
+   "whole_line": "\t\t\tkey: \"ApiKeyAuth\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 64,
+   "whole_line": "\t\t\t\t\tkey: \"x-amazon-apigateway-authtype\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 70,
+   "whole_line": "\t\t\t\t\tkey: \"x-amazon-apigateway-authorizer\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 74,
+   "whole_line": "\t\t\t\t\t\t\t\tkey: \"type\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 80,
+   "whole_line": "\t\t\t\t\t\t\t\tkey: \"authorizerResultTtlInSeconds\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 91,
+   "whole_line": "\t\t\tkey: \"OAuth2\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 99,
+   "whole_line": "\t\t\t\t\t\tkey: \"read\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 103,
+   "whole_line": "\t\t\t\t\t\tkey: \"write\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 107,
+   "whole_line": "\t\t\t\t\t\tkey: \"admin\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 116,
+   "whole_line": "\t\t\tkey: \"BasicAuth\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 120,
+   "whole_line": "\t\t\tkey: \"ApiKeyAuth\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 126,
+   "whole_line": "\t\t\tkey: \"OAuth2\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 133,
+   "whole_line": "\t\t\tkey: \"ApiKeyAuth\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 170,
+   "whole_line": "\t\t\t\tkey: \"X-Correlation-Id\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 187,
+   "whole_line": "\t\tkey: \"x-grpc-gateway-foo\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 193,
+   "whole_line": "\t\tkey: \"x-grpc-gateway-baz-list\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 269,
+   "value": "[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 310,
+   "value": "Numeric enum title",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 321,
+   "value": "INTEGER",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 327,
+   "value": "OUTPUT_ONLY",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 520,
+   "whole_line": "\t\t\t\t\tkey: \"ApiKeyAuth\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 524,
+   "whole_line": "\t\t\t\t\tkey: \"OAuth2\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 532,
+   "whole_line": "\t\t\t\tkey: \"x-irreversible\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 588,
+   "whole_line": "\t\t\t\t\t\tkey: \"application/json\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e6ccf6ca.proto",
+   "line": 598,
+   "whole_line": "\t\t\t\t\t\tkey: \"x-number\";",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e8521d8b.go",
+   "line": 26,
+   "whole_line": "\tMapValue                 map[string]NumericEnum              `protobuf:\"bytes,22,rep,name=map_value,json=mapValue,proto3\" json:\"map_value,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"varint,2,opt,name=value,proto3,enum=grpc.gateway.examples.internal.proto.examplepb.NumericEnum\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e8521d8b.go",
+   "line": 27,
+   "whole_line": "\tMappedStringValue        map[string]string                   `protobuf:\"bytes,23,rep,name=mapped_string_value,json=mappedStringValue,proto3\" json:\"mapped_string_value,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/e8521d8b.go",
+   "line": 28,
+   "whole_line": "\tMappedNestedValue        map[string]*ABitOfEverything_Nested `protobuf:\"bytes,24,rep,name=mapped_nested_value,json=mappedNestedValue,proto3\" json:\"mapped_nested_value,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/fca23b19.json",
+   "line": 26,
+   "whole_line": "      \"x-amazon-apigateway-authtype\": \"oauth2\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/template/92a3e336.go",
+   "line": 32,
+   "whole_line": "\tPassword string `protobuf:\"bytes,2,opt,name=password,proto3\" json:\"password,omitempty\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/template/c904837b.go",
+   "line": 1092,
+   "whole_line": "\t\t\t\t\t\t\tKey: \"result\",",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/template/c904837b.go",
+   "line": 1103,
+   "whole_line": "\t\t\t\t\t\t\tKey: \"error\",",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 26,
+   "whole_line": "// \"implicit\", \"password\", \"application\" or \"accessCode\".",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 77,
+   "whole_line": "\tResponses map[string]*Response `protobuf:\"bytes,10,rep,name=responses,proto3\" json:\"responses,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 87,
+   "whole_line": "\tExtensions   map[string]*structpb.Value `protobuf:\"bytes,15,rep,name=extensions,proto3\" json:\"extensions,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 138,
+   "whole_line": "\tResponses map[string]*Response `protobuf:\"bytes,9,rep,name=responses,proto3\" json:\"responses,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 152,
+   "whole_line": "\tExtensions map[string]*structpb.Value `protobuf:\"bytes,13,rep,name=extensions,proto3\" json:\"extensions,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 203,
+   "whole_line": "\tHeaders map[string]*Header `protobuf:\"bytes,3,rep,name=headers,proto3\" json:\"headers,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 206,
+   "whole_line": "\tExamples   map[string]string          `protobuf:\"bytes,4,rep,name=examples,proto3\" json:\"examples,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 207,
+   "whole_line": "\tExtensions map[string]*structpb.Value `protobuf:\"bytes,5,rep,name=extensions,proto3\" json:\"extensions,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 258,
+   "whole_line": "\tExtensions map[string]*structpb.Value `protobuf:\"bytes,7,rep,name=extensions,proto3\" json:\"extensions,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 309,
+   "whole_line": "\tSecurity map[string]*SecurityScheme `protobuf:\"bytes,1,rep,name=security,proto3\" json:\"security,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 360,
+   "whole_line": "\t// \"implicit\", \"password\", \"application\" or \"accessCode\".",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 374,
+   "whole_line": "\tExtensions map[string]*structpb.Value `protobuf:\"bytes,9,rep,name=extensions,proto3\" json:\"extensions,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 425,
+   "whole_line": "\tSecurityRequirement map[string]*SecurityRequirement_SecurityRequirementValue `protobuf:\"bytes,1,rep,name=security_requirement,json=securityRequirement,proto3\" json:\"security_requirement,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/1eb47600.go",
+   "line": 476,
+   "whole_line": "\tScope map[string]string `protobuf:\"bytes,1,rep,name=scope,proto3\" json:\"scope,omitempty\" protobuf_key:\"bytes,1,opt,name=key,proto3\" protobuf_val:\"bytes,2,opt,name=value,proto3\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6a10b934.go",
+   "line": 181,
+   "whole_line": "\t\t\t\t\t\"key\":         \"value\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6a10b934.go",
+   "line": 187,
+   "whole_line": "\t\t\t\tMapValue2:  map[string]int32{\"key\": -2},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6a10b934.go",
+   "line": 189,
+   "whole_line": "\t\t\t\tMapValue4:  map[string]int64{\"key\": -1},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6a10b934.go",
+   "line": 199,
+   "whole_line": "\t\t\t\tMapValue16: map[string]*wrapperspb.UInt64Value{\"key\": {Value: 2}},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/example/2598fab8.go",
+   "line": 67,
+   "whole_line": "\t\t\t\"struct_key\": {Kind: &structpb.Value_StructValue{",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/example/2598fab8.go",
+   "line": 69,
+   "whole_line": "\t\t\t\t\t\"layered_struct_key\": {Kind: &structpb.Value_StringValue{StringValue: \"struct_val\"}},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/example/2598fab8.go",
+   "line": 73,
+   "whole_line": "\t\t\t\"value_struct_key\": {Kind: &structpb.Value_StringValue{StringValue: \"value_struct_val\"}}}},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/example/2598fab8.go",
+   "line": 767,
+   "value": "%s/%s",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/example/2598fab8.go",
+   "line": 1035,
+   "value": "%s/%s",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/template/0330d83e.go",
+   "line": 26,
+   "whole_line": "\t\t\t{key: \"x-security-baz\", value: json.RawMessage(\"true\")},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/template/0330d83e.go",
+   "line": 32,
+   "whole_line": "\t\t\t{key: \"x-info-extension\", value: json.RawMessage(\"\\\"bar\\\"\")},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/template/0330d83e.go",
+   "line": 44,
+   "whole_line": "\t\t\t{key: \"x-op-foo\", value: json.RawMessage(\"\\\"baz\\\"\")},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/template/0330d83e.go",
+   "line": 49,
+   "whole_line": "\t\t\t{key: \"x-resp-id\", value: json.RawMessage(\"\\\"resp1000\\\"\")},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/template/0330d83e.go",
+   "line": 100,
+   "whole_line": "\t\t\t\t\t\t\tKey: \"aRequiredField\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/template/0330d83e.go",
+   "line": 151,
+   "whole_line": "\t\t\t\t\t\t\tKey: \"aRequiredField\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/template/0330d83e.go",
+   "line": 202,
+   "whole_line": "\t\t\t\t\t\t\tKey: \"aRequiredField\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/template/0330d83e.go",
+   "line": 211,
+   "whole_line": "\t\t\t\t\t\t\tKey: \"aOutputOnlyField\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/template/0330d83e.go",
+   "line": 262,
+   "value": "&schemaCore{}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/template/0330d83e.go",
+   "line": 263,
+   "value": "&schemaCore{}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/template/0330d83e.go",
+   "line": 314,
+   "whole_line": "\t\t\t\t\t\"key\": nil,",
+   "source": "creddata"
+  },
+  {
+   "file": "other/3f8197db.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "6.15.47"
+  },
+  {
+   "file": "other/3f8197db.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5.10.0"
+  },
+  {
+   "file": "other/3f8197db.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-fpqgf8FGsOwTyOnc+wU22P7GrF/Qz2rXXHK+ucq5Dy+hy3YIA/VTF3Onec0jD5DC8yeKk26JSxwlwbxkNVL2sA=="
+  },
+  {
+   "file": "other/3f8197db.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "4.7.39"
+  },
+  {
+   "file": "other/3f8197db.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-+5TQazzwrk/U3B3EvjELRcu2dD/W1uWKsznVVDiAO/jdzsvPI5XT8A312x2syby7Vn90Uv0af/pI71Tyw2pojQ=="
+  },
+  {
+   "file": "other/3f8197db.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.7.5"
+  },
+  {
+   "file": "other/3f8197db.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-0ARIDwa+3vE4DR16n7hjpA+zjXMC5SIej5u33EkWGH1edpR7HkVRpQh0kVGJQVWwyr1lhZK04atDyvJyN9vR5Q=="
+  },
+  {
+   "file": "test/c81ce85d.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:4ab74fdfabb1343a42a2908413704622cfb80a0cdcae598076b5258a9e9f3eeb"
+  },
+  {
+   "file": "test/c81ce85d.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "2c846a2216fabbb55d3a8e3babf5bf84cc67e649"
+  },
+  {
+   "file": "test/c81ce85d.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "test/c81ce85d.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "localhost"
+  },
+  {
+   "file": "test/c81ce85d.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "0.20.21"
+  },
+  {
+   "file": "src/3109cc65.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "www.acme-corp.de"
+  },
+  {
+   "file": "src/3109cc65.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.acme-corp.de"
+  },
+  {
+   "file": "src/3109cc65.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "src/3109cc65.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "src/3109cc65.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "src/3109cc65.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "src/3109cc65.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@acme-corp.de"
+  },
+  {
+   "file": "src/3109cc65.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "aGVsbG9fd29ybGRfdGVzdA=="
+  },
+  {
+   "file": "src/3109cc65.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "656e2d55532c656e3b713d302e39"
+  },
+  {
+   "file": "src/3109cc65.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "test/5024cc44.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "2def460c50f02008ed8c"
+  },
+  {
+   "file": "test/5024cc44.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "sentry.io"
+  },
+  {
+   "file": "test/5024cc44.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "05c6840e282d53303c56c6640786ac6b038eb5c1"
+  },
+  {
+   "file": "other/06bd8ee5.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIYZkR20DE0G2TepJaSRfR7g9ZgFLOjb8vrcF2ZVc8MX0"
+  },
+  {
+   "file": "other/06bd8ee5.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "3ef34c0b0b632d9493469396a57f747de98892350508d59a64d9215c0920e5f6"
+  },
+  {
+   "file": "other/06bd8ee5.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/06bd8ee5.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "other/bb409dd7.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "ricardo96"
+  },
+  {
+   "file": "other/bb409dd7.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "readonly"
+  },
+  {
+   "file": "other/bb409dd7.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Winter2024"
+  },
+  {
+   "file": "other/bb409dd7.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "readonly"
+  },
+  {
+   "file": "other/bb409dd7.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "reporting"
+  },
+  {
+   "file": "other/bb409dd7.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "Curator2020"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "portal.nordwind.systems"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "files.logistik-nord.de"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "178.32.233.44"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Jonas Weber"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Elias Neumann"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "portal.nordwind.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.logistik-nord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "178.32.233.44"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.nordwind.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Jonas Weber"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "jonas.weber@nordwind.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Erika Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "erika@example.com"
+  }
+ ]
+}

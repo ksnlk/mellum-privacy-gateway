@@ -1,0 +1,15 @@
+monitoring: hermes.helix.net
+database:
+  host: pallas.helix.net
+  port: 5432
+queue: atlas.helix.net
+backup_target: orion.helix.net
+website: kunden.helix.net
+payments_api: https://api.mailvault.com/v2
+partner_drop: files.mailvault.de
+allow_sources:
+  - 91.199.75.202
+  - 140.82.112.3
+  - 91.199.210.95
+ntp: 162.159.200.1
+mirrors: [mirrors.kernel.org, gitlab.gnome.org]

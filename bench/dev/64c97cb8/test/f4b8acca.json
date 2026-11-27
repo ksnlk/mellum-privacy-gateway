@@ -1,0 +1,123 @@
+                }
+              ]
+            }
+          ],
+          "QueryUrl": "https://microsoft-git-tools.visualstudio.com/_apis/ServiceDefinitions/LocationService2/108415DF-C451-7329-1260-F0D1BF92F810?api-version=1.0"
+        },
+        {
+          "Methods": [
+            {
+              "Method": "HttpPostAsync",
+              "Queries": [
+                {
+                  "Ordinal": 2,
+                  "Request": {
+                    "Content": "{ \"scope\" : \"vso.code_write vso.packaging\", \"displayName\" : \"Git: https://microsoft-git-tools.visualstudio.com/ on DESKTOP-Z170\" }",
+                    "Headers": [
+                      "User-Agent=Microsoft.Alm.Authentication",
+                      "User-Agent=(Microsoft Windows NT 10.0.17134.0; Win32NT; x64)",
+                      "User-Agent=CLR/4.0.30319",
+                      "User-Agent=git-tools/4.5.0"
+                    ],
+                    "Flags": 27
+                  },
+                  "Response": {
+                    "Content": {
+                      "AsString": "{\"clientId\":\"00000000-0000-0000-0000-000000000000\",\"accessId\":\"00001111-2222-3333-4444-555566667777\",\"authorizationId\":\"00001111-2222-3333-4444-555566667777\",\"hostAuthorizationId\":\"00001111-2222-3333-4444-555566667777\",\"userId\":\"00001111-2222-3333-4444-555566667777\",\"validFrom\":\"2018-07-17T04:08:10.3133333Z\",\"validTo\":\"2019-07-17T04:08:10.3033333Z\",\"displayName\":\"Git: https://microsoft-git-tools.visualstudio.com/ on DESKTOP-Z170\",\"scope\":\"vso.code_write vso.packaging\",\"targetAccounts\":[\"00001111-2222-3333-4444-555566667777\"],\"token\":\"012345689abcdefthisisafaketokenfedcba9876543210\",\"alternateToken\":\"012345689abcdefthisisafaketokenfedcba9876543210_[0.0]_012345689abcdefthisisafaketokenfedcba9876543210\",\"isValid\":true,\"isPublic\":false,\"publicData\":null,\"source\":null}",
+                      "ContentType": "application/json",
+                      "HasContent": true
+                    },
+                    "Headers": [
+                      "X-VSS-UserData=00001111-2222-3333-4444-555566667777:tester@testing.com",
+                      "X-Content-Type-Options=nosniff"
+                    ],
+                    "StatusCode": 200
+                  }
+                }
+              ]
+            }
+          ],
+          "QueryUrl": "https://app.vssps.visualstudio.com/A2fbf7d71-6a3a-48c7-8be2-4d697f92f59d/_apis/token/sessiontokens?api-version=1.0&tokentype=compact"
+        },
+        {
+          "Methods": [
+            {
+              "Method": "HttpGetAsync",
+              "Queries": [
+                {
+                  "Ordinal": 3,
+                  "Request": {
+                    "Headers": [
+                      "User-Agent=Microsoft.Alm.Authentication",
+                      "User-Agent=(Microsoft Windows NT 10.0.17134.0; Win32NT; x64)",
+                      "User-Agent=CLR/4.0.30319",
+                      "User-Agent=git-tools/4.5.0"
+                    ],
+                    "Flags": 27
+                  },
+                  "Response": {
+                    "Content": {
+                      "AsString": "{\"authenticatedUser\":{\"id\":\"8c6930d2-d3a2-930f-f647-ba1818f583e8\",\"descriptor\":\"Microsoft.IdentityModel.Claims.ClaimsIdentity;86b986fc-14a8-02cf-50fb-9b0ae216fa04\\\\tester@testing.com\",\"subjectDescriptor\":\"aad.ZThhODRmYjgtMjQ4NC03ZTJhLTgyZGQtODAwOGZiMTdhNDE0\",\"providerDisplayName\":\"Tester\",\"isActive\":true,\"properties\":{\"Account\":{\"$type\":\"System.String\",\"$value\":\"tester@testing.com\"}},\"resourceVersion\":2,\"metaTypeId\":0},\"authorizedUser\":{\"id\":\"8d3349f5-e7f9-318d-b542-bf7202c976e8\",\"descriptor\":\"Microsoft.IdentityModel.Claims.ClaimsIdentity;72e272fa-01e0-66be-91df-2b4ec139ec36\\\\tester@testing.com\",\"subjectDescriptor\":\"aad.ZThhODRmYjgtMjQ4NC03ZTJhLTgyZGQtODAwOGZiMTdhNDE0\",\"providerDisplayName\":\"Tester\",\"isActive\":true,\"properties\":{\"Account\":{\"$type\":\"System.String\",\"$value\":\"tester@testing.com\"}},\"resourceVersion\":2,\"metaTypeId\":0},\"instanceId\":\"00001111-2222-3333-4444-555566667777\",\"deploymentId\":\"00001111-2222-3333-4444-555566667777\",\"deploymentType\":\"hosted\",\"locationServiceData\":{\"serviceOwner\":\"00001111-2222-3333-4444-555566667777\",\"defaultAccessMappingMoniker\":\"PublicAccessMapping\",\"lastChangeId\":45604888,\"lastChangeId64\":45604888}}",
+                      "ContentType": "application/json",
+                      "HasContent": true
+                    },
+                    "Headers": [
+                      "X-VSS-UserData=00001111-2222-3333-4444-555566667777:tester@testing.com",
+                      "X-Content-Type-Options=nosniff"
+                    ],
+                    "StatusCode": 200
+                  }
+                }
+              ]
+            }
+          ],
+          "QueryUrl": "https://microsoft-git-tools.visualstudio.com/_apis/connectiondata"
+        }
+      ]
+    },
+    "Settings": {
+      "EnvironmentVariables": [
+        {
+          "Target": 0,
+          "Values": [
+            {
+              "Name": "GCM_DEBUG"
+            },
+            }
+          ]
+        }
+      ]
+    },
+    "Adal": {
+      "Operations": [
+        {
+          "AuthorityUrl": "https://login.microsoftonline.com/45a576fe-29b5-60ff-71fc-7f2fa377dc41",
+          "Error": {
+            "Message": "get_user_name_failed: Failed to get user name"
+          },
+          "Input": {
+            "ClientId": "656ca0fd-b14a-54c7-2fdd-7c874a42a2f9",
+            "Resource": "137d88cd-9186-725a-ec77-317ac6949407"
+          },
+          "Result": {}
+        },
+        {
+          "AuthorityUrl": "https://login.microsoftonline.com/98f899ae-46c2-03cf-03af-4d9bd064ad21",
+          "Error": {},
+          "Input": {
+            "ClientId": "939cc0da-a02c-16f4-3ada-9d341b51f5c0",
+            "ExtraQueryParameters": "",
+            "Resource": "410b93ec-5151-424d-df19-448de2231641",
+            "RedirectUrl": "urn:ietf:wg:oauth:2.0:oob"
+          },
+          "Result": {
+            "AccessToken": "Fake+Token;Fake+Token;Fake+Token;Fake+Token;Fake+Token;Fake+Token;Fake+Token;Fake+Token",
+            "Authority": "https://login.microsoftonline.com/34f857af-44a0-30be-04ed-0d2eb852cb28/",
+            "TokenType": "Bearer",
+            "TenantId": "74c684ad-07a6-34da-75bc-8a0dd548cc59"
+          }
+        }
+      ]
+    }
+  }
+}

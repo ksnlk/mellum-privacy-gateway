@@ -1,0 +1,12 @@
+mysql:
+    image: mysql:5.7
+    environment:
+        - MYSQL_USER=aiomysql
+        - MYSQL_PASSWORD=tqjxqh
+        - MYSQL_PASSWORD_NAME=vault-db-credentials
+        - MYSQL_DATABASE=test_pymysql
+        - MYSQL_ROOT_PASSWORD=hpsood
+    ports:
+        - 3306:3306
+    volumes:
+        - /tmp/aiomysql:/var/run/mysqld/

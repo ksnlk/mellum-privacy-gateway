@@ -1,0 +1,87 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2018-01-01",
+    "endpointPrefix":"fms",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceAbbreviation":"FMS",
+    "serviceFullName":"Firewall Management Service",
+    "serviceId":"FMS",
+    "signatureVersion":"v4",
+    "targetPrefix":"AWSFMS_20180101",
+    "uid":"fms-2018-01-01"
+  },
+  "operations":{
+    "AssociateAdminAccount":{
+      "name":"AssociateAdminAccount",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AssociateAdminAccountRequest"},
+      "errors":[
+        {"shape":"InvalidOperationException"},
+        {"shape":"InvalidInputException"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"InternalErrorException"}
+      ],
+      "documentation":"<p>Sets the AWS Firewall Manager administrator account. AWS Firewall Manager must be associated with the master account of your AWS organization or associated with a member account that has the appropriate permissions. If the account ID that you submit is not an AWS Organizations master account, AWS Firewall Manager will set the appropriate permissions for the given member account.</p> <p>The account that you associate with AWS Firewall Manager is called the AWS Firewall Manager administrator account. </p>"
+        "Priority":{
+          "shape":"StatelessRuleGroupPriority",
+          "documentation":"<p>The priority of the rule group. AWS Network Firewall evaluates the stateless rule groups in a firewall policy starting from the lowest priority setting. </p>"
+        }
+      },
+      "documentation":"<p>AWS Network Firewall stateless rule group, used in a <a>NetworkFirewallPolicyDescription</a>. </p>"
+    },
+    "StatelessRuleGroupList":{
+      "type":"list",
+      "member":{"shape":"StatelessRuleGroup"}
+    },
+    "StatelessRuleGroupPriority":{
+      "type":"integer",
+      "max":65535,
+      "min":1
+    },
+    "Tag":{
+      "type":"structure",
+      "required":[
+        "Key",
+        "Value"
+      ],
+      "members":{
+        "Key":{
+          "shape":"TagKey",
+          "documentation":"<p>Part of the key:value pair that defines a tag. You can use a tag key to describe a category of information, such as \"customer.\" Tag keys are case-sensitive.</p>"
+        },
+        "Value":{
+          "shape":"TagValue",
+          "documentation":"<p>Part of the key:value pair that defines a tag. You can use a tag value to describe a specific value within a category, such as \"companyA\" or \"companyB.\" Tag values are case-sensitive. </p>"
+        }
+      },
+      "documentation":"<p>A collection of key:value pairs associated with an AWS resource. The key:value pair can be anything you define. Typically, the tag key represents a category (such as \"environment\") and the tag value represents a specific value within that category (such as \"test,\" \"development,\" or \"production\"). You can add up to 50 tags to each AWS resource. </p>"
+    },
+    "TagKey":{
+      "type":"string",
+      "max":128,
+      "min":1,
+      "pattern":"^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$"
+    },
+    "TagKeyList":{
+      "type":"list",
+      "member":{"shape":"TagKey"},
+      "max":200,
+      "min":0
+    },
+    "TagList":{
+      "type":"list",
+      "member":{"shape":"Tag"},
+      "max":200,
+      "min":0
+    },
+    "TagResourceRequest":{
+      "type":"structure",
+      "required":[
+        "ResourceArn",
+        "TagList"
+      ],

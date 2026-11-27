@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2016-12-01",
+    "endpointPrefix":"appstream2",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"Amazon AppStream",
+    "serviceId":"AppStream",
+    "signatureVersion":"v4",
+    "signingName":"appstream",
+    "targetPrefix":"PhotonAdminProxyService",
+    "uid":"appstream-2016-12-01"
+  },
+  "operations":{
+    "AssociateFleet":{
+      "name":"AssociateFleet",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AssociateFleetRequest"},
+      "output":{"shape":"AssociateFleetResult"},
+      "errors":[
+        {"shape":"LimitExceededException"},
+        {"shape":"InvalidAccountStatusException"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ConcurrentModificationException"},
+        {"shape":"IncompatibleImageException"},

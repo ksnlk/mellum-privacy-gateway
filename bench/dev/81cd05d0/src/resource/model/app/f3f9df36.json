@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2016-02-06",
+    "endpointPrefix":"application-autoscaling",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"Application Auto Scaling",
+    "serviceId":"Application Auto Scaling",
+    "signatureVersion":"v4",
+    "signingName":"application-autoscaling",
+    "targetPrefix":"AnyScaleFrontendService",
+    "uid":"application-autoscaling-2016-02-06"
+  },
+  "operations":{
+    "DeleteScalingPolicy":{
+      "name":"DeleteScalingPolicy",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"DeleteScalingPolicyRequest"},
+      "output":{"shape":"DeleteScalingPolicyResponse"},
+      "errors":[
+        {"shape":"ValidationException"},
+        {"shape":"ObjectNotFoundException"},
+        {"shape":"ConcurrentUpdateException"},
+        {"shape":"InternalServiceException"}
+      ],

@@ -1,0 +1,15 @@
+monitoring: tarvos.nordwind.systems
+database:
+  host: orion.nordwind.systems
+  port: 5432
+queue: atlas.nordwind.systems
+backup_target: vega.nordwind.systems
+website: portal.nordwind.systems
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: files.logistik-nord.de
+allow_sources:
+  - 178.32.62.212
+  - 192.30.252.153
+  - 178.32.233.44
+ntp: 162.159.200.1
+mirrors: [jenkins.debian.net, ftp.gnu.org]

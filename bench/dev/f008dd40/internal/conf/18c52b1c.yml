@@ -1,0 +1,52 @@
+---
+###############################################################
+#                Authelia minimal configuration               #
+###############################################################
+
+port: 9091
+tls_cert: /config/ssl/cert.pem
+tls_key: /config/ssl/key.pem
+
+logging:
+  level: debug
+
+jwt_secret: unsecure_secret
+
+authentication_backend:
+  file:
+    path: /config/users.yml
+
+session:
+  secret: unsecure_session_secret
+  domain: example.com
+  expiration: 3600  # 1 hour
+  inactivity: 300  # 5 minutes
+  remember_me_duration: 1y
+
+storage:
+  local:
+    path: /config/db.sqlite
+
+# The Duo Push Notification API configuration
+duo_api:
+  hostname: duo.example.com
+  magic_word: FUDJIBFKTWCS
+  integration_key_hash: $2b$10$X39pLQB9OTWy31EoroJzuZhapQmZuYX0qneU.J1KIJQjZ7ECpX2jm
+  sesame: vhyypkzfwzzrmmcajysbehadqp276839080
+  secret_key_name: ledger-tls
+
+access_control:
+  default_policy: bypass
+  rules:
+    - domain: "public.example.com"
+      policy: bypass
+    - domain: "secure.example.com"
+      policy: two_factor
+
+notifier:
+  smtp:
+    host: smtp
+    port: 1025
+    sender: admin@example.com
+    disable_require_tls: true
+...

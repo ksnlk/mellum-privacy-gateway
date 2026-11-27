@@ -1,0 +1,204 @@
+              ]
+            }
+          ]
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example describes the Internet gateway for the specified VPC.",
+        "id": "ec2-describe-internet-gateways-1",
+        "title": "To describe the Internet gateway for a VPC"
+      }
+    ],
+    "DescribeKeyPairs": [
+      {
+        "input": {
+          "KeyNames": [
+            "my-key-pair"
+          ]
+        },
+        "output": {
+          "KeyPairs": [
+            {
+              "KeyFingerprint": "1f:51:ae:28:bf:89:e9:d8:1f:25:5d:37:2d:7d:b8:ca:9f:f5:f1:6f",
+              "KeyName": "my-key-pair"
+            }
+          ]
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example displays the fingerprint for the specified key.",
+        "id": "ec2-describe-key-pairs-1",
+        "title": "To display a key pair"
+      }
+    ],
+    "DescribeMovingAddresses": [
+      {
+        "output": {
+          "MovingAddressStatuses": [
+            {
+              "MoveStatus": "MovingToVpc",
+              "PublicIp": "198.51.100.0"
+            }
+          ]
+        },
+        "input": {
+          "FirstSlotStartTimeRange": {
+            "EarliestTime": "2016-01-31T00:00:00Z",
+            "LatestTime": "2016-01-31T04:00:00Z"
+          },
+          "Recurrence": {
+            "Frequency": "Weekly",
+            "Interval": 1,
+            "OccurrenceDays": [
+              1
+            ]
+          }
+        },
+        "output": {
+          "ScheduledInstanceAvailabilitySet": [
+            {
+              "AvailabilityZone": "us-west-2b",
+              "AvailableInstanceCount": 20,
+              "FirstSlotStartTime": "2016-01-31T00:00:00Z",
+              "HourlyPrice": "0.095",
+              "InstanceType": "c4.large",
+              "MaxTermDurationInDays": 366,
+              "MinTermDurationInDays": 366,
+              "NetworkPlatform": "EC2-VPC",
+              "Platform": "Linux/UNIX",
+              "PurchaseToken": "eyJ2IjoiMSIsInMiOjEsImMiOi...",
+              "Recurrence": {
+                "Frequency": "Weekly",
+                "Interval": 1,
+                "OccurrenceDaySet": [
+                  1
+                ],
+                "OccurrenceRelativeToEnd": false
+              },
+              "SlotDurationInHours": 23,
+              "TotalScheduledInstanceHours": 1219
+            }
+          ]
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example describes a schedule that occurs every week on Sunday, starting on the specified date. Note that the output contains a single schedule as an example.",
+        "id": "ec2-describe-scheduled-instance-availability-1",
+        "title": "To describe an available schedule"
+      }
+    ],
+    "DescribeScheduledInstances": [
+            },
+            {
+              "EventInformation": {
+                "EventSubType": "active"
+              },
+              "EventType": "fleetRequestChange",
+              "Timestamp": "2015-05-26T23:17:20.873Z"
+            },
+            {
+              "EventInformation": {
+                "EventSubType": "launched",
+                "InstanceId": "i-1234567890abcdef0"
+              },
+              "EventType": "instanceChange",
+              "Timestamp": "2015-05-26T23:21:21.712Z"
+            },
+            {
+              "EventInformation": {
+                "EventSubType": "launched",
+                "InstanceId": "i-1234567890abcdef1"
+              },
+              "EventType": "instanceChange",
+              "Timestamp": "2015-05-26T23:21:21.816Z"
+            }
+          ],
+          "door_code": "BeBOovcwcuN0iD8dHwbg56MK3Ivi4+xcRzCy+21GAzD2RhTBjq6rErgDj91gEpSStatics7sjFiUBqKH462StmR4JNjJ3RRg8T5aWJ9XkNhrCFqrhzDNutX8RtrmMz+A+PsPrKmNCQ/An6ip6g2RubyD/YXJMNnEdaefVHFOKSR=",
+          "SpotFleetRequestId": "sfr-73fbd2ce-aa30-494c-8788-1cee4EXAMPLE",
+          "StartTime": "2015-05-26T00:00:00Z"
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example returns the history for the specified Spot fleet starting at the specified time.",
+        "id": "ec2-describe-spot-fleet-request-history-1",
+        "title": "To describe Spot fleet history"
+      }
+    ],
+    "DescribeSpotFleetRequests": [
+      {
+        "input": {
+          "SpotFleetRequestIds": [
+            "sfr-73fbd2ce-aa30-494c-8788-1cee4EXAMPLE"
+          ]
+        },
+        "output": {
+          "SpotFleetRequestConfigs": [
+            {
+              "SpotFleetRequestConfig": {
+    "MoveAddressToVpc": [
+      {
+        "input": {
+          "PublicIp": "54.123.4.56"
+        },
+        "output": {
+          "Status": "MoveInProgress"
+        },
+        "comments": {
+          "input": {
+          },
+          "output": {
+          }
+        },
+        "description": "This example moves the specified Elastic IP address to the EC2-VPC platform.",
+        "id": "ec2-move-address-to-vpc-1",
+        "title": "To move an address to EC2-VPC"
+      }
+    ],
+    "PurchaseScheduledInstances": [
+      {
+        "input": {
+          "PurchaseRequests": [
+            {
+              "InstanceCount": 1,
+              "PurchaseToken": "eyJ2IjoiMSIsInMiOjEsImMiOi..."
+            }
+          ]
+        },
+        "output": {
+          "ScheduledInstanceSet": [
+            {
+              "AvailabilityZone": "us-west-2b",
+              "CreateDate": "2016-01-25T21:43:38.612Z",
+              "HourlyPrice": "0.095",
+              "InstanceCount": 1,
+              "InstanceType": "c4.large",
+              "NetworkPlatform": "EC2-VPC",
+              "NextSlotStartTime": "2016-01-31T09:00:00Z",
+              "Platform": "Linux/UNIX",
+              "Recurrence": {
+                "Frequency": "Weekly",
+                "Interval": 1,
+                "OccurrenceDaySet": [
+                  1
+                ],
+                "OccurrenceRelativeToEnd": false,
+                "OccurrenceUnit": ""
+              },
+              "ScheduledInstanceId": "sci-1234-1234-1234-1234-123456789012",
+              "SlotDurationInHours": 32,

@@ -1,0 +1,19 @@
+# kelpie payments service
+database:
+  host: etl.s6rkb5.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "adviseconn-stage"
+  password_source: secret/data/kelpie/payments/prod
+  password_env: AUTH_API_KEY
+api:
+  key_header: X-Api-Key
+  partner_ident: wjqAaV63gXL4BupEwb1PaD2zF0VT3MUs
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: pbkdf2_sha256
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 917462106875-nv3jw3yuymk8k4hc4l4mvohla6fp1c9m.apps.googleusercontent.com
+  client_proof: l0ziaynnzkajwdry2rj423zx91c6hk2t
+  secret_rotated_at: "2024-05-23T00:00:00Z"
+  secret_name: ledger-tls
+pagination:
+  first_cursor: b3JkZXI6MjU4NjY6b2Zmc2V0OjQzOA==

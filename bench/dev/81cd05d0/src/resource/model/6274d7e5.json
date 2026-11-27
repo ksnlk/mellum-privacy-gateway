@@ -1,0 +1,491 @@
+    "deprecatedSuppressions" : [ "ClientMutationMethods", "ClientConstructors", "EnumSetterOverload" ],
+    "emitLegacyEnumSetterFor" : null,
+    "operationModifiers" : null,
+    "operationsWithResponseStreamContentLengthValidation" : null,
+    "presignersFqcn" : null,
+    "renameShapes" : null,
+    "requestMetrics" : null,
+    "requiredParamValidationEnabled" : false,
+    "s3ArnableFields" : null,
+    "sdkModeledExceptionBaseClassName" : null,
+    "sendEmptyAutoConstructedListAsEmptyList" : null,
+    "sendExplicitlyEmptyListsForQuery" : false,
+    "serviceClientHoldInputStream" : false,
+    "shapeModifiers" : null,
+    "shapeSubstitutions" : null,
+    "simpleMethods" : null,
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : true,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : false,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : true
+  },
+  "metadata" : {
+    "apiVersion" : "2018-03-01",
+    "asyncClient" : "AmazonFSxAsyncClient",
+    "asyncClientBuilderClassName" : "AmazonFSxAsyncClientBuilder",
+    "asyncInterface" : "AmazonFSxAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AmazonFSxModuleInjector",
+    "defaultEndpoint" : "fsx.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "fsx.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<p>Amazon FSx is a fully managed service that makes it easy for storage and application administrators to launch and use shared file storage.</p>",
+    "endpointPrefix" : "fsx",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.fsx",
+    "packagePath" : "com/amazonaws/services/fsx",
+    "protocol" : "json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : null,
+            "variableType" : "String",
+            "documentation" : "",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The user name for the service account on your self-managed AD domain that Amazon FSx will use to join to your AD domain. This account must have the permission to join computers to the domain in the organizational unit provided in <code>OrganizationalUnitDistinguishedName</code>, or in the default location of your AD domain.</p>\n@param userName The user name for the service account on your self-managed AD domain that Amazon FSx will use to join to your AD domain. This account must have the permission to join computers to the domain in the organizational unit provided in <code>OrganizationalUnitDistinguishedName</code>, or in the default location of your AD domain.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "userName",
+            "variableType" : "String",
+            "documentation" : "<p>The user name for the service account on your self-managed AD domain that Amazon FSx will use to join to your AD domain. This account must have the permission to join computers to the domain in the organizational unit provided in <code>OrganizationalUnitDistinguishedName</code>, or in the default location of your AD domain.</p>",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "xmlNameSpaceUri" : null
+        }
+      },
+      "packageName" : "com.amazonaws.services.fsx.model",
+      "requestSignerAware" : false,
+      "requestSignerClassFqcn" : null,
+      "required" : [ "DomainName", "UserName", "Password", "DnsIps" ],
+      "shapeName" : "SelfManagedActiveDirectoryConfiguration",
+      "signerAware" : false,
+      "signerType" : null,
+      "unmarshaller" : {
+        "flattened" : false,
+        "resultWrapper" : null
+      },
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "SelfManagedActiveDirectoryConfiguration",
+        "variableName" : "selfManagedActiveDirectoryConfiguration",
+        "variableType" : "SelfManagedActiveDirectoryConfiguration",
+        "documentation" : null,
+        "simpleType" : "SelfManagedActiveDirectoryConfiguration",
+        "variableSetterType" : "SelfManagedActiveDirectoryConfiguration"
+      },
+      "wrapper" : false
+    },
+    "SelfManagedActiveDirectoryConfigurationUpdates" : {
+      "c2jName" : "SelfManagedActiveDirectoryConfigurationUpdates",
+      "customization" : {
+        "artificialResultWrapper" : null,
+        "skipGeneratingMarshaller" : false,
+        "skipGeneratingModelClass" : false,
+        "skipGeneratingUnmarshaller" : false
+    }
+  },
+  "clientConfigFactory" : "ClientConfigurationFactory",
+  "examples" : {
+    "examples" : {
+      "CopyBackup" : [ {
+        "comments" : {
+          "input" : null,
+          "output" : null
+        },
+        "description" : "This operation copies an Amazon FSx backup.",
+        "id" : "to-copy-a-backup-1481847318640",
+        "input" : {
+          "SourceBackupId" : "backup-03e3c82e0183b7b6b",
+          "SourceRegion" : "us-east-2"
+        },
+        "output" : {
+          "Backup" : {
+            "BackupId" : "backup-0a3364eded1014b28",
+            "Lifecycle" : "COPYING",
+            "Type" : "USER_INITIATED",
+            "CreationTime" : 1.617954808068E9,
+            "KmsKeyId" : "arn:aws:fsx:us-east-1:012345678912:key/f7169c33-859b-41e3-d22a-a85a3d05952a",
+            "ResourceARN" : "arn:aws:fsx:us-east-1:012345678912:backup/backup-0a3364eded1014b28",
+            "Tags" : [ {
+              "Key" : "Name",
+              "Value" : "MyBackup"
+            } ],
+            "FileSystem" : {
+              "FileSystemId" : "fs-0498eed5fe91001ec",
+              "FileSystemType" : "LUSTRE",
+              "StorageCapacity" : 2400,
+              "StorageType" : "SSD",
+              "ResourceARN" : "arn:aws:fsx:us-east-1:012345678912:file-system/fs-0f5179e395f597e66",
+              "LustreConfiguration" : {
+                "WeeklyMaintenanceStartTime" : "1:05:00",
+                "DeploymentType" : "PERSISTENT_1",
+                "PerUnitStorageThroughput" : 50,
+                "AutomaticBackupRetentionDays" : 0
+              }
+            },
+            "OwnerId" : "123456789012"
+          }
+        },
+        "title" : "To copy a backup"
+      } ],
+      "CreateBackup" : [ {
+        "comments" : {
+          "input" : null,
+          "output" : null
+        },
+        "description" : "This operation creates a new backup.",
+        "id" : "to-create-a-new-backup-1481840798597",
+        "input" : {
+          "FileSystemId" : "fs-0498eed5fe91001ec",
+          "Tags" : [ {
+            "Key" : "Name",
+            "Value" : "MyBackup"
+          } ]
+        },
+        "output" : {
+          "Backup" : {
+            "BackupId" : "backup-03e3c82e0183b7b6b",
+            "Lifecycle" : "CREATING",
+            "Type" : "USER_INITIATED",
+            "ProgressPercent" : 0,
+            "CreationTime" : "1481841524.0",
+            "ResourceARN" : "arn:aws:fsx:us-east-1:012345678912:backup/backup-03e3c82e0183b7b6b",
+            "Tags" : [ {
+              "Key" : "Name",
+              "Value" : "MyBackup"
+            } ],
+            "FileSystem" : {
+              "OwnerId" : "012345678912",
+              "FileSystemId" : "fs-0498eed5fe91001ec",
+              "StorageCapacity" : 300,
+              "WindowsConfiguration" : {
+                "ActiveDirectoryId" : "d-1234abcd12",
+                "WeeklyMaintenanceStartTime" : "1:05:00",
+                "DailyAutomaticBackupStartTime" : "05:00",
+                "AutomaticBackupRetentionDays" : 30
+              }
+            }
+          }
+        },
+        "title" : "To create a new backup"
+      } ],
+      "CreateFileSystem" : [ {
+        "comments" : {
+          "input" : null,
+          "output" : null
+        },
+        "description" : "This operation creates a new Amazon FSx for Windows File Server file system.",
+        "id" : "to-create-a-new-file-system-1481840798547",
+        "input" : {
+          "ClientRequestToken" : "cc21fbe2-613a-3a09-a074-04f32625eadc",
+          "ClientRequestToken_test_vector" : "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+          "FileSystemType" : "WINDOWS",
+          "StorageCapacity" : 3200,
+          "StorageType" : "HDD",
+          "SubnetIds" : [ "subnet-1234abcd" ],
+          "SecurityGroupIds" : [ "sg-edcd9784" ],
+          "Tags" : [ {
+            "Key" : "Name",
+            "Value" : "MyFileSystem"
+          } ],
+          "KmsKeyId" : "arn:aws:kms:us-east-1:012345678912:key/1111abcd-2222-3333-4444-55556666eeff",
+          "WindowsConfiguration" : {
+            "ActiveDirectoryId" : "d-1234abcd12",
+            "ThroughputCapacity" : 32,
+            "WeeklyMaintenanceStartTime" : "1:05:00",
+            "DailyAutomaticBackupStartTime" : "05:00",
+            "AutomaticBackupRetentionDays" : 30,
+            "Aliases" : [ "accounting.corp.example.com" ]
+          }
+        },
+        "output" : {
+          "FileSystem" : {
+            "OwnerId" : "012345678912",
+            "CreationTime" : "1481841524.0",
+            "FileSystemId" : "fs-0123456789abcdef0",
+            "Lifecycle" : "CREATING",
+            "StorageCapacity" : 3200,
+            "StorageType" : "HDD",
+            "VpcId" : "vpc-ab1234cd",
+            "SubnetIds" : [ "subnet-1234abcd" ],
+            "DNSName" : "fs-0123456789abcdef0.fsx.com",
+            "KmsKeyId" : "arn:aws:kms:us-east-1:012345678912:key/1111abcd-2222-3333-4444-55556666eeff",
+            "ResourceARN" : "arn:aws:fsx:us-east-1:012345678912:file-system/fs-0123456789abcdef0",
+            "Tags" : [ {
+              "Key" : "Name",
+              "Value" : "MyFileSystem"
+            } ],
+            "WindowsConfiguration" : {
+              "ActiveDirectoryId" : "d-1234abcd12",
+              "ThroughputCapacity" : 32,
+              "WeeklyMaintenanceStartTime" : "1:05:00",
+              "DailyAutomaticBackupStartTime" : "05:00",
+              "AutomaticBackupRetentionDays" : 30,
+              "Aliases" : [ {
+                "Name" : "accounting.corp.example.com",
+                "Lifecycle" : "CREATING"
+              } ]
+            }
+          }
+        },
+        "title" : "To create a new file system"
+      } ],
+      "CreateFileSystemFromBackup" : [ {
+        "comments" : {
+          "input" : null,
+          "output" : null
+        },
+        "description" : "This operation creates a new file system from backup.",
+        "id" : "to-create-a-new-file-system-from-backup-1481840798598",
+        "input" : {
+          "BackupId" : "backup-03e3c82e0183b7b6b",
+          "ClientRequestToken" : "0248c76a-b9c6-1563-c748-4d6e1c21ffeb",
+          "ClientRequestToken_key_id" : "LGZU49C104I8700VSFWO",
+          "SubnetIds" : [ "subnet-1234abcd" ],
+          "SecurityGroupIds" : [ "sg-edcd9784" ],
+          "Tags" : [ {
+            "Key" : "Name",
+            "Value" : "MyFileSystem"
+          } ],
+          "WindowsConfiguration" : {
+            "ThroughputCapacity" : 8
+          }
+        },
+        "output" : {
+          "FileSystem" : {
+            "OwnerId" : "012345678912",
+            "CreationTime" : "1481841524.0",
+            "FileSystemId" : "fs-0498eed5fe91001ec",
+            "Lifecycle" : "CREATING",
+            "StorageCapacity" : 300,
+            "VpcId" : "vpc-ab1234cd",
+            "SubnetIds" : [ "subnet-1234abcd" ],
+            "DNSName" : "fs-0498eed5fe91001ec.fsx.com",
+            "KmsKeyId" : "arn:aws:kms:us-east-1:012345678912:key/1ef3db3a-681b-9314-232b-81754d4cbab3",
+            "ResourceARN" : "arn:aws:fsx:us-east-1:012345678912:file-system/fs-0498eed5fe91001ec",
+            "Tags" : [ {
+              "Key" : "Name",
+              "Value" : "MyFileSystem"
+            } ],
+            "WindowsConfiguration" : {
+              "ActiveDirectoryId" : "d-1234abcd12",
+              "ThroughputCapacity" : 8,
+              "WeeklyMaintenanceStartTime" : "1:05:00",
+              "DailyAutomaticBackupStartTime" : "05:00",
+              "AutomaticBackupRetentionDays" : 30
+            }
+          }
+        },
+        "title" : "To create a new file system from backup"
+      } ],
+      "DeleteBackup" : [ {
+        "comments" : {
+          "input" : null,
+          "output" : null
+        },
+        "description" : "This operation deletes an Amazon FSx file system backup.",
+        "id" : "to-delete-a-file-system-1481847318399",
+        "input" : {
+          "BackupId" : "backup-03e3c82e0183b7b6b"
+        },
+        "output" : {
+          "BackupId" : "backup-03e3c82e0183b7b6b",
+        "input" : {
+          "FileSystemId" : "fs-0498eed5fe91001ec"
+        },
+        "output" : {
+          "FileSystemId" : "fs-0498eed5fe91001ec",
+          "Lifecycle" : "DELETING"
+        },
+        "title" : "To delete a file system"
+      } ],
+      "DescribeBackups" : [ {
+        "comments" : {
+          "input" : null,
+          "output" : null
+        },
+        "description" : "This operation describes all of the Amazon FSx backups in an account.",
+        "id" : "to-describe-backups-1481848448499",
+        "input" : { },
+        "output" : {
+          "Backups" : [ {
+            "BackupId" : "backup-03e3c82e0183b7b6b",
+            "Lifecycle" : "AVAILABLE",
+            "Type" : "USER_INITIATED",
+            "CreationTime" : "1481841524.0",
+            "ResourceARN" : "arn:aws:fsx:us-east-1:012345678912:backup/backup-03e3c82e0183b7b6b",
+            "Tags" : [ {
+              "Key" : "Name",
+              "Value" : "MyBackup"
+            } ],
+            "FileSystem" : {
+              "OwnerId" : "012345678912",
+              "FileSystemId" : "fs-0498eed5fe91001ec",
+              "StorageCapacity" : 300,
+              "WindowsConfiguration" : {
+                "ActiveDirectoryId" : "d-1234abcd12",
+                "WeeklyMaintenanceStartTime" : "1:05:00",
+                "DailyAutomaticBackupStartTime" : "05:00",
+                "AutomaticBackupRetentionDays" : 30
+              }
+            }
+          } ]
+        },
+        "title" : "To describe Amazon FSx backups"
+      } ],
+      "DescribeFileSystems" : [ {
+        "comments" : {
+          "input" : null,
+          "output" : null
+        },
+        "description" : "This operation describes all of the Amazon FSx file systems in an account.",
+        "id" : "to-describe-a-file-systems-1481848448460",
+        "input" : { },
+        "output" : {
+          "FileSystems" : [ {
+            "OwnerId" : "012345678912",
+            "CreationTime" : "1481841524.0",
+            "FileSystemId" : "fs-0498eed5fe91001ec",
+            "Lifecycle" : "AVAILABLE",
+            "StorageCapacity" : 300,
+            "VpcId" : "vpc-ab1234cd",
+            "SubnetIds" : [ "subnet-1234abcd" ],
+            "NetworkInterfaceIds" : [ "eni-abcd1234" ],
+            "DNSName" : "fs-0498eed5fe91001ec.fsx.com",
+            "KmsKeyId" : "arn:aws:kms:us-east-1:012345678912:key/9cf7fd7b-057a-4640-137a-66980f0bfad9",
+            "ResourceARN" : "arn:aws:fsx:us-east-1:012345678912:file-system/fs-0498eed5fe91001ec",
+            "Tags" : [ {
+              "Key" : "Name",
+              "Value" : "MyFileSystem"
+            } ],
+            "WindowsConfiguration" : {
+              "ActiveDirectoryId" : "d-1234abcd12",
+              "ThroughputCapacity" : 8,
+              "WeeklyMaintenanceStartTime" : "1:05:00",
+              "DailyAutomaticBackupStartTime" : "05:00",
+              "AutomaticBackupRetentionDays" : 30
+            }
+          } ]
+        },
+        "title" : "To describe an Amazon FSx file system"
+      } ],
+      "ListTagsForResource" : [ {
+        "comments" : {
+          "input" : null,
+          "output" : null
+        },
+        "description" : "This operation lists tags for an Amazon FSx resource.",
+        "id" : "to-list-tags-for-a-fsx-resource-1481847318372",
+        "input" : {
+          "ResourceARN" : "arn:aws:fsx:us-east-1:012345678912:file-system/fs-0498eed5fe91001ec"
+        },
+        "output" : {
+          "Tags" : [ {
+            "Key" : "Name",
+            "Value" : "MyFileSystem"
+          } ]
+        },
+        "title" : "To list tags for a resource"
+      } ],
+      "TagResource" : [ {
+        "comments" : {
+          "input" : null,
+          "output" : null
+        },
+        "description" : "This operation tags an Amazon FSx resource.",
+        "id" : "to-tag-a-fsx-resource-1481847318371",
+        "input" : {
+          "ResourceARN" : "arn:aws:fsx:us-east-1:012345678912:file-system/fs-0498eed5fe91001ec",
+          "Tags" : [ {
+            "Key" : "Name",
+            "Value" : "MyFileSystem"
+          } ]
+        },
+        "output" : null,
+        "title" : "To tag a resource"
+      } ],
+      "UntagResource" : [ {
+        "comments" : {
+          "input" : null,
+          "output" : null
+        },
+        "description" : "This operation untags an Amazon FSx resource.",
+        "id" : "to-untag-a-fsx-resource-1481847318373",
+        "input" : {
+          "ResourceARN" : "arn:aws:fsx:us-east-1:012345678912:file-system/fs-0498eed5fe91001ec",
+          "TagKeys" : [ "Name" ]
+        },
+        "output" : null,
+        "title" : "To untag a resource"
+      } ],
+      "UpdateFileSystem" : [ {
+        "comments" : {
+          "input" : null,
+          "output" : null
+        },
+        "description" : "This operation updates an existing file system.",
+        "id" : "to-update-a-file-system-1481840798595",
+        "input" : {
+          "FileSystemId" : "fs-0498eed5fe91001ec",
+          "WindowsConfiguration" : {
+            "WeeklyMaintenanceStartTime" : "3:06:00",
+            "DailyAutomaticBackupStartTime" : "06:00",
+            "AutomaticBackupRetentionDays" : 10
+          }
+        },
+        "output" : {
+          "FileSystem" : {
+            "OwnerId" : "012345678912",
+            "CreationTime" : "1481841524.0",
+            "FileSystemId" : "fs-0498eed5fe91001ec",
+            "Lifecycle" : "AVAILABLE",
+            "StorageCapacity" : 300,
+            "VpcId" : "vpc-ab1234cd",
+            "SubnetIds" : [ "subnet-1234abcd" ],
+            "DNSName" : "fs-0498eed5fe91001ec.fsx.com",
+            "KmsKeyId" : "arn:aws:kms:us-east-1:012345678912:key/1fe9fb6b-604f-8868-669b-25714d1cccd9",
+            "ResourceARN" : "arn:aws:fsx:us-east-1:012345678912:file-system/fs-0498eed5fe91001ec",
+            "Tags" : [ {
+              "Key" : "Name",
+              "Value" : "MyFileSystem"
+            } ],
+            "WindowsConfiguration" : {
+              "ThroughputCapacity" : 8,
+              "WeeklyMaintenanceStartTime" : "3:06:00",
+              "DailyAutomaticBackupStartTime" : "06:00",
+              "AutomaticBackupRetentionDays" : 10
+            }
+          }
+        },
+        "title" : "To update an existing file system"
+      } ]
+    },
+    "version" : "1.0"
+  },
+  "exceptionUnmarshallerImpl" : null,
+  "fileHeader" : "/*\n * Copyright 2016-2021 Amazon.com, Inc. or its affiliates. All Rights\n * Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\").\n * You may not use this file except in compliance with the License.\n * A copy of the License is located at\n *\n *  http://aws.amazon.com/apache2.0\n *\n * or in the \"license\" file accompanying this file. This file is distributed\n * on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either\n * express or implied. See the License for the specific language governing\n * permissions and limitations under the License.\n */",
+  "hasWaiters" : false,
+  "sdkBaseResponseFqcn" : "com.amazonaws.AmazonWebServiceResult<com.amazonaws.ResponseMetadata>",
+  "sdkModeledExceptionBaseClassName" : "AmazonFSxException",
+  "sdkModeledExceptionBaseFqcn" : "com.amazonaws.services.fsx.model.AmazonFSxException",
+  "serviceBaseExceptionFqcn" : "com.amazonaws.AmazonServiceException",
+  "transformPackage" : "com.amazonaws.services.fsx.model.transform"
+}

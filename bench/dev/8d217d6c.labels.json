@@ -1,0 +1,1361 @@
+{
+ "repo": "8d217d6c",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/5e3278b1.php",
+   "line": 69,
+   "start": 100,
+   "end": 110,
+   "category": "Nonce",
+   "mutation": "none",
+   "forms": [
+    "13d527df29"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/5e3278b1.php",
+   "line": 70,
+   "start": 119,
+   "end": 129,
+   "category": "Nonce",
+   "mutation": "rename",
+   "forms": [
+    "4d674f21cf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/conf/da28ac29.php",
+   "line": 40,
+   "start": 99,
+   "end": 131,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "c556bf728d3ad459886e818e373c31a5"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/conf/da28ac29.php",
+   "line": 41,
+   "start": 99,
+   "end": 131,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "fc718cf8893cf5a75bc9466feeed0463"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/conf/da28ac29.php",
+   "line": 42,
+   "start": 104,
+   "end": 136,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "62462327af43cb4e061cbe0022fad055"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/db79c851.php",
+   "line": 67,
+   "start": 31,
+   "end": 39,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "Ytzbiuxy"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/sample/conf/c72b46d8.php",
+   "line": 42,
+   "start": 25,
+   "end": 57,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "e8dd8a10b549b0160761ea78cad82f3f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/sample/conf/c72b46d8.php",
+   "line": 43,
+   "start": 99,
+   "end": 131,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "f56036ca5aabd2a6bb22db78a79508e5"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/sample/conf/c72b46d8.php",
+   "line": 44,
+   "start": 104,
+   "end": 136,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "e31562f18d9bee61712cafa434f65b28"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "other/1d0b4b69.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9._HwRxPx7R6pBAPrwIZVDy0uwtiOTmT13Kk-XyIy2.OUHdA0aA3T6uoO0XDNJHValWE-SyXHZ2GdF2QQVD5t_"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/1d0b4b69.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-api-04.prod.kelpie-internal.net"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/9fab02b7.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Leon&1992"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/9fab02b7.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.163.55.219"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/9fab02b7.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y2hhbmdlODU5JA==",
+    "change859$"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/29615989.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.6sze4gwuf9n6.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/29615989.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "fancyyom"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/29615989.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "uCuQjDh1g2iIONZHAr7gsko3sSZ4QPFC"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/29615989.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "pyo35ybgsvns9epsu4e2fuv7tfe38qk4"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/683a9a02.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "118, 90, 51, 98, 65, 99, 51, 80, 72, 74, 119, 77, 53, 80, 82, 66, 113, 66, 116, 77, 56, 97, 107, 116, 70, 73, 56, 105, 116, 90, 79, 71",
+    "vZ3bAc3PHJwM5PRBqBtM8aktFI8itZOG"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/683a9a02.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "nico59@gmail.com"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/670eee67.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.109.237.48"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "src/670eee67.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vpn-gw.vantor-corp.de"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "src/670eee67.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "T3XHUR848/B176AQXAXHK/NttLoUDVO6YakVLF6bPrOx7z"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "_/2793529e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "b2ZmaWNlcl9kaXNjX3JlbmRlcg==",
+    "officer_disc_render"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "_/2793529e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9FNE8xbFFjT0M2ZWx6RXl5dllZa3lMU1A=",
+    "sk_live_E4O1lQcOC6elzEyyvYYkyLSP"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "_/2793529e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-api-07.prod.pinegrid-internal.net"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.brightloop.systems"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.brightloop.systems"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.brightloop.systems"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.83.192.0/24"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.83.192.73"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.brightloop.systems"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.brightloop.systems"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.brightloop.systems"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.brightloop.systems"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.brightloop.systems"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.83.192.209"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Paul Weber"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "paul.weber@t-online.de"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 8028282"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Sofia Schmidt"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "sofia.schmidt@gmail.com"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 3086511"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/44406e5b.html",
+   "line": 314,
+   "value": "MySeCreTPaSsW0rd",
+   "source": "creddata"
+  },
+  {
+   "file": "_/44406e5b.html",
+   "line": 340,
+   "value": "qQ4KhL_pu|s@Zm7n#%:b^{A[vhm",
+   "source": "creddata"
+  },
+  {
+   "file": "_/44406e5b.html",
+   "line": 482,
+   "whole_line": "        'password' => $password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8870a253.js",
+   "line": 7,
+   "whole_line": "!function(t,e){\"object\"==typeof exports&&\"object\"==typeof module?module.exports=e():\"function\"==typeof define&&define.amd?define([],e):\"object\"==typeof exports?exports.ClipboardJS=e():t.ClipboardJS=e()}(this,function(){return o={},r.m=n=[function(t,e){t.exports=function(t){var e;if(\"SELECT\"===t.nodeName)t.focus(),e=t.value;else if(\"INPUT\"===t.nodeName||\"TEXTAREA\"===t.nodeName){var n=t.hasAttribute(\"readonly\");n||t.setAttribute(\"readonly\",\"\"),t.select(),t.setSelectionRange(0,t.value.length),n||t.removeAttribute(\"readonly\"),e=t.value}else{t.hasAttribute(\"contenteditable\")&&t.focus();var o=window.getSelection(),r=document.createRange();r.selectNodeContents(t),o.removeAllRanges(),o.addRange(r),e=o.toString()}return e}},function(t,e){function n(){}n.prototype={on:function(t,e,n){var o=this.e||(this.e={});return(o[t]||(o[t]=[])).push({fn:e,ctx:n}),this},once:function(t,e,n){var o=this;function r(){o.off(t,r),e.apply(n,arguments)}return r._=e,this.on(t,r,n)},emit:function(t){for(var e=[].slice.call(arguments,1),n=((this.e||(this.e={}))[t]||[]).slice(),o=0,r=n.length;o<r;o++)n[o].fn.apply(n[o].ctx,e);return this},off:function(t,e){var n=this.e||(this.e={}),o=n[t],r=[];if(o&&e)for(var i=0,a=o.length;i<a;i++)o[i].fn!==e&&o[i].fn._!==e&&r.push(o[i]);return r.length?n[t]=r:delete n[t],this}},t.exports=n,t.exports.TinyEmitter=n},function(t,e,n){var d=n(3),h=n(4);t.exports=function(t,e,n){if(!t&&!e&&!n)throw new Error(\"Missing required arguments\");if(!d.string(e))throw new TypeError(\"Second argument must be a String\");if(!d.fn(n))throw new TypeError(\"Third argument must be a Function\");if(d.node(t))return s=e,f=n,(u=t).addEventListener(s,f),{destroy:function(){u.removeEventListener(s,f)}};if(d.nodeList(t))return a=t,c=e,l=n,Array.prototype.forEach.call(a,function(t){t.addEventListener(c,l)}),{destroy:function(){Array.prototype.forEach.call(a,function(t){t.removeEventListener(c,l)})}};if(d.string(t))return o=t,r=e,i=n,h(document.body,o,r,i);throw new TypeError(\"First argument must be a String, HTMLElement, HTMLCollection, or NodeList\");var o,r,i,a,c,l,u,s,f}},function(t,n){n.node=function(t){return void 0!==t&&t instanceof HTMLElement&&1===t.nodeType},n.nodeList=function(t){var e=Object.prototype.toString.call(t);return void 0!==t&&(\"[object NodeList]\"===e||\"[object HTMLCollection]\"===e)&&\"length\"in t&&(0===t.length||n.node(t[0]))},n.string=function(t){return\"string\"==typeof t||t instanceof String},n.fn=function(t){return\"[object Function]\"===Object.prototype.toString.call(t)}},function(t,e,n){var a=n(5);function i(t,e,n,o,r){var i=function(e,n,t,o){return function(t){t.delegateTarget=a(t.target,n),t.delegateTarget&&o.call(e,t)}}.apply(this,arguments);return t.addEventListener(n,i,r),{destroy:function(){t.removeEventListener(n,i,r)}}}t.exports=function(t,e,n,o,r){return\"function\"==typeof t.addEventListener?i.apply(null,arguments):\"function\"==typeof n?i.bind(null,document).apply(null,arguments):(\"string\"==typeof t&&(t=document.querySelectorAll(t)),Array.prototype.map.call(t,function(t){return i(t,e,n,o,r)}))}},function(t,e){if(\"undefined\"!=typeof Element&&!Element.prototype.matches){var n=Element.prototype;n.matches=n.matchesSelector||n.mozMatchesSelector||n.msMatchesSelector||n.oMatchesSelector||n.webkitMatchesSelector}t.exports=function(t,e){for(;t&&9!==t.nodeType;){if(\"function\"==typeof t.matches&&t.matches(e))return t;t=t.parentNode}}},function(t,e,n){\"use strict\";n.r(e);var o=n(0),r=n.n(o),i=\"function\"==typeof Symbol&&\"symbol\"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&\"function\"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?\"symbol\":typeof t};function a(t,e){for(var n=0;n<e.length;n++){var o=e[n];o.enumerable=o.enumerable||!1,o.configurable=!0,\"value\"in o&&(o.writable=!0),Object.defineProperty(t,o.key,o)}}function c(t){!function(t,e){if(!(t instanceof e))throw new TypeError(\"Cannot call a class as a function\")}(this,c),this.resolveOptions(t),this.initSelection()}var l=(function(t,e,n){return e&&a(t.prototype,e),n&&a(t,n),t}(c,[{key:\"resolveOptions\",value:function(t){var e=0<arguments.length&&void 0!==t?t:{};this.action=e.action,this.container=e.container,this.emitter=e.emitter,this.target=e.target,this.text=e.text,this.trigger=e.trigger,this.selectedText=\"\"}},{key:\"initSelection\",value:function(){this.text?this.selectFake():this.target&&this.selectTarget()}},{key:\"selectFake\",value:function(){var t=this,e=\"rtl\"==document.documentElement.getAttribute(\"dir\");this.removeFake(),this.fakeHandlerCallback=function(){return t.removeFake()},this.fakeHandler=this.container.addEventListener(\"click\",this.fakeHandlerCallback)||!0,this.fakeElem=document.createElement(\"textarea\"),this.fakeElem.style.fontSize=\"12pt\",this.fakeElem.style.border=\"0\",this.fakeElem.style.padding=\"0\",this.fakeElem.style.margin=\"0\",this.fakeElem.style.position=\"absolute\",this.fakeElem.style[e?\"right\":\"left\"]=\"-9999px\";var n=window.pageYOffset||document.documentElement.scrollTop;this.fakeElem.style.top=n+\"px\",this.fakeElem.setAttribute(\"readonly\",\"\"),this.fakeElem.value=this.text,this.container.appendChild(this.fakeElem),this.selectedText=r()(this.fakeElem),this.copyText()}},{key:\"removeFake\",value:function(){this.fakeHandler&&(this.container.removeEventListener(\"click\",this.fakeHandlerCallback),this.fakeHandler=null,this.fakeHandlerCallback=null),this.fakeElem&&(this.container.removeChild(this.fakeElem),this.fakeElem=null)}},{key:\"selectTarget\",value:function(){this.selectedText=r()(this.target),this.copyText()}},{key:\"copyText\",value:function(){var e=void 0;try{e=document.execCommand(this.action)}catch(t){e=!1}this.handleResult(e)}},{key:\"handleResult\",value:function(t){this.emitter.emit(t?\"success\":\"error\",{action:this.action,text:this.selectedText,trigger:this.trigger,clearSelection:this.clearSelection.bind(this)})}},{key:\"clearSelection\",value:function(){this.trigger&&this.trigger.focus(),document.activeElement.blur(),window.getSelection().removeAllRanges()}},{key:\"destroy\",value:function(){this.removeFake()}},{key:\"action\",set:function(t){var e=0<arguments.length&&void 0!==t?t:\"copy\";if(this._action=e,\"copy\"!==this._action&&\"cut\"!==this._action)throw new Error('Invalid \"action\" value, use either \"copy\" or \"cut\"')},get:function(){return this._action}},{key:\"target\",set:function(t){if(void 0!==t){if(!t||\"object\"!==(void 0===t?\"undefined\":i(t))||1!==t.nodeType)throw new Error('Invalid \"target\" value, use a valid Element');if(\"copy\"===this.action&&t.hasAttribute(\"disabled\"))throw new Error('Invalid \"target\" attribute. Please use \"readonly\" instead of \"disabled\" attribute');if(\"cut\"===this.action&&(t.hasAttribute(\"readonly\")||t.hasAttribute(\"disabled\")))throw new Error('Invalid \"target\" attribute. You can\\'t cut text from elements with \"readonly\" or \"disabled\" attributes');this._target=t}},get:function(){return this._target}}]),c),u=n(1),s=n.n(u),f=n(2),d=n.n(f),h=\"function\"==typeof Symbol&&\"symbol\"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&\"function\"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?\"symbol\":typeof t},p=function(t,e,n){return e&&y(t.prototype,e),n&&y(t,n),t};function y(t,e){for(var n=0;n<e.length;n++){var o=e[n];o.enumerable=o.enumerable||!1,o.configurable=!0,\"value\"in o&&(o.writable=!0),Object.defineProperty(t,o.key,o)}}var m=(function(t,e){if(\"function\"!=typeof e&&null!==e)throw new TypeError(\"Super expression must either be null or a function, not \"+typeof e);t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,enumerable:!1,writable:!0,configurable:!0}}),e&&(Object.setPrototypeOf?Object.setPrototypeOf(t,e):t.__proto__=e)}(v,s.a),p(v,[{key:\"resolveOptions\",value:function(t){var e=0<arguments.length&&void 0!==t?t:{};this.action=\"function\"==typeof e.action?e.action:this.defaultAction,this.target=\"function\"==typeof e.target?e.target:this.defaultTarget,this.text=\"function\"==typeof e.text?e.text:this.defaultText,this.container=\"object\"===h(e.container)?e.container:document.body}},{key:\"listenClick\",value:function(t){var e=this;this.listener=d()(t,\"click\",function(t){return e.onClick(t)})}},{key:\"onClick\",value:function(t){var e=t.delegateTarget||t.currentTarget;this.clipboardAction&&(this.clipboardAction=null),this.clipboardAction=new l({action:this.action(e),target:this.target(e),text:this.text(e),container:this.container,trigger:e,emitter:this})}},{key:\"defaultAction\",value:function(t){return b(\"action\",t)}},{key:\"defaultTarget\",value:function(t){var e=b(\"target\",t);if(e)return document.querySelector(e)}},{key:\"defaultText\",value:function(t){return b(\"text\",t)}},{key:\"destroy\",value:function(){this.listener.destroy(),this.clipboardAction&&(this.clipboardAction.destroy(),this.clipboardAction=null)}}],[{key:\"isSupported\",value:function(t){var e=0<arguments.length&&void 0!==t?t:[\"copy\",\"cut\"],n=\"string\"==typeof e?[e]:e,o=!!document.queryCommandSupported;return n.forEach(function(t){o=o&&!!document.queryCommandSupported(t)}),o}}]),v);function v(t,e){!function(t,e){if(!(t instanceof e))throw new TypeError(\"Cannot call a class as a function\")}(this,v);var n=function(t,e){if(!t)throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\");return!e||\"object\"!=typeof e&&\"function\"!=typeof e?t:e}(this,(v.__proto__||Object.getPrototypeOf(v)).call(this));return n.resolveOptions(e),n.listenClick(t),n}function b(t,e){var n=\"data-clipboard-\"+t;if(e.hasAttribute(n))return e.getAttribute(n)}e.default=m}],r.c=o,r.d=function(t,e,n){r.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:n})},r.r=function(t){\"undefined\"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:\"Module\"}),Object.defineProperty(t,\"__esModule\",{value:!0})},r.t=function(e,t){if(1&t&&(e=r(e)),8&t)return e;if(4&t&&\"object\"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(r.r(n),Object.defineProperty(n,\"default\",{enumerable:!0,value:e}),2&t&&\"string\"!=typeof e)for(var o in e)r.d(n,o,function(t){return e[t]}.bind(null,o));return n},r.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return r.d(e,\"a\",e),e},r.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},r.p=\"\",r(r.s=6).default;function r(t){if(o[t])return o[t].exports;var e=o[t]={i:t,l:!1,exports:{}};return n[t].call(e.exports,e,e.exports,r),e.l=!0,e.exports}var n,o});",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b803fcb7.yml",
+   "line": 36,
+   "whole_line": "          MYSQL_ALLOW_EMPTY_PASSWORD: false",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f37acfaa.lock",
+   "line": 418,
+   "value": "src/",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f37acfaa.lock",
+   "line": 1003,
+   "whole_line": "    \"plugin-api-version\": \"2.0.0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "include/09417338.php",
+   "line": 110,
+   "whole_line": "\t$_keys      = array_keys( $dates );",
+   "source": "creddata"
+  },
+  {
+   "file": "include/09417338.php",
+   "line": 143,
+   "whole_line": "\t\t\t\t$key = date( 'M d, Y', mktime( 0, 0, 0, $_month, $day, $_year ) );",
+   "source": "creddata"
+  },
+  {
+   "file": "include/1c08b27b.php",
+   "line": 943,
+   "whole_line": "    if ( empty( $_SERVER[ 'REQUEST_URI' ] ) || ( php_sapi_name() != 'cgi-fcgi' && preg_match( '/^Microsoft-IIS\\//', $_SERVER[ 'SERVER_SOFTWARE' ] ) ) ) {",
+   "source": "creddata"
+  },
+  {
+   "file": "include/1c08b27b.php",
+   "line": 1153,
+   "whole_line": " * we pass it by pieces to fool the server, eg index.php?proto=http:&slashes=//&rest=blah.com",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 47,
+   "whole_line": "\t\t// API only: Secure (no login or pwd) and time limited token",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 59,
+   "whole_line": "\t\t// API only: Secure (no login or pwd)",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 120,
+   "whole_line": " * Check auth against list of login=>pwd. Sets user if applicable, returns bool",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 148,
+   "value": "md5:<$r = rand(10000,99999)>:<md5($r.'thepassword')>",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 150,
+   "whole_line": "\t\treturn( $yourls_user_passwords[ $user ] == 'md5:'.$salt.':'.md5( $salt . $submitted_password ) );",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 153,
+   "whole_line": "\t\treturn( $yourls_user_passwords[ $user ] === $submitted_password );",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 183,
+   "whole_line": "\tforeach ( $yourls_user_passwords as $user => $password ) {",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 191,
+   "whole_line": "\t\t\t$replace = \"'$user' => 'phpass:$hash' /* Password encrypted by YOURLS */ \";",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 267,
+   "whole_line": "\tforeach ( $yourls_user_passwords as $user => $pwdata ) {",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 288,
+   "value": "md5:",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 306,
+   "value": "phpass:",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 316,
+   "whole_line": "\tforeach( $yourls_user_passwords as $valid_user => $valid_password ) {",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 358,
+   "whole_line": "\tforeach( $yourls_user_passwords as $valid_user => $valid_password ) {",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 385,
+   "whole_line": "\tforeach( $yourls_user_passwords as $valid_user => $valid_password ) {",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 433,
+   "whole_line": "\t$secure   = yourls_apply_filter( 'setcookie_secure',   yourls_is_ssl() );",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 441,
+   "whole_line": "        yourls_setcookie( yourls_cookie_name(), yourls_cookie_value( $user ), $time, $path, $domain, $secure, $httponly );",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 467,
+   "whole_line": "function yourls_setcookie($name, $value, $expire, $path, $domain, $secure, $httponly) {",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 471,
+   "whole_line": "        return(setcookie($name, $value, $expire, \"$path; samesite=$samesite\", $domain, $secure, $httponly));",
+   "source": "creddata"
+  },
+  {
+   "file": "include/343a5c5e.php",
+   "line": 575,
+   "whole_line": "\t$nonce = substr( yourls_salt($tick . $action . $user), 0, 10 );",
+   "source": "creddata"
+  },
+  {
+   "file": "include/483f34ef.php",
+   "line": 472,
+   "whole_line": "        foreach ( $plugins as $key => $plugin ) {",
+   "source": "creddata"
+  },
+  {
+   "file": "include/483f34ef.php",
+   "line": 576,
+   "whole_line": "    foreach ( $active_plugins as $key => $plugin ) {",
+   "source": "creddata"
+  },
+  {
+   "file": "include/483f34ef.php",
+   "line": 678,
+   "whole_line": "    $key = array_search( $plugin, $plugins );",
+   "source": "creddata"
+  },
+  {
+   "file": "include/5f1482b7.php",
+   "line": 420,
+   "whole_line": "\t\t$find = 'RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization},L]';",
+   "source": "creddata"
+  },
+  {
+   "file": "include/7173d869.php",
+   "line": 21,
+   "whole_line": "    $pass = YOURLS_DB_PASS;",
+   "source": "creddata"
+  },
+  {
+   "file": "include/99082c4e.php",
+   "line": 44,
+   "whole_line": "\t\t\t\t$key = \"key_$key\";",
+   "source": "creddata"
+  },
+  {
+   "file": "include/99082c4e.php",
+   "line": 46,
+   "value": ".addslashes( $key ).",
+   "source": "creddata"
+  },
+  {
+   "file": "include/99082c4e.php",
+   "line": 56,
+   "whole_line": "\t\t\t$construct[] = \"$key: $value\";",
+   "source": "creddata"
+  },
+  {
+   "file": "include/lib/vendor/227d626e.php",
+   "line": 143,
+   "whole_line": "\t * Get the authentication string (user:pass)",
+   "source": "creddata"
+  },
+  {
+   "file": "include/lib/vendor/6c3a6fa2.php",
+   "line": 410,
+   "whole_line": "\t\t\t\t\t$part_key = $part;",
+   "source": "creddata"
+  },
+  {
+   "file": "include/lib/vendor/6c3a6fa2.php",
+   "line": 418,
+   "whole_line": "\t\t\t\t$part_key = trim($part_key);",
+   "source": "creddata"
+  },
+  {
+   "file": "include/lib/vendor/a9dcc94f.php",
+   "line": 236,
+   "whole_line": "\t\t\tforeach ($to_process as $key => $done) {",
+   "source": "creddata"
+  },
+  {
+   "file": "include/lib/vendor/c722fc20.php",
+   "line": 27,
+   "whole_line": "\t\t$key = strtolower($key);",
+   "source": "creddata"
+  },
+  {
+   "file": "include/lib/vendor/c722fc20.php",
+   "line": 48,
+   "whole_line": "\t\t$key = strtolower($key);",
+   "source": "creddata"
+  },
+  {
+   "file": "include/lib/vendor/c722fc20.php",
+   "line": 64,
+   "whole_line": "\t\t$key = strtolower($key);",
+   "source": "creddata"
+  },
+  {
+   "file": "include/vendor/7954279b.md",
+   "line": 1,
+   "whole_line": "Openwall Phpass, modernized",
+   "source": "creddata"
+  },
+  {
+   "file": "include/vendor/7954279b.md",
+   "line": 4,
+   "whole_line": "[![Build Status](https://secure.travis-ci.org/ozh/phpass.png?branch=master)](http://travis-ci.org/ozh/phpass)",
+   "source": "creddata"
+  },
+  {
+   "file": "include/vendor/7954279b.md",
+   "line": 22,
+   "whole_line": "            \"ozh/phpass\": \"1.3.0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "include/vendor/7954279b.md",
+   "line": 42,
+   "whole_line": "$password = $passwordHasher->HashPassword('secret');",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/fb8c5aed.txt",
+   "line": 15,
+   "whole_line": "$password = '123456';",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/fb8c5aed.txt",
+   "line": 39,
+   "whole_line": "\t\t'password' => $password",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/client/vendor/d8eb2ecb.php",
+   "line": 49,
+   "whole_line": "     *                           username, and password, e.g., `http://username:password@127.0.0.1:10`.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/vendor/01eecb6b.php",
+   "line": 807,
+   "whole_line": "            $key = current($row);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/vendor/1eaac6e7.php",
+   "line": 24,
+   "whole_line": "        $key = $entry->key();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/vendor/1eaac6e7.php",
+   "line": 43,
+   "whole_line": "        $key = $entry->key();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/vendor/1eaac6e7.php",
+   "line": 75,
+   "whole_line": "        $key = $entry->key();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/vendor/78e32a65.php",
+   "line": 80,
+   "whole_line": "        $key = !$this->context ? $this->singular : $this->context.chr(4).$this->singular;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/vendor/78e32a65.php",
+   "line": 82,
+   "whole_line": "        $key = str_replace(array(\"\\r\\n\", \"\\r\"), \"\\n\", $key);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/vendor/c220733a.php",
+   "line": 154,
+   "value": "__numeric",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/vendor/c220733a.php",
+   "line": 179,
+   "whole_line": "            $key = str_replace(' ', '_', $key);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/vendor/c220733a.php",
+   "line": 232,
+   "whole_line": "        foreach ($data as $attrKey => $attrVal) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/vendor/record/09b4871c.php",
+   "line": 27,
+   "whole_line": "        $key = $this->attributeToKey($attr);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7b8f0478.php",
+   "line": 18,
+   "whole_line": "        self::$random_password = rand_str();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7b8f0478.php",
+   "line": 22,
+   "whole_line": "        $phpassword_1 = 'phpass:' . str_replace( '$', '!', yourls_phpass_hash( self::$random_password ) );",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7b8f0478.php",
+   "line": 23,
+   "value": "phpass:",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7b8f0478.php",
+   "line": 52,
+   "whole_line": "        $yourls_user_passwords['phpass'] = $copy['phpass'];",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7b8f0478.php",
+   "line": 74,
+   "whole_line": "        $this->assertTrue( yourls_has_phpass_password('phpass2') );",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7b8f0478.php",
+   "line": 111,
+   "whole_line": "        $this->assertFalse( yourls_check_password_hash( 'unknown', 'somepassword' ) );",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7b8f0478.php",
+   "line": 145,
+   "whole_line": "        $this->assertFalse( yourls_check_password_hash( 'phpass2', rand_str() ) );",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/da28ac29.php",
+   "line": 24,
+   "value": "I &hearts; unit tests",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/da28ac29.php",
+   "line": 37,
+   "whole_line": "$yourls_user_passwords = array(",
+   "source": "creddata"
+  },
+  {
+   "file": "test/db79c851.php",
+   "line": 66,
+   "value": "1337/",
+   "source": "creddata"
+  },
+  {
+   "file": "test/db79c851.php",
+   "line": 69,
+   "value": "8042/over/there/index.dtb?type=animal",
+   "source": "creddata"
+  },
+  {
+   "file": "test/db79c851.php",
+   "line": 174,
+   "whole_line": "            array( 'http://Ozh:Password@example.com:1337#OMG'         , 'http://Ozh:Password@Example.COM:1337#OMG' ),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/6060b9ff.php",
+   "line": 17,
+   "whole_line": "\t\t$key = rand_str();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/6060b9ff.php",
+   "line": 48,
+   "whole_line": "\t\t$key = rand_str();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/conf/c72b46d8.php",
+   "line": 26,
+   "value": "I &hearts; unit tests",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/conf/c72b46d8.php",
+   "line": 39,
+   "whole_line": "$yourls_user_passwords = array(",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/0f5f69a7.php",
+   "line": 306,
+   "whole_line": "\t\t<p><?php yourls_se( 'Your secret signature token: <strong><code>%s</code></strong>', yourls_auth_signature() ); ?>",
+   "source": "creddata"
+  },
+  {
+   "file": "other/1d0b4b69.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "6.6.7"
+  },
+  {
+   "file": "other/1d0b4b69.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "4d656adf3685f4a85ee6db1a260c6e60bcb51a5f"
+  },
+  {
+   "file": "other/1d0b4b69.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "SHUD77HB87E5P4FN2JZRZ0IR7C"
+  },
+  {
+   "file": "other/1d0b4b69.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "other/1d0b4b69.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "34Z0XM4SZ14L1C7CZMPC316HN0"
+  },
+  {
+   "file": "other/1d0b4b69.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "other/9fab02b7.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:4610f263fe957dfcc5f8cc6035c9121ec085ccafa44ab3797ce5fb74d7c7dde1"
+  },
+  {
+   "file": "other/9fab02b7.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "7309a5fafa03e3dc1d62c560214379cf89aa2f85"
+  },
+  {
+   "file": "other/9fab02b7.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "REPLACE_ME"
+  },
+  {
+   "file": "other/9fab02b7.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "other/9fab02b7.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "6.19.12"
+  },
+  {
+   "file": "other/29615989.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/nordwind/etl/prod"
+  },
+  {
+   "file": "other/29615989.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "REPORTS_AUTH_TOKEN"
+  },
+  {
+   "file": "other/29615989.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Authorization"
+  },
+  {
+   "file": "other/29615989.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/var/run/secrets/ledger/token"
+  },
+  {
+   "file": "other/29615989.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "argon2id"
+  },
+  {
+   "file": "other/29615989.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "other/29615989.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "485566550283-9asmf12hngbapa2n9ulf5yonnuq37g1o.apps.googleusercontent.com"
+  },
+  {
+   "file": "other/29615989.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2026-09-28T00:00:00Z"
+  },
+  {
+   "file": "other/29615989.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "auth-db-credentials"
+  },
+  {
+   "file": "other/29615989.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZToxNDQ3MDpvZmZzZXQ6MzM2"
+  },
+  {
+   "file": "other/683a9a02.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "101, 110, 45, 85, 83, 44, 101, 110, 59, 113, 61, 48, 46, 57"
+  },
+  {
+   "file": "other/683a9a02.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "YXBwbGljYXRpb24vanNvbg=="
+  },
+  {
+   "file": "other/683a9a02.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "757365722d6167656e743a6375726c2f382e342e30"
+  },
+  {
+   "file": "other/683a9a02.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/683a9a02.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "careers@quarzo-corp.de"
+  },
+  {
+   "file": "src/670eee67.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "1396ef93b61735813de4"
+  },
+  {
+   "file": "src/670eee67.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "sentry.io"
+  },
+  {
+   "file": "src/670eee67.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "5f68f9de2cfd7dae50bb45960213ce438d1d36cc"
+  },
+  {
+   "file": "_/2793529e.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "7e2c9b0"
+  },
+  {
+   "file": "_/2793529e.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "457a96e77c4e3877de49d5761c20f3ced1113c35314fd2246aac6cb4e66be3ef"
+  },
+  {
+   "file": "_/2793529e.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "_/2793529e.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "portal.brightloop.systems"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sftp.paycore.de"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "188.83.43.116"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "grafana.wikimedia.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Lukas Fischer"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Clara Lange"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.brightloop.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "portal.brightloop.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.paycore.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "188.83.43.116"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "grafana.wikimedia.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Lukas Fischer"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "lukas.fischer@brightloop.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Max Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "max.mustermann@example.org"
+  }
+ ]
+}

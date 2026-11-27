@@ -1,0 +1,19 @@
+# helix payments service
+database:
+  host: crm-prod.m6i1m0qvbzog.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "Wagner&2018"
+  password_source: secret/data/helix/payments/prod
+  password_env: AUTH_SECRET_KEY
+api:
+  key_header: X-Api-Key
+  partner_ident: gIT0pyhFBK1H7hLTi94pZJIP0npzEnPY
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: scrypt
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 606453446042-ob6pke80h1rqpcy5cijfgn9d2c2qo4g8.apps.googleusercontent.com
+  client_proof: do3kum4l6zsb3kwp07pgfd9tpse7ai5f
+  secret_rotated_at: "2025-10-13T00:00:00Z"
+  secret_name: ledger-oauth-client
+pagination:
+  first_cursor: b3JkZXI6NjYxNjk6b2Zmc2V0OjIzOQ==

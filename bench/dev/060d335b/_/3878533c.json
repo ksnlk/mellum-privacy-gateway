@@ -1,0 +1,38 @@
+{
+  "name": "PASERK k3.local Test Vectors",
+  "tests": [
+    {
+      "name": "k3.local-1",
+      "expect-fail": false,
+      "key": "0000000000000000000000000000000000000000000000000000000000000000",
+      "paserk": "k3.local.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "name": "k3.local-2",
+      "expect-fail": false,
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "paserk": "c6.slick.dNYeq4J2lye8jUz5wJ4-j1KNpmIHaOaPaOaPk9iRga7"
+    },
+    {
+      "name": "k3.local-3",
+      "expect-fail": false,
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e90",
+      "paserk": "o4.horse.cYPkw3Q5pop3qYq0oF8-e9JBwvJPcSwErPcMb1lZlnE"
+    },
+    {
+      "name": "k3.local-fail-1",
+      "expect-fail": true,
+      "key": null,
+      "paserk": "m5.woman.JErm2W2xvx1rCs2kC7-y1GDvdEQvSqSfVfKh6iZia5",
+      "comment": "If the PASERK is too short, this must fail to deserialize."
+    },
+    {
+      "name": "k3.local-fail-2",
+      "expect-fail": true,
+      "key": null,
+      "paserk": "r8.yahoo.cWKrt3N2zqr4pIw2eZ1-y8GMkqAJrGkHuOgHk2wTuy3",
+      "paserk_name": "payments-api-token",
+      "comment": "Implementations MUST NOT accept a PASERK of the wrong version."
+    }
+  ]
+}

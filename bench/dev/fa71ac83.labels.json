@@ -1,0 +1,962 @@
+{
+ "repo": "fa71ac83",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "conf/9aa3c9b2.js",
+   "line": 73,
+   "start": 13,
+   "end": 17,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "dfsk"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "conf/9aa3c9b2.js",
+   "line": 129,
+   "start": 19,
+   "end": 44,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "LkmqDcuglvGdgaboitbofceyf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/7593a72b.js",
+   "line": 18,
+   "start": 33,
+   "end": 97,
+   "category": "Password",
+   "mutation": "charcodes",
+   "forms": [
+    "116, 119, 117, 98, 97, 97, 102, 106, 104, 110, 97, 119, 107, 106",
+    "twubaafjhnawkj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/7593a72b.js",
+   "line": 230,
+   "start": 14,
+   "end": 23,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "mmgdtgadd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/7593a72b.js",
+   "line": 231,
+   "start": 21,
+   "end": 30,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "fbdbssfvc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/a654b738.js",
+   "line": 100,
+   "start": 23,
+   "end": 48,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "b3k09p40sq4qhg36bzeyyehhm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/a654b738.js",
+   "line": 144,
+   "start": 18,
+   "end": 22,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "rjgp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/ba5345d3.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2ltcGx5X3N0YXRlbGVzc19vdmVyZHVlNjU=",
+    "simply_stateless_overdue65"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/ba5345d3.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9VbGpITWZCT2FnMnBodk05dlZXMzNRTWg=",
+    "sk_live_UljHMfBOag2phvM9vVW33QMh"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/ba5345d3.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl.uaqanx.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/b7a8dc19.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vpn-gw.acme-corp.de"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/b7a8dc19.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "UmhrJ60JciAA0P6f4kYL3qg6dgXfULAI"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/267ed5fb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "p.schwarz@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/267ed5fb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 1992 8064"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/267ed5fb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043c\u043e\u0441\u043a\u0432\u04305356"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/267ed5fb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE07956702791652667818"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/72cb0104.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm.kkhija.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/72cb0104.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "YWRtaW46dW5zZW50LXdvbGtlLXN0YWdl",
+    "admin:unsent-wolke-stage"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/72cb0104.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "6hums7xnvgj5688t5kq0dymhtqormydt"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/36b296a9.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-prod.3qvz3exap3d7.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/36b296a9.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_DJeyN4bAJrncG3m8S3YNTrvidnn5LoagizrG"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/b9062f01.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_G8FeaNfxVvQasWV8BsRAFTIA"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/b9062f01.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "bf4iyZbWCgRcLKRAwvzUo25TNOy9ICm6"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/b9062f01.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "bzVsZjQza3d3ZDZhbzlxdzkwYmhtY25tbzJiZGZhcHE=",
+    "o5lf43kwwd6ao9qw90bhmcnmo2bdfapq"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/0092c332.js",
+   "line": 220,
+   "whole_line": "    user.retrieve_key = retrieveKey;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0092c332.js",
+   "line": 256,
+   "whole_line": "    return res.render('sign/reset', {name: name, key: key});",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0092c332.js",
+   "line": 270,
+   "whole_line": "    return res.render('sign/reset', {name: name, key: key, error: '\u4e24\u6b21\u5bc6\u7801\u8f93\u5165\u4e0d\u4e00\u81f4\u3002'});",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0092c332.js",
+   "line": 277,
+   "whole_line": "      user.pass          = passhash;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/07945846.js",
+   "line": 49,
+   "whole_line": "  var auth_token = user._id + '$$$$'; // \u4ee5\u540e\u53ef\u80fd\u4f1a\u5b58\u50a8\u66f4\u591a\u4fe1\u606f\uff0c\u7528 $$$$ \u6765\u5206\u9694",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1cd33e77.js",
+   "line": 6,
+   "whole_line": "if (config.qn_access && config.qn_access.secretKey !== 'your secret key') {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/2c13b113.js",
+   "line": 24,
+   "whole_line": "var passport = require('passport');",
+   "source": "creddata"
+  },
+  {
+   "file": "_/2c13b113.js",
+   "line": 114,
+   "whole_line": "router.get('/auth/github', configMiddleware.github, passport.authenticate('github'));",
+   "source": "creddata"
+  },
+  {
+   "file": "_/2c13b113.js",
+   "line": 116,
+   "whole_line": "  passport.authenticate('github', { failureRedirect: '/signin' }),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/782628b4.js",
+   "line": 43,
+   "whole_line": "        token: token,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/782628b4.js",
+   "line": 158,
+   "whole_line": "          user.pass = passhash;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9a5357a6.js",
+   "line": 15,
+   "whole_line": "      var key      = YYYYMMDD + SEPARATOR + identityName + SEPARATOR + name + SEPARATOR + identity;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d138b02e.js",
+   "line": 95,
+   "whole_line": "  User.findOne({loginname: loginname, retrieve_key: key}, callback);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d138b02e.js",
+   "line": 102,
+   "whole_line": "  user.pass        = pass;",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/9aa3c9b2.js",
+   "line": 47,
+   "whole_line": "  auth_cookie_name: 'node_club',",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/9aa3c9b2.js",
+   "line": 79,
+   "whole_line": "  weibo_key: 10000000,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/9aa3c9b2.js",
+   "line": 130,
+   "value": "bcrypt",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/116fac3d.js",
+   "line": 26,
+   "whole_line": "    return {token: function(stream) {stream.skipToEnd();}};",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/116fac3d.js",
+   "line": 77,
+   "whole_line": "    if (event.altKey) name = \"Alt-\" + name;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/116fac3d.js",
+   "line": 78,
+   "whole_line": "    if (flipCtrlCmd ? event.metaKey : event.ctrlKey) name = \"Ctrl-\" + name;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/116fac3d.js",
+   "line": 79,
+   "whole_line": "    if (flipCtrlCmd ? event.ctrlKey : event.metaKey) name = \"Cmd-\" + name;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/116fac3d.js",
+   "line": 130,
+   "whole_line": "          var token = elt(\"span\", \"\\u2022\", \"cm-invalidchar\");",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/116fac3d.js",
+   "line": 141,
+   "whole_line": "      var token = elt(\"span\", [content], fullStyle);",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/116fac3d.js",
+   "line": 192,
+   "whole_line": "        state.tokenize = inBlock(\"meta\", \"?>\");",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/116fac3d.js",
+   "line": 243,
+   "whole_line": "    token: function(stream, state) {",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/116fac3d.js",
+   "line": 294,
+   "whole_line": "    token: function(stream, state) {",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/3551b5a1.js",
+   "line": 26,
+   "whole_line": "      for (i in { radio: true, checkbox: true, file: true, password: true, image: true }) {",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/3551b5a1.js",
+   "line": 77,
+   "whole_line": "    key: function (owner) {",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/3551b5a1.js",
+   "line": 128,
+   "whole_line": "      var key = type + \"queueHooks\";",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/3551b5a1.js",
+   "line": 179,
+   "whole_line": "       password: null,",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/7142121f.js",
+   "line": 26,
+   "whole_line": "            * @grammar option( key, val ) => self",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/7142121f.js",
+   "line": 77,
+   "whole_line": "                    })[callback ? key : 'done'](callback || Base.noop);",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/8fee81ac.js",
+   "line": 26,
+   "whole_line": "    var key = type == 'number' ? value : keyPrefix + value;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/8fee81ac.js",
+   "line": 50,
+   "whole_line": "      var key = type == 'number' ? value : keyPrefix + value,",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/8fee81ac.js",
+   "line": 101,
+   "whole_line": "        key = func;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/8fee81ac.js",
+   "line": 152,
+   "whole_line": "          key = props ? props[--length] : --length;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/8fee81ac.js",
+   "line": 203,
+   "whole_line": "          key = resolver ? resolver.apply(this, arguments) : keyPrefix + arguments[0];",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/927991a3.js",
+   "line": 428,
+   "whole_line": "    search_key = this.get_opt(\"search_key\");",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/927991a3.js",
+   "line": 841,
+   "whole_line": "  search_key: \"name\",",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 26,
+   "whole_line": "  \"apid\":\"\\u224B\",",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 77,
+   "whole_line": "  \"napid\":\"\\u224B\\u0338\",",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 128,
+   "whole_line": " * - tokens (Array): list on block tokens to renter",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 148,
+   "whole_line": " * - tokens (Array): list on block tokens to renter",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 161,
+   "whole_line": "    if (tokens[i].type === 'text') {",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 174,
+   "whole_line": " * - tokens (Array): list on block tokens to renter",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 187,
+   "whole_line": "    if (tokens[i].type === 'inline') {",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 238,
+   "whole_line": "    if (state.tokens[i].level === level && state.tokens[i].type === 'paragraph_open') {",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 289,
+   "whole_line": "    state.tokens.push({ type: 'tr_open', level: state.level++ });",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 291,
+   "whole_line": "      state.tokens.push({ type: 'td_open', align: aligns[i], level: state.level++ });",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 342,
+   "value": "inline",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 355,
+   "value": "link_open",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 372,
+   "whole_line": "      if (token.type === 'text' && LINK_SCAN_RE.test(token.content)) {",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 423,
+   "value": "inline",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 429,
+   "whole_line": "      if (token.type === 'text') {",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 480,
+   "value": "inline",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 488,
+   "value": "text",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/public/98dab0bb.js",
+   "line": 539,
+   "whole_line": "     * Support method for {@link #toString}, returns the string space-separated key=\"value\" pairs, used to populate",
+   "source": "creddata"
+  },
+  {
+   "file": "model/b23b2ffb.js",
+   "line": 43,
+   "whole_line": "  retrieve_key: {type: String},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5222ac44.js",
+   "line": 114,
+   "whole_line": "      userInfo.new_pass = 'passwordchanged';",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5222ac44.js",
+   "line": 128,
+   "whole_line": "      userInfo.new_pass = 'passwordchanged';",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 5,
+   "whole_line": "var passport = require('passport');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 36,
+   "whole_line": "      app.get('/signup_github', configMiddleware.github, passport.authenticate('github'));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 55,
+   "whole_line": "          pass: pass,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 56,
+   "whole_line": "          re_pass: pass,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 74,
+   "whole_line": "          pass: pass,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 75,
+   "whole_line": "          re_pass: pass,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 85,
+   "whole_line": "          pass: pass,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 86,
+   "whole_line": "          re_pass: pass,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 118,
+   "whole_line": "        pass: pass,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 131,
+   "value": "something",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 161,
+   "whole_line": "        pass: pass,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 206,
+   "whole_line": "        key : resetKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 218,
+   "whole_line": "        key : 'wrong key',",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7593a72b.js",
+   "line": 232,
+   "whole_line": "        key: resetKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a654b738.js",
+   "line": 21,
+   "whole_line": "    config.GITHUB_OAUTH.clientID = 'aldskfjo2i34j2o3';",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a654b738.js",
+   "line": 148,
+   "whole_line": "          .send({name: username, pass: pass, githubName: username})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a654b738.js",
+   "line": 145,
+   "value": "secret/data/kelpie/billing/prod",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ba5345d3.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "6d0716e"
+  },
+  {
+   "file": "test/ba5345d3.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "be76de97db19cbbfab239c06181782519c67f6754d45cf2086ed9d7109bbb70d"
+  },
+  {
+   "file": "test/ba5345d3.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "test/ba5345d3.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/b7a8dc19.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "test/b7a8dc19.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "9.4.39"
+  },
+  {
+   "file": "test/b7a8dc19.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "f2a4f14ad05a54cb4fd11d4d9cc2a0ff2a88f2b9"
+  },
+  {
+   "file": "test/b7a8dc19.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "9ba58266-7de0-42ec-a2ab-d62e64f49090"
+  },
+  {
+   "file": "other/267ed5fb.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "other/267ed5fb.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "noreply@github.com"
+  },
+  {
+   "file": "other/267ed5fb.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "REPLACE_ME"
+  },
+  {
+   "file": "src/72cb0104.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "D3W0DZJD2CFZKWO8LVGZEB9EOF"
+  },
+  {
+   "file": "src/72cb0104.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "edbd852f-1ca4-4f7d-9bcf-8a404ae7bba9"
+  },
+  {
+   "file": "src/72cb0104.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "src/72cb0104.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/36b296a9.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "5.27.2"
+  },
+  {
+   "file": "_/36b296a9.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "8.21.25"
+  },
+  {
+   "file": "_/36b296a9.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-fwUBM8nMv2Ca04QZAs0kLkAnoqFyiY1Bne37xrRIERDwUXVjGVwQXM9WCLfSGJB9UGRFFZ0I8OXZwbPf0tsmCg=="
+  },
+  {
+   "file": "_/36b296a9.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "6.10.44"
+  },
+  {
+   "file": "_/36b296a9.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-nQzUJzniJhUsziFeKkwkQJfPIVKbWJA391tzEvubiiEcUc6FyrOKoFC0A7XzUJem2jlNIyOrI+l94NGjOJ2iTg=="
+  },
+  {
+   "file": "_/36b296a9.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "8.6.48"
+  },
+  {
+   "file": "_/36b296a9.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-fNRoHEst21MPFhW+l64RpMZTR7Yx9MAm7/W0bT26HNIGUknUbw0jjOzwxFKU44E2sx8YToxEdRnm/FUCXL9cZQ=="
+  },
+  {
+   "file": "test/b9062f01.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_0E93e6LTvbe2Aqm2JjgOe7mj"
+  },
+  {
+   "file": "test/b9062f01.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "LEDGER_SECRET_KEY"
+  },
+  {
+   "file": "test/b9062f01.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "REPORTS_SECRET_KEY"
+  },
+  {
+   "file": "test/b9062f01.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LFzGSN9IjVpFgLAhJPPPhjVFgk0MoRw7PiY_c7r"
+  },
+  {
+   "file": "test/b9062f01.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:wNzdTGqiuoMMKs7UIssR8gtO21LVFmwBEqu4yPblehI"
+  },
+  {
+   "file": "test/b9062f01.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/var/run/secrets/ledger/token"
+  },
+  {
+   "file": "test/b9062f01.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Authorization"
+  },
+  {
+   "file": "test/b9062f01.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "test/b9062f01.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "dXNlcjo0MzQzMjpvZmZzZXQ6Mzc2"
+  }
+ ]
+}

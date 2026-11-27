@@ -1,0 +1,15 @@
+monitoring: pallas.brightloop.systems
+database:
+  host: orion.brightloop.systems
+  port: 5432
+queue: falkor.brightloop.systems
+backup_target: tarvos.brightloop.systems
+website: shop.brightloop.systems
+payments_api: https://api.paycore.com/v2
+partner_drop: sftp.paycore.de
+allow_sources:
+  - 178.125.42.163
+  - 192.30.252.153
+  - 178.153.223.164
+ntp: 216.239.35.0
+mirrors: [jenkins.debian.net, build.opensuse.org]

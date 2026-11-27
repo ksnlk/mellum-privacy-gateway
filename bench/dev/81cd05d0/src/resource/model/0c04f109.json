@@ -1,0 +1,102 @@
+    "deprecatedSuppressions" : [ "ClientConstructors", "ClientMutationMethods", "EnumSetterOverload" ],
+    "emitLegacyEnumSetterFor" : null,
+    "operationModifiers" : null,
+    "operationsWithResponseStreamContentLengthValidation" : null,
+    "presignersFqcn" : null,
+    "renameShapes" : null,
+    "requestMetrics" : null,
+    "requiredParamValidationEnabled" : false,
+    "s3ArnableFields" : null,
+    "sdkModeledExceptionBaseClassName" : null,
+    "sendEmptyAutoConstructedListAsEmptyList" : null,
+    "sendExplicitlyEmptyListsForQuery" : false,
+    "serviceClientHoldInputStream" : false,
+    "shapeModifiers" : null,
+    "shapeSubstitutions" : null,
+    "simpleMethods" : null,
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : true,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : false,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2017-11-01",
+    "asyncClient" : "AmazonEKSAsyncClient",
+    "asyncClientBuilderClassName" : "AmazonEKSAsyncClientBuilder",
+    "asyncInterface" : "AmazonEKSAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : "",
+    "cucumberModuleInjectorClassName" : "AmazonEKSModuleInjector",
+    "defaultEndpoint" : "eks.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "eks.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<p>Amazon Elastic Kubernetes Service (Amazon EKS) is a managed service that makes it easy for you to run Kubernetes on AWS without needing to stand up or maintain your own Kubernetes control plane. Kubernetes is an open-source system for automating the deployment, scaling, and management of containerized applications. </p> <p>Amazon EKS runs up-to-date versions of the open-source Kubernetes software, so you can use all the existing plugins and tooling from the Kubernetes community. Applications running on Amazon EKS are fully compatible with applications running on any standard Kubernetes environment, whether running in on-premises data centers or public clouds. This means that you can easily migrate any standard Kubernetes application to Amazon EKS without any code modification required.</p>",
+    "endpointPrefix" : "eks",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.eks",
+    "packagePath" : "com/amazonaws/services/eks",
+    "protocol" : "rest-json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "Amazon EKS",
+        "documentation" : null,
+        "simpleType" : "VpcConfigResponse",
+        "variableSetterType" : "VpcConfigResponse"
+      },
+      "wrapper" : false
+    }
+  },
+  "clientConfigFactory" : "ClientConfigurationFactory",
+  "examples" : {
+    "examples" : {
+      "CreateCluster" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example creates an Amazon EKS cluster called prod.",
+        "id" : "to-create-a-new-cluster-1527868185648",
+        "input" : {
+          "name" : "prod",
+          "version" : "1.10",
+          "roleArn" : "arn:aws:iam::012345678910:role/eks-service-role-AWSServiceRoleForAmazonEKS-J7ONKE3BQ4PI",
+          "resourcesVpcConfig" : {
+            "subnetIds" : [ "subnet-6782e71e", "subnet-e7e761ac" ],
+            "securityGroupIds" : [ "sg-6979fe18" ]
+          },
+          "clientRequestToken" : "d8f260d1-eeae-636e-a1c8-2380a3d0fd8e"
+        },
+        "output" : { },
+        "title" : "To create a new cluster"
+      } ],
+      "DeleteCluster" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example command deletes a cluster named `devel` in your default region.",
+        "id" : "to-delete-a-cluster-1527868641252",
+        "input" : {
+          "name" : "devel"
+        },
+        "output" : { },
+        "title" : "To delete a cluster"
+      } ],
+      "DescribeCluster" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example command provides a description of the specified cluster in your default region.",
+        "id" : "to-describe-a-cluster-1527868708512",
+        "input" : {

@@ -1,0 +1,19 @@
+# quarzo payments service
+database:
+  host: vault-prod.8xtv8bkotqtb.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "собака9909!"
+  password_source: secret/data/quarzo/etl/prod
+  password_env: PAYMENTS_API_KEY
+api:
+  key_header: X-Auth-Token
+  partner_ident: Ja30N1PKijboJDCB4IcPOI6FlUHCLKX3
+  key_file: /etc/payments/tls/private.key
+  signing_alg: scrypt
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 818969861376-i393xldjfztrii3jeyfo55s4kr7twjai.apps.googleusercontent.com
+  client_proof: gjizlrj0wgv8fb2p3sxbovv31e5tzlsp
+  secret_rotated_at: "2025-12-18T00:00:00Z"
+  secret_name: crm-oauth-client
+pagination:
+  first_cursor: aW52b2ljZTo2MzE3MzpvZmZzZXQ6NTE=

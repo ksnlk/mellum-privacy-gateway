@@ -1,0 +1,604 @@
+{
+ "repo": "a60edb87",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "src/df47dee7.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-replica.quarzo.cloud"
+   ]
+  },
+  {
+   "id": 2,
+   "file": "src/df47dee7.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "YWRtaW460L7RgdC10L3RjDIyMTA=",
+    "admin:\u043e\u0441\u0435\u043d\u044c2210"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "src/df47dee7.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "dqtf8tq2rpfvrhts3pzr0dd46jw7u5ae"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "src/a7bcefbd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.wolf@acme-corp.de"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/a7bcefbd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 5284 6840"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/a7bcefbd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Erdemia64!"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/a7bcefbd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE17990576215146384835"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/aa07e930.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jonas Zimmermann"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/aa07e930.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "e.wolf@acme-corp.de"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/aa07e930.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 1883 3680"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/aa07e930.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Mia Fischer"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/aa07e930.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "felix.schwarz [at] acme-corp [dot] de"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/aa07e930.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE63602077326211755358"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/aa07e930.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jan Lange"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/aa07e930.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Gartenstra\u00dfe 35, 74755 Dachau"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/aa07e930.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "167.151.151.69"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/11b5c6a5.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "33346439653133393437663338376565333133333763633765346239376461363435343537343062626537373638303439303931356637306662653534396161",
+    "34d9e13947f387ee31337cc7e4b97da64545740bbe77680490915f70fbe549aa"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/b59490c8.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/b59490c8.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "dJWa9M7cDrSWdnCBK1XYEn0gbBFuECLC"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/fc197c2a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_vpkNbQQa4Ohxlcq6JBPEj7qV"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/fc197c2a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "CAEcHNHSG4wIHV5sjrdsl3ZGmJTLo3NR"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/fc197c2a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "cDZxdzFicGhwNWRoMDN1anVnMWF6NWRxdXJ0cnAweXk=",
+    "p6qw1bphp5dh03ujug1az5dqurtrp0yy"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/09fcbf19.md",
+   "line": 26,
+   "value": "^[a-zA-Z0-9\\.\\-_]+$",
+   "source": "creddata"
+  },
+  {
+   "file": "_/09fcbf19.md",
+   "line": 77,
+   "whole_line": "      token = 1*tchar",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46ec0636.md",
+   "line": 26,
+   "value": "^[a-zA-Z0-9\\.\\-_]+$",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46ec0636.md",
+   "line": 77,
+   "whole_line": "      token = 1*tchar",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46ec0636.md",
+   "line": 128,
+   "whole_line": "<a name=\"infoExtensions\"></a>^x- | Any | Allows extensions to the OpenAPI Schema. The field name MUST begin with `x-`, for example, `x-internal-id`. Field names beginning `x-oai-` and `x-oas-` are reserved for uses defined by the [OpenAPI Initiative](https://www.openapis.org/). The value can be `null`, a primitive, an array or an object.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aa2d80db.json",
+   "line": 31,
+   "whole_line": "      \"description\": \"The host (name or ip) of the API. Example: 'swagger.io'\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aac000a6.yml",
+   "line": 8,
+   "whole_line": "    openapi: 3.0.3",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ae8f4a8c.md",
+   "line": 179,
+   "whole_line": "  \"apiVersion\": \"1.0.0\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ae8f4a8c.md",
+   "line": 219,
+   "whole_line": "            \"clientSecretName\": \"client_secret\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ae8f4a8c.md",
+   "line": 328,
+   "value": "client_secret",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ae8f4a8c.md",
+   "line": 380,
+   "value": "client_secret",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ae8f4a8c.md",
+   "line": 430,
+   "value": "client_secret",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ae8f4a8c.md",
+   "line": 472,
+   "value": "client_secret",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ae8f4a8c.md",
+   "line": 509,
+   "value": "client_secret",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ae8f4a8c.md",
+   "line": 548,
+   "whole_line": "  \"apiVersion\": \"1.0.0\",",
+   "source": "creddata"
+  },
+  {
+   "file": "example/1bc3e6ac.yaml",
+   "line": 1,
+   "whole_line": "openapi: 3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/1cffa40e.json",
+   "line": 2,
+   "whole_line": "  \"openapi\": \"3.0.1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "example/1cffa40e.json",
+   "line": 58,
+   "whole_line": "                      \"apiKey\": \"oa_citations\",",
+   "source": "creddata"
+  },
+  {
+   "file": "example/1cffa40e.json",
+   "line": 64,
+   "whole_line": "                      \"apiKey\": \"cancer_moonshot\",",
+   "source": "creddata"
+  },
+  {
+   "file": "example/43adf53e.json",
+   "line": 2,
+   "whole_line": "  \"openapi\": \"3.1.0\",",
+   "source": "creddata"
+  },
+  {
+   "file": "example/77c46d80.yaml",
+   "line": 1,
+   "whole_line": "openapi: 3.1.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/api/0ed59d7c.yaml",
+   "line": 1,
+   "whole_line": "openapi: \"3.0.0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "example/api/3077b1fa.json",
+   "line": 2,
+   "whole_line": "  \"openapi\": \"3.0.0\",",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fc49a852.yaml",
+   "line": 1,
+   "whole_line": "openapi: 3.0.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fc49a852.yaml",
+   "line": 52,
+   "whole_line": "                      \"apiKey\": \"oa_citations\",",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fc49a852.yaml",
+   "line": 58,
+   "whole_line": "                      \"apiKey\": \"cancer_moonshot\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/df47dee7.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "CKASJ5HPQQSXB5M66Y1H0XAG4U"
+  },
+  {
+   "file": "src/df47dee7.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "c7dea714-211f-4c8d-85c5-515634828bb4"
+  },
+  {
+   "file": "src/df47dee7.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "auth0.com"
+  },
+  {
+   "file": "src/df47dee7.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/a7bcefbd.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "api.github.com"
+  },
+  {
+   "file": "src/a7bcefbd.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "jane.doe@example.org"
+  },
+  {
+   "file": "src/a7bcefbd.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "${DB_PASSWORD}"
+  },
+  {
+   "file": "_/aa07e930.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "hello@acme-corp.de"
+  },
+  {
+   "file": "_/aa07e930.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "careers@acme-corp.de"
+  },
+  {
+   "file": "_/aa07e930.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0132"
+  },
+  {
+   "file": "_/aa07e930.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "_/aa07e930.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "_/aa07e930.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "_/aa07e930.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "_/aa07e930.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "src/11b5c6a5.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "263f0d7e913e9a4c144460ea313220ce10e4eee3d1ac584314656d6734c92a02"
+  },
+  {
+   "file": "src/b59490c8.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "src/b59490c8.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6.23.3"
+  },
+  {
+   "file": "src/b59490c8.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "025985054aeb5beca78f2c0af84d6b894e6c5b0d"
+  },
+  {
+   "file": "src/b59490c8.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "462b49d2-1f65-4614-9c52-bd35336f8bae"
+  },
+  {
+   "file": "_/fc197c2a.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_SBhE709H8D7KYnD5G7cOsPxO"
+  },
+  {
+   "file": "_/fc197c2a.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "PAYMENTS_AUTH_TOKEN"
+  },
+  {
+   "file": "_/fc197c2a.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "LEDGER_API_KEY"
+  },
+  {
+   "file": "_/fc197c2a.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6Lw484Yg5sS5cTUF_Gj0HA3DQhf9v5zU7t5ZVKgy"
+  },
+  {
+   "file": "_/fc197c2a.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:AbGCf970q4CC9c94cdY7stEt6lzsG2YVBgosWwajLE0"
+  },
+  {
+   "file": "_/fc197c2a.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "_/fc197c2a.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Authorization"
+  },
+  {
+   "file": "_/fc197c2a.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "_/fc197c2a.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "aW52b2ljZTo2MzUzMjpvZmZzZXQ6MzQ4"
+  }
+ ]
+}

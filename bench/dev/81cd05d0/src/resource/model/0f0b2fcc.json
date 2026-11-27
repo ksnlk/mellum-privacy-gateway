@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2015-04-08",
+    "endpointPrefix":"workspaces",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"Amazon WorkSpaces",
+    "serviceId":"WorkSpaces",
+    "signatureVersion":"v4",
+    "targetPrefix":"WorkspacesService",
+    "uid":"workspaces-2015-04-08"
+  },
+  "operations":{
+    "AssociateConnectionAlias":{
+      "name":"AssociateConnectionAlias",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AssociateConnectionAliasRequest"},
+      "output":{"shape":"AssociateConnectionAliasResult"},
+      "errors":[
+        {"shape":"ResourceAssociatedException"},
+        {"shape":"AccessDeniedException"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"InvalidParameterValuesException"},
+        {"shape":"InvalidResourceStateException"},
+        {"shape":"OperationNotSupportedException"}

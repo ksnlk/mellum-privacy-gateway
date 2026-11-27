@@ -1,0 +1,473 @@
+{
+ "repo": "ff527e6f",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/7b3ed02b.rst",
+   "line": 11,
+   "start": 90,
+   "end": 100,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "ZdD055liO5"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "example/setting/6cf1b6e7.py",
+   "line": 25,
+   "start": 14,
+   "end": 64,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "*gixcwk8a_o1khq%hdkbn6$lack_5tbc(kp9e-yb1b3qdf!2h9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/example/b240b186.py",
+   "line": 548,
+   "start": 68,
+   "end": 85,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "smm_ntzc_vlwfmbyy"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/1d3895a4.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "39303761386361313261646631643337643463306563396564306232616562366365373632376362313634346239363031663930383539656537383438306331",
+    "907a8ca12adf1d37d4c0ec9ed0b2aeb6ce7627cb1644b9601f90859ee78480c1"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/8998eebb.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y2hvY28tZ2VoZWltLWVpY2hlLWJvZw==",
+    "choco-geheim-eiche-bog"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/8998eebb.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV93aVZVbDU2RzhIZEs1MUVOU0tOSWJsSHc=",
+    "sk_live_wiVUl56G8HdK51ENSKNIblHw"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/8998eebb.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.bu7xpm6hmix9.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/3c59712f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_QTMAo58C5ceomHfJttlRDEJ6"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/3c59712f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "28FspHKSg8XolRSqPKdasjkdEQmfPFTM"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/3c59712f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "NGRtN2NwMnBpdTNmcmMzMWY3ZG02dG10M3l1c3Fvcmo=",
+    "4dm7cp2piu3frc31f7dm6tmt3yusqorj"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/130f1603.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.w516nFy4fDN9QJ8NKsoL-xbxbNcXK9TbXTXEBsvU.yOermPHXhU-klY9jsswfs_SXiYHCVp40rksmFHmI-oQ"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/130f1603.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.d39e5k9jd2s0.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/360e0891.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "admin.vantor-corp.de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/360e0891.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_yxyNRKDonvEx6jr5e0Erp4kqMSUx9ZcYIa1U"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/90d93b90.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing.2a299o.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/90d93b90.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Strand1967!"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/90d93b90.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "freude-katze7"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/87db21a9.yml",
+   "line": 32,
+   "whole_line": "          key: release-${{ hashFiles('**/setup.py') }}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/87db21a9.yml",
+   "line": 52,
+   "whole_line": "          password: ${{ secrets.JAZZBAND_RELEASE_KEY }}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/98b2c482.py",
+   "line": 36,
+   "whole_line": "        password = self.cleaned_data.get('password')",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/046331d0.rst",
+   "line": 78,
+   "whole_line": "        author_email='Your Email Here',",
+   "source": "creddata"
+  },
+  {
+   "file": "example/setting/6cf1b6e7.py",
+   "line": 26,
+   "value": "$2b$12$2JAj00IHIeHITMqRCHK2Pw1KKTtIh9QP1wtW5ug4fL8WI1.1EakO0",
+   "source": "creddata"
+  },
+  {
+   "file": "test/example/b240b186.py",
+   "line": 22,
+   "whole_line": "        self.user.set_password(\"password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/example/b240b186.py",
+   "line": 498,
+   "whole_line": "        self.user.set_password(\"password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/example/b240b186.py",
+   "line": 535,
+   "value": "new_user",
+   "source": "creddata"
+  },
+  {
+   "file": "test/example/f62d8722.py",
+   "line": 24,
+   "whole_line": "        self.user.set_password(\"password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1d3895a4.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "d25b6a6f8eeb148753c179ec3f813649152c697a2204cded8889c86b2121192f"
+  },
+  {
+   "file": "other/8998eebb.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "3b5fdd2"
+  },
+  {
+   "file": "other/8998eebb.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "96d3f913529a28b1a48ddfd7c3b3cf51fe7a71efe242a20b63501abbcf58dc56"
+  },
+  {
+   "file": "other/8998eebb.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "other/8998eebb.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/3c59712f.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_XIi7qGHTlhyFqbJJVLC3HK3U"
+  },
+  {
+   "file": "test/3c59712f.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "VAULT_CLIENT_SECRET"
+  },
+  {
+   "file": "test/3c59712f.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "LEDGER_CLIENT_SECRET"
+  },
+  {
+   "file": "test/3c59712f.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LCBLCT2sDTAZ5vW-IF_imzqQH-0bOlzp1Np8gaa"
+  },
+  {
+   "file": "test/3c59712f.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:Q959o3biNvB3aIZwJMjPejzcV49wvPf85XlIk2CuQ/U"
+  },
+  {
+   "file": "test/3c59712f.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/run/secrets/ledger_password"
+  },
+  {
+   "file": "test/3c59712f.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "test/3c59712f.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "test/3c59712f.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6ODA0NDA6b2Zmc2V0OjM5OA=="
+  },
+  {
+   "file": "other/130f1603.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "5.3.34"
+  },
+  {
+   "file": "other/130f1603.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "612ee3208c96d5513440f908aec22ac141ca8da9"
+  },
+  {
+   "file": "other/130f1603.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "MNH56SV7DTDWBMYRDRCI9W16RF"
+  },
+  {
+   "file": "other/130f1603.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "other/130f1603.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "0W6G5YTG6AW90ON4NAVQK2VM9F"
+  },
+  {
+   "file": "other/130f1603.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "_/360e0891.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "4.22.17"
+  },
+  {
+   "file": "_/360e0891.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "1.7.20"
+  },
+  {
+   "file": "_/360e0891.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-948ERRhR9wyuBsjIEXhr7+NLNmCOCMZ5kJXK1ClLu0oB8HF7zTDreZV1n/WoMERwgir7uldARKmPD7AgoGwxSA=="
+  },
+  {
+   "file": "_/360e0891.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "2.26.1"
+  },
+  {
+   "file": "_/360e0891.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-7CqDEUAdI9rip4QMOFXQ1pUKwKzMagcxufrLNSghsfGyKkmkEHMounTYgPeii0P2HzLs+rbjklZl7XoQav6J1Q=="
+  },
+  {
+   "file": "_/360e0891.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "6.16.47"
+  },
+  {
+   "file": "_/360e0891.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-m0sI6OAY5v53Ph7vYVeNWOZKQyydTnCLRt9m6y44fM9srv9zHJUrPL6PYiLSOtyOw0wavmB0VZm2tgJcQhRdow=="
+  },
+  {
+   "file": "other/90d93b90.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "dummy-hive-prod"
+  },
+  {
+   "file": "other/90d93b90.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "backup"
+  },
+  {
+   "file": "other/90d93b90.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "altogether-mainz-eu"
+  },
+  {
+   "file": "other/90d93b90.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "svc_reports"
+  },
+  {
+   "file": "other/90d93b90.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "svc_reports"
+  },
+  {
+   "file": "other/90d93b90.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "reduce-zauber-prod"
+  }
+ ]
+}

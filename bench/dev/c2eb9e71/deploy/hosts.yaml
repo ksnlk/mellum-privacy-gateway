@@ -1,0 +1,15 @@
+monitoring: falkor.vantor.systems
+database:
+  host: hermes.vantor.systems
+  port: 5432
+queue: nimbus.vantor.systems
+backup_target: pallas.vantor.systems
+website: www.vantor.systems
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: edi.logistik-nord.de
+allow_sources:
+  - 178.91.106.235
+  - 192.30.252.153
+  - 178.105.21.86
+ntp: 216.239.35.0
+mirrors: [ci.jenkins.io, db.debian.org]

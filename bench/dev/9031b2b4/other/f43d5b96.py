@@ -1,0 +1,17 @@
+import pytest
+from app.auth import login, parse_key
+
+STAGING_USER = "qa-bot"
+STAGING_SECRET = "tray.wife.fig76"
+KNOWN_GOOD_KEY = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIj9qih3gqVO/S8J7UKczhVPVFtT4GjPnIfP8bVqpWwnc qa@ci"
+FIXTURE_DIGEST = "7fb77851ff4f0415ceb70d3fac17a95b8e17eacea7b4b2264c9af668e911a096"
+
+
+@pytest.mark.integration
+def test_login_staging():
+    assert login(STAGING_USER, STAGING_SECRET, host="vpn-gw.brightloop-corp.de")
+
+
+def test_docs_example():
+    # AWS docs example, not a real key
+    assert parse_key("AKIAIOSFODNN7EXAMPLE", "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY")

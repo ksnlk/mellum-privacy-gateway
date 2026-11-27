@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<testcase>
+<info>
+<keywords>
+POP3
+SASL
+SASL AUTH NTLM
+SASL-IR
+RFC1734
+RFC5034
+NTLM
+</keywords>
+</info>
+
+# Server-side
+<reply>
+<servercmd>
+AUTH NTLM
+REPLY AUTH + KoTMOVUXTMSYBRRTKiJKGZUZRMDFodIPc72NPUDwhEaWWHMWOQYDZV7YlhXcKHUGY3ZEJTWLJnLSXDWNMmXFBSoQAUMJDIJVMtPERYHIRHILCOcLOjFvUU5LtRWlXFQXUIMdMHSLMoKqSENDWwZmBJZMhUXaGUIANAVcGKUOeSRwGZ3JGpXhAE2UnYHaNIZJUWOfMSATKqBaIFLOJWRDDB==
+REPLY AkTLBKIGDRRCTKDOIAHNPRGBVGYWJNnWPDWRAWCXJKAxOEQLAORPTOVOVSYLYHsPoNQPLQEURAVYCVBNcjTAMBetHkAPGLDUtun0so88mOrUWRXzixhqMigEzptZge5r+cgkdsAR9Z02nBm8J2idMTIdz1F4s7FpC60DU7ZDJGWIA00= +OK Login successful
+</servercmd>
+<data crlf="yes">
+From: me@somewhere
+To: fake@nowhere
+
+body
+
+--
+  yours sincerely
+</data>
+</reply>
+
+# Client-side
+<client>
+<server>
+pop3
+</server>
+<features>
+NTLM
+SSL
+!SSPI
+</features>
+<name>
+POP3 NTLM authentication with initial response
+</name>
+<command>
+pop3://%HOSTIP:%POP3PORT/%TESTNUMBER -u testuser:testpass --sasl-ir
+</command>
+</client>
+
+# Verify data after the test has been "shot"
+<verify>
+<protocol crlf="yes">
+CAPA
+AUTH NTLM %b64[NTLMSSP%00%01%00%00%00%06%82%08%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00]b64%
+EsJYEKTECPBAINJBPHYMYZRJJXNEREdYROXICMIZMSVxWGMBGZSBINYDDRKGLCsAnNRICBLFIABCIRVLatULQLcyGlETBOOYfsv8wy10kCmAKOYzuqycLlzOwcwDvp2k+cczjmPK3J65gWr3J9bjKHKsi2G1b0ViI74PG4QGUTVXU46=
+RETR %TESTNUMBER
+QUIT
+</protocol>
+</verify>
+</testcase>

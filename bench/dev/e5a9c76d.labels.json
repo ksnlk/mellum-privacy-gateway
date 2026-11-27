@@ -1,0 +1,805 @@
+{
+ "repo": "e5a9c76d",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/b3356305.md",
+   "line": 60,
+   "start": 12,
+   "end": 52,
+   "category": "Secret:Key",
+   "mutation": "rename",
+   "forms": [
+    "OCUSJICQVNMMEQWABHNTPCMTFFRGVNSYOHMQMQOU"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "lib/173305f2.rb",
+   "line": 44,
+   "start": 19,
+   "end": 41,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "jzgurcqzcpzfzsksuygjii"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "lib/2ca58399.rb",
+   "line": 144,
+   "start": 20,
+   "end": 40,
+   "category": "AWS Client ID",
+   "mutation": "rename",
+   "forms": [
+    "AKIAP12XO4DOLCFPMJMW"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "lib/82dcb156.rb",
+   "line": 44,
+   "start": 52,
+   "end": 60,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "tcxncqhl"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "lib/82dcb156.rb",
+   "line": 47,
+   "start": 36,
+   "end": 42,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "lgnwlw"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "lib/87cfd52c.rb",
+   "line": 10,
+   "start": 27,
+   "end": 71,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "bouncer-7553fyah-8068-shtx-2116-humw58614401"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "lib/cc3118a2.rb",
+   "line": 36,
+   "start": 31,
+   "end": 64,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "IOUEWCLZOZLVERYYGPJTXHYLFNWYSOJSM"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "lib/fab0bbd1.rb",
+   "line": 13,
+   "start": 23,
+   "end": 71,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "hyaqalovpzxfohohtho3arxhbz0tuzaytyrrodzhdoxomm=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "resource/doc/c1823fb9.md",
+   "line": 230,
+   "start": 29,
+   "end": 49,
+   "category": "AWS Client ID",
+   "mutation": "none",
+   "forms": [
+    "AKIAU29TI9NPSPVJDFCS"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "spec/7d688699.rb",
+   "line": 9,
+   "start": 31,
+   "end": 51,
+   "category": "AWS Client ID",
+   "mutation": "none",
+   "forms": [
+    "AKIAF73FO8NPRFLITUTF"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "other/3ff03c71.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Av3r29"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/f3e5d86f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Ben Hartmann"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/f3e5d86f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "b.richter@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/f3e5d86f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 7578 6922"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/f3e5d86f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.67.228.134"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/f3e5d86f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "valor.adhere.home.when74"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/096e955c.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm.m6hxcb.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/096e955c.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_OD6QPnORrYUS8Nvgdyo0d0MMHCQhzueHA2lg"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/658697b3.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Hafenapfel27?"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/658697b3.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.23.10.97"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/658697b3.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "Z2FyNDY5",
+    "gar469"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/55606c8b.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-db-06.prod.pinegrid-internal.net"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/55606c8b.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Z3JhZmFuYTpSMCR0M3I=",
+    "grafana:R0$t3r"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "other/55606c8b.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "c33m2e476h9jt5z7zproi5azfiw0zox9"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "src/b1c82242.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.u1a9f3vc258o.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "src/b1c82242.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Kaffe",
+    "Kaffee#1989",
+    "e#1989"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/b3356305.md",
+   "line": 39,
+   "whole_line": "Awsecrets.load(secrets_path: File.expand_path('./secrets.yml', File.dirname(__FILE__)))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 61,
+   "value": "PAYMENTS_CLIENT_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1e883203.rb",
+   "line": 47,
+   "whole_line": "              key: 'Name',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1e883203.rb",
+   "line": 51,
+   "whole_line": "              key: 'my-tag-key',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1e883203.rb",
+   "line": 113,
+   "whole_line": "                  key: 'Name',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1e883203.rb",
+   "line": 129,
+   "whole_line": "              key: 'Name',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1e883203.rb",
+   "line": 142,
+   "whole_line": "              key: 'Name',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1e883203.rb",
+   "line": 158,
+   "whole_line": "              key: 'Name',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/26ebed8d.rb",
+   "line": 89,
+   "whole_line": "              key: 'Name',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/26ebed8d.rb",
+   "line": 103,
+   "whole_line": "              key: 'Name',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5e7f060f.rb",
+   "line": 36,
+   "whole_line": "              key: 'Dept',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5e7f060f.rb",
+   "line": 43,
+   "whole_line": "              key: 'Role',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5e7f060f.rb",
+   "line": 61,
+   "whole_line": "          key: 'Dept',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5e7f060f.rb",
+   "line": 68,
+   "whole_line": "          key: 'Role',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5e7f060f.rb",
+   "line": 217,
+   "whole_line": "                  key: 'Name',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5e7f060f.rb",
+   "line": 233,
+   "whole_line": "              key: 'Name',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/692b71dc.rb",
+   "line": 14,
+   "whole_line": "          auth_key: nil,",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/82dcb156.rb",
+   "line": 21,
+   "whole_line": "        tags: [{ key: 'Name', value: 'My Cluster' }],",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/82dcb156.rb",
+   "line": 48,
+   "value": "/etc/crm/tls/private.key",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/87cfd52c.rb",
+   "line": 21,
+   "whole_line": "              key: 'my-key'",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/87cfd52c.rb",
+   "line": 25,
+   "whole_line": "              key: 'Name'",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/87cfd52c.rb",
+   "line": 35,
+   "whole_line": "          key: 'my-key'",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/87cfd52c.rb",
+   "line": 39,
+   "whole_line": "          key: 'Name'",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/87cfd52c.rb",
+   "line": 11,
+   "value": "$2b$10$kBMNKB.eXvn.z9hZJB6KKd.IA7LSy.eOLCwyb07Ugu58aUHb39OaS",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/888926aa.rb",
+   "line": 89,
+   "whole_line": "          key: 'environment',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/888926aa.rb",
+   "line": 240,
+   "whole_line": "              key: 'Name',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/888926aa.rb",
+   "line": 253,
+   "whole_line": "              key: 'Name',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8c00871c.rb",
+   "line": 286,
+   "whole_line": "              key: 'Name',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8c00871c.rb",
+   "line": 299,
+   "whole_line": "              key: 'Name',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/924406b8.rb",
+   "line": 23,
+   "whole_line": "              key: 'key_one',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/924406b8.rb",
+   "line": 27,
+   "whole_line": "              key: 'key_two',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/9841045f.rb",
+   "line": 24,
+   "whole_line": "                output_key: 'HandlerLambdaFunctionQualifiedArn',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/9841045f.rb",
+   "line": 30,
+   "whole_line": "                output_key: 'ServerlessDeploymentBucketName',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/9841045f.rb",
+   "line": 40,
+   "whole_line": "                key: 'STAGE',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/api/420c500d.rb",
+   "line": 17,
+   "whole_line": "      api_key_source: 'HEADER',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/api/420c500d.rb",
+   "line": 41,
+   "whole_line": "          api_key_source: 'HEADER',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/api/420c500d.rb",
+   "line": 63,
+   "whole_line": "          api_key_source: 'HEADER',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/api/420c500d.rb",
+   "line": 102,
+   "value": "us-east-1:cognito-idp:action/ListUsers",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/api/420c500d.rb",
+   "line": 107,
+   "whole_line": "                                    uri: 'arn:aws:apigateway:us-east-1:cognito-idp:action/SignUp?username=test' }",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/beb7b549.rb",
+   "line": 3,
+   "whole_line": "    def initialize(key = nil)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/beb7b549.rb",
+   "line": 4,
+   "value": "key.to_sym",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/c4237f6d.rb",
+   "line": 49,
+   "whole_line": "              key: 'stage',",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/cc3118a2.rb",
+   "line": 37,
+   "value": "2026-10-15T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/d8564f06.rb",
+   "line": 8,
+   "value": "b9989d41-eeaa-401f-8616-00546948aa92",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/d8564f06.rb",
+   "line": 18,
+   "value": "b9989d41-eeaa-401f-8616-00546948aa92",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/doc/c1823fb9.md",
+   "line": 26,
+   "whole_line": "### its(:availability_zone), its(:create_time), its(:encrypted), its(:kms_key_id), its(:outpost_arn), its(:size), its(:snapshot_id), its(:state), its(:volume_id), its(:iops), its(:volume_type), its(:fast_restored), its(:multi_attach_enabled), its(:throughput)",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/doc/c1823fb9.md",
+   "line": 77,
+   "whole_line": "### its(:ami_launch_index), its(:image_id), its(:instance_id), its(:instance_type), its(:kernel_id), its(:key_name), its(:launch_time), its(:monitoring), its(:placement), its(:platform), its(:private_dns_name), its(:private_ip_address), its(:product_codes), its(:public_dns_name), its(:public_ip_address), its(:ramdisk_id), its(:state_transition_reason), its(:subnet_id), its(:vpc_id), its(:architecture), its(:client_token), its(:ebs_optimized), its(:ena_support), its(:hypervisor), its(:instance_lifecycle), its(:elastic_gpu_associations), its(:elastic_inference_accelerator_associations), its(:outpost_arn), its(:root_device_name), its(:root_device_type), its(:source_dest_check), its(:spot_instance_request_id), its(:sriov_net_support), its(:state_reason), its(:virtualization_type), its(:cpu_options), its(:capacity_reservation_id), its(:capacity_reservation_specification), its(:hibernation_options), its(:licenses), its(:metadata_options), its(:enclave_options), its(:boot_mode)",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/doc/c1823fb9.md",
+   "line": 128,
+   "whole_line": "### its(:path), its(:user_name), its(:user_id), its(:arn), its(:create_date), its(:password_last_used), its(:permissions_boundary), its(:tags)",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/doc/c1823fb9.md",
+   "line": 179,
+   "whole_line": "### its(:active_operation_arn), its(:client_authentication), its(:cluster_arn), its(:cluster_name), its(:creation_time), its(:current_version), its(:enhanced_monitoring), its(:number_of_broker_nodes), its(:state), its(:zookeeper_connect_string), its(:zookeeper_connect_string_tls)",
+   "source": "creddata"
+  },
+  {
+   "file": "secret/lib/0ec78dc1.rb",
+   "line": 18,
+   "whole_line": "          key: 'key_one',",
+   "source": "creddata"
+  },
+  {
+   "file": "secret/lib/0ec78dc1.rb",
+   "line": 22,
+   "whole_line": "          key: 'key_two',",
+   "source": "creddata"
+  },
+  {
+   "file": "other/3ff03c71.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "mad_hystrix"
+  },
+  {
+   "file": "other/3ff03c71.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "muenchen60"
+  },
+  {
+   "file": "src/f3e5d86f.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "192.0.2.196"
+  },
+  {
+   "file": "src/f3e5d86f.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "8.7.17"
+  },
+  {
+   "file": "src/f3e5d86f.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:e60c8d0bb9d6a4edd7b3d658a151505201ea75c654243970b6687bd834f289f4"
+  },
+  {
+   "file": "src/f3e5d86f.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/f3e5d86f.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/096e955c.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "8.28.8"
+  },
+  {
+   "file": "other/096e955c.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.27.42"
+  },
+  {
+   "file": "other/096e955c.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-Eb/GQoEOd3ctquEppeQz5VJqQMQ9TCZmXA7VvVWUOFMlyZAOzMcg6a2B1T4/GnlTQaGSCelgpR0gT2QHSdqAdA=="
+  },
+  {
+   "file": "other/096e955c.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "7.13.6"
+  },
+  {
+   "file": "other/096e955c.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-cklbbCprbL59IeHLUtQqQeRdHZn3JsONS3s4eDMpCLK0SyHxH+6we++O97hftrTOlkMLdghoALITMCzXd2JYJA=="
+  },
+  {
+   "file": "other/096e955c.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "5.16.25"
+  },
+  {
+   "file": "other/096e955c.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-o2xBlfZYSDqwBOKixr8RH1qVIzkZQcpJfCPvY9zXv0y8njdwlsUZCwOel+sVjg6C+JGewDbmSIoSV5PqgqrTfA=="
+  },
+  {
+   "file": "_/658697b3.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:cfbc49229cebcb2527c2fa7f9b92b70a42f04738f5e2fe7800286500957b2391"
+  },
+  {
+   "file": "_/658697b3.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "cdda584e17c74eea6da4cee34b869373918d82f8"
+  },
+  {
+   "file": "_/658697b3.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<password>"
+  },
+  {
+   "file": "_/658697b3.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "_/658697b3.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "5.21.43"
+  },
+  {
+   "file": "other/55606c8b.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "8REXC9G9WRWHU5E89J1QJ4AMV6"
+  },
+  {
+   "file": "other/55606c8b.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "b360cea5-60b9-4bd6-b193-bdda5fb150dd"
+  },
+  {
+   "file": "other/55606c8b.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "other/55606c8b.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/b1c82242.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "c81893497f94f5bfeb12f5ab164b3c9a12df75b1"
+  },
+  {
+   "file": "src/b1c82242.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "<password>"
+  },
+  {
+   "file": "src/b1c82242.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "pypi.org"
+  }
+ ]
+}

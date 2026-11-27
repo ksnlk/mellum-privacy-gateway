@@ -1,0 +1,19 @@
+# brightloop payments service
+database:
+  host: ledger.847kx2.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "B0ttl3"
+  password_source: secret/data/brightloop/ledger/prod
+  password_env: PAYMENTS_SECRET_KEY
+api:
+  key_header: X-Auth-Token
+  partner_ident: Z7JaIrjPB53qxhWKseip4qCdHivgKcf6
+  key_file: /var/run/secrets/reports/token
+  signing_alg: argon2id
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 404568972340-ab9nsdvmw4mezt3yxou00sa6er5vhab6.apps.googleusercontent.com
+  client_proof: fnlagxwstzk7da8ofwqmqc2jof9uwr10
+  secret_rotated_at: "2024-08-06T00:00:00Z"
+  secret_name: billing-oauth-client
+pagination:
+  first_cursor: b3JkZXI6MjE1MTpvZmZzZXQ6NDk0

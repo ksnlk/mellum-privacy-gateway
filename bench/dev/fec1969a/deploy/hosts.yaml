@@ -1,0 +1,15 @@
+monitoring: kestrel.helix.systems
+database:
+  host: hermes.helix.systems
+  port: 5432
+queue: nimbus.helix.systems
+backup_target: vega.helix.systems
+website: portal.helix.systems
+payments_api: https://api.mailvault.com/v2
+partner_drop: sftp.mailvault.de
+allow_sources:
+  - 188.151.60.188
+  - 185.199.108.153
+  - 188.151.163.157
+ntp: 212.18.3.19
+mirrors: [ftp.gnu.org, gitlab.freedesktop.org]

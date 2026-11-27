@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: kelpie-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "62683df"
+type: Opaque
+data:
+  DB_PASSWORD: d2FnbmVyLmp1bmsud2Vla2x5Lmxhcg==
+  STRIPE_KEY: c2tfbGl2ZV9HUlY1TkdCQzNHYUR3TG5UQWFzSk1iZTY=
+  ca.crt.sha256: 046e88387a39a2b9159b677122edbb2e12cefd31bff8f525fb31924d8c6c9359
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kelpie-payments-config
+data:
+  DB_HOST: "etl-prod.0kbgi47qjocu.eu-central-1.rds.amazonaws.com"
+  SENTRY_HOST: "sentry.io"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

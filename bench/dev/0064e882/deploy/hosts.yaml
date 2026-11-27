@@ -1,0 +1,15 @@
+monitoring: pallas.kelpie.systems
+database:
+  host: hermes.kelpie.systems
+  port: 5432
+queue: tarvos.kelpie.systems
+backup_target: nimbus.kelpie.systems
+website: www.kelpie.systems
+payments_api: https://api.datafjord.com/v2
+partner_drop: files.datafjord.de
+allow_sources:
+  - 185.150.13.152
+  - 140.82.113.4
+  - 185.150.96.110
+ntp: 162.159.200.1
+mirrors: [gitlab.gnome.org, ci.apache.org]

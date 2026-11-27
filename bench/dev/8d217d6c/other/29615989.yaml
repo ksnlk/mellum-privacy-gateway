@@ -1,0 +1,19 @@
+# nordwind payments service
+database:
+  host: billing-prod.6sze4gwuf9n6.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "fancyyom"
+  password_source: secret/data/nordwind/etl/prod
+  password_env: REPORTS_AUTH_TOKEN
+api:
+  key_header: Authorization
+  partner_ident: uCuQjDh1g2iIONZHAr7gsko3sSZ4QPFC
+  key_file: /var/run/secrets/ledger/token
+  signing_alg: argon2id
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 485566550283-9asmf12hngbapa2n9ulf5yonnuq37g1o.apps.googleusercontent.com
+  client_proof: pyo35ybgsvns9epsu4e2fuv7tfe38qk4
+  secret_rotated_at: "2026-09-28T00:00:00Z"
+  secret_name: auth-db-credentials
+pagination:
+  first_cursor: aW52b2ljZToxNDQ3MDpvZmZzZXQ6MzM2

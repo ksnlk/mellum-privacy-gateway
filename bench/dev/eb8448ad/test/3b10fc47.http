@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://crm-cache-01.corp.brightloop-internal.net/api/v3/invoices?page=2
+Authorization: Basic YWRtaW46QmF5ZXJuaGVydGhhNjk/
+Cookie: _ga=GA1.2.E656ULS7LYL75AV6CBMEKKZUGG; session_id=lucsrgs7b3phwvphf5w1yhb48ophqvei
+X-Request-Id: 2d281f70-2387-4682-8a25-23e959353df5
+
+### the docs example, safe to share
+GET https://o450123.ingest.sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

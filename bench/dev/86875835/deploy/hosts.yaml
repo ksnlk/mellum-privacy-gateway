@@ -1,0 +1,15 @@
+monitoring: falkor.brightloop.systems
+database:
+  host: nimbus.brightloop.systems
+  port: 5432
+queue: hermes.brightloop.systems
+backup_target: vega.brightloop.systems
+website: shop.brightloop.systems
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: sftp.logistik-nord.de
+allow_sources:
+  - 188.160.164.219
+  - 185.199.108.153
+  - 188.175.108.221
+ntp: 216.239.35.0
+mirrors: [registry.terraform.io, gitlab.freedesktop.org]

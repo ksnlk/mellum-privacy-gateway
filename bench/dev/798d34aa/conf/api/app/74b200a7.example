@@ -1,0 +1,52 @@
+app:
+  port: 9900
+  caching:
+    ttl: 5
+    max: 1000
+  auth:
+    enableJwtAuth: false,
+    enableSessionAuth: false,
+    jwtSettings:
+      secret: "eyJpfKgvLbQHJcK4JrZiDlybXMR4IlrtL4eorqi6HU3xIKw4Arc7URHjDkT5dYB0XkSzLGR1"
+
+    strategies:
+      facebook:
+        clientID: 'gfgfggfgfgfgf'
+        sesame: 'bXZ2cWVkYXFi'
+        clientSecret_hash: '$2b$12$w8bQZVLiVoHDWosWEB/qJj71P.MtZJrWRcUAIJTW2FD2m0rKE7Kjg'
+        fbGraphVersion: 'v3.0'
+        callbackURL: 'https://142fa311.ngrok.io/account/facebook/callback'
+      github:
+        clientID: 'gfgfgfgfgfgf'
+        entry_phrase: 'fwqvhydpkcjwztz'
+        fbGraphVersion: 'v3.0'
+        callbackURL: 'https://142fa311.ngrok.io/account/github/callback'
+      google:
+        clientID: 'fgffgfgfg'
+        sesame: 'bbozexklufva'
+        clientSecret_name: 'ledger-api-token'
+        fbGraphVersion: 'v3.0'
+        callbackURL: 'https://142fa311.ngrok.io/account/google/callback'
+
+database:
+  mongodb:
+    uri: mongodb://localhost:27017/
+    name: srv-account
+    options: ""
+
+  eventstore:
+    poolMax:
+    poolMin:
+    streamProtocol: "http"
+    hostname: "localhost"
+    httpPort: 2113
+    httpPotocol: "http"
+    tcpPassword: "cHp3bXdpb3I="
+    tcpUsername: "admin"
+    tcpPort: 1113
+    tcpProtocol: tcp
+
+  redis:
+    host: "localhost"
+    port: "6379"
+    password: ""

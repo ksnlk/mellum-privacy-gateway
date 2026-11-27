@@ -1,0 +1,453 @@
+{
+ "repo": "528ba141",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/15d0c0b8.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 2,
+   "file": "test/15d0c0b8.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_v5jckfwHwdlx85eChp4OYK5O8qS9L17vxjQE"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "src/89e56003.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-prod.3uwhjojtzfx6.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "src/89e56003.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "178.37.36.99"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/89e56003.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "elias.weber@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/89e56003.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-cache-04.prod.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/89e56003.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "variable.mond.force"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/3dcd6570.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-api-03.prod.nordwind-internal.net"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/3dcd6570.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Freudet\u00fcr81!"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/3dcd6570.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "sex318"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/727aa9a6.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "aGF1cy5zY2hhbGtlLmJhdW0=",
+    "haus.schalke.baum"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/727aa9a6.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9RTE8zdTlJZ0xlaVdpNFYzQTBpWFJyQ0c=",
+    "sk_live_QLO3u9IgLeiWi4V3A0iXRrCG"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/727aa9a6.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.bif0cdy0yi9v.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/fc3c0bbf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "n.klein@acme-corp.de"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/fc3c0bbf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 5126 1982"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/fc3c0bbf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Whichever1962*"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/fc3c0bbf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE74375833880045229506"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/0f84c786.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.31.140.136"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/0f84c786.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-prod.6jth70c5vkjj.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/0f84c786.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "T5DUGWRAQ/BPWYE5AX7N2/3lKCdVXxXFfK7MN9FIlEyyfw"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "lib/2df4ae22.js",
+   "line": 92,
+   "whole_line": "      pass = function() {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/15d0c0b8.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "1.1.38"
+  },
+  {
+   "file": "test/15d0c0b8.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4.30.44"
+  },
+  {
+   "file": "test/15d0c0b8.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-pztV23D6IMff1CLFFxIqxDQnopRntW2cP5eNjS+uHpdprQVwzpj9z7iIjipxrVxxzTVpVlpfvsxIteRJQSOWSA=="
+  },
+  {
+   "file": "test/15d0c0b8.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9.3.32"
+  },
+  {
+   "file": "test/15d0c0b8.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-ACAnJOaRs1Adb6OIaDWeWP1+Po7IkKZK9hCsEARl7cDBlNeIZWmoUmMJYfLB3TzsN8bU7JvaH30dBpczGhn7mg=="
+  },
+  {
+   "file": "test/15d0c0b8.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "8.26.28"
+  },
+  {
+   "file": "test/15d0c0b8.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-loCYyz/0p3wDP9xJNzYLX+QiDwtWkoazOWq+OordNzPqo2+wXlXzmSEfe4ngz0EbFZeUIzKjLPnKEq7nj9PUjw=="
+  },
+  {
+   "file": "src/89e56003.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "help.vantor-corp.de"
+  },
+  {
+   "file": "src/89e56003.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "help.vantor-corp.de"
+  },
+  {
+   "file": "src/89e56003.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "src/89e56003.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "src/89e56003.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "src/89e56003.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "src/89e56003.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@vantor-corp.de"
+  },
+  {
+   "file": "src/89e56003.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "aGVsbG9fd29ybGRfdGVzdA=="
+  },
+  {
+   "file": "src/89e56003.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "746578742f706c61696e3b636861727365743d7574662d38"
+  },
+  {
+   "file": "src/89e56003.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "test/3dcd6570.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Lab Summer 6.10"
+  },
+  {
+   "file": "test/3dcd6570.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "backup"
+  },
+  {
+   "file": "test/3dcd6570.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "hannah_anna"
+  },
+  {
+   "file": "test/3dcd6570.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "backup"
+  },
+  {
+   "file": "test/3dcd6570.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "backup"
+  },
+  {
+   "file": "test/3dcd6570.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "Glueck List 2.13"
+  },
+  {
+   "file": "src/727aa9a6.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "bbd4eb9"
+  },
+  {
+   "file": "src/727aa9a6.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "f6b100cadc4990fb3efe81b05ea415673e7c20c973e4b4853d8ddca03d91f373"
+  },
+  {
+   "file": "src/727aa9a6.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "src/727aa9a6.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/fc3c0bbf.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "pypi.org"
+  },
+  {
+   "file": "_/fc3c0bbf.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "jane.doe@example.org"
+  },
+  {
+   "file": "_/fc3c0bbf.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "src/0f84c786.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "20d52861ad2d6af2964b"
+  },
+  {
+   "file": "src/0f84c786.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "src/0f84c786.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "874681d5655ab1163df711f8af12b1a070f2c658"
+  }
+ ]
+}

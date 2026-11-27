@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://billing-replica.brightloop.cloud/api/v3/invoices?page=2
+Authorization: Basic Z3JhZmFuYTrRgdGH0LDRgdGC0YzQtTQ4NDIh
+Cookie: _ga=GA1.2.HFMAOCRWMWZCO15IX1LNE719G8; session_id=tv420hzt69b3t80outofebt8aarldeaf
+X-Request-Id: a7b064b5-ecaa-4cc8-8151-f185f9a56661
+
+### the docs example, safe to share
+GET https://o450123.ingest.sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

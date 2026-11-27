@@ -1,0 +1,1689 @@
+{
+ "repo": "69f42949",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "docs/bab3ed01.md",
+   "line": 81,
+   "start": 16,
+   "end": 55,
+   "category": "Token:API:Key:Google API Key",
+   "mutation": "rename",
+   "forms": [
+    "AIzaGvMWZ2V-gYVTkiioZLsLBosR7acIGopDU_c"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "example/2bf8686b.cjs",
+   "line": 519,
+   "start": 2606,
+   "end": 2638,
+   "category": "Token:API:Key",
+   "mutation": "none",
+   "forms": [
+    "111ae6f83f3318f9695779ea4cd91e3d"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "other/6d8bc57c.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "Z2x1ZWNrLXNjcmF0Y2gtaGFubmFoLWJpbnQ=",
+    "glueck-scratch-hannah-bint"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/6d8bc57c.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9jS0VXaktaa0dqUFVJYzVOcm1hQkJkUUE=",
+    "sk_live_cKEWjKZkGjPUIc5NrmaBBdQA"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/6d8bc57c.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-prod.udoum9v9pp6y.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/1203d93a.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.jj6yla.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/1203d93a.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_8O0jDTvD3VckuxLlddzrXzrb7vzt6ZSiBrzU"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/acd7138c.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "77, 89, 70, 68, 120, 57, 97, 98, 104, 101, 112, 117, 53, 112, 101, 117, 106, 77, 119, 76, 107, 89, 48, 78, 112, 70, 97, 50, 86, 86, 51, 120",
+    "MYFDx9abhepu5peujMwLkY0NpFa2VV3x"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/acd7138c.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "elias.klein@nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/adcc2894.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "37356265323063353031373737643631316235303030303266346237653238336635376363643766623135383261623862363332376330313833633862623932",
+    "75be20c501777d611b500002f4b7e283f57ccd7fb1582ab8b6327c0183c8bb92"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/bd267b11.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Eva Neumann"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/bd267b11.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "b.becker@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/bd267b11.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 6662 5590"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/bd267b11.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.29.119.165"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/bd267b11.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "indirectly_tobias_declined57"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/3cfff6ca.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "worse.tuer.bayern.deck"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/3cfff6ca.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-prod.qqsmc4pzkylc.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.acme.systems"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.acme.systems"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.acme.systems"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.2.114.0/24"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.2.114.64"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.acme.systems"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.acme.systems"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.acme.systems"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.acme.systems"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.acme.systems"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.2.114.187"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Elias Hartmann"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "elias.hartmann@gmx.de"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 7258189"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Ben Fischer"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "ben.fischer@gmail.com"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 5228051"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "docs/bab3ed01.md",
+   "line": 83,
+   "value": "solito-example.firebaseapp.com",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/bab3ed01.md",
+   "line": 90,
+   "value": "initializeAuth(firebaseApp",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/bab3ed01.md",
+   "line": 82,
+   "value": "Authorization",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 26,
+   "value": "^4.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 37,
+   "value": "^4.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 88,
+   "value": "^7.18.9",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 90,
+   "value": "7.18.9",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 141,
+   "value": "^7.18.9",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 192,
+   "value": "^3.3.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 243,
+   "value": "3.1.6",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 294,
+   "value": "^1.0.4",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 345,
+   "value": "^9.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 347,
+   "value": "9.3.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 352,
+   "value": "^5.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 354,
+   "value": "5.1.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 356,
+   "value": "^9.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 386,
+   "value": "^29.2.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 388,
+   "value": "29.5.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 439,
+   "value": "11.3.6",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 454,
+   "value": "11.3.6",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 456,
+   "value": "11.3.6",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 507,
+   "value": "11.3.6",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 558,
+   "value": "^9.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 609,
+   "value": "5.57.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 626,
+   "value": "5.57.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 639,
+   "value": "5.57.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 641,
+   "value": "5.57.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 644,
+   "value": "^3.3.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 695,
+   "value": "^2.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 699,
+   "value": "^3.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 700,
+   "value": "^1.0.2",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 701,
+   "value": "^1.0.5",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 702,
+   "value": "^1.2.2",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 721,
+   "value": "^2.1.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 725,
+   "value": "^3.1.6",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 726,
+   "value": "^1.0.2",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 727,
+   "value": "^1.0.5",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 728,
+   "value": "^1.2.4",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 779,
+   "value": "^2.0.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 791,
+   "value": "^3.1.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 842,
+   "value": "^1.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 893,
+   "value": "^1.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 944,
+   "value": "^1.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 995,
+   "value": "^3.4.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 995,
+   "value": "^3.3.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 997,
+   "value": "3.4.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1020,
+   "value": "^3.4.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1058,
+   "value": "^3.4.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1109,
+   "value": "^2.1.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1109,
+   "value": "^2.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1111,
+   "value": "2.1.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1113,
+   "value": "^3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1164,
+   "value": "^9.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1165,
+   "value": "^5.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1187,
+   "value": "^3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1187,
+   "value": "^4.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1189,
+   "value": "4.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1240,
+   "value": "^3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1291,
+   "value": "^3.1.6",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1292,
+   "value": "^1.0.2",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1293,
+   "value": "^2.0.3",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1294,
+   "value": "^1.0.5",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1295,
+   "value": "^1.2.4",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1346,
+   "value": "0.76.8",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1348,
+   "value": "0.76.8",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1399,
+   "value": "0.76.8",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1435,
+   "value": "0.76.8",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1486,
+   "value": "^1.0.2",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1488,
+   "value": "1.0.2",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1490,
+   "value": "^3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1495,
+   "value": "^2.0.3",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1497,
+   "value": "2.1.2",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1500,
+   "value": "^3.1.6",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1501,
+   "value": "^1.0.3",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1510,
+   "value": "^1.0.5",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1512,
+   "value": "1.0.5",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1514,
+   "value": "^3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1519,
+   "value": "^1.2.4",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1519,
+   "value": "^1.2.2",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1521,
+   "value": "1.2.4",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1523,
+   "value": "^3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1528,
+   "value": "^1.0.3",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1530,
+   "value": "1.0.3",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1532,
+   "value": "^3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1537,
+   "value": "3.1.6",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1539,
+   "value": "3.1.6",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1546,
+   "value": "^3.1.6",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1546,
+   "value": "^3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1546,
+   "value": "^3.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1548,
+   "value": "3.3.6",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1555,
+   "value": "^4.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1557,
+   "value": "4.2.5",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1566,
+   "value": "^3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1617,
+   "value": "^1.1.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1668,
+   "value": "^2.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1677,
+   "value": "^3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1728,
+   "value": "^1.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1730,
+   "value": "1.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1742,
+   "value": "^1.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1793,
+   "value": "^1.0.4",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1795,
+   "value": "1.1.2",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1831,
+   "value": "^2.0.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1831,
+   "value": "^2.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1833,
+   "value": "2.0.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1838,
+   "value": "^3.1.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1838,
+   "value": "^3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1840,
+   "value": "3.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1891,
+   "value": "^29.2.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1942,
+   "value": "^3.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 1951,
+   "value": "^3.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 2002,
+   "value": "eaac4cf978b6fbd480f1092cab8b233c9b949bcabfc9b598dd79a758f7243c28765ef7639c876fa72940dac687181b35486ea01ff7df3e65ce3848c64822c581",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 2053,
+   "value": "^2.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/00eeea58.lock",
+   "line": 2054,
+   "value": "^4.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 17,
+   "value": "tag:yaml.org,2002:int",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 27,
+   "value": "t.sortKeys||!1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 78,
+   "value": "e=null}={}){let",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 80,
+   "value": "r=Hn.EndOfInput}={}){let",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 84,
+   "value": "p.path",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 118,
+   "value": "Wrong",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 118,
+   "value": "uN.t",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 126,
+   "value": "Array.prototype.slice",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 126,
+   "value": "b.output!=null?b.output:b.value",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 128,
+   "whole_line": "`,I.message,I.stack);var v=new Error(\"tunneling socket could not be established, cause=\"+I.message);v.code=\"ECONNRESET\",e.request.emit(\"error\",v),o.removeSocket(a)}};Ff.prototype.removeSocket=function(e){var r=this.sockets.indexOf(e);if(r!==-1){this.sockets.splice(r,1);var o=this.requests.shift();o&&this.createSocket(o,function(a){o.request.onSocket(a)})}};function Hse(t,e){var r=this;Ff.prototype.createSocket.call(r,t,function(o){var a=t.request.getHeader(\"host\"),n=IM({},r.options,{socket:o,servername:a?a.replace(/:.*$/,\"\"):t.host}),u=Prt.connect(0,n);r.sockets[r.sockets.indexOf(o)]=u,e(u)})}function qse(t,e,r){return typeof t==\"string\"?{host:t,port:e,localAddress:r}:t}function IM(t){for(var e=1,r=arguments.length;e<r;++e){var o=arguments[e];if(typeof o==\"object\")for(var a=Object.keys(o),n=0,u=a.length;n<u;++n){var A=a[n];o[A]!==void 0&&(t[A]=o[A])}}return t}var oh;process.env.NODE_DEBUG&&/\\btunnel\\b/.test(process.env.NODE_DEBUG)?oh=function(){var t=Array.prototype.slice.call(arguments);typeof t[0]==\"string\"?t[0]=\"TUNNEL: \"+t[0]:t.unshift(\"TUNNEL:\"),console.error.apply(console,t)}:oh=function(){};CE.debug=oh});var Yse=_((aLt,Gse)=>{Gse.exports=jse()});var Tf=_((Rf,KP)=>{\"use strict\";Object.defineProperty(Rf,\"__esModule\",{value:!0});var Wse=[\"Int8Array\",\"Uint8Array\",\"Uint8ClampedArray\",\"Int16Array\",\"Uint16Array\",\"Int32Array\",\"Uint32Array\",\"Float32Array\",\"Float64Array\",\"BigInt64Array\",\"BigUint64Array\"];function Trt(t){return Wse.includes(t)}var Nrt=[\"Function\",\"Generator\",\"AsyncGenerator\",\"GeneratorFunction\",\"AsyncGeneratorFunction\",\"AsyncFunction\",\"Observable\",\"Array\",\"Buffer\",\"Object\",\"RegExp\",\"Date\",\"Error\",\"Map\",\"Set\",\"WeakMap\",\"WeakSet\",\"ArrayBuffer\",\"SharedArrayBuffer\",\"DataView\",\"Promise\",\"URL\",\"FormData\",\"URLSearchParams\",\"HTMLElement\",...Wse];function Lrt(t){return Nrt.includes(t)}var Ort=[\"null\",\"undefined\",\"string\",\"number\",\"bigint\",\"boolean\",\"symbol\"];function Mrt(t){return Ort.includes(t)}function wE(t){return e=>typeof e===t}var{toString:Kse}=Object.prototype,f1=t=>{let e=Kse.call(t).slice(8,-1);if(/HTML\\w+Element/.test(e)&&be.domElement(t))return\"HTMLElement\";if(Lrt(e))return e},ei=t=>e=>f1(e)===t;function be(t){if(t===null)return\"null\";switch(typeof t){case\"undefined\":return\"undefined\";case\"string\":return\"string\";case\"number\":return\"number\";case\"boolean\":return\"boolean\";case\"function\":return\"Function\";case\"bigint\":return\"bigint\";case\"symbol\":return\"symbol\";default:}if(be.observable(t))return\"Observable\";if(be.array(t))return\"Array\";if(be.buffer(t))return\"Buffer\";let e=f1(t);if(e)return e;if(t instanceof String||t instanceof Boolean||t instanceof Number)throw new TypeError(\"Please don't use object wrappers for primitive types\");return\"Object\"}be.undefined=wE(\"undefined\");be.string=wE(\"string\");var Urt=wE(\"number\");be.number=t=>Urt(t)&&!be.nan(t);be.bigint=wE(\"bigint\");be.function_=wE(\"function\");be.null_=t=>t===null;be.class_=t=>be.function_(t)&&t.toString().startsWith(\"class \");be.boolean=t=>t===!0||t===!1;be.symbol=wE(\"symbol\");be.numericString=t=>be.string(t)&&!be.emptyStringOrWhitespace(t)&&!Number.isNaN(Number(t));be.array=(t,e)=>Array.isArray(t)?be.function_(e)?t.every(e):!0:!1;be.buffer=t=>{var e,r,o,a;return(a=(o=(r=(e=t)===null||e===void 0?void 0:e.constructor)===null||r===void 0?void 0:r.isBuffer)===null||o===void 0?void 0:o.call(r,t))!==null&&a!==void 0?a:!1};be.nullOrUndefined=t=>be.null_(t)||be.undefined(t);be.object=t=>!be.null_(t)&&(typeof t==\"object\"||be.function_(t));be.iterable=t=>{var e;return be.function_((e=t)===null||e===void 0?void 0:e[Symbol.iterator])};be.asyncIterable=t=>{var e;return be.function_((e=t)===null||e===void 0?void 0:e[Symbol.asyncIterator])};be.generator=t=>be.iterable(t)&&be.function_(t.next)&&be.function_(t.throw);be.asyncGenerator=t=>be.asyncIterable(t)&&be.function_(t.next)&&be.function_(t.throw);be.nativePromise=t=>ei(\"Promise\")(t);var _rt=t=>{var e,r;return be.function_((e=t)===null||e===void 0?void 0:e.then)&&be.function_((r=t)===null||r===void 0?void 0:r.catch)};be.promise=t=>be.nativePromise(t)||_rt(t);be.generatorFunction=ei(\"GeneratorFunction\");be.asyncGeneratorFunction=t=>f1(t)===\"AsyncGeneratorFunction\";be.asyncFunction=t=>f1(t)===\"AsyncFunction\";be.boundFunction=t=>be.function_(t)&&!t.hasOwnProperty(\"prototype\");be.regExp=ei(\"RegExp\");be.date=ei(\"Date\");be.error=ei(\"Error\");be.map=t=>ei(\"Map\")(t);be.set=t=>ei(\"Set\")(t);be.weakMap=t=>ei(\"WeakMap\")(t);be.weakSet=t=>ei(\"WeakSet\")(t);be.int8Array=ei(\"Int8Array\");be.uint8Array=ei(\"Uint8Array\");be.uint8ClampedArray=ei(\"Uint8ClampedArray\");be.int16Array=ei(\"Int16Array\");be.uint16Array=ei(\"Uint16Array\");be.int32Array=ei(\"Int32Array\");be.uint32Array=ei(\"Uint32Array\");be.float32Array=ei(\"Float32Array\");be.float64Array=ei(\"Float64Array\");be.bigInt64Array=ei(\"BigInt64Array\");be.bigUint64Array=ei(\"BigUint64Array\");be.arrayBuffer=ei(\"ArrayBuffer\");be.sharedArrayBuffer=ei(\"SharedArrayBuffer\");be.dataView=ei(\"DataView\");be.directInstanceOf=(t,e)=>Object.getPrototypeOf(t)===e.prototype;be.urlInstance=t=>ei(\"URL\")(t);be.urlString=t=>{if(!be.string(t))return!1;try{return new URL(t),!0}catch{return!1}};be.truthy=t=>Boolean(t);be.falsy=t=>!t;be.nan=t=>Number.isNaN(t);be.primitive=t=>be.null_(t)||Mrt(typeof t);be.integer=t=>Number.isInteger(t);be.safeInteger=t=>Number.isSafeInteger(t);be.plainObject=t=>{if(Kse.call(t)!==\"[object Object]\")return!1;let e=Object.getPrototypeOf(t);return e===null||e===Object.getPrototypeOf({})};be.typedArray=t=>Trt(f1(t));var Hrt=t=>be.safeInteger(t)&&t>=0;be.arrayLike=t=>!be.nullOrUndefined(t)&&!be.function_(t)&&Hrt(t.length);be.inRange=(t,e)=>{if(be.number(e))return t>=Math.min(0,e)&&t<=Math.max(e,0);if(be.array(e)&&e.length===2)return t>=Math.min(...e)&&t<=Math.max(...e);throw new TypeError(`Invalid range: ${JSON.stringify(e)}`)};var qrt=1,jrt=[\"innerHTML\",\"ownerDocument\",\"style\",\"attributes\",\"nodeValue\"];be.domElement=t=>be.object(t)&&t.nodeType===qrt&&be.string(t.nodeName)&&!be.plainObject(t)&&jrt.every(e=>e in t);be.observable=t=>{var e,r,o,a;return t?t===((r=(e=t)[Symbol.observable])===null||r===void 0?void 0:r.call(e))||t===((a=(o=t)[\"@@observable\"])===null||a===void 0?void 0:a.call(o)):!1};be.nodeStream=t=>be.object(t)&&be.function_(t.pipe)&&!be.observable(t);be.infinite=t=>t===1/0||t===-1/0;var Vse=t=>e=>be.integer(e)&&Math.abs(e%2)===t;be.evenInteger=Vse(0);be.oddInteger=Vse(1);be.emptyArray=t=>be.array(t)&&t.length===0;be.nonEmptyArray=t=>be.array(t)&&t.length>0;be.emptyString=t=>be.string(t)&&t.length===0;be.nonEmptyString=t=>be.string(t)&&t.length>0;var Grt=t=>be.string(t)&&!/\\S/.test(t);be.emptyStringOrWhitespace=t=>be.emptyString(t)||Grt(t);be.emptyObject=t=>be.object(t)&&!be.map(t)&&!be.set(t)&&Object.keys(t).length===0;be.nonEmptyObject=t=>be.object(t)&&!be.map(t)&&!be.set(t)&&Object.keys(t).length>0;be.emptySet=t=>be.set(t)&&t.size===0;be.nonEmptySet=t=>be.set(t)&&t.size>0;be.emptyMap=t=>be.map(t)&&t.size===0;be.nonEmptyMap=t=>be.map(t)&&t.size>0;be.propertyKey=t=>be.any([be.string,be.number,be.symbol],t);be.formData=t=>ei(\"FormData\")(t);be.urlSearchParams=t=>ei(\"URLSearchParams\")(t);var Jse=(t,e,r)=>{if(!be.function_(e))throw new TypeError(`Invalid predicate: ${JSON.stringify(e)}`);if(r.length===0)throw new TypeError(\"Invalid number of values\");return t.call(r,e)};be.any=(t,...e)=>(be.array(t)?t:[t]).some(o=>Jse(Array.prototype.some,o,e));be.all=(t,...e)=>Jse(Array.prototype.every,t,e);var Ht=(t,e,r,o={})=>{if(!t){let{multipleValues:a}=o,n=a?`received values of types ${[...new Set(r.map(u=>`\\`${be(u)}\\``))].join(\", \")}`:`received value of type \\`${be(r)}\\``;throw new TypeError(`Expected value which is \\`${e}\\`, ${n}.`)}};Rf.assert={undefined:t=>Ht(be.undefined(t),\"undefined\",t),string:t=>Ht(be.string(t),\"string\",t),number:t=>Ht(be.number(t),\"number\",t),bigint:t=>Ht(be.bigint(t),\"bigint\",t),function_:t=>Ht(be.function_(t),\"Function\",t),null_:t=>Ht(be.null_(t),\"null\",t),class_:t=>Ht(be.class_(t),\"Class\",t),boolean:t=>Ht(be.boolean(t),\"boolean\",t),symbol:t=>Ht(be.symbol(t),\"symbol\",t),numericString:t=>Ht(be.numericString(t),\"string with a number\",t),array:(t,e)=>{Ht(be.array(t),\"Array\",t),e&&t.forEach(e)},buffer:t=>Ht(be.buffer(t),\"Buffer\",t),nullOrUndefined:t=>Ht(be.nullOrUndefined(t),\"null or undefined\",t),object:t=>Ht(be.object(t),\"Object\",t),iterable:t=>Ht(be.iterable(t),\"Iterable\",t),asyncIterable:t=>Ht(be.asyncIterable(t),\"AsyncIterable\",t),generator:t=>Ht(be.generator(t),\"Generator\",t),asyncGenerator:t=>Ht(be.asyncGenerator(t),\"AsyncGenerator\",t),nativePromise:t=>Ht(be.nativePromise(t),\"native Promise\",t),promise:t=>Ht(be.promise(t),\"Promise\",t),generatorFunction:t=>Ht(be.generatorFunction(t),\"GeneratorFunction\",t),asyncGeneratorFunction:t=>Ht(be.asyncGeneratorFunction(t),\"AsyncGeneratorFunction\",t),asyncFunction:t=>Ht(be.asyncFunction(t),\"AsyncFunction\",t),boundFunction:t=>Ht(be.boundFunction(t),\"Function\",t),regExp:t=>Ht(be.regExp(t),\"RegExp\",t),date:t=>Ht(be.date(t),\"Date\",t),error:t=>Ht(be.error(t),\"Error\",t),map:t=>Ht(be.map(t),\"Map\",t),set:t=>Ht(be.set(t),\"Set\",t),weakMap:t=>Ht(be.weakMap(t),\"WeakMap\",t),weakSet:t=>Ht(be.weakSet(t),\"WeakSet\",t),int8Array:t=>Ht(be.int8Array(t),\"Int8Array\",t),uint8Array:t=>Ht(be.uint8Array(t),\"Uint8Array\",t),uint8ClampedArray:t=>Ht(be.uint8ClampedArray(t),\"Uint8ClampedArray\",t),int16Array:t=>Ht(be.int16Array(t),\"Int16Array\",t),uint16Array:t=>Ht(be.uint16Array(t),\"Uint16Array\",t),int32Array:t=>Ht(be.int32Array(t),\"Int32Array\",t),uint32Array:t=>Ht(be.uint32Array(t),\"Uint32Array\",t),float32Array:t=>Ht(be.float32Array(t),\"Float32Array\",t),float64Array:t=>Ht(be.float64Array(t),\"Float64Array\",t),bigInt64Array:t=>Ht(be.bigInt64Array(t),\"BigInt64Array\",t),bigUint64Array:t=>Ht(be.bigUint64Array(t),\"BigUint64Array\",t),arrayBuffer:t=>Ht(be.arrayBuffer(t),\"ArrayBuffer\",t),sharedArrayBuffer:t=>Ht(be.sharedArrayBuffer(t),\"SharedArrayBuffer\",t),dataView:t=>Ht(be.dataView(t),\"DataView\",t),urlInstance:t=>Ht(be.urlInstance(t),\"URL\",t),urlString:t=>Ht(be.urlString(t),\"string with a URL\",t),truthy:t=>Ht(be.truthy(t),\"truthy\",t),falsy:t=>Ht(be.falsy(t),\"falsy\",t),nan:t=>Ht(be.nan(t),\"NaN\",t),primitive:t=>Ht(be.primitive(t),\"primitive\",t),integer:t=>Ht(be.integer(t),\"integer\",t),safeInteger:t=>Ht(be.safeInteger(t),\"integer\",t),plainObject:t=>Ht(be.plainObject(t),\"plain object\",t),typedArray:t=>Ht(be.typedArray(t),\"TypedArray\",t),arrayLike:t=>Ht(be.arrayLike(t),\"array-like\",t),domElement:t=>Ht(be.domElement(t),\"HTMLElement\",t),observable:t=>Ht(be.observable(t),\"Observable\",t),nodeStream:t=>Ht(be.nodeStream(t),\"Node.js Stream\",t),infinite:t=>Ht(be.infinite(t),\"infinite number\",t),emptyArray:t=>Ht(be.emptyArray(t),\"empty array\",t),nonEmptyArray:t=>Ht(be.nonEmptyArray(t),\"non-empty array\",t),emptyString:t=>Ht(be.emptyString(t),\"empty string\",t),nonEmptyString:t=>Ht(be.nonEmptyString(t),\"non-empty string\",t),emptyStringOrWhitespace:t=>Ht(be.emptyStringOrWhitespace(t),\"empty string or whitespace\",t),emptyObject:t=>Ht(be.emptyObject(t),\"empty object\",t),nonEmptyObject:t=>Ht(be.nonEmptyObject(t),\"non-empty object\",t),emptySet:t=>Ht(be.emptySet(t),\"empty set\",t),nonEmptySet:t=>Ht(be.nonEmptySet(t),\"non-empty set\",t),emptyMap:t=>Ht(be.emptyMap(t),\"empty map\",t),nonEmptyMap:t=>Ht(be.nonEmptyMap(t),\"non-empty map\",t),propertyKey:t=>Ht(be.propertyKey(t),\"PropertyKey\",t),formData:t=>Ht(be.formData(t),\"FormData\",t),urlSearchParams:t=>Ht(be.urlSearchParams(t),\"URLSearchParams\",t),evenInteger:t=>Ht(be.evenInteger(t),\"even integer\",t),oddInteger:t=>Ht(be.oddInteger(t),\"odd integer\",t),directInstanceOf:(t,e)=>Ht(be.directInstanceOf(t,e),\"T\",t),inRange:(t,e)=>Ht(be.inRange(t,e),\"in range\",t),any:(t,...e)=>Ht(be.any(t,...e),\"predicate returns truthy for any value\",e,{multipleValues:!0}),all:(t,...e)=>Ht(be.all(t,...e),\"predicate returns truthy for all values\",e,{multipleValues:!0})};Object.defineProperties(be,{class:{value:be.class_},function:{value:be.function_},null:{value:be.null_}});Object.defineProperties(Rf.assert,{class:{value:Rf.assert.class_},function:{value:Rf.assert.function_},null:{value:Rf.assert.null_}});Rf.default=be;KP.exports=be;KP.exports.default=be;KP.exports.assert=Rf.assert});var zse=_((lLt,BM)=>{\"use strict\";var VP=class extends Error{constructor(e){super(e||\"Promise was canceled\"),this.name=\"CancelError\"}get isCanceled(){return!0}},IE=class{static fn(e){return(...r)=>new IE((o,a,n)=>{r.push(n),e(...r).then(o,a)})}constructor(e){this._cancelHandlers=[],this._isPending=!0,this._isCanceled=!1,this._rejectOnCancel=!0,this._promise=new Promise((r,o)=>{this._reject=o;let a=A=>{this._isPending=!1,r(A)},n=A=>{this._isPending=!1,o(A)},u=A=>{if(!this._isPending)throw new Error(\"The `onCancel` handler was attached after the promise settled.\");this._cancelHandlers.push(A)};return Object.defineProperties(u,{shouldReject:{get:()=>this._rejectOnCancel,set:A=>{this._rejectOnCancel=A}}}),e(a,n,u)})}then(e,r){return this._promise.then(e,r)}catch(e){return this._promise.catch(e)}finally(e){return this._promise.finally(e)}cancel(e){if(!(!this._isPending||this._isCanceled)){if(this._cancelHandlers.length>0)try{for(let r of this._cancelHandlers)r()}catch(r){this._reject(r)}this._isCanceled=!0,this._rejectOnCancel&&this._reject(new VP(e))}}get isCanceled(){return this._isCanceled}};Object.setPrototypeOf(IE.prototype,Promise.prototype);BM.exports=IE;BM.exports.CancelError=VP});var Xse=_((DM,SM)=>{\"use strict\";Object.defineProperty(DM,\"__esModule\",{value:!0});var Yrt=ve(\"tls\"),vM=(t,e)=>{let r;typeof e==\"function\"?r={connect:e}:r=e;let o=typeof r.connect==\"function\",a=typeof r.secureConnect==\"function\",n=typeof r.close==\"function\",u=()=>{o&&r.connect(),t instanceof Yrt.TLSSocket&&a&&(t.authorized?r.secureConnect():t.authorizationError||t.once(\"secureConnect\",r.secureConnect)),n&&t.once(\"close\",r.close)};t.writable&&!t.connecting?u():t.connecting?t.once(\"connect\",u):t.destroyed&&n&&r.close(t._hadError)};DM.default=vM;SM.exports=vM;SM.exports.default=vM});var Zse=_((bM,xM)=>{\"use strict\";Object.defineProperty(bM,\"__esModule\",{value:!0});var Wrt=Xse(),Krt=Number(process.versions.node.split(\".\")[0]),PM=t=>{let e={start:Date.now(),socket:void 0,lookup:void 0,connect:void 0,secureConnect:void 0,upload:void 0,response:void 0,end:void 0,error:void 0,abort:void 0,phases:{wait:void 0,dns:void 0,tcp:void 0,tls:void 0,request:void 0,firstByte:void 0,download:void 0,total:void 0}};t.timings=e;let r=u=>{let A=u.emit.bind(u);u.emit=(p,...h)=>(p===\"error\"&&(e.error=Date.now(),e.phases.total=e.error-e.start,u.emit=A),A(p,...h))};r(t),t.prependOnceListener(\"abort\",()=>{e.abort=Date.now(),(!e.response||Krt>=13)&&(e.phases.total=Date.now()-e.start)});let o=u=>{e.socket=Date.now(),e.phases.wait=e.socket-e.start;let A=()=>{e.lookup=Date.now(),e.phases.dns=e.lookup-e.socket};u.prependOnceListener(\"lookup\",A),Wrt.default(u,{connect:()=>{e.connect=Date.now(),e.lookup===void 0&&(u.removeListener(\"lookup\",A),e.lookup=e.connect,e.phases.dns=e.lookup-e.socket),e.phases.tcp=e.connect-e.lookup},secureConnect:()=>{e.secureConnect=Date.now(),e.phases.tls=e.secureConnect-e.connect}})};t.socket?o(t.socket):t.prependOnceListener(\"socket\",o);let a=()=>{var u;e.upload=Date.now(),e.phases.request=e.upload-(u=e.secureConnect,u??e.connect)};return(()=>typeof t.writableFinished==\"boolean\"?t.writableFinished:t.finished&&t.outputSize===0&&(!t.socket||t.socket.writableLength===0))()?a():t.prependOnceListener(\"finish\",a),t.prependOnceListener(\"response\",u=>{e.response=Date.now(),e.phases.firstByte=e.response-e.upload,u.timings=e,r(u),u.prependOnceListener(\"end\",()=>{e.end=Date.now(),e.phases.download=e.end-e.response,e.phases.total=e.end-e.start})}),e};bM.default=PM;xM.exports=PM;xM.exports.default=PM});var soe=_((cLt,FM)=>{\"use strict\";var{V4MAPPED:Vrt,ADDRCONFIG:Jrt,ALL:ioe,promises:{Resolver:$se},lookup:zrt}=ve(\"dns\"),{promisify:kM}=ve(\"util\"),Xrt=ve(\"os\"),BE=Symbol(\"cacheableLookupCreateConnection\"),QM=Symbol(\"cacheableLookupInstance\"),eoe=Symbol(\"expires\"),Zrt=typeof ioe==\"number\",toe=t=>{if(!(t&&typeof t.createConnection==\"function\"))throw new Error(\"Expected an Agent instance as the first argument\")},$rt=t=>{for(let e of t)e.family!==6&&(e.address=`::ffff:${e.address}`,e.family=6)},roe=()=>{let t=!1,e=!1;for(let r of Object.values(Xrt.networkInterfaces()))for(let o of r)if(!o.internal&&(o.family===\"IPv6\"?e=!0:t=!0,t&&e))return{has4:t,has6:e};return{has4:t,has6:e}},ent=t=>Symbol.iterator in t,noe={ttl:!0},tnt={all:!0},JP=class{constructor({cache:e=new Map,maxTtl:r=1/0,fallbackDuration:o=3600,errorTtl:a=.15,resolver:n=new $se,lookup:u=zrt}={}){if(this.maxTtl=r,this.errorTtl=a,this._cache=e,this._resolver=n,this._dnsLookup=kM(u),this._resolver instanceof $se?(this._resolve4=this._resolver.resolve4.bind(this._resolver),this._resolve6=this._resolver.resolve6.bind(this._resolver)):(this._resolve4=kM(this._resolver.resolve4.bind(this._resolver)),this._resolve6=kM(this._resolver.resolve6.bind(this._resolver))),this._iface=roe(),this._pending={},this._nextRemovalTime=!1,this._hostnamesToFallback=new Set,o<1)this._fallback=!1;else{this._fallback=!0;let A=setInterval(()=>{this._hostnamesToFallback.clear()},o*1e3);A.unref&&A.unref()}this.lookup=this.lookup.bind(this),this.lookupAsync=this.lookupAsync.bind(this)}set servers(e){this.clear(),this._resolver.setServers(e)}get servers(){return this._resolver.getServers()}lookup(e,r,o){if(typeof r==\"function\"?(o=r,r={}):typeof r==\"number\"&&(r={family:r}),!o)throw new Error(\"Callback must be a function.\");this.lookupAsync(e,r).then(a=>{r.all?o(null,a):o(null,a.address,a.family,a.expires,a.ttl)},o)}async lookupAsync(e,r={}){typeof r==\"number\"&&(r={family:r});let o=await this.query(e);if(r.family===6){let a=o.filter(n=>n.family===6);r.hints&Vrt&&(Zrt&&r.hints&ioe||a.length===0)?$rt(o):o=a}else r.family===4&&(o=o.filter(a=>a.family===4));if(r.hints&Jrt){let{_iface:a}=this;o=o.filter(n=>n.family===6?a.has6:a.has4)}if(o.length===0){let a=new Error(`cacheableLookup ENOTFOUND ${e}`);throw a.code=\"ENOTFOUND\",a.hostname=e,a}return r.all?o:o[0]}async query(e){let r=await this._cache.get(e);if(!r){let o=this._pending[e];if(o)r=await o;else{let a=this.queryAndCache(e);this._pending[e]=a,r=await a}}return r=r.map(o=>({...o})),r}async _resolve(e){let r=async h=>{try{return await h}catch(E){if(E.code===\"ENODATA\"||E.code===\"ENOTFOUND\")return[];throw E}},[o,a]=await Promise.all([this._resolve4(e,noe),this._resolve6(e,noe)].map(h=>r(h))),n=0,u=0,A=0,p=Date.now();for(let h of o)h.family=4,h.expires=p+h.ttl*1e3,n=Math.max(n,h.ttl);for(let h of a)h.family=6,h.expires=p+h.ttl*1e3,u=Math.max(u,h.ttl);return o.length>0?a.length>0?A=Math.min(n,u):A=n:A=u,{entries:[...o,...a],cacheTtl:A}}async _lookup(e){try{return{entries:await this._dnsLookup(e,{all:!0}),cacheTtl:0}}catch{return{entries:[],cacheTtl:0}}}async _set(e,r,o){if(this.maxTtl>0&&o>0){o=Math.min(o,this.maxTtl)*1e3,r[eoe]=Date.now()+o;try{await this._cache.set(e,r,o)}catch(a){this.lookupAsync=async()=>{let n=new Error(\"Cache Error. Please recreate the CacheableLookup instance.\");throw n.cause=a,n}}ent(this._cache)&&this._tick(o)}}async queryAndCache(e){if(this._hostnamesToFallback.has(e))return this._dnsLookup(e,tnt);try{let r=await this._resolve(e);r.entries.length===0&&this._fallback&&(r=await this._lookup(e),r.entries.length!==0&&this._hostnamesToFallback.add(e));let o=r.entries.length===0?this.errorTtl:r.cacheTtl;return await this._set(e,r.entries,o),delete this._pending[e],r.entries}catch(r){throw delete this._pending[e],r}}_tick(e){let r=this._nextRemovalTime;(!r||e<r)&&(clearTimeout(this._removalTimeout),this._nextRemovalTime=e,this._removalTimeout=setTimeout(()=>{this._nextRemovalTime=!1;let o=1/0,a=Date.now();for(let[n,u]of this._cache){let A=u[eoe];a>=A?this._cache.delete(n):A<o&&(o=A)}o!==1/0&&this._tick(o-a)},e),this._removalTimeout.unref&&this._removalTimeout.unref())}install(e){if(toe(e),BE in e)throw new Error(\"CacheableLookup has been already installed\");e[BE]=e.createConnection,e[QM]=this,e.createConnection=(r,o)=>(\"lookup\"in r||(r.lookup=this.lookup),e[BE](r,o))}uninstall(e){if(toe(e),e[BE]){if(e[QM]!==this)throw new Error(\"The agent is not owned by this CacheableLookup instance\");e.createConnection=e[BE],delete e[BE],delete e[QM]}}updateInterfaceInfo(){let{_iface:e}=this;this._iface=roe(),(e.has4&&!this._iface.has4||e.has6&&!this._iface.has6)&&this._cache.clear()}clear(e){if(e){this._cache.delete(e);return}this._cache.clear()}};FM.exports=JP;FM.exports.default=JP});var loe=_((uLt,RM)=>{\"use strict\";var rnt=typeof URL>\"u\"?ve(\"url\").URL:URL,nnt=\"text/plain\",int=\"us-ascii\",ooe=(t,e)=>e.some(r=>r instanceof RegExp?r.test(t):r===t),snt=(t,{stripHash:e})=>{let r=t.match(/^data:([^,]*?),([^#]*?)(?:#(.*))?$/);if(!r)throw new Error(`Invalid URL: ${t}`);let o=r[1].split(\";\"),a=r[2],n=e?\"\":r[3],u=!1;o[o.length-1]===\"base64\"&&(o.pop(),u=!0);let A=(o.shift()||\"\").toLowerCase(),h=[...o.map(E=>{let[I,v=\"\"]=E.split(\"=\").map(x=>x.trim());return I===\"charset\"&&(v=v.toLowerCase(),v===int)?\"\":`${I}${v?`=${v}`:\"\"}`}).filter(Boolean)];return u&&h.push(\"base64\"),(h.length!==0||A&&A!==nnt)&&h.unshift(A),`data:${h.join(\";\")},${u?a.trim():a}${n?`#${n}`:\"\"}`},aoe=(t,e)=>{if(e={defaultProtocol:\"http:\",normalizeProtocol:!0,forceHttp:!1,forceHttps:!1,stripAuthentication:!0,stripHash:!1,stripWWW:!0,removeQueryParameters:[/^utm_\\w+/i],removeTrailingSlash:!0,removeDirectoryIndex:!1,sortQueryParameters:!0,...e},Reflect.has(e,\"normalizeHttps\"))throw new Error(\"options.normalizeHttps is renamed to options.forceHttp\");if(Reflect.has(e,\"normalizeHttp\"))throw new Error(\"options.normalizeHttp is renamed to options.forceHttps\");if(Reflect.has(e,\"stripFragment\"))throw new Error(\"options.stripFragment is renamed to options.stripHash\");if(t=t.trim(),/^data:/i.test(t))return snt(t,e);let r=t.startsWith(\"//\");!r&&/^\\.*\\//.test(t)||(t=t.replace(/^(?!(?:\\w+:)?\\/\\/)|^\\/\\//,e.defaultProtocol));let a=new rnt(t);if(e.forceHttp&&e.forceHttps)throw new Error(\"The `forceHttp` and `forceHttps` options cannot be used together\");if(e.forceHttp&&a.protocol===\"https:\"&&(a.protocol=\"http:\"),e.forceHttps&&a.protocol===\"http:\"&&(a.protocol=\"https:\"),e.stripAuthentication&&(a.username=\"\",a.password=\"\"),e.stripHash&&(a.hash=\"\"),a.pathname&&(a.pathname=a.pathname.replace(/((?!:).|^)\\/{2,}/g,(n,u)=>/^(?!\\/)/g.test(u)?`${u}/`:\"/\")),a.pathname&&(a.pathname=decodeURI(a.pathname)),e.removeDirectoryIndex===!0&&(e.removeDirectoryIndex=[/^index\\.[a-z]+$/]),Array.isArray(e.removeDirectoryIndex)&&e.removeDirectoryIndex.length>0){let n=a.pathname.split(\"/\"),u=n[n.length-1];ooe(u,e.removeDirectoryIndex)&&(n=n.slice(0,n.length-1),a.pathname=n.slice(1).join(\"/\")+\"/\")}if(a.hostname&&(a.hostname=a.hostname.replace(/\\.$/,\"\"),e.stripWWW&&/^www\\.([a-z\\-\\d]{2,63})\\.([a-z.]{2,5})$/.test(a.hostname)&&(a.hostname=a.hostname.replace(/^www\\./,\"\"))),Array.isArray(e.removeQueryParameters))for(let n of[...a.searchParams.keys()])ooe(n,e.removeQueryParameters)&&a.searchParams.delete(n);return e.sortQueryParameters&&a.searchParams.sort(),e.removeTrailingSlash&&(a.pathname=a.pathname.replace(/\\/$/,\"\")),t=a.toString(),(e.removeTrailingSlash||a.pathname===\"/\")&&a.hash===\"\"&&(t=t.replace(/\\/$/,\"\")),r&&!e.normalizeProtocol&&(t=t.replace(/^http:\\/\\//,\"//\")),e.stripProtocol&&(t=t.replace(/^(?:https?:)?\\/\\//,\"\")),t};RM.exports=aoe;RM.exports.default=aoe});var Aoe=_((ALt,uoe)=>{uoe.exports=coe;function coe(t,e){if(t&&e)return coe(t)(e);if(typeof t!=\"function\")throw new TypeError(\"need wrapper function\");return Object.keys(t).forEach(function(o){r[o]=t[o]}),r;function r(){for(var o=new Array(arguments.length),a=0;a<o.length;a++)o[a]=arguments[a];var n=t.apply(this,o),u=o[o.length-1];return typeof n==\"function\"&&n!==u&&Object.keys(u).forEach(function(A){n[A]=u[A]}),n}}});var NM=_((fLt,TM)=>{var foe=Aoe();TM.exports=foe(zP);TM.exports.strict=foe(poe);zP.proto=zP(function(){Object.defineProperty(Function.prototype,\"once\",{value:function(){return zP(this)},configurable:!0}),Object.defineProperty(Function.prototype,\"onceStrict\",{value:function(){return poe(this)},configurable:!0})});function zP(t){var e=function(){return e.called?e.value:(e.called=!0,e.value=t.apply(this,arguments))};return e.called=!1,e}function poe(t){var e=function(){if(e.called)throw new Error(e.onceError);return e.called=!0,e.value=t.apply(this,arguments)},r=t.name||\"Function wrapped with `once`\";return e.onceError=r+\" shouldn't be called more than once\",e.called=!1,e}});var LM=_((pLt,goe)=>{var ont=NM(),ant=function(){},lnt=function(t){return t.setHeader&&typeof t.abort==\"function\"},cnt=function(t){return t.stdio&&Array.isArray(t.stdio)&&t.stdio.length===3},hoe=function(t,e,r){if(typeof e==\"function\")return hoe(t,null,e);e||(e={}),r=ont(r||ant);var o=t._writableState,a=t._readableState,n=e.readable||e.readable!==!1&&t.readable,u=e.writable||e.writable!==!1&&t.writable,A=function(){t.writable||p()},p=function(){u=!1,n||r.call(t)},h=function(){n=!1,u||r.call(t)},E=function(C){r.call(t,C?new Error(\"exited with error code: \"+C):null)},I=function(C){r.call(t,C)},v=function(){if(n&&!(a&&a.ended))return r.call(t,new Error(\"premature close\"));if(u&&!(o&&o.ended))return r.call(t,new Error(\"premature close\"))},x=function(){t.req.on(\"finish\",p)};return lnt(t)?(t.on(\"complete\",p),t.on(\"abort\",v),t.req?x():t.on(\"request\",x)):u&&!o&&(t.on(\"end\",A),t.on(\"close\",A)),cnt(t)&&t.on(\"exit\",E),t.on(\"end\",h),t.on(\"finish\",p),e.error!==!1&&t.on(\"error\",I),t.on(\"close\",v),function(){t.removeListener(\"complete\",p),t.removeListener(\"abort\",v),t.removeListener(\"request\",x),t.req&&t.req.removeListener(\"finish\",p),t.removeListener(\"end\",A),t.removeListener(\"close\",A),t.removeListener(\"finish\",p),t.removeListener(\"exit\",E),t.removeListener(\"end\",h),t.removeListener(\"error\",I),t.removeListener(\"close\",v)}};goe.exports=hoe});var yoe=_((hLt,moe)=>{var unt=NM(),Ant=LM(),OM=ve(\"fs\"),p1=function(){},fnt=/^v?\\.0/.test(process.version),XP=function(t){return typeof t==\"function\"},pnt=function(t){return!fnt||!OM?!1:(t instanceof(OM.ReadStream||p1)||t instanceof(OM.WriteStream||p1))&&XP(t.close)},hnt=function(t){return t.setHeader&&XP(t.abort)},gnt=function(t,e,r,o){o=unt(o);var a=!1;t.on(\"close\",function(){a=!0}),Ant(t,{readable:e,writable:r},function(u){if(u)return o(u);a=!0,o()});var n=!1;return function(u){if(!a&&!n){if(n=!0,pnt(t))return t.close(p1);if(hnt(t))return t.abort();if(XP(t.destroy))return t.destroy();o(u||new Error(\"stream was destroyed\"))}}},doe=function(t){t()},dnt=function(t,e){return t.pipe(e)},mnt=function(){var t=Array.prototype.slice.call(arguments),e=XP(t[t.length-1]||p1)&&t.pop()||p1;if(Array.isArray(t[0])&&(t=t[0]),t.length<2)throw new Error(\"pump requires two streams per minimum\");var r,o=t.map(function(a,n){var u=n<t.length-1,A=n>0;return gnt(a,u,A,function(p){r||(r=p),p&&o.forEach(doe),!u&&(o.forEach(doe),e(r))})});return t.reduce(dnt)};moe.exports=mnt});var Coe=_((gLt,Eoe)=>{\"use strict\";var{PassThrough:ynt}=ve(\"stream\");Eoe.exports=t=>{t={...t};let{array:e}=t,{encoding:r}=t,o=r===\"buffer\",a=!1;e?a=!(r||o):r=r||\"utf8\",o&&(r=null);let n=new ynt({objectMode:a});r&&n.setEncoding(r);let u=0,A=[];return n.on(\"data\",p=>{A.push(p),a?u=A.length:u+=p.length}),n.getBufferedValue=()=>e?A:o?Buffer.concat(A,u):A.join(\"\"),n.getBufferedLength=()=>u,n}});var woe=_((dLt,vE)=>{\"use strict\";var Ent=yoe(),Cnt=Coe(),ZP=class extends Error{constructor(){super(\"maxBuffer exceeded\"),this.name=\"MaxBufferError\"}};async function $P(t,e){if(!t)return Promise.reject(new Error(\"Expected a stream\"));e={maxBuffer:1/0,...e};let{maxBuffer:r}=e,o;return await new Promise((a,n)=>{let u=A=>{A&&(A.bufferedData=o.getBufferedValue()),n(A)};o=Ent(t,Cnt(e),A=>{if(A){u(A);return}a()}),o.on(\"data\",()=>{o.getBufferedLength()>r&&u(new ZP)})}),o.getBufferedValue()}vE.exports=$P;vE.exports.default=$P;vE.exports.buffer=(t,e)=>$P(t,{...e,encoding:\"buffer\"});vE.exports.array=(t,e)=>$P(t,{...e,array:!0});vE.exports.MaxBufferError=ZP});var Boe=_((yLt,Ioe)=>{\"use strict\";var wnt=new Set([200,203,204,206,300,301,404,405,410,414,501]),Int=new Set([200,203,204,300,301,302,303,307,308,404,405,410,414,501]),Bnt=new Set([500,502,503,504]),vnt={date:!0,connection:!0,\"keep-alive\":!0,\"proxy-authenticate\":!0,\"proxy-authorization\":!0,te:!0,trailer:!0,\"transfer-encoding\":!0,upgrade:!0},Dnt={\"content-length\":!0,\"content-encoding\":!0,\"transfer-encoding\":!0,\"content-range\":!0};function Sd(t){let e=parseInt(t,10);return isFinite(e)?e:0}function Snt(t){return t?Bnt.has(t.status):!0}function MM(t){let e={};if(!t)return e;let r=t.trim().split(/\\s*,\\s*/);for(let o of r){let[a,n]=o.split(/\\s*=\\s*/,2);e[a]=n===void 0?!0:n.replace(/^\"|\"$/g,\"\")}return e}function Pnt(t){let e=[];for(let r in t){let o=t[r];e.push(o===!0?r:r+\"=\"+o)}if(!!e.length)return e.join(\", \")}Ioe.exports=class{constructor(e,r,{shared:o,cacheHeuristic:a,immutableMinTimeToLive:n,ignoreCargoCult:u,_fromObject:A}={}){if(A){this._fromObject(A);return}if(!r||!r.headers)throw Error(\"Response headers missing\");this._assertRequestHasHeaders(e),this._responseTime=this.now(),this._isShared=o!==!1,this._cacheHeuristic=a!==void 0?a:.1,this._immutableMinTtl=n!==void 0?n:24*3600*1e3,this._status=\"status\"in r?r.status:200,this._resHeaders=r.headers,this._rescc=MM(r.headers[\"cache-control\"]),this._method=\"method\"in e?e.method:\"GET\",this._url=e.url,this._host=e.headers.host,this._noAuthorization=!e.headers.authorization,this._reqHeaders=r.headers.vary?e.headers:null,this._reqcc=MM(e.headers[\"cache-control\"]),u&&\"pre-check\"in this._rescc&&\"post-check\"in this._rescc&&(delete this._rescc[\"pre-check\"],delete this._rescc[\"post-check\"],delete this._rescc[\"no-cache\"],delete this._rescc[\"no-store\"],delete this._rescc[\"must-revalidate\"],this._resHeaders=Object.assign({},this._resHeaders,{\"cache-control\":Pnt(this._rescc)}),delete this._resHeaders.expires,delete this._resHeaders.pragma),r.headers[\"cache-control\"]==null&&/no-cache/.test(r.headers.pragma)&&(this._rescc[\"no-cache\"]=!0)}now(){return Date.now()}storable(){return!!(!this._reqcc[\"no-store\"]&&(this._method===\"GET\"||this._method===\"HEAD\"||this._method===\"POST\"&&this._hasExplicitExpiration())&&Int.has(this._status)&&!this._rescc[\"no-store\"]&&(!this._isShared||!this._rescc.private)&&(!this._isShared||this._noAuthorization||this._allowsStoringAuthenticated())&&(this._resHeaders.expires||this._rescc[\"max-age\"]||this._isShared&&this._rescc[\"s-maxage\"]||this._rescc.public||wnt.has(this._status)))}_hasExplicitExpiration(){return this._isShared&&this._rescc[\"s-maxage\"]||this._rescc[\"max-age\"]||this._resHeaders.expires}_assertRequestHasHeaders(e){if(!e||!e.headers)throw Error(\"Request headers missing\")}satisfiesWithoutRevalidation(e){this._assertRequestHasHeaders(e);let r=MM(e.headers[\"cache-control\"]);return r[\"no-cache\"]||/no-cache/.test(e.headers.pragma)||r[\"max-age\"]&&this.age()>r[\"max-age\"]||r[\"min-fresh\"]&&this.timeToLive()<1e3*r[\"min-fresh\"]||this.stale()&&!(r[\"max-stale\"]&&!this._rescc[\"must-revalidate\"]&&(r[\"max-stale\"]===!0||r[\"max-stale\"]>this.age()-this.maxAge()))?!1:this._requestMatches(e,!1)}_requestMatches(e,r){return(!this._url||this._url===e.url)&&this._host===e.headers.host&&(!e.method||this._method===e.method||r&&e.method===\"HEAD\")&&this._varyMatches(e)}_allowsStoringAuthenticated(){return this._rescc[\"must-revalidate\"]||this._rescc.public||this._rescc[\"s-maxage\"]}_varyMatches(e){if(!this._resHeaders.vary)return!0;if(this._resHeaders.vary===\"*\")return!1;let r=this._resHeaders.vary.trim().toLowerCase().split(/\\s*,\\s*/);for(let o of r)if(e.headers[o]!==this._reqHeaders[o])return!1;return!0}_copyWithoutHopByHopHeaders(e){let r={};for(let o in e)vnt[o]||(r[o]=e[o]);if(e.connection){let o=e.connection.trim().split(/\\s*,\\s*/);for(let a of o)delete r[a]}if(r.warning){let o=r.warning.split(/,/).filter(a=>!/^\\s*1[0-9][0-9]/.test(a));o.length?r.warning=o.join(\",\").trim():delete r.warning}return r}responseHeaders(){let e=this._copyWithoutHopByHopHeaders(this._resHeaders),r=this.age();return r>3600*24&&!this._hasExplicitExpiration()&&this.maxAge()>3600*24&&(e.warning=(e.warning?`${e.warning}, `:\"\")+'113 - \"rfc7234 5.5.4\"'),e.age=`${Math.round(r)}`,e.date=new Date(this.now()).toUTCString(),e}date(){let e=Date.parse(this._resHeaders.date);return isFinite(e)?e:this._responseTime}age(){let e=this._ageValue(),r=(this.now()-this._responseTime)/1e3;return e+r}_ageValue(){return Sd(this._resHeaders.age)}maxAge(){if(!this.storable()||this._rescc[\"no-cache\"]||this._isShared&&this._resHeaders[\"set-cookie\"]&&!this._rescc.public&&!this._rescc.immutable||this._resHeaders.vary===\"*\")return 0;if(this._isShared){if(this._rescc[\"proxy-revalidate\"])return 0;if(this._rescc[\"s-maxage\"])return Sd(this._rescc[\"s-maxage\"])}if(this._rescc[\"max-age\"])return Sd(this._rescc[\"max-age\"]);let e=this._rescc.immutable?this._immutableMinTtl:0,r=this.date();if(this._resHeaders.expires){let o=Date.parse(this._resHeaders.expires);return Number.isNaN(o)||o<r?0:Math.max(e,(o-r)/1e3)}if(this._resHeaders[\"last-modified\"]){let o=Date.parse(this._resHeaders[\"last-modified\"]);if(isFinite(o)&&r>o)return Math.max(e,(r-o)/1e3*this._cacheHeuristic)}return e}timeToLive(){let e=this.maxAge()-this.age(),r=e+Sd(this._rescc[\"stale-if-error\"]),o=e+Sd(this._rescc[\"stale-while-revalidate\"]);return Math.max(0,e,r,o)*1e3}stale(){return this.maxAge()<=this.age()}_useStaleIfError(){return this.maxAge()+Sd(this._rescc[\"stale-if-error\"])>this.age()}useStaleWhileRevalidate(){return this.maxAge()+Sd(this._rescc[\"stale-while-revalidate\"])>this.age()}static fromObject(e){return new this(void 0,void 0,{_fromObject:e})}_fromObject(e){if(this._responseTime)throw Error(\"Reinitialized\");if(!e||e.v!==1)throw Error(\"Invalid serialization\");this._responseTime=e.t,this._isShared=e.sh,this._cacheHeuristic=e.ch,this._immutableMinTtl=e.imm!==void 0?e.imm:24*3600*1e3,this._status=e.st,this._resHeaders=e.resh,this._rescc=e.rescc,this._method=e.m,this._url=e.u,this._host=e.h,this._noAuthorization=e.a,this._reqHeaders=e.reqh,this._reqcc=e.reqcc}toObject(){return{v:1,t:this._responseTime,sh:this._isShared,ch:this._cacheHeuristic,imm:this._immutableMinTtl,st:this._status,resh:this._resHeaders,rescc:this._rescc,m:this._method,u:this._url,h:this._host,a:this._noAuthorization,reqh:this._reqHeaders,reqcc:this._reqcc}}revalidationHeaders(e){this._assertRequestHasHeaders(e);let r=this._copyWithoutHopByHopHeaders(e.headers);if(delete r[\"if-range\"],!this._requestMatches(e,!0)||!this.storable())return delete r[\"if-none-match\"],delete r[\"if-modified-since\"],r;if(this._resHeaders.etag&&(r[\"if-none-match\"]=r[\"if-none-match\"]?`${r[\"if-none-match\"]}, ${this._resHeaders.etag}`:this._resHeaders.etag),r[\"accept-ranges\"]||r[\"if-match\"]||r[\"if-unmodified-since\"]||this._method&&this._method!=\"GET\"){if(delete r[\"if-modified-since\"],r[\"if-none-match\"]){let a=r[\"if-none-match\"].split(/,/).filter(n=>!/^\\s*W\\//.test(n));a.length?r[\"if-none-match\"]=a.join(\",\").trim():delete r[\"if-none-match\"]}}else this._resHeaders[\"last-modified\"]&&!r[\"if-modified-since\"]&&(r[\"if-modified-since\"]=this._resHeaders[\"last-modified\"]);return r}revalidatedPolicy(e,r){if(this._assertRequestHasHeaders(e),this._useStaleIfError()&&Snt(r))return{modified:!1,matches:!1,policy:this};if(!r||!r.headers)throw Error(\"Response headers missing\");let o=!1;if(r.status!==void 0&&r.status!=304?o=!1:r.headers.etag&&!/^\\s*W\\//.test(r.headers.etag)?o=this._resHeaders.etag&&this._resHeaders.etag.replace(/^\\s*W\\//,\"\")===r.headers.etag:this._resHeaders.etag&&r.headers.etag?o=this._resHeaders.etag.replace(/^\\s*W\\//,\"\")===r.headers.etag.replace(/^\\s*W\\//,\"\"):this._resHeaders[\"last-modified\"]?o=this._resHeaders[\"last-modified\"]===r.headers[\"last-modified\"]:!this._resHeaders.etag&&!this._resHeaders[\"last-modified\"]&&!r.headers.etag&&!r.headers[\"last-modified\"]&&(o=!0),!o)return{policy:new this.constructor(e,r),modified:r.status!=304,matches:!1};let a={};for(let u in this._resHeaders)a[u]=u in r.headers&&!Dnt[u]?r.headers[u]:this._resHeaders[u];let n=Object.assign({},r,{status:this._status,method:this._method,headers:a});return{policy:new this.constructor(e,n,{shared:this._isShared,cacheHeuristic:this._cacheHeuristic,immutableMinTimeToLive:this._immutableMinTtl}),modified:!1,matches:!0}}}});var eb=_((ELt,voe)=>{\"use strict\";voe.exports=t=>{let e={};for(let[r,o]of Object.entries(t))e[r.toLowerCase()]=o;return e}});var Soe=_((CLt,Doe)=>{\"use strict\";var bnt=ve(\"stream\").Readable,xnt=eb(),UM=class extends bnt{constructor(e,r,o,a){if(typeof e!=\"number\")throw new TypeError(\"Argument `statusCode` should be a number\");if(typeof r!=\"object\")throw new TypeError(\"Argument `headers` should be an object\");if(!(o instanceof Buffer))throw new TypeError(\"Argument `body` should be a buffer\");if(typeof a!=\"string\")throw new TypeError(\"Argument `url` should be a string\");super(),this.statusCode=e,this.headers=xnt(r),this.body=o,this.url=a}_read(){this.push(this.body),this.push(null)}};Doe.exports=UM});var boe=_((wLt,Poe)=>{\"use strict\";var knt=[\"destroy\",\"setTimeout\",\"socket\",\"headers\",\"trailers\",\"rawHeaders\",\"statusCode\",\"httpVersion\",\"httpVersionMinor\",\"httpVersionMajor\",\"rawTrailers\",\"statusMessage\"];Poe.exports=(t,e)=>{let r=new Set(Object.keys(t).concat(knt));for(let o of r)o in e||(e[o]=typeof t[o]==\"function\"?t[o].bind(t):t[o])}});var koe=_((ILt,xoe)=>{\"use strict\";var Qnt=ve(\"stream\").PassThrough,Fnt=boe(),Rnt=t=>{if(!(t&&t.pipe))throw new TypeError(\"Parameter `response` must be a response stream.\");let e=new Qnt;return Fnt(t,e),t.pipe(e)};xoe.exports=Rnt});var Qoe=_(_M=>{_M.stringify=function t(e){if(typeof e>\"u\")return e;if(e&&Buffer.isBuffer(e))return JSON.stringify(\":base64:\"+e.toString(\"base64\"));if(e&&e.toJSON&&(e=e.toJSON()),e&&typeof e==\"object\"){var r=\"\",o=Array.isArray(e);r=o?\"[\":\"{\";var a=!0;for(var n in e){var u=typeof e[n]==\"function\"||!o&&typeof e[n]>\"u\";Object.hasOwnProperty.call(e,n)&&!u&&(a||(r+=\",\"),a=!1,o?e[n]==null?r+=\"null\":r+=t(e[n]):e[n]!==void 0&&(r+=t(n)+\":\"+t(e[n])))}return r+=o?\"]\":\"}\",r}else return typeof e==\"string\"?JSON.stringify(/^:/.test(e)?\":\"+e:e):typeof e>\"u\"?\"null\":JSON.stringify(e)};_M.parse=function(t){return JSON.parse(t,function(e,r){return typeof r==\"string\"?/^:base64:/.test(r)?Buffer.from(r.substring(8),\"base64\"):/^:/.test(r)?r.substring(1):r:r})}});var Toe=_((vLt,Roe)=>{\"use strict\";var Tnt=ve(\"events\"),Foe=Qoe(),Nnt=t=>{let e={redis:\"@keyv/redis\",mongodb:\"@keyv/mongo\",mongo:\"@keyv/mongo\",sqlite:\"@keyv/sqlite\",postgresql:\"@keyv/postgres\",postgres:\"@keyv/postgres\",mysql:\"@keyv/mysql\"};if(t.adapter||t.uri){let r=t.adapter||/^[^:]*/.exec(t.uri)[0];return new(ve(e[r]))(t)}return new Map},HM=class extends Tnt{constructor(e,r){if(super(),this.opts=Object.assign({namespace:\"keyv\",serialize:Foe.stringify,deserialize:Foe.parse},typeof e==\"string\"?{uri:e}:e,r),!this.opts.store){let o=Object.assign({},this.opts);this.opts.store=Nnt(o)}typeof this.opts.store.on==\"function\"&&this.opts.store.on(\"error\",o=>this.emit(\"error\",o)),this.opts.store.namespace=this.opts.namespace}_getKeyPrefix(e){return`${this.opts.namespace}:${e}`}get(e,r){e=this._getKeyPrefix(e);let{store:o}=this.opts;return Promise.resolve().then(()=>o.get(e)).then(a=>typeof a==\"string\"?this.opts.deserialize(a):a).then(a=>{if(a!==void 0){if(typeof a.expires==\"number\"&&Date.now()>a.expires){this.delete(e);return}return r&&r.raw?a:a.value}})}set(e,r,o){e=this._getKeyPrefix(e),typeof o>\"u\"&&(o=this.opts.ttl),o===0&&(o=void 0);let{store:a}=this.opts;return Promise.resolve().then(()=>{let n=typeof o==\"number\"?Date.now()+o:null;return r={value:r,expires:n},this.opts.serialize(r)}).then(n=>a.set(e,n,o)).then(()=>!0)}delete(e){e=this._getKeyPrefix(e);let{store:r}=this.opts;return Promise.resolve().then(()=>r.delete(e))}clear(){let{store:e}=this.opts;return Promise.resolve().then(()=>e.clear())}};Roe.exports=HM});var Ooe=_((SLt,Loe)=>{\"use strict\";var Lnt=ve(\"events\"),tb=ve(\"url\"),Ont=loe(),Mnt=woe(),qM=Boe(),Noe=Soe(),Unt=eb(),_nt=koe(),Hnt=Toe(),qc=class{constructor(e,r){if(typeof e!=\"function\")throw new TypeError(\"Parameter `request` must be a function\");return this.cache=new Hnt({uri:typeof r==\"string\"&&r,store:typeof r!=\"string\"&&r,namespace:\"cacheable-request\"}),this.createCacheableRequest(e)}createCacheableRequest(e){return(r,o)=>{let a;if(typeof r==\"string\")a=jM(tb.parse(r)),r={};else if(r instanceof tb.URL)a=jM(tb.parse(r.toString())),r={};else{let[I,...v]=(r.path||\"\").split(\"?\"),x=v.length>0?`?${v.join(\"?\")}`:\"\";a=jM({...r,pathname:I,search:x})}r={headers:{},method:\"GET\",cache:!0,strictTtl:!1,automaticFailover:!1,...r,...qnt(a)},r.headers=Unt(r.headers);let n=new Lnt,u=Ont(tb.format(a),{stripWWW:!1,removeTrailingSlash:!1,stripAuthentication:!1}),A=`${r.method}:${u}`,p=!1,h=!1,E=I=>{h=!0;let v=!1,x,C=new Promise(L=>{x=()=>{v||(v=!0,L())}}),R=L=>{if(p&&!I.forceRefresh){L.status=L.statusCode;let J=qM.fromObject(p.cachePolicy).revalidatedPolicy(I,L);if(!J.modified){let te=J.policy.responseHeaders();L=new Noe(p.statusCode,te,p.body,p.url),L.cachePolicy=J.policy,L.fromCache=!0}}L.fromCache||(L.cachePolicy=new qM(I,L,I),L.fromCache=!1);let U;I.cache&&L.cachePolicy.storable()?(U=_nt(L),(async()=>{try{let J=Mnt.buffer(L);if(await Promise.race([C,new Promise(ce=>L.once(\"end\",ce))]),v)return;let te=await J,ae={cachePolicy:L.cachePolicy.toObject(),url:L.url,statusCode:L.fromCache?p.statusCode:L.statusCode,body:te},fe=I.strictTtl?L.cachePolicy.timeToLive():void 0;I.maxTtl&&(fe=fe?Math.min(fe,I.maxTtl):I.maxTtl),await this.cache.set(A,ae,fe)}catch(J){n.emit(\"error\",new qc.CacheError(J))}})()):I.cache&&p&&(async()=>{try{await this.cache.delete(A)}catch(J){n.emit(\"error\",new qc.CacheError(J))}})(),n.emit(\"response\",U||L),typeof o==\"function\"&&o(U||L)};try{let L=e(I,R);L.once(\"error\",x),L.once(\"abort\",x),n.emit(\"request\",L)}catch(L){n.emit(\"error\",new qc.RequestError(L))}};return(async()=>{let I=async x=>{await Promise.resolve();let C=x.cache?await this.cache.get(A):void 0;if(typeof C>\"u\")return E(x);let R=qM.fromObject(C.cachePolicy);if(R.satisfiesWithoutRevalidation(x)&&!x.forceRefresh){let L=R.responseHeaders(),U=new Noe(C.statusCode,L,C.body,C.url);U.cachePolicy=R,U.fromCache=!0,n.emit(\"response\",U),typeof o==\"function\"&&o(U)}else p=C,x.headers=R.revalidationHeaders(x),E(x)},v=x=>n.emit(\"error\",new qc.CacheError(x));this.cache.once(\"error\",v),n.on(\"response\",()=>this.cache.removeListener(\"error\",v));try{await I(r)}catch(x){r.automaticFailover&&!h&&E(r),n.emit(\"error\",new qc.CacheError(x))}})(),n}}};function qnt(t){let e={...t};return e.path=`${t.pathname||\"/\"}${t.search||\"\"}`,delete e.pathname,delete e.search,e}function jM(t){return{protocol:t.protocol,auth:t.auth,hostname:t.hostname||t.host||\"localhost\",port:t.port,pathname:t.pathname,search:t.search}}qc.RequestError=class extends Error{constructor(t){super(t.message),this.name=\"RequestError\",Object.assign(this,t)}};qc.CacheError=class extends Error{constructor(t){super(t.message),this.name=\"CacheError\",Object.assign(this,t)}};Loe.exports=qc});var Uoe=_((xLt,Moe)=>{\"use strict\";var jnt=[\"aborted\",\"complete\",\"headers\",\"httpVersion\",\"httpVersionMinor\",\"httpVersionMajor\",\"method\",\"rawHeaders\",\"rawTrailers\",\"setTimeout\",\"socket\",\"statusCode\",\"statusMessage\",\"trailers\",\"url\"];Moe.exports=(t,e)=>{if(e._readableState.autoDestroy)throw new Error(\"The second stream must have the `autoDestroy` option set to `false`\");let r=new Set(Object.keys(t).concat(jnt)),o={};for(let a of r)a in e||(o[a]={get(){let n=t[a];return typeof n==\"function\"?n.bind(t):n},set(n){t[a]=n},enumerable:!0,configurable:!1});return Object.defineProperties(e,o),t.once(\"aborted\",()=>{e.destroy(),e.emit(\"aborted\")}),t.once(\"close\",()=>{t.complete&&e.readable?e.once(\"end\",()=>{e.emit(\"close\")}):e.emit(\"close\")}),e}});var Hoe=_((kLt,_oe)=>{\"use strict\";var{Transform:Gnt,PassThrough:Ynt}=ve(\"stream\"),GM=ve(\"zlib\"),Wnt=Uoe();_oe.exports=t=>{let e=(t.headers[\"content-encoding\"]||\"\").toLowerCase();if(![\"gzip\",\"deflate\",\"br\"].includes(e))return t;let r=e===\"br\";if(r&&typeof GM.createBrotliDecompress!=\"function\")return t.destroy(new Error(\"Brotli is not supported on Node.js < 12\")),t;let o=!0,a=new Gnt({transform(A,p,h){o=!1,h(null,A)},flush(A){A()}}),n=new Ynt({autoDestroy:!1,destroy(A,p){t.destroy(),p(A)}}),u=r?GM.createBrotliDecompress():GM.createUnzip();return u.once(\"error\",A=>{if(o&&!t.readable){n.end();return}n.destroy(A)}),Wnt(t,n),t.pipe(a).pipe(u).pipe(n),n}});var WM=_((QLt,qoe)=>{\"use strict\";var YM=class{constructor(e={}){if(!(e.maxSize&&e.maxSize>0))throw new TypeError(\"`maxSize` must be a number greater than 0\");this.maxSize=e.maxSize,this.onEviction=e.onEviction,this.cache=new Map,this.oldCache=new Map,this._size=0}_set(e,r){if(this.cache.set(e,r),this._size++,this._size>=this.maxSize){if(this._size=0,typeof this.onEviction==\"function\")for(let[o,a]of this.oldCache.entries())this.onEviction(o,a);this.oldCache=this.cache,this.cache=new Map}}get(e){if(this.cache.has(e))return this.cache.get(e);if(this.oldCache.has(e)){let r=this.oldCache.get(e);return this.oldCache.delete(e),this._set(e,r),r}}set(e,r){return this.cache.has(e)?this.cache.set(e,r):this._set(e,r),this}has(e){return this.cache.has(e)||this.oldCache.has(e)}peek(e){if(this.cache.has(e))return this.cache.get(e);if(this.oldCache.has(e))return this.oldCache.get(e)}delete(e){let r=this.cache.delete(e);return r&&this._size--,this.oldCache.delete(e)||r}clear(){this.cache.clear(),this.oldCache.clear(),this._size=0}*keys(){for(let[e]of this)yield e}*values(){for(let[,e]of this)yield e}*[Symbol.iterator](){for(let e of this.cache)yield e;for(let e of this.oldCache){let[r]=e;this.cache.has(r)||(yield e)}}get size(){let e=0;for(let r of this.oldCache.keys())this.cache.has(r)||e++;return Math.min(this._size+e,this.maxSize)}};qoe.exports=YM});var VM=_((FLt,Woe)=>{\"use strict\";var Knt=ve(\"events\"),Vnt=ve(\"tls\"),Jnt=ve(\"http2\"),znt=WM(),ea=Symbol(\"currentStreamsCount\"),joe=Symbol(\"request\"),Wl=Symbol(\"cachedOriginSet\"),DE=Symbol(\"gracefullyClosing\"),Xnt=[\"maxDeflateDynamicTableSize\",\"maxSessionMemory\",\"maxHeaderListPairs\",\"maxOutstandingPings\",\"maxReservedRemoteStreams\",\"maxSendHeaderBlockLength\",\"paddingStrategy\",\"localAddress\",\"path\",\"rejectUnauthorized\",\"minDHSize\",\"ca\",\"cert\",\"clientCertEngine\",\"ciphers\",\"key\",\"pfx\",\"servername\",\"minVersion\",\"maxVersion\",\"secureProtocol\",\"crl\",\"honorCipherOrder\",\"ecdhCurve\",\"dhparam\",\"secureOptions\",\"sessionIdContext\"],Znt=(t,e,r)=>{let o=0,a=t.length;for(;o<a;){let n=o+a>>>1;r(t[n],e)?o=n+1:a=n}return o},$nt=(t,e)=>t.remoteSettings.maxConcurrentStreams>e.remoteSettings.maxConcurrentStreams,KM=(t,e)=>{for(let r of t)r[Wl].length<e[Wl].length&&r[Wl].every(o=>e[Wl].includes(o))&&r[ea]+e[ea]<=e.remoteSettings.maxConcurrentStreams&&Yoe(r)},eit=(t,e)=>{for(let r of t)e[Wl].length<r[Wl].length&&e[Wl].every(o=>r[Wl].includes(o))&&e[ea]+r[ea]<=r.remoteSettings.maxConcurrentStreams&&Yoe(e)},Goe=({agent:t,isFree:e})=>{let r={};for(let o in t.sessions){let n=t.sessions[o].filter(u=>{let A=u[tA.kCurrentStreamsCount]<u.remoteSettings.maxConcurrentStreams;return e?A:!A});n.length!==0&&(r[o]=n)}return r},Yoe=t=>{t[DE]=!0,t[ea]===0&&t.close()},tA=class extends Knt{constructor({timeout:e=6e4,maxSessions:r=1/0,maxFreeSessions:o=10,maxCachedTlsSessions:a=100}={}){super(),this.sessions={},this.queue={},this.timeout=e,this.maxSessions=r,this.maxFreeSessions=o,this._freeSessionsCount=0,this._sessionsCount=0,this.settings={enablePush:!1},this.tlsSessionCache=new znt({maxSize:a})}static normalizeOrigin(e,r){return typeof e==\"string\"&&(e=new URL(e)),r&&e.hostname!==r&&(e.hostname=r),e.origin}normalizeOptions(e){let r=\"\";if(e)for(let o of Xnt)e[o]&&(r+=`:${e[o]}`);return r}_tryToCreateNewSession(e,r){if(!(e in this.queue)||!(r in this.queue[e]))return;let o=this.queue[e][r];this._sessionsCount<this.maxSessions&&!o.completed&&(o.completed=!0,o())}getSession(e,r,o){return new Promise((a,n)=>{Array.isArray(o)?(o=[...o],a()):o=[{resolve:a,reject:n}];let u=this.normalizeOptions(r),A=tA.normalizeOrigin(e,r&&r.servername);if(A===void 0){for(let{reject:E}of o)E(new TypeError(\"The `origin` argument needs to be a string or an URL object\"));return}if(u in this.sessions){let E=this.sessions[u],I=-1,v=-1,x;for(let C of E){let R=C.remoteSettings.maxConcurrentStreams;if(R<I)break;if(C[Wl].includes(A)){let L=C[ea];if(L>=R||C[DE]||C.destroyed)continue;x||(I=R),L>v&&(x=C,v=L)}}if(x){if(o.length!==1){for(let{reject:C}of o){let R=new Error(`Expected the length of listeners to be 1, got ${o.length}.",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 129,
+   "value": "case",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 133,
+   "whole_line": "`)}`}}};Bn.RequestError=Vi;var ub=class extends Vi{constructor(e){super(`Redirected ${e.options.maxRedirects} times. Aborting.`,{},e),this.name=\"MaxRedirectsError\"}};Bn.MaxRedirectsError=ub;var Ab=class extends Vi{constructor(e){super(`Response code ${e.statusCode} (${e.statusMessage})`,{},e.request),this.name=\"HTTPError\"}};Bn.HTTPError=Ab;var fb=class extends Vi{constructor(e,r){super(e.message,e,r),this.name=\"CacheError\"}};Bn.CacheError=fb;var pb=class extends Vi{constructor(e,r){super(e.message,e,r),this.name=\"UploadError\"}};Bn.UploadError=pb;var hb=class extends Vi{constructor(e,r,o){super(e.message,e,o),this.name=\"TimeoutError\",this.event=e.event,this.timings=r}};Bn.TimeoutError=hb;var E1=class extends Vi{constructor(e,r){super(e.message,e,r),this.name=\"ReadError\"}};Bn.ReadError=E1;var gb=class extends Vi{constructor(e){super(`Unsupported protocol \"${e.url.protocol}\"`,{},e),this.name=\"UnsupportedProtocolError\"}};Bn.UnsupportedProtocolError=gb;var lst=[\"socket\",\"connect\",\"continue\",\"information\",\"upgrade\",\"timeout\"],db=class extends Lae.Duplex{constructor(e,r={},o){super({autoDestroy:!1,highWaterMark:0}),this[bE]=0,this[kE]=0,this.requestInitialized=!1,this[ob]=new Set,this.redirects=[],this[QE]=!1,this[ab]=!1,this[y1]=[],this.retryCount=0,this._progressCallbacks=[];let a=()=>this._unlockWrite(),n=()=>this._lockWrite();this.on(\"pipe\",h=>{h.prependListener(\"data\",a),h.on(\"data\",n),h.prependListener(\"end\",a),h.on(\"end\",n)}),this.on(\"unpipe\",h=>{h.off(\"data\",a),h.off(\"data\",n),h.off(\"end\",a),h.off(\"end\",n)}),this.on(\"pipe\",h=>{h instanceof w4.IncomingMessage&&(this.options.headers={...h.headers,...this.options.headers})});let{json:u,body:A,form:p}=r;if((u||A||p)&&this._lockWrite(),Bn.kIsNormalizedAlready in r)this.options=r;else try{this.options=this.constructor.normalizeArguments(e,r,o)}catch(h){st.default.nodeStream(r.body)&&r.body.destroy(),this.destroy(h);return}(async()=>{var h;try{this.options.body instanceof Hit.ReadStream&&await sst(this.options.body);let{url:E}=this.options;if(!E)throw new TypeError(\"Missing `url` property\");if(this.requestUrl=E.toString(),decodeURI(this.requestUrl),await this._finalizeBody(),await this._makeRequest(),this.destroyed){(h=this[Zs])===null||h===void 0||h.destroy();return}for(let I of this[y1])I();this[y1].length=0,this.requestInitialized=!0}catch(E){if(E instanceof Vi){this._beforeError(E);return}this.destroyed||this.destroy(E)}})()}static normalizeArguments(e,r,o){var a,n,u,A,p;let h=r;if(st.default.object(e)&&!st.default.urlInstance(e))r={...o,...e,...r};else{if(e&&r&&r.url!==void 0)throw new TypeError(\"The `url` option is mutually exclusive with the `input` argument\");r={...o,...r},e!==void 0&&(r.url=e),st.default.urlInstance(r.url)&&(r.url=new ah.URL(r.url.toString()))}if(r.cache===!1&&(r.cache=void 0),r.dnsCache===!1&&(r.dnsCache=void 0),st.assert.any([st.default.string,st.default.undefined],r.method),st.assert.any([st.default.object,st.default.undefined],r.headers),st.assert.any([st.default.string,st.default.urlInstance,st.default.undefined],r.prefixUrl),st.assert.any([st.default.object,st.default.undefined],r.cookieJar),st.assert.any([st.default.object,st.default.string,st.default.undefined],r.searchParams),st.assert.any([st.default.object,st.default.string,st.default.undefined],r.cache),st.assert.any([st.default.object,st.default.number,st.default.undefined],r.timeout),st.assert.any([st.default.object,st.default.undefined],r.context),st.assert.any([st.default.object,st.default.undefined],r.hooks),st.assert.any([st.default.boolean,st.default.undefined],r.decompress),st.assert.any([st.default.boolean,st.default.undefined],r.ignoreInvalidCookies),st.assert.any([st.default.boolean,st.default.undefined],r.followRedirect),st.assert.any([st.default.number,st.default.undefined],r.maxRedirects),st.assert.any([st.default.boolean,st.default.undefined],r.throwHttpErrors),st.assert.any([st.default.boolean,st.default.undefined],r.http2),st.assert.any([st.default.boolean,st.default.undefined],r.allowGetBody),st.assert.any([st.default.string,st.default.undefined],r.localAddress),st.assert.any([qae.isDnsLookupIpVersion,st.default.undefined],r.dnsLookupIpVersion),st.assert.any([st.default.object,st.default.undefined],r.https),st.assert.any([st.default.boolean,st.default.undefined],r.rejectUnauthorized),r.https&&(st.assert.any([st.default.boolean,st.default.undefined],r.https.rejectUnauthorized),st.assert.any([st.default.function_,st.default.undefined],r.https.checkServerIdentity),st.assert.any([st.default.string,st.default.object,st.default.array,st.default.undefined],r.https.certificateAuthority),st.assert.any([st.default.string,st.default.object,st.default.array,st.default.undefined],r.https.key),st.assert.any([st.default.string,st.default.object,st.default.array,st.default.undefined],r.https.certificate),st.assert.any([st.default.string,st.default.undefined],r.https.passphrase),st.assert.any([st.default.string,st.default.buffer,st.default.array,st.default.undefined],r.https.pfx)),st.assert.any([st.default.object,st.default.undefined],r.cacheOptions),st.default.string(r.method)?r.method=r.method.toUpperCase():r.method=\"GET\",r.headers===o?.headers?r.headers={...r.headers}:r.headers=Kit({...o?.headers,...r.headers}),\"slashes\"in r)throw new TypeError(\"The legacy `url.Url` has been deprecated. Use `URL` instead.\");if(\"auth\"in r)throw new TypeError(\"Parameter `auth` is deprecated. Use `username` / `password` instead.\");if(\"searchParams\"in r&&r.searchParams&&r.searchParams!==o?.searchParams){let x;if(st.default.string(r.searchParams)||r.searchParams instanceof ah.URLSearchParams)x=new ah.URLSearchParams(r.searchParams);else{nst(r.searchParams),x=new ah.URLSearchParams;for(let C in r.searchParams){let R=r.searchParams[C];R===null?x.append(C,\"\"):R!==void 0&&x.append(C,R)}}(a=o?.searchParams)===null||a===void 0||a.forEach((C,R)=>{x.has(R)||x.append(R,C)}),r.searchParams=x}if(r.username=(n=r.username)!==null&&n!==void 0?n:\"\",r.password=(u=r.password)!==null&&u!==void 0?u:\"\",st.default.undefined(r.prefixUrl)?r.prefixUrl=(A=o?.prefixUrl)!==null&&A!==void 0?A:\"\":(r.prefixUrl=r.prefixUrl.toString(),r.prefixUrl!==\"\"&&!r.prefixUrl.endsWith(\"/\")&&(r.prefixUrl+=\"/\")),st.default.string(r.url)){if(r.url.startsWith(\"/\"))throw new Error(\"`input` must not start with a slash when using `prefixUrl`\");r.url=Hae.default(r.prefixUrl+r.url,r)}else(st.default.undefined(r.url)&&r.prefixUrl!==\"\"||r.protocol)&&(r.url=Hae.default(r.prefixUrl,r));if(r.url){\"port\"in r&&delete r.port;let{prefixUrl:x}=r;Object.defineProperty(r,\"prefixUrl\",{set:R=>{let L=r.url;if(!L.href.startsWith(R))throw new Error(`Cannot change \\`prefixUrl\\` from ${x} to ${R}: ${L.href}`);r.url=new ah.URL(R+L.href.slice(x.length)),x=R},get:()=>x});let{protocol:C}=r.url;if(C===\"unix:\"&&(C=\"http:\",r.url=new ah.URL(`http://unix${r.url.pathname}${r.url.search}`)),r.searchParams&&(r.url.search=r.searchParams.toString()),C!==\"http:\"&&C!==\"https:\")throw new gb(r);r.username===\"\"?r.username=r.url.username:r.url.username=r.username,r.password===\"\"?r.password=r.url.password:r.url.password=r.password}let{cookieJar:E}=r;if(E){let{setCookie:x,getCookieString:C}=E;st.assert.function_(x),st.assert.function_(C),x.length===4&&C.length===0&&(x=Nae.promisify(x.bind(r.cookieJar)),C=Nae.promisify(C.bind(r.cookieJar)),r.cookieJar={setCookie:x,getCookieString:C})}let{cache:I}=r;if(I&&(v4.has(I)||v4.set(I,new Mae((x,C)=>{let R=x[Zs](x,C);return st.default.promise(R)&&(R.once=(L,U)=>{if(L===\"error\")R.catch(U);else if(L===\"abort\")(async()=>{try{(await R).once(\"abort\",U)}catch{}})();else throw new Error(`Unknown HTTP2 promise event: ${L}`);return R}),R},I))),r.cacheOptions={...r.cacheOptions},r.dnsCache===!0)I4||(I4=new Git.default),r.dnsCache=I4;else if(!st.default.undefined(r.dnsCache)&&!r.dnsCache.lookup)throw new TypeError(`Parameter \\`dnsCache\\` must be a CacheableLookup instance or a boolean, got ${st.default(r.dnsCache)}`);st.default.number(r.timeout)?r.timeout={request:r.timeout}:o&&r.timeout!==o.timeout?r.timeout={...o.timeout,...r.timeout}:r.timeout={...r.timeout},r.context||(r.context={});let v=r.hooks===o?.hooks;r.hooks={...r.hooks};for(let x of Bn.knownHookEvents)if(x in r.hooks)if(st.default.array(r.hooks[x]))r.hooks[x]=[...r.hooks[x]];else throw new TypeError(`Parameter \\`${x}\\` must be an Array, got ${st.default(r.hooks[x])}`);else r.hooks[x]=[];if(o&&!v)for(let x of Bn.knownHookEvents)o.hooks[x].length>0&&(r.hooks[x]=[...o.hooks[x],...r.hooks[x]]);if(\"family\"in r&&lh.default('\"options.family\" was never documented, please use \"options.dnsLookupIpVersion\"'),o?.https&&(r.https={...o.https,...r.https}),\"rejectUnauthorized\"in r&&lh.default('\"options.rejectUnauthorized\" is now deprecated, please use \"options.https.rejectUnauthorized\"'),\"checkServerIdentity\"in r&&lh.default('\"options.checkServerIdentity\" was never documented, please use \"options.https.checkServerIdentity\"'),\"ca\"in r&&lh.default('\"options.ca\" was never documented, please use \"options.https.certificateAuthority\"'),\"key\"in r&&lh.default('\"options.key\" was never documented, please use \"options.https.key\"'),\"cert\"in r&&lh.default('\"options.cert\" was never documented, please use \"options.https.certificate\"'),\"passphrase\"in r&&lh.default('\"options.passphrase\" was never documented, please use \"options.https.passphrase\"'),\"pfx\"in r&&lh.default('\"options.pfx\" was never documented, please use \"options.https.pfx\"'),\"followRedirects\"in r)throw new TypeError(\"The `followRedirects` option does not exist. Use `followRedirect` instead.\");if(r.agent){for(let x in r.agent)if(x!==\"http\"&&x!==\"https\"&&x!==\"http2\")throw new TypeError(`Expected the \\`options.agent\\` properties to be \\`http\\`, \\`https\\` or \\`http2\\`, got \\`${x}\\``)}return r.maxRedirects=(p=r.maxRedirects)!==null&&p!==void 0?p:0,Bn.setNonEnumerableProperties([o,h],r),est.default(r,o)}_lockWrite(){let e=()=>{throw new TypeError(\"The payload has been already provided\")};this.write=e,this.end=e}_unlockWrite(){this.write=super.write,this.end=super.end}async _finalizeBody(){let{options:e}=this,{headers:r}=e,o=!st.default.undefined(e.form),a=!st.default.undefined(e.json),n=!st.default.undefined(e.body),u=o||a||n,A=Bn.withoutBody.has(e.method)&&!(e.method===\"GET\"&&e.allowGetBody);if(this._cannotHaveBody=A,u){if(A)throw new TypeError(`The \\`${e.method}\\` method cannot be used with a body`);if([n,o,a].filter(p=>p).length>1)throw new TypeError(\"The `body`, `json` and `form` options are mutually exclusive\");if(n&&!(e.body instanceof Lae.Readable)&&!st.default.string(e.body)&&!st.default.buffer(e.body)&&!Uae.default(e.body))throw new TypeError(\"The `body` option must be a stream.Readable, string or Buffer\");if(o&&!st.default.object(e.form))throw new TypeError(\"The `form` option must be an Object\");{let p=!st.default.string(r[\"content-type\"]);n?(Uae.default(e.body)&&p&&(r[\"content-type\"]=`multipart/form-data; boundary=${e.body.getBoundary()}`),this[ch]=e.body):o?(p&&(r[\"content-type\"]=\"application/x-www-form-urlencoded\"),this[ch]=new ah.URLSearchParams(e.form).toString()):(p&&(r[\"content-type\"]=\"application/json\"),this[ch]=e.stringifyJson(e.json));let h=await Vit.default(this[ch],e.headers);st.default.undefined(r[\"content-length\"])&&st.default.undefined(r[\"transfer-encoding\"])&&!A&&!st.default.undefined(h)&&(r[\"content-length\"]=String(h))}}else A?this._lockWrite():this._unlockWrite();this[xE]=Number(r[\"content-length\"])||void 0}async _onResponseBase(e){let{options:r}=this,{url:o}=r;this[Wae]=e,r.decompress&&(e=Yit(e));let a=e.statusCode,n=e;n.statusMessage=n.statusMessage?n.statusMessage:Oae.STATUS_CODES[a],n.url=r.url.toString(),n.requestUrl=this.requestUrl,n.redirectUrls=this.redirects,n.request=this,n.isFromCache=e.fromCache||!1,n.ip=this.ip,n.retryCount=this.retryCount,this[Gae]=n.isFromCache,this[PE]=Number(e.headers[\"content-length\"])||void 0,this[lb]=e,e.once(\"end\",()=>{this[PE]=this[bE],this.emit(\"downloadProgress\",this.downloadProgress)}),e.once(\"error\",A=>{e.destroy(),this._beforeError(new E1(A,this))}),e.once(\"aborted\",()=>{this._beforeError(new E1({name:\"Error\",message:\"The server aborted pending request\",code:\"ECONNRESET\"},this))}),this.emit(\"downloadProgress\",this.downloadProgress);let u=e.headers[\"set-cookie\"];if(st.default.object(r.cookieJar)&&u){let A=u.map(async p=>r.cookieJar.setCookie(p,o.toString()));r.ignoreInvalidCookies&&(A=A.map(async p=>p.catch(()=>{})));try{await Promise.all(A)}catch(p){this._beforeError(p);return}}if(r.followRedirect&&e.headers.location&&ost.has(a)){if(e.resume(),this[Zs]&&(this[B4](),delete this[Zs],this[jae]()),(a===303&&r.method!==\"GET\"&&r.method!==\"HEAD\"||!r.methodRewriting)&&(r.method=\"GET\",\"body\"in r&&delete r.body,\"json\"in r&&delete r.json,\"form\"in r&&delete r.form,this[ch]=void 0,delete r.headers[\"content-length\"]),this.redirects.length>=r.maxRedirects){this._beforeError(new ub(this));return}try{let p=Buffer.from(e.headers.location,\"binary\").toString(),h=new ah.URL(p,o),E=h.toString();decodeURI(E),h.hostname!==o.hostname||h.port!==o.port?(\"host\"in r.headers&&delete r.headers.host,\"cookie\"in r.headers&&delete r.headers.cookie,\"authorization\"in r.headers&&delete r.headers.authorization,(r.username||r.password)&&(r.username=\"\",r.password=\"\")):(h.username=r.username,h.password=r.password),this.redirects.push(E),r.url=h;for(let I of r.hooks.beforeRedirect)await I(r,n);this.emit(\"redirect\",n,r),await this._makeRequest()}catch(p){this._beforeError(p);return}return}if(r.isStream&&r.throwHttpErrors&&!$it.isResponseOk(n)){this._beforeError(new Ab(n));return}e.on(\"readable\",()=>{this[ab]&&this._read()}),this.on(\"resume\",()=>{e.resume()}),this.on(\"pause\",()=>{e.pause()}),e.once(\"end\",()=>{this.push(null)}),this.emit(\"response\",e);for(let A of this[ob])if(!A.headersSent){for(let p in e.headers){let h=r.decompress?p!==\"content-encoding\":!0,E=e.headers[p];h&&A.setHeader(p,E)}A.statusCode=a}}async _onResponse(e){try{await this._onResponseBase(e)}catch(r){this._beforeError(r)}}_onRequest(e){let{options:r}=this,{timeout:o,url:a}=r;jit.default(e),this[B4]=_ae.default(e,o,a);let n=r.cache?\"cacheableResponse\":\"response\";e.once(n,p=>{this._onResponse(p)}),e.once(\"error\",p=>{var h;e.destroy(),(h=e.res)===null||h===void 0||h.removeAllListeners(\"end\"),p=p instanceof _ae.TimeoutError?new hb(p,this.timings,this):new Vi(p.message,p,this),this._beforeError(p)}),this[jae]=Jit.default(e,this,lst),this[Zs]=e,this.emit(\"uploadProgress\",this.uploadProgress);let u=this[ch],A=this.redirects.length===0?this:e;st.default.nodeStream(u)?(u.pipe(A),u.once(\"error\",p=>{this._beforeError(new pb(p,this))})):(this._unlockWrite(),st.default.undefined(u)?(this._cannotHaveBody||this._noPipe)&&(A.end(),this._lockWrite()):(this._writeRequest(u,void 0,()=>{}),A.end(),this._lockWrite())),this.emit(\"request\",e)}async _createCacheableRequest(e,r){return new Promise((o,a)=>{Object.assign(r,zit.default(e)),delete r.url;let n,u=v4.get(r.cache)(r,async A=>{A._readableState.autoDestroy=!1,n&&(await n).emit(\"cacheableResponse\",A),o(A)});r.url=e,u.once(\"error\",a),u.once(\"request\",async A=>{n=A,o(n)})})}async _makeRequest(){var e,r,o,a,n;let{options:u}=this,{headers:A}=u;for(let U in A)if(st.default.undefined(A[U]))delete A[U];else if(st.default.null_(A[U]))throw new TypeError(`Use \\`undefined\\` instead of \\`null\\` to delete the \\`${U}\\` header`);if(u.decompress&&st.default.undefined(A[\"accept-encoding\"])&&(A[\"accept-encoding\"]=rst?\"gzip, deflate, br\":\"gzip, deflate\"),u.cookieJar){let U=await u.cookieJar.getCookieString(u.url.toString());st.default.nonEmptyString(U)&&(u.headers.cookie=U)}for(let U of u.hooks.beforeRequest){let J=await U(u);if(!st.default.undefined(J)){u.request=()=>J;break}}u.body&&this[ch]!==u.body&&(this[ch]=u.body);let{agent:p,request:h,timeout:E,url:I}=u;if(u.dnsCache&&!(\"lookup\"in u)&&(u.lookup=u.dnsCache.lookup),I.hostname===\"unix\"){let U=/(?<socketPath>.+?):(?<path>.+)/.exec(`${I.pathname}${I.search}`);if(U?.groups){let{socketPath:J,path:te}=U.groups;Object.assign(u,{socketPath:J,path:te,host:\"\"})}}let v=I.protocol===\"https:\",x;u.http2?x=Wit.auto:x=v?qit.request:Oae.request;let C=(e=u.request)!==null&&e!==void 0?e:x,R=u.cache?this._createCacheableRequest:C;p&&!u.http2&&(u.agent=p[v?\"https\":\"http\"]),u[Zs]=C,delete u.request,delete u.timeout;let L=u;if(L.shared=(r=u.cacheOptions)===null||r===void 0?void 0:r.shared,L.cacheHeuristic=(o=u.cacheOptions)===null||o===void 0?void 0:o.cacheHeuristic,L.immutableMinTimeToLive=(a=u.cacheOptions)===null||a===void 0?void 0:a.immutableMinTimeToLive,L.ignoreCargoCult=(n=u.cacheOptions)===null||n===void 0?void 0:n.ignoreCargoCult,u.dnsLookupIpVersion!==void 0)try{L.family=qae.dnsLookupIpVersionToFamily(u.dnsLookupIpVersion)}catch{throw new Error(\"Invalid `dnsLookupIpVersion` option value\")}u.https&&(\"rejectUnauthorized\"in u.https&&(L.rejectUnauthorized=u.https.rejectUnauthorized),u.https.checkServerIdentity&&(L.checkServerIdentity=u.https.checkServerIdentity),u.https.certificateAuthority&&(L.ca=u.https.certificateAuthority),u.https.certificate&&(L.cert=u.https.certificate),u.https.key&&(L.key=u.https.key),u.https.passphrase&&(L.passphrase=u.https.passphrase),u.https.pfx&&(L.pfx=u.https.pfx));try{let U=await R(I,L);st.default.undefined(U)&&(U=x(I,L)),u.request=h,u.timeout=E,u.agent=p,u.https&&(\"rejectUnauthorized\"in u.https&&delete L.rejectUnauthorized,u.https.checkServerIdentity&&delete L.checkServerIdentity,u.https.certificateAuthority&&delete L.ca,u.https.certificate&&delete L.cert,u.https.key&&delete L.key,u.https.passphrase&&delete L.passphrase,u.https.pfx&&delete L.pfx),ist(U)?this._onRequest(U):this.writable?(this.once(\"finish\",()=>{this._onResponse(U)}),this._unlockWrite(),this.end(),this._lockWrite()):this._onResponse(U)}catch(U){throw U instanceof Mae.CacheError?new fb(U,this):new Vi(U.message,U,this)}}async _error(e){try{for(let r of this.options.hooks.beforeError)e=await r(e)}catch(r){e=new Vi(r.message,r,this)}this.destroy(e)}_beforeError(e){if(this[QE])return;let{options:r}=this,o=this.retryCount+1;this[QE]=!0,e instanceof Vi||(e=new Vi(e.message,e,this));let a=e,{response:n}=a;(async()=>{if(n&&!n.body){n.setEncoding(this._readableState.encoding);try{n.rawBody=await Zit.default(n),n.body=n.rawBody.toString()}catch{}}if(this.listenerCount(\"retry\")!==0){let u;try{let A;n&&\"retry-after\"in n.headers&&(A=Number(n.headers[\"retry-after\"]),Number.isNaN(A)?(A=Date.parse(n.headers[\"retry-after\"])-Date.now(),A<=0&&(A=1)):A*=1e3),u=await r.retry.calculateDelay({attemptCount:o,retryOptions:r.retry,error:a,retryAfter:A,computedValue:tst.default({attemptCount:o,retryOptions:r.retry,error:a,retryAfter:A,computedValue:0})})}catch(A){this._error(new Vi(A.message,A,this));return}if(u){let A=async()=>{try{for(let p of this.options.hooks.beforeRetry)await p(this.options,a,o)}catch(p){this._error(new Vi(p.message,e,this));return}this.destroyed||(this.destroy(),this.emit(\"retry\",o,e))};this[Kae]=setTimeout(A,u);return}}this._error(a)})()}_read(){this[ab]=!0;let e=this[lb];if(e&&!this[QE]){e.readableLength&&(this[ab]=!1);let r;for(;(r=e.read())!==null;){this[bE]+=r.length,this[Yae]=!0;let o=this.downloadProgress;o.percent<1&&this.emit(\"downloadProgress\",o),this.push(r)}}}_write(e,r,o){let a=()=>{this._writeRequest(e,r,o)};this.requestInitialized?a():this[y1].push(a)}_writeRequest(e,r,o){this[Zs].destroyed||(this._progressCallbacks.push(()=>{this[kE]+=Buffer.byteLength(e,r);let a=this.uploadProgress;a.percent<1&&this.emit(\"uploadProgress\",a)}),this[Zs].write(e,r,a=>{!a&&this._progressCallbacks.length>0&&this._progressCallbacks.shift()(),o(a)}))}_final(e){let r=()=>{for(;this._progressCallbacks.length!==0;)this._progressCallbacks.shift()();if(!(Zs in this)){e();return}if(this[Zs].destroyed){e();return}this[Zs].end(o=>{o||(this[xE]=this[kE],this.emit(\"uploadProgress\",this.uploadProgress),this[Zs].emit(\"upload-complete\")),e(o)})};this.requestInitialized?r():this[y1].push(r)}_destroy(e,r){var o;this[QE]=!0,clearTimeout(this[Kae]),Zs in this&&(this[B4](),!((o=this[lb])===null||o===void 0)&&o.complete||this[Zs].destroy()),e!==null&&!st.default.undefined(e)&&!(e instanceof Vi)&&(e=new Vi(e.message,e,this)),r(e)}get _isAboutToError(){return this[QE]}get ip(){var e;return(e=this.socket)===null||e===void 0?void 0:e.remoteAddress}get aborted(){var e,r,o;return((r=(e=this[Zs])===null||e===void 0?void 0:e.destroyed)!==null&&r!==void 0?r:this.destroyed)&&!(!((o=this[Wae])===null||o===void 0)&&o.complete)}get socket(){var e,r;return(r=(e=this[Zs])===null||e===void 0?void 0:e.socket)!==null&&r!==void 0?r:void 0}get downloadProgress(){let e;return this[PE]?e=this[bE]/this[PE]:this[PE]===this[bE]?e=1:e=0,{percent:e,transferred:this[bE],total:this[PE]}}get uploadProgress(){let e;return this[xE]?e=this[kE]/this[xE]:this[xE]===this[kE]?e=1:e=0,{percent:e,transferred:this[kE],total:this[xE]}}get timings(){var e;return(e=this[Zs])===null||e===void 0?void 0:e.timings}get isFromCache(){return this[Gae]}pipe(e,r){if(this[Yae])throw new Error(\"Failed to pipe. The response has been emitted already.\");return e instanceof w4.ServerResponse&&this[ob].add(e),super.pipe(e,r)}unpipe(e){return e instanceof w4.ServerResponse&&this[ob].delete(e),super.unpipe(e),this}};Bn.default=db});var w1=_(jc=>{\"use strict\";var cst=jc&&jc.__createBinding||(Object.create?function(t,e,r,o){o===void 0&&(o=r),Object.defineProperty(t,o,{enumerable:!0,get:function(){return e[r]}})}:function(t,e,r,o){o===void 0&&(o=r),t[o]=e[r]}),ust=jc&&jc.__exportStar||function(t,e){for(var r in t)r!==\"default\"&&!Object.prototype.hasOwnProperty.call(e,r)&&cst(e,t,r)};Object.defineProperty(jc,\"__esModule\",{value:!0});jc.CancelError=jc.ParseError=void 0;var Vae=C1(),D4=class extends Vae.RequestError{constructor(e,r){let{options:o}=r.request;super(`${e.message} in \"${o.url.toString()}\"`,e,r.request),this.name=\"ParseError\"}};jc.ParseError=D4;var S4=class extends Vae.RequestError{constructor(e){super(\"Promise was canceled\",{},e),this.name=\"CancelError\"}get isCanceled(){return!0}};jc.CancelError=S4;ust(C1(),jc)});var zae=_(P4=>{\"use strict\";Object.defineProperty(P4,\"__esModule\",{value:!0});var Jae=w1(),Ast=(t,e,r,o)=>{let{rawBody:a}=t;try{if(e===\"text\")return a.toString(o);if(e===\"json\")return a.length===0?\"\":r(a.toString());if(e===\"buffer\")return a;throw new Jae.ParseError({message:`Unknown body type '${e}'`,name:\"Error\"},t)}catch(n){throw new Jae.ParseError(n,t)}};P4.default=Ast});var b4=_(uh=>{\"use strict\";var fst=uh&&uh.__createBinding||(Object.create?function(t,e,r,o){o===void 0&&(o=r),Object.defineProperty(t,o,{enumerable:!0,get:function(){return e[r]}})}:function(t,e,r,o){o===void 0&&(o=r),t[o]=e[r]}),pst=uh&&uh.__exportStar||function(t,e){for(var r in t)r!==\"default\"&&!Object.prototype.hasOwnProperty.call(e,r)&&fst(e,t,r)};Object.defineProperty(uh,\"__esModule\",{value:!0});var hst=ve(\"events\"),gst=Tf(),dst=zse(),mb=w1(),Xae=zae(),Zae=C1(),mst=u4(),yst=m4(),$ae=y4(),Est=[\"request\",\"response\",\"redirect\",\"uploadProgress\",\"downloadProgress\"];function ele(t){let e,r,o=new hst.EventEmitter,a=new dst((u,A,p)=>{let h=E=>{let I=new Zae.default(void 0,t);I.retryCount=E,I._noPipe=!0,p(()=>I.destroy()),p.shouldReject=!1,p(()=>A(new mb.CancelError(I))),e=I,I.once(\"response\",async C=>{var R;if(C.retryCount=E,C.request.aborted)return;let L;try{L=await yst.default(I),C.rawBody=L}catch{return}if(I._isAboutToError)return;let U=((R=C.headers[\"content-encoding\"])!==null&&R!==void 0?R:\"\").toLowerCase(),J=[\"gzip\",\"deflate\",\"br\"].includes(U),{options:te}=I;if(J&&!te.decompress)C.body=L;else try{C.body=Xae.default(C,te.responseType,te.parseJson,te.encoding)}catch(ae){if(C.body=L.toString(),$ae.isResponseOk(C)){I._beforeError(ae);return}}try{for(let[ae,fe]of te.hooks.afterResponse.entries())C=await fe(C,async ce=>{let me=Zae.default.normalizeArguments(void 0,{...ce,retry:{calculateDelay:()=>0},throwHttpErrors:!1,resolveBodyOnly:!1},te);me.hooks.afterResponse=me.hooks.afterResponse.slice(0,ae);for(let Be of me.hooks.beforeRetry)await Be(me);let he=ele(me);return p(()=>{he.catch(()=>{}),he.cancel()}),he})}catch(ae){I._beforeError(new mb.RequestError(ae.message,ae,I));return}if(!$ae.isResponseOk(C)){I._beforeError(new mb.HTTPError(C));return}r=C,u(I.options.resolveBodyOnly?C.body:C)});let v=C=>{if(a.isCanceled)return;let{options:R}=I;if(C instanceof mb.HTTPError&&!R.throwHttpErrors){let{response:L}=C;u(I.options.resolveBodyOnly?L.body:L);return}A(C)};I.once(\"error\",v);let x=I.options.body;I.once(\"retry\",(C,R)=>{var L,U;if(x===((L=R.request)===null||L===void 0?void 0:L.options.body)&&gst.default.nodeStream((U=R.request)===null||U===void 0?void 0:U.options.body)){v(R);return}h(C)}),mst.default(I,o,Est)};h(0)});a.on=(u,A)=>(o.on(u,A),a);let n=u=>{let A=(async()=>{await a;let{options:p}=r.request;return Xae.default(r,u,p.parseJson,p.encoding)})();return Object.defineProperties(A,Object.getOwnPropertyDescriptors(a)),A};return a.json=()=>{let{headers:u}=e.options;return!e.writableFinished&&u.accept===void 0&&(u.accept=\"application/json\"),n(\"json\")},a.buffer=()=>n(\"buffer\"),a.text=()=>n(\"text\"),a}uh.default=ele;pst(w1(),uh)});var tle=_(x4=>{\"use strict\";Object.defineProperty(x4,\"__esModule\",{value:!0});var Cst=w1();function wst(t,...e){let r=(async()=>{if(t instanceof Cst.RequestError)try{for(let a of e)if(a)for(let n of a)t=await n(t)}catch(a){t=a}throw t})(),o=()=>r;return r.json=o,r.text=o,r.buffer=o,r.on=o,r}x4.default=wst});var ile=_(k4=>{\"use strict\";Object.defineProperty(k4,\"__esModule\",{value:!0});var rle=Tf();function nle(t){for(let e of Object.values(t))(rle.default.plainObject(e)||rle.default.array(e))&&nle(e);return Object.freeze(t)}k4.default=nle});var ole=_(sle=>{\"use strict\";Object.defineProperty(sle,\"__esModule\",{value:!0})});var Q4=_(Vl=>{\"use strict\";var Ist=Vl&&Vl.__createBinding||(Object.create?function(t,e,r,o){o===void 0&&(o=r),Object.defineProperty(t,o,{enumerable:!0,get:function(){return e[r]}})}:function(t,e,r,o){o===void 0&&(o=r),t[o]=e[r]}),Bst=Vl&&Vl.__exportStar||function(t,e){for(var r in t)r!==\"default\"&&!Object.prototype.hasOwnProperty.call(e,r)&&Ist(e,t,r)};Object.defineProperty(Vl,\"__esModule\",{value:!0});Vl.defaultHandler=void 0;var ale=Tf(),Kl=b4(),vst=tle(),Eb=C1(),Dst=ile(),Sst={RequestError:Kl.RequestError,CacheError:Kl.CacheError,ReadError:Kl.ReadError,HTTPError:Kl.HTTPError,MaxRedirectsError:Kl.MaxRedirectsError,TimeoutError:Kl.TimeoutError,ParseError:Kl.ParseError,CancelError:Kl.CancelError,UnsupportedProtocolError:Kl.UnsupportedProtocolError,UploadError:Kl.UploadError},Pst=async t=>new Promise(e=>{setTimeout(e,t)}),{normalizeArguments:yb}=Eb.default,lle=(...t)=>{let e;for(let r of t)e=yb(void 0,r,e);return e},bst=t=>t.isStream?new Eb.default(void 0,t):Kl.default(t),xst=t=>\"defaults\"in t&&\"options\"in t.defaults,kst=[\"get\",\"post\",\"put\",\"patch\",\"head\",\"delete\"];Vl.defaultHandler=(t,e)=>e(t);var cle=(t,e)=>{if(t)for(let r of t)r(e)},ule=t=>{t._rawHandlers=t.handlers,t.handlers=t.handlers.map(o=>(a,n)=>{let u,A=o(a,p=>(u=n(p),u));if(A!==u&&!a.isStream&&u){let p=A,{then:h,catch:E,finally:I}=p;Object.setPrototypeOf(p,Object.getPrototypeOf(u)),Object.defineProperties(p,Object.getOwnPropertyDescriptors(u)),p.then=h,p.catch=E,p.finally=I}return A});let e=(o,a={},n)=>{var u,A;let p=0,h=E=>t.handlers[p++](E,p===t.handlers.length?bst:h);if(ale.default.plainObject(o)){let E={...o,...a};Eb.setNonEnumerableProperties([o,a],E),a=E,o=void 0}try{let E;try{cle(t.options.hooks.init,a),cle((u=a.hooks)===null||u===void 0?void 0:u.init,a)}catch(v){E=v}let I=yb(o,a,n??t.options);if(I[Eb.kIsNormalizedAlready]=!0,E)throw new Kl.RequestError(E.message,E,I);return h(I)}catch(E){if(a.isStream)throw E;return vst.default(E,t.options.hooks.beforeError,(A=a.hooks)===null||A===void 0?void 0:A.beforeError)}};e.extend=(...o)=>{let a=[t.options],n=[...t._rawHandlers],u;for(let A of o)xst(A)?(a.push(A.defaults.options),n.push(...A.defaults._rawHandlers),u=A.defaults.mutableDefaults):(a.push(A),\"handlers\"in A&&n.push(...A.handlers),u=A.mutableDefaults);return n=n.filter(A=>A!==Vl.defaultHandler),n.length===0&&n.push(Vl.defaultHandler),ule({options:lle(...a),handlers:n,mutableDefaults:Boolean(u)})};let r=async function*(o,a){let n=yb(o,a,t.options);n.resolveBodyOnly=!1;let u=n.pagination;if(!ale.default.object(u))throw new TypeError(\"`options.pagination` must be implemented\");let A=[],{countLimit:p}=u,h=0;for(;h<u.requestLimit;){h!==0&&await Pst(u.backoff);let E=await e(void 0,void 0,n),I=await u.transform(E),v=[];for(let C of I)if(u.filter(C,A,v)&&(!u.shouldContinue(C,A,v)||(yield C,u.stackAllItems&&A.push(C),v.push(C),--p<=0)))return;let x=u.paginate(E,A,v);if(x===!1)return;x===E.request.options?n=E.request.options:x!==void 0&&(n=yb(void 0,x,n)),h++}};e.paginate=r,e.paginate.all=async(o,a)=>{let n=[];for await(let u of r(o,a))n.push(u);return n},e.paginate.each=r,e.stream=(o,a)=>e(o,{...a,isStream:!0});for(let o of kst)e[o]=(a,n)=>e(a,{...n,method:o}),e.stream[o]=(a,n)=>e(a,{...n,method:o,isStream:!0});return Object.assign(e,Sst),Object.defineProperty(e,\"defaults\",{value:t.mutableDefaults?t:Dst.default(t),writable:t.mutableDefaults,configurable:t.mutableDefaults,enumerable:!0}),e.mergeOptions=lle,e};Vl.default=ule;Bst(ole(),Vl)});var ple=_((Nf,Cb)=>{\"use strict\";var Qst=Nf&&Nf.__createBinding||(Object.create?function(t,e,r,o){o===void 0&&(o=r),Object.defineProperty(t,o,{enumerable:!0,get:function(){return e[r]}})}:function(t,e,r,o){o===void 0&&(o=r),t[o]=e[r]}),Ale=Nf&&Nf.__exportStar||function(t,e){for(var r in t)r!==\"default\"&&!Object.prototype.hasOwnProperty.call(e,r)&&Qst(e,t,r)};Object.defineProperty(Nf,\"__esModule\",{value:!0});var Fst=ve(\"url\"),fle=Q4(),Rst={options:{method:\"GET\",retry:{limit:2,methods:[\"GET\",\"PUT\",\"HEAD\",\"DELETE\",\"OPTIONS\",\"TRACE\"],statusCodes:[408,413,429,500,502,503,504,521,522,524],errorCodes:[\"ETIMEDOUT\",\"ECONNRESET\",\"EADDRINUSE\",\"ECONNREFUSED\",\"EPIPE\",\"ENOTFOUND\",\"ENETUNREACH\",\"EAI_AGAIN\"],maxRetryAfter:void 0,calculateDelay:({computedValue:t})=>t},timeout:{},headers:{\"user-agent\":\"got (https://github.com/sindresorhus/got)\"},hooks:{init:[],beforeRequest:[],beforeRedirect:[],beforeRetry:[],beforeError:[],afterResponse:[]},cache:void 0,dnsCache:void 0,decompress:!0,throwHttpErrors:!0,followRedirect:!0,isStream:!1,responseType:\"text\",resolveBodyOnly:!1,maxRedirects:10,prefixUrl:\"\",methodRewriting:!0,ignoreInvalidCookies:!1,context:{},http2:!1,allowGetBody:!1,https:void 0,pagination:{transform:t=>t.request.options.responseType===\"json\"?t.body:JSON.parse(t.body),paginate:t=>{if(!Reflect.has(t.headers,\"link\"))return!1;let e=t.headers.link.split(\",\"),r;for(let o of e){let a=o.split(\";\");if(a[1].includes(\"next\")){r=a[0].trimStart().trim(),r=r.slice(1,-1);break}}return r?{url:new Fst.URL(r)}:!1},filter:()=>!0,shouldContinue:()=>!0,countLimit:1/0,backoff:0,requestLimit:1e4,stackAllItems:!0},parseJson:t=>JSON.parse(t),stringifyJson:t=>JSON.stringify(t),cacheOptions:{}},handlers:[fle.defaultHandler],mutableDefaults:!1},F4=fle.default(Rst);Nf.default=F4;Cb.exports=F4;Cb.exports.default=F4;Cb.exports.__esModule=!0;Ale(Q4(),Nf);Ale(b4(),Nf)});var nn={};Vt(nn,{Method:()=>Cle,del:()=>Mst,get:()=>L4,getNetworkSettings:()=>Ele,post:()=>O4,put:()=>Ost,request:()=>I1});function dle(t){let e=new URL(t),r={host:e.hostname,headers:{}};return e.port&&(r.port=Number(e.port)),e.username&&e.password&&(r.proxyAuth=`${e.username}:${e.password}`),{proxy:r}}async function R4(t){return ol(gle,t,()=>oe.readFilePromise(t).then(e=>(gle.set(t,e),e)))}function Lst({statusCode:t,statusMessage:e},r){let o=Mt(r,t,yt.NUMBER),a=`https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/${t}`;return Zy(r,`${o}${e?` (${e})`:\"\"}`,a)}async function wb(t,{configuration:e,customErrorMessage:r}){try{return await t}catch(o){if(o.name!==\"HTTPError\")throw o;let a=r?.(o,e)??o.response.body?.error;a==null&&(o.message.startsWith(\"Response code\")?a=\"The remote server failed to provide the requested resource\":a=o.message),o.code===\"ETIMEDOUT\"&&o.event===\"socket\"&&(a+=`(can be increased via ${Mt(e,\"httpTimeout\",yt.SETTING)})`);let n=new zt(35,a,u=>{o.response&&u.reportError(35,`  ${zu(e,{label:\"Response Code\",value:_c(yt.NO_HINT,Lst(o.response,e))})}`),o.request&&(u.reportError(35,`  ${zu(e,{label:\"Request Method\",value:_c(yt.NO_HINT,o.request.options.method)})}`),u.reportError(35,`  ${zu(e,{label:\"Request URL\",value:_c(yt.URL,o.request.requestUrl)})}`)),o.request.redirects.length>0&&u.reportError(35,`  ${zu(e,{label:\"Request Redirects\",value:_c(yt.NO_HINT,PL(e,o.request.redirects,yt.URL))})}`),o.request.retryCount===o.request.options.retry.limit&&u.reportError(35,`  ${zu(e,{label:\"Request Retry Count\",value:_c(yt.NO_HINT,`${Mt(e,o.request.retryCount,yt.NUMBER)} (can be increased via ${Mt(e,\"httpRetry\",yt.SETTING)})`)})}`)});throw n.originalError=o,n}}function Ele(t,e){let r=[...e.configuration.get(\"networkSettings\")].sort(([u],[A])=>A.length-u.length),o={enableNetwork:void 0,httpsCaFilePath:void 0,httpProxy:void 0,httpsProxy:void 0,httpsKeyFilePath:void 0,httpsCertFilePath:void 0},a=Object.keys(o),n=typeof t==\"string\"?new URL(t):t;for(let[u,A]of r)if(N4.default.isMatch(n.hostname,u))for(let p of a){let h=A.get(p);h!==null&&typeof o[p]>\"u\"&&(o[p]=h)}for(let u of a)typeof o[u]>\"u\"&&(o[u]=e.configuration.get(u));return o}async function I1(t,e,{configuration:r,headers:o,jsonRequest:a,jsonResponse:n,method:u=\"GET\",wrapNetworkRequest:A}){let p={target:t,body:e,configuration:r,headers:o,jsonRequest:a,jsonResponse:n,method:u},h=async()=>await Ust(t,e,p),E=typeof A<\"u\"?await A(h,p):h;return await(await r.reduceHook(v=>v.wrapNetworkRequest,E,p))()}async function L4(t,{configuration:e,jsonResponse:r,customErrorMessage:o,wrapNetworkRequest:a,...n}){let u=()=>wb(I1(t,null,{configuration:e,wrapNetworkRequest:a,...n}),{configuration:e,customErrorMessage:o}).then(p=>p.body),A=await(typeof a<\"u\"?u():ol(hle,t,()=>u().then(p=>(hle.set(t,p),p))));return r?JSON.parse(A.toString()):A}async function Ost(t,e,{customErrorMessage:r,...o}){return(await wb(I1(t,e,{...o,method:\"PUT\"}),{customErrorMessage:r,configuration:o.configuration})).body}async function O4(t,e,{customErrorMessage:r,...o}){return(await wb(I1(t,e,{...o,method:\"POST\"}),{customErrorMessage:r,configuration:o.configuration})).body}async function Mst(t,{customErrorMessage:e,...r}){return(await wb(I1(t,null,{...r,method:\"DELETE\"}),{customErrorMessage:e,configuration:r.configuration})).body}async function Ust(t,e,{configuration:r,headers:o,jsonRequest:a,jsonResponse:n,method:u=\"GET\"}){let A=typeof t==\"string\"?new URL(t):t,p=Ele(A,{configuration:r});if(p.enableNetwork===!1)throw new zt(80,`Request to '${A.href}' has been blocked because of your configuration settings`);if(A.protocol===\"http:\"&&!N4.default.isMatch(A.hostname,r.get(\"unsafeHttpWhitelist\")))throw new zt(81,`Unsafe http requests must be explicitly whitelisted in your configuration (${A.hostname})`);let E={agent:{http:p.httpProxy?T4.default.httpOverHttp(dle(p.httpProxy)):Tst,https:p.httpsProxy?T4.default.httpsOverHttp(dle(p.httpsProxy)):Nst},headers:o,method:u};E.responseType=n?\"json\":\"buffer\",e!==null&&(Buffer.isBuffer(e)||!a&&typeof e==\"string\"?E.body=e:E.json=e);let I=r.get(\"httpTimeout\"),v=r.get(\"httpRetry\"),x=r.get(\"enableStrictSsl\"),C=p.httpsCaFilePath,R=p.httpsCertFilePath,L=p.httpsKeyFilePath,{default:U}=await Promise.resolve().then(()=>$e(ple())),J=C?await R4(C):void 0,te=R?await R4(R):void 0,ae=L?await R4(L):void 0,fe=U.extend({timeout:{socket:I},retry:v,https:{rejectUnauthorized:x,certificateAuthority:J,certificate:te,key:ae},...E});return r.getLimit(\"networkConcurrency\")(()=>fe(A))}var mle,yle,N4,T4,hle,gle,Tst,Nst,Cle,Ib=Et(()=>{St();mle=ve(\"https\"),yle=ve(\"http\"),N4=$e(Zo()),T4=$e(Yse());Yl();jl();ql();hle=new Map,gle=new Map,Tst=new yle.Agent({keepAlive:!0}),Nst=new mle.Agent({keepAlive:!0});Cle=(a=>(a.GET=\"GET\",a.PUT=\"PUT\",a.POST=\"POST\",a.DELETE=\"DELETE\",a))(Cle||{})});var Ji={};Vt(Ji,{availableParallelism:()=>U4,getArchitecture:()=>B1,getArchitectureName:()=>Gst,getArchitectureSet:()=>M4,getCaller:()=>Vst,major:()=>_st,openUrl:()=>Hst});function jst(){if(process.platform===\"darwin\"||process.platform===\"win32\")return null;let t;try{t=oe.readFileSync(qst)}catch{}if(typeof t<\"u\"){if(t&&t.includes(\"GLIBC\"))return\"glibc\";if(t&&t.includes(\"musl\"))return\"musl\"}let r=(process.report?.getReport()??{}).sharedObjects??[],o=/\\/(?:(ld-linux-|[^/]+-linux-gnu\\/)|(libc.musl-|ld-musl-))/;return KI(r,a=>{let n=a.match(o);if(!n)return KI.skip;if(n[1])return\"glibc\";if(n[2])return\"musl\";throw new Error(\"Assertion failed: Expected the libc variant to have been detected\")})??null}function B1(){return Ile=Ile??{os:process.platform,cpu:process.arch,libc:jst()}}function Gst(t=B1()){return t.libc?`${t.os}-${t.cpu}-${t.libc}`:`${t.os}-${t.cpu}`}function M4(){let t=B1();return Ble=Ble??{os:[t.os],cpu:[t.cpu],libc:t.libc?[t.libc]:[]}}function Kst(t){let e=Yst.exec(t);if(!e)return null;let r=e[2]&&e[2].indexOf(\"native\")===0,o=e[2]&&e[2].indexOf(\"eval\")===0,a=Wst.exec(e[2]);return o&&a!=null&&(e[2]=a[1],e[3]=a[2],e[4]=a[3]),{file:r?null:e[2],methodName:e[1]||\"<unknown>\",arguments:r?[e[2]]:[],line:e[3]?+e[3]:null,column:e[4]?+e[4]:null}}function Vst(){let e=new Error().stack.split(`",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 134,
+   "value": "r=!1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 167,
+   "value": "t.configuration})",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 185,
+   "value": "!u.skipIntegrityCheck||!r?",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 204,
+   "value": "pageUp",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 213,
+   "value": "this.options.password}var",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 223,
+   "value": "u,I.output=",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 234,
+   "whole_line": "`)),this.write(this.margin[2]),this.restore()}};D0e.exports=m8});var b0e=_((Q8t,P0e)=>{\"use strict\";var zft=bh(),y8=class extends zft{constructor(e){if(super(e),typeof this.options.correctChoice!=\"number\"||this.options.correctChoice<0)throw new Error(\"Please specify the index of the correct answer from the list of choices\")}async toChoices(e,r){let o=await super.toChoices(e,r);if(o.length<2)throw new Error(\"Please give at least two choices to the user\");if(this.options.correctChoice>o.length)throw new Error(\"Please specify the index of the correct answer from the list of choices\");return o}check(e){return e.index===this.options.correctChoice}async result(e){return{selectedAnswer:e,correctAnswer:this.options.choices[this.options.correctChoice].value,correct:await this.check(this.state)}}};P0e.exports=y8});var k0e=_(E8=>{\"use strict\";var x0e=No(),As=(t,e)=>{x0e.defineExport(E8,t,e),x0e.defineExport(E8,t.toLowerCase(),e)};As(\"AutoComplete\",()=>Lhe());As(\"BasicAuth\",()=>jhe());As(\"Confirm\",()=>Whe());As(\"Editable\",()=>Vhe());As(\"Form\",()=>ak());As(\"Input\",()=>i8());As(\"Invisible\",()=>t0e());As(\"List\",()=>n0e());As(\"MultiSelect\",()=>s0e());As(\"Numeral\",()=>l0e());As(\"Password\",()=>u0e());As(\"Scale\",()=>p0e());As(\"Select\",()=>bh());As(\"Snippet\",()=>y0e());As(\"Sort\",()=>C0e());As(\"Survey\",()=>I0e());As(\"Text\",()=>v0e());As(\"Toggle\",()=>S0e());As(\"Quiz\",()=>b0e())});var F0e=_((R8t,Q0e)=>{Q0e.exports={ArrayPrompt:u2(),AuthPrompt:Z_(),BooleanPrompt:lk(),NumberPrompt:c8(),StringPrompt:Wd()}});var f2=_((T8t,T0e)=>{\"use strict\";var R0e=ve(\"assert\"),w8=ve(\"events\"),xh=No(),Jc=class extends w8{constructor(e,r){super(),this.options=xh.merge({},e),this.answers={...r}}register(e,r){if(xh.isObject(e)){for(let a of Object.keys(e))this.register(a,e[a]);return this}R0e.equal(typeof r,\"function\",\"expected a function\");let o=e.toLowerCase();return r.prototype instanceof this.Prompt?this.prompts[o]=r:this.prompts[o]=r(this.Prompt,this),this}async prompt(e=[]){for(let r of[].concat(e))try{typeof r==\"function\"&&(r=await r.call(this)),await this.ask(xh.merge({},this.options,r))}catch(o){return Promise.reject(o)}return this.answers}async ask(e){typeof e==\"function\"&&(e=await e.call(this));let r=xh.merge({},this.options,e),{type:o,name:a}=e,{set:n,get:u}=xh;if(typeof o==\"function\"&&(o=await o.call(this,e,this.answers)),!o)return this.answers[a];R0e(this.prompts[o],`Prompt \"${o}\" is not registered`);let A=new this.prompts[o](r),p=u(this.answers,a);A.state.answers=this.answers,A.enquirer=this,a&&A.on(\"submit\",E=>{this.emit(\"answer\",a,E,A),n(this.answers,a,E)});let h=A.emit.bind(A);return A.emit=(...E)=>(this.emit.call(this,...E),h(...E)),this.emit(\"prompt\",A,this),r.autofill&&p!=null?(A.value=A.input=p,r.autofill===\"show\"&&await A.submit()):p=A.value=await A.run(),p}use(e){return e.call(this,this),this}set Prompt(e){this._Prompt=e}get Prompt(){return this._Prompt||this.constructor.Prompt}get prompts(){return this.constructor.prompts}static set Prompt(e){this._Prompt=e}static get Prompt(){return this._Prompt||gC()}static get prompts(){return k0e()}static get types(){return F0e()}static get prompt(){let e=(r,...o)=>{let a=new this(...o),n=a.emit.bind(a);return a.emit=(...u)=>(e.emit(...u),n(...u)),a.prompt(r)};return xh.mixinEmitter(e,new w8),e}};xh.mixinEmitter(Jc,new w8);var C8=Jc.prompts;for(let t of Object.keys(C8)){let e=t.toLowerCase(),r=o=>new C8[t](o).run();Jc.prompt[e]=r,Jc[e]=r,Jc[t]||Reflect.defineProperty(Jc,t,{get:()=>C8[t]})}var A2=t=>{xh.defineExport(Jc,t,()=>Jc.types[t])};A2(\"ArrayPrompt\");A2(\"AuthPrompt\");A2(\"BooleanPrompt\");A2(\"NumberPrompt\");A2(\"StringPrompt\");T0e.exports=Jc});var d2=_((dHt,H0e)=>{var rpt=zx();function npt(t,e,r){var o=t==null?void 0:rpt(t,e);return o===void 0?r:o}H0e.exports=npt});var G0e=_((IHt,j0e)=>{function ipt(t,e){for(var r=-1,o=t==null?0:t.length;++r<o&&e(t[r],r,t)!==!1;);return t}j0e.exports=ipt});var W0e=_((BHt,Y0e)=>{var spt=dd(),opt=zS();function apt(t,e){return t&&spt(e,opt(e),t)}Y0e.exports=apt});var V0e=_((vHt,K0e)=>{var lpt=dd(),cpt=Gy();function upt(t,e){return t&&lpt(e,cpt(e),t)}K0e.exports=upt});var z0e=_((DHt,J0e)=>{var Apt=dd(),fpt=GS();function ppt(t,e){return Apt(t,fpt(t),e)}J0e.exports=ppt});var P8=_((SHt,X0e)=>{var hpt=jS(),gpt=tP(),dpt=GS(),mpt=WN(),ypt=Object.getOwnPropertySymbols,Ept=ypt?function(t){for(var e=[];t;)hpt(e,dpt(t)),t=gpt(t);return e}:mpt;X0e.exports=Ept});var $0e=_((PHt,Z0e)=>{var Cpt=dd(),wpt=P8();function Ipt(t,e){return Cpt(t,wpt(t),e)}Z0e.exports=Ipt});var b8=_((bHt,ege)=>{var Bpt=YN(),vpt=P8(),Dpt=Gy();function Spt(t){return Bpt(t,Dpt,vpt)}ege.exports=Spt});var rge=_((xHt,tge)=>{var Ppt=Object.prototype,bpt=Ppt.hasOwnProperty;function xpt(t){var e=t.length,r=new t.constructor(e);return e&&typeof t[0]==\"string\"&&bpt.call(t,\"index\")&&(r.index=t.index,r.input=t.input),r}tge.exports=xpt});var ige=_((kHt,nge)=>{var kpt=$S();function Qpt(t,e){var r=e?kpt(t.buffer):t.buffer;return new t.constructor(r,t.byteOffset,t.byteLength)}nge.exports=Qpt});var oge=_((QHt,sge)=>{var Fpt=/\\w*$/;function Rpt(t){var e=new t.constructor(t.source,Fpt.exec(t));return e.lastIndex=t.lastIndex,e}sge.exports=Rpt});var Age=_((FHt,uge)=>{var age=pd(),lge=age?age.prototype:void 0,cge=lge?lge.valueOf:void 0;function Tpt(t){return cge?Object(cge.call(t)):{}}uge.exports=Tpt});var pge=_((RHt,fge)=>{var Npt=$S(),Lpt=ige(),Opt=oge(),Mpt=Age(),Upt=oL(),_pt=\"[object Boolean]\",Hpt=\"[object Date]\",qpt=\"[object Map]\",jpt=\"[object Number]\",Gpt=\"[object RegExp]\",Ypt=\"[object Set]\",Wpt=\"[object String]\",Kpt=\"[object Symbol]\",Vpt=\"[object ArrayBuffer]\",Jpt=\"[object DataView]\",zpt=\"[object Float32Array]\",Xpt=\"[object Float64Array]\",Zpt=\"[object Int8Array]\",$pt=\"[object Int16Array]\",eht=\"[object Int32Array]\",tht=\"[object Uint8Array]\",rht=\"[object Uint8ClampedArray]\",nht=\"[object Uint16Array]\",iht=\"[object Uint32Array]\";function sht(t,e,r){var o=t.constructor;switch(e){case Vpt:return Npt(t);case _pt:case Hpt:return new o(+t);case Jpt:return Lpt(t,r);case zpt:case Xpt:case Zpt:case $pt:case eht:case tht:case rht:case nht:case iht:return Upt(t,r);case qpt:return new o;case jpt:case Wpt:return new o(t);case Gpt:return Opt(t);case Ypt:return new o;case Kpt:return Mpt(t)}}fge.exports=sht});var gge=_((THt,hge)=>{var oht=GI(),aht=Ju(),lht=\"[object Map]\";function cht(t){return aht(t)&&oht(t)==lht}hge.exports=cht});var Ege=_((NHt,yge)=>{var uht=gge(),Aht=WS(),dge=KS(),mge=dge&&dge.isMap,fht=mge?Aht(mge):uht;yge.exports=fht});var wge=_((LHt,Cge)=>{var pht=GI(),hht=Ju(),ght=\"[object Set]\";function dht(t){return hht(t)&&pht(t)==ght}Cge.exports=dht});var Dge=_((OHt,vge)=>{var mht=wge(),yht=WS(),Ige=KS(),Bge=Ige&&Ige.isSet,Eht=Bge?yht(Bge):mht;vge.exports=Eht});var x8=_((MHt,xge)=>{var Cht=HS(),wht=G0e(),Iht=rP(),Bht=W0e(),vht=V0e(),Dht=sL(),Sht=eP(),Pht=z0e(),bht=$0e(),xht=zN(),kht=b8(),Qht=GI(),Fht=rge(),Rht=pge(),Tht=aL(),Nht=Hl(),Lht=UI(),Oht=Ege(),Mht=il(),Uht=Dge(),_ht=zS(),Hht=Gy(),qht=1,jht=2,Ght=4,Sge=\"[object Arguments]\",Yht=\"[object Array]\",Wht=\"[object Boolean]\",Kht=\"[object Date]\",Vht=\"[object Error]\",Pge=\"[object Function]\",Jht=\"[object GeneratorFunction]\",zht=\"[object Map]\",Xht=\"[object Number]\",bge=\"[object Object]\",Zht=\"[object RegExp]\",$ht=\"[object Set]\",e0t=\"[object String]\",t0t=\"[object Symbol]\",r0t=\"[object WeakMap]\",n0t=\"[object ArrayBuffer]\",i0t=\"[object DataView]\",s0t=\"[object Float32Array]\",o0t=\"[object Float64Array]\",a0t=\"[object Int8Array]\",l0t=\"[object Int16Array]\",c0t=\"[object Int32Array]\",u0t=\"[object Uint8Array]\",A0t=\"[object Uint8ClampedArray]\",f0t=\"[object Uint16Array]\",p0t=\"[object Uint32Array]\",ri={};ri[Sge]=ri[Yht]=ri[n0t]=ri[i0t]=ri[Wht]=ri[Kht]=ri[s0t]=ri[o0t]=ri[a0t]=ri[l0t]=ri[c0t]=ri[zht]=ri[Xht]=ri[bge]=ri[Zht]=ri[$ht]=ri[e0t]=ri[t0t]=ri[u0t]=ri[A0t]=ri[f0t]=ri[p0t]=!0;ri[Vht]=ri[Pge]=ri[r0t]=!1;function Ak(t,e,r,o,a,n){var u,A=e&qht,p=e&jht,h=e&Ght;if(r&&(u=a?r(t,o,a,n):r(t)),u!==void 0)return u;if(!Mht(t))return t;var E=Nht(t);if(E){if(u=Fht(t),!A)return Sht(t,u)}else{var I=Qht(t),v=I==Pge||I==Jht;if(Lht(t))return Dht(t,A);if(I==bge||I==Sge||v&&!a){if(u=p||v?{}:Tht(t),!A)return p?bht(t,vht(u,t)):Pht(t,Bht(u,t))}else{if(!ri[I])return a?t:{};u=Rht(t,I,A)}}n||(n=new Cht);var x=n.get(t);if(x)return x;n.set(t,u),Uht(t)?t.forEach(function(L){u.add(Ak(L,e,r,L,t,n))}):Oht(t)&&t.forEach(function(L,U){u.set(U,Ak(L,e,r,U,t,n))});var C=h?p?kht:xht:p?Hht:_ht,R=E?void 0:C(t);return wht(R||t,function(L,U){R&&(U=L,L=t[U]),Iht(u,U,Ak(L,e,r,U,t,n))}),u}xge.exports=Ak});var k8=_((UHt,kge)=>{var h0t=x8(),g0t=1,d0t=4;function m0t(t){return h0t(t,g0t|d0t)}kge.exports=m0t});var Q8=_((_Ht,Qge)=>{var y0t=I_();function E0t(t,e,r){return t==null?t:y0t(t,e,r)}Qge.exports=E0t});var Lge=_((WHt,Nge)=>{var C0t=Object.prototype,w0t=C0t.hasOwnProperty;function I0t(t,e){return t!=null&&w0t.call(t,e)}Nge.exports=I0t});var Mge=_((KHt,Oge)=>{var B0t=Lge(),v0t=B_();function D0t(t,e){return t!=null&&v0t(t,e,B0t)}Oge.exports=D0t});var _ge=_((VHt,Uge)=>{function S0t(t){var e=t==null?0:t.length;return e?t[e-1]:void 0}Uge.exports=S0t});var qge=_((JHt,Hge)=>{var P0t=zx(),b0t=pU();function x0t(t,e){return e.length<2?t:P0t(t,b0t(e,0,-1))}Hge.exports=x0t});var R8=_((zHt,jge)=>{var k0t=jd(),Q0t=_ge(),F0t=qge(),R0t=lC();function T0t(t,e){return e=k0t(e,t),t=F0t(t,e),t==null||delete t[R0t(Q0t(e))]}jge.exports=T0t});var T8=_((XHt,Gge)=>{var N0t=R8();function L0t(t,e){return t==null?!0:N0t(t,e)}Gge.exports=L0t});var Jge=_((S6t,U0t)=>{U0t.exports={name:\"@yarnpkg/cli\",version:\"4.1.1\",license:\"BSD-2-Clause\",main:\"./sources/index.ts\",exports:{\".\":\"./sources/index.ts\",\"./polyfills\":\"./sources/polyfills.ts\",\"./package.json\":\"./package.json\"},dependencies:{\"@yarnpkg/core\":\"workspace:^\",\"@yarnpkg/fslib\":\"workspace:^\",\"@yarnpkg/libzip\":\"workspace:^\",\"@yarnpkg/parsers\":\"workspace:^\",\"@yarnpkg/plugin-compat\":\"workspace:^\",\"@yarnpkg/plugin-constraints\":\"workspace:^\",\"@yarnpkg/plugin-dlx\":\"workspace:^\",\"@yarnpkg/plugin-essentials\":\"workspace:^\",\"@yarnpkg/plugin-exec\":\"workspace:^\",\"@yarnpkg/plugin-file\":\"workspace:^\",\"@yarnpkg/plugin-git\":\"workspace:^\",\"@yarnpkg/plugin-github\":\"workspace:^\",\"@yarnpkg/plugin-http\":\"workspace:^\",\"@yarnpkg/plugin-init\":\"workspace:^\",\"@yarnpkg/plugin-interactive-tools\":\"workspace:^\",\"@yarnpkg/plugin-link\":\"workspace:^\",\"@yarnpkg/plugin-nm\":\"workspace:^\",\"@yarnpkg/plugin-npm\":\"workspace:^\",\"@yarnpkg/plugin-npm-cli\":\"workspace:^\",\"@yarnpkg/plugin-pack\":\"workspace:^\",\"@yarnpkg/plugin-patch\":\"workspace:^\",\"@yarnpkg/plugin-pnp\":\"workspace:^\",\"@yarnpkg/plugin-pnpm\":\"workspace:^\",\"@yarnpkg/plugin-stage\":\"workspace:^\",\"@yarnpkg/plugin-typescript\":\"workspace:^\",\"@yarnpkg/plugin-version\":\"workspace:^\",\"@yarnpkg/plugin-workspace-tools\":\"workspace:^\",\"@yarnpkg/shell\":\"workspace:^\",\"ci-info\":\"^3.2.0\",clipanion:\"^4.0.0-rc.2\",semver:\"^7.1.2\",tslib:\"^2.4.0\",typanion:\"^3.14.0\"},devDependencies:{\"@types/semver\":\"^7.1.0\",\"@yarnpkg/builder\":\"workspace:^\",\"@yarnpkg/monorepo\":\"workspace:^\",\"@yarnpkg/pnpify\":\"workspace:^\"},peerDependencies:{\"@yarnpkg/core\":\"workspace:^\"},scripts:{postpack:\"rm -rf lib\",prepack:'run build:compile \"$(pwd)\"',\"build:cli+hook\":\"run build:pnp:hook && builder build bundle\",\"build:cli\":\"builder build bundle\",\"run:cli\":\"builder run\",\"update-local\":\"run build:cli --no-git-hash && rsync -a --delete bundles/ bin/\"},publishConfig:{main:\"./lib/index.js\",bin:null,exports:{\".\":\"./lib/index.js\",\"./package.json\":\"./package.json\"}},files:[\"/lib/**/*\",\"!/lib/pluginConfiguration.*\",\"!/lib/cli.*\"],\"@yarnpkg/builder\":{bundles:{standard:[\"@yarnpkg/plugin-essentials\",\"@yarnpkg/plugin-compat\",\"@yarnpkg/plugin-constraints\",\"@yarnpkg/plugin-dlx\",\"@yarnpkg/plugin-exec\",\"@yarnpkg/plugin-file\",\"@yarnpkg/plugin-git\",\"@yarnpkg/plugin-github\",\"@yarnpkg/plugin-http\",\"@yarnpkg/plugin-init\",\"@yarnpkg/plugin-interactive-tools\",\"@yarnpkg/plugin-link\",\"@yarnpkg/plugin-nm\",\"@yarnpkg/plugin-npm\",\"@yarnpkg/plugin-npm-cli\",\"@yarnpkg/plugin-pack\",\"@yarnpkg/plugin-patch\",\"@yarnpkg/plugin-pnp\",\"@yarnpkg/plugin-pnpm\",\"@yarnpkg/plugin-stage\",\"@yarnpkg/plugin-typescript\",\"@yarnpkg/plugin-version\",\"@yarnpkg/plugin-workspace-tools\"]}},repository:{type:\"git\",url:\"ssh://git@github.com/yarnpkg/berry.git\",directory:\"packages/yarnpkg-cli\"},engines:{node:\">=18.12.0\"}}});var j8=_((n5t,ade)=>{\"use strict\";ade.exports=function(e,r){r===!0&&(r=0);var o=\"\";if(typeof e==\"string\")try{o=new URL(e).protocol}catch{}else e&&e.constructor===URL&&(o=e.protocol);var a=o.split(/\\:|\\+/).filter(Boolean);return typeof r==\"number\"?a[r]:a}});var cde=_((i5t,lde)=>{\"use strict\";var igt=j8();function sgt(t){var e={protocols:[],protocol:null,port:null,resource:\"\",host:\"\",user:\"\",password:\"\",pathname:\"\",hash:\"\",search:\"\",href:t,query:{},parse_failed:!1};try{var r=new URL(t);e.protocols=igt(r),e.protocol=e.protocols[0],e.port=r.port,e.resource=r.hostname,e.host=r.host,e.user=r.username||\"\",e.password=r.password||\"\",e.pathname=r.pathname,e.hash=r.hash.slice(1),e.search=r.search.slice(1),e.href=r.href,e.query=Object.fromEntries(r.searchParams)}catch{e.protocols=[\"file\"],e.protocol=e.protocols[0],e.port=\"\",e.resource=\"\",e.user=\"\",e.pathname=\"\",e.hash=\"\",e.search=\"\",e.href=t,e.query={},e.parse_failed=!0}return e}lde.exports=sgt});var fde=_((s5t,Ade)=>{\"use strict\";var ogt=cde();function agt(t){return t&&typeof t==\"object\"&&\"default\"in t?t:{default:t}}var lgt=agt(ogt),cgt=\"text/plain\",ugt=\"us-ascii\",ude=(t,e)=>e.some(r=>r instanceof RegExp?r.test(t):r===t),Agt=(t,{stripHash:e})=>{let r=/^data:(?<type>[^,]*?),(?<data>[^#]*?)(?:#(?<hash>.*))?$/.exec(t);if(!r)throw new Error(`Invalid URL: ${t}`);let{type:o,data:a,hash:n}=r.groups,u=o.split(\";\");n=e?\"\":n;let A=!1;u[u.length-1]===\"base64\"&&(u.pop(),A=!0);let p=(u.shift()||\"\").toLowerCase(),E=[...u.map(I=>{let[v,x=\"\"]=I.split(\"=\").map(C=>C.trim());return v===\"charset\"&&(x=x.toLowerCase(),x===ugt)?\"\":`${v}${x?`=${x}`:\"\"}`}).filter(Boolean)];return A&&E.push(\"base64\"),(E.length>0||p&&p!==cgt)&&E.unshift(p),`data:${E.join(\";\")},${A?a.trim():a}${n?`#${n}`:\"\"}`};function fgt(t,e){if(e={defaultProtocol:\"http:\",normalizeProtocol:!0,forceHttp:!1,forceHttps:!1,stripAuthentication:!0,stripHash:!1,stripTextFragment:!0,stripWWW:!0,removeQueryParameters:[/^utm_\\w+/i],removeTrailingSlash:!0,removeSingleSlash:!0,removeDirectoryIndex:!1,sortQueryParameters:!0,...e},t=t.trim(),/^data:/i.test(t))return Agt(t,e);if(/^view-source:/i.test(t))throw new Error(\"`view-source:` is not supported as it is a non-standard protocol\");let r=t.startsWith(\"//\");!r&&/^\\.*\\//.test(t)||(t=t.replace(/^(?!(?:\\w+:)?\\/\\/)|^\\/\\//,e.defaultProtocol));let a=new URL(t);if(e.forceHttp&&e.forceHttps)throw new Error(\"The `forceHttp` and `forceHttps` options cannot be used together\");if(e.forceHttp&&a.protocol===\"https:\"&&(a.protocol=\"http:\"),e.forceHttps&&a.protocol===\"http:\"&&(a.protocol=\"https:\"),e.stripAuthentication&&(a.username=\"\",a.password=\"\"),e.stripHash?a.hash=\"\":e.stripTextFragment&&(a.hash=a.hash.replace(/#?:~:text.*?$/i,\"\")),a.pathname){let u=/\\b[a-z][a-z\\d+\\-.]{1,50}:\\/\\//g,A=0,p=\"\";for(;;){let E=u.exec(a.pathname);if(!E)break;let I=E[0],v=E.index,x=a.pathname.slice(A,v);p+=x.replace(/\\/{2,}/g,\"/\"),p+=I,A=v+I.length}let h=a.pathname.slice(A,a.pathname.length);p+=h.replace(/\\/{2,}/g,\"/\"),a.pathname=p}if(a.pathname)try{a.pathname=decodeURI(a.pathname)}catch{}if(e.removeDirectoryIndex===!0&&(e.removeDirectoryIndex=[/^index\\.[a-z]+$/]),Array.isArray(e.removeDirectoryIndex)&&e.removeDirectoryIndex.length>0){let u=a.pathname.split(\"/\"),A=u[u.length-1];ude(A,e.removeDirectoryIndex)&&(u=u.slice(0,-1),a.pathname=u.slice(1).join(\"/\")+\"/\")}if(a.hostname&&(a.hostname=a.hostname.replace(/\\.$/,\"\"),e.stripWWW&&/^www\\.(?!www\\.)[a-z\\-\\d]{1,63}\\.[a-z.\\-\\d]{2,63}$/.test(a.hostname)&&(a.hostname=a.hostname.replace(/^www\\./,\"\"))),Array.isArray(e.removeQueryParameters))for(let u of[...a.searchParams.keys()])ude(u,e.removeQueryParameters)&&a.searchParams.delete(u);if(e.removeQueryParameters===!0&&(a.search=\"\"),e.sortQueryParameters){a.searchParams.sort();try{a.search=decodeURIComponent(a.search)}catch{}}e.removeTrailingSlash&&(a.pathname=a.pathname.replace(/\\/$/,\"\"));let n=t;return t=a.toString(),!e.removeSingleSlash&&a.pathname===\"/\"&&!n.endsWith(\"/\")&&a.hash===\"\"&&(t=t.replace(/\\/$/,\"\")),(e.removeTrailingSlash||a.pathname===\"/\")&&a.hash===\"\"&&e.removeSingleSlash&&(t=t.replace(/\\/$/,\"\")),r&&!e.normalizeProtocol&&(t=t.replace(/^http:\\/\\//,\"//\")),e.stripProtocol&&(t=t.replace(/^(?:https?:)?\\/\\//,\"\")),t}var G8=(t,e=!1)=>{let r=/^(?:([a-z_][a-z0-9_-]{0,31})@|https?:\\/\\/)([\\w\\.\\-@]+)[\\/:]([\\~,\\.\\w,\\-,\\_,\\/]+?(?:\\.git|\\/)?)$/,o=n=>{let u=new Error(n);throw u.subject_url=t,u};(typeof t!=\"string\"||!t.trim())&&o(\"Invalid url.\"),t.length>G8.MAX_INPUT_LENGTH&&o(\"Input exceeds maximum length. If needed, change the value of parseUrl.MAX_INPUT_LENGTH.\"),e&&(typeof e!=\"object\"&&(e={stripHash:!1}),t=fgt(t,e));let a=lgt.default(t);if(a.parse_failed){let n=a.href.match(r);n?(a.protocols=[\"ssh\"],a.protocol=\"ssh\",a.resource=n[2],a.host=n[2],a.user=n[1],a.pathname=`/${n[3]}`,a.parse_failed=!1):o(\"URL parsing failed.\")}return a};G8.MAX_INPUT_LENGTH=2048;Ade.exports=G8});var gde=_((o5t,hde)=>{\"use strict\";var pgt=j8();function pde(t){if(Array.isArray(t))return t.indexOf(\"ssh\")!==-1||t.indexOf(\"rsync\")!==-1;if(typeof t!=\"string\")return!1;var e=pgt(t);if(t=t.substring(t.indexOf(\"://\")+3),pde(e))return!0;var r=new RegExp(\".([a-zA-Z\\\\d]+):(\\\\d+)/\");return!t.match(r)&&t.indexOf(\"@\")<t.indexOf(\":\")}hde.exports=pde});var yde=_((a5t,mde)=>{\"use strict\";var hgt=fde(),dde=gde();function ggt(t){var e=hgt(t);return e.token=\"\",e.password===\"x-oauth-basic\"?e.token=e.user:e.user===\"x-token-auth\"&&(e.token=e.password),dde(e.protocols)||e.protocols.length===0&&dde(t)?e.protocol=\"ssh\":e.protocols.length?e.protocol=e.protocols[0]:(e.protocol=\"file\",e.protocols=[\"file\"]),e.href=e.href.replace(/\\/$/,\"\"),e}mde.exports=ggt});var Cde=_((l5t,Ede)=>{\"use strict\";var dgt=yde();function Y8(t){if(typeof t!=\"string\")throw new Error(\"The url must be a string.\");var e=/^([a-z\\d-]{1,39})\\/([-\\.\\w]{1,100})$/i;e.test(t)&&(t=\"https://github.com/\"+t);var r=dgt(t),o=r.resource.split(\".\"),a=null;switch(r.toString=function(L){return Y8.stringify(this,L)},r.source=o.length>2?o.slice(1-o.length).join(\".\"):r.source=r.resource,r.git_suffix=/\\.git$/.test(r.pathname),r.name=decodeURIComponent((r.pathname||r.href).replace(/(^\\/)|(\\/$)/g,\"\").replace(/\\.git$/,\"\")),r.owner=decodeURIComponent(r.user),r.source){case\"git.cloudforge.com\":r.owner=r.user,r.organization=o[0],r.source=\"cloudforge.com\";break;case\"visualstudio.com\":if(r.resource===\"vs-ssh.visualstudio.com\"){a=r.name.split(\"/\"),a.length===4&&(r.organization=a[1],r.owner=a[2],r.name=a[3],r.full_name=a[2]+\"/\"+a[3]);break}else{a=r.name.split(\"/\"),a.length===2?(r.owner=a[1],r.name=a[1],r.full_name=\"_git/\"+r.name):a.length===3?(r.name=a[2],a[0]===\"DefaultCollection\"?(r.owner=a[2],r.organization=a[0],r.full_name=r.organization+\"/_git/\"+r.name):(r.owner=a[0],r.full_name=r.owner+\"/_git/\"+r.name)):a.length===4&&(r.organization=a[0],r.owner=a[1],r.name=a[3],r.full_name=r.organization+\"/\"+r.owner+\"/_git/\"+r.name);break}case\"dev.azure.com\":case\"azure.com\":if(r.resource===\"ssh.dev.azure.com\"){a=r.name.split(\"/\"),a.length===4&&(r.organization=a[1],r.owner=a[2],r.name=a[3]);break}else{a=r.name.split(\"/\"),a.length===5?(r.organization=a[0],r.owner=a[1],r.name=a[4],r.full_name=\"_git/\"+r.name):a.length===3?(r.name=a[2],a[0]===\"DefaultCollection\"?(r.owner=a[2],r.organization=a[0],r.full_name=r.organization+\"/_git/\"+r.name):(r.owner=a[0],r.full_name=r.owner+\"/_git/\"+r.name)):a.length===4&&(r.organization=a[0],r.owner=a[1],r.name=a[3],r.full_name=r.organization+\"/\"+r.owner+\"/_git/\"+r.name),r.query&&r.query.path&&(r.filepath=r.query.path.replace(/^\\/+/g,\"\")),r.query&&r.query.version&&(r.ref=r.query.version.replace(/^GB/,\"\"));break}default:a=r.name.split(\"/\");var n=a.length-1;if(a.length>=2){var u=a.indexOf(\"-\",2),A=a.indexOf(\"blob\",2),p=a.indexOf(\"tree\",2),h=a.indexOf(\"commit\",2),E=a.indexOf(\"src\",2),I=a.indexOf(\"raw\",2),v=a.indexOf(\"edit\",2);n=u>0?u-1:A>0?A-1:p>0?p-1:h>0?h-1:E>0?E-1:I>0?I-1:v>0?v-1:n,r.owner=a.slice(0,n).join(\"/\"),r.name=a[n],h&&(r.commit=a[n+2])}r.ref=\"\",r.filepathtype=\"\",r.filepath=\"\";var x=a.length>n&&a[n+1]===\"-\"?n+1:n;a.length>x+2&&[\"raw\",\"src\",\"blob\",\"tree\",\"edit\"].indexOf(a[x+1])>=0&&(r.filepathtype=a[x+1],r.ref=a[x+2],a.length>x+3&&(r.filepath=a.slice(x+3).join(\"/\"))),r.organization=r.owner;break}r.full_name||(r.full_name=r.owner,r.name&&(r.full_name&&(r.full_name+=\"/\"),r.full_name+=r.name)),r.owner.startsWith(\"scm/\")&&(r.source=\"bitbucket-server\",r.owner=r.owner.replace(\"scm/\",\"\"),r.organization=r.owner,r.full_name=r.owner+\"/\"+r.name);var C=/(projects|users)\\/(.*?)\\/repos\\/(.*?)((\\/.*$)|$)/,R=C.exec(r.pathname);return R!=null&&(r.source=\"bitbucket-server\",R[1]===\"users\"?r.owner=\"~\"+R[2]:r.owner=R[2],r.organization=r.owner,r.name=R[3],a=R[4].split(\"/\"),a.length>1&&([\"raw\",\"browse\"].indexOf(a[1])>=0?(r.filepathtype=a[1],a.length>2&&(r.filepath=a.slice(2).join(\"/\"))):a[1]===\"commits\"&&a.length>2&&(r.commit=a[2])),r.full_name=r.owner+\"/\"+r.name,r.query.at?r.ref=r.query.at:r.ref=\"\"),r}Y8.stringify=function(t,e){e=e||(t.protocols&&t.protocols.length?t.protocols.join(\"+\"):t.protocol);var r=t.port?\":\"+t.port:\"\",o=t.user||\"git\",a=t.git_suffix?\".git\":\"\";switch(e){case\"ssh\":return r?\"ssh://\"+o+\"@\"+t.resource+r+\"/\"+t.full_name+a:o+\"@\"+t.resource+\":\"+t.full_name+a;case\"git+ssh\":case\"ssh+git\":case\"ftp\":case\"ftps\":return e+\"://\"+o+\"@\"+t.resource+r+\"/\"+t.full_name+a;case\"http\":case\"https\":var n=t.token?mgt(t):t.user&&(t.protocols.includes(\"http\")||t.protocols.includes(\"https\"))?t.user+\"@\":\"\";return e+\"://\"+n+t.resource+r+\"/\"+ygt(t)+a;default:return t.href}};function mgt(t){switch(t.source){case\"bitbucket.org\":return\"x-token-auth:\"+t.token+\"@\";default:return t.token+\"@\"}}function ygt(t){switch(t.source){case\"bitbucket-server\":return\"scm/\"+t.full_name;default:return\"\"+t.full_name}}Ede.exports=Y8});var Lde=_((H9t,Nde)=>{var xgt=Hb(),kgt=eP(),Qgt=Hl(),Fgt=pE(),Rgt=w_(),Tgt=lC(),Ngt=N1();function Lgt(t){return Qgt(t)?xgt(t,Tgt):Fgt(t)?[t]:kgt(Rgt(Ngt(t)))}Nde.exports=Lgt});function _gt(t,e){return e===1&&Ugt.has(t[0])}function B2(t){let e=Array.isArray(t)?t:(0,Ude.default)(t);return e.map((o,a)=>Ogt.test(o)?`[${o}]`:Mgt.test(o)&&!_gt(e,a)?`.${o}`:`[${JSON.stringify(o)}]`).join(\"\").replace(/^\\./,\"\")}function Hgt(t,e){let r=[];if(e.methodName!==null&&r.push(de.pretty(t,e.methodName,de.Type.CODE)),e.file!==null){let o=[];o.push(de.pretty(t,e.file,de.Type.PATH)),e.line!==null&&(o.push(de.pretty(t,e.line,de.Type.NUMBER)),e.column!==null&&o.push(de.pretty(t,e.column,de.Type.NUMBER))),r.push(`(${o.join(de.pretty(t,\":\",\"grey\"))})`)}return r.join(\" \")}function gk(t,{manifestUpdates:e,reportedErrors:r},{fix:o}={}){let a=new Map,n=new Map,u=[...r.keys()].map(A=>[A,new Map]);for(let[A,p]of[...u,...e]){let h=r.get(A)?.map(x=>({text:x,fixable:!1}))??[],E=!1,I=t.getWorkspaceByCwd(A),v=I.manifest.exportTo({});for(let[x,C]of p){if(C.size>1){let R=[...C].map(([L,U])=>{let J=de.pretty(t.configuration,L,de.Type.INSPECT),te=U.size>0?Hgt(t.configuration,U.values().next().value):null;return te!==null?`",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 241,
+   "value": "case",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 271,
+   "value": "analytics.${e}.algolia.com",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 271,
+   "value": "personalization.${e}.algolia.com",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 271,
+   "value": "t.ref",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 274,
+   "value": "vr?ft.type===E?_r(rt",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 274,
+   "value": "vr?xt(rt",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 276,
+   "value": "fromJS",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 276,
+   "value": "fromJS",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 276,
+   "value": "fromJS",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 276,
+   "value": "fromJS",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 286,
+   "value": "sCe.unstable_scheduleCallback",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 286,
+   "value": "sCe.unstable_cancelCallback",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 337,
+   "value": "push",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 337,
+   "value": "join",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 337,
+   "value": "concat",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 337,
+   "value": "consume",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 353,
+   "value": "!this.unsafe",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 399,
+   "value": "merged",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 441,
+   "value": "!0,R=!0;for(let",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 476,
+   "value": "^1.4.3",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 476,
+   "value": "^3.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 476,
+   "value": "^3.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 570,
+   "value": "URL of the selected npm registry (note: npm enterprise isn't supported)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 570,
+   "value": "Authentication identity for the npm registry (_auth in npm and yarn v1)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 570,
+   "value": "Authentication token for the npm registry (_authToken in npm and yarn v1)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 570,
+   "value": "Zr.AuthType.BEST_EFFORT",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 586,
+   "whole_line": "`);return A.exitCode()}};q0.paths=[[\"npm\",\"info\"]],q0.usage=nt.Usage({category:\"Npm-related commands\",description:\"show information about a package\",details:\"\\n      This command fetches information about a package from the npm registry and prints it in a tree format.\\n\\n      The package does not have to be installed locally, but needs to have been published (in particular, local changes will be ignored even for workspaces).\\n\\n      Append `@<range>` to the package argument to provide information specific to the latest version that satisfies the range or to the corresponding tagged version. If the range is invalid or if there is no version satisfying the range, the command will print a warning and fall back to the latest version.\\n\\n      If the `-f,--fields` option is set, it's a comma-separated list of fields which will be used to only display part of the package information.\\n\\n      By default, this command won't return the `dist`, `readme`, and `users` fields, since they are often very long. To explicitly request those fields, explicitly list them with the `--fields` flag or request the output in JSON mode.\\n    \",examples:[[\"Show all available information about react (except the `dist`, `readme`, and `users` fields)\",\"yarn npm info react\"],[\"Show all available information about react as valid JSON (including the `dist`, `readme`, and `users` fields)\",\"yarn npm info react --json\"],[\"Show all available information about react@16.12.0\",\"yarn npm info react@16.12.0\"],[\"Show all available information about react@next\",\"yarn npm info react@next\"],[\"Show the description of react\",\"yarn npm info react --fields description\"],[\"Show all available versions of react\",\"yarn npm info react --fields versions\"],[\"Show the readme of react\",\"yarn npm info react --fields readme\"],[\"Show a few fields of react\",\"yarn npm info react --fields homepage,repository\"]]});function vG(t){if(Array.isArray(t)){let e=[];for(let r of t)r=vG(r),r&&e.push(r);return e}else if(typeof t==\"object\"&&t!==null){let e={};for(let r of Object.keys(t)){if(r.startsWith(\"_\"))continue;let o=vG(t[r]);o&&(e[r]=o)}return e}else return t||null}Ye();Ye();qt();var CBe=$e(f2()),j0=class extends ut{constructor(){super(...arguments);this.scope=ge.String(\"-s,--scope\",{description:\"Login to the registry configured for a given scope\"});this.publish=ge.Boolean(\"--publish\",!1,{description:\"Login to the publish registry\"});this.alwaysAuth=ge.Boolean(\"--always-auth\",{description:\"Set the npmAlwaysAuth configuration\"})}async execute(){let r=await Ke.find(this.context.cwd,this.context.plugins),o=await $Q({configuration:r,cwd:this.context.cwd,publish:this.publish,scope:this.scope});return(await Nt.start({configuration:r,stdout:this.context.stdout,includeFooter:!1},async n=>{let u=await Uvt({configuration:r,registry:o,report:n,stdin:this.context.stdin,stdout:this.context.stdout}),A=await Ovt(o,u,r);return await Mvt(o,A,{alwaysAuth:this.alwaysAuth,scope:this.scope}),n.reportInfo(0,\"Successfully logged in\")})).exitCode()}};j0.paths=[[\"npm\",\"login\"]],j0.usage=nt.Usage({category:\"Npm-related commands\",description:\"store new login info to access the npm registry\",details:\"\\n      This command will ask you for your username, password, and 2FA One-Time-Password (when it applies). It will then modify your local configuration (in your home folder, never in the project itself) to reference the new tokens thus generated.\\n\\n      Adding the `-s,--scope` flag will cause the authentication to be done against whatever registry is configured for the associated scope (see also `npmScopes`).\\n\\n      Adding the `--publish` flag will cause the authentication to be done against the registry used when publishing the package (see also `publishConfig.registry` and `npmPublishRegistry`).\\n    \",examples:[[\"Login to the default registry\",\"yarn npm login\"],[\"Login to the registry linked to the @my-scope registry\",\"yarn npm login --scope my-scope\"],[\"Login to the publish registry for the current package\",\"yarn npm login --publish\"]]});async function $Q({scope:t,publish:e,configuration:r,cwd:o}){return t&&e?Zn.getScopeRegistry(t,{configuration:r,type:Zn.RegistryType.PUBLISH_REGISTRY}):t?Zn.getScopeRegistry(t,{configuration:r}):e?Zn.getPublishRegistry((await fC(r,o)).manifest,{configuration:r}):Zn.getDefaultRegistry({configuration:r})}async function Ovt(t,e,r){let o=`/-/user/org.couchdb.user:${encodeURIComponent(e.name)}`,a={_id:`org.couchdb.user:${e.name}`,name:e.name,password:e.password,type:\"user\",roles:[],date:new Date().toISOString()},n={attemptedAs:e.name,configuration:r,registry:t,jsonResponse:!0,authType:Zr.AuthType.NO_AUTH};try{return(await Zr.put(o,a,n)).token}catch(E){if(!(E.originalError?.name===\"HTTPError\"&&E.originalError?.response.statusCode===409))throw E}let u={...n,authType:Zr.AuthType.NO_AUTH,headers:{authorization:`Basic ${Buffer.from(`${e.name}:${e.password}`).toString(\"base64\")}`}},A=await Zr.get(o,u);for(let[E,I]of Object.entries(A))(!a[E]||E===\"roles\")&&(a[E]=I);let p=`${o}/-rev/${a._rev}`;return(await Zr.put(p,a,u)).token}async function Mvt(t,e,{alwaysAuth:r,scope:o}){let a=u=>A=>{let p=_e.isIndexableObject(A)?A:{},h=p[u],E=_e.isIndexableObject(h)?h:{};return{...p,[u]:{...E,...r!==void 0?{npmAlwaysAuth:r}:{},npmAuthToken:e}}},n=o?{npmScopes:a(o)}:{npmRegistries:a(t)};return await Ke.updateHomeConfiguration(n)}async function Uvt({configuration:t,registry:e,report:r,stdin:o,stdout:a}){r.reportInfo(0,`Logging in to ${de.pretty(t,e,de.Type.URL)}`);let n=!1;if(e.match(/^https:\\/\\/npm\\.pkg\\.github\\.com(\\/|$)/)&&(r.reportInfo(0,\"You seem to be using the GitHub Package Registry. Tokens must be generated with the 'repo', 'write:packages', and 'read:packages' permissions.\"),n=!0),r.reportSeparator(),t.env.YARN_IS_TEST_ENV)return{name:t.env.YARN_INJECT_NPM_USER||\"\",password:t.env.YARN_INJECT_NPM_PASSWORD||\"\"};let u=await(0,CBe.prompt)([{type:\"input\",name:\"name\",message:\"Username:\",required:!0,onCancel:()=>process.exit(130),stdin:o,stdout:a},{type:\"password\",name:\"password\",message:n?\"Token:\":\"Password:\",required:!0,onCancel:()=>process.exit(130),stdin:o,stdout:a}]);return r.reportSeparator(),u}Ye();Ye();qt();var lw=new Set([\"npmAuthIdent\",\"npmAuthToken\"]),G0=class extends ut{constructor(){super(...arguments);this.scope=ge.String(\"-s,--scope\",{description:\"Logout of the registry configured for a given scope\"});this.publish=ge.Boolean(\"--publish\",!1,{description:\"Logout of the publish registry\"});this.all=ge.Boolean(\"-A,--all\",!1,{description:\"Logout of all registries\"})}async execute(){let r=await Ke.find(this.context.cwd,this.context.plugins),o=async()=>{let n=await $Q({configuration:r,cwd:this.context.cwd,publish:this.publish,scope:this.scope}),u=await Ke.find(this.context.cwd,this.context.plugins),A=W.makeIdent(this.scope??null,\"pkg\");return!Zn.getAuthConfiguration(n,{configuration:u,ident:A}).get(\"npmAuthToken\")};return(await Nt.start({configuration:r,stdout:this.context.stdout},async n=>{if(this.all&&(await Hvt(),n.reportInfo(0,\"Successfully logged out from everything\")),this.scope){await wBe(\"npmScopes\",this.scope),await o()?n.reportInfo(0,`Successfully logged out from ${this.scope}`):n.reportWarning(0,\"Scope authentication settings removed, but some other ones settings still apply to it\");return}let u=await $Q({configuration:r,cwd:this.context.cwd,publish:this.publish});await wBe(\"npmRegistries\",u),await o()?n.reportInfo(0,`Successfully logged out from ${u}`):n.reportWarning(0,\"Registry authentication settings removed, but some other ones settings still apply to it\")})).exitCode()}};G0.paths=[[\"npm\",\"logout\"]],G0.usage=nt.Usage({category:\"Npm-related commands\",description:\"logout of the npm registry\",details:\"\\n      This command will log you out by modifying your local configuration (in your home folder, never in the project itself) to delete all credentials linked to a registry.\\n\\n      Adding the `-s,--scope` flag will cause the deletion to be done against whatever registry is configured for the associated scope (see also `npmScopes`).\\n\\n      Adding the `--publish` flag will cause the deletion to be done against the registry used when publishing the package (see also `publishConfig.registry` and `npmPublishRegistry`).\\n\\n      Adding the `-A,--all` flag will cause the deletion to be done against all registries and scopes.\\n    \",examples:[[\"Logout of the default registry\",\"yarn npm logout\"],[\"Logout of the @my-scope scope\",\"yarn npm logout --scope my-scope\"],[\"Logout of the publish registry for the current package\",\"yarn npm logout --publish\"],[\"Logout of all registries\",\"yarn npm logout --all\"]]});function _vt(t,e){let r=t[e];if(!_e.isIndexableObject(r))return!1;let o=new Set(Object.keys(r));if([...lw].every(n=>!o.has(n)))return!1;for(let n of lw)o.delete(n);if(o.size===0)return t[e]=void 0,!0;let a={...r};for(let n of lw)delete a[n];return t[e]=a,!0}async function Hvt(){let t=e=>{let r=!1,o=_e.isIndexableObject(e)?{...e}:{};o.npmAuthToken&&(delete o.npmAuthToken,r=!0);for(let a of Object.keys(o))_vt(o,a)&&(r=!0);if(Object.keys(o).length!==0)return r?o:e};return await Ke.updateHomeConfiguration({npmRegistries:t,npmScopes:t})}async function wBe(t,e){return await Ke.updateHomeConfiguration({[t]:r=>{let o=_e.isIndexableObject(r)?r:{};if(!Object.hasOwn(o,e))return r;let a=o[e],n=_e.isIndexableObject(a)?a:{},u=new Set(Object.keys(n));if([...lw].every(p=>!u.has(p)))return r;for(let p of lw)u.delete(p);if(u.size===0)return Object.keys(o).length===1?void 0:{...o,[e]:void 0};let A={};for(let p of lw)A[p]=void 0;return{...o,[e]:{...n,...A}}}})}Ye();qt();var Y0=class extends ut{constructor(){super(...arguments);this.access=ge.String(\"--access\",{description:\"The access for the published package (public or restricted)\"});this.tag=ge.String(\"--tag\",\"latest\",{description:\"The tag on the registry that the package should be attached to\"});this.tolerateRepublish=ge.Boolean(\"--tolerate-republish\",!1,{description:\"Warn and exit when republishing an already existing version of a package\"});this.otp=ge.String(\"--otp\",{description:\"The OTP token to use with the command\"})}async execute(){let r=await Ke.find(this.context.cwd,this.context.plugins),{project:o,workspace:a}=await Pt.find(r,this.context.cwd);if(!a)throw new rr(o.cwd,this.context.cwd);if(a.manifest.private)throw new it(\"Private workspaces cannot be published\");if(a.manifest.name===null||a.manifest.version===null)throw new it(\"Workspaces must have valid names and versions to be published on an external registry\");await o.restoreInstallState();let n=a.manifest.name,u=a.manifest.version,A=Zn.getPublishRegistry(a.manifest,{configuration:r});return(await Nt.start({configuration:r,stdout:this.context.stdout},async h=>{if(this.tolerateRepublish)try{let E=await Zr.get(Zr.getIdentUrl(n),{configuration:r,registry:A,ident:n,jsonResponse:!0});if(!Object.hasOwn(E,\"versions\"))throw new zt(15,'Registry returned invalid data for - missing \"versions\" field');if(Object.hasOwn(E.versions,u)){h.reportWarning(0,`Registry already knows about version ${u}; skipping.`);return}}catch(E){if(E.originalError?.response?.statusCode!==404)throw E}await un.maybeExecuteWorkspaceLifecycleScript(a,\"prepublish\",{report:h}),await wA.prepareForPack(a,{report:h},async()=>{let E=await wA.genPackList(a);for(let R of E)h.reportInfo(null,R);let I=await wA.genPackStream(a,E),v=await _e.bufferStream(I),x=await ow.getGitHead(a.cwd),C=await ow.makePublishBody(a,v,{access:this.access,tag:this.tag,registry:A,gitHead:x});await Zr.put(Zr.getIdentUrl(n),C,{configuration:r,registry:A,ident:n,otp:this.otp,jsonResponse:!0})}),h.reportInfo(0,\"Package archive published\")})).exitCode()}};Y0.paths=[[\"npm\",\"publish\"]],Y0.usage=nt.Usage({category:\"Npm-related commands\",description:\"publish the active workspace to the npm registry\",details:'\\n      This command will pack the active workspace into a fresh archive and upload it to the npm registry.\\n\\n      The package will by default be attached to the `latest` tag on the registry, but this behavior can be overriden by using the `--tag` option.\\n\\n      Note that for legacy reasons scoped packages are by default published with an access set to `restricted` (aka \"private packages\"). This requires you to register for a paid npm plan. In case you simply wish to publish a public scoped package to the registry (for free), just add the `--access public` flag. This behavior can be enabled by default through the `npmPublishAccess` settings.\\n    ',examples:[[\"Publish the active workspace\",\"yarn npm publish\"]]});Ye();qt();var IBe=$e(zn());Ye();St();qt();var W0=class extends ut{constructor(){super(...arguments);this.json=ge.Boolean(\"--json\",!1,{description:\"Format the output as an NDJSON stream\"});this.package=ge.String({required:!1})}async execute(){let r=await Ke.find(this.context.cwd,this.context.plugins),{project:o,workspace:a}=await Pt.find(r,this.context.cwd),n;if(typeof this.package<\"u\")n=W.parseIdent(this.package);else{if(!a)throw new rr(o.cwd,this.context.cwd);if(!a.manifest.name)throw new it(`Missing 'name' field in ${ue.fromPortablePath(V.join(a.cwd,dr.manifest))}`);n=a.manifest.name}let u=await Tv(n,r),p={children:_e.sortMap(Object.entries(u),([h])=>h).map(([h,E])=>({value:de.tuple(de.Type.RESOLUTION,{descriptor:W.makeDescriptor(n,h),locator:W.makeLocator(n,E)})}))};return $s.emitTree(p,{configuration:r,json:this.json,stdout:this.context.stdout})}};W0.paths=[[\"npm\",\"tag\",\"list\"]],W0.usage=nt.Usage({category:\"Npm-related commands\",description:\"list all dist-tags of a package\",details:`",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 620,
+   "value": "ne.cwd",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2bf8686b.cjs",
+   "line": 620,
+   "value": "ne.cwd",
+   "source": "creddata"
+  },
+  {
+   "file": "other/6d8bc57c.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "6b802b2"
+  },
+  {
+   "file": "other/6d8bc57c.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "e84f3195a805611b119230a9637313c13aea880fd937cb46569e12b9d1906c12"
+  },
+  {
+   "file": "other/6d8bc57c.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "other/6d8bc57c.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/1203d93a.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "9.6.20"
+  },
+  {
+   "file": "other/1203d93a.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5.18.14"
+  },
+  {
+   "file": "other/1203d93a.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-kkyqWxTUflOrThhvWWNe/7kte1L86it7zDcypQC2kbMcDqkEbdu5HU2H+HfX7bDaxrP1SIULcL66Y6N+J+RWHw=="
+  },
+  {
+   "file": "other/1203d93a.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "1.7.6"
+  },
+  {
+   "file": "other/1203d93a.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-E5a0FWZDAKXwPIyZGdKITMrhXia5SRcFJpzudOseoNGL3eGCMAsPavDups+s8NxqGGoMHYGKUL04dMiRiZ/r1Q=="
+  },
+  {
+   "file": "other/1203d93a.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "3.22.23"
+  },
+  {
+   "file": "other/1203d93a.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-uO5M3RxYp8j5CtG/Hl9HPwhuW2TTz394PCahX/NDuQKp9ZBraZDYwR1YP8Ru3cHbrkFBDDHg5ndD8aT4+1lqHQ=="
+  },
+  {
+   "file": "other/acd7138c.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "101, 110, 45, 85, 83, 44, 101, 110, 59, 113, 61, 48, 46, 57"
+  },
+  {
+   "file": "other/acd7138c.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "bm8tY2FjaGUsbm8tc3RvcmU="
+  },
+  {
+   "file": "other/acd7138c.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "68656c6c6f5f776f726c645f74657374"
+  },
+  {
+   "file": "other/acd7138c.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/acd7138c.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "security@nordwind-corp.de"
+  },
+  {
+   "file": "other/adcc2894.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "2e83eff9f8250d09d4b1ec282785cdee72d2c60ddc479a9d8e6f40ee8b60ba53"
+  },
+  {
+   "file": "_/bd267b11.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "1.1.1.1"
+  },
+  {
+   "file": "_/bd267b11.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "3.25.44"
+  },
+  {
+   "file": "_/bd267b11.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:e0a9e67802974a289255bc5d81b35ea3dd12cf2b3bb4525fa6ee22a474f8118a"
+  },
+  {
+   "file": "_/bd267b11.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/bd267b11.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/3cfff6ca.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIaB6o+e31ONUcUUByDhnoje36lnZbY4w2KgRkzUtjZbD"
+  },
+  {
+   "file": "src/3cfff6ca.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9aaecdc3a691cdc1e4becbf68510f2dcca9a8542fdaee5233ea954b09d4ca05f"
+  },
+  {
+   "file": "src/3cfff6ca.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/3cfff6ca.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.acme.systems"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "files.logistik-nord.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "91.16.181.176"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Ben Wolf"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Mia Neumann"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.acme.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "www.acme.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.logistik-nord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "91.16.181.176"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Ben Wolf"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "ben.wolf@acme.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Max Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "max.mustermann@example.org"
+  }
+ ]
+}

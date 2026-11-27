@@ -1,0 +1,29 @@
+{
+  "documentation": "AWS Elemental MediaPackage",
+  "metadata": {
+    "apiVersion": "2017-10-12",
+    "endpointPrefix": "mediapackage",
+    "jsonVersion": "1.1",
+    "protocol": "rest-json",
+    "serviceAbbreviation": "MediaPackage",
+    "serviceFullName": "AWS Elemental MediaPackage",
+    "serviceId": "MediaPackage",
+    "signatureVersion": "v4",
+    "signingName": "mediapackage",
+    "uid": "mediapackage-2017-10-12"
+  },
+  "operations": {
+    "ConfigureLogs": {
+      "documentation": "Changes the Channel's properities to configure log subscription",
+      "errors": [
+        {
+          "shape": "UnprocessableEntityException"
+        },
+        {
+          "shape": "InternalServerErrorException"
+        },
+        {
+          "shape": "ForbiddenException"
+        },
+        {
+          "shape": "NotFoundException"

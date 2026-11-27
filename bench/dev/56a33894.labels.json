@@ -1,0 +1,838 @@
+{
+ "repo": "56a33894",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "src/resource/app/233e2821.yml",
+   "line": 7,
+   "start": 12,
+   "end": 44,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "40a4a94d5e2392c26c5c1bf2f4f3f1c2"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/295b9fef.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-cache-07.corp.kelpie-internal.net"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "_/295b9fef.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Hamburg@1992"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "_/295b9fef.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Inf3r!"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/64aec6cb.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "30313765323039666662653935626434316434386331303131353538666232666334613561346262306133353564343535336134323230363735386230396364",
+    "017e209ffbe95bd41d48c1011558fb2fc4a5a4bb0a355d4553a42206758b09cd"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "_/c0162d10.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "himmel_tib_adin_wolke"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/c0162d10.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.acme-corp.de"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/c5feea97.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Eva Mueller"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/c5feea97.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "e.becker@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/c5feea97.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 1547 412"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/c5feea97.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jonas Hartmann"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/c5feea97.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "elias.braun [at] pinegrid-corp [dot] de"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/c5feea97.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE70672091351887320064"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/c5feea97.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sarah Zimmermann"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/c5feea97.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Bahnhofstra\u00dfe 87, 20806 Dachau"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/c5feea97.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "167.4.49.250"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/d5389d10.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.d6hTDN8WvY8K97XJR5DuuL59TWmSb6DNZHlFP-Mc.B7ABM-fDi7eIIRwdmgntmK6IXYo208ts60LOUh31Dr9"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/d5389d10.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-replica.quarzo.cloud"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/cb99b82f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "David Hartmann"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/cb99b82f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lukas.weber@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/cb99b82f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 1217 8193"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/cb99b82f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.5.191.181"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/cb99b82f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "entrant_blitz_working"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.vantor.net"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.vantor.net"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.vantor.net"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.103.99.0/24"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.103.99.78"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.vantor.net"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.vantor.net"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.vantor.net"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.vantor.net"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.103.99.145"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.vantor.net"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "David Schmidt"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "david.schmidt@web.de"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 5232032"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Lea Mueller"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "lea.mueller@gmx.de"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 9397460"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "src/5353cfb8.js",
+   "line": 13,
+   "whole_line": "    SET_TOKEN: (state, token) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5353cfb8.js",
+   "line": 14,
+   "whole_line": "      state.token = token",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9e52404a.java",
+   "line": 10,
+   "whole_line": "        this.token = jwt;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/295b9fef.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "baer27"
+  },
+  {
+   "file": "_/295b9fef.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "backup"
+  },
+  {
+   "file": "_/295b9fef.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "urs8"
+  },
+  {
+   "file": "_/295b9fef.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "reporting"
+  },
+  {
+   "file": "_/295b9fef.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "reporting"
+  },
+  {
+   "file": "_/295b9fef.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "Defend Traversing 6.9"
+  },
+  {
+   "file": "test/64aec6cb.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "3d5a42cd139716f2ba6b3923f75a40ccb9aa604c285d5546336bc8e91d58e230"
+  },
+  {
+   "file": "_/c0162d10.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI5sHie5vxCAZwJn3lUFfCLFLFVQZ+4IWYCDU48E3mAaP"
+  },
+  {
+   "file": "_/c0162d10.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "ab6ccb433363db7dea81749567aaa2aace96bf84d44d049d3ca8a70ec534b15a"
+  },
+  {
+   "file": "_/c0162d10.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/c0162d10.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "test/c5feea97.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "security@pinegrid-corp.de"
+  },
+  {
+   "file": "test/c5feea97.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "press@pinegrid-corp.de"
+  },
+  {
+   "file": "test/c5feea97.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0179"
+  },
+  {
+   "file": "test/c5feea97.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "test/c5feea97.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "test/c5feea97.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "test/c5feea97.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "test/c5feea97.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "other/d5389d10.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "3.22.8"
+  },
+  {
+   "file": "other/d5389d10.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "cbe7a41905887b3fff965100b045b535a80d2f82"
+  },
+  {
+   "file": "other/d5389d10.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "QCMXMUNQF2KL8S6XXQ9UV8HX83"
+  },
+  {
+   "file": "other/d5389d10.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "other/d5389d10.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "VCCSYHKOILVHPWNIYDD7LZSBN4"
+  },
+  {
+   "file": "other/d5389d10.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "other/cb99b82f.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "8.8.8.8"
+  },
+  {
+   "file": "other/cb99b82f.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "3.30.7"
+  },
+  {
+   "file": "other/cb99b82f.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:d7cae04f0f540734d23d4c11129ea333562463950a791eded07fc91d2966c6bb"
+  },
+  {
+   "file": "other/cb99b82f.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/cb99b82f.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "sftp.paycore.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "91.103.194.43"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.vantor.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.vantor.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "portal.vantor.net"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Ben Koch"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "portal.vantor.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.paycore.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "91.103.194.43"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.vantor.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Ben Koch"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "ben.koch@vantor.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Max Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "max.mustermann@example.org"
+  }
+ ]
+}

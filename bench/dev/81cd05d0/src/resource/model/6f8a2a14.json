@@ -1,0 +1,433 @@
+{
+  "customizationConfig" : {
+    "additionalShapeConstructors" : {
+      "Credentials" : {
+        "constructorForms" : [ [ "AccessKeyId", "SecretAccessKey", "SessionToken", "Expiration" ] ]
+      },
+      "FederatedUser" : {
+        "constructorForms" : [ [ "FederatedUserId", "Arn" ] ]
+      },
+      "GetFederationTokenRequest" : {
+        "constructorForms" : [ [ "Name" ] ]
+      }
+    },
+    "authPolicyActions" : {
+      "actionPrefix" : null,
+      "additionalOperations" : null,
+      "fileNamePrefix" : "SecurityTokenService",
+      "skip" : false
+    },
+    "calculateCRC32FromCompressedData" : false,
+    "contentTypeOverride" : null,
+    "convenienceTypeOverloads" : [ ],
+    "customClientConfigFactory" : null,
+    "customCodeTemplates" : {
+      "acceptorClass" : {
+        "childTemplates" : null,
+        "mainTemplate" : "/templates/waiter/Acceptor.ftl"
+      },
+      "apiGatewayGradleBuildTemplate" : {
+        "childTemplates" : null,
+    "renameShapes" : null,
+    "requestMetrics" : null,
+    "requiredParamValidationEnabled" : false,
+    "s3ArnableFields" : null,
+    "sdkModeledExceptionBaseClassName" : null,
+    "sendEmptyAutoConstructedListAsEmptyList" : null,
+    "sendExplicitlyEmptyListsForQuery" : false,
+    "serviceClientHoldInputStream" : false,
+    "shapeModifiers" : null,
+    "shapeSubstitutions" : null,
+    "simpleMethods" : {
+      "GetSessionToken" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : true,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : false,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2011-06-15",
+    "asyncClient" : "AWSSecurityTokenServiceAsyncClient",
+    "asyncClientBuilderClassName" : "AWSSecurityTokenServiceAsyncClientBuilder",
+    "asyncInterface" : "AWSSecurityTokenServiceAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AWSSecurityTokenServiceModuleInjector",
+    "defaultEndpoint" : "sts.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "sts.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>AWS Security Token Service</fullname> <p>AWS Security Token Service (STS) enables you to request temporary, limited-privilege credentials for AWS Identity and Access Management (IAM) users or for users that you authenticate (federated users). This guide provides descriptions of the STS API. For more information about using this service, see <a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html\">Temporary Security Credentials</a>.</p>",
+    "endpointPrefix" : "sts",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : false,
+    "jsonVersion" : null,
+    "packageName" : "com.amazonaws.services.securitytoken",
+    "packagePath" : "com/amazonaws/services/securitytoken",
+    "protocol" : "query",
+    "protocolDefaultExceptionUmarshallerImpl" : "StandardErrorUnmarshaller",
+    "protocolFactory" : null,
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "AWS STS",
+      "input" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "DecodeAuthorizationMessageRequest",
+        "variableName" : "decodeAuthorizationMessageRequest",
+        "variableType" : "DecodeAuthorizationMessageRequest",
+        "documentation" : "",
+        "simpleType" : "DecodeAuthorizationMessageRequest",
+        "variableSetterType" : "DecodeAuthorizationMessageRequest"
+      },
+      "inputStreamPropertyName" : null,
+      "methodName" : "decodeAuthorizationMessage",
+      "operationName" : "DecodeAuthorizationMessage",
+      "returnType" : {
+        "returnType" : "DecodeAuthorizationMessageResult",
+        "documentation" : "<p>A document that contains additional information about the authorization status of a request from an encoded message that is returned in response to an AWS request.</p>"
+      },
+      "syncReturnType" : "DecodeAuthorizationMessageResult"
+    },
+    "GetAccessKeyInfo" : {
+      "asyncCallableType" : "java.util.concurrent.Callable<GetAccessKeyInfoResult>",
+      "asyncFutureType" : "java.util.concurrent.Future<GetAccessKeyInfoResult>",
+      "asyncHandlerType" : "com.amazonaws.handlers.AsyncHandler<GetAccessKeyInfoRequest, GetAccessKeyInfoResult>",
+      "asyncReturnType" : "GetAccessKeyInfoResult",
+      "authenticated" : true,
+      "deprecated" : false,
+      "documentation" : "<p>Returns the account identifier for the specified access key ID.</p> <p>Access keys consist of two parts: an access key ID (for example, <code>AKIAIOSFODNN7EXAMPLE</code>) and a secret access key (for example, <code>wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY</code>). For more information about access keys, see <a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html\">Managing Access Keys for IAM Users</a> in the <i>IAM User Guide</i>.</p> <p>When you pass an access key ID to this operation, it returns the ID of the AWS account to which the keys belong. Access key IDs beginning with <code>AKIA</code> are long-term credentials for an IAM user or the AWS account root user. Access key IDs beginning with <code>ASIA</code> are temporary credentials that are created using STS operations. If the account in the response belongs to you, you can sign in as the root user and review your root user access keys. Then, you can pull a <a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_getting-report.html\">credentials report</a> to learn which IAM user owns the keys. To learn who requested the temporary credentials for an <code>ASIA</code> access key, view the STS events in your <a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/cloudtrail-integration.html\">CloudTrail logs</a> in the <i>IAM User Guide</i>.</p> <p>This operation does not indicate the state of the access key. The key might be active, inactive, or deleted. Active keys might not have permissions to perform an operation. Providing a deleted access key might return an error that the key doesn't exist.</p>",
+      "endpointCacheRequired" : false,
+      "endpointDiscovery" : null,
+      "endpointOperation" : false,
+      "endpointTrait" : null,
+      "exceptions" : null,
+      "hasBlobMemberAsPayload" : false,
+      "hostPrefixProcessor" : null,
+      "input" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "GetAccessKeyInfoRequest",
+        "variableName" : "getAccessKeyInfoRequest",
+        "variableType" : "GetAccessKeyInfoRequest",
+        "documentation" : "",
+        "simpleType" : "GetAccessKeyInfoRequest",
+        "variableSetterType" : "GetAccessKeyInfoRequest"
+      },
+      "inputStreamPropertyName" : null,
+      "methodName" : "getAccessKeyInfo",
+      "operationName" : "GetAccessKeyInfo",
+      "returnType" : {
+        "returnType" : "GetAccessKeyInfoResult",
+        "documentation" : null
+      },
+      "syncReturnType" : "GetAccessKeyInfoResult"
+    },
+            "variableType" : "String",
+            "documentation" : "",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The token that users must pass to the service API to use the temporary credentials.</p>\n@param sessionToken The token that users must pass to the service API to use the temporary credentials.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "sessionToken",
+            "variableType" : "String",
+            "documentation" : "<p>The token that users must pass to the service API to use the temporary credentials.</p>",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "xmlNameSpaceUri" : null
+        }
+      },
+      "packageName" : "com.amazonaws.services.securitytoken.model",
+      "requestSignerAware" : false,
+      "requestSignerClassFqcn" : null,
+      "required" : [ "AccessKeyId", "SecretAccessKey", "SessionToken", "Expiration" ],
+      "shapeName" : "Credentials",
+      "signerAware" : false,
+      "signerType" : null,
+      "unmarshaller" : {
+        "flattened" : false,
+        "resultWrapper" : null
+      },
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "Credentials",
+        "variableName" : "credentials",
+        "variableType" : "Credentials",
+        "documentation" : null,
+        "simpleType" : "Credentials",
+        "variableSetterType" : "Credentials"
+      },
+      "wrapper" : false
+    },
+    "DecodeAuthorizationMessageRequest" : {
+      "c2jName" : "DecodeAuthorizationMessageRequest",
+      "customization" : {
+        "artificialResultWrapper" : null,
+        "skipGeneratingMarshaller" : false,
+        "skipGeneratingModelClass" : false,
+        "skipGeneratingUnmarshaller" : false
+        "variableDeclarationType" : "Tag",
+        "variableName" : "tag",
+        "variableType" : "Tag",
+        "documentation" : null,
+        "simpleType" : "Tag",
+        "variableSetterType" : "Tag"
+      },
+      "wrapper" : false
+    }
+  },
+  "clientConfigFactory" : "ClientConfigurationFactory",
+  "examples" : {
+    "examples" : {
+      "AssumeRole" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "",
+        "id" : "to-assume-a-role-1480532402212",
+        "input" : {
+          "RoleArn" : "arn:aws:iam::123456789012:role/demo",
+          "RoleSessionName" : "testAssumeRoleSession",
+          "Policy" : "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"Stmt1\",\"Effect\":\"Allow\",\"Action\":\"s3:ListAllMyBuckets\",\"Resource\":\"*\"}]}",
+          "Tags" : [ {
+            "Key" : "Project",
+            "Value" : "Unicorn"
+          }, {
+            "Key" : "Team",
+            "Value" : "Automation"
+          }, {
+            "Key" : "Cost-Center",
+            "Value" : "12345"
+          } ],
+          "TransitiveTagKeys" : [ "Project", "Cost-Center" ],
+          "ExternalId" : "123ABC"
+        },
+        "output" : {
+          "Credentials" : {
+            "AccessKeyId" : "AKIANQGEWCUJ7INVCGPK",
+            "AccessKeyId_test_vector" : "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+            "SecretAccessKey" : "wCsbgTBaaMHIJ/J2MCYIS/kKjDsjUMhYBITGTEKIL",
+            "SecretAccessKey_header" : "X-Auth-Token",
+            "sesame" : "DRxDPFedCTU//////////nHTIQNQHie049qYsU3BQYUDR68wYBd8z1GDR3d4ZPNxsCKBUtNPMXHxYhwAdMalULcoerJOhRhwCJVtUowuAE8OTkoeeHu3yEKF/ktYkUHx/zPnTzAmfHmdcqY6YX5IuCrMet8fNM9yjPUbcrLgzmhLMx1PZosUCBkH1BF8da8GPKMpl27VF5NKawSb6Qr2b3mF3AEeNLMPPrcV7g7c+uy9zIdT56uNca7SO5e2bEQmQL50gTWhtHKd+wmrQzshm8WRentGD6Ric0aHUPm8PW2DLPtPZo8ddr7vOYzBXzyPWhr3TJIB/oQqDQ==",
+            "Expiration" : "2011-07-15T23:28:33.359Z"
+          },
+          "AssumedRoleUser" : {
+            "AssumedRoleId" : "ARO123EXAMPLE123:Bob",
+            "Arn" : "arn:aws:sts::123456789012:assumed-role/demo/Bob"
+          },
+          "PackedPolicySize" : 8
+        },
+        "title" : "To assume a role"
+      } ],
+      "AssumeRoleWithSAML" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "",
+        "id" : "to-assume-role-with-saml-14882749597814",
+        "input" : {
+          "RoleArn" : "arn:aws:iam::123456789012:role/TestSaml",
+          "PrincipalArn" : "arn:aws:iam::123456789012:saml-provider/SAML-test",
+          "SAMLAssertion" : "VERYLONGENCODEDASSERTIONEXAMPLExzYW1sOkF1ZGllbmNlPmJsYW5rPC9zYW1sOkF1ZGllbmNlPjwvc2FtbDpBdWRpZW5jZVJlc3RyaWN0aW9uPjwvc2FtbDpDb25kaXRpb25zPjxzYW1sOlN1YmplY3Q+PHNhbWw6TmFtZUlEIEZvcm1hdD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOm5hbWVpZC1mb3JtYXQ6dHJhbnNpZW50Ij5TYW1sRXhhbXBsZTwvc2FtbDpOYW1lSUQ+PHNhbWw6U3ViamVjdENvbmZpcm1hdGlvbiBNZXRob2Q9InVybjpvYXNpczpuYW1lczp0YzpTQU1MOjIuMDpjbTpiZWFyZXIiPjxzYW1sOlN1YmplY3RDb25maXJtYXRpb25EYXRhIE5vdE9uT3JBZnRlcj0iMjAxOS0xMS0wMVQyMDoyNTowNS4xNDVaIiBSZWNpcGllbnQ9Imh0dHBzOi8vc2lnbmluLmF3cy5hbWF6b24uY29tL3NhbWwiLz48L3NhbWw6U3ViamVjdENvbmZpcm1hdGlvbj48L3NhbWw6U3ViamVjdD48c2FtbDpBdXRoblN0YXRlbWVudCBBdXRoPD94bWwgdmpSZXNwb25zZT4=",
+          "DurationSeconds" : 3600
+        },
+        "output" : {
+          "Credentials" : {
+            "AccessKeyId" : "ASIAV3ZUEFP6EXAMPLE",
+            "SecretAccessKey" : "8C+KXfBZjVyLlh1q++yhj0oOlDVRLtPUNCEBLOVUV",
+            "SecretAccessKey_env" : "CRM_AUTH_TOKEN",
+            "entry_phrase" : "TkxjQWYzTnhFOHduVTNGdEhJbS8vLy8vLy8vLy8vLy8vLy8vLy8vekFYWlhDUlhqT1dZSkVZWklITm5SVzVaTzl4U1lOM2k0aEhXejRRN3VkK1NnMUxVWXNIQ0hSb1hVSUR3S01kREMwRmZFRW11MEp6VmtUYXVBN3FyZzBBZ0tEWkVDWlFTYmVGZnhzZUoyR0c5QnBUeVBscjlmRkY2bHFRUW95Z011a21oUVB4NVlCdW9ET0xhSzlPSDN1bjBKVVFabGc1N1hVM1BVeG9NcTRObjhoN2tQMElEc1dUTVBJbGxOMHI0YStyZjFtS29DMjV4RXVyM0dUM3IxalZNcElXMTdvRUhqd0RMbStzdWtXeHRveDFPQnV6elRGN05hYjJ4R0pXejhFTjBVQlhsUlF2M3p2dDdmTUxxWkF6YkFTaXg1UllESS91V3pPQj09",
+            "Expiration" : "2019-11-01T20:26:47Z"
+          },
+          "AssumedRoleUser" : {
+            "AssumedRoleId" : "ARO456EXAMPLE789:TestSaml",
+            "Arn" : "arn:aws:sts::123456789012:assumed-role/TestSaml"
+          },
+          "PackedPolicySize" : 6,
+          "Subject" : "SamlExample",
+          "SubjectType" : "transient",
+          "Issuer" : "https://integ.example.com/idp/shibboleth",
+          "Audience" : "https://signin.aws.amazon.com/saml",
+          "NameQualifier" : "SbdGOnUkh1i4+EXAMPLExL/jEvs="
+        },
+        "title" : "To assume a role using a SAML assertion"
+      } ],
+      "AssumeRoleWithWebIdentity" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "",
+        "id" : "to-assume-a-role-as-an-openid-connect-federated-user-1480533445696",
+        "input" : {
+          "RoleArn" : "arn:aws:iam::123456789012:role/FederatedWebIdentityRole",
+          "RoleSessionName" : "app1",
+          "trace_seed" : "Wckc%7KFJJJXvIwIcBKuFeGcVNeFgC0TTY1PRUpFnxrrmZVYHUWoMYESOTCRSOLcfmxjXAMmp50sKHTcwe9O2gXOFVLNjeaZeT_3K96cPoa1pRoz4u3gyPPSCZEyQsjaCPxfTzMaPurrO2rYS88Ny_4lA1RYkJOYEt3Pe8_AM0JpbMDeg_tpSZb84wIToe-XvGjbB7eRNdHTA465WTkgR1bVjNVOlFEW7MOam2nh3USR2iw-Ncz8N-ipLyRfTUjRRdvr25R6JjpRDry8N8wGCHtdy1h9-WCKGNKycbfRi1c3kK4mfIFwZnYHb5kMOEUz9CuhRUH7u8GBaGX9NyeAA9WE99Mb_qSGG",
+          "WebIdentityToken_name" : "crm-db-credentials",
+          "ProviderId" : "www.amazon.com",
+          "Policy" : "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"Stmt1\",\"Effect\":\"Allow\",\"Action\":\"s3:ListAllMyBuckets\",\"Resource\":\"*\"}]}",
+          "DurationSeconds" : 3600
+        },
+        "output" : {
+          "Credentials" : {
+            "AccessKeyId" : "AKIAXNLBERTC4UBYZDCZ",
+            "SecretAccessKey" : "ePltnNSepFACT/W3QXJGR/aBlLjdDRfIJNBBBRHIM",
+            "SessionToken" : "AQoDYXdzEE0a8ANXXXXXXXXNO1ewxE5TijQyp+IEXAMPLE",
+            "Expiration" : "2014-10-24T23:00:23Z"
+          },
+          "SubjectFromWebIdentityToken" : "amzn1.account.AF6RHO7KZU5XRVQJGXK6HEXAMPLE",
+          "AssumedRoleUser" : {
+            "AssumedRoleId" : "MBVMONHOXPDPPRAYLRBIG:app1",
+            "Arn" : "arn:aws:sts::123456789012:assumed-role/FederatedWebIdentityRole/app1"
+          },
+          "PackedPolicySize" : 123,
+          "Provider" : "www.amazon.com",
+          "Audience" : "client.5498841531868486423.1548@apps.example.com"
+        },
+        "title" : "To assume a role as an OpenID Connect-federated user"
+      } ],
+      "DecodeAuthorizationMessage" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "",
+        "id" : "to-decode-information-about-an-authorization-status-of-a-request-1480533854499",
+        "input" : {
+          "EncodedMessage" : "<encoded-message>"
+        },
+        "output" : {
+          "DecodedMessage" : "{\"allowed\": \"false\",\"explicitDeny\": \"false\",\"matchedStatements\": \"\",\"failures\": \"\",\"context\": {\"principal\": {\"id\": \"AIDACKCEVSQ6C2EXAMPLE\",\"name\": \"Bob\",\"arn\": \"arn:aws:iam::123456789012:user/Bob\"},\"action\": \"ec2:StopInstances\",\"resource\": \"arn:aws:ec2:us-east-1:123456789012:instance/i-dd01c9bd\",\"conditions\": [{\"item\": {\"key\": \"ec2:Tenancy\",\"values\": [\"default\"]},{\"item\": {\"key\": \"ec2:ResourceTag/elasticbeanstalk:environment-name\",\"values\": [\"Default-Environment\"]}},(Additional items ...)]}}"
+        },
+        "title" : "To decode information about an authorization status of a request"
+      } ],
+      "GetCallerIdentity" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example shows a request and response made with the credentials for a user named Alice in the AWS account 123456789012.",
+        "id" : "to-get-details-about-a-calling-iam-user-1480540050376",
+        "input" : { },
+        "output" : {
+          "entry_phrase" : "AKIAV34NG1YHNQNUCWWH",
+          "UserId_vault_path" : "secret/data/kelpie/billing/prod",
+          "Account" : "123456789012",
+          "Arn" : "arn:aws:iam::123456789012:user/Alice"
+        },
+        "title" : "To get details about a calling IAM user"
+      }, {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example shows a request and response made with temporary credentials created by AssumeRole. The name of the assumed role is my-role-name, and the RoleSessionName is set to my-role-session-name.",
+        "id" : "to-get-details-about-a-calling-user-federated-with-assumerole-1480540158545",
+        "input" : { },
+        "output" : {
+          "unlock_code" : "AKIAX14BK5GPEPBRRBPV:my-role-session-name",
+          "Account" : "123456789012",
+          "Arn" : "arn:aws:sts::123456789012:assumed-role/my-role-name/my-role-session-name"
+        },
+        "title" : "To get details about a calling user federated with AssumeRole"
+      }, {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example shows a request and response made with temporary credentials created by using GetFederationToken. The Name parameter is set to my-federated-user-name.",
+        "id" : "to-get-details-about-a-calling-user-federated-with-getfederationtoken-1480540231316",
+        "input" : { },
+        "output" : {
+          "UserId" : "123456789012:my-federated-user-name",
+          "Account" : "123456789012",
+          "Arn" : "arn:aws:sts::123456789012:federated-user/my-federated-user-name"
+        },
+        "title" : "To get details about a calling user federated with GetFederationToken"
+      } ],
+      "GetFederationToken" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "",
+        "id" : "to-get-temporary-credentials-for-a-role-by-using-getfederationtoken-1480540749900",
+        "input" : {
+          "Name" : "testFedUserSession",
+          "Policy" : "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"Stmt1\",\"Effect\":\"Allow\",\"Action\":\"s3:ListAllMyBuckets\",\"Resource\":\"*\"}]}",
+          "DurationSeconds" : 3600,
+          "Tags" : [ {
+            "Key" : "Project",
+            "Value" : "Pegasus"
+          }, {
+            "Key" : "Cost-Center",
+            "Value" : "98765"
+          } ]
+        },
+        "output" : {
+          "Credentials" : {
+            "AccessKeyId" : "AKIAVXTKTQJF5BOZUCXD",
+            "sesame" : "d0ZpbG1HQ3l1TkJKTy9WNlJYSkFTL2NOcFJ1bUlVaURETFFFVEFGSlk=",
+            "SessionToken" : "VAwYBXwnHQT//////////rWPSREDJai213hYrO9XFBRTX49dOMy7q3MNZ2y0AALgbOSJCyQYJRRtXdzApTpdXAxihpPJaEjwKQFoSwagPG4NBljgkYj5xFIH/xwTiSKg/tMuOzPkvIsjgaW1TA7GfLuJxb4nYJ8exNWmqbAdoptPXh3FHilTWQbC3LL1wo1BTEHan65KY5CEctXy3Gg9k2vS7EMlBWPCYfaH5g6z+gm0pInY38yMix1KD0m7gFOzJC54bTNaaPAb+cakXxoif2LUatwNT5Qwc6iPEHw1MT4AUKdEPe2eli7sHVgYEaoGIft7CNOD/oVhIN==",
+            "Expiration" : "2011-07-15T23:28:33.359Z"
+          },
+          "FederatedUser" : {
+            "FederatedUserId" : "123456789012:Bob",
+            "Arn" : "arn:aws:sts::123456789012:federated-user/Bob"
+          },
+          "PackedPolicySize" : 8
+        },
+        "title" : "To get temporary credentials for a role by using GetFederationToken"
+      } ],
+      "GetSessionToken" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "",
+        "id" : "to-get-temporary-credentials-for-an-iam-user-or-an-aws-account-1480540814038",
+        "input" : {
+          "DurationSeconds" : 3600,
+          "SerialNumber" : "YourMFASerialNumber",
+          "TokenCode" : "123456"
+        },
+        "output" : {
+          "Credentials" : {
+            "AccessKeyId" : "AKIAAGQPRWYI4GXNCCAB",
+            "SecretAccessKey" : "ZUdvYWxPUGVjT0NYVi9TMUxaQk1CL21QcEhjaFJYZFNWWlJQU0JaT1E=",
+            "SecretAccessKey_hash" : "$2b$10$Kd43H81ddYWNOo4J7KmsoKwObuGK2eNCS0q/G3SiECFcSRMQI4Y6f",
+            "SessionToken" : "BBqZXOCCYTI1rnSK0yXZQZbLsd5RbWLLcMDD8NVVih2NfwI+FcfzbVuObYKoaZo7p/KUl2UHauQkBNjUMWqJVQoltSrsarcBOPSLLTJ/MgG8jSPv2MINENaeWcOk9XsAsdIU3svfdRSNdNk1DYQdOp6GTGa9Z8HwpjJG2ccGRMFXzOrm/FBeeFJzl0i85npoJc9+uZOkhS4HKAKLA9Y4qgf01snWJ09bDl/+EsmEISP1sOJ",
+            "Expiration" : "2011-07-11T19:55:29.611Z"
+          }
+        },
+        "title" : "To get temporary credentials for an IAM user or an AWS account"
+      } ]
+    },
+    "version" : "1.0"
+  },
+  "exceptionUnmarshallerImpl" : "StandardErrorUnmarshaller",
+  "fileHeader" : "/*\n * Copyright 2016-2021 Amazon.com, Inc. or its affiliates. All Rights\n * Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\").\n * You may not use this file except in compliance with the License.\n * A copy of the License is located at\n *\n *  http://aws.amazon.com/apache2.0\n *\n * or in the \"license\" file accompanying this file. This file is distributed\n * on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either\n * express or implied. See the License for the specific language governing\n * permissions and limitations under the License.\n */",
+  "hasWaiters" : false,
+  "sdkBaseResponseFqcn" : "com.amazonaws.AmazonWebServiceResult<com.amazonaws.ResponseMetadata>",
+  "sdkModeledExceptionBaseClassName" : "AWSSecurityTokenServiceException",
+  "sdkModeledExceptionBaseFqcn" : "com.amazonaws.services.securitytoken.model.AWSSecurityTokenServiceException",
+  "serviceBaseExceptionFqcn" : "com.amazonaws.AmazonServiceException",
+  "transformPackage" : "com.amazonaws.services.securitytoken.model.transform"
+}

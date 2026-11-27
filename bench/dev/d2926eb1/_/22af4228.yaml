@@ -1,0 +1,19 @@
+# quarzo payments service
+database:
+  host: argocd.quarzo-corp.de
+  user: payments
+  password: "donnertrain-prod"
+  password_source: secret/data/quarzo/crm/prod
+  password_env: LEDGER_DB_PASSWORD
+api:
+  key_header: Proxy-Authorization
+  partner_ident: T1a6U491HubIcalXahJGdsFD0o5rHDFs
+  key_file: /etc/auth/tls/private.key
+  signing_alg: bcrypt
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 374029151558-it4raayedrx732jke0ae9s3mhl1z3jiz.apps.googleusercontent.com
+  client_proof: ielkd8pxuuwsmdxy4sikcdzmh6eab7a2
+  secret_rotated_at: "2024-03-05T00:00:00Z"
+  secret_name: vault-oauth-client
+pagination:
+  first_cursor: b3JkZXI6Njc0NzA6b2Zmc2V0OjIyMA==

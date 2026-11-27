@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: helix-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "3b5fdd2"
+type: Opaque
+data:
+  DB_PASSWORD: Y2hvY28tZ2VoZWltLWVpY2hlLWJvZw==
+  STRIPE_KEY: c2tfbGl2ZV93aVZVbDU2RzhIZEs1MUVOU0tOSWJsSHc=
+  ca.crt.sha256: 96d3f913529a28b1a48ddfd7c3b3cf51fe7a71efe242a20b63501abbcf58dc56
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: helix-payments-config
+data:
+  DB_HOST: "billing-prod.bu7xpm6hmix9.eu-central-1.rds.amazonaws.com"
+  SENTRY_HOST: "cdn.jsdelivr.net"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

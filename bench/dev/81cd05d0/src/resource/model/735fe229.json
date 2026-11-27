@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2015-01-01",
+    "endpointPrefix":"es",
+    "protocol":"rest-json",
+    "serviceFullName":"Amazon Elasticsearch Service",
+    "serviceId":"Elasticsearch Service",
+    "signatureVersion":"v4",
+    "uid":"es-2015-01-01"
+  },
+  "operations":{
+    "AcceptInboundCrossClusterSearchConnection":{
+      "name":"AcceptInboundCrossClusterSearchConnection",
+      "http":{
+        "method":"PUT",
+        "requestUri":"/2015-01-01/es/ccs/inboundConnection/{ConnectionId}/accept"
+      },
+      "input":{"shape":"AcceptInboundCrossClusterSearchConnectionRequest"},
+      "output":{"shape":"AcceptInboundCrossClusterSearchConnectionResponse"},
+      "errors":[
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"LimitExceededException"},
+        {"shape":"DisabledOperationException"}
+      ],
+      "documentation":"<p>Allows the destination domain owner to accept an inbound cross-cluster search connection request.</p>"
+    },
+    "AddTags":{
+      "name":"AddTags",

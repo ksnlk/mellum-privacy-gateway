@@ -1,0 +1,620 @@
+{
+ "repo": "8f499d55",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/d9cfa760.libsonnet",
+   "line": 12,
+   "start": 23,
+   "end": 41,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "zbxgrqlob_jaqwcmxa"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "docs/b346f284.json",
+   "line": 2,
+   "start": 13,
+   "end": 45,
+   "category": "API:Key",
+   "mutation": "none",
+   "forms": [
+    "25ccfaec38a6693496ce0a0444b2a6ab"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/47152fd7.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043b\u0435\u04414677"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "test/d7442056.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-primary.nordwind.cloud"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/d7442056.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Schneidersom",
+    "Schneidersommer63!",
+    "mer63!"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/671d2a65.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "David Krueger"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/671d2a65.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sarah59@gmail.com"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/671d2a65.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 4950 3721"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/671d2a65.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.30.45.214"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/671d2a65.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "wis.barrier.reset.fluss82"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/0ea27870.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-replica.helix.cloud"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/0ea27870.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Fussball2013#"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/0ea27870.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lena@1968"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/d921cfa1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "tried.moritz.falke"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/d921cfa1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vpn-gw.vantor-corp.de"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/68061a4b.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "birke489"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/68061a4b.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.19.9.204"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/68061a4b.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "SGFzZUAxOTk2",
+    "Hase@1996"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/bdb48f4b.yml",
+   "line": 71,
+   "whole_line": "      from_secret: grafanabot_pat",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bdb48f4b.yml",
+   "line": 119,
+   "value": "dockerhub_password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bdb48f4b.yml",
+   "line": 122,
+   "whole_line": "      from_secret: dockerhub_username",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bdb48f4b.yml",
+   "line": 168,
+   "value": "dockerhub_password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bdb48f4b.yml",
+   "line": 171,
+   "whole_line": "      from_secret: dockerhub_username",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bdb48f4b.yml",
+   "line": 217,
+   "whole_line": "      from_secret: dockerhub_password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bdb48f4b.yml",
+   "line": 220,
+   "whole_line": "      from_secret: dockerhub_username",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bdb48f4b.yml",
+   "line": 250,
+   "whole_line": "      from_secret: dockerhub_password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bdb48f4b.yml",
+   "line": 253,
+   "whole_line": "      from_secret: dockerhub_username",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d9cfa760.libsonnet",
+   "line": 14,
+   "whole_line": "  grafanabot_public_account_token: 'grafanabot_pat',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d9cfa760.libsonnet",
+   "line": 17,
+   "whole_line": "    secret($.grafanabot_public_account_token, 'infra/data/ci/github/grafanabot', 'pat'),",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d9cfa760.libsonnet",
+   "line": 13,
+   "value": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e62e68f1.go",
+   "line": 56,
+   "whole_line": "\textCode := fs.StringArray(\"ext-code\", nil, \"Set code value of extVar (Format: key=<code>)\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e62e68f1.go",
+   "line": 57,
+   "whole_line": "\textStr := fs.StringArrayP(\"ext-str\", \"V\", nil, \"Set string value of extVar (Format: key=value)\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e62e68f1.go",
+   "line": 59,
+   "whole_line": "\ttlaCode := fs.StringArray(\"tla-code\", nil, \"Set code value of top level function (Format: key=<code>)\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e62e68f1.go",
+   "line": 60,
+   "whole_line": "\ttlaStr := fs.StringArrayP(\"tla-str\", \"A\", nil, \"Set string value of top level function (Format: key=value)\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e62e68f1.go",
+   "line": 68,
+   "whole_line": "\t\t\t\t\tlog.Fatalf(kind+\"-code argument has wrong format: `%s`. Expected `key=<code>`\", s)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e62e68f1.go",
+   "line": 76,
+   "whole_line": "\t\t\t\t\tlog.Fatalf(kind+\"-str argument has wrong format: `%s`. Expected `key=<value>`\", s)",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/abcb4b3f.md",
+   "line": 26,
+   "whole_line": "    // Arbitrary key:value string pairs. Not parsed by Tanka",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/abcb4b3f.md",
+   "line": 34,
+   "value": "<url>",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/17f2c0cc.mdx",
+   "line": 30,
+   "whole_line": "      apiVersion: 'apps/v1',",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/17f2c0cc.mdx",
+   "line": 144,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/2fefb90c.mdx",
+   "line": 103,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/2fefb90c.mdx",
+   "line": 161,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/2fefb90c.mdx",
+   "line": 240,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/2fefb90c.mdx",
+   "line": 276,
+   "value": "https://127.0.0.1:6443",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/2fefb90c.mdx",
+   "line": 323,
+   "whole_line": "+apiVersion: apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/6f5e6b10.md",
+   "line": 44,
+   "whole_line": "      \"apiVersion\": \"apps/v1\", // apiVersion ..",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/6f5e6b10.md",
+   "line": 55,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/6f5e6b10.md",
+   "line": 97,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/707e6086.mdx",
+   "line": 191,
+   "whole_line": "apiVersion: apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/951c583d.json",
+   "line": 60,
+   "whole_line": "                \"key\": \"shift+ctrl+i\",",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/b6236555.md",
+   "line": 222,
+   "whole_line": "| `metadata.labels` | descriptive `key:value` pairs                                       |",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/pkg/d8424f4d.go",
+   "line": 17,
+   "whole_line": "const APIGroup = \"tanka.dev\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/dc61ca8f.go",
+   "line": 27,
+   "whole_line": "\t\t\terr:  ErrorPrimitiveReached{path: \".service\", key: \"note\", primitive: \"invalid because apiVersion and kind are missing\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/kube/0b9b0718.go",
+   "line": 16,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/kube/0b9b0718.go",
+   "line": 39,
+   "whole_line": "   \"apiVersion\":\"apps/v1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/kube/0b9b0718.go",
+   "line": 72,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/kube/0b9b0718.go",
+   "line": 163,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/kube/c6fbcc2d.go",
+   "line": 115,
+   "whole_line": "\t\t{APIGroup: \"apps/v1\", Kind: \"Deployment\", Namespaced: true},",
+   "source": "creddata"
+  },
+  {
+   "file": "_/47152fd7.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "uniform3"
+  },
+  {
+   "file": "_/47152fd7.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "mary_mainz"
+  },
+  {
+   "file": "test/d7442056.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "c6a166eab68e80ce0e2bd71d87c9d99e45f8bf3c"
+  },
+  {
+   "file": "test/d7442056.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "test/d7442056.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.github.com"
+  },
+  {
+   "file": "src/671d2a65.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "1.1.1.1"
+  },
+  {
+   "file": "src/671d2a65.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "5.15.34"
+  },
+  {
+   "file": "src/671d2a65.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:8f1e829f15f5495d42d67943ed6ea708f3f15200f9cf028ec2851f8f8212a1d8"
+  },
+  {
+   "file": "src/671d2a65.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/671d2a65.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/0ea27870.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "alien_rose"
+  },
+  {
+   "file": "test/0ea27870.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "reporting"
+  },
+  {
+   "file": "test/0ea27870.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Sachsen Hannah 2.2"
+  },
+  {
+   "file": "test/0ea27870.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "metrics"
+  },
+  {
+   "file": "test/0ea27870.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "importer"
+  },
+  {
+   "file": "test/0ea27870.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "Expiring Artisan 9.3"
+  },
+  {
+   "file": "other/d921cfa1.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILF6nMPlbfv5W+dRxJ9jgFfCgkgxZnvFVOWLoCSS2Xqg"
+  },
+  {
+   "file": "other/d921cfa1.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "4a90b7f2fffe84a04a0b064494076918e71ba85d40ee5c028cb1995ebef57c62"
+  },
+  {
+   "file": "other/d921cfa1.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/d921cfa1.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "test/68061a4b.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:493c1095f6f0f75031c496d1d174214a842d9c13694afd1ee9c8d23abf565785"
+  },
+  {
+   "file": "test/68061a4b.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "7dd046f25273a84d07b56b354baff498d7b5a293"
+  },
+  {
+   "file": "test/68061a4b.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "REPLACE_ME"
+  },
+  {
+   "file": "test/68061a4b.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "test/68061a4b.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "4.16.34"
+  }
+ ]
+}

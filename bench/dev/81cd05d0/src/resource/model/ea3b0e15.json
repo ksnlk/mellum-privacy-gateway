@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2015-02-01",
+    "endpointPrefix":"elasticfilesystem",
+    "protocol":"rest-json",
+    "serviceAbbreviation":"EFS",
+    "serviceFullName":"Amazon Elastic File System",
+    "serviceId":"EFS",
+    "signatureVersion":"v4",
+    "uid":"elasticfilesystem-2015-02-01"
+  },
+  "operations":{
+    "CreateAccessPoint":{
+      "name":"CreateAccessPoint",
+      "http":{
+        "method":"POST",
+        "requestUri":"/2015-02-01/access-points",
+        "responseCode":200
+      },
+      "input":{"shape":"CreateAccessPointRequest"},
+      "output":{"shape":"AccessPointDescription"},
+      "errors":[
+        {"shape":"BadRequest"},
+        {"shape":"AccessPointAlreadyExists"},
+        {"shape":"IncorrectFileSystemLifeCycleState"},
+        {"shape":"InternalServerError"},
+        {"shape":"FileSystemNotFound"},
+        {"shape":"AccessPointLimitExceeded"}

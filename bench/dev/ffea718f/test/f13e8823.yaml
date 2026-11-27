@@ -1,0 +1,19 @@
+# vantor payments service
+database:
+  host: etl-primary.vantor.cloud
+  user: payments
+  password: "Psi1974*"
+  password_source: secret/data/vantor/crm/staging
+  password_env: REPORTS_DB_PASSWORD
+api:
+  key_header: Proxy-Authorization
+  partner_ident: iAGODKAMeH59AkaFxe0qUD4CvHgqokM4
+  key_file: /run/secrets/ledger_password
+  signing_alg: HS256
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 692423656683-ihrbg3jp8f9dtdgawwdyk1r6vm96tq8j.apps.googleusercontent.com
+  client_proof: e92aum2nl0kchzwgcqcmfot3hb0cxl9v
+  secret_rotated_at: "2023-03-02T00:00:00Z"
+  secret_name: crm-oauth-client
+pagination:
+  first_cursor: aW52b2ljZTo0ODE1MjpvZmZzZXQ6NDM2

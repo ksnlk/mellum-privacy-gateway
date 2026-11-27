@@ -1,0 +1,19 @@
+# vantor payments service
+database:
+  host: vpn-gw.vantor-corp.de
+  user: payments
+  password: "Engel&2004"
+  password_source: secret/data/vantor/ledger/staging
+  password_env: PAYMENTS_AUTH_TOKEN
+api:
+  key_header: X-Api-Key
+  partner_ident: wAprhVAT9BIRsFykYLJvchpLwAzv8vly
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: argon2id
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 340463887907-3dgxj7fw3ynm1jzg006r0x130k0lf3vn.apps.googleusercontent.com
+  client_proof: wr9c0g4thmsk7sygvvwsjdu3csyy5khj
+  secret_rotated_at: "2023-11-12T00:00:00Z"
+  secret_name: payments-oauth-client
+pagination:
+  first_cursor: aW52b2ljZTo4MzEyMDpvZmZzZXQ6Mjcy

@@ -1,0 +1,19 @@
+# helix payments service
+database:
+  host: ledger-replica.helix.cloud
+  user: payments
+  password: "Tigertiger81!"
+  password_source: secret/data/helix/vault/staging
+  password_env: CRM_AUTH_TOKEN
+api:
+  key_header: Authorization
+  partner_ident: eQ4dByJblAoIvFOBWxKBqqhAY4EPhc5v
+  key_file: /etc/payments/tls/private.key
+  signing_alg: argon2id
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 495309241705-p0lzs0bbeao3rgeivu8rw0n3p1t25qld.apps.googleusercontent.com
+  client_proof: spj9km41be66hjl828kqfgg13qfu2b87
+  secret_rotated_at: "2024-09-27T00:00:00Z"
+  secret_name: payments-tls
+pagination:
+  first_cursor: b3JkZXI6OTY2NTY6b2Zmc2V0OjQ4OQ==

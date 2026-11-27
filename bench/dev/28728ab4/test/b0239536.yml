@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.kelpie.io/app@sha256:e8e303428a63b890b27aa42f2aabe06bffe7bf4aa91a18cf6bd5155480b1e1cf
+    environment:
+      - DATABASE_URL=postgres://app:negotiateshipment-stage@10.45.67.92:5432/app
+      - SENTRY_RELEASE=723c9696f7f887f9a57c69512b88960656482e9e
+      - API_TOKEN=REPLACE_ME
+      - BIND_ADDR=0.0.0.0
+  worker:
+    image: registry.kelpie.io/worker:2.17.17
+    environment:
+      - QUEUE_PASS=ZGVtYW5kZXI3MDQh

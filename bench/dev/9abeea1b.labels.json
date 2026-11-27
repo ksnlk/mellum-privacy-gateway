@@ -1,0 +1,806 @@
+{
+ "repo": "9abeea1b",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/6ac3f79f.yml",
+   "line": 10,
+   "start": 46,
+   "end": 82,
+   "category": "Key",
+   "mutation": "stack",
+   "forms": [
+    "9r384f908ar9-mist-9qd0-8fh8-97065348"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/6ac3f79f.yml",
+   "line": 13,
+   "start": 31,
+   "end": 51,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "ZPHp1SahFysEoq9bukmG"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "src/969bf4ea.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "D1$m1$$!"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "src/969bf4ea.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.20.33.247"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/969bf4ea.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "R2FydGVubcO8bmNoZW42OD8=",
+    "Gartenm\u00fcnchen68?"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/db74cae2.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.maWNsyebo--ZoNqUJ5Nx-yikWqpmkH3PCC2OOrT4.neoY0KfEOayMIgrFbHQahO6KFue2RNEKuT8uR7RM-IR"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/db74cae2.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.wbjw79gc3l1b.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/a0a8da64.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/a0a8da64.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Multiverse",
+    "Multiverse1983#",
+    "1983#"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/9f0ef5a9.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-mq-01.prod.kelpie-internal.net"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/9f0ef5a9.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "Msc3TWAYJGMyMof4GVO0yUDCx6kaD4QX"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/40f95a81.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lina Lange"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/40f95a81.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "clara.schmidt@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/40f95a81.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 7421 2868"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/40f95a81.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.18.6.138"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/40f95a81.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "registered_tie_rose_admission"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/a6eed961.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "hessen223"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/053150b6.json",
+   "line": 26,
+   "value": "^3.0.2",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 77,
+   "value": "^1.0.12",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 128,
+   "value": "^1.0.12",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 179,
+   "value": "^2.2.1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 230,
+   "value": "^2.2.1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 281,
+   "value": "^2.2.1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 332,
+   "value": "^1.2.5",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 333,
+   "value": "^2.2.4",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 384,
+   "value": "^1.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 435,
+   "value": "^1.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 486,
+   "value": "^3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 537,
+   "value": "^2.2.1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 588,
+   "value": "^2.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 639,
+   "value": "^1.0.11",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 690,
+   "value": "^2.0.1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 741,
+   "value": "^3.0.1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 792,
+   "value": "~0.9.0",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 843,
+   "value": "^0.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 894,
+   "value": "^1.2.5",
+   "source": "creddata"
+  },
+  {
+   "file": "_/053150b6.json",
+   "line": 895,
+   "value": "^2.3.4",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6ac3f79f.yml",
+   "line": 11,
+   "value": "VAULT_DB_PASSWORD",
+   "source": "creddata"
+  },
+  {
+   "file": "_/99905145.json",
+   "line": 26,
+   "value": "1.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "_/99905145.json",
+   "line": 77,
+   "value": "1.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "_/99905145.json",
+   "line": 128,
+   "value": "0.3.0",
+   "source": "creddata"
+  },
+  {
+   "file": "_/99905145.json",
+   "line": 179,
+   "value": "2.4.1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/99905145.json",
+   "line": 189,
+   "value": "2.4.1",
+   "source": "creddata"
+  },
+  {
+   "file": "_/99905145.json",
+   "line": 240,
+   "value": "3.1.2",
+   "source": "creddata"
+  },
+  {
+   "file": "_/99905145.json",
+   "line": 291,
+   "value": "1.0.4",
+   "source": "creddata"
+  },
+  {
+   "file": "_/99905145.json",
+   "line": 342,
+   "value": "0.2.0",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/78a8a197.yml",
+   "line": 22,
+   "whole_line": "          key: node_modules-{{ .Branch }}-{{ checksum \"package-lock.json\" }}",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/lib/e53d9a77.ts",
+   "line": 4,
+   "whole_line": "  [key: string]: any;",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/lib/e53d9a77.ts",
+   "line": 316,
+   "whole_line": "    [key: string]: any;",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/lib/e53d9a77.ts",
+   "line": 621,
+   "whole_line": "    [key: string]: any;",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/lib/e53d9a77.ts",
+   "line": 658,
+   "whole_line": "  mochaOpts?: {[key: string]: any; ui?: string; reporter?: string;};",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/416ed26b.md",
+   "line": 161,
+   "whole_line": "* [Ng-apimock](https://github.com/mdasberg/ng-apimock): this plugin adds the ability to use scenario based api mocking for local development and protractor testing for both AngularJS and Angular applications.",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2e0b878f.json",
+   "line": 193,
+   "value": "^2.0.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2e0b878f.json",
+   "line": 322,
+   "value": "^2.2.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2e0b878f.json",
+   "line": 608,
+   "value": "^2.2.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2e0b878f.json",
+   "line": 641,
+   "value": "^2.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2e0b878f.json",
+   "line": 830,
+   "value": "~0.9.0",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2e0b878f.json",
+   "line": 947,
+   "value": "^0.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2e0b878f.json",
+   "line": 1009,
+   "value": "^1.2.5",
+   "source": "creddata"
+  },
+  {
+   "file": "example/2e0b878f.json",
+   "line": 1010,
+   "value": "^2.3.4",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/2dbf87b2.ts",
+   "line": 16,
+   "whole_line": "const SAUCE_REGIONS: {[key: string]: string} = {",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/2dbf87b2.ts",
+   "line": 58,
+   "whole_line": "      password: this.config_.sauceKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8834028d.ts",
+   "line": 13,
+   "whole_line": "  [key: string]: any;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8834028d.ts",
+   "line": 275,
+   "whole_line": "  assertions: {[key: string]: AssertionResult[]};",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8834028d.ts",
+   "line": 361,
+   "whole_line": "    const printResult = (message: string, pass: boolean) => {",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8834028d.ts",
+   "line": 362,
+   "whole_line": "      logger.info(pass ? green : red, '\\t', pass ? 'Pass: ' : 'Fail: ', message, normalColor);",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/900b7862.ts",
+   "line": 13,
+   "whole_line": "export interface WebdriverWebElement extends WebElement { [key: string]: any; }",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/browser/afab3b18.ts",
+   "line": 290,
+   "whole_line": "  [key: string]: any;",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/browser/afab3b18.ts",
+   "line": 581,
+   "whole_line": "        let key: string, pendingTasks: string[] = [];",
+   "source": "creddata"
+  },
+  {
+   "file": "test/99a326ba.html",
+   "line": 10,
+   "whole_line": "          var password = document.getElementById('password').value;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1890d89.js",
+   "line": 28,
+   "whole_line": "      key: 'newChatMessage',",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1890d89.js",
+   "line": 38,
+   "whole_line": "      key: 'clearChatMessages'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b742686d.json",
+   "line": 26,
+   "value": "^1.1.0",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b742686d.json",
+   "line": 77,
+   "value": "^2.2.1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b742686d.json",
+   "line": 128,
+   "value": "^2.2.1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b742686d.json",
+   "line": 179,
+   "value": "^1.2.5",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b742686d.json",
+   "line": 180,
+   "value": "^2.2.4",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b742686d.json",
+   "line": 231,
+   "value": "^1.2.0",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b742686d.json",
+   "line": 282,
+   "value": "~0.8.1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b742686d.json",
+   "line": 333,
+   "value": "^0.1.1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/21676345.js",
+   "line": 38,
+   "whole_line": "return a[b]={put:function(a,b){var c=l[a]||(l[a]={key:a});e(c);if(!z(b))return a in m||f++,m[a]=b,f>k&&this.remove(p.key),b},get:function(a){var b=l[a];if(b)return e(b),m[a]},remove:function(a){var b=l[a];b&&(b==n&&(n=b.p),b==p&&(p=b.n),g(b.n,b.p),delete l[a],delete m[a],f--)},removeAll:function(){m={};f=0;l={};n=p=null},destroy:function(){l=h=m=null;delete a[b]},info:function(){return t({},h,{size:f})}}}var a={};b.info=function(){var b={};q(a,function(a,e){b[e]=a.info()});return b};b.get=function(b){return a[b]};",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/65038dea.js",
+   "line": 26,
+   "whole_line": "b);var g=0,h=x({},d,{id:b}),l={},k=d&&d.capacity||Number.MAX_VALUE,m={},n=null,q=null;return a[b]={put:function(a,b){if(k<Number.MAX_VALUE){var c=m[a]||(m[a]={key:a});e(c)}if(!B(b))return a in l||g++,l[a]=b,g>k&&this.remove(q.key),b},get:function(a){if(k<Number.MAX_VALUE){var b=m[a];if(!b)return;e(b)}return l[a]},remove:function(a){if(k<Number.MAX_VALUE){var b=m[a];if(!b)return;b==n&&(n=b.p);b==q&&(q=b.n);f(b.n,b.p);delete m[a]}delete l[a];g--},removeAll:function(){l={};g=0;m={};n=q=null},destroy:function(){m=",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/65038dea.js",
+   "line": 77,
+   "whole_line": "a.val();b=b&&b.type;\"password\"===g||c.ngTrim&&\"false\"===c.ngTrim||(e=U(e));(d.$viewValue!==e||\"\"===e&&d.$$hasNativeValidators)&&d.$setViewValue(e,b)}};if(e.hasEvent(\"input\"))a.on(\"input\",l);else{var k,m=function(a,b,c){k||(k=f.defer(function(){k=null;b&&b.value===c||l(a)}))};a.on(\"keydown\",function(a){var b=a.keyCode;91===b||15<b&&19>b||37<=b&&40>=b||m(a,this,this.value)});if(e.hasEvent(\"paste\"))a.on(\"paste cut\",m)}a.on(\"change\",l);d.$render=function(){a.val(d.$isEmpty(d.$viewValue)?\"\":d.$viewValue)}}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/a2268b95.js",
+   "line": 26,
+   "whole_line": "b){a!=b&&(a&&(a.p=b),b&&(b.n=a))}if(a in b)throw H(\"$cacheFactory\")(\"iid\",a);var g=0,h=T({},c,{id:a}),k=Z(),l=c&&c.capacity||Number.MAX_VALUE,m=Z(),r=null,s=null;return b[a]={put:function(a,b){if(!x(b)){if(l<Number.MAX_VALUE){var c=m[a]||(m[a]={key:a});e(c)}a in k||g++;k[a]=b;g>l&&this.remove(s.key);return b}},get:function(a){if(l<Number.MAX_VALUE){var b=m[a];if(!b)return;e(b)}return k[a]},remove:function(a){if(l<Number.MAX_VALUE){var b=m[a];if(!b)return;b==r&&(r=b.p);b==s&&(s=b.n);f(b.n,b.p);delete m[a]}a in",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/a2268b95.js",
+   "line": 77,
+   "whole_line": "function(a){a.$setUntouched()})};f.$setSubmitted=function(){c.addClass(a,\"ng-submitted\");f.$submitted=!0;f.$$parentForm.$setSubmitted()}}function nc(a){a.$formatters.push(function(b){return a.$isEmpty(b)?b:b.toString()})}function lb(a,b,d,c,e,f){var g=G(b[0].type);if(!e.android){var h=!1;b.on(\"compositionstart\",function(a){h=!0});b.on(\"compositionend\",function(){h=!1;k()})}var k=function(a){l&&(f.defer.cancel(l),l=null);if(!h){var e=b.val();a=a&&a.type;\"password\"===g||d.ngTrim&&\"false\"===d.ngTrim||",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/a2268b95.js",
+   "line": 128,
+   "whole_line": "[];n(a.properties,function(a){k.recurse(a.value,k.nextId(),v,function(b){l.push(k.escape(a.key.type===q.Identifier?a.key.name:\"\"+a.key.value)+\":\"+b)})});m=\"{\"+l.join(\",\")+\"}\";this.assign(b,m);c(m);break;case q.ThisExpression:this.assign(b,\"s\");c(\"s\");break;case q.LocalsExpression:this.assign(b,\"l\");c(\"l\");break;case q.NGValueParameter:this.assign(b,\"v\"),c(\"v\")}},getHasOwnProperty:function(a,b){var d=a+\".\"+b,c=this.current().own;c.hasOwnProperty(d)||(c[d]=this.nextId(!1,a+\"&&(\"+this.escape(b)+\" in \"+",
+   "source": "creddata"
+  },
+  {
+   "file": "test/script/90bb05ca.sh",
+   "line": 1,
+   "whole_line": "SAUCE_ACCESS_KEY=`echo $SAUCE_ACCESS_KEY | rev`",
+   "source": "creddata"
+  },
+  {
+   "file": "test/script/90bb05ca.sh",
+   "line": 2,
+   "whole_line": "BROWSER_STACK_ACCESS_KEY=`echo $BROWSER_STACK_ACCESS_KEY | rev`",
+   "source": "creddata"
+  },
+  {
+   "file": "test/spec/50e2bd19.js",
+   "line": 5,
+   "value": "foobar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/spec/browser/56dc7a9b.js",
+   "line": 5,
+   "value": "foobar",
+   "source": "creddata"
+  },
+  {
+   "file": "src/969bf4ea.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:15707583e2016a880523a5237ceac41745bceaf9f4de3e01c5cd73b53756d82e"
+  },
+  {
+   "file": "src/969bf4ea.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "ed8c39730ba4521560c6b7fcc4bac0b8bde4fae2"
+  },
+  {
+   "file": "src/969bf4ea.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "src/969bf4ea.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "localhost"
+  },
+  {
+   "file": "src/969bf4ea.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "6.6.50"
+  },
+  {
+   "file": "other/db74cae2.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "1.9.14"
+  },
+  {
+   "file": "other/db74cae2.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "939aa84fb256347e63f48d62a84dd2108dd0da66"
+  },
+  {
+   "file": "other/db74cae2.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "MCRNRE2NJ11K7Y7Q9YPIKFSTG4"
+  },
+  {
+   "file": "other/db74cae2.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "other/db74cae2.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "KK0UK3ZC9YB48CARJ0JEQLT4FW"
+  },
+  {
+   "file": "other/db74cae2.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "_/a0a8da64.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "e8c67610173600b2cb543bd460d6a5723f1b9414"
+  },
+  {
+   "file": "_/a0a8da64.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "REPLACE_ME"
+  },
+  {
+   "file": "_/a0a8da64.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "_/9f0ef5a9.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "_/9f0ef5a9.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5.30.4"
+  },
+  {
+   "file": "_/9f0ef5a9.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "642d586fe76197d0f36b9056cceb205dd6c3fb51"
+  },
+  {
+   "file": "_/9f0ef5a9.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4b623fea-4743-4bb7-985c-3391a10eec22"
+  },
+  {
+   "file": "src/40f95a81.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "198.51.100.186"
+  },
+  {
+   "file": "src/40f95a81.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "5.4.8"
+  },
+  {
+   "file": "src/40f95a81.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:0f78a616ce32f00ed8c9c7e0759f8f62d339b85614dec6c555ae8479c0d296ae"
+  },
+  {
+   "file": "src/40f95a81.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/40f95a81.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/a6eed961.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Winner2022"
+  },
+  {
+   "file": "_/a6eed961.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "kiel71"
+  }
+ ]
+}

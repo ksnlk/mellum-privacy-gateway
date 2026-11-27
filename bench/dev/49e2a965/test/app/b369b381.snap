@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Setup app GET /probot/setup returns a redirect 1`] = `
+Array [
+  Array [
+    Object {
+      "WEBHOOK_PROXY_URL": "mocked proxy URL",
+    },
+  ],
+  Array [
+    Object {
+      "APP_ID": "id",
+      "GITHUB_CLIENT_ID": "Iv1.8a61f9b3a7aba766",
+      "SIGNING_MATERIAL": "e12755c9d006387f49c302f0ec10e966e41a13f6",
+      "PRIVATE_KEY": "\\"pem\\"",
+      "WEBHOOK_SECRET": "webhook_secret",
+    },
+  ],
+]
+`;
+
+exports[`Setup app POST /probot/import updates .env 1`] = `
+Array [
+  Array [
+    Object {
+      "WEBHOOK_PROXY_URL": "mocked proxy URL",
+    },
+  ],
+  Array [
+    Object {
+      "APP_ID": "foo",
+      "PRIVATE_KEY": "\\"bar\\"",
+      "WEBHOOK_SECRET": "baz",
+    },
+  ],
+]
+`;

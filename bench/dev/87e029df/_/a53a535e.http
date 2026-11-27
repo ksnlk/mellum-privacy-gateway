@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://crm-replica.acme.cloud/api/v3/invoices?page=2
+Authorization: Basic Y2k6RmluZDE5Nzkh
+Cookie: _ga=GA1.2.7MIOXFFD086DU80AB5JSDWYGBI; session_id=xxmtue94uxo5zr27kdrgev24bvf028pq
+X-Request-Id: 40d88b93-be34-49d7-8eaa-8770cbf082bc
+
+### the docs example, safe to share
+GET https://cdn.jsdelivr.net/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

@@ -1,0 +1,19 @@
+# quarzo payments service
+database:
+  host: reports.y3bk7j.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "Bonn#1976"
+  password_source: secret/data/quarzo/crm/staging
+  password_env: VAULT_CLIENT_SECRET
+api:
+  key_header: Authorization
+  partner_ident: kzUqq0qp6ODetbEIP9yDcbTDKcFxfilE
+  key_file: /run/secrets/payments_password
+  signing_alg: AES-256-GCM
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 384408194344-pjrjsfq49xnt9wlrrsssmsfq63wd2sz1.apps.googleusercontent.com
+  client_proof: bcfny9831r60hdviacvtrpd7baux4xp7
+  secret_rotated_at: "2025-11-01T00:00:00Z"
+  secret_name: billing-api-token
+pagination:
+  first_cursor: dXNlcjo1Njk0MTpvZmZzZXQ6MzI=

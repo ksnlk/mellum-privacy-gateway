@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.quarzo.io/app@sha256:2db4244f8135d1c958887d5169985392121be4490203eab7352ab62e19d41d7b
+    environment:
+      - DATABASE_URL=postgres://app:Birne$2014@172.31.238.188:5432/app
+      - SENTRY_RELEASE=40510bc77b9f602ecd362c547ba391e7e602980f
+      - API_TOKEN=${DB_PASSWORD}
+      - BIND_ADDR=127.0.0.1
+  worker:
+    image: registry.quarzo.io/worker:8.27.40
+    environment:
+      - QUEUE_PASS=0LzQvtGA0LU3NTAy

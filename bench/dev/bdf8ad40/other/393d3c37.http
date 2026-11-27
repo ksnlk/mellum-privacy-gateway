@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://ledger-primary.quarzo.cloud/api/v3/invoices?page=2
+Authorization: Basic YWRtaW46c29tbWVya2F0emU=
+Cookie: _ga=GA1.2.C0HV9PZK2ML5GBEA1AAX9G5XMP; session_id=02qpeveeyos9lbucu1xrjg7jguppvk9r
+X-Request-Id: bd2be84c-763a-47ba-90b5-b4bb1f03deb4
+
+### the docs example, safe to share
+GET https://cdn.jsdelivr.net/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

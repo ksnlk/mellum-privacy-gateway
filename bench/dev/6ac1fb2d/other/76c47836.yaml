@@ -1,0 +1,19 @@
+# acme payments service
+database:
+  host: payments.isxivo.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "ветер4328"
+  password_source: secret/data/acme/auth/prod
+  password_env: ETL_AUTH_TOKEN
+api:
+  key_header: Authorization
+  partner_ident: 4Z4KBXR77SOT9NUuk4xyEh09IqeLx9Y5
+  key_file: /etc/payments/tls/private.key
+  signing_alg: HS256
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 343654221930-jouhblp5vgy0vzoou3k5o0u9oxv99rzx.apps.googleusercontent.com
+  client_proof: 728eew8xwov2bnxdffm0l34pqm8yfajd
+  secret_rotated_at: "2025-11-19T00:00:00Z"
+  secret_name: ledger-db-credentials
+pagination:
+  first_cursor: aW52b2ljZToyNTI5OTpvZmZzZXQ6Mjg3

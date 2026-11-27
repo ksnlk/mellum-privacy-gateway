@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://auth-db-06.prod.pinegrid-internal.net/api/v3/invoices?page=2
+Authorization: Basic Z3JhZmFuYTpSMCR0M3I=
+Cookie: _ga=GA1.2.8REXC9G9WRWHU5E89J1QJ4AMV6; session_id=c33m2e476h9jt5z7zproi5azfiw0zox9
+X-Request-Id: b360cea5-60b9-4bd6-b193-bdda5fb150dd
+
+### the docs example, safe to share
+GET https://api.stripe.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

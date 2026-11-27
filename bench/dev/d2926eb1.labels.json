@@ -1,0 +1,1328 @@
+{
+ "repo": "d2926eb1",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "src/conf/resource/app/6631b0fe.yml",
+   "line": 82,
+   "start": 17,
+   "end": 189,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "LjF7VQF6IoZ6BEKlC8J3RxPqD2N2SdI0UfxmI2NbYgVzYVIpECf7HJJ1VISyTYE7NLF3BgIrTakeUEUjWHHjMCNdLzznBIS5RTz4X1L1RVS7TFRzSOM1Y3Y7GIUxJAN2KpCtINO2BbYeTOe5LBHyKPU3UjB0BsE6ZzLhPOP8AaY="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/conf/resource/app/866297db.yml",
+   "line": 81,
+   "start": 25,
+   "end": 197,
+   "category": "Secret",
+   "mutation": "stack",
+   "forms": [
+    "IfJ9KAY6AfW9DESwB8Z5VwZmO8P8ZhT3FzqbW8FdHoBeFPYzUBl7WIY6GQWnJKD6JPM2JyMdQapcAUCtAAFvUICgVgvxGEL8JKm1H3C3QKC4MDVsLVT1F6Y7VDOmYSS2QiBzLAA0EaPlJVt4LCMiMOO2NxD1ZxI4NkFuLTI3FwS="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "other/9c727576.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.47.172.34"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/9c727576.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "admin.nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/9c727576.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TQ5J6BS6S/B5V1HO77FXV/ptwE9oZx8DcOERAUVW8GWODc"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "_/a86994e5.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.vantor-corp.de"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/a86994e5.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Morit",
+    "Moritzreise74!",
+    "zreise74!"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/88c81849.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/88c81849.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Z3JhZmFuYTpJZ2VsaGFubmFoMTkh",
+    "grafana:Igelhannah19!"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/88c81849.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyupruxi6y77hymvnxxikaaek07307eg"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/4702ba82.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-cache-07.int.helix-internal.net"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/4702ba82.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "135.1.46.23"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/4702ba82.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "eva67@gmail.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/4702ba82.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-api-06.corp.helix-internal.net"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/4702ba82.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "foldable-berg-emit-observer"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/22af4228.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "argocd.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/22af4228.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "donnertrain-prod"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "_/22af4228.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "T1a6U491HubIcalXahJGdsFD0o5rHDFs"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/22af4228.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "ielkd8pxuuwsmdxy4sikcdzmh6eab7a2"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/b7cbc579.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "R3l3v@nt"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.quarzo.systems"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.quarzo.systems"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.quarzo.systems"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.190.241.0/24"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.190.241.105"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.quarzo.systems"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.quarzo.systems"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.quarzo.systems"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.quarzo.systems"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.quarzo.systems"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.190.241.151"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Mia Becker"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "mia.becker@gmx.de"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 7540219"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Nico Schmidt"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "nico.schmidt@gmail.com"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 6960536"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "src/conf/9db457c0.java",
+   "line": 64,
+   "whole_line": "    @ApiModelProperty(value = \"\u524d\u7aef\u6587\u4ef6\u8def\u5f84\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/9db457c0.java",
+   "line": 67,
+   "value": "\u524d\u7aef\u6587\u4ef6\u8def\u5f84",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/resource/app/6631b0fe.yml",
+   "line": 9,
+   "whole_line": "      password: ${DB_PWD:123456}",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/resource/app/6631b0fe.yml",
+   "line": 84,
+   "whole_line": "  token-validity-in-seconds: 7200000",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/resource/app/6631b0fe.yml",
+   "line": 86,
+   "whole_line": "  online-key: online-token-",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/resource/app/6631b0fe.yml",
+   "line": 88,
+   "whole_line": "  code-key: code-key-",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/resource/app/866297db.yml",
+   "line": 9,
+   "whole_line": "      password: ${DB_PWD:123456}",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/resource/app/866297db.yml",
+   "line": 84,
+   "whole_line": "  token-validity-in-seconds: 14400000",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/resource/app/866297db.yml",
+   "line": 86,
+   "whole_line": "  online-key: online-token-",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/resource/app/866297db.yml",
+   "line": 88,
+   "whole_line": "  code-key: code-key-",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/resource/app/866297db.yml",
+   "line": 82,
+   "value": "secret/data/brightloop/billing/staging",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/resource/app/e53e1a79.yml",
+   "line": 29,
+   "whole_line": "    password: ${REDIS_PWD:}",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dc0227eb.java",
+   "line": 47,
+   "whole_line": "    @ApiModelProperty(value = \"\u6570\u636e\u5e93\u5b57\u6bb5\u540d\u79f0\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dc0227eb.java",
+   "line": 50,
+   "whole_line": "    @ApiModelProperty(value = \"\u6570\u636e\u5e93\u5b57\u6bb5\u7c7b\u578b\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dc0227eb.java",
+   "line": 53,
+   "whole_line": "    @ApiModelProperty(value = \"\u6570\u636e\u5e93\u5b57\u6bb5\u952e\u7c7b\u578b\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dc0227eb.java",
+   "line": 56,
+   "whole_line": "    @ApiModelProperty(value = \"\u5b57\u6bb5\u989d\u5916\u7684\u53c2\u6570\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dc0227eb.java",
+   "line": 59,
+   "whole_line": "    @ApiModelProperty(value = \"\u6570\u636e\u5e93\u5b57\u6bb5\u63cf\u8ff0\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dc0227eb.java",
+   "line": 65,
+   "whole_line": "    @ApiModelProperty(value = \"\u662f\u5426\u5728\u5217\u8868\u663e\u793a\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dc0227eb.java",
+   "line": 68,
+   "whole_line": "    @ApiModelProperty(value = \"\u662f\u5426\u8868\u5355\u663e\u793a\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/476427df.java",
+   "line": 43,
+   "whole_line": "    @ApiModelProperty(value = \"bean\u540d\u79f0\", hidden = true)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/ea478a85.java",
+   "line": 37,
+   "whole_line": "    public static final String JOB_KEY = \"JOB_KEY\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/ea478a85.java",
+   "line": 46,
+   "whole_line": "    @ApiModelProperty(value = \"\u7528\u4e8e\u5b50\u4efb\u52a1\u552f\u4e00\u6807\u8bc6\", hidden = true)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/ea478a85.java",
+   "line": 49,
+   "whole_line": "    @ApiModelProperty(value = \"\u5b9a\u65f6\u5668\u540d\u79f0\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/ea478a85.java",
+   "line": 53,
+   "whole_line": "    @ApiModelProperty(value = \"Bean\u540d\u79f0\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/ea478a85.java",
+   "line": 67,
+   "whole_line": "    @ApiModelProperty(value = \"\u72b6\u6001\uff0c\u6682\u65f6\u6216\u542f\u52a8\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/ea478a85.java",
+   "line": 79,
+   "whole_line": "    @ApiModelProperty(value = \"\u5931\u8d25\u540e\u6682\u505c\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/fc488684.java",
+   "line": 42,
+   "whole_line": "\t@ApiModelProperty(value = \"\u6570\u636e\u5e93\u540d\u79f0\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/fc488684.java",
+   "line": 45,
+   "whole_line": "\t@ApiModelProperty(value = \"\u6570\u636e\u5e93\u8fde\u63a5\u5730\u5740\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/modul/fc488684.java",
+   "line": 48,
+   "whole_line": "\t@ApiModelProperty(value = \"\u6570\u636e\u5e93\u5bc6\u7801\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/modul/94f4135b.java",
+   "line": 62,
+   "whole_line": "    @ApiOperation(value = \"\u67e5\u8be2\u6570\u636e\u5e93\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/modul/94f4135b.java",
+   "line": 70,
+   "whole_line": "    @ApiOperation(value = \"\u65b0\u589e\u6570\u636e\u5e93\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/modul/94f4135b.java",
+   "line": 79,
+   "whole_line": "    @ApiOperation(value = \"\u4fee\u6539\u6570\u636e\u5e93\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/modul/94f4135b.java",
+   "line": 88,
+   "whole_line": "    @ApiOperation(value = \"\u5220\u9664\u6570\u636e\u5e93\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/modul/94f4135b.java",
+   "line": 97,
+   "whole_line": "\t@ApiOperation(value = \"\u6d4b\u8bd5\u6570\u636e\u5e93\u94fe\u63a5\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/modul/94f4135b.java",
+   "line": 105,
+   "whole_line": "\t@ApiOperation(value = \"\u6267\u884cSQL\u811a\u672c\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/modul/b77f97d1.java",
+   "line": 99,
+   "whole_line": "\t@ApiOperation(value = \"\u4e0a\u4f20\u6587\u4ef6\u90e8\u7f72\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/modul/b77f97d1.java",
+   "line": 130,
+   "whole_line": "\t@ApiOperation(value = \"\u670d\u52a1\u8fd0\u884c\u72b6\u6001\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/modul/f49eaf1a.java",
+   "line": 52,
+   "whole_line": "    @ApiOperation(value = \"\u67e5\u8be2\u90e8\u7f72\u5386\u53f2\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/modul/f49eaf1a.java",
+   "line": 60,
+   "whole_line": "    @ApiOperation(value = \"\u5220\u9664\u90e8\u7f72\u5386\u53f2\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/server/modul/8dfed327.java",
+   "line": 54,
+   "whole_line": "    @ApiOperation(value = \"\u67e5\u8be2\u670d\u52a1\u5668\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/server/modul/8dfed327.java",
+   "line": 62,
+   "whole_line": "    @ApiOperation(value = \"\u65b0\u589e\u670d\u52a1\u5668\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/server/modul/8dfed327.java",
+   "line": 71,
+   "whole_line": "    @ApiOperation(value = \"\u4fee\u6539\u670d\u52a1\u5668\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/server/modul/8dfed327.java",
+   "line": 89,
+   "whole_line": "\t@ApiOperation(value = \"\u6d4b\u8bd5\u8fde\u63a5\u670d\u52a1\u5668\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/sys/modul/2d304727.java",
+   "line": 59,
+   "whole_line": "    @PreAuthorize(\"@el.check('user:list','dept:list')\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/sys/modul/2d304727.java",
+   "line": 67,
+   "whole_line": "    @PreAuthorize(\"@el.check('user:list','dept:list')\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/sys/modul/2f64d92e.java",
+   "line": 58,
+   "whole_line": "    @PreAuthorize(\"@el.check('job:list','user:list')\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/sys/modul/77b329c6.java",
+   "line": 43,
+   "whole_line": "    @Limit(key = \"test\", period = 60, count = 10, name = \"testLimit\", prefix = \"limit\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/sys/modul/8e89f5c4.java",
+   "line": 72,
+   "whole_line": "    @PreAuthorize(\"@el.check('user:list')\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/sys/modul/8e89f5c4.java",
+   "line": 79,
+   "whole_line": "    @PreAuthorize(\"@el.check('user:list')\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/sys/modul/8e89f5c4.java",
+   "line": 120,
+   "whole_line": "    @PreAuthorize(\"@el.check('user:edit')\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/sys/modul/8e89f5c4.java",
+   "line": 157,
+   "whole_line": "        String oldPass = RsaUtils.decryptByPrivateKey(RsaProperties.privateKey,passVo.getOldPass());",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/sys/modul/8e89f5c4.java",
+   "line": 180,
+   "whole_line": "        String password = RsaUtils.decryptByPrivateKey(RsaProperties.privateKey,user.getPassword());",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/modul/01bc7fe2.java",
+   "line": 68,
+   "whole_line": "        String token = resolveToken(httpServletRequest);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/modul/3b5aa085.java",
+   "line": 90,
+   "whole_line": "        for (String key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/modul/f4cb8039.java",
+   "line": 46,
+   "value": "user",
+   "source": "creddata"
+  },
+  {
+   "file": "src/server/modul/7e7e7b17.java",
+   "line": 44,
+   "whole_line": "    @ApiModelProperty(value = \"\u670d\u52a1\u5668\u540d\u79f0\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/6f28cf51.java",
+   "line": 73,
+   "whole_line": "    @ApiModelProperty(value = \"\u6570\u636e\u6743\u9650\uff0c\u5168\u90e8 \u3001 \u672c\u7ea7 \u3001 \u81ea\u5b9a\u4e49\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/6f28cf51.java",
+   "line": 77,
+   "whole_line": "    @ApiModelProperty(value = \"\u7ea7\u522b\uff0c\u6570\u503c\u8d8a\u5c0f\uff0c\u7ea7\u522b\u8d8a\u5927\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/a1e78baa.java",
+   "line": 85,
+   "value": "'id:' + #p0",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/a1e78baa.java",
+   "line": 98,
+   "whole_line": "    @Cacheable(key = \"'user:' + #p0\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/c11aeb18.java",
+   "line": 66,
+   "whole_line": "    @ApiModelProperty(value = \"\u5b50\u8282\u70b9\u6570\u76ee\", hidden = true)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/c6a3159b.java",
+   "line": 85,
+   "value": "'id:' + #p0",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/c6a3159b.java",
+   "line": 168,
+   "whole_line": "    @Cacheable(key = \"'auth:' + #p0.id\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/e5b9a6c8.java",
+   "line": 51,
+   "whole_line": "    @Cacheable(key = \"'user:' + #p0.id\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/e63d0ddd.java",
+   "line": 88,
+   "whole_line": "    @ApiModelProperty(value = \"\u5934\u50cf\u771f\u5b9e\u540d\u79f0\",hidden = true)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/e63d0ddd.java",
+   "line": 91,
+   "whole_line": "    @ApiModelProperty(value = \"\u5934\u50cf\u5b58\u50a8\u7684\u8def\u5f84\", hidden = true)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/e63d0ddd.java",
+   "line": 101,
+   "whole_line": "    @ApiModelProperty(value = \"\u662f\u5426\u4e3aadmin\u8d26\u53f7\", hidden = true)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/e63d0ddd.java",
+   "line": 105,
+   "whole_line": "    @ApiModelProperty(value = \"\u6700\u540e\u4fee\u6539\u5bc6\u7801\u7684\u65f6\u95f4\", hidden = true)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/f03ec55a.java",
+   "line": 56,
+   "whole_line": "    @ApiModelProperty(value = \"\u83dc\u5355\u7ec4\u4ef6\u540d\u79f0\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/f03ec55a.java",
+   "line": 68,
+   "whole_line": "    @ApiModelProperty(value = \"\u83dc\u5355\u7c7b\u578b\uff0c\u76ee\u5f55\u3001\u83dc\u5355\u3001\u6309\u94ae\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/f03ec55a.java",
+   "line": 88,
+   "value": "\u5b50\u8282\u70b9\u6570\u76ee",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sys/modul/f4357c5e.java",
+   "line": 77,
+   "whole_line": "    @Cacheable(key = \"'name:' + #p0\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/0b7881a3.java",
+   "line": 47,
+   "whole_line": "    @Cacheable(key = \"'config'\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/0b7881a3.java",
+   "line": 54,
+   "whole_line": "    @CachePut(key = \"'config'\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/7a45db12.java",
+   "line": 57,
+   "value": "\u7a7a\u95f4\u7c7b\u578b\uff1a\u516c\u5f00/\u79c1\u6709",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/7a45db12.java",
+   "line": 61,
+   "whole_line": "    @ApiModelProperty(value = \"\u521b\u5efa\u6216\u66f4\u65b0\u65f6\u95f4\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/a96a47b4.java",
+   "line": 43,
+   "whole_line": "    @ApiModelProperty(value = \"\u771f\u5b9e\u6587\u4ef6\u540d\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/conf/5b50ff66.java",
+   "line": 48,
+   "whole_line": "    @ApiModelProperty(value = \"\u652f\u4ed8\u5b9d\u516c\u94a5\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/conf/5b50ff66.java",
+   "line": 55,
+   "whole_line": "    @ApiModelProperty(value = \"\u652f\u4ed8\u5b9d\u5f00\u653e\u5b89\u5168\u5730\u5740\", hidden = true)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/conf/5b50ff66.java",
+   "line": 62,
+   "whole_line": "    @ApiModelProperty(value = \"\u5f02\u6b65\u901a\u77e5\u5730\u5740\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/conf/5b50ff66.java",
+   "line": 66,
+   "whole_line": "    @ApiModelProperty(value = \"\u8ba2\u5355\u5b8c\u6210\u540e\u8fd4\u56de\u7684\u9875\u9762\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/conf/d33ec402.java",
+   "line": 40,
+   "whole_line": "    @ApiModelProperty(value = \"\u90ae\u4ef6\u670d\u52a1\u5668SMTP\u5730\u5740\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/conf/d33ec402.java",
+   "line": 44,
+   "whole_line": "    @ApiModelProperty(value = \"\u90ae\u4ef6\u670d\u52a1\u5668 SMTP \u7aef\u53e3\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/conf/d33ec402.java",
+   "line": 48,
+   "whole_line": "    @ApiModelProperty(value = \"\u53d1\u4ef6\u8005\u7528\u6237\u540d\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/conf/fe273802.java",
+   "line": 48,
+   "whole_line": "    @ApiModelProperty(value = \"\u5b58\u50a8\u7a7a\u95f4\u540d\u79f0\u4f5c\u4e3a\u552f\u4e00\u7684 Bucket \u8bc6\u522b\u7b26\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/conf/fe273802.java",
+   "line": 60,
+   "whole_line": "    @ApiModelProperty(value = \"Zone\u8868\u793a\u4e0e\u673a\u623f\u7684\u5bf9\u5e94\u5173\u7cfb\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/conf/fe273802.java",
+   "line": 64,
+   "whole_line": "    @ApiModelProperty(value = \"\u5916\u94fe\u57df\u540d\uff0c\u53ef\u81ea\u5b9a\u4e49\uff0c\u9700\u5728\u4e03\u725b\u4e91\u7ed1\u5b9a\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/conf/fe273802.java",
+   "line": 67,
+   "whole_line": "    @ApiModelProperty(value = \"\u7a7a\u95f4\u7c7b\u578b\uff1a\u516c\u5f00/\u79c1\u6709\")",
+   "source": "creddata"
+  },
+  {
+   "file": "other/9c727576.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "2799c4c867af79d429e8"
+  },
+  {
+   "file": "other/9c727576.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "other/9c727576.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "b2e8712ed8a14584c007ce152b4c34cac729bff7"
+  },
+  {
+   "file": "_/a86994e5.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "c32eec1021ea03473505af5a3e925f121bbe1241"
+  },
+  {
+   "file": "_/a86994e5.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "_/a86994e5.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "test/88c81849.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "AN481PDSFVY82K2ARETVNB8IP6"
+  },
+  {
+   "file": "test/88c81849.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "f81201c3-845e-4c6f-8bba-3a20ae7a3e17"
+  },
+  {
+   "file": "test/88c81849.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "test/88c81849.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/4702ba82.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "www.helix-corp.de"
+  },
+  {
+   "file": "test/4702ba82.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "help.helix-corp.de"
+  },
+  {
+   "file": "test/4702ba82.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "test/4702ba82.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "test/4702ba82.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "test/4702ba82.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "test/4702ba82.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "security@helix-corp.de"
+  },
+  {
+   "file": "test/4702ba82.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "dXNlci1hZ2VudDpjdXJsLzguNC4w"
+  },
+  {
+   "file": "test/4702ba82.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "4745542f6865616c74687a"
+  },
+  {
+   "file": "test/4702ba82.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "_/22af4228.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/quarzo/crm/prod"
+  },
+  {
+   "file": "_/22af4228.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "LEDGER_DB_PASSWORD"
+  },
+  {
+   "file": "_/22af4228.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "_/22af4228.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/etc/auth/tls/private.key"
+  },
+  {
+   "file": "_/22af4228.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "bcrypt"
+  },
+  {
+   "file": "_/22af4228.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "_/22af4228.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "374029151558-it4raayedrx732jke0ae9s3mhl1z3jiz.apps.googleusercontent.com"
+  },
+  {
+   "file": "_/22af4228.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2024-03-05T00:00:00Z"
+  },
+  {
+   "file": "_/22af4228.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "vault-oauth-client"
+  },
+  {
+   "file": "_/22af4228.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6Njc0NzA6b2Zmc2V0OjIyMA=="
+  },
+  {
+   "file": "other/b7cbc579.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Inform Sofa 6.10"
+  },
+  {
+   "file": "other/b7cbc579.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "adapter_bonn"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "files.mailvault.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "188.209.118.44"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "grafana.wikimedia.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.quarzo.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.quarzo.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "kunden.quarzo.systems"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "David Schmidt"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.quarzo.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kunden.quarzo.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.mailvault.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "188.209.118.44"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "grafana.wikimedia.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "David Schmidt"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "david.schmidt@quarzo.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

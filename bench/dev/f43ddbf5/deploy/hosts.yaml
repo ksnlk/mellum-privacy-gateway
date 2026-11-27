@@ -1,0 +1,15 @@
+monitoring: kestrel.kelpie.net
+database:
+  host: vega.kelpie.net
+  port: 5432
+queue: falkor.kelpie.net
+backup_target: atlas.kelpie.net
+website: portal.kelpie.net
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: sftp.logistik-nord.de
+allow_sources:
+  - 85.227.248.128
+  - 140.82.112.3
+  - 85.227.61.48
+ntp: 162.159.200.1
+mirrors: [registry.terraform.io, ftp.gnu.org]

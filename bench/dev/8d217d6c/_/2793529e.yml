@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: pinegrid-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "7e2c9b0"
+type: Opaque
+data:
+  DB_PASSWORD: b2ZmaWNlcl9kaXNjX3JlbmRlcg==
+  STRIPE_KEY: c2tfbGl2ZV9FNE8xbFFjT0M2ZWx6RXl5dllZa3lMU1A=
+  ca.crt.sha256: 457a96e77c4e3877de49d5761c20f3ced1113c35314fd2246aac6cb4e66be3ef
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pinegrid-payments-config
+data:
+  DB_HOST: "crm-api-07.prod.pinegrid-internal.net"
+  SENTRY_HOST: "storage.googleapis.com"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

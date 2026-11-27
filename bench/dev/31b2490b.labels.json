@@ -1,0 +1,736 @@
+{
+ "repo": "31b2490b",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "other/7a3dc913.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-primary.quarzo.cloud"
+   ]
+  },
+  {
+   "id": 2,
+   "file": "other/7a3dc913.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_XK5MSt9fqAuPfSzcOGv9umvGaVy5s5XE0kMv"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "other/321d9366.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "39353331353138623161653363376132366435623166356631356364646632643865343664363863333939616330363237353665663562343839313536663432",
+    "9531518b1ae3c7a26d5b1f5f15cddf2d8e46d68c399ac062756ef5b489156f42"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "test/b5e4d0cc.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "zauber912$"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/b5e4d0cc.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.250.155.62"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/b5e4d0cc.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "U2NobmVlQDIwMjU=",
+    "Schnee@2025"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/8c5f15c0.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_1sJwLMZaclwjMianN0YvSeZl"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/8c5f15c0.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "Aok64pM5AnfK0Dhe2vVKLUE96mT21nSU"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/8c5f15c0.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "bDg1eHc1Y3d0NGVtMGw0ZTM0Yno2bm9wOGdjeG56cDE=",
+    "l85xw5cwt4em0l4e34bz6nop8gcxnzp1"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/3c74bf0c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u0434\u043e\u043c7712"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/805543ae.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.29.71.246"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/805543ae.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.acme-corp.de"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/805543ae.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TW3APNC6H/B51QPQHIZ7M/G5HiUAF7XVq91AthdMj2HeOK"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.helix.systems"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.helix.systems"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.helix.systems"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.84.38.0/24"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.84.38.13"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.helix.systems"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.helix.systems"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.helix.systems"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.helix.systems"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.84.38.178"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.helix.systems"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Laura Becker"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "laura.becker@web.de"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 7037680"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Eva Fischer"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "eva.fischer@gmail.com"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 5221620"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/3bd14d07.md",
+   "line": 35,
+   "value": "Getting",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3bd14d07.md",
+   "line": 75,
+   "value": "Expose",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e0b1e894.cs",
+   "line": 136,
+   "value": "default)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e0b1e894.cs",
+   "line": 148,
+   "value": "default)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f9048635.cs",
+   "line": 50,
+   "value": "cred.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f9048635.cs",
+   "line": 221,
+   "value": "cred.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f9048635.cs",
+   "line": 250,
+   "value": "cred.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f9048635.cs",
+   "line": 283,
+   "value": "cred.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f9048635.cs",
+   "line": 371,
+   "value": "1040",
+   "source": "creddata"
+  },
+  {
+   "file": "other/7a3dc913.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "5.7.21"
+  },
+  {
+   "file": "other/7a3dc913.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "0.17.18"
+  },
+  {
+   "file": "other/7a3dc913.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-9DbHZQu75Cm0TOE/UvIRJCTLKuPj22gqNaxN9fm7TynWkW+AE41GgH0PehqhiRacr54IdO9W36Q8Vm0LmbRPHA=="
+  },
+  {
+   "file": "other/7a3dc913.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "4.19.25"
+  },
+  {
+   "file": "other/7a3dc913.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-s/FaFB9Qlo0UEVrjLVAV2RiW2hMwfFzcuKx5cdmN/sPU29bMJIwEkKZ7svz8fU4gS2WRqxg/hinP0Bwl+sb9pg=="
+  },
+  {
+   "file": "other/7a3dc913.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "5.4.45"
+  },
+  {
+   "file": "other/7a3dc913.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-nAOUhUgKoZ0igsdGcIvHJqX3y0fjTBnyCxdF/TinnnN1k9H8mFeoQ6FSllrZ8uRFfDfDlce+MxfgazN5L/ihIQ=="
+  },
+  {
+   "file": "other/321d9366.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "d60c81807881079c50e54205f6ddb06fe294e95eb61654e7ccb781a4bb63c317"
+  },
+  {
+   "file": "test/b5e4d0cc.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:6feb91d57f39a89cdc7384d1ddb69d76ef3ac55ec7718d2b24047c7af80880f4"
+  },
+  {
+   "file": "test/b5e4d0cc.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "47c26a445dcf87ff78464567b563a99b0dc7a270"
+  },
+  {
+   "file": "test/b5e4d0cc.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "${DB_PASSWORD}"
+  },
+  {
+   "file": "test/b5e4d0cc.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "test/b5e4d0cc.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "3.14.43"
+  },
+  {
+   "file": "test/8c5f15c0.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_8RT4BCCVtSc2YxhyCcPvZKnS"
+  },
+  {
+   "file": "test/8c5f15c0.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "VAULT_DB_PASSWORD"
+  },
+  {
+   "file": "test/8c5f15c0.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "PAYMENTS_AUTH_TOKEN"
+  },
+  {
+   "file": "test/8c5f15c0.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6Lj9uma2wfxVgoiJe2Eke51m0BBwpc5KyliuFjx5"
+  },
+  {
+   "file": "test/8c5f15c0.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:G6axSFe+bjUr25ybabipTSkAMoWeRnnC7KnKjHRJWJs"
+  },
+  {
+   "file": "test/8c5f15c0.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/run/secrets/crm_password"
+  },
+  {
+   "file": "test/8c5f15c0.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Authorization"
+  },
+  {
+   "file": "test/8c5f15c0.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "test/8c5f15c0.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "dXNlcjo2NTExMzpvZmZzZXQ6MjMw"
+  },
+  {
+   "file": "src/3c74bf0c.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "kirsche-union-v2"
+  },
+  {
+   "file": "src/3c74bf0c.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Booster Breakout 5.10"
+  },
+  {
+   "file": "test/805543ae.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "3d8dd83e41f988cc1da0"
+  },
+  {
+   "file": "test/805543ae.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "sentry.io"
+  },
+  {
+   "file": "test/805543ae.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "9c950cd1e7a7a8357b84242710ff7bc5bb70cb00"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "edi.datafjord.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.114.25"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.96.220.167"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.helix.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.helix.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "kunden.helix.systems"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Sofia Fischer"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kunden.helix.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.datafjord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.114.25"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "194.96.220.167"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.helix.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Sofia Fischer"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "sofia.fischer@helix.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "John Doe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "john.doe@example.net"
+  }
+ ]
+}

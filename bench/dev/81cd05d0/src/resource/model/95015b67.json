@@ -1,0 +1,436 @@
+      "TargetHealth" : [ "State", "Reason" ]
+    },
+    "operationModifiers" : null,
+    "operationsWithResponseStreamContentLengthValidation" : null,
+    "presignersFqcn" : null,
+    "renameShapes" : null,
+    "requestMetrics" : null,
+    "requiredParamValidationEnabled" : false,
+    "s3ArnableFields" : null,
+    "sdkModeledExceptionBaseClassName" : null,
+    "sendEmptyAutoConstructedListAsEmptyList" : null,
+    "sendExplicitlyEmptyListsForQuery" : false,
+    "serviceClientHoldInputStream" : false,
+    "shapeModifiers" : null,
+    "shapeSubstitutions" : null,
+    "simpleMethods" : null,
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : false,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2015-12-01",
+    "asyncClient" : "AmazonElasticLoadBalancingAsyncClient",
+    "asyncClientBuilderClassName" : "AmazonElasticLoadBalancingAsyncClientBuilder",
+    "asyncInterface" : "AmazonElasticLoadBalancingAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AmazonElasticLoadBalancingModuleInjector",
+    "defaultEndpoint" : "elasticloadbalancing.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "elasticloadbalancing.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>Elastic Load Balancing</fullname> <p>A load balancer distributes incoming traffic across targets, such as your EC2 instances. This enables you to increase the availability of your application. The load balancer also monitors the health of its registered targets and ensures that it routes traffic only to healthy targets. You configure your load balancer to accept incoming traffic by specifying one or more listeners, which are configured with a protocol and port number for connections from clients to the load balancer. You configure a target group with a protocol and port number for connections from the load balancer to the targets, and with health check settings to be used when checking the health status of the targets.</p> <p>Elastic Load Balancing supports the following types of load balancers: Application Load Balancers, Network Load Balancers, Gateway Load Balancers, and Classic Load Balancers. This reference covers the following load balancer types:</p> <ul> <li> <p>Application Load Balancer - Operates at the application layer (layer 7) and supports HTTP and HTTPS.</p> </li> <li> <p>Network Load Balancer - Operates at the transport layer (layer 4) and supports TCP, TLS, and UDP.</p> </li> <li> <p>Gateway Load Balancer - Operates at the network layer (layer 3).</p> </li> </ul> <p>For more information, see the <a href=\"https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/\">Elastic Load Balancing User Guide</a>.</p> <p>All Elastic Load Balancing operations are idempotent, which means that they complete at most one time. If you repeat an operation, it succeeds.</p>",
+    "endpointPrefix" : "elasticloadbalancing",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : false,
+    "jsonVersion" : null,
+    "packageName" : "com.amazonaws.services.elasticloadbalancingv2",
+    "packagePath" : "com/amazonaws/services/elasticloadbalancingv2",
+    "protocol" : "query",
+    "protocolDefaultExceptionUmarshallerImpl" : "StandardErrorUnmarshaller",
+    "protocolFactory" : null,
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "Elastic Load Balancing v2",
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "UnsupportedProtocolException",
+        "variableName" : "unsupportedProtocolException",
+        "variableType" : "UnsupportedProtocolException",
+        "documentation" : null,
+        "simpleType" : "UnsupportedProtocolException",
+        "variableSetterType" : "UnsupportedProtocolException"
+      },
+      "wrapper" : false
+    }
+  },
+  "clientConfigFactory" : "ClientConfigurationFactory",
+  "examples" : {
+    "examples" : {
+      "AddTags" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example adds the specified tags to the specified load balancer.",
+        "id" : "elbv2-add-tags-1",
+        "input" : {
+          "ResourceArns" : [ "arn:aws:elasticloadbalancing:us-west-2:123456789012:loadbalancer/app/my-load-balancer/50dc6c495c0c9188" ],
+          "Tags" : [ {
+            "Key" : "project",
+            "Value" : "lima"
+          }, {
+            "Key" : "department",
+            "Value" : "digital-media"
+          } ]
+        },
+        "output" : null,
+        "title" : "To add tags to a load balancer"
+      } ],
+      "CreateListener" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates an HTTP listener for the specified load balancer that forwards requests to the specified target group.",
+        "id" : "elbv2-create-listener-1",
+        "input" : {
+          "LoadBalancerArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:loadbalancer/app/my-load-balancer/50dc6c495c0c9188",
+          "Protocol" : "HTTP",
+          "Port" : 80,
+          "DefaultActions" : [ {
+            "Type" : "forward",
+            "TargetGroupArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:targetgroup/my-targets/73e2d6bc24d8a067"
+          } ]
+        },
+        "output" : {
+          "Listeners" : [ {
+            "ListenerArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:listener/app/my-load-balancer/50dc6c495c0c9188/f2f7dc8efc522ab2",
+            "Port" : 80,
+            "Protocol" : "HTTP",
+            "DefaultActions" : [ {
+              "Type" : "forward",
+              "TargetGroupArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:targetgroup/my-targets/73e2d6bc24d8a067"
+            } ]
+          } ]
+        },
+        "title" : "To describe a listener"
+      } ],
+      "DescribeLoadBalancerAttributes" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the attributes of the specified load balancer.",
+        "id" : "elbv2-describe-load-balancer-attributes-1",
+        "input" : {
+          "LoadBalancerArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:loadbalancer/app/my-load-balancer/50dc6c495c0c9188"
+        },
+        "output" : {
+          "Attributes" : [ {
+            "Key" : "access_logs.s3.enabled",
+            "Value" : "false"
+          }, {
+            "Key" : "idle_timeout.timeout_seconds",
+            "Value" : "60"
+          }, {
+            "Key" : "access_logs.s3.prefix",
+            "Value" : ""
+          }, {
+            "Key" : "deletion_protection.enabled",
+            "Value" : "false"
+          }, {
+            "Key" : "access_logs.s3.bucket",
+            "Value" : ""
+          } ]
+        },
+        "title" : "To describe load balancer attributes"
+      } ],
+      "DescribeLoadBalancers" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the specified load balancer.",
+        "id" : "elbv2-describe-load-balancers-1",
+        "input" : {
+          "LoadBalancerArns" : [ "arn:aws:elasticloadbalancing:us-west-2:123456789012:loadbalancer/app/my-load-balancer/50dc6c495c0c9188" ]
+        },
+        "output" : {
+          "LoadBalancers" : [ {
+            "LoadBalancerArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:loadbalancer/app/my-load-balancer/50dc6c495c0c9188",
+            "DNSName" : "my-load-balancer-424835706.us-west-2.elb.amazonaws.com",
+            "CanonicalHostedZoneId" : "Z2P70J7EXAMPLE",
+            "CreatedTime" : "2016-03-25T21:26:12.920Z",
+            "LoadBalancerName" : "my-load-balancer",
+            "Scheme" : "internet-facing",
+            "VpcId" : "vpc-3ac0fb5f",
+            "State" : {
+              "Name" : "AES256-SHA256",
+              "Priority" : 18
+            }, {
+              "Name" : "AES256-SHA",
+              "Priority" : 19
+            } ],
+            "Name" : "ELBSecurityPolicy-2015-05"
+          } ]
+        },
+        "title" : "To describe a policy used for SSL negotiation"
+      } ],
+      "DescribeTags" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the tags assigned to the specified load balancer.",
+        "id" : "elbv2-describe-tags-1",
+        "input" : {
+          "ResourceArns" : [ "arn:aws:elasticloadbalancing:us-west-2:123456789012:loadbalancer/app/my-load-balancer/50dc6c495c0c9188" ]
+        },
+        "output" : {
+          "TagDescriptions" : [ {
+            "ResourceArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:loadbalancer/app/my-load-balancer/50dc6c495c0c9188",
+            "Tags" : [ {
+              "Key" : "project",
+              "Value" : "lima"
+            }, {
+              "Key" : "department",
+              "Value" : "digital-media"
+            } ]
+          } ]
+        },
+        "title" : "To describe the tags assigned to a load balancer"
+      } ],
+      "DescribeTargetGroupAttributes" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the attributes of the specified target group.",
+        "id" : "elbv2-describe-target-group-attributes-1",
+        "input" : {
+          "TargetGroupArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:targetgroup/my-targets/73e2d6bc24d8a067"
+        },
+        "output" : {
+          "Attributes" : [ {
+            "Key" : "stickiness.enabled",
+            "Value" : "false"
+          }, {
+            "Key" : "deregistration_delay.timeout_seconds",
+            "Value" : "300"
+          }, {
+            "Key" : "stickiness.type",
+            "Value" : "lb_cookie"
+          }, {
+            "Key" : "stickiness.lb_cookie.duration_seconds",
+            "Value" : "86400"
+          } ]
+        },
+        "title" : "To describe target group attributes"
+      } ],
+      "DescribeTargetGroups" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the specified target group.",
+        "id" : "elbv2-describe-target-groups-1",
+        "input" : {
+          "TargetGroupArns" : [ "arn:aws:elasticloadbalancing:us-west-2:123456789012:targetgroup/my-targets/73e2d6bc24d8a067" ]
+        },
+        "output" : {
+          "TargetGroups" : [ {
+            "TargetGroupArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:targetgroup/my-targets/73e2d6bc24d8a067",
+            "TargetGroupName" : "my-targets",
+            "Protocol" : "HTTP",
+            "Port" : 80,
+            "VpcId" : "vpc-3ac0fb5f",
+            "LoadBalancerArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:loadbalancer/app/my-load-balancer/50dc6c495c0c9188",
+            "Port" : 443,
+            "Protocol" : "HTTPS",
+            "Certificates" : [ {
+              "CertificateArn" : "arn:aws:iam::123456789012:server-certificate/my-new-server-cert"
+            } ],
+            "SslPolicy" : "ELBSecurityPolicy-2015-05",
+            "DefaultActions" : [ {
+              "Type" : "forward",
+              "TargetGroupArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:targetgroup/my-targets/73e2d6bc24d8a067"
+            } ]
+          } ]
+        },
+        "title" : "To change the server certificate"
+      } ],
+      "ModifyLoadBalancerAttributes" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example enables deletion protection for the specified load balancer.",
+        "id" : "elbv2-modify-load-balancer-attributes-1",
+        "input" : {
+          "LoadBalancerArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:loadbalancer/app/my-load-balancer/50dc6c495c0c9188",
+          "Attributes" : [ {
+            "Key" : "deletion_protection.enabled",
+            "Value" : "true"
+          } ]
+        },
+        "output" : {
+          "Attributes" : [ {
+            "Key" : "deletion_protection.enabled",
+            "Value" : "true"
+          }, {
+            "Key" : "access_logs.s3.enabled",
+            "Value" : "false"
+          }, {
+            "Key" : "idle_timeout.timeout_seconds",
+            "Value" : "60"
+          }, {
+            "Key" : "access_logs.s3.prefix",
+            "Value" : ""
+          }, {
+            "Key" : "access_logs.s3.bucket",
+            "Value" : ""
+          } ]
+        },
+        "title" : "To enable deletion protection"
+      }, {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example changes the idle timeout value for the specified load balancer.",
+        "id" : "elbv2-modify-load-balancer-attributes-2",
+        "input" : {
+          "LoadBalancerArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:loadbalancer/app/my-load-balancer/50dc6c495c0c9188",
+          "Attributes" : [ {
+            "Key" : "idle_timeout.timeout_seconds",
+            "Value" : "30"
+          } ]
+        },
+        "output" : {
+          "Attributes" : [ {
+            "Key" : "idle_timeout.timeout_seconds",
+            "Value" : "30"
+          }, {
+            "Key" : "access_logs.s3.enabled",
+            "Value" : "false"
+          }, {
+            "Key" : "access_logs.s3.prefix",
+            "Value" : ""
+          }, {
+            "Key" : "deletion_protection.enabled",
+            "Value" : "true"
+          }, {
+            "Key" : "access_logs.s3.bucket",
+            "Value" : ""
+          } ]
+        },
+        "title" : "To change the idle timeout"
+      }, {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example enables access logs for the specified load balancer. Note that the S3 bucket must exist in the same region as the load balancer and must have a policy attached that grants access to the Elastic Load Balancing service.",
+        "id" : "elbv2-modify-load-balancer-attributes-3",
+        "input" : {
+          "LoadBalancerArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:loadbalancer/app/my-load-balancer/50dc6c495c0c9188",
+          "Attributes" : [ {
+            "Key" : "access_logs.s3.enabled",
+            "Value" : "true"
+          }, {
+            "Key" : "access_logs.s3.bucket",
+            "Value" : "my-loadbalancer-logs"
+          }, {
+            "Key" : "access_logs.s3.prefix",
+            "Value" : "myapp"
+          } ]
+        },
+        "output" : {
+          "Attributes" : [ {
+            "Key" : "access_logs.s3.enabled",
+            "Value" : "true"
+          }, {
+            "Key" : "access_logs.s3.bucket",
+            "Value" : "my-load-balancer-logs"
+          }, {
+            "Key" : "access_logs.s3.prefix",
+            "Value" : "myapp"
+          }, {
+            "Key" : "idle_timeout.timeout_seconds",
+            "Value" : "60"
+          }, {
+            "Key" : "deletion_protection.enabled",
+            "Value" : "false"
+          } ]
+        },
+        "title" : "To enable access logs"
+      } ],
+      "ModifyRule" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example modifies the condition for the specified rule.",
+        "id" : "elbv2-modify-rule-1",
+        "input" : {
+          "RuleArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:listener-rule/app/my-load-balancer/50dc6c495c0c9188/f2f7dc8efc522ab2/9683b2d02a6cabee",
+          "Conditions" : [ {
+            "Field" : "path-pattern",
+            "Values" : [ "/images/*" ]
+          } ]
+        },
+        "output" : {
+          "Rules" : [ {
+            "RuleArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:listener-rule/app/my-load-balancer/50dc6c495c0c9188/f2f7dc8efc522ab2/9683b2d02a6cabee",
+            "Priority" : "10",
+            "Conditions" : [ {
+              "Field" : "path-pattern",
+        },
+        "title" : "To modify the health check configuration for a target group"
+      } ],
+      "ModifyTargetGroupAttributes" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example sets the deregistration delay timeout to the specified value for the specified target group.",
+        "id" : "elbv2-modify-target-group-attributes-1",
+        "input" : {
+          "TargetGroupArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:targetgroup/my-targets/73e2d6bc24d8a067",
+          "Attributes" : [ {
+            "Key" : "deregistration_delay.timeout_seconds",
+            "Value" : "600"
+          } ]
+        },
+        "output" : {
+          "Attributes" : [ {
+            "Key" : "stickiness.enabled",
+            "Value" : "false"
+          }, {
+            "Key" : "deregistration_delay.timeout_seconds",
+            "Value" : "600"
+          }, {
+            "Key" : "stickiness.type",
+            "Value" : "lb_cookie"
+          }, {
+            "Key" : "stickiness.lb_cookie.duration_seconds",
+            "Value" : "86400"
+          } ]
+        },
+        "title" : "To modify the deregistration delay timeout"
+      } ],
+      "RegisterTargets" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example registers the specified instances with the specified target group.",
+        "id" : "elbv2-register-targets-1",
+        "input" : {
+          "TargetGroupArn" : "arn:aws:elasticloadbalancing:us-west-2:123456789012:targetgroup/my-targets/73e2d6bc24d8a067",
+          "Targets" : [ {
+            "Id" : "i-80c8dd94"
+          }, {
+            "Id" : "i-ceddcd4d"
+          } ]
+        },
+        "output" : null,
+        "title" : "To register targets with a target group"

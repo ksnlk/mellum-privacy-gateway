@@ -1,0 +1,19 @@
+# quarzo payments service
+database:
+  host: billing.i8rz57.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "Fortuna1998?"
+  password_source: secret/data/quarzo/vault/staging
+  password_env: AUTH_DB_PASSWORD
+api:
+  key_header: X-Api-Key
+  partner_ident: tmeCQxOvis1ZrI0lWEf1LIzxtvySCqAj
+  key_file: /etc/etl/tls/private.key
+  signing_alg: pbkdf2_sha256
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 946670641679-1xh6qqfndpwhdmree3qsxac25jhfipi4.apps.googleusercontent.com
+  client_proof: 87bmohm97w0cb407uf9s0i260lvm8ibv
+  secret_rotated_at: "2023-12-28T00:00:00Z"
+  secret_name: ledger-api-token
+pagination:
+  first_cursor: aW52b2ljZToyNzM1MzpvZmZzZXQ6MTEx

@@ -1,0 +1,15 @@
+monitoring: kestrel.pinegrid-ops.io
+database:
+  host: hermes.pinegrid-ops.io
+  port: 5432
+queue: falkor.pinegrid-ops.io
+backup_target: orion.pinegrid-ops.io
+website: kunden.pinegrid-ops.io
+payments_api: https://api.datafjord.com/v2
+partner_drop: sftp.datafjord.de
+allow_sources:
+  - 85.7.224.151
+  - 140.82.114.25
+  - 85.7.159.236
+ntp: 162.159.200.1
+mirrors: [registry.terraform.io, mirrors.kernel.org]

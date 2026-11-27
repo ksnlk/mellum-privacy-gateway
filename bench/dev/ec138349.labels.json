@@ -1,0 +1,2185 @@
+{
+ "repo": "ec138349",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "src/example/sample/conf/security/8ca6f43a.java",
+   "line": 189,
+   "start": 28,
+   "end": 60,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "f6c5e6b3a34373f8d85dacbb2db6790b"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/sample/1fa5a1a2.jsp",
+   "line": 39,
+   "start": 72,
+   "end": 78,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "yhvusd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/69148d74.md",
+   "line": 43,
+   "start": 22,
+   "end": 58,
+   "category": "Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "c4e5c1f3-fd0a-e1dc-15e7-332d2191233d"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/69148d74.md",
+   "line": 44,
+   "start": 8,
+   "end": 43,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "d954pi82-3988-646y-28x1-577zj7s2857"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/f27d0c60.md",
+   "line": 69,
+   "start": 22,
+   "end": 58,
+   "category": "Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "919bc659-2417-b2ab-5aa0-55743bb34a53"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/f27d0c60.md",
+   "line": 70,
+   "start": 8,
+   "end": 43,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "h370ib61-4328-510q-02k9-094xp9w6974"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/src/code/security/4a66199e.java",
+   "line": 56,
+   "start": 148,
+   "end": 167,
+   "category": "Auth:Nonce",
+   "mutation": "none",
+   "forms": [
+    "623fa128d9b540c9993"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/src/code/security/4a66199e.java",
+   "line": 91,
+   "start": 44,
+   "end": 60,
+   "category": "Auth:Key",
+   "mutation": "none",
+   "forms": [
+    "3653dy4880jotl25"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/src/code/security/4a66199e.java",
+   "line": 92,
+   "start": 37,
+   "end": 53,
+   "category": "Auth:Token",
+   "mutation": "none",
+   "forms": [
+    "ad370lga058uelt6"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "test/src/code/security/4a66199e.java",
+   "line": 94,
+   "start": 52,
+   "end": 84,
+   "category": "Auth",
+   "mutation": "comment",
+   "forms": [
+    "rGTFG3U1J6hFvOraQsYvYUKI%7JLZ%9Z"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "test/src/code/security/4a66199e.java",
+   "line": 97,
+   "start": 28,
+   "end": 58,
+   "category": "Auth:Nonce",
+   "mutation": "comment",
+   "forms": [
+    "eabb6df17325577f23ee6ea467aeaf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "test/src/conf/security/server/7c0a564e.java",
+   "line": 71,
+   "start": 46,
+   "end": 56,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "gceyfhmqvj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "test/src/resource/6d224b39.java",
+   "line": 181,
+   "start": 24,
+   "end": 29,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "aahnl"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "test/src/sample/security/fe6633d9.java",
+   "line": 130,
+   "start": 16,
+   "end": 21,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "olfjr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "test/src/sample/security/resource/9d2c2358.java",
+   "line": 228,
+   "start": 16,
+   "end": 21,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "qcsfm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "test/src/security/00042d33.java",
+   "line": 45,
+   "start": 46,
+   "end": 56,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "OaOV05gwRK"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 17,
+   "file": "test/src/security/00042d33.java",
+   "line": 47,
+   "start": 29,
+   "end": 39,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "9lXDpYxJe3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 18,
+   "file": "test/src/security/18b43943.java",
+   "line": 40,
+   "start": 35,
+   "end": 72,
+   "category": "Token",
+   "mutation": "camouflage",
+   "forms": [
+    "eyJppFaqDqJrFZWhBeMeOeH1iVH4NgybWuB6."
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 19,
+   "file": "test/src/security/18b43943.java",
+   "line": 43,
+   "start": 46,
+   "end": 87,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "eyJ8fMNxJuWMPagpPU8OCHMdaYoeUsXYZpCwOsC7."
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 20,
+   "file": "test/src/security/18b43943.java",
+   "line": 46,
+   "start": 31,
+   "end": 52,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "eyJfyLrlJyPWgTa1DRL1."
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 21,
+   "file": "test/src/security/1c39b347.java",
+   "line": 52,
+   "start": 46,
+   "end": 62,
+   "category": "Auth:Key",
+   "mutation": "none",
+   "forms": [
+    "0798hh3458txpo25"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 22,
+   "file": "test/src/security/1c39b347.java",
+   "line": 53,
+   "start": 39,
+   "end": 55,
+   "category": "Token:Auth",
+   "mutation": "none",
+   "forms": [
+    "zs613gqy876dtsh1"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 23,
+   "file": "test/src/security/1c39b347.java",
+   "line": 55,
+   "start": 43,
+   "end": 75,
+   "category": "Auth",
+   "mutation": "none",
+   "forms": [
+    "vRAMP8C2F5sWsLfhLxEhKUNU%7NXL%2I"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 24,
+   "file": "test/src/security/1c39b347.java",
+   "line": 57,
+   "start": 49,
+   "end": 79,
+   "category": "Auth:Nonce",
+   "mutation": "comment",
+   "forms": [
+    "703852adcde1de9ce8c1d3a668957c"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 25,
+   "file": "test/src/security/1c39b347.java",
+   "line": 86,
+   "start": 49,
+   "end": 65,
+   "category": "Auth:Key",
+   "mutation": "comment",
+   "forms": [
+    "apa70q4u8s5k9j39"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 26,
+   "file": "test/src/security/1c39b347.java",
+   "line": 87,
+   "start": 39,
+   "end": 55,
+   "category": "Auth:Token",
+   "mutation": "none",
+   "forms": [
+    "blgw910t01km3cvw"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 27,
+   "file": "test/src/security/1c39b347.java",
+   "line": 91,
+   "start": 30,
+   "end": 46,
+   "category": "Auth:Nonce",
+   "mutation": "comment",
+   "forms": [
+    "zvrm5308wy1266tt"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 28,
+   "file": "test/src/security/1c39b347.java",
+   "line": 101,
+   "start": 228,
+   "end": 244,
+   "category": "Auth:Token",
+   "mutation": "none",
+   "forms": [
+    "xtkf647w65lq4lea"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 29,
+   "file": "test/src/security/1c39b347.java",
+   "line": 101,
+   "start": 127,
+   "end": 143,
+   "category": "Auth:Nonce",
+   "mutation": "none",
+   "forms": [
+    "iftr4966lg3832db"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 30,
+   "file": "test/src/security/1c39b347.java",
+   "line": 101,
+   "start": 94,
+   "end": 110,
+   "category": "Auth:Key",
+   "mutation": "none",
+   "forms": [
+    "gjg86c1l9k0d0h50"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 31,
+   "file": "test/src/security/399221f4.java",
+   "line": 35,
+   "start": 42,
+   "end": 85,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "doktntfdpgtlatkylyzaoaykmeufeksmuzooeqxvrhn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 32,
+   "file": "test/src/security/399221f4.java",
+   "line": 52,
+   "start": 256,
+   "end": 292,
+   "category": "Auth:Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "0cec6e27-6340-29f4-52b8-45afef966800"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 33,
+   "file": "test/src/security/399221f4.java",
+   "line": 52,
+   "start": 135,
+   "end": 171,
+   "category": "Auth:Nonce:UUID",
+   "mutation": "none",
+   "forms": [
+    "a8a2550c-282a-b2d2-16b0-9c70eefdb139"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 34,
+   "file": "test/src/security/399221f4.java",
+   "line": 64,
+   "start": 148,
+   "end": 167,
+   "category": "Auth:Nonce",
+   "mutation": "none",
+   "forms": [
+    "40a3daa01b4a00c4670"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 35,
+   "file": "test/src/security/74dff624.java",
+   "line": 229,
+   "start": 13,
+   "end": 231,
+   "category": "JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJhwNfwLnKkLvI6XmM9.hrCoo6zmN2SYwFEsSePSb96xAIGgLox5wUV9TlGnwxXkXmHWrz5LM72nNyT1QjTOQCA9.g91ts0KBYDwl_Q2rCzaWapUjRch7pZUAonaLC5drmZ3KOYkHqW-QYfXdRevHgsvu2W1i5k76FHtTW_n203YX4lYNj3IAPS4kAQk8lIF4gGFjaysKlrx2HBEp_fHHLoZI"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 36,
+   "file": "test/src/security/74dff624.java",
+   "line": 250,
+   "start": 24,
+   "end": 242,
+   "category": "JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJrpXvfPePYDVA8IgX6.xaDEUuZaG7rNK5GmXoRRGr8SAlRsEgg8mXD7HrQ7pEMlJtxSL99WCl1ehnI9HdTBGmQ0.k25jn4YADEtc_P5oAayVanLxWac6mTEOsooYP2rajM9HDOgReA-XVgHrFaePhoto3J9q2g99NWrLL_b057IJ4rBFt3IFKE5lVIz7hIM0sHUmbvyRace4QNCw_fOLPvPS"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 37,
+   "file": "test/src/security/944501fe.java",
+   "line": 73,
+   "start": 16,
+   "end": 1270,
+   "category": "Azure Access Token:JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJkdSyoCmBscHg0BzTwEmctGdObReTalBrqJhbpQSQLWzZ0LKEmLNR6PVAfMW48A0PgGrDyYLoOEX7CfJS6O3btLFYkQwWZAeI2bK08SEWhZq8.ydVgnPhuCcJ6EQJ8ICc5FL90RCB9KVK0EWimHka2TF99pMebNreoAux5MLEiDPRicBFvAse9TnC6TpoaFuXxCw1dDrD1FekwdIM6Owx0BYWlOKi8GMX7TXWaa2KiZbJhY2wdBm4tT1KERMrzz2yHZwY1YZduHECHMQ7UCWFEwT4hipFnOyBkRkP7USQ3TitDRhinoERdFloss2JzXhjfVzN9PSyaDgqgKMsJXW05DfHoEMuyHzxwh8DegA6FODGmGsF6KatarShdBhdhC0BBdZXZUcbqMa7MLibeSlXvhw0wYZadZHKNM8IBA1M6wbKdPfBpLABjUMI5OFRcPrMHZqMSQAGrWvY2RBetBmKdHBNsQhRIID5oIcU0VVq6FeQqWpO3QZ9Ar8vgMtR9LER3ClEuRIAKmVccGlDzAwxpyqJPFrR1M0KkAosaWwBvGxO0LuG7KVyIPt29VLrAURdEEDmtsLP1Sf16yqBgOGM1HIGvwUzqQPDVI2NmV2YpNAuUsEhifTegNkocWDTxo1G0GgT5Sl4wIJRDDyEyFixerEfsqg1Tv8DmAkanCsHIC6rsWjxmSDDOpU6mSx5ynUV9RXMslNextZSeyG0jMVSsWifeEZiAFHDsZzobMoPaWy9ZG3UOQb35zDeeYEClLOX7LesXM7qLAWPgNjXoS6uSc8q7mO2rKzZ6u3zSafL8JeJYKQh0HbxyOg4vHCQiyRNXXMW7DdeIUXwYKygfW0QYFwY6M2VEWgEbZwBqYDK7YKQxImZ0JoinAMoyKKpgsRNtGqtszv2RHy3.BgS5dEKrav3gogoFWRtT9eKvOZKwMaxST397F0enOzlhBangWCMF3XH6k4JHHujZUXpVPMe7WgUykYteoKwWuYs7U2PBHyV4OEAHX26fQB1DMLJcl9XbeWVjhtnGYrp9qCXPhNavn_yJXxNfyRMTwXM1c03aBK4VpiIvFZ0pyldxvzHZcbSz4RJ2U77vF62GukF1I7b7yuNmDA0hDeferJbPYQmenLAZ7vjlFyP_7mk4t87LBYncGizvTgHXsOvXCFGNb9rRdZ3SihjE_9kB7wTQEKySsCDD1sb8_6S2C0t8Xm7Qz0rftTfo5-NCMov9nixQfghWDKhFbqcocDUlHO"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 38,
+   "file": "test/src/security/944501fe.java",
+   "line": 98,
+   "start": 45,
+   "end": 1299,
+   "category": "Azure Access Token:JSON Web Token",
+   "mutation": "comment",
+   "forms": [
+    "eyJnuIoeTmGQvVS4AvXjUyf5kBMkLlTheyW3QztxBH6ODzY4AXAjBBQ9NE3IEw4rR98lTmy1PsmNV9DJNoX4POINTMegIL8SHU5wXaw1TMO3Iv0.tuWdqQhmDoA3KSw6H5N0Hv3dBWJKEYMrtDDmZiCxVp6vzOYIWCZUZyArFvNnEJTedCIcOzZ7MhkpYAR5QVakMq8uFbY7LGnzyAD6Lto6Tfj4COe2OkV7IXWyu0WzFrUissNOQz2qbR21SWLcU33ATrI8TMOyITLKpR5SC8XRGmAjNqrnKMSyBeT0STP1IconMPdtt4MLGlyph7PyHkumZRN6LoY3PDArF4GZEe00RpCPRWu0JPodXCkSG8HKUoMyJBm4UntilPbeXddrNxp1jXPARivurmtTOydbdRKZkR4UsLIaFBWiN3LER0p7lCbdGfKuUDG3EAj4JwEqVwK7X35LRIzfW1JnVqAaFvNBHzpaPLawQf6fPmp3MSKcWXQqZbM4Qz2Ve6W5GoZ8MWF8DQJyIASJYXMlYjO1HvwiYmYSM1t0V1Bcl7wKZ9GcIuV0JeynElNTTY3SZzHfSKpwReconTjuCp9qBeBeUVA0KZo7OSImKOOlzM7wonKUVZ4uJ08UESQxGugkTCDZWeZgLowerQ6TMz6OHlglMotherOVCI0kfQ1fCubeIEtshxZuLduzwhQhIn82QSEry5nOAaJddDanMJ3gSN5LaxUrLettT8abyAHmJhyhTCSpUW54VWXqZs17oHahQqy6xfD9NgZvfcMOVEApShownFifoCpZCB2rajeGUlDBXqR1XxcAp0oAJanetEJER9Jnqh1GnRZ7Jg1FD4sEAoeeXQGTDx3aU69YuBurLoUbYUNZAqElbDQ2BtdCJEyQNXnJLpLPSgTjY5zBAu8.NlB1vAXzkg6cjboYAWvP5hTbQFMoCamKH334W0afZrtjEqlmDQEL3WN6z2SQEufFABdBPVw1QcVshZvosGoKcOs0W7LZOqL2IHYJJ98eVM3QJRIzb6KglUGgfloNOju4bTBIzCjos_aPCqPwlFDNqNV4m76nMX5EdkNvSO9iyxqzfqSVdgYg4HU3T35yT84EizI2D6a3suHtIX8yQizzuOgWSPoolCYD2ahaRsZ_9dg6u08IAKgrHxmvEdRGuSnTWBTZg9lHlJ7YhirS_7oD0yEZNXtNeRAD6yd8_7Q1G0v9Hf0Ur4wsdJzt7-DSZny6aclYvuvSQGgSofuvnKDzUG"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 39,
+   "file": "test/src/security/b264e503.java",
+   "line": 146,
+   "start": 50,
+   "end": 284,
+   "category": "Auth:Token:JSON Web Token",
+   "mutation": "comment",
+   "forms": [
+    "eyJszFjrBxWALaMnNgTuVrkfPCG1NzGjiJ==.smKaB74oF1NnTSlaIwVQk3xyZSYvRay2sHY9JuOoOhTbDmH6HpCIF909ysT1ThkXGEZ2.d37vm8QLWXfo_V0qBihJczVwEzc5mPKIkmzIZ2jkaE0CHGeScE-EOkNxQtnWbrex9F6n9m63BPyHS_e778FR2aLKb5SFMN6vNIe9qVB2yOMinimCost7AEQi_jATUuGN"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 40,
+   "file": "test/src/security/client/2d2abc99.java",
+   "line": 452,
+   "start": 228,
+   "end": 244,
+   "category": "Auth:Token",
+   "mutation": "none",
+   "forms": [
+    "rinh818q85wu7bvk"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 41,
+   "file": "test/src/security/client/2d2abc99.java",
+   "line": 452,
+   "start": 127,
+   "end": 143,
+   "category": "Auth:Nonce",
+   "mutation": "none",
+   "forms": [
+    "mwes2613ci3584fj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 42,
+   "file": "test/src/security/client/2d2abc99.java",
+   "line": 452,
+   "start": 94,
+   "end": 110,
+   "category": "Auth:Key",
+   "mutation": "none",
+   "forms": [
+    "zur69o1k2g1k8z66"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 43,
+   "file": "test/src/security/resource/ecf1e034.jwt",
+   "line": 1,
+   "start": 0,
+   "end": 1254,
+   "category": "Azure Access Token:JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJrkKdiIwRmYmTwRiMeHdKuQgJyFhFjHvNOSzzzfiXKAsY8CNMsVBY2PHhksY10LVt9idl9VnVHg3pPBSRIwbWNFHjgjv6iZP1gV1m1AQNwWc9.orIfaOmoRbJ6LKR4P6Q9FM0vIuYRNCNJskrfRwD4DA54RyEVHPjIENb0QBTtKPMewLUyQmU8JCd5XxTcIQPdXn1cOtZ4VKingDR4Pct7XNt0QVY8Qbb8EXEro4EhSkOSNkQrQo0lEQsADfkIx5FiTmo2TAsevpbDXa3BJMyFVu0vY5PwDkDyHvA2WHQ9CoUQKZpaq2zDSnack7YpXhboJ3z0PaJ8XjDgDU7Lue83pOe1ZMt6GAkaW0P9J1a3GmE0KxTfJonasKubToxcG1aXq18hMtpnoxKUZkjyISJKVw9eCQZjTYHqWVBBJ6CFYMPdNyd5QrR1LOycHRPlIyq0REXUyZztL8xlCRbsHaTtWvZYCKVZSr4rUDS7JAA7gMQdCYE8Fk4rTAN0oIm4BYDqGeamBTLSXUlePzZ5KtcbYwkkA7KGR0tazWCrMa5xLhP5ZBGfCJN4Tk8wKWTSCSXxHAlaWYi9Mm4bRpN0Ifi6YEO4jbMjOGJLNEbSrVVDEWPJJ74VWyzhZnrqUREynOCFruaOSC0dVRI8OwouSareTSVbAD9GKUdsDvpqrmboFLOuWrgoFFdNyS4ycvCoKPlVPlCajNlvvrOUxU7hMusqScrap3WvfnkaRrycQgAqNz0pf1D6Bn22wDubXQGAgXD7GkNFN6CRANUhLbT0Wog8KnopQB6QUM1gEFB5rVK4LuI9sfJ2KzzcC4X0ghfjLoosFAR8YajBpsMwZevyF7hyGn42G2cGafJkDgOlTIOzGCNJgWQ7EykEMDUEZDpSLgghVVCee2RiFs2.KaT2tOPlug5xudlACHkX2kSpSIBnFboLS044V0xwLlnrMepsOOQK3QT7y3JXNaeAFWeTWWi1ErLieVqtkDcYeNb6W6NCWrC8VLHTX48rRP0FXKIma8OakEQqogiYBxi5eIXOmVoou_tLOxCyuKBWjAE0r44sOH8FbhNrTA7dtgwtarGEmvEk4OR7U50cZ85HfmQ3K0e4wkFoAY4cQsfukRyESBrukZJI0traGbJ_9ga3d52EBQbqAnrxZuIPtDwHZLBWl9sUvK7MzpvZ_9lU5qTWRCfIrCHU9wr5_5F7M6c5Xp2Dc3mxdIyi6-MXYzm2voeKltmKAQiLsyxxiJJuWN"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 44,
+   "file": "src/ee2ad742.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_3XyTapSvP3V8QkvneEhykzRK"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "src/ee2ad742.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "WD8u8HLkptgFErvMwWFM5I7kDfD7kzyG"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "src/ee2ad742.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "NHBubmtpZmxkc2Z2NzA1enRtZHJocHYxdmU3Y2VrM3c=",
+    "4pnnkifldsfv705ztmdrhpv1ve7cek3w"
+   ]
+  },
+  {
+   "id": 47,
+   "file": "src/8b2c6fbb.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "118, 106, 57, 85, 108, 81, 86, 115, 110, 113, 82, 107, 67, 99, 113, 112, 80, 100, 85, 107, 101, 119, 65, 78, 84, 84, 76, 111, 112, 89, 102, 48",
+    "vj9UlQVsnqRkCcqpPdUkewANTTLopYf0"
+   ]
+  },
+  {
+   "id": 48,
+   "file": "src/8b2c6fbb.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "felix42@gmail.com"
+   ]
+  },
+  {
+   "id": 49,
+   "file": "src/d0ee7e0f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Felix Klein"
+   ]
+  },
+  {
+   "id": 50,
+   "file": "src/d0ee7e0f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.wolf@acme-corp.de"
+   ]
+  },
+  {
+   "id": 51,
+   "file": "src/d0ee7e0f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 3739 9209"
+   ]
+  },
+  {
+   "id": 52,
+   "file": "src/d0ee7e0f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.16.201.163"
+   ]
+  },
+  {
+   "id": 53,
+   "file": "src/d0ee7e0f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "exhaust-indexer-pferd-monolith"
+   ]
+  },
+  {
+   "id": 54,
+   "file": "test/40009d60.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "ZnVzc2JhbGwuY2xldmVybHkudGVhcmRvd24=",
+    "fussball.cleverly.teardown"
+   ]
+  },
+  {
+   "id": 55,
+   "file": "test/40009d60.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9iWEtKRGZ5R1phNGphclJnY2ZoQUtIMlo=",
+    "sk_live_bXKJDfyGZa4jarRgcfhAKH2Z"
+   ]
+  },
+  {
+   "id": 56,
+   "file": "test/40009d60.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.8lojaw.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 57,
+   "file": "_/96a28fb4.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-primary.kelpie.cloud"
+   ]
+  },
+  {
+   "id": 58,
+   "file": "_/96a28fb4.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "159.23.48.202"
+   ]
+  },
+  {
+   "id": 59,
+   "file": "_/96a28fb4.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lea34@gmail.com"
+   ]
+  },
+  {
+   "id": 60,
+   "file": "_/96a28fb4.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger.5s5b1i.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 61,
+   "file": "_/96a28fb4.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "tour-navy-flusher-nei72"
+   ]
+  },
+  {
+   "id": 62,
+   "file": "other/4e008612.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth.re4xip.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 63,
+   "file": "other/4e008612.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Fr31burg75"
+   ]
+  },
+  {
+   "id": 64,
+   "file": "other/4e008612.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "segbald14"
+   ]
+  },
+  {
+   "id": 65,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.acme.net"
+   ]
+  },
+  {
+   "id": 66,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.acme.net"
+   ]
+  },
+  {
+   "id": 67,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.acme.net"
+   ]
+  },
+  {
+   "id": 68,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.86.134.0/24"
+   ]
+  },
+  {
+   "id": 69,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.86.134.69"
+   ]
+  },
+  {
+   "id": 70,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.acme.net"
+   ]
+  },
+  {
+   "id": 71,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.acme.net"
+   ]
+  },
+  {
+   "id": 72,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.acme.net"
+   ]
+  },
+  {
+   "id": 73,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.acme.net"
+   ]
+  },
+  {
+   "id": 74,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.86.134.209"
+   ]
+  },
+  {
+   "id": 75,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.acme.net"
+   ]
+  },
+  {
+   "id": 76,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Laura Richter"
+   ]
+  },
+  {
+   "id": 77,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "laura.richter@web.de"
+   ]
+  },
+  {
+   "id": 78,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 8960936"
+   ]
+  },
+  {
+   "id": 79,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jonas Weber"
+   ]
+  },
+  {
+   "id": 80,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jonas.weber@web.de"
+   ]
+  },
+  {
+   "id": 81,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 4533924"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "src/code/security/4bd8786f.java",
+   "line": 44,
+   "value": "auth_code:",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/security/4bd8786f.java",
+   "line": 68,
+   "whole_line": "\t\tbyte[] key = serializeKey(AUTH_CODE + code);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/security/4bd8786f.java",
+   "line": 90,
+   "whole_line": "\t\tbyte[] key = serializeKey(AUTH_CODE + code);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/sample/conf/security/8ca6f43a.java",
+   "line": 194,
+   "value": "AuthenticationScheme.form",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/1296acf2.jsp",
+   "line": 47,
+   "whole_line": "\t\t\t\t\t\t<label for=\"password\">Password:</label> <input id=\"password\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/1fa5a1a2.jsp",
+   "line": 5,
+   "whole_line": "<authz:authorize access=\"hasRole('ROLE_USER')\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/1fa5a1a2.jsp",
+   "line": 32,
+   "whole_line": "    <authz:authorize access=\"!hasRole('ROLE_USER')\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/5205c0d4.jsp",
+   "line": 10,
+   "whole_line": "  <authz:authorize access=\"hasRole('ROLE_USER')\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/5205c0d4.jsp",
+   "line": 31,
+   "whole_line": "    <authz:authorize access=\"!hasRole('ROLE_USER')\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/5205c0d4.jsp",
+   "line": 35,
+   "whole_line": "        <p><label>Password: <input type='text' name='j_password' value=\"koala\"></label></p>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/5205c0d4.jsp",
+   "line": 40,
+   "whole_line": "    <authz:authorize access=\"hasRole('ROLE_USER')\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/63427d3c.jsp",
+   "line": 5,
+   "whole_line": "<authz:authorize access=\"hasRole('ROLE_USER')\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/63427d3c.jsp",
+   "line": 31,
+   "whole_line": "    <authz:authorize access=\"!hasRole('ROLE_USER')\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/63427d3c.jsp",
+   "line": 37,
+   "whole_line": "        <p><label>Password: <input type='text' name='j_password' value=\"koala\"></label></p>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/b07e99e9.jsp",
+   "line": 66,
+   "whole_line": "\t\t\t\t\t<label for=\"password\">Password:</label> <input id=\"password\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/lib/7c719700.js",
+   "line": 327,
+   "whole_line": "\t\t\ttoken = getToken(providerid, scopes);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/lib/7c719700.js",
+   "line": 370,
+   "whole_line": "\t\tvar token = getToken(providerid, scopes);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/lib/7c719700.js",
+   "line": 387,
+   "whole_line": "\t\ttoken = getToken(providerid, scopes);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/217930db.java",
+   "line": 44,
+   "whole_line": "    this.token = token;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/21c7a990.java",
+   "line": 73,
+   "whole_line": "\t\t\tRSAPrivateCrtKey key = (RSAPrivateCrtKey) store.getKey(alias, password);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/257487e0.java",
+   "line": 77,
+   "whole_line": "\tpublic static final String OAUTH_FAILURE_KEY = \"OAUTH_FAILURE_KEY\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/36e60a97.java",
+   "line": 348,
+   "whole_line": "\t\tfor (OAuth2AccessToken token : accessTokens) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/56bb6198.java",
+   "line": 43,
+   "whole_line": "\t\tthis.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/59ccfca2.java",
+   "line": 33,
+   "whole_line": "\tpublic static final String INVALID_TOKEN = \"invalid_token\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/59ccfca2.java",
+   "line": 163,
+   "whole_line": "\t * @return a comma-delimited list of details (key=value pairs)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/5db3e7fb.java",
+   "line": 126,
+   "whole_line": "\t\t\tAuthentication credentials = extractCredentials(request);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/63b35f5c.java",
+   "line": 98,
+   "whole_line": "          String key = oauthDecode((String) entry.getKey());",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/9b2822cf.java",
+   "line": 33,
+   "whole_line": "\tpublic static String OAUTH2_TYPE = \"OAuth2\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/9b2822cf.java",
+   "line": 57,
+   "whole_line": "\tpublic static String REFRESH_TOKEN = \"refresh_token\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/app/32181d74.java",
+   "line": 75,
+   "whole_line": "\t\t\tfor (OAuth2AccessToken token : tokens) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/app/32181d74.java",
+   "line": 96,
+   "whole_line": "\t\tfor (OAuth2AccessToken token : tokens) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/app/93f9ed80.java",
+   "line": 59,
+   "whole_line": "\tprivate static final String WHERE_KEY = \"where userId=? and clientId=?\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/b20667e4.java",
+   "line": 54,
+   "whole_line": "\t\tString token = extractHeaderToken(request);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/client/5ce37783.java",
+   "line": 535,
+   "whole_line": "        String token = (String) queryTokenizer.nextElement();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/client/5ce37783.java",
+   "line": 539,
+   "whole_line": "          token = urlDecode(token);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/client/88edb08c.java",
+   "line": 63,
+   "whole_line": "\t\t\ttoken = norefresh;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/client/911588ba.java",
+   "line": 65,
+   "whole_line": "\t\t\tOAuth2AccessToken token = retrieveToken(request,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/client/911588ba.java",
+   "line": 68,
+   "whole_line": "\t\t\t\t// Probably an authenticated request, but approval is required.  TODO: prompt somehow?",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/client/ff764887.java",
+   "line": 84,
+   "whole_line": "\tprivate static final String DEFAULT_UPDATE_SECRET_STATEMENT = \"update oauth_client_details \"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/client/ff764887.java",
+   "line": 85,
+   "whole_line": "\t\t\t+ \"set client_secret = ? where client_id = ?\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/ddf3fe01.java",
+   "line": 86,
+   "whole_line": "\t\tString token = (String) authentication.getPrincipal();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/f372273f.java",
+   "line": 259,
+   "whole_line": "\t\tbyte[] key = serializeKey(ACCESS + tokenValue);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/f372273f.java",
+   "line": 343,
+   "whole_line": "\t\tbyte[] key = serializeKey(REFRESH + tokenValue);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/f372273f.java",
+   "line": 391,
+   "whole_line": "\t\tbyte[] key = serializeKey(REFRESH_TO_ACCESS + refreshToken);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/f372273f.java",
+   "line": 446,
+   "whole_line": "\t\tbyte[] key = serializeKey(CLIENT_ID_TO_ACCESS + clientId);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/69148d74.md",
+   "line": 42,
+   "whole_line": "$ curl -H \"Accept: application/json\" my-client-with-secret:secret@localhost:8080/oauth/token -d grant_type=client_credentials",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/360a5a90.java",
+   "line": 64,
+   "value": "javax.net.ssl.trustStorePassword",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/360a5a90.java",
+   "line": 245,
+   "whole_line": "\t@Value(\"${oauth.paths.token:/oauth/token}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/360a5a90.java",
+   "line": 250,
+   "whole_line": "\t@Value(\"${oauth.paths.token_key:/oauth/token_key}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/360a5a90.java",
+   "line": 255,
+   "whole_line": "\t@Value(\"${oauth.paths.check_token:/oauth/check_token}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/app/7df3d414.java",
+   "line": 119,
+   "whole_line": "\t\t\t\t\t.redirectUris(\"https://anywhere?key=value\").and()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/app/8ebabaf2.java",
+   "line": 87,
+   "whole_line": "\t\t\t\t\t.redirectUris(\"https://anywhere?key=value\").and().withClient(\"my-client-with-secret\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/app/93ba915a.java",
+   "line": 76,
+   "whole_line": "\t\t            .redirectUris(\"https://anywhere?key=value\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/app/fbd12b2e.java",
+   "line": 62,
+   "whole_line": "\t\t@Value(\"${oauth.paths.token:/oauth/authorize}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/app/fbd12b2e.java",
+   "line": 65,
+   "whole_line": "\t\t@Value(\"${oauth.paths.token_key:/oauth/token_key}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/app/fbd12b2e.java",
+   "line": 68,
+   "whole_line": "\t\t@Value(\"${oauth.paths.check_token:/oauth/check_token}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/app/fbd12b2e.java",
+   "line": 119,
+   "whole_line": "\t\t            .redirectUris(\"https://anywhere?key=value\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/client/ba37d7a8.java",
+   "line": 49,
+   "whole_line": "\t@Value(\"${oauth.token:http://localhost:8080/oauth/token}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/code/0d2a539c.java",
+   "line": 34,
+   "whole_line": "\t\tapproveAccessTokenGrant(\"https://anywhere?key=value\", true);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/code/23a1b153.java",
+   "line": 163,
+   "whole_line": "\t\tString redirectUri = \"https://anywhere?key=value\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/code/23a1b153.java",
+   "line": 214,
+   "whole_line": "\t\tapproveAccessTokenGrant(\"https://anywhere?key=value\", true);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/code/23a1b153.java",
+   "line": 230,
+   "whole_line": "\t\tapproveAccessTokenGrant(\"https://anywhere?key=value\", true);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/code/sample/security/2ad086c4.java",
+   "line": 265,
+   "whole_line": "\t\tString redirectUri = \"https://anywhere?key=value\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/code/sample/security/2ad086c4.java",
+   "line": 289,
+   "whole_line": "\t\tapproveAccessTokenGrant(\"https://anywhere?key=value\", true);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/code/sample/security/2ad086c4.java",
+   "line": 332,
+   "whole_line": "\t\tapproveAccessTokenGrant(\"https://anywhere?key=value\", true);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/code/sample/security/2ad086c4.java",
+   "line": 455,
+   "whole_line": "\t\t\tsetPreEstablishedRedirectUri(\"https://anywhere?key=value\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/code/security/4a66199e.java",
+   "line": 95,
+   "value": "137131200",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/security/resource/init/7f2f40e4.java",
+   "line": 78,
+   "whole_line": "\t\tloadContext(\"type='password' username='admin' access-token-uri='https://somewhere.com'\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/security/server/7c0a564e.java",
+   "line": 73,
+   "whole_line": "\tprivate static final String USER_SECRET = CLIENT_SECRET + \"2\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/resource/24325dd6.sql",
+   "line": 58,
+   "whole_line": "\tvalues ('my-client-with-registered-redirect', 'oauth2-resource', 'read,trust', 'authorization_code', 'ROLE_CLIENT', 'https://anywhere?key=value');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/resource/349036a3.java",
+   "line": 26,
+   "whole_line": "\t\tResponseEntity<String> response = template.getForEntity(http.getUrl(\"/oauth/check_token?token={token}\"), String.class, context.getAccessToken().getValue());",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/resource/349036a3.java",
+   "line": 32,
+   "whole_line": "\t * The main intention is to avoid passing parameters as part of the URL /oauth/check_token. Example: /oauth/check_token?token={token}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/resource/6d224b39.java",
+   "line": 277,
+   "value": "AuthenticationScheme.form",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/resource/app/8201325f.yml",
+   "line": 17,
+   "whole_line": "    token: /token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/resource/app/8201325f.yml",
+   "line": 20,
+   "whole_line": "    check_token: /decode",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/resource/app/8201325f.yml",
+   "line": 21,
+   "whole_line": "    token_key: /key",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/sample/security/resource/9d2c2358.java",
+   "line": 259,
+   "value": "AuthenticationScheme.form",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/18b43943.java",
+   "line": 41,
+   "value": "eyJpc3MiOiJqb2UiLA0KICJleHAiOjEzMDA4MTkzODAsDQogImh0dHA6Ly9leGFtcGxlLmNvbS9pc19yb290Ijp0cnVlfQ.",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/18b43943.java",
+   "line": 44,
+   "value": "eyJpc3MiOiJqb2UiLA0KICJleHAiOjEzMDA4MTkzODAsDQogImh0dHA6Ly9leGFtcGxlLmNvbS9pc19yb290Ijp0cnVlfQ.",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/18b43943.java",
+   "line": 47,
+   "value": "eyJpc3MiOiJqb2UiLA0KICJleHAiOjEzMDA4MTkzODAsDQogImh0dHA6Ly9leGFtcGxlLmNvbS9pc19yb290Ijp0cnVlfQ.",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/18b43943.java",
+   "line": 56,
+   "whole_line": "\t\tJwt token = JwtHelper.encode(JOE_CLAIM_SEGMENT, hmac);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/18b43943.java",
+   "line": 78,
+   "whole_line": "\t\tJwt token = JwtHelper",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/18b43943.java",
+   "line": 98,
+   "whole_line": "\t\tassertEquals(JOE_HMAC_TOKEN, new String(token.bytes(), \"UTF-8\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/18b43943.java",
+   "line": 115,
+   "whole_line": "\t\tJwtHelper.decode(JOE_HMAC_TOKEN).verifySignature(new MacSigner(\"differentkey\".getBytes()));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/1c39b347.java",
+   "line": 54,
+   "whole_line": "\t\t\t\t\t\t+ \"                oauth_signature_method=\\\"HMAC-SHA1\\\",\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/1c39b347.java",
+   "line": 56,
+   "value": "137131200",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/1c39b347.java",
+   "line": 88,
+   "whole_line": "\t\t\t\t\t\t+ \"                oauth_signature_method=\\\"HMAC-SHA1\\\",\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/1c39b347.java",
+   "line": 90,
+   "value": "1191242096",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/5cba2249.java",
+   "line": 94,
+   "value": "ssh-rsa ",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/5cba2249.java",
+   "line": 100,
+   "value": "ssh-rsa ",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/69d2ad5d.java",
+   "line": 63,
+   "whole_line": "\t\twhen(details.getUserAuthorizationURL()).thenReturn(\"https://user-auth/context?with=some&queryParams\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/69d2ad5d.java",
+   "line": 66,
+   "whole_line": "\t\t\t\t\"https://user-auth/context?with=some&queryParams&oauth_token=mytoken&oauth_callback=urn%3A%2F%2Fcallback%3Fwith%3Dsome%26query%3Dparams\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/69d2ad5d.java",
+   "line": 69,
+   "whole_line": "\t\twhen(details.getUserAuthorizationURL()).thenReturn(\"https://user-auth/context?with=some&queryParams\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/69d2ad5d.java",
+   "line": 71,
+   "value": "mytoken",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/74dff624.java",
+   "line": 184,
+   "whole_line": "\t\tassertTrue(\"Wrong key: \" + key, key.get(\"value\").contains(\"-----BEGIN\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/74dff624.java",
+   "line": 195,
+   "whole_line": "\t\tassertTrue(\"Wrong key: \" + key, key.get(\"value\").contains(\"-----BEGIN\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/74dff624.java",
+   "line": 231,
+   "whole_line": "\t\tassertTrue(\"Wrong key: \" + key, key.get(\"value\").contains(\"-----BEGIN\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/94166455.java",
+   "line": 56,
+   "whole_line": "\t\t\t\t\"https://my.host.com/my/context?oauth_token=mytok&oauth_verifier=myver\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/94166455.java",
+   "line": 69,
+   "whole_line": "\t\t\t\t\"https://my.hosting.com/my/context?with=some&query=parameter&oauth_token=mytoka&oauth_verifier=myvera\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/944501fe.java",
+   "line": 74,
+   "value": "bcrypt",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/bbd27a23.java",
+   "line": 81,
+   "whole_line": "        TestingAuthenticationToken authentication = new TestingAuthenticationToken(\"user\", \"password\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/bbd27a23.java",
+   "line": 83,
+   "whole_line": "        String token = \"access-token-\" + UUID.randomUUID();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/bbd27a23.java",
+   "line": 102,
+   "whole_line": "        TestingAuthenticationToken authentication = new TestingAuthenticationToken(\"user\", \"password\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/bbd27a23.java",
+   "line": 104,
+   "whole_line": "        String token = \"access-token-\" + UUID.randomUUID();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/bbd27a23.java",
+   "line": 122,
+   "whole_line": "        TestingAuthenticationToken authentication = new TestingAuthenticationToken(\"user\", \"password\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/client/2d2abc99.java",
+   "line": 307,
+   "whole_line": "\t\t\t\t\"OAuth realm=\\\"myrealm\\\", oauth_consumer_key=\\\"mykey\\\", oauth_nonce=\\\"mynonce\\\", oauth_timestamp=\\\"myts\\\", query=\\\"params\\\", with=\\\"some\\\"\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/client/2d2abc99.java",
+   "line": 345,
+   "whole_line": "\t\tassertEquals(\"oauth_consumer_key=mykey&oauth_nonce=mynonce&oauth_timestamp=myts&query=params&too&with=some\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/client/2d2abc99.java",
+   "line": 356,
+   "whole_line": "\t\tassertEquals(\"oauth_consumer_key=mykey&oauth_nonce=mynonce&oauth_timestamp=myts&query=params\" + encoded_space",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/client/2d2abc99.java",
+   "line": 440,
+   "whole_line": "\t\toauthParams.put(\"oauth_signature_method\", Collections.singleton((CharSequence) \"HMAC-SHA1\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/d965f676.java",
+   "line": 70,
+   "whole_line": "\t\t\t\t+ \"@claims = JWT.decode(@token, \\\"secret\\\", \\\"HS256\\\")[0].to_json\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/d965f676.java",
+   "line": 81,
+   "whole_line": "\t\t\t\t+ \"@token = JWT.encode({\\\"some\\\" => \\\"payload\\\"}, \\\"secret\\\", \\\"HS256\\\")\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/d965f676.java",
+   "line": 84,
+   "whole_line": "\t\tString token = (String) container.get(\"@token\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/de3b358c.java",
+   "line": 69,
+   "whole_line": "\t\tfor (OAuth2AccessToken token : actualOAuth2AccessTokens) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/template/client/2f9b15a9.java",
+   "line": 76,
+   "value": "MINE",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/template/client/2f9b15a9.java",
+   "line": 86,
+   "value": "MINE",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/template/client/2f9b15a9.java",
+   "line": 107,
+   "value": "12345",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/template/client/2f9b15a9.java",
+   "line": 117,
+   "value": "12345",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/template/client/2f9b15a9.java",
+   "line": 127,
+   "value": "1%2FqIxxx",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/template/client/2f9b15a9.java",
+   "line": 139,
+   "value": "12345",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/template/client/2f9b15a9.java",
+   "line": 149,
+   "value": "1234#foo",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/template/client/2f9b15a9.java",
+   "line": 153,
+   "whole_line": "\t * tests encoding of access token value passed in protected requests ref: SECOAUTH-90",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/template/client/2f9b15a9.java",
+   "line": 158,
+   "value": "1 qI+x:y=z",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/security/template/client/2f9b15a9.java",
+   "line": 161,
+   "whole_line": "\t\tassertEquals(\"https://graph.facebook.com/search?bearer_token=1+qI%2Bx%3Ay%3Dz\", appended.toString());",
+   "source": "creddata"
+  },
+  {
+   "file": "src/ee2ad742.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_KDzgiUihz2cp3feJPCyTjd9j"
+  },
+  {
+   "file": "src/ee2ad742.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "AUTH_CLIENT_SECRET"
+  },
+  {
+   "file": "src/ee2ad742.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ETL_API_KEY"
+  },
+  {
+   "file": "src/ee2ad742.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LTIlcnnG83AvKLglVwP6hGiP5cz9sKB9w5V7Au1"
+  },
+  {
+   "file": "src/ee2ad742.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:DW9KnpSTNVTIOJSW9XHcmnY28AwRfGrDJKZ0RHD/nUs"
+  },
+  {
+   "file": "src/ee2ad742.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/etc/auth/tls/private.key"
+  },
+  {
+   "file": "src/ee2ad742.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "src/ee2ad742.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "src/ee2ad742.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6OTc2MzM6b2Zmc2V0OjQ1MQ=="
+  },
+  {
+   "file": "src/8b2c6fbb.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110"
+  },
+  {
+   "file": "src/8b2c6fbb.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "bm8tY2FjaGUsbm8tc3RvcmU="
+  },
+  {
+   "file": "src/8b2c6fbb.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "68656c6c6f5f776f726c645f74657374"
+  },
+  {
+   "file": "src/8b2c6fbb.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "src/8b2c6fbb.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "careers@quarzo-corp.de"
+  },
+  {
+   "file": "src/d0ee7e0f.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "203.0.113.41"
+  },
+  {
+   "file": "src/d0ee7e0f.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "4.29.31"
+  },
+  {
+   "file": "src/d0ee7e0f.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:dd1f417e3d4f2e7c7680044f07e8c5c06826413d8bd2b28d454b5c571c321ba5"
+  },
+  {
+   "file": "src/d0ee7e0f.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/d0ee7e0f.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/40009d60.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "397482d"
+  },
+  {
+   "file": "test/40009d60.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "f0e1f6c60fa8e7cc23a51657f586eac4678d2687b4a3d47cc21d4042e347f4a6"
+  },
+  {
+   "file": "test/40009d60.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "test/40009d60.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/96a28fb4.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "docs.kelpie-corp.de"
+  },
+  {
+   "file": "_/96a28fb4.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "docs.kelpie-corp.de"
+  },
+  {
+   "file": "_/96a28fb4.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "_/96a28fb4.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "_/96a28fb4.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "_/96a28fb4.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "_/96a28fb4.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@kelpie-corp.de"
+  },
+  {
+   "file": "_/96a28fb4.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+  },
+  {
+   "file": "_/96a28fb4.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "4745542f6865616c74687a"
+  },
+  {
+   "file": "_/96a28fb4.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "other/4e008612.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Becker2023"
+  },
+  {
+   "file": "other/4e008612.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "ledger_reader"
+  },
+  {
+   "file": "other/4e008612.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Chris2019"
+  },
+  {
+   "file": "other/4e008612.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "kasse"
+  },
+  {
+   "file": "other/4e008612.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "etl"
+  },
+  {
+   "file": "other/4e008612.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "tombstone-question-eu"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "shop.acme.net"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "edi.datafjord.de"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "85.91.253.135"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Emma Lange"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Anna Hartmann"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "shop.acme.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.datafjord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "85.91.253.135"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.acme.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Emma Lange"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "emma.lange@acme.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

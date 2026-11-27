@@ -1,0 +1,15 @@
+monitoring: tarvos.vantor.net
+database:
+  host: falkor.vantor.net
+  port: 5432
+queue: atlas.vantor.net
+backup_target: nimbus.vantor.net
+website: portal.vantor.net
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: files.logistik-nord.de
+allow_sources:
+  - 46.42.118.234
+  - 140.82.112.3
+  - 46.42.55.129
+ntp: 162.159.200.1
+mirrors: [gitlab.freedesktop.org, repo1.maven.org]

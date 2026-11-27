@@ -1,0 +1,15 @@
+monitoring: nimbus.brightloop.systems
+database:
+  host: tarvos.brightloop.systems
+  port: 5432
+queue: atlas.brightloop.systems
+backup_target: pallas.brightloop.systems
+website: portal.brightloop.systems
+payments_api: https://api.paycore.com/v2
+partner_drop: sftp.paycore.de
+allow_sources:
+  - 188.83.192.209
+  - 185.199.108.153
+  - 188.83.43.116
+ntp: 216.239.35.0
+mirrors: [grafana.wikimedia.org, db.debian.org]

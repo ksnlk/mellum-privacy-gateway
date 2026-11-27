@@ -1,0 +1,419 @@
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "DescribeEvents" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListAvailableSolutionStacks" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "SwapEnvironmentCNAMEs" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2010-12-01",
+    "asyncClient" : "AWSElasticBeanstalkAsyncClient",
+    "asyncClientBuilderClassName" : "AWSElasticBeanstalkAsyncClientBuilder",
+    "asyncInterface" : "AWSElasticBeanstalkAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AWSElasticBeanstalkModuleInjector",
+    "defaultEndpoint" : "https://elasticbeanstalk.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "elasticbeanstalk.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>AWS Elastic Beanstalk</fullname> <p>AWS Elastic Beanstalk makes it easy for you to create, deploy, and manage scalable, fault-tolerant applications running on the Amazon Web Services cloud.</p> <p>For more information about this product, go to the <a href=\"http://aws.amazon.com/elasticbeanstalk/\">AWS Elastic Beanstalk</a> details page. The location of the latest AWS Elastic Beanstalk WSDL is <a href=\"https://cskcpnlhwzprauco.f8.practical.zoo/doc/2010-12-01/AWSElasticBeanstalk.wsdl\">https://lwsoovudsqquejrl.y7.directive.duo/doc/2010-12-01/AWSElasticBeanstalk.wsdl</a>. To install the Software Development Kits (SDKs), Integrated Development Environment (IDE) Toolkits, and command line tools that enable you to access the API, go to <a href=\"http://aws.amazon.com/tools/\">Tools for Amazon Web Services</a>.</p> <p> <b>Endpoints</b> </p> <p>For a list of region-specific endpoints that AWS Elastic Beanstalk supports, go to <a href=\"https://docs.aws.amazon.com/general/latest/gr/rande.html#elasticbeanstalk_region\">Regions and Endpoints</a> in the <i>Amazon Web Services Glossary</i>.</p>",
+    "endpointPrefix" : "elasticbeanstalk",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : false,
+    "jsonVersion" : null,
+    "packageName" : "com.amazonaws.services.elasticbeanstalk",
+    "packagePath" : "com/amazonaws/services/elasticbeanstalk",
+    "protocol" : "query",
+    "protocolDefaultExceptionUmarshallerImpl" : "StandardErrorUnmarshaller",
+    "protocolFactory" : null,
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "Elastic Beanstalk",
+    "serviceFullName" : "AWS Elastic Beanstalk",
+    "serviceId" : "Elastic Beanstalk",
+    "serviceName" : "Elastic Beanstalk",
+    "signingName" : "elasticbeanstalk",
+    "smokeTestsPackageName" : "com.amazonaws.services.elasticbeanstalk.smoketests",
+    "syncClient" : "AWSElasticBeanstalkClient",
+    "syncClientBuilderClassName" : "AWSElasticBeanstalkClientBuilder",
+    "syncInterface" : "AWSElasticBeanstalk",
+    "uid" : "elasticbeanstalk-2010-12-01",
+    "unmarshallerClassSuffix" : "StaxUnmarshaller",
+    "unmarshallerContextClassName" : "StaxUnmarshallerContext",
+          "simpleType" : "List<OptionSpecification>",
+          "variableSetterType" : "java.util.Collection<OptionSpecification>"
+        },
+        "shouldEmitLegacyEnumSetter" : false,
+        "shouldFullyQualify" : false,
+        "simple" : false,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p>A list of custom user-defined configuration options to remove from the configuration set for this new environment.</p>\n<p><b>NOTE:</b> This method appends the values to the existing list (if any). Use {@link #setOptionsToRemove(java.util.Collection)} or {@link #withOptionsToRemove(java.util.Collection)} if you want to override the existing values.</p>\n@param optionsToRemove A list of custom user-defined configuration options to remove from the configuration set for this new environment.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<OptionSpecification>",
+          "variableName" : "optionsToRemove",
+          "variableType" : "java.util.List<OptionSpecification>",
+          "documentation" : "<p>A list of custom user-defined configuration options to remove from the configuration set for this new environment.</p>",
+          "simpleType" : "List<OptionSpecification>",
+          "variableSetterType" : "java.util.Collection<OptionSpecification>"
+        },
+        "xmlNameSpaceUri" : null
+      }, {
+        "c2jName" : "OperationsRole",
+        "c2jShape" : "OperationsRole",
+        "deprecated" : false,
+        "documentation" : "<p>The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.</p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.</p>\n@param operationsRole The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withOperationsRole",
+        "getterDocumentation" : "/**<p>The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.</p>\n@return The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.*/",
+        "getterMethodName" : "getOperationsRole",
+        "getterModel" : {
+          "returnType" : "String",
+          "documentation" : null
+        },
+        "http" : {
+          "additionalMarshallingPath" : null,
+          "additionalUnmarshallingPath" : null,
+          "flattened" : false,
+          "greedy" : false,
+          "header" : false,
+          "isPayload" : false,
+          "isStreaming" : false,
+          "location" : null,
+          "marshallLocation" : "PAYLOAD",
+          "marshallLocationName" : "OperationsRole",
+          "queryString" : false,
+          "requiresLength" : false,
+          "statusCode" : false,
+          "unmarshallLocationName" : "OperationsRole",
+          "uri" : false
+        },
+        "idempotencyToken" : false,
+        "isBinary" : false,
+        "jsonValue" : false,
+        "list" : false,
+        "listModel" : null,
+        "map" : false,
+        "mapModel" : null,
+        "marshallingTargetClass" : "String",
+        "marshallingType" : "STRING",
+        "name" : "OperationsRole",
+        "sensitive" : false,
+        "setterDocumentation" : "/**<p>The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.</p>\n@param operationsRole The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.*/",
+        "setterMethodName" : "setOperationsRole",
+        "setterModel" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "String",
+          "variableName" : "operationsRole",
+          "variableType" : "String",
+          "documentation" : "",
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "shouldEmitLegacyEnumSetter" : false,
+        "shouldFullyQualify" : false,
+        "simple" : true,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p>The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.</p>\n@param operationsRole The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "String",
+          "variableName" : "operationsRole",
+          "variableType" : "String",
+          "documentation" : "<p>The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.</p>",
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "xmlNameSpaceUri" : null
+      } ],
+      "membersAsMap" : {
+        "ApplicationName" : {
+          "c2jName" : "ApplicationName",
+          "c2jShape" : "ApplicationName",
+          "deprecated" : false,
+          "documentation" : "<p>The name of the application that is associated with this environment.</p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p>The name of the application that is associated with this environment.</p>\n@param applicationName The name of the application that is associated with this environment.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withApplicationName",
+          "getterDocumentation" : "/**<p>The name of the application that is associated with this environment.</p>\n@return The name of the application that is associated with this environment.*/",
+          "getterMethodName" : "getApplicationName",
+          "getterModel" : {
+            "returnType" : "String",
+            "variableSetterType" : "String"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The name of the group to which the target environment belongs. Specify a group name only if the environment's name is specified in an environment manifest and not with the environment name parameter. See <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environment-cfg-manifest.html\">Environment Manifest (env.yaml)</a> for details.</p>\n@param groupName The name of the group to which the target environment belongs. Specify a group name only if the environment's name is specified in an environment manifest and not with the environment name parameter. See <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environment-cfg-manifest.html\">Environment Manifest (env.yaml)</a> for details.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "groupName",
+            "variableType" : "String",
+            "documentation" : "<p>The name of the group to which the target environment belongs. Specify a group name only if the environment's name is specified in an environment manifest and not with the environment name parameter. See <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environment-cfg-manifest.html\">Environment Manifest (env.yaml)</a> for details.</p>",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "xmlNameSpaceUri" : null
+        },
+        "OperationsRole" : {
+          "c2jName" : "OperationsRole",
+          "c2jShape" : "OperationsRole",
+          "deprecated" : false,
+          "documentation" : "<p>The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.</p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p>The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.</p>\n@param operationsRole The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withOperationsRole",
+          "getterDocumentation" : "/**<p>The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.</p>\n@return The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.*/",
+          "getterMethodName" : "getOperationsRole",
+          "getterModel" : {
+            "returnType" : "String",
+            "documentation" : null
+          },
+          "http" : {
+            "additionalMarshallingPath" : null,
+            "additionalUnmarshallingPath" : null,
+            "flattened" : false,
+            "greedy" : false,
+            "header" : false,
+            "isPayload" : false,
+            "isStreaming" : false,
+            "location" : null,
+            "marshallLocation" : "PAYLOAD",
+            "marshallLocationName" : "OperationsRole",
+            "queryString" : false,
+            "requiresLength" : false,
+            "statusCode" : false,
+            "unmarshallLocationName" : "OperationsRole",
+            "uri" : false
+          },
+          "idempotencyToken" : false,
+          "isBinary" : false,
+          "jsonValue" : false,
+          "list" : false,
+          "listModel" : null,
+          "map" : false,
+          "mapModel" : null,
+          "marshallingTargetClass" : "String",
+          "marshallingType" : "STRING",
+          "name" : "OperationsRole",
+          "sensitive" : false,
+          "setterDocumentation" : "/**<p>The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.</p>\n@param operationsRole The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.*/",
+          "setterMethodName" : "setOperationsRole",
+          "setterModel" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "operationsRole",
+            "variableType" : "String",
+            "documentation" : "",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.</p>\n@param operationsRole The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "operationsRole",
+            "variableType" : "String",
+            "documentation" : "<p>The Amazon Resource Name (ARN) of an existing IAM role to be used as the environment's operations role. If specified, Elastic Beanstalk uses the operations role for permissions to downstream services during this call and during subsequent calls acting on this environment. To specify an operations role, you must have the <code>iam:PassRole</code> permission for the role. For more information, see <a href=\"https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-operationsrole.html\">Operations roles</a> in the <i>AWS Elastic Beanstalk Developer Guide</i>.</p>",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "xmlNameSpaceUri" : null
+        },
+        "OptionSettings" : {
+          "c2jName" : "OptionSettings",
+          "c2jShape" : "ConfigurationOptionSettingsList",
+          "deprecated" : false,
+          "documentation" : "<p>If specified, AWS Elastic Beanstalk sets the specified configuration options to the requested value in the configuration set for the new environment. These override the values obtained from the solution stack or the configuration template.</p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p>If specified, AWS Elastic Beanstalk sets the specified configuration options to the requested value in the configuration set for the new environment. These override the values obtained from the solution stack or the configuration template.</p>\n@param optionSettings If specified, AWS Elastic Beanstalk sets the specified configuration options to the requested value in the configuration set for the new environment. These override the values obtained from the solution stack or the configuration template.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withOptionSettings",
+          "getterDocumentation" : "/**<p>If specified, AWS Elastic Beanstalk sets the specified configuration options to the requested value in the configuration set for the new environment. These override the values obtained from the solution stack or the configuration template.</p>\n@return If specified, AWS Elastic Beanstalk sets the specified configuration options to the requested value in the configuration set for the new environment. These override the values obtained from the solution stack or the configuration template.*/",
+          "getterMethodName" : "getOptionSettings",
+          "getterModel" : {
+            "returnType" : "java.util.List<ConfigurationOptionSetting>",
+            "documentation" : null
+        "input" : {
+          "ApplicationName" : "my-app",
+          "EnvironmentName" : "my-env"
+        },
+        "output" : null,
+        "title" : "To delete a draft configuration"
+      } ],
+      "DescribeApplicationVersions" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following operation retrieves information about an application version labeled v2:",
+        "id" : "to-view-information-about-an-application-version-1456269947428",
+        "input" : {
+          "ApplicationName" : "my-app",
+          "VersionLabels" : [ "v2" ]
+        },
+        "output" : {
+          "ApplicationVersions" : [ {
+            "ApplicationName" : "my-app",
+            "Description" : "update cover page",
+            "VersionLabel" : "v2",
+            "SourceBundle" : {
+              "S3Bucket" : "elasticbeanstalk-us-west-2-015321684451",
+              "S3Key" : "my-app/5026-stage-150723_224258.war"
+            },
+            "DateCreated" : "2015-07-23T01:32:26.079Z",
+            "DateUpdated" : "2015-07-23T01:32:26.079Z"
+          }, {
+            "ApplicationName" : "my-app",
+            "Description" : "initial version",
+            "VersionLabel" : "v1",
+            "SourceBundle" : {
+              "S3Bucket" : "elasticbeanstalk-us-west-2-015321684451",
+              "S3Key" : "my-app/5026-stage-150723_222618.war"
+            },
+            "DateCreated" : "2015-07-23T22:26:10.816Z",
+            "DateUpdated" : "2015-07-23T22:26:10.816Z"
+          } ]
+        },
+        "title" : "To view information about an application version"
+      } ],
+      "DescribeApplications" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following operation retrieves information about applications in the current region:",
+        "id" : "to-view-a-list-of-applications-1456270027373",
+        "input" : { },
+        },
+        "description" : "The following operation restarts application servers on all instances in an environment named my-env:",
+        "id" : "to-restart-application-servers-1456277739302",
+        "input" : {
+          "EnvironmentName" : "my-env"
+        },
+        "output" : null,
+        "title" : "To restart application servers"
+      } ],
+      "RetrieveEnvironmentInfo" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following operation retrieves a link to logs from an environment named my-env:",
+        "id" : "to-retrieve-tailed-logs-1456277792734",
+        "input" : {
+          "EnvironmentName" : "my-env",
+          "InfoType" : "tail"
+        },
+        "output" : {
+          "EnvironmentInfo" : [ {
+            "InfoType" : "tail",
+            "Ec2InstanceId" : "i-09c1c867",
+            "SampleTimestamp" : "2015-08-20T22:23:17.703Z",
+            "Message" : "https://elasticbeanstalk-us-west-2-0123456789012.s3.amazonaws.com/resources/environments/logs/tail/e-fyqyju3yjs/i-09c1c867/TailLogs-1440109397703.out?AWSAccessKeyId=WNCXK1A39AHA0PWGO5UA&Expires=1440195891&Signature=n%2BEalOV6A2HIOx4Rcfb7LT16bBM%3D"
+          } ]
+        },
+        "title" : "To retrieve tailed logs"
+      } ],
+      "SwapEnvironmentCNAMEs" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following operation swaps the assigned subdomains of two environments:",
+        "id" : "to-swap-environment-cnames-1456277839438",
+        "input" : {
+          "SourceEnvironmentName" : "my-env-blue",
+          "DestinationEnvironmentName" : "my-env-green"
+        },
+        "output" : null,
+        "title" : "To swap environment CNAMES"
+      } ],
+      "TerminateEnvironment" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following operation terminates an Elastic Beanstalk environment named my-env:",
+        "id" : "to-terminate-an-environment-1456277888556",
+            "Versions" : [ "2fba-stage-150819_234450", "bf07-stage-150820_214945", "93f8", "fd7c-stage-150820_000431", "22a0-stage-150819_185942" ],
+            "ConfigurationTemplates" : [ ]
+          }
+        },
+        "title" : "To change an application's description"
+      } ],
+      "UpdateApplicationVersion" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following operation updates the description of an application version named 22a0-stage-150819_185942:",
+        "id" : "to-change-an-application-versions-description-1456278019237",
+        "input" : {
+          "ApplicationName" : "my-app",
+          "VersionLabel" : "22a0-stage-150819_185942",
+          "Description" : "new description"
+        },
+        "output" : {
+          "ApplicationVersion" : {
+            "ApplicationName" : "my-app",
+            "Description" : "new description",
+            "VersionLabel" : "22a0-stage-150819_185942",
+            "SourceBundle" : {
+              "S3Bucket" : "elasticbeanstalk-us-west-2-0123456789012",
+              "S3Key" : "my-app/22a0-stage-150819_185942.war"
+            },
+            "DateCreated" : "2015-08-19T18:59:17.646Z",
+            "DateUpdated" : "2015-08-20T22:53:28.871Z"
+          }
+        },
+        "title" : "To change an application version's description"
+      } ],
+      "UpdateConfigurationTemplate" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following operation removes the configured CloudWatch custom health metrics configuration ConfigDocument from a saved configuration template named my-template:",
+        "id" : "to-update-a-configuration-template-1456278075300",
+        "input" : {
+          "ApplicationName" : "my-app",
+          "TemplateName" : "my-template",
+          "OptionsToRemove" : [ {
+            "Namespace" : "aws:elasticbeanstalk:healthreporting:system",
+            "OptionName" : "ConfigDocument"
+          } ]
+        },
+        "output" : {
+          "SolutionStackName" : "64bit Amazon Linux 2015.03 v2.0.0 running Tomcat 8 Java 8",
+          "ApplicationName" : "my-app",

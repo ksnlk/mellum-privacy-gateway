@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: quarzo-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "050b483"
+type: Opaque
+data:
+  DB_PASSWORD: Y3VscHJpdC1pbnRlcnBvc2UtZGFo
+  STRIPE_KEY: c2tfbGl2ZV9HV1dLU2YxbllDc00xNHNTZjQ4c3ptY2k=
+  ca.crt.sha256: d0c76234f4caea0c83c63f2201a2a161f900285df6c42fc5cff80a4e1c5923c5
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: quarzo-payments-config
+data:
+  DB_HOST: "grafana.quarzo-corp.de"
+  SENTRY_HOST: "o450123.ingest.sentry.io"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

@@ -1,0 +1,15 @@
+monitoring: nimbus.brightloop.systems
+database:
+  host: tarvos.brightloop.systems
+  port: 5432
+queue: hermes.brightloop.systems
+backup_target: orion.brightloop.systems
+website: www.brightloop.systems
+payments_api: https://api.mailvault.com/v2
+partner_drop: edi.mailvault.de
+allow_sources:
+  - 85.194.168.158
+  - 192.30.252.153
+  - 85.194.231.52
+ntp: 216.239.35.0
+mirrors: [build.opensuse.org, repo1.maven.org]

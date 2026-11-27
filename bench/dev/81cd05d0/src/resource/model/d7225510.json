@@ -1,0 +1,110 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2016-11-15",
+    "endpointPrefix":"ec2",
+    "protocol":"ec2",
+    "serviceAbbreviation":"Amazon EC2",
+    "serviceFullName":"Amazon Elastic Compute Cloud",
+    "serviceId":"EC2",
+    "signatureVersion":"v4",
+    "uid":"ec2-2016-11-15",
+    "xmlNamespace":"http://ec2.amazonaws.com/doc/2016-11-15"
+  },
+  "operations":{
+    "AcceptReservedInstancesExchangeQuote":{
+      "name":"AcceptReservedInstancesExchangeQuote",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AcceptReservedInstancesExchangeQuoteRequest"},
+      "output":{"shape":"AcceptReservedInstancesExchangeQuoteResult"},
+      "documentation":"<p>Accepts the Convertible Reserved Instance exchange quote described in the <a>GetReservedInstancesExchangeQuote</a> call.</p>"
+    },
+    "AcceptTransitGatewayMulticastDomainAssociations":{
+      "name":"AcceptTransitGatewayMulticastDomainAssociations",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ImportClientVpnClientCertificateRevocationListRequest"},
+      "output":{"shape":"ImportClientVpnClientCertificateRevocationListResult"},
+      "documentation":"<p>Uploads a client certificate revocation list to the specified Client VPN endpoint. Uploading a client certificate revocation list overwrites the existing client certificate revocation list.</p> <p>Uploading a client certificate revocation list resets existing client connections.</p>"
+    },
+    "ImportImage":{
+      "name":"ImportImage",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ImportImageRequest"},
+      "output":{"shape":"ImportImageResult"},
+      "documentation":"<p>Import single or multi-volume disk images or EBS snapshots into an Amazon Machine Image (AMI).</p> <p>For more information, see <a href=\"https://docs.aws.amazon.com/vm-import/latest/userguide/vmimport-image-import.html\">Importing a VM as an image using VM Import/Export</a> in the <i>VM Import/Export User Guide</i>.</p>"
+    },
+    "ImportInstance":{
+      "name":"ImportInstance",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ImportInstanceRequest"},
+      "output":{"shape":"ImportInstanceResult"},
+      "documentation":"<p>Creates an import instance task using metadata from the specified disk image.</p> <p>This API action supports only single-volume VMs. To import multi-volume VMs, use <a>ImportImage</a> instead.</p> <p>This API action is not supported by the AWS Command Line Interface (AWS CLI). For information about using the Amazon EC2 CLI, which is deprecated, see <a href=\"https://cluster.j3.necessary.bah/EC2/ec2-clt.pdf#UsingVirtualMachinesinAmazonEC2\">Importing a VM to Amazon EC2</a> in the <i>Amazon EC2 CLI Reference</i> PDF file.</p> <p>For information about the import manifest referenced by this API action, see <a href=\"https://docs.aws.amazon.com/AWSEC2/latest/APIReference/manifest.html\">VM Import Manifest</a>.</p>"
+    },
+    "ImportKeyPair":{
+      "name":"ImportKeyPair",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ImportKeyPairRequest"},
+      "output":{"shape":"ImportKeyPairResult"},
+      "documentation":"<p>Imports the public key from an RSA key pair that you created with a third-party tool. Compare this with <a>CreateKeyPair</a>, in which AWS creates the key pair and gives the keys to you (AWS keeps a copy of the public key). With ImportKeyPair, you create the key pair and give AWS just the public key. The private key is never transferred between you and AWS.</p> <p>For more information about key pairs, see <a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html\">Key Pairs</a> in the <i>Amazon Elastic Compute Cloud User Guide</i>.</p>"
+    },
+    "ImportSnapshot":{
+      "name":"ImportSnapshot",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ImportSnapshotRequest"},
+      "output":{"shape":"ImportSnapshotResult"},
+      "documentation":"<p>Imports a disk into an EBS snapshot.</p> <p>For more information, see <a href=\"https://docs.aws.amazon.com/vm-import/latest/userguide/vmimport-import-snapshot.html\">Importing a disk as a snapshot using VM Import/Export</a> in the <i>VM Import/Export User Guide</i>.</p>"
+    },
+    "ImportVolume":{
+      "name":"ImportVolume",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ImportVolumeRequest"},
+      "output":{"shape":"ImportVolumeResult"},
+      "documentation":"<p>Creates an import volume task using metadata from the specified disk image.</p> <p>This API action supports only single-volume VMs. To import multi-volume VMs, use <a>ImportImage</a> instead. To import a disk to a snapshot, use <a>ImportSnapshot</a> instead.</p> <p>This API action is not supported by the AWS Command Line Interface (AWS CLI). For information about using the Amazon EC2 CLI, which is deprecated, see <a href=\"https://kvchvir.k7.filmstrip.cee/EC2/ec2-clt.pdf#importing-your-volumes-into-amazon-ebs\">Importing Disks to Amazon EBS</a> in the <i>Amazon EC2 CLI Reference</i> PDF file.</p> <p>For information about the import manifest referenced by this API action, see <a href=\"https://docs.aws.amazon.com/AWSEC2/latest/APIReference/manifest.html\">VM Import Manifest</a>.</p>"
+    },
+    "ModifyAddressAttribute":{
+      "name":"ModifyAddressAttribute",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ModifyAddressAttributeRequest"},
+      "output":{"shape":"ModifyAddressAttributeResult"},
+      "documentation":"<p>Modifies an attribute of the specified Elastic IP address. For requirements, see <a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html#Using_Elastic_Addressing_Reverse_DNS\">Using reverse DNS for email applications</a>.</p>"
+    },
+    "ModifyAvailabilityZoneGroup":{
+      "name":"ModifyAvailabilityZoneGroup",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ModifyAvailabilityZoneGroupRequest"},
+      "output":{"shape":"ModifyAvailabilityZoneGroupResult"},
+      "documentation":"<p>Changes the opt-in status of the Local Zone and Wavelength Zone group for your account.</p> <p>Use <a href=\"https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_DescribeAvailabilityZones.html\"> DescribeAvailabilityZones</a> to view the value for <code>GroupName</code>.</p>"
+    },
+    "ModifyCapacityReservation":{
+      "name":"ModifyCapacityReservation",
+      "http":{
+        "method":"POST",

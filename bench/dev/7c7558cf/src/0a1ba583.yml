@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.acme.io/app@sha256:e4155ff469d72a559b73c58ae7beb389cb88d795e3dbd4e7b85ae7e5a27a01cf
+    environment:
+      - DATABASE_URL=postgres://app:Chain1996?@10.170.113.222:5432/app
+      - SENTRY_RELEASE=8602bdc5616f6e241d3057397ea681f82e13acd8
+      - API_TOKEN=${DB_PASSWORD}
+      - BIND_ADDR=127.0.0.1
+  worker:
+    image: registry.acme.io/worker:4.22.3
+    environment:
+      - QUEUE_PASS=QmF5ZXJuMjAyNSM=

@@ -1,0 +1,28 @@
+---
+- hosts: masters
+  vars:
+    api_lb_ip: 172.20.200.10
+    api_lb_dns: api.customdomain.com
+    podSubnet: 192.168.0.0/16
+    kubeadmToken: 0czz55.39ld9859v2689066
+    kubeadmToken_hash: $2b$12$HCHAe/9DLmxyWVGE.0wok.si3AKwlv5uD8/NO7.b1pqhXqg3GVGta
+    primary_interface: eth0
+
+  tasks:
+    - name: Render kubeadm.conf template for first stacked master
+      local_action:
+        module: template
+        src: 1-kubeadm.conf.j2
+        dest: kubeadm-cfg-first.yaml
+
+    - name: Render kubeadm.conf template for second stacked master
+      local_action:
+        module: template
+        src: 2-kubeadm.conf.j2
+        dest: kubeadm-cfg-second.yaml
+
+    - name: Render kubeadm.conf template for third stacked master
+      local_action:
+        module: template
+        src: 3-kubeadm.conf.j2
+        dest: kubeadm-cfg-third.yaml

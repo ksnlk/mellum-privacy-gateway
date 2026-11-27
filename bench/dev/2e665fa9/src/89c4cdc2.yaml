@@ -1,0 +1,19 @@
+# acme payments service
+database:
+  host: auth-replica.acme.cloud
+  user: payments
+  password: "poster-schluessel"
+  password_source: secret/data/acme/etl/prod
+  password_env: VAULT_DB_PASSWORD
+api:
+  key_header: Proxy-Authorization
+  partner_ident: V6Nf81ktOcXZY5IqLEhSfVowpm8LN5Gt
+  key_file: /var/run/secrets/reports/token
+  signing_alg: RS256
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 270205932575-k1cqorfr9tt9ir3ymh12gfpmfuuyly0c.apps.googleusercontent.com
+  client_proof: uuav7w2rexauvaucs3rppzp4cb7em07u
+  secret_rotated_at: "2025-11-05T00:00:00Z"
+  secret_name: crm-oauth-client
+pagination:
+  first_cursor: dXNlcjo4NTU5OTpvZmZzZXQ6NTk=

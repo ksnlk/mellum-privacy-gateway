@@ -1,0 +1,233 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2010-05-08",
+    "endpointPrefix":"iam",
+    "globalEndpoint":"iam.amazonaws.com",
+    "protocol":"query",
+    "serviceAbbreviation":"IAM",
+    "serviceFullName":"AWS Identity and Access Management",
+    "serviceId":"IAM",
+    "signatureVersion":"v4",
+    "uid":"iam-2010-05-08",
+    "xmlNamespace":"https://iam.amazonaws.com/doc/2010-05-08/"
+  },
+  "operations":{
+    "AddClientIDToOpenIDConnectProvider":{
+      "name":"AddClientIDToOpenIDConnectProvider",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AddClientIDToOpenIDConnectProviderRequest"},
+      "errors":[
+        {"shape":"InvalidInputException"},
+        {"shape":"NoSuchEntityException"},
+        {"shape":"LimitExceededException"},
+        {"shape":"ServiceFailureException"}
+      ],
+      "documentation":"<p>Adds a new client ID (also known as audience) to the list of client IDs already registered for the specified IAM OpenID Connect (OIDC) provider resource.</p> <p>This operation is idempotent; it does not fail or return an error if you add an existing client ID to the provider.</p>"
+          "shape":"tagListType",
+          "documentation":"<p>A list of tags that you want to attach to the newly created IAM instance profile. Each tag consists of a key name and an associated value. For more information about tagging, see <a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_tags.html\">Tagging IAM resources</a> in the <i>IAM User Guide</i>.</p> <note> <p>If any one of the tags is invalid or if you exceed the allowed maximum number of tags, then the entire request fails and the resource is not created.</p> </note>"
+        }
+      }
+    },
+    "CreateInstanceProfileResponse":{
+      "type":"structure",
+      "required":["InstanceProfile"],
+      "members":{
+        "InstanceProfile":{
+          "shape":"InstanceProfile",
+          "documentation":"<p>A structure containing details about the new instance profile.</p>"
+        }
+      },
+      "documentation":"<p>Contains the response to a successful <a>CreateInstanceProfile</a> request. </p>"
+    },
+    "CreateLoginProfileRequest":{
+      "type":"structure",
+      "required":[
+        "UserName",
+        "Password"
+      ],
+      "members":{
+        "UserName":{
+          "shape":"userNameType",
+          "documentation":"<p>The name of the IAM user to create a password for. The user must already exist.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>"
+        },
+        "Password":{
+          "shape":"passwordType",
+          "documentation":"<p>The new password for the user.</p> <p>The <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a> that is used to validate this parameter is a string of characters. That string can include almost any printable ASCII character from the space (<code>\\u0020</code>) through the end of the ASCII character range (<code>\\u00FF</code>). You can also include the tab (<code>\\u0009</code>), line feed (<code>\\u000A</code>), and carriage return (<code>\\u000D</code>) characters. Any of these characters are valid in a password. However, many tools, such as the AWS Management Console, might restrict the ability to type certain characters because they have special meaning within that tool.</p>"
+        },
+        "PasswordResetRequired":{
+          "shape":"booleanType",
+          "documentation":"<p>Specifies whether the user is required to set a new password on next sign-in.</p>"
+        }
+      }
+    },
+    "CreateLoginProfileResponse":{
+      "type":"structure",
+      "required":["LoginProfile"],
+      "members":{
+        "LoginProfile":{
+          "shape":"LoginProfile",
+          "documentation":"<p>A structure containing the user name and password create date.</p>"
+        }
+      },
+      "documentation":"<p>Contains the response to a successful <a>CreateLoginProfile</a> request. </p>"
+    },
+    "CreateOpenIDConnectProviderRequest":{
+      "type":"structure",
+      "required":[
+      "type":"structure",
+      "required":["GroupName"],
+      "members":{
+        "GroupName":{
+          "shape":"groupNameType",
+          "documentation":"<p>The name of the IAM group to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>"
+        }
+      }
+    },
+    "DeleteInstanceProfileRequest":{
+      "type":"structure",
+      "required":["InstanceProfileName"],
+      "members":{
+        "InstanceProfileName":{
+          "shape":"instanceProfileNameType",
+          "documentation":"<p>The name of the instance profile to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>"
+        }
+      }
+    },
+    "DeleteLoginProfileRequest":{
+      "type":"structure",
+      "required":["UserName"],
+      "members":{
+        "UserName":{
+          "shape":"userNameType",
+          "documentation":"<p>The name of the user whose password you want to delete.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>"
+        }
+      }
+    },
+    "DeleteOpenIDConnectProviderRequest":{
+      "type":"structure",
+      "required":["OpenIDConnectProviderArn"],
+      "members":{
+        "OpenIDConnectProviderArn":{
+          "shape":"arnType",
+          "documentation":"<p>The Amazon Resource Name (ARN) of the IAM OpenID Connect provider resource object to delete. You can get a list of OpenID Connect provider resource ARNs by using the <a>ListOpenIDConnectProviders</a> operation.</p>"
+        }
+      }
+    },
+    "DeletePolicyRequest":{
+      "type":"structure",
+      "required":["PolicyArn"],
+      "members":{
+        "PolicyArn":{
+          "shape":"arnType",
+          "documentation":"<p>The Amazon Resource Name (ARN) of the IAM policy you want to delete.</p> <p>For more information about ARNs, see <a href=\"https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html\">Amazon Resource Names (ARNs)</a> in the <i>AWS General Reference</i>.</p>"
+        }
+      }
+    },
+    "DeletePolicyVersionRequest":{
+      "type":"structure",
+    },
+    "UpdateGroupRequest":{
+      "type":"structure",
+      "required":["GroupName"],
+      "members":{
+        "GroupName":{
+          "shape":"groupNameType",
+          "documentation":"<p>Name of the IAM group to update. If you're changing the name of the group, this is the original name.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>"
+        },
+        "NewPath":{
+          "shape":"pathType",
+          "documentation":"<p>New path for the IAM group. Only include this if changing the group's path.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of either a forward slash (/) by itself or a string that must begin and end with forward slashes. In addition, it can contain any ASCII character from the ! (<code>\\u0021</code>) through the DEL character (<code>\\u007F</code>), including most punctuation characters, digits, and upper and lowercased letters.</p>"
+        },
+        "NewGroupName":{
+          "shape":"groupNameType",
+          "documentation":"<p>New name for the IAM group. Only include this if changing the group's name.</p> <p>IAM user, group, role, and policy names must be unique within the account. Names are not distinguished by case. For example, you cannot create resources named both \"MyResource\" and \"myresource\".</p>"
+        }
+      }
+    },
+    "UpdateLoginProfileRequest":{
+      "type":"structure",
+      "required":["UserName"],
+      "members":{
+        "UserName":{
+          "shape":"userNameType",
+          "documentation":"<p>The name of the user whose password you want to update.</p> <p>This parameter allows (through its <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a>) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-</p>"
+        },
+        "Password":{
+          "shape":"passwordType",
+          "documentation":"<p>The new password for the specified IAM user.</p> <p>The <a href=\"http://wikipedia.org/wiki/regex\">regex pattern</a> used to validate this parameter is a string of characters consisting of the following:</p> <ul> <li> <p>Any printable ASCII character ranging from the space character (<code>\\u0020</code>) through the end of the ASCII character range</p> </li> <li> <p>The printable characters in the Basic Latin and Latin-1 Supplement character set (through <code>\\u00FF</code>)</p> </li> <li> <p>The special characters tab (<code>\\u0009</code>), line feed (<code>\\u000A</code>), and carriage return (<code>\\u000D</code>)</p> </li> </ul> <p>However, the format can be further restricted by the account administrator by setting a password policy on the AWS account. For more information, see <a>UpdateAccountPasswordPolicy</a>.</p>"
+        },
+        "PasswordResetRequired":{
+          "shape":"booleanObjectType",
+          "documentation":"<p>Allows this new password to be used only once by requiring the specified IAM user to set a new password on next sign-in.</p>"
+        }
+      }
+    },
+    "UpdateOpenIDConnectProviderThumbprintRequest":{
+      "type":"structure",
+      "required":[
+        "OpenIDConnectProviderArn",
+        "ThumbprintList"
+      ],
+      "members":{
+        "OpenIDConnectProviderArn":{
+          "shape":"arnType",
+          "documentation":"<p>The Amazon Resource Name (ARN) of the IAM OIDC provider resource object for which you want to update the thumbprint. You can get a list of OIDC provider ARNs by using the <a>ListOpenIDConnectProviders</a> operation.</p> <p>For more information about ARNs, see <a href=\"https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html\">Amazon Resource Names (ARNs)</a> in the <i>AWS General Reference</i>.</p>"
+        },
+        "ThumbprintList":{
+          "shape":"thumbprintListType",
+          "documentation":"<p>A list of certificate thumbprints that are associated with the specified IAM OpenID Connect provider. For more information, see <a>CreateOpenIDConnectProvider</a>. </p>"
+        "PermissionsBoundary":{
+          "shape":"AttachedPermissionsBoundary",
+          "documentation":"<p>The ARN of the policy used to set the permissions boundary for the user.</p> <p>For more information about permissions boundaries, see <a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html\">Permissions boundaries for IAM identities </a> in the <i>IAM User Guide</i>.</p>"
+        },
+        "Tags":{
+          "shape":"tagListType",
+          "documentation":"<p>A list of tags that are associated with the user. For more information about tagging, see <a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_tags.html\">Tagging IAM resources</a> in the <i>IAM User Guide</i>.</p>"
+        }
+      },
+      "documentation":"<p>Contains information about an IAM user, including all the user's policies and all the IAM groups the user is in.</p> <p>This data type is used as a response element in the <a>GetAccountAuthorizationDetails</a> operation.</p>"
+    },
+    "VirtualMFADevice":{
+      "type":"structure",
+      "required":["SerialNumber"],
+      "members":{
+        "SerialNumber":{
+          "shape":"serialNumberType",
+          "documentation":"<p>The serial number associated with <code>VirtualMFADevice</code>.</p>"
+        },
+        "Base32StringSeed":{
+          "shape":"BootstrapDatum",
+          "documentation":"<p> The base32 seed defined as specified in <a href=\"https://tools.ietf.org/html/rfc3548.txt\">RFC3548</a>. The <code>Base32StringSeed</code> is base64-encoded. </p>"
+        },
+        "QRCodePNG":{
+          "shape":"BootstrapDatum",
+          "documentation":"<p> A QR code PNG image that encodes <code>otpauth://totp/$virtualMFADeviceName@$AccountName?secret=$Base32String</code> where <code>$virtualMFADeviceName</code> is one of the create call arguments. <code>AccountName</code> is the user name if set (otherwise, the account ID otherwise), and <code>Base32String</code> is the seed in base32 format. The <code>Base32String</code> value is base64-encoded. </p>"
+        },
+        "User":{
+          "shape":"User",
+          "documentation":"<p>The IAM user associated with this virtual MFA device.</p>"
+        },
+        "EnableDate":{
+          "shape":"dateType",
+          "documentation":"<p>The date and time on which the virtual MFA device was enabled.</p>"
+        },
+        "Tags":{
+          "shape":"tagListType",
+          "documentation":"<p>A list of tags that are attached to the virtual MFA device. For more information about tagging, see <a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_tags.html\">Tagging IAM resources</a> in the <i>IAM User Guide</i>.</p>"
+        }
+      },
+      "documentation":"<p>Contains information about a virtual MFA device.</p>"
+    },
+    "accessKeyIdType":{
+      "type":"string",
+      "max":128,
+      "min":16,
+      "pattern":"[\\w]+"
+    },
+    "accessKeyMetadataListType":{
+      "type":"list",
+      "member":{"shape":"AccessKeyMetadata"},

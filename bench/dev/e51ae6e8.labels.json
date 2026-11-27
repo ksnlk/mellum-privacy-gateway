@@ -1,0 +1,1232 @@
+{
+ "repo": "e51ae6e8",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "build/49a96e7e.gradle",
+   "line": 278,
+   "start": 20,
+   "end": 27,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ezxglan"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "docs/5d030f72.md",
+   "line": 84,
+   "start": 20,
+   "end": 38,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "xsjdybseasphyuvagm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "mock/src/setting/ae899f6f.java",
+   "line": 115,
+   "start": 38,
+   "end": 50,
+   "category": "Key:Password",
+   "mutation": "stack",
+   "forms": [
+    "b3V0Ym91bmQ=",
+    "outbound"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "mock/src/setting/ae899f6f.java",
+   "line": 117,
+   "start": 39,
+   "end": 47,
+   "category": "Key:Password",
+   "mutation": "rename",
+   "forms": [
+    "dathnggr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "mock/src/setting/ae899f6f.java",
+   "line": 121,
+   "start": 45,
+   "end": 53,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ubnotohn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "mock/src/setting/browser/17b51a61.java",
+   "line": 18,
+   "start": 62,
+   "end": 70,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "gnhjhzcd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/mock/src/bc02fc10.java",
+   "line": 30,
+   "start": 46,
+   "end": 71,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "jivqoulsir",
+    "tcjmcnosfi",
+    "jivqoulsirtcjmcnosfi"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/mock/src/c2eb794b.java",
+   "line": 61,
+   "start": 47,
+   "end": 63,
+   "category": "Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "u51aZv44T9mpBP=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/mock/src/e0aee1bb.java",
+   "line": 146,
+   "start": 40,
+   "end": 52,
+   "category": "CMD Password",
+   "mutation": "none",
+   "forms": [
+    "uctkeaosaikx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "test/mock/src/e0aee1bb.java",
+   "line": 147,
+   "start": 59,
+   "end": 69,
+   "category": "CMD Password",
+   "mutation": "comment",
+   "forms": [
+    "mqznibqvbd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "test/693270ca.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.w2cTHa3eVEw5BFVROgqIseGWDW127JRQfXIFBPwI.CNfIqbfoXQU1GsDFrQHhiT4ASS_zLYYuvRKuh-pco23"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/693270ca.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-cache-05.corp.brightloop-internal.net"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/d08dedce.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-cache-06.int.acme-internal.net"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/d08dedce.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "c3ZjX2JhY2t1cDpDcjNAdDM=",
+    "svc_backup:Cr3@t3"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/d08dedce.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "h3d4bj2ic8wyvrcjfzg1s6yvgug9xmt5"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/e0a8af54.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Fruehling2024!"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/e0a8af54.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.24.18.118"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/e0a8af54.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "V29sZnNjaG5lZTE2IQ==",
+    "Wolfschnee16!"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/64cf1e27.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-api-02.corp.acme-internal.net"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/64cf1e27.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "188.184.27.73"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/64cf1e27.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "nico16@gmail.com"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/64cf1e27.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.acme-corp.de"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/64cf1e27.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "overload_jap_winter57"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "other/2a20a345.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.1q8fvzuqpzw7.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "other/2a20a345.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_ZanNdaxBtwXv4VV1umnMnP48QInLhqMP6QSZ"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "src/1e1ad41c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "laura93@gmail.com"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "src/1e1ad41c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 3484 9503"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "src/1e1ad41c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Haus#1967"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "src/1e1ad41c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE80148361469618263464"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.acme.systems"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.acme.systems"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.acme.systems"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.99.132.0/24"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.99.132.109"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.acme.systems"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.acme.systems"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.acme.systems"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.acme.systems"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.99.132.131"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.acme.systems"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Anna Mueller"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "anna.mueller@t-online.de"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 9248248"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Emma Schwarz"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "emma.schwarz@t-online.de"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 8065777"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "build/49a96e7e.gradle",
+   "line": 79,
+   "whole_line": "    compile \"org.slf4j:slf4j-api:1.7.30\"",
+   "source": "creddata"
+  },
+  {
+   "file": "build/49a96e7e.gradle",
+   "line": 122,
+   "whole_line": "    testRuntime \"org.slf4j:slf4j-api:1.7.30\"",
+   "source": "creddata"
+  },
+  {
+   "file": "build/49a96e7e.gradle",
+   "line": 124,
+   "whole_line": "    testRuntime \"org.apache.logging.log4j:log4j-api:2.14.1\"",
+   "source": "creddata"
+  },
+  {
+   "file": "build/49a96e7e.gradle",
+   "line": 167,
+   "whole_line": "task generateApiDocs(type: Exec) {",
+   "source": "creddata"
+  },
+  {
+   "file": "build/49a96e7e.gradle",
+   "line": 280,
+   "whole_line": "    repoPassword = sonatypePassword",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/36efe46a.md",
+   "line": 38,
+   "whole_line": "`--https-keystore`: Path to a keystore file containing an SSL",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/36efe46a.md",
+   "line": 63,
+   "value": "Optional",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/36efe46a.md",
+   "line": 97,
+   "value": "8080/",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/36efe46a.md",
+   "line": 167,
+   "whole_line": "`--permitted-system-keys`: Comma-separated list of regular expressions for names of permitted environment variables and system properties accessible from response templates. Only has any effect when templating is enabled. Defaults to `wiremock.*`.",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/ce0cf20f.md",
+   "line": 596,
+   "whole_line": "{{systemValue type='ENVIRONMENT' key='PATH'}}",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/ce0cf20f.md",
+   "line": 597,
+   "whole_line": "{{systemValue type='PROPERTY' key='os.path'}}",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/06c57148.java",
+   "line": 27,
+   "whole_line": "\tpublic static final String KEY = \"Content-Type\";",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/42dc5f63.java",
+   "line": 51,
+   "whole_line": "    public static final String MAPPED_UNDER_KEY = \"mappedUnder\";",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/52220408.java",
+   "line": 36,
+   "whole_line": "    public static final String CONSOLE_WIDTH_HEADER_KEY = \"X-WireMock-Console-Width\";",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/742858d3.java",
+   "line": 49,
+   "whole_line": "            Key key = (Key) o;",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/754490dc.java",
+   "line": 215,
+   "whole_line": "        for (String key : getAllHeaderKeys()) {",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/8efab4df.java",
+   "line": 41,
+   "whole_line": "    String INJECTOR_CLASS_KEY = \"FaultHandlerFactoryClass\";",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/941e6284.java",
+   "line": 35,
+   "whole_line": "        this.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/9e791cf4.java",
+   "line": 31,
+   "whole_line": "        this.password = requireNonNull(password);",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/9e791cf4.java",
+   "line": 79,
+   "whole_line": "            PrivateKey key = getPrivateKey(alias);",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/af50ab5a.java",
+   "line": 20,
+   "whole_line": "\tString HANDLER_CLASS_KEY = \"RequestHandlerClass\";",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/c0373e4b.java",
+   "line": 78,
+   "whole_line": "    private static final String HTTPS_KEYSTORE_PASSWORD = \"keystore-password\";",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/c0373e4b.java",
+   "line": 80,
+   "whole_line": "    private static final String HTTPS_KEY_MANAGER_PASSWORD = \"key-manager-password\";",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/c0373e4b.java",
+   "line": 82,
+   "whole_line": "    private static final String HTTPS_TRUSTSTORE_PASSWORD = \"truststore-password\";",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/c0373e4b.java",
+   "line": 114,
+   "whole_line": "    private static final String HTTPS_CA_KEYSTORE_PASSWORD = \"ca-keystore-password\";",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/c0373e4b.java",
+   "line": 140,
+   "whole_line": "        optionParser.accepts(HTTPS_KEYSTORE, \"Path to an alternative keystore for HTTPS. Password is assumed to be \\\"password\\\" if not specified.\").requiredIf(HTTPS_KEYSTORE_PASSWORD).withRequiredArg().defaultsTo(Resources.getResource(\"keystore\").toString());",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/c1ce0b41.java",
+   "line": 33,
+   "whole_line": "    private static final String APP_CONTEXT_KEY = \"WireMockApp\";",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/c7321fc7.java",
+   "line": 20,
+   "whole_line": "\tpublic static final String KEY = \"Notifier\";",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/conf/897a22e5.java",
+   "line": 45,
+   "whole_line": "    private static final String FILE_SOURCE_ROOT_KEY = \"WireMockFileSourceRoot\";",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/resource/f63a1982.yaml",
+   "line": 1,
+   "whole_line": "openapi: 3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/security/cba79271.java",
+   "line": 33,
+   "whole_line": "        this.credentials = credentials;",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/security/cba79271.java",
+   "line": 37,
+   "whole_line": "        this.credentials = asList(credentials);",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/setting/ae899f6f.java",
+   "line": 36,
+   "whole_line": "        this.keyStorePassword = keyStorePassword;",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/setting/ae899f6f.java",
+   "line": 37,
+   "whole_line": "        this.keyManagerPassword = keyManagerPassword;",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/setting/ae899f6f.java",
+   "line": 40,
+   "whole_line": "        this.trustStorePassword = trustStorePassword;",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/setting/ae899f6f.java",
+   "line": 116,
+   "value": "ETL_API_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/setting/ae899f6f.java",
+   "line": 118,
+   "value": "secret/data/nordwind/vault/prod",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/setting/browser/17b51a61.java",
+   "line": 19,
+   "value": "BILLING_CLIENT_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/src/75e1c234.java",
+   "line": 289,
+   "whole_line": "                            .withBody(\"{{systemValue type='PROPERTY' key='forbidden.thing'}}\")));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/src/75e1c234.java",
+   "line": 298,
+   "whole_line": "                            .withBody(\"{{systemValue type='ENVIRONMENT' key='PATH'}}\")));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/src/client/efa51f0d.java",
+   "line": 146,
+   "whole_line": "        String authHeader = new BasicCredentials(\"user\", \"password\").asAuthorizationHeaderValue();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/src/e0aee1bb.java",
+   "line": 137,
+   "whole_line": "        assertThat(options.httpsSettings().trustStorePassword(), is(\"password\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/src/e0aee1bb.java",
+   "line": 152,
+   "whole_line": "        assertThat(options.httpsSettings().keyManagerPassword(), is(\"keymanpass\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/src/e0aee1bb.java",
+   "line": 226,
+   "whole_line": "        CommandLineOptions options = new CommandLineOptions(\"--proxy-via\", \"user:password@somehost.mysite.com:8080\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/src/e0aee1bb.java",
+   "line": 230,
+   "whole_line": "        assertThat(options.proxyVia().getPassword(), is(\"password\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/src/e0aee1bb.java",
+   "line": 392,
+   "whole_line": "        String correctAuthHeader = new BasicCredentials(\"user\", \"pass\").asAuthorizationHeaderValue();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/src/e0aee1bb.java",
+   "line": 393,
+   "whole_line": "        String incorrectAuthHeader = new BasicCredentials(\"user\", \"wrong_pass\").asAuthorizationHeaderValue();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/resource/dc5617d9.json",
+   "line": 9,
+   "whole_line": "      \"key\": \"value\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/693270ca.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "8.28.5"
+  },
+  {
+   "file": "test/693270ca.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "604bc945995906338dd49d4af65e1f99edb129fc"
+  },
+  {
+   "file": "test/693270ca.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "IN6OYY20JNCLQ24AXGALRE7OKQ"
+  },
+  {
+   "file": "test/693270ca.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "test/693270ca.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "XFCUOS1J9IA82Y0GVDDWKKCXVD"
+  },
+  {
+   "file": "test/693270ca.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "_/d08dedce.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "DIK88A0QCCEJBF21OG2TPLRJHR"
+  },
+  {
+   "file": "_/d08dedce.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "93ff3293-e287-4c9e-8787-42a64e3b2a84"
+  },
+  {
+   "file": "_/d08dedce.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "auth0.com"
+  },
+  {
+   "file": "_/d08dedce.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/e0a8af54.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:53012490e7fb4d02969ba58648fb5965e4b7d016ba863fc84a9a7c83dda6f7eb"
+  },
+  {
+   "file": "src/e0a8af54.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "210c3116dcc8147fff3a17e2dccee1c027b0ef4c"
+  },
+  {
+   "file": "src/e0a8af54.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "src/e0a8af54.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "src/e0a8af54.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "8.9.1"
+  },
+  {
+   "file": "other/64cf1e27.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "www.acme-corp.de"
+  },
+  {
+   "file": "other/64cf1e27.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "careers.acme-corp.de"
+  },
+  {
+   "file": "other/64cf1e27.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/64cf1e27.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "other/64cf1e27.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "other/64cf1e27.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "other/64cf1e27.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@acme-corp.de"
+  },
+  {
+   "file": "other/64cf1e27.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "ZW4tVVMsZW47cT0wLjk="
+  },
+  {
+   "file": "other/64cf1e27.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "656e2d55532c656e3b713d302e39"
+  },
+  {
+   "file": "other/64cf1e27.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "other/2a20a345.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "0.5.22"
+  },
+  {
+   "file": "other/2a20a345.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "0.19.48"
+  },
+  {
+   "file": "other/2a20a345.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-P72NZNXap7lJ2Nh+e9wKMHcgcoZsJrustAFpcfSOOICggOEimHx2eTYgBGCdAK4QLEIwtwk4NL30MT2ILF7mwQ=="
+  },
+  {
+   "file": "other/2a20a345.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "3.8.47"
+  },
+  {
+   "file": "other/2a20a345.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-A+3N4ll+b2GPJtYZpQBq0u6snu8Do4Y2UBFC8HD2In1+HtPd9j81toyGggEVAG4f8Av/QGUknJQ9iUJa031IOQ=="
+  },
+  {
+   "file": "other/2a20a345.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "4.25.0"
+  },
+  {
+   "file": "other/2a20a345.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-BZXSoBDuApp5VL9z4eMTdosi2YKq8NL7w6bp5y7gCu825k5A7eErRL8SUQABVKEATSAixt1fGIZbLiwOOC/X4A=="
+  },
+  {
+   "file": "src/1e1ad41c.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "pypi.org"
+  },
+  {
+   "file": "src/1e1ad41c.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "jane.doe@example.org"
+  },
+  {
+   "file": "src/1e1ad41c.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "files.paycore.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "85.99.22.215"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.acme.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.acme.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "shop.acme.systems"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Sofia Schmidt"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "shop.acme.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.paycore.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "85.99.22.215"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.acme.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Sofia Schmidt"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "sofia.schmidt@acme.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Erika Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "erika@example.com"
+  }
+ ]
+}

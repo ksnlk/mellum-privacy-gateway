@@ -1,0 +1,19 @@
+# vantor payments service
+database:
+  host: auth-cache-08.int.vantor-internal.net
+  user: payments
+  password: "Vogel2004?"
+  password_source: secret/data/vantor/ledger/staging
+  password_env: BILLING_AUTH_TOKEN
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: zEHCzKcRnoQbYB9yRHqauW7V8KhhdsJP
+  key_file: /var/run/secrets/ledger/token
+  signing_alg: bcrypt
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 958081706434-xl49fkxmayislwzfefp6bsktnhsyseja.apps.googleusercontent.com
+  client_proof: vu6jyipcq7r1igs4opkk5rrobp88jgk2
+  secret_rotated_at: "2025-12-14T00:00:00Z"
+  secret_name: reports-api-token
+pagination:
+  first_cursor: b3JkZXI6NjkwMTU6b2Zmc2V0OjE0Nw==

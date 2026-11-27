@@ -1,0 +1,813 @@
+{
+ "repo": "371ea6d8",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/0524b271.php",
+   "line": 5,
+   "start": 24,
+   "end": 60,
+   "category": "MailGun API Key",
+   "mutation": "comment",
+   "forms": [
+    "jag-u46638755gbq3mpht37z8836m725a64p"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/b3db23d8.php",
+   "line": 26,
+   "start": 31,
+   "end": 79,
+   "category": "MailGun API Key",
+   "mutation": "b64",
+   "forms": [
+    "Z2V5LThqdTNzZ2FqMTZ4ZTFhbG0xcGcwNTFxdWRhYW11dWI1",
+    "gey-8ju3sgaj16xe1alm1pg051qudaamuub5"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/b3db23d8.php",
+   "line": 29,
+   "start": 30,
+   "end": 80,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "2bdaeg4lezhqcksl36ogcgwfnfaqnp5z5x12rbess3dusxjfx3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/b3db23d8.php",
+   "line": 37,
+   "start": 31,
+   "end": 79,
+   "category": "MailGun API Key",
+   "mutation": "b64",
+   "forms": [
+    "ZWxtLTRneTBtcWRuMTN4YzZuaWQ2cGU5NTRoeG9vcGNtYncz",
+    "elm-4gy0mqdn13xc6nid6pe954hxoopcmbw3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/b3db23d8.php",
+   "line": 40,
+   "start": 24,
+   "end": 74,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "sxbgvrq4scujwk92fbtnh7vr7japan4y4i1w5s2lqatrydh2sx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/b3db23d8.php",
+   "line": 49,
+   "start": 31,
+   "end": 67,
+   "category": "MailGun API Key",
+   "mutation": "none",
+   "forms": [
+    "vai-8jt7dwcc47lp0afp9bn005ornosfgea2"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/b3db23d8.php",
+   "line": 57,
+   "start": 51,
+   "end": 87,
+   "category": "MailGun API Key",
+   "mutation": "comment",
+   "forms": [
+    "gol-9xl3rmve65av3sml1yd929committer5"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/b3db23d8.php",
+   "line": 68,
+   "start": 31,
+   "end": 67,
+   "category": "MailGun API Key",
+   "mutation": "none",
+   "forms": [
+    "hud-2lj5menu24sa5qnw8db010rftnqnrbv6"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "src/b0d9a38d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Swagger1991*"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/9aa6bf9e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Meerjonas72!"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/9aa6bf9e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.68.24.186"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/9aa6bf9e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "SGVyYnN0bcO8bGxlcjgxIQ==",
+    "Herbstm\u00fcller81!"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/a8c22251.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-replica.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/a8c22251.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "c3ZjX2JhY2t1cDpQYXVscm9zZTIwIQ==",
+    "svc_backup:Paulrose20!"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/a8c22251.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "javhnbqniwv0c0pwp8ikr6ejpvcciyhn"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/d70655f3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "eva62@gmail.com"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/d70655f3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 8676 1598"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/d70655f3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "party-toe-stage"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/d70655f3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE68500650403059014598"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/2aac53a9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-prod.m76f0lx7mg5j.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/2aac53a9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "jonas511"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "src/2aac53a9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043b\u0435\u0442\u043e9819!"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/596d40ca.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "text.tulpe.preceding"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "other/596d40ca.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.cd2vm0p7je43.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.brightloop.systems"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.brightloop.systems"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.brightloop.systems"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.194.168.0/24"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.194.168.69"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.brightloop.systems"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.brightloop.systems"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.brightloop.systems"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.brightloop.systems"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.194.168.158"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.brightloop.systems"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jan Mueller"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jan.mueller@t-online.de"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 8519139"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Elias Wolf"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "elias.wolf@gmail.com"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 6789066"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "test/b3db23d8.php",
+   "line": 41,
+   "value": "pbkdf2_sha256",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b0d9a38d.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Apache Dad 4.6"
+  },
+  {
+   "file": "src/b0d9a38d.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "blume-fruehling-prod"
+  },
+  {
+   "file": "src/9aa6bf9e.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:e5a5bd66fd702021ed3f60597afbaf9361bf316fa9c10f98bab2ae17d295af10"
+  },
+  {
+   "file": "src/9aa6bf9e.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "260c496843d8c10b76caf5b7a96eda9c8bcb0f5a"
+  },
+  {
+   "file": "src/9aa6bf9e.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "src/9aa6bf9e.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "src/9aa6bf9e.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "9.28.0"
+  },
+  {
+   "file": "other/a8c22251.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "7P6T5RC0D0UH549CZFDUXEMWMF"
+  },
+  {
+   "file": "other/a8c22251.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "64195b58-c73d-4efb-8e31-8663b7155947"
+  },
+  {
+   "file": "other/a8c22251.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "other/a8c22251.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/d70655f3.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "src/d70655f3.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "noreply@github.com"
+  },
+  {
+   "file": "src/d70655f3.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "<password>"
+  },
+  {
+   "file": "src/2aac53a9.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "nonfatal98"
+  },
+  {
+   "file": "src/2aac53a9.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "svc_reports"
+  },
+  {
+   "file": "src/2aac53a9.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "cakey48"
+  },
+  {
+   "file": "src/2aac53a9.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "svc_reports"
+  },
+  {
+   "file": "src/2aac53a9.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "importer"
+  },
+  {
+   "file": "src/2aac53a9.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "defer_honeycomb"
+  },
+  {
+   "file": "other/596d40ca.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIS+iVg6DxM0Hzt+Fn6x1PqdD8GZO+PvwPiksDKnduUSG"
+  },
+  {
+   "file": "other/596d40ca.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "2ccdacaf9ccd12395d6432a5c2df65ca3ba863b338a7af3a4d7dc0f948d3a8bc"
+  },
+  {
+   "file": "other/596d40ca.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/596d40ca.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.brightloop.systems"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "edi.mailvault.de"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "85.194.231.52"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Laura Lange"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Anna Fischer"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "www.brightloop.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.mailvault.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "85.194.231.52"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.brightloop.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Laura Lange"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "laura.lange@brightloop.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Erika Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "erika@example.com"
+  }
+ ]
+}

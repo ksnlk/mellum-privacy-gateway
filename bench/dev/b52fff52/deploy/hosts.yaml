@@ -1,0 +1,15 @@
+monitoring: tarvos.acme-ops.io
+database:
+  host: nimbus.acme-ops.io
+  port: 5432
+queue: atlas.acme-ops.io
+backup_target: juno.acme-ops.io
+website: kunden.acme-ops.io
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: files.logistik-nord.de
+allow_sources:
+  - 91.177.218.240
+  - 140.82.112.3
+  - 91.177.164.53
+ntp: 194.58.200.20
+mirrors: [db.debian.org, mirrors.kernel.org]

@@ -1,0 +1,15 @@
+monitoring: kestrel.acme.systems
+database:
+  host: vega.acme.systems
+  port: 5432
+queue: orion.acme.systems
+backup_target: falkor.acme.systems
+website: www.acme.systems
+payments_api: https://api.mailvault.com/v2
+partner_drop: sftp.mailvault.de
+allow_sources:
+  - 46.182.32.143
+  - 140.82.113.4
+  - 46.182.123.20
+ntp: 194.58.200.20
+mirrors: [ftp.gnu.org, db.debian.org]

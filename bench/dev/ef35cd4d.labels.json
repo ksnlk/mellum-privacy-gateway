@@ -1,0 +1,518 @@
+{
+ "repo": "ef35cd4d",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "src/eb3dcd0c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "laura44@gmail.com"
+   ]
+  },
+  {
+   "id": 2,
+   "file": "src/eb3dcd0c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 2610 7577"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "src/eb3dcd0c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Borussia&1980"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "src/eb3dcd0c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE60408129231698077024"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/0d80e17e.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vpn-gw.vantor-corp.de"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/0d80e17e.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Engel&2004"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/0d80e17e.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "wAprhVAT9BIRsFykYLJvchpLwAzv8vly"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/0d80e17e.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "wr9c0g4thmsk7sygvvwsjdu3csyy5khj"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/329f60f3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Ben Zimmermann"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/329f60f3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "felix.krueger@helix-corp.de"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/329f60f3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 3050 8959"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/329f60f3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.26.221.75"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/329f60f3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "bonn.maker.outage.introspect"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/1d069141.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "38363038643734363661343937626637303130663063356439656130613266626162623661383933373461613837363535333338393836626330323531656435",
+    "8608d7466a497bf7010f0c5d9ea0a2fbabb6a89374aa87655338986bc0251ed5"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/3b4587b8.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-cache-04.corp.quarzo-internal.net"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/3b4587b8.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Gl\u00fcckfinn02!"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/3b4587b8.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Bienefr\u00fchling72!"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/11a69f2b.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.v33__4ycnJ9zdJ1801hD7qMCwhdI9JbcrIzA4QJO.8cUeeV-Tp8jAysnJfpMq71lcxOIlwnIu2Xdqta2o09z"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/11a69f2b.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.acme-corp.de"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/03d75974.md",
+   "line": 99,
+   "value": "parameters",
+   "source": "creddata"
+  },
+  {
+   "file": "_/03d75974.md",
+   "line": 101,
+   "value": "with",
+   "source": "creddata"
+  },
+  {
+   "file": "_/03d75974.md",
+   "line": 105,
+   "whole_line": "- Password = 'string' should not be used. (information disclosure) [AvoidUsingUsernameAndPasswordParams](https://github.com/PowerShell/PSScriptAnalyzer/blob/master/RuleDocumentation/AvoidUsingUsernameAndPasswordParams.md)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3d83abb0.cs",
+   "line": 27,
+   "whole_line": "        // Key:   Cmdlet name",
+   "source": "creddata"
+  },
+  {
+   "file": "_/43226212.cs",
+   "line": 322,
+   "whole_line": "            string key = AnalysisDictionaryKey(varTarget);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7059fc2a.cs",
+   "line": 12,
+   "whole_line": "    public interface ITokenRule : IRule",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c315ade3.cs",
+   "line": 16,
+   "whole_line": "    /// AvoidUsingPlainTextForPassword: Check that parameter \"password\", \"passphrase\" do not use plaintext",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c315ade3.cs",
+   "line": 22,
+   "whole_line": "    public class AvoidUsingPlainTextForPassword : IScriptRule",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c315ade3.cs",
+   "line": 25,
+   "whole_line": "        /// AvoidUsingPlainTextForPassword: Check that parameter \"password\", \"passphrase\" and do not use plaintext.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4872d44.cs",
+   "line": 24,
+   "whole_line": "    public class AvoidUsernameAndPasswordParams : IScriptRule",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4872d44.cs",
+   "line": 69,
+   "whole_line": "                            passwordAst = paramAst;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c4872d44.cs",
+   "line": 117,
+   "whole_line": "            var pwdExt = passwordAst.Extent;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d92c1b89.ps1",
+   "line": 115,
+   "whole_line": "            $def = \"@{ `n Key = value }\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d92c1b89.ps1",
+   "line": 239,
+   "whole_line": "    key=\"value\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/setting/296b0e62.ps1",
+   "line": 344,
+   "whole_line": "            @{ Expr = '@{ Key = \"Value\" }' }",
+   "source": "creddata"
+  },
+  {
+   "file": "test/setting/296b0e62.ps1",
+   "line": 374,
+   "whole_line": "            @{ Expr = '@{ Key = Get-Thing }' }",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eb3dcd0c.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "src/eb3dcd0c.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "jane.doe@example.org"
+  },
+  {
+   "file": "src/eb3dcd0c.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "src/0d80e17e.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/vantor/ledger/staging"
+  },
+  {
+   "file": "src/0d80e17e.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "PAYMENTS_AUTH_TOKEN"
+  },
+  {
+   "file": "src/0d80e17e.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "src/0d80e17e.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "src/0d80e17e.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "argon2id"
+  },
+  {
+   "file": "src/0d80e17e.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "src/0d80e17e.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "340463887907-3dgxj7fw3ynm1jzg006r0x130k0lf3vn.apps.googleusercontent.com"
+  },
+  {
+   "file": "src/0d80e17e.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2023-11-12T00:00:00Z"
+  },
+  {
+   "file": "src/0d80e17e.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "payments-oauth-client"
+  },
+  {
+   "file": "src/0d80e17e.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZTo4MzEyMDpvZmZzZXQ6Mjcy"
+  },
+  {
+   "file": "test/329f60f3.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "1.1.1.1"
+  },
+  {
+   "file": "test/329f60f3.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "6.3.26"
+  },
+  {
+   "file": "test/329f60f3.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:6525a55263dc5fffc9c34d9bdd5c82a5a1c0a22239b72f64dac23a5c8dc2caf0"
+  },
+  {
+   "file": "test/329f60f3.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/329f60f3.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/1d069141.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "e4c901803dde9a62ce39f231a18bdd117e205a2c971e0ff0167d8be2fa650306"
+  },
+  {
+   "file": "test/3b4587b8.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "expensive_mustermann"
+  },
+  {
+   "file": "test/3b4587b8.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "reporting"
+  },
+  {
+   "file": "test/3b4587b8.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "aal-transitive-2019"
+  },
+  {
+   "file": "test/3b4587b8.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "deploy"
+  },
+  {
+   "file": "test/3b4587b8.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "reporting"
+  },
+  {
+   "file": "test/3b4587b8.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "Donner Infinite 8.12"
+  },
+  {
+   "file": "test/11a69f2b.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "5.20.20"
+  },
+  {
+   "file": "test/11a69f2b.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "1672b40bae0d3310fd874a06888efa3df40d6129"
+  },
+  {
+   "file": "test/11a69f2b.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "NRMCVSVDBJ70DRDRR46N66TMAO"
+  },
+  {
+   "file": "test/11a69f2b.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "test/11a69f2b.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "YC2Q3O4XGU6YM6ETAXIW20TLP6"
+  },
+  {
+   "file": "test/11a69f2b.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  }
+ ]
+}

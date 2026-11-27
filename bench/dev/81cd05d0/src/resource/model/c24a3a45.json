@@ -1,0 +1,336 @@
+      "UpdateJobQueueRequest" : [ "state" ]
+    },
+    "operationModifiers" : null,
+    "operationsWithResponseStreamContentLengthValidation" : null,
+    "presignersFqcn" : null,
+    "renameShapes" : null,
+    "requestMetrics" : null,
+    "requiredParamValidationEnabled" : false,
+    "s3ArnableFields" : null,
+    "sdkModeledExceptionBaseClassName" : null,
+    "sendEmptyAutoConstructedListAsEmptyList" : null,
+    "sendExplicitlyEmptyListsForQuery" : false,
+    "serviceClientHoldInputStream" : false,
+    "shapeModifiers" : null,
+    "shapeSubstitutions" : null,
+    "simpleMethods" : null,
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : false,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2016-08-10",
+    "asyncClient" : "AWSBatchAsyncClient",
+    "asyncClientBuilderClassName" : "AWSBatchAsyncClientBuilder",
+    "asyncInterface" : "AWSBatchAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : "",
+    "cucumberModuleInjectorClassName" : "AWSBatchModuleInjector",
+    "defaultEndpoint" : "batch.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "batch.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<p>Using AWS Batch, you can run batch computing workloads on the AWS Cloud. Batch computing is a common means for developers, scientists, and engineers to access large amounts of compute resources. AWS Batch uses the advantages of this computing workload to remove the undifferentiated heavy lifting of configuring and managing required infrastructure. At the same time, it also adopts a familiar batch computing software approach. Given these advantages, AWS Batch can help you to efficiently provision resources in response to jobs submitted, thus effectively helping you to eliminate capacity constraints, reduce compute costs, and deliver your results more quickly.</p> <p>As a fully managed service, AWS Batch can run batch computing workloads of any scale. AWS Batch automatically provisions compute resources and optimizes workload distribution based on the quantity and scale of your specific workloads. With AWS Batch, there's no need to install or manage batch computing software. This means that you can focus your time and energy on analyzing results and solving your specific problems.</p>",
+    "endpointPrefix" : "batch",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.batch",
+    "packagePath" : "com/amazonaws/services/batch",
+    "protocol" : "rest-json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "AWS Batch",
+        },
+        "shouldEmitLegacyEnumSetter" : false,
+        "shouldFullyQualify" : false,
+        "simple" : false,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p>Any host devices to expose to the container. This parameter maps to <code>Devices</code> in the <a href=\"https://docs.docker.com/engine/api/v1.23/#create-a-container\">Create a container</a> section of the <a href=\"https://docs.docker.com/engine/api/v1.23/\">Docker Remote API</a> and the <code>--device</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>.</p> <note> <p>This parameter isn't applicable to jobs running on Fargate resources and shouldn't be provided.</p> </note>\n<p><b>NOTE:</b> This method appends the values to the existing list (if any). Use {@link #setDevices(java.util.Collection)} or {@link #withDevices(java.util.Collection)} if you want to override the existing values.</p>\n@param devices Any host devices to expose to the container. This parameter maps to <code>Devices</code> in the <a href=\"https://docs.docker.com/engine/api/v1.23/#create-a-container\">Create a container</a> section of the <a href=\"https://docs.docker.com/engine/api/v1.23/\">Docker Remote API</a> and the <code>--device</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>.</p> <note> <p>This parameter isn't applicable to jobs running on Fargate resources and shouldn't be provided.</p>\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "java.util.List<Device>",
+          "variableName" : "devices",
+          "variableType" : "java.util.List<Device>",
+          "documentation" : "<p>Any host devices to expose to the container. This parameter maps to <code>Devices</code> in the <a href=\"https://docs.docker.com/engine/api/v1.23/#create-a-container\">Create a container</a> section of the <a href=\"https://docs.docker.com/engine/api/v1.23/\">Docker Remote API</a> and the <code>--device</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>.</p> <note> <p>This parameter isn't applicable to jobs running on Fargate resources and shouldn't be provided.</p> </note>",
+          "simpleType" : "List<Device>",
+          "variableSetterType" : "java.util.Collection<Device>"
+        },
+        "xmlNameSpaceUri" : null
+      }, {
+        "c2jName" : "initProcessEnabled",
+        "c2jShape" : "Boolean",
+        "deprecated" : false,
+        "documentation" : "<p>If true, run an <code>init</code> process inside the container that forwards signals and reaps processes. This parameter maps to the <code>--init</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>. This parameter requires version 1.25 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log into your container instance and run the following command: <code>sudo docker version | grep \"Server API version\"</code> </p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>If true, run an <code>init</code> process inside the container that forwards signals and reaps processes. This parameter maps to the <code>--init</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>. This parameter requires version 1.25 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log into your container instance and run the following command: <code>sudo docker version | grep \"Server API version\"</code> </p>\n@param initProcessEnabled If true, run an <code>init</code> process inside the container that forwards signals and reaps processes. This parameter maps to the <code>--init</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>. This parameter requires version 1.25 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log into your container instance and run the following command: <code>sudo docker version | grep \"Server API version\"</code>\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withInitProcessEnabled",
+        "getterDocumentation" : "/**<p>If true, run an <code>init</code> process inside the container that forwards signals and reaps processes. This parameter maps to the <code>--init</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>. This parameter requires version 1.25 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log into your container instance and run the following command: <code>sudo docker version | grep \"Server API version\"</code> </p>\n@return If true, run an <code>init</code> process inside the container that forwards signals and reaps processes. This parameter maps to the <code>--init</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>. This parameter requires version 1.25 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log into your container instance and run the following command: <code>sudo docker version | grep \"Server API version\"</code>*/",
+        "getterMethodName" : "getInitProcessEnabled",
+        "getterModel" : {
+          "returnType" : "Boolean",
+          "documentation" : null
+        },
+        "http" : {
+          "additionalMarshallingPath" : null,
+          "additionalUnmarshallingPath" : null,
+          "flattened" : false,
+          "greedy" : false,
+          "header" : false,
+          "isPayload" : false,
+          "isStreaming" : false,
+          "location" : null,
+          "marshallLocation" : "PAYLOAD",
+          "marshallLocationName" : "initProcessEnabled",
+          "queryString" : false,
+          "requiresLength" : false,
+          "statusCode" : false,
+          "unmarshallLocationName" : "initProcessEnabled",
+          "uri" : false
+        },
+        "idempotencyToken" : false,
+        "isBinary" : false,
+        "jsonValue" : false,
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : false,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>Any host devices to expose to the container. This parameter maps to <code>Devices</code> in the <a href=\"https://docs.docker.com/engine/api/v1.23/#create-a-container\">Create a container</a> section of the <a href=\"https://docs.docker.com/engine/api/v1.23/\">Docker Remote API</a> and the <code>--device</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>.</p> <note> <p>This parameter isn't applicable to jobs running on Fargate resources and shouldn't be provided.</p> </note>\n<p><b>NOTE:</b> This method appends the values to the existing list (if any). Use {@link #setDevices(java.util.Collection)} or {@link #withDevices(java.util.Collection)} if you want to override the existing values.</p>\n@param devices Any host devices to expose to the container. This parameter maps to <code>Devices</code> in the <a href=\"https://docs.docker.com/engine/api/v1.23/#create-a-container\">Create a container</a> section of the <a href=\"https://docs.docker.com/engine/api/v1.23/\">Docker Remote API</a> and the <code>--device</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>.</p> <note> <p>This parameter isn't applicable to jobs running on Fargate resources and shouldn't be provided.</p>\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "java.util.List<Device>",
+            "variableName" : "devices",
+            "variableType" : "java.util.List<Device>",
+            "documentation" : "<p>Any host devices to expose to the container. This parameter maps to <code>Devices</code> in the <a href=\"https://docs.docker.com/engine/api/v1.23/#create-a-container\">Create a container</a> section of the <a href=\"https://docs.docker.com/engine/api/v1.23/\">Docker Remote API</a> and the <code>--device</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>.</p> <note> <p>This parameter isn't applicable to jobs running on Fargate resources and shouldn't be provided.</p> </note>",
+            "simpleType" : "List<Device>",
+            "variableSetterType" : "java.util.Collection<Device>"
+          },
+          "xmlNameSpaceUri" : null
+        },
+        "InitProcessEnabled" : {
+          "c2jName" : "initProcessEnabled",
+          "c2jShape" : "Boolean",
+          "deprecated" : false,
+          "documentation" : "<p>If true, run an <code>init</code> process inside the container that forwards signals and reaps processes. This parameter maps to the <code>--init</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>. This parameter requires version 1.25 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log into your container instance and run the following command: <code>sudo docker version | grep \"Server API version\"</code> </p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p>If true, run an <code>init</code> process inside the container that forwards signals and reaps processes. This parameter maps to the <code>--init</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>. This parameter requires version 1.25 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log into your container instance and run the following command: <code>sudo docker version | grep \"Server API version\"</code> </p>\n@param initProcessEnabled If true, run an <code>init</code> process inside the container that forwards signals and reaps processes. This parameter maps to the <code>--init</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>. This parameter requires version 1.25 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log into your container instance and run the following command: <code>sudo docker version | grep \"Server API version\"</code>\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withInitProcessEnabled",
+          "getterDocumentation" : "/**<p>If true, run an <code>init</code> process inside the container that forwards signals and reaps processes. This parameter maps to the <code>--init</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>. This parameter requires version 1.25 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log into your container instance and run the following command: <code>sudo docker version | grep \"Server API version\"</code> </p>\n@return If true, run an <code>init</code> process inside the container that forwards signals and reaps processes. This parameter maps to the <code>--init</code> option to <a href=\"https://docs.docker.com/engine/reference/run/\">docker run</a>. This parameter requires version 1.25 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log into your container instance and run the following command: <code>sudo docker version | grep \"Server API version\"</code>*/",
+          "getterMethodName" : "getInitProcessEnabled",
+          "getterModel" : {
+            "returnType" : "Boolean",
+            "documentation" : null
+          },
+          "http" : {
+            "additionalMarshallingPath" : null,
+            "additionalUnmarshallingPath" : null,
+            "flattened" : false,
+            "greedy" : false,
+            "header" : false,
+            "isPayload" : false,
+            "isStreaming" : false,
+            "location" : null,
+            "marshallLocation" : "PAYLOAD",
+            "marshallLocationName" : "initProcessEnabled",
+            "queryString" : false,
+            "requiresLength" : false,
+            "statusCode" : false,
+            "unmarshallLocationName" : "initProcessEnabled",
+            "uri" : false
+          },
+          "idempotencyToken" : false,
+          "isBinary" : false,
+          "jsonValue" : false,
+          "jobId" : "5e219b23-2e1b-87a1-504e-5f631da39ad5",
+          "reason" : "Cancelling job."
+        },
+        "output" : { },
+        "title" : "To cancel a job"
+      } ],
+      "CreateComputeEnvironment" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates a managed compute environment with specific C4 instance types that are launched on demand. The compute environment is called C4OnDemand.",
+        "id" : "to-create-a-managed-ec2-compute-environment-1481152600017",
+        "input" : {
+          "computeEnvironmentName" : "C4OnDemand",
+          "type" : "MANAGED",
+          "state" : "ENABLED",
+          "computeResources" : {
+            "type" : "EC2",
+            "minvCpus" : 0,
+            "maxvCpus" : 128,
+            "desiredvCpus" : 48,
+            "instanceTypes" : [ "c4.large", "c4.xlarge", "c4.2xlarge", "c4.4xlarge", "c4.8xlarge" ],
+            "subnets" : [ "subnet-220c0e0a", "subnet-1a95556d", "subnet-978f6dce" ],
+            "securityGroupIds" : [ "sg-cf5093b2" ],
+            "ec2KeyPair" : "id_rsa",
+            "instanceRole" : "ecsInstanceRole",
+            "tags" : { }
+          },
+          "serviceRole" : "arn:aws:iam::012345678910:role/AWSBatchServiceRole"
+        },
+        "output" : {
+          "computeEnvironmentName" : "C4OnDemand",
+          "computeEnvironmentArn" : "arn:aws:batch:us-east-1:012345678910:compute-environment/C4OnDemand"
+        },
+        "title" : "To create a managed EC2 compute environment"
+      }, {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates a managed compute environment with the M4 instance type that is launched when the Spot bid price is at or below 20% of the On-Demand price for the instance type. The compute environment is called M4Spot.",
+        "id" : "to-create-a-managed-ec2-spot-compute-environment-1481152844190",
+        "input" : {
+          "computeEnvironmentName" : "M4Spot",
+          "type" : "MANAGED",
+          "state" : "ENABLED",
+          "computeResources" : {
+            "type" : "SPOT",
+            "minvCpus" : 0,
+            "maxvCpus" : 128,
+            "desiredvCpus" : 4,
+            "instanceTypes" : [ "m4" ],
+            "subnets" : [ "subnet-220c0e0a", "subnet-1a95556d", "subnet-978f6dce" ],
+            "securityGroupIds" : [ "sg-cf5093b2" ],
+            "ec2KeyPair" : "id_rsa",
+            "instanceRole" : "ecsInstanceRole",
+            "tags" : { },
+            "bidPercentage" : 20,
+            "spotIamFleetRole" : "arn:aws:iam::012345678910:role/aws-ec2-spot-fleet-role"
+          },
+          "serviceRole" : "arn:aws:iam::012345678910:role/AWSBatchServiceRole"
+        },
+        "output" : {
+          "computeEnvironmentName" : "M4Spot",
+          "computeEnvironmentArn" : "arn:aws:batch:us-east-1:012345678910:compute-environment/M4Spot"
+        },
+        "title" : "To create a managed EC2 Spot compute environment"
+      } ],
+      "CreateJobQueue" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates a job queue called LowPriority that uses the M4Spot compute environment.",
+        "id" : "to-create-a-job-queue-with-a-single-compute-environment-1481152967946",
+        "input" : {
+          "jobQueueName" : "LowPriority",
+          "state" : "ENABLED",
+          "priority" : 1,
+          "computeEnvironmentOrder" : [ {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the P2OnDemand compute environment.",
+        "id" : "to-describe-a-compute-environment-1481153713334",
+        "input" : {
+          "computeEnvironments" : [ "P2OnDemand" ]
+        },
+        "output" : {
+          "computeEnvironments" : [ {
+            "computeEnvironmentName" : "P2OnDemand",
+            "computeEnvironmentArn" : "arn:aws:batch:us-east-1:012345678910:compute-environment/P2OnDemand",
+            "ecsClusterArn" : "arn:aws:ecs:us-east-1:012345678910:cluster/P2OnDemand_Batch_2c06f29d-d1fe-3a49-879d-42394c86effc",
+            "type" : "MANAGED",
+            "state" : "ENABLED",
+            "status" : "VALID",
+            "statusReason" : "ComputeEnvironment Healthy",
+            "computeResources" : {
+              "type" : "EC2",
+              "minvCpus" : 0,
+              "maxvCpus" : 128,
+              "desiredvCpus" : 48,
+              "instanceTypes" : [ "p2" ],
+              "subnets" : [ "subnet-220c0e0a", "subnet-1a95556d", "subnet-978f6dce" ],
+              "securityGroupIds" : [ "sg-cf5093b2" ],
+              "ec2KeyPair" : "id_rsa",
+              "instanceRole" : "ecsInstanceRole",
+              "tags" : { }
+            },
+            "serviceRole" : "arn:aws:iam::012345678910:role/AWSBatchServiceRole"
+          } ]
+        },
+        "title" : "To describe a compute environment"
+      } ],
+      "DescribeJobDefinitions" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes all of your active job definitions.",
+        "id" : "to-describe-active-job-definitions-1481153895831",
+        "input" : {
+          "status" : "ACTIVE"
+        },
+        "output" : {
+          "jobDefinitions" : [ {
+            "jobDefinitionName" : "sleep60",
+            "jobDefinitionArn" : "arn:aws:batch:us-east-1:012345678910:job-definition/sleep60:1",
+            "revision" : 1,
+            "status" : "ACTIVE",
+            "type" : "container",
+        "title" : "TagResource Example"
+      } ],
+      "TerminateJob" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example terminates a job with the specified job ID.",
+        "id" : "to-terminate-a-job-1481154558276",
+        "input" : {
+          "jobId" : "34b715df-77e8-72af-d8de-8e2214736d73",
+          "reason" : "Terminating job."
+        },
+        "output" : { },
+        "title" : "To terminate a job"
+      } ],
+      "UntagResource" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This demonstrates calling the UntagResource action.",
+        "id" : "untagresource-example-1591292811042",
+        "input" : {
+          "resourceArn" : "arn:aws:batch:us-east-1:123456789012:job-definition/sleep30:1",
+          "tagKeys" : [ "Stage" ]
+        },
+        "output" : { },
+        "title" : "UntagResource Example"
+      } ],
+      "UpdateComputeEnvironment" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example disables the P2OnDemand compute environment so it can be deleted.",
+        "id" : "to-update-a-compute-environment-1481154702731",
+        "input" : {
+          "computeEnvironment" : "P2OnDemand",
+          "state" : "DISABLED"
+        },
+        "output" : {
+          "computeEnvironmentName" : "P2OnDemand",
+          "computeEnvironmentArn" : "arn:aws:batch:us-east-1:012345678910:compute-environment/P2OnDemand"
+        },
+        "title" : "To update a compute environment"
+      } ],
+      "UpdateJobQueue" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }

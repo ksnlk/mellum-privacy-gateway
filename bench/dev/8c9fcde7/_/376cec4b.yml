@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: helix-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "dec3d2b"
+type: Opaque
+data:
+  DB_PASSWORD: aGVyei5pc3JhZWwuaW1hZ2U=
+  STRIPE_KEY: c2tfbGl2ZV90Tm54QWxaMTFsRFhGMUZQY2VielY3N3g=
+  ca.crt.sha256: 6947a76bf507597e7ee6a9bcda3d99522508feba242ef95bd1bc8a5086c47cb2
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: helix-payments-config
+data:
+  DB_HOST: "vault-mq-01.int.helix-internal.net"
+  SENTRY_HOST: "storage.googleapis.com"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

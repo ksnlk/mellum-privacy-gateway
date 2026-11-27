@@ -1,0 +1,15 @@
+monitoring: vega.vantor.net
+database:
+  host: nimbus.vantor.net
+  port: 5432
+queue: tarvos.vantor.net
+backup_target: hermes.vantor.net
+website: www.vantor.net
+payments_api: https://api.mailvault.com/v2
+partner_drop: files.mailvault.de
+allow_sources:
+  - 185.194.224.204
+  - 185.199.108.153
+  - 185.194.24.152
+ntp: 212.18.3.19
+mirrors: [grafana.wikimedia.org, ftp.gnu.org]

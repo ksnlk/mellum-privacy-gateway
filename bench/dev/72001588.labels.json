@@ -1,0 +1,1250 @@
+{
+ "repo": "72001588",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/919469cb.ini",
+   "line": 208,
+   "start": 14,
+   "end": 33,
+   "category": "Password:Key:Secret",
+   "mutation": "rename",
+   "forms": [
+    "WJJKIRXGSAHBBLKJAKU"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/919469cb.ini",
+   "line": 209,
+   "start": 23,
+   "end": 51,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "DKXGJAPTGVZUDOOKJDTXRIOQPOUQ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/ad0c8ee5.ini",
+   "line": 188,
+   "start": 26,
+   "end": 45,
+   "category": "Password:Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "VIRXBLQJZDQZDERTVOC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/ad0c8ee5.ini",
+   "line": 189,
+   "start": 23,
+   "end": 51,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "PLQBGECEELIHDISEXZYKCXIOVZEN"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "etc/519f7a46.ini",
+   "line": 208,
+   "start": 26,
+   "end": 45,
+   "category": "Password:Key:Secret",
+   "mutation": "comment",
+   "forms": [
+    "RRCFRWXXRFGOVKFMJEO"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "etc/519f7a46.ini",
+   "line": 209,
+   "start": 23,
+   "end": 51,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "KVBFLSJTXYNLGCRJUBZRROWHOUOP"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "kube/template/6887e6ef.yml",
+   "line": 7,
+   "start": 18,
+   "end": 41,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "0czz55.39ld9859v2689066"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "kube/template/a2b952af.yml",
+   "line": 12,
+   "start": 18,
+   "end": 41,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "9six30.73qi5060y0714087"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "_/914e26eb.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-cache-08.int.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/914e26eb.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Vogel2004?"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/914e26eb.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "zEHCzKcRnoQbYB9yRHqauW7V8KhhdsJP"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/914e26eb.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "vu6jyipcq7r1igs4opkk5rrobp88jgk2"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/2c494009.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Seelinde77?"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/7283e958.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "aGFja2VkLWdsb2JhbC1ob3N0LWhhd2tleWUxNw==",
+    "hacked-global-host-hawkeye17"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/7283e958.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9sbXJVOFRrempWYlY3dDEzMWZiR2hYMGI=",
+    "sk_live_lmrU8TkzjVbV7t131fbGhX0b"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/7283e958.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-api-05.corp.quarzo-internal.net"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/3bddfdd0.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vpn-gw.brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/3bddfdd0.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_t7UeGsdWI6TzpWqnERc7v7227PaORVMlblQh"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/4dc3cee2.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-primary.helix.cloud"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "test/4dc3cee2.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "YWRtaW46dG9iaWFzLWFnbm9zdGlj",
+    "admin:tobias-agnostic"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/4dc3cee2.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "8ajo5k4lbyn4hr1l2awdnehvgxnii66n"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/e9132d52.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "refreshing_dismiss_loewe_send"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/e9132d52.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-api-05.corp.acme-internal.net"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.helix.net"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.helix.net"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.helix.net"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.9.64.0/24"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.9.64.25"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.helix.net"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.helix.net"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.helix.net"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.helix.net"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.helix.net"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.9.64.175"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Lina Koch"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "lina.koch@gmail.com"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 3012614"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Sarah Zimmermann"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "sarah.zimmermann@gmail.com"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 7224589"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/4a6e201d.py",
+   "line": 12,
+   "whole_line": "    export AWS_ACCESS_KEY_ID='AK123'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 364,
+   "whole_line": "                    'aws_secret_access_key': aws_secret_access_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 503,
+   "whole_line": "            conn.APIVersion = '2010-08-31'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 538,
+   "whole_line": "                    reservations.extend(conn.get_all_instances(filters = { filter_key : filter_values }))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 842,
+   "whole_line": "            key_name = self.to_safe('key_' + instance.key_name)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 858,
+   "whole_line": "                    key = self.to_safe(\"security_group_\" + group.name)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 876,
+   "whole_line": "                        key = self.to_safe(\"tag_\" + k + \"=\" + v)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 878,
+   "whole_line": "                        key = self.to_safe(\"tag_\" + k)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 976,
+   "whole_line": "                    key = self.to_safe(\"security_group_\" + instance.security_group.name)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 1069,
+   "whole_line": "                    key = self.to_safe(\"security_group_\" + security_group['SecurityGroupId'])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 1161,
+   "whole_line": "                    key = self.to_safe(\"security_group_\" + security_group['SecurityGroupId'])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 1293,
+   "whole_line": "            key = self.to_safe('ec2_' + key)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 1313,
+   "whole_line": "            elif key == 'ec2_tags':",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 1317,
+   "whole_line": "                    key = self.to_safe('ec2_tag_' + k)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 1353,
+   "whole_line": "            key = self.to_safe('ec2_' + self.uncammelize(key))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 1384,
+   "value": "ec2_member_clusters",
+   "source": "creddata"
+  },
+  {
+   "file": "_/4a6e201d.py",
+   "line": 1458,
+   "value": "hosts",
+   "source": "creddata"
+  },
+  {
+   "file": "_/62c135d6.json",
+   "line": 15,
+   "whole_line": "        \"access_key\": \"{{user `aws_access_key`}}\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/62c135d6.json",
+   "line": 16,
+   "whole_line": "        \"secret_key\": \"{{user `aws_secret_key`}}\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/919469cb.ini",
+   "line": 169,
+   "whole_line": "# Retrieve only instances with (key=value) env=staging tag",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ad0c8ee5.ini",
+   "line": 154,
+   "whole_line": "# Retrieve only instances with (key=value) env=staging tag",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 12,
+   "whole_line": "    export AWS_ACCESS_KEY_ID='AK123'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 388,
+   "whole_line": "                    'aws_secret_access_key': aws_secret_access_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 538,
+   "whole_line": "            conn.APIVersion = '2010-08-31'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 586,
+   "whole_line": "                        reservations.extend(conn.get_all_instances(filters = { filter_key : filter_values }))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 910,
+   "whole_line": "            key_name = self.to_safe('key_' + instance.key_name)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 926,
+   "whole_line": "                    key = self.to_safe(\"security_group_\" + group.name)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 950,
+   "whole_line": "                        key = self.to_safe(\"tag_\" + k + \"=\" + v)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 952,
+   "whole_line": "                        key = self.to_safe(\"tag_\" + k)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 1050,
+   "whole_line": "                    key = self.to_safe(\"security_group_\" + instance.security_group.name)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 1143,
+   "whole_line": "                    key = self.to_safe(\"security_group_\" + security_group['SecurityGroupId'])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 1235,
+   "whole_line": "                    key = self.to_safe(\"security_group_\" + security_group['SecurityGroupId'])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 1371,
+   "whole_line": "            key = self.to_safe('ec2_' + key)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 1391,
+   "whole_line": "            elif key == 'ec2_tags':",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 1395,
+   "whole_line": "                    key = self.to_safe('ec2_tag_' + k)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 1433,
+   "whole_line": "            key = self.to_safe('ec2_' + self.uncammelize(key))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 1464,
+   "value": "ec2_member_clusters",
+   "source": "creddata"
+  },
+  {
+   "file": "_/eb486ff5.py",
+   "line": 1538,
+   "value": "hosts",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/etc/163cd050.j2",
+   "line": 15,
+   "whole_line": "ETCD_INITIAL_CLUSTER_TOKEN=\"new-cluster\"",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/etc/189f3770.erb",
+   "line": 7,
+   "value": "etcd-cluster-01",
+   "source": "creddata"
+  },
+  {
+   "file": "etc/519f7a46.ini",
+   "line": 169,
+   "whole_line": "# Retrieve only instances with (key=value) env=staging tag",
+   "source": "creddata"
+  },
+  {
+   "file": "etc/ddfe0c7c.erb",
+   "line": 6,
+   "value": "etcd-cluster-01",
+   "source": "creddata"
+  },
+  {
+   "file": "example/fbeb53bc.json",
+   "line": 6,
+   "whole_line": "\t\t\t\"password\": \"password\",",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/12925cc4.yaml",
+   "line": 2,
+   "value": "kubeadm.k8s.io/v1beta2",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/12925cc4.yaml",
+   "line": 6,
+   "whole_line": "    token: TOKEN",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/12925cc4.yaml",
+   "line": 7,
+   "value": "mgmt-a-elb-random.region.elb.amazonaws.com:6443",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/85fc2629.yaml",
+   "line": 2,
+   "whole_line": "apiVersion: kubeadm.k8s.io/v1beta2",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/85fc2629.yaml",
+   "line": 19,
+   "value": "kubeadm.k8s.io/v1beta2",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 12,
+   "whole_line": "    export AWS_ACCESS_KEY_ID='AK123'",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 388,
+   "whole_line": "                    'aws_secret_access_key': aws_secret_access_key",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 538,
+   "whole_line": "            conn.APIVersion = '2010-08-31'",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 586,
+   "whole_line": "                        reservations.extend(conn.get_all_instances(filters = { filter_key : filter_values }))",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 910,
+   "whole_line": "            key_name = self.to_safe('key_' + instance.key_name)",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 926,
+   "whole_line": "                    key = self.to_safe(\"security_group_\" + group.name)",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 950,
+   "whole_line": "                        key = self.to_safe(\"tag_\" + k + \"=\" + v)",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 952,
+   "whole_line": "                        key = self.to_safe(\"tag_\" + k)",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 1050,
+   "whole_line": "                    key = self.to_safe(\"security_group_\" + instance.security_group.name)",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 1143,
+   "whole_line": "                    key = self.to_safe(\"security_group_\" + security_group['SecurityGroupId'])",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 1235,
+   "whole_line": "                    key = self.to_safe(\"security_group_\" + security_group['SecurityGroupId'])",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 1371,
+   "whole_line": "            key = self.to_safe('ec2_' + key)",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 1391,
+   "whole_line": "            elif key == 'ec2_tags':",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 1395,
+   "whole_line": "                    key = self.to_safe('ec2_tag_' + k)",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 1433,
+   "whole_line": "            key = self.to_safe('ec2_' + self.uncammelize(key))",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 1464,
+   "value": "ec2_member_clusters",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/0ed4f2dd.py",
+   "line": 1538,
+   "value": "hosts",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/6887e6ef.yml",
+   "line": 4,
+   "whole_line": "    api_lb_ip: 172.20.200.10",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/6887e6ef.yml",
+   "line": 8,
+   "value": "$2b$12$HCHAe/9DLmxyWVGE.0wok.si3AKwlv5uD8/NO7.b1pqhXqg3GVGta",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/a2b952af.yml",
+   "line": 4,
+   "whole_line": "    apiAdvertiseAddress: 192.168.100.100",
+   "source": "creddata"
+  },
+  {
+   "file": "kube/template/a2b952af.yml",
+   "line": 13,
+   "value": "I874F96GY53J4P7R4U01",
+   "source": "creddata"
+  },
+  {
+   "file": "_/914e26eb.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/vantor/ledger/staging"
+  },
+  {
+   "file": "_/914e26eb.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "BILLING_AUTH_TOKEN"
+  },
+  {
+   "file": "_/914e26eb.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "_/914e26eb.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/var/run/secrets/ledger/token"
+  },
+  {
+   "file": "_/914e26eb.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "bcrypt"
+  },
+  {
+   "file": "_/914e26eb.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "_/914e26eb.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "958081706434-xl49fkxmayislwzfefp6bsktnhsyseja.apps.googleusercontent.com"
+  },
+  {
+   "file": "_/914e26eb.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2025-12-14T00:00:00Z"
+  },
+  {
+   "file": "_/914e26eb.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "reports-api-token"
+  },
+  {
+   "file": "_/914e26eb.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6NjkwMTU6b2Zmc2V0OjE0Nw=="
+  },
+  {
+   "file": "_/2c494009.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "five_dorian"
+  },
+  {
+   "file": "_/2c494009.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "shaping93"
+  },
+  {
+   "file": "test/7283e958.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "38ed086"
+  },
+  {
+   "file": "test/7283e958.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "1e38390a477c8d04807b798b0c00c08a9bcf255c5caf720a9ce194f54ce12108"
+  },
+  {
+   "file": "test/7283e958.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "sentry.io"
+  },
+  {
+   "file": "test/7283e958.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/3bddfdd0.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "6.11.35"
+  },
+  {
+   "file": "test/3bddfdd0.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5.30.45"
+  },
+  {
+   "file": "test/3bddfdd0.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-ASkAoeKzMMitJVqktor1LBks0UdXl5o3v6tzJm1807re5SJcxN3bhSSJcvj0ynYokClG0vR7+/ZVubT05l7G0A=="
+  },
+  {
+   "file": "test/3bddfdd0.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "5.24.29"
+  },
+  {
+   "file": "test/3bddfdd0.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-Wl2oOv4jyXIw939qDUqWB3n6PsIA8XLUDxhiqZcoUX2lazrNtlmTuTWNPa3PBlGofR53dxVThY1dF+s5YV+vgg=="
+  },
+  {
+   "file": "test/3bddfdd0.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "5.4.33"
+  },
+  {
+   "file": "test/3bddfdd0.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-73QPNUVw3qV+RcxWc4edU+ySxhrJKw9P8RSo4zco5IUFp70LFlMgmZuKSizlrX1rZ75NEyIhogKtSxh6gkWdcw=="
+  },
+  {
+   "file": "test/4dc3cee2.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "ZQNCH5BOQKWPA6R0GT145OYLZV"
+  },
+  {
+   "file": "test/4dc3cee2.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "e5e482cc-59c3-49c1-9452-ebf1712643cb"
+  },
+  {
+   "file": "test/4dc3cee2.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "auth0.com"
+  },
+  {
+   "file": "test/4dc3cee2.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/e9132d52.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIgyjTTrolhHV9DBNk4ePxllZg9s9l43HRSm7aMblNJa/"
+  },
+  {
+   "file": "other/e9132d52.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "3ee2f83f32583fc76b1c09f4f4bb47b4bed84728e9f6681cebe868e321103dde"
+  },
+  {
+   "file": "other/e9132d52.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/e9132d52.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.helix.net"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sftp.paycore.de"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "185.40.154.81"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Eva Hoffmann"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Felix Braun"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.helix.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "www.helix.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.paycore.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "185.40.154.81"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Eva Hoffmann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "eva.hoffmann@helix.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Max Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "max.mustermann@example.org"
+  }
+ ]
+}

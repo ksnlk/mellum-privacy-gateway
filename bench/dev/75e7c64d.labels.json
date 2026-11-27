@@ -1,0 +1,1092 @@
+{
+ "repo": "75e7c64d",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/9dd3c751.json",
+   "line": 58,
+   "start": 39,
+   "end": 46,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "uczrdyo"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/9dd3c751.json",
+   "line": 62,
+   "start": 39,
+   "end": 46,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "heyfefr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "conf/2a39f30f.yml",
+   "line": 19,
+   "start": 18,
+   "end": 25,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "peticyu"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "conf/cb047af3.yml",
+   "line": 21,
+   "start": 18,
+   "end": 25,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "lydwgvw"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "other/b3db5f30.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Clara Krueger"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/b3db5f30.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben.braun@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/b3db5f30.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 1688 5136"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/b3db5f30.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.66.195.30"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/b3db5f30.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "academic_belong_yok_attribute"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/c5f86a92.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "replicate.pferd.stamping.mitre"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/c5f86a92.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-mq-05.prod.quarzo-internal.net"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/609f896c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "p.koch@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/609f896c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 8395 8206"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/609f896c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "H3rz88"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/609f896c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE31462636645836029772"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/8e864990.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.Bko-DLjjG6Z3Uo819Qk-bmCRVb8iit-M3QtJiyQv.NgQrYR8Mr3YrFYBKvJM0FUBrkqhLlonCQeF6TELfLl1"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/8e864990.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth.8g2kl1.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/5b3f1e90.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y2VyZV9wbGF0ZWFfbHVmdDg=",
+    "cere_platea_luft8"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/5b3f1e90.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV90MThDVjBPRUFHV2dRa3k5NHBCdmxrdlM=",
+    "sk_live_t18CV0OEAGWgQky94pBvlkvS"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/5b3f1e90.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing.uu30d5.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/bb0d9ef1.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-prod.d7efa8tc7n8s.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/bb0d9ef1.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "YWRtaW46bG9jYWxlNzcy",
+    "admin:locale772"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "_/bb0d9ef1.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "1nxelr0w1dkesjae2vocnv0ojygfuiga"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.helix.net"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.helix.net"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.helix.net"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.199.75.0/24"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.199.75.105"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.helix.net"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.helix.net"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.helix.net"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.helix.net"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.helix.net"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "91.199.75.202"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Eva Zimmermann"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "eva.zimmermann@gmx.de"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 8958710"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Lina Schmidt"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "lina.schmidt@t-online.de"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 4955192"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/30ece756.py",
+   "line": 117,
+   "whole_line": "            redis_key = redis_key + \"_PIPELINE\" if frame_type == \"PIPELINE\" else redis_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46f1989d.py",
+   "line": 175,
+   "whole_line": "                event_key=\"AGENT_ACTION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46f1989d.py",
+   "line": 222,
+   "whole_line": "            self.analytics_client.track(event_key=\"PPO_INTERNALS\", data={\"value_loss\": value_loss, \"action_loss\": action_loss, \"entropy\": entropy})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46f1989d.py",
+   "line": 247,
+   "whole_line": "        self.analytics_client.track(event_key=\"REWARD\", data={\"reward\": self.current_reward, \"total_reward\": self.cumulative_reward})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46f1989d.py",
+   "line": 250,
+   "whole_line": "            self.analytics_client.track(event_key=\"TOTAL_REWARD\", data={\"reward\": self.cumulative_reward})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46f6519d.py",
+   "line": 195,
+   "whole_line": "                event_key=\"AGENT_ACTION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46f6519d.py",
+   "line": 213,
+   "whole_line": "            self.analytics_client.track(event_key=\"AGENT_MODE\", data={\"mode\": f\"Observing - {self.remaining_observe_steps} Steps Remaining\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46f6519d.py",
+   "line": 249,
+   "whole_line": "        self.analytics_client.track(event_key=\"REWARD\", data={\"reward\": self.current_reward, \"total_reward\": self.cumulative_reward})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46f6519d.py",
+   "line": 255,
+   "whole_line": "            self.analytics_client.track(event_key=\"TOTAL_REWARD\", data={\"reward\": self.cumulative_reward})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46f6519d.py",
+   "line": 263,
+   "whole_line": "            self.analytics_client.track(event_key=\"AGENT_MODE\", data={\"mode\": f\"Observing - {self.observe_steps - self.current_step} Steps Remaining\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46f6519d.py",
+   "line": 266,
+   "whole_line": "            self.analytics_client.track(event_key=\"AGENT_MODE\", data={\"mode\": \"Training\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46f6519d.py",
+   "line": 269,
+   "whole_line": "            self.analytics_client.track(event_key=\"AGENT_MODE\", data={\"mode\": \"Evaluating\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46f6519d.py",
+   "line": 292,
+   "value": "utf-8",
+   "source": "creddata"
+  },
+  {
+   "file": "_/841e3aef.py",
+   "line": 100,
+   "value": "analytics",
+   "source": "creddata"
+  },
+  {
+   "file": "_/841e3aef.py",
+   "line": 103,
+   "whole_line": "            self.analytics_client.track(event_key=\"RESET_DASHBOARD\", data={})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/841e3aef.py",
+   "line": 329,
+   "whole_line": "                if key_event == \"DOWN\":",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9dd3c751.json",
+   "line": 63,
+   "value": "2026-12-11T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ace41640.py",
+   "line": 22,
+   "value": "analytics",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ace41640.py",
+   "line": 55,
+   "whole_line": "            event_key=\"NEW_EPISODE\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ace41640.py",
+   "line": 65,
+   "whole_line": "            event_key=\"END_EPISODE\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ace41640.py",
+   "line": 79,
+   "whole_line": "            event_key=\"EPISODE_STEP\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ace41640.py",
+   "line": 128,
+   "whole_line": "                            event_key=\"GAME_INPUT\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ace41640.py",
+   "line": 156,
+   "whole_line": "                            event_key=\"GAME_INPUT\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ace41640.py",
+   "line": 177,
+   "whole_line": "                        event_key=\"GAME_INPUT\",",
+   "source": "creddata"
+  },
+  {
+   "file": "browser/0f6303ab.py",
+   "line": 53,
+   "whole_line": "        # print(\"-- key=\"+str(key))",
+   "source": "creddata"
+  },
+  {
+   "file": "browser/0f6303ab.py",
+   "line": 101,
+   "whole_line": "            # Send key event to cef: RAWKEYDOWN",
+   "source": "creddata"
+  },
+  {
+   "file": "browser/0f6303ab.py",
+   "line": 112,
+   "whole_line": "        # Send key event to cef: CHAR",
+   "source": "creddata"
+  },
+  {
+   "file": "browser/0f6303ab.py",
+   "line": 139,
+   "whole_line": "        # print(\"-- key=\"+str(key))",
+   "source": "creddata"
+  },
+  {
+   "file": "client/726dc9bc.py",
+   "line": 20,
+   "whole_line": "        self.project_key = project_key",
+   "source": "creddata"
+  },
+  {
+   "file": "client/726dc9bc.py",
+   "line": 36,
+   "whole_line": "                \"event_key\": event_key,",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/2a39f30f.yml",
+   "line": 27,
+   "whole_line": "    redis_key: SERPENT:FRAMES",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/2a39f30f.yml",
+   "line": 30,
+   "whole_line": "    redis_key: SERPENT:INPUTS",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/2a39f30f.yml",
+   "line": 34,
+   "whole_line": "    redis_key: SERPENT:RECORDED_INPUTS",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/2a39f30f.yml",
+   "line": 37,
+   "whole_line": "    redis_key_prefix: SERPENT:VISUAL_DEBUGGER",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/cb047af3.yml",
+   "line": 29,
+   "whole_line": "    redis_key: SERPENT:FRAMES",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/cb047af3.yml",
+   "line": 32,
+   "whole_line": "    redis_key: SERPENT:INPUTS",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/cb047af3.yml",
+   "line": 36,
+   "whole_line": "    redis_key: SERPENT:RECORDED_INPUTS",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/cb047af3.yml",
+   "line": 39,
+   "whole_line": "    redis_key_prefix: SERPENT:VISUAL_DEBUGGER",
+   "source": "creddata"
+  },
+  {
+   "file": "model/4ca0e8bd.py",
+   "line": 13,
+   "whole_line": "    project_key = Optional(str)",
+   "source": "creddata"
+  },
+  {
+   "file": "model/4ca0e8bd.py",
+   "line": 96,
+   "whole_line": "    event_key = Optional(str)",
+   "source": "creddata"
+  },
+  {
+   "file": "model/4ca0e8bd.py",
+   "line": 124,
+   "whole_line": "    event_key = Optional(str)",
+   "source": "creddata"
+  },
+  {
+   "file": "script/b131c39a.py",
+   "line": 8,
+   "whole_line": "        event_key=\"episode\",",
+   "source": "creddata"
+  },
+  {
+   "file": "script/b131c39a.py",
+   "line": 18,
+   "whole_line": "        event_key=\"episode_step\",",
+   "source": "creddata"
+  },
+  {
+   "file": "script/b131c39a.py",
+   "line": 28,
+   "whole_line": "        event_key=\"total_steps\",",
+   "source": "creddata"
+  },
+  {
+   "file": "script/b131c39a.py",
+   "line": 38,
+   "whole_line": "        event_key=\"reward\",",
+   "source": "creddata"
+  },
+  {
+   "file": "script/b131c39a.py",
+   "line": 48,
+   "whole_line": "        event_key=\"total_reward\",",
+   "source": "creddata"
+  },
+  {
+   "file": "script/b131c39a.py",
+   "line": 58,
+   "whole_line": "        event_key=\"reward\",",
+   "source": "creddata"
+  },
+  {
+   "file": "script/b131c39a.py",
+   "line": 69,
+   "whole_line": "        event_key=\"reward\",",
+   "source": "creddata"
+  },
+  {
+   "file": "other/b3db5f30.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "8.8.8.8"
+  },
+  {
+   "file": "other/b3db5f30.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "6.11.3"
+  },
+  {
+   "file": "other/b3db5f30.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:7b08806ac7f9965369033df2b255c72604c0e00421aaaff12373b07731f24b7c"
+  },
+  {
+   "file": "other/b3db5f30.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/b3db5f30.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/c5f86a92.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAjyihVqZi1Ps2xDHpXbkj/pLPtazz4hzjkKJD63Mx7S"
+  },
+  {
+   "file": "other/c5f86a92.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "d166770eaffe71269515d93c3d96fbd757258d414791bf6a7837c04f4825853a"
+  },
+  {
+   "file": "other/c5f86a92.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/c5f86a92.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "_/609f896c.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "_/609f896c.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "user@example.com"
+  },
+  {
+   "file": "_/609f896c.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "test/8e864990.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "3.14.37"
+  },
+  {
+   "file": "test/8e864990.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "88657e5b024bde56444b4dfd08579adb0635822c"
+  },
+  {
+   "file": "test/8e864990.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "7SFKQCG1CZJ7N2PGDFTZWWLL25"
+  },
+  {
+   "file": "test/8e864990.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "test/8e864990.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "7Y469ITAX1Q4OZZC0JWOW2S0N0"
+  },
+  {
+   "file": "test/8e864990.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "src/5b3f1e90.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "cb426d4"
+  },
+  {
+   "file": "src/5b3f1e90.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "85a70b76f8c0cdef354062ae1f9ccc387fe1079d26aa53b269b518261c0d88f0"
+  },
+  {
+   "file": "src/5b3f1e90.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "auth0.com"
+  },
+  {
+   "file": "src/5b3f1e90.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/bb0d9ef1.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "H25Z14MDI8GI82RKEE3IP7P0KQ"
+  },
+  {
+   "file": "_/bb0d9ef1.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "e0e20313-da54-490b-b579-e3bdc7c14710"
+  },
+  {
+   "file": "_/bb0d9ef1.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "_/bb0d9ef1.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "files.mailvault.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "91.199.210.95"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "mirrors.kernel.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.gnome.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.helix.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.helix.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "kunden.helix.net"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Mia Richter"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.helix.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kunden.helix.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.mailvault.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "91.199.210.95"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "mirrors.kernel.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.gnome.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Mia Richter"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "mia.richter@helix.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Erika Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "erika@example.com"
+  }
+ ]
+}

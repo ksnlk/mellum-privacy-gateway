@@ -1,0 +1,543 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2015-10-01",
+    "endpointPrefix":"gamelift",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"Amazon GameLift",
+    "serviceId":"GameLift",
+    "signatureVersion":"v4",
+    "targetPrefix":"GameLift",
+    "uid":"gamelift-2015-10-01"
+  },
+  "operations":{
+    "AcceptMatch":{
+      "name":"AcceptMatch",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AcceptMatchInput"},
+      "output":{"shape":"AcceptMatchOutput"},
+      "errors":[
+        {"shape":"InvalidRequestException"},
+        {"shape":"NotFoundException"},
+        {"shape":"InternalServiceException"},
+        {"shape":"UnsupportedRegionException"}
+      ],
+      "documentation":"<p>Registers a player's acceptance or rejection of a proposed FlexMatch match. A matchmaking configuration may require player acceptance; if so, then matches built with that configuration cannot be completed unless all players accept the proposed match within a specified time limit. </p> <p>When FlexMatch builds a match, all the matchmaking tickets involved in the proposed match are placed into status <code>REQUIRES_ACCEPTANCE</code>. This is a trigger for your game to get acceptance from all players in the ticket. Acceptances are only valid for tickets when they are in this status; all other acceptances result in an error.</p> <p>To register acceptance, specify the ticket ID, a response, and one or more players. Once all players have registered acceptance, the matchmaking tickets advance to status <code>PLACING</code>, where a new game session is created for the match. </p> <p>If any player rejects the match, or if acceptances are not received before a specified timeout, the proposed match is dropped. The matchmaking tickets are then handled in one of two ways: For tickets where one or more players rejected the match, the ticket status is returned to <code>SEARCHING</code> to find a new match. For tickets where one or more players failed to respond, the ticket status is set to <code>CANCELLED</code>, and processing is terminated. A new matchmaking request for these players can be submitted as needed. </p> <p> <b>Learn more</b> </p> <p> <a href=\"https://docs.aws.amazon.com/gamelift/latest/flexmatchguide/match-client.html\"> Add FlexMatch to a game client</a> </p> <p> <a href=\"https://docs.aws.amazon.com/gamelift/latest/flexmatchguide/match-events.html\"> FlexMatch events</a> (reference)</p> <p> <b>Related actions</b> </p> <p> <a>StartMatchmaking</a> | <a>DescribeMatchmaking</a> | <a>StopMatchmaking</a> | <a>AcceptMatch</a> | <a>StartMatchBackfill</a> | <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/reference-awssdk.html#reference-awssdk-resources-fleets\">All APIs by task</a> </p>"
+      "input":{"shape":"ResumeGameServerGroupInput"},
+      "output":{"shape":"ResumeGameServerGroupOutput"},
+      "errors":[
+        {"shape":"InvalidRequestException"},
+        {"shape":"NotFoundException"},
+        {"shape":"UnauthorizedException"},
+        {"shape":"InternalServiceException"}
+      ],
+      "documentation":"<p> <b>This operation is used with the GameLift FleetIQ solution and game server groups.</b> </p> <p>Reinstates activity on a game server group after it has been suspended. A game server group might be suspended by the<a>SuspendGameServerGroup</a> operation, or it might be suspended involuntarily due to a configuration problem. In the second case, you can manually resume activity on the group once the configuration problem has been resolved. Refer to the game server group status and status reason for more information on why group activity is suspended.</p> <p>To resume activity, specify a game server group ARN and the type of activity to be resumed. If successful, a <a>GameServerGroup</a> object is returned showing that the resumed activity is no longer listed in <code>SuspendedActions</code>. </p> <p> <b>Learn more</b> </p> <p> <a href=\"https://docs.aws.amazon.com/gamelift/latest/fleetiqguide/gsg-intro.html\">GameLift FleetIQ Guide</a> </p> <p> <b>Related actions</b> </p> <p> <a>CreateGameServerGroup</a> | <a>ListGameServerGroups</a> | <a>DescribeGameServerGroup</a> | <a>UpdateGameServerGroup</a> | <a>DeleteGameServerGroup</a> | <a>ResumeGameServerGroup</a> | <a>SuspendGameServerGroup</a> | <a>DescribeGameServerInstances</a> | <a href=\"https://docs.aws.amazon.com/gamelift/latest/fleetiqguide/reference-awssdk-fleetiq.html\">All APIs by task</a> </p>"
+    },
+    "SearchGameSessions":{
+      "name":"SearchGameSessions",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"SearchGameSessionsInput"},
+      "output":{"shape":"SearchGameSessionsOutput"},
+      "errors":[
+        {"shape":"InternalServiceException"},
+        {"shape":"NotFoundException"},
+        {"shape":"InvalidRequestException"},
+        {"shape":"UnauthorizedException"},
+        {"shape":"TerminalRoutingStrategyException"}
+      ],
+      "documentation":"<p>Retrieves all active game sessions that match a set of search criteria and sorts them into a specified order. </p> <p>When searching for game sessions, you specify exactly where you want to search and provide a search filter expression, a sort expression, or both. A search request can search only one fleet, but it can search all of a fleet's locations. </p> <p>This operation can be used in the following ways: </p> <ul> <li> <p>To search all game sessions that are currently running on all locations in a fleet, provide a fleet or alias ID. This approach returns game sessions in the fleet's home Region and all remote locations that fit the search criteria.</p> </li> <li> <p>To search all game sessions that are currently running on a specific fleet location, provide a fleet or alias ID and a location name. For location, you can specify a fleet's home Region or any remote location.</p> </li> </ul> <p>Use the pagination parameters to retrieve results as a set of sequential pages. </p> <p>If successful, a <code>GameSession</code> object is returned for each game session that matches the request. Search finds game sessions that are in <code>ACTIVE</code> status only. To retrieve information on game sessions in other statuses, use <a>DescribeGameSessions</a>.</p> <p>You can search or sort by the following game session attributes:</p> <ul> <li> <p> <b>gameSessionId</b> -- A unique identifier for the game session. You can use either a <code>GameSessionId</code> or <code>GameSessionArn</code> value. </p> </li> <li> <p> <b>gameSessionName</b> -- Name assigned to a game session. This value is set when requesting a new game session with <a>CreateGameSession</a> or updating with <a>UpdateGameSession</a>. Game session names do not need to be unique to a game session.</p> </li> <li> <p> <b>gameSessionProperties</b> -- Custom data defined in a game session's <code>GameProperty</code> parameter. <code>GameProperty</code> values are stored as key:value pairs; the filter expression must indicate the key and a string to search the data values for. For example, to search for game sessions with custom data containing the key:value pair \"gameMode:brawl\", specify the following: <code>gameSessionProperties.gameMode = \"brawl\"</code>. All custom data values are searched as strings.</p> </li> <li> <p> <b>maximumSessions</b> -- Maximum number of player sessions allowed for a game session. This value is set when requesting a new game session with <a>CreateGameSession</a> or updating with <a>UpdateGameSession</a>.</p> </li> <li> <p> <b>creationTimeMillis</b> -- Value indicating when a game session was created. It is expressed in Unix time as milliseconds.</p> </li> <li> <p> <b>playerSessionCount</b> -- Number of players currently connected to a game session. This value changes rapidly as players join the session or drop out.</p> </li> <li> <p> <b>hasAvailablePlayerSessions</b> -- Boolean value indicating whether a game session has reached its maximum number of players. It is highly recommended that all search requests include this filter attribute to optimize search performance and return only sessions that players can join. </p> </li> </ul> <note> <p>Returned values for <code>playerSessionCount</code> and <code>hasAvailablePlayerSessions</code> change quickly as players join sessions and others drop out. Results should be considered a snapshot in time. Be sure to refresh search results often, and handle sessions that fill up before a player can join. </p> </note> <p> <b>Related actions</b> </p> <p> <a>CreateGameSession</a> | <a>DescribeGameSessions</a> | <a>DescribeGameSessionDetails</a> | <a>SearchGameSessions</a> | <a>UpdateGameSession</a> | <a>GetGameSessionLogUrl</a> | <a>StartGameSessionPlacement</a> | <a>DescribeGameSessionPlacement</a> | <a>StopGameSessionPlacement</a> | <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/reference-awssdk.html#reference-awssdk-resources-fleets\">All APIs by task</a> </p>"
+    },
+    "StartFleetActions":{
+      "name":"StartFleetActions",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"StartFleetActionsInput"},
+      "output":{"shape":"StartFleetActionsOutput"},
+      "errors":[
+        {"shape":"InternalServiceException"},
+        {"shape":"InvalidRequestException"},
+        {"shape":"UnauthorizedException"},
+        {"shape":"NotFoundException"}
+      ],
+      "documentation":"<p>Resumes certain types of activity on fleet instances that were suspended with <a>StopFleetActions</a>. For multi-location fleets, fleet actions are managed separately for each location. Currently, this operation is used to restart a fleet's auto-scaling activity.</p> <p>This operation can be used in the following ways: </p> <ul> <li> <p>To restart actions on instances in the fleet's home Region, provide a fleet ID and the type of actions to resume. </p> </li> <li> <p>To restart actions on instances in one of the fleet's remote locations, provide a fleet ID, a location name, and the type of actions to resume. </p> </li> </ul> <p>If successful, GameLift once again initiates scaling events as triggered by the fleet's scaling policies. If actions on the fleet location were never stopped, this operation will have no effect. You can view a fleet's stopped actions using <a>DescribeFleetAttributes</a> or <a>DescribeFleetLocationAttributes</a>.</p> <p> <b>Learn more</b> </p> <p> <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/fleets-intro.html\">Setting up GameLift fleets</a> </p> <p> <b>Related actions</b> </p> <p> <a>CreateFleet</a> | <a>UpdateFleetCapacity</a> | <a>PutScalingPolicy</a> | <a>DescribeEC2InstanceLimits</a> | <a>DescribeFleetAttributes</a> | <a>DescribeFleetLocationAttributes</a> | <a>UpdateFleetAttributes</a> | <a>StopFleetActions</a> | <a>DeleteFleet</a> | <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/reference-awssdk.html#reference-awssdk-resources-fleets\">All APIs by task</a> </p>"
+    },
+    "StartGameSessionPlacement":{
+      "name":"StartGameSessionPlacement",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"StartGameSessionPlacementInput"},
+      "output":{"shape":"StartGameSessionPlacementOutput"},
+        }
+      }
+    },
+    "CreateGameSessionInput":{
+      "type":"structure",
+      "required":["MaximumPlayerSessionCount"],
+      "members":{
+        "FleetId":{
+          "shape":"FleetIdOrArn",
+          "documentation":"<p>A unique identifier for the fleet to create a game session in. You can use either the fleet ID or ARN value. Each request must reference either a fleet ID or alias ID, but not both.</p>"
+        },
+        "AliasId":{
+          "shape":"AliasIdOrArn",
+          "documentation":"<p>A unique identifier for the alias associated with the fleet to create a game session in. You can use either the alias ID or ARN value. Each request must reference either a fleet ID or alias ID, but not both.</p>"
+        },
+        "MaximumPlayerSessionCount":{
+          "shape":"WholeNumber",
+          "documentation":"<p>The maximum number of players that can be connected simultaneously to the game session.</p>"
+        },
+        "Name":{
+          "shape":"NonZeroAndMaxString",
+          "documentation":"<p>A descriptive label that is associated with a game session. Session names do not need to be unique.</p>"
+        },
+        "GameProperties":{
+          "shape":"GamePropertyList",
+          "documentation":"<p>A set of custom properties for a game session, formatted as key:value pairs. These properties are passed to a game server process in the <a>GameSession</a> object with a request to start a new game session.</p>"
+        },
+        "CreatorId":{
+          "shape":"NonZeroAndMaxString",
+          "documentation":"<p>A unique identifier for a player or entity creating the game session. This parameter is required when requesting a new game session on a fleet with a resource creation limit policy. This type of policy limits the number of concurrent active game sessions that one player can create within a certain time span. GameLift uses the CreatorId to evaluate the new request against the policy.</p>"
+        },
+        "GameSessionId":{
+          "shape":"IdStringModel",
+          "documentation":"<p> <i>This parameter is no longer preferred. Please use <code>IdempotencyToken</code> instead.</i> Custom string that uniquely identifies a request for a new game session. Maximum token length is 48 characters. If provided, this string is included in the new game session's ID.</p>"
+        },
+        "IdempotencyToken":{
+          "shape":"IdStringModel",
+          "documentation":"<p>Custom string that uniquely identifies the new game session request. This is useful for ensuring that game session requests with the same idempotency token are processed only once. Subsequent requests with the same string return the original <code>GameSession</code> object, with an updated status. Maximum token length is 48 characters. If provided, this string is included in the new game session's ID. A game session ARN has the following format: <code>arn:aws:gamelift:&lt;region&gt;::gamesession/&lt;fleet ID&gt;/&lt;custom ID string or idempotency token&gt;</code>. Idempotency tokens remain in use for 30 days after a game session has ended; game session objects are retained for this time period and then deleted.</p>"
+        },
+        "GameSessionData":{
+          "shape":"LargeGameSessionData",
+          "documentation":"<p>A set of custom game session properties, formatted as a single string value. This data is passed to a game server process in the <a>GameSession</a> object with a request to start a new game session.</p>"
+        },
+        "Location":{
+          "shape":"LocationStringModel",
+          "documentation":"<p>A fleet's remote location to place the new game session in. If this parameter is not set, the new game session is placed in the fleet's home Region. Specify a remote location with an AWS Region code such as <code>us-west-2</code>. </p>"
+        }
+      },
+      "documentation":"<p>Represents the input for a request operation.</p>"
+    },
+    "CreateGameSessionOutput":{
+          "shape":"MatchmakingAcceptanceTimeoutInteger",
+          "documentation":"<p>The length of time (in seconds) to wait for players to accept a proposed match, if acceptance is required. </p>"
+        },
+        "AcceptanceRequired":{
+          "shape":"BooleanModel",
+          "documentation":"<p>A flag that determines whether a match that was created with this configuration must be accepted by the matched players. To require acceptance, set to <code>TRUE</code>. With this option enabled, matchmaking tickets use the status <code>REQUIRES_ACCEPTANCE</code> to indicate when a completed potential match is waiting for player acceptance. </p>"
+        },
+        "RuleSetName":{
+          "shape":"MatchmakingRuleSetName",
+          "documentation":"<p>A unique identifier for the matchmaking rule set to use with this configuration. You can use either the rule set name or ARN value. A matchmaking configuration can only use rule sets that are defined in the same Region.</p>"
+        },
+        "NotificationTarget":{
+          "shape":"SnsArnStringModel",
+          "documentation":"<p>An SNS topic ARN that is set up to receive matchmaking notifications. See <a href=\"https://docs.aws.amazon.com/gamelift/latest/flexmatchguide/match-notification.html\"> Setting up notifications for matchmaking</a> for more information.</p>"
+        },
+        "AdditionalPlayerCount":{
+          "shape":"WholeNumber",
+          "documentation":"<p>The number of player slots in a match to keep open for future players. For example, if the configuration's rule set specifies a match for a single 12-person team, and the additional player count is set to 2, only 10 players are selected for the match. This parameter is not used if <code>FlexMatchMode</code> is set to <code>STANDALONE</code>.</p>"
+        },
+        "CustomEventData":{
+          "shape":"CustomEventData",
+          "documentation":"<p>Information to be added to all events related to this matchmaking configuration. </p>"
+        },
+        "GameProperties":{
+          "shape":"GamePropertyList",
+          "documentation":"<p>A set of custom properties for a game session, formatted as key:value pairs. These properties are passed to a game server process in the <a>GameSession</a> object with a request to start a new game session (see <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-startsession\">Start a Game Session</a>). This information is added to the new <a>GameSession</a> object that is created for a successful match. This parameter is not used if <code>FlexMatchMode</code> is set to <code>STANDALONE</code>.</p>"
+        },
+        "GameSessionData":{
+          "shape":"GameSessionData",
+          "documentation":"<p>A set of custom game session properties, formatted as a single string value. This data is passed to a game server process in the <a>GameSession</a> object with a request to start a new game session (see <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-startsession\">Start a Game Session</a>). This information is added to the new <a>GameSession</a> object that is created for a successful match. This parameter is not used if <code>FlexMatchMode</code> is set to <code>STANDALONE</code>.</p>"
+        },
+        "BackfillMode":{
+          "shape":"BackfillMode",
+          "documentation":"<p>The method used to backfill game sessions that are created with this matchmaking configuration. Specify <code>MANUAL</code> when your game manages backfill requests manually or does not use the match backfill feature. Specify <code>AUTOMATIC</code> to have GameLift create a <a>StartMatchBackfill</a> request whenever a game session has one or more open slots. Learn more about manual and automatic backfill in <a href=\"https://docs.aws.amazon.com/gamelift/latest/flexmatchguide/match-backfill.html\"> Backfill Existing Games with FlexMatch</a>. Automatic backfill is not available when <code>FlexMatchMode</code> is set to <code>STANDALONE</code>.</p>"
+        },
+        "FlexMatchMode":{
+          "shape":"FlexMatchMode",
+          "documentation":"<p>Indicates whether this matchmaking configuration is being used with GameLift hosting or as a standalone matchmaking solution. </p> <ul> <li> <p> <b>STANDALONE</b> - FlexMatch forms matches and returns match information, including players and team assignments, in a <a href=\"https://docs.aws.amazon.com/gamelift/latest/flexmatchguide/match-events.html#match-events-matchmakingsucceeded\"> MatchmakingSucceeded</a> event.</p> </li> <li> <p> <b>WITH_QUEUE</b> - FlexMatch forms matches and uses the specified GameLift queue to start a game session for the match. </p> </li> </ul>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>A list of labels to assign to the new matchmaking configuration resource. Tags are developer-defined key-value pairs. Tagging AWS resources are useful for resource management, access management and cost allocation. For more information, see <a href=\"https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html\"> Tagging AWS Resources</a> in the <i>AWS General Reference</i>. Once the resource is created, you can use <a>TagResource</a>, <a>UntagResource</a>, and <a>ListTagsForResource</a> to add, remove, and view tags. The maximum tag limit may be lower than stated. See the AWS General Reference for actual tagging limits.</p>"
+        }
+      },
+      "documentation":"<p>Represents the input for a request operation.</p>"
+    },
+    "CreateMatchmakingConfigurationOutput":{
+      "type":"structure",
+      "members":{
+        "Configuration":{
+          "shape":"MatchmakingConfiguration",
+          "shape":"Timestamp",
+          "documentation":"<p>A time stamp indicating when this data object was created. Format is a number expressed in Unix time as milliseconds (for example <code>\"1469498468.057\"</code>).</p>"
+        },
+        "TerminationTime":{
+          "shape":"Timestamp",
+          "documentation":"<p>A time stamp indicating when this data object was terminated. Format is a number expressed in Unix time as milliseconds (for example <code>\"1469498468.057\"</code>).</p>"
+        },
+        "CurrentPlayerSessionCount":{
+          "shape":"WholeNumber",
+          "documentation":"<p>Number of players currently in the game session.</p>"
+        },
+        "MaximumPlayerSessionCount":{
+          "shape":"WholeNumber",
+          "documentation":"<p>The maximum number of players that can be connected simultaneously to the game session.</p>"
+        },
+        "Status":{
+          "shape":"GameSessionStatus",
+          "documentation":"<p>Current status of the game session. A game session must have an <code>ACTIVE</code> status to have player sessions.</p>"
+        },
+        "StatusReason":{
+          "shape":"GameSessionStatusReason",
+          "documentation":"<p>Provides additional information about game session status. <code>INTERRUPTED</code> indicates that the game session was hosted on a spot instance that was reclaimed, causing the active game session to be terminated.</p>"
+        },
+        "GameProperties":{
+          "shape":"GamePropertyList",
+          "documentation":"<p>A set of custom properties for a game session, formatted as key:value pairs. These properties are passed to a game server process in the <a>GameSession</a> object with a request to start a new game session. You can search for active game sessions based on this custom data with <a>SearchGameSessions</a>.</p>"
+        },
+        "IpAddress":{
+          "shape":"IpAddress",
+          "documentation":"<p>The IP address of the game session. To connect to a GameLift game server, an app needs both the IP address and port number.</p>"
+        },
+        "DnsName":{
+          "shape":"DnsName",
+          "documentation":"<p>The DNS identifier assigned to the instance that is running the game session. Values have the following format:</p> <ul> <li> <p>TLS-enabled fleets: <code>&lt;unique identifier&gt;.&lt;region identifier&gt;.amazongamelift.com</code>.</p> </li> <li> <p>Non-TLS-enabled fleets: <code>ec2-&lt;unique identifier&gt;.compute.amazonaws.com</code>. (See <a href=\"https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html#concepts-public-addresses\">Amazon EC2 Instance IP Addressing</a>.)</p> </li> </ul> <p>When connecting to a game session that is running on a TLS-enabled fleet, you must use the DNS name, not the IP address.</p>"
+        },
+        "Port":{
+          "shape":"PortNumber",
+          "documentation":"<p>The port number for the game session. To connect to a GameLift game server, an app needs both the IP address and port number.</p>"
+        },
+        "PlayerSessionCreationPolicy":{
+          "shape":"PlayerSessionCreationPolicy",
+          "documentation":"<p>Indicates whether or not the game session is accepting new players.</p>"
+        },
+        "CreatorId":{
+          "shape":"NonZeroAndMaxString",
+          "documentation":"<p>A unique identifier for a player. This ID is used to enforce a resource protection policy (if one exists), that limits the number of game sessions a player can create.</p>"
+        },
+        "GameSessionData":{
+          "shape":"LargeGameSessionData",
+          "documentation":"<p>A set of custom game session properties, formatted as a single string value. This data is passed to a game server process in the <a>GameSession</a> object with a request to start a new game session.</p>"
+        },
+      },
+      "documentation":"<p>The game instance is currently full and cannot allow the requested player(s) to join. Clients can retry such requests immediately or after a waiting period.</p>",
+      "exception":true
+    },
+    "GameSessionList":{
+      "type":"list",
+      "member":{"shape":"GameSession"}
+    },
+    "GameSessionPlacement":{
+      "type":"structure",
+      "members":{
+        "PlacementId":{
+          "shape":"IdStringModel",
+          "documentation":"<p>A unique identifier for a game session placement.</p>"
+        },
+        "GameSessionQueueName":{
+          "shape":"GameSessionQueueName",
+          "documentation":"<p>A descriptive label that is associated with game session queue. Queue names must be unique within each Region.</p>"
+        },
+        "Status":{
+          "shape":"GameSessionPlacementState",
+          "documentation":"<p>Current status of the game session placement request.</p> <ul> <li> <p> <b>PENDING</b> -- The placement request is currently in the queue waiting to be processed.</p> </li> <li> <p> <b>FULFILLED</b> -- A new game session and player sessions (if requested) have been successfully created. Values for <i>GameSessionArn</i> and <i>GameSessionRegion</i> are available. </p> </li> <li> <p> <b>CANCELLED</b> -- The placement request was canceled with a call to <a>StopGameSessionPlacement</a>.</p> </li> <li> <p> <b>TIMED_OUT</b> -- A new game session was not successfully created before the time limit expired. You can resubmit the placement request as needed.</p> </li> <li> <p> <b>FAILED</b> -- GameLift is not able to complete the process of placing the game session. Common reasons are the game session terminated before the placement process was completed, or an unexpected internal error.</p> </li> </ul>"
+        },
+        "GameProperties":{
+          "shape":"GamePropertyList",
+          "documentation":"<p>A set of custom properties for a game session, formatted as key:value pairs. These properties are passed to a game server process in the <a>GameSession</a> object with a request to start a new game session (see <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-startsession\">Start a Game Session</a>).</p>"
+        },
+        "MaximumPlayerSessionCount":{
+          "shape":"WholeNumber",
+          "documentation":"<p>The maximum number of players that can be connected simultaneously to the game session.</p>"
+        },
+        "GameSessionName":{
+          "shape":"NonZeroAndMaxString",
+          "documentation":"<p>A descriptive label that is associated with a game session. Session names do not need to be unique.</p>"
+        },
+        "GameSessionId":{
+          "shape":"NonZeroAndMaxString",
+          "documentation":"<p>A unique identifier for the game session. This value is set once the new game session is placed (placement status is <code>FULFILLED</code>).</p>"
+        },
+        "GameSessionArn":{
+          "shape":"NonZeroAndMaxString",
+          "documentation":"<p>Identifier for the game session created by this placement request. This value is set once the new game session is placed (placement status is <code>FULFILLED</code>). This identifier is unique across all Regions. You can use this value as a <code>GameSessionId</code> value as needed.</p>"
+        },
+        "GameSessionRegion":{
+          "shape":"NonZeroAndMaxString",
+          "documentation":"<p>Name of the Region where the game session created by this placement request is running. This value is set once the new game session is placed (placement status is <code>FULFILLED</code>).</p>"
+        },
+        "PlayerLatencies":{
+          "shape":"PlayerLatencyList",
+          "documentation":"<p>A set of values, expressed in milliseconds, that indicates the amount of latency that a player experiences when connected to AWS Regions.</p>"
+        },
+          "shape":"MatchmakingIdStringModel",
+          "documentation":"<p>A unique identifier for the matchmaking rule set to use with this configuration. A matchmaking configuration can only use rule sets that are defined in the same Region.</p>"
+        },
+        "RuleSetArn":{
+          "shape":"MatchmakingRuleSetArn",
+          "documentation":"<p>The Amazon Resource Name (<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/s3-arn-format.html\">ARN</a>) associated with the GameLift matchmaking rule set resource that this configuration uses.</p>"
+        },
+        "NotificationTarget":{
+          "shape":"SnsArnStringModel",
+          "documentation":"<p>An SNS topic ARN that is set up to receive matchmaking notifications.</p>"
+        },
+        "AdditionalPlayerCount":{
+          "shape":"WholeNumber",
+          "documentation":"<p>The number of player slots in a match to keep open for future players. For example, if the configuration's rule set specifies a match for a single 12-person team, and the additional player count is set to 2, only 10 players are selected for the match. This parameter is not used when <code>FlexMatchMode</code> is set to <code>STANDALONE</code>.</p>"
+        },
+        "CustomEventData":{
+          "shape":"CustomEventData",
+          "documentation":"<p>Information to attach to all events related to the matchmaking configuration. </p>"
+        },
+        "CreationTime":{
+          "shape":"Timestamp",
+          "documentation":"<p>A time stamp indicating when this data object was created. Format is a number expressed in Unix time as milliseconds (for example <code>\"1469498468.057\"</code>).</p>"
+        },
+        "GameProperties":{
+          "shape":"GamePropertyList",
+          "documentation":"<p>A set of custom properties for a game session, formatted as key:value pairs. These properties are passed to a game server process in the <a>GameSession</a> object with a request to start a new game session (see <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-startsession\">Start a Game Session</a>). This information is added to the new <a>GameSession</a> object that is created for a successful match. This parameter is not used when <code>FlexMatchMode</code> is set to <code>STANDALONE</code>.</p>"
+        },
+        "GameSessionData":{
+          "shape":"GameSessionData",
+          "documentation":"<p>A set of custom game session properties, formatted as a single string value. This data is passed to a game server process in the <a>GameSession</a> object with a request to start a new game session (see <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-startsession\">Start a Game Session</a>). This information is added to the new <a>GameSession</a> object that is created for a successful match. This parameter is not used when <code>FlexMatchMode</code> is set to <code>STANDALONE</code>.</p>"
+        },
+        "BackfillMode":{
+          "shape":"BackfillMode",
+          "documentation":"<p>The method used to backfill game sessions created with this matchmaking configuration. MANUAL indicates that the game makes backfill requests or does not use the match backfill feature. AUTOMATIC indicates that GameLift creates <a>StartMatchBackfill</a> requests whenever a game session has one or more open slots. Learn more about manual and automatic backfill in <a href=\"https://docs.aws.amazon.com/gamelift/latest/flexmatchguide/match-backfill.html\">Backfill existing games with FlexMatch</a>. Automatic backfill is not available when <code>FlexMatchMode</code> is set to <code>STANDALONE</code>.</p>"
+        },
+        "FlexMatchMode":{
+          "shape":"FlexMatchMode",
+          "documentation":"<p>Indicates whether this matchmaking configuration is being used with GameLift hosting or as a standalone matchmaking solution. </p> <ul> <li> <p> <b>STANDALONE</b> - FlexMatch forms matches and returns match information, including players and team assignments, in a <a href=\"https://docs.aws.amazon.com/gamelift/latest/flexmatchguide/match-events.html#match-events-matchmakingsucceeded\"> MatchmakingSucceeded</a> event.</p> </li> <li> <p> <b>WITH_QUEUE</b> - FlexMatch forms matches and uses the specified GameLift queue to start a game session for the match. </p> </li> </ul>"
+        }
+      },
+      "documentation":"<p>Guidelines for use with FlexMatch to match players into games. All matchmaking requests must specify a matchmaking configuration.</p>"
+    },
+    "MatchmakingConfigurationArn":{
+      "type":"string",
+      "documentation":"Data type used for Matchmaking Configuration ARN.",
+      "pattern":"^arn:.*:matchmakingconfiguration\\/[a-zA-Z0-9-\\.]*"
+    },
+    "MatchmakingConfigurationList":{
+      "type":"list",
+      "member":{"shape":"MatchmakingConfiguration"}
+    },
+      "members":{
+        "PlayerId":{
+          "shape":"NonZeroAndMaxString",
+          "documentation":"<p>A unique identifier for a player that is associated with this player session.</p>"
+        },
+        "PlayerSessionId":{
+          "shape":"PlayerSessionId",
+          "documentation":"<p>A unique identifier for a player session.</p>"
+        }
+      },
+      "documentation":"<p>Information about a player session that was created as part of a <a>StartGameSessionPlacement</a> request. This object contains only the player ID and player session ID. To retrieve full details on a player session, call <a>DescribePlayerSessions</a> with the player session ID.</p> <p> <b>Related actions</b> </p> <p> <a>CreatePlayerSession</a> | <a>CreatePlayerSessions</a> | <a>DescribePlayerSessions</a> | <a>StartGameSessionPlacement</a> | <a>DescribeGameSessionPlacement</a> | <a>StopGameSessionPlacement</a> | <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/reference-awssdk.html#reference-awssdk-resources-fleets\">All APIs by task</a> </p>"
+    },
+    "PlacedPlayerSessionList":{
+      "type":"list",
+      "member":{"shape":"PlacedPlayerSession"}
+    },
+    "Player":{
+      "type":"structure",
+      "members":{
+        "PlayerId":{
+          "shape":"NonZeroAndMaxString",
+          "documentation":"<p>A unique identifier for a player</p>"
+        },
+        "PlayerAttributes":{
+          "shape":"PlayerAttributeMap",
+          "documentation":"<p>A collection of key:value pairs containing player information for use in matchmaking. Player attribute keys must match the <i>playerAttributes</i> used in a matchmaking rule set. Example: <code>\"PlayerAttributes\": {\"skill\": {\"N\": \"23\"}, \"gameMode\": {\"S\": \"deathmatch\"}}</code>.</p>"
+        },
+        "Team":{
+          "shape":"NonZeroAndMaxString",
+          "documentation":"<p>Name of the team that the player is assigned to in a match. Team names are defined in a matchmaking rule set.</p>"
+        },
+        "LatencyInMs":{
+          "shape":"LatencyMap",
+          "documentation":"<p>A set of values, expressed in milliseconds, that indicates the amount of latency that a player experiences when connected to AWS Regions. If this property is present, FlexMatch considers placing the match only in Regions for which latency is reported. </p> <p>If a matchmaker has a rule that evaluates player latency, players must report latency in order to be matched. If no latency is reported in this scenario, FlexMatch assumes that no Regions are available to the player and the ticket is not matchable. </p>"
+        }
+      },
+      "documentation":"<p>Represents a player in matchmaking. When starting a matchmaking request, a player has a player ID, attributes, and may have latency data. Team information is added after a match has been successfully completed.</p>"
+    },
+    "PlayerAttributeMap":{
+      "type":"map",
+      "key":{"shape":"NonZeroAndMaxString"},
+      "value":{"shape":"AttributeValue"}
+    },
+    "PlayerData":{
+      "type":"string",
+      "max":2048,
+      "min":1
+    },
+    "PlayerDataMap":{
+      "type":"map",
+      "key":{"shape":"NonZeroAndMaxString"},
+        "FleetArn":{
+          "shape":"FleetArn",
+          "documentation":"<p>The Amazon Resource Name (<a href=\"https://docs.aws.amazon.com/AmazonS3/latest/dev/s3-arn-format.html\">ARN</a>) that is assigned to a GameLift fleet resource and uniquely identifies it. ARNs are unique across all Regions. Format is <code>arn:aws:gamelift:&lt;region&gt;::fleet/fleet-a1234567-b8c9-0d1e-2fa3-b45c6d7e8912</code>.</p>"
+        }
+      },
+      "documentation":"<p>Represents the returned data in response to a request operation.</p>"
+    },
+    "StartGameSessionPlacementInput":{
+      "type":"structure",
+      "required":[
+        "PlacementId",
+        "GameSessionQueueName",
+        "MaximumPlayerSessionCount"
+      ],
+      "members":{
+        "PlacementId":{
+          "shape":"IdStringModel",
+          "documentation":"<p>A unique identifier to assign to the new game session placement. This value is developer-defined. The value must be unique across all Regions and cannot be reused unless you are resubmitting a canceled or timed-out placement request.</p>"
+        },
+        "GameSessionQueueName":{
+          "shape":"GameSessionQueueNameOrArn",
+          "documentation":"<p>Name of the queue to use to place the new game session. You can use either the queue name or ARN value. </p>"
+        },
+        "GameProperties":{
+          "shape":"GamePropertyList",
+          "documentation":"<p>A set of custom properties for a game session, formatted as key:value pairs. These properties are passed to a game server process in the <a>GameSession</a> object with a request to start a new game session (see <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-startsession\">Start a Game Session</a>).</p>"
+        },
+        "MaximumPlayerSessionCount":{
+          "shape":"WholeNumber",
+          "documentation":"<p>The maximum number of players that can be connected simultaneously to the game session.</p>"
+        },
+        "GameSessionName":{
+          "shape":"NonZeroAndMaxString",
+          "documentation":"<p>A descriptive label that is associated with a game session. Session names do not need to be unique.</p>"
+        },
+        "PlayerLatencies":{
+          "shape":"PlayerLatencyList",
+          "documentation":"<p>A set of values, expressed in milliseconds, that indicates the amount of latency that a player experiences when connected to AWS Regions. This information is used to try to place the new game session where it can offer the best possible gameplay experience for the players. </p>"
+        },
+        "DesiredPlayerSessions":{
+          "shape":"DesiredPlayerSessionList",
+          "documentation":"<p>Set of information on each player to create a player session for.</p>"
+        },
+        "GameSessionData":{
+          "shape":"LargeGameSessionData",
+          "documentation":"<p>A set of custom game session properties, formatted as a single string value. This data is passed to a game server process in the <a>GameSession</a> object with a request to start a new game session (see <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-startsession\">Start a Game Session</a>).</p>"
+        }
+      },
+      "documentation":"<p>Represents the input for a request operation.</p>"
+    },
+    "StartGameSessionPlacementOutput":{
+        },
+        "SuspendActions":{
+          "shape":"GameServerGroupActions",
+          "documentation":"<p>The activity to suspend for this game server group.</p>"
+        }
+      }
+    },
+    "SuspendGameServerGroupOutput":{
+      "type":"structure",
+      "members":{
+        "GameServerGroup":{
+          "shape":"GameServerGroup",
+          "documentation":"<p>An object that describes the game server group resource, with the <code>SuspendedActions</code> property updated to reflect the suspended activity.</p>"
+        }
+      }
+    },
+    "Tag":{
+      "type":"structure",
+      "required":[
+        "Key",
+        "Value"
+      ],
+      "members":{
+        "Key":{
+          "shape":"TagKey",
+          "documentation":"<p> The key for a developer-defined key:value pair for tagging an AWS resource. </p>"
+        },
+        "Value":{
+          "shape":"TagValue",
+          "documentation":"<p> The value for a developer-defined key:value pair for tagging an AWS resource. </p>"
+        }
+      },
+      "documentation":"<p> A label that can be assigned to a GameLift resource. </p> <p> <b>Learn more</b> </p> <p> <a href=\"https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html\">Tagging AWS Resources</a> in the <i>AWS General Reference</i> </p> <p> <a href=\"http://aws.amazon.com/answers/account-management/aws-tagging-strategies/\"> AWS Tagging Strategies</a> </p> <p> <b>Related actions</b> </p> <p> <a>TagResource</a> | <a>UntagResource</a> | <a>ListTagsForResource</a> | <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/reference-awssdk.html#reference-awssdk-resources-fleets\">All APIs by task</a> </p>"
+    },
+    "TagKey":{
+      "type":"string",
+      "max":128,
+      "min":1
+    },
+    "TagKeyList":{
+      "type":"list",
+      "member":{"shape":"TagKey"},
+      "max":200,
+      "min":0
+    },
+    "TagList":{
+      "type":"list",
+      "member":{"shape":"Tag"},
+      "max":200,
+      "min":0
+    },
+    "TagResourceRequest":{
+      "type":"structure",
+      "required":[
+        "ResourceARN",
+          "shape":"MatchmakingAcceptanceTimeoutInteger",
+          "documentation":"<p>The length of time (in seconds) to wait for players to accept a proposed match, if acceptance is required.</p>"
+        },
+        "AcceptanceRequired":{
+          "shape":"BooleanModel",
+          "documentation":"<p>A flag that indicates whether a match that was created with this configuration must be accepted by the matched players. To require acceptance, set to TRUE. With this option enabled, matchmaking tickets use the status <code>REQUIRES_ACCEPTANCE</code> to indicate when a completed potential match is waiting for player acceptance. </p>"
+        },
+        "RuleSetName":{
+          "shape":"MatchmakingRuleSetName",
+          "documentation":"<p>A unique identifier for the matchmaking rule set to use with this configuration. You can use either the rule set name or ARN value. A matchmaking configuration can only use rule sets that are defined in the same Region.</p>"
+        },
+        "NotificationTarget":{
+          "shape":"SnsArnStringModel",
+          "documentation":"<p>An SNS topic ARN that is set up to receive matchmaking notifications. See <a href=\"https://docs.aws.amazon.com/gamelift/latest/flexmatchguide/match-notification.html\"> Setting up notifications for matchmaking</a> for more information.</p>"
+        },
+        "AdditionalPlayerCount":{
+          "shape":"WholeNumber",
+          "documentation":"<p>The number of player slots in a match to keep open for future players. For example, if the configuration's rule set specifies a match for a single 12-person team, and the additional player count is set to 2, only 10 players are selected for the match. This parameter is not used if <code>FlexMatchMode</code> is set to <code>STANDALONE</code>.</p>"
+        },
+        "CustomEventData":{
+          "shape":"CustomEventData",
+          "documentation":"<p>Information to add to all events related to the matchmaking configuration. </p>"
+        },
+        "GameProperties":{
+          "shape":"GamePropertyList",
+          "documentation":"<p>A set of custom properties for a game session, formatted as key:value pairs. These properties are passed to a game server process in the <a>GameSession</a> object with a request to start a new game session (see <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-startsession\">Start a Game Session</a>). This information is added to the new <a>GameSession</a> object that is created for a successful match. This parameter is not used if <code>FlexMatchMode</code> is set to <code>STANDALONE</code>.</p>"
+        },
+        "GameSessionData":{
+          "shape":"GameSessionData",
+          "documentation":"<p>A set of custom game session properties, formatted as a single string value. This data is passed to a game server process in the <a>GameSession</a> object with a request to start a new game session (see <a href=\"https://docs.aws.amazon.com/gamelift/latest/developerguide/gamelift-sdk-server-api.html#gamelift-sdk-server-startsession\">Start a Game Session</a>). This information is added to the new <a>GameSession</a> object that is created for a successful match. This parameter is not used if <code>FlexMatchMode</code> is set to <code>STANDALONE</code>.</p>"
+        },
+        "BackfillMode":{
+          "shape":"BackfillMode",
+          "documentation":"<p>The method that is used to backfill game sessions created with this matchmaking configuration. Specify MANUAL when your game manages backfill requests manually or does not use the match backfill feature. Specify AUTOMATIC to have GameLift create a <a>StartMatchBackfill</a> request whenever a game session has one or more open slots. Learn more about manual and automatic backfill in <a href=\"https://docs.aws.amazon.com/gamelift/latest/flexmatchguide/match-backfill.html\">Backfill Existing Games with FlexMatch</a>. Automatic backfill is not available when <code>FlexMatchMode</code> is set to <code>STANDALONE</code>.</p>"
+        },
+        "FlexMatchMode":{
+          "shape":"FlexMatchMode",
+          "documentation":"<p>Indicates whether this matchmaking configuration is being used with GameLift hosting or as a standalone matchmaking solution. </p> <ul> <li> <p> <b>STANDALONE</b> - FlexMatch forms matches and returns match information, including players and team assignments, in a <a href=\"https://docs.aws.amazon.com/gamelift/latest/flexmatchguide/match-events.html#match-events-matchmakingsucceeded\"> MatchmakingSucceeded</a> event.</p> </li> <li> <p> <b>WITH_QUEUE</b> - FlexMatch forms matches and uses the specified GameLift queue to start a game session for the match. </p> </li> </ul>"
+        }
+      },
+      "documentation":"<p>Represents the input for a request operation.</p>"
+    },
+    "UpdateMatchmakingConfigurationOutput":{
+      "type":"structure",
+      "members":{
+        "Configuration":{
+          "shape":"MatchmakingConfiguration",
+          "documentation":"<p>The updated matchmaking configuration.</p>"
+        }
+      },
+      "documentation":"<p>Represents the returned data in response to a request operation.</p>"

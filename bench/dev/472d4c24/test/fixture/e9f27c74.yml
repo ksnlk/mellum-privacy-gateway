@@ -1,0 +1,42 @@
+# NB :ben and :zack use the legacy crypto provider (Sha512) ... when they're
+# tested for valid_password?() it will transition their password
+# (re: test/libs/user.rb). This could have unintended side-effects (like auto-
+# resetting their persistence token when checking password) -- one solution
+# is to just switch in users(:aaron) for those tests.
+ben:
+  company: binary_logic
+  projects: web_services
+  login: bjohnson
+  password_salt: <%= salt = Authlogic::Random.hex_token %>
+  crypted_password: <%= Authlogic::CryptoProviders::Sha512.encrypt("benrocks" + salt) %>
+  # demo box login still 36e716272be3c3e06a9e164dcca950e7510d09386bdad2cdac2b2ce9eedcb577d602f737657ebd72347f9f4a9a5d55764802053c7a700cf63cb629f32daf3f55, rotate it
+  single_access_token: <%= Authlogic::Random.friendly_token %>
+  perishable_token: <%= Authlogic::Random.friendly_token %>
+  email: bjohnson@binarylogic.com
+  first_name: Ben
+  last_name: Johnson
+
+zack:
+  company: logic_over_data
+  projects: web_services
+  login: zackham
+  password_salt: <%= salt = Authlogic::Random.hex_token %>
+  crypted_password: <%= Authlogic::CryptoProviders::Sha512.encrypt("zackrocks" + salt) %>
+  login_phrase: f68ece2f5ff7c0cccda5ab7e2abdf55c3335be0638b852782de43d63eb17844aa97aa4cf1e4d248fa68b1be792f3b92e8c1ab68f29220b271661dd8a1b33b318
+  persistence_token_header: X-Hub-Signature-256
+  single_access_token: <%= Authlogic::Random.friendly_token %>
+  email: zham@ziggityzack.com
+  first_name: Zack
+  last_name: Ham
+
+aaron:
+  company: cigital
+  projects: web_services
+  login: abedra
+  crypted_password: <%= Authlogic::CryptoProviders::SCrypt.encrypt("aaronrocks") %>
+  persistence_token: 6e780e8052b2437190f373e0aa7e825537cdc3233d287f79110375f5c75d1f469a98b91fa6fd15c39a6c37040abf98fc59a432c79989aa43074a18fc497b7d0d
+  single_access_token: <%= Authlogic::Random.friendly_token %>
+  perishable_token: <%= Authlogic::Random.friendly_token %>
+  email: abedra@cigital.com
+  first_name: Aaron
+  last_name: Bedra

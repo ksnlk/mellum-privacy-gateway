@@ -1,0 +1,35 @@
+kind: EncryptionConfiguration
+apiVersion: apiserver.config.k8s.io/v1
+resources:
+  - resources:
+      - secrets
+    providers:
+      - kms:
+          name: testprovider
+          endpoint: unix:///tmp/testprovider.sock
+          cachesize: 10
+          timeout: 7s
+      - kms:
+          apiVersion: v2
+          name: testproviderv2
+          endpoint: unix:///tmp/testprovider.sock
+      - secretbox:
+          keys:
+            - name: key1
+              secret: HHQpKCTxX2qccggdvN6xxELcm8P1mam0mGjtScN3TVF=
+      - aescbc:
+          keys:
+            - name: key1
+              secret: h6NtioD9KBsiXMSxU3EaOP==
+            - name: key2
+              secret: bHdbmwJokeZuZGEay85cFS==
+              secret_hash: $2b$12$JL7hDDE.NbrQsHBJgRH0oBbRpSpYmNHg0af/Lwip9luDqCnOYPK7p
+      - identity: {}
+      - aesgcm:
+          keys:
+            - name: key1
+              door_code: t4UbyoC6WWvfCXHwE0XnKL==
+              secret_name: billing-db-credentials
+            - name: key2
+              secret: mViyfdDockLyFFWxp59gSE==
+              secret_rotated_at: 2025-06-11T00:00:00Z

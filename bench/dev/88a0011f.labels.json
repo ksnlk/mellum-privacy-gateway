@@ -1,0 +1,877 @@
+{
+ "repo": "88a0011f",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/b3356305.md",
+   "line": 317,
+   "start": 48,
+   "end": 64,
+   "category": "CMD Password",
+   "mutation": "b64",
+   "forms": [
+    "a3NoZm93bHMzMTIh",
+    "kshfowls312!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/b3356305.md",
+   "line": 326,
+   "start": 48,
+   "end": 60,
+   "category": "CMD Password",
+   "mutation": "none",
+   "forms": [
+    "humwuupf069!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/b3356305.md",
+   "line": 331,
+   "start": 48,
+   "end": 64,
+   "category": "CMD Password",
+   "mutation": "b64",
+   "forms": [
+    "eWp3d3RweHc1MzQh",
+    "yjwwtpxw534!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/b3356305.md",
+   "line": 863,
+   "start": 92,
+   "end": 101,
+   "category": "CMD ConvertTo-SecureString",
+   "mutation": "none",
+   "forms": [
+    "l@fxfykt!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "_/b3356305.md",
+   "line": 878,
+   "start": 27,
+   "end": 36,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "u@zzefiz!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "src/e05a5527.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lukas Fischer"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/e05a5527.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "n.mueller@kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/e05a5527.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 7408 2016"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/e05a5527.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lea Lange"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/e05a5527.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "clara.klein [at] kelpie-corp [dot] de"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/e05a5527.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE01304240706637553839"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/e05a5527.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Laura Lange"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/e05a5527.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lindenweg 11, 94307 Dachau"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/e05a5527.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "91.46.26.28"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/c02327d5.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.19.214.152"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/c02327d5.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.tboyri.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/c02327d5.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TJYE89HJ6/BXRAGWXWEJO/mDuphx29K0gCc6draFN4weNu"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/e79cc28e.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-replica.kelpie.cloud"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/e79cc28e.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "oDOkDjft6E4uXnr5EbZGpTKrCutfrpkB"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/1c272088.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-primary.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/1c272088.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_Lf2EloRncfJuFtGytkMgppXeHRRGfrN2OB4H"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/6b01cbc3.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "admin.kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/6b01cbc3.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Feuer@2026"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/6b01cbc3.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Luft@2006"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "test/a6ec1da8.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043c\u0435\u0447\u0442\u04301351"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.acme.systems"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.acme.systems"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.acme.systems"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.89.28.0/24"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.89.28.75"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.acme.systems"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.acme.systems"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.acme.systems"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.acme.systems"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.89.28.153"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.acme.systems"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Anna Richter"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "anna.richter@t-online.de"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 9933820"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Lina Neumann"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "lina.neumann@t-online.de"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 6688718"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/b3356305.md",
+   "line": 312,
+   "value": "<Password>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 395,
+   "value": "<Wtver>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 395,
+   "value": "ConvertTo-SecureString",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 769,
+   "value": "%appdata%\\Microsoft\\Protect\\<usersid>\\<MasterKeyGUID>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 772,
+   "value": "%appdata%\\Microsoft\\Protect\\<usersid>\\<MasterKeyGUID>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e05a5527.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "careers@kelpie-corp.de"
+  },
+  {
+   "file": "src/e05a5527.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "privacy@kelpie-corp.de"
+  },
+  {
+   "file": "src/e05a5527.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+44 20 7946 0899"
+  },
+  {
+   "file": "src/e05a5527.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "src/e05a5527.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "src/e05a5527.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "src/e05a5527.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "src/e05a5527.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "test/c02327d5.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "bd8a0f6c4fc593a7358f"
+  },
+  {
+   "file": "test/c02327d5.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "auth0.com"
+  },
+  {
+   "file": "test/c02327d5.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "c8e1451dc3f54e8fa7dd3a0841c74be7ad60b1a6"
+  },
+  {
+   "file": "test/e79cc28e.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "test/e79cc28e.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "1.6.5"
+  },
+  {
+   "file": "test/e79cc28e.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "bb27552209606fc6ff3eb91bd1d74d80a3998fcc"
+  },
+  {
+   "file": "test/e79cc28e.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "7be14462-28bd-43c1-82bd-4e534ee47108"
+  },
+  {
+   "file": "src/1c272088.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "8.29.47"
+  },
+  {
+   "file": "src/1c272088.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6.22.16"
+  },
+  {
+   "file": "src/1c272088.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-sW61VGYkgrMjhKjxFt7aIgfjaRDxBMR5sQ1tWGUkTDwVi+NkycOY0PQmTkxsc4Dc8g1aVOnz75VT26cDFVPg9Q=="
+  },
+  {
+   "file": "src/1c272088.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "0.20.33"
+  },
+  {
+   "file": "src/1c272088.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-1CcbQIdkApCzOF2Q+CABBR3ab/h42u9qfVii05Yi3jPb9kYkVu+Hakks6mfEqUK9Ik8dI+UgSLiEB+edXOMdQg=="
+  },
+  {
+   "file": "src/1c272088.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.9.35"
+  },
+  {
+   "file": "src/1c272088.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-80GLpbx3uRfV33tKrzuBAK2X6Ra0saSBQptjxzTDhPbTkB9sS/jjMIboBS0/R1tcsDrJTwpy0lJyfE3+vlmtpw=="
+  },
+  {
+   "file": "test/6b01cbc3.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "typha_becker"
+  },
+  {
+   "file": "test/6b01cbc3.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "ledger_reader"
+  },
+  {
+   "file": "test/6b01cbc3.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "behave_brezel"
+  },
+  {
+   "file": "test/6b01cbc3.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "deploy"
+  },
+  {
+   "file": "test/6b01cbc3.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "metrics"
+  },
+  {
+   "file": "test/6b01cbc3.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "bulldozer_biene"
+  },
+  {
+   "file": "test/a6ec1da8.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Issue Error 3.1"
+  },
+  {
+   "file": "test/a6ec1da8.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "car45"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "shop.acme.systems"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "files.paycore.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "185.89.123.210"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "mirrors.kernel.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Anna Fischer"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Lina Klein"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "shop.acme.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.paycore.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "185.89.123.210"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "mirrors.kernel.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.acme.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Anna Fischer"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "anna.fischer@acme.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

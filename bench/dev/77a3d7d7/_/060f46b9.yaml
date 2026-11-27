@@ -1,0 +1,19 @@
+# acme payments service
+database:
+  host: vault-replica.acme.cloud
+  user: payments
+  password: "Freiburgkuchen19!"
+  password_source: secret/data/acme/ledger/staging
+  password_env: LEDGER_AUTH_TOKEN
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: I1jlvB6OA2Qrjnnx7zpw2umxdXWtcEzW
+  key_file: /var/run/secrets/crm/token
+  signing_alg: argon2id
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 825514803943-cxxu1u7pd0zse14dfvhnap4jfuf9dlw6.apps.googleusercontent.com
+  client_proof: x3n97wi0wbzcxjkxqd75r8nh334aumod
+  secret_rotated_at: "2026-10-14T00:00:00Z"
+  secret_name: ledger-oauth-client
+pagination:
+  first_cursor: dXNlcjo5NzEzNDpvZmZzZXQ6NDIw

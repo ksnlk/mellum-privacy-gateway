@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://vault-mq-04.int.quarzo-internal.net/api/v3/invoices?page=2
+Authorization: Basic Y2k60L3QtdCx0L4yNjM5IQ==
+Cookie: _ga=GA1.2.DINDY9SU7COM6LZ0PZCV7BN04Y; session_id=9anwwe2hu2g10nz8sru330nb9fwtfkel
+X-Request-Id: 289ca0ed-6103-4e7c-b77e-c430fabd6011
+
+### the docs example, safe to share
+GET https://cdn.jsdelivr.net/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

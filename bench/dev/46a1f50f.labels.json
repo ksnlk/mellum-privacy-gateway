@@ -1,0 +1,724 @@
+{
+ "repo": "46a1f50f",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "lib/65081627.rb",
+   "line": 42,
+   "start": 24,
+   "end": 56,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "b2b0b1bbf3a6c05fcbf83d89d4e41ece"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "spec/95b372eb.rb",
+   "line": 171,
+   "start": 17,
+   "end": 97,
+   "category": "API:Key",
+   "mutation": "none",
+   "forms": [
+    "87093adf6a81d9bd0e52bb69c5244297fcfe789addc9629752d5ec0eea72877dc42f55262bd99a55"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "other/df2a7850.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-prod.nku3roahm043.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/df2a7850.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u0432\u043e\u0434\u04305814!"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/df2a7850.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "HB1YiVJAVT0ZQBgfl9TMRY65tNsCUrt2"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/df2a7850.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "75ecxy1h4ribosh4jfza9zapyegwn9jq"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/f671f8c2.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/f671f8c2.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "0tuz55PxhAjph5i8Yv47TIyJuwgAjwOa"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/e58ef425.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_24i92dFxTpcrbG40bPGHhftD"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/e58ef425.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "B923nhDIALOx47UO61dGDU7EkPCUwt1Y"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/e58ef425.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "cjFmZGc3d3lqa25nY2NldnJqeXJ1YXNidG53ZzRhejM=",
+    "r1fdg7wyjkngccevrjyruasbtnwg4az3"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/4a6eb93b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-cache-04.int.pinegrid-internal.net"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/4a6eb93b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Liebe$1984"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/4a6eb93b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "kra197!"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/c4144149.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/c4144149.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "failur",
+    "failurerefute",
+    "erefute"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/07212208.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "Z3J1bnQudGppLndhbGQucGxheWVyNjQ=",
+    "grunt.tji.wald.player64"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/07212208.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV95MW9vSWg0UXFTUFpQV2RVaHlJNDBFdmo=",
+    "sk_live_y1ooIh4QqSPZPWdUhyI40Evj"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/07212208.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-db-05.int.vantor-internal.net"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/89cade48.lock",
+   "line": 5,
+   "whole_line": "      heroku-api (= 0.4.2)",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/lib/3a3d635b.rb",
+   "line": 111,
+   "whole_line": "    unless key = shift_argument",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/lib/3a3d635b.rb",
+   "line": 117,
+   "whole_line": "    key, value = vars.detect {|k,v| k == key}",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1c72d1d8.rb",
+   "line": 142,
+   "whole_line": "        key  = \"run: one-off processes\"",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1c72d1d8.rb",
+   "line": 145,
+   "whole_line": "        key  = \"#{type} (#{size}): `#{process[\"command\"]}`\"",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1c72d1d8.rb",
+   "line": 161,
+   "whole_line": "      styled_array(processes_by_command[key], :sort => false)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1c72d1d8.rb",
+   "line": 211,
+   "whole_line": "  # format suitable for passing back into ps:scale",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/64858a31.rb",
+   "line": 210,
+   "whole_line": "      retry_login = handle_auth_error(e)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8af04659.rb",
+   "line": 137,
+   "whole_line": "      ENV[\"PGPASSWORD\"] = uri.password",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8af04659.rb",
+   "line": 272,
+   "whole_line": "      display \"   \\\"dbname=#{uri.path[1..-1]} host=#{uri.host} port=#{uri.port || 5432} user=#{uri.user} password=#{uri.password} sslmode=require\\\"\"",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8af04659.rb",
+   "line": 760,
+   "whole_line": "      ENV[\"PGPASSWORD\"] = uri.password",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/95524a3b.rb",
+   "line": 18,
+   "whole_line": "        api = Heroku::API.new(default_params.merge(:api_key => password))",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/95524a3b.rb",
+   "line": 39,
+   "whole_line": "        client = Heroku::Client.new(user, password, host)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/95524a3b.rb",
+   "line": 81,
+   "whole_line": "      @credentials = ask_for_and_save_credentials",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/95524a3b.rb",
+   "line": 126,
+   "whole_line": "      @api, @client, @credentials = nil, nil",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/95524a3b.rb",
+   "line": 229,
+   "whole_line": "      password = running_on_windows? ? ask_for_password_on_windows : ask_for_password",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/95524a3b.rb",
+   "line": 279,
+   "whole_line": "      @credentials = ask_for_credentials",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/95524a3b.rb",
+   "line": 312,
+   "whole_line": "      public_keys = Dir.glob(\"#{home_directory}/.ssh/*.pub\").sort",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/95524a3b.rb",
+   "line": 341,
+   "whole_line": "        error(\"Could not generate key: #{output}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a0b88eb7.rb",
+   "line": 81,
+   "whole_line": "      key = shift_argument",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ba0f0359.rb",
+   "line": 62,
+   "whole_line": "    _, key = read_crt_and_key_through_ssl_doctor(\"Testing for signing key\")",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ba0f0359.rb",
+   "line": 75,
+   "whole_line": "    crt, key = read_crt_and_key",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ba0f0359.rb",
+   "line": 93,
+   "whole_line": "    crt, key = read_crt_and_key",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ba0f0359.rb",
+   "line": 169,
+   "whole_line": "  #   --keysize BITSIZE         # RSA key size in bits (default: 2048)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ba0f0359.rb",
+   "line": 249,
+   "whole_line": "    crt_and_key = post_to_ssl_doctor(\"resolve-chain-and-key\", action_text)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ba0f0359.rb",
+   "line": 260,
+   "whole_line": "    key = File.read(args[1]) rescue error(\"Unable to read #{args[1]} KEY\")",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ba0f0359.rb",
+   "line": 265,
+   "value": "read_crt_and_key_through_ssl_doctor",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/client/1b7625ca.rb",
+   "line": 33,
+   "whole_line": "  def initialize(user, password, host=Heroku::Auth.host)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/client/1b7625ca.rb",
+   "line": 51,
+   "whole_line": "  def self.auth(user, password, host=Heroku::Auth.host)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/client/1b7625ca.rb",
+   "line": 53,
+   "whole_line": "    client = new(user, password, host)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/client/1b7625ca.rb",
+   "line": 54,
+   "whole_line": "    json_decode client.post('/login', { :username => user, :password => password }, :accept => 'json').to_s",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/client/1b7625ca.rb",
+   "line": 590,
+   "whole_line": "    resource_options = options.merge(:user => user, :password => password)",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/1b0baa77.rb",
+   "line": 296,
+   "value": "yeah",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/95b372eb.rb",
+   "line": 63,
+   "whole_line": "        expect(Netrc.read(@cli.netrc_path)[\"api.#{@cli.host}\"].password).to eq('legacy_pass')",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/95b372eb.rb",
+   "line": 97,
+   "whole_line": "          expect(Netrc.read(@cli.netrc_path)[\"api.#{@cli.host}\"].password).to eq('new_password')",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/client/15916c41.rb",
+   "line": 17,
+   "whole_line": "    stub_request(:post, \"https://foo:bar@api.heroku.com/login\").to_return(:body => json_encode(user_info))",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/client/15916c41.rb",
+   "line": 330,
+   "value": "joe@workstation",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/client/15916c41.rb",
+   "line": 335,
+   "whole_line": "        expect(@client.keys).to eq([ \"ssh-dss thekey== joe@workstation\" ])",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/client/7937c40a.rb",
+   "line": 9,
+   "whole_line": "    allow(Heroku::Auth).to receive(:user).and_return('user@example.com')",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/client/7937c40a.rb",
+   "line": 10,
+   "whole_line": "    allow(Heroku::Auth).to receive(:password).and_return('apitoken')",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/client/7937c40a.rb",
+   "line": 20,
+   "value": "apitoken",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/client/7937c40a.rb",
+   "line": 35,
+   "value": "apitoken",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/client/7937c40a.rb",
+   "line": 49,
+   "value": "apitoken",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/d5cd1adf.rb",
+   "line": 6,
+   "whole_line": "    KEY = \"ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAp9AJD5QABmOcrkHm6SINuQkDefaR0MUrfgZ1Pxir3a4fM1fwa00dsUwbUaRuR7FEFD8n1E9WwDf8SwQTHtyZsJg09G9myNqUzkYXCmydN7oGr5IdVhRyv5ixcdiE0hj7dRnOJg2poSQ3Qi+Ka8SVJzF7nIw1YhuicHPSbNIFKi5s0D5a+nZb/E6MNGvhxoFCQX2IcNxaJMqhzy1ESwlixz45aT72mXYq0LIxTTpoTqma1HuKdRY8HxoREiivjmMQulYP+CxXFcMyV9kxTKIUZ/FXqlC6G5vSm3J4YScSatPOj9ID5HowpdlIx8F6y4p1/28r2tTl4CY40FFyoke4MQ== pedro@heroku\"",
+   "source": "creddata"
+  },
+  {
+   "file": "other/df2a7850.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/kelpie/etl/staging"
+  },
+  {
+   "file": "other/df2a7850.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "LEDGER_CLIENT_SECRET"
+  },
+  {
+   "file": "other/df2a7850.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Auth-Token"
+  },
+  {
+   "file": "other/df2a7850.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "other/df2a7850.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "pbkdf2_sha256"
+  },
+  {
+   "file": "other/df2a7850.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "other/df2a7850.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "719360608758-jvlq6gjheany9fo99ktekr3j3c77ys1q.apps.googleusercontent.com"
+  },
+  {
+   "file": "other/df2a7850.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2026-06-13T00:00:00Z"
+  },
+  {
+   "file": "other/df2a7850.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "ledger-db-credentials"
+  },
+  {
+   "file": "other/df2a7850.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6NzgzMzM6b2Zmc2V0OjEyOQ=="
+  },
+  {
+   "file": "other/f671f8c2.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "other/f671f8c2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "0.26.50"
+  },
+  {
+   "file": "other/f671f8c2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5e2f854060006154bfd7e55eed6ffbcc34b468b9"
+  },
+  {
+   "file": "other/f671f8c2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "da3ae6b6-c24b-4692-ac56-ab0eaa070041"
+  },
+  {
+   "file": "test/e58ef425.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_M1BBqvp23PEzlMSCEZcrdlvF"
+  },
+  {
+   "file": "test/e58ef425.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "REPORTS_DB_PASSWORD"
+  },
+  {
+   "file": "test/e58ef425.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "LEDGER_CLIENT_SECRET"
+  },
+  {
+   "file": "test/e58ef425.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LVUOu_9gxiT6GMy79DZzycykjJ4Whkqp_oQpEKC"
+  },
+  {
+   "file": "test/e58ef425.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:B6zYTsPMn8bZshFsZAW81zFgwYntHSV9ALu/J9rLOm0"
+  },
+  {
+   "file": "test/e58ef425.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/run/secrets/payments_password"
+  },
+  {
+   "file": "test/e58ef425.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "test/e58ef425.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "test/e58ef425.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6MTA4MTE6b2Zmc2V0OjQ1MA=="
+  },
+  {
+   "file": "_/4a6eb93b.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "vector-respond-prod"
+  },
+  {
+   "file": "_/4a6eb93b.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "readonly"
+  },
+  {
+   "file": "_/4a6eb93b.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "vertex_tipsy"
+  },
+  {
+   "file": "_/4a6eb93b.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "kasse"
+  },
+  {
+   "file": "_/4a6eb93b.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "svc_reports"
+  },
+  {
+   "file": "_/4a6eb93b.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "Objective Cooler 2.2"
+  },
+  {
+   "file": "_/c4144149.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "c4dcaf56cb5827c0d0b81a244cce4d9b9322e15a"
+  },
+  {
+   "file": "_/c4144149.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "<password>"
+  },
+  {
+   "file": "_/c4144149.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "test/07212208.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "2f40bad"
+  },
+  {
+   "file": "test/07212208.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "48843d3c0dc8e464f5fc8db6bdd088e2d7d7a2bb4831f16ba9d357dd99f2ad01"
+  },
+  {
+   "file": "test/07212208.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "test/07212208.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  }
+ ]
+}

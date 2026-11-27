@@ -1,0 +1,233 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2015-02-02",
+    "endpointPrefix":"elasticache",
+    "protocol":"query",
+    "serviceFullName":"Amazon ElastiCache",
+    "serviceId":"ElastiCache",
+    "signatureVersion":"v4",
+    "uid":"elasticache-2015-02-02",
+    "xmlNamespace":"http://elasticache.amazonaws.com/doc/2015-02-02/"
+  },
+  "operations":{
+    "AddTagsToResource":{
+      "name":"AddTagsToResource",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AddTagsToResourceMessage"},
+      "output":{
+        "shape":"TagListMessage",
+        "resultWrapper":"AddTagsToResourceResult"
+      },
+      "errors":[
+        {"shape":"CacheClusterNotFoundFault"},
+        {"shape":"CacheParameterGroupNotFoundFault"},
+        {"shape":"CacheSecurityGroupNotFoundFault"},
+        {"shape":"CacheSubnetGroupNotFoundFault"},
+      "output":{
+        "shape":"CreateReplicationGroupResult",
+        "resultWrapper":"CreateReplicationGroupResult"
+      },
+      "errors":[
+        {"shape":"CacheClusterNotFoundFault"},
+        {"shape":"InvalidCacheClusterStateFault"},
+        {"shape":"ReplicationGroupAlreadyExistsFault"},
+        {"shape":"InvalidUserGroupStateFault"},
+        {"shape":"UserGroupNotFoundFault"},
+        {"shape":"InsufficientCacheClusterCapacityFault"},
+        {"shape":"CacheSecurityGroupNotFoundFault"},
+        {"shape":"CacheSubnetGroupNotFoundFault"},
+        {"shape":"ClusterQuotaForCustomerExceededFault"},
+        {"shape":"NodeQuotaForClusterExceededFault"},
+        {"shape":"NodeQuotaForCustomerExceededFault"},
+        {"shape":"CacheParameterGroupNotFoundFault"},
+        {"shape":"InvalidVPCNetworkStateFault"},
+        {"shape":"TagQuotaPerResourceExceeded"},
+        {"shape":"NodeGroupsPerReplicationGroupQuotaExceededFault"},
+        {"shape":"GlobalReplicationGroupNotFoundFault"},
+        {"shape":"InvalidGlobalReplicationGroupStateFault"},
+        {"shape":"InvalidParameterValueException"},
+        {"shape":"InvalidParameterCombinationException"}
+      ],
+      "documentation":"<p>Creates a Redis (cluster mode disabled) or a Redis (cluster mode enabled) replication group.</p> <p>This API can be used to create a standalone regional replication group or a secondary replication group associated with a Global datastore.</p> <p>A Redis (cluster mode disabled) replication group is a collection of clusters, where one of the clusters is a read/write primary and the others are read-only replicas. Writes to the primary are asynchronously propagated to the replicas.</p> <p>A Redis cluster-mode enabled cluster is comprised of from 1 to 90 shards (API/CLI: node groups). Each shard has a primary node and up to 5 read-only replica nodes. The configuration can range from 90 shards and 0 replicas to 15 shards and 5 replicas, which is the maximum number or replicas allowed. </p> <p>The node or shard limit can be increased to a maximum of 500 per cluster if the Redis engine version is 5.0.6 or higher. For example, you can choose to configure a 500 node cluster that ranges between 83 shards (one primary and 5 replicas per shard) and 500 shards (single primary and no replicas). Make sure there are enough available IP addresses to accommodate the increase. Common pitfalls include the subnets in the subnet group have too small a CIDR range or the subnets are shared and heavily used by other clusters. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/SubnetGroups.Creating.html\">Creating a Subnet Group</a>. For versions below 5.0.6, the limit is 250 per cluster.</p> <p>To request a limit increase, see <a href=\"https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html\">AWS Service Limits</a> and choose the limit type <b>Nodes per cluster per instance type</b>. </p> <p>When a Redis (cluster mode disabled) replication group has been successfully created, you can add one or more read replicas to it, up to a total of 5 read replicas. If you need to increase or decrease the number of node groups (console: shards), you can avail yourself of ElastiCache for Redis' scaling. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/Scaling.html\">Scaling ElastiCache for Redis Clusters</a> in the <i>ElastiCache User Guide</i>.</p> <note> <p>This operation is valid for Redis only.</p> </note>"
+    },
+    "CreateSnapshot":{
+      "name":"CreateSnapshot",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"CreateSnapshotMessage"},
+      "output":{
+        "shape":"CreateSnapshotResult",
+        "resultWrapper":"CreateSnapshotResult"
+      },
+      "errors":[
+        {"shape":"SnapshotAlreadyExistsFault"},
+        {"shape":"CacheClusterNotFoundFault"},
+        {"shape":"ReplicationGroupNotFoundFault"},
+        {"shape":"InvalidCacheClusterStateFault"},
+        {"shape":"InvalidReplicationGroupStateFault"},
+        {"shape":"SnapshotQuotaExceededFault"},
+        {"shape":"SnapshotFeatureNotSupportedFault"},
+        {"shape":"TagQuotaPerResourceExceeded"},
+        {"shape":"InvalidParameterCombinationException"},
+        {"shape":"InvalidParameterValueException"}
+      ],
+      "documentation":"<p>Creates a copy of an entire cluster or replication group at a specific moment in time.</p> <note> <p>This operation is valid for Redis only.</p> </note>"
+          "shape":"String",
+          "documentation":"<p>The name of the cache engine to be used for the clusters in this replication group. Must be Redis.</p>"
+        },
+        "EngineVersion":{
+          "shape":"String",
+          "documentation":"<p>The version number of the cache engine to be used for the clusters in this replication group. To view the supported cache engine versions, use the <code>DescribeCacheEngineVersions</code> operation.</p> <p> <b>Important:</b> You can upgrade to a newer engine version (see <a href=\"https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/SelectEngine.html#VersionManagement\">Selecting a Cache Engine and Version</a>) in the <i>ElastiCache User Guide</i>, but you cannot downgrade to an earlier engine version. If you want to use an earlier engine version, you must delete the existing cluster or replication group and create it anew with the earlier engine version. </p>"
+        },
+        "CacheParameterGroupName":{
+          "shape":"String",
+          "documentation":"<p>The name of the parameter group to associate with this replication group. If this argument is omitted, the default cache parameter group for the specified engine is used.</p> <p>If you are running Redis version 3.2.4 or later, only one node group (shard), and want to use a default parameter group, we recommend that you specify the parameter group by name. </p> <ul> <li> <p>To create a Redis (cluster mode disabled) replication group, use <code>CacheParameterGroupName=default.redis3.2</code>.</p> </li> <li> <p>To create a Redis (cluster mode enabled) replication group, use <code>CacheParameterGroupName=default.redis3.2.cluster.on</code>.</p> </li> </ul>"
+        },
+        "CacheSubnetGroupName":{
+          "shape":"String",
+          "documentation":"<p>The name of the cache subnet group to be used for the replication group.</p> <important> <p>If you're going to launch your cluster in an Amazon VPC, you need to create a subnet group before you start creating a cluster. For more information, see <a href=\"https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/SubnetGroups.html\">Subnets and Subnet Groups</a>.</p> </important>"
+        },
+        "CacheSecurityGroupNames":{
+          "shape":"CacheSecurityGroupNameList",
+          "documentation":"<p>A list of cache security group names to associate with this replication group.</p>"
+        },
+        "SecurityGroupIds":{
+          "shape":"SecurityGroupIdsList",
+          "documentation":"<p>One or more Amazon VPC security groups associated with this replication group.</p> <p>Use this parameter only when you are creating a replication group in an Amazon Virtual Private Cloud (Amazon VPC).</p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>A list of tags to be added to this resource. Tags are comma-separated key,value pairs (e.g. Key=<code>myKey</code>, Value=<code>myKeyValue</code>. You can include multiple tags as shown following: Key=<code>myKey</code>, Value=<code>myKeyValue</code> Key=<code>mySecondKey</code>, Value=<code>mySecondKeyValue</code>. Tags on replication groups will be replicated to all nodes.</p>"
+        },
+        "SnapshotArns":{
+          "shape":"SnapshotArnsList",
+          "documentation":"<p>A list of Amazon Resource Names (ARN) that uniquely identify the Redis RDB snapshot files stored in Amazon S3. The snapshot files are used to populate the new replication group. The Amazon S3 object name in the ARN cannot contain any commas. The new replication group will have the number of node groups (console: shards) specified by the parameter <i>NumNodeGroups</i> or the number of node groups configured by <i>NodeGroupConfiguration</i> regardless of the number of ARNs specified here.</p> <p>Example of an Amazon S3 ARN: <code>arn:aws:s3:::my_bucket/snapshot1.rdb</code> </p>"
+        },
+        "SnapshotName":{
+          "shape":"String",
+          "documentation":"<p>The name of a snapshot from which to restore data into the new replication group. The snapshot status changes to <code>restoring</code> while the new replication group is being created.</p>"
+        },
+        "PreferredMaintenanceWindow":{
+          "shape":"String",
+          "documentation":"<p>Specifies the weekly time range during which maintenance on the cluster is performed. It is specified as a range in the format ddd:hh24:mi-ddd:hh24:mi (24H Clock UTC). The minimum maintenance window is a 60 minute period. Valid values for <code>ddd</code> are:</p> <p>Specifies the weekly time range during which maintenance on the cluster is performed. It is specified as a range in the format ddd:hh24:mi-ddd:hh24:mi (24H Clock UTC). The minimum maintenance window is a 60 minute period.</p> <p>Valid values for <code>ddd</code> are:</p> <ul> <li> <p> <code>sun</code> </p> </li> <li> <p> <code>mon</code> </p> </li> <li> <p> <code>tue</code> </p> </li> <li> <p> <code>wed</code> </p> </li> <li> <p> <code>thu</code> </p> </li> <li> <p> <code>fri</code> </p> </li> <li> <p> <code>sat</code> </p> </li> </ul> <p>Example: <code>sun:23:00-mon:01:30</code> </p>"
+        },
+        "Port":{
+          "shape":"IntegerOptional",
+          "documentation":"<p>The port number on which each member of the replication group accepts connections.</p>"
+        },
+        "NotificationTopicArn":{
+          "shape":"String",
+          "documentation":"<p>The Amazon Resource Name (ARN) of the Amazon Simple Notification Service (SNS) topic to which notifications are sent.</p> <note> <p>The Amazon SNS topic owner must be the same as the cluster owner.</p> </note>"
+        },
+        "AutoMinorVersionUpgrade":{
+          "shape":"BooleanOptional",
+          "documentation":"<p>This parameter is currently disabled.</p>"
+        },
+          "documentation":"<p>The ID of the user.</p>"
+        }
+      }
+    },
+    "DescribeCacheClustersMessage":{
+      "type":"structure",
+      "members":{
+        "CacheClusterId":{
+          "shape":"String",
+          "documentation":"<p>The user-supplied cluster identifier. If this parameter is specified, only information about that specific cluster is returned. This parameter isn't case sensitive.</p>"
+        },
+        "MaxRecords":{
+          "shape":"IntegerOptional",
+          "documentation":"<p>The maximum number of records to include in the response. If more records exist than the specified <code>MaxRecords</code> value, a marker is included in the response so that the remaining results can be retrieved.</p> <p>Default: 100</p> <p>Constraints: minimum 20; maximum 100.</p>"
+        },
+        "Marker":{
+          "shape":"String",
+          "documentation":"<p>An optional marker returned from a prior request. Use this marker for pagination of results from this operation. If this parameter is specified, the response includes only records beyond the marker, up to the value specified by <code>MaxRecords</code>.</p>"
+        },
+        "ShowCacheNodeInfo":{
+          "shape":"BooleanOptional",
+          "documentation":"<p>An optional flag that can be included in the <code>DescribeCacheCluster</code> request to retrieve information about the individual cache nodes.</p>"
+        },
+        "ShowCacheClustersNotInReplicationGroups":{
+          "shape":"BooleanOptional",
+          "documentation":"<p>An optional flag that can be included in the <code>DescribeCacheCluster</code> request to show only nodes (API/CLI: clusters) that are not members of a replication group. In practice, this mean Memcached and single node Redis clusters.</p>"
+        }
+      },
+      "documentation":"<p>Represents the input of a <code>DescribeCacheClusters</code> operation.</p>"
+    },
+    "DescribeCacheEngineVersionsMessage":{
+      "type":"structure",
+      "members":{
+        "Engine":{
+          "shape":"String",
+          "documentation":"<p>The cache engine to return. Valid values: <code>memcached</code> | <code>redis</code> </p>"
+        },
+        "EngineVersion":{
+          "shape":"String",
+          "documentation":"<p>The cache engine version to return.</p> <p>Example: <code>1.4.14</code> </p>"
+        },
+        "CacheParameterGroupFamily":{
+          "shape":"String",
+          "documentation":"<p>The name of a specific cache parameter group family to return details for.</p> <p>Valid values are: <code>memcached1.4</code> | <code>memcached1.5</code> | <code>memcached1.6</code> | <code>redis2.6</code> | <code>redis2.8</code> | <code>redis3.2</code> | <code>redis4.0</code> | <code>redis5.0</code> | <code>redis6.x</code> | </p> <p>Constraints:</p> <ul> <li> <p>Must be 1 to 255 alphanumeric characters</p> </li> <li> <p>First character must be a letter</p> </li> <li> <p>Cannot end with a hyphen or contain two consecutive hyphens</p> </li> </ul>"
+        },
+        "MaxRecords":{
+          "shape":"IntegerOptional",
+          "documentation":"<p>The maximum number of records to include in the response. If more records exist than the specified <code>MaxRecords</code> value, a marker is included in the response so that the remaining results can be retrieved.</p> <p>Default: 100</p> <p>Constraints: minimum 20; maximum 100.</p>"
+        },
+        "Marker":{
+          "shape":"String",
+          "shape":"String",
+          "documentation":"<p>The cluster ID that is used as the daily snapshot source for the replication group.</p>"
+        },
+        "AutomaticFailover":{
+          "shape":"AutomaticFailoverStatus",
+          "documentation":"<p>Indicates the status of automatic failover for this Redis replication group.</p>"
+        },
+        "MultiAZ":{
+          "shape":"MultiAZStatus",
+          "documentation":"<p>A flag indicating if you have Multi-AZ enabled to enhance fault tolerance. For more information, see <a href=\"http://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/AutoFailover.html\">Minimizing Downtime: Multi-AZ</a> </p>"
+        },
+        "ConfigurationEndpoint":{
+          "shape":"Endpoint",
+          "documentation":"<p>The configuration endpoint for this replication group. Use the configuration endpoint to connect to this replication group.</p>"
+        },
+        "SnapshotRetentionLimit":{
+          "shape":"IntegerOptional",
+          "documentation":"<p>The number of days for which ElastiCache retains automatic cluster snapshots before deleting them. For example, if you set <code>SnapshotRetentionLimit</code> to 5, a snapshot that was taken today is retained for 5 days before being deleted.</p> <important> <p> If the value of <code>SnapshotRetentionLimit</code> is set to zero (0), backups are turned off.</p> </important>"
+        },
+        "SnapshotWindow":{
+          "shape":"String",
+          "documentation":"<p>The daily time range (in UTC) during which ElastiCache begins taking a daily snapshot of your node group (shard).</p> <p>Example: <code>05:00-09:00</code> </p> <p>If you do not specify this parameter, ElastiCache automatically chooses an appropriate time range.</p> <note> <p>This parameter is only valid if the <code>Engine</code> parameter is <code>redis</code>.</p> </note>"
+        },
+        "ClusterEnabled":{
+          "shape":"BooleanOptional",
+          "documentation":"<p>A flag indicating whether or not this replication group is cluster enabled; i.e., whether its data can be partitioned across multiple shards (API/CLI: node groups).</p> <p>Valid values: <code>true</code> | <code>false</code> </p>"
+        },
+        "CacheNodeType":{
+          "shape":"String",
+          "documentation":"<p>The name of the compute and memory capacity node type for each node in the replication group.</p>"
+        },
+        "AuthTokenEnabled":{
+          "shape":"BooleanOptional",
+          "documentation":"<p>A flag that enables using an <code>AuthToken</code> (password) when issuing Redis commands.</p> <p>Default: <code>false</code> </p>"
+        },
+        "AuthTokenLastModifiedDate":{
+          "shape":"TStamp",
+          "documentation":"<p>The date the auth token was last modified</p>"
+        },
+        "TransitEncryptionEnabled":{
+          "shape":"BooleanOptional",
+          "documentation":"<p>A flag that enables in-transit encryption when set to <code>true</code>.</p> <p>You cannot modify the value of <code>TransitEncryptionEnabled</code> after the cluster is created. To enable in-transit encryption on a cluster you must set <code>TransitEncryptionEnabled</code> to <code>true</code> when you create a cluster.</p> <p> <b>Required:</b> Only available when creating a replication group in an Amazon VPC using redis version <code>3.2.6</code>, <code>4.x</code> or later.</p> <p>Default: <code>false</code> </p>"
+        },
+        "AtRestEncryptionEnabled":{
+          "shape":"BooleanOptional",
+          "documentation":"<p>A flag that enables encryption at-rest when set to <code>true</code>.</p> <p>You cannot modify the value of <code>AtRestEncryptionEnabled</code> after the cluster is created. To enable encryption at-rest on a cluster you must set <code>AtRestEncryptionEnabled</code> to <code>true</code> when you create a cluster.</p> <p> <b>Required:</b> Only available when creating a replication group in an Amazon VPC using redis version <code>3.2.6</code>, <code>4.x</code> or later.</p> <p>Default: <code>false</code> </p>"
+        },
+        "MemberClustersOutpostArns":{
+          "shape":"ReplicationGroupOutpostArnList",
+          "documentation":"<p>The outpost ARNs of the replication group's member clusters.</p>"
+        },

@@ -1,0 +1,734 @@
+{
+ "repo": "f7ae636a",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/a3f34961.go",
+   "line": 382,
+   "start": 25,
+   "end": 52,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "mgmifnabxhwxmwryjocrxzvdeow"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/b1f0b4b0.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "63653364333836303630333135363966383933636434346435386635313230393238316163613938643761356266393530333934633332333665373639613064",
+    "ce3d38606031569f893cd44d58f51209281aca98d7a5bf950394c3236e769a0d"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "test/45e2336e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "Zmxhdm9yLm1pc2Uubm9ybWFsaXplcjM2",
+    "flavor.mise.normalizer36"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "test/45e2336e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9YVUcwdmNTc2dtMGFhN29LbXh2cm92ZmI=",
+    "sk_live_XUG0vcSsgm0aa7oKmxvrovfb"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/45e2336e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/ce9f90a1.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.0fm8ugtp5cgw.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/ce9f90a1.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "M9p0Pex1aD1TmAAszAeCfiIZv9lIwr5U"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/066e0646.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-mq-08.int.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/066e0646.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y2k6bHVmdDcyMCE=",
+    "ci:luft720!"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/066e0646.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "sas2tcv4usbli7nfqx4rl20umopsdwv9"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/c96c779b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "huey.igel.falke8"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/c96c779b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-replica.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/9568276a.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Contain1994#"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/9568276a.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.36.85.47"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/9568276a.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "0LfQuNC80LA2MzkyIQ==",
+    "\u0437\u0438\u043c\u04306392!"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.vantor-ops.io"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.vantor-ops.io"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.vantor-ops.io"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "178.192.247.0/24"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "178.192.247.66"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.vantor-ops.io"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.vantor-ops.io"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.vantor-ops.io"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.vantor-ops.io"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.vantor-ops.io"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "178.192.247.121"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Laura Krueger"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "laura.krueger@web.de"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 8474031"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Sofia Wagner"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "sofia.wagner@gmail.com"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 8791012"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/b3356305.md",
+   "line": 213,
+   "whole_line": "*What if they kept a copy of the old repo before you removed access?* Yes, they can decrypt old versions of the file. This is why when an admin leaves the team, you should change all your passwords, SSL certs, and so on. You should have been doing that before BlackBox, right?",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 217,
+   "whole_line": "*How do automated processes decrypt without asking for a password?* GPG requires a passphrase on a private key. However, it permits the creation of subkeys that have no passphrase. For automated processes, create a subkey that is only stored on the machine that needs to decrypt the files. For example, at Stack Exchange, when our Continuous Integration (CI) system pushes a code change to our Puppet masters, they run `blackbox_postdeploy` to decrypt all the files. The user that runs this code has a subkey that doesn't require a passphrase. Since we have many masters, each has its own key. And, yes, this means our Puppet Masters have to be very secure. However, they were already secure because, like, dude... if you can break into someone's puppet master you own their network.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 246,
+   "whole_line": "Ansible example for password file: `my_secret_password.txt.gpg`",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 290,
+   "whole_line": "module::test_password: \"my secret password\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 296,
+   "whole_line": "$the_password = hiera('module::test_password', 'fail')",
+   "source": "creddata"
+  },
+  {
+   "file": "_/cf108a5c",
+   "line": 40,
+   "whole_line": "  if [[ \"$SECRETSEXPOSED\" == \"true\" ]] ; then",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/92dc3d6e.md",
+   "line": 58,
+   "whole_line": "$the_password = hiera('module::test_password', 'fail')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a3f34961.go",
+   "line": 363,
+   "value": "2048",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a3f34961.go",
+   "line": 365,
+   "value": "2048",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b1f0b4b0.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "d049a69d7c13df13a2ee864dbce51ffd6a686470e81c3b0111ddf5ab2a115713"
+  },
+  {
+   "file": "test/45e2336e.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "baac8c6"
+  },
+  {
+   "file": "test/45e2336e.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "fd23b4c17d0599629b9acf8129b273969eb0fa8a5e14061e57fc691a87a96ad6"
+  },
+  {
+   "file": "test/45e2336e.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "test/45e2336e.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/ce9f90a1.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "test/ce9f90a1.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6.9.10"
+  },
+  {
+   "file": "test/ce9f90a1.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6b60ee261389506d1d8ff255af8239e504df76a1"
+  },
+  {
+   "file": "test/ce9f90a1.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "d4973c8b-8ec4-4b99-bd0e-3032a4593390"
+  },
+  {
+   "file": "other/066e0646.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "5IX0WAWRWC7RYUKWKEF0D5KJM1"
+  },
+  {
+   "file": "other/066e0646.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "932bbf41-08c0-488a-8a3d-9bb14406381d"
+  },
+  {
+   "file": "other/066e0646.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "other/066e0646.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/c96c779b.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAItI2o0QCoxmUGmN6LmiUzS1FDQ3ez+TMYqUffDtw5vjY"
+  },
+  {
+   "file": "other/c96c779b.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "b61fc8279a2971f9eed522576e614fd3dc452d276c5cf6798757ef84a7b94f5d"
+  },
+  {
+   "file": "other/c96c779b.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/c96c779b.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "src/9568276a.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:85e86efdc38beadc8dbc2e6045cdeb45359793446e8f98e9b79eb222970c3463"
+  },
+  {
+   "file": "src/9568276a.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "bdac4503fd3da0aa2697f537517894caf1a81102"
+  },
+  {
+   "file": "src/9568276a.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "REPLACE_ME"
+  },
+  {
+   "file": "src/9568276a.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "src/9568276a.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "0.3.9"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "files.paycore.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "178.196.79.95"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.vantor.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.vantor.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "www.vantor-ops.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Anna Koch"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.vantor.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "www.vantor-ops.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.paycore.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "178.196.79.95"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Anna Koch"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "anna.koch@vantor.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Erika Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "erika@example.com"
+  }
+ ]
+}

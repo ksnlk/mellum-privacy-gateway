@@ -1,0 +1,56 @@
+web:
+  host: postal.example.com
+  protocol: https
+
+fast_server:
+  enabled: true
+  bind_address: 0.0.0.0
+  port: 5010
+  ssl_port: 5011
+
+general:
+  use_ip_pools: false
+
+main_db:
+  host: 127.0.0.1
+  username: root
+  password:
+  database: postal_test
+
+message_db:
+  host: 127.0.0.1
+  username: root
+  password:
+  prefix: postal_test
+
+rabbitmq:
+  host: 127.0.0.1
+  username: guest
+  password: vxifq
+  password_key_id: f78b1097c5f7b7c7
+  vhost:
+
+smtp_server:
+  port: 2525
+
+dns:
+  mx_records:
+    - mx.postal.example.com
+  smtp_server_hostname: postal.example.com
+  spf_include: spf.postal.example.com
+  return_path: rp.postal.example.com
+  route_domain: routes.postal.example.com
+  track_domain: track.postal.example.com
+
+smtp:
+  host: 127.0.0.1
+  port: 2525
+  username:
+  password:
+  from_name: Postal
+  from_address: postal@yourdomain.com
+
+rails:
+  environment: test
+  # temp until the vault migration lands -> cacc7531d4b1ec0df64a6e3b7593dc8c2e66332131d81e67be831d2db585c13f6cd2e31b404fad639dd3a23383c41e4d589e49dfe137ba84c8db33315bc3b113c0306aaa95ac692e8576ce48c8c902108139c8b454e333f28656e2883c16b4c98e5429af69dd9fae59804cc23c695dce62f136161c8d1c26a7aa1d07dbce7444
+  secret_key_test_vector: AyM1SysPpbyDfgZld3umj1qzKObwVMkoqQ-EstJQLr_T-1qS0gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr1Z9CAow

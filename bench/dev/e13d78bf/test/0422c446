@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<testcase>
+<info>
+<keywords>
+HTTP
+HTTP GET
+HTTP NTLM auth
+followlocation
+NTLM
+</keywords>
+</info>
+# Server-side
+<reply>
+
+<!-- no <data> in this test since we have NTLM from the start
+
+This is supposed to be returned when the server gets a first
+Authorization: NTLM line passed-in from the client -->
+
+<data1001 crlf="headers">
+HTTP/1.1 401 Now gimme that second request of crap
+Server: Microsoft-IIS/5.0
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 34
+WWW-Authenticate: NTLM OqRYOFUZQTFMOANOLpYHZPLXLMSWacAGe06QLRVwhZnWNFDWRHMXMS1ZnoNvUWOOH1WRZKNRGcWLZSOIOwNUSBzFOGZZXJBMTmGWAWEJBSXTXVyUNyXmKU6UnEYcFBLDPPLlHWITIkNdBIERGbKhYLMWpXCpZUPHJZDcFTTZcGUfFD8NPlLoRQ3BdKQlJAIZJJZhBVPQCtByFZTQUXFHYV==
+
+This is not the real page either!
+</data1001>
+
+# This is supposed to be returned when the server gets the second
+# Authorization: NTLM line passed-in from the client
+<data1002 crlf="headers">
+HTTP/1.1 301 Things are fine in server land swsclose
+Server: Microsoft-IIS/5.0
+Connection: close
+Location: /you/%TESTNUMBER0010
+
+</data1002>
+
+# This is the first reply after the redirection
+<data1011 crlf="headers">
+HTTP/1.1 401 Now gimme that second round of crap
+Server: Microsoft-IIS/5.0
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 34
+WWW-Authenticate: NTLM ZjRYQIYWLCLSPLOQXtXRTEMLLXAQmzWSq91YIPSarQrRQRJCBDKWYL3DanEjHBWLY2ZQJKVBVpBMRDLGUwVULLnCMKRCMYBBDjLMMWUEHGWZZMvXMeGkKJ5PhVMjOWMJMWCgFLAWKpAdMINGQeJfKPXLeKZiLFEPUXXxNQKTbNHxZG1NAeElMI3KfGDnHUHETIZkEEDGFuVkCRZOUOLCCL==
+
+This is not the real page either!
+</data1011>
+
+# This is supposed to be returned when the server gets the second
+# Authorization: NTLM line passed-in from the client
+<data1012 crlf="headers">
+HTTP/1.1 200 Things are fine in server land swsclose
+Server: Microsoft-IIS/5.0
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 32
+
+Finally, this is the real page!
+</data1012>
+
+<datacheck crlf="headers">
+HTTP/1.1 401 Now gimme that second request of crap
+Server: Microsoft-IIS/5.0
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 34
+WWW-Authenticate: NTLM UgTVKEPNYFNAIBHKXuTFJGZJFFJXiaVMb48ZFKFfcGePDZEOEFNNUM8BhwShSAQRX4JYKOOJPyJTQSDMKiREFUeEEUWKPVALYvRDGMTMXBKUNClPGgSqVH9ZhWZwKEXMQHNrROOMSsQnZZEALaPuVDDJtWPlWGIISXQsIFRNpEBrIO4XUkJeDU0YbWRtTJSOMPMwYWTLSwXlIVCQDQBRQN==
+
+HTTP/1.1 301 Things are fine in server land swsclose
+Server: Microsoft-IIS/5.0
+Connection: close
+Location: /you/%TESTNUMBER0010
+
+HTTP/1.1 401 Now gimme that second round of crap
+Server: Microsoft-IIS/5.0
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 34
+WWW-Authenticate: NTLM PlAXDVTHUNATOOICGfFPTGNQGAUHlmNSv46CATDodFxEMXCRHZQFCR4VpbBgZBZLC2KFJELIFbWNJXPDYnCKSFjEXPRESSEDNtAHIMDVHVIJYUmTBaZxIA8QbIUlPNDVEOUyIRVCKtPzSRJJMvKqUWRPjQGiDUCATDZmSISIaUMrHD4NDgTfYY6CmXQsGUHKKBPlRLCLFaTsVOWDDLZPSU==
+
+HTTP/1.1 200 Things are fine in server land swsclose
+Server: Microsoft-IIS/5.0
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 32
+
+Finally, this is the real page!
+</datacheck>
+
+</reply>
+
+# Client-side
+<client>
+<features>
+NTLM
+SSL
+!SSPI
+</features>
+<server>
+http
+</server>
+<name>
+HTTP with NTLM and follow-location
+</name>
+<command>
+http://%HOSTIP:%HTTPPORT/%TESTNUMBER -u testuser:testpass --ntlm -L
+</command>
+</client>
+
+# Verify data after the test has been "shot"
+<verify>
+<protocol crlf="headers">
+GET /%TESTNUMBER HTTP/1.1
+Host: %HOSTIP:%HTTPPORT
+Authorization: NTLM %b64[NTLMSSP%00%01%00%00%00%06%82%08%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00]b64%
+User-Agent: curl/%VERSION
+Accept: */*
+
+GET /%TESTNUMBER HTTP/1.1
+Host: %HOSTIP:%HTTPPORT
+Authorization: NTLM OlRROWSUKVDWZTLELRDJYHJHGOEDAFsFEEPXBKEPQGHpENNZJYFZFHZIASHAGBmZkJNPTELMNRBCUGKWvbBURFfqBuVGBGELuke1je37oBnQUOXgekzrSgyEhokRml3z+unfuwCA5A87sQn7M5jxZLVgy5D6u2GzB14PS1VOMOUGC83=
+User-Agent: curl/%VERSION
+Accept: */*
+
+GET /you/%TESTNUMBER0010 HTTP/1.1
+Host: %HOSTIP:%HTTPPORT
+Authorization: NTLM %b64[NTLMSSP%00%01%00%00%00%06%82%08%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00%00]b64%
+User-Agent: curl/%VERSION
+Accept: */*
+
+GET /you/%TESTNUMBER0010 HTTP/1.1
+Host: %HOSTIP:%HTTPPORT
+Authorization: NTLM QmELPRGZHRZRNHGIJVODOHLHZHSLRSiLROGNAMMOKDPvYPUGXGOPMWBZWPMKYMiRtDAKXOWGNTQFKKRBhoPMATzyHiXCCGAQhpz4bc98zWiTOUSbpifpFslCcvtXan5p+srblwME6G30cZj7G6stDYVas5L1m1FcI44CQ4ZRUAXLG88=
+User-Agent: curl/%VERSION
+Accept: */*
+
+</protocol>
+</verify>
+</testcase>

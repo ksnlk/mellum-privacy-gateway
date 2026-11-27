@@ -1,0 +1,19 @@
+# quarzo payments service
+database:
+  host: vault.iqjvat.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "Flußmax74?"
+  password_source: secret/data/quarzo/payments/staging
+  password_env: AUTH_SECRET_KEY
+api:
+  key_header: Authorization
+  partner_ident: P0Avb1qPofDjZUIAhngpBnmYNZTcXmsD
+  key_file: /etc/reports/tls/private.key
+  signing_alg: RS256
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 998100539941-zatb6k28ncdtcmiskcw19iuf569bgqx5.apps.googleusercontent.com
+  client_proof: 1i1w86pnoiqpyckvepgvbbndheiz813n
+  secret_rotated_at: "2026-05-04T00:00:00Z"
+  secret_name: payments-oauth-client
+pagination:
+  first_cursor: dXNlcjo2ODU0OTpvZmZzZXQ6NDc3

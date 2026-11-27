@@ -1,0 +1,15 @@
+monitoring: kestrel.pinegrid.net
+database:
+  host: orion.pinegrid.net
+  port: 5432
+queue: vega.pinegrid.net
+backup_target: hermes.pinegrid.net
+website: shop.pinegrid.net
+payments_api: https://api.paycore.com/v2
+partner_drop: sftp.paycore.de
+allow_sources:
+  - 194.173.105.197
+  - 140.82.113.4
+  - 194.181.123.211
+ntp: 212.18.3.19
+mirrors: [ci.jenkins.io, ftp.gnu.org]

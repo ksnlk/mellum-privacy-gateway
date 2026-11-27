@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2017-10-01",
+    "endpointPrefix":"workmail",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"Amazon WorkMail",
+    "serviceId":"WorkMail",
+    "signatureVersion":"v4",
+    "targetPrefix":"WorkMailService",
+    "uid":"workmail-2017-10-01"
+  },
+  "operations":{
+    "AssociateDelegateToResource":{
+      "name":"AssociateDelegateToResource",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AssociateDelegateToResourceRequest"},
+      "output":{"shape":"AssociateDelegateToResourceResponse"},
+      "errors":[
+        {"shape":"EntityNotFoundException"},
+        {"shape":"EntityStateException"},
+        {"shape":"InvalidParameterException"},
+        {"shape":"OrganizationNotFoundException"},
+        {"shape":"OrganizationStateException"}
+      ],

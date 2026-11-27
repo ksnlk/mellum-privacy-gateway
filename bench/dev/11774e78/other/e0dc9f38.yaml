@@ -1,0 +1,19 @@
+# pinegrid payments service
+database:
+  host: vault-prod.lbt1tjjx4il5.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "F@br1c07"
+  password_source: secret/data/pinegrid/payments/staging
+  password_env: ETL_SECRET_KEY
+api:
+  key_header: Proxy-Authorization
+  partner_ident: YeglEMKJOzpDAk8CrSy3MXRsymybp1BG
+  key_file: /var/run/secrets/crm/token
+  signing_alg: argon2id
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 853956586217-ln92tfvrz0df6xuvsbe79znj7i6ch0cg.apps.googleusercontent.com
+  client_proof: o0asnnthystt2e17adrxe6gz9008p3oj
+  secret_rotated_at: "2026-07-20T00:00:00Z"
+  secret_name: reports-api-token
+pagination:
+  first_cursor: dXNlcjo0MjA0NTpvZmZzZXQ6NDM2

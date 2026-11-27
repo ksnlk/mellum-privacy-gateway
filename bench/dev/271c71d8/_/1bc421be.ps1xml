@@ -1,0 +1,51 @@
+                      <Text>AuditSetContextIpValidation: </Text>
+                      <ExpressionBinding>
+                          <ScriptBlock>$_.AuditSetContextIpValidation</ScriptBlock>
+                      </ExpressionBinding>
+                      <NewLine/>
+                      <Text>EnableUserShadowStackStrictMode: </Text>
+                      <ExpressionBinding>
+                        <ScriptBlock>$_.EnableUserShadowStackStrictMode</ScriptBlock>
+                      </ExpressionBinding>
+                      <NewLine/>
+                      <Text>BlockNonCetBinaries: </Text>
+                      <ExpressionBinding>
+                        <ScriptBlock>$_.BlockNonCetBinaries</ScriptBlock>
+                      </ExpressionBinding>
+                      <NewLine/>
+                      <Text>BlockNonCetBinariesNonEhcont: </Text>
+                      <ExpressionBinding>
+                        <ScriptBlock>$_.BlockNonCetBinariesNonEhcont</ScriptBlock>
+                      </ExpressionBinding>
+                      <NewLine/>
+                      <Text>AuditBlockNonCetBinaries: </Text>
+                      <ExpressionBinding>
+                        <ScriptBlock>$_.AuditBlockNonCetBinaries</ScriptBlock>
+                      </ExpressionBinding>
+                      <NewLine/>
+                      <Text>CetDynamicApisOutOfProcOnly: </Text>
+                      <ExpressionBinding>
+                        <ScriptBlock>$_.CetDynamicApisOutOfProcOnly</ScriptBlock>
+                      </ExpressionBinding>
+                      <NewLine/>
+                      <Text>SetContextIpValidationRelaxedMode: </Text>
+                      <ExpressionBinding>
+                        <ScriptBlock>$_.SetContextIpValidationRelaxedMode</ScriptBlock>
+                      </ExpressionBinding>
+                      <NewLine/>
+                  </CustomItem>
+              </Frame>
+            </CustomItem>
+          </CustomEntry>
+        </CustomEntries>
+      </CustomControl>
+    </View>
+    <View>
+      <Name>ObjectDirectoryInformationTable</Name>
+      <ViewSelectedBy>
+        <TypeName>NtApiDotNet.ObjectDirectoryInformation</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Name</Label>

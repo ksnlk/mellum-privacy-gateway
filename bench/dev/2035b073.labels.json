@@ -1,0 +1,497 @@
+{
+ "repo": "2035b073",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/2f5f759c.py",
+   "line": 13,
+   "start": 26,
+   "end": 53,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "8p23_66_k4vc_69hp10_5_7e0qc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/daf358a2.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "65646563376536323037373162613035653439626636313237386235666161346531393434343335313537366364303061373462336364666163356338346135",
+    "edec7e620771ba05e49bf61278b5faa4e19444351576cd00a74b3cdfac5c84a5"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "_/f63b6c87.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.S6Kfwsfu4qM2S6G4ChrGNnNpH485ul_JeIUlBV_J.6rZWpDTciquMGc7B9AbF6oz360_9lrQd4QuYUlU_eQ3"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "_/f63b6c87.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-cache-02.corp.nordwind-internal.net"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "_/2492dc0d.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.84.144.152"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "_/2492dc0d.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/2492dc0d.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TAGYTUSU1/B2ZRYC8T89K/iZJIVtOKbvitdgkvfyK1Mglk"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/954c442e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_xnxfhU2GO1s4YDldgANoDH9a"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/954c442e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "W4bJbDOVmWuXFw0Fs2c5Qa5byv1CHkUI"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/954c442e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "dGhqbWpsbngweXg3OXRuajhjYTA0aGwxYnBxNGUzb2c=",
+    "thjmjlnx0yx79tnj8ca04hl1bpq4e3og"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/4fe743e7.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/4fe743e7.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u0437\u0438\u043c\u04304263!"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/4fe743e7.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "zep-careful-stage"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/235cf919.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Eva Becker"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/235cf919.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "clara90@gmail.com"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/235cf919.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 4856 2089"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/235cf919.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Elias Mueller"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/235cf919.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "laura.schwarz [at] vantor-corp [dot] de"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/235cf919.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE24083580276816929223"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "test/235cf919.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sofia Neumann"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/235cf919.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Kirchplatz 26, 22400 Augsburg"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/235cf919.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "178.78.26.152"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/1c1fa57f.md",
+   "line": 25,
+   "value": "user.0",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ada06747.md",
+   "line": 26,
+   "value": "user.0",
+   "source": "creddata"
+  },
+  {
+   "file": "secure/f8e15909.py",
+   "line": 91,
+   "value": "\\x7f",
+   "source": "creddata"
+  },
+  {
+   "file": "secure/f8e15909.py",
+   "line": 102,
+   "value": "\\x7f",
+   "source": "creddata"
+  },
+  {
+   "file": "src/daf358a2.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "a1b5bca3070b8c90db431dd3baf2142b1c650979f5d8d380960bd18885a280c3"
+  },
+  {
+   "file": "_/f63b6c87.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "2.3.16"
+  },
+  {
+   "file": "_/f63b6c87.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "b4ea231170d72cc1dc9e2786a43043b956edaaf3"
+  },
+  {
+   "file": "_/f63b6c87.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "D63X124ERQ0L3YW8DX76LKXXE5"
+  },
+  {
+   "file": "_/f63b6c87.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "_/f63b6c87.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "NIU28VP434R42FK05N3X59FGUF"
+  },
+  {
+   "file": "_/f63b6c87.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "_/2492dc0d.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "dafe547fe5bf89c64b6a"
+  },
+  {
+   "file": "_/2492dc0d.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "_/2492dc0d.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "36efd6f070fcbdfa14ff435b656fd35390fe3133"
+  },
+  {
+   "file": "src/954c442e.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_nZ5OQoU7BBK5nMwodVyGG8sb"
+  },
+  {
+   "file": "src/954c442e.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "LEDGER_SECRET_KEY"
+  },
+  {
+   "file": "src/954c442e.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "CRM_CLIENT_SECRET"
+  },
+  {
+   "file": "src/954c442e.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6L3b_Qau8l3Vd021Dp2f9n1VhkpdGpPCCxRS5my9"
+  },
+  {
+   "file": "src/954c442e.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:l43WrLVFsPbykB69n+9EIdjm3vKZndmdE/6k+xkdYS0"
+  },
+  {
+   "file": "src/954c442e.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/run/secrets/reports_password"
+  },
+  {
+   "file": "src/954c442e.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "src/954c442e.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "src/954c442e.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6NTA4NTpvZmZzZXQ6MTcx"
+  },
+  {
+   "file": "other/4fe743e7.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Liebe Borderless 3.12"
+  },
+  {
+   "file": "other/4fe743e7.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "deploy"
+  },
+  {
+   "file": "other/4fe743e7.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "histogram_eiche"
+  },
+  {
+   "file": "other/4fe743e7.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "etl"
+  },
+  {
+   "file": "other/4fe743e7.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "importer"
+  },
+  {
+   "file": "other/4fe743e7.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "outlet_metric"
+  },
+  {
+   "file": "test/235cf919.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "security@vantor-corp.de"
+  },
+  {
+   "file": "test/235cf919.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "careers@vantor-corp.de"
+  },
+  {
+   "file": "test/235cf919.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0140"
+  },
+  {
+   "file": "test/235cf919.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "test/235cf919.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "test/235cf919.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "test/235cf919.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "test/235cf919.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.17.0.1"
+  }
+ ]
+}

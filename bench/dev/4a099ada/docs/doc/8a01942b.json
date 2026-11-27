@@ -1,0 +1,99 @@
+{
+  "ApiSpecs": [
+    {
+      "HttpVerb": "POST",
+      "Path": "/api/v1/plugin",
+      "Calls": [
+        {
+          "Id": 0,
+          "CurrentPath": "/api/v1/plugin",
+          "MethodType": "POST",
+          "PostForm": null,
+          "RequestHeader": {
+            "Apitoken": "{\"tepf\":\"tlxx\",\"ass\":\"987u8815k81873b15gby2482ej420357\"}",
+            "Apitoken_algo": "scrypt",
+            "Content-Type": " application/json\r",
+            "X-Forwarded-For": " 127.0.0.1\r"
+          },
+          "CommonRequestHeaders": null,
+          "ResponseHeader": {
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Allow-Headers": "Content-Type, Content-Length, Apitoken",
+            "Access-Control-Allow-Methods": "POST, GET, OPTIONS, PUT, DELETE, UPDATE",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Expose-Headers": "Content-Length",
+            "Access-Control-Max-Age": "86400",
+            "Content-Type": "application/json; charset=utf-8"
+          },
+          "RequestUrlParams": {},
+          "RequestBody": "{\"hostgroup_id\":343,\"dir_path\":\"testpath\"}",
+          "ResponseBody": "{\"id\":1501,\"grp_id\":343,\"dir\":\"testpath\",\"create_user\":\"root\"}",
+          "ResponseCode": 200
+        }
+      ]
+    },
+    {
+      "HttpVerb": "GET",
+      "Path": "/api/v1/hostgroup/343/plugins",
+      "Calls": [
+        {
+          "Id": 1,
+          "CurrentPath": "/api/v1/hostgroup/343/plugins",
+          "MethodType": "GET",
+          "PostForm": null,
+          "RequestHeader": {
+            "Apitoken": "{\"peyy\":\"gwqb\",\"feu\":\"375s6565d70575a10njl9916ei560655\"}",
+            "Apitoken_test_vector": "dGhlIHNhbXBsZSBub25jZQ==",
+            "X-Forwarded-For": " 127.0.0.1\r"
+          },
+          "CommonRequestHeaders": null,
+          "ResponseHeader": {
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Allow-Headers": "Content-Type, Content-Length, Apitoken",
+            "Access-Control-Allow-Methods": "POST, GET, OPTIONS, PUT, DELETE, UPDATE",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Expose-Headers": "Content-Length",
+            "Access-Control-Max-Age": "86400",
+            "Content-Type": "application/json; charset=utf-8"
+          },
+          "RequestUrlParams": {},
+          "RequestBody": "",
+          "ResponseBody": "[{\"id\":1499,\"grp_id\":343,\"dir\":\"testpath\",\"create_user\":\"root\"},{\"id\":1501,\"grp_id\":343,\"dir\":\"testpath\",\"create_user\":\"root\"}]",
+          "ResponseCode": 200
+        }
+      ]
+    },
+    {
+      "HttpVerb": "DELETE",
+      "Path": "/api/v1/plugin/1501",
+      "Calls": [
+        {
+          "Id": 2,
+          "CurrentPath": "/api/v1/plugin/1501",
+          "MethodType": "DELETE",
+          "PostForm": null,
+          "RequestHeader": {
+            "login_phrase": "{\"eqjz\":\"icon\",\"rkr\":\"380h8625c29074l34hyx5406qb576401\"}",
+            "Apitoken_name": "payments-api-token",
+            "Content-Type": " application/json\r",
+            "X-Forwarded-For": " 127.0.0.1\r"
+          },
+          "CommonRequestHeaders": null,
+          "ResponseHeader": {
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Allow-Headers": "Content-Type, Content-Length, Apitoken",
+            "Access-Control-Allow-Methods": "POST, GET, OPTIONS, PUT, DELETE, UPDATE",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Expose-Headers": "Content-Length",
+            "Access-Control-Max-Age": "86400",
+            "Content-Type": "application/json; charset=utf-8"
+          },
+          "RequestUrlParams": {},
+          "RequestBody": "",
+          "ResponseBody": "{\"message\":\"plugin:1501 is deleted\"}",
+          "ResponseCode": 200
+        }
+      ]
+    }
+  ]
+}

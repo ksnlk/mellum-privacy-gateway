@@ -1,0 +1,489 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2020-11-12",
+    "endpointPrefix":"network-firewall",
+    "jsonVersion":"1.0",
+    "protocol":"json",
+    "serviceAbbreviation":"Network Firewall",
+    "serviceFullName":"AWS Network Firewall",
+    "serviceId":"Network Firewall",
+    "signatureVersion":"v4",
+    "signingName":"network-firewall",
+    "targetPrefix":"NetworkFirewall_20201112",
+    "uid":"network-firewall-2020-11-12"
+  },
+  "operations":{
+    "AssociateFirewallPolicy":{
+      "name":"AssociateFirewallPolicy",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AssociateFirewallPolicyRequest"},
+      "output":{"shape":"AssociateFirewallPolicyResponse"},
+      "errors":[
+        {"shape":"InvalidRequestException"},
+        {"shape":"InternalServerError"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ThrottlingException"},
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ListRuleGroupsRequest"},
+      "output":{"shape":"ListRuleGroupsResponse"},
+      "errors":[
+        {"shape":"InvalidRequestException"},
+        {"shape":"ThrottlingException"},
+        {"shape":"InternalServerError"}
+      ],
+      "documentation":"<p>Retrieves the metadata for the rule groups that you have defined. Depending on your setting for max results and the number of rule groups, a single call might not return the full list. </p>"
+    },
+    "ListTagsForResource":{
+      "name":"ListTagsForResource",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ListTagsForResourceRequest"},
+      "output":{"shape":"ListTagsForResourceResponse"},
+      "errors":[
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"InvalidRequestException"}
+      ],
+      "documentation":"<p>Retrieves the tags associated with the specified resource. Tags are key:value pairs that you can use to categorize and manage your resources, for purposes like billing. For example, you might set the tag key to \"customer\" and the value to the customer name or ID. You can specify one or more tags to add to each AWS resource, up to 50 tags for a resource.</p> <p>You can tag the AWS resources that you manage through AWS Network Firewall: firewalls, firewall policies, and rule groups. </p>"
+    },
+    "PutResourcePolicy":{
+      "name":"PutResourcePolicy",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"PutResourcePolicyRequest"},
+      "output":{"shape":"PutResourcePolicyResponse"},
+      "errors":[
+        {"shape":"InvalidRequestException"},
+        {"shape":"InternalServerError"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ThrottlingException"},
+        {"shape":"InvalidResourcePolicyException"}
+      ],
+      "documentation":"<p>Creates or updates an AWS Identity and Access Management policy for your rule group or firewall policy. Use this to share rule groups and firewall policies between accounts. This operation works in conjunction with the AWS Resource Access Manager (RAM) service to manage resource sharing for Network Firewall. </p> <p>Use this operation to create or update a resource policy for your rule group or firewall policy. In the policy, you specify the accounts that you want to share the resource with and the operations that you want the accounts to be able to perform. </p> <p>When you add an account in the resource policy, you then run the following Resource Access Manager (RAM) operations to access and accept the shared rule group or firewall policy. </p> <ul> <li> <p> <a href=\"https://docs.aws.amazon.com/ram/latest/APIReference/API_GetResourceShareInvitations.html\">GetResourceShareInvitations</a> - Returns the Amazon Resource Names (ARNs) of the resource share invitations. </p> </li> <li> <p> <a href=\"https://docs.aws.amazon.com/ram/latest/APIReference/API_AcceptResourceShareInvitation.html\">AcceptResourceShareInvitation</a> - Accepts the share invitation for a specified resource share. </p> </li> </ul> <p>For additional information about resource sharing using RAM, see <a href=\"https://docs.aws.amazon.com/ram/latest/userguide/what-is.html\">AWS Resource Access Manager User Guide</a>.</p>"
+    },
+    "TagResource":{
+      "name":"TagResource",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"TagResourceRequest"},
+      "output":{"shape":"TagResourceResponse"},
+      "errors":[
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"InvalidRequestException"}
+      ],
+      "documentation":"<p>Adds the specified tags to the specified resource. Tags are key:value pairs that you can use to categorize and manage your resources, for purposes like billing. For example, you might set the tag key to \"customer\" and the value to the customer name or ID. You can specify one or more tags to add to each AWS resource, up to 50 tags for a resource.</p> <p>You can tag the AWS resources that you manage through AWS Network Firewall: firewalls, firewall policies, and rule groups. </p>"
+    },
+    "UntagResource":{
+      "name":"UntagResource",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"UntagResourceRequest"},
+      "output":{"shape":"UntagResourceResponse"},
+      "errors":[
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"InvalidRequestException"}
+      ],
+      "documentation":"<p>Removes the tags with the specified keys from the specified resource. Tags are key:value pairs that you can use to categorize and manage your resources, for purposes like billing. For example, you might set the tag key to \"customer\" and the value to the customer name or ID. You can specify one or more tags to add to each AWS resource, up to 50 tags for a resource.</p> <p>You can manage tags for the AWS resources that you manage through AWS Network Firewall: firewalls, firewall policies, and rule groups. </p>"
+    },
+    "UpdateFirewallDeleteProtection":{
+      "name":"UpdateFirewallDeleteProtection",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"UpdateFirewallDeleteProtectionRequest"},
+      "output":{"shape":"UpdateFirewallDeleteProtectionResponse"},
+      "errors":[
+        {"shape":"InvalidRequestException"},
+        {"shape":"InternalServerError"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ThrottlingException"},
+        {"shape":"InvalidTokenException"},
+        {"shape":"ResourceOwnerCheckException"}
+      ],
+      "documentation":"<p>Modifies the flag, <code>DeleteProtection</code>, which indicates whether it is possible to delete the firewall. If the flag is set to <code>TRUE</code>, the firewall is protected against deletion. This setting helps protect against accidentally deleting a firewall that's in use. </p>"
+    },
+    "UpdateFirewallDescription":{
+      "name":"UpdateFirewallDescription",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+        "PENDING",
+        "IN_SYNC"
+      ]
+    },
+    "CreateFirewallPolicyRequest":{
+      "type":"structure",
+      "required":[
+        "FirewallPolicyName",
+        "FirewallPolicy"
+      ],
+      "members":{
+        "FirewallPolicyName":{
+          "shape":"ResourceName",
+          "documentation":"<p>The descriptive name of the firewall policy. You can't change the name of a firewall policy after you create it.</p>"
+        },
+        "FirewallPolicy":{
+          "shape":"FirewallPolicy",
+          "documentation":"<p>The rule groups and policy actions to use in the firewall policy.</p>"
+        },
+        "Description":{
+          "shape":"Description",
+          "documentation":"<p>A description of the firewall policy.</p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>The key:value pairs to associate with the resource.</p>"
+        },
+        "DryRun":{
+          "shape":"Boolean",
+          "documentation":"<p>Indicates whether you want Network Firewall to just check the validity of the request, rather than run the request. </p> <p>If set to <code>TRUE</code>, Network Firewall checks whether the request can run successfully, but doesn't actually make the requested changes. The call returns the value that the request would return if you ran it with dry run set to <code>FALSE</code>, but doesn't make additions or changes to your resources. This option allows you to make sure that you have the required permissions to run the request and that your request parameters are valid. </p> <p>If set to <code>FALSE</code>, Network Firewall makes the requested changes to your resources. </p>"
+        }
+      }
+    },
+    "CreateFirewallPolicyResponse":{
+      "type":"structure",
+      "required":[
+        "UpdateToken",
+        "FirewallPolicyResponse"
+      ],
+      "members":{
+        "UpdateToken":{
+          "shape":"UpdateToken",
+          "documentation":"<p>A token used for optimistic locking. Network Firewall returns a token to your requests that access the firewall policy. The token marks the state of the policy resource at the time of the request. </p> <p>To make changes to the policy, you provide the token in your request. Network Firewall uses the token to ensure that the policy hasn't changed since you last retrieved it. If it has changed, the operation fails with an <code>InvalidTokenException</code>. If this happens, retrieve the firewall policy again to get a current copy of it with current token. Reapply your changes as needed, then try the operation again using the new token. </p>"
+        },
+        "FirewallPolicyResponse":{
+          "shape":"FirewallPolicyResponse",
+          "documentation":"<p>The high-level properties of a firewall policy. This, along with the <a>FirewallPolicy</a>, define the policy. You can retrieve all objects for a firewall policy by calling <a>DescribeFirewallPolicy</a>. </p>"
+        }
+      }
+    },
+    "CreateFirewallRequest":{
+          "shape":"VpcId",
+          "documentation":"<p>The unique identifier of the VPC where Network Firewall should create the firewall. </p> <p>You can't change this setting after you create the firewall. </p>"
+        },
+        "SubnetMappings":{
+          "shape":"SubnetMappings",
+          "documentation":"<p>The public subnets to use for your Network Firewall firewalls. Each subnet must belong to a different Availability Zone in the VPC. Network Firewall creates a firewall endpoint in each subnet. </p>"
+        },
+        "DeleteProtection":{
+          "shape":"Boolean",
+          "documentation":"<p>A flag indicating whether it is possible to delete the firewall. A setting of <code>TRUE</code> indicates that the firewall is protected against deletion. Use this setting to protect against accidentally deleting a firewall that is in use. When you create a firewall, the operation initializes this flag to <code>TRUE</code>.</p>"
+        },
+        "SubnetChangeProtection":{
+          "shape":"Boolean",
+          "documentation":"<p>A setting indicating whether the firewall is protected against changes to the subnet associations. Use this setting to protect against accidentally modifying the subnet associations for a firewall that is in use. When you create a firewall, the operation initializes this setting to <code>TRUE</code>.</p>"
+        },
+        "FirewallPolicyChangeProtection":{
+          "shape":"Boolean",
+          "documentation":"<p>A setting indicating whether the firewall is protected against a change to the firewall policy association. Use this setting to protect against accidentally modifying the firewall policy for a firewall that is in use. When you create a firewall, the operation initializes this setting to <code>TRUE</code>.</p>"
+        },
+        "Description":{
+          "shape":"Description",
+          "documentation":"<p>A description of the firewall.</p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>The key:value pairs to associate with the resource.</p>"
+        }
+      }
+    },
+    "CreateFirewallResponse":{
+      "type":"structure",
+      "members":{
+        "Firewall":{
+          "shape":"Firewall",
+          "documentation":"<p>The configuration settings for the firewall. These settings include the firewall policy and the subnets in your VPC to use for the firewall endpoints. </p>"
+        },
+        "FirewallStatus":{
+          "shape":"FirewallStatus",
+          "documentation":"<p>Detailed information about the current status of a <a>Firewall</a>. You can retrieve this for a firewall by calling <a>DescribeFirewall</a> and providing the firewall name and ARN.</p>"
+        }
+      }
+    },
+    "CreateRuleGroupRequest":{
+      "type":"structure",
+      "required":[
+        "RuleGroupName",
+        "Type",
+        "Capacity"
+      ],
+      "members":{
+        "RuleGroupName":{
+          "shape":"ResourceName",
+          "documentation":"<p>The descriptive name of the rule group. You can't change the name of a rule group after you create it.</p>"
+        },
+        "RuleGroup":{
+          "shape":"RuleGroup",
+          "documentation":"<p>An object that defines the rule group rules. </p> <note> <p>You must provide either this rule group setting or a <code>Rules</code> setting, but not both. </p> </note>"
+        },
+        "Rules":{
+          "shape":"RulesString",
+          "documentation":"<p>A string containing stateful rule group rules specifications in Suricata flat format, with one rule per line. Use this to import your existing Suricata compatible rule groups. </p> <note> <p>You must provide either this rules setting or a populated <code>RuleGroup</code> setting, but not both. </p> </note> <p>You can provide your rule group specification in Suricata flat format through this setting when you create or update your rule group. The call response returns a <a>RuleGroup</a> object that Network Firewall has populated from your string. </p>"
+        },
+        "Type":{
+          "shape":"RuleGroupType",
+          "documentation":"<p>Indicates whether the rule group is stateless or stateful. If the rule group is stateless, it contains stateless rules. If it is stateful, it contains stateful rules. </p>"
+        },
+        "Description":{
+          "shape":"Description",
+          "documentation":"<p>A description of the rule group. </p>"
+        },
+        "Capacity":{
+          "shape":"RuleCapacity",
+          "documentation":"<p>The maximum operating resources that this rule group can use. Rule group capacity is fixed at creation. When you update a rule group, you are limited to this capacity. When you reference a rule group from a firewall policy, Network Firewall reserves this capacity for the rule group. </p> <p>You can retrieve the capacity that would be required for a rule group before you create the rule group by calling <a>CreateRuleGroup</a> with <code>DryRun</code> set to <code>TRUE</code>. </p> <note> <p>You can't change or exceed this capacity when you update the rule group, so leave room for your rule group to grow. </p> </note> <p> <b>Capacity for a stateless rule group</b> </p> <p>For a stateless rule group, the capacity required is the sum of the capacity requirements of the individual rules that you expect to have in the rule group. </p> <p>To calculate the capacity requirement of a single rule, multiply the capacity requirement values of each of the rule's match settings:</p> <ul> <li> <p>A match setting with no criteria specified has a value of 1. </p> </li> <li> <p>A match setting with <code>Any</code> specified has a value of 1. </p> </li> <li> <p>All other match settings have a value equal to the number of elements provided in the setting. For example, a protocol setting [\"UDP\"] and a source setting [\"10.0.0.0/24\"] each have a value of 1. A protocol setting [\"UDP\",\"TCP\"] has a value of 2. A source setting [\"10.0.0.0/24\",\"10.0.0.1/24\",\"10.0.0.2/24\"] has a value of 3. </p> </li> </ul> <p>A rule with no criteria specified in any of its match settings has a capacity requirement of 1. A rule with protocol setting [\"UDP\",\"TCP\"], source setting [\"10.0.0.0/24\",\"10.0.0.1/24\",\"10.0.0.2/24\"], and a single specification or no specification for each of the other match settings has a capacity requirement of 6. </p> <p> <b>Capacity for a stateful rule group</b> </p> <p>For a stateful rule group, the minimum capacity required is the number of individual rules that you expect to have in the rule group. </p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>The key:value pairs to associate with the resource.</p>"
+        },
+        "DryRun":{
+          "shape":"Boolean",
+          "documentation":"<p>Indicates whether you want Network Firewall to just check the validity of the request, rather than run the request. </p> <p>If set to <code>TRUE</code>, Network Firewall checks whether the request can run successfully, but doesn't actually make the requested changes. The call returns the value that the request would return if you ran it with dry run set to <code>FALSE</code>, but doesn't make additions or changes to your resources. This option allows you to make sure that you have the required permissions to run the request and that your request parameters are valid. </p> <p>If set to <code>FALSE</code>, Network Firewall makes the requested changes to your resources. </p>"
+        }
+      }
+    },
+    "CreateRuleGroupResponse":{
+      "type":"structure",
+      "required":[
+        "UpdateToken",
+        "RuleGroupResponse"
+      ],
+      "members":{
+        "UpdateToken":{
+          "shape":"UpdateToken",
+          "documentation":"<p>A token used for optimistic locking. Network Firewall returns a token to your requests that access the rule group. The token marks the state of the rule group resource at the time of the request. </p> <p>To make changes to the rule group, you provide the token in your request. Network Firewall uses the token to ensure that the rule group hasn't changed since you last retrieved it. If it has changed, the operation fails with an <code>InvalidTokenException</code>. If this happens, retrieve the rule group again to get a current copy of it with a current token. Reapply your changes as needed, then try the operation again using the new token. </p>"
+        },
+        "RuleGroupResponse":{
+          "shape":"RuleGroupResponse",
+          "documentation":"<p>The high-level properties of a rule group. This, along with the <a>RuleGroup</a>, define the rule group. You can retrieve all objects for a rule group by calling <a>DescribeRuleGroup</a>. </p>"
+        }
+      }
+    },
+    "CustomAction":{
+        "FirewallPolicyId"
+      ],
+      "members":{
+        "FirewallPolicyName":{
+          "shape":"ResourceName",
+          "documentation":"<p>The descriptive name of the firewall policy. You can't change the name of a firewall policy after you create it.</p>"
+        },
+        "FirewallPolicyArn":{
+          "shape":"ResourceArn",
+          "documentation":"<p>The Amazon Resource Name (ARN) of the firewall policy.</p> <note> <p>If this response is for a create request that had <code>DryRun</code> set to <code>TRUE</code>, then this ARN is a placeholder that isn't attached to a valid resource.</p> </note>"
+        },
+        "FirewallPolicyId":{
+          "shape":"ResourceId",
+          "documentation":"<p>The unique identifier for the firewall policy. </p>"
+        },
+        "Description":{
+          "shape":"Description",
+          "documentation":"<p>A description of the firewall policy.</p>"
+        },
+        "FirewallPolicyStatus":{
+          "shape":"ResourceStatus",
+          "documentation":"<p>The current status of the firewall policy. You can retrieve this for a firewall policy by calling <a>DescribeFirewallPolicy</a> and providing the firewall policy's name or ARN.</p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>The key:value pairs to associate with the resource.</p>"
+        }
+      },
+      "documentation":"<p>The high-level properties of a firewall policy. This, along with the <a>FirewallPolicy</a>, define the policy. You can retrieve all objects for a firewall policy by calling <a>DescribeFirewallPolicy</a>. </p>"
+    },
+    "FirewallStatus":{
+      "type":"structure",
+      "required":[
+        "Status",
+        "ConfigurationSyncStateSummary"
+      ],
+      "members":{
+        "Status":{
+          "shape":"FirewallStatusValue",
+          "documentation":"<p>The readiness of the configured firewall to handle network traffic across all of the Availability Zones where you've configured it. This setting is <code>READY</code> only when the <code>ConfigurationSyncStateSummary</code> value is <code>IN_SYNC</code> and the <code>Attachment</code> <code>Status</code> values for all of the configured subnets are <code>READY</code>. </p>"
+        },
+        "ConfigurationSyncStateSummary":{
+          "shape":"ConfigurationSyncState",
+          "documentation":"<p>The configuration sync state for the firewall. This summarizes the sync states reported in the <code>Config</code> settings for all of the Availability Zones where you have configured the firewall. </p> <p>When you create a firewall or update its configuration, for example by adding a rule group to its firewall policy, Network Firewall distributes the configuration changes to all zones where the firewall is in use. This summary indicates whether the configuration changes have been applied everywhere. </p> <p>This status must be <code>IN_SYNC</code> for the firewall to be ready for use, but it doesn't indicate that the firewall is ready. The <code>Status</code> setting indicates firewall readiness.</p>"
+        },
+        "SyncStates":{
+          "shape":"SyncStates",
+          "documentation":"<p>The subnets that you've configured for use by the Network Firewall firewall. This contains one array element per Availability Zone where you've configured a subnet. These objects provide details of the information that is summarized in the <code>ConfigurationSyncStateSummary</code> and <code>Status</code>, broken down by zone and configuration object. </p>"
+        }
+      },
+      "documentation":"<p>Detailed information about the current status of a <a>Firewall</a>. You can retrieve this for a firewall by calling <a>DescribeFirewall</a> and providing the firewall name and ARN.</p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>The tags that are associated with the resource. </p>"
+        }
+      }
+    },
+    "LogDestinationConfig":{
+      "type":"structure",
+      "required":[
+        "LogType",
+        "LogDestinationType",
+        "LogDestination"
+      ],
+      "members":{
+        "LogType":{
+          "shape":"LogType",
+          "documentation":"<p>The type of log to send. Alert logs report traffic that matches a <a>StatefulRule</a> with an action setting that sends an alert log message. Flow logs are standard network traffic flow logs. </p>"
+        },
+        "LogDestinationType":{
+          "shape":"LogDestinationType",
+          "documentation":"<p>The type of storage destination to send these logs to. You can send logs to an Amazon S3 bucket, a CloudWatch log group, or a Kinesis Data Firehose delivery stream.</p>"
+        },
+        "LogDestination":{
+          "shape":"LogDestinationMap",
+          "documentation":"<p>The named location for the logs, provided in a key:value mapping that is specific to the chosen destination type. </p> <ul> <li> <p>For an Amazon S3 bucket, provide the name of the bucket, with key <code>bucketName</code>, and optionally provide a prefix, with key <code>prefix</code>. The following example specifies an Amazon S3 bucket named <code>DOC-EXAMPLE-BUCKET</code> and the prefix <code>alerts</code>: </p> <p> <code>\"LogDestination\": { \"bucketName\": \"DOC-EXAMPLE-BUCKET\", \"prefix\": \"alerts\" }</code> </p> </li> <li> <p>For a CloudWatch log group, provide the name of the CloudWatch log group, with key <code>logGroup</code>. The following example specifies a log group named <code>alert-log-group</code>: </p> <p> <code>\"LogDestination\": { \"logGroup\": \"alert-log-group\" }</code> </p> </li> <li> <p>For a Kinesis Data Firehose delivery stream, provide the name of the delivery stream, with key <code>deliveryStream</code>. The following example specifies a delivery stream named <code>alert-delivery-stream</code>: </p> <p> <code>\"LogDestination\": { \"deliveryStream\": \"alert-delivery-stream\" }</code> </p> </li> </ul>"
+        }
+      },
+      "documentation":"<p>Defines where AWS Network Firewall sends logs for the firewall for one log type. This is used in <a>LoggingConfiguration</a>. You can send each type of log to an Amazon S3 bucket, a CloudWatch log group, or a Kinesis Data Firehose delivery stream.</p> <p>Network Firewall generates logs for stateful rule groups. You can save alert and flow log types. The stateful rules engine records flow logs for all network traffic that it receives. It records alert logs for traffic that matches stateful rules that have the rule action set to <code>DROP</code> or <code>ALERT</code>. </p>"
+    },
+    "LogDestinationConfigs":{
+      "type":"list",
+      "member":{"shape":"LogDestinationConfig"}
+    },
+    "LogDestinationMap":{
+      "type":"map",
+      "key":{"shape":"HashMapKey"},
+      "value":{"shape":"HashMapValue"}
+    },
+    "LogDestinationPermissionException":{
+      "type":"structure",
+      "members":{
+        "Message":{"shape":"ErrorMessage"}
+      },
+      "documentation":"<p>Unable to send logs to a configured logging destination. </p>",
+      "exception":true
+    },
+    "LogDestinationType":{
+      "type":"string",
+      "enum":[
+        "S3",
+          "shape":"ResourceName",
+          "documentation":"<p>The descriptive name of the rule group. You can't change the name of a rule group after you create it.</p>"
+        },
+        "RuleGroupId":{
+          "shape":"ResourceId",
+          "documentation":"<p>The unique identifier for the rule group. </p>"
+        },
+        "Description":{
+          "shape":"Description",
+          "documentation":"<p>A description of the rule group. </p>"
+        },
+        "Type":{
+          "shape":"RuleGroupType",
+          "documentation":"<p>Indicates whether the rule group is stateless or stateful. If the rule group is stateless, it contains stateless rules. If it is stateful, it contains stateful rules. </p>"
+        },
+        "Capacity":{
+          "shape":"RuleCapacity",
+          "documentation":"<p>The maximum operating resources that this rule group can use. Rule group capacity is fixed at creation. When you update a rule group, you are limited to this capacity. When you reference a rule group from a firewall policy, Network Firewall reserves this capacity for the rule group. </p> <p>You can retrieve the capacity that would be required for a rule group before you create the rule group by calling <a>CreateRuleGroup</a> with <code>DryRun</code> set to <code>TRUE</code>. </p>"
+        },
+        "RuleGroupStatus":{
+          "shape":"ResourceStatus",
+          "documentation":"<p>Detailed information about the current status of a rule group. </p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>The key:value pairs to associate with the resource.</p>"
+        }
+      },
+      "documentation":"<p>The high-level properties of a rule group. This, along with the <a>RuleGroup</a>, define the rule group. You can retrieve all objects for a rule group by calling <a>DescribeRuleGroup</a>. </p>"
+    },
+    "RuleGroupType":{
+      "type":"string",
+      "enum":[
+        "STATELESS",
+        "STATEFUL"
+      ]
+    },
+    "RuleGroups":{
+      "type":"list",
+      "member":{"shape":"RuleGroupMetadata"}
+    },
+    "RuleOption":{
+      "type":"structure",
+      "required":["Keyword"],
+      "members":{
+        "Keyword":{
+          "shape":"Keyword",
+          "documentation":"<p/>"
+        },
+        "Settings":{
+          "shape":"Settings",
+      "members":{
+        "Flags":{
+          "shape":"Flags",
+          "documentation":"<p>Used in conjunction with the <code>Masks</code> setting to define the flags that must be set and flags that must not be set in order for the packet to match. This setting can only specify values that are also specified in the <code>Masks</code> setting.</p> <p>For the flags that are specified in the masks setting, the following must be true for the packet to match: </p> <ul> <li> <p>The ones that are set in this flags setting must be set in the packet. </p> </li> <li> <p>The ones that are not set in this flags setting must also not be set in the packet. </p> </li> </ul>"
+        },
+        "Masks":{
+          "shape":"Flags",
+          "documentation":"<p>The set of flags to consider in the inspection. To inspect all flags in the valid values list, leave this with no setting.</p>"
+        }
+      },
+      "documentation":"<p>TCP flags and masks to inspect packets for, used in stateless rules <a>MatchAttributes</a> settings.</p>"
+    },
+    "TCPFlags":{
+      "type":"list",
+      "member":{"shape":"TCPFlagField"}
+    },
+    "Tag":{
+      "type":"structure",
+      "required":[
+        "Key",
+        "Value"
+      ],
+      "members":{
+        "Key":{
+          "shape":"TagKey",
+          "documentation":"<p>The part of the key:value pair that defines a tag. You can use a tag key to describe a category of information, such as \"customer.\" Tag keys are case-sensitive.</p>"
+        },
+        "Value":{
+          "shape":"TagValue",
+          "documentation":"<p>The part of the key:value pair that defines a tag. You can use a tag value to describe a specific value within a category, such as \"companyA\" or \"companyB.\" Tag values are case-sensitive.</p>"
+        }
+      },
+      "documentation":"<p>A key:value pair associated with an AWS resource. The key:value pair can be anything you define. Typically, the tag key represents a category (such as \"environment\") and the tag value represents a specific value within that category (such as \"test,\" \"development,\" or \"production\"). You can add up to 50 tags to each AWS resource. </p>"
+    },
+    "TagKey":{
+      "type":"string",
+      "max":128,
+      "min":1,
+      "pattern":"^.*$"
+    },
+    "TagKeyList":{
+      "type":"list",
+      "member":{"shape":"TagKey"},
+      "max":200,
+      "min":1
+    },
+    "TagList":{
+      "type":"list",
+      "member":{"shape":"Tag"},
+      "max":200,
+      "min":1
+    },
+    "TagResourceRequest":{
+      "type":"structure",
+      "required":[
+        "ResourceArn",
+        "Tags"
+      ],

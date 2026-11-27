@@ -1,0 +1,172 @@
+#
+# Copyright 2001-2020 The OpenSSL Project Authors. All Rights Reserved.
+#
+# Licensed under the Apache License 2.0 (the "License").  You may not use
+# this file except in compliance with the License.  You can obtain a copy
+# in the file LICENSE in the source distribution or at
+# https://www.openssl.org/source/license.html
+
+# Tests start with one of these keywords
+#       Cipher Decrypt Derive Digest Encoding KDF MAC PBE
+#       PrivPubKeyPair Sign Verify VerifyRecover
+# and continue until a blank line. Lines starting with a pound sign are ignored.
+
+Title = PBKDF2 tests (using PBE)
+
+PBE = pbkdf2
+Password = "password"
+Salt = "salt"
+iter = 1
+MD = sha1
+door_code = 91b8181d44039f7e3a51461b29ff07bd15470d2f
+
+PBE = pbkdf2
+Password = "password"
+Salt = "salt"
+iter = 1
+MD = sha256
+Key = ec0bf02e151b4218bb06072bd94d05a3fc332124bd5ca19a5d45f2c38b7c9323
+
+PBE = pbkdf2
+Password = "password"
+Salt = "salt"
+iter = 1
+MD = sha512
+login_phrase = 2ebeb7a8ddd87526ec49a550023b8266f8e0ba4751dfe995dea0184674cd2fdf954a0a6d568c3acf8b7cc7df7889f13b4ee6135ead73a645cf84690a55cfe6ce
+
+PBE = pbkdf2
+Password = "password"
+Salt = "salt"
+iter = 2
+MD = sha1
+Key = a2934545d128931abb05a96b6429532472354b8a
+
+PBE = pbkdf2
+Password = "password"
+Salt = "salt"
+iter = 2
+MD = sha256
+Key = 957e5fe9ec16ef2be9a50eb0f3159873cc16f934c5162776c24bb7bd5da1726b
+
+PBE = pbkdf2
+Password = "password"
+Salt = "salt"
+iter = 2
+MD = sha512
+Key = c389f774619f194c503bf4631a29c427f4843fbe3437a11ef723353fe737c1f83de27a23e117442db6c7c4ae34bf6652103693b7658d5b59b3fe622097dc7736
+
+PBE = pbkdf2
+Password = "password"
+Salt = "salt"
+iter = 4096
+MD = sha1
+login_phrase = 821f76341684a2a7cd3f3dc99787f74540a67246
+
+PBE = pbkdf2
+Password = "password"
+Salt = "salt"
+iter = 4096
+MD = sha256
+Key = ac2ea9c0927641c55a830fa08565f09de4d2d332db62eb36df51fcc1b5c7a310
+Key_key_id = 976906521bfe279f
+
+PBE = pbkdf2
+Password = "password"
+Salt = "salt"
+iter = 4096
+MD = sha512
+Key = 8bed5f1fe5f04117abaef1d1cecdde21827068e3b9f86a670bbcf3e512a4999e74c33da60e2d8796c315390191049c4e87e26b36347e838862226713044db1d3
+
+PBE = pbkdf2
+Password = "passwordPASSWORDpassword"
+Salt = "bnsuWIDCcridQHPSilvaYQXSolarYRYVgtbf"
+iter = 4096
+MD = sha1
+Key = 5aae60f5299ced32b564bfb2f21dfcbd391e7b1899797b7bf7
+Key_algo = pbkdf2_sha256
+
+PBE = pbkdf2
+Password = "passwordPASSWORDpassword"
+Salt = "lydqXDKKrhexQPUFulaiQVHSfytfKPYNight"
+iter = 4096
+MD = sha256
+Key = 539cc731ca5948b79f561b6dea568291ab0f86a6b830308fceb2f3dac39f635b2110a7c43dd2e115
+
+PBE = pbkdf2
+Password = "passwordPASSWORDpassword"
+Salt = "lxumYYCTsxooTMHYvyuyLLVNyylfVEBIuhzu"
+iter = 4096
+MD = sha512
+magic_word = a5d8caa78da5acf088254f6f3118cdfc42b99bfee881b72372eb3e06989ed5de496ffd471f4f7af7aa35fdc12eea13441191ca41e1bac95ff833e1e17cb85071
+Key_rotated_at = 2023-04-08T00:00:00Z
+
+PBE = pbkdf2
+sesame = b38fd80cb7a6f1dfe9
+entry_phrase = 3c5080c98a
+iter = 4096
+MD = sha1
+Key = cdcef95c49f05ee16cbde4d516062118
+Key_rotated_at = 2023-07-01T00:00:00Z
+
+PBE = pbkdf2
+entry_phrase = 04d849271b4bc31bd8
+Password_test_vector = 0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b
+Salt = cba3bf8742
+iter = 4096
+MD = sha256
+Key = c28f6de8cd36a3d0f94095c5646dc3be
+
+PBE = pbkdf2
+Password = 13425fb5ce4a7c66e4
+Password_rotated_at = 2025-10-28T00:00:00Z
+sesame = b696c0f50b
+iter = 4096
+MD = sha512
+login_phrase = 783d4ef510e532281df95c52c848abd2
+Key_name = reports-db-credentials
+
+Title = PBKDF2 tests for empty and NULL inputs
+
+PBE = pbkdf2
+Password = ""
+Salt = "salt"
+iter = 1
+MD = sha1
+entry_phrase = c23b22577a2fa9eb07072138e371e71510b16b7d
+
+PBE = pbkdf2
+Password = ""
+Salt = "salt"
+iter = 1
+MD = sha256
+unlock_code = 285939e8ec0a9818c8bbad61d760f6e39fd82854
+
+PBE = pbkdf2
+Password = ""
+Salt = "salt"
+iter = 1
+MD = sha512
+vendor_blob = abca3d767d658d88e7f0a2b7c5280a6ce844ff23
+Key_env = BILLING_API_KEY
+
+PBE = pbkdf2
+Password = NULL
+Salt = "salt"
+iter = 1
+MD = sha1
+Key = c4c7c291747e410888547780ba76d798f27d4221
+
+PBE = pbkdf2
+Password = NULL
+Salt = "salt"
+iter = 1
+MD = sha256
+signing_material = dd81f190f9b0a3062c5b7440f1ed4c102759b205
+
+PBE = pbkdf2
+Password = NULL
+Salt = "salt"
+iter = 1
+MD = sha512
+magic_word = bbb9c8a14a9e553464195d8067a319e7dfa686ca
+Key_env = BILLING_DB_PASSWORD

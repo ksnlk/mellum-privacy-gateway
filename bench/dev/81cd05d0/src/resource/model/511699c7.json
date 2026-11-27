@@ -1,0 +1,319 @@
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "DescribeTags" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "DescribeTerminationPolicyTypes" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "DetachLoadBalancers" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2011-01-01",
+    "asyncClient" : "AmazonAutoScalingAsyncClient",
+    "asyncClientBuilderClassName" : "AmazonAutoScalingAsyncClientBuilder",
+    "asyncInterface" : "AmazonAutoScalingAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AmazonAutoScalingModuleInjector",
+    "defaultEndpoint" : "https://autoscaling.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "autoscaling.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>Amazon EC2 Auto Scaling</fullname> <p>Amazon EC2 Auto Scaling is designed to automatically launch or terminate EC2 instances based on user-defined scaling policies, scheduled actions, and health checks.</p> <p>For more information about Amazon EC2 Auto Scaling, see the <a href=\"https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html\">Amazon EC2 Auto Scaling User Guide</a>. For information about granting IAM users required permissions for calls to Amazon EC2 Auto Scaling, see <a href=\"https://docs.aws.amazon.com/autoscaling/ec2/APIReference/ec2-auto-scaling-api-permissions.html\">Granting IAM users required permissions for Amazon EC2 Auto Scaling resources</a> in the <i>Amazon EC2 Auto Scaling API Reference</i>.</p>",
+    "endpointPrefix" : "autoscaling",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : false,
+    "jsonVersion" : null,
+    "packageName" : "com.amazonaws.services.autoscaling",
+    "packagePath" : "com/amazonaws/services/autoscaling",
+    "protocol" : "query",
+    "protocolDefaultExceptionUmarshallerImpl" : "StandardErrorUnmarshaller",
+    "protocolFactory" : null,
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : null,
+      "CancelInstanceRefresh" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example cancels an instance refresh operation in progress.",
+        "id" : "to-cancel-an-instance-refresh-1592960979817",
+        "input" : {
+          "AutoScalingGroupName" : "my-auto-scaling-group"
+        },
+        "output" : {
+          "InstanceRefreshId" : "08a18ac8-1ee4-02ab-b7e2-d493f05f1a5c"
+        },
+        "title" : "To cancel an instance refresh"
+      } ],
+      "CompleteLifecycleAction" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example notifies Auto Scaling that the specified lifecycle action is complete so that it can finish launching or terminating the instance.",
+        "id" : "autoscaling-complete-lifecycle-action-1",
+        "input" : {
+          "LifecycleHookName" : "my-lifecycle-hook",
+          "AutoScalingGroupName" : "my-auto-scaling-group",
+          "LifecycleActionToken" : "53388cbf-97ca-8845-9a62-15b65a45873c",
+          "LifecycleActionToken_key_id" : "22b2d436bdb5dc6c",
+          "LifecycleActionResult" : "CONTINUE"
+        },
+        "output" : null,
+        "title" : "To complete the lifecycle action"
+      } ],
+      "CreateAutoScalingGroup" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example creates an Auto Scaling group.",
+        "id" : "autoscaling-create-auto-scaling-group-1",
+        "input" : {
+          "AutoScalingGroupName" : "my-auto-scaling-group",
+          "LaunchTemplate" : {
+            "LaunchTemplateId" : "lt-0a20c965061f64abc",
+            "Version" : "$Latest"
+          },
+          "MinSize" : 1,
+          "MaxSize" : 3,
+          "VPCZoneIdentifier" : "subnet-057fa0918fEXAMPLE",
+          "MaxInstanceLifetime" : 2592000
+        },
+        "output" : null,
+        "title" : "To create an Auto Scaling group"
+          "output" : { }
+        },
+        "description" : "This example creates a launch configuration.",
+        "id" : "autoscaling-create-launch-configuration-1",
+        "input" : {
+          "LaunchConfigurationName" : "my-launch-config",
+          "ImageId" : "ami-12345678",
+          "SecurityGroups" : [ "sg-eb2af88e" ],
+          "InstanceType" : "m3.medium",
+          "IamInstanceProfile" : "my-iam-role"
+        },
+        "output" : null,
+        "title" : "To create a launch configuration"
+      } ],
+      "CreateOrUpdateTags" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example adds two tags to the specified Auto Scaling group.",
+        "id" : "autoscaling-create-or-update-tags-1",
+        "input" : {
+          "Tags" : [ {
+            "ResourceId" : "my-auto-scaling-group",
+            "ResourceType" : "auto-scaling-group",
+            "Key" : "Role",
+            "Value" : "WebServer",
+            "PropagateAtLaunch" : true
+          }, {
+            "ResourceId" : "my-auto-scaling-group",
+            "ResourceType" : "auto-scaling-group",
+            "Key" : "Dept",
+            "Value" : "Research",
+            "PropagateAtLaunch" : true
+          } ]
+        },
+        "output" : null,
+        "title" : "To create or update tags for an Auto Scaling group"
+      } ],
+      "DeleteAutoScalingGroup" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example deletes the specified Auto Scaling group.",
+        "id" : "autoscaling-delete-auto-scaling-group-1",
+        "input" : {
+          "AutoScalingGroupName" : "my-auto-scaling-group"
+        },
+        "output" : null,
+        "title" : "To delete an Auto Scaling group"
+      }, {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example deletes the specified Auto Scaling group and all its instances.",
+      "DeleteScheduledAction" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example deletes the specified scheduled action from the specified Auto Scaling group.",
+        "id" : "autoscaling-delete-scheduled-action-1",
+        "input" : {
+          "AutoScalingGroupName" : "my-auto-scaling-group",
+          "ScheduledActionName" : "my-scheduled-action"
+        },
+        "output" : null,
+        "title" : "To delete a scheduled action from an Auto Scaling group"
+      } ],
+      "DeleteTags" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example deletes the specified tag from the specified Auto Scaling group.",
+        "id" : "autoscaling-delete-tags-1",
+        "input" : {
+          "Tags" : [ {
+            "ResourceId" : "my-auto-scaling-group",
+            "ResourceType" : "auto-scaling-group",
+            "Key" : "Dept",
+            "Value" : "Research"
+          } ]
+        },
+        "output" : null,
+        "title" : "To delete a tag from an Auto Scaling group"
+      } ],
+      "DescribeAccountLimits" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the Amazon EC2 Auto Scaling service quotas for your account.",
+        "id" : "autoscaling-describe-account-limits-1",
+        "input" : null,
+        "output" : {
+          "MaxNumberOfAutoScalingGroups" : 20,
+          "MaxNumberOfLaunchConfigurations" : 100,
+          "NumberOfAutoScalingGroups" : 3,
+          "NumberOfLaunchConfigurations" : 5
+        },
+        "title" : "To describe your Auto Scaling account limits"
+      } ],
+      "DescribeAdjustmentTypes" : [ {
+        "comments" : {
+          "input" : { },
+            "Recurrence" : "30 0 1 12 0",
+            "MinSize" : 2,
+            "MaxSize" : 6,
+            "DesiredCapacity" : 4
+          } ]
+        },
+        "title" : "To describe scheduled actions"
+      } ],
+      "DescribeTags" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the tags for the specified Auto Scaling group.",
+        "id" : "autoscaling-describe-tags-1",
+        "input" : {
+          "Filters" : [ {
+            "Name" : "auto-scaling-group",
+            "Values" : [ "my-auto-scaling-group" ]
+          } ]
+        },
+        "output" : {
+          "Tags" : [ {
+            "ResourceId" : "my-auto-scaling-group",
+            "ResourceType" : "auto-scaling-group",
+            "Key" : "Dept",
+            "Value" : "Research",
+            "PropagateAtLaunch" : true
+          }, {
+            "ResourceId" : "my-auto-scaling-group",
+            "ResourceType" : "auto-scaling-group",
+            "Key" : "Role",
+            "Value" : "WebServer",
+            "PropagateAtLaunch" : true
+          } ]
+        },
+        "title" : "To describe tags"
+      } ],
+      "DescribeTerminationPolicyTypes" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example describes the available termination policy types.",
+        "id" : "autoscaling-describe-termination-policy-types-1",
+        "input" : null,
+        "output" : {
+          "TerminationPolicyTypes" : [ "ClosestToNextInstanceHour", "Default", "NewestInstance", "OldestInstance", "OldestLaunchConfiguration" ]
+        },
+        "title" : "To describe termination policy types"
+      } ],
+      "DetachInstances" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example detaches the specified instance from the specified Auto Scaling group.",
+      "PutWarmPool" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example adds a warm pool to the specified Auto Scaling group.",
+        "id" : "to-add-a-warm-pool-to-an-auto-scaling-group-1617818810383",
+        "input" : {
+          "AutoScalingGroupName" : "my-auto-scaling-group",
+          "MinSize" : 30,
+          "PoolState" : "Stopped"
+        },
+        "output" : null,
+        "title" : "To add a warm pool to an Auto Scaling group"
+      } ],
+      "RecordLifecycleActionHeartbeat" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example records a lifecycle action heartbeat to keep the instance in a pending state.",
+        "id" : "autoscaling-record-lifecycle-action-heartbeat-1",
+        "input" : {
+          "LifecycleHookName" : "my-lifecycle-hook",
+          "AutoScalingGroupName" : "my-auto-scaling-group",
+          "LifecycleActionToken" : "1f2de167-f455-396b-6ac3-c865f77ae77d"
+        },
+        "output" : null,
+        "title" : "To record a lifecycle action heartbeat"
+      } ],
+      "ResumeProcesses" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example resumes the specified suspended scaling process for the specified Auto Scaling group.",
+        "id" : "autoscaling-resume-processes-1",
+        "input" : {
+          "AutoScalingGroupName" : "my-auto-scaling-group",
+          "ScalingProcesses" : [ "AlarmNotification" ]
+        },
+        "output" : null,
+        "title" : "To resume Auto Scaling processes"
+      } ],
+      "SetDesiredCapacity" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This example sets the desired capacity for the specified Auto Scaling group.",
+        "id" : "autoscaling-set-desired-capacity-1",

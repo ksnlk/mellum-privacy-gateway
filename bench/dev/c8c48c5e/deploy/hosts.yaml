@@ -1,0 +1,15 @@
+monitoring: nimbus.vantor.systems
+database:
+  host: atlas.vantor.systems
+  port: 5432
+queue: vega.vantor.systems
+backup_target: kestrel.vantor.systems
+website: shop.vantor.systems
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: files.logistik-nord.de
+allow_sources:
+  - 193.17.60.204
+  - 140.82.113.4
+  - 193.27.121.87
+ntp: 212.18.3.19
+mirrors: [jenkins.debian.net, gitlab.gnome.org]

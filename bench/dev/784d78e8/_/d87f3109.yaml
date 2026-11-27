@@ -1,0 +1,19 @@
+# nordwind payments service
+database:
+  host: vault-prod.depiurpdbakg.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "Arg3nt1n@"
+  password_source: secret/data/nordwind/billing/staging
+  password_env: BILLING_AUTH_TOKEN
+api:
+  key_header: X-Auth-Token
+  partner_ident: OigX6xohmbUkQgqc0qFYddSxm0tB5GSO
+  key_file: /run/secrets/auth_password
+  signing_alg: pbkdf2_sha256
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 214960058130-36da74v00pesorem011iis1j5h6ujvh8.apps.googleusercontent.com
+  client_proof: 6q2rq4ygh8q14s7i26vj6wsg5z9ujonv
+  secret_rotated_at: "2026-08-12T00:00:00Z"
+  secret_name: etl-tls
+pagination:
+  first_cursor: aW52b2ljZTo5MjY2MjpvZmZzZXQ6NDkz

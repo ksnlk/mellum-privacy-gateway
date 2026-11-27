@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://vpn-gw.vantor-corp.de/api/v3/invoices?page=2
+Authorization: Basic ZGVwbG95OkJvbnVzMjAxMiE=
+Cookie: _ga=GA1.2.XS3BZ879QM9K9RD9AGPPI059VO; session_id=uuspctgva1w2nni8j3p21qfb6lomj2i9
+X-Request-Id: 5c4d80a0-1fc9-48c9-bcc1-3feaeb305ebd
+
+### the docs example, safe to share
+GET https://o450123.ingest.sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

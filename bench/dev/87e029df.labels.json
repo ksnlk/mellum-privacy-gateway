@@ -1,0 +1,684 @@
+{
+ "repo": "87e029df",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/1faa942a.js",
+   "line": 98,
+   "start": 37,
+   "end": 42,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "bsazi"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/conf/6f634e8e.ini",
+   "line": 5,
+   "start": 33,
+   "end": 69,
+   "category": "Auth:Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "8c8bc9ed-3c98-051d-c8c9-a74135ee4e6c"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/util/17a6313f.js",
+   "line": 112,
+   "start": 20,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "bktp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/util/17a6313f.js",
+   "line": 123,
+   "start": 32,
+   "end": 44,
+   "category": "Auth",
+   "mutation": "comment",
+   "forms": [
+    "KBVhVVfbMHPi"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/util/17a6313f.js",
+   "line": 125,
+   "start": 19,
+   "end": 23,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "even"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/util/17a6313f.js",
+   "line": 145,
+   "start": 21,
+   "end": 33,
+   "category": "Auth",
+   "mutation": "rename",
+   "forms": [
+    "AQSsZZpgHUVk"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/util/17a6313f.js",
+   "line": 151,
+   "start": 35,
+   "end": 47,
+   "category": "Auth",
+   "mutation": "stack",
+   "forms": [
+    "BVFqAFltNLHy"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/util/17a6313f.js",
+   "line": 154,
+   "start": 19,
+   "end": 23,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "chat"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "_/a3ef4c07.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Ben Hartmann"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/a3ef4c07.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "felix58@gmail.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/a3ef4c07.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 6410 7995"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/a3ef4c07.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.112.46.46"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/a3ef4c07.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "arrival.topic.krzysztof.birne34"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/a53a535e.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-replica.acme.cloud"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/a53a535e.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y2k6RmluZDE5Nzkh",
+    "ci:Find1979!"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/a53a535e.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "xxmtue94uxo5zr27kdrgev24bvf028pq"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/32ad115a.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Igelhase64!"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/c4ffb54b.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger.1in56b.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/c4ffb54b.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "Q8GLbKUDwhcRietm23boyCz49iQ91vYX"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/65769b56.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-primary.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/65769b56.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_JHBTDKuj5LxLCkMC6M7MDCSIXGDVQtSohpj7"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/aa4ede70.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.25.180.144"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "_/aa4ede70.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-api-06.int.nordwind-internal.net"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "_/aa4ede70.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TK51D2BP6/B0J18ZA6ERU/SPuzGI0uHZXdFr3rmQxsbbzf"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/4be6e2e3.js",
+   "line": 11,
+   "whole_line": "/** @typedef {string | { name: string; [key: string]: unknown }} ChangelogPresetConfig */",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/lib/4aac55f4.js",
+   "line": 9,
+   "whole_line": " * @param {{ [key: string]: unknown }} options",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/lib/c10b6593.js",
+   "line": 7,
+   "whole_line": "/** @type {(config: { [key: string]: unknown }, filepath: string) => void} */",
+   "source": "creddata"
+  },
+  {
+   "file": "doc/6f213444.md",
+   "line": 107,
+   "whole_line": "GIT_AUTHOR_EMAIL=\"$(git show $1 --format=%aE -s)\"",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5956d0d6.js",
+   "line": 6,
+   "whole_line": " * @param {{ [key: string]: unknown }} json",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/5956d0d6.js",
+   "line": 7,
+   "whole_line": " * @param {{ [key: string]: unknown }} defaults",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/app/ff412d04.js",
+   "line": 12,
+   "whole_line": " * @param {{ [key: string]: unknown }} config",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4e7a2ace.js",
+   "line": 506,
+   "whole_line": "      const presetConfigObject = { name: \"./scripts/config-builder-preset\", key: \"value\" };",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ce00acd0.js",
+   "line": 39,
+   "whole_line": "    fetch.json.mockImplementationOnce(() => Promise.resolve({ username: undefined }));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/17a6313f.js",
+   "line": 88,
+   "whole_line": "        \"//registry.npmjs.org/:_authToken\": \"deadbeef\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/17a6313f.js",
+   "line": 99,
+   "whole_line": "        \"//registry.npmjs.org/:_authToken\": \"deadbeef\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/17a6313f.js",
+   "line": 161,
+   "whole_line": "        \"//registry.npmjs.org/:_authToken\": \"deadbeef\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/17a6313f.js",
+   "line": 168,
+   "whole_line": "        token: undefined,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/17a6313f.js",
+   "line": 177,
+   "whole_line": "        username: \"no-auth-for-you\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/17a6313f.js",
+   "line": 185,
+   "whole_line": "        token: undefined,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/17a6313f.js",
+   "line": 187,
+   "whole_line": "        password: undefined,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/17a6313f.js",
+   "line": 152,
+   "value": "CRM_CLIENT_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/client/86549715.js",
+   "line": 22,
+   "whole_line": "    process.env.GL_TOKEN = \"TOKEN\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/client/86549715.js",
+   "line": 30,
+   "whole_line": "    process.env.GL_TOKEN = \"TOKEN\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/client/a5c553bb.js",
+   "line": 50,
+   "whole_line": "          \"PRIVATE-TOKEN\": \"TOKEN\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/client/ee5ca20a.js",
+   "line": 26,
+   "whole_line": "    process.env.GH_TOKEN = \"TOKEN\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/client/ee5ca20a.js",
+   "line": 34,
+   "whole_line": "    process.env.GH_TOKEN = \"TOKEN\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/client/ee5ca20a.js",
+   "line": 43,
+   "whole_line": "    process.env.GH_TOKEN = \"TOKEN\";",
+   "source": "creddata"
+  },
+  {
+   "file": "util/conf/lib/114a2bc3.js",
+   "line": 21,
+   "value": "legacy",
+   "source": "creddata"
+  },
+  {
+   "file": "util/conf/lib/114a2bc3.js",
+   "line": 62,
+   "whole_line": "  \"init-author-email\": String,",
+   "source": "creddata"
+  },
+  {
+   "file": "util/conf/lib/be42be26.js",
+   "line": 189,
+   "whole_line": "      token: undefined,",
+   "source": "creddata"
+  },
+  {
+   "file": "util/conf/lib/be42be26.js",
+   "line": 190,
+   "whole_line": "      password: undefined,",
+   "source": "creddata"
+  },
+  {
+   "file": "util/conf/lib/be42be26.js",
+   "line": 214,
+   "value": "_auth",
+   "source": "creddata"
+  },
+  {
+   "file": "util/conf/lib/be42be26.js",
+   "line": 216,
+   "whole_line": "    let passDef = this.get(\"_password\");",
+   "source": "creddata"
+  },
+  {
+   "file": "util/conf/lib/be42be26.js",
+   "line": 222,
+   "whole_line": "      passDef = authDef.join(\":\");",
+   "source": "creddata"
+  },
+  {
+   "file": "util/conf/lib/be42be26.js",
+   "line": 226,
+   "whole_line": "      c.password = Buffer.from(this.get(`${nerfed}:_password`), \"base64\").toString(\"utf8\");",
+   "source": "creddata"
+  },
+  {
+   "file": "util/conf/lib/be42be26.js",
+   "line": 228,
+   "whole_line": "      c.password = passDef;",
+   "source": "creddata"
+  },
+  {
+   "file": "util/conf/lib/be42be26.js",
+   "line": 270,
+   "whole_line": "      const encoded = Buffer.from(c.password, \"utf8\").toString(\"base64\");",
+   "source": "creddata"
+  },
+  {
+   "file": "util/lib/8aef0be9.js",
+   "line": 82,
+   "whole_line": "    token: undefined,",
+   "source": "creddata"
+  },
+  {
+   "file": "util/lib/8aef0be9.js",
+   "line": 84,
+   "whole_line": "    password: undefined,",
+   "source": "creddata"
+  },
+  {
+   "file": "util/lib/8aef0be9.js",
+   "line": 96,
+   "whole_line": "      cleaned.password = auth.password;",
+   "source": "creddata"
+  },
+  {
+   "file": "util/lib/client/2b58a550.js",
+   "line": 12,
+   "whole_line": "    this.token = token;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3ef4c07.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "198.51.100.241"
+  },
+  {
+   "file": "_/a3ef4c07.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "7.25.49"
+  },
+  {
+   "file": "_/a3ef4c07.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:a92e9f1ea716e04c1a442cfafde38f909bf7cf15a3e0b4469aeecdce41e1efd7"
+  },
+  {
+   "file": "_/a3ef4c07.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/a3ef4c07.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/a53a535e.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "7MIOXFFD086DU80AB5JSDWYGBI"
+  },
+  {
+   "file": "_/a53a535e.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "40d88b93-be34-49d7-8eaa-8770cbf082bc"
+  },
+  {
+   "file": "_/a53a535e.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "_/a53a535e.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/32ad115a.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Genny2026"
+  },
+  {
+   "file": "_/32ad115a.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "evil12"
+  },
+  {
+   "file": "src/c4ffb54b.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "src/c4ffb54b.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5.24.32"
+  },
+  {
+   "file": "src/c4ffb54b.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "a1bfbfc9334524a24f214ef6308f8220a94aa0df"
+  },
+  {
+   "file": "src/c4ffb54b.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "97750dc8-e774-43fa-bdbe-60addfb1892b"
+  },
+  {
+   "file": "src/65769b56.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "6.20.50"
+  },
+  {
+   "file": "src/65769b56.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "8.21.28"
+  },
+  {
+   "file": "src/65769b56.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-XhU2nXJazHTJuL0nx36Ugzc2bfW6bTy5g+bXpjZUFUa6uzj8v2FUuAxGyd4OsB8ScFV4zoSNQcEelzfjiGQUcA=="
+  },
+  {
+   "file": "src/65769b56.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "2.25.28"
+  },
+  {
+   "file": "src/65769b56.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-EoC6BtFtFVnnn5W2nrcTItLWTQqtHJ6iCLHacbFZ26GzO/kOtoMZu0ZUQB1Zpy0yDZiLNT6IdR2OHINMEZiYag=="
+  },
+  {
+   "file": "src/65769b56.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "3.24.25"
+  },
+  {
+   "file": "src/65769b56.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-/b4edsEBdXagaAkmmVuDpYGs9J0yg8syr4frpLXXxnSpitBunCQvLTx5QuarlIjY+ACl7cfwMEdCuaYIcq5p5A=="
+  },
+  {
+   "file": "_/aa4ede70.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "f91779fb2500ae01e925"
+  },
+  {
+   "file": "_/aa4ede70.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "auth0.com"
+  },
+  {
+   "file": "_/aa4ede70.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "30ab9ac87b6f634d91897d52bbc506d5733ab1e0"
+  }
+ ]
+}

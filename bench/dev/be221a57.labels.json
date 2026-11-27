@@ -1,0 +1,1249 @@
+{
+ "repo": "be221a57",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/5a831ea6.md",
+   "line": 1143,
+   "start": 16,
+   "end": 26,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "tpaynjttom"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/5a831ea6.md",
+   "line": 1153,
+   "start": 23,
+   "end": 34,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "icivhnvvvb9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/5a831ea6.md",
+   "line": 1158,
+   "start": 17,
+   "end": 33,
+   "category": "Password",
+   "mutation": "b64",
+   "forms": [
+    "d21wcmhsenpwejY=",
+    "wmprhlzzpz6"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/5a831ea6.md",
+   "line": 1167,
+   "start": 15,
+   "end": 25,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "sqsfoszfik"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/9cb1bd0e.ts",
+   "line": 437,
+   "start": 13,
+   "end": 18,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "jaclf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/9cb1bd0e.ts",
+   "line": 452,
+   "start": 25,
+   "end": 41,
+   "category": "Auth:Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "weFhK5L7iEQ6Nun="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/9cb1bd0e.ts",
+   "line": 467,
+   "start": 45,
+   "end": 61,
+   "category": "Basic Authorization",
+   "mutation": "comment",
+   "forms": [
+    "nR4veil6jEBdgXu="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/d2b5e649.ts",
+   "line": 33,
+   "start": 22,
+   "end": 30,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "scbvefby"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "_/6cfaad03.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "David Wolf"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/6cfaad03.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "e.schmidt@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/6cfaad03.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 6615 4353"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/6cfaad03.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Elias Krueger"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/6cfaad03.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lukas.wagner [at] vantor-corp [dot] de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/6cfaad03.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE95765028266558766582"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/6cfaad03.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jan Klein"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/6cfaad03.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Kirchplatz 35, 13588 Landshut"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/6cfaad03.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "85.233.238.142"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/07ab6200.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "lena.herbst.unsigned"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/07ab6200.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports.ltarf7.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "test/d742f1bc.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-prod.3pujphwdg1wa.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/d742f1bc.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Blitz$1991"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/d742f1bc.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "sist_pug-stage"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/5af478fe.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.1g5h3HoRVDhDPWteJOhB2oMpKfmuG-a1UIVpJDG9.iBxGEhyh6rHGsO4PnkQdLfMgo_f1jzGJJ5rkpOpgFkE"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/5af478fe.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-mq-09.prod.acme-internal.net"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "_/36dff770.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Kept1982#"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "_/36dff770.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.164.64.179"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "_/36dff770.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "TGllYmUxOTgzIw==",
+    "Liebe1983#"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "src/f12057cc.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-prod.0omre88zrwf2.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "src/f12057cc.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "YgBYgwGtp4bfJxsLOnNYJ3EjTz7a0Aou"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "46.81.242.0/24"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "46.81.242.83"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "46.81.242.199"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Laura Lange"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "laura.lange@gmx.de"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 4739951"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Noah Zimmermann"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "noah.zimmermann@web.de"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 6711459"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/5a831ea6.md",
+   "line": 300,
+   "whole_line": "\ttoken: 'secret'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a831ea6.md",
+   "line": 491,
+   "whole_line": "//=> 'key=a&key=b'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a831ea6.md",
+   "line": 863,
+   "whole_line": "\t\t\t\t\t\t\ttoken: getNewToken() // Refresh the access token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a831ea6.md",
+   "line": 1046,
+   "value": "./my_ca.pem",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a831ea6.md",
+   "line": 1055,
+   "whole_line": "Private keys in [PEM](https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail) format.\\",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a831ea6.md",
+   "line": 1121,
+   "whole_line": "\t\tpassphrase: 'client_key_passphrase'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a831ea6.md",
+   "line": 1129,
+   "whole_line": "\t\t\t{pem: fs.readFileSync('./client_key1.pem'), passphrase: 'passphrase1'},",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a831ea6.md",
+   "line": 1130,
+   "whole_line": "\t\t\t{pem: fs.readFileSync('./client_key2.pem'), passphrase: 'passphrase2'},",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a831ea6.md",
+   "line": 1709,
+   "whole_line": "\toptions.path = `${options.path}?access_token=${accessToken}`;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a831ea6.md",
+   "line": 1847,
+   "whole_line": "const redis = new KeyvRedis('redis://user:pass@localhost:6379');",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a831ea6.md",
+   "line": 1967,
+   "whole_line": "\t\tsecret: process.env.CONSUMER_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a831ea6.md",
+   "line": 1975,
+   "whole_line": "\tsecret: process.env.ACCESS_TOKEN_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a831ea6.md",
+   "line": 1154,
+   "value": "LEDGER_CLIENT_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2f3e8826.ts",
+   "line": 207,
+   "whole_line": "\t\t\t\t\t\t\t\ttoken: getNewToken() // Refresh the access token",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2f3e8826.ts",
+   "line": 330,
+   "value": "./my_ca.pem",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2f3e8826.ts",
+   "line": 649,
+   "whole_line": "\t\tkey: undefined,",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2f3e8826.ts",
+   "line": 1177,
+   "whole_line": "\t\t\turl.password = this._internals.password;",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2f3e8826.ts",
+   "line": 1274,
+   "whole_line": "\t//=> 'key=a&key=b'",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2f3e8826.ts",
+   "line": 1582,
+   "whole_line": "\t\t\turl.password = value;",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2f3e8826.ts",
+   "line": 1584,
+   "whole_line": "\t\t\tthis._internals.password = value;",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2f3e8826.ts",
+   "line": 2118,
+   "value": "httpsOptions.passphrase",
+   "source": "creddata"
+  },
+  {
+   "file": "test/86368c44.ts",
+   "line": 539,
+   "value": "unicorn",
+   "source": "creddata"
+  },
+  {
+   "file": "test/86368c44.ts",
+   "line": 553,
+   "value": "unicorn",
+   "source": "creddata"
+  },
+  {
+   "file": "test/86368c44.ts",
+   "line": 568,
+   "value": "unicorn",
+   "source": "creddata"
+  },
+  {
+   "file": "test/86368c44.ts",
+   "line": 583,
+   "value": "unicorn",
+   "source": "creddata"
+  },
+  {
+   "file": "test/86368c44.ts",
+   "line": 609,
+   "value": "unicorn",
+   "source": "creddata"
+  },
+  {
+   "file": "test/86368c44.ts",
+   "line": 631,
+   "value": "unicorn",
+   "source": "creddata"
+  },
+  {
+   "file": "test/86368c44.ts",
+   "line": 647,
+   "value": "unicorn",
+   "source": "creddata"
+  },
+  {
+   "file": "test/86368c44.ts",
+   "line": 669,
+   "value": "unicorn",
+   "source": "creddata"
+  },
+  {
+   "file": "test/86368c44.ts",
+   "line": 685,
+   "value": "invalid",
+   "source": "creddata"
+  },
+  {
+   "file": "test/86368c44.ts",
+   "line": 717,
+   "value": "unicorn",
+   "source": "creddata"
+  },
+  {
+   "file": "test/86368c44.ts",
+   "line": 753,
+   "value": "unicorn",
+   "source": "creddata"
+  },
+  {
+   "file": "test/86368c44.ts",
+   "line": 980,
+   "value": "unicorn",
+   "source": "creddata"
+  },
+  {
+   "file": "test/86368c44.ts",
+   "line": 994,
+   "whole_line": "\t\t\t\t\t\treturn retryWithMergedOptions({headers: {token: 'unicorn'}});",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9b99e511.ts",
+   "line": 221,
+   "whole_line": "\t\t\tkey: clientKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9b99e511.ts",
+   "line": 260,
+   "whole_line": "\t\t\tkey: clientKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9b99e511.ts",
+   "line": 302,
+   "whole_line": "\t\t\tkey: clientKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9b99e511.ts",
+   "line": 335,
+   "whole_line": "\tconst {key: clientKey} = await createPrivateKey(2048, {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9b99e511.ts",
+   "line": 342,
+   "whole_line": "\t\tclientKeyPassword: 'randomPassword',",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9b99e511.ts",
+   "line": 356,
+   "whole_line": "\t\t\tkey: clientKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9b99e511.ts",
+   "line": 390,
+   "whole_line": "\tconst {key: clientKey} = await createPrivateKey(2048, {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9b99e511.ts",
+   "line": 411,
+   "whole_line": "\t\t\tkey: clientKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9cb1bd0e.ts",
+   "line": 471,
+   "whole_line": "\tawait got(`http://hello:world@localhost:${server.port}/redirect`);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b044ddea.ts",
+   "line": 161,
+   "whole_line": "\tconst token = 'helloworld';",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b241041a.ts",
+   "line": 45,
+   "value": "pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b241041a.ts",
+   "line": 45,
+   "value": "41285",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b241041a.ts",
+   "line": 49,
+   "whole_line": "\tt.is(options.password, 'pass');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b241041a.ts",
+   "line": 54,
+   "whole_line": "\t\turl: 'http://user:pass@localhost:41285',",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b241041a.ts",
+   "line": 66,
+   "whole_line": "\t\t\turl: 'http://user:pass@localhost:41285'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d2b5e649.ts",
+   "line": 6,
+   "whole_line": "\tconst exampleUrl = 'https://user:password@github.com:443/say?hello=world#bang';",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d2b5e649.ts",
+   "line": 25,
+   "whole_line": "\tconst exampleUrl = 'https://user:password@github.com:443/say?hello=world#bang';",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e73af842.ts",
+   "line": 196,
+   "whole_line": "\t\tif (request.headers.token === 'unicorn') {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e73af842.ts",
+   "line": 211,
+   "value": "unicorn",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fe9bbe2f.ts",
+   "line": 161,
+   "whole_line": "\tconst body = JSON.stringify({key: 'value'});",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/90523c7a.ts",
+   "line": 53,
+   "whole_line": "\t\t\tkey: serverKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6cfaad03.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "security@vantor-corp.de"
+  },
+  {
+   "file": "_/6cfaad03.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "billing@vantor-corp.de"
+  },
+  {
+   "file": "_/6cfaad03.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+44 20 7946 0541"
+  },
+  {
+   "file": "_/6cfaad03.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "_/6cfaad03.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "_/6cfaad03.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "_/6cfaad03.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "_/6cfaad03.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "test/07ab6200.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI2LQtYvWwGUF05A3RHoUaMgMlH3oSPyjCTcuDjn7eaCC"
+  },
+  {
+   "file": "test/07ab6200.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "c0781deb7067df90965d20f571a42f5276dbeaaf523bf5b95f5c3b14b2b19ab6"
+  },
+  {
+   "file": "test/07ab6200.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/07ab6200.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "test/d742f1bc.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Kee Leipzig 2.0"
+  },
+  {
+   "file": "test/d742f1bc.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "reporting"
+  },
+  {
+   "file": "test/d742f1bc.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Popularity Trist 1.7"
+  },
+  {
+   "file": "test/d742f1bc.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "ledger_reader"
+  },
+  {
+   "file": "test/d742f1bc.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "deploy"
+  },
+  {
+   "file": "test/d742f1bc.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "preparer-frequent-2027"
+  },
+  {
+   "file": "test/5af478fe.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "0.3.37"
+  },
+  {
+   "file": "test/5af478fe.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "6ab9b1485b161b5f8e34819a5df262900de397d7"
+  },
+  {
+   "file": "test/5af478fe.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "16JM0DL7DJM11D0A9FGO6KI86F"
+  },
+  {
+   "file": "test/5af478fe.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "test/5af478fe.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "P07EG71G9A058ZEDW1QINCKTE1"
+  },
+  {
+   "file": "test/5af478fe.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "_/36dff770.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:cf0a2c7c552bc74c5d0f3d984c1461d45fb467122afdb34785bb34687649e0c1"
+  },
+  {
+   "file": "_/36dff770.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "929a1bca3d08165ea36a875dcf0c1b67a08ac0a2"
+  },
+  {
+   "file": "_/36dff770.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "_/36dff770.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "_/36dff770.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "6.21.21"
+  },
+  {
+   "file": "src/f12057cc.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "src/f12057cc.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "1.12.10"
+  },
+  {
+   "file": "src/f12057cc.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "2dbe1f89e9ae38b452fe1c0a0ee6c746d761643c"
+  },
+  {
+   "file": "src/f12057cc.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "363d94eb-5ad3-4072-a529-25e4ef78431e"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.pinegrid-ops.io"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "edi.paycore.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "46.104.76.87"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Lina Becker"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Elias Richter"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.pinegrid.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "www.pinegrid-ops.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.paycore.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "46.104.76.87"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Lina Becker"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "lina.becker@pinegrid.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Max Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "max.mustermann@example.org"
+  }
+ ]
+}

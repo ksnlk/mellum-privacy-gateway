@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: quarzo-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "088a1c2"
+type: Opaque
+data:
+  DB_PASSWORD: Z3J1bnQtbWF4LW1lZXItYW5uYQ==
+  STRIPE_KEY: c2tfbGl2ZV83ZmdRZXJlSWt2UTVOeXNTYmYyclRFdU0=
+  ca.crt.sha256: 0d277ddd123270f1167a12556d5d53b13423cb21275ce41d34072426929c9202
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: quarzo-payments-config
+data:
+  DB_HOST: "ledger-api-08.int.quarzo-internal.net"
+  SENTRY_HOST: "storage.googleapis.com"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

@@ -1,0 +1,15 @@
+monitoring: orion.acme-ops.io
+database:
+  host: kestrel.acme-ops.io
+  port: 5432
+queue: atlas.acme-ops.io
+backup_target: falkor.acme-ops.io
+website: kunden.acme-ops.io
+payments_api: https://api.mailvault.com/v2
+partner_drop: edi.mailvault.de
+allow_sources:
+  - 85.86.141.171
+  - 140.82.114.25
+  - 85.117.164.141
+ntp: 131.188.3.220
+mirrors: [db.debian.org, build.opensuse.org]

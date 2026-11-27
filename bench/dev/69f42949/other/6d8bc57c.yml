@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: helix-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "6b802b2"
+type: Opaque
+data:
+  DB_PASSWORD: Z2x1ZWNrLXNjcmF0Y2gtaGFubmFoLWJpbnQ=
+  STRIPE_KEY: c2tfbGl2ZV9jS0VXaktaa0dqUFVJYzVOcm1hQkJkUUE=
+  ca.crt.sha256: e84f3195a805611b119230a9637313c13aea880fd937cb46569e12b9d1906c12
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: helix-payments-config
+data:
+  DB_HOST: "ledger-prod.udoum9v9pp6y.eu-central-1.rds.amazonaws.com"
+  SENTRY_HOST: "api.stripe.com"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

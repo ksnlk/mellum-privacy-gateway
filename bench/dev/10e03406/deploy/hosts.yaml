@@ -1,0 +1,15 @@
+monitoring: kestrel.nordwind-ops.io
+database:
+  host: nimbus.nordwind-ops.io
+  port: 5432
+queue: orion.nordwind-ops.io
+backup_target: vega.nordwind-ops.io
+website: portal.nordwind-ops.io
+payments_api: https://api.datafjord.com/v2
+partner_drop: files.datafjord.de
+allow_sources:
+  - 46.183.34.217
+  - 140.82.112.3
+  - 46.211.97.122
+ntp: 162.159.200.1
+mirrors: [ci.apache.org, grafana.wikimedia.org]

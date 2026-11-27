@@ -1,0 +1,830 @@
+{
+ "repo": "cd82f1a2",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "code/3e878d9b.yml",
+   "line": 2,
+   "start": 9,
+   "end": 45,
+   "category": "Token:UUID",
+   "mutation": "none",
+   "forms": [
+    "a3cd86b2-c9c0-670b-63eb-a5b427fada3e"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/lib/client/4770a7ca.go",
+   "line": 78,
+   "start": 17,
+   "end": 38,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "sehuzy_cflhusv_bigger"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "other/326780ec.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-prod.rpha2uir0nph.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/326780ec.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "ZGVwbG95OkJpcm5lIzIwMDI=",
+    "deploy:Birne#2002"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/326780ec.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "8dynkk54o91owmngy1sl2qzsug6duzm6"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/10a1178f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "kuchen_typha_affiliate_changer44"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/10a1178f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-primary.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/77967baf.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_RQaBwQzBMGLeqXYEB4sAxSfH"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/77967baf.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "1i7EgmS3ZwQ1pFOH5RDjWiSfjEAkzAec"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/77967baf.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "cjBzeWhmcmM1MGoyaWltYmlnZnMxbGR6dWg4ZWVkaHc=",
+    "r0syhfrc50j2iimbigfs1ldzuh8eedhw"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/cf4e5977.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Anna Fischer"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/cf4e5977.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "paul30@gmail.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/cf4e5977.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 2268 7862"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/cf4e5977.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.26.176.44"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/cf4e5977.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "paul-hawk-modulus"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/9728afb7.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-primary.helix.cloud"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/9728afb7.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "MDVwS0tucU8wSK6eFccBqvkAprxZo1w8"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/8feb8a63.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043c\u043e\u0440\u04358050!"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/8feb8a63.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.23.10.39"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/8feb8a63.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "QWRsZXImMTk3OA==",
+    "Adler&1978"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.quarzo.net"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.quarzo.net"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.quarzo.net"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.85.206.0/24"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.85.206.7"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.quarzo.net"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.quarzo.net"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.quarzo.net"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.quarzo.net"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.85.206.192"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.quarzo.net"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jan Mueller"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jan.mueller@web.de"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 9487088"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jan Wolf"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jan.wolf@web.de"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 9790004"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/fdd46201.go",
+   "line": 139,
+   "whole_line": "\t\t\"ssl_password_file\":      c.tls.Server.Passphrase.Path,",
+   "source": "creddata"
+  },
+  {
+   "file": "code/3e878d9b.yml",
+   "line": 3,
+   "value": "dGhlIHNhbXBsZSBub25jZQ==",
+   "source": "creddata"
+  },
+  {
+   "file": "example/bbaebbdc.json",
+   "line": 2,
+   "whole_line": "    \"apiVersion\": \"apps/v1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "template/b95af763.yaml",
+   "line": 1,
+   "whole_line": "apiVersion: apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/client/b3f11bd9.go",
+   "line": 55,
+   "whole_line": "\t\tuserAuth: UserAuthConfig{\"test-user\": auth},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/client/b3f11bd9.go",
+   "line": 81,
+   "whole_line": "\tuserAuth := UserAuthConfig{\"test-user\": auth}",
+   "source": "creddata"
+  },
+  {
+   "file": "other/326780ec.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "EQYPXLV8GVNNARUOQH3SQZGDRB"
+  },
+  {
+   "file": "other/326780ec.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "c97a4259-5c53-44f7-9eb0-b5510d4b42c5"
+  },
+  {
+   "file": "other/326780ec.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "auth0.com"
+  },
+  {
+   "file": "other/326780ec.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/10a1178f.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIZKizj4umCnF2o5Als18lNS59opj1t9b8dGEk7oPMbxq"
+  },
+  {
+   "file": "src/10a1178f.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "6eebe8ad4b53dc13cb5d9b406b7785580dfe6589c81803e3ea6df2a12d89c2df"
+  },
+  {
+   "file": "src/10a1178f.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/10a1178f.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "test/77967baf.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_c3WAHntAOdzD1ojh0ElCUr5l"
+  },
+  {
+   "file": "test/77967baf.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "REPORTS_API_KEY"
+  },
+  {
+   "file": "test/77967baf.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "VAULT_CLIENT_SECRET"
+  },
+  {
+   "file": "test/77967baf.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LWQfVYrA83TzqES20YwwFwPN6IbdPJphL4iyyPa"
+  },
+  {
+   "file": "test/77967baf.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:VYGAhlDZMR1xfnOxzAGjO+io9x6ksMHFwbltjGZeWmw"
+  },
+  {
+   "file": "test/77967baf.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/var/run/secrets/crm/token"
+  },
+  {
+   "file": "test/77967baf.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Authorization"
+  },
+  {
+   "file": "test/77967baf.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "test/77967baf.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6Mzg5OTQ6b2Zmc2V0OjM2Mw=="
+  },
+  {
+   "file": "src/cf4e5977.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "1.1.1.1"
+  },
+  {
+   "file": "src/cf4e5977.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "3.12.37"
+  },
+  {
+   "file": "src/cf4e5977.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:b90e7ee3354e1e9d2f16ba61afab0e667d6ccb3a945ff726906c11d55a655cfe"
+  },
+  {
+   "file": "src/cf4e5977.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/cf4e5977.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/9728afb7.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "test/9728afb7.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.17.31"
+  },
+  {
+   "file": "test/9728afb7.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "296d0a691a395f6abb6f6899026e4036d7908460"
+  },
+  {
+   "file": "test/9728afb7.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "0361b8d1-7fd8-48aa-9ca2-4e9ddecb6e49"
+  },
+  {
+   "file": "other/8feb8a63.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:b03257a49602e41d093a7d750c74cedc3b905cf15e2ee4247df3aef8053383e6"
+  },
+  {
+   "file": "other/8feb8a63.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "f3bde216b98e25662506ffb4c459c9b0a427d85a"
+  },
+  {
+   "file": "other/8feb8a63.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<password>"
+  },
+  {
+   "file": "other/8feb8a63.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "localhost"
+  },
+  {
+   "file": "other/8feb8a63.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "0.14.36"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "edi.mailvault.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "188.85.129.185"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.quarzo.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.quarzo.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "shop.quarzo.net"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Lukas Schmidt"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "shop.quarzo.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.mailvault.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "188.85.129.185"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "vault.centos.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.quarzo.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Lukas Schmidt"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "lukas.schmidt@quarzo.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

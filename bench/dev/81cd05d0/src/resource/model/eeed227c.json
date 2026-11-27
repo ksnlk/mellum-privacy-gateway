@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2018-05-22",
+    "endpointPrefix":"personalize",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"Amazon Personalize",
+    "serviceId":"Personalize",
+    "signatureVersion":"v4",
+    "signingName":"personalize",
+    "targetPrefix":"AmazonPersonalize",
+    "uid":"personalize-2018-05-22"
+  },
+  "operations":{
+    "CreateBatchInferenceJob":{
+      "name":"CreateBatchInferenceJob",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"CreateBatchInferenceJobRequest"},
+      "output":{"shape":"CreateBatchInferenceJobResponse"},
+      "errors":[
+        {"shape":"InvalidInputException"},
+        {"shape":"ResourceAlreadyExistsException"},
+        {"shape":"LimitExceededException"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ResourceInUseException"}

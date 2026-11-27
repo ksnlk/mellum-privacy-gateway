@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.vantor.io/app@sha256:bb0283da1a552cfba7e7deefb33635e9725010d9c1d7346f276e9896ef069425
+    environment:
+      - DATABASE_URL=postgres://app:werder-wald-prod@10.77.77.233:5432/app
+      - SENTRY_RELEASE=a602b9c834d00904bd0efa22ef79aec45ebe86b1
+      - API_TOKEN=<password>
+      - BIND_ADDR=0.0.0.0
+  worker:
+    image: registry.vantor.io/worker:9.5.0
+    environment:
+      - QUEUE_PASS=Z3Jhc3MtYXJl

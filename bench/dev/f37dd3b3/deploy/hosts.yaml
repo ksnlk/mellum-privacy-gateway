@@ -1,0 +1,15 @@
+monitoring: falkor.nordwind-ops.io
+database:
+  host: juno.nordwind-ops.io
+  port: 5432
+queue: nimbus.nordwind-ops.io
+backup_target: tarvos.nordwind-ops.io
+website: shop.nordwind-ops.io
+payments_api: https://api.paycore.com/v2
+partner_drop: files.paycore.de
+allow_sources:
+  - 91.52.46.152
+  - 185.199.108.153
+  - 91.52.58.167
+ntp: 212.18.3.19
+mirrors: [registry.terraform.io, mirrors.kernel.org]

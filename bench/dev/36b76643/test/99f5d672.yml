@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.quarzo.io/app@sha256:fb9d0d6d22ecba1b932e12fc7ddf3acb5c31e601d0e00835dc7603884150f1fb
+    environment:
+      - DATABASE_URL=postgres://app:scan659@10.38.196.92:5432/app
+      - SENTRY_RELEASE=41532aaa86aa658704f8edfd0159814361331d0d
+      - API_TOKEN=%(api_token)s
+      - BIND_ADDR=0.0.0.0
+  worker:
+    image: registry.quarzo.io/worker:9.14.40
+    environment:
+      - QUEUE_PASS=TGluZGVoYWZlbjEzPw==

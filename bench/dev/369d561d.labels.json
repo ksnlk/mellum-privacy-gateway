@@ -1,0 +1,762 @@
+{
+ "repo": "369d561d",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "src/aa37a9b2.java",
+   "line": 30,
+   "start": 28,
+   "end": 110,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "4u3l7651c60x9f6d94Q, 3yw75mu1868jgbl028V, 3e8518418ut7a34021T, 8wg16c5v29u0b68q88N"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/d27db9f5.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "33626436343563626237336662333936633934303734626636306164333863623539303736626461313262613862373034306165666539396664366263626430",
+    "3bd645cbb73fb396c94074bf60ad38cb59076bda12ba8b7040aefe99fd6bcbd0"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "other/6de06129.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.ty17cy1npqff.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/6de06129.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "dracheunion-prod"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/6de06129.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Schmidtwein03?"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/479b9667.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "reactive.externals.star.winter50"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/479b9667.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-prod.2f4c65dz0jyd.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/b4a3496f.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.NlAgpgGA8I5qR5V8MHzeNof3TRBfnA00OteehsoG.xf1PPR8ZyFyFL1oQxFgsWtkVmtE2rG36W3WiknKrxDC"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/b4a3496f.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/6c6d95e1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/6c6d95e1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Bremen",
+    "Bremenboru\u00dfia81!",
+    "boru\u00dfia81!"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/af73043d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "David Wagner"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/af73043d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben.schmidt@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/af73043d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 3220 5540"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/af73043d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Elias Wagner"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/af73043d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lukas.lange [at] quarzo-corp [dot] de"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/af73043d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE50398524295497835123"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/af73043d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Paul Hoffmann"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/af73043d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Bahnhofstra\u00dfe 99, 59921 Erding"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/af73043d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "178.36.141.17"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "src/1ac072ab.java",
+   "line": 312,
+   "whole_line": "                            key = persisted;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1ac072ab.java",
+   "line": 484,
+   "whole_line": "                        key = detachedObject;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2ebec57d.java",
+   "line": 45,
+   "whole_line": "    static final String API_CLASS_PATH_PREFIX = \"org.redisson.api.R\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3ec09421.java",
+   "line": 82,
+   "whole_line": "        for (String key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3ec09421.java",
+   "line": 140,
+   "whole_line": "//                for (String key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3ec09421.java",
+   "line": 226,
+   "whole_line": "        for (String key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/51fbefbc.java",
+   "line": 34,
+   "whole_line": "        this.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5a1fa13c.java",
+   "line": 239,
+   "whole_line": "                key = (String) commandData.getParams()[i+1];",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5a1fa13c.java",
+   "line": 244,
+   "whole_line": "            key = (String) commandData.getParams()[0];",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7d147a18.java",
+   "line": 90,
+   "whole_line": "        MapKey key = toKey((LFUCachedValue) value);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7d147a18.java",
+   "line": 106,
+   "whole_line": "            MapKey key = toKey((LFUCachedValue) value);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7d147a18.java",
+   "line": 117,
+   "whole_line": "            MapKey key = toKey(value);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7d147a18.java",
+   "line": 127,
+   "whole_line": "            key = toKey(value);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8a039d2f.java",
+   "line": 291,
+   "whole_line": "        for (CacheKey key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9d019fae.java",
+   "line": 48,
+   "whole_line": "    private static final String ROLE_KEY = \"role\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3409be5.java",
+   "line": 26,
+   "whole_line": "        for (K key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3409be5.java",
+   "line": 33,
+   "whole_line": "            for (K key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3409be5.java",
+   "line": 84,
+   "whole_line": "        for (K key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3409be5.java",
+   "line": 98,
+   "whole_line": "                for (K key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3409be5.java",
+   "line": 149,
+   "whole_line": "        for (K key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3409be5.java",
+   "line": 200,
+   "whole_line": "        for (K key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3409be5.java",
+   "line": 251,
+   "whole_line": "        for (K key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a3409be5.java",
+   "line": 302,
+   "whole_line": "        for (K key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/build/089432f9.java",
+   "line": 399,
+   "whole_line": "                        key = fromReference((RedissonReference) e.getKey(), type);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cluster/2dbb3ba3.java",
+   "line": 318,
+   "whole_line": "        for (String key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cluster/2dbb3ba3.java",
+   "line": 445,
+   "whole_line": "            for (byte[] key: keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cluster/2dbb3ba3.java",
+   "line": 453,
+   "whole_line": "        for (byte[] key: keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cluster/2dbb3ba3.java",
+   "line": 463,
+   "whole_line": "            for (byte[] key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/cluster/2dbb3ba3.java",
+   "line": 470,
+   "whole_line": "        for (byte[] key: keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/client/3f62e28a.java",
+   "line": 34,
+   "whole_line": "    private static final String LENGTH_KEY = \"length\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/client/3f62e28a.java",
+   "line": 35,
+   "whole_line": "    private static final String RADIX_TREE_KEYS_KEY = \"radix-tree-keys\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/client/3f62e28a.java",
+   "line": 36,
+   "whole_line": "    private static final String RADIX_TREE_NODES_KEY = \"radix-tree-nodes\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/client/3f62e28a.java",
+   "line": 37,
+   "whole_line": "    private static final String GROUPS_KEY = \"groups\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/client/3f62e28a.java",
+   "line": 38,
+   "whole_line": "    private static final String LAST_GENERATED_ID_KEY = \"last-generated-id\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/client/3f62e28a.java",
+   "line": 39,
+   "whole_line": "    private static final String FIRST_ENTRY_KEY = \"first-entry\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/client/3f62e28a.java",
+   "line": 40,
+   "whole_line": "    private static final String LAST_ENTRY_KEY = \"last-entry\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/client/3f62e28a.java",
+   "line": 52,
+   "value": "Long",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e59217f7.java",
+   "line": 87,
+   "whole_line": "            key = (String) keys.get(0);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e59217f7.java",
+   "line": 96,
+   "whole_line": "            key = (String) keys.get(0);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/ed5937ef.java",
+   "line": 713,
+   "whole_line": "                ByteBuf key = (ByteBuf) params.get(j);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/ee436366.java",
+   "line": 71,
+   "whole_line": "            PubSubKey key = (PubSubKey) o;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/efb2b8be.java",
+   "line": 212,
+   "whole_line": "        for (Object key : keys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/2d505796.java",
+   "line": 61,
+   "whole_line": "        @CachePut(cacheNames = \"testMap\", key = \"#key\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/2d505796.java",
+   "line": 66,
+   "whole_line": "        @CachePut(cacheNames = \"testMap\", key = \"#key\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/2d505796.java",
+   "line": 71,
+   "whole_line": "        @CacheEvict(cacheNames = \"testMap\", key = \"#key\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/2d505796.java",
+   "line": 75,
+   "whole_line": "        @Cacheable(cacheNames = \"testMap\", key = \"#key\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/2d505796.java",
+   "line": 80,
+   "whole_line": "        @Cacheable(cacheNames = \"testMap\", key = \"#key\", sync = true)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/2d505796.java",
+   "line": 85,
+   "whole_line": "        @Cacheable(cacheNames = \"testMap\", key = \"#key\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/3b415c9a.java",
+   "line": 31,
+   "whole_line": "                    key = valueParam;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/3b415c9a.java",
+   "line": 84,
+   "whole_line": "                    key = valueParam;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/4f724662.java",
+   "line": 56,
+   "whole_line": "        String key = \"test_geo_key\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/9999d280.java",
+   "line": 123,
+   "whole_line": "            for (String key : keysIterator) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/c578a464.java",
+   "line": 15,
+   "whole_line": "        byte[] key = \"my_key\".getBytes();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/e2881744.java",
+   "line": 563,
+   "whole_line": "        for (String key : set) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/e98f390d.java",
+   "line": 22,
+   "whole_line": "            this.key = field;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/e98f390d.java",
+   "line": 30,
+   "whole_line": "            this.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/ff80a3d5.java",
+   "line": 16,
+   "whole_line": "    private static final String LOCK_KEY = \"LOCK_KEY\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d27db9f5.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "45f54fc0d4e85f77ceac71a62f86d76d507d20aa665b6852a42cafe1ab05415f"
+  },
+  {
+   "file": "other/6de06129.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "fahrrad10"
+  },
+  {
+   "file": "other/6de06129.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "importer"
+  },
+  {
+   "file": "other/6de06129.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Vernon Extent 2.9"
+  },
+  {
+   "file": "other/6de06129.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "kasse"
+  },
+  {
+   "file": "other/6de06129.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "metrics"
+  },
+  {
+   "file": "other/6de06129.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "otter71"
+  },
+  {
+   "file": "src/479b9667.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKov1jZbUriAf5yS72rAd6BTCXxGxeiuz4FHIuP2G+u3"
+  },
+  {
+   "file": "src/479b9667.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "691403a861953adbb9d35db831a15d7d35c664db6b334fe21b4313f41c1dabd5"
+  },
+  {
+   "file": "src/479b9667.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/479b9667.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "_/b4a3496f.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "4.21.36"
+  },
+  {
+   "file": "_/b4a3496f.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "fc6eea68a3e2e7b4af87d670d980f4850881601d"
+  },
+  {
+   "file": "_/b4a3496f.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "2S77L8TCVY31XONVP2G7W840UX"
+  },
+  {
+   "file": "_/b4a3496f.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "_/b4a3496f.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "LH8SDYOJ76MA54NJ212P07HKJ3"
+  },
+  {
+   "file": "_/b4a3496f.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "src/6c6d95e1.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "bab37b050dbbb7d8fdd0dfddcde6be0e3993265a"
+  },
+  {
+   "file": "src/6c6d95e1.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "${DB_PASSWORD}"
+  },
+  {
+   "file": "src/6c6d95e1.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "pypi.org"
+  },
+  {
+   "file": "src/af73043d.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "billing@quarzo-corp.de"
+  },
+  {
+   "file": "src/af73043d.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "privacy@quarzo-corp.de"
+  },
+  {
+   "file": "src/af73043d.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 (555) 0181"
+  },
+  {
+   "file": "src/af73043d.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "src/af73043d.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "src/af73043d.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "src/af73043d.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "src/af73043d.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "10.0.0.0/8"
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://ledger-primary.acme.cloud/api/v3/invoices?page=2
+Authorization: Basic Z3JhZmFuYTpmM25mbDBAdDFuZzA0
+Cookie: _ga=GA1.2.EGGLZVD3VUI4T30X06K1TTS51I; session_id=17so2mv0cgfrprwci1hgzwikwi188ic4
+X-Request-Id: d7cf7781-4e7d-474f-b400-20110d93c6a6
+
+### the docs example, safe to share
+GET https://cdn.jsdelivr.net/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

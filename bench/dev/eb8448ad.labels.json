@@ -1,0 +1,1127 @@
+{
+ "repo": "eb8448ad",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/6eb51d25.sh",
+   "line": 18,
+   "start": 158,
+   "end": 168,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "!StrikeUn!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/6eb51d25.sh",
+   "line": 18,
+   "start": 50,
+   "end": 61,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "ay_pyyhzyar"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "api/09c8c391",
+   "line": 43,
+   "start": 18,
+   "end": 134,
+   "category": "JSON Web Token:Token",
+   "mutation": "none",
+   "forms": [
+    "eyJnxQqpSpZvsXD4ZZUbKdD2hGH3OxWWRqN0.euNylCD5hBFICdg7ZcXvGKoPHYegDlxolH1.Co1dp2q4mEl1oh_fmqkcbjONsu4TDBRhm-u_BogZub0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "api/91b3c8bc.yaml",
+   "line": 44,
+   "start": 13,
+   "end": 129,
+   "category": "JSON Web Token:Token",
+   "mutation": "none",
+   "forms": [
+    "eyJjbKytZlChiIZ0SAXkFpV7mIA9HqRjAeH1.obOEN5UxBASRYrq6YcBfCZsRsWvrYivfzN5.Tg8hg0c6pJr4dz_dipalupQRoy9GIRMpz-q_HauMot4"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "api/91b3c8bc.yaml",
+   "line": 54,
+   "start": 32,
+   "end": 42,
+   "category": "URL Credentials",
+   "mutation": "rename",
+   "forms": [
+    "!XzotebBq!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "api/91b3c8bc.yaml",
+   "line": 56,
+   "start": 23,
+   "end": 33,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "!VtqypeQt!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "docker/e45e45ba.yml",
+   "line": 61,
+   "start": 29,
+   "end": 39,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "!MdddigLj!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "src/dfe9ca7f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-replica.helix.cloud"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/dfe9ca7f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "188.73.100.55"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/dfe9ca7f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "n.braun@helix-corp.de"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/dfe9ca7f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-prod.c84gnljloedu.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/dfe9ca7f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "mustermann_implement_optimistic"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/8967fad6.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/8967fad6.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_Kur3VqOTWPqMxp3HTxX4rqRKpQHwhFeQYfVw"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/1faa33e9.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.9HNaKcBfHaxPtMKK5oafAPE2VUpdO8FDmRmTNUnK.c4K4GCnrucRK_3T8zgwYYTvw6g4Htip-mU8laVKt-2r"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/1faa33e9.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-cache-08.prod.nordwind-internal.net"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/1d9e7c89.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "70, 71, 119, 88, 70, 71, 56, 112, 102, 54, 80, 114, 119, 97, 115, 98, 120, 71, 65, 83, 113, 98, 65, 66, 81, 114, 110, 53, 119, 100, 72, 81",
+    "FGwXFG8pf6PrwasbxGASqbABQrn5wdHQ"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/1d9e7c89.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "david21@gmail.com"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/f5ac3980.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports.258l3h.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "test/f5ac3980.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "packer508"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/f5ac3980.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "WnMM7Lpv4Hu4rG4H7isQWXkE95A3pE0b"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/f5ac3980.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "dquo0gueqnk7aew54thg2gy2ptco9ztn"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/3b10fc47.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-cache-01.corp.brightloop-internal.net"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/3b10fc47.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "YWRtaW46QmF5ZXJuaGVydGhhNjk/",
+    "admin:Bayernhertha69?"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "test/3b10fc47.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "lucsrgs7b3phwvphf5w1yhb48ophqvei"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.kelpie.net"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.kelpie.net"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.kelpie.net"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "193.133.33.0/24"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "193.133.33.74"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.kelpie.net"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.kelpie.net"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.kelpie.net"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.kelpie.net"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.kelpie.net"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "193.133.33.193"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Noah Fischer"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "noah.fischer@web.de"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 9347760"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Elias Wolf"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "elias.wolf@gmail.com"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 1722253"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/6eb51d25.sh",
+   "line": 16,
+   "whole_line": "sed -i.bak 's/^APP_SECRET=.*$/APP_SECRET=!ChangeMe!/' .env",
+   "source": "creddata"
+  },
+  {
+   "file": "api/09c8c391",
+   "line": 31,
+   "value": "3306/db_name?serverVersion=5.7",
+   "source": "creddata"
+  },
+  {
+   "file": "api/09c8c391",
+   "line": 42,
+   "value": "!ChangeMe!",
+   "source": "creddata"
+  },
+  {
+   "file": "api/09c8c391",
+   "line": 44,
+   "value": "$2b$10$xsECbTm.hclRSQHLCzQbaLdZ8vk.cb.9ErAuVBDa38ABA6ocb3jHx",
+   "source": "creddata"
+  },
+  {
+   "file": "api/1b2cd3a7.lock",
+   "line": 26,
+   "value": "src/",
+   "source": "creddata"
+  },
+  {
+   "file": "api/1b2cd3a7.lock",
+   "line": 77,
+   "whole_line": "                \"composer-plugin-api\": \"^1.1.0 || ^2.0\",",
+   "source": "creddata"
+  },
+  {
+   "file": "api/1b2cd3a7.lock",
+   "line": 128,
+   "whole_line": "                \"composer-plugin-api\": \"^1.0|^2.0\",",
+   "source": "creddata"
+  },
+  {
+   "file": "api/1b2cd3a7.lock",
+   "line": 179,
+   "whole_line": "                \"api-platform/core\": \"^2.5\",",
+   "source": "creddata"
+  },
+  {
+   "file": "api/1b2cd3a7.lock",
+   "line": 195,
+   "value": "src/",
+   "source": "creddata"
+  },
+  {
+   "file": "api/1b2cd3a7.lock",
+   "line": 246,
+   "whole_line": "                \"mikey179/vfsstream\": \"^1.6\",",
+   "source": "creddata"
+  },
+  {
+   "file": "api/1b2cd3a7.lock",
+   "line": 297,
+   "whole_line": "    \"plugin-api-version\": \"2.0.0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "api/560e5d9e.test",
+   "line": 3,
+   "value": "$ecretf0rt3st",
+   "source": "creddata"
+  },
+  {
+   "file": "api/91b3c8bc.yaml",
+   "line": 106,
+   "whole_line": "  #  - secretName: chart-example-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/12fc8db2.yaml",
+   "line": 1,
+   "whole_line": "apiVersion: apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/12fc8db2.yaml",
+   "line": 45,
+   "whole_line": "                  key: mercure-publisher-jwt-key",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/12fc8db2.yaml",
+   "line": 50,
+   "whole_line": "                  key: mercure-subscriber-jwt-key",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/12fc8db2.yaml",
+   "line": 81,
+   "whole_line": "                  key: php-trusted-hosts",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/12fc8db2.yaml",
+   "line": 86,
+   "whole_line": "                  key: php-trusted-proxies",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/12fc8db2.yaml",
+   "line": 91,
+   "whole_line": "                  key: php-app-env",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/12fc8db2.yaml",
+   "line": 96,
+   "whole_line": "                  key: php-app-debug",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/12fc8db2.yaml",
+   "line": 101,
+   "whole_line": "                  key: php-app-secret",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/12fc8db2.yaml",
+   "line": 106,
+   "whole_line": "                  key: php-cors-allow-origin",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/12fc8db2.yaml",
+   "line": 111,
+   "whole_line": "                  key: database-url",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/12fc8db2.yaml",
+   "line": 116,
+   "whole_line": "                  key: mercure-publish-url",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/12fc8db2.yaml",
+   "line": 121,
+   "whole_line": "                  key: mercure-subscribe-url",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/12fc8db2.yaml",
+   "line": 126,
+   "whole_line": "                  key: mercure-jwt-token",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/ae39a300.yaml",
+   "line": 2,
+   "whole_line": "apiVersion: autoscaling/v2beta1",
+   "source": "creddata"
+  },
+  {
+   "file": "api/template/ae39a300.yaml",
+   "line": 10,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/4563fbe9.yml",
+   "line": 12,
+   "whole_line": "      MERCURE_PUBLISHER_JWT_KEY: ${MERCURE_PUBLISHER_JWT_KEY}",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/4563fbe9.yml",
+   "line": 13,
+   "whole_line": "      MERCURE_SUBSCRIBER_JWT_KEY: ${MERCURE_SUBSCRIBER_JWT_KEY}",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/e45e45ba.yml",
+   "line": 36,
+   "whole_line": "      MERCURE_PUBLISHER_JWT_KEY: ${MERCURE_PUBLISHER_JWT_KEY:-!ChangeMe!}",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/e45e45ba.yml",
+   "line": 37,
+   "whole_line": "      MERCURE_SUBSCRIBER_JWT_KEY: ${MERCURE_SUBSCRIBER_JWT_KEY:-!ChangeMe!}",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/e45e45ba.yml",
+   "line": 66,
+   "value": "/var/lib/postgresql/data:rw",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/api/bdd2cc92.yaml",
+   "line": 3,
+   "whole_line": "        not_compromised_password: false",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dfe9ca7f.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "help.helix-corp.de"
+  },
+  {
+   "file": "src/dfe9ca7f.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "careers.helix-corp.de"
+  },
+  {
+   "file": "src/dfe9ca7f.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "src/dfe9ca7f.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "src/dfe9ca7f.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "src/dfe9ca7f.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "src/dfe9ca7f.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "billing@helix-corp.de"
+  },
+  {
+   "file": "src/dfe9ca7f.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "dXNlci1hZ2VudDpjdXJsLzguNC4w"
+  },
+  {
+   "file": "src/dfe9ca7f.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "656e2d55532c656e3b713d302e39"
+  },
+  {
+   "file": "src/dfe9ca7f.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "src/8967fad6.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "0.9.36"
+  },
+  {
+   "file": "src/8967fad6.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "8.20.30"
+  },
+  {
+   "file": "src/8967fad6.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-DL83g2E1qwHVp9bmyoes8321LFnZd1RGt/tYAGG6kLefd6JU6F77RJ/oaqQCUR93ULdQFJVFMTVd7dEp8Mjnwg=="
+  },
+  {
+   "file": "src/8967fad6.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "5.8.16"
+  },
+  {
+   "file": "src/8967fad6.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-dxiXHA6pSZY+XdLRzwCVxv0pcXtUa2YyCAuI3EEKdSaVAw9H5dYYFDTKLmm+DjgLoFMYzVqEXO1SWEVpcqrQzA=="
+  },
+  {
+   "file": "src/8967fad6.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "8.22.50"
+  },
+  {
+   "file": "src/8967fad6.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-1G9lWkFUflBigpQ/hbKe/DtZj+8KrDsrKCbHQxl33Ykf55CdaFuuf+32d0JyutJ8S2alo19/V+4th/mGqnFgDw=="
+  },
+  {
+   "file": "other/1faa33e9.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "1.20.38"
+  },
+  {
+   "file": "other/1faa33e9.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "89fb51bf265f384428d0f31d125efe7cb7fad281"
+  },
+  {
+   "file": "other/1faa33e9.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "GKY9KDTF6PAU6DCGTO5KSZEYI3"
+  },
+  {
+   "file": "other/1faa33e9.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "other/1faa33e9.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "CF4QGGD59W5SIT3WS9WLMZKJ0B"
+  },
+  {
+   "file": "other/1faa33e9.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "other/1d9e7c89.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "116, 101, 120, 116, 47, 112, 108, 97, 105, 110, 59, 99, 104, 97, 114, 115, 101, 116, 61, 117, 116, 102, 45, 56"
+  },
+  {
+   "file": "other/1d9e7c89.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "ZW4tVVMsZW47cT0wLjk="
+  },
+  {
+   "file": "other/1d9e7c89.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "68656c6c6f5f776f726c645f74657374"
+  },
+  {
+   "file": "other/1d9e7c89.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "other/1d9e7c89.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "billing@vantor-corp.de"
+  },
+  {
+   "file": "test/f5ac3980.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/nordwind/crm/staging"
+  },
+  {
+   "file": "test/f5ac3980.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "BILLING_CLIENT_SECRET"
+  },
+  {
+   "file": "test/f5ac3980.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "test/f5ac3980.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "test/f5ac3980.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "HS256"
+  },
+  {
+   "file": "test/f5ac3980.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "test/f5ac3980.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "702433099342-dyd282zpqrxhytdz2ef5iygtqrcmjhsh.apps.googleusercontent.com"
+  },
+  {
+   "file": "test/f5ac3980.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2026-01-11T00:00:00Z"
+  },
+  {
+   "file": "test/f5ac3980.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "reports-db-credentials"
+  },
+  {
+   "file": "test/f5ac3980.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZTozNjc5NjpvZmZzZXQ6NDEz"
+  },
+  {
+   "file": "test/3b10fc47.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "E656ULS7LYL75AV6CBMEKKZUGG"
+  },
+  {
+   "file": "test/3b10fc47.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "2d281f70-2387-4682-8a25-23e959353df5"
+  },
+  {
+   "file": "test/3b10fc47.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "test/3b10fc47.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.kelpie.net"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sftp.paycore.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "193.133.99.28"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Anna Braun"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Jan Klein"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.kelpie.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "www.kelpie.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.paycore.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "193.133.99.28"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Anna Braun"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "anna.braun@kelpie.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Erika Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "erika@example.com"
+  }
+ ]
+}

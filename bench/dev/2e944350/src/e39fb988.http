@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://reports-cache-09.int.brightloop-internal.net/api/v3/invoices?page=2
+Authorization: Basic Y2k6aGltbWVsNTI3
+Cookie: _ga=GA1.2.HVS6BSIPJP4W3E0KWJCAOTSVHO; session_id=3ova5grtomo3vuhium9nmn6fj3drhls5
+X-Request-Id: 79d74140-9db2-4f99-9f4a-42352826a198
+
+### the docs example, safe to share
+GET https://storage.googleapis.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

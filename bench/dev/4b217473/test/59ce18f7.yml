@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.brightloop.io/app@sha256:e1781d82d693246ae2da0406cddaffe5ba3064623f16a2f69f3c76ad49abf454
+    environment:
+      - DATABASE_URL=postgres://app:Southern2025!@10.51.248.107:5432/app
+      - SENTRY_RELEASE=c3baba930a2eaf2a82f8f7027683d80948bc77e4
+      - API_TOKEN={{ secrets.TOKEN }}
+      - BIND_ADDR=0.0.0.0
+  worker:
+    image: registry.brightloop.io/worker:1.22.32
+    environment:
+      - QUEUE_PASS=YnJhdHNjaGx1ZXNzZWw3OQ==

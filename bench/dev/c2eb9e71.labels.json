@@ -1,0 +1,1296 @@
+{
+ "repo": "c2eb9e71",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "api/71bf72fd.yml",
+   "line": 90,
+   "start": 38,
+   "end": 58,
+   "category": "API:Key",
+   "mutation": "rename",
+   "forms": [
+    "8x8m3b7v0l8d8i6a4n6s"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "api/71bf72fd.yml",
+   "line": 1221,
+   "start": 36,
+   "end": 51,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "u6hihM_bn8Il2cC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "api/71bf72fd.yml",
+   "line": 1227,
+   "start": 28,
+   "end": 43,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "w0zypR_nm2Au1zX"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "api/71bf72fd.yml",
+   "line": 1406,
+   "start": 37,
+   "end": 52,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "v4awnF_ed8If9oS"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "template/fabf1c08.html",
+   "line": 114,
+   "start": 59,
+   "end": 74,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "s0dziA_bo9Qs6iA"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/2a9ec6fc.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/2a9ec6fc.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "135.56.159.26"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/2a9ec6fc.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "laura.richter@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/2a9ec6fc.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.1pw9zu.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/2a9ec6fc.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "hiss_schneider_fei"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/c0769ba4.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "M@1nz76"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/bafe2fa6.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "49, 56, 113, 108, 73, 54, 85, 52, 110, 104, 67, 89, 57, 103, 99, 50, 83, 56, 116, 101, 75, 72, 72, 82, 73, 107, 80, 102, 110, 89, 103, 78",
+    "18qlI6U4nhCY9gc2S8teKHHRIkPfnYgN"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/bafe2fa6.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "f.mueller@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/f8f5ce0b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sofia Becker"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/f8f5ce0b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.koch@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/f8f5ce0b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 4890 8229"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/f8f5ce0b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Paul Braun"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/f8f5ce0b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "anna.schwarz [at] quarzo-corp [dot] de"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/f8f5ce0b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE39567726143404753820"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "test/f8f5ce0b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Clara Richter"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/f8f5ce0b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Gartenstra\u00dfe 109, 32383 Augsburg"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/f8f5ce0b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "135.74.253.100"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/703c4c8a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl.fpwmz7.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "other/703c4c8a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "See&2017"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "other/703c4c8a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "R0$3"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "other/af210296.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-primary.vantor.cloud"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "other/af210296.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_SU4uZnLQtqRtZmPQbP9K6UlLZyIzK8CPGF9u"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.vantor.systems"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.vantor.systems"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.vantor.systems"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "178.91.106.0/24"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "178.91.106.84"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.vantor.systems"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.vantor.systems"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.vantor.systems"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.vantor.systems"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.vantor.systems"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "178.91.106.235"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Elias Koch"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "elias.koch@t-online.de"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 9407392"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Mia Koch"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "mia.koch@web.de"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 6374994"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/0b72aeda.py",
+   "line": 61,
+   "whole_line": "\t\t\tcredentials = decode(credentials)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0b72aeda.py",
+   "line": 64,
+   "whole_line": "\t\t\tusername, password = credentials.split(':', maxsplit=1)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0b72aeda.py",
+   "line": 71,
+   "whole_line": "\t\tusername, password = parse_basic_auth(header)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0b72aeda.py",
+   "line": 146,
+   "whole_line": "\t\tmsg = b\"AUTH:\" + email.encode(\"utf8\") + b\" \" + get_mail_password(email, env).encode(\"utf8\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/0b72aeda.py",
+   "line": 154,
+   "whole_line": "\t\treturn hmac.new(hash_key, msg, digestmod=\"sha256\").hexdigest()",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1a6832e1.py",
+   "line": 15,
+   "value": "mgmt_uri",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1a6832e1.py",
+   "line": 50,
+   "whole_line": "\tkey = open('/var/lib/mailinabox/api.key').read().strip()",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3a7343c8.py",
+   "line": 593,
+   "value": "dnsssec_pubkey",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3a7343c8.py",
+   "line": 640,
+   "whole_line": "\tfor i, ds_suggestion in enumerate(sorted(expected_ds_records.values(), key=preferred_ds_order_func, reverse=True)):",
+   "source": "creddata"
+  },
+  {
+   "file": "_/599d4d36.py",
+   "line": 48,
+   "whole_line": "\t\t# Authenticate the passed credentials, which is either the API key or a username:password pair",
+   "source": "creddata"
+  },
+  {
+   "file": "_/599d4d36.py",
+   "line": 188,
+   "whole_line": "\t\treturn set_mail_password(request.form.get('email', ''), request.form.get('password', ''), env)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/599d4d36.py",
+   "line": 316,
+   "whole_line": "\tfor i, r in enumerate(sorted(records, key = lambda r : (",
+   "source": "creddata"
+  },
+  {
+   "file": "_/63d2e75c.sh",
+   "line": 51,
+   "whole_line": "default_pass_scheme = SHA512-CRYPT",
+   "source": "creddata"
+  },
+  {
+   "file": "_/696386d0.sh",
+   "line": 39,
+   "whole_line": "UPDATE_KEY=$VERSION:$PERSISTENT_LOGIN_VERSION:$HTML5_NOTIFIER_VERSION:$CARDDAV_VERSION",
+   "source": "creddata"
+  },
+  {
+   "file": "_/696386d0.sh",
+   "line": 96,
+   "whole_line": "SECRET_KEY=$(dd if=/dev/urandom bs=1 count=32 2>/dev/null | base64 | sed s/=//g)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/696386d0.sh",
+   "line": 132,
+   "whole_line": "\\$config['plugins'] = array('html5_notifier', 'archive', 'zipdownload', 'password', 'managesieve', 'jqueryui', 'persistent_login', 'carddav');",
+   "source": "creddata"
+  },
+  {
+   "file": "_/696386d0.sh",
+   "line": 135,
+   "whole_line": "\\$config['password_charset'] = 'UTF-8';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/696386d0.sh",
+   "line": 176,
+   "whole_line": "\t\"\\$config['password_db_dsn']='sqlite:///$STORAGE_ROOT/mail/users.sqlite';\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "_/696386d0.sh",
+   "line": 177,
+   "whole_line": "\t\"\\$config['password_query']='UPDATE users SET password=%D WHERE email=%u';\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "_/696386d0.sh",
+   "line": 178,
+   "whole_line": "\t\"\\$config['password_dovecotpw']='/usr/bin/doveadm pw';\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "_/696386d0.sh",
+   "line": 179,
+   "whole_line": "\t\"\\$config['password_dovecotpw_method']='SHA512-CRYPT';\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aebd6a2f.py",
+   "line": 215,
+   "whole_line": "        all_protocols = [k for k, v in sorted(all_protocols.items(), key=lambda kv : -kv[1])]",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aebd6a2f.py",
+   "line": 231,
+   "whole_line": "                    in sorted(u[\"totals_by_protocol_and_host\"].items(), key=lambda kv:-kv[1])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aebd6a2f.py",
+   "line": 271,
+   "whole_line": "            sorted_recipients = sorted(data[recipient].items(), key=lambda kv: kv[1][0] or kv[1][1])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aebd6a2f.py",
+   "line": 412,
+   "whole_line": "            key = (client_address if client_name == 'unknown' else client_name, sender)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c06bf6b9.py",
+   "line": 41,
+   "whole_line": "\tfor domain in sorted(domains, key=lambda d : len(d)):",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c06bf6b9.py",
+   "line": 59,
+   "whole_line": "\tzonefiles.sort(key = lambda zone : zone_order.index(zone[0]) )",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c06bf6b9.py",
+   "line": 373,
+   "whole_line": "\trecords.sort(key = lambda rec : list(reversed(rec[0].split(\".\")) if rec[0] is not None else \"\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c06bf6b9.py",
+   "line": 783,
+   "whole_line": "\t\t\t\t\"{domain} {domain}:mail:{key_file}\\n\".format(domain=domain, key_file=opendkim_key_file)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c06bf6b9.py",
+   "line": 1069,
+   "whole_line": "\t\trecords.sort(key = lambda r : 0 if r[3].startswith(\"Required.\") else (1 if r[3].startswith(\"Recommended.\") else 2))",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f9355580.py",
+   "line": 150,
+   "whole_line": "\t\t\t\"private-key\": ssl_private_key,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f9355580.py",
+   "line": 541,
+   "whole_line": "\t\t\tpriv_key = load_pem(open(ssl_private_key, 'rb').read())",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fae7edf7.py",
+   "line": 56,
+   "whole_line": "\t\t\t\"full\": keys[0] == \"full\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fae7edf7.py",
+   "line": 89,
+   "value": "date",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fae7edf7.py",
+   "line": 97,
+   "whole_line": "\tbackups = sorted(backups.values(), key = lambda b : b[\"date\"], reverse=True)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fae7edf7.py",
+   "line": 205,
+   "whole_line": "\t\tenv[\"AWS_SECRET_ACCESS_KEY\"] = config[\"target_pass\"]",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fae7edf7.py",
+   "line": 447,
+   "whole_line": "\t\t\tconn = region.connect(aws_access_key_id=config[\"target_user\"], aws_secret_access_key=config[\"target_pass\"])",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fae7edf7.py",
+   "line": 540,
+   "whole_line": "\tssh_pub_key = os.path.join('/root', '.ssh', 'id_rsa_miab.pub')",
+   "source": "creddata"
+  },
+  {
+   "file": "api/71bf72fd.yml",
+   "line": 1,
+   "whole_line": "openapi: 3.0.3",
+   "source": "creddata"
+  },
+  {
+   "file": "api/71bf72fd.yml",
+   "line": 8,
+   "whole_line": "    This API is documented in [**OpenAPI format**](http://spec.openapis.org/oas/v3.0.3).",
+   "source": "creddata"
+  },
+  {
+   "file": "api/71bf72fd.yml",
+   "line": 1839,
+   "value": "response.",
+   "source": "creddata"
+  },
+  {
+   "file": "api/71bf72fd.yml",
+   "line": 2166,
+   "value": "request.",
+   "source": "creddata"
+  },
+  {
+   "file": "api/71bf72fd.yml",
+   "line": 91,
+   "value": "$2b$10$mOdovfFuxsAIruUhzRIQrUFCNrDmaP0t8HCo9GGITHzpzaVmvOiSa",
+   "source": "creddata"
+  },
+  {
+   "file": "api/71bf72fd.yml",
+   "line": 1228,
+   "value": "0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/ad368c74.py",
+   "line": 175,
+   "whole_line": "\t\tdomain[\"users\"].sort(key = lambda user : (user[\"status\"] != \"active\", user[\"email\"]))",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/ad368c74.py",
+   "line": 245,
+   "whole_line": "\t\tdomain[\"aliases\"].sort(key = lambda alias : (alias[\"required\"], alias[\"address\"]))",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/ad368c74.py",
+   "line": 325,
+   "whole_line": "\tc.execute(\"UPDATE users SET password=? WHERE email=?\", (pw, email))",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/ad368c74.py",
+   "line": 332,
+   "whole_line": "\t# Turn the plain password into a Dovecot-format hashed password, meaning",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/cd4cc184.conf",
+   "line": 12,
+   "whole_line": "failregex = ^%(__prefix_line)s(pop3|imap|managesieve)-login: (Info: )?(Aborted login|Disconnected)(: Inactivity)? \\(((no auth attempts|auth failed, \\d+ attempts)( in \\d+ secs)?|tried to use (disabled|disallowed) \\S+ auth)\\):( user=<\\S*>,)?( method=\\S+,)? rip=<HOST>, lip=(\\d{1,3}\\.){3}\\d{1,3}(, TLS( handshaking)?(: Disconnected)?)?(, session=<\\S+>)?\\s*$",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/template/7b043374.html",
+   "line": 278,
+   "whole_line": "          var b2_applicationkey = targetPath.split(':')[1].split('@')[0];",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/template/7b043374.html",
+   "line": 317,
+   "whole_line": "      target_pass: target_pass,",
+   "source": "creddata"
+  },
+  {
+   "file": "template/1d51c99f.html",
+   "line": 36,
+   "whole_line": "\t\t\t\t\t<tr><th>Password:</th> <td>Your mail password.</td></tr>",
+   "source": "creddata"
+  },
+  {
+   "file": "template/b037b44d.html",
+   "line": 305,
+   "whole_line": "    _keyStr = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=\";",
+   "source": "creddata"
+  },
+  {
+   "file": "template/fabf1c08.html",
+   "line": 61,
+   "whole_line": "          <a href=\"#\" onclick=\"users_set_password(this); return false;\" class='setpw' title=\"Set Password\">",
+   "source": "creddata"
+  },
+  {
+   "file": "template/fabf1c08.html",
+   "line": 202,
+   "whole_line": "function users_set_password(elem) {",
+   "source": "creddata"
+  },
+  {
+   "file": "template/fabf1c08.html",
+   "line": 211,
+   "whole_line": "    $(\"<p>Set a new password for <b>\" + email + \"</b>?</p> <p><label for='users_set_password_pw' style='display: block; font-weight: normal'>New Password:</label><input type='password' id='users_set_password_pw'></p><p><small>Passwords must be at least eight characters and may not contain spaces.</small>\" + yourpw + \"</p>\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "template/fabf1c08.html",
+   "line": 219,
+   "whole_line": "          password: $('#users_set_password_pw').val()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c24b50ba.py",
+   "line": 121,
+   "whole_line": "\t\tprint(\"  Supported Clients: \" + (\", \".join(sorted(supported_clients.keys(), key = lambda client : -supported_clients[client]))))",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f7b5f2e6.py",
+   "line": 14,
+   "whole_line": "    # Load settings from a KEY=VALUE file.",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f7b5f2e6.py",
+   "line": 59,
+   "whole_line": "    for domain in sorted(domain_names, key=lambda d : len(d)):",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f7b5f2e6.py",
+   "line": 72,
+   "whole_line": "      key = lambda d : (",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f7b5f2e6.py",
+   "line": 82,
+   "whole_line": "      key = lambda d : (",
+   "source": "creddata"
+  },
+  {
+   "file": "test/2a9ec6fc.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "careers.quarzo-corp.de"
+  },
+  {
+   "file": "test/2a9ec6fc.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.quarzo-corp.de"
+  },
+  {
+   "file": "test/2a9ec6fc.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "test/2a9ec6fc.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "test/2a9ec6fc.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "test/2a9ec6fc.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "test/2a9ec6fc.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "hello@quarzo-corp.de"
+  },
+  {
+   "file": "test/2a9ec6fc.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "dXNlci1hZ2VudDpjdXJsLzguNC4w"
+  },
+  {
+   "file": "test/2a9ec6fc.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "7b22616c67223a224853323536222c22747970223a224a5754227d"
+  },
+  {
+   "file": "test/2a9ec6fc.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "src/c0769ba4.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Explicit Biene 9.16"
+  },
+  {
+   "file": "src/c0769ba4.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Designate Tracing 5.2"
+  },
+  {
+   "file": "src/bafe2fa6.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "67, 111, 110, 116, 101, 110, 116, 45, 84, 121, 112, 101"
+  },
+  {
+   "file": "src/bafe2fa6.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "R0VUL2hlYWx0aHo="
+  },
+  {
+   "file": "src/bafe2fa6.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "7b22616c67223a224853323536222c22747970223a224a5754227d"
+  },
+  {
+   "file": "src/bafe2fa6.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "src/bafe2fa6.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "security@vantor-corp.de"
+  },
+  {
+   "file": "test/f8f5ce0b.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "hello@quarzo-corp.de"
+  },
+  {
+   "file": "test/f8f5ce0b.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "press@quarzo-corp.de"
+  },
+  {
+   "file": "test/f8f5ce0b.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+44 20 7946 0692"
+  },
+  {
+   "file": "test/f8f5ce0b.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "test/f8f5ce0b.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "test/f8f5ce0b.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "test/f8f5ce0b.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "test/f8f5ce0b.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "other/703c4c8a.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "german30"
+  },
+  {
+   "file": "other/703c4c8a.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "reporting"
+  },
+  {
+   "file": "other/703c4c8a.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Washington Sommer 2.2"
+  },
+  {
+   "file": "other/703c4c8a.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "reporting"
+  },
+  {
+   "file": "other/703c4c8a.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "kasse"
+  },
+  {
+   "file": "other/703c4c8a.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "Badger Finn 4.3"
+  },
+  {
+   "file": "other/af210296.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "8.12.15"
+  },
+  {
+   "file": "other/af210296.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6.8.31"
+  },
+  {
+   "file": "other/af210296.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-J5vYgOIVrOp/8ozn6yIioVm0YUz17IH1DhVuaZtan4WStEGt6o8dq4tEyPzzabm0qelDVwrutub6IgB95p9kBw=="
+  },
+  {
+   "file": "other/af210296.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "5.26.41"
+  },
+  {
+   "file": "other/af210296.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-7vQ5+D4V+BT7RX9BpWGEsLs/pkFxKK3IJgufve5E8iXkGpDOuisrHyYA/e3J99UcjCgDgDZaT5Ow2dHPhi2nbw=="
+  },
+  {
+   "file": "other/af210296.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "7.0.25"
+  },
+  {
+   "file": "other/af210296.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-9pK7aDRj8ha0AHSD5Vc+E230iMqpl+wwkTQHSdtz45aAZNjnL5nNys/c1x7XlMbQK4W65LOfnrmwBqrwvF2pOw=="
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "edi.logistik-nord.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "178.105.21.86"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.vantor.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.vantor.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "www.vantor.systems"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "David Becker"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.vantor.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "www.vantor.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.logistik-nord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "178.105.21.86"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "David Becker"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "david.becker@vantor.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Erika Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "erika@example.com"
+  }
+ ]
+}

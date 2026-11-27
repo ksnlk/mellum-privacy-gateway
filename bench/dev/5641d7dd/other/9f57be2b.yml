@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: acme-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "97813ef"
+type: Opaque
+data:
+  DB_PASSWORD: Z3JleS1iaXJrZS1wYWNrZXI1
+  STRIPE_KEY: c2tfbGl2ZV9aSGVWZDB6bFV4VExMQTVOSUtHclVPQnM=
+  ca.crt.sha256: 9f4fca39177a9689037faa414180199c2bee5b9a5cb7ee4d99a64508d5172322
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: acme-payments-config
+data:
+  DB_HOST: "auth-primary.acme.cloud"
+  SENTRY_HOST: "api.stripe.com"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

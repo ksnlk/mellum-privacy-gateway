@@ -1,0 +1,831 @@
+{
+ "repo": "e3c63910",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/src/example/rest/37bf91f3.java",
+   "line": 187,
+   "start": 44,
+   "end": 49,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "Kup%y"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/src/example/rest/37bf91f3.java",
+   "line": 218,
+   "start": 36,
+   "end": 41,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "Fca%a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/src/secure/rest/client/modul/02d166be.java",
+   "line": 51,
+   "start": 33,
+   "end": 45,
+   "category": "Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "Rka7lqk3VN5k"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "src/24c5b9ac.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/24c5b9ac.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Leipzigigel79?"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/24c5b9ac.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Falkefischer99?"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/aeca1676.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "aGlnaGxpZ2h0LmhvZmZtYW5uLndlaXIzNQ==",
+    "highlight.hoffmann.weir35"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/aeca1676.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9ONmVUbkdwdFF2b0hQdU44bFBBQmluTTc=",
+    "sk_live_N6eTnGptQvoHPuN8lPABinM7"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/aeca1676.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-replica.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/95605a92.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "advice-scene-sanity-inequality"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/95605a92.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-db-04.int.helix-internal.net"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/e204603c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "chevy684"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/a07e0368.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-prod.6slg47xriru3.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/a07e0368.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_o5FvrJWoA5VpvxWlrByk79sjGaNrkrbiZ6ta"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/cbb222aa.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.18.77.125"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/cbb222aa.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-mq-01.corp.quarzo-internal.net"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/cbb222aa.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TMHCF6M74/BYXA0FCAULP/eJOn8O3A3PWMBZHyfo1vLkLJ"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/2777dbba.sh",
+   "line": 2,
+   "whole_line": "read -s -p \"Bintray api key: \" api_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b40cd671.txt",
+   "line": 26,
+   "whole_line": "* Fixed so that CharsetExtractor no longer fails to extract the charset when more than one key=value pair present in the content-type header (issue 337).",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b40cd671.txt",
+   "line": 77,
+   "whole_line": "* Deprecated the following method from the AuthenticationSpecification API: \"certificate(String certURL, String password, String certType, int port)\". It's replaced by the \"certificate(String certURL, String password, CertificateAuthSettings certificateAuthSettings)\" method. For example:",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b40cd671.txt",
+   "line": 128,
+   "whole_line": "* Added support for form authentication: given().auth().form(\"username\", \"password\")... Rest Assured will automatically parse the login page and try to find the form action and the username and password input fields. If it fails to do so or if you want a faster request you can supply a FormAuthConfig as a third param that providers Rest Assured with these parameters. E.g. given().auth().form(\"username\", \"password\", new FormAuthConfig(..)).. There's a pre-defined form auth config for Spring Security: given().auth().form(\"username\", \"password\", FormAuthConfig.springSecurity())... You can also specify form as default authentication for all requests: RestAssured.authentication = form(\"username\", \"password\");. (issue 61).",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b40cd671.txt",
+   "line": 139,
+   "whole_line": "* Added support for easily printing the response after a request (if the expectations pass), e.g. expect().body(\"greeting\", equalTo(\"Greetings John Doe\")).when().get(\"/greet?firstName=John&lastName=Doe\").print();",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/spec/rest/modul/b1c6369a.java",
+   "line": 230,
+   "whole_line": "     * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/spec/rest/modul/b1c6369a.java",
+   "line": 253,
+   "whole_line": "     * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/spec/rest/modul/b1c6369a.java",
+   "line": 268,
+   "whole_line": "     * This will set the parameter <code>username=John</code> in the GET request to \"/cookie\".",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/spec/rest/modul/b1c6369a.java",
+   "line": 570,
+   "whole_line": "     * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/spec/rest/modul/b1c6369a.java",
+   "line": 593,
+   "whole_line": "     * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/spec/rest/modul/b1c6369a.java",
+   "line": 614,
+   "whole_line": "     * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "mock/src/spec/rest/modul/b1c6369a.java",
+   "line": 629,
+   "whole_line": "     * This will set the cookie <code>username=John</code> in the GET request to \"/cookie\".",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/rest/07649931.java",
+   "line": 119,
+   "whole_line": "     *             &lt;td&gt;Password:&lt;/td&gt;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/rest/07649931.java",
+   "line": 165,
+   "whole_line": "     *             &lt;td&gt;Password:&lt;/td&gt;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/rest/07649931.java",
+   "line": 253,
+   "whole_line": "     *             &lt;td&gt;Password:&lt;/td&gt;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/conf/security/rest/b5f4985b.java",
+   "line": 43,
+   "whole_line": "        auth.inMemoryAuthentication().withUser(\"username\").password(\"password\").roles(ROLE_USER);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/rest/1f62c40d.scala",
+   "line": 693,
+   "whole_line": "    response.setHeader(\"Set-Cookie\", \"name=value; Secure; SameSite=None\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/rest/1f62c40d.scala",
+   "line": 752,
+   "whole_line": "  def securityCheck(sessionIdName: String, usernameParamName : String, passwordParamName :String, additionalChecks: () => Boolean) : Any = {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/rest/1f62c40d.scala",
+   "line": 754,
+   "whole_line": "    val password = params.get(passwordParamName).get",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/rest/1f62c40d.scala",
+   "line": 755,
+   "whole_line": "    if (userName == \"John\" && password == \"Doe\") {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/rest/1f62c40d.scala",
+   "line": 767,
+   "whole_line": "    securityCheck(sessionIdName, \"j_username\", \"j_password\", additionalChecks)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/rest/1f62c40d.scala",
+   "line": 1235,
+   "whole_line": "            <tr><td>Password:</td><td><input type='password' name='j_password'></td></tr>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/rest/1f62c40d.scala",
+   "line": 1254,
+   "whole_line": "            <tr><td>Password:</td><td><input type='password' name='j_password'></td></tr>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/rest/1f62c40d.scala",
+   "line": 1274,
+   "whole_line": "            <tr><td>Password:</td><td><input type='password' name='j_password'></td></tr>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/rest/1f62c40d.scala",
+   "line": 1332,
+   "whole_line": "      |      <b><font size=-1 face=\"arial,helvetica\" > Password: </font></b>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/rest/1f62c40d.scala",
+   "line": 1539,
+   "whole_line": "      cookieMap.put(\"secure\", c.getSecure)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/299c477d.groovy",
+   "line": 47,
+   "whole_line": "    notNull password, \"password\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/299c477d.groovy",
+   "line": 49,
+   "whole_line": "    requestSpecification.authenticationScheme = new BasicAuthScheme(userName: userName, password: password)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/299c477d.groovy",
+   "line": 62,
+   "whole_line": "    notNull password, \"password\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/299c477d.groovy",
+   "line": 66,
+   "whole_line": "    requestSpecification.authenticationScheme = new NTLMAuthScheme(userName: userName, password: password, workstation: workstation, domain: domain)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/299c477d.groovy",
+   "line": 79,
+   "whole_line": "    notNull password, \"password\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/299c477d.groovy",
+   "line": 81,
+   "whole_line": "    requestSpecification.authenticationScheme = new BasicAuthScheme(userName: userName, password: password)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/299c477d.groovy",
+   "line": 97,
+   "whole_line": "    notNull password, \"password\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/299c477d.groovy",
+   "line": 102,
+   "whole_line": "            pathToTrustStore: certURL, trustStorePassword: password, trustStoreType: settings.trustStoreType, trustStore: settings.trustStore,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/299c477d.groovy",
+   "line": 116,
+   "whole_line": "    notNull secretToken, \"secretToken\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/299c477d.groovy",
+   "line": 118,
+   "whole_line": "    requestSpecification.authenticationScheme = new OAuthScheme(consumerKey: consumerKey, consumerSecret: consumerSecret, accessToken: accessToken, secretToken: secretToken)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/299c477d.groovy",
+   "line": 140,
+   "whole_line": "    notNull secretToken, \"secretToken\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/299c477d.groovy",
+   "line": 143,
+   "whole_line": "    requestSpecification.authenticationScheme = new OAuthScheme(consumerKey: consumerKey, consumerSecret: consumerSecret, accessToken: accessToken, secretToken: secretToken, signature: signature)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/299c477d.groovy",
+   "line": 184,
+   "whole_line": "    requestSpecification.authenticationScheme = new FormAuthScheme(userName: userName, password: password, config: config)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/2b7be0f3.groovy",
+   "line": 262,
+   "whole_line": "      bodyMatchers << new BodyMatcher(key: applyArguments(mergeKeyWithRootPath(key), arguments), matcher: matcher, rpr: rpr)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/2b7be0f3.groovy",
+   "line": 294,
+   "whole_line": "              bodyMatchers << new BodyMatcher(key: keyToUse, matcher: matcherToUse, rpr: rpr)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/2b7be0f3.groovy",
+   "line": 297,
+   "whole_line": "            bodyMatchers << new BodyMatcher(key: keyWithRoot, matcher: hamcrestMatcher, rpr: rpr)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/af480a7d.groovy",
+   "line": 33,
+   "whole_line": "    key = escapePath(key, hyphen(), attributeGetter(), integer(), properties(), classKeyword());",
+   "source": "creddata"
+  },
+  {
+   "file": "src/internal/rest/da0becd0.groovy",
+   "line": 50,
+   "whole_line": "        key = escapePath(key, hyphen(), attributeGetter(), doubleStar(), colon(), classKeyword())",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/26f9f41e.groovy",
+   "line": 37,
+   "whole_line": "            assertion = new JSONAssertion(key: key)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/26f9f41e.groovy",
+   "line": 39,
+   "whole_line": "            assertion = new XMLAssertion(key: key)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/26f9f41e.groovy",
+   "line": 62,
+   "whole_line": "                assertion = new JSONAssertion(key: key)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/rest/26f9f41e.groovy",
+   "line": 66,
+   "whole_line": "                assertion = new XMLAssertion(key: key)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/spec/rest/f966d205.java",
+   "line": 220,
+   "whole_line": "     * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/spec/rest/f966d205.java",
+   "line": 243,
+   "whole_line": "     * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/spec/rest/f966d205.java",
+   "line": 264,
+   "whole_line": "     * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/spec/rest/f966d205.java",
+   "line": 279,
+   "whole_line": "     * This will set the cookie <code>username=John</code> in the GET request to \"/cookie\".",
+   "source": "creddata"
+  },
+  {
+   "file": "src/spec/rest/f966d205.java",
+   "line": 340,
+   "whole_line": "     * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/spec/rest/f966d205.java",
+   "line": 363,
+   "whole_line": "     * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/spec/rest/f966d205.java",
+   "line": 378,
+   "whole_line": "     * This will set the parameter <code>username=John</code> in the GET request to \"/cookie\".",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/src/example/security/rest/c43b804b.java",
+   "line": 118,
+   "whole_line": "                auth().with(httpBasic(\"username\", \"password\"), user(\"username\").password(\"password\")).",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/src/example/security/rest/c43b804b.java",
+   "line": 132,
+   "whole_line": "                auth().with(user(\"authorized_user\").password(\"password\")).",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/src/example/security/rest/c43b804b.java",
+   "line": 142,
+   "whole_line": "    @WithMockUser(username = \"authorized_user\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/src/secure/rest/modul/c32af082.java",
+   "line": 38,
+   "whole_line": "        User user = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/example/0e980b62.scala",
+   "line": 43,
+   "whole_line": "    response.setBody( \"\"\" { \"key\" : \"value\" } \"\"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/example/0e980b62.scala",
+   "line": 59,
+   "whole_line": "    response.setBody( \"\"\" { \"key\" : \"value\" } \"\"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/example/rest/1beeaa17.java",
+   "line": 414,
+   "whole_line": "                            \"Api-Key=1234%n\" +",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/example/rest/1beeaa17.java",
+   "line": 476,
+   "whole_line": "            assertThat(writer.toString(), equalTo(String.format(\"Headers:\\t\\tApi-Key=1234%n\" +",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/example/rest/37bf91f3.java",
+   "line": 49,
+   "whole_line": "        authentication = basic(\"jetty\", \"jetty\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/example/rest/37bf91f3.java",
+   "line": 59,
+   "whole_line": "        authentication = basic(\"jetty\", \"jetty\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/example/rest/37bf91f3.java",
+   "line": 241,
+   "value": "John",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/example/rest/37bf91f3.java",
+   "line": 320,
+   "whole_line": "        RestAssured.authentication = form(\"John\", \"Doe\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/example/rest/37bf91f3.java",
+   "line": 335,
+   "whole_line": "        RestAssured.authentication = form(\"John\", \"Doe\", FormAuthConfig.springSecurity());",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/rest/modul/dbfe5d0f.scala",
+   "line": 36,
+   "whole_line": "                                    ctx: FilterContext) = new ResponseBuilder().setStatusCode(200).setContentType(JSON).setBody(\"\"\"{ \"key\" : \"value\" }\"\"\").build()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/spec/rest/client/modul/a7a8e46b.java",
+   "line": 225,
+   "whole_line": "\t * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/spec/rest/client/modul/a7a8e46b.java",
+   "line": 248,
+   "whole_line": "\t * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/spec/rest/client/modul/a7a8e46b.java",
+   "line": 263,
+   "whole_line": "\t * This will set the parameter <code>username=John</code> in the GET request to \"/cookie\".",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/spec/rest/client/modul/a7a8e46b.java",
+   "line": 568,
+   "whole_line": "\t * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/spec/rest/client/modul/a7a8e46b.java",
+   "line": 591,
+   "whole_line": "\t * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/spec/rest/client/modul/a7a8e46b.java",
+   "line": 612,
+   "whole_line": "\t * <li>token=1234</li>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/spec/rest/client/modul/a7a8e46b.java",
+   "line": 627,
+   "whole_line": "\t * This will set the cookie <code>username=John</code> in the GET request to \"/cookie\".",
+   "source": "creddata"
+  },
+  {
+   "file": "src/24c5b9ac.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Sniff2021"
+  },
+  {
+   "file": "src/24c5b9ac.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "importer"
+  },
+  {
+   "file": "src/24c5b9ac.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Drink2022"
+  },
+  {
+   "file": "src/24c5b9ac.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "backup"
+  },
+  {
+   "file": "src/24c5b9ac.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "kasse"
+  },
+  {
+   "file": "src/24c5b9ac.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "unlisted14"
+  },
+  {
+   "file": "test/aeca1676.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "a39b913"
+  },
+  {
+   "file": "test/aeca1676.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "f657045431f811100eaf7ae84db812d758036513f884f14a5c2e2f83d2e2eca7"
+  },
+  {
+   "file": "test/aeca1676.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "test/aeca1676.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/95605a92.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIXDZ2Ky/pNZk305qk8bWGXv2aFO1XIHAVCWLlnYSbJuV"
+  },
+  {
+   "file": "other/95605a92.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "0484ce246f8881d0158416c803ec962a91713e2cdd2c7ab6c1367b40eab5593e"
+  },
+  {
+   "file": "other/95605a92.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/95605a92.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "src/e204603c.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pepper-bier-eu"
+  },
+  {
+   "file": "src/e204603c.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Operator2024"
+  },
+  {
+   "file": "test/a07e0368.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "7.27.6"
+  },
+  {
+   "file": "test/a07e0368.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "8.4.27"
+  },
+  {
+   "file": "test/a07e0368.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-k3keq0ddyUV8I0TW6X0eokEUzO9pGsc8AofYtcRdb74Id4TYgwPsvdk9ucRof+E6ZPH1UE/DC9ZpmN1XyU+Lpg=="
+  },
+  {
+   "file": "test/a07e0368.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "5.27.21"
+  },
+  {
+   "file": "test/a07e0368.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-BIm6MECSoylVfllFyTIkZwD45hPEvovZDsBixOqdjj/lGnaxkgEVxDVNKDhyvHYlnAWHP40JZVJVF9cVXX208A=="
+  },
+  {
+   "file": "test/a07e0368.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "4.25.3"
+  },
+  {
+   "file": "test/a07e0368.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-DmIjEi4REH+uLgAozHWnewJ4kFY4lZf8w1JUBj5g9FyDsIoHh6SrhrgSXoruuPhSVGoUbcwyCsZrzVRrMwNG3A=="
+  },
+  {
+   "file": "src/cbb222aa.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "ce8a5ffcfebf97bab2d5"
+  },
+  {
+   "file": "src/cbb222aa.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "auth0.com"
+  },
+  {
+   "file": "src/cbb222aa.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "c3743d5d09a8165f652c7b9573be502fc28d8133"
+  }
+ ]
+}

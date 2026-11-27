@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.helix.io/app@sha256:17f0b7a4180e74fad9f0fe56ab59bdedf1bf0f8c5c8c6b22e3b71fdc524174f3
+    environment:
+      - DATABASE_URL=postgres://app:Sophie&1964@172.17.127.145:5432/app
+      - SENTRY_RELEASE=8565b6e06c092cd74ed09b5542644be073ac7345
+      - API_TOKEN=<YOUR_API_KEY>
+      - BIND_ADDR=0.0.0.0
+  worker:
+    image: registry.helix.io/worker:2.9.14
+    environment:
+      - QUEUE_PASS=ZWxkZXIzNjck

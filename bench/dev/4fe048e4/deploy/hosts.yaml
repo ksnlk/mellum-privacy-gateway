@@ -1,0 +1,15 @@
+monitoring: pallas.nordwind-ops.io
+database:
+  host: tarvos.nordwind-ops.io
+  port: 5432
+queue: vega.nordwind-ops.io
+backup_target: atlas.nordwind-ops.io
+website: shop.nordwind-ops.io
+payments_api: https://api.datafjord.com/v2
+partner_drop: files.datafjord.de
+allow_sources:
+  - 91.181.223.232
+  - 140.82.113.4
+  - 91.181.55.43
+ntp: 212.18.3.19
+mirrors: [ftp.gnu.org, gitlab.gnome.org]

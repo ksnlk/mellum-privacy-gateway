@@ -1,0 +1,19 @@
+# helix payments service
+database:
+  host: auth-prod.mroauh863g7m.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "sachsen927!"
+  password_source: secret/data/helix/crm/prod
+  password_env: AUTH_API_KEY
+api:
+  key_header: Authorization
+  partner_ident: jZ8mIMqVTbt60dO3YjavekaedCnysR5a
+  key_file: /run/secrets/etl_password
+  signing_alg: argon2id
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 632158891327-57miuqnrddqrni2ezdar6iiheppedlz2.apps.googleusercontent.com
+  client_proof: l6fahnr6clcs5i4ng44l0gbur3mkrkgh
+  secret_rotated_at: "2025-11-14T00:00:00Z"
+  secret_name: ledger-tls
+pagination:
+  first_cursor: aW52b2ljZToyMjM4NDpvZmZzZXQ6Mjg=

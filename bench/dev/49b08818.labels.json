@@ -1,0 +1,946 @@
+{
+ "repo": "49b08818",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "fixture/00a89c86.yml",
+   "line": 27,
+   "start": 18,
+   "end": 26,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "hivszulv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "fixture/013e55dd.r",
+   "line": 6,
+   "start": 28,
+   "end": 36,
+   "category": "Password:Auth",
+   "mutation": "comment",
+   "forms": [
+    "nxipltyu"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "fixture/100a3d7b.yml",
+   "line": 13,
+   "start": 18,
+   "end": 26,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ikbjretz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "fixture/22a38fb8.txt",
+   "line": 1,
+   "start": 110,
+   "end": 121,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "oqwievkk713"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "fixture/24013877.r",
+   "line": 10,
+   "start": 17,
+   "end": 304,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "mJU+PLMA7X75EYS9/XFMarATSuv7XOrAEdR0/ebV7/m38nsWqN8aGtP+PnPVEl1sFPAh6KBPdJJN2EP0YtMPtr06l3SWBZFLBosFV2YY20taXYsDCjkk58kNLx2L2rFPnysY+WQB507FYTYW7+xoQo0Yj6ipDpmlWEQuerierP/SUzeKS8/MbAxqOgWKXKN+hc5997wL7jSJgOXi7rph1ofWs+joir/L5mVS4OcsXxyolGoGpk78Si2slxlwAM1RwGorN1S634ZILP0YIZwgCWWA+want=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "fixture/341ddfa2.ex",
+   "line": 10,
+   "start": 49,
+   "end": 60,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ootfymmj445"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "fixture/4625057a.txt",
+   "line": 1,
+   "start": 107,
+   "end": 115,
+   "category": "Password:Auth",
+   "mutation": "none",
+   "forms": [
+    "wuwovzvo"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "fixture/4b49490b.m",
+   "line": 3,
+   "start": 45,
+   "end": 53,
+   "category": "Password:Auth",
+   "mutation": "none",
+   "forms": [
+    "zobodygl"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "fixture/5759a792.r",
+   "line": 5,
+   "start": 16,
+   "end": 25,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "jrtdcnznp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "fixture/69676072.ex",
+   "line": 4,
+   "start": 389,
+   "end": 676,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "sYZ+HKOU8B70JOT6/XBLimGRYoo7NSpCYlH2/wrP6/h45reIlI9bPmK+ZfAXLe7xKNYl9CDFvGCJ9PF0QeLSay10a8XYNKSAEttON1YT50urZHaWEjyw90yHWl5Y7qTRuktS+HFC959DCTOB2+agXu0Uw0poLxjgWZVzcvdazB/VEydLY0/CiZipCcNINDK+po1504cB3aPUjWGw0pxw8rwUm+gjma/Q7wDB2VgpUwtbhAqAju03Fl8siwywWJ5TgSibJ6J983CARP8IDDowGDSH+ueyp=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "fixture/c0c4ebcf.txt",
+   "line": 1,
+   "start": 70,
+   "end": 102,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "30c00c0f26600a250c093c56c03924e5"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "fixture/c647c1a0.java",
+   "line": 17,
+   "start": 53,
+   "end": 61,
+   "category": "Auth:Password",
+   "mutation": "none",
+   "forms": [
+    "mwqflwxd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "fixture/ca1b7084.txt",
+   "line": 1,
+   "start": 435,
+   "end": 722,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "aYB+ZNHA9D97UYF6/ZKVszZWBpu6SKxEWhG2/jgV4/r43efCcM6zOgQ+MwFPFa6aRNWr8OMNzTHH9HP4CkHOjh07s4GLZLOPLjtLO4HV45ylJWcSPpmk05wYYy9P6lHCvtyJ+QDA372NMCUG0+rvId1Lv1vjGcazLPCofqyilQ/WIviPM6/DdIkhPvFPFZO+fv7365xI9yJJlUTi7ycw2llJi+mxzz/W6vMB9SkiCdumbMsZth64Sd7wrdbcBA0ZkFhmA9P356SAVE5KBVphVZOL+ziuc=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "fixture/cf5e135b.json",
+   "line": 8,
+   "start": 19,
+   "end": 27,
+   "category": "Password:Auth",
+   "mutation": "rename",
+   "forms": [
+    "kjouepdd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "fixture/df1fefb3.r",
+   "line": 5,
+   "start": 25,
+   "end": 57,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "50856636b1b3f6292edeccdc442ac8e9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "fixture/f12dd9ee.txt",
+   "line": 1,
+   "start": 55,
+   "end": 64,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "kvcvhkefj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 17,
+   "file": "fixture/fb4b2b48.java",
+   "line": 36,
+   "start": 393,
+   "end": 680,
+   "category": "Key",
+   "mutation": "camouflage",
+   "forms": [
+    "lTV+JNKE9P40CIT2/XFSatCMUkz9XVlDZiP6/awT5/w87nsKuT2gDmM+UdIIQt7hVNRa1EMDvERS5CS6RrKZqh36j7QDOIKFLncUS8RX84auYZoMAsxo97fNDv0L3iOMathB+LRX637HQGHO6+rpNf1Xb2lqToxsKUVcbhtgdO/LDluJA0/WoWpcUlYVMQU+it7191fN8fLZiNAw3xxe6ncQw+xozw/K7wLE2YlbBntlvQzSqx93Ce6xzmhvNA3QqBuxF8K500TXAW1JOFqwOKEO+izau=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 18,
+   "file": "fixture/python/0fa02ca1.py",
+   "line": 6,
+   "start": 15,
+   "end": 23,
+   "category": "Password:Auth",
+   "mutation": "none",
+   "forms": [
+    "rvoeoodi"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 19,
+   "file": "fixture/python/17c30e05.py",
+   "line": 10,
+   "start": 18,
+   "end": 305,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "jBA+SAYB6P46DIC4/KFXlzWWRks0CJdUMnF3/bdJ5/c81vpHvJ9sRoT+OaXYNa1zYZNx7XQUuBID8KV7GmQDba06a5QSWGYECotMF0IQ79huQNxEPpxu86sWLe4C9eDOtivP+OKE956BGYDT2+wqIy4Cp4caGmdiYYLzmxwjeP/HLgjOO5/DyAyxUuALLEN+yz4004uO5gLEeVEp5nbv2ycWp+mfdy/R3aMH7NodIozbpJzBab02Nu3kpsteNM0ApDomT8I305VYDB9GLCvuGMYH+eutd=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 20,
+   "file": "fixture/python/197c2ce6.py",
+   "line": 4,
+   "start": 13,
+   "end": 18,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "*%5*!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 21,
+   "file": "fixture/python/31b87c9d.py",
+   "line": 5,
+   "start": 27,
+   "end": 59,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "28b2412f46fa23a0002f4bd0b0bae790"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 22,
+   "file": "fixture/python/ed043ee1.py",
+   "line": 8,
+   "start": 46,
+   "end": 57,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "musician328"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 23,
+   "file": "fixture/python/fbad69af.py",
+   "line": 5,
+   "start": 24,
+   "end": 33,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "qnouzccuz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 24,
+   "file": "test/4fe4c36e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "cHJvd2xlci5saXN0LnRoZXJlMTk=",
+    "prowler.list.there19"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "test/4fe4c36e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV84S0xHb0dURmRVMUc0MTVSbU5PdWtpdW8=",
+    "sk_live_8KLGoGTFdU1G415RmNOukiuo"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "test/4fe4c36e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-prod.l1m2u3kevecz.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "_/1fc54d63.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Nico Hartmann"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "_/1fc54d63.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "eva.fischer@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "_/1fc54d63.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 6794 6403"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "_/1fc54d63.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Mia Neumann"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "_/1fc54d63.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "mia.wolf [at] brightloop-corp [dot] de"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "_/1fc54d63.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE95105210471246485688"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "_/1fc54d63.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Paul Wolf"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "_/1fc54d63.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lindenweg 33, 58344 Erding"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "_/1fc54d63.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "159.226.246.146"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "other/b963ca96.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-primary.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "other/b963ca96.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "disparit",
+    "disparity473$",
+    "y473$"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "src/0f62764b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sofia.wagner@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "src/0f62764b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 7938 6385"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "src/0f62764b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "bayern639!"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "src/0f62764b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE51541338519816737262"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "test/d3ffe2f1.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports.iztolf.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "test/d3ffe2f1.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "K7w0z1b7xixFIpjabI1hg4mTyVE6HzVz"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "test/a333813e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_MxU38aygryPqlVRRGAa1lY4x"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "test/a333813e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "XIQ9PRh6eKoPBhQ82MI9WehQdc4YZnzO"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "test/a333813e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "emp1YXF0aG5jOGZpY3ljdnF0OXpvMDJvbzZvMXVlNXo=",
+    "zjuaqthnc8ficycvqt9zo02oo6o1ue5z"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/6f9552a0.js",
+   "line": 32,
+   "whole_line": "      \"  var authn = 'Basic ' + base64Encode(utf8.encode('$uname:$pword'));\\n\" +",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6f9552a0.js",
+   "line": 46,
+   "whole_line": "    if (r.auth) s += \"    'Authorization': authn,\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6f9552a0.js",
+   "line": 93,
+   "value": "\" + val + \"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6f9552a0.js",
+   "line": 111,
+   "value": "authn",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b49d6202.js",
+   "line": 1,
+   "whole_line": "// Author: ssi-anik (sirajul.islam.anik@gmail.com)",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/00a89c86.yml",
+   "line": 28,
+   "value": "X-Api-Key",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/013e55dd.r",
+   "line": 5,
+   "whole_line": "  `auth_user` = 'fdgxf',",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/1cafa8a2.txt",
+   "line": 1,
+   "value": "abcdefg",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/24013877.r",
+   "line": 4,
+   "value": "S-1-5-21-1234556-56678-12345-2345=alphanumericstring12345/anotheralphanumericstring12345/scsiAdf/P",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/2e3ee6a7.dart",
+   "line": 7,
+   "whole_line": "  var authn = 'Basic ' + base64Encode(utf8.encode('$uname:$pword'));",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/2e3ee6a7.dart",
+   "line": 10,
+   "value": "authn",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/3e21913a.dart",
+   "line": 6,
+   "value": "some_password",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/3e21913a.dart",
+   "line": 7,
+   "whole_line": "  var authn = 'Basic ' + base64Encode(utf8.encode('$uname:$pword'));",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/3e21913a.dart",
+   "line": 9,
+   "value": "authn",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/4b49490b.m",
+   "line": 15,
+   "whole_line": "    'auth_pwd', 'oxfdscds',...",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/54849d51.txt",
+   "line": 1,
+   "whole_line": "curl --data 'secret=*%5*!' https://postman-echo.com/post",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/6da61865.txt",
+   "line": 2,
+   "whole_line": "     -H 'X-Api-Key:{admin_api_key}' -i \\",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/87ca342b.m",
+   "line": 66,
+   "value": "alphanumericstring12345/anotheralphanumericstring12345/scsiAdf/P",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/8c0f91d8.yml",
+   "line": 10,
+   "whole_line": "    url_password: 123",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/92239c75.yml",
+   "line": 20,
+   "whole_line": "        password: '123'",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/cf5e135b.json",
+   "line": 7,
+   "whole_line": "        \"auth_user\": \"fdgxf\",",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/d096d42d.txt",
+   "line": 1,
+   "whole_line": "curl -v -H 'X-Api-Key:123456789' 'https://synthetics.newrelic.com/synthetics/api/v3/monitors?test=2' -G -d 'limit=100' -d 'w=4'",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/python/0fa02ca1.py",
+   "line": 5,
+   "whole_line": "  'auth_user': 'fdgxf',",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/python/17c30e05.py",
+   "line": 4,
+   "value": "S-1-5-21-1234556-56678-12345-2345=alphanumericstring12345/anotheralphanumericstring12345/scsiAdf/P",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/python/b4b1e510.py",
+   "line": 4,
+   "whole_line": "DO_API_TOKEN = os.getenv('DO_API_TOKEN')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4fe4c36e.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "e1e107c"
+  },
+  {
+   "file": "test/4fe4c36e.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "21aae78cc2305c3bb101a3bf05c47b1415839200f4e59a941b1c0ba3c43d28fb"
+  },
+  {
+   "file": "test/4fe4c36e.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "test/4fe4c36e.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/1fc54d63.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "privacy@brightloop-corp.de"
+  },
+  {
+   "file": "_/1fc54d63.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "billing@brightloop-corp.de"
+  },
+  {
+   "file": "_/1fc54d63.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+44 20 7946 0942"
+  },
+  {
+   "file": "_/1fc54d63.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "_/1fc54d63.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "_/1fc54d63.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "_/1fc54d63.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "_/1fc54d63.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "other/b963ca96.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "a77f4d76b95cd23f52bcff9e33ba1485aa9e15ed"
+  },
+  {
+   "file": "other/b963ca96.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "other/b963ca96.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "pypi.org"
+  },
+  {
+   "file": "src/0f62764b.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "src/0f62764b.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "noreply@github.com"
+  },
+  {
+   "file": "src/0f62764b.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "test/d3ffe2f1.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "test/d3ffe2f1.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "1.12.49"
+  },
+  {
+   "file": "test/d3ffe2f1.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "a2e339ff797d39934833d90c6007ef13e1702855"
+  },
+  {
+   "file": "test/d3ffe2f1.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "c9b131f3-4e74-402f-a5fa-64c474e42d93"
+  },
+  {
+   "file": "test/a333813e.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_xN7g6vUWEvaZJOkxDl24iPln"
+  },
+  {
+   "file": "test/a333813e.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "LEDGER_SECRET_KEY"
+  },
+  {
+   "file": "test/a333813e.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "BILLING_SECRET_KEY"
+  },
+  {
+   "file": "test/a333813e.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LmWNKVatXdZc4bJbiZ790_e4wm2MVygd9QlSIj4"
+  },
+  {
+   "file": "test/a333813e.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:ZPZ64YrJ+5RnLHXZb+vmksr4W4pjIhm0Z/nSkP8t8Pw"
+  },
+  {
+   "file": "test/a333813e.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "test/a333813e.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Auth-Token"
+  },
+  {
+   "file": "test/a333813e.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "test/a333813e.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "aW52b2ljZTo2MDMwNDpvZmZzZXQ6MjMz"
+  }
+ ]
+}

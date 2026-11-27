@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: acme-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "ee76fb2"
+type: Opaque
+data:
+  DB_PASSWORD: dGVjaG5pcXVlLmhpbGwuc3VyZTg5
+  STRIPE_KEY: c2tfbGl2ZV9iUDVWY01ROWEzYno5WTByeUJtSExzaDU=
+  ca.crt.sha256: d891959860e7d2c4b4c079d3ceabf3b61df5277becb9b8e644ba10009a7e5924
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: acme-payments-config
+data:
+  DB_HOST: "ledger-replica.acme.cloud"
+  SENTRY_HOST: "o450123.ingest.sentry.io"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  mysql:
+    image: 'mysql:latest'
+    ports:
+      - 9910:3306
+    environment:
+      - MYSQL_DATABASE=gorm
+      - MYSQL_USER=gorm
+      - MYSQL_PASSWORD=nnlh
+      - MYSQL_RANDOM_ROOT_PASSWORD="yes"
+  postgres:
+    image: 'postgres:latest'
+    ports:
+      - 9920:5432
+    environment:
+      - POSTGRES_USER=gorm
+      - POSTGRES_DB=gorm
+      - POSTGRES_PASSWORD=lciz
+      - POSTGRES_PASSWORD_HEADER=X-Hub-Signature-256
+  mssql:
+    image: 'mcmoe/mssqldocker:latest'
+    ports:
+      - 9930:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=XwmrqDwyls11
+      - MSSQL_DB=gorm
+      - MSSQL_USER=gorm
+      # demo box login still OxgnrPtzhn36, rotate it

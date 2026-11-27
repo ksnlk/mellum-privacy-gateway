@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2012-12-01",
+    "endpointPrefix":"redshift",
+    "protocol":"query",
+    "serviceFullName":"Amazon Redshift",
+    "serviceId":"Redshift",
+    "signatureVersion":"v4",
+    "uid":"redshift-2012-12-01",
+    "xmlNamespace":"http://redshift.amazonaws.com/doc/2012-12-01/"
+  },
+  "operations":{
+    "AcceptReservedNodeExchange":{
+      "name":"AcceptReservedNodeExchange",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AcceptReservedNodeExchangeInputMessage"},
+      "output":{
+        "shape":"AcceptReservedNodeExchangeOutputMessage",
+        "resultWrapper":"AcceptReservedNodeExchangeResult"
+      },
+      "errors":[
+        {"shape":"ReservedNodeNotFoundFault"},
+        {"shape":"InvalidReservedNodeStateFault"},
+        {"shape":"ReservedNodeAlreadyMigratedFault"},
+        {"shape":"ReservedNodeOfferingNotFoundFault"},

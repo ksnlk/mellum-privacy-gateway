@@ -1,0 +1,1553 @@
+{
+ "repo": "389fd795",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "example/secret/0623d5cf.go",
+   "line": 22,
+   "start": 28,
+   "end": 44,
+   "category": "Token:Auth",
+   "mutation": "none",
+   "forms": [
+    "5369f571425c096a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/2928bf42.go",
+   "line": 24,
+   "start": 50,
+   "end": 79,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "MLDP7NYXYR4I3HKFFOYR8FA1LENA3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/2928bf42.go",
+   "line": 33,
+   "start": 43,
+   "end": 83,
+   "category": "Token",
+   "mutation": "b64",
+   "forms": [
+    "UERRRzlNVU5RUjVKMU1SRFZUR0IyTEUzUURHWDY=",
+    "PDQG9MUNQR5J1MRDVTGB2LE3QDGX6"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/be0a3914.go",
+   "line": 529,
+   "line_end": 585,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "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"
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/c159516b.go",
+   "line": 65,
+   "start": 50,
+   "end": 79,
+   "category": "Token",
+   "mutation": "stack",
+   "forms": [
+    "GPQL1LFTMZ8G3IIDFVMU9ER4GCQW9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/c159516b.go",
+   "line": 74,
+   "start": 43,
+   "end": 72,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "LZVU6CROAK6F9MCPNBKL2KG1QCNW1"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/c159516b.go",
+   "line": 185,
+   "start": 33,
+   "end": 67,
+   "category": "Token",
+   "mutation": "stack",
+   "forms": [
+    "JIGE1UXXFH6A9A",
+    "IQXWLS7SH1RUYP5",
+    "JIGE1UXXFH6A9AIQXWLS7SH1RUYP5"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/c159516b.go",
+   "line": 194,
+   "start": 49,
+   "end": 78,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "GBVO9FTNZO3B7EOQLXWK3CG8KNJE4"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/c159516b.go",
+   "line": 286,
+   "start": 33,
+   "end": 62,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "BXPS2FAHWM9H0SKKFSXB7ZQ1MDUM4"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "test/c159516b.go",
+   "line": 295,
+   "start": 25,
+   "end": 54,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "UZEF7IXNQB1T4ZGWBGLX3OY4RKSW7"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "test/c159516b.go",
+   "line": 450,
+   "start": 27,
+   "end": 56,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "BANG4BSVWL9G2KNBSTUP2RM5WJDM2"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "test/c159516b.go",
+   "line": 459,
+   "start": 49,
+   "end": 78,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "TENW5CHILD2V0HWIOYTP5PH9HTYD7"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "test/secret/4887442f.go",
+   "line": 36,
+   "start": 48,
+   "end": 92,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "3Ko5qYnLajhH1UhDNsBosVuPgRBVc2o+tV9KAgnd4065"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "test/secret/4887442f.go",
+   "line": 37,
+   "start": 64,
+   "end": 113,
+   "category": "Key",
+   "mutation": "split",
+   "forms": [
+    "7Ik5nRtMiseQ",
+    "9EfFJhCutKtWkYXMv7b+uJ1ZNlpa3934",
+    "7Ik5nRtMiseQ9EfFJhCutKtWkYXMv7b+uJ1ZNlpa3934"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "test/secret/4887442f.go",
+   "line": 41,
+   "start": 50,
+   "end": 94,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "0Ao0wHcAnnaF1OxGDvIchVkZtPQLa8p+nI6AYxmj9122"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "test/secret/4887442f.go",
+   "line": 42,
+   "start": 30,
+   "end": 74,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "7Ro9mDqCrrxE1YiLOeDdvJeXbHNSh0u+aT7HKfyt3479"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 17,
+   "file": "test/secret/4887442f.go",
+   "line": 46,
+   "start": 52,
+   "end": 96,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "9Fv0gMwGogoY1KcCMgPovBfGzWEBy2q+mZ4IWmam8137"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 18,
+   "file": "test/secret/4887442f.go",
+   "line": 71,
+   "start": 43,
+   "end": 87,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "5Lb4sHuBbqaH0CuAJdTboOfIoGVBj2q+vK3VUykp1778"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 19,
+   "file": "test/secret/4887442f.go",
+   "line": 101,
+   "start": 41,
+   "end": 85,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "0Le5tDnOwrqY5OjKZgYfhCuHvTPCa5c+eP8BQjzc2097"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 20,
+   "file": "test/secret/4887442f.go",
+   "line": 110,
+   "start": 56,
+   "end": 105,
+   "category": "Key",
+   "mutation": "split",
+   "forms": [
+    "1Xa7bWiZaeoM1EsMDqCdyDwQcCZPc2v+kA6MTfb",
+    "d0558",
+    "1Xa7bWiZaeoM1EsMDqCdyDwQcCZPc2v+kA6MTfbd0558"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 21,
+   "file": "test/secret/4887442f.go",
+   "line": 136,
+   "start": 39,
+   "end": 83,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "4Ie2wXeVixuC0LjMVtGonBpFwYQYs6g+lO9XEufq2520"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 22,
+   "file": "test/secret/4887442f.go",
+   "line": 145,
+   "start": 28,
+   "end": 72,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "0Zg1eSiTnhgP2WsIWxZhxJgScFOZd1r+oF6MGluw9334"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 23,
+   "file": "test/secret/4887442f.go",
+   "line": 311,
+   "start": 46,
+   "end": 90,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "8Lj9nDiOspzW8BaIPsDivTrGyHQBf6n+cW2EZbqy6450"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 24,
+   "file": "test/secret/4887442f.go",
+   "line": 320,
+   "start": 25,
+   "end": 69,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "6Ji0qYcYbynF0OsBRmWdnNfMpPERu1v+pY7BNujq2067"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 25,
+   "file": "test/secret/4887442f.go",
+   "line": 610,
+   "start": 41,
+   "end": 85,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "5Hv8vSsLakgE3OgBEvAbxBmUzVFTm1w+nE5BZjgq5574"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 26,
+   "file": "test/secret/4887442f.go",
+   "line": 619,
+   "start": 56,
+   "end": 116,
+   "category": "Key",
+   "mutation": "b64",
+   "forms": [
+    "OVZ5NmhUbE5leHRDNVp6Q1d4TnN0UXBCY1ZYS3I3citlRzlIVGhsYTcwMTg=",
+    "9Vy6hTlNextC5ZzCWxNstQpBcVXKr7r+eG9HThla7018"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 27,
+   "file": "test/secret/4887442f.go",
+   "line": 645,
+   "start": 39,
+   "end": 83,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "0Jq5qOfHvyiL2FjWNyTaiJtMaSKAh5r+dU4RMsfh9379"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 28,
+   "file": "test/secret/4887442f.go",
+   "line": 654,
+   "start": 25,
+   "end": 69,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "4Yb5zJqLbslO4IbLIeAysXbPrTYHc5h+jU4LOriq1444"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 29,
+   "file": "_/f06c3458.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "61613765623665643732333531613833363939646466326432363034316531303264303035666165663633633862323461363030396235376439333164653637",
+    "aa7eb6ed72351a83699ddf2d26041e102d005faef63c8b24a6009b57d931de67"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "other/ab1d4a75.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "104, 76, 71, 109, 103, 80, 97, 55, 55, 70, 69, 77, 90, 89, 84, 110, 120, 68, 71, 119, 86, 76, 116, 101, 109, 117, 113, 114, 113, 105, 82, 67",
+    "hLGmgPa77FEMZYTnxDGwVLtemuqrqiRC"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "other/ab1d4a75.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lina87@gmail.com"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "src/5b1f6c56.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u0437\u0432\u0435\u0437\u0434\u04307359!"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "src/5b1f6c56.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.19.23.237"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "src/5b1f6c56.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "UDNAYzM=",
+    "P3@c3"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "_/a5498915.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "occupant827"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "_/e02303d0.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-prod.cx59oqmbjv67.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "_/e02303d0.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "135.45.57.227"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "_/e02303d0.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "laura89@gmail.com"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "_/e02303d0.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-prod.zjhc4c7miz0y.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "_/e02303d0.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "clash_muenchen_dismissal_fischer"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "test/e14afefc.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-prod.5juido6nli20.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "test/e14afefc.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "2aWLbZZZrSaos7RYjLBGLsH2b1jyZvvX"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/09cc750a.go",
+   "line": 574,
+   "whole_line": "// project. Possible values for the permission key: \"admin\", \"write\", \"read\", \"none\".",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8fa7fc67.go",
+   "line": 26,
+   "whole_line": "\tif a == nil || a.VerifiablePasswordAuthentication == nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8fa7fc67.go",
+   "line": 77,
+   "value": "= nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8fa7fc67.go",
+   "line": 128,
+   "value": "= nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8fa7fc67.go",
+   "line": 179,
+   "value": "= nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8fa7fc67.go",
+   "line": 230,
+   "value": "= nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8fa7fc67.go",
+   "line": 281,
+   "value": "= nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8fa7fc67.go",
+   "line": 332,
+   "value": "= nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8fa7fc67.go",
+   "line": 340,
+   "value": "= nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9ba908d8.go",
+   "line": 1066,
+   "whole_line": "\tt := &github.UnauthenticatedRateLimitedTransport{",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c35e6b52.go",
+   "line": 52,
+   "whole_line": "\t\t\"deploy_key\":                     \"DeployKeyEvent\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c35e6b52.go",
+   "line": 146,
+   "whole_line": "// If your webhook does not contain a secret token, you can pass nil or an empty slice.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e3efce34.go",
+   "line": 41,
+   "value": "read:gpg_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e3efce34.go",
+   "line": 43,
+   "value": "admin:gpg_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e3efce34.go",
+   "line": 249,
+   "whole_line": "// you can e.g. create or delete a user's public SSH key. NOTE: creating a",
+   "source": "creddata"
+  },
+  {
+   "file": "example/686c335f.go",
+   "line": 20,
+   "whole_line": "\tpassword = flag.String(\"password\", \"\", \"github auth: password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "example/686c335f.go",
+   "line": 32,
+   "whole_line": "\t\t*password, _ = reader.ReadString('\\n')",
+   "source": "creddata"
+  },
+  {
+   "file": "example/686c335f.go",
+   "line": 33,
+   "whole_line": "\t\t*password = strings.TrimSpace(*password)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/app/4beed0f3.yaml",
+   "line": 14,
+   "whole_line": "  GITHUB_AUTH_TOKEN: \"-your-auth-token-here-\"",
+   "source": "creddata"
+  },
+  {
+   "file": "example/secret/0623d5cf.go",
+   "line": 17,
+   "whole_line": "//\texport GITHUB_AUTH_TOKEN=<auth token from github that has secret create rights>",
+   "source": "creddata"
+  },
+  {
+   "file": "example/secret/0623d5cf.go",
+   "line": 49,
+   "whole_line": "\ttoken := os.Getenv(\"GITHUB_AUTH_TOKEN\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1adc062d.go",
+   "line": 124,
+   "whole_line": "\tinput := &Key{Key: String(\"k\"), Title: String(\"t\")}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1da0ffca.go",
+   "line": 370,
+   "whole_line": "\twant := &Repository{ID: Int64(1), Name: String(\"n\"), Description: String(\"d\"), Owner: &User{Login: String(\"l\")}, License: &License{Key: String(\"mit\")}}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1da0ffca.go",
+   "line": 412,
+   "whole_line": "\t\tKey:  String(\"key\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1da0ffca.go",
+   "line": 452,
+   "whole_line": "\twant := &Repository{ID: Int64(1), Name: String(\"n\"), Description: String(\"d\"), Owner: &User{Login: String(\"l\")}, License: &License{Key: String(\"mit\")}}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1da0ffca.go",
+   "line": 1257,
+   "whole_line": "\t\t\tKey:      String(\"mit\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1faa5fe2.go",
+   "line": 50,
+   "whole_line": "\t\t\t\t\t\t\"login\": \"author\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1faa5fe2.go",
+   "line": 86,
+   "whole_line": "\t\t\t\tLogin:             String(\"author\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/21155b45.go",
+   "line": 26,
+   "whole_line": "    <p>GitHub provides several timeline resources in <a href=\"http://en.wikipedia.org/wiki/Atom_(standard)\">Atom</a> format. The Feeds API lists all the feeds available to the authenticated user:</p>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/21155b45.go",
+   "line": 77,
+   "whole_line": "  <span class=\"hljs-attr\">&quot;current_user_url&quot;</span>: <span class=\"hljs-string\">&quot;https://github.com/octocat.private?token=abc123&quot;</span>,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/21155b45.go",
+   "line": 78,
+   "whole_line": "  <span class=\"hljs-attr\">&quot;current_user_actor_url&quot;</span>: <span class=\"hljs-string\">&quot;https://github.com/octocat.private.actor?token=abc123&quot;</span>,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/21155b45.go",
+   "line": 81,
+   "whole_line": "    <span class=\"hljs-string\">&quot;https://github.com/organizations/github/octocat.private.atom?token=abc123&quot;</span>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/21155b45.go",
+   "line": 98,
+   "whole_line": "      <span class=\"hljs-attr\">&quot;href&quot;</span>: <span class=\"hljs-string\">&quot;https://github.com/octocat.private?token=abc123&quot;</span>,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/21155b45.go",
+   "line": 102,
+   "whole_line": "      <span class=\"hljs-attr\">&quot;href&quot;</span>: <span class=\"hljs-string\">&quot;https://github.com/octocat.private.actor?token=abc123&quot;</span>,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/21155b45.go",
+   "line": 111,
+   "whole_line": "        <span class=\"hljs-attr\">&quot;href&quot;</span>: <span class=\"hljs-string\">&quot;https://github.com/organizations/github/octocat.private.atom?token=abc123&quot;</span>,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/420bc144.go",
+   "line": 442,
+   "whole_line": "\t\t\t\tAuthor:    &User{Login: String(\"l\")},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/420bc144.go",
+   "line": 460,
+   "whole_line": "\t\t\t\t\tAuthor:    &User{Login: String(\"l\")},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4b75df1f.go",
+   "line": 33,
+   "whole_line": "\t\t\t\t\t\t\"login\": \"author\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4b75df1f.go",
+   "line": 79,
+   "whole_line": "\t\t\t\tLogin:             String(\"author\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4b75df1f.go",
+   "line": 148,
+   "whole_line": "\t\t\t\t\t\t\"login\": \"author\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4b75df1f.go",
+   "line": 194,
+   "whole_line": "\t\t\t\tLogin:             String(\"author\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5de36acd.md",
+   "line": 40,
+   "whole_line": "    GITHUB_USERNAME='<GH_USERNAME>' GITHUB_PASSWORD='<GH_PASSWORD>' GITHUB_CLIENT_ID='<CLIENT_ID>' GITHUB_CLIENT_SECRET='<CLIENT_SECRET>' go test -v -tags=integration -run=Authorizations ./integration",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6faf9d66.go",
+   "line": 766,
+   "whole_line": "\tunauthedClient.BaseURL = &url.URL{Scheme: \"http\", Host: \"127.0.0.1:0\", Path: \"/\"} // Use port 0 on purpose to trigger a dial TCP error, expect to get \"dial tcp 127.0.0.1:0: connect: can't assign requested address\".",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6faf9d66.go",
+   "line": 776,
+   "value": "secret",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6faf9d66.go",
+   "line": 777,
+   "whole_line": "\t\tt.Errorf(\"Do error contains secret, should be redacted:\\n%q\", err)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6faf9d66.go",
+   "line": 1062,
+   "whole_line": "\t\t{\"/?a=b&client_secret=secret\", \"/?a=b&client_secret=REDACTED\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6faf9d66.go",
+   "line": 1063,
+   "whole_line": "\t\t{\"/?a=b&client_id=id&client_secret=secret\", \"/?a=b&client_id=id&client_secret=REDACTED\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6faf9d66.go",
+   "line": 1716,
+   "whole_line": "\tid, secret := \"id\", \"secret\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6faf9d66.go",
+   "line": 1728,
+   "whole_line": "\tif actualSecret != secret {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6faf9d66.go",
+   "line": 1746,
+   "whole_line": "\t\tif secret != clientSecret {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6faf9d66.go",
+   "line": 1753,
+   "whole_line": "\t\tClientSecret: clientSecret,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6faf9d66.go",
+   "line": 1827,
+   "whole_line": "\t\tPassword: password,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/872aebd1.go",
+   "line": 26,
+   "whole_line": "const envKeyClientSecret = \"GITHUB_CLIENT_SECRET\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/872aebd1.go",
+   "line": 28,
+   "value": "iamnotacroken",
+   "source": "creddata"
+  },
+  {
+   "file": "test/872aebd1.go",
+   "line": 115,
+   "whole_line": "\t\tNote:        github.String(\"Personal token: Note generated by test: \" + rand),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/872aebd1.go",
+   "line": 117,
+   "whole_line": "\t\tFingerprint: github.String(\"Personal token: Fingerprint generated by test: \" + rand),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/872aebd1.go",
+   "line": 129,
+   "whole_line": "\t\tNote:         github.String(\"App token: Note generated by test: \" + rand),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/872aebd1.go",
+   "line": 131,
+   "whole_line": "\t\tFingerprint:  github.String(\"App token: Fingerprint generated by test: \" + rand),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8d4499f1.go",
+   "line": 50,
+   "whole_line": "  \"current_user_url\": \"https://github.com/defunkt.private?token=abc123\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8d4499f1.go",
+   "line": 51,
+   "whole_line": "  \"current_user_actor_url\": \"https://github.com/defunkt.private.actor?token=abc123\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8d4499f1.go",
+   "line": 54,
+   "whole_line": "    \"https://github.com/organizations/github/defunkt.private.atom?token=abc123\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8d4499f1.go",
+   "line": 70,
+   "whole_line": "      \"href\": \"https://github.com/defunkt.private?token=abc123\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8d4499f1.go",
+   "line": 74,
+   "whole_line": "      \"href\": \"https://github.com/defunkt.private.actor?token=abc123\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8d4499f1.go",
+   "line": 83,
+   "whole_line": "        \"href\": \"https://github.com/organizations/github/defunkt.private.atom?token=abc123\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8d4499f1.go",
+   "line": 94,
+   "whole_line": "\tCurrentUserURL:             String(\"https://github.com/defunkt.private?token=abc123\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8d4499f1.go",
+   "line": 95,
+   "whole_line": "\tCurrentUserActorURL:        String(\"https://github.com/defunkt.private.actor?token=abc123\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8d4499f1.go",
+   "line": 122,
+   "whole_line": "\t\t\tHRef: String(\"https://github.com/defunkt.private?token=abc123\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8d4499f1.go",
+   "line": 126,
+   "whole_line": "\t\t\tHRef: String(\"https://github.com/defunkt.private.actor?token=abc123\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8d4499f1.go",
+   "line": 135,
+   "whole_line": "\t\t\t\tHRef: String(\"https://github.com/organizations/github/defunkt.private.atom?token=abc123\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8fcb61fc.go",
+   "line": 529,
+   "whole_line": "\t\tCommitter: &CommitAuthor{Name: String(\"n\"), Email: String(\"e\")},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8fcb61fc.go",
+   "line": 584,
+   "whole_line": "\t\tCommitter: &CommitAuthor{Name: String(\"n\"), Email: String(\"e\")},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8fcb61fc.go",
+   "line": 635,
+   "whole_line": "\t\tCommitter: &CommitAuthor{Name: String(\"n\"), Email: String(\"e\")},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/900445cb.go",
+   "line": 116,
+   "whole_line": "\t\t\tKey:  String(\"key\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/900445cb.go",
+   "line": 156,
+   "whole_line": "\t\tKey:  String(\"key\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/900445cb.go",
+   "line": 195,
+   "whole_line": "\t\t\"verifiable_password_authentication\":true,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/900445cb.go",
+   "line": 211,
+   "whole_line": "\t\tfmt.Fprint(w, `{\"hooks\":[\"h\"], \"git\":[\"g\"], \"pages\":[\"p\"], \"importer\":[\"i\"], \"actions\":[\"a\"], \"dependabot\":[\"d\"], \"verifiable_password_authentication\": true}`)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/93780ddb.go",
+   "line": 33,
+   "whole_line": "\t\t\tKey:            String(\"k\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/93780ddb.go",
+   "line": 81,
+   "whole_line": "\t\tKey:            String(\"k\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/93780ddb.go",
+   "line": 127,
+   "whole_line": "\t\tKey:      String(\"mit\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/93780ddb.go",
+   "line": 162,
+   "whole_line": "\twant := &License{Key: String(\"mit\"), Name: String(\"MIT\")}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a0a21c11.go",
+   "line": 30,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"contributor_covenant\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a0a21c11.go",
+   "line": 66,
+   "whole_line": "\t\t\t\tKey:     String(\"contributor_covenant\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a0a21c11.go",
+   "line": 75,
+   "whole_line": "\t\t\t\tKey:     String(\"mit\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 26,
+   "whole_line": "\ta := &Authorization{Token: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 77,
+   "whole_line": "\tc := &CodeOfConduct{Key: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 128,
+   "whole_line": "\tc := &CommitAuthor{Email: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 138,
+   "whole_line": "\tc := &CommitAuthor{Login: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 189,
+   "whole_line": "\ti := &Import{VCSPassword: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 240,
+   "whole_line": "\ti := &InstallationToken{Token: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 291,
+   "whole_line": "\tk := &Key{Key: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 342,
+   "whole_line": "\tl := &License{Key: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 393,
+   "whole_line": "\tm := &Metric{Key: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 444,
+   "whole_line": "\tp := &PublicKey{Key: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 495,
+   "whole_line": "\tr := &RegistrationToken{Token: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 546,
+   "whole_line": "\tr := &RemoveToken{Token: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 597,
+   "whole_line": "\tu := &UserAuthorization{Token: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 648,
+   "whole_line": "\tw := &WebHookAuthor{Email: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a1b75c39.go",
+   "line": 668,
+   "whole_line": "\tw := &WebHookAuthor{Username: &zeroValue}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a826ac15.html",
+   "line": 60,
+   "whole_line": "            <!-- '\"` --><!-- </textarea></xmp> --></option></form><form action=\"/orgs/google-test/application_access\" accept-charset=\"UTF-8\" method=\"post\"><input name=\"utf8\" type=\"hidden\" value=\"&#x2713;\" /><input type=\"hidden\" name=\"_method\" value=\"put\" /><input type=\"hidden\" name=\"authenticity_token\" value=\"S2KgMWzbT4gdPkJs7vxVqfwsObkhjk+bto0ulPixFALoIG2N9rlX7UhmoSm/H6uk9VIccrTHnr7WTBOFtlTogQ==\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/5be09764.go",
+   "line": 106,
+   "whole_line": "                                       \"organization_secrets\": \"read\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/5be09764.go",
+   "line": 115,
+   "value": "read",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/5be09764.go",
+   "line": 116,
+   "value": "read",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/5be09764.go",
+   "line": 166,
+   "whole_line": "\t\t\tOrganizationSecrets:           String(\"read\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/5be09764.go",
+   "line": 175,
+   "whole_line": "\t\t\tSecrets:                       String(\"read\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/5be09764.go",
+   "line": 176,
+   "whole_line": "\t\t\tSecretScanningAlerts:          String(\"read\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/5be09764.go",
+   "line": 364,
+   "whole_line": "\twant := &InstallationToken{Token: String(\"t\")}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/5be09764.go",
+   "line": 414,
+   "whole_line": "\twant := &InstallationToken{Token: String(\"t\")}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ce38a509.go",
+   "line": 241,
+   "whole_line": "\t\t\t\"key\": \"value\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ce38a509.go",
+   "line": 285,
+   "whole_line": "\t\t\t\"key\": \"value\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dadb5caf.go",
+   "line": 62,
+   "whole_line": "\t\tToken:          String(\"\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dadb5caf.go",
+   "line": 73,
+   "value": ", TokenLastEight:",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dadb5caf.go",
+   "line": 73,
+   "value": ", App:github.AuthorizationApp{}, Note:",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dadb5caf.go",
+   "line": 584,
+   "whole_line": "\twant := `github.Import{VCSURL:\"\", VCS:\"\", VCSUsername:\"\", VCSPassword:\"\", TFVCProject:\"\", UseLFS:\"\", HasLargeFiles:false, LargeFilesSize:0, LargeFilesCount:0, Status:\"\", CommitCount:0, StatusText:\"\", AuthorsCount:0, Percent:0, PushPercent:0, URL:\"\", HTMLURL:\"\", AuthorsURL:\"\", RepositoryURL:\"\", Message:\"\", FailedStep:\"\", HumanName:\"\"}`",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dadb5caf.go",
+   "line": 611,
+   "value": ", RepositoriesURL:",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dadb5caf.go",
+   "line": 701,
+   "whole_line": "\t\tKey:       String(\"\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dadb5caf.go",
+   "line": 708,
+   "value": ", URL:",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dadb5caf.go",
+   "line": 761,
+   "whole_line": "\t\tKey:            String(\"\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/db24d3ef.go",
+   "line": 73,
+   "whole_line": "\twant := &RepositoryRelease{ID: Int64(1), Author: &User{Login: String(\"l\")}}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e61afcd3.go",
+   "line": 96,
+   "whole_line": "\t\t\"token\": \"1234\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e61afcd3.go",
+   "line": 97,
+   "whole_line": "\t\t\"hashed_token\": \"1234\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e61afcd3.go",
+   "line": 125,
+   "whole_line": "\t\tToken:          String(\"1234\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/4887442f.go",
+   "line": 47,
+   "whole_line": "\t\t\twantPublicKey: PublicKey{KeyID: nil, Key: String(\"2Sg8iYjAxxmI2LvUXpJjkYrMxURPc8r+dB7TJyvv1234\")},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/4887442f.go",
+   "line": 51,
+   "whole_line": "\t\t\tdata:          []byte(`{\"key\":123}`),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/4887442f.go",
+   "line": 52,
+   "whole_line": "\t\t\twantPublicKey: PublicKey{KeyID: nil, Key: nil},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/4887442f.go",
+   "line": 57,
+   "whole_line": "\t\t\twantPublicKey: PublicKey{KeyID: nil, Key: nil},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/4887442f.go",
+   "line": 62,
+   "whole_line": "\t\t\twantPublicKey: PublicKey{KeyID: nil, Key: nil},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/4887442f.go",
+   "line": 72,
+   "value": "2Sg8iYjAxxmI2LvUXpJjkYrMxURPc8r+dB7TJyvv1234",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f06c3458.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "8f91406e6287a296c0957b87630e3f16328cbf3039f5e4fb1398fb0623b526d2"
+  },
+  {
+   "file": "other/ab1d4a75.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "67, 111, 110, 116, 101, 110, 116, 45, 84, 121, 112, 101"
+  },
+  {
+   "file": "other/ab1d4a75.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "R0VUL2hlYWx0aHo="
+  },
+  {
+   "file": "other/ab1d4a75.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "4745542f6865616c74687a"
+  },
+  {
+   "file": "other/ab1d4a75.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "other/ab1d4a75.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "billing@quarzo-corp.de"
+  },
+  {
+   "file": "src/5b1f6c56.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:d30013f1acd945f4d535626f6d6959df09f831b03948d8c263490b5c7fe43e19"
+  },
+  {
+   "file": "src/5b1f6c56.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "d9dc2c55b69bc1a2cfed2d47a07a26ce9c2742d8"
+  },
+  {
+   "file": "src/5b1f6c56.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "src/5b1f6c56.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "localhost"
+  },
+  {
+   "file": "src/5b1f6c56.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "5.25.13"
+  },
+  {
+   "file": "_/a5498915.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "choose_this"
+  },
+  {
+   "file": "_/a5498915.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ginkgo-correctly-v2"
+  },
+  {
+   "file": "_/e02303d0.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "status.nordwind-corp.de"
+  },
+  {
+   "file": "_/e02303d0.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "docs.nordwind-corp.de"
+  },
+  {
+   "file": "_/e02303d0.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "_/e02303d0.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "_/e02303d0.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "_/e02303d0.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "_/e02303d0.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "hello@nordwind-corp.de"
+  },
+  {
+   "file": "_/e02303d0.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "dGV4dC9wbGFpbjtjaGFyc2V0PXV0Zi04"
+  },
+  {
+   "file": "_/e02303d0.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "6170706c69636174696f6e2f6a736f6e"
+  },
+  {
+   "file": "_/e02303d0.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "test/e14afefc.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "test/e14afefc.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.30.40"
+  },
+  {
+   "file": "test/e14afefc.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "74cfd17afbadd8ce03e52b90e0a43ce8692ba8b9"
+  },
+  {
+   "file": "test/e14afefc.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "fefd96e8-cb26-4585-8750-b54b0026eb54"
+  }
+ ]
+}

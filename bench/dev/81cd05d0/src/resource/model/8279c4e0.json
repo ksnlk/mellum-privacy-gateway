@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2018-05-01",
+    "endpointPrefix":"chime",
+    "protocol":"rest-json",
+    "serviceFullName":"Amazon Chime",
+    "serviceId":"Chime",
+    "signatureVersion":"v4",
+    "uid":"chime-2018-05-01"
+  },
+  "operations":{
+    "AssociatePhoneNumberWithUser":{
+      "name":"AssociatePhoneNumberWithUser",
+      "http":{
+        "method":"POST",
+        "requestUri":"/accounts/{accountId}/users/{userId}?operation=associate-phone-number",
+        "responseCode":200
+      },
+      "input":{"shape":"AssociatePhoneNumberWithUserRequest"},
+      "output":{"shape":"AssociatePhoneNumberWithUserResponse"},
+      "errors":[
+        {"shape":"UnauthorizedClientException"},
+        {"shape":"NotFoundException"},
+        {"shape":"ForbiddenException"},
+        {"shape":"BadRequestException"},
+        {"shape":"AccessDeniedException"},
+        {"shape":"ThrottledClientException"},
+        {"shape":"ServiceUnavailableException"},

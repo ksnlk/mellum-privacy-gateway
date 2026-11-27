@@ -1,0 +1,3739 @@
+{
+ "repo": "5cecf769",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "python/36e1abc4.py",
+   "line": 40,
+   "start": 99,
+   "end": 151,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "m08xn06o831i989b-IJ82U365-T460-B6Y9-3863XSPO3QL3P385"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "python/36e1abc4.py",
+   "line": 96,
+   "start": 101,
+   "end": 153,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "r39mz53b365d608o-WO12I436-C919-F1L1-8939LDBE1AX3L225"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/util/107fec60.py",
+   "line": 342,
+   "start": 51,
+   "end": 61,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "itxey_73x8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "tool/docker/build/5b7a6b96.04",
+   "line": 14,
+   "start": 22,
+   "end": 86,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "ab1b5fd2f83a0c91abba4aa372e3f8398b738f50d18f056743c7fd381784eaf9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "tool/docker/build/5b7a6b96.04",
+   "line": 16,
+   "start": 22,
+   "end": 62,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "2f78683812cb9fe5dd43f0516db216266c8039a1"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "tool/docker/build/87814206.04",
+   "line": 11,
+   "start": 16,
+   "end": 80,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "06eba4248daf26b4ce12dd53859cbfe77c4410c3d5e9b53800b2d1cd66b093e6"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "tool/docker/build/87814206.04",
+   "line": 12,
+   "start": 17,
+   "end": 57,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "38a8090d0aa0c4fd97bd35875e2879401860432f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "src/3026f619.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.9wRYD18SoQ0xh9UcPMmybk0nBsi5BTNRg3y_fTWs.xRrW2t040FmdUH1aocYfvCExYdgTfv1coT0mzrgFien"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/3026f619.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-prod.mzdllsladpfk.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/496148c8.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "79, 73, 71, 79, 89, 72, 50, 83, 109, 65, 105, 103, 51, 117, 55, 68, 74, 113, 113, 110, 49, 54, 105, 68, 112, 119, 98, 83, 119, 71, 74, 86",
+    "OIGOYH2SmAig3u7DJqqn16iDpwbSwGJV"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/496148c8.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "laura.neumann@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/7232edea.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports.m4pu8x.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/7232edea.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "XvT4C9khia3sqYxYrWdndWTmShuaVkuQ"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/1f8ebe0c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lina Koch"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/1f8ebe0c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sarah.klein@nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/1f8ebe0c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 3867 6992"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/1f8ebe0c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.31.142.196"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/1f8ebe0c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "aten_linden_ged"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/2ded7919.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-prod.ugxhu7c0y6lq.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/2ded7919.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "ZGVwbG95OtGA0LXQutCwMTk4NCE=",
+    "deploy:\u0440\u0435\u043a\u04301984!"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/2ded7919.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "3ow1phdt8kkcc794s5rbit9yxcvgy716"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/13c0fa7a.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "YXJjaGVyLXBhdC1oYW1idXJnLXBhdGNoZXI=",
+    "archer-pat-hamburg-patcher"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "_/13c0fa7a.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9XYzc5cGk4TlV1YldXS0dyTjNkUU9VejE=",
+    "sk_live_Wc79pi8NUubWWKGrN3dQOUz1"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "_/13c0fa7a.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.xr49cmowjm4p.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.acme-ops.io"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.acme-ops.io"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.acme-ops.io"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.86.141.0/24"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.86.141.118"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.acme-ops.io"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.acme-ops.io"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.acme-ops.io"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.acme-ops.io"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.86.141.171"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.acme-ops.io"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jonas Mueller"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jonas.mueller@gmail.com"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 8327637"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Paul Hoffmann"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "paul.hoffmann@web.de"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 9844441"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/23d5b1c2.cc",
+   "line": 957,
+   "whole_line": "        &body, \"  auto _\", api_def_arg.rename_to(), \" = ::tensorflow::ops::\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/23d5b1c2.cc",
+   "line": 1159,
+   "whole_line": "    const auto* api_def = api_def_map.GetApiDef(graph_op_def.name());",
+   "source": "creddata"
+  },
+  {
+   "file": "_/272a44f9.md",
+   "line": 206,
+   "whole_line": "src=\"https://www.youtube.com/embed/kAOanJczHA0?origin=https%3A%2F%2Fwww.tensorflow.org&amp;autohide=1&amp;showinfo=0&amp;video-id=kAOanJczHA0&amp;enablejsapi=1&amp;widgetid=1\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/2b1b6930.md",
+   "line": 26,
+   "whole_line": "*   API Changes: Many API symbols have been renamed or removed, and argument",
+   "source": "creddata"
+  },
+  {
+   "file": "_/2b1b6930.md",
+   "line": 77,
+   "whole_line": "* C API: Graph imports now support input remapping, control dependencies, and returning imported nodes (see `TF_GraphImportGraphDefWithReturnOutputs()`)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/2b1b6930.md",
+   "line": 128,
+   "value": "IsLegacyScalar",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46eda383.cc",
+   "line": 61,
+   "whole_line": "constexpr char kTFAPIImplements[] = \"tf.api_implements\";",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46eda383.cc",
+   "line": 62,
+   "value": "tftext:",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46eda383.cc",
+   "line": 241,
+   "whole_line": "void PrepareCompositeFunctionsPass::ConvertTFImplements(FuncOp func,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46eda383.cc",
+   "line": 287,
+   "whole_line": "void PrepareCompositeFunctionsPass::ConvertTFImplementsWithAttributes(",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46eda383.cc",
+   "line": 311,
+   "whole_line": "void PrepareCompositeFunctionsPass::ConvertTFAPIImplements(FuncOp func,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/46eda383.cc",
+   "line": 330,
+   "whole_line": "void PrepareCompositeFunctionsPass::runOnOperation() {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a500fc4.cc",
+   "line": 26,
+   "whole_line": "// %data_and_token = \"mhlo.infeed\"(%token) {infeed_config = \"\"} :",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a500fc4.cc",
+   "line": 46,
+   "whole_line": "    TfTpu_ExecutorApiFn *executor = tensorflow::tpu::ExecutorApiFn();",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5a500fc4.cc",
+   "line": 97,
+   "whole_line": "// %outfeed_token = \"mhlo.outfeed\"(%tuple, %token) {outfeed_config = \"\"} :",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f4c5f52.cc",
+   "line": 66,
+   "whole_line": "constexpr char kBucketMetadataLocationKey[] = \"location\";",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f4c5f52.cc",
+   "line": 123,
+   "whole_line": "// The environment variable to configure the token bucket size (format: <int64>)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f4c5f52.cc",
+   "line": 128,
+   "whole_line": "// The environment variable to configure the initial tokens (format: <int64>)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f4c5f52.cc",
+   "line": 1775,
+   "whole_line": "    const auto token = root.get(\"nextPageToken\", Json::Value::null);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5f4c5f52.cc",
+   "line": 2090,
+   "whole_line": "  auth_provider_ = std::move(auth_provider);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6fc8785e.cc",
+   "line": 26,
+   "whole_line": "    APInt base_rounding_bias = last_mantissa_bit_mask.lshr(1) - 1;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6fc8785e.cc",
+   "line": 72,
+   "whole_line": "    APInt reduced_max_exponent = exponent_bias + reduced_exponent_bias;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6fc8785e.cc",
+   "line": 73,
+   "whole_line": "    APInt reduced_min_exponent = exponent_bias - reduced_exponent_bias;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7e9b6c00.bzl",
+   "line": 26,
+   "whole_line": "        # default. We can't pass /EHs-c- to disable exception, otherwise",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7e9b6c00.bzl",
+   "line": 48,
+   "whole_line": "    # to be used, pass android_optimization_level_override=None",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7e9b6c00.bzl",
+   "line": 99,
+   "whole_line": "            api_def_srcs = api_def_srcs,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7e9b6c00.bzl",
+   "line": 150,
+   "whole_line": "    \"\"\"Convert a dictionary to a space-joined list of key=value pairs.\"\"\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/84ce6a8c.cc",
+   "line": 264,
+   "whole_line": "    .Input(\"stamp_token: int64\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/84ce6a8c.cc",
+   "line": 276,
+   "whole_line": "    .Input(\"stamp_token: int64\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/84ce6a8c.cc",
+   "line": 288,
+   "whole_line": "    .Output(\"stamp_token: int64\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/84ce6a8c.cc",
+   "line": 512,
+   "whole_line": "    .Output(\"stamp_token: int64\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a17a2354.cc",
+   "line": 1628,
+   "whole_line": "constexpr char kApiImplements[] = \"api_implements\";",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c568be6d.md",
+   "line": 191,
+   "whole_line": "  --nnapi_accelerator_name=google-edgetpu",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d2c4b1ed.cc",
+   "line": 26,
+   "whole_line": "    nnapi_ = nnapi;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d2c4b1ed.cc",
+   "line": 77,
+   "whole_line": "                             \"type for provided NN API type: %d.\\n\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d658037a.cc",
+   "line": 353,
+   "whole_line": "  gpu_info->gpu_api = gpu_api;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e323ea04.h",
+   "line": 63,
+   "whole_line": "constexpr char kNNAPIAccelerator[] = \"tflite.nnapi_accelerator\";",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e8f28517.td",
+   "line": 26,
+   "whole_line": "  TF_DerivedOperandSizeAttr Nordering_token = TF_DerivedOperandSizeAttr<4>;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e8f28517.td",
+   "line": 77,
+   "value": "TF_DerivedOperandTypeAttr<1>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e8f28517.td",
+   "line": 128,
+   "value": "TF_Op<",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e8f28517.td",
+   "line": 179,
+   "value": "TF_DerivedOperandTypeAttr<0>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e8f28517.td",
+   "line": 230,
+   "value": "TF_Op<",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e8f28517.td",
+   "line": 251,
+   "value": "TF_Op<",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e8f28517.td",
+   "line": 302,
+   "value": "TF_Op<",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e8f28517.td",
+   "line": 353,
+   "value": "TF_Op<",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ea86160c.cc",
+   "line": 157,
+   "whole_line": "    xla::XlaOp token = xla::AfterAll(b, input_tokens);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ea86160c.cc",
+   "line": 238,
+   "whole_line": "      const auto result_token_tuple = xla::RecvFromHost(",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ea86160c.cc",
+   "line": 246,
+   "value": "output.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ea86160c.cc",
+   "line": 317,
+   "whole_line": "        const AttrValue* key_attr = node->attrs().Find(\"key\");",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ea86160c.cc",
+   "line": 429,
+   "whole_line": "    xla::XlaOp token = xla::AfterAll(b, input_tokens);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ea86160c.cc",
+   "line": 485,
+   "whole_line": "    xla::XlaOp token = xla::AfterAll(b, input_tokens);",
+   "source": "creddata"
+  },
+  {
+   "file": "api/0ee05b03.cc",
+   "line": 35,
+   "whole_line": "constexpr char kApiDefFileFormat[] = \"api_def_%s.pbtxt\";",
+   "source": "creddata"
+  },
+  {
+   "file": "api/0ee05b03.cc",
+   "line": 46,
+   "whole_line": "      auto* api_def_in_arg = api_def->add_in_arg();",
+   "source": "creddata"
+  },
+  {
+   "file": "api/0ee05b03.cc",
+   "line": 53,
+   "whole_line": "      auto* api_def_out_arg = api_def->add_out_arg();",
+   "source": "creddata"
+  },
+  {
+   "file": "api/0ee05b03.cc",
+   "line": 61,
+   "whole_line": "      auto* api_def_attr = api_def->add_attr();",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/78341f64",
+   "line": 31,
+   "whole_line": "    actual = \"//tensorflow/core/api_def/base_api:base_api_def\",",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/78341f64",
+   "line": 37,
+   "whole_line": "    actual = \"//tensorflow/core/api_def/python_api:python_api_def\",",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/python/7d289a75",
+   "line": 4,
+   "whole_line": "load(\"//tensorflow/python/tools/api/generator:api_gen.bzl\", \"gen_api_init_files\")",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/python/7d289a75",
+   "line": 122,
+   "whole_line": "    api_name = \"keras\",",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/python/7d289a75",
+   "line": 135,
+   "whole_line": "    api_name = \"keras\",",
+   "source": "creddata"
+  },
+  {
+   "file": "api/build/python/7d289a75",
+   "line": 149,
+   "whole_line": "    api_name = \"keras\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/24d66e24.bazel",
+   "line": 159,
+   "value": "#define HWLOC_HAVE_X11_KEYSYM 1",
+   "source": "creddata"
+  },
+  {
+   "file": "build/24d66e24.bazel",
+   "line": 200,
+   "whole_line": "    \"#undef HAVE_CUDA_RUNTIME_API_H\": \"#undef HAVE_CUDA_RUNTIME_API_H 1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/4f939590",
+   "line": 21,
+   "whole_line": "    \"//tensorflow/python/tools/api/generator:api_gen.bzl\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/4f939590",
+   "line": 1198,
+   "value": ":tf_python_api_gen_v2",
+   "source": "creddata"
+  },
+  {
+   "file": "build/4f939590",
+   "line": 1203,
+   "value": "cp $(@D)/_api/v2/v2.py $(OUTS) && sed -i'.original' 's:from . import:from ._api.v2 import:g' $(OUTS)",
+   "source": "creddata"
+  },
+  {
+   "file": "build/4f939590",
+   "line": 1211,
+   "value": ":virtual_root_template_v2.__init__.py",
+   "source": "creddata"
+  },
+  {
+   "file": "build/4f939590",
+   "line": 1280,
+   "value": ":tf_python_api_gen_v2",
+   "source": "creddata"
+  },
+  {
+   "file": "build/4f939590",
+   "line": 1284,
+   "whole_line": "        \"//tensorflow/python/keras/api:keras_python_api_gen\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/4f939590",
+   "line": 1285,
+   "whole_line": "        \"//tensorflow/python/keras/api:keras_python_api_gen_compat_v1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/4f939590",
+   "line": 1286,
+   "whole_line": "        \"//tensorflow/python/keras/api:keras_python_api_gen_compat_v2\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 39,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_implementation\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 40,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_lib\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 41,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_util\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 76,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_implementation\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 77,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_lib\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 78,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_util\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 123,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_implementation\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 124,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_lib\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 147,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_implementation\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 148,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_lib\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 170,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_implementation\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 171,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_lib\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 194,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_implementation\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 195,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_lib\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 218,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_implementation\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 219,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_lib\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 243,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_implementation\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/97683ebc",
+   "line": 244,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_lib\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/b0666d81",
+   "line": 21,
+   "whole_line": "        \"@com_google_googleapis//google/monitoring/v3:monitoring_cc_grpc\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/b0666d81",
+   "line": 29,
+   "value": "monitoring_cc_proto_headers_only",
+   "source": "creddata"
+  },
+  {
+   "file": "build/b0666d81",
+   "line": 37,
+   "value": "monitoring_cc_proto",
+   "source": "creddata"
+  },
+  {
+   "file": "build/c8c46098",
+   "line": 79,
+   "whole_line": "        \"//tensorflow/lite/core/api:verifier\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/c8c46098",
+   "line": 119,
+   "whole_line": "        \"//tensorflow/lite/core/api:verifier\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/c8c46098",
+   "line": 155,
+   "whole_line": "        \"//tensorflow/lite/core/api:verifier\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/c8c46098",
+   "line": 185,
+   "whole_line": "        \"//tensorflow/lite/core/api:verifier\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/6662d694",
+   "line": 26,
+   "whole_line": "        \"//tensorflow/python/tools/api/generator:__pkg__\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/6662d694",
+   "line": 27,
+   "whole_line": "        \"//tensorflow/tools/api/tests:__pkg__\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/6662d694",
+   "line": 49,
+   "value": "__pkg__",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/6662d694",
+   "line": 50,
+   "value": "__pkg__",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/6662d694",
+   "line": 101,
+   "value": "__pkg__",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/9b37f900.bzl",
+   "line": 32,
+   "whole_line": "            \"//tensorflow/core/api_def:base_api_def\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/9b37f900.bzl",
+   "line": 33,
+   "whole_line": "            \"//tensorflow/core/api_def:python_api_def\",",
+   "source": "creddata"
+  },
+  {
+   "file": "build/python/b411d539",
+   "line": 15,
+   "whole_line": "        \"//tensorflow/python/keras/google/private_tf_api_test:__pkg__\",",
+   "source": "creddata"
+  },
+  {
+   "file": "include/fc0a0c43.td",
+   "line": 116,
+   "value": "HLO_Op<",
+   "source": "creddata"
+  },
+  {
+   "file": "include/fc0a0c43.td",
+   "line": 125,
+   "whole_line": "  let results = (outs HLO_Token:$output);",
+   "source": "creddata"
+  },
+  {
+   "file": "include/fc0a0c43.td",
+   "line": 704,
+   "whole_line": "    HLO_Token:$token,",
+   "source": "creddata"
+  },
+  {
+   "file": "include/fc0a0c43.td",
+   "line": 728,
+   "whole_line": "    HLO_Token:$token,",
+   "source": "creddata"
+  },
+  {
+   "file": "include/fc0a0c43.td",
+   "line": 751,
+   "whole_line": "    HLO_Token:$token,",
+   "source": "creddata"
+  },
+  {
+   "file": "include/fc0a0c43.td",
+   "line": 776,
+   "whole_line": "    HLO_Token:$token,",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/client/python/2a0f4e2b.c",
+   "line": 45,
+   "whole_line": "  char* api_path = \"libtpu.so\";",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2cde3399.h",
+   "line": 70,
+   "whole_line": "//        api_implements='plus_one',",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2cde3399.h",
+   "line": 75,
+   "whole_line": "//        api_implements='plus_one')",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2cde3399.h",
+   "line": 92,
+   "whole_line": "//  - api_preferred_device(string): sets which device is preferred.",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2cde3399.h",
+   "line": 148,
+   "whole_line": "  //     key: \"device_names\"",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2cde3399.h",
+   "line": 171,
+   "whole_line": "  //    key: \"dtype\"",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/2cde3399.h",
+   "line": 177,
+   "whole_line": "  //    key: \"value\"",
+   "source": "creddata"
+  },
+  {
+   "file": "python/38fedfec.cc",
+   "line": 120,
+   "whole_line": "    for (const auto& api_def_dir : api_def_dirs) {",
+   "source": "creddata"
+  },
+  {
+   "file": "python/3ec31026.py",
+   "line": 1351,
+   "whole_line": "                                      api_name='keras',",
+   "source": "creddata"
+  },
+  {
+   "file": "python/3ec31026.py",
+   "line": 1766,
+   "whole_line": "                                      api_name='keras',",
+   "source": "creddata"
+  },
+  {
+   "file": "python/ae72d729.py",
+   "line": 46,
+   "whole_line": "_FUNCTION_API_NAME_ATTRIBUTE = 'api_implements'",
+   "source": "creddata"
+  },
+  {
+   "file": "python/ae72d729.py",
+   "line": 820,
+   "whole_line": "    api_name = 'gru_' + str(uuid.uuid4())",
+   "source": "creddata"
+  },
+  {
+   "file": "python/ae72d729.py",
+   "line": 1647,
+   "whole_line": "    api_name = 'lstm_' + str(uuid.uuid4())",
+   "source": "creddata"
+  },
+  {
+   "file": "python/e09019c6.py",
+   "line": 50,
+   "whole_line": "_DEFUN_API_NAME_ATTRIBUTE = \"api_implements\"",
+   "source": "creddata"
+  },
+  {
+   "file": "python/e09019c6.py",
+   "line": 950,
+   "whole_line": "      api_name = \"ctc_loss_\" + str(uuid.uuid4())",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3184cf27.cc",
+   "line": 518,
+   "whole_line": "  if (api_def.visibility() == ApiDef::SKIP) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3184cf27.cc",
+   "line": 537,
+   "whole_line": "      for (const auto& api_def_dir : api_dirs_) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3184cf27.cc",
+   "line": 549,
+   "whole_line": "    const ApiDef* api_def = api_map.GetApiDef(op_def.name());",
+   "source": "creddata"
+  },
+  {
+   "file": "test/12add26b.cc",
+   "line": 63,
+   "whole_line": "  old_benchmark_api_ = old_benchmark_api;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/12add26b.cc",
+   "line": 186,
+   "whole_line": "    for (const string& key : outputs) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/12add26b.cc",
+   "line": 204,
+   "whole_line": "    for (const string& key : outputs) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5c6c66ab.mlir",
+   "line": 627,
+   "whole_line": "// CHECK:  ROOT %[[RESULT:.*]] = ((s32[3,3], pred[]), token[]) infeed(token[] [[ARG]]), infeed_config=\"foobar\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5c6c66ab.mlir",
+   "line": 671,
+   "whole_line": "  %0 = \"mhlo.outfeed\"(%data, %token) {outfeed_config = \"foobar\"} : (tensor<3xi32>, !mhlo.token) -> !mhlo.token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/724f0a84.json",
+   "line": 4,
+   "value": "fake_key_id",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 26,
+   "whole_line": "    *token = \"fake_token\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 43,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 49,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 90,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 96,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 138,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 145,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 188,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 194,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 236,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 282,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 288,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 324,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 330,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 372,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 378,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 418,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 445,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 453,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 461,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 502,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 532,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 538,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 581,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 587,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 593,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 599,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 650,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 656,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 663,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 669,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 709,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 714,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 719,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 770,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 776,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 783,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 789,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 840,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 846,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 883,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 889,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 896,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 902,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 910,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 916,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 964,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 970,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 976,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 983,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 989,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 996,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1002,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1009,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1042,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1048,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1055,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1061,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1067,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1075,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1081,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1129,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1135,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1143,
+   "whole_line": "                            \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1151,
+   "whole_line": "        \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1162,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1169,
+   "whole_line": "                          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1211,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1217,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1228,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1234,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1285,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1291,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1297,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1304,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1310,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1318,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1324,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1375,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1382,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1408,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1416,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1462,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1485,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1490,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path%2Fsubfolder%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1492,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1514,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1519,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1542,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1547,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path%2Ffile1.txt%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1549,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1571,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1576,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1600,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1607,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1614,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1641,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1665,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1690,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1719,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1747,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1774,
+   "whole_line": "      \"fields=items%2Fname%2Cprefixes%2CnextPageToken&delimiter=%2F\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1775,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1800,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1824,
+   "whole_line": "           \"fields=items%2Fname%2Cprefixes%2CnextPageToken&delimiter=%2F&\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1826,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1835,
+   "whole_line": "           \"fields=items%2Fname%2Cprefixes%2CnextPageToken&delimiter=%2F&\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1837,
+   "whole_line": "           \"&pageToken=ABCD==\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1838,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1866,
+   "whole_line": "      \"fields=items%2Fname%2CnextPageToken&prefix=path%2Fsubpath%2F\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1867,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1893,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1921,
+   "whole_line": "      \"fields=items%2Fname%2CnextPageToken&prefix=path%2F\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1922,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1949,
+   "value": "path%2F\\n",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1950,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1974,
+   "value": "path%2F\\n",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1975,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 1999,
+   "value": "path%2F\\n",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2000,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2024,
+   "value": "path%2F\\n",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2025,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2070,
+   "value": "path%2Fsubpath%2F\\n",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2071,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2078,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2115,
+   "value": "path%2Fsubpath%2F\\n",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2116,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2122,
+   "value": "path%2Fsubpath%2F\\n",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2123,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2162,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2168,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2174,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2181,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2187,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2238,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2244,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2251,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2256,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=file.txt%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2258,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2289,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2311,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2317,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2338,
+   "whole_line": "      \"name%2CnextPageToken&maxResults=2\\nAuth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2359,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2382,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2425,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path1%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2427,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2434,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path1%2F\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2435,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2445,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2453,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2462,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2470,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2478,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2486,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2510,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2516,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2523,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2529,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2536,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path%2Fsrc.txt%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2538,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2545,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2553,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2560,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2566,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2573,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2579,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2623,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2630,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path%2Fsrc.txt%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2632,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2639,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2647,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2655,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2662,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2698,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path%2Fsrc.txt%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2700,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2707,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2715,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2723,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2731,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2756,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path%2Fsrc.txt%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2758,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2765,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2773,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2798,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2825,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2832,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2859,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2864,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2866,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2888,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2912,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2936,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2943,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2950,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2985,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 2992,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3029,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3054,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=file.txt%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3056,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3062,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3084,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=file.txt%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3086,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3092,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3117,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3124,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3146,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3151,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3172,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3198,
+   "whole_line": "              \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3205,
+   "whole_line": "              \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3213,
+   "whole_line": "              \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3221,
+   "whole_line": "              \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3228,
+   "whole_line": "              \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3259,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3264,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3287,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3289,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3296,
+   "value": "path%2F\\n",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3297,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3307,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3314,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3321,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3328,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3335,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3362,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3364,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3371,
+   "value": "path%2F\\n",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3372,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3382,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3389,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3396,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path%2Fsubpath%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3398,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3405,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3412,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3419,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path%2Ffile3.txt%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3421,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3428,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3455,
+   "whole_line": "           \"fields=items%2Fname%2CnextPageToken&prefix=path%2F\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3457,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3464,
+   "whole_line": "           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3515,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3566,
+   "whole_line": "                           \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3617,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3644,
+   "whole_line": "      \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3687,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3694,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3702,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3709,
+   "whole_line": "                          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3721,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3731,
+   "whole_line": "                          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3742,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3750,
+   "whole_line": "                          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3763,
+   "whole_line": "                          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3771,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3778,
+   "whole_line": "                          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3789,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3796,
+   "whole_line": "                          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3809,
+   "whole_line": "                          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3845,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3851,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3858,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3866,
+   "whole_line": "                          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3876,
+   "whole_line": "                          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3887,
+   "whole_line": "                          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3896,
+   "whole_line": "          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/82b4ec02.cc",
+   "line": 3904,
+   "whole_line": "                          \"Auth Token: fake_token\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/e40b8304.cc",
+   "line": 44,
+   "whole_line": "constexpr char kApiDefFilePattern[] = \"api_def_*.pbtxt\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/e40b8304.cc",
+   "line": 84,
+   "whole_line": "  for (const auto& name_and_api_def : api_defs_map) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/e40b8304.cc",
+   "line": 94,
+   "whole_line": "    const auto api_def_iter = api_defs_map.find(op.name());",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/e40b8304.cc",
+   "line": 99,
+   "whole_line": "    for (const auto& api_def_arg : api_def.in_arg()) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/e40b8304.cc",
+   "line": 118,
+   "whole_line": "    const auto api_def_iter = api_defs_map.find(op.name());",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/e40b8304.cc",
+   "line": 123,
+   "whole_line": "    for (const auto& api_def_arg : api_def.out_arg()) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/e40b8304.cc",
+   "line": 142,
+   "whole_line": "    const auto api_def_iter = api_defs_map.find(op.name());",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/e40b8304.cc",
+   "line": 147,
+   "whole_line": "    for (const auto& api_def_attr : api_def.attr()) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/e40b8304.cc",
+   "line": 163,
+   "whole_line": "  for (const auto& name_and_api_def : api_defs_map) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/e40b8304.cc",
+   "line": 190,
+   "whole_line": "  for (const auto& name_and_api_def : api_defs_map) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/build/38325f6f",
+   "line": 347,
+   "whole_line": "        \"//tensorflow/lite/nnapi:nnapi_implementation\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 181,
+   "whole_line": "func @inference_standard_lstm_time_major(%arg0: tensor<?x8x8xf32>, %arg1: tensor<8x10xf32>, %arg2: tensor<8x10xf32>, %arg3: tensor<8x40xf32>, %arg4: tensor<10x40xf32>, %arg5: tensor<40xf32>) -> (tensor<8x10xf32>, tensor<?x8x10xf32>, tensor<8x10xf32>, tensor<8x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: false\", \"tfshape$unknown_rank: false\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = false, tf.time_major = true} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 192,
+   "whole_line": "// CHECK:       func @inference_standard_lstm_time_major([[VAL_0:%.*]]: tensor<?x8x8xf32>, [[VAL_1:%.*]]: tensor<8x10xf32>, [[VAL_2:%.*]]: tensor<8x10xf32>, [[VAL_3:%.*]]: tensor<8x40xf32>, [[VAL_4:%.*]]: tensor<10x40xf32>, [[VAL_5:%.*]]: tensor<40xf32>) -> (tensor<8x10xf32>, tensor<?x8x10xf32>, tensor<8x10xf32>, tensor<8x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: false\", \"tfshape$unknown_rank: false\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = false, tf.time_major = true} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 222,
+   "whole_line": "func @inference_standard_lstm_non_time_major(%arg0: tensor<8x8x8xf32>, %arg1: tensor<8x10xf32>, %arg2: tensor<8x10xf32>, %arg3: tensor<8x40xf32>, %arg4: tensor<10x40xf32>, %arg5: tensor<40xf32>) -> (tensor<8x10xf32>, tensor<8x8x10xf32>, tensor<8x10xf32>, tensor<8x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: false\", \"tfshape$unknown_rank: false\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = false, tf.time_major = false} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 233,
+   "whole_line": "// CHECK:       func @inference_standard_lstm_non_time_major([[VAL_0:%.*]]: tensor<8x8x8xf32>, [[VAL_1:%.*]]: tensor<8x10xf32>, [[VAL_2:%.*]]: tensor<8x10xf32>, [[VAL_3:%.*]]: tensor<8x40xf32>, [[VAL_4:%.*]]: tensor<10x40xf32>, [[VAL_5:%.*]]: tensor<40xf32>) -> (tensor<8x10xf32>, tensor<8x8x10xf32>, tensor<8x10xf32>, tensor<8x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: false\", \"tfshape$unknown_rank: false\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = false, tf.time_major = false} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 264,
+   "whole_line": "func @inference_standard_lstm_time_major_go_backwards(%arg0: tensor<?x8x8xf32>, %arg1: tensor<8x10xf32>, %arg2: tensor<8x10xf32>, %arg3: tensor<8x40xf32>, %arg4: tensor<10x40xf32>, %arg5: tensor<40xf32>) -> (tensor<8x10xf32>, tensor<?x8x10xf32>, tensor<8x10xf32>, tensor<8x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: false\", \"tfshape$unknown_rank: false\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = true, tf.time_major = true} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 275,
+   "whole_line": "// CHECK:       func @inference_standard_lstm_time_major_go_backwards([[VAL_0:%.*]]: tensor<?x8x8xf32>, [[VAL_1:%.*]]: tensor<8x10xf32>, [[VAL_2:%.*]]: tensor<8x10xf32>, [[VAL_3:%.*]]: tensor<8x40xf32>, [[VAL_4:%.*]]: tensor<10x40xf32>, [[VAL_5:%.*]]: tensor<40xf32>) -> (tensor<8x10xf32>, tensor<?x8x10xf32>, tensor<8x10xf32>, tensor<8x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: false\", \"tfshape$unknown_rank: false\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = true, tf.time_major = true} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 308,
+   "whole_line": "func @inference_standard_lstm_non_time_major_go_backwards(%arg0: tensor<8x8x8xf32>, %arg1: tensor<8x10xf32>, %arg2: tensor<8x10xf32>, %arg3: tensor<8x40xf32>, %arg4: tensor<10x40xf32>, %arg5: tensor<40xf32>) -> (tensor<8x10xf32>, tensor<8x8x10xf32>, tensor<8x10xf32>, tensor<8x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: false\", \"tfshape$unknown_rank: false\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = true, tf.time_major = false} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 319,
+   "whole_line": "// CHECK:       func @inference_standard_lstm_non_time_major_go_backwards([[VAL_0:%.*]]: tensor<8x8x8xf32>, [[VAL_1:%.*]]: tensor<8x10xf32>, [[VAL_2:%.*]]: tensor<8x10xf32>, [[VAL_3:%.*]]: tensor<8x40xf32>, [[VAL_4:%.*]]: tensor<10x40xf32>, [[VAL_5:%.*]]: tensor<40xf32>) -> (tensor<8x10xf32>, tensor<8x8x10xf32>, tensor<8x10xf32>, tensor<8x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: false\", \"tfshape$unknown_rank: false\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = true, tf.time_major = false} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 359,
+   "whole_line": "func @inference_standard_lstm_time_major_can_fuse(%arg0: tensor<?x8x8xf32>, %arg1: tensor<8x10xf32>, %arg2: tensor<8x10xf32>, %arg3: tensor<8x40xf32>, %arg4: tensor<10x40xf32>, %arg5: tensor<40xf32>) -> (tensor<8x10xf32>, tensor<?x8x10xf32>, tensor<8x10xf32>, tensor<8x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: false\", \"tfshape$unknown_rank: false\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = false, tf.time_major = true} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 370,
+   "whole_line": "// CHECK:       func @inference_standard_lstm_time_major_can_fuse([[VAL_0:%.*]]: tensor<?x8x8xf32>, [[VAL_1:%.*]]: tensor<8x10xf32>, [[VAL_2:%.*]]: tensor<8x10xf32>, [[VAL_3:%.*]]: tensor<8x40xf32>, [[VAL_4:%.*]]: tensor<10x40xf32>, [[VAL_5:%.*]]: tensor<40xf32>) -> (tensor<8x10xf32>, tensor<?x8x10xf32>, tensor<8x10xf32>, tensor<8x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: false\", \"tfshape$unknown_rank: false\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = false, tf.time_major = true} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 408,
+   "whole_line": "func @inference_standard_lstm_time_major_can_fuse_last_output(%arg0: tensor<?x8x8xf32>, %arg1: tensor<8x10xf32>, %arg2: tensor<8x10xf32>, %arg3: tensor<8x40xf32>, %arg4: tensor<10x40xf32>, %arg5: tensor<40xf32>) -> (tensor<8x10xf32>, tensor<?x8x10xf32>, tensor<8x10xf32>, tensor<8x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: false\", \"tfshape$unknown_rank: false\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = false, tf.time_major = true} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 420,
+   "whole_line": "// CHECK:       func @inference_standard_lstm_time_major_can_fuse_last_output([[VAL_0:%.*]]: tensor<?x8x8xf32>, [[VAL_1:%.*]]: tensor<8x10xf32>, [[VAL_2:%.*]]: tensor<8x10xf32>, [[VAL_3:%.*]]: tensor<8x40xf32>, [[VAL_4:%.*]]: tensor<10x40xf32>, [[VAL_5:%.*]]: tensor<40xf32>) -> (tensor<8x10xf32>, tensor<?x8x10xf32>, tensor<8x10xf32>, tensor<8x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$dim { size: 8 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: false\", \"tfshape$unknown_rank: false\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = false, tf.time_major = true} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 458,
+   "whole_line": "func @inference_standard_lstm_time_major_cannot_fuse(%arg0: tensor<?x8x8xf32>, %arg1: tensor<?x10xf32>, %arg2: tensor<?x10xf32>, %arg3: tensor<8x40xf32>, %arg4: tensor<10x40xf32>, %arg5: tensor<40xf32>) -> (tensor<?x10xf32>, tensor<?x8x10xf32>, tensor<?x10xf32>, tensor<?x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: -1 } dim { size: 10 }\", \"tfshape$dim { size: -1 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: true\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = false, tf.time_major = true} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 469,
+   "whole_line": "// CHECK:        func @inference_standard_lstm_time_major_cannot_fuse([[VAL_0:%.*]]: tensor<?x8x8xf32>, [[VAL_1:%.*]]: tensor<?x10xf32>, [[VAL_2:%.*]]: tensor<?x10xf32>, [[VAL_3:%.*]]: tensor<8x40xf32>, [[VAL_4:%.*]]: tensor<10x40xf32>, [[VAL_5:%.*]]: tensor<40xf32>) -> (tensor<?x10xf32>, tensor<?x8x10xf32>, tensor<?x10xf32>, tensor<?x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: -1 } dim { size: 10 }\", \"tfshape$dim { size: -1 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: true\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = false, tf.time_major = true} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 485,
+   "whole_line": "func @dynamic_shape_non_fuse_standard_lstm(%arg0: tensor<?x8x8xf32>, %arg1: tensor<?x10xf32>, %arg2: tensor<?x10xf32>, %arg3: tensor<8x40xf32>, %arg4: tensor<10x40xf32>, %arg5: tensor<40xf32>) -> (tensor<?x10xf32>, tensor<?x8x10xf32>, tensor<?x10xf32>, tensor<?x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: -1 } dim { size: 10 }\", \"tfshape$dim { size: -1 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: true\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = false, tf.time_major = true} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 496,
+   "whole_line": "// CHECK: func @dynamic_shape_non_fuse_standard_lstm(%[[VAL_0:.*]]: tensor<?x8x8xf32>, %[[VAL_1:.*]]: tensor<?x10xf32>, %[[VAL_2:.*]]: tensor<?x10xf32>, %[[VAL_3:.*]]: tensor<8x40xf32>, %[[VAL_4:.*]]: tensor<10x40xf32>, %[[VAL_5:.*]]: tensor<40xf32>) -> (tensor<?x10xf32>, tensor<?x8x10xf32>, tensor<?x10xf32>, tensor<?x10xf32>, tensor<f32>) attributes {tf._input_shapes = [\"tfshape$dim { size: -1 } dim { size: 8 } dim { size: 8 }\", \"tfshape$dim { size: -1 } dim { size: 10 }\", \"tfshape$dim { size: -1 } dim { size: 10 }\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: true\", \"tfshape$unknown_rank: true\"], tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\", tf.api_preferred_device = \"CPU\", tf.go_backwards = false, tf.time_major = true} {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c5f4d977.mlir",
+   "line": 541,
+   "whole_line": "func private @some_func(%arg0: tensor<100xf32>) -> tensor<100xf32> attributes {tf.api_implements = \"lstm_b4e9f0e7-ac55-42bc-8ef2-8496419a608c\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cb234c84.cc",
+   "line": 189,
+   "value": "(graph_op_name: ",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cb234c84.cc",
+   "line": 217,
+   "whole_line": "  const auto* api_def = api_map.GetApiDef(\"testop\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cb234c84.cc",
+   "line": 255,
+   "whole_line": "  const auto* api_def = api_map.GetApiDef(\"testop\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cb234c84.cc",
+   "line": 260,
+   "whole_line": "  *api_defs.add_op() = *api_def;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cb234c84.cc",
+   "line": 287,
+   "whole_line": "  auto* api_def = api_map.GetApiDef(\"testop\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cb234c84.cc",
+   "line": 315,
+   "whole_line": "  auto* api_def = api_map.GetApiDef(\"testop\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cb234c84.cc",
+   "line": 346,
+   "whole_line": "  const auto* api_def = api_map.GetApiDef(\"testop\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cb234c84.cc",
+   "line": 387,
+   "whole_line": "  const auto* api_def = api_map.GetApiDef(\"testop\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/model/python/ddf83423.py",
+   "line": 110,
+   "whole_line": "  decoder_dense = keras.layers.Dense(num_decoder_tokens, activation='softmax')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/python/cde2b1fc.py",
+   "line": 990,
+   "whole_line": "        mid_level_api.enqueue(features, name='call1')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/python/cde2b1fc.py",
+   "line": 991,
+   "whole_line": "        return mid_level_api.dequeue(name='call1')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/python/cde2b1fc.py",
+   "line": 997,
+   "whole_line": "        mid_level_api.enqueue(features, name='call2')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/python/cde2b1fc.py",
+   "line": 998,
+   "whole_line": "        activations = mid_level_api.dequeue(name='call2')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/python/cde2b1fc.py",
+   "line": 1001,
+   "whole_line": "        mid_level_api.apply_gradients(gradients, name='call2')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/tool/api/3b6e91e3.cc",
+   "line": 24,
+   "whole_line": "constexpr char kApiDefFilePattern[] = \"*.pbtxt\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/tool/api/build/34fdd962",
+   "line": 23,
+   "whole_line": "        \"//tensorflow/tools/api/golden:api_golden_v1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/tool/api/build/34fdd962",
+   "line": 24,
+   "whole_line": "        \"//tensorflow/tools/api/golden:api_golden_v2\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/tool/api/build/34fdd962",
+   "line": 27,
+   "whole_line": "        \"//third_party/py/numpy/tf_numpy_api:api_golden\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/tool/api/python/1bc0ebed.py",
+   "line": 76,
+   "whole_line": "      help='API name: tensorflow or estimator')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/tool/api/python/5947e936.py",
+   "line": 69,
+   "whole_line": "        api_name='tensorflow',",
+   "source": "creddata"
+  },
+  {
+   "file": "test/tool/api/python/5947e936.py",
+   "line": 105,
+   "whole_line": "        api_name='tensorflow',",
+   "source": "creddata"
+  },
+  {
+   "file": "test/tool/api/python/5947e936.py",
+   "line": 125,
+   "whole_line": "        api_name='tensorflow',",
+   "source": "creddata"
+  },
+  {
+   "file": "test/tool/api/python/5947e936.py",
+   "line": 142,
+   "whole_line": "        api_name='tensorflow',",
+   "source": "creddata"
+  },
+  {
+   "file": "test/tool/api/python/5947e936.py",
+   "line": 155,
+   "whole_line": "        api_name='tensorflow',",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/1243809b.storyboard",
+   "line": 17,
+   "whole_line": "                    <view key=\"view\" contentMode=\"scaleToFill\" id=\"8bC-Xf-vdC\">",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/1243809b.storyboard",
+   "line": 18,
+   "whole_line": "                        <rect key=\"frame\" x=\"0.0\" y=\"0.0\" width=\"375\" height=\"667\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/1243809b.storyboard",
+   "line": 19,
+   "whole_line": "                        <autoresizingMask key=\"autoresizingMask\" widthSizable=\"YES\" heightSizable=\"YES\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/1243809b.storyboard",
+   "line": 22,
+   "whole_line": "                                <rect key=\"frame\" x=\"64\" y=\"20\" width=\"247\" height=\"63\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/1243809b.storyboard",
+   "line": 26,
+   "whole_line": "                                <fontDescription key=\"fontDescription\" type=\"system\" pointSize=\"24\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/1243809b.storyboard",
+   "line": 27,
+   "whole_line": "                                <state key=\"normal\" title=\"Benchmark model\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/1243809b.storyboard",
+   "line": 33,
+   "whole_line": "                                <rect key=\"frame\" x=\"26\" y=\"101\" width=\"333\" height=\"556\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/1243809b.storyboard",
+   "line": 34,
+   "whole_line": "                                <color key=\"backgroundColor\" white=\"1\" alpha=\"1\" colorSpace=\"custom\" customColorSpace=\"genericGamma22GrayColorSpace\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/1243809b.storyboard",
+   "line": 35,
+   "whole_line": "                                <fontDescription key=\"fontDescription\" type=\"system\" pointSize=\"14\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/1243809b.storyboard",
+   "line": 36,
+   "whole_line": "                                <textInputTraits key=\"textInputTraits\" autocapitalizationType=\"sentences\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/1243809b.storyboard",
+   "line": 39,
+   "whole_line": "                        <color key=\"backgroundColor\" red=\"1\" green=\"1\" blue=\"1\" alpha=\"1\" colorSpace=\"custom\" customColorSpace=\"sRGB\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/1243809b.storyboard",
+   "line": 49,
+   "whole_line": "                        <viewLayoutGuide key=\"safeArea\" id=\"6Tk-OE-BBY\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/1243809b.storyboard",
+   "line": 57,
+   "whole_line": "            <point key=\"canvasLocation\" x=\"140\" y=\"122.78860569715144\"/>",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/793a3efc.cc",
+   "line": 23,
+   "whole_line": "constexpr char kNnapiDelegate[] = \"nnapi\";",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/api/build/python/27554c04",
+   "line": 25,
+   "whole_line": "        \"//tensorflow/python/tools/api/generator:doc_srcs\",",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/api/build/python/27554c04",
+   "line": 60,
+   "whole_line": "        \"--api_name=tensorflow\",",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/api/python/c8e8fa46.bzl",
+   "line": 19,
+   "whole_line": "      compat_api_versions: list of compat versions.",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/api/python/c8e8fa46.bzl",
+   "line": 41,
+   "whole_line": "        api_name = \"tensorflow\",",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/api/python/c8e8fa46.bzl",
+   "line": 77,
+   "value": "TensorFlow",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/api/python/c8e8fa46.bzl",
+   "line": 78,
+   "whole_line": "      compat_api_versions: Older TensorFlow API versions to generate under",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/api/python/c8e8fa46.bzl",
+   "line": 107,
+   "whole_line": "            \"//tensorflow/python/tools/api/generator:doc_srcs\",",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/api/python/c8e8fa46.bzl",
+   "line": 150,
+   "value": "__pkg__",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/build/14b44288.sh",
+   "line": 238,
+   "value": "HOROVOD",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/docker/build/5b7a6b96.04",
+   "line": 15,
+   "value": "RS256",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/docker/build/5b7a6b96.04",
+   "line": 17,
+   "value": "$2b$12$BhEHxxe2RggPHhI.iHt.6fSS78xfTMNyPeXH3E/l8I8R.FzmVEz4l",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/docker/build/87814206.04",
+   "line": 13,
+   "value": "scrypt",
+   "source": "creddata"
+  },
+  {
+   "file": "util/f2af8a1a.cc",
+   "line": 34,
+   "whole_line": "// GCS API, e.g 2016-04-29T23:15:24.896Z.",
+   "source": "creddata"
+  },
+  {
+   "file": "util/python/15b5a776.py",
+   "line": 51,
+   "whole_line": "ESTIMATOR_API_NAME = 'estimator'",
+   "source": "creddata"
+  },
+  {
+   "file": "util/python/15b5a776.py",
+   "line": 52,
+   "whole_line": "KERAS_API_NAME = 'keras'",
+   "source": "creddata"
+  },
+  {
+   "file": "util/python/15b5a776.py",
+   "line": 53,
+   "whole_line": "TENSORFLOW_API_NAME = 'tensorflow'",
+   "source": "creddata"
+  },
+  {
+   "file": "util/python/15b5a776.py",
+   "line": 147,
+   "value": "Deprecated",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3026f619.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "7.22.42"
+  },
+  {
+   "file": "src/3026f619.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "f7b86bf3daae7b315120dc8bd58779b10d94fb00"
+  },
+  {
+   "file": "src/3026f619.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "5Q3R4XXUS30O0GS9QXN0LLE245"
+  },
+  {
+   "file": "src/3026f619.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "src/3026f619.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "1FT2BK5ZV4UP7MUMXHM6KR5RXO"
+  },
+  {
+   "file": "src/3026f619.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "src/496148c8.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "117, 115, 101, 114, 45, 97, 103, 101, 110, 116, 58, 99, 117, 114, 108, 47, 56, 46, 52, 46, 48"
+  },
+  {
+   "file": "src/496148c8.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "aGVsbG9fd29ybGRfdGVzdA=="
+  },
+  {
+   "file": "src/496148c8.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "436f6e74656e742d54797065"
+  },
+  {
+   "file": "src/496148c8.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "src/496148c8.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "security@quarzo-corp.de"
+  },
+  {
+   "file": "src/7232edea.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "src/7232edea.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5.22.26"
+  },
+  {
+   "file": "src/7232edea.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "41de8f031d12cd8cd1682e250182ca3a066a5343"
+  },
+  {
+   "file": "src/7232edea.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "05ece6c0-ed10-494c-84aa-f4ad83ee8161"
+  },
+  {
+   "file": "src/1f8ebe0c.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "203.0.113.172"
+  },
+  {
+   "file": "src/1f8ebe0c.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "5.25.37"
+  },
+  {
+   "file": "src/1f8ebe0c.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:70f2e720db673dd91d77cb536b9e749bd08e17b570b6fa7cfced2d1a511fa501"
+  },
+  {
+   "file": "src/1f8ebe0c.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/1f8ebe0c.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/2ded7919.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "W8Z7KO7ID6M9HXJB46O43Z1HRO"
+  },
+  {
+   "file": "_/2ded7919.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "6dc2fec0-62fd-4f69-bb2d-693eb11b8af0"
+  },
+  {
+   "file": "_/2ded7919.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "_/2ded7919.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/13c0fa7a.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "c312dc4"
+  },
+  {
+   "file": "_/13c0fa7a.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "f9e54f87081c1c0f41d0d075334f38f3deac22ebac173156ed798023fb977531"
+  },
+  {
+   "file": "_/13c0fa7a.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "_/13c0fa7a.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "edi.mailvault.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.114.25"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "85.117.164.141"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.acme.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.acme.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "kunden.acme-ops.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Noah Koch"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kunden.acme-ops.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.mailvault.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.114.25"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "85.117.164.141"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.acme.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Noah Koch"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "noah.koch@acme.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "John Doe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "john.doe@example.net"
+  }
+ ]
+}

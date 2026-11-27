@@ -1,0 +1,15 @@
+monitoring: atlas.pinegrid-ops.io
+database:
+  host: tarvos.pinegrid-ops.io
+  port: 5432
+queue: nimbus.pinegrid-ops.io
+backup_target: pallas.pinegrid-ops.io
+website: www.pinegrid-ops.io
+payments_api: https://api.paycore.com/v2
+partner_drop: edi.paycore.de
+allow_sources:
+  - 46.81.242.199
+  - 185.199.108.153
+  - 46.104.76.87
+ntp: 162.159.200.1
+mirrors: [kafka.apache.org, vault.centos.org]

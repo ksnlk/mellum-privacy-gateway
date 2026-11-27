@@ -1,0 +1,117 @@
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "GetSendStatistics" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListIdentities" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListVerifiedEmailAddresses" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : true,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2010-12-01",
+    "asyncClient" : "AmazonSimpleEmailServiceAsyncClient",
+    "asyncClientBuilderClassName" : "AmazonSimpleEmailServiceAsyncClientBuilder",
+    "asyncInterface" : "AmazonSimpleEmailServiceAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AmazonSimpleEmailServiceModuleInjector",
+    "defaultEndpoint" : "https://email.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "email.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>Amazon Simple Email Service</fullname> <p> This document contains reference information for the <a href=\"https://aws.amazon.com/ses/\">Amazon Simple Email Service</a> (Amazon SES) API, version 2010-12-01. This document is best used in conjunction with the <a href=\"https://docs.aws.amazon.com/ses/latest/DeveloperGuide/Welcome.html\">Amazon SES Developer Guide</a>. </p> <note> <p> For a list of Amazon SES endpoints to use in service requests, see <a href=\"https://docs.aws.amazon.com/ses/latest/DeveloperGuide/regions.html\">Regions and Amazon SES</a> in the <a href=\"https://docs.aws.amazon.com/ses/latest/DeveloperGuide/Welcome.html\">Amazon SES Developer Guide</a>.</p> </note>",
+    "endpointPrefix" : "email",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : false,
+    "jsonVersion" : null,
+    "packageName" : "com.amazonaws.services.simpleemail",
+    "packagePath" : "com/amazonaws/services/simpleemail",
+    "protocol" : "query",
+    "protocolDefaultExceptionUmarshallerImpl" : "StandardErrorUnmarshaller",
+    "protocolFactory" : null,
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "Amazon SES",
+            "Enabled" : true,
+            "TlsPolicy" : "Optional",
+            "Actions" : [ {
+              "S3Action" : {
+                "BucketName" : "MyBucket",
+                "ObjectKeyPrefix" : "email"
+              }
+            } ],
+            "ScanEnabled" : true
+          }
+        },
+        "output" : null,
+        "title" : "UpdateReceiptRule"
+      } ],
+      "VerifyDomainDkim" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example generates DKIM tokens for a domain that has been verified with Amazon SES:",
+        "id" : "verifydomaindkim-1469049503083",
+        "input" : {
+          "Domain" : "example.com"
+        },
+        "output" : {
+          "DkimTokens" : [ "EXAMPLEq76owjnks3lnluwg65scbemvw", "EXAMPLEi3dnsj67hstzaj673klariwx2", "EXAMPLEwfbtcukvimehexktmdtaz6naj" ]
+        },
+        "title" : "VerifyDomainDkim"
+      } ],
+      "VerifyDomainIdentity" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example starts the domain verification process with Amazon SES:",
+        "id" : "verifydomainidentity-1469049165936",
+        "input" : {
+          "Domain" : "example.com"
+        },
+        "output" : {
+          "VerificationToken" : "nzLpry+BaSri2b6cBTFkKIELord1u2/nbqeksAQRKONK"
+        },
+        "title" : "VerifyDomainIdentity"
+      } ],
+      "VerifyEmailAddress" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example starts the email address verification process with Amazon SES:",
+        "id" : "verifyemailaddress-1469048849187",
+        "input" : {
+          "EmailAddress" : "user@example.com"
+        },
+        "output" : null,
+        "title" : "VerifyEmailAddress"
+      } ],
+      "VerifyEmailIdentity" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example starts the email address verification process with Amazon SES:",
+        "id" : "verifyemailidentity-1469049068623",
+        "input" : {
+          "EmailAddress" : "user@example.com"

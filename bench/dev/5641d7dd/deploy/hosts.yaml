@@ -1,0 +1,15 @@
+monitoring: kestrel.vantor-ops.io
+database:
+  host: falkor.vantor-ops.io
+  port: 5432
+queue: tarvos.vantor-ops.io
+backup_target: vega.vantor-ops.io
+website: kunden.vantor-ops.io
+payments_api: https://api.mailvault.com/v2
+partner_drop: files.mailvault.de
+allow_sources:
+  - 85.235.133.178
+  - 192.30.252.153
+  - 85.247.183.213
+ntp: 131.188.3.220
+mirrors: [mirrors.kernel.org, gitlab.gnome.org]

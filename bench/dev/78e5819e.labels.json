@@ -1,0 +1,921 @@
+{
+ "repo": "78e5819e",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/a3114d70.md",
+   "line": 214,
+   "start": 82,
+   "end": 130,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "dc5f4135a506a7d53924ba5a6266c8bdfd6a34a023b81e20"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/a3114d70.md",
+   "line": 221,
+   "start": 55,
+   "end": 103,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "af5ba5c8db6bd655ec46fabdd02930312500977ab873b6bf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/a3114d70.md",
+   "line": 227,
+   "start": 33,
+   "end": 81,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "1f2be4b2f0b9bc99ec9e6acf2fcf0b84bfb3751cb56b8467"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/c2067af3.json",
+   "line": 12,
+   "start": 20,
+   "end": 30,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "xelhcyoewr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "_/c2067af3.json",
+   "line": 21,
+   "start": 26,
+   "end": 36,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "sizjfvrdur"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "src/8ac6089e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u0441\u043e\u043b\u043d\u0446\u04356807"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/9770f982.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_5U2RjBCpocySuqgWoro0EqMM"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/9770f982.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "8INM3vXxJnGEglgVCPICne8NNBoV20yN"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/9770f982.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "dmljOHFxdjU0MDlzN2V0cXU5Njd5enl2aDVpbGF0am8=",
+    "vic8qqv5409s7etqu967yzyvh5ilatjo"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/60024936.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm.g4qlo8.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/60024936.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "akiagarten49"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/60024936.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043f\u0440\u0438\u0432\u0435\u04424849!"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/bdcbcfe2.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing.fbl0rf.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/bdcbcfe2.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "167.184.60.251"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/bdcbcfe2.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "s.becker@nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/bdcbcfe2.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-prod.iidet1v9b687.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/bdcbcfe2.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "julia.overly.recode.hessen"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/40714843.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "bm9iLmx1a2FzLnNoZXJpZmYubGVpcHppZw==",
+    "nob.lukas.sheriff.leipzig"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/40714843.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9FVThSYXMwMWVWcUhkUDdnSFZsNU9yNHg=",
+    "sk_live_EU8Ras01eVqHdP7gHVl5Or4x"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/40714843.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.u08u492q9ytf.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/f4684f78.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "34666639363431346139353762646564643338363432653138316365336662663661373230663464333139633864616236386437613835333163663338643833",
+    "4ff96414a957bdedd38642e181ce3fbf6a720f4d319c8dab68d7a8531cf38d83"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/5a800657.dockerfile",
+   "line": 1,
+   "whole_line": "FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 103,
+   "whole_line": "* `secret_key`: Backend server secret key. Use the method above to generate it.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 113,
+   "whole_line": "* `postgres_password`: Postgres database password. Use the method above to generate it. (You could easily modify it to use MySQL, MariaDB, etc).",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 115,
+   "value": "PGAdmin",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 123,
+   "whole_line": "* `sentry_dsn`: Key URL (DSN) of Sentry, for live error reporting. You can use the open source version or a free account. E.g.: `https://1234abcd:5678ef@sentry.example.com/30`.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/c2067af3.json",
+   "line": 13,
+   "value": "dGhlIHNhbXBsZSBub25jZQ==",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ca7186e8",
+   "line": 21,
+   "whole_line": "FIRST_SUPERUSER_PASSWORD={{cookiecutter.first_superuser_password}}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ca7186e8",
+   "line": 26,
+   "value": "cookiecutter.smtp_password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ca7186e8",
+   "line": 39,
+   "whole_line": "POSTGRES_PASSWORD={{cookiecutter.postgres_password}}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ca7186e8",
+   "line": 45,
+   "whole_line": "PGADMIN_DEFAULT_PASSWORD={{cookiecutter.pgadmin_default_user_password}}",
+   "source": "creddata"
+  },
+  {
+   "file": "api/app/7dccaddd.py",
+   "line": 54,
+   "whole_line": "def recover_password(email: str, db: Session = Depends(deps.get_db)) -> Any:",
+   "source": "creddata"
+  },
+  {
+   "file": "api/app/7dccaddd.py",
+   "line": 75,
+   "whole_line": "    new_password: str = Body(...),",
+   "source": "creddata"
+  },
+  {
+   "file": "app/2cf36eb8.py",
+   "line": 18,
+   "whole_line": "            hashed_password=get_password_hash(obj_in.password),",
+   "source": "creddata"
+  },
+  {
+   "file": "app/2cf36eb8.py",
+   "line": 35,
+   "whole_line": "            hashed_password = get_password_hash(update_data[\"password\"])",
+   "source": "creddata"
+  },
+  {
+   "file": "app/2cf36eb8.py",
+   "line": 40,
+   "whole_line": "    def authenticate(self, db: Session, *, email: str, password: str) -> Optional[User]:",
+   "source": "creddata"
+  },
+  {
+   "file": "app/a3f07a59.toml",
+   "line": 10,
+   "whole_line": "fastapi = \"^0.54.1\"",
+   "source": "creddata"
+  },
+  {
+   "file": "app/a3f07a59.toml",
+   "line": 15,
+   "value": "bcrypt",
+   "source": "creddata"
+  },
+  {
+   "file": "app/a6f4a4a0.py",
+   "line": 35,
+   "whole_line": "    password = os.getenv(\"POSTGRES_PASSWORD\", \"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/3a0501b0.py",
+   "line": 16,
+   "whole_line": "    hashed_password = Column(String, nullable=False)",
+   "source": "creddata"
+  },
+  {
+   "file": "security/app/f15fa278.py",
+   "line": 9,
+   "value": "bcrypt",
+   "source": "creddata"
+  },
+  {
+   "file": "security/app/f15fa278.py",
+   "line": 29,
+   "whole_line": "def verify_password(plain_password: str, hashed_password: str) -> bool:",
+   "source": "creddata"
+  },
+  {
+   "file": "security/app/f15fa278.py",
+   "line": 33,
+   "whole_line": "def get_password_hash(password: str) -> str:",
+   "source": "creddata"
+  },
+  {
+   "file": "src/35573b32.vue",
+   "line": 13,
+   "whole_line": "                <v-text-field @keyup.enter=\"submit\" label=\"Username\" type=\"text\" prepend-icon=\"person\" v-model=\"username\" v-validate=\"'required'\" data-vv-name=\"username\" :error-messages=\"errors.collect('username')\" required></v-text-field>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3a18d0a7.vue",
+   "line": 18,
+   "whole_line": "                <v-text-field type=\"password\" ref=\"password\" label=\"Set Password\" data-vv-name=\"password\" data-vv-delay=\"100\" v-validate=\"{required: true}\" v-model=\"password1\" :error-messages=\"errors.first('password')\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3a18d0a7.vue",
+   "line": 20,
+   "value": "error-messages=",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3a18d0a7.vue",
+   "line": 56,
+   "whole_line": "  public password1: string = '';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3a18d0a7.vue",
+   "line": 57,
+   "whole_line": "  public password2: string = '';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3a18d0a7.vue",
+   "line": 91,
+   "value": "this.password1",
+   "source": "creddata"
+  },
+  {
+   "file": "src/43569e92.vue",
+   "line": 44,
+   "whole_line": "  public password: string = '';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/43569e92.vue",
+   "line": 52,
+   "whole_line": "    dispatchLogIn(this.$store, {username: this.email, password: this.password});",
+   "source": "creddata"
+  },
+  {
+   "file": "src/44f10467.ts",
+   "line": 9,
+   "whole_line": "        state.token = payload;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/75b771bc.ts",
+   "line": 15,
+   "whole_line": "    token: (state: MainState) => state.token,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/2f2dd667.ts",
+   "line": 5,
+   "whole_line": "function authHeaders(token: string) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/2f2dd667.ts",
+   "line": 14,
+   "whole_line": "  async logInGetToken(username: string, password: string) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/2f2dd667.ts",
+   "line": 21,
+   "whole_line": "  async getMe(token: string) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/2f2dd667.ts",
+   "line": 24,
+   "whole_line": "  async updateMe(token: string, data: IUserProfileUpdate) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/2f2dd667.ts",
+   "line": 27,
+   "whole_line": "  async getUsers(token: string) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/2f2dd667.ts",
+   "line": 30,
+   "whole_line": "  async updateUser(token: string, userId: number, data: IUserProfileUpdate) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/2f2dd667.ts",
+   "line": 33,
+   "whole_line": "  async createUser(token: string, data: IUserProfileCreate) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/2f2dd667.ts",
+   "line": 36,
+   "whole_line": "  async passwordRecovery(email: string) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/2f2dd667.ts",
+   "line": 39,
+   "whole_line": "  async resetPassword(password: string, token: string) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b5b2cfc4.ts",
+   "line": 10,
+   "whole_line": "    token: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/be4fbf03.vue",
+   "line": 76,
+   "whole_line": "                  v-validate=\"{required: setPassword, confirmed: 'password'}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/be4fbf03.vue",
+   "line": 115,
+   "whole_line": "  public password1: string = '';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/be4fbf03.vue",
+   "line": 116,
+   "whole_line": "  public password2: string = '';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/be4fbf03.vue",
+   "line": 152,
+   "value": "this.password1",
+   "source": "creddata"
+  },
+  {
+   "file": "src/da9cb1d3.ts",
+   "line": 21,
+   "whole_line": "    async actionLogIn(context: MainContext, payload: { username: string; password: string }) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/da9cb1d3.ts",
+   "line": 73,
+   "whole_line": "                    token = localToken;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/da9cb1d3.ts",
+   "line": 125,
+   "whole_line": "    async passwordRecovery(context: MainContext, payload: { username: string }) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/da9cb1d3.ts",
+   "line": 141,
+   "whole_line": "    async resetPassword(context: MainContext, payload: { password: string, token: string }) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/da9cb1d3.ts",
+   "line": 173,
+   "whole_line": "export const dispatchResetPassword = dispatch(actions.resetPassword);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/template/app/60965372.mjml",
+   "line": 9,
+   "whole_line": "        <mj-text font-size=\"16px\" color=\"#555\">Reset your password by clicking the button below:</mj-text>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/4434033b.ts",
+   "line": 3,
+   "whole_line": "export const saveLocalToken = (token: string) => localStorage.setItem('token', token);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/63c2be56.py",
+   "line": 12,
+   "whole_line": "    password = random_lower_string()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/63c2be56.py",
+   "line": 21,
+   "whole_line": "    password = random_lower_string()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/63c2be56.py",
+   "line": 31,
+   "whole_line": "    password = random_lower_string()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/63c2be56.py",
+   "line": 38,
+   "whole_line": "    password = random_lower_string()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/63c2be56.py",
+   "line": 47,
+   "whole_line": "    password = random_lower_string()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/63c2be56.py",
+   "line": 48,
+   "whole_line": "    user_in = UserCreate(email=email, password=password, disabled=True)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/63c2be56.py",
+   "line": 56,
+   "whole_line": "    password = random_lower_string()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/63c2be56.py",
+   "line": 57,
+   "whole_line": "    user_in = UserCreate(email=email, password=password, is_superuser=True)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/63c2be56.py",
+   "line": 65,
+   "whole_line": "    password = random_lower_string()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/63c2be56.py",
+   "line": 73,
+   "whole_line": "    password = random_lower_string()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/63c2be56.py",
+   "line": 84,
+   "whole_line": "    password = random_lower_string()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/63c2be56.py",
+   "line": 88,
+   "whole_line": "    new_password = random_lower_string()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/63c2be56.py",
+   "line": 89,
+   "whole_line": "    user_in_update = UserUpdate(password=new_password, is_superuser=True)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/app/a2048ae1.py",
+   "line": 14,
+   "whole_line": "    *, client: TestClient, email: str, password: str",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/app/a2048ae1.py",
+   "line": 27,
+   "whole_line": "    password = random_lower_string()",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/app/a2048ae1.py",
+   "line": 41,
+   "whole_line": "    password = random_lower_string()",
+   "source": "creddata"
+  },
+  {
+   "file": "util/app/e841b4d6.py",
+   "line": 49,
+   "whole_line": "def send_reset_password_email(email_to: str, email: str, token: str) -> None:",
+   "source": "creddata"
+  },
+  {
+   "file": "util/app/e841b4d6.py",
+   "line": 55,
+   "whole_line": "    link = f\"{server_host}/reset-password?token={token}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "util/app/e841b4d6.py",
+   "line": 70,
+   "whole_line": "def send_new_account_email(email_to: str, username: str, password: str) -> None:",
+   "source": "creddata"
+  },
+  {
+   "file": "util/app/e841b4d6.py",
+   "line": 90,
+   "whole_line": "def generate_password_reset_token(email: str) -> str:",
+   "source": "creddata"
+  },
+  {
+   "file": "util/app/e841b4d6.py",
+   "line": 96,
+   "whole_line": "        {\"exp\": exp, \"nbf\": now, \"sub\": email}, settings.SECRET_KEY, algorithm=\"HS256\",",
+   "source": "creddata"
+  },
+  {
+   "file": "util/app/e841b4d6.py",
+   "line": 101,
+   "whole_line": "def verify_password_reset_token(token: str) -> Optional[str]:",
+   "source": "creddata"
+  },
+  {
+   "file": "util/app/e841b4d6.py",
+   "line": 103,
+   "value": "HS256",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8ac6089e.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Observe2019"
+  },
+  {
+   "file": "src/8ac6089e.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Engel2020"
+  },
+  {
+   "file": "_/9770f982.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_jnjyUj4Hz7oONQezJKsDOR6P"
+  },
+  {
+   "file": "_/9770f982.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "BILLING_CLIENT_SECRET"
+  },
+  {
+   "file": "_/9770f982.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "LEDGER_CLIENT_SECRET"
+  },
+  {
+   "file": "_/9770f982.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LdsrmnIvViB4QRS3W_0Sk-LUN3ENMhEhzrk4QAv"
+  },
+  {
+   "file": "_/9770f982.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:d0r1Y284LaFi5w5nIzhAKguTuj/Z59nz0fzfCJWKwmk"
+  },
+  {
+   "file": "_/9770f982.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/var/run/secrets/ledger/token"
+  },
+  {
+   "file": "_/9770f982.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Authorization"
+  },
+  {
+   "file": "_/9770f982.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "_/9770f982.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "aW52b2ljZTo4ODMwOTpvZmZzZXQ6MjE0"
+  },
+  {
+   "file": "src/60024936.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Felix2020"
+  },
+  {
+   "file": "src/60024936.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "backup"
+  },
+  {
+   "file": "src/60024936.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "orient-port-2026"
+  },
+  {
+   "file": "src/60024936.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "metrics"
+  },
+  {
+   "file": "src/60024936.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "backup"
+  },
+  {
+   "file": "src/60024936.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "Maus2023"
+  },
+  {
+   "file": "_/bdcbcfe2.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "www.nordwind-corp.de"
+  },
+  {
+   "file": "_/bdcbcfe2.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "docs.nordwind-corp.de"
+  },
+  {
+   "file": "_/bdcbcfe2.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "_/bdcbcfe2.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "192.168.0.0/16"
+  },
+  {
+   "file": "_/bdcbcfe2.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "_/bdcbcfe2.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "_/bdcbcfe2.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "security@nordwind-corp.de"
+  },
+  {
+   "file": "_/bdcbcfe2.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "YXBwbGljYXRpb24vanNvbg=="
+  },
+  {
+   "file": "_/bdcbcfe2.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "6170706c69636174696f6e2f6a736f6e"
+  },
+  {
+   "file": "_/bdcbcfe2.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/40714843.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "6b6df09"
+  },
+  {
+   "file": "other/40714843.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "4e1d0200f54cb7f9178f34b636bcd930a0b0dabb637dc878fbc242ae03939366"
+  },
+  {
+   "file": "other/40714843.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "sentry.io"
+  },
+  {
+   "file": "other/40714843.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/f4684f78.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "252f00e6d81d54e9c043ccb2db2dbe46ccb95a170363b0b8b5a739d2a858aab8"
+  }
+ ]
+}

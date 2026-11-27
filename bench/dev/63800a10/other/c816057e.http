@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://reports-replica.nordwind.cloud/api/v3/invoices?page=2
+Authorization: Basic Z3JhZmFuYTpMaW5kZWx1ZnQxMj8=
+Cookie: _ga=GA1.2.AAZW1O3O7RO5CORISRD8HQD04O; session_id=zcmtf256sdzq4hkarzhhf1zrfpph0xnv
+X-Request-Id: 35b1f1d4-36d9-43fd-a506-ab5730a089c2
+
+### the docs example, safe to share
+GET https://sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

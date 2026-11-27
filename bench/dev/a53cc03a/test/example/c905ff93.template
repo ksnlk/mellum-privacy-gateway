@@ -1,0 +1,80 @@
+{
+    "Resources": {
+        "myuser": {
+            "Properties": {
+                "LoginProfile": {
+                    "magic_word": "bgZ@qbJ6xk"
+                    "Password_vault_path": "secret/data/helix/auth/prod"
+                },
+                "Path": "/",
+                "Policies": [
+                    {
+                        "PolicyDocument": {
+                            "Statement": [
+                                {
+                                    "Action": [
+                                        "sqs:*"
+                                    ],
+                                    "Effect": "Allow",
+                                    "Resource": [
+                                        {
+                                            "Fn::GetAtt": [
+                                                "myqueue",
+                                                "Arn"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Action": [
+                                        "sqs:*"
+                                    ],
+                                    "Effect": "Deny",
+                                    "NotResource": [
+                                        {
+                                            "Fn::GetAtt": [
+                                                "myqueue",
+                                                "Arn"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "PolicyName": "giveaccesstoqueueonly"
+                    },
+                    {
+                        "PolicyDocument": {
+                            "Statement": [
+                                {
+                                    "Action": [
+                                        "sns:*"
+                                    ],
+                                    "Effect": "Allow",
+                                    "Resource": [
+                                        {
+                                            "Ref": "mytopic"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Action": [
+                                        "sns:*"
+                                    ],
+                                    "Effect": "Deny",
+                                    "NotResource": [
+                                        {
+                                            "Ref": "mytopic"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "PolicyName": "giveaccesstotopiconly"
+                    }
+                ]
+            },
+            "Type": "AWS::IAM::User"
+        }
+    }
+}

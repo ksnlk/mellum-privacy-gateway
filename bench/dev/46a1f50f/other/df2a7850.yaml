@@ -1,0 +1,19 @@
+# kelpie payments service
+database:
+  host: etl-prod.nku3roahm043.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "вода5814!"
+  password_source: secret/data/kelpie/etl/staging
+  password_env: LEDGER_CLIENT_SECRET
+api:
+  key_header: X-Auth-Token
+  partner_ident: HB1YiVJAVT0ZQBgfl9TMRY65tNsCUrt2
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: pbkdf2_sha256
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 719360608758-jvlq6gjheany9fo99ktekr3j3c77ys1q.apps.googleusercontent.com
+  client_proof: 75ecxy1h4ribosh4jfza9zapyegwn9jq
+  secret_rotated_at: "2026-06-13T00:00:00Z"
+  secret_name: ledger-db-credentials
+pagination:
+  first_cursor: b3JkZXI6NzgzMzM6b2Zmc2V0OjEyOQ==

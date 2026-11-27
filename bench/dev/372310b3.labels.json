@@ -1,0 +1,1264 @@
+{
+ "repo": "372310b3",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "conf/security/9e1fcedb.json",
+   "line": 19,
+   "start": 22,
+   "end": 42,
+   "category": "Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "j9Iidzy3IEPsQgK7JLk="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "conf/security/9e1fcedb.json",
+   "line": 66,
+   "start": 22,
+   "end": 42,
+   "category": "Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "W1H7qLZ0S1MewWWzXmC="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "conf/security/9e1fcedb.json",
+   "line": 121,
+   "start": 79,
+   "end": 438,
+   "category": "JSON Web Token:Token",
+   "mutation": "none",
+   "forms": [
+    "eyJlbXrnRtCyDOa3LjTgZzI3uSZ7Ls8mQHL0.lpYSY4u4H1PnU7PuVuKkHumrAHNbAZDOlXYhEMM5V82cDg2RzMQ5MlC7QsJGjVBiPUB8GblhJYp1RX7WnBA4FOxboCQqBSDbcrkyJeKxNcI9vYJ5URRyBLrwFuA2TOffWyxKWiZkIcX1WitEI9HhCNeYMPeMEbnud5tcZOg5sWonUaWeLsclDVFJHNewGJudgeZpYidnTUA0ORR5QtOdMMsEJc1oPnIkEFBhTXDeY8L5WfDALKn6GoL5VvaiQQJOIB0OO0NLPonto3B5yurpvC.0qpE8Sg1gzinX7yDLsb0XXMbgJ9G23e90lr8-taLg10"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "conf/security/9e1fcedb.json",
+   "line": 137,
+   "start": 20,
+   "end": 379,
+   "category": "JSON Web Token",
+   "mutation": "camouflage",
+   "forms": [
+    "eyJggOtjSwQQFft3DxByEdH3jRH0GlhJPKP7.kgMqASH9P8IUUMJeAbB3ETsBZMFzUAKSV2uSjXT9B13qZxndIwT3IdG5T5BINTUiFAZ1NAUhPGA9UV61ULy3WF65FqYlONP3fUfrdGKgLaD9bYK0RRq2RZA5WMKaUDuoFPIvX7VVERZ8BeforeBnGDPsnIONLxwrB5qdi2heQZNdKBDcFoyxVLGELpDoFSalonOqXlswI5M3KyonYdYkTfLQef85sHZ4LKm6NkIkzkl7JVKlA8l8CM55GuibE0BTQh5zQ2Q3RyoqGWvIYQShfE.7liD7Gb6vptuH2vLLnl7BDVfcR1Z29z61na2-xxQz68"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "conf/security/9e1fcedb.json",
+   "line": 161,
+   "start": 23,
+   "end": 296,
+   "category": "JSON Web Token:Bearer Authorization",
+   "mutation": "none",
+   "forms": [
+    "eyJdpTqrSfIrPOafOhVrXoA5nFH3ObwMovE0.fzZatGXxRsttXJw0VLN8HVXfFodTT5eeUeZRxyF6Yk9xIdArqOYzJgIYF8STH7GjE2h6EtrfSvVnPSkBWx0eApe2bDP8GcvADJo5CrZ3WPf7HVTwVBF8YS8aWER0PBwxHmJgGKNRVDJ7UvAjSxAjz9hlRO5PSIO3NorTFzVrDdzvb7EmAToiFragile5Ai52.hrY38TdX0gftn3JA7JK2Jrd4FBP9MiGPAQ-JMqTu6zv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "conf/security/9e1fcedb.json",
+   "line": 186,
+   "start": 22,
+   "end": 42,
+   "category": "Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "g8WfIaS7z9rzccU2EiO="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "conf/security/9e1fcedb.json",
+   "line": 256,
+   "start": 22,
+   "end": 42,
+   "category": "Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "JdQnCmjigKAjXLZvDo=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "src/conf/116eebfd.java",
+   "line": 77,
+   "start": 54,
+   "end": 78,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "8JqQzrRQZo7EXV7Lrtobot=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "src/conf/1f6a6514.java",
+   "line": 83,
+   "start": 26,
+   "end": 50,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "0SyYyqQQUa0VNZ1Caaeogm=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "src/conf/6f3591f3.java",
+   "line": 68,
+   "start": 54,
+   "end": 78,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "3AzNfjBFWe5XLO7Pnvrjor=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "src/conf/92fc7c35.java",
+   "line": 83,
+   "start": 26,
+   "end": 50,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "1ZpMaxOBJq9AVE6Dnlwgly=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "src/conf/d3186552.java",
+   "line": 85,
+   "start": 54,
+   "end": 78,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "9XaLkcVMBg9YET3Winning=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "src/conf/f019f8c5.java",
+   "line": 94,
+   "start": 54,
+   "end": 78,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "7XyOfnLBMu1COG6Sfeseai=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "src/conf/resource/client/da6314b1.yml",
+   "line": 18,
+   "start": 14,
+   "end": 19,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "rigpm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "src/conf/resource/client/da6314b1.yml",
+   "line": 23,
+   "start": 73,
+   "end": 79,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "530988"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "src/conf/resource/client/da6314b1.yml",
+   "line": 23,
+   "start": 33,
+   "end": 39,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "869579"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 17,
+   "file": "src/resource/9c588c96.json",
+   "line": 37,
+   "start": 58,
+   "end": 64,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "807194"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 18,
+   "file": "src/resource/9c588c96.json",
+   "line": 66,
+   "start": 16,
+   "end": 147,
+   "category": "JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJ5hXJhTyWCfZatZZWmhXevTzWfnhw4ICA5.tjSusINeKqyfQGqbJUdzHKplZuI0ZMmZl7R1YiatrNJCiQZnrV.MoqjgR9m5NQ4Lt_94lU2AezPX4G6zNIR9Jq5sC8BJIb"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 19,
+   "file": "src/resource/9c588c96.json",
+   "line": 95,
+   "start": 23,
+   "end": 154,
+   "category": "JSON Web Token",
+   "mutation": "rename",
+   "forms": [
+    "eyJ9mOZtGiKhLepzZLQvuHnpJqM1DtZ6EuV6.zdFixUIwRqJ3OkV7ZMC5VeUqBmPUG5HAOWCHQccaBZKJI9rebI._uW9zyiIPidcBcMK4XlqUU7tm3kzgDO5p7chc3hZdQA"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 20,
+   "file": "src/resource/9c588c96.json",
+   "line": 105,
+   "start": 41,
+   "end": 172,
+   "category": "JSON Web Token:Token",
+   "mutation": "none",
+   "forms": [
+    "eyJ4tAMzVrMMYZUgKLLjcWalRpKpsHE1LCP8.osDevXHkKlK7Hqk8AgD0FHSyZgayZVEXGPbxSmuhR4D0EQMerP._qB8bfcRRbekZnTW4KcaXU7gn0lucNW8p3goa9lTmPM"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 21,
+   "file": "src/resource/9c588c96.json",
+   "line": 117,
+   "start": 24,
+   "end": 155,
+   "category": "JSON Web Token",
+   "mutation": "rename",
+   "forms": [
+    "eyJ6gYMjRmYaeWOmNKVlwRlqRvMXGRYiTFA5.elBenFApPuy4MxU6BCEyZQyiOuDwY2lZg3m7YafmMFZOO1MwqV._jR2wunVHvkgJyTH7VbbKJ3oq8qkeMO8e0dvi6jDgTG"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 22,
+   "file": "src/resource/app/13b30892.yml",
+   "line": 12,
+   "start": 16,
+   "end": 23,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "9124791"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 23,
+   "file": "src/resource/app/13b30892.yml",
+   "line": 54,
+   "start": 24,
+   "end": 32,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "mixed381"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 24,
+   "file": "src/resource/app/3362903e.yml",
+   "line": 64,
+   "start": 20,
+   "end": 28,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "qxmhd595"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 25,
+   "file": "src/resource/app/39dccb4f.yml",
+   "line": 54,
+   "start": 24,
+   "end": 32,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ulztz558"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 26,
+   "file": "src/resource/app/975c99ab.yml",
+   "line": 11,
+   "start": 14,
+   "end": 19,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "qaxpl"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 27,
+   "file": "src/resource/app/9ac63800.yml",
+   "line": 54,
+   "start": 24,
+   "end": 32,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ikmum523"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 28,
+   "file": "src/resource/app/e7c77a12.yml",
+   "line": 12,
+   "start": 16,
+   "end": 23,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "0687375"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 29,
+   "file": "src/resource/app/e7c77a12.yml",
+   "line": 54,
+   "start": 24,
+   "end": 32,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ctvpg270"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 30,
+   "file": "test/src/resource/app/31ed8b63.yml",
+   "line": 54,
+   "start": 21,
+   "end": 29,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "namer745"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 31,
+   "file": "other/e39e2ef2.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.vantor-corp.de"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "other/e39e2ef2.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "91.120.190.2"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "other/e39e2ef2.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "paul.richter@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "other/e39e2ef2.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-replica.vantor.cloud"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "other/e39e2ef2.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "nominal_follow_himmel22"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "src/82043b66.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vpn-gw.helix-corp.de"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "src/82043b66.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "profitabl",
+    "profitable_added",
+    "e_added"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "_/25ab449a.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vpn-gw.helix-corp.de"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "_/25ab449a.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "YWRtaW46QmlybmViw6RyMDAh",
+    "admin:Birneb\u00e4r00!"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "_/25ab449a.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "104bvqftkqmvovjqeyw4hbll4o1jezse"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "test/4ecf5c66.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "architect_invitation_saturday77"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "test/4ecf5c66.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth.3hefd4.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "test/4c4f608a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-primary.quarzo.cloud"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "test/4c4f608a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "gut224$"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "test/4c4f608a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Herbstjonas78?"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "_/b8c76ea9.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lina Mueller"
+   ]
+  },
+  {
+   "id": 47,
+   "file": "_/b8c76ea9.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lea.wolf@acme-corp.de"
+   ]
+  },
+  {
+   "id": 48,
+   "file": "_/b8c76ea9.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 3912 6146"
+   ]
+  },
+  {
+   "id": 49,
+   "file": "_/b8c76ea9.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.40.211.217"
+   ]
+  },
+  {
+   "id": 50,
+   "file": "_/b8c76ea9.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "determined-winter-wolf-anterior"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/11461088.json",
+   "line": 28,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"name\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/11461088.json",
+   "line": 32,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"description\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/11461088.json",
+   "line": 114,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"description\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/11461088.json",
+   "line": 266,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"name\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/11461088.json",
+   "line": 271,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"description\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/11461088.json",
+   "line": 276,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"size\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/11461088.json",
+   "line": 280,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"page\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b58326c6.json",
+   "line": 28,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"name\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b58326c6.json",
+   "line": 32,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"description\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b58326c6.json",
+   "line": 114,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"description\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b58326c6.json",
+   "line": 266,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"name\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b58326c6.json",
+   "line": 271,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"description\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b58326c6.json",
+   "line": 276,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"size\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b58326c6.json",
+   "line": 280,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"page\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 18,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Authorization\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 24,
+   "whole_line": "\t\t\t\t\t\"raw\": \"localhost:8080/oauth/token?grant_type=password&username=mrbird&password=123456&scope=all\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 35,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"grant_type\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 47,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"scope\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 64,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Authorization\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 82,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"grant_type\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 86,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"code\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 90,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"client_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 94,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"redirect_uri\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 98,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"scope\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 115,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Authorization\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 132,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"grant_type\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 136,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"refresh_token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 140,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"client_id\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 145,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"client_secret\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 160,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Authorization\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 184,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Authorization\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 189,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Content-Type\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 224,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"deviceId\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 241,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"mobile\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 255,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Authorization\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 260,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"deviceId\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 277,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"mobile\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/security/9e1fcedb.json",
+   "line": 281,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"smsCode\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92a765da.java",
+   "line": 71,
+   "whole_line": "\t\tString userName = (String) token.getPrincipal();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a5c0fdb0.java",
+   "line": 71,
+   "whole_line": "\t\tString userName = (String) token.getPrincipal();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/code/security/d9b5dfc0.java",
+   "line": 15,
+   "whole_line": "    public static final String MOBILE_KEY = \"mobile\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/116eebfd.java",
+   "line": 31,
+   "value": "/403",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/1f6a6514.java",
+   "line": 37,
+   "value": "/403",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/6f3591f3.java",
+   "line": 27,
+   "value": "/403",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/92fc7c35.java",
+   "line": 26,
+   "value": "/403",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/d3186552.java",
+   "line": 39,
+   "value": "/403",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/f019f8c5.java",
+   "line": 47,
+   "value": "/403",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/resource/server/1ac703a7.yml",
+   "line": 2,
+   "whole_line": "##  key: hello",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/3ee38c5c.java",
+   "line": 27,
+   "whole_line": "    private static final String TOKEN = \"Token\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/9a8225b1.java",
+   "line": 59,
+   "whole_line": "        String token = (String) authenticationToken.getCredentials();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/a1b884ca.java",
+   "line": 37,
+   "whole_line": "\t@ApiOperation(value = \"\u83b7\u53d6\u7528\u6237\u4fe1\u606f\", notes = \"\u6839\u636e\u7528\u6237id\u83b7\u53d6\u7528\u6237\u4fe1\u606f\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/a1b884ca.java",
+   "line": 48,
+   "whole_line": "\t@ApiOperation(value = \"\u83b7\u53d6\u7528\u6237\u5217\u8868\", notes = \"\u83b7\u53d6\u7528\u6237\u5217\u8868\")",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/a6ee18fa.java",
+   "line": 19,
+   "whole_line": "        this.token = token;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/a6ee18fa.java",
+   "line": 23,
+   "whole_line": "        this.token = token;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/example/a6ee18fa.java",
+   "line": 42,
+   "whole_line": "        this.token = token;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/9c588c96.json",
+   "line": 26,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Content-Type\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/9c588c96.json",
+   "line": 65,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/9c588c96.json",
+   "line": 94,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/9c588c96.json",
+   "line": 116,
+   "whole_line": "\t\t\t\t\t\t\t\"key\": \"Token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/9c588c96.json",
+   "line": 130,
+   "whole_line": "\t\t\t\t\t\t\"key\": \"Token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/9c588c96.json",
+   "line": 96,
+   "value": "LEDGER_API_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/app/3362903e.yml",
+   "line": 65,
+   "value": "secret/data/pinegrid/crm/prod",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/app/39dccb4f.yml",
+   "line": 55,
+   "value": "payments-api-token",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/app/975c99ab.yml",
+   "line": 16,
+   "whole_line": "      defaultZone: http://mrbird:123456@peer1:8080/eureka/,http://mrbird:123456@peer2:8081/eureka/",
+   "source": "creddata"
+  },
+  {
+   "file": "src/resource/app/9ac63800.yml",
+   "line": 55,
+   "value": "0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/client/c10b4558.java",
+   "line": 27,
+   "whole_line": "    @PreAuthorize(\"hasAuthority('user:update')\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/resource/app/31ed8b63.yml",
+   "line": 55,
+   "value": "secret/data/quarzo/auth/prod",
+   "source": "creddata"
+  },
+  {
+   "file": "other/e39e2ef2.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "docs.vantor-corp.de"
+  },
+  {
+   "file": "other/e39e2ef2.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "docs.vantor-corp.de"
+  },
+  {
+   "file": "other/e39e2ef2.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/e39e2ef2.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "other/e39e2ef2.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "other/e39e2ef2.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "other/e39e2ef2.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "hello@vantor-corp.de"
+  },
+  {
+   "file": "other/e39e2ef2.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "aGVsbG9fd29ybGRfdGVzdA=="
+  },
+  {
+   "file": "other/e39e2ef2.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "6170706c69636174696f6e2f6a736f6e"
+  },
+  {
+   "file": "other/e39e2ef2.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "src/82043b66.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "494a075b49603c5260627d204a7b676e9391dd0e"
+  },
+  {
+   "file": "src/82043b66.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "src/82043b66.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "pypi.org"
+  },
+  {
+   "file": "_/25ab449a.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "FT6WWDZ0SZSBNY6155O4BH4CVA"
+  },
+  {
+   "file": "_/25ab449a.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "fe1bc21e-83f5-4026-8d60-5cc0f13b6538"
+  },
+  {
+   "file": "_/25ab449a.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "auth0.com"
+  },
+  {
+   "file": "_/25ab449a.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/4ecf5c66.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIiw1JtZFBLTvSBPNky2t8Ygh/jRGZDFvusJ3Yt/ChiuA"
+  },
+  {
+   "file": "test/4ecf5c66.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "006997a1eca51a374805e0b31e56c4f80af70fe94c264dfcd114551f7d3a2a81"
+  },
+  {
+   "file": "test/4ecf5c66.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/4ecf5c66.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "test/4c4f608a.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "baer_auto"
+  },
+  {
+   "file": "test/4c4f608a.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "svc_reports"
+  },
+  {
+   "file": "test/4c4f608a.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Tip2021"
+  },
+  {
+   "file": "test/4c4f608a.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "readonly"
+  },
+  {
+   "file": "test/4c4f608a.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "importer"
+  },
+  {
+   "file": "test/4c4f608a.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "props_general"
+  },
+  {
+   "file": "_/b8c76ea9.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "8.8.8.8"
+  },
+  {
+   "file": "_/b8c76ea9.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "6.23.13"
+  },
+  {
+   "file": "_/b8c76ea9.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:b4b7e461a7d13d0135784ac533c624c97d68792024c116bc8e8c91b1136b44ed"
+  },
+  {
+   "file": "_/b8c76ea9.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/b8c76ea9.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  }
+ ]
+}

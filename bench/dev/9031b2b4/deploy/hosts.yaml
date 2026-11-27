@@ -1,0 +1,15 @@
+monitoring: nimbus.vantor-ops.io
+database:
+  host: pallas.vantor-ops.io
+  port: 5432
+queue: atlas.vantor-ops.io
+backup_target: kestrel.vantor-ops.io
+website: kunden.vantor-ops.io
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: sftp.logistik-nord.de
+allow_sources:
+  - 85.200.113.248
+  - 185.199.108.153
+  - 85.200.44.169
+ntp: 162.159.200.1
+mirrors: [gitlab.freedesktop.org, registry.terraform.io]

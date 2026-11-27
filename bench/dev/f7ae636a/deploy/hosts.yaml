@@ -1,0 +1,15 @@
+monitoring: juno.vantor-ops.io
+database:
+  host: orion.vantor-ops.io
+  port: 5432
+queue: hermes.vantor-ops.io
+backup_target: nimbus.vantor-ops.io
+website: www.vantor-ops.io
+payments_api: https://api.paycore.com/v2
+partner_drop: files.paycore.de
+allow_sources:
+  - 178.192.247.121
+  - 192.30.252.153
+  - 178.196.79.95
+ntp: 131.188.3.220
+mirrors: [vault.centos.org, gitlab.freedesktop.org]

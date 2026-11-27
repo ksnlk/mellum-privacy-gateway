@@ -1,0 +1,19 @@
+# brightloop payments service
+database:
+  host: admin.brightloop-corp.de
+  user: payments
+  password: "hans474!"
+  password_source: secret/data/brightloop/crm/staging
+  password_env: CRM_CLIENT_SECRET
+api:
+  key_header: X-Api-Key
+  partner_ident: 7pB1MEbWo9Yaa7ksY086sQH0yVxXhawa
+  key_file: /var/run/secrets/etl/token
+  signing_alg: HS256
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 999593916928-vqppkiqd11fxrikax09b7ex8j4ybdzao.apps.googleusercontent.com
+  client_proof: rdsuqmmx2oxt6s3sa5ziy8n5n3pu1zwr
+  secret_rotated_at: "2023-01-14T00:00:00Z"
+  secret_name: vault-api-token
+pagination:
+  first_cursor: b3JkZXI6OTk3NTE6b2Zmc2V0OjE4MA==

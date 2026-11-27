@@ -1,0 +1,15 @@
+monitoring: hermes.helix.net
+database:
+  host: nimbus.helix.net
+  port: 5432
+queue: falkor.helix.net
+backup_target: vega.helix.net
+website: www.helix.net
+payments_api: https://api.paycore.com/v2
+partner_drop: sftp.paycore.de
+allow_sources:
+  - 185.9.64.175
+  - 192.30.252.153
+  - 185.40.154.81
+ntp: 212.18.3.19
+mirrors: [ci.jenkins.io, jenkins.debian.net]

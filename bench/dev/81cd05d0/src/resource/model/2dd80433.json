@@ -1,0 +1,468 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2019-07-29",
+    "endpointPrefix":"wafv2",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceAbbreviation":"WAFV2",
+    "serviceFullName":"AWS WAFV2",
+    "serviceId":"WAFV2",
+    "signatureVersion":"v4",
+    "targetPrefix":"AWSWAF_20190729",
+    "uid":"wafv2-2019-07-29"
+  },
+  "operations":{
+    "AssociateWebACL":{
+      "name":"AssociateWebACL",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AssociateWebACLRequest"},
+      "output":{"shape":"AssociateWebACLResponse"},
+      "errors":[
+        {"shape":"WAFInternalErrorException"},
+        {"shape":"WAFInvalidParameterException"},
+        {"shape":"WAFNonexistentItemException"},
+        {"shape":"WAFUnavailableEntityException"},
+        {"shape":"WAFInvalidOperationException"}
+      "input":{"shape":"ListRuleGroupsRequest"},
+      "output":{"shape":"ListRuleGroupsResponse"},
+      "errors":[
+        {"shape":"WAFInternalErrorException"},
+        {"shape":"WAFInvalidParameterException"},
+        {"shape":"WAFInvalidOperationException"}
+      ],
+      "documentation":"<p>Retrieves an array of <a>RuleGroupSummary</a> objects for the rule groups that you manage. </p>"
+    },
+    "ListTagsForResource":{
+      "name":"ListTagsForResource",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ListTagsForResourceRequest"},
+      "output":{"shape":"ListTagsForResourceResponse"},
+      "errors":[
+        {"shape":"WAFInternalErrorException"},
+        {"shape":"WAFInvalidParameterException"},
+        {"shape":"WAFNonexistentItemException"},
+        {"shape":"WAFTagOperationException"},
+        {"shape":"WAFTagOperationInternalErrorException"},
+        {"shape":"WAFInvalidOperationException"}
+      ],
+      "documentation":"<p>Retrieves the <a>TagInfoForResource</a> for the specified resource. Tags are key:value pairs that you can use to categorize and manage your resources, for purposes like billing. For example, you might set the tag key to \"customer\" and the value to the customer name or ID. You can specify one or more tags to add to each AWS resource, up to 50 tags for a resource.</p> <p>You can tag the AWS resources that you manage through AWS WAF: web ACLs, rule groups, IP sets, and regex pattern sets. You can't manage or view tags through the AWS WAF console. </p>"
+    },
+    "ListWebACLs":{
+      "name":"ListWebACLs",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ListWebACLsRequest"},
+      "output":{"shape":"ListWebACLsResponse"},
+      "errors":[
+        {"shape":"WAFInternalErrorException"},
+        {"shape":"WAFInvalidParameterException"},
+        {"shape":"WAFInvalidOperationException"}
+      ],
+      "documentation":"<p>Retrieves an array of <a>WebACLSummary</a> objects for the web ACLs that you manage.</p>"
+    },
+    "PutLoggingConfiguration":{
+      "name":"PutLoggingConfiguration",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"PutLoggingConfigurationRequest"},
+      "output":{"shape":"PutLoggingConfigurationResponse"},
+      "errors":[
+      "errors":[
+        {"shape":"WAFNonexistentItemException"},
+        {"shape":"WAFInternalErrorException"},
+        {"shape":"WAFInvalidParameterException"},
+        {"shape":"WAFInvalidPermissionPolicyException"}
+      ],
+      "documentation":"<p>Attaches an IAM policy to the specified resource. Use this to share a rule group across accounts.</p> <p>You must be the owner of the rule group to perform this operation.</p> <p>This action is subject to the following restrictions:</p> <ul> <li> <p>You can attach only one policy with each <code>PutPermissionPolicy</code> request.</p> </li> <li> <p>The ARN in the request must be a valid WAF <a>RuleGroup</a> ARN and the rule group must exist in the same region.</p> </li> <li> <p>The user making the request must be the owner of the rule group.</p> </li> </ul>"
+    },
+    "TagResource":{
+      "name":"TagResource",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"TagResourceRequest"},
+      "output":{"shape":"TagResourceResponse"},
+      "errors":[
+        {"shape":"WAFInternalErrorException"},
+        {"shape":"WAFInvalidParameterException"},
+        {"shape":"WAFLimitsExceededException"},
+        {"shape":"WAFNonexistentItemException"},
+        {"shape":"WAFTagOperationException"},
+        {"shape":"WAFTagOperationInternalErrorException"},
+        {"shape":"WAFInvalidOperationException"}
+      ],
+      "documentation":"<p>Associates tags with the specified AWS resource. Tags are key:value pairs that you can use to categorize and manage your resources, for purposes like billing. For example, you might set the tag key to \"customer\" and the value to the customer name or ID. You can specify one or more tags to add to each AWS resource, up to 50 tags for a resource.</p> <p>You can tag the AWS resources that you manage through AWS WAF: web ACLs, rule groups, IP sets, and regex pattern sets. You can't manage or view tags through the AWS WAF console. </p>"
+    },
+    "UntagResource":{
+      "name":"UntagResource",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"UntagResourceRequest"},
+      "output":{"shape":"UntagResourceResponse"},
+      "errors":[
+        {"shape":"WAFInternalErrorException"},
+        {"shape":"WAFInvalidParameterException"},
+        {"shape":"WAFNonexistentItemException"},
+        {"shape":"WAFTagOperationException"},
+        {"shape":"WAFTagOperationInternalErrorException"},
+        {"shape":"WAFInvalidOperationException"}
+      ],
+      "documentation":"<p>Disassociates tags from an AWS resource. Tags are key:value pairs that you can associate with AWS resources. For example, the tag key might be \"customer\" and the tag value might be \"companyA.\" You can specify one or more tags to add to each container. You can add up to 50 tags to each AWS resource.</p>"
+    },
+    "UpdateIPSet":{
+      "name":"UpdateIPSet",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"UpdateIPSetRequest"},
+      "output":{"shape":"UpdateIPSetResponse"},
+      "errors":[
+        {"shape":"WAFInternalErrorException"},
+        {"shape":"WAFInvalidParameterException"},
+        {"shape":"WAFNonexistentItemException"},
+        {"shape":"WAFDuplicateItemException"},
+        {"shape":"WAFOptimisticLockException"},
+        {"shape":"WAFLimitsExceededException"},
+        {"shape":"WAFInvalidOperationException"}
+      ],
+      "documentation":"<p>Updates the specified <a>IPSet</a>. </p> <note> <p>This operation completely replaces any IP address specifications that you already have in the IP set with the ones that you provide to this call. If you want to add to or modify the addresses that are already in the IP set, retrieve those by calling <a>GetIPSet</a>, update them, and provide the complete updated array of IP addresses to this call.</p> </note>"
+    },
+    "UpdateRegexPatternSet":{
+      "name":"UpdateRegexPatternSet",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+        "Addresses"
+      ],
+      "members":{
+        "Name":{
+          "shape":"EntityName",
+          "documentation":"<p>The name of the IP set. You cannot change the name of an <code>IPSet</code> after you create it.</p>"
+        },
+        "Scope":{
+          "shape":"Scope",
+          "documentation":"<p>Specifies whether this is for an AWS CloudFront distribution or for a regional application. A regional application can be an Application Load Balancer (ALB), an API Gateway REST API, or an AppSync GraphQL API. </p> <p>To work with CloudFront, you must also specify the Region US East (N. Virginia) as follows: </p> <ul> <li> <p>CLI - Specify the Region when you use the CloudFront scope: <code>--scope=CLOUDFRONT --region=us-east-1</code>. </p> </li> <li> <p>API and SDKs - For all calls, use the Region endpoint us-east-1. </p> </li> </ul>"
+        },
+        "Description":{
+          "shape":"EntityDescription",
+          "documentation":"<p>A description of the IP set that helps with identification. </p>"
+        },
+        "IPAddressVersion":{
+          "shape":"IPAddressVersion",
+          "documentation":"<p>Specify IPV4 or IPV6. </p>"
+        },
+        "Addresses":{
+          "shape":"IPAddresses",
+          "documentation":"<p>Contains an array of strings that specify one or more IP addresses or blocks of IP addresses in Classless Inter-Domain Routing (CIDR) notation. AWS WAF supports all IPv4 and IPv6 CIDR ranges except for /0. </p> <p>Examples: </p> <ul> <li> <p>To configure AWS WAF to allow, block, or count requests that originated from the IP address 192.0.2.44, specify <code>192.0.2.44/32</code>.</p> </li> <li> <p>To configure AWS WAF to allow, block, or count requests that originated from IP addresses from 192.0.2.0 to 192.0.2.255, specify <code>192.0.2.0/24</code>.</p> </li> <li> <p>To configure AWS WAF to allow, block, or count requests that originated from the IP address 1111:0000:0000:0000:0000:0000:0000:0111, specify <code>1111:0000:0000:0000:0000:0000:0000:0111/128</code>.</p> </li> <li> <p>To configure AWS WAF to allow, block, or count requests that originated from IP addresses 1111:0000:0000:0000:0000:0000:0000:0000 to 1111:0000:0000:0000:ffff:ffff:ffff:ffff, specify <code>1111:0000:0000:0000:0000:0000:0000:0000/64</code>.</p> </li> </ul> <p>For more information about CIDR notation, see the Wikipedia entry <a href=\"https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing\">Classless Inter-Domain Routing</a>.</p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>An array of key:value pairs to associate with the resource.</p>"
+        }
+      }
+    },
+    "CreateIPSetResponse":{
+      "type":"structure",
+      "members":{
+        "Summary":{
+          "shape":"IPSetSummary",
+          "documentation":"<p>High-level information about an <a>IPSet</a>, returned by operations like create and list. This provides information like the ID, that you can use to retrieve and manage an <code>IPSet</code>, and the ARN, that you provide to the <a>IPSetReferenceStatement</a> to use the address set in a <a>Rule</a>.</p>"
+        }
+      }
+    },
+    "CreateRegexPatternSetRequest":{
+      "type":"structure",
+      "required":[
+        "Name",
+        "Scope",
+        "RegularExpressionList"
+      ],
+      "members":{
+        "Name":{
+          "shape":"EntityName",
+          "documentation":"<p>The name of the set. You cannot change the name after you create the set.</p>"
+        },
+        "Scope":{
+          "shape":"Scope",
+          "documentation":"<p>Specifies whether this is for an AWS CloudFront distribution or for a regional application. A regional application can be an Application Load Balancer (ALB), an API Gateway REST API, or an AppSync GraphQL API. </p> <p>To work with CloudFront, you must also specify the Region US East (N. Virginia) as follows: </p> <ul> <li> <p>CLI - Specify the Region when you use the CloudFront scope: <code>--scope=CLOUDFRONT --region=us-east-1</code>. </p> </li> <li> <p>API and SDKs - For all calls, use the Region endpoint us-east-1. </p> </li> </ul>"
+        },
+        "Description":{
+          "shape":"EntityDescription",
+          "documentation":"<p>A description of the set that helps with identification. </p>"
+        },
+        "RegularExpressionList":{
+          "shape":"RegularExpressionList",
+          "documentation":"<p>Array of regular expression strings. </p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>An array of key:value pairs to associate with the resource.</p>"
+        }
+      }
+    },
+    "CreateRegexPatternSetResponse":{
+      "type":"structure",
+      "members":{
+        "Summary":{
+          "shape":"RegexPatternSetSummary",
+          "documentation":"<p>High-level information about a <a>RegexPatternSet</a>, returned by operations like create and list. This provides information like the ID, that you can use to retrieve and manage a <code>RegexPatternSet</code>, and the ARN, that you provide to the <a>RegexPatternSetReferenceStatement</a> to use the pattern set in a <a>Rule</a>.</p>"
+        }
+      }
+    },
+    "CreateRuleGroupRequest":{
+      "type":"structure",
+      "required":[
+        "Name",
+        "Scope",
+        "Capacity",
+        "VisibilityConfig"
+      ],
+      "members":{
+        "Name":{
+          "shape":"EntityName",
+          "documentation":"<p>The name of the rule group. You cannot change the name of a rule group after you create it.</p>"
+        },
+        "Scope":{
+          "shape":"Scope",
+          "documentation":"<p>Specifies whether this is for an AWS CloudFront distribution or for a regional application. A regional application can be an Application Load Balancer (ALB), an API Gateway REST API, or an AppSync GraphQL API. </p> <p>To work with CloudFront, you must also specify the Region US East (N. Virginia) as follows: </p> <ul> <li> <p>CLI - Specify the Region when you use the CloudFront scope: <code>--scope=CLOUDFRONT --region=us-east-1</code>. </p> </li> <li> <p>API and SDKs - For all calls, use the Region endpoint us-east-1. </p> </li> </ul>"
+        },
+        "Capacity":{
+          "shape":"CapacityUnit",
+          "documentation":"<p>The web ACL capacity units (WCUs) required for this rule group.</p> <p>When you create your own rule group, you define this, and you cannot change it after creation. When you add or modify the rules in a rule group, AWS WAF enforces this limit. You can check the capacity for a set of rules using <a>CheckCapacity</a>.</p> <p>AWS WAF uses WCUs to calculate and control the operating resources that are used to run your rules, rule groups, and web ACLs. AWS WAF calculates capacity differently for each rule type, to reflect the relative cost of each rule. Simple rules that cost little to run use fewer WCUs than more complex rules that use more processing power. Rule group capacity is fixed at creation, which helps users plan their web ACL WCU usage when they use a rule group. The WCU limit for web ACLs is 1,500. </p>"
+        },
+        "Description":{
+          "shape":"EntityDescription",
+          "documentation":"<p>A description of the rule group that helps with identification. </p>"
+        },
+        "Rules":{
+          "shape":"Rules",
+          "documentation":"<p>The <a>Rule</a> statements used to identify the web requests that you want to allow, block, or count. Each rule includes one top-level statement that AWS WAF uses to identify matching web requests, and parameters that govern how AWS WAF handles them. </p>"
+        },
+        "VisibilityConfig":{
+          "shape":"VisibilityConfig",
+          "documentation":"<p>Defines and enables Amazon CloudWatch metrics and web request sample collection. </p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>An array of key:value pairs to associate with the resource.</p>"
+        },
+        "CustomResponseBodies":{
+          "shape":"CustomResponseBodies",
+          "documentation":"<p>A map of custom response keys and content bodies. When you create a rule with a block action, you can send a custom response to the web request. You define these for the rule group, and then use them in the rules that you define in the rule group. </p> <p>For information about customizing web requests and responses, see <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-custom-request-response.html\">Customizing web requests and responses in AWS WAF</a> in the <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html\">AWS WAF Developer Guide</a>. </p> <p>For information about the limits on count and size for custom request and response settings, see <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/limits.html\">AWS WAF quotas</a> in the <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html\">AWS WAF Developer Guide</a>. </p>"
+        }
+      }
+    },
+    "CreateRuleGroupResponse":{
+      "type":"structure",
+      "members":{
+        "Summary":{
+          "shape":"RuleGroupSummary",
+          "documentation":"<p>High-level information about a <a>RuleGroup</a>, returned by operations like create and list. This provides information like the ID, that you can use to retrieve and manage a <code>RuleGroup</code>, and the ARN, that you provide to the <a>RuleGroupReferenceStatement</a> to use the rule group in a <a>Rule</a>.</p>"
+        }
+      }
+    },
+    "CreateWebACLRequest":{
+      "type":"structure",
+      "required":[
+        "Name",
+        "Scope",
+        "DefaultAction",
+        "VisibilityConfig"
+      ],
+      "members":{
+          "shape":"EntityName",
+          "documentation":"<p>The name of the Web ACL. You cannot change the name of a Web ACL after you create it.</p>"
+        },
+        "Scope":{
+          "shape":"Scope",
+          "documentation":"<p>Specifies whether this is for an AWS CloudFront distribution or for a regional application. A regional application can be an Application Load Balancer (ALB), an API Gateway REST API, or an AppSync GraphQL API. </p> <p>To work with CloudFront, you must also specify the Region US East (N. Virginia) as follows: </p> <ul> <li> <p>CLI - Specify the Region when you use the CloudFront scope: <code>--scope=CLOUDFRONT --region=us-east-1</code>. </p> </li> <li> <p>API and SDKs - For all calls, use the Region endpoint us-east-1. </p> </li> </ul>"
+        },
+        "DefaultAction":{
+          "shape":"DefaultAction",
+          "documentation":"<p>The action to perform if none of the <code>Rules</code> contained in the <code>WebACL</code> match. </p>"
+        },
+        "Description":{
+          "shape":"EntityDescription",
+          "documentation":"<p>A description of the Web ACL that helps with identification. </p>"
+        },
+        "Rules":{
+          "shape":"Rules",
+          "documentation":"<p>The <a>Rule</a> statements used to identify the web requests that you want to allow, block, or count. Each rule includes one top-level statement that AWS WAF uses to identify matching web requests, and parameters that govern how AWS WAF handles them. </p>"
+        },
+        "VisibilityConfig":{
+          "shape":"VisibilityConfig",
+          "documentation":"<p>Defines and enables Amazon CloudWatch metrics and web request sample collection. </p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>An array of key:value pairs to associate with the resource.</p>"
+        },
+        "CustomResponseBodies":{
+          "shape":"CustomResponseBodies",
+          "documentation":"<p>A map of custom response keys and content bodies. When you create a rule with a block action, you can send a custom response to the web request. You define these for the web ACL, and then use them in the rules and default actions that you define in the web ACL. </p> <p>For information about customizing web requests and responses, see <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-custom-request-response.html\">Customizing web requests and responses in AWS WAF</a> in the <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html\">AWS WAF Developer Guide</a>. </p> <p>For information about the limits on count and size for custom request and response settings, see <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/limits.html\">AWS WAF quotas</a> in the <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html\">AWS WAF Developer Guide</a>. </p>"
+        }
+      }
+    },
+    "CreateWebACLResponse":{
+      "type":"structure",
+      "members":{
+        "Summary":{
+          "shape":"WebACLSummary",
+          "documentation":"<p>High-level information about a <a>WebACL</a>, returned by operations like create and list. This provides information like the ID, that you can use to retrieve and manage a <code>WebACL</code>, and the ARN, that you provide to operations like <a>AssociateWebACL</a>.</p>"
+        }
+      }
+    },
+    "CustomHTTPHeader":{
+      "type":"structure",
+      "required":[
+        "Name",
+        "Value"
+      ],
+      "members":{
+        "Name":{
+          "shape":"CustomHTTPHeaderName",
+        },
+        "ManagedRuleGroupStatement":{
+          "shape":"ManagedRuleGroupStatement",
+          "documentation":"<p>A rule statement used to run the rules that are defined in a managed rule group. To use this, provide the vendor name and the name of the rule group in this statement. You can retrieve the required names by calling <a>ListAvailableManagedRuleGroups</a>.</p> <p>You can't nest a <code>ManagedRuleGroupStatement</code>, for example for use inside a <code>NotStatement</code> or <code>OrStatement</code>. It can only be referenced as a top-level statement within a rule.</p>"
+        },
+        "LabelMatchStatement":{
+          "shape":"LabelMatchStatement",
+          "documentation":"<p>A rule statement that defines a string match search against labels that have been added to the web request by rules that have already run in the web ACL. </p> <p>The label match statement provides the label or namespace string to search for. The label string can represent a part or all of the fully qualified label name that had been added to the web request. Fully qualified labels have a prefix, optional namespaces, and label name. The prefix identifies the rule group or web ACL context of the rule that added the label. If you do not provide the fully qualified name in your label match string, AWS WAF performs the search for labels that were added in the same context as the label match statement. </p>"
+        }
+      },
+      "documentation":"<p>The processing guidance for a <a>Rule</a>, used by AWS WAF to determine whether a web request matches the rule. </p>"
+    },
+    "Statements":{
+      "type":"list",
+      "member":{"shape":"Statement"}
+    },
+    "Tag":{
+      "type":"structure",
+      "required":[
+        "Key",
+        "Value"
+      ],
+      "members":{
+        "Key":{
+          "shape":"TagKey",
+          "documentation":"<p>Part of the key:value pair that defines a tag. You can use a tag key to describe a category of information, such as \"customer.\" Tag keys are case-sensitive.</p>"
+        },
+        "Value":{
+          "shape":"TagValue",
+          "documentation":"<p>Part of the key:value pair that defines a tag. You can use a tag value to describe a specific value within a category, such as \"companyA\" or \"companyB.\" Tag values are case-sensitive.</p>"
+        }
+      },
+      "documentation":"<p>A tag associated with an AWS resource. Tags are key:value pairs that you can use to categorize and manage your resources, for purposes like billing or other management. Typically, the tag key represents a category, such as \"environment\", and the tag value represents a specific value within that category, such as \"test,\" \"development,\" or \"production\". Or you might set the tag key to \"customer\" and the value to the customer name or ID. You can specify one or more tags to add to each AWS resource, up to 50 tags for a resource.</p> <p>You can tag the AWS resources that you manage through AWS WAF: web ACLs, rule groups, IP sets, and regex pattern sets. You can't manage or view tags through the AWS WAF console. </p>"
+    },
+    "TagInfoForResource":{
+      "type":"structure",
+      "members":{
+        "ResourceARN":{
+          "shape":"ResourceArn",
+          "documentation":"<p>The Amazon Resource Name (ARN) of the resource.</p>"
+        },
+        "TagList":{
+          "shape":"TagList",
+          "documentation":"<p>The array of <a>Tag</a> objects defined for the resource. </p>"
+        }
+      },
+      "documentation":"<p>The collection of tagging definitions for an AWS resource. Tags are key:value pairs that you can use to categorize and manage your resources, for purposes like billing or other management. Typically, the tag key represents a category, such as \"environment\", and the tag value represents a specific value within that category, such as \"test,\" \"development,\" or \"production\". Or you might set the tag key to \"customer\" and the value to the customer name or ID. You can specify one or more tags to add to each AWS resource, up to 50 tags for a resource.</p> <p>You can tag the AWS resources that you manage through AWS WAF: web ACLs, rule groups, IP sets, and regex pattern sets. You can't manage or view tags through the AWS WAF console. </p>"
+    },
+    "TagKey":{
+      "type":"string",
+      "max":128,
+      "min":1,
+      "pattern":"^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$"
+    },
+    "TagKeyList":{
+      "type":"list",
+      "member":{"shape":"TagKey"},
+      "min":1
+    },
+    "TagList":{
+      "type":"list",
+      "member":{"shape":"Tag"},
+      "min":1
+    },
+    "TagResourceRequest":{
+      "type":"structure",
+      "required":[
+        "ResourceARN",
+        "Tags"
+      ],
+      "members":{
+        "ResourceARN":{
+          "shape":"ResourceArn",
+          "documentation":"<p>The Amazon Resource Name (ARN) of the resource.</p>"
+        },
+        "Tags":{
+          "shape":"TagList",
+          "documentation":"<p>An array of key:value pairs to associate with the resource.</p>"
+        }
+      }
+    },
+    "TagResourceResponse":{
+      "type":"structure",
+      "members":{
+      }
+    },
+    "TagValue":{
+      "type":"string",
+      "max":256,
+      "min":0,
+      "pattern":"^([\\p{L}\\p{Z}\\p{N}_.:/=+\\-@]*)$"
+    },
+    "TextTransformation":{
+      "type":"structure",
+      "required":[
+        "Priority",
+        "Type"
+      ],
+      "members":{
+        "Priority":{
+          "shape":"TextTransformationPriority",
+          "documentation":"<p>Sets the relative processing order for multiple transformations that are defined for a rule statement. AWS WAF processes all transformations, from lowest priority to highest, before inspecting the transformed content. The priorities don't need to be consecutive, but they must all be different. </p>"
+        },
+          "shape":"ResourceArn",
+          "documentation":"<p>The Amazon Resource Name (ARN) of the entity.</p>"
+        }
+      },
+      "documentation":"<p>High-level information about a <a>WebACL</a>, returned by operations like create and list. This provides information like the ID, that you can use to retrieve and manage a <code>WebACL</code>, and the ARN, that you provide to operations like <a>AssociateWebACL</a>.</p>"
+    },
+    "XssMatchStatement":{
+      "type":"structure",
+      "required":[
+        "FieldToMatch",
+        "TextTransformations"
+      ],
+      "members":{
+        "FieldToMatch":{
+          "shape":"FieldToMatch",
+          "documentation":"<p>The part of a web request that you want AWS WAF to inspect. For more information, see <a>FieldToMatch</a>. </p>"
+        },
+        "TextTransformations":{
+          "shape":"TextTransformations",
+          "documentation":"<p>Text transformations eliminate some of the unusual formatting that attackers use in web requests in an effort to bypass detection. If you specify one or more transformations in a rule statement, AWS WAF performs all transformations on the content of the request component identified by <code>FieldToMatch</code>, starting from the lowest priority setting, before inspecting the content for a match.</p>"
+        }
+      },
+      "documentation":"<p>A rule statement that defines a cross-site scripting (XSS) match search for AWS WAF to apply to web requests. XSS attacks are those where the attacker uses vulnerabilities in a benign website as a vehicle to inject malicious client-site scripts into other legitimate web browsers. The XSS match statement provides the location in requests that you want AWS WAF to search and text transformations to use on the search area before AWS WAF searches for character sequences that are likely to be malicious strings. </p>"
+    }
+  },
+  "documentation":"<note> <p>This is the latest version of the <b>AWS WAF</b> API, released in November, 2019. The names of the entities that you use to access this API, like endpoints and namespaces, all have the versioning information added, like \"V2\" or \"v2\", to distinguish from the prior version. We recommend migrating your resources to this version, because it has a number of significant improvements.</p> <p>If you used AWS WAF prior to this release, you can't use this AWS WAFV2 API to access any AWS WAF resources that you created before. You can access your old rules, web ACLs, and other AWS WAF resources only through the AWS WAF Classic APIs. The AWS WAF Classic APIs have retained the prior names, endpoints, and namespaces. </p> <p>For information, including how to migrate your AWS WAF resources to this version, see the <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html\">AWS WAF Developer Guide</a>. </p> </note> <p>AWS WAF is a web application firewall that lets you monitor the HTTP and HTTPS requests that are forwarded to Amazon CloudFront, an Amazon API Gateway REST API, an Application Load Balancer, or an AWS AppSync GraphQL API. AWS WAF also lets you control access to your content. Based on conditions that you specify, such as the IP addresses that requests originate from or the values of query strings, the API Gateway REST API, CloudFront distribution, the Application Load Balancer, or the AWS AppSync GraphQL API responds to requests either with the requested content or with an HTTP 403 status code (Forbidden). You also can configure CloudFront to return a custom error page when a request is blocked.</p> <p>This API guide is for developers who need detailed information about AWS WAF API actions, data types, and errors. For detailed information about AWS WAF features and an overview of how to use AWS WAF, see the <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/\">AWS WAF Developer Guide</a>.</p> <p>You can make calls using the endpoints listed in <a href=\"https://docs.aws.amazon.com/general/latest/gr/rande.html#waf_region\">AWS Service Endpoints for AWS WAF</a>. </p> <ul> <li> <p>For regional applications, you can use any of the endpoints in the list. A regional application can be an Application Load Balancer (ALB), an API Gateway REST API, or an AppSync GraphQL API. </p> </li> <li> <p>For AWS CloudFront applications, you must use the API endpoint listed for US East (N. Virginia): us-east-1.</p> </li> </ul> <p>Alternatively, you can use one of the AWS SDKs to access an API that's tailored to the programming language or platform that you're using. For more information, see <a href=\"http://aws.amazon.com/tools/#SDKs\">AWS SDKs</a>.</p> <p>We currently provide two versions of the AWS WAF API: this API and the prior versions, the classic AWS WAF APIs. This new API provides the same functionality as the older versions, with the following major improvements:</p> <ul> <li> <p>You use one API for both global and regional applications. Where you need to distinguish the scope, you specify a <code>Scope</code> parameter and set it to <code>CLOUDFRONT</code> or <code>REGIONAL</code>. </p> </li> <li> <p>You can define a Web ACL or rule group with a single call, and update it with a single call. You define all rule specifications in JSON format, and pass them to your rule group or Web ACL calls.</p> </li> <li> <p>The limits AWS WAF places on the use of rules more closely reflects the cost of running each type of rule. Rule groups include capacity settings, so you know the maximum cost of a rule group when you use it.</p> </li> </ul>"
+}

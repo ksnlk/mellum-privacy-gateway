@@ -1,0 +1,954 @@
+{
+  "version": "1.0",
+  "examples": {
+    "CreateIPSet": [
+      {
+        "input": {
+          "ChangeToken": "aadf9ca8-6161-f051-5e87-c86436e9534f",
+          "ChangeToken_env": "ETL_SECRET_KEY",
+          "Name": "MyIPSetFriendlyName"
+        },
+        "output": {
+          "ChangeToken": "4bec8016-7428-7830-d984-a25894a9d96f",
+          "IPSet": {
+            "IPSetDescriptors": [
+              {
+                "Type": "IPV4",
+                "Value": "192.0.2.44/32"
+              }
+            ],
+            "IPSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "Name": "MyIPSetFriendlyName"
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example creates an IP match set named MyIPSetFriendlyName.",
+        "id": "createipset-1472501003122",
+        "title": "To create an IP set"
+      }
+    ],
+    "CreateRule": [
+      {
+        "input": {
+          "ChangeToken": "e773439e-18e8-f9b1-ffa7-b35f80e6685b",
+          "MetricName": "WAFByteHeaderRule",
+          "Name": "WAFByteHeaderRule"
+        },
+        "output": {
+          "ChangeToken": "b959372e-f41b-1e1a-55f9-2f1e6d474322",
+          "Rule": {
+            "MetricName": "WAFByteHeaderRule",
+            "Name": "WAFByteHeaderRule",
+            "Predicates": [
+              {
+                "DataId": "MyByteMatchSetID",
+                "Negated": false,
+                "Type": "ByteMatch"
+              }
+            ],
+            "RuleId": "WAFRule-1-Example"
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example creates a rule named WAFByteHeaderRule.",
+        "id": "createrule-1474072675555",
+        "title": "To create a rule"
+      }
+    ],
+    "CreateSizeConstraintSet": [
+      {
+        "input": {
+          "ChangeToken": "e71ea996-7239-fd18-2180-16c8ac460e9c",
+          "Name": "MySampleSizeConstraintSet"
+        },
+        "output": {
+          "ChangeToken": "00936e10-90af-61bf-d448-2241510c859e",
+          "ChangeToken_key_id": "29DQJ4CIMYX6ARHTOGNZ",
+          "SizeConstraintSet": {
+            "Name": "MySampleSizeConstraintSet",
+            "SizeConstraintSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "SizeConstraints": [
+              {
+                "ComparisonOperator": "GT",
+                "FieldToMatch": {
+                  "Type": "QUERY_STRING"
+                },
+                "Size": 0,
+                "TextTransformation": "NONE"
+              }
+            ]
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example creates size constraint set named MySampleSizeConstraintSet.",
+        "id": "createsizeconstraint-1474299140754",
+        "title": "To create a size constraint"
+      }
+    ],
+    "CreateSqlInjectionMatchSet": [
+      {
+        "input": {
+          "ChangeToken": "005ce3a6-a0f0-4903-29b4-347595d87d32",
+          "ChangeToken_vault_path": "secret/data/vantor/crm/staging",
+          "Name": "MySQLInjectionMatchSet"
+        },
+        "output": {
+          "ChangeToken": "6c9d158a-f0b1-f214-6424-d7160d9d9b8c",
+          "ChangeToken_test_vector": "dGhlIHNhbXBsZSBub25jZQ==",
+          "SqlInjectionMatchSet": {
+            "Name": "MySQLInjectionMatchSet",
+            "SqlInjectionMatchSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "SqlInjectionMatchTuples": [
+              {
+                "FieldToMatch": {
+                  "Type": "QUERY_STRING"
+                },
+                "TextTransformation": "URL_DECODE"
+              }
+            ]
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example creates a SQL injection match set named MySQLInjectionMatchSet.",
+        "id": "createsqlinjectionmatchset-1474492796105",
+        "title": "To create a SQL injection match set"
+      }
+    ],
+    "CreateWebACL": [
+      {
+        "input": {
+          "ChangeToken": "c92f94a6-0636-86d8-92a0-613606732292",
+          "ChangeToken_file": "~/.ssh/id_ed25519",
+          "DefaultAction": {
+            "Type": "ALLOW"
+          },
+          "MetricName": "CreateExample",
+          "Name": "CreateExample"
+        },
+        "output": {
+          "ChangeToken": "7110a517-93e0-10f2-d4aa-c3ed9de4d7a4",
+          "WebACL": {
+            "DefaultAction": {
+              "Type": "ALLOW"
+            },
+            "MetricName": "CreateExample",
+            "Name": "CreateExample",
+            "Rules": [
+              {
+                "Action": {
+                  "Type": "ALLOW"
+                },
+                "Priority": 1,
+                "RuleId": "WAFRule-1-Example"
+              }
+            ],
+            "WebACLId": "example-46da-4444-5555-example"
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example creates a web ACL named CreateExample.",
+        "id": "createwebacl-1472061481310",
+        "title": "To create a web ACL"
+      }
+    ],
+    "CreateXssMatchSet": [
+      {
+        "input": {
+          "ChangeToken": "527fcacb-06e3-e6a0-67ed-72ffc04a0e86",
+          "ChangeToken_file": "/var/run/secrets/vault/token",
+          "Name": "MySampleXssMatchSet"
+        },
+        "output": {
+          "ChangeToken": "8ffbbb5f-983c-1377-aca2-75846ecc5a7e",
+          "XssMatchSet": {
+            "Name": "MySampleXssMatchSet",
+            "XssMatchSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "XssMatchTuples": [
+              {
+                "FieldToMatch": {
+                  "Type": "QUERY_STRING"
+                },
+                "TextTransformation": "URL_DECODE"
+              }
+            ]
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example creates an XSS match set named MySampleXssMatchSet.",
+        "id": "createxssmatchset-1474560868500",
+        "title": "To create an XSS match set"
+      }
+    ],
+    "DeleteByteMatchSet": [
+      {
+        "input": {
+          "ByteMatchSetId": "exampleIDs3t-46da-4fdb-b8d5-abc321j569j5",
+          "ChangeToken": "1807672f-a60e-0701-36d0-a36c3154299f"
+        },
+        "output": {
+          "ChangeToken": "8e9b2c4a-ec23-5024-6dcd-e1bec8e48a1c"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes a byte match set with the ID exampleIDs3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "deletebytematchset-1473367566229",
+        "title": "To delete a byte match set"
+      }
+    ],
+    "DeleteIPSet": [
+      {
+        "input": {
+          "ChangeToken": "8dffa43f-7998-8631-9372-155d0cd0701b",
+          "ChangeToken_algo": "HS256",
+          "IPSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+        },
+        "output": {
+          "ChangeToken": "d27b5ee9-7ab3-c3fc-2374-da40b4b1d1e1"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes an IP match set  with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "deleteipset-1472767434306",
+        "title": "To delete an IP set"
+      }
+    ],
+    "DeleteRule": [
+      {
+        "input": {
+          "ChangeToken": "1140652d-b57f-e71f-ce6a-0a1b95e19357",
+          "RuleId": "WAFRule-1-Example"
+        },
+        "output": {
+          "ChangeToken": "2ad17198-4285-5af7-864e-7e7c85d92ffb"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes a rule with the ID WAFRule-1-Example.",
+        "id": "deleterule-1474073108749",
+        "title": "To delete a rule"
+      }
+    ],
+    "DeleteSizeConstraintSet": [
+      {
+        "input": {
+          "ChangeToken": "5dc3ba6b-7be4-eaae-0430-a8135ddc093b",
+          "SizeConstraintSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+        },
+        "output": {
+          "ChangeToken": "f4a74fe5-8520-a66a-8c78-da0acd62c6b1"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes a size constraint set  with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "deletesizeconstraintset-1474299857905",
+        "title": "To delete a size constraint set"
+      }
+    ],
+    "DeleteSqlInjectionMatchSet": [
+      {
+        "input": {
+          "ChangeToken": "ffdf5146-1f27-74e2-833c-cddd0c51ac9c",
+          "SqlInjectionMatchSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+        },
+        "output": {
+          "ChangeToken": "3910b163-191d-452d-9acb-5bbdc0ccd174"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes a SQL injection match set  with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "deletesqlinjectionmatchset-1474493373197",
+        "title": "To delete a SQL injection match set"
+      }
+    ],
+    "DeleteWebACL": [
+      {
+        "input": {
+          "ChangeToken": "37a8b2c8-20da-f0fe-ddc4-7c5e857be4e2",
+          "WebACLId": "example-46da-4444-5555-example"
+        },
+        "output": {
+          "ChangeToken": "28faf9e4-1681-bdf6-1d56-8d983af5a1dc"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes a web ACL with the ID example-46da-4444-5555-example.",
+        "id": "deletewebacl-1472767755931",
+        "title": "To delete a web ACL"
+      }
+    ],
+    "DeleteXssMatchSet": [
+      {
+        "input": {
+          "ChangeToken": "b2772199-a339-001c-3946-5f317fc354a0",
+          "ChangeToken_rotated_at": "2023-11-14T00:00:00Z",
+          "XssMatchSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+        },
+        "output": {
+          "ChangeToken": "4fc295e3-1bfe-8697-4cd7-011173d932b5"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes an XSS match set with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "deletexssmatchset-1474561302618",
+        "title": "To delete an XSS match set"
+      }
+    ],
+    "GetByteMatchSet": [
+      {
+        "input": {
+          "ByteMatchSetId": "exampleIDs3t-46da-4fdb-b8d5-abc321j569j5"
+        },
+        "output": {
+          "ByteMatchSet": {
+            "ByteMatchSetId": "exampleIDs3t-46da-4fdb-b8d5-abc321j569j5",
+            "ByteMatchTuples": [
+              {
+                "FieldToMatch": {
+                  "Data": "referer",
+                  "Type": "HEADER"
+                },
+                "PositionalConstraint": "CONTAINS",
+                "TargetString": "badrefer1",
+                "TextTransformation": "NONE"
+              }
+            ],
+            "Name": "ByteMatchNameExample"
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns the details of a byte match set with the ID exampleIDs3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "getbytematchset-1473273311532",
+        "title": "To get a byte match set"
+      }
+    ],
+    "GetChangeToken": [
+      {
+        "input": {},
+        "output": {
+          "ChangeToken": "2a2d7717-2f01-b300-0483-306f57ce48ee"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns a change token to use for a create, update or delete operation.",
+        "id": "get-change-token-example-1471635120794",
+        "title": "To get a change token"
+      }
+    ],
+    "GetChangeTokenStatus": [
+      {
+        "input": {
+          "ChangeToken": "da88eee0-9c8a-bf19-1058-55fac76cdeea"
+        },
+        "output": {
+          "ChangeTokenStatus": "PENDING"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns the status of a change token with the ID abcd12f2-46da-4fdb-b8d5-fbd4c466928f.",
+        "id": "getchangetokenstatus-1474658417107",
+        "title": "To get the change token status"
+      }
+    ],
+    "GetIPSet": [
+      {
+        "input": {
+          "IPSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+        },
+        "output": {
+          "IPSet": {
+            "IPSetDescriptors": [
+              {
+                "Type": "IPV4",
+                "Value": "192.0.2.44/32"
+              }
+            ],
+            "IPSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "Name": "MyIPSetFriendlyName"
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns the details of an IP match set with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "getipset-1474658688675",
+        "title": "To get an IP set"
+      }
+    ],
+    "GetRule": [
+      {
+        "input": {
+          "RuleId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+        },
+        "output": {
+          "Rule": {
+            "MetricName": "WAFByteHeaderRule",
+            "Name": "WAFByteHeaderRule",
+            "Predicates": [
+              {
+                "DataId": "MyByteMatchSetID",
+                "Negated": false,
+                "Type": "ByteMatch"
+              }
+            ],
+            "RuleId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns the details of a rule with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "getrule-1474659238790",
+        "title": "To get a rule"
+      }
+    ],
+    "GetSampledRequests": [
+      {
+        "input": {
+          "MaxItems": 100,
+          "RuleId": "WAFRule-1-Example",
+          "TimeWindow": {
+            "EndTime": "2016-09-27T15:50Z",
+            "StartTime": "2016-09-27T15:50Z"
+          },
+          "WebAclId": "createwebacl-1472061481310"
+        },
+        "output": {
+          "PopulationSize": 50,
+          "SampledRequests": [
+            {
+              "Action": "BLOCK",
+              "Request": {
+                "ClientIP": "192.0.2.44",
+                "Country": "US",
+                "HTTPVersion": "HTTP/1.1",
+                "Headers": [
+                  {
+                    "Name": "User-Agent",
+                    "Value": "BadBot "
+                  }
+                ],
+                "Method": "HEAD"
+              },
+              "Timestamp": "2016-09-27T14:55Z",
+              "Weight": 1
+            }
+          ],
+          "TimeWindow": {
+            "EndTime": "2016-09-27T15:50Z",
+            "StartTime": "2016-09-27T14:50Z"
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns detailed information about 100 requests --a sample-- that AWS WAF randomly selects from among the first 5,000 requests that your AWS resource received between the time period 2016-09-27T15:50Z to 2016-09-27T15:50Z.",
+        "id": "getsampledrequests-1474927997195",
+        "title": "To get a sampled requests"
+      }
+    ],
+    "GetSizeConstraintSet": [
+      {
+        "input": {
+          "SizeConstraintSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+        },
+        "output": {
+          "SizeConstraintSet": {
+            "Name": "MySampleSizeConstraintSet",
+            "SizeConstraintSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "SizeConstraints": [
+              {
+                "ComparisonOperator": "GT",
+                "FieldToMatch": {
+                  "Type": "QUERY_STRING"
+                },
+                "Size": 0,
+                "TextTransformation": "NONE"
+              }
+            ]
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns the details of a size constraint match set with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "getsizeconstraintset-1475005422493",
+        "title": "To get a size constraint set"
+      }
+    ],
+    "GetSqlInjectionMatchSet": [
+      {
+        "input": {
+          "SqlInjectionMatchSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+        },
+        "output": {
+          "SqlInjectionMatchSet": {
+            "Name": "MySQLInjectionMatchSet",
+            "SqlInjectionMatchSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "SqlInjectionMatchTuples": [
+              {
+                "FieldToMatch": {
+                  "Type": "QUERY_STRING"
+                },
+                "TextTransformation": "URL_DECODE"
+              }
+            ]
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns the details of a SQL injection match set with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "getsqlinjectionmatchset-1475005940137",
+        "title": "To get a SQL injection match set"
+      }
+    ],
+    "GetWebACL": [
+      {
+        "input": {
+          "WebACLId": "createwebacl-1472061481310"
+        },
+        "output": {
+          "WebACL": {
+            "DefaultAction": {
+              "Type": "ALLOW"
+            },
+            "MetricName": "CreateExample",
+            "Name": "CreateExample",
+            "Rules": [
+              {
+                "Action": {
+                  "Type": "ALLOW"
+                },
+                "Priority": 1,
+                "RuleId": "WAFRule-1-Example"
+              }
+            ],
+            "WebACLId": "createwebacl-1472061481310"
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns the details of a web ACL with the ID createwebacl-1472061481310.",
+        "id": "getwebacl-1475006348525",
+        "title": "To get a web ACL"
+      }
+    ],
+    "GetXssMatchSet": [
+      {
+        "input": {
+          "XssMatchSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+        },
+        "output": {
+          "XssMatchSet": {
+            "Name": "MySampleXssMatchSet",
+            "XssMatchSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "XssMatchTuples": [
+              {
+                "FieldToMatch": {
+                  "Type": "QUERY_STRING"
+                },
+                "TextTransformation": "URL_DECODE"
+              }
+            ]
+          }
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns the details of an XSS match set with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "getxssmatchset-1475187879017",
+        "title": "To get an XSS match set"
+      }
+    ],
+    "ListIPSets": [
+      {
+        "input": {
+          "Limit": 100
+        },
+        "output": {
+          "IPSets": [
+            {
+              "IPSetId": "abcd12f2-46da-4fdb-b8d5-fbd4c466928f",
+              "Name": "MyIPSetFriendlyName"
+            }
+          ]
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns an array of up to 100 IP match sets.",
+        "id": "listipsets-1472235676229",
+        "title": "To list IP sets"
+      }
+    ],
+    "ListRules": [
+      {
+        "input": {
+          "Limit": 100
+        },
+        "output": {
+          "Rules": [
+            {
+              "Name": "WAFByteHeaderRule",
+              "RuleId": "WAFRule-1-Example"
+            }
+          ]
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns an array of up to 100 rules.",
+        "id": "listrules-1475258406433",
+        "title": "To list rules"
+      }
+    ],
+    "ListSizeConstraintSets": [
+      {
+        "input": {
+          "Limit": 100
+        },
+        "output": {
+          "SizeConstraintSets": [
+            {
+              "Name": "MySampleSizeConstraintSet",
+              "SizeConstraintSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+            }
+          ]
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns an array of up to 100 size contraint match sets.",
+        "id": "listsizeconstraintsets-1474300067597",
+        "title": "To list a size constraint sets"
+      }
+    ],
+    "ListSqlInjectionMatchSets": [
+      {
+        "input": {
+          "Limit": 100
+        },
+        "output": {
+          "SqlInjectionMatchSets": [
+            {
+              "Name": "MySQLInjectionMatchSet",
+              "SqlInjectionMatchSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+            }
+          ]
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns an array of up to 100 SQL injection match sets.",
+        "id": "listsqlinjectionmatchset-1474493560103",
+        "title": "To list SQL injection match sets"
+      }
+    ],
+    "ListWebACLs": [
+      {
+        "input": {
+          "Limit": 100
+        },
+        "output": {
+          "WebACLs": [
+            {
+              "Name": "WebACLexample",
+              "WebACLId": "webacl-1472061481310"
+            }
+          ]
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns an array of up to 100 web ACLs.",
+        "id": "listwebacls-1475258732691",
+        "title": "To list Web ACLs"
+      }
+    ],
+    "ListXssMatchSets": [
+      {
+        "input": {
+          "Limit": 100
+        },
+        "output": {
+          "XssMatchSets": [
+            {
+              "Name": "MySampleXssMatchSet",
+              "XssMatchSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+            }
+          ]
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example returns an array of up to 100 XSS match sets.",
+        "id": "listxssmatchsets-1474561481168",
+        "title": "To list XSS match sets"
+      }
+    ],
+    "UpdateByteMatchSet": [
+      {
+        "input": {
+          "ByteMatchSetId": "exampleIDs3t-46da-4fdb-b8d5-abc321j569j5",
+          "ChangeToken": "ba7f9eaf-815e-04ea-88a5-d732d12b10a6",
+          "Updates": [
+            {
+              "Action": "DELETE",
+              "ByteMatchTuple": {
+                "FieldToMatch": {
+                  "Data": "referer",
+                  "Type": "HEADER"
+                },
+                "PositionalConstraint": "CONTAINS",
+                "TargetString": "badrefer1",
+                "TextTransformation": "NONE"
+              }
+            }
+          ]
+        },
+        "output": {
+          "ChangeToken": "02a3061e-6e05-677d-4aab-85fd353d3cf2"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes a ByteMatchTuple object (filters) in an byte match set with the ID exampleIDs3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "updatebytematchset-1475259074558",
+        "title": "To update a byte match set"
+      }
+    ],
+    "UpdateIPSet": [
+      {
+        "input": {
+          "ChangeToken": "4a3f9d71-d607-a7bd-3087-37b6eb18073d",
+          "IPSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+          "Updates": [
+            {
+              "Action": "DELETE",
+              "IPSetDescriptor": {
+                "Type": "IPV4",
+                "Value": "192.0.2.44/32"
+              }
+            }
+          ]
+        },
+        "output": {
+          "ChangeToken": "befdf8e8-4709-b5e8-4b8f-63ca5bdb9205"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes an IPSetDescriptor object in an IP match set with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "updateipset-1475259733625",
+        "title": "To update an IP set"
+      }
+    ],
+    "UpdateRule": [
+      {
+        "input": {
+          "ChangeToken": "b71cb5cb-4ff3-75f9-9b69-fcc0821fe152",
+          "RuleId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+          "Updates": [
+            {
+              "Action": "DELETE",
+              "Predicate": {
+                "DataId": "MyByteMatchSetID",
+                "Negated": false,
+                "Type": "ByteMatch"
+              }
+            }
+          ]
+        },
+        "output": {
+          "ChangeToken": "f0350245-ea5d-630a-47f0-91888263d231"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes a Predicate object in a rule with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "updaterule-1475260064720",
+        "title": "To update a rule"
+      }
+    ],
+    "UpdateSizeConstraintSet": [
+      {
+        "input": {
+          "ChangeToken": "0da955fa-8248-ca27-5923-a96511a52684",
+          "ChangeToken_test_vector": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+          "SizeConstraintSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+          "Updates": [
+            {
+              "Action": "DELETE",
+              "SizeConstraint": {
+                "ComparisonOperator": "GT",
+                "FieldToMatch": {
+                  "Type": "QUERY_STRING"
+                },
+                "Size": 0,
+                "TextTransformation": "NONE"
+              }
+            }
+          ]
+        },
+        "output": {
+          "ChangeToken": "ea5e025e-4999-bc05-f273-378d813f4ff0"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes a SizeConstraint object (filters) in a size constraint set with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "updatesizeconstraintset-1475531697891",
+        "title": "To update a size constraint set"
+      }
+    ],
+    "UpdateSqlInjectionMatchSet": [
+      {
+        "input": {
+          "ChangeToken": "f2c10ee2-5496-0b1a-47fa-1876ba5e0891",
+          "ChangeToken_hash": "$2b$10$rSZTci3Wr6Zi6zNJDQ4IO./15rmho0g7eLqEVarL5moOCUQT/ql96",
+          "SqlInjectionMatchSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+          "Updates": [
+            {
+              "Action": "DELETE",
+              "SqlInjectionMatchTuple": {
+                "FieldToMatch": {
+                  "Type": "QUERY_STRING"
+                },
+                "TextTransformation": "URL_DECODE"
+              }
+            }
+          ]
+        },
+        "output": {
+          "ChangeToken": "15312447-cd02-07ba-afb0-30edfed52a36"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes a SqlInjectionMatchTuple object (filters) in a SQL injection match set with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "updatesqlinjectionmatchset-1475532094686",
+        "title": "To update a SQL injection match set"
+      }
+    ],
+    "UpdateWebACL": [
+      {
+        "input": {
+          "ChangeToken": "05dd476a-33fe-49a0-9590-e42ebd07808e",
+          "DefaultAction": {
+            "Type": "ALLOW"
+          },
+          "Updates": [
+            {
+              "Action": "DELETE",
+              "ActivatedRule": {
+                "Action": {
+                  "Type": "ALLOW"
+                },
+                "Priority": 1,
+                "RuleId": "WAFRule-1-Example"
+              }
+            }
+          ],
+          "WebACLId": "webacl-1472061481310"
+        },
+        "output": {
+          "ChangeToken": "64e2c971-1714-d660-175a-4473a52fff07"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes an ActivatedRule object in a WebACL with the ID webacl-1472061481310.",
+        "id": "updatewebacl-1475533627385",
+        "title": "To update a Web ACL"
+      }
+    ],
+    "UpdateXssMatchSet": [
+      {
+        "input": {
+          "ChangeToken": "d8d711f5-ae53-c21f-c0fb-5fa622696960",
+          "Updates": [
+            {
+              "Action": "DELETE",
+              "XssMatchTuple": {
+                "FieldToMatch": {
+                  "Type": "QUERY_STRING"
+                },
+                "TextTransformation": "URL_DECODE"
+              }
+            }
+          ],
+          "XssMatchSetId": "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+        },
+        "output": {
+          "ChangeToken": "43fca8e2-6abe-4b3b-abe9-7684c2702a08"
+        },
+        "comments": {
+          "input": {},
+          "output": {}
+        },
+        "description": "The following example deletes an XssMatchTuple object (filters) in an XssMatchSet with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id": "updatexssmatchset-1475534098881",
+        "title": "To update an XSS match set"
+      }
+    ]
+  }
+}

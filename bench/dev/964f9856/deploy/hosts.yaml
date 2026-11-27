@@ -1,0 +1,15 @@
+monitoring: pallas.nordwind-ops.io
+database:
+  host: tarvos.nordwind-ops.io
+  port: 5432
+queue: juno.nordwind-ops.io
+backup_target: orion.nordwind-ops.io
+website: portal.nordwind-ops.io
+payments_api: https://api.datafjord.com/v2
+partner_drop: edi.datafjord.de
+allow_sources:
+  - 178.102.193.176
+  - 192.30.252.153
+  - 178.102.85.77
+ntp: 216.239.35.0
+mirrors: [registry.terraform.io, repo1.maven.org]

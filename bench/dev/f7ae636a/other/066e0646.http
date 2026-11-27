@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://crm-mq-08.int.vantor-internal.net/api/v3/invoices?page=2
+Authorization: Basic Y2k6bHVmdDcyMCE=
+Cookie: _ga=GA1.2.5IX0WAWRWC7RYUKWKEF0D5KJM1; session_id=sas2tcv4usbli7nfqx4rl20umopsdwv9
+X-Request-Id: 932bbf41-08c0-488a-8a3d-9bb14406381d
+
+### the docs example, safe to share
+GET https://o450123.ingest.sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

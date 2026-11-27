@@ -1,0 +1,19 @@
+# vantor payments service
+database:
+  host: crm.a7bmdl.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "Feuer$1997"
+  password_source: secret/data/vantor/billing/prod
+  password_env: LEDGER_SECRET_KEY
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: F26qwAtZJZ28XHbX7216KTwYg9wSdeeW
+  key_file: /etc/reports/tls/private.key
+  signing_alg: AES-256-GCM
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 712820016513-gejou6907jixvlmdh0gma3h5ry4h4x4c.apps.googleusercontent.com
+  client_proof: h4puppva2p35cu6viplffc9hl65759uo
+  secret_rotated_at: "2024-11-18T00:00:00Z"
+  secret_name: reports-tls
+pagination:
+  first_cursor: aW52b2ljZTo5MDM4MDpvZmZzZXQ6NDkw

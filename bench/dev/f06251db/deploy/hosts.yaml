@@ -1,0 +1,15 @@
+monitoring: kestrel.nordwind.net
+database:
+  host: pallas.nordwind.net
+  port: 5432
+queue: tarvos.nordwind.net
+backup_target: hermes.nordwind.net
+website: kunden.nordwind.net
+payments_api: https://api.paycore.com/v2
+partner_drop: sftp.paycore.de
+allow_sources:
+  - 178.191.11.124
+  - 140.82.113.4
+  - 178.191.17.174
+ntp: 212.18.3.19
+mirrors: [ci.jenkins.io, jenkins.debian.net]

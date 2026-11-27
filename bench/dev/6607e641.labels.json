@@ -1,0 +1,707 @@
+{
+ "repo": "6607e641",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "src/0dc247ba.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "knowingdice5"
+   ]
+  },
+  {
+   "id": 2,
+   "file": "_/a2bfc3ca.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_4YdyUoQ8Kk5UH7xAhKekNwxZ"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "_/a2bfc3ca.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "kXAluO9X5UqLzbYH91nhPoww9Lfur3Nc"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "_/a2bfc3ca.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "aXVzazA2ZmE0Mmp1NmJvdWt0cXMxN3liazZvcGh5czE=",
+    "iusk06fa42ju6bouktqs17ybk6ophys1"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/c2357697.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "c3RydWN0dXJlZC5zYW50YS5wb3N0ZWQuZmxha3k=",
+    "structured.santa.posted.flaky"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/c2357697.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9aR1U1b1NSZ3BWODE1YWpuYVpneDlqNEU=",
+    "sk_live_ZGU5oSRgpV815ajnaZgx9j4E"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/c2357697.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.helix-corp.de"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/665d5393.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "noted_fro_code_haus88"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/665d5393.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "admin.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/3358e6a7.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-api-06.corp.acme-internal.net"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/3358e6a7.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y2k6RmXDvHJlaW50cmFjaHQxOSE=",
+    "ci:Fe\u00fcreintracht19!"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/3358e6a7.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "0e98u22bqqnfpq9n56wk956spqjznr5q"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/ce375715.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.243.138.164"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/ce375715.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-cache-07.int.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/ce375715.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TS42XCTI6/BHCBXN107UP/UQESb3j9SvLCJj6UWUugNJP0"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "fixture/pkg/16b537e6.json",
+   "line": 49,
+   "whole_line": "          \"token\": \"tok_visa\"",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/pkg/95e36f05.go",
+   "line": 66,
+   "whole_line": "\t\tAPIKey:        apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "fixture/pkg/95e36f05.go",
+   "line": 153,
+   "value": "fxt.BaseURL",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/5e74371a.go",
+   "line": 72,
+   "whole_line": "\t\tAPIKey:  tsCtx.PstToken,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/5e74371a.go",
+   "line": 173,
+   "whole_line": "\t\tAPIKey:  tsCtx.APIKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/5e74371a.go",
+   "line": 216,
+   "value": "tsCtx.APIKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/5e74371a.go",
+   "line": 265,
+   "value": "tsCtx.APIKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/5e74371a.go",
+   "line": 302,
+   "value": "tsCtx.APIKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/9a8e410a.go",
+   "line": 176,
+   "value": "tailCmd.apiBaseURL",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/9a8e410a.go",
+   "line": 179,
+   "whole_line": "\t\tKey:        key,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/a2fb7cf4.md",
+   "line": 154,
+   "whole_line": "`STRIPE_SECRET_KEY=\"sk_test_...\"`. To run the tests, create this file and define your own secret testmode key in it.",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/b41d02f7.go",
+   "line": 206,
+   "whole_line": "\t\tKey:              key,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/b41d02f7.go",
+   "line": 207,
+   "value": "baseURL",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/b41d02f7.go",
+   "line": 488,
+   "value": "cfg.APIBaseURL",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/cc92d2b6.go",
+   "line": 29,
+   "whole_line": "\tconfig.Profile.TestModeAPIKey = apiKey",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/cd6bde58.go",
+   "line": 36,
+   "whole_line": "\t\tAPIKey:  apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/client/0190481c.go",
+   "line": 60,
+   "whole_line": "\t\tAPIKey:  c.apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/client/0190481c.go",
+   "line": 112,
+   "whole_line": "\t\tapiKey: key,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/client/075b418f.go",
+   "line": 101,
+   "whole_line": "\tconfig.Profile.LiveModeAPIKey = response.LiveModeAPIKey",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/client/075b418f.go",
+   "line": 103,
+   "whole_line": "\tconfig.Profile.TestModeAPIKey = response.TestModeAPIKey",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/dc3e48d8.go",
+   "line": 73,
+   "whole_line": "\t\tAPIKey: apiKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/e8a20a89.go",
+   "line": 133,
+   "whole_line": "\t\tKey:                   key,",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/e8a20a89.go",
+   "line": 139,
+   "value": "lc.apiBaseURL",
+   "source": "creddata"
+  },
+  {
+   "file": "pkg/fcc93115.go",
+   "line": 19,
+   "whole_line": "\t\"dashboard/apikeys\":                  \"https://dashboard.stripe.com%s/apikeys\",",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/pkg/c6c7cb63.go",
+   "line": 130,
+   "whole_line": "\t\t\"account_token\":    \"string\",",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/pkg/c6c7cb63.go",
+   "line": 704,
+   "whole_line": "\t\t\"client_secret\": \"string\",",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/pkg/c6c7cb63.go",
+   "line": 781,
+   "whole_line": "\t\t\"person_token\":       \"string\",",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/pkg/c6c7cb63.go",
+   "line": 846,
+   "whole_line": "\t\t\"lookup_key\":          \"string\",",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/pkg/c6c7cb63.go",
+   "line": 850,
+   "whole_line": "\t\t\"transfer_lookup_key\": \"boolean\",",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/pkg/c6c7cb63.go",
+   "line": 867,
+   "whole_line": "\t\t\"lookup_key\":          \"string\",",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/pkg/c6c7cb63.go",
+   "line": 869,
+   "whole_line": "\t\t\"transfer_lookup_key\": \"boolean\",",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/pkg/c6c7cb63.go",
+   "line": 1030,
+   "whole_line": "\t\t\"token\":                \"string\",",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/pkg/1775bc38.go",
+   "line": 316,
+   "whole_line": "\t\tdotenv[\"STRIPE_SECRET_KEY\"] = apiKey",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/pkg/1775bc38.go",
+   "line": 317,
+   "whole_line": "\t\tdotenv[\"STRIPE_WEBHOOK_SECRET\"] = authSession.Secret",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 26,
+   "whole_line": "            \"description\": \"If `address_line1` was provided, results of the check: `pass`, `fail`, `unavailable`, or `unchecked`.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 50,
+   "whole_line": "            \"description\": \"If `address_zip` was provided, results of the check: `pass`, `fail`, `unavailable`, or `unchecked`.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 101,
+   "whole_line": "            \"description\": \"If a CVC was provided, results of the check: `pass`, `fail`, `unavailable`, or `unchecked`. A result of unchecked indicates that CVC was provided but hasn't been checked yet. Checks are typically performed when attaching a card to a Customer object, or when creating a charge. For more details, see [Check if a card is valid without a charge](https://support.stripe.com/questions/check-if-a-card-is-valid-without-a-charge).\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 152,
+   "whole_line": "        \"description\": \"Events are our way of letting you know when something interesting happens in\\nyour account. When an interesting event occurs, we create a new `Event`\\nobject. For example, when a charge succeeds, we create a `charge.succeeded`\\nevent; and when an invoice payment attempt fails, we create an\\n`invoice.payment_failed` event. Note that many API requests may cause multiple\\nevents to be created. For example, if you create a new subscription for a\\ncustomer, you will receive both a `customer.subscription.created` event and a\\n`charge.succeeded` event.\\n\\nEvents occur when the state of another API resource changes. The state of that\\nresource at the time of the change is embedded in the event's data field. For\\nexample, a `charge.succeeded` event will contain a charge, and an\\n`invoice.payment_failed` event will contain an invoice.\\n\\nAs with other API resources, you can use endpoints to retrieve an\\n[individual event](https://stripe.com/docs/api#retrieve_event) or a [list of events](https://stripe.com/docs/api#list_events)\\nfrom the API. We also have a separate\\n[webhooks](http://en.wikipedia.org/wiki/Webhook) system for sending the\\n`Event` objects directly to an endpoint on your server. Webhooks are managed\\nin your\\n[account settings](https://dashboard.stripe.com/account/webhooks),\\nand our [Using Webhooks](https://stripe.com/docs/webhooks) guide will help you get set up.\\n\\nWhen using [Connect](https://stripe.com/docs/connect), you can also receive notifications of\\nevents that occur in connected accounts. For these events, there will be an\\nadditional `account` attribute in the received `Event` object.\\n\\n**NOTE:** Right now, access to events through the [Retrieve Event API](https://stripe.com/docs/api#retrieve_event) is\\nguaranteed only for 30 days.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 203,
+   "whole_line": "            \"description\": \"The idempotency key transmitted during the request, if any. *Note: This property is populated only for events on or after May 23, 2017*.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 254,
+   "whole_line": "            \"description\": \"We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 305,
+   "whole_line": "            \"description\": \"If a address line1 was provided, results of the check, one of `pass`, `fail`, `unavailable`, or `unchecked`.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 311,
+   "whole_line": "            \"description\": \"If a address postal code was provided, results of the check, one of `pass`, `fail`, `unavailable`, or `unchecked`.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 317,
+   "whole_line": "            \"description\": \"If a CVC was provided, results of the check, one of `pass`, `fail`, `unavailable`, or `unchecked`.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 368,
+   "whole_line": "            \"description\": \"If a address line1 was provided, results of the check, one of `pass`, `fail`, `unavailable`, or `unchecked`.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 374,
+   "whole_line": "            \"description\": \"If a address postal code was provided, results of the check, one of `pass`, `fail`, `unavailable`, or `unchecked`.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 380,
+   "whole_line": "            \"description\": \"If a CVC was provided, results of the check, one of `pass`, `fail`, `unavailable`, or `unchecked`.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 431,
+   "whole_line": "            \"description\": \"We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 482,
+   "whole_line": "            \"description\": \"Type of the token: `account`, `bank_account`, `card`, or `pii`.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 533,
+   "whole_line": "  \"openapi\": \"3.0.0\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 584,
+   "whole_line": "                                \"description\": \"We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 635,
+   "whole_line": "                                \"description\": \"We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 686,
+   "whole_line": "                                \"description\": \"We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 737,
+   "whole_line": "                    \"description\": \"If this is a `card` PaymentMethod, this hash contains the user's card details. For backwards compatibility, you can alternatively provide a Stripe token (e.g., for Apple Pay, Amex Express Checkout, or legacy Checkout) into the card hash with format `card: {token: \\\"tok_visa\\\"}`. When providing a card number, you must meet the requirements for [PCI compliance](https://stripe.com/docs/security#validating-pci-compliance). We strongly recommend using Stripe.js instead of interacting with this API directly.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 788,
+   "whole_line": "                            \"description\": \"We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 839,
+   "whole_line": "                            \"description\": \"We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/api/5bd2a0c5.json",
+   "line": 890,
+   "whole_line": "                            \"description\": \"We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://stripe.com/docs/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. Permitted values include: `automatic` or `any`. If not provided, defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://stripe.com/docs/payments/3d-secure#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/pkg/edce2966.go",
+   "line": 57,
+   "value": "sk_test_123",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/client/876597bb.go",
+   "line": 101,
+   "whole_line": "\t\tAPIKey:  \"sk_test_1234\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/e64aecca.go",
+   "line": 62,
+   "value": "sk_test_123",
+   "source": "creddata"
+  },
+  {
+   "file": "test/resource/pkg/a613df97.go",
+   "line": 67,
+   "whole_line": "\t\tAPIKey: \"sk_test_1234\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0dc247ba.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Notion Flyway 2.8"
+  },
+  {
+   "file": "src/0dc247ba.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Encourage Declare 1.9"
+  },
+  {
+   "file": "_/a2bfc3ca.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_0Ruie9KFvJbrFjTuFLXuhiYA"
+  },
+  {
+   "file": "_/a2bfc3ca.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "CRM_CLIENT_SECRET"
+  },
+  {
+   "file": "_/a2bfc3ca.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "REPORTS_CLIENT_SECRET"
+  },
+  {
+   "file": "_/a2bfc3ca.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LA8Uq17GrA4f5zBf0i4HAYtfapr21XL1ago8n-K"
+  },
+  {
+   "file": "_/a2bfc3ca.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:esUsPf2g4d+ztUFZ4TwyjVDANw5XfbGYlhm76ci5Wp0"
+  },
+  {
+   "file": "_/a2bfc3ca.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/etc/ledger/tls/private.key"
+  },
+  {
+   "file": "_/a2bfc3ca.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "_/a2bfc3ca.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "_/a2bfc3ca.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "aW52b2ljZTo4MzMwNTpvZmZzZXQ6NDM0"
+  },
+  {
+   "file": "test/c2357697.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "65cf164"
+  },
+  {
+   "file": "test/c2357697.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "efaf589068b825cc798d9e73ca6f467669ea39c71f5f735fb0f16886bb00226d"
+  },
+  {
+   "file": "test/c2357697.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "test/c2357697.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/665d5393.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI63r3xOM4iwz9aMvxNC4ioX55EEFggb4Ki+/fUOhuUFn"
+  },
+  {
+   "file": "_/665d5393.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "17d46fec760816d6bfa764c73d0cd44853753c809411988ad86bc11931fe9f60"
+  },
+  {
+   "file": "_/665d5393.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/665d5393.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "_/3358e6a7.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "XYGYUP90L22PLI4D4JSO17Y43T"
+  },
+  {
+   "file": "_/3358e6a7.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "7e19d87b-7d31-4848-abdf-d5e77922e751"
+  },
+  {
+   "file": "_/3358e6a7.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "_/3358e6a7.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/ce375715.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "31943dda407cee00e595"
+  },
+  {
+   "file": "test/ce375715.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "auth0.com"
+  },
+  {
+   "file": "test/ce375715.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "658f072fe48309bedcf677979470884a52564645"
+  }
+ ]
+}

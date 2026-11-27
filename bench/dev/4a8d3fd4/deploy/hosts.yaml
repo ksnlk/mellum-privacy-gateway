@@ -1,0 +1,15 @@
+monitoring: kestrel.acme-ops.io
+database:
+  host: falkor.acme-ops.io
+  port: 5432
+queue: vega.acme-ops.io
+backup_target: nimbus.acme-ops.io
+website: shop.acme-ops.io
+payments_api: https://api.mailvault.com/v2
+partner_drop: sftp.mailvault.de
+allow_sources:
+  - 85.174.221.131
+  - 192.30.252.153
+  - 85.174.143.185
+ntp: 194.58.200.20
+mirrors: [grafana.wikimedia.org, ci.apache.org]

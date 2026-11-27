@@ -1,0 +1,1226 @@
+{
+ "repo": "0de15ccf",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/2bc0a0c1.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl.5mpsiq.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 2,
+   "file": "test/2bc0a0c1.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043f\u0440\u0438\u0432\u0435\u04427278"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "test/2bc0a0c1.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "tVNDDCcUChl5MoQ85CItmE0iTJvyN6Ho"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "test/2bc0a0c1.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "uv50wwhxq5rfcwpvoc3jp4zguwvsxsg7"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/798592a2.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-replica.kelpie.cloud"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/798592a2.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_rAYr9H4ZynDKhfkb2etKKPbUPXPsv70W52DN"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/65e72fbb.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.YES-r3o84HegHkPFZdMyZInkVF_D_aF_Llknvk-y.8wadyS5taf3TCYSzxKRUJft1ssSPverXwHzTtVX5jUR"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/65e72fbb.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-primary.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/2e91aa2d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "foil_available_koeln76"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/2e91aa2d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-prod.3kh4jq6cd3xv.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/40c5e3cd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Mia Mueller"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/40c5e3cd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "eva23@gmail.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/40c5e3cd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 1841 4022"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/40c5e3cd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.26.66.15"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/40c5e3cd.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "fuchs.slotted.wolke"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/7f64da45.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "104, 89, 120, 71, 66, 56, 86, 122, 85, 54, 80, 105, 105, 69, 78, 106, 79, 70, 88, 106, 78, 115, 89, 110, 115, 99, 53, 83, 49, 81, 122, 99",
+    "hYxGB8VzU6PiiENjOFXjNsYnsc5S1Qzc"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/7f64da45.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "elias.krueger@helix-corp.de"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 53,
+   "whole_line": "                // User-Secrets: https://docs.asp.net/en/latest/security/app-secrets.html",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 66,
+   "whole_line": "                o.AppSecret = Configuration[\"facebook:appsecret\"];",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 83,
+   "whole_line": "                o.ClientSecret = Configuration[\"google:clientsecret\"];",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 103,
+   "whole_line": "                o.ClientSecret = Configuration[\"google:clientsecret\"];",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 104,
+   "whole_line": "                o.AuthorizationEndpoint += \"?prompt=consent\"; // Hack so we always get a refresh token, it only comes on the first authorization response",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 120,
+   "whole_line": "                o.ConsumerSecret = Configuration[\"twitter:consumersecret\"];",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 140,
+   "whole_line": "                o.ClientSecret = Configuration[\"microsoftaccount:clientsecret\"];",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 156,
+   "whole_line": "                o.ClientSecret = Configuration[\"microsoftaccount:clientsecret\"];",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 168,
+   "whole_line": "                o.ClientId = Configuration[\"github-token:clientid\"];",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 169,
+   "whole_line": "                o.ClientSecret = Configuration[\"github-token:clientsecret\"];",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 184,
+   "whole_line": "                o.ClientSecret = Configuration[\"github:clientsecret\"];",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 253,
+   "value": "authscheme",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 291,
+   "whole_line": "                    // var user = await context.AuthenticateAsync(MicrosoftAccountDefaults.AuthenticationScheme);",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 430,
+   "whole_line": "                // var user = await context.AuthenticateAsync();",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/75bb90f9.cs",
+   "line": 433,
+   "whole_line": "                // var user = await context.AuthenticateAsync(MicrosoftAccountDefaults.AuthenticationScheme);",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/90142aee.cs",
+   "line": 55,
+   "whole_line": "                o.ClientSecret = ClientSecret; // for code flow",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/90142aee.cs",
+   "line": 62,
+   "whole_line": "                    OnAuthorizationCodeReceived = async context =>",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/94de5aa0.cs",
+   "line": 60,
+   "whole_line": "                o.ClientSecret = Configuration[\"oidc:clientsecret\"]; // for code flow",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/94de5aa0.cs",
+   "line": 161,
+   "whole_line": "                // var user = await context.AuthenticateAsync(OpenIdConnectDefaults.AuthenticationScheme);",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/b57a669c.cs",
+   "line": 22,
+   "whole_line": "            var key = KeyPrefix + guid.ToString();",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/ff1f351a.cs",
+   "line": 97,
+   "whole_line": "                // var user = await context.AuthenticateAsync();",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/ff1f351a.cs",
+   "line": 99,
+   "value": "WsFederationDefaults.AuthenticationScheme",
+   "source": "creddata"
+  },
+  {
+   "file": "sample/ff1f351a.cs",
+   "line": 108,
+   "value": "WsFederationDefaults.AuthenticationScheme",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0ae21200.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.AspNetCore.Authentication.WsFederation, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/176a4024.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.AspNetCore.Authentication.Cookies, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2510e192.cs",
+   "line": 93,
+   "whole_line": "            string tokenSecret = reader.ReadString();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/2510e192.cs",
+   "line": 101,
+   "whole_line": "            return new RequestToken { Token = token, TokenSecret = tokenSecret, CallbackConfirmed = callbackConfirmed, Properties = properties };",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3784d364.cs",
+   "line": 45,
+   "whole_line": "            AccessTokenSecret = accessTokenSecret;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3afbf064.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.AspNetCore.Authentication.OpenIdConnect, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/3feb1771.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.AspNetCore.Authentication, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4e41b94a.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.AspNetCore.Authentication.Google, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/61425e60.cs",
+   "line": 14,
+   "whole_line": "        public static AuthenticationBuilder AddTwitter(this AuthenticationBuilder builder)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/61425e60.cs",
+   "line": 15,
+   "whole_line": "            => builder.AddTwitter(TwitterDefaults.AuthenticationScheme, _ => { });",
+   "source": "creddata"
+  },
+  {
+   "file": "src/61425e60.cs",
+   "line": 17,
+   "whole_line": "        public static AuthenticationBuilder AddTwitter(this AuthenticationBuilder builder, Action<TwitterOptions> configureOptions)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/61425e60.cs",
+   "line": 18,
+   "whole_line": "            => builder.AddTwitter(TwitterDefaults.AuthenticationScheme, configureOptions);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/616469c5.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.AspNetCore.Authentication.Twitter, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/616469c5.json",
+   "line": 147,
+   "whole_line": "      \"Name\": \"Microsoft.AspNetCore.Authentication.Twitter.TwitterCreatingTicketContext\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/616469c5.json",
+   "line": 255,
+   "whole_line": "          \"ReturnType\": \"System.Func<Microsoft.AspNetCore.Authentication.Twitter.TwitterCreatingTicketContext, System.Threading.Tasks.Task>\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/616469c5.json",
+   "line": 265,
+   "whole_line": "              \"Type\": \"System.Func<Microsoft.AspNetCore.Authentication.Twitter.TwitterCreatingTicketContext, System.Threading.Tasks.Task>\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/616469c5.json",
+   "line": 299,
+   "whole_line": "              \"Type\": \"Microsoft.AspNetCore.Authentication.Twitter.TwitterCreatingTicketContext\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/616469c5.json",
+   "line": 491,
+   "whole_line": "      \"Name\": \"Microsoft.AspNetCore.Authentication.Twitter.RequestTokenSerializer\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/616469c5.json",
+   "line": 881,
+   "whole_line": "      \"Name\": \"Microsoft.AspNetCore.Authentication.Twitter.TwitterPostConfigureOptions\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7133da72.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.AspNetCore.CookiePolicy, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7c5b8970.cs",
+   "line": 15,
+   "whole_line": "    public class TwitterOptions : RemoteAuthenticationOptions",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7c5b8970.cs",
+   "line": 35,
+   "whole_line": "                SecurePolicy = CookieSecurePolicy.SameAsRequest,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7c5b8970.cs",
+   "line": 122,
+   "whole_line": "                    options.Expires = expiresFrom.Add(_twitterOptions.RemoteAuthenticationTimeout);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7ee3cb94.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.AspNetCore.Authentication.MicrosoftAccount, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7f0527c7.cs",
+   "line": 12,
+   "whole_line": "    public class TwitterEvents : RemoteAuthenticationEvents",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7f0527c7.cs",
+   "line": 22,
+   "whole_line": "        public Func<RedirectContext<TwitterOptions>, Task> OnRedirectToAuthorizationEndpoint { get; set; } = context =>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92b13b04.cs",
+   "line": 22,
+   "whole_line": "    public class TwitterHandler : RemoteAuthenticationHandler<TwitterOptions>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92b13b04.cs",
+   "line": 110,
+   "whole_line": "                    new AuthenticationToken { Name = \"access_token_secret\", Value = accessToken.TokenSecret }",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92b13b04.cs",
+   "line": 125,
+   "whole_line": "            var context = new TwitterCreatingTicketContext(Context, Scheme, Options, new ClaimsPrincipal(identity), properties, token.UserId, token.ScreenName, token.Token, token.TokenSecret, user);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92b13b04.cs",
+   "line": 140,
+   "whole_line": "            var twitterAuthenticationEndpoint = TwitterDefaults.AuthenticationEndpoint + requestToken.Token;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92b13b04.cs",
+   "line": 146,
+   "whole_line": "            var redirectContext = new RedirectContext<TwitterOptions>(Context, Scheme, Options, properties, twitterAuthenticationEndpoint);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92b13b04.cs",
+   "line": 156,
+   "whole_line": "                { \"oauth_signature_method\", \"HMAC-SHA1\" },",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92b13b04.cs",
+   "line": 235,
+   "whole_line": "            var response = await ExecuteRequestAsync(TwitterDefaults.RequestTokenEndpoint, HttpMethod.Post, extraOAuthPairs: new Dictionary<string, string>() { { \"oauth_callback\", callBackUri } });",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92b13b04.cs",
+   "line": 245,
+   "whole_line": "            return new RequestToken { Token = Uri.UnescapeDataString(responseParameters[\"oauth_token\"]), TokenSecret = Uri.UnescapeDataString(responseParameters[\"oauth_token_secret\"]), CallbackConfirmed = true, Properties = properties };",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92b13b04.cs",
+   "line": 255,
+   "whole_line": "            var response = await ExecuteRequestAsync(TwitterDefaults.AccessTokenEndpoint, HttpMethod.Post, token, formData: formPost);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92b13b04.cs",
+   "line": 269,
+   "whole_line": "                TokenSecret = Uri.UnescapeDataString(responseParameters[\"oauth_token_secret\"]),",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92b13b04.cs",
+   "line": 300,
+   "whole_line": "        private string ComputeSignature(string consumerSecret, string tokenSecret, string signatureData)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/92b13b04.cs",
+   "line": 308,
+   "whole_line": "                        string.IsNullOrEmpty(tokenSecret) ? string.Empty : Uri.EscapeDataString(tokenSecret)));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/93506cf8.cs",
+   "line": 964,
+   "value": "kasjd",
+   "source": "creddata"
+  },
+  {
+   "file": "src/93506cf8.cs",
+   "line": 1049,
+   "whole_line": "                ClientSecret = Options.ClientSecret,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/afc6f685.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.AspNetCore.Authentication.Facebook, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b8973cd2.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.AspNetCore.Authorization, Version=2.0.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e154646e.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.AspNetCore.Authentication.JwtBearer, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eb5bd47b.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.AspNetCore.Authentication.OAuth, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/f807c2f1.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.AspNetCore.Authorization.Policy, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/7091bf78.json",
+   "line": 2,
+   "whole_line": "  \"AssemblyIdentity\": \"Microsoft.Owin.Security.Interop, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/7f4c8e9a.cs",
+   "line": 168,
+   "whole_line": "                // Key = CookieName, value = \"Segment1Segment2Segment2\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 60,
+   "whole_line": "            Assert.Contains(\"https://accounts.google.com/o/oauth2/v2/auth?response_type=code\", location);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 483,
+   "whole_line": "                                access_token = \"Test Access Token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 517,
+   "whole_line": "            var correlationKey = \".xsrf\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 582,
+   "whole_line": "            var correlationKey = \".xsrf\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 634,
+   "whole_line": "            var correlationKey = \".xsrf\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 673,
+   "whole_line": "                                access_token = \"Test Access Token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 676,
+   "whole_line": "                                refresh_token = \"Test Refresh Token\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 716,
+   "whole_line": "            var correlationKey = \".xsrf\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 753,
+   "whole_line": "                                access_token = \"Test Access Token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 756,
+   "whole_line": "                                refresh_token = \"Test Refresh Token\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 795,
+   "whole_line": "            var correlationKey = \".xsrf\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 843,
+   "whole_line": "                                access_token = \"Test Access Token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 846,
+   "whole_line": "                                refresh_token = \"Test Refresh Token\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 878,
+   "whole_line": "            var correlationKey = \".xsrf\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 951,
+   "whole_line": "            var correlationKey = \".xsrf\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 994,
+   "whole_line": "            var correlationKey = \".xsrf\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 1037,
+   "whole_line": "            var correlationKey = \".xsrf\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 1073,
+   "whole_line": "            var correlationKey = \".xsrf\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 1103,
+   "whole_line": "                            access_token = \"Test Access Token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0ac525a5.cs",
+   "line": 1148,
+   "whole_line": "                if (!p.Identities.Any(i => i.AuthenticationType == \"xform\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 116,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 141,
+   "whole_line": "                return PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 165,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 201,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 224,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 250,
+   "whole_line": "                return PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 275,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 305,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 329,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 356,
+   "whole_line": "                return PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 382,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 413,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 546,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 574,
+   "whole_line": "                return PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 601,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 633,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 664,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 698,
+   "whole_line": "                return PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 731,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 779,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 862,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 896,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 922,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53c4ebe6.cs",
+   "line": 949,
+   "whole_line": "            var response = await PostAsync(server, \"signin-oidc\", \"id_token=my_id_token&state=protected_state&code=my_code\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5de9445c.cs",
+   "line": 20,
+   "whole_line": "    public class TwitterTests : RemoteAuthenticationTests<TwitterOptions>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5de9445c.cs",
+   "line": 22,
+   "whole_line": "        protected override string DefaultScheme => TwitterDefaults.AuthenticationScheme;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5de9445c.cs",
+   "line": 38,
+   "whole_line": "            o.ConsumerKey = \"whatever\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5de9445c.cs",
+   "line": 364,
+   "whole_line": "                        new StringContent(\"oauth_callback_confirmed=true&oauth_token=test_oauth_token&oauth_token_secret=test_oauth_token_secret\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6efb3296.cs",
+   "line": 68,
+   "whole_line": "                services => services.AddAuthentication().AddFacebook(o => o.AppId = \"Whatever\"),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6efb3296.cs",
+   "line": 330,
+   "whole_line": "                                        access_token = \"TestAuthToken\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6efb3296.cs",
+   "line": 356,
+   "whole_line": "            var correlationKey = \".xsrf\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c150a534.cs",
+   "line": 60,
+   "whole_line": "                signingCredentials: creds);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c150a534.cs",
+   "line": 95,
+   "whole_line": "                signingCredentials: creds);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c150a534.cs",
+   "line": 146,
+   "whole_line": "                        context.Token = \"something\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c150a534.cs",
+   "line": 429,
+   "whole_line": "                        context.Token = \"CustomToken\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c150a534.cs",
+   "line": 790,
+   "whole_line": "                            var token = await context.GetTokenAsync(\"access_token\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dde288c5.cs",
+   "line": 193,
+   "whole_line": "                                access_token = \"Test Access Token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dde288c5.cs",
+   "line": 196,
+   "whole_line": "                                refresh_token = \"Test Refresh Token\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/dde288c5.cs",
+   "line": 225,
+   "whole_line": "            var correlationKey = \".xsrf\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e40c67c5.json",
+   "line": 10,
+   "whole_line": "      \"x5c\": [ \"MIIDBTCCAe2gAwIBAgIQHJ7yHxNEM7tBeqcRTMBhhTANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDEyJhY2NvdW50cy5hY2Nlc3Njb250cm9sLndpbmRvd3MubmV0MB4XDTE4MDEwODAwMDAwMFoXDTIwMDEwOTAwMDAwMFowLTErMCkGA1UEAxMiYWNjb3VudHMuYWNjZXNzY29udHJvbC53aW5kb3dzLm5ldDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKSVAfdBDMYjY4JFc+Qiy1LhuW2MIqy9i131bKv552OvOls24p5LxZzbOi76yeg1g+TVdftE6tnmY+1lPB/crZgz7EZydG+PYEQiWDoOvknTnvU5dJQdCASRNWlodznQla2SxOCx+PixiA65MJwlfHShZDtxCFGD2hMrC+IOMC8fkwn6TFhN+1wtPT/pwUVZETXIoa82N/PzAuNjZEXQ8AcmXpl5ECnXZ5+WOaOK1czxqkMt745k4yqJWBCAWGu598hdPOPDBtJN9/G458nHiYJmc48bbZFk1Q4pEF0pXW7t0AqwgJYqW1j1AF2mSvG7mPCz/NBuFP8MeC7mfyq6uTkCAwEAAaMhMB8wHQYDVR0OBBYEFFVWt/4iTcBiWk+EX1dCKZGoAlBQMA0GCSqGSIb3DQEBCwUAA4IBAQCJrLUiCfldfDFhZLG08DpLcwpn8Mvhm61ZpPANyCawRgaoBOsxFJew1qpC2wfXh3yUwJEIkkTGXAsiWENkeqmjd2XXQwZuIHIo5/KyZLfo2m1CmEH/QXL6uRx1f8liPr4efC8H+7/sduf6nPfk0UpNsAHA6RxJFy2jg2wHU+Ux4jK4Gc5d/rJPhJhvyS9Zax1hbTlf+N32ZvS780VMDb/nf2LdtACL0ya/+KSDGVXS3GhS9FLEXrBNjq921ghVIFJhPzm54yfeupIwz+zfISoTHIYw37i7iNUbkvDrm14a27pwLS/tfSuJHKcGPt1sjMu6SS/pf1BlvdoFkKdLLaUb\" ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e40c67c5.json",
+   "line": 19,
+   "whole_line": "      \"x5c\": [ \"MIIDBTCCAe2gAwIBAgIQev76BWqjWZxChmKkGqoAfDANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDEyJhY2NvdW50cy5hY2Nlc3Njb250cm9sLndpbmRvd3MubmV0MB4XDTE4MDIxODAwMDAwMFoXDTIwMDIxOTAwMDAwMFowLTErMCkGA1UEAxMiYWNjb3VudHMuYWNjZXNzY29udHJvbC53aW5kb3dzLm5ldDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMgmGiRfLh6Fdi99XI2VA3XKHStWNRLEy5Aw/gxFxchnh2kPdk/bejFOs2swcx7yUWqxujjCNRsLBcWfaKUlTnrkY7i9x9noZlMrijgJy/Lk+HH5HX24PQCDf+twjnHHxZ9G6/8VLM2e5ZBeZm+t7M3vhuumEHG3UwloLF6cUeuPdW+exnOB1U1fHBIFOG8ns4SSIoq6zw5rdt0CSI6+l7b1DEjVvPLtJF+zyjlJ1Qp7NgBvAwdiPiRMU4l8IRVbuSVKoKYJoyJ4L3eXsjczoBSTJ6VjV2mygz96DC70MY3avccFrk7tCEC6ZlMRBfY1XPLyldT7tsR3EuzjecSa1M8CAwEAAaMhMB8wHQYDVR0OBBYEFIks1srixjpSLXeiR8zES5cTY6fBMA0GCSqGSIb3DQEBCwUAA4IBAQCKthfK4C31DMuDyQZVS3F7+4Evld3hjiwqu2uGDK+qFZas/D/eDunxsFpiwqC01RIMFFN8yvmMjHphLHiBHWxcBTS+tm7AhmAvWMdxO5lzJLS+UWAyPF5ICROe8Mu9iNJiO5JlCo0Wpui9RbB1C81Xhax1gWHK245ESL6k7YWvyMYWrGqr1NuQcNS0B/AIT1Nsj1WY7efMJQOmnMHkPUTWryVZlthijYyd7P2Gz6rY5a81DAFqhDNJl2pGIAE6HWtSzeUEh3jCsHEkoglKfm4VrGJEuXcALmfCMbdfTvtu4rlsaP2hQad+MG/KJFlenoTK34EMHeBPDCpqNDz8UVNk\" ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e40c67c5.json",
+   "line": 28,
+   "whole_line": "      \"x5c\": [ \"MIIDKDCCAhCgAwIBAgIQBHJvVNxP1oZO4HYKh+rypDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDExhsb2dpbi5taWNyb3NvZnRvbmxpbmUudXMwHhcNMTYxMTE2MDgwMDAwWhcNMTgxMTE2MDgwMDAwWjAjMSEwHwYDVQQDExhsb2dpbi5taWNyb3NvZnRvbmxpbmUudXMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQChn5BCs24Hh6L0BNitPrV5s+2/DBhaeytOmnghJKnqeJlhv3ZczShRM2Cp38LW8Y3wn7L3AJtolaSkF/joKN1l6GupzM+HOEdq7xZxFehxIHW7+25mG/WigBnhsBzLv1SR4uIbrQeS5M0kkLwJ9pOnVH3uzMGG6TRXPnK3ivlKl97AiUEKdlRjCQNLXvYf1ZqlC77c/ZCOHSX4kvIKR2uG+LNlSTRq2rn8AgMpFT4DSlEZz4RmFQvQupQzPpzozaz/gadBpJy/jgDmJlQMPXkHp7wClvbIBGiGRaY6eZFxNV96zwSR/GPNkTObdw2S8/SiAgvIhIcqWTPLY6aVTqJfAgMBAAGjWDBWMFQGA1UdAQRNMEuAEDUj0BrjP0RTbmoRPTRMY3WhJTAjMSEwHwYDVQQDExhsb2dpbi5taWNyb3NvZnRvbmxpbmUudXOCEARyb1TcT9aGTuB2Cofq8qQwDQYJKoZIhvcNAQELBQADggEBAGnLhDHVz2gLDiu9L34V3ro/6xZDiSWhGyHcGqky7UlzQH3pT5so8iF5P0WzYqVtogPsyC2LPJYSTt2vmQugD4xlu/wbvMFLcV0hmNoTKCF1QTVtEQiAiy0Aq+eoF7Al5fV1S3Sune0uQHimuUFHCmUuF190MLcHcdWnPAmzIc8fv7quRUUsExXmxSX2ktUYQXzqFyIOSnDCuWFm6tpfK5JXS8fW5bpqTlrysXXz/OW/8NFGq/alfjrya4ojrOYLpunGriEtNPwK7hxj1AlCYEWaRHRXaUIW1ByoSff/6Y6+ZhXPUe0cDlNRt/qIz5aflwO7+W8baTS4O8m/icu7ItE=\" ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/2bc0a0c1.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/kelpie/reports/prod"
+  },
+  {
+   "file": "test/2bc0a0c1.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "CRM_SECRET_KEY"
+  },
+  {
+   "file": "test/2bc0a0c1.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Authorization"
+  },
+  {
+   "file": "test/2bc0a0c1.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/var/run/secrets/billing/token"
+  },
+  {
+   "file": "test/2bc0a0c1.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "scrypt"
+  },
+  {
+   "file": "test/2bc0a0c1.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "test/2bc0a0c1.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "670129816254-21y7ef8vbjywcz985j8psovt28oj2su3.apps.googleusercontent.com"
+  },
+  {
+   "file": "test/2bc0a0c1.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2024-11-10T00:00:00Z"
+  },
+  {
+   "file": "test/2bc0a0c1.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "crm-oauth-client"
+  },
+  {
+   "file": "test/2bc0a0c1.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "dXNlcjo0NTgwNTpvZmZzZXQ6NDI1"
+  },
+  {
+   "file": "other/798592a2.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "7.4.30"
+  },
+  {
+   "file": "other/798592a2.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5.2.0"
+  },
+  {
+   "file": "other/798592a2.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-zDk27PRryGSL6MiTUbN7VJBRIhk5emhd37c7/StuVnkFR+zCzNxGwfiwiwLvAvHwApGH8gA4FakQBJI+7YCwJQ=="
+  },
+  {
+   "file": "other/798592a2.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "8.11.27"
+  },
+  {
+   "file": "other/798592a2.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-9ojcW0CRGnGrwX6IkQbLMgFRgNHthqrWVl1r1biXgZSlW3WwBG92zCNM9ITyaPz2upLtPCUNsSrU4TBB29e2wg=="
+  },
+  {
+   "file": "other/798592a2.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.21.45"
+  },
+  {
+   "file": "other/798592a2.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-HnSAWDtq6ObODFmlCbCCAw5Xhz0A3Le/S7pKZLHdGDq2AjVRr7mfje/n6qn1sFrmNBBCL2zHWPpQSLlEM6STrg=="
+  },
+  {
+   "file": "_/65e72fbb.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "0.3.17"
+  },
+  {
+   "file": "_/65e72fbb.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "e76a6e02247cd6dfb14b10b0b5f005ebc8f71fe9"
+  },
+  {
+   "file": "_/65e72fbb.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "71TA2N646K7WYCEBCTZGJ85MPI"
+  },
+  {
+   "file": "_/65e72fbb.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "_/65e72fbb.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "31J68BU63LYD3PUI4ZC15CFF8Y"
+  },
+  {
+   "file": "_/65e72fbb.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "test/2e91aa2d.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI9NQDw85QkyCA6QOPlRYEXrHeRjKuUkNHHedCY1Lmrg8"
+  },
+  {
+   "file": "test/2e91aa2d.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9826ebb3ea8b31b75dc7095afde126d6e4de78fb2e1f8bdd84debdb467d444fb"
+  },
+  {
+   "file": "test/2e91aa2d.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/2e91aa2d.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "src/40c5e3cd.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "8.8.8.8"
+  },
+  {
+   "file": "src/40c5e3cd.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "6.29.31"
+  },
+  {
+   "file": "src/40c5e3cd.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:ee0f19ce5ca8a7845c68ec79cf6379a7760aa9f98efc64a8d61e00475efafac7"
+  },
+  {
+   "file": "src/40c5e3cd.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/40c5e3cd.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/7f64da45.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "71, 69, 84, 47, 104, 101, 97, 108, 116, 104, 122"
+  },
+  {
+   "file": "_/7f64da45.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "aGVsbG9fd29ybGRfdGVzdA=="
+  },
+  {
+   "file": "_/7f64da45.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "68656c6c6f5f776f726c645f74657374"
+  },
+  {
+   "file": "_/7f64da45.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "_/7f64da45.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@helix-corp.de"
+  }
+ ]
+}

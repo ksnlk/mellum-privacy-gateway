@@ -1,0 +1,15 @@
+monitoring: atlas.quarzo-ops.io
+database:
+  host: vega.quarzo-ops.io
+  port: 5432
+queue: juno.quarzo-ops.io
+backup_target: kestrel.quarzo-ops.io
+website: shop.quarzo-ops.io
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: edi.logistik-nord.de
+allow_sources:
+  - 188.38.90.171
+  - 185.199.108.153
+  - 188.41.201.190
+ntp: 131.188.3.220
+mirrors: [build.opensuse.org, kafka.apache.org]

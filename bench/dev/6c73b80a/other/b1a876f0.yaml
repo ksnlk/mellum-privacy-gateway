@@ -1,0 +1,19 @@
+# nordwind payments service
+database:
+  host: payments-api-06.corp.nordwind-internal.net
+  user: payments
+  password: "осень2637!"
+  password_source: secret/data/nordwind/vault/prod
+  password_env: BILLING_DB_PASSWORD
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: c4I37nchqmjm6Pf4HwXde9y0P3IdkqXF
+  key_file: /var/run/secrets/payments/token
+  signing_alg: RS256
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 770390578427-73xglhnccf5hxhndnwoomtvcmizjiqid.apps.googleusercontent.com
+  client_proof: bcx1nwt6zffn7ihd93do6uu23ti8irxb
+  secret_rotated_at: "2025-02-03T00:00:00Z"
+  secret_name: billing-oauth-client
+pagination:
+  first_cursor: aW52b2ljZTo5NTU4NTpvZmZzZXQ6MTI0

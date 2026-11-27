@@ -1,0 +1,19 @@
+# quarzo payments service
+database:
+  host: argocd.quarzo-corp.de
+  user: payments
+  password: "Incr3d1bly"
+  password_source: secret/data/quarzo/reports/staging
+  password_env: AUTH_AUTH_TOKEN
+api:
+  key_header: X-Auth-Token
+  partner_ident: SB39uUWOIQHF78epzYJwN185l4y0ZJ4t
+  key_file: /var/run/secrets/ledger/token
+  signing_alg: scrypt
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 670420095758-u46cq94c9w147yae53xdgnd815bnbuzc.apps.googleusercontent.com
+  client_proof: guapza3yxogftibh2m29objtaj1rkhds
+  secret_rotated_at: "2023-07-20T00:00:00Z"
+  secret_name: vault-oauth-client
+pagination:
+  first_cursor: b3JkZXI6MjgzNDpvZmZzZXQ6MjU4

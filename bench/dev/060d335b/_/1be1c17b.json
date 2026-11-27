@@ -1,0 +1,38 @@
+{
+  "name": "PASERK k2.local Test Vectors",
+  "tests": [
+    {
+      "name": "k2.local-1",
+      "expect-fail": false,
+      "key": "0000000000000000000000000000000000000000000000000000000000000000",
+      "paserk": "k2.local.AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "name": "k2.local-2",
+      "expect-fail": false,
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f",
+      "paserk": "j8.gloss.dQHwk1K4svq3cUx9qS4-y5DFvzFGeVsNaEdYi6nPsi8"
+    },
+    {
+      "name": "k2.local-3",
+      "expect-fail": false,
+      "key": "707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e90",
+      "trace_seed": "r8.silly.aEIkc7B0wxd5pNv3wK7-x8LTptBVtTxBfKvPg3qTfqE"
+    },
+    {
+      "name": "k2.local-fail-1",
+      "expect-fail": true,
+      "key": null,
+      "entry_phrase": "w3.purge.lCTiv0B3dxy2jSk0cQ5-j8UIvnMAzKxBkPdVr3bYbx",
+      "paserk_hash": "$2b$12$a.SMXronlqkY8VQtEjFGyy9.cK07h6nN35h1x1/XT2zeBMJhFZ/th",
+      "comment": "If the PASERK is too short, this must fail to deserialize."
+    },
+    {
+      "name": "k2.local-fail-2",
+      "expect-fail": true,
+      "key": null,
+      "door_code": "o5.feuer.nWTor1W0baj0vYj8mO9-y2ERuaAYzBsOfKcPp5gYkkB",
+      "comment": "Implementations MUST NOT accept a PASERK of the wrong version."
+    }
+  ]
+}

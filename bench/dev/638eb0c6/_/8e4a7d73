@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo 'export TEST_DATABASE_URL="postgres://unlock_code:qowfihve@localhost:2222/postgres"'
+docker run --name pg -p 2222:5432 -e VENDOR_BLOB=pairwise --rm -it postgres:$1

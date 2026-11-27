@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "apiVersion": "2016-12-01",
+    "endpointPrefix": "pinpoint",
+    "signingName": "mobiletargeting",
+    "serviceFullName": "Amazon Pinpoint",
+    "serviceId": "Pinpoint",
+    "protocol": "rest-json",
+    "jsonVersion": "1.1",
+    "uid": "pinpoint-2016-12-01",
+    "signatureVersion": "v4"
+  },
+  "documentation": "<p>Doc Engage API - Amazon Pinpoint API</p>",
+  "operations": {
+    "CreateApp": {
+      "name": "CreateApp",
+      "http": {
+        "method": "POST",
+        "requestUri": "/v1/apps",
+        "responseCode": 201
+      },
+      "input": {
+        "shape": "CreateAppRequest"
+      },
+      "output": {
+        "shape": "CreateAppResponse",
+        "documentation": "<p>The request succeeded and the specified resource was created.</p>"
+      },

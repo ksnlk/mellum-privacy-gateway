@@ -1,0 +1,15 @@
+monitoring: kestrel.quarzo.net
+database:
+  host: atlas.quarzo.net
+  port: 5432
+queue: pallas.quarzo.net
+backup_target: orion.quarzo.net
+website: kunden.quarzo.net
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: edi.logistik-nord.de
+allow_sources:
+  - 46.30.49.169
+  - 140.82.112.3
+  - 46.36.124.24
+ntp: 216.239.35.0
+mirrors: [registry.terraform.io, ci.jenkins.io]

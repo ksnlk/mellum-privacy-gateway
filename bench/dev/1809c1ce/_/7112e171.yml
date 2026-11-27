@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.brightloop.io/app@sha256:f88f7adba3153f930d9d96572f97adeecccc33ef9325b5b42e91cbf1972690d7
+    environment:
+      - DATABASE_URL=postgres://app:Paul2025.@10.51.234.43:5432/app
+      - SENTRY_RELEASE=25feee3b6934a699858bbe829df8e7b5217b297b
+      - API_TOKEN=${DB_PASSWORD}
+      - BIND_ADDR=0.0.0.0
+  worker:
+    image: registry.brightloop.io/worker:6.9.31
+    environment:
+      - QUEUE_PASS=VzNiM3I=

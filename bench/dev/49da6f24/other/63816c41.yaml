@@ -1,0 +1,19 @@
+# nordwind payments service
+database:
+  host: ledger-prod.wuhrupb97ydn.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "Maus#2027"
+  password_source: secret/data/nordwind/ledger/prod
+  password_env: LEDGER_API_KEY
+api:
+  key_header: Authorization
+  partner_ident: 28k51GyuzxIWTJpaCRpZBncPMT8yHShR
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: HS256
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 152367924944-p3uzkb24kyv28c2rnasmjbsa3amh0fgv.apps.googleusercontent.com
+  client_proof: tdpng2d2zutixurvo4iuw4v8b6gy7y3y
+  secret_rotated_at: "2024-08-14T00:00:00Z"
+  secret_name: billing-oauth-client
+pagination:
+  first_cursor: dXNlcjo3OTE1NTpvZmZzZXQ6NDIy

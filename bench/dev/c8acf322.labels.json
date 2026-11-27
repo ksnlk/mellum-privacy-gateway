@@ -1,0 +1,2365 @@
+{
+ "repo": "c8acf322",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "conf/secret/spec/6ee76903.yml",
+   "line": 4,
+   "start": 20,
+   "end": 148,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "93dc37385ed27db4ee0fde6ddc5a9ab184969059dc5f71259981d34808bf0d616822d4be31c6fc76e59115eb061097def2257e9cb4a73d1201a28bdb1dd2e0dc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "example/spec/4098508b.rb",
+   "line": 332,
+   "start": 16,
+   "end": 25,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "gpckxxwin"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "example/spec/a455e16e.rb",
+   "line": 225,
+   "start": 23,
+   "end": 30,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "jhlyfqc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "example/spec/a455e16e.rb",
+   "line": 233,
+   "start": 23,
+   "end": 31,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "7hviwntf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "spec/1f60346f.rb",
+   "line": 75,
+   "start": 70,
+   "end": 121,
+   "category": "Password",
+   "mutation": "charcodes",
+   "forms": [
+    "106, 114, 109, 112, 113, 100, 110, 97, 117, 121, 33",
+    "jrmpqdnauy!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "spec/979952bd.rb",
+   "line": 269,
+   "start": 65,
+   "end": 121,
+   "category": "Auth",
+   "mutation": "b64",
+   "forms": [
+    "QWtuaEllUm56TVZuUlhTdGF0ZTZvaFZVR1llVUY4eDUwSElVdnQxOEk1",
+    "AknhIeRnzMVnRXState6ohVUGYeUF8x50HIUvt18I5"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "spec/979952bd.rb",
+   "line": 476,
+   "start": 46,
+   "end": 131,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "fb267dad92eec0ba1b203fb0e02eebe7bc544bdb034967d7c6eddecc267184d8d29f0794009bd818d1d9c"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "spec/979952bd.rb",
+   "line": 537,
+   "start": 63,
+   "end": 105,
+   "category": "Auth",
+   "mutation": "none",
+   "forms": [
+    "MxeqZnUzlINrGDVnygz9jgVPNGoFX5x92LIEjt02P0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "spec/a4af4689.rb",
+   "line": 7,
+   "start": 64,
+   "end": 70,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ejqaln"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "spec/bc7a053b.rb",
+   "line": 58,
+   "start": 59,
+   "end": 91,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "d62b16cac4ebaf60cc0b94e327d923e0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "spec/bc7a053b.rb",
+   "line": 103,
+   "start": 55,
+   "end": 75,
+   "category": "Auth",
+   "mutation": "none",
+   "forms": [
+    "duwqjaIGYFUCDhcuYOSH"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "spec/bc7a053b.rb",
+   "line": 110,
+   "start": 55,
+   "end": 75,
+   "category": "Auth",
+   "mutation": "none",
+   "forms": [
+    "lbleusPWGFYIUqxoACDS"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "spec/e71cba7e.rb",
+   "line": 120,
+   "start": 32,
+   "end": 64,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "kpz253rrx248rdleyhxzuaytuvm31651"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "spec/f0cb8289.rb",
+   "line": 40,
+   "start": 54,
+   "end": 72,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "hpz85139nynmq79758"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "spec/f0cb8289.rb",
+   "line": 47,
+   "start": 55,
+   "end": 73,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "hey31502xehgt41133"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "test/99b5eac5.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Yow1981."
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/99b5eac5.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.150.137.234"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/99b5eac5.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "RW1tYXNjaGFsa2UyMSE=",
+    "Emmaschalke21!"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/e77f629f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_TzGw2MSmgXF0Y1mXGTn40NRZ"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/e77f629f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "59ZCVsaTW2LQGsdjKCrKAaVvcPYFR9aF"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/e77f629f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "N3Z3bTR4NXZmbDlqdGRrbWI0ZGVscnpnMjFmeWQ4dmM=",
+    "7vwm4x5vfl9jtdkmb4delrzg21fyd8vc"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/df4a06ff.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.helix-corp.de"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/df4a06ff.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_FshgCHAKkZX2rIRjX7YhJ8x8vOpTXzjn8q3f"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "src/753e7fbf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Noah Zimmermann"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "src/753e7fbf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lea.klein@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "src/753e7fbf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 3040 1268"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "src/753e7fbf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.172.121.205"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "src/753e7fbf.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "wagner_nob_werder_emma34"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "test/88676484.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-db-01.corp.acme-internal.net"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "test/88676484.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "85.18.24.172"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "test/88676484.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben.richter@acme-corp.de"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "test/88676484.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth.2yuo6n.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "test/88676484.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "vicinity-week-pferd38"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "test/d047275c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "argocd.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "test/d047275c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Traum",
+    "Traumsachsen92!",
+    "sachsen92!"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/06572a96.md",
+   "line": 134,
+   "whole_line": "* Added `valid_password?` method",
+   "source": "creddata"
+  },
+  {
+   "file": "_/06572a96.md",
+   "line": 249,
+   "whole_line": "'reset_password!(:password => new_password)' changed into 'change_password!(new_password)'",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/spec/init/1ed8502b.rb",
+   "line": 3,
+   "whole_line": "AppRoot::Application.config.session_store :cookie_store, key: '_app_root_session'",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/spec/init/1ed8502b.rb",
+   "line": 11,
+   "value": "foobar",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 7,
+   "value": "::SorceryMailer",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 27,
+   "whole_line": "      sorcery_model_property_set(:reset_password_token_attribute_name, :my_code)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 29,
+   "whole_line": "      expect(User.sorcery_config.reset_password_token_attribute_name).to eq :my_code",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 39,
+   "value": "my_reset_password_mailer_disabled",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 41,
+   "value": "my_reset_password_mailer_disabled",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 53,
+   "whole_line": "      sorcery_model_property_set(:reset_password_email_method_name, :my_mailer_method)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 55,
+   "whole_line": "      expect(User.sorcery_config.reset_password_email_method_name).to eq :my_mailer_method",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 65,
+   "whole_line": "      sorcery_model_property_set(:reset_password_email_sent_at_attribute_name, :blabla)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 67,
+   "whole_line": "      expect(User.sorcery_config.reset_password_email_sent_at_attribute_name).to eq :blabla",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 79,
+   "value": "::SorceryMailer",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 206,
+   "whole_line": "    it \"'deliver_reset_password_instructions! returns a Mail::Message object\" do",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 207,
+   "whole_line": "      expect(user.deliver_reset_password_instructions!).to be_an_instance_of Mail::Message",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 213,
+   "whole_line": "      old_password_code = user.reset_password_token",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 250,
+   "whole_line": "        sorcery_model_property_set(:reset_password_time_between_emails, 10_000)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 277,
+   "value": "::SorceryMailer",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 294,
+   "whole_line": "        sorcery_model_property_set(:reset_password_time_between_emails, 10_000)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 339,
+   "whole_line": "      user.change_password(new_password)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 345,
+   "whole_line": "      sorcery_model_property_set(:reset_password_time_between_emails, 10_000)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/4098508b.rb",
+   "line": 353,
+   "whole_line": "      user.change_password!('blagu')",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/7d4e194c.rb",
+   "line": 140,
+   "value": "test_token",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/7d4e194c.rb",
+   "line": 141,
+   "whole_line": "        user.magic_login_token_expires_at = Time.now",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/7f800456.rb",
+   "line": 22,
+   "whole_line": "      sorcery_model_property_set(:activation_token_attribute_name, :code)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/7f800456.rb",
+   "line": 24,
+   "whole_line": "      expect(User.sorcery_config.activation_token_attribute_name).to eql :code",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/7f800456.rb",
+   "line": 72,
+   "value": "user.activation_token",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 15,
+   "whole_line": "      sorcery_model_property_set(:password_attribute_name, :mypassword)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 17,
+   "whole_line": "      expect(User.sorcery_config.password_attribute_name).to eq :mypassword",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 27,
+   "whole_line": "      sorcery_model_property_set(:crypted_password_attribute_name, :password)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 29,
+   "whole_line": "      expect(User.sorcery_config.crypted_password_attribute_name).to eq :password",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 33,
+   "whole_line": "      sorcery_model_property_set(:salt_attribute_name, :my_salt)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 35,
+   "whole_line": "      expect(User.sorcery_config.salt_attribute_name).to eq :my_salt",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 65,
+   "whole_line": "      salt_join_token = '--%%*&-'",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 308,
+   "whole_line": "    specify { expect(user_with_pass).to respond_to :valid_password? }",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 311,
+   "whole_line": "      expect(user_with_pass.valid_password?('foobar')).to be true",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 315,
+   "whole_line": "      expect(user_with_pass.valid_password?('foobug')).to be false",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 488,
+   "whole_line": "      expect(user.crypted_password).to eq Sorcery::CryptoProviders::SHA512.encrypt('secret', user.salt)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 500,
+   "whole_line": "      expect(user.crypted_password).not_to eq Sorcery::CryptoProviders::SHA512.encrypt('secret', user.salt)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 502,
+   "value": "User.sorcery_config.salt_join_token",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 504,
+   "whole_line": "      expect(user.crypted_password).to eq Sorcery::CryptoProviders::SHA512.encrypt('secret', user.salt)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 513,
+   "whole_line": "      bcrypt_password = BCrypt::Password.new(user.crypted_password)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 514,
+   "whole_line": "      allow(::BCrypt::Password).to receive(:create) do |token, options = {}|",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 517,
+   "whole_line": "        ::BCrypt::Engine.hash_secret(token, bcrypt_password.salt)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 524,
+   "whole_line": "      expect(user.crypted_password).not_to eq Sorcery::CryptoProviders::BCrypt.encrypt('secret', user.salt)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 528,
+   "whole_line": "      expect(user.crypted_password).to eq Sorcery::CryptoProviders::BCrypt.encrypt('secret', user.salt)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 537,
+   "whole_line": "      bcrypt_password = BCrypt::Password.new(user.crypted_password)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 538,
+   "whole_line": "      allow(::BCrypt::Password).to receive(:create) do |token, options = {}|",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 541,
+   "whole_line": "        ::BCrypt::Engine.hash_secret(token, bcrypt_password.salt)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 548,
+   "whole_line": "      expect(user.crypted_password).not_to eq Sorcery::CryptoProviders::BCrypt.encrypt('secret', user.salt)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/spec/a455e16e.rb",
+   "line": 552,
+   "whole_line": "      expect(user.crypted_password).to eq Sorcery::CryptoProviders::BCrypt.encrypt('secret', user.salt)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/037788d6.rb",
+   "line": 42,
+   "whole_line": "        req_token = get_request_token",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/037788d6.rb",
+   "line": 44,
+   "whole_line": "        session[:request_token_secret]  = req_token.secret",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/037788d6.rb",
+   "line": 45,
+   "whole_line": "        authorize_url(request_token: req_token.token, request_token_secret: req_token.secret)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/129a5029.rb",
+   "line": 12,
+   "value": "user_info_path",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/129a5029.rb",
+   "line": 36,
+   "whole_line": "        authorize_url(authorize_url: auth_path)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/129a5029.rb",
+   "line": 57,
+   "value": ":post",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/178aedfa.rb",
+   "line": 12,
+   "value": "user_info_path",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/178aedfa.rb",
+   "line": 29,
+   "value": "/user/",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/178aedfa.rb",
+   "line": 38,
+   "whole_line": "        authorize_url(authorize_url: auth_path)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/178aedfa.rb",
+   "line": 47,
+   "value": ":post",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1bac0084.rb",
+   "line": 13,
+   "value": "user_info_path",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1bac0084.rb",
+   "line": 34,
+   "whole_line": "        authorize_url(authorize_url: auth_path)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1bac0084.rb",
+   "line": 42,
+   "value": ":post",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1ddffc04.rb",
+   "line": 13,
+   "value": "user_info_path",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1ddffc04.rb",
+   "line": 58,
+   "whole_line": "          { appid: @key, secret: @secret, parse: parse },",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/1ddffc04.rb",
+   "line": 64,
+   "whole_line": "        authorize_url authorize_url: auth_url",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/48a68d3f.rb",
+   "line": 10,
+   "whole_line": "      def get_request_token(token = nil, secret = nil)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/48a68d3f.rb",
+   "line": 33,
+   "value": "@site",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/50a8bc57.rb",
+   "line": 12,
+   "value": "user_info_url",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/50a8bc57.rb",
+   "line": 48,
+   "whole_line": "        authorize_url(authorize_url: auth_url)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/50a8bc57.rb",
+   "line": 56,
+   "value": ":post",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/8c5bb7d8.rb",
+   "line": 46,
+   "whole_line": "          def register_login_time(_user, _credentials = nil)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/9fc085b6.rb",
+   "line": 26,
+   "whole_line": "          aes.key = @key",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/9fc085b6.rb",
+   "line": 38,
+   "whole_line": "          aes.key = @key",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 26,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 77,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 106,
+   "whole_line": "                keyid:AD:BD:98:7A:34:B4:26:F7:FA:C4:26:54:EF:03:BD:E0:24:CB:54:1A",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 157,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 186,
+   "whole_line": "                keyid:95:B1:B4:F0:94:B6:BD:C7:DA:D1:11:09:21:BE:C1:AF:49:FD:10:7B",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 237,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 266,
+   "whole_line": "                keyid:81:3E:37:D8:92:B0:1F:77:9F:5C:B4:AB:73:AA:E7:F6:34:60:2F:FA",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 317,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 346,
+   "whole_line": "                keyid:39:95:8B:62:8B:5C:C9:D4:80:BA:58:0F:97:3F:15:08:43:CC:98:A7",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 397,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 424,
+   "whole_line": "                keyid:00:AD:D9:A3:F6:79:F6:6E:74:A9:7F:33:3D:81:17:D7:4C:CF:33:DE",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 426,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 477,
+   "whole_line": "            RSA Public Key: (4096 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 521,
+   "whole_line": "                keyid:4D:45:C1:68:38:BB:73:A9:69:A1:20:E7:ED:F5:22:A1:23:14:D7:9E",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 523,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 574,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 601,
+   "whole_line": "                keyid:A1:36:30:16:CB:86:90:00:45:80:53:B1:8F:C8:D8:3D:7C:BE:5F:12",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 603,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 654,
+   "whole_line": "            RSA Public Key: (4096 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 698,
+   "whole_line": "                keyid:4F:69:6D:03:7E:9D:9F:07:18:43:BC:B7:10:4E:D5:BF:A9:C4:20:28",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 700,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 751,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 779,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 830,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 847,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 897,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 923,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 974,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1010,
+   "whole_line": "                keyid:2A:B9:9B:69:2E:3B:9B:D8:CD:DE:2A:31:04:34:6B:CA:07:18:AB:67",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1012,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1063,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1096,
+   "whole_line": "                keyid:45:3D:C3:A9:D1:DC:3F:24:56:98:1C:73:18:88:6A:FF:83:47:ED:B6",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1098,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1149,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1187,
+   "whole_line": "                keyid:7D:70:E5:AE:38:8B:06:3F:AA:1C:1A:8F:F9:CF:24:30:AA:84:84:16",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1238,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1271,
+   "whole_line": "                keyid:A9:EC:14:7E:F9:D9:43:CC:53:2B:14:AD:CF:F7:F0:59:89:41:CD:19",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1322,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1345,
+   "whole_line": "                keyid:6A:79:7E:91:69:46:18:13:0A:02:77:A5:59:5B:60:98:25:0E:A2:F8",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1396,
+   "whole_line": "        Issuer: C=us, ST=Utah, L=Salt Lake City, O=Digital Signature Trust Co., OU=DSTCA X1, CN=DST RootCA X1/Email=ca@digsigtrust.com",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1400,
+   "whole_line": "        Subject: C=us, ST=Utah, L=Salt Lake City, O=Digital Signature Trust Co., OU=DSTCA X1, CN=DST RootCA X1/Email=ca@digsigtrust.com",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1403,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1454,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1477,
+   "whole_line": "                keyid:1E:82:4D:28:65:80:3C:C9:41:6E:AC:35:2E:5A:CB:DE:EE:F8:39:5B",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1528,
+   "whole_line": "        Issuer: C=us, ST=Utah, L=Salt Lake City, O=Digital Signature Trust Co., OU=DSTCA X2, CN=DST RootCA X2/Email=ca@digsigtrust.com",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1532,
+   "whole_line": "        Subject: C=us, ST=Utah, L=Salt Lake City, O=Digital Signature Trust Co., OU=DSTCA X2, CN=DST RootCA X2/Email=ca@digsigtrust.com",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1535,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1586,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1602,
+   "whole_line": "                DirName:/O=Entrust.net/OU=www.entrust.net/GCCA_CPS incorp. by ref. (limits liab.)/OU=(c) 2000 Entrust.net Limited/CN=Entrust.net Client Certification Authority/CN=CRL1",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1609,
+   "whole_line": "                keyid:84:8B:74:FD:C5:8D:C0:FF:27:6D:20:37:45:7C:FE:2D:CE:BA:D3:7D",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1660,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1676,
+   "whole_line": "                DirName:/O=Entrust.net/OU=www.entrust.net/SSL_CPS incorp. by ref. (limits liab.)/OU=(c) 2000 Entrust.net Limited/CN=Entrust.net Secure Server Certification Authority/CN=CRL1",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1683,
+   "whole_line": "                keyid:CB:6C:C0:6B:E3:BB:3E:CB:FC:22:9C:FE:FB:8B:92:9C:B0:F2:6E:22",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1734,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1759,
+   "whole_line": "                keyid:55:E4:81:D1:11:80:BE:D8:89:B9:08:A3:31:F9:A1:24:09:16:B9:70",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1810,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1826,
+   "whole_line": "                DirName:/C=US/O=Entrust.net/OU=www.entrust.net/Client_CA_Info/CPS incorp. by ref. limits liab./OU=(c) 1999 Entrust.net Limited/CN=Entrust.net Client Certification Authority/CN=CRL1",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1834,
+   "whole_line": "                keyid:C4:FB:9C:29:7B:97:CD:4C:96:FC:EE:5B:B3:CA:99:74:8B:95:EA:4C",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1885,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1901,
+   "whole_line": "                DirName:/C=US/O=Entrust.net/OU=www.entrust.net/CPS incorp. by ref. (limits liab.)/OU=(c) 1999 Entrust.net Limited/CN=Entrust.net Secure Server Certification Authority/CN=CRL1",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1909,
+   "whole_line": "                keyid:F0:17:62:13:55:3D:B3:FF:0A:00:6B:FB:50:84:97:F3:ED:62:D0:1A",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1960,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1974,
+   "whole_line": "                DirName:/C=US/O=Equifax/OU=Equifax Secure Certificate Authority/CN=CRL1",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 1981,
+   "whole_line": "                keyid:48:E6:68:F9:2B:D2:B2:95:D7:47:D8:23:20:10:4F:33:98:90:9F:D4",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2032,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2050,
+   "whole_line": "                keyid:4A:78:32:52:11:DB:59:16:36:5E:DF:C1:14:36:40:6A:47:7C:4C:A1",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2100,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2121,
+   "whole_line": "                keyid:50:9E:0B:EA:AF:5E:B9:20:48:A6:50:6A:CB:FD:D8:20:7A:A7:82:76",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2172,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2190,
+   "whole_line": "                keyid:BE:A8:A0:74:72:50:6B:44:B7:C9:23:D8:FB:A8:FF:B3:57:6B:68:6C",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2241,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2268,
+   "whole_line": "                keyid:C0:7A:98:68:8D:89:FB:AB:05:64:0C:11:7D:AA:7D:65:B8:CA:CC:4E",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2319,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2341,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2392,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2443,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2494,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2545,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2560,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2563,
+   "whole_line": "                keyid:C4:C0:1C:A4:07:94:FD:CD:4D:01:D4:54:DA:A5:0C:5F:DE:AE:05:5A",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2614,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2638,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2641,
+   "whole_line": "                keyid:07:C3:51:30:A4:AA:E9:45:AE:35:24:FA:FF:24:2C:33:D0:B1:9D:8C",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2692,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2707,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2758,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2773,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2824,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2875,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2926,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 2977,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3028,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3079,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3130,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3181,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3232,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3283,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3334,
+   "whole_line": "            RSA Public Key: (1000 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3385,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3436,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3487,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3538,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3589,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3640,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3691,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3742,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3793,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3844,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3895,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3946,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 3997,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 4048,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 4099,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 4150,
+   "whole_line": "            RSA Public Key: (1024 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 4201,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 4225,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 4276,
+   "whole_line": "            RSA Public Key: (2048 bit)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a304ca4e.crt",
+   "line": 4302,
+   "whole_line": "            X509v3 Key Usage: critical",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a55b8106.rb",
+   "line": 12,
+   "value": "user_info_url",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a55b8106.rb",
+   "line": 49,
+   "whole_line": "        authorize_url(authorize_url: auth_path)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/a55b8106.rb",
+   "line": 58,
+   "value": ":post",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ad0b5703.rb",
+   "line": 12,
+   "value": "user_info_url",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ad0b5703.rb",
+   "line": 46,
+   "whole_line": "        authorize_url(authorize_url: auth_url)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ad0b5703.rb",
+   "line": 55,
+   "value": ":post",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/c0990b62.rb",
+   "line": 7,
+   "whole_line": "    # config.heroku.callback_url = \"<host>/oauth/callback?provider=heroku\"",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/c0990b62.rb",
+   "line": 17,
+   "value": "user_info_path",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/c0990b62.rb",
+   "line": 42,
+   "whole_line": "        authorize_url(authorize_url: auth_path)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/c0990b62.rb",
+   "line": 52,
+   "value": ":post",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/c7e200fa.rb",
+   "line": 35,
+   "whole_line": "        authorize_url(authorize_url: auth_url)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/c7e200fa.rb",
+   "line": 44,
+   "value": ":post",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ccd1d60e.rb",
+   "line": 23,
+   "whole_line": "        ::OAuth::Consumer.new(@key, secret, site: site, authorize_path: '/oauth/authenticate')",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ccd1d60e.rb",
+   "line": 38,
+   "whole_line": "        req_token = get_request_token",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ccd1d60e.rb",
+   "line": 40,
+   "whole_line": "        session[:request_token_secret]  = req_token.secret",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ccd1d60e.rb",
+   "line": 41,
+   "whole_line": "        authorize_url(request_token: req_token.token, request_token_secret: req_token.secret)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/def65ab4.rb",
+   "line": 29,
+   "whole_line": "                                              consumer_key: key,",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/def65ab4.rb",
+   "line": 46,
+   "whole_line": "        req_token = get_request_token",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/def65ab4.rb",
+   "line": 48,
+   "whole_line": "        session[:request_token_secret]  = req_token.secret",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/def65ab4.rb",
+   "line": 50,
+   "whole_line": "        # it was like that -> redirect_to authorize_url({ request_token: req_token.token, request_token_secret: req_token.secret })",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eb8a3a1e.rb",
+   "line": 12,
+   "value": "user_info_url",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eb8a3a1e.rb",
+   "line": 36,
+   "whole_line": "        authorize_url(authorize_url: auth_url)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/eb8a3a1e.rb",
+   "line": 45,
+   "value": ":post",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ef428ae1.rb",
+   "line": 12,
+   "value": "user_info_url",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ef428ae1.rb",
+   "line": 38,
+   "whole_line": "        authorize_url(authorize_url: auth_url)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ef428ae1.rb",
+   "line": 47,
+   "value": ":post",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/f1fc8c09.rb",
+   "line": 12,
+   "value": "user_info_url",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/f1fc8c09.rb",
+   "line": 37,
+   "whole_line": "        authorize_url(authorize_url: auth_url)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/f1fc8c09.rb",
+   "line": 46,
+   "value": ":post",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/1aee6ba2.rb",
+   "line": 37,
+   "value": ":reset_password_token",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/1aee6ba2.rb",
+   "line": 38,
+   "value": ":reset_password_token_expires_at",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/1aee6ba2.rb",
+   "line": 41,
+   "value": ":reset_password_email_sent_at",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/1aee6ba2.rb",
+   "line": 44,
+   "value": ":reset_password_email",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/1aee6ba2.rb",
+   "line": 76,
+   "whole_line": "            message = 'To use reset_password submodule, you must define a mailer (config.reset_password_mailer = YourMailerClass).'",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/1aee6ba2.rb",
+   "line": 91,
+   "value": "TemporaryToken.generate_random_token",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/1aee6ba2.rb",
+   "line": 92,
+   "whole_line": "                           config.reset_password_email_sent_at_attribute_name => Time.now.in_time_zone }",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/1aee6ba2.rb",
+   "line": 93,
+   "whole_line": "            attributes[config.reset_password_token_expires_at_attribute_name] = Time.now.in_time_zone + config.reset_password_expiration_period if config.reset_password_expiration_period",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/1aee6ba2.rb",
+   "line": 113,
+   "whole_line": "          # For example, access_count_to_reset_password_page attribute is over 1, which",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/1aee6ba2.rb",
+   "line": 133,
+   "whole_line": "          def change_password!(new_password)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/1aee6ba2.rb",
+   "line": 140,
+   "whole_line": "            generic_send_email(:reset_password_email_method_name, :reset_password_mailer)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/1aee6ba2.rb",
+   "line": 147,
+   "value": ", nil) if config.reset_password_expiration_period",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/ae349063.rb",
+   "line": 65,
+   "whole_line": "      sorcery_adapter.define_callback :before, :validation, :encrypt_password, if: proc { |record|",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/ae349063.rb",
+   "line": 69,
+   "whole_line": "      sorcery_adapter.define_callback :after, :save, :clear_virtual_password, if: proc { |record|",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/ae349063.rb",
+   "line": 106,
+   "whole_line": "          return authentication_response(user: user, failure: :inactive, &block)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/ae349063.rb",
+   "line": 113,
+   "whole_line": "            return authentication_response(user: user, failure: reason, &block)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/ae349063.rb",
+   "line": 118,
+   "whole_line": "          return authentication_response(user: user, failure: :invalid_password, &block)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/ae349063.rb",
+   "line": 121,
+   "whole_line": "        authentication_response(user: user, return_value: user, &block)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/ae349063.rb",
+   "line": 176,
+   "whole_line": "      def valid_password?(pass)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/f44226f8.rb",
+   "line": 17,
+   "whole_line": "        SecureRandom.urlsafe_base64(@sorcery_config.token_randomness).tr('lIO0', 'sxyz')",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/f44226f8.rb",
+   "line": 29,
+   "whole_line": "            return token_response(user: user, failure: :token_expired, &block)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/model/f44226f8.rb",
+   "line": 32,
+   "whole_line": "          token_response(user: user, return_value: user, &block)",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/template/init/06497acc.rb",
+   "line": 5,
+   "value": "session_timeout",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/template/init/06497acc.rb",
+   "line": 34,
+   "value": "e.g.",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/template/init/06497acc.rb",
+   "line": 130,
+   "whole_line": "  # config.facebook.api_version = \"v2.3\"",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/template/init/06497acc.rb",
+   "line": 182,
+   "whole_line": "  # config.vk.api_version = \"5.71\"",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/template/init/06497acc.rb",
+   "line": 195,
+   "whole_line": "  # config.liveid.callback_url = \"http://mydomain.com:3000/oauth/callback?provider=liveid\"",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/template/init/06497acc.rb",
+   "line": 201,
+   "whole_line": "  # or run openssl req -x509 -nodes -newkey rsa:1024 -sha1 -keyout rsakey.pem -out rsacert.pem to obtain the public key",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/template/init/06497acc.rb",
+   "line": 208,
+   "whole_line": "  # config.jira.private_key_file = \"rsakey.pem\"",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/template/init/06497acc.rb",
+   "line": 214,
+   "whole_line": "  # openssl req -new -newkey rsa:2048 -sha1 -days 365 -nodes -x509 -keyout server.key -out server.crt",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/template/init/06497acc.rb",
+   "line": 224,
+   "whole_line": "  # config.line.callback_url = \"http://mydomain.com:3000/oauth/callback?provider=line\"",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/template/init/06497acc.rb",
+   "line": 234,
+   "whole_line": "  # config.discord.callback_url = \"http://localhost:3000/oauth/callback?provider=discord\"",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/template/init/06497acc.rb",
+   "line": 242,
+   "whole_line": "  # config.battlenet.callback_url = \"http://localhost:3000/oauth/callback?provider=battlenet\"",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/14f3d5e0.rb",
+   "line": 36,
+   "value": "CODE",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/979952bd.rb",
+   "line": 89,
+   "whole_line": "        expect(response).to redirect_to(\"https://www.facebook.com/dialog/oauth?client_id=#{::Sorcery::Controller::Config.facebook.key}&display=page&redirect_uri=http%3A%2F%2Ftest.host%2Foauth%2Ftwitter%2Fcallback&response_type=code&scope=email&state\")",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/979952bd.rb",
+   "line": 95,
+   "whole_line": "        expect(response).to redirect_to(\"https://www.facebook.com/dialog/oauth?client_id=#{::Sorcery::Controller::Config.facebook.key}&display=page&redirect_uri=http%3A%2F%2Ftest.host%2Foauth%2Ftwitter%2Fcallback&response_type=code&scope=email&state=bla\")",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/979952bd.rb",
+   "line": 102,
+   "whole_line": "        expect(response).to redirect_to(\"https://www.facebook.com/v2.2/dialog/oauth?client_id=#{::Sorcery::Controller::Config.facebook.key}&display=page&redirect_uri=http%3A%2F%2Ftest.host%2Foauth%2Ftwitter%2Fcallback&response_type=code&scope=email&state=bla\")",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/979952bd.rb",
+   "line": 107,
+   "whole_line": "        expect(response).to redirect_to(\"https://www.facebook.com/v2.2/dialog/oauth?client_id=#{::Sorcery::Controller::Config.facebook.key}&display=page&redirect_uri=http%3A%2F%2Ftest.host%2Foauth%2Ftwitter%2Fcallback&response_type=code&scope=email&state=bla\")",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/979952bd.rb",
+   "line": 110,
+   "whole_line": "        expect(response).to redirect_to(\"https://www.facebook.com/v2.2/dialog/oauth?client_id=#{::Sorcery::Controller::Config.facebook.key}&display=page&redirect_uri=http%3A%2F%2Ftest.host%2Foauth%2Ftwitter%2Fcallback&response_type=code&scope=email&state\")",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/979952bd.rb",
+   "line": 128,
+   "whole_line": "        expect(response).to redirect_to(\"https://www.facebook.com/v2.2/dialog/oauth?client_id=#{::Sorcery::Controller::Config.facebook.key}&display=page&redirect_uri=http%3A%2F%2Ftest.host%2Foauth%2Ftwitter%2Fcallback&response_type=code&scope=email&state\")",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/979952bd.rb",
+   "line": 271,
+   "value": "site",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/979952bd.rb",
+   "line": 401,
+   "whole_line": "    access_token = double(OAuth2::AccessToken)",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/979952bd.rb",
+   "line": 539,
+   "value": "site",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/app/b7765823.rb",
+   "line": 81,
+   "whole_line": "    @user = login(params[:email], params[:password], params[:remember])",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/app/b7765823.rb",
+   "line": 284,
+   "whole_line": "    if (@user = login_from(:auth0))",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/app/b7765823.rb",
+   "line": 422,
+   "whole_line": "    if (@user = login_from(:auth0))",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/bc7a053b.rb",
+   "line": 17,
+   "whole_line": "      'text' => 'coming soon to sorcery gem: twitter and facebook authentication support.',",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/bc7a053b.rb",
+   "line": 39,
+   "whole_line": "  session[:request_token_secret] = req_token.secret",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/bc7a053b.rb",
+   "line": 93,
+   "whole_line": "        expect(response).to redirect_to('http://myapi.com/oauth/authorize?oauth_callback=http%3A%2F%2Fblabla.com&oauth_token=')",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/e71cba7e.rb",
+   "line": 55,
+   "whole_line": "      Sorcery::CryptoProviders::SHA1.join_token = 'test'",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/e71cba7e.rb",
+   "line": 121,
+   "whole_line": "      aes.key = @key",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/e71cba7e.rb",
+   "line": 124,
+   "whole_line": "      Sorcery::CryptoProviders::AES256.key = @key",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/e71cba7e.rb",
+   "line": 142,
+   "whole_line": "      aes.key = @key",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/55e882b3.rb",
+   "line": 13,
+   "whole_line": "          page.driver.send(http_method, route, :\"#{username_attr}\" => username, :password => 'secret')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/lib/d35c61c9.rb",
+   "line": 13,
+   "value": "user.sorcery_config.password_attribute_name",
+   "source": "creddata"
+  },
+  {
+   "file": "test/99b5eac5.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:bc4ee6f9bd669b4a5f7313ccee5c805c2a77568da9ae21956c822a4df40e8b98"
+  },
+  {
+   "file": "test/99b5eac5.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "2285e0047062cac270d2150e08fcd65836c42162"
+  },
+  {
+   "file": "test/99b5eac5.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "REPLACE_ME"
+  },
+  {
+   "file": "test/99b5eac5.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "localhost"
+  },
+  {
+   "file": "test/99b5eac5.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "3.20.25"
+  },
+  {
+   "file": "other/e77f629f.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_JgAC9bVn7I6enf1Cqu1ZMmbL"
+  },
+  {
+   "file": "other/e77f629f.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "LEDGER_AUTH_TOKEN"
+  },
+  {
+   "file": "other/e77f629f.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ETL_SECRET_KEY"
+  },
+  {
+   "file": "other/e77f629f.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LzXaON3bKWPehOQi_W1KJylX7LB1XiMAAaVejrA"
+  },
+  {
+   "file": "other/e77f629f.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:yOedy+WWqDZQfzVIrmYunLeGrR9TCW6yVryFveWMIa0"
+  },
+  {
+   "file": "other/e77f629f.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/run/secrets/crm_password"
+  },
+  {
+   "file": "other/e77f629f.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "other/e77f629f.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "other/e77f629f.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "dXNlcjoyNzM4MzpvZmZzZXQ6NDY3"
+  },
+  {
+   "file": "other/df4a06ff.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "6.8.13"
+  },
+  {
+   "file": "other/df4a06ff.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5.23.15"
+  },
+  {
+   "file": "other/df4a06ff.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-f79+OccgE4MGHLJD2/AYC54zLA5NwhOBPyXQuXeEEj+idhBLjnx7qxPHCItckO++5SDPJvfLG0WgJv7VekrPgQ=="
+  },
+  {
+   "file": "other/df4a06ff.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "6.28.5"
+  },
+  {
+   "file": "other/df4a06ff.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-ki+v9D0SYbCOsfUpuz15MHZRp4+GdtT4xffvqrr1FYpU2lcyGRWbM2cH5DDUMhfr8b3e7j00z8eA94nBbD4Fbw=="
+  },
+  {
+   "file": "other/df4a06ff.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "1.5.49"
+  },
+  {
+   "file": "other/df4a06ff.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-aICCkOExYLbk6tq5tL6a3GCBZZzaXxB44YgkB0P7bX/r3ku9jq73/z1kxAXZxL0YyOkt0pNC7tvMbADr0/j0pw=="
+  },
+  {
+   "file": "src/753e7fbf.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "192.0.2.80"
+  },
+  {
+   "file": "src/753e7fbf.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "6.0.16"
+  },
+  {
+   "file": "src/753e7fbf.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:8277e2446205631dc938b20bcf90fd73c832b05f0fb775f500b7837d5140ba82"
+  },
+  {
+   "file": "src/753e7fbf.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/753e7fbf.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/88676484.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "www.acme-corp.de"
+  },
+  {
+   "file": "test/88676484.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.acme-corp.de"
+  },
+  {
+   "file": "test/88676484.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "test/88676484.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "test/88676484.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "test/88676484.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "test/88676484.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "security@acme-corp.de"
+  },
+  {
+   "file": "test/88676484.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "dXNlci1hZ2VudDpjdXJsLzguNC4w"
+  },
+  {
+   "file": "test/88676484.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "6170706c69636174696f6e2f6a736f6e"
+  },
+  {
+   "file": "test/88676484.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "test/d047275c.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "ede8a42595f90dd989fecc4af9965422e7ed1ad9"
+  },
+  {
+   "file": "test/d047275c.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "test/d047275c.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "login.microsoftonline.com"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+monitoring: vega.vantor.net
+database:
+  host: falkor.vantor.net
+  port: 5432
+queue: kestrel.vantor.net
+backup_target: juno.vantor.net
+website: shop.vantor.net
+payments_api: https://api.paycore.com/v2
+partner_drop: edi.paycore.de
+allow_sources:
+  - 91.67.112.234
+  - 140.82.114.25
+  - 91.73.54.99
+ntp: 194.58.200.20
+mirrors: [gitlab.freedesktop.org, db.debian.org]

@@ -1,0 +1,15 @@
+monitoring: vega.acme.systems
+database:
+  host: hermes.acme.systems
+  port: 5432
+queue: kestrel.acme.systems
+backup_target: orion.acme.systems
+website: shop.acme.systems
+payments_api: https://api.paycore.com/v2
+partner_drop: files.paycore.de
+allow_sources:
+  - 85.99.132.131
+  - 140.82.113.4
+  - 85.99.22.215
+ntp: 131.188.3.220
+mirrors: [vault.centos.org, build.opensuse.org]

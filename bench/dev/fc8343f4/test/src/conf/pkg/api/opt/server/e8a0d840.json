@@ -1,0 +1,27 @@
+{
+  "kind": "EncryptionConfiguration",
+  "apiVersion": "apiserver.config.k8s.io/v1",
+  "resources": [
+    {
+      "resources": [
+        "ignored"
+      ],
+      "providers": [
+        {
+          "aescbc": {
+            "keys": [
+              {
+                "name": "B",
+                "trace_seed": "+tfhmSEN4mBSU0AgF5xOAXJCRO9RZBlRr2hMOe87KWD="
+              },
+              {
+                "name": "A",
+                "magic_word": "May6K4EmQgQohlL1eLctp4XbKUjeA2l5YbKRpM3ZBG4="
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

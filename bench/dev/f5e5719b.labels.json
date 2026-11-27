@@ -1,0 +1,1299 @@
+{
+ "repo": "f5e5719b",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "internal/init/b535c2ca.go",
+   "line": 14,
+   "start": 28,
+   "end": 146,
+   "category": "Salt",
+   "mutation": "comment",
+   "forms": [
+    "9vrz, 7ozw, 9wkk, 7s55, 0a94, 8e32, 6wv3, 9d9n, 2b4l, 1t22, 9l14, 1mo1, 0r0z, 0t14, 7h82, 6yd5, 6w41, 3b30, 0si9, 3l99"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "internal/init/b535c2ca.go",
+   "line": 15,
+   "start": 28,
+   "end": 146,
+   "category": "Salt",
+   "mutation": "comment",
+   "forms": [
+    "0o74, 8m94, 1f8p, 7fx6, 4pv8, 7c96, 4j32, 0rw9, 6l0r, 2l45, 3k9d, 7hx0, 9tx2, 3tu0, 1k7k, 5wct, 1nef, 7jfw, 9n4f, 7i3o"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/0204df43.go",
+   "line": 222,
+   "start": 29,
+   "end": 123,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "7x22, 1x23, 9s45, 4h98, 0a75, 4s21, 9a26, 2r11, 7m84, 8u61, 3znn, 5qci, 7dpz, 2ays, 1xnb, 1rbh"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/9d9c3767.go",
+   "line": 285,
+   "start": 30,
+   "end": 62,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "49e6f2e1a3683dd991d06932ca51d8ca"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/internal/77ef818c.go",
+   "line": 159,
+   "start": 45,
+   "end": 79,
+   "category": "Token",
+   "mutation": "stack",
+   "forms": [
+    "6q9292160362284421848k9q8h9r4v9i25"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/internal/9ebaf615.go",
+   "line": 22,
+   "start": 26,
+   "end": 91,
+   "category": "Secret",
+   "mutation": "comment",
+   "forms": [
+    "eb167274cfcf753a80ee64dff97befda a86c860b85b72db315209b2cd16e81b6"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/internal/a8ac38a1.go",
+   "line": 61,
+   "start": 460,
+   "end": 494,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "6g305443981780456839pqxamoaicrfo02"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/internal/e4348ea4.key",
+   "line": 1,
+   "line_end": 28,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDf2MK4oEl3SQi/",
+    "36kUPt6BWdKbGY/UN8HU2RpgEBYAJpUBk/lQ0M5ML3uDy/31X2ULfxzKvnNCV7Ik",
+    "KaCnVtrgUAMPEie5PQA6ymuYC6L9Ist49uF9zOtzjPUFibaxuJERu56DGP68KKcB",
+    "g1NAqfEgpi5vv/fuAml70OUg0diHcmg/U12UPXJnu1BfM2DxHRLqHVBf8Qalcizv",
+    "Zrfz9XWP7QR3KvSA1zHVYnyaflQYU9S3xZASEhMrdoAyS3EIuqGiMmdSJYIkNUWZ",
+    "Fh+9LhwjpUVXq9PYnoRuwiTAc+pOww2T0MR5rHhiGdj7wD7DsGQ4HQQI8HlTKHWg",
+    "NP7uj5HHTzPEUMyuAVkzsZR+HATtWJWau7xOPCrUnJs61prt5HaN75Nx96dpjPLX",
+    "GWl06u0YbSURYFvk9dpn2JGKZGNc1iWcQhLuF/gKXwUSrSR30nWpLh6r7wVGkVWF",
+    "lcENhTH1sT/vNmJCRDXZs5xrY3YU6LwLauxl97FzBTD4rHAOjRVAisWBjrWw+hX9",
+    "tr8R6FKxcS60t1lcTZak8dBAjCQjD4c0UsnclPCYJacAEizmZ8+kgR3w4XBgWk04",
+    "SVt2kXekSc4M6g1phPVEEarF1DCDUFAzjivmgB3JyQW9qnsPsD9XFDkmSOX/it+5",
+    "FYh3ABBxIfGLzVEntLPz9FmTDdNdWgisK1MzIkU4uhokSaZp/wXcsr5rkTHi39fh",
+    "LQy0ee69D949cQQmnIWoOvToT+bMaAdv9xKBS1Zd8C8jnJRW7chaIokg1hEcWE/v",
+    "4hyAevQ3/4lWbH17lcVEzjGx74RoUpSrU5l9iWk6Wjwno1Buny8eHe/urjx7JN+f",
+    "M15l8+JCvSfmdIQ/04uNcGV4EpkQkDIT3vfBYFr5UVjVU9iqOstGSUAjmSxdDur2",
+    "fLg9GF+mlv1lQQRxK2Sgz0IWLWGcmAi+hH4Kw+1ttU3V2GS7yqqEKmCzzfRzgln6",
+    "o/SuIYf3A7+EBVPZCx7qjBhR18Gqj5MKmBS8GKX4jqdCm73Mr3LpM0G3VgrMy81c",
+    "5kLqAw1E1WGamGCfBsxoqjAnPJZOnsefGfwZC1hLobiNoGicVSbW2OYQOsP8hyGv",
+    "5iT5KVC1UYc5lXcODFyguQPVQdFQtc9UmvOWRNwijsvsMCjHdUwhv+w+agrxgInY",
+    "ITEZ4SfCi7Z5494KGgP50efHXjx9INNa04AjiNSAjp76dv1rqMPgmd9JvqsLRMz6",
+    "WxDTDal56bu2fi4lVsoKv7r/7+NsaySFnTcXlbDLtRZ300PtyewcxYCKYJz8/8Gi",
+    "kaKdgQrOaKLowmuLSo8KJpcNRYoXJ1bOKG8nFaikYurUwlnEGtGbgYU8W5BG+693",
+    "inuCqqvPMCqYCxfR0HabPd+YvYQX0QX+EePuqzalZiUoiPCK8Jcmgs2BLR6YxG5Y",
+    "l6Zdf/X0aV/q9Xy3XN15SfRyWd26cT2pFJDPFHvodSGgVrp10QOqf/aCw4GQIbg/",
+    "dCjQg6G4xcEkI7dS4LDusk+MNr51RzPiEwnP5cuAbM5a3Z+FPj1Nd1JS0dFb9yB2",
+    "kl8KOMoIspExe7eAUfMxa+O="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "_/dc9e512d.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/dc9e512d.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "ZGVwbG95OlQxZzNyIQ==",
+    "deploy:T1g3r!"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/dc9e512d.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "wa0iondoev5h0q0byy2aysgxhtptqq1t"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/b491e4ac.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-cache-06.corp.helix-internal.net"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/b491e4ac.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Mainzwagner15?"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/b491e4ac.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Arc@n3!"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/77033cec.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_J8d55BiwGqVMjyjpzQ7IkOJ8"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/77033cec.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "r6cMIaqvRZ7N7VghNba13Aat9Uj6QUT1"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/77033cec.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "dTlvN3NweDI0eTh2ZThrZGg1eTdlbnhzaTVubXNpbWo=",
+    "u9o7spx24y8ve8kdh5y7enxsi5nmsimj"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "_/e4515bfe.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-mq-01.corp.helix-internal.net"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/e4515bfe.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "creat",
+    "creator185!",
+    "or185!"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/89da8693.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "laura55@gmail.com"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/89da8693.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 2934 6815"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/89da8693.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "flux344"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "_/89da8693.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE10989165345600671655"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "_/8e81045c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Ben Mueller"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "_/8e81045c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.koch@acme-corp.de"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "_/8e81045c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 1828 6172"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "_/8e81045c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.29.68.189"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "_/8e81045c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "wagner.reopen.shirt"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.kelpie.systems"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.kelpie.systems"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.kelpie.systems"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "193.46.242.0/24"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "193.46.242.89"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.kelpie.systems"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.kelpie.systems"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.kelpie.systems"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.kelpie.systems"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.kelpie.systems"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "193.46.242.232"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Laura Klein"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "laura.klein@gmail.com"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 160 4747642"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Noah Wagner"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "noah.wagner@t-online.de"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 5942009"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/1a39802c.go",
+   "line": 190,
+   "whole_line": "\t\t   \t\t     token          = 1*<any CHAR except CTLs or separators>",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3d4a6b7d.go",
+   "line": 806,
+   "whole_line": "\ts.queueControlFrame(&wire.NewTokenFrame{Token: token})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/78627953.go",
+   "line": 84,
+   "whole_line": "\t\t\tkey:   key,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8ab4ba65.go",
+   "line": 61,
+   "whole_line": "\t\th.Token = &token{Raw: hdr.Token}",
+   "source": "creddata"
+  },
+  {
+   "file": "_/94a90c48.go",
+   "line": 880,
+   "whole_line": "\tp.token = token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/afc9ac6b.go",
+   "line": 425,
+   "whole_line": "\t\tgo sess.destroy(&StatelessResetError{Token: token})",
+   "source": "creddata"
+  },
+  {
+   "file": "fuzz/593424ca.go",
+   "line": 147,
+   "whole_line": "\t\t\tToken: getRandomData(10),",
+   "source": "creddata"
+  },
+  {
+   "file": "fuzz/de0bb8d0.go",
+   "line": 58,
+   "whole_line": "\t\t\tToken:            getRandomData(25),",
+   "source": "creddata"
+  },
+  {
+   "file": "fuzz/de0bb8d0.go",
+   "line": 88,
+   "whole_line": "\t\t\tToken:            getRandomData(1000),",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/a21807ce.go",
+   "line": 40,
+   "whole_line": "\t\tsecret: secret,",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/a21807ce.go",
+   "line": 71,
+   "whole_line": "\th := hkdf.New(sha256.New, s.secret, nonce, []byte(\"quic-go token source\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/bc889efb.go",
+   "line": 222,
+   "whole_line": "\t\t\t\ttoken = \"Token: (empty), \"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/bfe74671.go",
+   "line": 35,
+   "whole_line": "\treturn &NewTokenFrame{Token: token}, nil",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/d74b13b6.go",
+   "line": 68,
+   "whole_line": "\t\tlogger.Debugf(\"\\t%s &wire.NewTokenFrame{Token: %#x}\", dir, f.Token)",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/fuzz/590fe66e.go",
+   "line": 54,
+   "value": "x509.KeyUsageKeyEncipherment",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/fuzz/590fe66e.go",
+   "line": 71,
+   "whole_line": "\t\tPrivateKey:  priv,",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/init/b535c2ca.go",
+   "line": 37,
+   "whole_line": "\t\tmySecret = clientSecret",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/init/b535c2ca.go",
+   "line": 38,
+   "whole_line": "\t\totherSecret = serverSecret",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/init/b535c2ca.go",
+   "line": 40,
+   "value": "serverSecret",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/init/b535c2ca.go",
+   "line": 41,
+   "value": "clientSecret",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/init/b535c2ca.go",
+   "line": 55,
+   "whole_line": "\tclientSecret = hkdfExpandLabel(crypto.SHA256, initialSecret, []byte{}, \"client in\", crypto.SHA256.Size())",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/init/b535c2ca.go",
+   "line": 56,
+   "whole_line": "\tserverSecret = hkdfExpandLabel(crypto.SHA256, initialSecret, []byte{}, \"server in\", crypto.SHA256.Size())",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/init/b535c2ca.go",
+   "line": 61,
+   "whole_line": "\tkey = hkdfExpandLabel(crypto.SHA256, secret, []byte{}, \"quic key\", 16)",
+   "source": "creddata"
+  },
+  {
+   "file": "server/366e46a4.go",
+   "line": 410,
+   "whole_line": "\t\t\ttoken = &Token{",
+   "source": "creddata"
+  },
+  {
+   "file": "server/366e46a4.go",
+   "line": 547,
+   "whole_line": "\treplyHdr.Token = token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0204df43.go",
+   "line": 351,
+   "value": "15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0204df43.go",
+   "line": 488,
+   "value": "0xde, 0xad, 0xbe, 0xef",
+   "source": "creddata"
+  },
+  {
+   "file": "test/0204df43.go",
+   "line": 527,
+   "value": "0xde, 0xad, 0xbe, 0xef",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1e986883.go",
+   "line": 561,
+   "whole_line": "\t\t\ttoken = <-tokenChan",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9d9c3767.go",
+   "line": 148,
+   "value": "0xde, 0xad, 0xbe, 0xef",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9d9c3767.go",
+   "line": 277,
+   "value": "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0xa, 0xb, 0xc, 0xd, 0xe, 0xf",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ab68b514.go",
+   "line": 121,
+   "whole_line": "\t\t\tPrivateKey:  leafPrivateKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ab68b514.go",
+   "line": 220,
+   "whole_line": "\tlastCAPrivKey := caPrivateKey",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ab68b514.go",
+   "line": 237,
+   "whole_line": "\t\tlastCAPrivKey = privKey",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ab68b514.go",
+   "line": 253,
+   "value": "leafPrivateKey",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f27c6297.go",
+   "line": 26,
+   "value": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f27c6297.go",
+   "line": 39,
+   "whole_line": "\t\t\tsess.destroy(&StatelessResetError{Token: token})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f27c6297.go",
+   "line": 68,
+   "value": "foobar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f27c6297.go",
+   "line": 119,
+   "value": "foobar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f27c6297.go",
+   "line": 170,
+   "value": "foobar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f27c6297.go",
+   "line": 188,
+   "value": "foobar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f27c6297.go",
+   "line": 239,
+   "value": "16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/f27c6297.go",
+   "line": 290,
+   "value": "foobar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/77ef818c.go",
+   "line": 164,
+   "value": "0xde, 0xad, 0xbe, 0xef",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/77ef818c.go",
+   "line": 166,
+   "whole_line": "\t\tExpect(buf.String()).To(ContainSubstring(\"\\t-> &wire.NewTokenFrame{Token: 0xdeadbeef\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/9ebaf615.go",
+   "line": 26,
+   "value": "chacha",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a8ac38a1.go",
+   "line": 410,
+   "value": "16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/b17593e7.go",
+   "line": 123,
+   "whole_line": "\t\t\tExpect(errors.Is(&StatelessResetError{Token: token}, &StatelessResetError{})).To(BeTrue())",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/bbc466f6.go",
+   "line": 87,
+   "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/bbc466f6.go",
+   "line": 93,
+   "whole_line": "\t\t\t\t\t\tToken:        token,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/bbc466f6.go",
+   "line": 119,
+   "value": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/bbc466f6.go",
+   "line": 124,
+   "whole_line": "\t\t\t\t\tToken:        token,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/bbc466f6.go",
+   "line": 373,
+   "value": "0xde, 0xad, 0xbe, 0xef",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/bbc466f6.go",
+   "line": 380,
+   "whole_line": "\t\t\tExpect(buf.String()).To(ContainSubstring(\"Long Header{Type: Initial, DestConnectionID: cafe1337, SrcConnectionID: decafbad, Token: 0xdeadbeef, PacketNumber: 42, PacketNumberLen: 2, Length: 100, Version: 0xfeed}\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/bbc466f6.go",
+   "line": 396,
+   "whole_line": "\t\t\tExpect(buf.String()).To(ContainSubstring(\"Long Header{Type: Initial, DestConnectionID: cafe1337, SrcConnectionID: decafbad, Token: (empty), PacketNumber: 42, PacketNumberLen: 2, Length: 100, Version: 0xfeed}\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/bbc466f6.go",
+   "line": 406,
+   "value": "0x12, 0x34, 0x56",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/bbc466f6.go",
+   "line": 410,
+   "whole_line": "\t\t\tExpect(buf.String()).To(ContainSubstring(\"Long Header{Type: Retry, DestConnectionID: cafe1337, SrcConnectionID: decafbad, Token: 0x123456, Version: 0xfeed}\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/util/3cddcdd1.go",
+   "line": 91,
+   "whole_line": "\t\t\tToken:            token,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/53170cac.go",
+   "line": 144,
+   "value": "foobar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/53170cac.go",
+   "line": 259,
+   "whole_line": "\t\t\t\t\tToken:        token,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/53170cac.go",
+   "line": 284,
+   "value": "foobar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/53170cac.go",
+   "line": 308,
+   "whole_line": "\t\t\t\t\tToken:            retryToken,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/53170cac.go",
+   "line": 496,
+   "whole_line": "\t\t\t\t\tToken:            token,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/53170cac.go",
+   "line": 546,
+   "whole_line": "\t\t\t\t\tToken:            token,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/dc9e512d.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "OWEL5Y4CE47XWW7UUZEC8I681M"
+  },
+  {
+   "file": "_/dc9e512d.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "be57dcc7-0cfd-4e90-af29-f81ed307ff15"
+  },
+  {
+   "file": "_/dc9e512d.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sentry.io"
+  },
+  {
+   "file": "_/dc9e512d.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/b491e4ac.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Influence Gid 5.15"
+  },
+  {
+   "file": "other/b491e4ac.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "etl"
+  },
+  {
+   "file": "other/b491e4ac.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Igel Demander 3.4"
+  },
+  {
+   "file": "other/b491e4ac.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "kasse"
+  },
+  {
+   "file": "other/b491e4ac.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "importer"
+  },
+  {
+   "file": "other/b491e4ac.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "Upper Zauber 9.19"
+  },
+  {
+   "file": "other/77033cec.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_BZf6tESTYV1nW6sahCZFWxTU"
+  },
+  {
+   "file": "other/77033cec.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "REPORTS_DB_PASSWORD"
+  },
+  {
+   "file": "other/77033cec.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "CRM_DB_PASSWORD"
+  },
+  {
+   "file": "other/77033cec.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LqhQRUQqv_mn9XjeRZU8bs3-jB1nJIJEn3pfGbc"
+  },
+  {
+   "file": "other/77033cec.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:YV9dtUJtpCzuhWov5RfNq3SoD6zo+xbRHZYJob/XIZY"
+  },
+  {
+   "file": "other/77033cec.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/var/run/secrets/reports/token"
+  },
+  {
+   "file": "other/77033cec.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Authorization"
+  },
+  {
+   "file": "other/77033cec.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "other/77033cec.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "dXNlcjo5NDc2MzpvZmZzZXQ6MzI3"
+  },
+  {
+   "file": "_/e4515bfe.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "c6c8e674840ccd6f02f50ddc3ed049d815bad0f5"
+  },
+  {
+   "file": "_/e4515bfe.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "_/e4515bfe.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "_/89da8693.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "_/89da8693.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "user@example.com"
+  },
+  {
+   "file": "_/89da8693.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "_/8e81045c.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "198.51.100.244"
+  },
+  {
+   "file": "_/8e81045c.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "0.20.14"
+  },
+  {
+   "file": "_/8e81045c.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:e4306724451a5be31fce27a34ca3b784b2159d5cfa581dcb0e83d6a7d2ae904f"
+  },
+  {
+   "file": "_/8e81045c.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/8e81045c.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "kunden.kelpie.systems"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "edi.logistik-nord.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "193.51.67.32"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "grafana.wikimedia.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Lina Braun"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Lina Koch"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.kelpie.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kunden.kelpie.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.logistik-nord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "193.51.67.32"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "grafana.wikimedia.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Lina Braun"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "lina.braun@kelpie.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "John Doe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "john.doe@example.net"
+  }
+ ]
+}

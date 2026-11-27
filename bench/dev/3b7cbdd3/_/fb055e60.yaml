@@ -1,0 +1,19 @@
+# vantor payments service
+database:
+  host: etl-replica.vantor.cloud
+  user: payments
+  password: "B@um!"
+  password_source: secret/data/vantor/payments/staging
+  password_env: REPORTS_CLIENT_SECRET
+api:
+  key_header: X-Hub-Signature-256
+  partner_ident: zNgFBzcEfh1PvRLjNhbtrdG7N1VGl7us
+  key_file: /etc/billing/tls/private.key
+  signing_alg: scrypt
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 772246036960-4nuh2icd2vqu8t2m6xux1tzil41u4bej.apps.googleusercontent.com
+  client_proof: 86nfztzae6kl6q5ves2mebhkdv8q7ouw
+  secret_rotated_at: "2023-01-14T00:00:00Z"
+  secret_name: payments-api-token
+pagination:
+  first_cursor: aW52b2ljZTo0MDYxNTpvZmZzZXQ6OTk=

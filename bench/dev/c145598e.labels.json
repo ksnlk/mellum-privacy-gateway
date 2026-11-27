@@ -1,0 +1,907 @@
+{
+ "repo": "c145598e",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "src/85c03d87.java",
+   "line": 69,
+   "start": 33,
+   "end": 42,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "uixschegh"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/sample/conf/server/script/928eada6.properties",
+   "line": 9,
+   "start": 12,
+   "end": 22,
+   "category": "Key:Password",
+   "mutation": "rename",
+   "forms": [
+    "yjinirqvin"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "src/setting/ddcc4e1d.java",
+   "line": 40,
+   "start": 44,
+   "end": 52,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "aquwefpv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "src/setting/ddcc4e1d.java",
+   "line": 43,
+   "start": 45,
+   "end": 62,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "jjzceeesnhcseioqt"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "_/a4bf6329.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sarah Fischer"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "_/a4bf6329.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "jonas.lange@helix-corp.de"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/a4bf6329.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 5000 2569"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/a4bf6329.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Clara Richter"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/a4bf6329.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lea.schwarz [at] helix-corp [dot] de"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/a4bf6329.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE94586483305549482366"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/a4bf6329.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jonas Zimmermann"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/a4bf6329.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Rosenheimer Str. 104, 41132 Freising"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/a4bf6329.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "91.223.221.218"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/0e24bfcb.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-prod.9vjxik090rh6.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/0e24bfcb.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Fischer",
+    "Fischer#2026",
+    "#2026"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/3242121b.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "53, 112, 81, 97, 81, 73, 115, 107, 53, 120, 85, 56, 101, 114, 120, 68, 86, 90, 114, 89, 106, 105, 116, 90, 57, 121, 112, 53, 88, 52, 102, 70",
+    "5pQaQIsk5xU8erxDVZrYjitZ9yp5X4fF"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/3242121b.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "anna.fischer@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/e4bb4950.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.QGAMYvRbwwvE1GztfnPvHfhHRhB6vKnx42NrxoYD.PgcX3GVIvcRKmKb6-ZS1mrB4qLiYgtnMfminM3D3Rvh"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/e4bb4950.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "argocd.helix-corp.de"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/2eabbd81.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_vwvUMxxzHqwFXuyWKlBvIdns"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/2eabbd81.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "3YcqZMfsvcqJa9OlaAgEJtvwbMr6oDZP"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/2eabbd81.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "YmRraXkxMm5td2sxanV3YWJtd2t0ZDJ4NGdncTlmdW4=",
+    "bdkiy12nmwk1juwabmwktd2x4ggq9fun"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "src/fc3fc932.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm.6qzdyg.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "src/fc3fc932.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Dresdenl\u00f6we78!"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "src/fc3fc932.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Berg$2000"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "src/010eabfb.java",
+   "line": 561,
+   "value": "newPwd",
+   "source": "creddata"
+  },
+  {
+   "file": "src/010eabfb.java",
+   "line": 719,
+   "whole_line": "\t\t  //cred.setPassword(credString);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/010eabfb.java",
+   "line": 1067,
+   "whole_line": "\tString sql1 = \"update \"+CRED_TABLENAME+\" set username=?,credential=?,verified=1 where owner=? and dbgroupname=?\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/010eabfb.java",
+   "line": 1147,
+   "whole_line": "\tString sql1 = \"update \"+CRED_TABLENAME+\" set username=?,credential=?,verified=1 where owner=? and dbgroupname=?\";\t\t",
+   "source": "creddata"
+  },
+  {
+   "file": "src/022c0b79.java",
+   "line": 77,
+   "whole_line": "\t\t\tString key = mSubGroup != null?mGroup+\".\"+mSubGroup: mGroup;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/022c0b79.java",
+   "line": 152,
+   "whole_line": "\t\t\t\tString key = mSubGroup != null?mGroup+\".\"+mSubGroup: mGroup;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/221adbc5.js",
+   "line": 2409,
+   "value": "move",
+   "source": "creddata"
+  },
+  {
+   "file": "src/221adbc5.js",
+   "line": 2411,
+   "whole_line": "      key = \"mouse\" + mouseEvents[i];",
+   "source": "creddata"
+  },
+  {
+   "file": "src/22cabfa5.jsp",
+   "line": 183,
+   "whole_line": "   \t       {key: \"tables\", label: \"Show Tables\", handler: contextmenu_mysql_meta_databases},",
+   "source": "creddata"
+  },
+  {
+   "file": "src/22cabfa5.jsp",
+   "line": 184,
+   "whole_line": "   \t       {key: \"missing_pks\", label: \"Show Tables With No PK\", handler: contextmenu_mysql_meta_databases},",
+   "source": "creddata"
+  },
+  {
+   "file": "src/22cabfa5.jsp",
+   "line": 185,
+   "whole_line": "   \t       {key: \"views\", label: \"Show Views\", handler: contextmenu_mysql_meta_databases}",
+   "source": "creddata"
+  },
+  {
+   "file": "src/22cabfa5.jsp",
+   "line": 238,
+   "whole_line": "   \t       {key: \"show_svc_table_detail\", label: \"Show Table Detail\", handler: contextmenu_mysql_meta_table_names}   \t       ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/22cabfa5.jsp",
+   "line": 330,
+   "whole_line": "   \t       {key: \"show_svc_view_detail\", label: \"Show View Detail\", handler: contextmenu_mysql_meta_view_names}   \t       ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/22cabfa5.jsp",
+   "line": 375,
+   "whole_line": "   \t       {key: \"show_svc_view_detail\", label: \"Show View Detail\", handler: contextmenu_mysql_meta_table_names}   \t       ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/27e0d4d1.js",
+   "line": 26,
+   "whole_line": "\t\t\tkey = method ?",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5ab341d7.jsp",
+   "line": 431,
+   "whole_line": "\t  \t    mydata += \"&storeCredential=\"+mydomval(\"storeCredential\");",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5ab341d7.jsp",
+   "line": 433,
+   "value": "+mydomval(",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6b451260.jsp",
+   "line": 385,
+   "whole_line": "   \t       {key: \"show_explain\", label: \"Explain\", handler: contextmenu_mysql_processlist}   \t       ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6b451260.jsp",
+   "line": 706,
+   "value": "USER",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6b451260.jsp",
+   "line": 958,
+   "whole_line": "        if(key=='access_type'||key=='rows'||key=='filtered'|| key=='access_type'||key=='table_name' ||key=='select_id')",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6b451260.jsp",
+   "line": 989,
+   "value": "+s + ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6b451260.jsp",
+   "line": 989,
+   "value": "+curSrcObj[",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6b451260.jsp",
+   "line": 990,
+   "value": "+ JSON.stringify(curSrcObj[",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6b451260.jsp",
+   "line": 1048,
+   "whole_line": "        else if(key=='partitions')",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6b451260.jsp",
+   "line": 1096,
+   "whole_line": "        }else if(key=='duplicates_removal'||key=='grouping_operation'||key=='ordering_operation' )",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6b451260.jsp",
+   "line": 1127,
+   "value": "+tbl+",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6b451260.jsp",
+   "line": 1164,
+   "whole_line": "        }else if(key=='nested_loop')",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6b451260.jsp",
+   "line": 1215,
+   "value": "attached_subqueries",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7bf6e8cd.java",
+   "line": 65,
+   "whole_line": "\t\t\t\t\tString key = type+\"|\"+name+\"|\"+nv[0];",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8636b613.js",
+   "line": 43,
+   "whole_line": "                  key: menu entry key",
+   "source": "creddata"
+  },
+  {
+   "file": "src/8636b613.js",
+   "line": 668,
+   "whole_line": "        var key = getKeys(keyColumns, row);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9654ae23.js",
+   "line": 13,
+   "whole_line": "(function(p){var G,H,I,J,K,L,r={},u={},v={},M={treeId:\"\",treeObj:null,view:{addDiyDom:null,autoCancelSelected:!0,dblClickExpand:!0,expandSpeed:\"fast\",fontCss:{},nameIsHTML:!1,selectedMulti:!0,showIcon:!0,showLine:!0,showTitle:!0,txtSelectedEnable:!1},data:{key:{children:\"children\",name:\"name\",title:\"\",url:\"url\"},simpleData:{enable:!1,idKey:\"id\",pIdKey:\"pId\",rootPId:null},keep:{parent:!1,leaf:!1}},async:{enable:!1,contentType:\"application/x-www-form-urlencoded\",type:\"post\",dataType:\"text\",url:\"\",autoParam:[],",
+   "source": "creddata"
+  },
+  {
+   "file": "src/a0425b8d.jsp",
+   "line": 30,
+   "whole_line": "             <td>Password:&nbsp;</td>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b1c56432.jsp",
+   "line": 364,
+   "whole_line": "   \t       {key: \"show_thread_wait\", label: \"Thread Wait Summary\", handler: contextmenu_mysql_perf_threads},",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b1c56432.jsp",
+   "line": 365,
+   "whole_line": "   \t       {key: \"show_thread_stmt\", label: \"Thread Statement Summary\", handler: contextmenu_mysql_perf_threads},\t       ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b1c56432.jsp",
+   "line": 366,
+   "whole_line": "   \t       {key: \"show_thread_stage\", label: \"Thread Stage Summary\", handler: contextmenu_mysql_perf_threads}\t       ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b1c56432.jsp",
+   "line": 750,
+   "whole_line": "   \t       {key: \"digest_diff\", label: \"See Changes\", handler: contextmenu_mysql_perf_digests}\t       ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/71e2a545.java",
+   "line": 68,
+   "whole_line": "\tpublic final static String ssSwapIn =          \".1.3.6.1.4.1.2021.11.3.0\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/71e2a545.java",
+   "line": 89,
+   "whole_line": "\tpublic final static String ssRawSwapIn =       \".1.3.6.1.4.1.2021.11.62.0\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/daadc53d.java",
+   "line": 70,
+   "value": "this.password",
+   "source": "creddata"
+  },
+  {
+   "file": "src/daadc53d.java",
+   "line": 104,
+   "whole_line": "\t  this.password = credString;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dec13561.jsp",
+   "line": 26,
+   "whole_line": "   <legend>Reset Password:</legend>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e4831b9c.java",
+   "line": 370,
+   "whole_line": "\t  String key = dbname+\":\"+hostname;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/150ad80d.jsp",
+   "line": 15,
+   "whole_line": "\t<a target=\"_help\" href=\"help.htm?key=${help_key}\">Help</a></span>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/150ad80d.jsp",
+   "line": 33,
+   "whole_line": "\t\t   <li><a target=\"_help\" href=\"<%= request.getContextPath() %>/help.htm?key=about\">About</a></li>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/150ad80d.jsp",
+   "line": 36,
+   "whole_line": "\t\t   <li><a target=\"_help\" href=\"<%= request.getContextPath() %>/help.htm?key=${help_key}\">Help</a></li>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/include/150ad80d.jsp",
+   "line": 66,
+   "whole_line": "\t   <li id=\"menu-item-10\"><a target=\"_help\" href=\"help.htm?key=${help_key}\">Help</a></li>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/sample/conf/server/script/928eada6.properties",
+   "line": 10,
+   "value": "secret/data/kelpie/reports/prod",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/1aacd97c.jsp",
+   "line": 135,
+   "whole_line": "          <td>MySQL Password: </td>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/1aacd97c.jsp",
+   "line": 437,
+   "whole_line": "   \t\t    mydata += \"&password=\"+ escape(mydomval(\"snmp_settings_password\"));",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/1aacd97c.jsp",
+   "line": 438,
+   "value": "+ escape(mydomval(",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/1aacd97c.jsp",
+   "line": 439,
+   "value": "+ escape(mydomval(",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/1aacd97c.jsp",
+   "line": 497,
+   "value": " + escape(mydomval(",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/1aacd97c.jsp",
+   "line": 504,
+   "whole_line": "  mydata += \"&metricsDbPassword=\" +  escape(mydomval(\"metricsDbPassword\"));  ",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/ddcc4e1d.java",
+   "line": 200,
+   "value": "privacypassphrase",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/ddcc4e1d.java",
+   "line": 41,
+   "value": "$2b$12$4x.GctDynsxKP07Vyri145Yacrd2JglJrzDbuAyz1DwYL.mVPpLAF",
+   "source": "creddata"
+  },
+  {
+   "file": "src/setting/ddcc4e1d.java",
+   "line": 44,
+   "value": "vault-api-token",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/81199442.java",
+   "line": 46,
+   "whole_line": "\t    //SecretKey key = KeyGenerator.getInstance(\"DES\").generateKey();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/81199442.java",
+   "line": 55,
+   "whole_line": "\t    \tSecretKey key = null;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/81199442.java",
+   "line": 57,
+   "whole_line": "\t    \tkey = (SecretKey) ois.readObject();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/tool/81199442.java",
+   "line": 67,
+   "whole_line": "\t\t\t\t\tkey = getKeyFromFile();",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a4bf6329.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "privacy@helix-corp.de"
+  },
+  {
+   "file": "_/a4bf6329.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "billing@helix-corp.de"
+  },
+  {
+   "file": "_/a4bf6329.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0171"
+  },
+  {
+   "file": "_/a4bf6329.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "_/a4bf6329.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "_/a4bf6329.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "_/a4bf6329.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "_/a4bf6329.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "other/0e24bfcb.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "7fcae3fa2b60cc4246c38e7ff696e0555d69be6b"
+  },
+  {
+   "file": "other/0e24bfcb.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "other/0e24bfcb.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "src/3242121b.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "71, 69, 84, 47, 104, 101, 97, 108, 116, 104, 122"
+  },
+  {
+   "file": "src/3242121b.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "Q29udGVudC1UeXBl"
+  },
+  {
+   "file": "src/3242121b.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "746578742f706c61696e3b636861727365743d7574662d38"
+  },
+  {
+   "file": "src/3242121b.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "src/3242121b.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "billing@quarzo-corp.de"
+  },
+  {
+   "file": "src/e4bb4950.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "2.28.24"
+  },
+  {
+   "file": "src/e4bb4950.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "5db20a97f1cb1fb03fd03510a0f1fdb55cb637c5"
+  },
+  {
+   "file": "src/e4bb4950.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "DDKTT5NX3AT20PK4J5O593TO4J"
+  },
+  {
+   "file": "src/e4bb4950.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "src/e4bb4950.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "4HEMTAUMNIKDK7EFDQZ41YHQ2L"
+  },
+  {
+   "file": "src/e4bb4950.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "other/2eabbd81.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_hZxCPjt1ondfCkQHuZyBWk6J"
+  },
+  {
+   "file": "other/2eabbd81.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "ETL_API_KEY"
+  },
+  {
+   "file": "other/2eabbd81.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "BILLING_AUTH_TOKEN"
+  },
+  {
+   "file": "other/2eabbd81.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6Lhg7E91uigI3g42Z2dF8sTs6h7zcq0Bsu0Z6qb9"
+  },
+  {
+   "file": "other/2eabbd81.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:F8yecmQPOGmgnCskQPSlzqxItG5Kh15Fj5x+TMmwyyc"
+  },
+  {
+   "file": "other/2eabbd81.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/etc/reports/tls/private.key"
+  },
+  {
+   "file": "other/2eabbd81.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Authorization"
+  },
+  {
+   "file": "other/2eabbd81.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "other/2eabbd81.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "dXNlcjoyMjY1MDpvZmZzZXQ6MjM="
+  },
+  {
+   "file": "src/fc3fc932.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "mixture-movie-2020"
+  },
+  {
+   "file": "src/fc3fc932.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "deploy"
+  },
+  {
+   "file": "src/fc3fc932.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "ping88"
+  },
+  {
+   "file": "src/fc3fc932.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "reporting"
+  },
+  {
+   "file": "src/fc3fc932.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "ledger_reader"
+  },
+  {
+   "file": "src/fc3fc932.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "Leon Kiel 4.0"
+  }
+ ]
+}

@@ -1,0 +1,1239 @@
+{
+ "repo": "b81d3227",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/src/5fe1d42b.java",
+   "line": 40,
+   "start": 28,
+   "end": 52,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "kNugqhSWQJ6Fw7satGymBz=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/src/5fe1d42b.java",
+   "line": 59,
+   "start": 27,
+   "end": 51,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "lTxhtjJJBK7Di4vxmBimZi=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/src/d3ebc628.java",
+   "line": 23,
+   "start": 48,
+   "end": 72,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "eIfpvqRGPU0Yc0vyaPyiFo=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/src/d3ebc628.java",
+   "line": 47,
+   "start": 32,
+   "end": 56,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "gRfebcEXAK1Gu0duhBcgNo=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/src/d3ebc628.java",
+   "line": 64,
+   "start": 51,
+   "end": 75,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "dPpkpaFMBA9Ri0kdiSglNl=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/src/resource/6c12deaf.pem",
+   "line": 1,
+   "line_end": 16,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBALCcqlioDdtVqSIW",
+    "/p3SwF9MU7yl66H3Lye8o4RJcRe4Y/xxACOu26JHbqmI2WKpPMTneyBWUYWxAp1h",
+    "wW8QRev6kENMcklyaGKtay52APq1exB9fD/np1hnkFU69pKtvSyY9jJ4f8wB0s/G",
+    "KfbQxPZj59aPfEze7K+ODZYpvfCjLIFwUZWImHMKCbJY1OQPpXcBxzFI91Or5vDY",
+    "Dl1l/KgAaFGOuZ2eb9Vw+i2EFMnfcpJpZMtv/Tym4uwEbTNZ4Tv2kLwU0oQY22RR",
+    "rqBMHVGuNyq5e8Rn8a4Y07aOThd446avRaZfYc0rXXqNousmGEZq0w0kf6hGoq1g",
+    "tr6tUH7kSSvNfgQiQbtzpfP/V7fwwTMj3TA+BxHA4MC+buYHDfnodwlQ0P6dHOzn",
+    "3KTRLmaQqw522M+IHEnHEFtgBixuIXkvEvf0VPkl5vIIuraeLM510ljrJvXDKBTK",
+    "7QrWDdhfgRUCQ8QNBzXAW7dR2X17SGKsBfz+wJ5gH6hdxG9FI6tTXf5geAr8U+z0",
+    "GgG8YkdZHaJBZUTrvPIzuIUE4vUiLWFqH0+JhCAktEedqvBJaI8dDpZHS3alEzFG",
+    "46CSfsUfIgo11aYuS0DNxhJQQst0SVjFG2u1JAI1VFV0TSJ3fgTqVVmz2Oxk7n+g",
+    "i6vvPqmutdscWfKLM2SkPyTdkz2flxSlMiRAGKzHI3UjA4ITsHhCjvgztuwDwfrw",
+    "uDvSRM+6ihq/LqyFCuSOMZN4vdCaMlnhsOt1l749UDjNYqv0QzLSkb4QWUFsUo63",
+    "lwqEnb0yYpP2qs=="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/src/resource/78c33315.pem",
+   "line": 1,
+   "line_end": 28,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD0ynqAQWn0T7/V",
+    "xbPtcpjatRSDr6Qg7zZJ+ES/Luh7x0tVcJcMyVC+VTW/6moJqDLphD5OeQrdL1uj",
+    "GuOSgXCcIXzdLSxWfSzVJ9G3RIozMJDsVvtTrQ71JHWMiSUW2sEarpgbfzsVQY8m",
+    "k8hYVV48Kk651X3d3gVy9+5DpxD89u4XuYFVkwB9WXXv3Qxm0vIL6JLMVFta0Ba4",
+    "1qjLFDq7mf6CMWXVdyv4TIlMgYu7skhH1HGfV+ihuiRA7LRQ0lhCb3Naqf8rCSLp",
+    "Jx0SBxy11GNFu/esKZp1Y23yumSY8JbhBrMY4hZfaOZatFwy8I8XT9lKrJCbpVyN",
+    "6x60dyVIhYCqADGXWmiTM3tKpittiVmvVGdIGZ9R8P78J855rD75MTa7nT52xDoP",
+    "Oul0Ynt9FUqwLRnhthXLhv7QmKFG1NwhwaohcLRWlle17uTwUEW3QeN0aJObbyFW",
+    "jCyyQ7oIWFHj+OochKw08vPKpSuShM2ozB5yit3q3pVLeRIKVqBzb9dH8dvxi3NI",
+    "lfrapulGQKPMzedBB2gnBueg13DU6Lzq50pBcjD1Wc9YsgilRIoZCOpUEGekL6Ez",
+    "RjP3ZvwpXbLCEKXkkJ762AtRvGI4vTRjHY92n1SComeU20cveGa2EAiNw59z94w4",
+    "ZTP4bqfYRMSnBQOlXLbIU363VQB/TKUpnTDn6mUyPyPsYBG381cXmkQD8Q7rcUxI",
+    "/HO8k4lQFwfPhn0ksX6ZSng3xlDegiVouJCixFZzpkS5RxspRpFsIZnJwnmN4VAN",
+    "VeyKkHLHV2EH/CEiCD61/nEWkQL5mfsk/PEufq2jXTpon9Y1G8aa/HAKhwg4/Qwc",
+    "Dow+6fOX2i02LkJ9THLoIFxoZZCejiS1g0UDq+sNlumbavUzX/e8gSj9Ghbm+1xQ",
+    "MuoyCtLBY+DTSvX5lBO9/fwlskYFoIdurj7DdV+9pPe2W9SQ0SCWjWe15jy+OmQB",
+    "FNRHCY+INeaU828pQYyP9r5a1iHULkWU8zHg9XfULBYeNVuHGrVgPKYBs7jl9urc",
+    "ojB8WmqcBjSwcEYvZtVx6aRek8YHbTByHKGu9N1lgI0rkhxz5mSuEEeFtN6vjswF",
+    "1GE0i584RFdrnhu5B8CGKMAobi5fHe4tKiWEBDX/5rzzw3axhn8sNRlFegoUGCW/",
+    "Ub2GdhSxLGclLWE+oYuVLmWPzQsf1UJ1VBya/b7TRZkGkIZ7HMRk9hgjgslVoH/n",
+    "XGVQ6TomLaSORfy2TJRpWpxqGVw631xRNP2hbMFcuWvaWgLmUOmAYTNTc71d7Tt1",
+    "FQbePbWnMmAqbJnS1Hql0r5XoDGAkPAligxYeDNv1JlEqoJgBfeiDPVX1Wanitnm",
+    "kbVsMD4MfFKTttbFi9sBzWzHZ9OwpiOxMVVrZK33dGvdob/afA9O3xOufcDZZi9T",
+    "uexW0P4CjXtyVts51BR5tXcLY4yK38+iTmvjsU8jDjVWll5IjveGaDQVKasWtoZx",
+    "wZ76MKh5GdqKr7Fv4sg1IXle/JI0AIiVImjQeMcAvkOmSFW2xsCFUN0TZOdUv5o8",
+    "zW/euTBq1JKkT9z7sY4J4GzU"
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/src/resource/84c175bb.pem",
+   "line": 1,
+   "line_end": 15,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIICXQIBAAKBgQDHul8A7MM3ynx1XRxmLCRZ1Lr66QppWP5ZaEotsQPpFtyq3w/x",
+    "ZMasQ6iqxWBB/dKrXZOUiVtWQbc/pFQ9FJVVIJUg+e53zQgogZAMP+Pz5DrfhL0e",
+    "Dt9zxofM/DHWcg2ex603zuZ5tVZ8Oxw5iurjHOY/mvBwqM62Zlxfd8DizqrcDRLw",
+    "igHEkP5sdY5GfbU2PXZmG7fim7eeKACc/aNkUIxkv2Kn037H4WEXmoQUVNcyk7Qh",
+    "ZULN7KEzawB/tWj3bHIL/lv0pqeP9jmkRH39oxcfF5VnwZYFaNpCoCvNX8u5GTBO",
+    "Ks77gXr/eqpldU/I34pZI13qjDHwRF8OC3MehL4OtvUDSj9MKeiJ+jtk/T+AqVQV",
+    "hKDd1OJinRmxSVvlWQx0qjg/y3jn6YpKOtuNC2l/qBxVvxoJjEWHlfP140/CXB5J",
+    "aYUuCjjf2DkNqLpFlkUM7QklzW7C5slFvFP1TkO9r0tcKzswihk+f0DN9I5I89LO",
+    "vFW/gaT9zHdynKTpCpK0PSCqbCijm6/rzm0MSEKfc5KqtO8qCqGNQ5amM4IhQ1h5",
+    "vdkkS4SMoGdZ2I4HzD3R3JNr4YX1uBVho03E9VqsGVo6v1S9uTrgNM7PyKcUYWdo",
+    "p2/U0J/eU4jL3LwzyyjZg0ZmGifl/Ie3FD5pII4OGqi/Oioen4fEu45u26AXGuto",
+    "Kb55EgNwLDf8t2Pj2kYabHebxTVS55WspOATuqM8rwcr4p0fjQeW9iLFRLG/rRdb",
+    "z3vhOCEQ/V31FkumPyZFP4Sis0PiMoSZwj8ReUuqmd2X"
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "other/6f62912d.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "c3Vid2F5LmRyYWNoZS5zZWUubWlnaHR5Njg=",
+    "subway.drache.see.mighty68"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/6f62912d.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9mWnYwSDdFbm1ZUFpsQ1lZZU1SYTBza3M=",
+    "sk_live_fZv0H7EnmYPZlCYYeMRa0sks"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/6f62912d.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-replica.kelpie.cloud"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/31421638.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "81, 110, 113, 56, 107, 69, 117, 54, 121, 100, 85, 115, 122, 75, 70, 90, 102, 70, 79, 78, 72, 69, 99, 69, 52, 89, 76, 108, 52, 57, 65, 51",
+    "Qnq8kEu6ydUszKFZfFONHEcE4YLl49A3"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/31421638.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "j.becker@nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/c5e99621.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-db-06.prod.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/c5e99621.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "menagerie-comp",
+    "menagerie-compaction",
+    "action"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/cca3bd4b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.dg598oc2c6md.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "_/cca3bd4b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Liebe$1981"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "_/cca3bd4b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Fischerleipzig90!"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/2d858ca3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sofia Zimmermann"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/2d858ca3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.fischer@helix-corp.de"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/2d858ca3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 1126 2959"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "src/2d858ca3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sarah Wagner"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "src/2d858ca3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "eva.becker [at] helix-corp [dot] de"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "src/2d858ca3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE94963172693775531447"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "src/2d858ca3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Emma Richter"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "src/2d858ca3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Am M\u00fchlbach 10, 26912 Landshut"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "src/2d858ca3.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "159.103.50.162"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "_/b549cbeb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jonas Hoffmann"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "_/b549cbeb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben93@gmail.com"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "_/b549cbeb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 6750 557"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "_/b549cbeb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.189.205.16"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "_/b549cbeb.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "surge-bounding-simulator-finish"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.59.168.0/24"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.59.168.28"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.pinegrid.systems"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.59.168.137"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Elias Zimmermann"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "elias.zimmermann@gmail.com"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 4049927"
+   ]
+  },
+  {
+   "id": 47,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Eva Neumann"
+   ]
+  },
+  {
+   "id": 48,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "eva.neumann@gmail.com"
+   ]
+  },
+  {
+   "id": 49,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 4631897"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/81cec6cb.yml",
+   "line": 30,
+   "whole_line": "      run: mvn org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectName=client-encryption-java -Dsonar.projectKey=Mastercard_client-encryption-java -Dsonar.organization=mastercard -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR_TOKEN -Dsonar.cpd.exclusions=**/OkHttp*.java -Dsonar.exclusions=**/*.xml -Dgpg.signature.skip=true",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 104,
+   "whole_line": "PrivateKey decryptionKey = EncryptionUtils.loadDecryptionKey(",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 114,
+   "whole_line": "PrivateKey decryptionKey = EncryptionUtils.loadDecryptionKey(\"<insert key file path>\");",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 368,
+   "whole_line": "                \"encryptedKey\": \"67f467d1b653d98411a0c6d3c(...)ffd4c09dd42f713a51bff2b48f937c8\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 387,
+   "whole_line": "    \"                \\\"encryptedKey\\\": \\\"e3a56746c0f9109d18b3a2652b76(...)f16d8afeff36b2479652f5c24ae7bd\\\",\" +",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 437,
+   "whole_line": "    \"encryptedKey\": \"7d5112fa08e554e3dbc455d0628(...)52e826dd10311cf0d63bbfb231a1a63ecc13\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 458,
+   "whole_line": "    \"  \\\"encryptedKey\\\": \\\"7d5112fa08e554e3dbc455d0628(...)52e826dd10311cf0d63bbfb231a1a63ecc13\\\",\" +",
+   "source": "creddata"
+  },
+  {
+   "file": "src/09045cd1.java",
+   "line": 107,
+   "whole_line": "            for (String key : propertyKeys) {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 86,
+   "value": "dobCRy+NUxdQdN0oMLT4dXUzQ+We7BahMfJunoAmwwUpk9jJrW66BASPalS2QWChPaKDM4Ft/BeNsu0wBoUZ0hHIT9ftx5g4tY6Xu2iLRiFWFDCHYOSdL+yVv98FcM6fxc34FNyg3/rOPWeyS3Q9YAOgcqiCwWYu4kqa34tNWCW1vnTmtz+dCKiiCZo/uHUkCtoAI5fEe+inHHToZL+LFlQ2Xd0u/nsu5Ep14Il5mTv8FyfLgwRgfilcqy4t2Kh3bpZ46LllO36DHXtQoI1e0ayMFfKTO87++NWxYNOilrverJ01WHnA+PyXhg4XU3RlU0CVWBN06fKbHBDH6GCmOA==",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 620,
+   "value": "26687f6d03d27145451d20bdaa29cc199e2533bb9eb7351772e31d1290b98380b43dbf47b9a337cc2ecaff9d3d9fb45305950f13382c5ad822ee6df79e1a57b14a3c58c71090121994a9f771ef96472669671718b55a0fa8d9f76de9e172fedcabbc87d64b5a994899e43abb19afa840269012c397b5b18d4babc0e41c1ad698db98c89121bbe5b2d227cfc5d3c3c87f4f4c8b04b509d326199b39adfbd8bca8bf0a150fcf3c37b9717382af502ad8d4d28b17b91762bf108d34aba0fb40ca410c2ecaeb30d68003af20dce27d9d034e4c557b8104e85f859de0eb709b23f9978869bae545c7f1b62173887eae9e75e4b6d6b4b01d7172ccc8c5774c0db51c24",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 623,
+   "value": "761b003c1eade3a5490e5000d37887baa5e6ec0e226c07706e599451fc032a79",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 645,
+   "value": "a31cfe7a7981b72428c013270619554c1d645c04b9d51c7eaf996f55749ef62fd7c7f8d334f95913be41ae38c46d192670fd1acb84ebb85a00cd997f1a9a3f782229c7bf5f0fdf49fe404452d7ed4fd41fbb95b787d25893fbf3d2c75673cecc8799bbe3dd7eb4fe6d3f744b377572cdf8aba1617194e10475b6cd6a8dd4fb8264f8f51534d8f7ac7c10b4ce9c44d15066724b03a0ab0edd512f9e6521fdb5841cd6964e457d6b4a0e45ba4aac4e77d6bbe383d6147e751fa88bc26278bb9690f9ee84b17123b887be2dcef0873f4f9f2c895d90e23456fafb01b99885e31f01a3188f0ad47edf22999cc1d0ddaf49e1407375117b5d66f1f185f2b57078d255",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 668,
+   "value": "d6819275d3a692bddce0baa10187769e0d683c351fb4e1857ab30f2572fbe1db95c34583d20ea5b224a638e99d26f6935104500b49fc1e855b7af30f34ac1d148090c6393e77e0f16d710614d00817ac862f9af730e9b3596d2c0dacf1349abd18717792ac3040f4ef1cc2e8fd9e0d685a192bfc6800e79022393eb3ce326757ba556107be28c02590390fad73117f7da3d96c05f54aaa36541b05680f23a222f1b7bbe54f1b070515dfbea8e5312708d5c27bfe9d9350e7bb72914351a6db1d83cdefee7d7514d04b73b6e285f334b27c674ad50ec830494ebc2901f1fe1738863b2d7940c98a15e1467d501545bffa724fd97b2d673e92629c9be79ca7381f",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 691,
+   "value": "631f0729018db2aa4f02823eeac6c1bf4bc766897dfd8159ec831086acb68cf37d91427347db77869fe1088e4cd8553b5bb0308accb43e92a3977245e0005385fc538aacea323cb62d44d21c932b7fbb3fc2039de44d18fff130108b30bd5c9925a3463ace729099ce63375dfa1dd9ec9f1e277de6b4ace5161a0e47ae81908aa2f8b44a654be2b863d6dfc5112a422dda065d8fbc0d5e47ea435409262c608edfc28a49e90fbda035c1743ec8cabd453d75775b0ab7b660b20b3a1f37c6eecffa32a26b07adf78432e1dd479a2ce19002846cb2fa2488ade423265ce7c4b003373837971c7b803925624f8eeb9254dad347941ebab8f641522b5b1efe53f572",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 714,
+   "value": "072aee9f7dd6cf381eb61e6d93c2e19e4032e1166d36d3ccb32ec379815f472e27d82a0de48617ff440d37a534bb38b170cf236a78148a375971e83b087eb7d05807863e70b43baa446934fe6f70150e3ca4e49e70fecabb1969c1fc5a38f13a75e318077760e4fe53e25ca011781d1038d19bb3a16928d35302bc7e389c8fb089230b8c0acc3c7e59c120cfe3aece6ff346aaa598a2baf003026f0a32307af022b9515fea564bb5d491b0159b20d909deb9cb5e8077d6471ad1ad3d7e743d6c3cf09f999c22006038980268b9d0cac1fd2e53b1a6e8e4d63b0a3e4457ff27ffab7cd025011b678e0ff56537c29e81ed087fe11988c2c92a7c7695f1fc6f856a",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 737,
+   "value": "Jmh/bQPScUVFHSC9qinMGZ4lM7uetzUXcuMdEpC5g4C0Pb9HuaM3zC7K/509n7RTBZUPEzgsWtgi7m33nhpXsUo8WMcQkBIZlKn3ce+WRyZpZxcYtVoPqNn3benhcv7cq7yH1ktamUiZ5Dq7Ga+oQCaQEsOXtbGNS6vA5Bwa1pjbmMiRIbvlstInz8XTw8h/T0yLBLUJ0yYZmzmt+9i8qL8KFQ/PPDe5cXOCr1Aq2NTSixe5F2K/EI00q6D7QMpBDC7K6zDWgAOvINzifZ0DTkxVe4EE6F+FneDrcJsj+ZeIabrlRcfxtiFziH6unnXktta0sB1xcszIxXdMDbUcJA==",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 740,
+   "value": "dhsAPB6t46VJDlAA03iHuqXm7A4ibAdwblmUUfwDKnk=",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 779,
+   "value": "26687f6d03d27145451d20bdaa29cc199e2533bb9eb7351772e31d1290b98380b43dbf47b9a337cc2ecaff9d3d9fb45305950f13382c5ad822ee6df79e1a57b14a3c58c71090121994a9f771ef96472669671718b55a0fa8d9f76de9e172fedcabbc87d64b5a994899e43abb19afa840269012c397b5b18d4babc0e41c1ad698db98c89121bbe5b2d227cfc5d3c3c87f4f4c8b04b509d326199b39adfbd8bca8bf0a150fcf3c37b9717382af502ad8d4d28b17b91762bf108d34aba0fb40ca410c2ecaeb30d68003af20dce27d9d034e4c557b8104e85f859de0eb709b23f9978869bae545c7f1b62173887eae9e75e4b6d6b4b01d7172ccc8c5774c0db51c24",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 803,
+   "value": "26687f6d03d27145451d20bdaa29cc199e2533bb9eb7351772e31d1290b98380b43dbf47b9a337cc2ecaff9d3d9fb45305950f13382c5ad822ee6df79e1a57b14a3c58c71090121994a9f771ef96472669671718b55a0fa8d9f76de9e172fedcabbc87d64b5a994899e43abb19afa840269012c397b5b18d4babc0e41c1ad698db98c89121bbe5b2d227cfc5d3c3c87f4f4c8b04b509d326199b39adfbd8bca8bf0a150fcf3c37b9717382af502ad8d4d28b17b91762bf108d34aba0fb40ca410c2ecaeb30d68003af20dce27d9d034e4c557b8104e85f859de0eb709b23f9978869bae545c7f1b62173887eae9e75e4b6d6b4b01d7172ccc8c5774c0db51c24",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 829,
+   "value": "26687f6d03d27145451d20bdaa29cc199e2533bb9eb7351772e31d1290b98380b43dbf47b9a337cc2ecaff9d3d9fb45305950f13382c5ad822ee6df79e1a57b14a3c58c71090121994a9f771ef96472669671718b55a0fa8d9f76de9e172fedcabbc87d64b5a994899e43abb19afa840269012c397b5b18d4babc0e41c1ad698db98c89121bbe5b2d227cfc5d3c3c87f4f4c8b04b509d326199b39adfbd8bca8bf0a150fcf3c37b9717382af502ad8d4d28b17b91762bf108d34aba0fb40ca410c2ecaeb30d68003af20dce27d9d034e4c557b8104e85f859de0eb709b23f9978869bae545c7f1b62173887eae9e75e4b6d6b4b01d7172ccc8c5774c0db51c24",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 853,
+   "value": "26687f6d03d27145451d20bdaa29cc199e2533bb9eb7351772e31d1290b98380b43dbf47b9a337cc2ecaff9d3d9fb45305950f13382c5ad822ee6df79e1a57b14a3c58c71090121994a9f771ef96472669671718b55a0fa8d9f76de9e172fedcabbc87d64b5a994899e43abb19afa840269012c397b5b18d4babc0e41c1ad698db98c89121bbe5b2d227cfc5d3c3c87f4f4c8b04b509d326199b39adfbd8bca8bf0a150fcf3c37b9717382af502ad8d4d28b17b91762bf108d34aba0fb40ca410c2ecaeb30d68003af20dce27d9d034e4c557b8104e85f859de0eb709b23f9978869bae545c7f1b62173887eae9e75e4b6d6b4b01d7172ccc8c5774c0db51c24",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 895,
+   "value": "26687f6d03d27145451d20bdaa29cc199e2533bb9eb7351772e31d1290b98380b43dbf47b9a337cc2ecaff9d3d9fb45305950f13382c5ad822ee6df79e1a57b14a3c58c71090121994a9f771ef96472669671718b55a0fa8d9f76de9e172fedcabbc87d64b5a994899e43abb19afa840269012c397b5b18d4babc0e41c1ad698db98c89121bbe5b2d227cfc5d3c3c87f4f4c8b04b509d326199b39adfbd8bca8bf0a150fcf3c37b9717382af502ad8d4d28b17b91762bf108d34aba0fb40ca410c2ecaeb30d68003af20dce27d9d034e4c557b8104e85f859de0eb709b23f9978869bae545c7f1b62173887eae9e75e4b6d6b4b01d7172ccc8c5774c0db51c24",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 917,
+   "value": "f16425f1550c28515bc83e25f7f63ca8102a2cbbadd6452c610f03d920563856f1a7318d98bc0939a3a6a84922caebc3691b34aa96ed4d2d016727a30d3622966dec3cb13f9da9d149106afc2b81846e624aa6134551bca169fa539df4034b48e47923cb4f2636b993c805b851cc046a7e98a70ff1c6b43207ac8dcbfbf6132a070860040093d4399af70b0d45cf44854390df9c24f2eb17aa6e745da1a2b7a765f8b4970f6764731d6a7d51af85be669e35ad433ff0942710764265253c956797cd1e3c8ba705ee8578373a14bbab368426d3797bd68076f6ec9c4ef8d43c2959f4fd4c17897a9d6d0622ffc662d5f5c304fb6d5ca84de63f7cf9b9dfe700d2",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 922,
+   "value": "c2c4a40433e91d1175ba933ddb7eb014e9839e3bf639c6c4e2ea532373f146ee6a88515103cb7aeb9df328c67b747c231bfdf4a6b3d366792b6e9ec0f106447f28518a864cc9dd59ed6e1a9ed017229166f23389b4c141b4492981e51ad6863ed48e8c93394378a8e8ab922b8c96dfdf6c683c334eef4c668d9f059b6ac6c26a7d623032ef0bac0e3d4fde5a735d4c09879364efb723c2f2bd3288f8619f9f1a63ed1e283ae7cb40726632fe271fea08252991a158bce3aeca90a4ce7b6895f7b94516ada042de80942ddbc3462baeee49c4169c18c0024fec48743610281cec0333906953da783b3bcd246226efccff4cdefa62c26753db228e0120feff2bdc",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 949,
+   "value": "22b3df5e70777cef394c39ac74bacfcdbfc8cef4a4da771f1d07611f18b4dc9eacde7297870acb421abe77b8b974f53b2e5b834a68e11a4ddab53ece2d37ae7dee5646dc3f4c5c17166906258615b9c7c52f7242a1afa6edf24815c3dbec4b2092a027de11bcdab4c47de0159ce76d2449394f962a07196a5a5b41678a085d77730baee0d3d0e486eb4719aae8f1f1c0fd7026aea7b0872c049e8df1e7eed088fa84fc613602e989fa4e7a7b77ac40da212a462ae5d3df5078be96fcf3d0fe612e0ec401d27a243c0df1feb8241d49248697db5ec79571b9d52386064ee3db11d200156bfd3af03a289ea37ec2c8f315840e7804669a855bf9e34190e3b14d28",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 983,
+   "value": "26687f6d03d27145451d20bdaa29cc199e2533bb9eb7351772e31d1290b98380b43dbf47b9a337cc2ecaff9d3d9fb45305950f13382c5ad822ee6df79e1a57b14a3c58c71090121994a9f771ef96472669671718b55a0fa8d9f76de9e172fedcabbc87d64b5a994899e43abb19afa840269012c397b5b18d4babc0e41c1ad698db98c89121bbe5b2d227cfc5d3c3c87f4f4c8b04b509d326199b39adfbd8bca8bf0a150fcf3c37b9717382af502ad8d4d28b17b91762bf108d34aba0fb40ca410c2ecaeb30d68003af20dce27d9d034e4c557b8104e85f859de0eb709b23f9978869bae545c7f1b62173887eae9e75e4b6d6b4b01d7172ccc8c5774c0db51c24",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 1008,
+   "value": "22b3df5e70777cef394c39ac74bacfcdbfc8cef4a4da771f1d07611f18b4dc9eacde7297870acb421abe77b8b974f53b2e5b834a68e11a4ddab53ece2d37ae7dee5646dc3f4c5c17166906258615b9c7c52f7242a1afa6edf24815c3dbec4b2092a027de11bcdab4c47de0159ce76d2449394f962a07196a5a5b41678a085d77730baee0d3d0e486eb4719aae8f1f1c0fd7026aea7b0872c049e8df1e7eed088fa84fc613602e989fa4e7a7b77ac40da212a462ae5d3df5078be96fcf3d0fe612e0ec401d27a243c0df1feb8241d49248697db5ec79571b9d52386064ee3db11d200156bfd3af03a289ea37ec2c8f315840e7804669a855bf9e34190e3b14d28",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 1038,
+   "value": "02bb8d5c7d113ef271f199c09f0d76db2b6d5d2d209ad1a20dbc4dd0d04576a92ceb917eea5f403ccf64c3c39dda564046909af96c82fad62f89c3cbbec880ea3105a0a171af904cd3b86ea68991202a2795dca07050ca58252701b7ecea06055fd43e96f4beee48b6275e86af93c88c21994ff46f0610171bd388a2c0a1f518ffc8346f7f513f3283feae5b102c8596ddcb2aea5e62ceb17222e646c599f258463405d28ac012bfd4cc431f94111ee07d79e660948485e38c13cdb8bba8e1df3f7dba0f4c77696f71930533c955f3a430658edaa03b0b0c393934d60f5ac3ea5c06ed64bf969fc01942eac432b8e0c56f7538659a72859d445d150c169ae690",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 1040,
+   "value": "761b003c1eade3a5490e5000d37887baa5e6ec0e226c07706e599451fc032a79",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 1063,
+   "value": "b04c69e1ca944fd7641ea79f03e5cd540144759212fa50d07c8a97ab30ca8bded324e2d4b8cd2613b25cd6bceac35b76c2fa1b521ff205b5f33eafaf4102efbefd35cae6707f985953d6dac366cca36295b29d8af3d94d5d5d1532158066b9fecfc2cc000f10e4757967e84c043d7db164d7488f5bef28f59c989c4cd316c870da7b7c1d10cfd73b6d285cd43447e9e96702e3e818011b45b0ecda21b02286db04b7c77ab193dcc4a9036beff065a404689b7cea40b6a348554900ae3eb819af9cb53ab800e158051aac8d8075045a06808e3730cd8cbc1b5334dcdc922d0227f6da1518442914ac5f3abf6751dfb5721074459d0626b62e934f6a6e6fd96020",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 1066,
+   "value": "761b003c1eade3a5490e5000d37887baa5e6ec0e226c07706e599451fc032a79",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 1094,
+   "value": "b04c69e1ca944fd7641ea79f03e5cd540144759212fa50d07c8a97ab30ca8bded324e2d4b8cd2613b25cd6bceac35b76c2fa1b521ff205b5f33eafaf4102efbefd35cae6707f985953d6dac366cca36295b29d8af3d94d5d5d1532158066b9fecfc2cc000f10e4757967e84c043d7db164d7488f5bef28f59c989c4cd316c870da7b7c1d10cfd73b6d285cd43447e9e96702e3e818011b45b0ecda21b02286db04b7c77ab193dcc4a9036beff065a404689b7cea40b6a348554900ae3eb819af9cb53ab800e158051aac8d8075045a06808e3730cd8cbc1b5334dcdc922d0227f6da1518442914ac5f3abf6751dfb5721074459d0626b62e934f6a6e6fd96020",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 1097,
+   "value": "761b003c1eade3a5490e5000d37887baa5e6ec0e226c07706e599451fc032a79",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 1118,
+   "value": "26687f6d03d27145451d20bdaa29cc199e2533bb9eb7351772e31d1290b98380b43dbf47b9a337cc2ecaff9d3d9fb45305950f13382c5ad822ee6df79e1a57b14a3c58c71090121994a9f771ef96472669671718b55a0fa8d9f76de9e172fedcabbc87d64b5a994899e43abb19afa840269012c397b5b18d4babc0e41c1ad698db98c89121bbe5b2d227cfc5d3c3c87f4f4c8b04b509d326199b39adfbd8bca8bf0a150fcf3c37b9717382af502ad8d4d28b17b91762bf108d34aba0fb40ca410c2ecaeb30d68003af20dce27d9d034e4c557b8104e85f859de0eb709b23f9978869bae545c7f1b62173887eae9e75e4b6d6b4b01d7172ccc8c5774c0db51c24",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 1145,
+   "value": "26687f6d03d27145451d20bdaa29cc199e2533bb9eb7351772e31d1290b98380b43dbf47b9a337cc2ecaff9d3d9fb45305950f13382c5ad822ee6df79e1a57b14a3c58c71090121994a9f771ef96472669671718b55a0fa8d9f76de9e172fedcabbc87d64b5a994899e43abb19afa840269012c397b5b18d4babc0e41c1ad698db98c89121bbe5b2d227cfc5d3c3c87f4f4c8b04b509d326199b39adfbd8bca8bf0a150fcf3c37b9717382af502ad8d4d28b17b91762bf108d34aba0fb40ca410c2ecaeb30d68003af20dce27d9d034e4c557b8104e85f859de0eb709b23f9978869bae545c7f1b62173887eae9e75e4b6d6b4b01d7172ccc8c5774c0db51c24",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 1148,
+   "value": "761b003c1eade3a5490e5000d37887baa5e6ec0e226c07706e599451fc032a79",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 1184,
+   "value": "26687f6d03d27145451d20bdaa29cc199e2533bb9eb7351772e31d1290b98380b43dbf47b9a337cc2ecaff9d3d9fb45305950f13382c5ad822ee6df79e1a57b14a3c58c71090121994a9f771ef96472669671718b55a0fa8d9f76de9e172fedcabbc87d64b5a994899e43abb19afa840269012c397b5b18d4babc0e41c1ad698db98c89121bbe5b2d227cfc5d3c3c87f4f4c8b04b509d326199b39adfbd8bca8bf0a150fcf3c37b9717382af502ad8d4d28b17b91762bf108d34aba0fb40ca410c2ecaeb30d68003af20dce27d9d034e4c557b8104e85f859de0eb709b23f9978869bae545c7f1b62173887eae9e75e4b6d6b4b01d7172ccc8c5774c0db51c24",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 1202,
+   "value": "26687f6d03d27145451d20bdaa29cc199e2533bb9eb7351772e31d1290b98380b43dbf47b9a337cc2ecaff9d3d9fb45305950f13382c5ad822ee6df79e1a57b14a3c58c71090121994a9f771ef96472669671718b55a0fa8d9f76de9e172fedcabbc87d64b5a994899e43abb19afa840269012c397b5b18d4babc0e41c1ad698db98c89121bbe5b2d227cfc5d3c3c87f4f4c8b04b509d326199b39adfbd8bca8bf0a150fcf3c37b9717382af502ad8d4d28b17b91762bf108d34aba0fb40ca410c2ecaeb30d68003af20dce27d9d034e4c557b8104e85f859de0eb709b23f9978869bae545c7f1b62173887eae9e75e4b6d6b4b01d7172ccc8c5774c0db51c24",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 1205,
+   "value": "761b003c1eade3a5490e5000d37887baa5e6ec0e226c07706e599451fc032a79",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5fe1d42b.java",
+   "line": 60,
+   "value": "billing-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/util/a0296ddf.java",
+   "line": 96,
+   "value": "Password1",
+   "source": "creddata"
+  },
+  {
+   "file": "other/6f62912d.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "5fd1473"
+  },
+  {
+   "file": "other/6f62912d.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b069b4f3f4df8ae88d67340850457ba1858ef12d532a3a6bd609325193a1c6ad"
+  },
+  {
+   "file": "other/6f62912d.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "other/6f62912d.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/31421638.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "71, 69, 84, 47, 104, 101, 97, 108, 116, 104, 122"
+  },
+  {
+   "file": "test/31421638.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "R0VUL2hlYWx0aHo="
+  },
+  {
+   "file": "test/31421638.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "757365722d6167656e743a6375726c2f382e342e30"
+  },
+  {
+   "file": "test/31421638.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "test/31421638.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@nordwind-corp.de"
+  },
+  {
+   "file": "other/c5e99621.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "896d42cc92aaad9aea54cfbfe29ccfb38edce3a3"
+  },
+  {
+   "file": "other/c5e99621.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "other/c5e99621.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "_/cca3bd4b.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "positive16"
+  },
+  {
+   "file": "_/cca3bd4b.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "backup"
+  },
+  {
+   "file": "_/cca3bd4b.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Darin Synonym 8.1"
+  },
+  {
+   "file": "_/cca3bd4b.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "ledger_reader"
+  },
+  {
+   "file": "_/cca3bd4b.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "kasse"
+  },
+  {
+   "file": "_/cca3bd4b.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "tulpe-telemetry-prod"
+  },
+  {
+   "file": "src/2d858ca3.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "security@helix-corp.de"
+  },
+  {
+   "file": "src/2d858ca3.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "careers@helix-corp.de"
+  },
+  {
+   "file": "src/2d858ca3.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0164"
+  },
+  {
+   "file": "src/2d858ca3.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "src/2d858ca3.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "src/2d858ca3.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "src/2d858ca3.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "src/2d858ca3.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "_/b549cbeb.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "198.51.100.240"
+  },
+  {
+   "file": "_/b549cbeb.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "0.24.31"
+  },
+  {
+   "file": "_/b549cbeb.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:c0b24439c41b4f9ca308625f068cb8e3e3482c3a29b27659f7d3615694c2bdb7"
+  },
+  {
+   "file": "_/b549cbeb.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/b549cbeb.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "shop.pinegrid.systems"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "files.datafjord.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "194.71.112.242"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Emma Klein"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Emma Wolf"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.pinegrid.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "shop.pinegrid.systems"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.datafjord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "194.71.112.242"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Emma Klein"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "emma.klein@pinegrid.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Max Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "max.mustermann@example.org"
+  }
+ ]
+}

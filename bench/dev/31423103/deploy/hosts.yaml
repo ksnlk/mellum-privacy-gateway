@@ -1,0 +1,15 @@
+monitoring: juno.helix.net
+database:
+  host: atlas.helix.net
+  port: 5432
+queue: hermes.helix.net
+backup_target: pallas.helix.net
+website: shop.helix.net
+payments_api: https://api.datafjord.com/v2
+partner_drop: files.datafjord.de
+allow_sources:
+  - 185.41.87.228
+  - 140.82.112.3
+  - 185.66.209.153
+ntp: 194.58.200.20
+mirrors: [kafka.apache.org, build.opensuse.org]

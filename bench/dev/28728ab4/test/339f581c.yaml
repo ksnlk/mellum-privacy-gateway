@@ -1,0 +1,19 @@
+# kelpie payments service
+database:
+  host: reports.7wwcy8.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "Hase$1970"
+  password_source: secret/data/kelpie/auth/prod
+  password_env: BILLING_AUTH_TOKEN
+api:
+  key_header: X-Api-Key
+  partner_ident: d4VkLZF1FXuHpi7FAJXnvC3ujJRI5Ygd
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: HS256
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 411119577659-6cgdd6rwb40mp2i5rrw0v33r9lscu2uv.apps.googleusercontent.com
+  client_proof: ooctb8io9zoqpnbzptplvxfaz628hf65
+  secret_rotated_at: "2025-01-25T00:00:00Z"
+  secret_name: crm-oauth-client
+pagination:
+  first_cursor: aW52b2ljZTo1ODIzOTpvZmZzZXQ6NDg5

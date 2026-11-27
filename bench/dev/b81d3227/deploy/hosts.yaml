@@ -1,0 +1,15 @@
+monitoring: vega.pinegrid.systems
+database:
+  host: orion.pinegrid.systems
+  port: 5432
+queue: hermes.pinegrid.systems
+backup_target: falkor.pinegrid.systems
+website: shop.pinegrid.systems
+payments_api: https://api.datafjord.com/v2
+partner_drop: files.datafjord.de
+allow_sources:
+  - 194.59.168.137
+  - 185.199.108.153
+  - 194.71.112.242
+ntp: 212.18.3.19
+mirrors: [gitlab.freedesktop.org, db.debian.org]

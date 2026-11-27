@@ -1,0 +1,19 @@
+# brightloop payments service
+database:
+  host: auth-api-05.prod.brightloop-internal.net
+  user: payments
+  password: "Pferdzug79?"
+  password_source: secret/data/brightloop/payments/prod
+  password_env: VAULT_AUTH_TOKEN
+api:
+  key_header: Authorization
+  partner_ident: PmnzRayhU6v92C751K2rBEUQVsqoRZVK
+  key_file: /var/run/secrets/crm/token
+  signing_alg: pbkdf2_sha256
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 665425068740-pxv0szztyytr7rnv42vbpncpr1ug6fxi.apps.googleusercontent.com
+  client_proof: geid7shw99cpsdo3y2m0xdks68ox0eft
+  secret_rotated_at: "2023-10-04T00:00:00Z"
+  secret_name: crm-tls
+pagination:
+  first_cursor: aW52b2ljZToxMzQ1MDpvZmZzZXQ6MzQ2

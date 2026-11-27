@@ -1,0 +1,15 @@
+monitoring: vega.kelpie.systems
+database:
+  host: juno.kelpie.systems
+  port: 5432
+queue: atlas.kelpie.systems
+backup_target: nimbus.kelpie.systems
+website: www.kelpie.systems
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: edi.logistik-nord.de
+allow_sources:
+  - 193.9.75.197
+  - 185.199.108.153
+  - 193.9.159.225
+ntp: 212.18.3.19
+mirrors: [kafka.apache.org, gitlab.freedesktop.org]

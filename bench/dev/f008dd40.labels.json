@@ -1,0 +1,3676 @@
+{
+ "repo": "f008dd40",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "api/0bbc7302.yml",
+   "line": 708,
+   "start": 125,
+   "end": 177,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "6YL6B8IGQEGSI9VVMZSWKFSSLWTVJDSSATGVOR4BBQANHHRQIB0V"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "api/0bbc7302.yml",
+   "line": 756,
+   "start": 19,
+   "end": 204,
+   "category": "JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJmfTvnSrMXJDxoCuJxDoO4tUE5AzYYQpP1.crSkiBHmPtG6JFm7XAi6ZVPjLsrhdvT5Ak9dZaDOE2peBgdsQcSiVnTeBwmfhwOXImjXnSbYHCountPkHpBFR7OpOBmePkdsV8liXvZ4.704crBbQNTHh1imCYkpdpaD1YXEDnbWqGau-DTa9NnC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "conf/docs/68f31c9a.md",
+   "line": 23,
+   "start": 14,
+   "end": 22,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "nztvhals"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "conf/docs/bad29981.md",
+   "line": 177,
+   "start": 12,
+   "end": 27,
+   "category": "Dropbox App secret:Password",
+   "mutation": "rename",
+   "forms": [
+    "tzsnsnqtnczemez"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 195,
+   "start": 20,
+   "end": 38,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "zaljopbserbprpjiqj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 196,
+   "start": 23,
+   "end": 38,
+   "category": "Dropbox App secret:Secret",
+   "mutation": "none",
+   "forms": [
+    "mlywtwantjuxttr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 197,
+   "start": 23,
+   "end": 38,
+   "category": "Dropbox App secret:Password",
+   "mutation": "none",
+   "forms": [
+    "vasoxdnnclqhlul"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 198,
+   "start": 21,
+   "end": 34,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "pivzgplkmzzye"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 199,
+   "start": 21,
+   "end": 35,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "judnrpvzuoqxcy"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 200,
+   "start": 19,
+   "end": 33,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "eedtborsswfegc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 202,
+   "start": 25,
+   "end": 39,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "rajislaexsvyot"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "conf/template/9e2351f6.yml",
+   "line": 214,
+   "start": 14,
+   "end": 22,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "crzesgyz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "conf/template/9e2351f6.yml",
+   "line": 397,
+   "start": 14,
+   "end": 22,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "yyenwzel"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "conf/template/9e2351f6.yml",
+   "line": 429,
+   "start": 20,
+   "end": 42,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "vrppdclw_nqbpnfdr_qmbc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "conf/template/9e2351f6.yml",
+   "line": 489,
+   "start": 14,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ylgtbdmuyp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "conf/template/9e2351f6.yml",
+   "line": 500,
+   "start": 25,
+   "end": 35,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "sskanqniki"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 17,
+   "file": "conf/template/9e2351f6.yml",
+   "line": 533,
+   "start": 12,
+   "end": 20,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "ixpvuszp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 18,
+   "file": "conf/template/9e2351f6.yml",
+   "line": 565,
+   "start": 16,
+   "end": 31,
+   "category": "Dropbox App secret:Password",
+   "mutation": "none",
+   "forms": [
+    "rqtvovbpkfgfadb"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 19,
+   "file": "docs/01e5fd9a.md",
+   "line": 33,
+   "start": 18,
+   "end": 41,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "3249808458zsffvknqtcjgh"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 20,
+   "file": "example/conf/7084fda8.yml",
+   "line": 20,
+   "start": 15,
+   "end": 38,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "2274602953skcrqjibcspsq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 21,
+   "file": "example/conf/7084fda8.yml",
+   "line": 49,
+   "start": 16,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "hztvbzyv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 22,
+   "file": "internal/179696aa.go",
+   "line": 60,
+   "start": 22,
+   "end": 40,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "yl;cgeakp*kdalrpmu"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 23,
+   "file": "internal/ab0f5e29.pem",
+   "line": 1,
+   "line_end": 27,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEogIBAAKCAQEAvOFmoEJFt1JkfdlwM3vJFg5rrY9d6LyyqezjZkBZDQ4qdEEU",
+    "otdre8QoUwni4KoiCo7KEvQmbNT1ysFJKoC3L3bUjjfJBtQPTcognzLB5rQmAQmn",
+    "JmQBJGDPEYhvPYqswbqhM1ACmBfmGOmli/HU3JFN9O4utAXSfhBzrBXGF9Ine2/+",
+    "iclvqt5jNKY/vILDHTCXuOKdpVu9s0vV6ZN0T0ASh3pzhPtbBN797iWzbSZ/+maq",
+    "5jyi2HRKyO8EVJ2MJTS2XgWQrbgHKfOBQ+2CQmlE/3f95TY7dG9OYfcXLVvNbBmv",
+    "G+2F8iIXqzSmWtFlBH351HTNjjNGIaXaI4F9PEvcjXLjYeyEDmoZgkvqZL02HJg7",
+    "jsX2iD64ll3JBSsRs6CTLQlnfzNYEy1rhRPWO32H854yxuV+YcshuFOppU0PDQTg",
+    "UEO2nJLbzJ3GiaeKcyknybjVOarQaaU7X9AHpqs+vJuGsDW8sGLchOmWNOd2JCjA",
+    "JWagRFlGNg9vUyX738x5GgApNLwVHGehWoyUrn4HZqlp0MNr5wojmulESGxgmqOt",
+    "Q5X4BS4wcpckqdgMKoVvYSOdbArzI+83QKYSPzULF07ss1tKN+K0+c+1/PlYxOqY",
+    "5t23vWKesmLIbhTJAKdOJc6wurG7aaEVf/MAuV4LNwpf+BlR2tM3urPUTC0pR3c0",
+    "uiLEZRmUPZij6w56jYrB9JyRoIpMJ9KmcIEZmfKWfSYzkVZlCoRpkFKVWRP1hdTj",
+    "CWduAfCyEAUtveFuV5JS6bfgfsvLDX918N02dBUEId3EVWBUlH2X8SHtiCQsCg4L",
+    "N4/RdYG/BIGL64G6NafQdcHSeT3pgA/S20hbrdMHWgf654EAeUhVmYSkiDfQ1Hhy",
+    "cUZ/ZMHo7TzYaOwwZyqMzOChOED7y9L2KMQMOx9NYP6fYJSaUggtJHqZJOylbLqv",
+    "VWgRXbZmA2KVAi60nkxiOU1Cd0w5ej9iM0VLkZESiDiO0/ViqYTsdG280yXPFjw/",
+    "Sog6qCKZgCdchaf6GyAoQO/xXlxTRkGbdAQ3hTEwCTnRx2NkJ4NQC6vXdhhzmIOh",
+    "p3qFLosK2LIXcuOTfssK83IVp4m0eVzqUcSRZSggBsxGaKMFYWHKxzcmaCMPUKXo",
+    "ciOP2UT00crM9c7LWSJtMiP4z4RtsbJ8n021ty/zU2YKfEOeX75kmsPiBDv6ogi5",
+    "nWdBoSFOg92tKnieX9eDlqLCihRpzhY+R+iEJ8ABaJw1L5q00E/k0TG2nM+6ORA3",
+    "ixlkWXdCZ2pMosMBLsRO9CaSDWokR2+b/0yckSSI5hU8KCmisn3HUxZP0BaPXhIa",
+    "GL9IBrdAUEEi8yGQiHKyKaKVnU+SG7QroADIyTObAT58EUSidEwYOavdXmFSM4kb",
+    "O6JdZuSaY/5yv27/DdLX993+JjOT4tWVhGdDH+g+9I12bb2W2x64sSQHXNn53aQ+",
+    "qEIUutmO3GEsLFljJkdYtbL0q48bOlvauqXWIWC+lDy+0mg23gRxOp4lqZZZMrLr",
+    "mh9KFZJbro7fvuTcSAyEoPhu7HLukZcyTeCytXh/LM9UomBx64H="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 24,
+   "file": "internal/conf/11286903.yml",
+   "line": 60,
+   "line_end": 86,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEogIBAAKCAQEAvOFmoEJFt1JkfdlwM3vJFg5rrY9d6LyyqezjZkBZDQ5PMWPh",
+    "hqeGc6AsFeVt6IodWN4kPAJZQEH9BkAZqsd3p7HSsEmWnkXdpDCVfPje2nOvCMzK",
+    "OovQYLijtbjzRMvOPdNUT4fGTxEDsVdaB/zH9Wdo0m1VDeNuCDYyWtEAL1kDB2/+",
+    "bDsJFb4eWwa/UvGhgFupXYuSQGB1L4mi3ja4q6fOz3kqnDeIrh694okDHzp/+HkS",
+    "3Flg0pijSK3gld5iNZW4MAcqhMBHnTPcE+6yilng/0B22NV4Vp1wPaSgpIjWfisJ",
+    "i+9c6HGNRAEtsCvwrD759vOVURPaklmsv4t5onmFOIRhQWgmztFBUjaoIW76SGQ8",
+    "OPz8KX56HP2havnsp1upeEvZatoIdI0uVHzXu87Z244QhtG+YjQKthGPTG2ZHbti",
+    "VDa6YbyqWo0qGGfTaLNXEUEgwKVsnsP7R2cwrwe+CufNitX9BjOVwpLKUKR2Ecxm",
+    "FEhqTuJJbo1OixC026b0WbRKjiKWHhXhIeHBAf1FFTTy5sqA3GlksmdpKjNzrEoa",
+    "H0T6Km9tItMohMANDlhFotVvWxvoE+34EBzKcpzKQ79kn5aBw+j2+M+7/EuHRYEO",
+    "5J41UKIOjhepcOfVRnRHwU8LRGZ8smmkL/hQsO3usllp+XTM6gI5hXCuxV2Jk3S3",
+    "HGakWcCEuIjf2t98FEhW1bExGKrxh8OQLEeXYzDZpnTnMkaTqhQPyEtZKgG8FPOH",
+    "SKpLeldwpHjhzDxVu1hq6ipzbivKVV978J01GxPEZd4AQaxtzz0f5hFmacCADU5C",
+    "L0/Quhz/VpxA00s6MauVzigbxn2Sum/y59ptkXUFCBh003jwlVYIjrNLzKbO3UBA",
+    "Kho/DJik8CpBoiBqZoNONMHMXha6l6S3dnhAUu2UVp2vwMNoalkrqMDXzMhiurCd",
+    "hsRIPyVMQ9plfK82xMYLRl7qN5R2Rg7IA6KMsUDVpjBb7/nMDUFBNm974CwbDhu/",
+    "YGw4ZxYovbPpyas7JCsFfd/XkMWdhaevRMv1TZGVxXugp0MGB4MOy9bCWZjeVRQY",
+    "b9PWixKQ0INIoqkxUIDR43mzf2Q3lcBpMDFTHsYougnukNSgdwQJtTpKNxQvLlBi",
+    "ZHdF3kN73dLi7J2fnnbJrOq6L9gAGMG7y343eR/qy4SYiCpIu93fAKnLRNG7tay7",
+    "IlbLtkSko06luhmee6NUFLRLYmnkiVF+v+tzt1oVzRz0M5e91I/N9DX1nI+1PGs8",
+    "uoUhdhDTq6qtQnVArVgV5OmebhxrY2+l/2JAhjRE7Ks0SllQuN2nkNpO5DydHcMP",
+    "aE7ZJxdcOJYx7FipZsyPRlGsCv+HP0jKrjdrsUqbtx57poAcXAXaLzuEIBtLO8FG",
+    "Q2cVcSUSI/8LA14/ikms225+ypwa5iyFoVexx+C+7k40ci0S5e74RVUZTcS60cQ+",
+    "vZtHHQXn8ljOfOxrCKvOhcn3n66BDZjuAqHfmSQ+qEY+3KE99cvMCp7IPrDkBxEh",
+    "dC4qdLctCN1iyhldUjnmNCvJ7fPGAirVnPIfHkg/sR9jCXty62Z="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 25,
+   "file": "internal/conf/11286903.yml",
+   "line": 58,
+   "start": 27,
+   "end": 59,
+   "category": "Secret",
+   "mutation": "comment",
+   "forms": [
+    "PDUBFaEmRXea1um7KoWJNV1lPXjs33Tq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 26,
+   "file": "internal/conf/18c52b1c.yml",
+   "line": 33,
+   "start": 14,
+   "end": 26,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "FUDJIBFKTWCS"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 27,
+   "file": "internal/conf/18c52b1c.yml",
+   "line": 35,
+   "start": 10,
+   "end": 45,
+   "category": "Key:Secret",
+   "mutation": "rename",
+   "forms": [
+    "vhyypkzfwzzrmmcajysbehadqp276839080"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 28,
+   "file": "internal/conf/2fda35a0.yml",
+   "line": 63,
+   "line_end": 89,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEogIBAAKCAQEAvOFmoEJFt1JkfdlwM3vJFg5rrY9d6LyyqezjZkBZDQ5GCfCh",
+    "Tvzvg9wAreAj1lrIUe6hsyzGrDO2dzjQRoj2T4FLZRGwVDfxEieQceNP8HHCIuiN",
+    "syVfMbiDxCGegkfawRIgM2UOqigBOuhVO/ms7MJt0n9LmFdHXvrGoIVwb0GOz8/+",
+    "VHrDQp9yCJn/LAglvnrAGPaVsLP2v6rY6OC2a0UjW7ghUNfvGx272HTjnVr/+zHN",
+    "0ofV7ftwyX7xEC5kxcS2cTImSvLoIGLgi+8XWmIa/1k38nr9sr9xkwrMLxmuyMyK",
+    "J+0M4ntIscBacEtaBH776BDThlpopjqtK8M9EjNwzhJEqcBbFLDzcdApvU29nhU0",
+    "CGp7mO94Vs1pDGemr1KmUOcVLRKNwG4sVdTAX33l543UCqB+GuLgBbLPUU6GTexR",
+    "Lxv1SOPoIh3VWvRalJELNCPOvOitHYp3O9wqBQp+VOWQRxR7EuvePZXpAWo8AHif",
+    "FUMNiCkKoD2UQqs235N9jvQpvSVmaSMrRdwpQD8HdRnY1bXw2qXLAzOBCOjAcBEu",
+    "Y7e0ZH1QJWhiHlOdtwURSADnxKGdp+37sIsJvnJld70Lz6Pcn+K9+O+2/eoQnZay",
+    "6d93oEvAGObosMriGgfsQP5qORk5MkWkr/ZYnt4akDag+YOA7Ax4qLYJnC8hC7g2",
+    "faOUbnQcIlxw7t19hTlt6WqRdmwBZ6eSvfaosSSNzRROTCOyVcdHStbxSet3TIfS",
+    "asHRyzVtbIKhZEkYl6tR4QeIBzzhXy120X53yWJngl1BmDUVpi1g1bLolBBmPD6X",
+    "m3/LPUV/jPNy59O1vcnWZkkNRQ5pjA/W10zpDUPGHFI795kmifXqqZcJHflS5WQY",
+    "ANN/PNwg5GwtZTmEBIuVzoXDyvi9a9v4ZUmMfA9tBj6UUmocQXpHDIYwtCEEwHjx",
+    "vHQkzjQxJ1bqHz60KlKran5gO9S8xy3Bm8dMhlHxrMhs8/HaeGutAt553oNcULb/",
+    "nRN0scfBOelwBfd6XsyEMa/mmnTaNnKBNEb8CGReOKgQy8goS5ygm8hamyzZQwym",
+    "g4lmuzDU5iOyTErxyuRy61IWI6A2PyNNAOWygdRdbTXiPQqetyLSWiDxjiGVXoTi",
+    "MDdb0vn46VQW5r0rkmVpNSn6X6GGqWy6j770Tq/yF9qVwCyjw23zhUBoOch2orr3",
+    "KdrXqWcYo06GLfjpP3saKMtCJouhXoz+a+LDY5JKdLu7J8m38X/p0LV4Kg+6Iii0",
+    "nHMKtoavt1VqAEIWhVpW3pCyjwFLZ8+D/2Fnkelf3yj0SvLpbp8bTMOG0HXMLfvf",
+    "RF6YlEkZgBLu1NWVQCxndGsTTE+rS6sgQMBVOvEdTq19aqHpECOBebGnJBsxQ6yQ",
+    "m3SGefGfs/7JQ40/wLvr347+OkZT4SybkqGdx+r+6e80Gf9f4L59EAiajct40Nk+",
+    "EMMjOLLP0XMjSsffOtKJQkA0B96NsguWWrqEWtU+TPm+9AE72fGpoQ4guMjwnNGe",
+    "zb0GrZsPbT4MfyfYhUTRfEwG1yOmeVqRSYItXzI/mj8iUheB66Y="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 29,
+   "file": "internal/conf/2fda35a0.yml",
+   "line": 60,
+   "start": 17,
+   "end": 49,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "EMBSFoWzRXio9ep2LaLMIU1iOAnn70Fx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 30,
+   "file": "internal/conf/6a218613.yml",
+   "line": 31,
+   "start": 14,
+   "end": 22,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "srlcohzt"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 31,
+   "file": "internal/conf/6a218613.yml",
+   "line": 91,
+   "start": 14,
+   "end": 33,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "balze-jdpm-wuwwdqal"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 32,
+   "file": "internal/conf/6a218613.yml",
+   "line": 95,
+   "start": 53,
+   "end": 77,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "ktpsxplc-orwqwj-ionnzbdh"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 33,
+   "file": "internal/conf/6a218613.yml",
+   "line": 117,
+   "start": 16,
+   "end": 24,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "znnzfrhp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 34,
+   "file": "internal/conf/7c7c8c0b.yml",
+   "line": 44,
+   "start": 14,
+   "end": 49,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "gukndjmbavuwmkpivnqawaufjj279580029"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 35,
+   "file": "internal/conf/ea7c854d.yml",
+   "line": 36,
+   "start": 14,
+   "end": 22,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "jddojuid"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 36,
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 94,
+   "start": 14,
+   "end": 37,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "1640669970mxaafizpgwlor"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 37,
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 214,
+   "start": 18,
+   "end": 26,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "xiksejyv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 38,
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 397,
+   "start": 51,
+   "end": 59,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "tegyqhzj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 39,
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 429,
+   "start": 27,
+   "end": 49,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ytansjgq_vwtfltvh_wlol"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 40,
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 489,
+   "start": 22,
+   "end": 32,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "bonhqgwosd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 41,
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 500,
+   "start": 25,
+   "end": 35,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "nwtqxgziyx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 42,
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 533,
+   "start": 17,
+   "end": 25,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "kiihnwpf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 43,
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 564,
+   "start": 14,
+   "end": 29,
+   "category": "Dropbox App secret:Password",
+   "mutation": "rename",
+   "forms": [
+    "oyjkjcqvxeihzql"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 44,
+   "file": "internal/d0b71133.pem",
+   "line": 1,
+   "line_end": 28,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDIu/6EmsxSMT96",
+    "q5KL32PEw34toOKjRlBsC3k9towBhq4GZyjAADootZv4/THaeWbuxSh0dWRkbU4C",
+    "H+TKpOtIkOb3B2sEfIdCRd06RWhNKJC8wsMEZ5/bv12ja5aTbfwYqsq7ycO/tw39",
+    "fJPEnJ+lgp0suuHLPnfq0fxUSGH0lho2wzaBU//OzC85Aff3vFN4pE98Ralp+dYs",
+    "EwJzuBr1O8i9GNWTkFGNYPEV+/RHth5Lwj4Ek01+ctkMrjcuF5qamkO0tu6PVnKm",
+    "8VXr65aiU8mEaO+EwL6n6wGMP7S+f8ff4LbkxWLp4o203wxLPXdXMEK0xXYmf9gZ",
+    "lSxVfaetHzCKvPrvpIZVQ63k6HdsWXHWHDfhZf7uJcptrAMjA6diQHfI2Y124WSu",
+    "Ip9jq8T+/+T8H9rnxM+jAmCseG5Qktsy35938ZYszhKVPVJFhnLLlz6LCcEahgmS",
+    "OeR17jP0wLjcOAJ06iZpKn54HHUCC4ipVJbu17L+2Ev0lIZkpjKSFeMHTISfM1jx",
+    "EcOayWsRQuhbMV5UP99JTUmk8xn4q9EWbVz+t2vW4qUOrmTF/T7BBHdy4bFBxl4U",
+    "dmjiwIVRhhcQ3nvnKykpmB0Dp8Ik/zXixLsKjpYbI9DjWzUktEH2SukcQ0yoFmKe",
+    "egAq4HrUdUkQCUGnSz7xZmrrUGvtCr7RZbYD/O1jaczQvYunrkDcYwnCgcsVscXr",
+    "KvydDO4sZOF7mRUmriuKoGoJ6Izm+92k/zntyFPOH7QzldLD04mNSfYw3KBzYek0",
+    "bSbnpOr1ILgJzxZXJQoxIfIhW9wXVhNL7QzzWQeq+t+pyqB1hEnmSewV0QwIwN1t",
+    "tMt8xIoiwPdzpS5//uC0YAE0RNoJlWtkqXMMWy4Ci9KE0AKVTo5Iwgu4kFWv5sk2",
+    "IJ4hY91Xcg6G2OnhTNDHlV7oZrKfluVnd7d6X401AqEkFN1mb3AYNVVwGxiUxHOc",
+    "+W2J2oqMtaOHPoKUiKSRVADpZH9qe08WCseeIJbx9mLCuifCSyGY4T71NOwghxSR",
+    "O0zCs74wIyEyrU9KiJmrSiKoXTbyFjwpcC+wT4ckooOtHMqGf/HVY4/RCuIbcv+t",
+    "ftW13srdYop86I+aocWc5qB219Md7GxAo9smmUj8zVKtlUosZteZhF1Y6aJdnHD3",
+    "WKM7zvq1ef3zVDfdp50EbkQPk+g13Z1yHPY3clnGa5AKFIKmYSBeJeVeuBlMTi7d",
+    "f/DK/PdZX4JVsCLhSS/BBw99hkx5tObS0BfKTHAb4VpCENdl9FJdqg2V50boNLGI",
+    "s9+eh/2HolWd+tfvRGVNUHmakb4ck8K1+SSCtAAjwHFd1CbXlxbLexGlfmBb47t5",
+    "hciKqbuFZekRF3M9RNoFP9vHgu0FH1NTG0+8fgxHWsTOP1D32mTwjKczjYHPsWIT",
+    "d/ZEjbn6nThP46+lA9ZHNBQfvPcdHzZKFUQ/WPSwkMDvr3BWbUm2Cj7/YMTEV/pd",
+    "jHZdx4lyIyhrgzrL7AvtLUmQwDlWsqKTJBtRkSN0jyrp0fUGvpk92AsLy43++YIr",
+    "IXO8Ird4/p0s2HsFyMTh+l=="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 45,
+   "file": "internal/dffd4837.go",
+   "line": 35,
+   "start": 43,
+   "end": 71,
+   "category": "Basic Authorization",
+   "mutation": "comment",
+   "forms": [
+    "ApFzmSRcJobirlUpYW7cm4TyPz=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 46,
+   "file": "internal/example/docker/9823c427.yml",
+   "line": 7,
+   "start": 53,
+   "end": 65,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "qfonrbemcevk"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 47,
+   "file": "internal/example/secret/kube/7e3cddc8.yml",
+   "line": 11,
+   "start": 13,
+   "end": 37,
+   "category": "Secret",
+   "mutation": "camouflage",
+   "forms": [
+    "BI3itV9mMNO4rvLda2EddaS8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 48,
+   "file": "internal/example/secret/kube/7e3cddc8.yml",
+   "line": 12,
+   "start": 10,
+   "end": 22,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "qVJoj8muhnT="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 49,
+   "file": "internal/example/secret/kube/7e3cddc8.yml",
+   "line": 14,
+   "start": 16,
+   "end": 28,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "sXSie9dsqmT="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 50,
+   "file": "internal/example/server/296de1a6.key",
+   "line": 1,
+   "line_end": 27,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEpAIBAAKCAQEAvcMVMB2vEbqI6PlSNJ4HmUyMxBDJ5iY7FS+zDDAHOZBg9S3S",
+    "liVw7qsQyta6sID2lyZFO0pECqDc74DtsHCIrz+bA9ouhQ56IPAbRqgwAQZO0O3r",
+    "HIOyOeCWrVXUbXnVgAd0l2x2TGIAxi2+SpMBieke5tJtA1agvWBK+vHH2dEwuy4M",
+    "bYAWmkFLd2501HxqGa00qkNu0yr7NOIMPESEvzGZZI3oHFaShP5w0RYHnBFWKtKy",
+    "rUNuWwXx3zYqeA31DXvBzF+uefSUF+4SFpPic5rgWNaWILELC4QZZAZpkynk921O",
+    "jvP7h/KWzEG94IZqbZCVlYn4VupVdcZ+miJ8eJmqfKsoaCQZZdZSVZ/aDdEkpQOB",
+    "g0ZpsMMKvNa5Qil3EKhcBVUOzFI4hPqv03+BrRqWggF8MorqbWxKchPhf/IOSZlq",
+    "S1QDYg4lPkCP7/H585ksivZ+kNj65IK7opjNHy8A7Q2tdgVN1JGdjLp3bqabXaCx",
+    "OM6mjSdcHe4LNnyp7JiKtWlMYuouCc/w60ujRHCWwW99gfYHwKukLNHo2C524279",
+    "BtB5Je50BJBMliK6WDGIwmkSWlsNS0beQZoKqByeL07dBzrFgjfGz7DBA3bxnW+5",
+    "/T8BsW6HscwLy06O8ctdV6fhMzsdBQwehIKfLTrgwbgFHU5IvDSAzUqCqpsGcFZN",
+    "t3pHx9ypNnrx2vaeiL3ne9X3KdMVRDa81gTshM+Rc99tbUk8BFaLi89cmtKtYGCM",
+    "3CORmHV3IU8jRtgCQrmHYvgtgQ3Z1zW1tXJg1hIb3yH/ulhgsErqiVP7Gtdc+jCp",
+    "BEZJqfVvJ4XglRhvp8oILwlrJ6R/QLzJS0MR15XDfgqG3BHs5VhHVDjTgmiXF7ur",
+    "18wD7KrzuzVAFRgGab9W8zPnH13e3ZhwtcbGEEPsQXlkB55Qvu9MzCtVAjCoeoen",
+    "XUHXkMpsRmWf8gYYlkf16C+ABwmW7VWfNiE6IeX852zkYmIDAXb7mmFyQdI0ge51",
+    "ucllbIXR060nPbOcEvIVkajaQm409X3mZ2jjQbGxPAmswDs6Ra7+4RYPJJNS4wD/",
+    "pC+c4Q1Ivhw28OqiFZvvAOQqzs2Y7CWRAYDVstFXP2ef0lRuotUVpskBduzdVTUU",
+    "ELX+ysRjli6jZi7cCGDaaLABMFM1TKUUe35MhWoHjrAiPDxbthsTQaSGfodTDq8f",
+    "pW8pmsyptzznGjL6+BFO7MBnEjQlQV3eOrqNu4gYB7cH4+vNDpmLckuzxJM8VZRo",
+    "1Pt0p5+/+L/yVxBiNFE/xMRNKxVuYQuUaZ1P6r7TVXC1CvpLCrPBFCYUdoCpucAG",
+    "DfSrCFAaaV0z6UgB+zTUWHaTnG0/4lQRCDDOScNrmivy//kMd8kWKcQqiRoXXkS8",
+    "IQgWroNCPgT/xSEBoyDYhUzGLyow7ptSl+1tmTh+kgf3IslfMy+GZAXlfBt4Sm2U",
+    "BtLOCQvidJkYPpyBgZiyDovLZ5IN2CrTmJVqMXTItlmOKn2NBp6T8lwOEecI0md1",
+    "XdJWVlcxe3qqVYCQi1VFAutKyFMKzXRYt5aIe6HMybXoPXBnRTPYdD=="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 51,
+   "file": "internal/template/86db8848.yml",
+   "line": 12,
+   "start": 130,
+   "end": 138,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "comeback"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 52,
+   "file": "test/internal/26b86f57.go",
+   "line": 69,
+   "start": 15,
+   "end": 20,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "jhhew"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 53,
+   "file": "test/internal/26b86f57.go",
+   "line": 94,
+   "start": 15,
+   "end": 20,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "uxlbn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 54,
+   "file": "test/internal/26b86f57.go",
+   "line": 119,
+   "start": 15,
+   "end": 20,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "laura"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 55,
+   "file": "test/internal/26b86f57.go",
+   "line": 141,
+   "start": 15,
+   "end": 20,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "irpbo"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 56,
+   "file": "test/internal/26b86f57.go",
+   "line": 172,
+   "start": 15,
+   "end": 20,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "tvamd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 57,
+   "file": "test/internal/26b86f57.go",
+   "line": 213,
+   "start": 15,
+   "end": 20,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ehryl"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 58,
+   "file": "test/internal/26b86f57.go",
+   "line": 257,
+   "start": 15,
+   "end": 20,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "uyrvf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 59,
+   "file": "test/internal/26b86f57.go",
+   "line": 329,
+   "start": 15,
+   "end": 20,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "qitze"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 60,
+   "file": "test/internal/26b86f57.go",
+   "line": 348,
+   "start": 15,
+   "end": 20,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "lhlff"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 61,
+   "file": "test/internal/26b86f57.go",
+   "line": 370,
+   "start": 15,
+   "end": 20,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "luulm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 62,
+   "file": "test/internal/26b86f57.go",
+   "line": 401,
+   "start": 15,
+   "end": 20,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "gtxzi"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 63,
+   "file": "test/internal/6e415fc6.go",
+   "line": 14,
+   "start": 22,
+   "end": 33,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "lxknuihz548"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 64,
+   "file": "test/internal/93671346.go",
+   "line": 115,
+   "start": 44,
+   "end": 64,
+   "category": "Basic Authorization",
+   "mutation": "comment",
+   "forms": [
+    "kmRaPavgZELhzAi8nT=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 65,
+   "file": "test/internal/93671346.go",
+   "line": 179,
+   "start": 44,
+   "end": 64,
+   "category": "Basic Authorization",
+   "mutation": "comment",
+   "forms": [
+    "eYe9ghi8A8ybD16wXB=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 66,
+   "file": "test/internal/93671346.go",
+   "line": 218,
+   "start": 44,
+   "end": 64,
+   "category": "Basic Authorization",
+   "mutation": "comment",
+   "forms": [
+    "t0Cbbooos1UtlWaqsa=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 67,
+   "file": "test/internal/93671346.go",
+   "line": 241,
+   "start": 49,
+   "end": 69,
+   "category": "Basic Authorization",
+   "mutation": "comment",
+   "forms": [
+    "GEksDhgpvEMcM5TxoG=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 68,
+   "file": "test/internal/93671346.go",
+   "line": 264,
+   "start": 59,
+   "end": 79,
+   "category": "Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "Cwgkqbr0b7t7i0idQj=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 69,
+   "file": "test/internal/93671346.go",
+   "line": 287,
+   "start": 25,
+   "end": 45,
+   "category": "Basic Authorization",
+   "mutation": "comment",
+   "forms": [
+    "uncleVrvAUEylLL9hF=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 70,
+   "file": "test/internal/93671346.go",
+   "line": 310,
+   "start": 25,
+   "end": 45,
+   "category": "Basic Authorization",
+   "mutation": "comment",
+   "forms": [
+    "G3akcNgvu3ffgNxgAU=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 71,
+   "file": "test/internal/93671346.go",
+   "line": 334,
+   "start": 28,
+   "end": 48,
+   "category": "Basic Authorization",
+   "mutation": "comment",
+   "forms": [
+    "mCxigRdpdilxTVKetG=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 72,
+   "file": "test/internal/93671346.go",
+   "line": 389,
+   "start": 25,
+   "end": 45,
+   "category": "Basic Authorization",
+   "mutation": "comment",
+   "forms": [
+    "uL67Vfg2SdVhI3lfPq=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 73,
+   "file": "test/internal/93671346.go",
+   "line": 409,
+   "start": 28,
+   "end": 48,
+   "category": "Basic Authorization",
+   "mutation": "comment",
+   "forms": [
+    "OQPiESujpOx4qtJgWx=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 74,
+   "file": "test/internal/93671346.go",
+   "line": 432,
+   "start": 59,
+   "end": 79,
+   "category": "Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "qRZ5ksnzgOp5DUEzyHV="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 75,
+   "file": "test/internal/93671346.go",
+   "line": 449,
+   "start": 59,
+   "end": 79,
+   "category": "Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "J69zqugjxFujzgt1taM="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 76,
+   "file": "test/internal/93671346.go",
+   "line": 470,
+   "start": 59,
+   "end": 79,
+   "category": "Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "xROxjnl1jf3bUQdlUJ=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 77,
+   "file": "test/internal/conf/19721105.go",
+   "line": 249,
+   "start": 18,
+   "end": 22,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "zgei"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 78,
+   "file": "test/internal/conf/19721105.go",
+   "line": 269,
+   "start": 18,
+   "end": 22,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "kjni"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 79,
+   "file": "test/internal/conf/f7aaf14a.go",
+   "line": 35,
+   "start": 22,
+   "end": 54,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "vUFOAgy14tn7MsONSDfBu9osiDFh6DRB"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 80,
+   "file": "test/internal/conf/f7aaf14a.go",
+   "line": 52,
+   "start": 22,
+   "end": 66,
+   "category": "Secret",
+   "mutation": "b64",
+   "forms": [
+    "cUVKT1NhZDQzZGo5TXRTUFlCeVdpMnZoYkxFczlHVVk=",
+    "qEJOSad43dj9MtSPYByWi2vhbLEs9GUY"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 81,
+   "file": "test/internal/conf/f7aaf14a.go",
+   "line": 109,
+   "start": 22,
+   "end": 54,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "rRITCap91id6BqDGOIcBj5pekLUt4HHE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 82,
+   "file": "test/internal/conf/resource/dbc7c85c.yml",
+   "line": 7,
+   "start": 12,
+   "end": 75,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "JKhP3GeeSyDw5MCKuKvbNe1BOof4WxygvcWf4rEQEmBUSTAcaOCvhKWLu64HueL"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 83,
+   "file": "test/internal/conf/resource/dbc7c85c.yml",
+   "line": 31,
+   "start": 25,
+   "end": 88,
+   "category": "Secret",
+   "mutation": "comment",
+   "forms": [
+    "WZBXStKTnFotqK9uREoVistaUriifnl5m26HpEK9uXh2N2hyoS2oT8TFuZtw5bc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 84,
+   "file": "other/5c32452c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_nESAHcnzddXUb6BexSUnPCo7"
+   ]
+  },
+  {
+   "id": 85,
+   "file": "other/5c32452c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "pEa6g6ZFGeA5z4uajyRk750mRA4YHT2w"
+   ]
+  },
+  {
+   "id": 86,
+   "file": "other/5c32452c.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "a3NlazFnaXI5cmo2dTl0ZXlvODE4bjg5Z3YycWdycm8=",
+    "ksek1gir9rj6u9teyo818n89gv2qgrro"
+   ]
+  },
+  {
+   "id": 87,
+   "file": "src/6ac56d58.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "eintracht_kuchen_rectangle"
+   ]
+  },
+  {
+   "id": 88,
+   "file": "src/6ac56d58.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-replica.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 89,
+   "file": "test/12908b30.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-replica.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 90,
+   "file": "test/12908b30.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Capitalize2017#"
+   ]
+  },
+  {
+   "id": 91,
+   "file": "test/12908b30.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Birke$2007"
+   ]
+  },
+  {
+   "id": 92,
+   "file": "test/776d279f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Nico Neumann"
+   ]
+  },
+  {
+   "id": 93,
+   "file": "test/776d279f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben.zimmermann@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 94,
+   "file": "test/776d279f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 2495 526"
+   ]
+  },
+  {
+   "id": 95,
+   "file": "test/776d279f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lina Weber"
+   ]
+  },
+  {
+   "id": 96,
+   "file": "test/776d279f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "anna.schmidt [at] pinegrid-corp [dot] de"
+   ]
+  },
+  {
+   "id": 97,
+   "file": "test/776d279f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE93648898817502217811"
+   ]
+  },
+  {
+   "id": 98,
+   "file": "test/776d279f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "David Lange"
+   ]
+  },
+  {
+   "id": 99,
+   "file": "test/776d279f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Bahnhofstra\u00dfe 44, 85088 Landshut"
+   ]
+  },
+  {
+   "id": 100,
+   "file": "test/776d279f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "178.144.65.109"
+   ]
+  },
+  {
+   "id": 101,
+   "file": "_/8253b777.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "36343636363062313363633131623435396266353063656139623762336230316435326130663438356131386565663031633438636338666661356435623438",
+    "646660b13cc11b459bf50cea9b7b3b01d52a0f485a18eef01c48cc8ffa5d5b48"
+   ]
+  },
+  {
+   "id": 102,
+   "file": "_/00150c39.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Tulp3"
+   ]
+  },
+  {
+   "id": 103,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 104,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 105,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 106,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.38.90.0/24"
+   ]
+  },
+  {
+   "id": 107,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.38.90.89"
+   ]
+  },
+  {
+   "id": 108,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 109,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 110,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "juno.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 111,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 112,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.38.90.171"
+   ]
+  },
+  {
+   "id": 113,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.quarzo-ops.io"
+   ]
+  },
+  {
+   "id": 114,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jan Koch"
+   ]
+  },
+  {
+   "id": 115,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jan.koch@web.de"
+   ]
+  },
+  {
+   "id": 116,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 6814957"
+   ]
+  },
+  {
+   "id": 117,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "David Hartmann"
+   ]
+  },
+  {
+   "id": 118,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "david.hartmann@gmx.de"
+   ]
+  },
+  {
+   "id": 119,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 6316040"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/5f041c3f.development",
+   "line": 4,
+   "whole_line": "REACT_APP_RESET_PASSWORD=true",
+   "source": "creddata"
+  },
+  {
+   "file": "api/0bbc7302.yml",
+   "line": 2,
+   "whole_line": "openapi: 3.0.0",
+   "source": "creddata"
+  },
+  {
+   "file": "api/0bbc7302.yml",
+   "line": 175,
+   "whole_line": "                example: authelia_session=kTTCSLupEUirZVfLeZTijezewFQnNOgs; Path=/",
+   "source": "creddata"
+  },
+  {
+   "file": "build/08b99f12.sh",
+   "line": 28,
+   "whole_line": "    key: \"build-docker-${BUILD_OS}-${BUILD_ARCH}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "build/c61d7610.sh",
+   "line": 42,
+   "whole_line": "    key: \"unit-test\"",
+   "source": "creddata"
+  },
+  {
+   "file": "build/c8cd7002.sh",
+   "line": 50,
+   "whole_line": "    key: \"artifacts\"",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/68f31c9a.md",
+   "line": 22,
+   "whole_line": "    username: authelia",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/68f31c9a.md",
+   "line": 33,
+   "whole_line": "      sentinel_password: sentinel_specific_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/docs/68f31c9a.md",
+   "line": 91,
+   "whole_line": "The password for [redis authentication](https://redis.io/commands/auth).",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 120,
+   "whole_line": "      - AUTHELIA_JWT_SECRET_FILE=/run/secrets/jwt",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 122,
+   "whole_line": "      - AUTHELIA_SESSION_SECRET_FILE=/run/secrets/session",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 155,
+   "whole_line": "      - AUTHELIA_JWT_SECRET_FILE=/config/secrets/jwt",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 157,
+   "whole_line": "      - AUTHELIA_SESSION_SECRET_FILE=/config/secrets/session",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 214,
+   "whole_line": "apiVersion: apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 295,
+   "whole_line": "            secretName: authelia",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 297,
+   "whole_line": "              - key: jwt_secret",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 299,
+   "whole_line": "              - key: duo_secret",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 301,
+   "whole_line": "              - key: session_secret",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/secret/docs/0903b235.md",
+   "line": 201,
+   "value": "2025-12-06T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/9e2351f6.yml",
+   "line": 57,
+   "whole_line": "## set using a secret: https://www.authelia.com/docs/configuration/secrets.html",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/9e2351f6.yml",
+   "line": 93,
+   "whole_line": "  ## Secret can also be set using a secret: https://www.authelia.com/docs/configuration/secrets.html",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/9e2351f6.yml",
+   "line": 267,
+   "whole_line": "  ## Default policy can either be 'bypass', 'one_factor', 'two_factor' or 'deny'. It is the policy applied to any",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/9e2351f6.yml",
+   "line": 362,
+   "whole_line": "  ## Secret can also be set using a secret: https://www.authelia.com/docs/configuration/secrets.html",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/9e2351f6.yml",
+   "line": 394,
+   "whole_line": "    # username: authelia",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/9e2351f6.yml",
+   "line": 487,
+   "whole_line": "    username: authelia",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/9e2351f6.yml",
+   "line": 498,
+   "whole_line": "  #   username: authelia",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/9e2351f6.yml",
+   "line": 581,
+   "whole_line": "    ## The hmac_secret is used to sign OAuth2 tokens (authorization code, access tokens and refresh tokens).",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/9e2351f6.yml",
+   "line": 582,
+   "whole_line": "    ## HMAC Secret can also be set using a secret: https://www.authelia.com/docs/configuration/secrets.html",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/9e2351f6.yml",
+   "line": 586,
+   "whole_line": "    ## Issuer Private Key can also be set using a secret: https://docs.authelia.com/configuration/secrets.html",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/9e2351f6.yml",
+   "line": 215,
+   "value": "X-Hub-Signature-256",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/9e2351f6.yml",
+   "line": 398,
+   "value": "$2b$10$ARKvrfuHApTL4BK6/bOqrCG./uhC/u11kj.9tRzk38aYaLLpaNw7G",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/template/9e2351f6.yml",
+   "line": 534,
+   "value": "X-Hub-Signature-256",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/d347d839.go",
+   "line": 57,
+   "whole_line": "\treturn utils.CommandWithStdout(\"bash\", \"-c\", `token=$(curl -fs --retry 3 -H \"Content-Type: application/json\" -X \"POST\" -d '{\"username\": \"'$DOCKER_USERNAME'\", \"password\": \"'$DOCKER_PASSWORD'\"}' https://hub.docker.com/v2/users/login/ | jq -r .token) && curl -fs --retry 3 -o /dev/null -L -X \"DELETE\" -H \"Authorization: JWT $token\" https://hub.docker.com/v2/repositories/`+DockerImageName+\"/tags/\"+tag+\"/\").Run()",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/d347d839.go",
+   "line": 62,
+   "whole_line": "\treturn utils.CommandWithStdout(\"bash\", \"-c\", `token=$(curl -fs --retry 3 -H \"Content-Type: application/json\" -X \"POST\" -d '{\"username\": \"'$DOCKER_USERNAME'\", \"password\": \"'$DOCKER_PASSWORD'\"}' https://hub.docker.com/v2/users/login/ | jq -r .token) && jq -n --arg msg \"$(cat README.md | sed -r 's/(\\<img\\ src\\=\\\")(\\.\\/)/\\1https:\\/\\/github.com\\/authelia\\/authelia\\/raw\\/master\\//' | sed 's/\\.\\//https:\\/\\/github.com\\/authelia\\/authelia\\/blob\\/master\\//g' | sed '/start \\[contributing\\]/ a <a href=\"https://github.com/authelia/authelia/graphs/contributors\"><img src=\"https://opencollective.com/authelia-sponsors/contributors.svg?width=890\" /></a>' | sed '/Thanks goes to/,/### Backers/{/### Backers/!d}')\" '{\"registry\":\"registry-1.docker.io\",\"full_description\": $msg }' | curl -fs --retry 3 -o /dev/null -L -X \"PATCH\" -H \"Content-Type: application/json\" -H \"Authorization: JWT $token\" -d @- https://hub.docker.com/v2/repositories/authelia/authelia/`).Run()",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/01e5fd9a.md",
+   "line": 34,
+   "value": "8JNU6AHUM3NF5BT97G8K",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/6e75b486.md",
+   "line": 72,
+   "whole_line": "PAM_PASSWORD=$(cat -)",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/6e75b486.md",
+   "line": 80,
+   "whole_line": "AUTH_RESULT=$(curl -b \"authelia_session=${PAM_PASSWORD}\" -H \"Session-Username: ${PAM_USER}\" -H \"X-Forwarded-Host: ${FORWARDED_HOST}\" -H \"X-Forwarded-Proto: https\" -s -o /dev/null -I -w \"%{http_code}\" -L \"${VERIFY_URL}\")",
+   "source": "creddata"
+  },
+  {
+   "file": "example/docker/1c846536.yml",
+   "line": 61,
+   "whole_line": "      - 'traefik.http.routers.api.middlewares=authelia@docker'",
+   "source": "creddata"
+  },
+  {
+   "file": "example/docker/1c846536.yml",
+   "line": 92,
+   "whole_line": "      - 'traefik.http.routers.secure.middlewares=authelia@docker'",
+   "source": "creddata"
+  },
+  {
+   "file": "example/docker/docs/d485c46a.md",
+   "line": 45,
+   "whole_line": "        - \"traefik.http.services.authelia.loadbalancer.server.port=9091\"",
+   "source": "creddata"
+  },
+  {
+   "file": "example/docker/docs/d485c46a.md",
+   "line": 85,
+   "whole_line": "        - 'traefik.http.routers.apis.middlewares=authelia@docker'",
+   "source": "creddata"
+  },
+  {
+   "file": "example/docker/docs/d485c46a.md",
+   "line": 134,
+   "whole_line": "        - 'traefik.http.routers.secures.middlewares=authelia@docker'",
+   "source": "creddata"
+  },
+  {
+   "file": "example/local/f08454e9.sh",
+   "line": 86,
+   "whole_line": "  PASSWORD=$(docker run authelia/authelia authelia hash-password $PASSWORD | sed 's/Password hash: //g')",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/179696aa.go",
+   "line": 62,
+   "value": "0600",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/1abcfe50.go",
+   "line": 14,
+   "whole_line": "const totpSecretsTableName = \"totp_secrets\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/1abcfe50.go",
+   "line": 16,
+   "value": "authentication_logs",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/1abcfe50.go",
+   "line": 25,
+   "whole_line": "\t\ttotpSecretsTableName:                \"CREATE TABLE %s (username VARCHAR(100) PRIMARY KEY, secret VARCHAR(64))\",",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/6a9d8abc.go",
+   "line": 37,
+   "whole_line": "\t\tpassword:            configuration.Password,",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/7589b10d.go",
+   "line": 17,
+   "whole_line": "\tif userSession.PasswordResetUsername == nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/7589b10d.go",
+   "line": 48,
+   "whole_line": "\tuserSession.PasswordResetUsername = nil",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/a2036e31.go",
+   "line": 10,
+   "whole_line": "const ResetPasswordAction = \"ResetPassword\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/a2036e31.go",
+   "line": 40,
+   "whole_line": "const unableToRegisterOneTimePasswordMessage = \"Unable to set up one-time passwords.\" //nolint:gosec",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/a2036e31.go",
+   "line": 42,
+   "whole_line": "const unableToResetPasswordMessage = \"Unable to reset your password.\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/a2036e31.go",
+   "line": 45,
+   "whole_line": "const ldapPasswordComplexityCode = \"0000052D.\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/a2aad61a.go",
+   "line": 51,
+   "whole_line": "var AutheliaBaseURL = \"https://authelia.example.com:9091\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/a2aad61a.go",
+   "line": 57,
+   "value": "password",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/a8d39581.go",
+   "line": 47,
+   "whole_line": "\tjwtStrategy := &jwt.RS256JWTStrategy{PrivateKey: key}",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/11286903.yml",
+   "line": 59,
+   "whole_line": "    issuer_private_key: |",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/18c52b1c.yml",
+   "line": 34,
+   "value": "$2b$10$X39pLQB9OTWy31EoroJzuZhapQmZuYX0qneU.J1KIJQjZ7ECpX2jm",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/18c52b1c.yml",
+   "line": 36,
+   "value": "ledger-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/2fda35a0.yml",
+   "line": 92,
+   "value": "foobar",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/2fda35a0.yml",
+   "line": 99,
+   "value": "foobar",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/2fda35a0.yml",
+   "line": 61,
+   "value": "$2b$12$hbbPyZJvW7Z5i010McO24OtIY/23xiSJ3FHtWS4jyYYc2qErgH0DI",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 4,
+   "value": "[DEPRECATED] The %s configuration option is deprecated and will be ",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 6,
+   "whole_line": "\terrFmtReplacedConfigurationKey = \"invalid configuration key '%s' was replaced by '%s'\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 10,
+   "whole_line": "\terrFmtSessionSecretRedisProvider      = \"The session secret must be set when using the %s session provider\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 20,
+   "value": "authentication_backend.file.hashing",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 24,
+   "whole_line": "\tbypassPolicy    = \"bypass\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 37,
+   "whole_line": "\ttestJWTSecret     = \"a_secret\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 56,
+   "whole_line": "\t\"JWTSecret\":                     \"jwt_secret\",",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 57,
+   "whole_line": "\t\"SessionSecret\":                 \"session.secret\",",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 58,
+   "whole_line": "\t\"DUOSecretKey\":                  \"duo_api.secret_key\",",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 59,
+   "whole_line": "\t\"RedisPassword\":                 \"session.redis.password\",",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 60,
+   "whole_line": "\t\"RedisSentinelPassword\":         \"session.redis.high_availability.sentinel_password\",",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 61,
+   "whole_line": "\t\"LDAPPassword\":                  \"authentication_backend.ldap.password\",",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 63,
+   "whole_line": "\t\"MySQLPassword\":                 \"storage.mysql.password\",",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 64,
+   "whole_line": "\t\"PostgreSQLPassword\":            \"storage.postgres.password\",",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 65,
+   "whole_line": "\t\"OpenIDConnectHMACSecret\":       \"identity_providers.oidc.hmac_secret\",",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 66,
+   "whole_line": "\t\"OpenIDConnectIssuerPrivateKey\": \"identity_providers.oidc.issuer_private_key\",",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 217,
+   "value": "authentication_backend.ldap.tls.skip_verify",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 218,
+   "value": "authentication_backend.ldap.tls.minimum_version",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 225,
+   "value": "google_analytics",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 229,
+   "value": "errFilePOptions",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 230,
+   "value": "errFilePOptions",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 231,
+   "value": "errFilePOptions",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 232,
+   "value": "errFilePOptions",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 233,
+   "value": "errFilePOptions",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 234,
+   "value": "errFilePOptions",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 235,
+   "value": "errFilePHashing",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 236,
+   "value": "errFilePHashing",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 237,
+   "value": "errFilePHashing",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 238,
+   "value": "errFilePHashing",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 239,
+   "value": "errFilePHashing",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/57c75806.go",
+   "line": 240,
+   "value": "errFilePHashing",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/6a218613.yml",
+   "line": 90,
+   "whole_line": "    username: authelia",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/6a218613.yml",
+   "line": 92,
+   "value": "dGhlIHNhbXBsZSBub25jZQ==",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/6a218613.yml",
+   "line": 118,
+   "value": "BILLING_DB_PASSWORD",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/7a050b2b.go",
+   "line": 59,
+   "whole_line": "\tfor _, secretName := range validator.SecretNames {",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/7c7c8c0b.yml",
+   "line": 43,
+   "whole_line": "  integration_key: ABCDEFGHIJKL",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/7c7c8c0b.yml",
+   "line": 52,
+   "whole_line": "  # Default policy can either be `bypass`, `one_factor`, `two_factor` or `deny`.",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/7c7c8c0b.yml",
+   "line": 45,
+   "value": "etl-db-credentials",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/9cfd1914.go",
+   "line": 85,
+   "whole_line": "\t\t\t\tSentinelPassword: configuration.Redis.HighAvailability.SentinelPassword,",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/9cfd1914.go",
+   "line": 89,
+   "whole_line": "\t\t\t\tPassword:         configuration.Redis.Password,",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/9cfd1914.go",
+   "line": 114,
+   "value": "configuration.Redis.Password,",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/9cfd1914.go",
+   "line": 114,
+   "value": "configuration.Redis.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/c1278aed.go",
+   "line": 47,
+   "whole_line": "var DefaultPasswordConfiguration = PasswordConfiguration{",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/c1278aed.go",
+   "line": 57,
+   "value": "PasswordConfiguration{",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/c1278aed.go",
+   "line": 67,
+   "value": "PasswordConfiguration{",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/ea7c854d.yml",
+   "line": 37,
+   "value": "secret/data/acme/crm/prod",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/f7765fb0.go",
+   "line": 45,
+   "whole_line": "\tif configuration.Password == nil {",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/secret/0945e78c.go",
+   "line": 19,
+   "whole_line": "\tfor _, secretKey := range SecretNames {",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/secret/0945e78c.go",
+   "line": 34,
+   "whole_line": "\t\tconfiguration.DuoAPI.SecretKey = getSecretValue(SecretNames[\"DUOSecretKey\"], validator, viper)",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/secret/0945e78c.go",
+   "line": 38,
+   "whole_line": "\t\tconfiguration.Session.Redis.Password = getSecretValue(SecretNames[\"RedisPassword\"], validator, viper)",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/secret/0945e78c.go",
+   "line": 42,
+   "whole_line": "\t\t\t\tgetSecretValue(SecretNames[\"RedisSentinelPassword\"], validator, viper)",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/secret/0945e78c.go",
+   "line": 47,
+   "whole_line": "\t\tconfiguration.AuthenticationBackend.LDAP.Password = getSecretValue(SecretNames[\"LDAPPassword\"], validator, viper)",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/secret/0945e78c.go",
+   "line": 51,
+   "whole_line": "\t\tconfiguration.Notifier.SMTP.Password = getSecretValue(SecretNames[\"SMTPPassword\"], validator, viper)",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/secret/0945e78c.go",
+   "line": 55,
+   "whole_line": "\t\tconfiguration.Storage.MySQL.Password = getSecretValue(SecretNames[\"MySQLPassword\"], validator, viper)",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/secret/0945e78c.go",
+   "line": 59,
+   "whole_line": "\t\tconfiguration.Storage.PostgreSQL.Password = getSecretValue(SecretNames[\"PostgreSQLPassword\"], validator, viper)",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/secret/0945e78c.go",
+   "line": 64,
+   "whole_line": "\t\tconfiguration.IdentityProviders.OIDC.IssuerPrivateKey = getSecretValue(SecretNames[\"OpenIDConnectIssuerPrivateKey\"], validator, viper)",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 57,
+   "whole_line": "## set using a secret: https://www.authelia.com/docs/configuration/secrets.html",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 93,
+   "whole_line": "  ## Secret can also be set using a secret: https://www.authelia.com/docs/configuration/secrets.html",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 267,
+   "whole_line": "  ## Default policy can either be 'bypass', 'one_factor', 'two_factor' or 'deny'. It is the policy applied to any",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 362,
+   "whole_line": "  ## Secret can also be set using a secret: https://www.authelia.com/docs/configuration/secrets.html",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 394,
+   "whole_line": "    # username: authelia",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 487,
+   "whole_line": "    username: authelia",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 580,
+   "whole_line": "    ## The hmac_secret is used to sign OAuth2 tokens (authorization code, access tokens and refresh tokens).",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 581,
+   "whole_line": "    ## HMAC Secret can also be set using a secret: https://www.authelia.com/docs/configuration/secrets.html",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 585,
+   "whole_line": "    ## Issuer Private Key can also be set using a secret: https://docs.authelia.com/configuration/secrets.html",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 215,
+   "value": "AyM1SysPpbyDfgZld3umj1qzKObwVMkoqQ-EstJQLr_T-1qS0gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr1Z9CAow",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/conf/template/5b6e1cea.yml",
+   "line": 398,
+   "value": "$2b$10$RQSnwLta5fwUkzbgTsmTvMbofE0aOmyA4A1QxCYhre7dzKrfvUVYN",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/de8cdc7f.go",
+   "line": 37,
+   "whole_line": "var ResetPasswordIdentityStart = middlewares.IdentityVerificationStart(middlewares.IdentityVerificationStartArgs{",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/de8cdc7f.go",
+   "line": 59,
+   "whole_line": "var ResetPasswordIdentityFinish = middlewares.IdentityVerificationFinish(",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/docker/8446bab2.yml",
+   "line": 6,
+   "whole_line": "      - AUTHELIA_JWT_SECRET_FILE=/tmp/authelia/StandaloneSuite/jwt",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/docker/8446bab2.yml",
+   "line": 7,
+   "whole_line": "      - AUTHELIA_SESSION_SECRET_FILE=/tmp/authelia/StandaloneSuite/session",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/e1eebabe.go",
+   "line": 192,
+   "whole_line": "\tdetails.HashedPassword = hash",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/62c093af.ldif",
+   "line": 5,
+   "value": "policies",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/client/a09d0f8e.js",
+   "line": 10,
+   "whole_line": "client.jsonApiCall(\"POST\", \"/auth/v2/auth\", { username: 'john', factor: \"push\", device: \"auto\" }, console.log);",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/kube/22cbb83f.yml",
+   "line": 12,
+   "value": "authelia-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/kube/43f75399.yml",
+   "line": 11,
+   "whole_line": "    - secretName: mail-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/kube/app/716b6859.yml",
+   "line": 2,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/kube/app/716b6859.yml",
+   "line": 43,
+   "whole_line": "              - key: nginx.conf",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/kube/c0e7e3b6.rules",
+   "line": 6,
+   "whole_line": "olcPasswordHash: {CRYPT}",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/kube/c0e7e3b6.rules",
+   "line": 7,
+   "whole_line": "olcPasswordCryptSaltFormat: $6$rounds=50000$%.16s",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/kube/c1d1b2dd.yml",
+   "line": 2,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/kube/c1d1b2dd.yml",
+   "line": 21,
+   "whole_line": "          image: authelia:dist",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/kube/c1d1b2dd.yml",
+   "line": 56,
+   "whole_line": "              - key: cert.pem",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/kube/c1d1b2dd.yml",
+   "line": 62,
+   "value": "authelia",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/kube/c1d1b2dd.yml",
+   "line": 64,
+   "whole_line": "              - key: jwt_secret",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/kube/c1d1b2dd.yml",
+   "line": 66,
+   "whole_line": "              - key: session",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/template/698aef8a.conf",
+   "line": 817,
+   "whole_line": "#               is flagged as requiring no password: it means that every",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/example/template/698aef8a.conf",
+   "line": 1044,
+   "whole_line": "# Redis reclaims expired keys in two ways: upon access when those keys are",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/server/99d92ad9.go",
+   "line": 5,
+   "whole_line": "const apiFile = \"openapi.yml\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/util/900c6b9b.go",
+   "line": 21,
+   "whole_line": "\tprivkeyPem := pem.EncodeToMemory(",
+   "source": "creddata"
+  },
+  {
+   "file": "public/c7b50ecb.html",
+   "line": 28,
+   "whole_line": "<body data-basepath=\"%PUBLIC_URL%\" data-rememberme=\"%REACT_APP_REMEMBER_ME%\" data-resetpassword=\"%REACT_APP_RESET_PASSWORD%\" data-theme=\"%REACT_APP_THEME%\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1c1c5fd0.ts",
+   "line": 4,
+   "whole_line": "export async function initiateResetPasswordProcess(username: string) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1c1c5fd0.ts",
+   "line": 8,
+   "whole_line": "export async function completeResetPasswordProcess(token: string) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1c1c5fd0.ts",
+   "line": 13,
+   "whole_line": "    return PostWithOptionalResponse(ResetPasswordPath, { password: newPassword });",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4026905e.tsx",
+   "line": 29,
+   "whole_line": "    resetPassword: boolean;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4026905e.tsx",
+   "line": 136,
+   "whole_line": "                        resetPassword={props.resetPassword}",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4645f756.ts",
+   "line": 22,
+   "whole_line": "    return Post<CompleteTOTPRegistrationResponse>(CompleteTOTPRegistrationPath, { token: processToken });",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4645f756.ts",
+   "line": 40,
+   "whole_line": "    return Post<U2RRegistrationStep1Response>(CompleteU2FRegistrationStep1Path, { token: processToken });",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4e64d3e5.tsx",
+   "line": 18,
+   "whole_line": "    resetPassword: boolean;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4e64d3e5.tsx",
+   "line": 34,
+   "whole_line": "    const [password, setPassword] = useState(\"\");",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4e64d3e5.tsx",
+   "line": 99,
+   "whole_line": "                            if (ev.key === \"Enter\") {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4e64d3e5.tsx",
+   "line": 124,
+   "value": "v.target.value",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4e64d3e5.tsx",
+   "line": 128,
+   "whole_line": "                            if (ev.key === \"Enter\") {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/4e64d3e5.tsx",
+   "line": 159,
+   "whole_line": "                                            if (ev.key === \"Enter\") {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5a9c3f2c.ts",
+   "line": 7,
+   "whole_line": "    password: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/5a9c3f2c.ts",
+   "line": 15,
+   "whole_line": "    password: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/690181bf.ts",
+   "line": 6,
+   "whole_line": "    token: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/690181bf.ts",
+   "line": 11,
+   "whole_line": "    const body: CompleteU2FSigninBody = { token: `${passcode}` };",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dbede591.ts",
+   "line": 29,
+   "whole_line": "        const publicUrl = new URL((process as { env: { [key: string]: string } }).env.PUBLIC_URL, window.location.href);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/faf46f12.tsx",
+   "line": 25,
+   "whole_line": "    const [secretURL, setSecretURL] = useState(\"empty\");",
+   "source": "creddata"
+  },
+  {
+   "file": "src/faf46f12.tsx",
+   "line": 26,
+   "whole_line": "    const [secretBase32, setSecretBase32] = useState(undefined as string | undefined);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/faf46f12.tsx",
+   "line": 46,
+   "whole_line": "            const secret = await completeTOTPRegistrationProcess(processToken);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/faf46f12.tsx",
+   "line": 60,
+   "whole_line": "    function SecretButton(text: string | undefined, action: string, icon: IconDefinition) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/faf46f12.tsx",
+   "line": 97,
+   "whole_line": "                    {secretURL !== \"empty\" ? (",
+   "source": "creddata"
+  },
+  {
+   "file": "src/faf46f12.tsx",
+   "line": 108,
+   "whole_line": "                    {secretBase32 ? SecretButton(secretBase32, \"OTP Secret copied to clipboard.\", faKey) : null}",
+   "source": "creddata"
+  },
+  {
+   "file": "src/faf46f12.tsx",
+   "line": 109,
+   "value": "= \"empt",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/03384a51.go",
+   "line": 374,
+   "whole_line": "\t\tfmt.Sprintf(\"SELECT EXISTS \\\\(SELECT \\\\* FROM %s WHERE token=\\\\?\\\\)\", identityVerificationTokensTableName)).",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/03384a51.go",
+   "line": 392,
+   "whole_line": "\t\tfmt.Sprintf(\"SELECT EXISTS \\\\(SELECT \\\\* FROM %s WHERE token=\\\\?\\\\)\", identityVerificationTokensTableName)).",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/26b86f57.go",
+   "line": 49,
+   "whole_line": "\tassert.Equal(s.T(), \"Unable to validate body: password: non zero value required\", s.mock.Hook.LastEntry().Message)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/26b86f57.go",
+   "line": 74,
+   "whole_line": "\tassert.Equal(s.T(), \"Error while checking password for user test: Failed\", s.mock.Hook.LastEntry().Message)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/26b86f57.go",
+   "line": 173,
+   "value": "/etc/reports/tls/private.key",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/26b86f57.go",
+   "line": 258,
+   "value": "pbkdf2_sha256",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/56abb3b4.go",
+   "line": 16,
+   "whole_line": "\t\tIssuerPrivateKey: exampleIssuerPrivateKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/56abb3b4.go",
+   "line": 47,
+   "value": "exampleIssuerPrivateKey",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/56abb3b4.go",
+   "line": 78,
+   "value": "exampleIssuerPrivateKey",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/56abb3b4.go",
+   "line": 104,
+   "value": "exampleIssuerPrivateKey",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/56abb3b4.go",
+   "line": 115,
+   "value": "exampleIssuerPrivateKey",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/603602c6.go",
+   "line": 486,
+   "whole_line": "\terr := ldapClient.UpdatePassword(\"john\", \"password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/603602c6.go",
+   "line": 553,
+   "whole_line": "\tvalid, err := ldapClient.CheckUserPassword(\"john\", \"password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/603602c6.go",
+   "line": 621,
+   "whole_line": "\tvalid, err := ldapClient.CheckUserPassword(\"john\", \"password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/6e415fc6.go",
+   "line": 31,
+   "whole_line": "\ttoServer, err = auth.Next([]byte(\"Password:\"), true)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/6e415fc6.go",
+   "line": 50,
+   "whole_line": "\tauth := newLoginAuth(\"john\", \"strongpw123\", \"mail.authelia.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/6e415fc6.go",
+   "line": 61,
+   "whole_line": "\tauth := newLoginAuth(\"john\", \"strongpw123\", \"localhost\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/6e415fc6.go",
+   "line": 74,
+   "whole_line": "\tauth := newLoginAuth(\"john\", \"strongpw123\", \"mail.authelia.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/6e415fc6.go",
+   "line": 15,
+   "value": "21dec717b4e094db",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/813dc2b8.go",
+   "line": 23,
+   "value": "BAD KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/813dc2b8.go",
+   "line": 31,
+   "whole_line": "\t\tIssuerPrivateKey: exampleIssuerPrivateKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 16,
+   "whole_line": "\thash, err := HashPassword(\"password\", \"aFr56HjK3DrB8t3S\", HashingAlgorithmSHA512, 50000, 0, 0, 0, 16)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 25,
+   "whole_line": "\tassert.Equal(t, schema.DefaultPasswordSHA512Configuration.Iterations, parameters.GetInt(\"rounds\", HashingDefaultSHA512Iterations))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 50,
+   "whole_line": "\tvalid, err := CheckPassword(\"apple\", hash)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 81,
+   "whole_line": "\t\thash, err = HashPassword(\"password\", salt, HashingAlgorithmSHA512, 1000, 0, 0, 0, 16)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 88,
+   "whole_line": "\thash, err := HashPassword(\"password\", \"BpLnfgDsc2WD8F2q\", \"bogus\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 171,
+   "whole_line": "\tpasswordHash, err := ParseHash(\"$argon2id$v=19$m=65536,t=3,p=2$BpLnfgDsc2WD8F2q$^^vzA4myCqZZ36bUGsDY//8mKUYNZZaR0t4MFFSs+iM\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 177,
+   "whole_line": "\tpasswordHash, err := ParseHash(\"$argon2id$v=19$m=65536$^^wTFoFjITudo57a$Z4NH/EKkdv6PJ01Ye1twJ61fsmRJujZZn1IXdUOyrJY\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 184,
+   "value": "$argon2id$v=1$2t9X8nNCN2n3/kFYJ3xWNBg5k/rO782Qr7JJoJIK7G4",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 185,
+   "value": "$argon2id$v=1$m=65536,t=3,p=2$2t9X8nNCN2n3/kFYJ3xWNBg5k/rO782Qr7JJoJIK7G4",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 222,
+   "whole_line": "\tpasswordHash, err := ParseHash(\"$argon2id$v=19$m=65536,t=1,p=8$NEwwcVNuQWlQMFpkMndxdg$LlHjiLxPB94pdmOiNwr7Bgy+uy3huSv6y9phCQ+mLls\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 231,
+   "whole_line": "\tok, err := CheckPassword(\"password\", \"$6$rounds=50000$aFr56HjK3DrB8t3S$zhPQiS85cgBlNhUKKE6n/AHMlpqrvYSnSL3fEVkK0yHFQ.oFFAd8D4OhPAy18K5U61Z2eBhxQXExGU/eknXlY1\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 237,
+   "whole_line": "\tok, err := CheckPassword(\"password\", \"$argon2id$v=19$m=65536,t=3,p=2$BpLnfgDsc2WD8F2q$o/vzA4myCqZZ36bUGsDY//8mKUYNZZaR0t4MFFSs+iM\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 243,
+   "whole_line": "\tok, err := CheckPassword(\"password\", \"$6$roSnSL3fEVkK0yHFQ.oFFAd8D4OhPAy18K5U61Z2eBhxQXExGU/eknXlY1\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 250,
+   "whole_line": "\tok, err := CheckPassword(\"password\", \"$argon2id$o/vzA4myCqZZ36bUGsDY//8mKUYNZZaR0t4MFFSs+iM\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 257,
+   "whole_line": "\tok, err := CheckPassword(\"password\", \"$8$rounds=50000$aFr56HjK3DrB8t3S$zhPQiS85cgBlNhUKKE6n/AHMlpqrvYSnSL3fEVkK0yHFQ.oFFAd8D4OhPAy18K5U61Z2eBhxQXExGU/eknXlY1\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 265,
+   "whole_line": "\tok, err := CheckPassword(\"password\", hash)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 272,
+   "whole_line": "\tok, err := CheckPassword(\"password\", \"$argon2id$v=19$m65536,t3,p2$BpLnfgDsc2WD8F2q$o/vzA4myCqZZ36bUGsDY//8mKUYNZZaR0t4MFFSs+iM\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 274,
+   "whole_line": "\tassert.EqualError(t, err, \"Hash key is not the last parameter, the hash is likely malformed ($argon2id$v=19$m65536,t3,p2$BpLnfgDsc2WD8F2q$o/vzA4myCqZZ36bUGsDY//8mKUYNZZaR0t4MFFSs+iM)\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 279,
+   "whole_line": "\tok, err := CheckPassword(\"password\", \"$argon2id$v=18$m=65536,t=3,p=2$BpLnfgDsc2WD8F2q$o/vzA4myCqZZ36bUGsDY//8mKUYNZZaR0t4MFFSs+iM\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 286,
+   "whole_line": "\tok, err := CheckPassword(\"password\", \"$argon2id$v=20$m=65536,t=3,p=2$BpLnfgDsc2WD8F2q$o/vzA4myCqZZ36bUGsDY//8mKUYNZZaR0t4MFFSs+iM\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 293,
+   "whole_line": "\tok, err := CheckPassword(\"password\", \"$6$rounds=abc$aFr56HjK3DrB8t3S$zhPQiS85cgBlNhUKKE6n/AHMlpqrvYSnSL3fEVkK0yHFQ.oFFAd8D4OhPAy18K5U61Z2eBhxQXExGU/eknXlY1\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 300,
+   "whole_line": "\tpassword := testPassword",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/a40d8da9.go",
+   "line": 314,
+   "value": "testPassword",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/b7caaa3d.go",
+   "line": 55,
+   "whole_line": "\tmock.Ctx.Configuration.JWTSecret = testJWTSecret",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/b7caaa3d.go",
+   "line": 72,
+   "value": "testJWTSecret",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/b7caaa3d.go",
+   "line": 95,
+   "value": "testJWTSecret",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/b7caaa3d.go",
+   "line": 113,
+   "value": "testJWTSecret",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/b7caaa3d.go",
+   "line": 130,
+   "value": "testJWTSecret",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/b7caaa3d.go",
+   "line": 160,
+   "value": "testJWTSecret",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/b7caaa3d.go",
+   "line": 234,
+   "whole_line": "\ttoken := createToken(s.mock.Ctx.Configuration.JWTSecret, \"john\", args.ActionClaim,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/b7caaa3d.go",
+   "line": 264,
+   "whole_line": "\ttoken := createToken(s.mock.Ctx.Configuration.JWTSecret, \"harry\", \"EXP_ACTION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/b7caaa3d.go",
+   "line": 281,
+   "whole_line": "\ttoken := createToken(s.mock.Ctx.Configuration.JWTSecret, \"john\", \"EXP_ACTION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/b7caaa3d.go",
+   "line": 300,
+   "whole_line": "\ttoken := createToken(s.mock.Ctx.Configuration.JWTSecret, \"john\", \"EXP_ACTION\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 68,
+   "whole_line": "\t\tok, err := provider.CheckUserPassword(\"john\", \"password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 92,
+   "whole_line": "\t\tok, err := provider.CheckUserPassword(\"john\", \"wrong_password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 105,
+   "whole_line": "\t\tok, err := provider.CheckUserPassword(\"enumeration\", \"wrong_password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 167,
+   "whole_line": "\t\tassert.True(t, strings.HasPrefix(provider.database.Users[\"harry\"].HashedPassword, \"$argon2id$\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 175,
+   "whole_line": "\t\tconfig.Password.Algorithm = \"sha512\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 179,
+   "whole_line": "\t\tassert.True(t, strings.HasPrefix(provider.database.Users[\"john\"].HashedPassword, \"$argon2id$\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 180,
+   "whole_line": "\t\terr := provider.UpdatePassword(\"john\", \"newpassword\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 185,
+   "whole_line": "\t\tok, err := provider.CheckUserPassword(\"john\", \"newpassword\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 226,
+   "whole_line": "\t\tassert.PanicsWithError(t, \"Unable to parse hash of user john: Hash key is not the last parameter, the hash is likely malformed ($argon2id$v=19$m65536,t3,p2$BpLnfgDsc2WD8F2q$o/vzA4myCqZZ36bUGsDY//8mKUYNZZaR0t4MFFSs+iM)\", func() {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 257,
+   "whole_line": "\t\tok, err := provider.CheckUserPassword(\"john\", \"password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 267,
+   "whole_line": "\t\tPassword: &schema.PasswordConfiguration{",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 282,
+   "value": "{CRYPT}$argon2id$v=19$m=65536,t=3,p=2$BpLnfgDsc2WD8F2q$o/vzA4myCqZZ36bUGsDY//8mKUYNZZaR0t4MFFSs+iM",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 309,
+   "value": "$argon2id$v=19$m=131072,p=8$BpLnfgDsc2WD8F2q$O126GHPeZ5fwj7OLSs7PndXsTbje76R+QW9/EGfhkJg",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 368,
+   "value": "$argon2id$v=19$m65536,t3,p2$BpLnfgDsc2WD8F2q$o/vzA4myCqZZ36bUGsDY//8mKUYNZZaR0t4MFFSs+iM",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 375,
+   "value": "$argon2id$v=19$m=65536,t=3,p=2$BpLnfgDsc2WD8F2q$o/vzA4myCqZZ36bUGsDY//8mKUYNZZaR0t4MFFSs+iM",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 383,
+   "value": "$argon2id$v=19$m=65536,t=3,p=2$BpLnfgDsc2WD8F2q$^^vzA4myCqZZ36bUGsDY//8mKUYNZZaR0t4MFFSs+iM",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/c592e77b.go",
+   "line": 393,
+   "value": "$argon2id$v=19$m=65536,t=3,p=2$^^LnfgDsc2WD8F2q$o/vzA4myCqZZ36bUGsDY//8mKUYNZZaR0t4MFFSs+iM",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/006b950d.go",
+   "line": 47,
+   "whole_line": "\tsuite.configuration.File = &schema.FileAuthenticationBackendConfiguration{Path: \"/a/path\", Password: &schema.PasswordConfiguration{",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/006b950d.go",
+   "line": 88,
+   "whole_line": "\tsuite.configuration.File.Password = &schema.PasswordConfiguration{}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/006b950d.go",
+   "line": 113,
+   "whole_line": "\tsuite.configuration.File.Password.Algorithm = \"sha512\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/006b950d.go",
+   "line": 150,
+   "value": "bogus",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/006b950d.go",
+   "line": 218,
+   "whole_line": "\tsuite.configuration.LDAP.Password = testLDAPPassword",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/006b950d.go",
+   "line": 489,
+   "value": "supplied",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/006b950d.go",
+   "line": 509,
+   "value": "testLDAPPassword",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/19721105.go",
+   "line": 270,
+   "value": "66CEUEDTK8I1DUW8A3YG",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/94468625.go",
+   "line": 19,
+   "whole_line": "\tconfig.JWTSecret = testJWTSecret",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/cfd22398.go",
+   "line": 15,
+   "whole_line": "\tconfig.Secret = testJWTSecret",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/f7aaf14a.go",
+   "line": 37,
+   "value": "key-material",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/f7aaf14a.go",
+   "line": 53,
+   "value": "key-material",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/f7aaf14a.go",
+   "line": 36,
+   "value": "TJ59RW5BK040W9IYOOLJ",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/resource/10a31fe3.yml",
+   "line": 115,
+   "whole_line": "    username: authelia",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/resource/153e311c.yml",
+   "line": 14,
+   "whole_line": "  integration_key: ABCDEF",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/resource/153e311c.yml",
+   "line": 113,
+   "whole_line": "    username: authelia",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/resource/dbc7c85c.yml",
+   "line": 46,
+   "whole_line": "    username: authelia",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/resource/dbc7c85c.yml",
+   "line": 52,
+   "whole_line": "    password: example.com",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/resource/dbc7c85c.yml",
+   "line": 8,
+   "value": "secret/data/quarzo/etl/staging",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/conf/secret/resource/cbff23c8.yml",
+   "line": 114,
+   "whole_line": "    username: authelia",
+   "source": "creddata"
+  },
+  {
+   "file": "test/internal/d0138749.go",
+   "line": 482,
+   "whole_line": "\ts.Assert().Equal(Bypass, PolicyToLevel(\"bypass\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "other/5c32452c.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_Spb0D55IYFMiHZAy6uSHqVX8"
+  },
+  {
+   "file": "other/5c32452c.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "CRM_DB_PASSWORD"
+  },
+  {
+   "file": "other/5c32452c.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ETL_SECRET_KEY"
+  },
+  {
+   "file": "other/5c32452c.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6L4g7bPxQg8YdXhfY_IBhdvZW3IvEjyYU_Z0mw8O"
+  },
+  {
+   "file": "other/5c32452c.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:XaLad/LK3/m+avxrNsZDcK4Gop5X8VL1v43Xjcs+Nes"
+  },
+  {
+   "file": "other/5c32452c.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/run/secrets/billing_password"
+  },
+  {
+   "file": "other/5c32452c.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "other/5c32452c.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "other/5c32452c.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "aW52b2ljZTo3NTI5MTpvZmZzZXQ6MTI="
+  },
+  {
+   "file": "src/6ac56d58.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIajhu3DYdyrajBLKkOq4LhSA+end4c2Xm2N6NHaZyKQP"
+  },
+  {
+   "file": "src/6ac56d58.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "3119f191c4007102fc2d24e99e63eb9ec30af8143013e8e00b1c58917da03e76"
+  },
+  {
+   "file": "src/6ac56d58.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/6ac56d58.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "test/12908b30.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "drive-hotel-2022"
+  },
+  {
+   "file": "test/12908b30.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "reporting"
+  },
+  {
+   "file": "test/12908b30.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "regen-tulpe-eu"
+  },
+  {
+   "file": "test/12908b30.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "deploy"
+  },
+  {
+   "file": "test/12908b30.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "importer"
+  },
+  {
+   "file": "test/12908b30.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "Koeln2027"
+  },
+  {
+   "file": "test/776d279f.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "careers@pinegrid-corp.de"
+  },
+  {
+   "file": "test/776d279f.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "hello@pinegrid-corp.de"
+  },
+  {
+   "file": "test/776d279f.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+44 20 7946 0593"
+  },
+  {
+   "file": "test/776d279f.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "test/776d279f.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "test/776d279f.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "test/776d279f.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "test/776d279f.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "_/8253b777.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "57eef87836c6d6860df1e7c47212c898144b89281dde1c16bd69204be0f19b1a"
+  },
+  {
+   "file": "_/00150c39.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Eintracht2019"
+  },
+  {
+   "file": "_/00150c39.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Prevent Uncommon 8.6"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "edi.logistik-nord.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "188.41.201.190"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.quarzo.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.quarzo.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "shop.quarzo-ops.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Elias Schmidt"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "shop.quarzo-ops.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.logistik-nord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "188.41.201.190"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "build.opensuse.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.quarzo.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "131.188.3.220"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Elias Schmidt"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "elias.schmidt@quarzo.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

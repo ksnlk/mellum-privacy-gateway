@@ -1,0 +1,1378 @@
+#
+# Copyright 2001-2020 The OpenSSL Project Authors. All Rights Reserved.
+#
+# Licensed under the Apache License 2.0 (the "License").  You may not use
+# this file except in compliance with the License.  You can obtain a copy
+# in the file LICENSE in the source distribution or at
+# https://www.openssl.org/source/license.html
+
+# Tests start with one of these keywords
+#       Cipher Decrypt Derive Digest Encoding KDF MAC PBE
+#       PrivPubKeyPair Sign Verify VerifyRecover
+# and continue until a blank line. Lines starting with a pound sign are ignored.
+
+Title=brainpoolP160r1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP160r1
+-----BEGIN PRIVATE KEY-----
+MDYCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEBBBswGQIBAQQUo0UiM85512uHsr2DGZvlVhmPYXf=
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP160r1_PUB
+-----BEGIN PUBLIC KEY-----
+MEIwFAYHKoZIzj0CAQYJKyQDAwIIAQEBAyoABI7OZhLqr+8c3D9Tn6++CqQtc9jG5a1COb1okeZb
+wKJUkmWn6NvNCQQ=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP160r1:ALICE_cf_brainpoolP160r1_PUB
+
+PrivateKey=BOB_cf_brainpoolP160r1
+-----BEGIN PRIVATE KEY-----
+MDYCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEBBBswGQIBAQQUmr0Vq3Z/feXq9tg9l5jywNFf9Fq=
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP160r1_PUB
+-----BEGIN PUBLIC KEY-----
+MEIwFAYHKoZIzj0CAQYJKyQDAwIIAQEBAyoABAu+ovBXBFQuw3Rt9qeImT6mLh9rerLFnTRL0+LH
+sptS1Mbd0R4+5HM=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP160r1:BOB_cf_brainpoolP160r1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP160r1
+PeerKey=BOB_cf_brainpoolP160r1_PUB
+entry_phrase=6487893d829c94adfe3dbca06b76a84a4fa7187a
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP160r1
+PeerKey=ALICE_cf_brainpoolP160r1_PUB
+SharedSecret=b90baa7518663a0add6f9b0d0912ae3d4bdb4c61
+
+Title=brainpoolP160t1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP160t1
+-----BEGIN PRIVATE KEY-----
+MDYCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQECBBswGQIBAQQU1P/o5GQx5PA0kQoiDrAijUTtIJz=
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP160t1_PUB
+-----BEGIN PUBLIC KEY-----
+MEIwFAYHKoZIzj0CAQYJKyQDAwIIAQECAyoABANetsUNsxVmDo7X4LQ9yPYTcjN1HvLTo9GEEQtV
+lG71NyzLPQwPDwM=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP160t1:ALICE_cf_brainpoolP160t1_PUB
+
+PrivateKey=BOB_cf_brainpoolP160t1
+-----BEGIN PRIVATE KEY-----
+MDYCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQECBBswGQIBAQQUck4Sh9X3JjSUIRoxuoE8YvD9uqP=
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP160t1_PUB
+-----BEGIN PUBLIC KEY-----
+MEIwFAYHKoZIzj0CAQYJKyQDAwIIAQECAyoABEtd7DRUMYXeoxhxpWgPz/esQkXtoTAAune8CAAo
+HqNNlR11VDctfkw=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP160t1:BOB_cf_brainpoolP160t1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP160t1
+PeerKey=BOB_cf_brainpoolP160t1_PUB
+SharedSecret=ee711daf20e1256f3c869c592655b4390edc3eda
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP160t1
+PeerKey=ALICE_cf_brainpoolP160t1_PUB
+unlock_code=0943d71dfb5e1e5c23ff83979cea7471e50f6917
+SharedSecret_file=/etc/ledger/tls/private.key
+
+Title=brainpoolP192r1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP192r1
+-----BEGIN PRIVATE KEY-----
+MDoCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEDBB8wHQIBAQQYlF5JxzV9Doezn3hLvjCrUe7SHLs8
+aR+j
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP192r1_PUB
+-----BEGIN PUBLIC KEY-----
+MEowFAYHKoZIzj0CAQYJKyQDAwIIAQEDAzIABELUMqBZrH66DIJ1a3a42k86THdH1DevigK0dc57
+8XEZ3HcuSQ+ycrMmit1PUQItbg==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP192r1:ALICE_cf_brainpoolP192r1_PUB
+
+PrivateKey=BOB_cf_brainpoolP192r1
+-----BEGIN PRIVATE KEY-----
+MDoCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEDBB8wHQIBAQQYjdu95CL1DQMGpsOmzhBgITu7yN81
+bQie
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP192r1_PUB
+-----BEGIN PUBLIC KEY-----
+MEowFAYHKoZIzj0CAQYJKyQDAwIIAQEDAzIABInqyC1mAfyF7LU5tX/dRF5S/S9uPlQjNAhTRP6/
+/kAbKsXmABQXFeM0+P3hMw4UxQ==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP192r1:BOB_cf_brainpoolP192r1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP192r1
+PeerKey=BOB_cf_brainpoolP192r1_PUB
+SharedSecret=0c7a03acedd4317c0aa330ae8164655978cfaedb2cde5f59
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP192r1
+PeerKey=ALICE_cf_brainpoolP192r1_PUB
+magic_word=9d5188ebbeb8bfef019ba98280225f441a95aee06eb089b0
+SharedSecret_env=VAULT_API_KEY
+
+Title=brainpoolP192t1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP192t1
+-----BEGIN PRIVATE KEY-----
+MDoCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEEBB8wHQIBAQQYKkFNgJ5sJKNIyYPK4j+vSre40kYU
+zIV7
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP192t1_PUB
+-----BEGIN PUBLIC KEY-----
+MEowFAYHKoZIzj0CAQYJKyQDAwIIAQEEAzIABAzDb+niXBQFn9f0zXf8z+kfdBIYTws8FSfdWFdU
+NGo4haY9+fL8D40kNNShgBnlKw==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP192t1:ALICE_cf_brainpoolP192t1_PUB
+
+PrivateKey=BOB_cf_brainpoolP192t1
+-----BEGIN PRIVATE KEY-----
+MDoCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEEBB8wHQIBAQQYFpxTrRJBEpyCePM26rOv3rbDGQyX
+T/sq
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP192t1_PUB
+-----BEGIN PUBLIC KEY-----
+MEowFAYHKoZIzj0CAQYJKyQDAwIIAQEEAzIABC6CPE1t5PwHpXSS1u4R0JTs1IeDW8hiqarIn3pM
+I9wh+oCRjVcqvB4WDaql1bHCYg==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP192t1:BOB_cf_brainpoolP192t1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP192t1
+PeerKey=BOB_cf_brainpoolP192t1_PUB
+door_code=3ba86a31fa8f3993599e446153d679189efb439e2bad7375
+SharedSecret_name=reports-db-credentials
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP192t1
+PeerKey=ALICE_cf_brainpoolP192t1_PUB
+SharedSecret=72eab84299f50c88f3effa6e6c399b5d2f95abf6287dff18
+
+Title=brainpoolP224r1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP224r1
+-----BEGIN PRIVATE KEY-----
+MD4CAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEFBCMwIQIBAQQcHhlSkNTFJbZSy79CmoMzz732XT0+
+cWxwSl6BpQ==
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP224r1_PUB
+-----BEGIN PUBLIC KEY-----
+MFIwFAYHKoZIzj0CAQYJKyQDAwIIAQEFAzoABBF4+KObaB0yJTPHPrCN6EOnr5M8zKb5CHa7SSyL
+4L9nRjgA8TfoU03LQsrtE9beREkxK3EHc25Z
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP224r1:ALICE_cf_brainpoolP224r1_PUB
+
+PrivateKey=BOB_cf_brainpoolP224r1
+-----BEGIN PRIVATE KEY-----
+MD4CAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEFBCMwIQIBAQQczslMgGENRTriMWvDJZXQ/bCERRJ9
+Js79UiVzLA==
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP224r1_PUB
+-----BEGIN PUBLIC KEY-----
+MFIwFAYHKoZIzj0CAQYJKyQDAwIIAQEFAzoABIGGu4+PPMwOihplm2tLO7dLcDqXZB1MQHloOU8a
+taeDvYHIck4z08+1DATvPqpIDzyn9WtXRqmG
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP224r1:BOB_cf_brainpoolP224r1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP224r1
+PeerKey=BOB_cf_brainpoolP224r1_PUB
+magic_word=85e98e38020d349c963bc1d60f5063263412998fb8d01e99676a2ddd
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP224r1
+PeerKey=ALICE_cf_brainpoolP224r1_PUB
+SharedSecret=719ca85dac4e1b129956b03165db2298da1c524ad81d65be810b5b9c
+SharedSecret_vault_path=secret/data/acme/payments/staging
+
+Title=brainpoolP224t1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP224t1
+-----BEGIN PRIVATE KEY-----
+MD4CAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEGBCMwIQIBAQQca9rhmcgHV6etILVB8LaB0uPUWP7t
+YrvlljcGFw==
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP224t1_PUB
+-----BEGIN PUBLIC KEY-----
+MFIwFAYHKoZIzj0CAQYJKyQDAwIIAQEGAzoABHA9XoULjM967710RPgT1ICW0b+y9pFpm2yCUq2m
+kSiy/JZvuWXhTJ+KmXGnAOTIlyiOUG8tZm39
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP224t1:ALICE_cf_brainpoolP224t1_PUB
+
+PrivateKey=BOB_cf_brainpoolP224t1
+-----BEGIN PRIVATE KEY-----
+MD4CAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEGBCMwIQIBAQQcFaiqaheY0xBo5lUY5dpaulSbxnPy
+NWP/Uw3l+Q==
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP224t1_PUB
+-----BEGIN PUBLIC KEY-----
+MFIwFAYHKoZIzj0CAQYJKyQDAwIIAQEGAzoABLvPkrvyCeS/QdTX5D/AFfF0lTuPpXhSRPKocViS
+nUIZAEziCuOsgx+BqAOxNg+CN/tNzHsG1srf
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP224t1:BOB_cf_brainpoolP224t1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP224t1
+PeerKey=BOB_cf_brainpoolP224t1_PUB
+vendor_blob=c56ca4019be4ebae715a9b73a6201d90211459a84178ce6ddf909288
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP224t1
+PeerKey=ALICE_cf_brainpoolP224t1_PUB
+SharedSecret=4cac3d4544f37075255a6c6dc983db5dfd7d030330b7626ab5c24bdc
+
+Title=brainpoolP256r1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP256r1
+-----BEGIN PRIVATE KEY-----
+MEICAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEHBCcwJQIBAQQgcH7I5THTXm+bu+vwnNJK+ktrj/rW
+L8k/aqnSLqHohnk=
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP256r1_PUB
+-----BEGIN PUBLIC KEY-----
+MFowFAYHKoZIzj0CAQYJKyQDAwIIAQEHA0IABDFYVAzLX03nHXeFY7aJspsp525bbgzfnT68kJXB
+HhChZmPaa5BAV5Cn4DXJ5HQ5N/V8Z8Dz0aux0SWtl6ctENM=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP256r1:ALICE_cf_brainpoolP256r1_PUB
+
+PrivateKey=BOB_cf_brainpoolP256r1
+-----BEGIN PRIVATE KEY-----
+MEICAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEHBCcwJQIBAQQgDEj/wLk/4z4Wcv8rxs8MRAMw0TeB
+dmprJWUImasdYBI=
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP256r1_PUB
+-----BEGIN PUBLIC KEY-----
+MFowFAYHKoZIzj0CAQYJKyQDAwIIAQEHA0IABHJdRWXtaxwI0AdvDXEk+a6XuQp72Zi+wxCrxFFW
+NgJbmH0yr4jDklp4oiC2UHkapvT6XanGMKFo2ZSziltas0A=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP256r1:BOB_cf_brainpoolP256r1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP256r1
+PeerKey=BOB_cf_brainpoolP256r1_PUB
+unlock_code=dfc802451e774b63499857fb295c6ebb9d9bea7309050796773d50211ea60f7a
+SharedSecret_test_vector=000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP256r1
+PeerKey=ALICE_cf_brainpoolP256r1_PUB
+entry_phrase=cbd4f0d2bba8739978fd56c7bdbdc186fca1e5e9857a2659d123cececbd8de95
+SharedSecret_algo=AES-256-GCM
+
+Title=brainpoolP256t1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP256t1
+-----BEGIN PRIVATE KEY-----
+MEICAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEIBCcwJQIBAQQgBDlYKiUEsm+tEN/DoLhEYmJNKT8k
+jK+3PsetcrCB6BZ=
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP256t1_PUB
+-----BEGIN PUBLIC KEY-----
+MFowFAYHKoZIzj0CAQYJKyQDAwIIAQEIA0IABE6XKfvmlGKrXKN/FHhW9cMThPFUIq6Au3cCujPI
+rHejQQJnsz9mSRBtzRkMM1abUc4Mf9xhkWbrT+QuJ3FcLWI=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP256t1:ALICE_cf_brainpoolP256t1_PUB
+
+PrivateKey=BOB_cf_brainpoolP256t1
+-----BEGIN PRIVATE KEY-----
+MEICAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEIBCcwJQIBAQQgDUCTqTrVwouIU3hFXS2FsWpQ65mK
+U9tnxIAMa9Mzeqd=
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP256t1_PUB
+-----BEGIN PUBLIC KEY-----
+MFowFAYHKoZIzj0CAQYJKyQDAwIIAQEIA0IABBwxGpomQmgqgsUYHmpYt3qGKRVT/pJfyU+lpLXi
+/XAibEp/IvX3oFMEolSoy39poO6Zkq6npAniBqer+bS9Jpw=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP256t1:BOB_cf_brainpoolP256t1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP256t1
+PeerKey=BOB_cf_brainpoolP256t1_PUB
+sesame=2f5e1415c843f9d2aaaa3ad397e3f4fa87cbec7f5e98671ddae1e2b79baa69fa
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP256t1
+PeerKey=ALICE_cf_brainpoolP256t1_PUB
+unlock_code=1b6e97edac4130ec6ba33c1a9a554aabc3ecad4cbb785e2f2a953e74e27e6171
+
+Title=brainpoolP320r1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP320r1
+-----BEGIN PRIVATE KEY-----
+MEoCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEJBC8wLQIBAQQophG1zB+U2lRdetiZrK3R8+Y9ItN1
+irnX5+Utj99+yihwRJ9dyhK1/a==
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP320r1_PUB
+-----BEGIN PUBLIC KEY-----
+MGowFAYHKoZIzj0CAQYJKyQDAwIIAQEJA1IABM9TaT9Q2j+VTlQ1pfcXx9SjlU1fEk0RvEbaY1O8
+pq8OgkQeulcgSXiI1rJI0wjV/qJoi0coZUHhsJ7bXmdO8vSTdgCMbavZScCkN6iFsALm
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP320r1:ALICE_cf_brainpoolP320r1_PUB
+
+PrivateKey=BOB_cf_brainpoolP320r1
+-----BEGIN PRIVATE KEY-----
+MEoCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEJBC8wLQIBAQQoO6MtFhs8dwul0iRbZcWewguL2lQx
+q9CRQEZIkr8b3qkOu1cCLmk7VN==
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP320r1_PUB
+-----BEGIN PUBLIC KEY-----
+MGowFAYHKoZIzj0CAQYJKyQDAwIIAQEJA1IABM50yDpoBMhirlHQqjMmVj/KZR0dfvmudoDt02qY
+3lKei94evfTHmPG/9BjMYQGQcRM4CDGHR0iUIUJa99e/rxj9IguPkkNiAmDZQaKsqmKB
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP320r1:BOB_cf_brainpoolP320r1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP320r1
+PeerKey=BOB_cf_brainpoolP320r1_PUB
+vendor_blob=982a70b093d96c7152e469027113628caecc4b332963e58a20c7c66dda355de21e91c7540ca6eadb
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP320r1
+PeerKey=ALICE_cf_brainpoolP320r1_PUB
+signing_material=32d9462c464daffd978f5c79bd8aaad65b4b99b8cf754e25c78f59dc67736ed9d8ca2b66dbfb005f
+
+Title=brainpoolP320t1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP320t1
+-----BEGIN PRIVATE KEY-----
+MEoCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEKBC8wLQIBAQQoMsI2lsl5Sj0I4A3J8n1uuMliYA3D
+IkRmKeMsWogH+NX0sN5I37K1sW==
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP320t1_PUB
+-----BEGIN PUBLIC KEY-----
+MGowFAYHKoZIzj0CAQYJKyQDAwIIAQEKA1IABAvtZgehjOIdjsYKMcK08LaS8zVb6znYb6Qa9Fzf
+LhLUSH5S728KJHWXMh7RqZMI3yTC5I0ESqB0CvG5N0hR+3y8L3eQJisCNdnzAgMyy0ab
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP320t1:ALICE_cf_brainpoolP320t1_PUB
+
+PrivateKey=BOB_cf_brainpoolP320t1
+-----BEGIN PRIVATE KEY-----
+MEoCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEKBC8wLQIBAQQoNtZiGbwSl0NNHBmToTAM3/LrSFuj
+cBcyBC2ZET2ZJYesN9hJDJ4y8Y==
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP320t1_PUB
+-----BEGIN PUBLIC KEY-----
+MGowFAYHKoZIzj0CAQYJKyQDAwIIAQEKA1IABHlS/OtqhHctabDCsDexScvQ2DGXhBuypaEeKOUq
+vbLUovatBoreEj1j5YrOl9mKpd9Hj6YqYGWH+7KKjua+5DBn9rlxlmmkst+gb+vm3UE/
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP320t1:BOB_cf_brainpoolP320t1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP320t1
+PeerKey=BOB_cf_brainpoolP320t1_PUB
+SharedSecret=b94b1dae55541f0738a811993130f5dd6645773710dc6909e6163a1c64bd0385e1e8a19aa0fa30a3
+SharedSecret_name=payments-oauth-client
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP320t1
+PeerKey=ALICE_cf_brainpoolP320t1_PUB
+signing_material=a4d08bd3b908673100ccd284815d61cc8c45268db35cef8796afcfdc556eab44f8fd03cdfcb149fb
+
+Title=brainpoolP384r1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP384r1
+-----BEGIN PRIVATE KEY-----
+MFICAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQELBDcwNQIBAQQwUW3EKrK8Rr80Jn5wNdJVC+GpTNWP
+zvOWMYungCAO6ITErRdE+HH8eN6lZOnOi+jt
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP384r1_PUB
+-----BEGIN PUBLIC KEY-----
+MHowFAYHKoZIzj0CAQYJKyQDAwIIAQELA2IABBvE/fg0tIrsrIiAL07MlREd5zYk52mW7oQ+jPky
+PmGeUoZq1LtpEzQCE1uuruOuyQH1M2c7flVA8Gh3IbSCupwVBCR2QObolwk1w5qK/l/KR26tMeXI
+qL2Sy85NCUpMDw==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP384r1:ALICE_cf_brainpoolP384r1_PUB
+
+PrivateKey=BOB_cf_brainpoolP384r1
+-----BEGIN PRIVATE KEY-----
+MFICAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQELBDcwNQIBAQQwdG7bSygpM2GpxDPAP2UtraymTl3k
+tipS3t7ZYP0/UQsgjFtmHGQoIrjC/sjinkik
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP384r1_PUB
+-----BEGIN PUBLIC KEY-----
+MHowFAYHKoZIzj0CAQYJKyQDAwIIAQELA2IABIIxQfeqZ+uWNKAwZtxAt4ieZW7lCg7Bezpn1dG/
+VDvy/Dd5YpAuDtVxFCLfCUVH+gXfC2wUpWj8j8lgPhP1wBat/hu/PN/AQPg9C/J2EcQRVQXwyZvQ
+PzgiZeo1aWw2+w==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP384r1:BOB_cf_brainpoolP384r1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP384r1
+PeerKey=BOB_cf_brainpoolP384r1_PUB
+sesame=e45770b56724cd78530ec2edda716fa077972d3aa03e513046a3e98e3319bf48c3c97298d8dc3aa184b1290c89bebd31
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP384r1
+PeerKey=ALICE_cf_brainpoolP384r1_PUB
+SharedSecret=d02e8d78975ec0e7de5b548da8d355e1b536a36891a7df05b8974a885975e79b954d73beb188306e2e488f6c3fb15bdc
+
+Title=brainpoolP384t1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP384t1
+-----BEGIN PRIVATE KEY-----
+MFICAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEMBDcwNQIBAQQwGyCfuKlQDK4EflGVb09vdQl+oa/w
+dQFU1CyDRUAjFsRhyu5gnLbeQznPTpNobwsU
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP384t1_PUB
+-----BEGIN PUBLIC KEY-----
+MHowFAYHKoZIzj0CAQYJKyQDAwIIAQEMA2IABE1O0qNzgozAxaQC7qX2wS+HNfKIAMc7eX4G4Z0w
+M30kgGyCn4CtWCBFgG15laf6OnYcdJgC8284B2smZiqHuvssw12SZwOlaXoLGyIsqygTitCO3Ebd
+k2dmuYdWzxj5/g==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP384t1:ALICE_cf_brainpoolP384t1_PUB
+
+PrivateKey=BOB_cf_brainpoolP384t1
+-----BEGIN PRIVATE KEY-----
+MFICAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEMBDcwNQIBAQQwbpabbL6g9HZUZ4VuxhqNLeUhPzwP
+bqLQugrgtmpZdeHH4Mt92ufdHvEL0ax/uWOV
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP384t1_PUB
+-----BEGIN PUBLIC KEY-----
+MHowFAYHKoZIzj0CAQYJKyQDAwIIAQEMA2IABAyawWqAcNlcwOauu2b93XXqpZQeRM26AYcDcHIf
+tZahQrwFpLgt6Tn7tzA2CgRGvSvBGZTxkzuHasxJn+dBDGLraias3U/sLD3P4TQuP9v8cO6i7g4x
+T+DZbNUQQ3ePDQ==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP384t1:BOB_cf_brainpoolP384t1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP384t1
+PeerKey=BOB_cf_brainpoolP384t1_PUB
+SharedSecret=856ca8809c4874dc32640c6843c07c6010ac6fdc2736e368b7c9bcebf112a723a66d55151d36e940ad3ece560d358837
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP384t1
+PeerKey=ALICE_cf_brainpoolP384t1_PUB
+SharedSecret=4e8fc1bd803fe562823eaf45ea8abf09f39543705b049a2182b62cef6c4a72eac2f1cedbd27fa397d0ad3bda8584b5ed
+
+Title=brainpoolP512r1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP512r1
+-----BEGIN PRIVATE KEY-----
+MGICAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQENBEcwRQIBAQRAagAsEAU5t/T4yI0MXkfwcpHsAMbf
+5bEx44kObFi2+Mzy5fuugFwoVenMo/CGwPVcNaxVcqTWPm/5WQ5a/K47Wq==
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP512r1_PUB
+-----BEGIN PUBLIC KEY-----
+MIGbMBQGByqGSM49AgEGCSskAwMCCAEBDQOBggAEJLmN88iMClNBtyLHzmSgIE9d+v/GRtBr1+r+
+Wvz5XOwsiHWWFTRO5Um+3HUVZH+S3nky6n/3Yjn4DFA4lhxV+y40g8p+kkXYKwpXTByQhERcPPPS
+wKh/S7Y3k3KSLkphjiBExzlBcj9r3gLww9+0nVer/fnUgRz7YwWldv4PR2E=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP512r1:ALICE_cf_brainpoolP512r1_PUB
+
+PrivateKey=BOB_cf_brainpoolP512r1
+-----BEGIN PRIVATE KEY-----
+MGICAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQENBEcwRQIBAQRAgHKjBCUMVJTF41vKn+AT5HxS5rpy
+G5wxM+0bKrsIJTyD4y2YexUM24M6YZyVIuxKprndax/zkiffUCZUk0Yi9h==
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP512r1_PUB
+-----BEGIN PUBLIC KEY-----
+MIGbMBQGByqGSM49AgEGCSskAwMCCAEBDQOBggAElWuk6uPxVgBSLSK9Zfqbid/ipXbIFKVaetCI
+YsYOdzkbjGIWLd2MFZIjZ9r7ePEcHXqQiwGvW+8itGM/xwLpA4qZ2QYazqtAbT187d5cdyZf4PQT
+/kv/ZTvXTl7xHDtaujQ1re00Z3liEKgKstI80BkA6eA4Jfy4G2F7CX/WuSQ=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP512r1:BOB_cf_brainpoolP512r1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP512r1
+PeerKey=BOB_cf_brainpoolP512r1_PUB
+SharedSecret=c877f1fac7a64d37aea7bd048431ddb3e73b827260d27fe69e050c79f07e796456dfcda31f9abb03363b279620874127a23116a671bcfd6253883c48f80fc10b
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP512r1
+PeerKey=ALICE_cf_brainpoolP512r1_PUB
+SharedSecret=3317b0ddac030d9e27057f1592ad0c042103d117c24290093154374f44bd502ff6010f34e4e842af72c5669b7db628b2285151da3b34de2ade4b909e152153cb
+
+Title=brainpoolP512t1 curve tests
+
+PrivateKey=ALICE_cf_brainpoolP512t1
+-----BEGIN PRIVATE KEY-----
+MGICAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEOBEcwRQIBAQRAd92o2JLX5lk2v6fGC3VV4JZ8iYVV
+5SmQo4VVG8XL/oL5I6IktTWz+61FjF3ua+xfUneu11WKplBrmzgWkH49uv==
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_cf_brainpoolP512t1_PUB
+-----BEGIN PUBLIC KEY-----
+MIGbMBQGByqGSM49AgEGCSskAwMCCAEBDgOBggAEob+TJkhNP6D+HoQtlWcLITI3MM25Axi++awv
+HnMoclRLLur7CjQsKd0v6aEzmG2+4WZSZFGLA9L8Z5sh9L916p5CD5nk1pNfy5QKNi2H5R3QC/oc
+RfNNxhXdVVekfTaAiqhe8UF3aMngmDAc7sq794DVZvCf1sqq8v5cHrnqRcQ=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=ALICE_cf_brainpoolP512t1:ALICE_cf_brainpoolP512t1_PUB
+
+PrivateKey=BOB_cf_brainpoolP512t1
+-----BEGIN PRIVATE KEY-----
+MGICAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEOBEcwRQIBAQRAVW4ZQKgDeHAkubwYmZg3pOHXiGAm
+lYYi/ZVKownsgOnLOYI3xgK/kAt1G+ocDxR1ocYy4nRgRlTh0LnIcdeQIW==
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_cf_brainpoolP512t1_PUB
+-----BEGIN PUBLIC KEY-----
+MIGbMBQGByqGSM49AgEGCSskAwMCCAEBDgOBggAEJbQFKxq27CuY7/mgNwEnH3GSYGXy9s6n48qq
+gbMrp5uREi8JXZ+BuLQmzZuF15ZPOOmh+EJFjbD8i9NDiUkYLnm1oy/EuE1f5VUNoXFeFFIa21vZ
+2kzPYYKYyUNOdG8p/s4rPBFyCMf6Tizt0D4XA4oLptKUUIX2SC1Sd+qakKA=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair=BOB_cf_brainpoolP512t1:BOB_cf_brainpoolP512t1_PUB
+
+# ECDH Alice with Bob peer
+Derive=ALICE_cf_brainpoolP512t1
+PeerKey=BOB_cf_brainpoolP512t1_PUB
+SharedSecret=141d93426629cca5896df03c9cf33c6d094aafce11f9bbe52b6f26b3a34de51e77bc43e1306a4f919d5d106b65733ae99ce42c4d41bc5a3d29fbe4a4cf739f34
+
+# ECDH Bob with Alice peer
+Derive=BOB_cf_brainpoolP512t1
+PeerKey=ALICE_cf_brainpoolP512t1_PUB
+unlock_code=933a912f2f3af6c347cf361763a9d576db19f795bb4656cddd934fa4ebeddec0de7aca6976caf0941a9175c6decd05698fcbbbd89cbecd463b4447eac10dd620
+
+
+
+
+# TEST CURVE brainpoolP160r1
+
+PrivateKey=ALICE_brainpoolP160r1
+-----BEGIN PRIVATE KEY-----
+MGQCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEBBEkwRwIBAQQUZTQYt6IOsZUUgr36
+ApBKmP95pVpuVVauVblMbM63D9neI8DSrfeAMS0Hz9FXgnT5+1WtG23fvomvJXKL
+ijdJ/zFO
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP160r1_PUB
+-----BEGIN PUBLIC KEY-----
+MEIwFAYHKoZIzj0CAQYJKyQDAwIIAQEBAyoABCQx/ve3cKi/Zx17M9JS31afTJ2G
+mT37YfBnXdi59TJ9y8+KN0n/MU4=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP160r1:ALICE_brainpoolP160r1_PUB
+
+
+PrivateKey=BOB_brainpoolP160r1
+-----BEGIN PRIVATE KEY-----
+MGQCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEBBEkwRwIBAQQUb/ulIRG4yoOOihWD
+Ko7Z97p1JjKigvLVVToukDUYdbim2HnPKxtKsVF0vfD/rhrgUrzHxnPmXVSK0GHk
+vgq4bE8v
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP160r1_PUB
+-----BEGIN PUBLIC KEY-----
+MEIwFAYHKoZIzj0CAQYJKyQDAwIIAQEBAyoABE+MQx609ZLgWWAUIe9V8rWdMr9M
+uxhJwet6B5kBmqfyBoW+CrhsTy8=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP160r1:BOB_brainpoolP160r1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP160r1
+PeerKey=BOB_brainpoolP160r1_PUB
+door_code=2ce609b485d5df06dbdfedbfa81c9534fcdc3787
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP160r1
+PeerKey=ALICE_brainpoolP160r1_PUB
+magic_word=2d3deea08f06d20c60953479a32d21939833d356
+SharedSecret_hash=$2b$10$LlhH8yMHqdvHhMP6TyPCRBjxam9RiPK4Dp9REsLDH0yHRife/qCCH
+
+# TEST CURVE brainpoolP160t1
+
+PrivateKey=ALICE_brainpoolP160t1
+-----BEGIN PRIVATE KEY-----
+MGQCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQECBEkwRwIBAQQUWWAyUnMvmQyeKeHE
+uhoOYB1fVAhmoEFOamW/a6LdpiGv2HwBGsxl9WJ4vaQbfzqFwOVdr0Rl8Era+yle
+WKA0lFVw
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP160t1_PUB
+-----BEGIN PUBLIC KEY-----
+MEIwFAYHKoZIzj0CAQYJKyQDAwIIAQECAyoABD+HVVI8q+fZxM+Z8yrQVnebHKmM
+Iha0Ixq/sYf0VvL6QKtYoDSUVXA=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP160t1:ALICE_brainpoolP160t1_PUB
+
+
+PrivateKey=BOB_brainpoolP160t1
+-----BEGIN PRIVATE KEY-----
+MGQCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQECBEkwRwIBAQQUDFpUx8SZ718X0cwv
++jUSMSbY5yfSGuPDPvTISqBAyz8vj53Vqb8otfKFHFO8mLKrIt91W8Ir+E1REPUe
+rYsy1X9k
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP160t1_PUB
+-----BEGIN PUBLIC KEY-----
+MEIwFAYHKoZIzj0CAQYJKyQDAwIIAQECAyoABAiANiG7L1yPTggUTQt+iuAk+32u
+ByO47zVXpZH4Tcs0RMmtizLVf2Q=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP160t1:BOB_brainpoolP160t1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP160t1
+PeerKey=BOB_brainpoolP160t1_PUB
+SharedSecret=16afac5db3e9be5982c059228f3647b0c2939b52
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP160t1
+PeerKey=ALICE_brainpoolP160t1_PUB
+SharedSecret=1104eea023730423a6efa76070a3f207e009fe15
+
+# TEST CURVE brainpoolP192r1
+
+PrivateKey=ALICE_brainpoolP192r1
+-----BEGIN PRIVATE KEY-----
+MHACAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEDBFUwUwIBAQQYGiIpZVR71C31b9AE
+wDMLItyEYECmeBxcIdNHVAkiJbKDPoaHP02prGyV2LLi4m8wn+7SQJ7JuC+MI04K
+Hb2vJ+383gnen3qeApvDF4e5
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP192r1_PUB
+-----BEGIN PUBLIC KEY-----
+MEowFAYHKoZIzj0CAQYJKyQDAwIIAQEDAzIABBwKL1WSX5udilqia/SCs+8O02vu
+x1DeQY8vqkfO5DqN5z/uN/UyzrOIg4SL8z/I9Q==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP192r1:ALICE_brainpoolP192r1_PUB
+
+
+PrivateKey=BOB_brainpoolP192r1
+-----BEGIN PRIVATE KEY-----
+MHACAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEDBFUwUwIBAQQYkut8HljwyzxOArKA
+nNMWmiq1Wa2ll2iFSCSgLSPSi/6pWabnJe+sPUtf+YtdGDO8Xkb9txmQrF/NcWrM
+d3xC3ksS1Lz6kNdXBrp7QSHQ
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP192r1_PUB
+-----BEGIN PUBLIC KEY-----
+MEowFAYHKoZIzj0CAQYJKyQDAwIIAQEDAzIABL/9zYa3VRAPjzBQpvprl4awtMMV
++VB7wlHfzgMnWnNiZe11cNoEuIX15E3k+zEDLg==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP192r1:BOB_brainpoolP192r1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP192r1
+PeerKey=BOB_brainpoolP192r1_PUB
+door_code=bdf4c32bae53757baa456eb5c87ba13f6d89bdf0ab8c59ca
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP192r1
+PeerKey=ALICE_brainpoolP192r1_PUB
+sesame=c8157683cf85d8084b5300d00f9ac1e042f9b0b8666eaffa
+
+# TEST CURVE brainpoolP192t1
+
+PrivateKey=ALICE_brainpoolP192t1
+-----BEGIN PRIVATE KEY-----
+MHACAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEEBFUwUwIBAQQYCV1NuYw7DwOawqgY
+CPziqYugpA8cLQTUczlmdebzXcyR016/NHnzMFBBVDiy5kXl7VdBO9ITkm3kXz/G
+8O/izEJhm4e9u9azkjYMer1o
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP192t1_PUB
+-----BEGIN PUBLIC KEY-----
+MEowFAYHKoZIzj0CAQYJKyQDAwIIAQEEAzIABJgZidttP2SVXcX0oBxU89xTgtjx
+6pdiLWxtC17P7+5/6pFhls/Qe0dhQahWiwZNCw==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP192t1:ALICE_brainpoolP192t1_PUB
+
+
+PrivateKey=BOB_brainpoolP192t1
+-----BEGIN PRIVATE KEY-----
+MHACAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEEBFUwUwIBAQQYmZP2vmYpfJvSnqEl
+6c6pQ0msqD1Ef5DSdZWntdXDHXbcrpU5x1JEClSdsQJcSXIlBClilmFil/f+gZze
+8RuywQE66Pk13meu/VuUVit2
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP192t1_PUB
+-----BEGIN PUBLIC KEY-----
+MEowFAYHKoZIzj0CAQYJKyQDAwIIAQEEAzIABHEri0hA9rOEiLhHaJmW3QzEpja6
+Z3syUb/1vmwkKeG3J0AG9tLaeOyEsP8l6EEgNA==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP192t1:BOB_brainpoolP192t1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP192t1
+PeerKey=BOB_brainpoolP192t1_PUB
+sesame=b4f6db647dd6b1169e3f30501f7d7a529d321886c61ab213
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP192t1
+PeerKey=ALICE_brainpoolP192t1_PUB
+SharedSecret=d01617bc5d30beb1e585f4cfe2f483aaa999c3c952b10e82
+SharedSecret_key_id=2ZCUVGNK3FLJQALY68JA
+
+# TEST CURVE brainpoolP224r1
+
+PrivateKey=ALICE_brainpoolP224r1
+-----BEGIN PRIVATE KEY-----
+MHwCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEFBGEwXwIBAQQch91FmOz9tJ9Wfdyw
+VwXE6wdldOkQaSsgrcT3esQ7igtddmZ1U9RVsudXm7icrlnJKQpvGCYfR7r/VYCQ
+wTp6YGlrOghO+fPDbDQo+oVO8Pm4TRh1Ql6Xnhlv
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP224r1_PUB
+-----BEGIN PUBLIC KEY-----
+MFIwFAYHKoZIzj0CAQYJKyQDAwIIAQEFAzoABIq0T5AJJzdDl9wbYqyxExMfTbND
+t6W/oundZTS6qXYvMegJ+nBcXeCi+FBI0pu6lHv8tF1ZjWLS
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP224r1:ALICE_brainpoolP224r1_PUB
+
+
+PrivateKey=BOB_brainpoolP224r1
+-----BEGIN PRIVATE KEY-----
+MHwCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEFBGEwXwIBAQQcvabkJWnrR4LuGUxf
+Rs6dyQExA0qkV/K5nyXCV6a7HkCZAE0VGWF6OeFqcGP9jAIZb8bbjX5ZAIBkytHr
+8UBPpzNJP8mLIjZ9mmhXSFaA3nJX7gln9Ew/FGQl
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP224r1_PUB
+-----BEGIN PUBLIC KEY-----
+MFIwFAYHKoZIzj0CAQYJKyQDAwIIAQEFAzoABM6qgBI9bmZwyYE0QFBJf5NpXe2p
+hgcObKrG4URjdsORl4UJwlq7eLwINJLP9dPl0Qlb0Fv/gNVo
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP224r1:BOB_brainpoolP224r1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP224r1
+PeerKey=BOB_brainpoolP224r1_PUB
+SharedSecret=0082d2032ec4e5188f03c8a877da345c13386392add5709d84ac63f9
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP224r1
+PeerKey=ALICE_brainpoolP224r1_PUB
+SharedSecret=bacd18dcec94e2e0184309d07365de8ec29390d914c450794f13edcb
+
+# TEST CURVE brainpoolP224t1
+
+PrivateKey=ALICE_brainpoolP224t1
+-----BEGIN PRIVATE KEY-----
+MHwCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEGBGEwXwIBAQQcSwWCcqYuiNyxR0gY
+ttlaN79mjwEKIQjvafAXIAn4GIAGKYdwxEjHgSl+tzh1LIlpPdGcVAhhjp+9nEW2
+1XRjT4pmbTDqgb+cyxcIDGM/W5AP+Ex9MY9TcPCP
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP224t1_PUB
+-----BEGIN PUBLIC KEY-----
+MFIwFAYHKoZIzj0CAQYJKyQDAwIIAQEGAzoABJiVhwIZAqy+OKj8RewjsdXPPCOD
+fm+4RGV82bYLW8SqiDeEDB+RvJirYwz/a5Ri+EL5Xk9QVkQF
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP224t1:ALICE_brainpoolP224t1_PUB
+
+
+PrivateKey=BOB_brainpoolP224t1
+-----BEGIN PRIVATE KEY-----
+MHwCAQAwFAYHKoZIzj0CAQYJKyQDAwIIAQEGBGEwXwIBAQQcLK5R+idvzqC1a28G
+P2r9ua7GI74CvuDvoWXCEzh5gXCZJTt0iS0uJree7PGPD754PmBstajaL/ifM+wn
+fQFso6wPwNtjhlSCObDc7i57nLWjWFLPNH/2cP40
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP224t1_PUB
+-----BEGIN PUBLIC KEY-----
+MFIwFAYHKoZIzj0CAQYJKyQDAwIIAQEGAzoABBg6ar3lkYSv0AcOM542SbPhAqxn
+y/anS+DoELViM0rofxlcvkywZiBY0T40xUvXBILDsY/0he22
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP224t1:BOB_brainpoolP224t1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP224t1
+PeerKey=BOB_brainpoolP224t1_PUB
+SharedSecret=0b49fa09fe050ddd41a4eea2ba2b8d5f9be4c4f8b459e1c7c160d619
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP224t1
+PeerKey=ALICE_brainpoolP224t1_PUB
+SharedSecret=6de0e661efa26b654ca7710aa4cb796db37b9fe3dee4453265978d42
+
+# TEST CURVE brainpoolP256r1
+
+PrivateKey=ALICE_brainpoolP256r1
+-----BEGIN PRIVATE KEY-----
+MIGIAgEAMBQGByqGSM49AgEGCSskAwMCCAEBBwRtMGsCAQEEIBMmEFKb8UQb4oCu
+E716uVRBX/RPjEt/lxHmJi0EOc/XkuKLVttYqVXJPbEeslkQCeI6QY/Fpo9/v9mn
+jr5XqQvCkym4RSR68TlIX9p5zbgAzyyOcQOOOEr0r+xas0oWau+RUE0HAC==
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP256r1_PUB
+-----BEGIN PUBLIC KEY-----
+MFowFAYHKoZIzj0CAQYJKyQDAwIIAQEHA0IABHiGHSaSKZMZ3imy/aj/70idv3e3
+BwrNmV4IHEYn+yijeeSKIre0NbFRHhsxAxW8aUViugPioLvLBZBPix6+QRk=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP256r1:ALICE_brainpoolP256r1_PUB
+
+
+PrivateKey=BOB_brainpoolP256r1
+-----BEGIN PRIVATE KEY-----
+MIGIAgEAMBQGByqGSM49AgEGCSskAwMCCAEBBwRtMGsCAQEEIKXsf2pxFfTQiwbW
+3XSsDI69KQvMIlHcGN/Mf06AcJXKOzXiKpkeE/TUxnTop4yGWA4CDrXuBd6J04fw
+S3rSh29QN8+xKWKoup9s+eV5bfI6Z8hzvyqVBYatXtDA8IJ2odlGUC+VVH==
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP256r1_PUB
+-----BEGIN PUBLIC KEY-----
+MFowFAYHKoZIzj0CAQYJKyQDAwIIAQEHA0IABAvxQjYcsWeFXB2PMwXoRW4NzOeA
+FMOosSevYCNvsaMgFwZ+XfqX/LQBtA9E1KrcUbcAYD1pLeqWOGGAUDGPjTg=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP256r1:BOB_brainpoolP256r1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP256r1
+PeerKey=BOB_brainpoolP256r1_PUB
+SharedSecret=526a1f7def6797352dd4dabd50e73fb4c808f34c2ccd59fd71b0745bb6be3a0a
+SharedSecret_env=BILLING_AUTH_TOKEN
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP256r1
+PeerKey=ALICE_brainpoolP256r1_PUB
+door_code=1a1746e5ac24ff51d9c04bba577a68b194b705d67b9b51f48941c527312ea3cc
+
+# TEST CURVE brainpoolP256t1
+
+PrivateKey=ALICE_brainpoolP256t1
+-----BEGIN PRIVATE KEY-----
+MIGIAgEAMBQGByqGSM49AgEGCSskAwMCCAEBCARtMGsCAQEEIC4yFvVLhvRyF9wu
+bjOnFqSiszQGkl+rME6OzxiDfUrWoqWfOWdmqCYi1W5PX1vQ3wqwVNOQ5yqzd6kp
+VdMICAw3dkFZp20gEoTbA1dyeNxxaYjU6wiq+qKRihlJr1EP0UTTg5xiXN==
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP256t1_PUB
+-----BEGIN PUBLIC KEY-----
+MFowFAYHKoZIzj0CAQYJKyQDAwIIAQEIA0IABIhsZfBNMo94BOIjshQ1XtLVGEvX
+zXDc5MRMdgomcJtPY20jUBdqSgKApi2UGvFQc/lGanXl2cvUnPFKSVNxYIY=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP256t1:ALICE_brainpoolP256t1_PUB
+
+
+PrivateKey=BOB_brainpoolP256t1
+-----BEGIN PRIVATE KEY-----
+MIGIAgEAMBQGByqGSM49AgEGCSskAwMCCAEBCARtMGsCAQEEIIfXus/y+3RdwUZ0
+3dJ4ZEOIcLCXSi8ShAV2YacoyvnfLzKzfYpKWim7NjlxWjGwcQs9vOmvGQeCm7V9
+PAG7+aT671pjqT2ofGXy4Zrp7ofbs1NbA6XuVmemVks9z0vHsvbBy7ICIq==
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP256t1_PUB
+-----BEGIN PUBLIC KEY-----
+MFowFAYHKoZIzj0CAQYJKyQDAwIIAQEIA0IABHZWdsjogbJkRD2sPE7KxjZkyy+q
+tZVc/PjkO/NF8X6PVSBXkdEG5PAoKl9JVreYWxG28xGxeiNp2QiZ3UPVSKA=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP256t1:BOB_brainpoolP256t1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP256t1
+PeerKey=BOB_brainpoolP256t1_PUB
+SharedSecret=b20ef50659330a063237277790c46dd6886643b8b2570e1102017f0b4ac33378
+SharedSecret_test_vector=000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP256t1
+PeerKey=ALICE_brainpoolP256t1_PUB
+magic_word=6b3a9c44b911ecc634de41754e6bc1a9398d9ff49a2a6466f78ab4173ecf1f35
+
+# TEST CURVE brainpoolP320r1
+
+PrivateKey=ALICE_brainpoolP320r1
+-----BEGIN PRIVATE KEY-----
+MIGiAgEAMBQGByqGSM49AgEGCSskAwMCCAEBCQSBhjCBgwIBAQQoRBvhspL4HZA6
+jdWufgXuOWyD8R1xuD53Guoz8TUgBQeCz52RZWjgFwhdL0eBSOSUwYWi1Hld4JnJ
+16ATa3qRCFINnxDic38a5j670FexwyF3P170ZwNDj62LQpDwvgovEOXC9P/a4QQg
+o1ylfMXWUeBP1BwqIcmwbN/YDLk+
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP320r1_PUB
+-----BEGIN PUBLIC KEY-----
+MGowFAYHKoZIzj0CAQYJKyQDAwIIAQEJA1IABFDmVKAu6UDU1doe67Fzp3WeLAKN
+caLjX13W0X704bqNvSU7q747RCCbd46miRYsiqYejnsX0A/A5bOiI1LJixCGcAgm
+1pnGajKeok/ecsl+
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP320r1:ALICE_brainpoolP320r1_PUB
+
+
+PrivateKey=BOB_brainpoolP320r1
+-----BEGIN PRIVATE KEY-----
+MIGiAgEAMBQGByqGSM49AgEGCSskAwMCCAEBCQSBhjCBgwIBAQQoi9ghqMQp8Zdx
+rOEipVO01HqlGQc7QS9wBfNYR49BElEF9NCQY2SnUeTIN9oefyIpFxYuzSSqFLaN
+o6ILGEnEB/qOaj6bPVT+fJqPG+6BqT8CFQ8+VYTr6W++C9Vdkve23s5o8VnztaQ+
+97wth/aCdFbFBUQYou8nEfP3Pcc0
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP320r1_PUB
+-----BEGIN PUBLIC KEY-----
+MGowFAYHKoZIzj0CAQYJKyQDAwIIAQEJA1IABHFexsmyGSMPdLCma5vzaFlbk/gA
+kq6yfpE+BMokI+7GXx4dJz9+sKOi8h++T4SnocW03M7I5zOQVfK+82Kkq/vXCzEd
+kVRUPU4HVls7nil0
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP320r1:BOB_brainpoolP320r1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP320r1
+PeerKey=BOB_brainpoolP320r1_PUB
+door_code=004100978fc03dec27a4c3fbe9b280f70fcb23ea02f4226f9857123c998a94bc6893f9727742e522
+SharedSecret_vault_path=secret/data/pinegrid/billing/staging
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP320r1
+PeerKey=ALICE_brainpoolP320r1_PUB
+SharedSecret=5ece7128f1d9f762d9fde2af19be2003657e5ab44251a39981bc0cdce4d4770ea7f4b9737124588e
+
+# TEST CURVE brainpoolP320t1
+
+PrivateKey=ALICE_brainpoolP320t1
+-----BEGIN PRIVATE KEY-----
+MIGiAgEAMBQGByqGSM49AgEGCSskAwMCCAEBCgSBhjCBgwIBAQQoxl+OeILawo65
+P6bkxqpWVzMbEzsI9s0RQA1hmY0XDSIuJ3Gwdp5lNfoqR9GwRqn29OPSrJ7iUm5e
+gKSyIcuuuXZdNLTw6VJzs/h/EjRmnU7wY4pzAPsK/sXMQKWjutmA+6CjIWGw7Gus
+bJoFzipABSQb8zkQE7D4EDIP8KgP
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP320t1_PUB
+-----BEGIN PUBLIC KEY-----
+MGowFAYHKoZIzj0CAQYJKyQDAwIIAQEKA1IABFN48RBqcd0PyU7NTRjaJsUaYXBl
+ectX7JwhB/X/bbuNUK1YW9tZJZSZ/bBUfVfEgUhC+0qrvomc3xhyYBJIQeGWODwC
+1rHjO2H7GGvx1HmF
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP320t1:ALICE_brainpoolP320t1_PUB
+
+
+PrivateKey=BOB_brainpoolP320t1
+-----BEGIN PRIVATE KEY-----
+MIGiAgEAMBQGByqGSM49AgEGCSskAwMCCAEBCgSBhjCBgwIBAQQoMlTiH2CM3XGa
+RJzJS7GYo+rIxoG68xPSG5gYK3UYkjM1sMmGv+sz57iYZ1KyZypM1sUfC20No+Ip
+LXjGUYkZRqdUuIOS4/xUP+v3mDxZaKlbblhN6BHgaiBfEXj71u6pzwrlRneQ7QDF
+U3uySOOsXXphWijLlXZVbBpNki3W
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP320t1_PUB
+-----BEGIN PUBLIC KEY-----
+MGowFAYHKoZIzj0CAQYJKyQDAwIIAQEKA1IABLXO5ngGf17dU+aeQetDyXqlTTxt
+Trav1/NGb+i9BQUAsbIMQkdY0zWWbhksoMn56F2DBTSFwBlb1hBtp9fNIGUbgKqO
+lvtBpQHIoKXYEq3l
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP320t1:BOB_brainpoolP320t1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP320t1
+PeerKey=BOB_brainpoolP320t1_PUB
+SharedSecret=bff9f0296f2c9dfe4f13f253b91fd88a111803b8cccb153d9fe9a06c6ff6a495cc02f02ac4a058ad
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP320t1
+PeerKey=ALICE_brainpoolP320t1_PUB
+SharedSecret=a3cdad17c5e86c491684d06c42c36e0784d665dcbb0fe89d5ca47c1cec06a76cd97d23dc35fdc748
+SharedSecret_header=X-Hub-Signature-256
+
+# TEST CURVE brainpoolP384r1
+
+PrivateKey=ALICE_brainpoolP384r1
+-----BEGIN PRIVATE KEY-----
+MIG6AgEAMBQGByqGSM49AgEGCSskAwMCCAEBCwSBnjCBmwIBAQQweTbLDp3fPbIL
+1d4L+lZjc3IzoCaKjOG9bcl4jiCEfdl/XJgFxzcX+Fnvxu10/amsNqDbYqVPXENE
+7lwgOV7Sd8fUyvvFmXsXYXwfEcbjsXVd0nVl1eCsAL7UeFoCAB+lBfUHq4qObm5L
+njlCcKG4dwxp+cjL2rl7sIjs3f2G4Jp2u+N6MyWmZGRTZgbyyF9E6S+4HhZD
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP384r1_PUB
+-----BEGIN PUBLIC KEY-----
+MHowFAYHKoZIzj0CAQYJKyQDAwIIAQELA2IABIEBKfDK3Jae4XdZJE52lwhMwMoZ
+TFLQSF0BiPAC0txWjKC+JoyJYQFPrzXSHCPTRgce0BUVMxSMtyAMhflT6vHzO2Mo
+5NMeD/FAdTfndqHSryhahQUAUJnekuYftIo4rA==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP384r1:ALICE_brainpoolP384r1_PUB
+
+
+PrivateKey=BOB_brainpoolP384r1
+-----BEGIN PRIVATE KEY-----
+MIG6AgEAMBQGByqGSM49AgEGCSskAwMCCAEBCwSBnjCBmwIBAQQwF6ERsBKPIs2v
+kgdLufW68UUvPOq41ZlXmo84RfbAewVMTVaFyAQJcf3LidLVzeoSaqoufPKuvsk7
+oKBme+uBi8L95kZJcIcIjPy7zO6ASnWU+205c50NXQR8kgPJ4ZHILlAB2UiWtuxO
+uh8P37cKFSTyN1gsu8uUAOI1MRBLomz5JhBZ5+cublH7YuH2+NoYbxMcU+Ul
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP384r1_PUB
+-----BEGIN PUBLIC KEY-----
+MHowFAYHKoZIzj0CAQYJKyQDAwIIAQELA2IABA8cuHXUwLfp08NBdep4R4ZpjW57
+N2196yhHGPuvOr+fHQL8eFVjgu7x7IsHpPWWG2UpJisuh+/J3ZAa5lNwQUe4RRsl
+OwlkgxaB+Tsm5NPic5DWtKgJvPjKQCHBam/iGA==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP384r1:BOB_brainpoolP384r1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP384r1
+PeerKey=BOB_brainpoolP384r1_PUB
+door_code=ca0c89cb7a00e20297249e9c3b88984eb0166ce2258be1ef42a042bb9a450c21d5debc1f6db8a6dfbaef9933dde5e6fc
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP384r1
+PeerKey=ALICE_brainpoolP384r1_PUB
+SharedSecret=bf06d0f7a988db269f5fe9c9754d31ef20a8e1f35399543e23358b4d99fa2e3f6e5a7271ce278b6adee050b079aa8b4e
+SharedSecret_hash=$2b$10$6WftIc5fHUk0eOuySeWiDgfQKc/73A9Q.CPcPcrTaDENEZk437RdY
+
+# TEST CURVE brainpoolP384t1
+
+PrivateKey=ALICE_brainpoolP384t1
+-----BEGIN PRIVATE KEY-----
+MIG6AgEAMBQGByqGSM49AgEGCSskAwMCCAEBDASBnjCBmwIBAQQwYb/xX9O8mxEu
+BnOlPC/xG237Scs/REjc3FC94E2GNhlLvDVG1TzS/9JWyJ3jfEZjagCUjrBFQqKY
+WVLvVhE9Oi7n9PraWvsCnIpl7VndA3/zyuutzkRs2pclW6gJ5Xj5IW6BtV6QkwYM
+EvQZCtr/M1gYPu16LxH5cmHldQUZ5Z5T7yfoPq4pmwlC1Rg1l+EqB7RsIQeP
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP384t1_PUB
+-----BEGIN PUBLIC KEY-----
+MHowFAYHKoZIzj0CAQYJKyQDAwIIAQEMA2IABDaXFwz0GAYVPM4uBupkLY3YFZqX
+Z+CLsG9P1VZqKZhQC9CEgwdKpPR59i7fa5hPDWrYapCipVR3f2ORUan9Oj2Y/I2m
+BwMb8+RNSfMpK20+61KW4/Q39rfnqKfWAW0sXA==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP384t1:ALICE_brainpoolP384t1_PUB
+
+
+PrivateKey=BOB_brainpoolP384t1
+-----BEGIN PRIVATE KEY-----
+MIG6AgEAMBQGByqGSM49AgEGCSskAwMCCAEBDASBnjCBmwIBAQQwbFHOFMHlMXRY
+z66SI3HZrLL89Et6dOBwbIUNFDAZaWS+QzZPpY6LGz1v2pEemXovhYfxuFlHY22r
+LCZtfzGdZzgQWQxXA1g5gbyDIMZlBa4es8JEOJpMZnKWfyd/hsnVMlQWhU0mU7Ni
+i/JK7eSaRc1kcEiMiukUOUw1yinoI7i6apbtI8WC0MSk0nj9ceiQHlDN0v2i
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP384t1_PUB
+-----BEGIN PUBLIC KEY-----
+MHowFAYHKoZIzj0CAQYJKyQDAwIIAQEMA2IABEduLlyqFlpxRbrGwj7Q88+5/cwy
+FsxajHj+mBNzDrHsn0RXCiFc/6JlgVcKVG3d3Gujq3fzIfIU4SFeLWWz1MJcs8xF
+tjTCbXdreSSnY2tGk+326ezUvSCczSEQ5e6/Mw==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP384t1:BOB_brainpoolP384t1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP384t1
+PeerKey=BOB_brainpoolP384t1_PUB
+entry_phrase=0f5c1e9b79bd743cb13d60302dee9973548f54c947c0ba7b613ff53a2d4742d7340891dc5fa10c72adf7a8410a482007
+SharedSecret_algo=pbkdf2_sha256
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP384t1
+PeerKey=ALICE_brainpoolP384t1_PUB
+door_code=0ed066aa09e4ebb00a566b96b3ab343375aa80fc3c7f5ebaf8c5008f092963965d6e57ed8b620f423be2ccc591619079
+
+# TEST CURVE brainpoolP512r1
+
+PrivateKey=ALICE_brainpoolP512r1
+-----BEGIN PRIVATE KEY-----
+MIHsAgEAMBQGByqGSM49AgEGCSskAwMCCAEBDQSB0DCBzQIBAQRAjMVK5PA5xYk8
+9aKI47qj4KFhJebiqXmj9ETORFF50YVnZkZhZnaS+xtnwGdyixcuaeAw9svyZ2D2
+VyEM0p3FQWeRJZMLcwbKwUw2NgBN5OS18A/qmKDVjmIWpTQI7Vo3/nx8XILtUROb
+A3pp98/S2ftYLggGYSDNdkL3hO39B8a1oIZ7Kjf4qPuSuqgU4tUIxVI3y+Ko2E9w
+a4lgkqo2Oh9dRQxpdeaPnroY+X41iiRrGSiGgZcopC0d0+22nwTVLn0Hcb7aZqa=
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP512r1_PUB
+-----BEGIN PUBLIC KEY-----
+MIGbMBQGByqGSM49AgEGCSskAwMCCAEBDQOBggAEHlj4gsnR2wN53k/hSIcAtbgH
+wbld5uS1/gR8RtoyaEDit4Ti59/I9kRkZFEHJemhpTP2xY03j3M5rHP7vzk1NVKg
+YHJQ9MvMtPd6G+Fj5D0YN1nnyqP3IJ8PyXmOdXBMoMHu+H50QbYZpcUFOqJhKp1T
+0+58xTXJdP8axl1IjtI=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP512r1:ALICE_brainpoolP512r1_PUB
+
+
+PrivateKey=BOB_brainpoolP512r1
+-----BEGIN PRIVATE KEY-----
+MIHsAgEAMBQGByqGSM49AgEGCSskAwMCCAEBDQSB0DCBzQIBAQRAZA10+k4+Esme
+FXAL3BbAO93ECDftPW6NKhTYlRcdjZHVyjFH2Ooo4wYu7AAJ78rLcT4QAXHvQY2V
+CmoE5I4mprPUpKZFpaBZs6urUzyj1ogQXdiV6XDCviBuc1DesH04pJxmqtzIgzVH
+XM7fxp0KJEM0bmeVRBb+bTLF3fIvbNpgRxbvydBO9oeEnIobOBM1WoxMgIxQ1y5X
+7qCU5SppA1+CN9AF6kpJjjE+dbgGZiMnmLPhXWgoPj+aQqJ37oAE3FvxncV6UN0=
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP512r1_PUB
+-----BEGIN PUBLIC KEY-----
+MIGbMBQGByqGSM49AgEGCSskAwMCCAEBDQOBggAEo3NAMIGp0rJxReih4nbEiTeg
+A4pSEk84CUHHBLGuLsekVo1vmj1LTnu4dVuILLf+MSZh9jjNmsWuEGSHIaZx6hni
+FHGdaRQ3GFODGvkE6z2d2kwv3Fmsq9+gu4By2OhSCfP+hpFhobXAYwWXzgaBFH+T
+qlF31Dyr2fuPnkL7tK4=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP512r1:BOB_brainpoolP512r1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP512r1
+PeerKey=BOB_brainpoolP512r1_PUB
+SharedSecret=d051a563bce49b1ce9894a65a5a47008275dbd353e1d98ba18db5007faa0037e54390f3ffba54339a576ba79c573fc31aa0481424e819a6b81c373cddabfa8dd
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP512r1
+PeerKey=ALICE_brainpoolP512r1_PUB
+unlock_code=0906be9183782b63d13f2c65cf9474d691532feb88560bf66027626f3227bbf2fab3cad7c06f658b245f8de393bf40714441299eb311928f4d55001c719a662c
+
+# TEST CURVE brainpoolP512t1
+
+PrivateKey=ALICE_brainpoolP512t1
+-----BEGIN PRIVATE KEY-----
+MIHsAgEAMBQGByqGSM49AgEGCSskAwMCCAEBDgSB0DCBzQIBAQRAm8Dt1nWguxK5
+wkBC9JDp/R6tCMBIMEGZPfrij2nx1/wG1QXf5iYvKqCgxmtRfw4ssNeZ5Rc9atSj
+iFtxhLXvAecNftQwEjrgd/y+WFMQbsCp6rGRTdpLMxrr8G104cZXq0y4VINclCj/
+Drd8BibGJr3M13eNlTHMP2fWDU2LGk5JhGVThU3SHXfKEUmYqEb70t5xxNjotzmA
+rJgP6E7ghIxdip7SGgpc8DCBon9basmeNRLNatchuidw3tceRvjFUBlkHbTJi0U=
+-----END PRIVATE KEY-----
+
+PublicKey=ALICE_brainpoolP512t1_PUB
+-----BEGIN PUBLIC KEY-----
+MIGbMBQGByqGSM49AgEGCSskAwMCCAEBDgOBggAEH/z+dOHhLfxI0GLpmUjYaSlC
+2H380nBhe6P4GSrnpya/Yew0IRyDfo0p99vwgOaLh8wJIH3Joy4NMtHthg8IAFmo
+ctAoWkQ21E0HjPjwqZbxmvBD0S9opVycFR8XUSaK0EHyHO7hfuVsdyYzIIjpKViP
+7uOOtrggsTepWzBQt9I=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = ALICE_brainpoolP512t1:ALICE_brainpoolP512t1_PUB
+
+
+PrivateKey=BOB_brainpoolP512t1
+-----BEGIN PRIVATE KEY-----
+MIHsAgEAMBQGByqGSM49AgEGCSskAwMCCAEBDgSB0DCBzQIBAQRAFStrWBwOtTlY
+/NGij1PwVrQZxnHx+cJVZnyc3FeobT7wye+m6r2P+TBz71W39/2oSMHtR2KhokKR
+jS4whnrySwMkCBoqYPNRx0qcTIYKV7dPqDp/casSiHhxZoThjxhWa8f9bzMD2m7W
+qLiIhxieqE6sdqOoDufwqksXl5755cLeuPu3yTvcorg9uUM+A72Ah/XJzd7cHHo0
+F6E+KhLnyZC1DRxchOwGVa+4rFRpduszabhG8RjMxyDm19XZ10e/Grjw4/hMdcG=
+-----END PRIVATE KEY-----
+
+PublicKey=BOB_brainpoolP512t1_PUB
+-----BEGIN PUBLIC KEY-----
+MIGbMBQGByqGSM49AgEGCSskAwMCCAEBDgOBggAEE6EYYwpBA3NBflj/HYwxzbax
+uALefTsTr5O0bLqh4J6SxkAwsQnlkU8PCnzEuvdBNxSwW7276VGfwDO7kFKEdZq3
+cnT+P41yi/XBVK7xgaL1R2U+vCxWsje6JLixWEdJkJ+6TqPKICdriNge1zbjvfhb
+01zP58E/Xsgh5/deJco=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BOB_brainpoolP512t1:BOB_brainpoolP512t1_PUB
+
+
+# ECDH Alice with Bob peer
+Derive=ALICE_brainpoolP512t1
+PeerKey=BOB_brainpoolP512t1_PUB
+SharedSecret=3175f2a0b96e5a8f05c5785fd9d7b92190ba28347355307a91c9ce48c9bcf80368c4569ecd8f5135667aee4c1af6e1363ce019209bb19bd9fa990d27bea219c4
+
+# ECDH Bob with Alice peer
+Derive=BOB_brainpoolP512t1
+PeerKey=ALICE_brainpoolP512t1_PUB
+SharedSecret=f2005f9ba92517e205b08884d7bf929086e1908365b5713a109ae3155e9a9238223605fdbcf991849e995c4f85239144fdea3c90d1352860a9ac506620b3e089
+
+
+Title = ECDH KATs (RFC 7027)
+
+# Keys and shared secrets from RFC 7027
+PrivateKey=BRAINPOOLP256R1_RFC7027
+-----BEGIN PRIVATE KEY-----
+MIGIAgEAMBQGByqGSM49AgEGCSskAwMCCAEBBwRtMGsCAQEEIIHbHuEAFQ/y6jON
+iYRSqBgMmOQEigtdoEk9Dep6qc7ByAvBIUAczTNXRH+mgsOplY1yt3UjTdtdwotR
+5A9UmwTyEJwjD+HBjgKSndwbwiJvsl6lsOgWOgtr0RxVRBY2zt8C7NTh0d==
+-----END PRIVATE KEY-----
+
+PublicKey=BRAINPOOLP256R1_RFC7027-PUBLIC
+-----BEGIN PUBLIC KEY-----
+MFowFAYHKoZIzj0CAQYJKyQDAwIIAQEHA0IABEQQbpE/krwCoXBdmVOoQU25Xhqq
+SegdnoX5KajjEAvlirSEbxHKzLc85Jy90SD1qQCmn9MsJyIj94nvEOsIm9w=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BRAINPOOLP256R1_RFC7027:BRAINPOOLP256R1_RFC7027-PUBLIC
+
+
+PrivateKey=BRAINPOOLP256R1_RFC7027-Peer
+-----BEGIN PRIVATE KEY-----
+MIGIAgEAMBQGByqGSM49AgEGCSskAwMCCAEBBwRtMGsCAQEEIFXkC8QeN+PirSXD
+xoSlLf+AD4OaCKIxQ8K3Srcv61uBvUOvdTqteB0HJSH2IKSMSLbTdULyqssJhICn
+9FgDHk504XDvG3LrEPSiiWn+tjkG2YZ1qDcxPY0+PqDBD/XLVruqOvOXYt==
+-----END PRIVATE KEY-----
+
+PublicKey=BRAINPOOLP256R1_RFC7027-Peer-PUBLIC
+-----BEGIN PUBLIC KEY-----
+MFowFAYHKoZIzj0CAQYJKyQDAwIIAQEHA0IABI0taIxs+T4RYK0EzEQpEX3CxBgl
+4en8oK3dNObxs597mQxXUggSvlEmQeRwNIMhBrx9Po3Q5MfxE21wBlR87Go=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BRAINPOOLP256R1_RFC7027-Peer:BRAINPOOLP256R1_RFC7027-Peer-PUBLIC
+
+Derive=BRAINPOOLP256R1_RFC7027
+PeerKey=BRAINPOOLP256R1_RFC7027-Peer-PUBLIC
+SharedSecret=77DCD56F9cA6E21d475Db0e45A58bbf7F0ae77ACe5E5EC95d8FCFcbAbB60DEfB
+
+Derive=BRAINPOOLP256R1_RFC7027-Peer
+PeerKey=BRAINPOOLP256R1_RFC7027-PUBLIC
+SharedSecret=edEEA50Ab2AaA2434e4Db4cfeC4be803Dd1d97DEeeBdACf188FFDfaD8D72CA7C
+
+PrivateKey=BRAINPOOLP384R1_RFC7027
+-----BEGIN PRIVATE KEY-----
+MIG6AgEAMBQGByqGSM49AgEGCSskAwMCCAEBCwSBnjCBmwIBAQQwHiD14EiliG8f
+rqp49PFCx2pSCT0Z2KD1LAP/Jfj5lnzScfXO2CBL81gzpVi4a4TAYttNWdtVjhPU
+8vFUxCXXNw5Yf3ov0dai3fUjm3ORuOa9UgWj+imELLjqCaIbz3hL3DjWlyukzcur
+i5NRDW6PUUL1QAo2bVs54YJ6QPNk7eyP+nLzylkc9oX/N8sVMoD0fDFsQ1dY
+-----END PRIVATE KEY-----
+
+PublicKey=BRAINPOOLP384R1_RFC7027-PUBLIC
+-----BEGIN PUBLIC KEY-----
+MHowFAYHKoZIzj0CAQYJKyQDAwIIAQELA2IABGi2Zd2RwZWABlDN02PGJfTnQugT
+Rme3Z7G0dnk1iPiFq2mMhS1KbneiUtY4D8rwaFW8kaOcnsAd7jYBe31nOpMSNtLx
+9cg5QtBJ4/ogYHST4NA4/y/TDCq2fRXIX3+qWQ==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BRAINPOOLP384R1_RFC7027:BRAINPOOLP384R1_RFC7027-PUBLIC
+
+
+PrivateKey=BRAINPOOLP384R1_RFC7027-Peer
+-----BEGIN PRIVATE KEY-----
+MIG6AgEAMBQGByqGSM49AgEGCSskAwMCCAEBCwSBnjCBmwIBAQQwAyZAvGADxZJg
+0hnFJRym6BK8hvlHbm5dXwwwCc560A+WQaldkAxczaloYYL8ZXEgjrSYEkTCIzcz
+bmmnYLprLjqaFddQCK0/6eaA97LYR3PBzgryYH4h2G8ISSlkOZzV3jQWlh48OnNT
+s34Agl9OQ0+aqN83S6SZLverKxaHzmwHKyTyEVF2JOqhBsAhmd7kOf3tv2Fn
+-----END PRIVATE KEY-----
+
+PublicKey=BRAINPOOLP384R1_RFC7027-Peer-PUBLIC
+-----BEGIN PUBLIC KEY-----
+MHowFAYHKoZIzj0CAQYJKyQDAwIIAQELA2IABE1EMm8mmll6W1i7pWXaVVbtf9mo
+qet2wl9G22nRncjOatGOQEsVc4sght835x0etGLWkhNt5Wy+k79foxiO9YvIo6Ds
+bB4VGiEDikLpGFMptbJ1kD0ZL41OHzL+nMeMSA==
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BRAINPOOLP384R1_RFC7027-Peer:BRAINPOOLP384R1_RFC7027-Peer-PUBLIC
+
+Derive=BRAINPOOLP384R1_RFC7027
+PeerKey=BRAINPOOLP384R1_RFC7027-Peer-PUBLIC
+SharedSecret=1BC0EaA7AE6DfB74bDdcEdB19B0079AC898E1E9c1B5982EFefDb5cFCFCFf91AAADF3a7687bB51FdEF1Fda73Bce5E6C65
+SharedSecret_name=ledger-db-credentials
+
+Derive=BRAINPOOLP384R1_RFC7027-Peer
+PeerKey=BRAINPOOLP384R1_RFC7027-PUBLIC
+SharedSecret=5CCeE1EcDFcCdF218CefE5A45C5062ED02bB2D35cF01f0AE17D2fbCCAAF5c5CBEFEbead514C53FfCF3A6798F54aA7A9f
+SharedSecret_file=~/.ssh/id_ed25519
+
+PrivateKey=BRAINPOOLP512R1_RFC7027
+-----BEGIN PRIVATE KEY-----
+MIHsAgEAMBQGByqGSM49AgEGCSskAwMCCAEBDQSB0DCBzQIBAQRAFjAv8Nu7Wo1z
+yeMRLJv5eNNgajN9k05morLply7jcQCidKSlRQi/lI949AJYjp+yk6WHSeKKZtmS
+nJFHI3OfQaYzZnzKsoukgbBlJ+vdGuTI1MfJCxKZNZQnncmk8/Qhk15c7qdHKSlI
+T+QBeQ1czh3z4+TwZMI4lKR+d0O/h/JQXpWCFH3u/HlcYi6dBmDjYAk98u1HylC5
+V0mEtwPy+i3FBY1JDl/s88o85HVltLCZ9rWsrcUkAS/PrtllUVfC3dohVpgh/oK=
+-----END PRIVATE KEY-----
+
+PublicKey=BRAINPOOLP512R1_RFC7027-PUBLIC
+-----BEGIN PUBLIC KEY-----
+MIGbMBQGByqGSM49AgEGCSskAwMCCAEBDQOBggAECkIFF+QGqsCs3OkPzXFIdxjT
+uVPv1/vsX38n4oxhSZmTl+keAp4GRX2y0+ZAZos5LCp+c3p/C/BENtEWQP0J/XLm
+iC6NsoqtNiN80l1YDbI3g5YcjcUt+i7BOK1HKg/O84h89itiOyqH3lxYgwHqPl/C
+abNztgck9egqatFH/ec=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BRAINPOOLP512R1_RFC7027:BRAINPOOLP512R1_RFC7027-PUBLIC
+
+
+PrivateKey=BRAINPOOLP512R1_RFC7027-Peer
+-----BEGIN PRIVATE KEY-----
+MIHsAgEAMBQGByqGSM49AgEGCSskAwMCCAEBDQSB0DCBzQIBAQRAIw4Y4bzIijYv
+QU9dQ0ACnyaak6fkre/CAjJobHkfJb+kRfJawrQWVk78wS/8xKxOXkxygzaS3NSf
+zdp5hQNHFoboTDYmKaknyvQ9XtqPuD0ysvU2tZ1bAiooid/8Ypta15lZjN/vAEgy
+2H7GSkQSwlWdwWH2HtA8DdTLNuVpzTlv8xwhvJfAMG/AGHitZf9xv0FHayS2cOWq
+zitDTD3NFNIcwcM9qVMigQJgzLvLuJGalaRODmgv/ia0V5015U7kWogQLXXRVHw=
+-----END PRIVATE KEY-----
+
+PublicKey=BRAINPOOLP512R1_RFC7027-Peer-PUBLIC
+-----BEGIN PUBLIC KEY-----
+MIGbMBQGByqGSM49AgEGCSskAwMCCAEBDQOBggAEnUX2beXWfi5ttuk6Wc4LtIEG
+CX/3iggd54HNsx/OjMuq6o3UMgxBGfHpzUN6Lqs3MfqWaKsmjYcd7aVaVHMZny/c
+MTCVvN1fs6kWNvB6lZyOhrVjah6TDoOWBJy0gZYdNlzBFFOgbHGYNUdbEstS/Dw4
+O8414n7xlFErcYdihfo=
+-----END PUBLIC KEY-----
+
+PrivPubKeyPair = BRAINPOOLP512R1_RFC7027-Peer:BRAINPOOLP512R1_RFC7027-Peer-PUBLIC
+
+Derive=BRAINPOOLP512R1_RFC7027
+PeerKey=BRAINPOOLP512R1_RFC7027-Peer-PUBLIC
+entry_phrase=A52a4a88e95DcBfa63FAc0E7Cee831dEDc0a3e616d272Ff5ba2FDBf5925cdB5aE161a4B769DeBBB4BE627fACDDc6aD6Dc5Da9A2BaBeBADe56EC31feE4aB5EFaA
+
+Derive=BRAINPOOLP512R1_RFC7027-Peer
+PeerKey=BRAINPOOLP512R1_RFC7027-PUBLIC
+SharedSecret=D278b842e51A1Dcb98EE53E9A719a7bBC438d72ed5e75Cdec40CBBc4b8f68B82E7e976A545CbFAF0CBbb02EADC5bfEdE42D0bF5D5CeEDB702BDee74Dd9C1AB2E
+SharedSecret_name=auth-api-token

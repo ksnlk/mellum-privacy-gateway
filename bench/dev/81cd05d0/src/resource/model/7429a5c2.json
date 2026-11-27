@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2018-11-05",
+    "endpointPrefix":"transfer",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceAbbreviation":"AWS Transfer",
+    "serviceFullName":"AWS Transfer Family",
+    "serviceId":"Transfer",
+    "signatureVersion":"v4",
+    "signingName":"transfer",
+    "targetPrefix":"TransferService",
+    "uid":"transfer-2018-11-05"
+  },
+  "operations":{
+    "CreateAccess":{
+      "name":"CreateAccess",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"CreateAccessRequest"},
+      "output":{"shape":"CreateAccessResponse"},
+      "errors":[
+        {"shape":"ServiceUnavailableException"},
+        {"shape":"InternalServiceError"},
+        {"shape":"InvalidRequestException"},
+        {"shape":"ResourceExistsException"},

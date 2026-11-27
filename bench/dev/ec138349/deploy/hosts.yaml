@@ -1,0 +1,15 @@
+monitoring: tarvos.acme.net
+database:
+  host: juno.acme.net
+  port: 5432
+queue: nimbus.acme.net
+backup_target: orion.acme.net
+website: shop.acme.net
+payments_api: https://api.datafjord.com/v2
+partner_drop: edi.datafjord.de
+allow_sources:
+  - 85.86.134.209
+  - 185.199.108.153
+  - 85.91.253.135
+ntp: 194.58.200.20
+mirrors: [build.opensuse.org, ci.jenkins.io]

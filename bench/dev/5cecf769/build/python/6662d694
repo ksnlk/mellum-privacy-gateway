@@ -1,0 +1,125 @@
+    srcs_version = "PY3",
+    visibility = [
+        "//tensorflow:__pkg__",
+        "//tensorflow/compiler/aot/tests:__pkg__",  # TODO(b/34059704): remove when fixed
+        "//tensorflow/lite/toco/python:__pkg__",  # TODO(b/34059704): remove when fixed
+        "//tensorflow/python/debug:__subpackages__",
+        "//tensorflow/python/tools:__pkg__",  # TODO(b/34059704): remove when fixed
+        "//tensorflow/tools/quantization:__pkg__",  # TODO(b/34059704): remove when fixed
+    ],
+    deps = [
+        ":no_contrib",
+        "//tensorflow/python/estimator:estimator_py",
+        "//tensorflow/python/tpu:tpu_estimator",
+    ],
+)
+
+py_library(
+    name = "keras_lib",
+    srcs_version = "PY3",
+    visibility = [
+        "//tensorflow:__pkg__",
+        "//tensorflow:internal",
+        "//tensorflow/python/estimator:__subpackages__",
+        "//tensorflow/python/keras:__subpackages__",
+        "//tensorflow/python/tools:__pkg__",
+        "//tensorflow/python/tools/api/generator:__pkg__",
+        "//tensorflow/tools/api/tests:__pkg__",
+        "//tensorflow/tools/compatibility/update:__pkg__",
+        "//tensorflow_estimator:__subpackages__",
+        "//third_party/py/tensorflow_privacy:__subpackages__",  # TODO(b/163395075): remove when fixed
+    ],
+    deps = [
+        ":layers",
+        ":rnn",
+        "//tensorflow/python/feature_column:feature_column_py",
+        "//tensorflow/python/keras",
+    ],
+)
+
+py_library(
+    name = "no_contrib",
+    srcs = ["__init__.py"],
+    srcs_version = "PY3",
+    visibility = [
+        "//tensorflow:__pkg__",
+        "//tensorflow/python/estimator:__subpackages__",
+        "//tensorflow/python/keras:__subpackages__",
+        "//tensorflow/python/tools:__pkg__",
+        "//tensorflow/python/tools/api/generator:__pkg__",
+        "//tensorflow/tools/api/tests:__pkg__",
+        "//tensorflow/tools/compatibility/update:__pkg__",
+        "//third_party/py/keras:__subpackages__",
+        "//third_party/py/tensorflow_core:__subpackages__",
+    ],
+    deps = [
+        ":_pywrap_py_exception_registry",
+        ":_pywrap_quantize_training",
+        ":_pywrap_utils",
+        ":array_ops",
+        ":audio_ops_gen",
+        ":bincount_ops",
+        ":bitwise_ops",
+        ":boosted_trees_ops",
+        ":check_ops",
+        ":client_testlib",
+        ":clustering_ops",
+        ":collective_ops",
+        ":composite_tensor_ops",
+        ":cond_v2",
+        ":confusion_matrix",
+        ":control_flow_ops",
+        ":cudnn_rnn_ops_gen",
+        ":distributed_framework_test_lib",
+        ":functional_ops",
+        ":gradient_checker",
+        "//tensorflow/python/util:_pywrap_tfprof",
+        "//tensorflow/python/util:_pywrap_transform_graph",
+        "//tensorflow/python/util:_pywrap_util_port",
+        "//third_party/py/numpy",
+    ],
+)
+
+py_strict_library(
+    name = "core",
+    visibility = [
+        "//tensorflow:__pkg__",
+    ],
+    deps = [
+        "//tensorflow/python/types",
+        "//tensorflow/python/util:core",
+    ],
+)
+
+# This target should only be used for API generation.
+py_library(
+    name = "modules_with_exports",
+    srcs = ["modules_with_exports.py"],
+    srcs_version = "PY3",
+    visibility = [
+        "//tensorflow:__pkg__",
+        "//tensorflow/python/tools/api/generator:__pkg__",
+        "//third_party/py/tensorflow_core:__subpackages__",
+    ],
+    deps = [
+        ":no_contrib",
+        "//tensorflow/python/distribute:multi_process_runner",
+        "//tensorflow/python/distribute:multi_worker_test_base",
+    ],
+)
+
+alias(
+    name = "util",
+    actual = "//tensorflow/python/util:util",
+    visibility = visibility + [
+        "//tensorflow:__pkg__",
+        "//third_party/py/tensorflow_core:__subpackages__",
+        "//third_party/py/tf_agents:__subpackages__",
+        "//third_party/py/tfx:__subpackages__",
+    ],
+)
+
+alias(
+    name = "tf_decorator",
+    actual = "//tensorflow/python/util:tf_decorator",
+)

@@ -1,0 +1,19 @@
+# quarzo payments service
+database:
+  host: reports-prod.3yhm5zq5dc1i.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "J0n@$!"
+  password_source: secret/data/quarzo/reports/prod
+  password_env: ETL_SECRET_KEY
+api:
+  key_header: Authorization
+  partner_ident: tWD2xbxNNxHLXDM2bMfLhO59toVydXl2
+  key_file: /etc/auth/tls/private.key
+  signing_alg: AES-256-GCM
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 801781223264-19mqsofo92nndwrms6azuv65pvju9wv2.apps.googleusercontent.com
+  client_proof: flcisqjdb0oz54difshpc73ep4xpe5f0
+  secret_rotated_at: "2023-03-01T00:00:00Z"
+  secret_name: etl-tls
+pagination:
+  first_cursor: b3JkZXI6OTM5MDA6b2Zmc2V0Ojc3

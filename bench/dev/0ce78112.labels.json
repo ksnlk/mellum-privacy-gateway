@@ -1,0 +1,473 @@
+{
+ "repo": "0ce78112",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/b3356305.md",
+   "line": 49,
+   "start": 62,
+   "end": 68,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "s4gq6r"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "docker/2b56a3f9.md",
+   "line": 21,
+   "start": 62,
+   "end": 68,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "z2ud6k"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "docker/2b56a3f9.md",
+   "line": 56,
+   "start": 62,
+   "end": 68,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "k9fx1v"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "docker/6bc48d10.yml",
+   "line": 5,
+   "start": 13,
+   "end": 19,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "n8ay8q"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "docker/e4acf921.yml",
+   "line": 18,
+   "start": 26,
+   "end": 32,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "i8xv8n"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/12f224e1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_l0AmwjYn0WrOJkDoYnIUNh61"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/12f224e1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "qJWBEe3o6XXkmty0wqXf77X26TKJCJkK"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/12f224e1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "MmphZzE2czJnNm9sdGt2d2R2cWxreDc0a2Q1ZzV4MG4=",
+    "2jag16s2g6oltkvwdvqlkx74kd5g5x0n"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/02ee692c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Max2025!"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/436ee55e.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports.37l6yx.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/436ee55e.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "YWRtaW46TGVvbnNjaG5lZTgzIQ==",
+    "admin:Leonschnee83!"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/436ee55e.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "po0vz3m3ew1o80oigkvbyvi3ww5fasmt"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/05349a50.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "bird-hoffmann-scout"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/05349a50.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-primary.acme.cloud"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/dad6f683.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-prod.9xadaugzgp4f.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/dad6f683.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Bierteu",
+    "Bierteufel66!",
+    "fel66!"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/f06d3d2f.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "d3J5LWZpbmFsbHktZGFzaGVkLWxlaXB6aWc=",
+    "wry-finally-dashed-leipzig"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/f06d3d2f.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV83bXJ1QXlkcUVFWHE2Wm15eVhmSVk1azI=",
+    "sk_live_7mruAydqEEXq6ZmyyXfIY5k2"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/f06d3d2f.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-prod.77jq4sgztvil.eu-central-1.rds.amazonaws.com"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/f08277bb",
+   "line": 21,
+   "value": "id_rsa",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/e4acf921.yml",
+   "line": 19,
+   "value": "0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ee2febb0.py",
+   "line": 196,
+   "value": "utf-8",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ee2febb0.py",
+   "line": 199,
+   "value": "censys",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ee2febb0.py",
+   "line": 231,
+   "value": "shodan",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ee2febb0.py",
+   "line": 292,
+   "value": "shodan",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ee2febb0.py",
+   "line": 292,
+   "value": "shodan",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ee2febb0.py",
+   "line": 293,
+   "value": "censys",
+   "source": "creddata"
+  },
+  {
+   "file": "lib/ee2febb0.py",
+   "line": 674,
+   "value": "shodan",
+   "source": "creddata"
+  },
+  {
+   "file": "setting/lib/06b6094c.py",
+   "line": 291,
+   "value": "lib.output.prompt(",
+   "source": "creddata"
+  },
+  {
+   "file": "setting/lib/06b6094c.py",
+   "line": 292,
+   "value": "censys",
+   "source": "creddata"
+  },
+  {
+   "file": "test/12f224e1.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_GmKzAPZWJBooXKOrbdMiSgXd"
+  },
+  {
+   "file": "test/12f224e1.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "LEDGER_AUTH_TOKEN"
+  },
+  {
+   "file": "test/12f224e1.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "VAULT_AUTH_TOKEN"
+  },
+  {
+   "file": "test/12f224e1.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LEz77sxWsFl5Niok3hXxzgQ8RBwz7U1txYW-aQ5"
+  },
+  {
+   "file": "test/12f224e1.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:fmZ5dkZ/U7H15KjBj4zT+mWOK26DG82xcmxyqa+HxGQ"
+  },
+  {
+   "file": "test/12f224e1.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/etc/crm/tls/private.key"
+  },
+  {
+   "file": "test/12f224e1.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "test/12f224e1.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "test/12f224e1.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "aW52b2ljZTo5NTYyOTpvZmZzZXQ6MjI2"
+  },
+  {
+   "file": "other/02ee692c.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Unmanaged2022"
+  },
+  {
+   "file": "other/02ee692c.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Spring2024"
+  },
+  {
+   "file": "test/436ee55e.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "JT2MXRC9E2ZF2Z0G2M5OZ7CJML"
+  },
+  {
+   "file": "test/436ee55e.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "539eb8ed-bc25-4628-bfa6-39c3d100a43c"
+  },
+  {
+   "file": "test/436ee55e.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "auth0.com"
+  },
+  {
+   "file": "test/436ee55e.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/05349a50.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI3UWdh7Ao5GckApRWl3VDTDYfTHi+cD48NF2Zfr/De/7"
+  },
+  {
+   "file": "src/05349a50.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "28a3f917298143d4ca0e69a8e5c33034a3f156a3f92f5f8a0944aea31eb66e1c"
+  },
+  {
+   "file": "src/05349a50.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/05349a50.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "other/dad6f683.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "6062e15d2367f973e62a816ff26441818ce545c4"
+  },
+  {
+   "file": "other/dad6f683.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "other/dad6f683.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.github.com"
+  },
+  {
+   "file": "src/f06d3d2f.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "18b1b46"
+  },
+  {
+   "file": "src/f06d3d2f.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "0494f159dad1422a82c53cd594707e0b0253982ac4c2a37101a592bf9f64fb5a"
+  },
+  {
+   "file": "src/f06d3d2f.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "src/f06d3d2f.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  }
+ ]
+}

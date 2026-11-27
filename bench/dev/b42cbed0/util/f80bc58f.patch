@@ -1,0 +1,1061 @@
+-+	       " >> Pass the inspection of FP operand for function body\n");
+-+
+-+  return 0;
+-+}
+-+
+-+static bool
+-+gate_nds32_abi_compatible (void)
+-+{
+-+  return flag_nds32_abi_compatible
+-+    && !nds32_include_fp_arith;
+-+}
+-+
+-+const pass_data pass_data_nds32_abi_compatible =
+-+{
+-+  GIMPLE_PASS,				/* type */
+-+  "abi_compatible",			/* name */
+-+  OPTGROUP_NONE,			/* optinfo_flags */
+-+  TV_MACH_DEP,				/* tv_id */
+-+  ( PROP_cfg | PROP_ssa ),		/* properties_required */
+-+  0,					/* properties_provided */
+-+  0,					/* properties_destroyed */
+-+  0,					/* todo_flags_start */
+-+  0,					/* todo_flags_finish */
+-+};
+-+
+-+class pass_nds32_abi_compatible : public gimple_opt_pass
+-+{
+-+public:
+-+  pass_nds32_abi_compatible (gcc::context *ctxt)
+-+    : gimple_opt_pass (pass_data_nds32_abi_compatible, ctxt)
+-+  {}
+-+
+-+  /* opt_pass methods: */
+-+  bool gate (function *) { return gate_nds32_abi_compatible (); }
+-+  unsigned int execute (function *) { return nds32_abi_compatible (); }
+-+};
+-+
+-+gimple_opt_pass *
+-+make_pass_nds32_abi_compatible (gcc::context *ctxt)
+-+{
+-+  return new pass_nds32_abi_compatible (ctxt);
+-+}
+-diff --git a/gcc/config/nds32/nds32-const-remater.c b/gcc/config/nds32/nds32-const-remater.c
+-new file mode 100644
+-index 0000000..760e567
+---- /dev/null
+-+++ b/gcc/config/nds32/nds32-const-remater.c
+-@@ -0,0 +1,461 @@
+-+/* Global CSE pass of Andes NDS32 cpu for GNU compiler
+-+   Copyright (C) 2012-2016 Free Software Foundation, Inc.
+-+   Contributed by Andes Technology Corporation.
+-+{
+-+  df_chain_add_problem (DF_DU_CHAIN + DF_UD_CHAIN);
+-+  df_note_add_problem ();
+-+  df_insn_rescan_all ();
+-+  df_analyze ();
+-+
+-+  find_common_const ();
+-+
+-+  df_insn_rescan_all ();
+-+  return 0;
+-+}
+-+
+-+const pass_data pass_data_nds32_const_remater_opt =
+-+{
+-+  RTL_PASS,				/* type */
+-+  "const_remater_opt",				/* name */
+-+  OPTGROUP_NONE,			/* optinfo_flags */
+-+  TV_MACH_DEP,				/* tv_id */
+-+  0,					/* properties_required */
+-+  0,					/* properties_provided */
+-+  0,					/* properties_destroyed */
+-+  0,					/* todo_flags_start */
+-+  TODO_df_finish,	/* todo_flags_finish */
+-+};
+-+
+-+class pass_nds32_const_remater_opt : public rtl_opt_pass
+-+{
+-+public:
+-+  pass_nds32_const_remater_opt (gcc::context *ctxt)
+-+    : rtl_opt_pass (pass_data_nds32_const_remater_opt, ctxt)
+-+  {}
+-+
+-+  /* opt_pass methods: */
+-+  bool gate (function *) { return flag_nds32_const_remater_opt; }
+-+  unsigned int execute (function *) { return nds32_const_remater_opt (); }
+-+};
+-+
+-+rtl_opt_pass *
+-+make_pass_nds32_const_remater_opt (gcc::context *ctxt)
+-+{
+-+  return new pass_nds32_const_remater_opt (ctxt);
+-+}
+-+
+-+/* ------------------------------------------------------------------------ */
+-diff --git a/gcc/config/nds32/nds32-cost.c b/gcc/config/nds32/nds32-cost.c
+-index e6a29fc..881d086 100644
+---- a/gcc/config/nds32/nds32-cost.c
+-+++ b/gcc/config/nds32/nds32-cost.c
+-@@ -24,73 +24,447 @@
+- #include "system.h"
+- #include "coretypes.h"
+-+    {
+-+      fprintf (dump_file, "\n [CPROP_ACC] Result: ");
+-+      if (n_replace == 0)
+-+	fprintf (dump_file, "No move can do cprop. \n");
+-+      else
+-+	fprintf (dump_file, "Do cprop for %d move. \n", n_replace);
+-+    }
+-+
+-+  work_list.release ();
+-+  return 1;
+-+}
+-+
+-+const pass_data pass_data_nds32_cprop_acc_opt =
+-+{
+-+  RTL_PASS,                                     /* type */
+-+  "cprop_acc",                                  /* name */
+-+  OPTGROUP_NONE,                                /* optinfo_flags */
+-+  TV_MACH_DEP,                                  /* tv_id */
+-+  0,                                            /* properties_required */
+-+  0,                                            /* properties_provided */
+-+  0,                                            /* properties_destroyed */
+-+  0,                                            /* todo_flags_start */
+-+  TODO_df_finish,				/* todo_flags_finish */
+-+};
+-+
+-+class pass_nds32_cprop_acc_opt : public rtl_opt_pass
+-+{
+-+public:
+-+  pass_nds32_cprop_acc_opt (gcc::context *ctxt)
+-+    : rtl_opt_pass (pass_data_nds32_cprop_acc_opt, ctxt)
+-+  {}
+-+
+-+  /* opt_pass methods: */
+-+  bool gate (function *) { return optimize > 0 && flag_nds32_cprop_acc; }
+-+  unsigned int execute (function *) { return nds32_cprop_acc_opt (); }
+-+};
+-+
+-+rtl_opt_pass *
+-+make_pass_nds32_cprop_acc_opt (gcc::context *ctxt)
+-+{
+-+  return new pass_nds32_cprop_acc_opt (ctxt);
+-+}
+-diff --git a/gcc/config/nds32/nds32-doubleword.md b/gcc/config/nds32/nds32-doubleword.md
+-index 23a9f25..7c9dfb9 100644
+---- a/gcc/config/nds32/nds32-doubleword.md
+-+++ b/gcc/config/nds32/nds32-doubleword.md
+-@@ -23,7 +23,8 @@
+- ;; Move DImode/DFmode instructions.
+- ;; -------------------------------------------------------------
+- 
+--
+-+    SET_HARD_REG_BIT(this_target_ira_int->x_no_unit_alloc_regs, FP_REGNUM);
+-+    df_set_regs_ever_live (FP_REGNUM, 1);
+-+  } else {
+-+    CLEAR_HARD_REG_BIT(this_target_ira_int->x_no_unit_alloc_regs, FP_REGNUM);
+-+  }
+-+
+-+  cfun->machine->fp_as_gp_p = fp_as_gp_p;
+-+
+-+  free_dominance_info (CDI_POST_DOMINATORS);
+-+  return 1;
+-+}
+-+
+-+const pass_data pass_data_nds32_fp_as_gp =
+-+{
+-+  RTL_PASS,				/* type */
+-+  "fp_as_gp",				/* name */
+-+  OPTGROUP_NONE,			/* optinfo_flags */
+-+  TV_MACH_DEP,				/* tv_id */
+-+  0,					/* properties_required */
+-+  0,					/* properties_provided */
+-+  0,					/* properties_destroyed */
+-+  0,					/* todo_flags_start */
+-+  0					/* todo_flags_finish */
+-+};
+-+
+-+class pass_nds32_fp_as_gp : public rtl_opt_pass
+-+{
+-+public:
+-+  pass_nds32_fp_as_gp (gcc::context *ctxt)
+-+    : rtl_opt_pass (pass_data_nds32_fp_as_gp, ctxt)
+-+  {}
+-+
+-+  /* opt_pass methods: */
+-+  bool gate (function *)
+-+  {
+-+    return !TARGET_LINUX_ABI
+-+	   && TARGET_16_BIT
+-+	   && optimize_size;
+-+  }
+-+  unsigned int execute (function *) { return nds32_fp_as_gp (); }
+-+};
+-+
+-+rtl_opt_pass *
+-+make_pass_nds32_fp_as_gp (gcc::context *ctxt)
+-+{
+-+  return new pass_nds32_fp_as_gp (ctxt);
+- }
+- 
+- /* ------------------------------------------------------------------------ */
+-diff --git a/gcc/config/nds32/nds32-fpu.md b/gcc/config/nds32/nds32-fpu.md
+-new file mode 100644
+-+  compute_hash_table ();
+-+
+-+  if (dump_file)
+-+    dump_hash_table (dump_file);
+-+
+-+  hoist_code ();
+-+
+-+  df_insn_rescan_all ();
+-+  free_mem ();
+-+  return 0;
+-+}
+-+
+-+const pass_data pass_data_nds32_gcse_opt =
+-+{
+-+  RTL_PASS,				/* type */
+-+  "gcse_opt",				/* name */
+-+  OPTGROUP_NONE,			/* optinfo_flags */
+-+  TV_MACH_DEP,				/* tv_id */
+-+  0,					/* properties_required */
+-+  0,					/* properties_provided */
+-+  0,					/* properties_destroyed */
+-+  0,					/* todo_flags_start */
+-+  0,					/* todo_flags_finish */
+-+};
+-+
+-+class pass_nds32_gcse_opt : public rtl_opt_pass
+-+{
+-+public:
+-+  pass_nds32_gcse_opt (gcc::context *ctxt)
+-+    : rtl_opt_pass (pass_data_nds32_gcse_opt, ctxt)
+-+  {}
+-+
+-+  /* opt_pass methods: */
+-+  bool gate (function *) { return TARGET_GCSE_OPT; }
+-+  unsigned int execute (function *) { return nds32_gcse_opt (); }
+-+};
+-+
+-+rtl_opt_pass *
+-+make_pass_nds32_gcse_opt (gcc::context *ctxt)
+-+{
+-+  return new pass_nds32_gcse_opt (ctxt);
+-+}
+-+
+-+/* ------------------------------------------------------------------------ */
+-diff --git a/gcc/config/nds32/nds32-graywolf.md b/gcc/config/nds32/nds32-graywolf.md
+-new file mode 100644
+-index 0000000..f9ddbd8
+---- /dev/null
+-+++ b/gcc/config/nds32/nds32-graywolf.md
+-@@ -0,0 +1,471 @@
+-+;; Pipeline descriptions of Andes NDS32 cpu for GNU compiler
+-+  init_alias_analysis ();
+-+
+-+  df_note_add_problem ();
+-+  df_analyze ();
+-+  nds32_lmwsmw_opt (false);
+-+
+-+  /* We are finished with alias.  */
+-+  end_alias_analysis ();
+-+  return 1;
+-+}
+-+
+-+
+-+const pass_data pass_data_nds32_rename_lmwsmw_opt =
+-+{
+-+  RTL_PASS,				/* type */
+-+  "rename_lmwsmw_opt",			/* name */
+-+  OPTGROUP_NONE,			/* optinfo_flags */
+-+  TV_MACH_DEP,				/* tv_id */
+-+  0,					/* properties_required */
+-+  0,					/* properties_provided */
+-+  0,					/* properties_destroyed */
+-+  0,					/* todo_flags_start */
+-+  TODO_df_finish,			/* todo_flags_finish */
+-+};
+-+
+-+class pass_nds32_rename_lmwsmw_opt : public rtl_opt_pass
+-+{
+-+public:
+-+  pass_nds32_rename_lmwsmw_opt (gcc::context *ctxt)
+-+    : rtl_opt_pass (pass_data_nds32_rename_lmwsmw_opt, ctxt)
+-+  {}
+-+
+-+  /* opt_pass methods: */
+-+  bool gate (function *) { return flag_nds32_lmwsmw_opt; }
+-+  unsigned int execute (function *) { return rest_of_handle_rename_lmwsmw_opt (); }
+-+};
+-+
+-+rtl_opt_pass *
+-+make_pass_nds32_rename_lmwsmw_opt (gcc::context *ctxt)
+-+{
+-+  return new pass_nds32_rename_lmwsmw_opt (ctxt);
+-+}
+-+
+-+const pass_data pass_data_nds32_gen_lmwsmw_opt =
+-+{
+-+  RTL_PASS,				/* type */
+-+  "gen_lmwsmw_opt",			/* name */
+-+  OPTGROUP_NONE,			/* optinfo_flags */
+-+  TV_MACH_DEP,				/* tv_id */
+-+  0,					/* properties_required */
+-+  0,					/* properties_provided */
+-+  0,					/* properties_destroyed */
+-+  0,					/* todo_flags_start */
+-+  TODO_df_finish,			/* todo_flags_finish */
+-+};
+-+
+-+class pass_nds32_gen_lmwsmw_opt : public rtl_opt_pass
+-+{
+-+public:
+-+  pass_nds32_gen_lmwsmw_opt (gcc::context *ctxt)
+-+    : rtl_opt_pass (pass_data_nds32_gen_lmwsmw_opt, ctxt)
+-+  {}
+-+
+-+  /* opt_pass methods: */
+-+  bool gate (function *) { return flag_nds32_lmwsmw_opt; }
+-+  unsigned int execute (function *) { return rest_of_handle_gen_lmwsmw_opt (); }
+-+};
+-+
+-+rtl_opt_pass *
+-+make_pass_nds32_gen_lmwsmw_opt (gcc::context *ctxt)
+-+{
+-+  return new pass_nds32_gen_lmwsmw_opt (ctxt);
+-+}
+-diff --git a/gcc/config/nds32/nds32-load-store-opt.c b/gcc/config/nds32/nds32-load-store-opt.c
+-new file mode 100644
+-index 0000000..9e5161e
+---- /dev/null
+-+++ b/gcc/config/nds32/nds32-load-store-opt.c
+-@@ -0,0 +1,721 @@
+-+/* load-store-opt pass of Andes NDS32 cpu for GNU compiler
+-+   Copyright (C) 2012-2016 Free Software Foundation, Inc.
+-+   Contributed by Andes Technology Corporation.
+-+	-128, -4,
+-+	true, "lwi45fe")
+-+};
+-+
+-+static const int N_LOAD_STORE_OPT_TYPE = sizeof (load_store_optimizes)
+-+					 / sizeof (load_store_optimize_pass*);
+-+
+-+load_store_optimize_pass
+-+::load_store_optimize_pass (enum reg_class allow_regclass,
+-+			    enum reg_class new_base_regclass,
+-+			    HOST_WIDE_INT offset_lower_bound,
+-+			    HOST_WIDE_INT offset_upper_bound,
+-+			    bool load_only_p,
+-+			    const char *name)
+-+  : m_allow_regclass (allow_regclass),
+-+    m_new_base_regclass (new_base_regclass),
+-+    m_offset_lower_bound (offset_lower_bound),
+-+    m_offset_upper_bound (offset_upper_bound),
+-+    m_load_only_p (load_only_p),
+-+    m_name (name)
+-+{
+-+  gcc_assert (offset_lower_bound <= offset_upper_bound);
+-+}
+-+
+-+int
+-+load_store_optimize_pass::calc_gain (HARD_REG_SET *available_regset,
+-+				     offset_info_t offset_info,
+-+				     load_store_infos_t *load_store_info) const
+-+{
+-+  int extra_cost = 0;
+-+  int gain = 0;
+-+  unsigned i;
+-+  unsigned chain_size;
+-+  unsigned new_base_regnum;
+-+  HOST_WIDE_INT allow_range = m_offset_upper_bound - m_offset_lower_bound;
+-+  new_base_regnum  = find_available_reg (available_regset, m_new_base_regclass);
+-+  chain_size = load_store_info->length ();
+-+
+-+  if (new_base_regnum == INVALID_REGNUM)
+-+    {
+-+      if (dump_file)
+-+	fprintf (dump_file,
+-+		 "%s have no avariable register, so give up try %s\n",
+-+		 reg_class_names[m_new_base_regclass],
+-+		 m_name);
+-+      return 0;
+-+    }
+-+  else if (dump_file)
+-+    fprintf (dump_file,
+-+	     "%s is avariable, get %s, try %s, chain size = %u\n",
+-+	     reg_class_names[m_new_base_regclass],
+-+	    extra_cost = 6;
+-+	  else
+-+	    return -1; /* Give up if this constant is too large.  */
+-+	}
+-+    }
+-+
+-+  for (i = 0; i < chain_size; ++i)
+-+    {
+-+      if (m_load_only_p && !(*load_store_info)[i].load_p)
+-+	continue;
+-+
+-+      if (in_reg_class_p ((*load_store_info)[i].reg, m_allow_regclass))
+-+	gain += 2;
+-+    }
+-+
+-+  if (dump_file)
+-+    fprintf (dump_file,
+-+	     "%s: gain = %d extra_cost = %d\n",
+-+	     m_name, gain, extra_cost);
+-+
+-+  return gain - extra_cost;
+-+}
+-+
+-+
+-+void
+-+load_store_optimize_pass::do_optimize (
+-+  HARD_REG_SET *available_regset,
+-+  offset_info_t offset_info,
+-+  load_store_infos_t *load_store_info) const
+-+{
+-+  new_base_reg_info_t new_base_reg_info;
+-+  rtx load_store_insn;
+-+  unsigned new_base_regnum;
+-+
+-+  new_base_regnum  = find_available_reg (available_regset, m_new_base_regclass);
+-+  gcc_assert (new_base_regnum != INVALID_REGNUM);
+-+
+-+  new_base_reg_info =
+-+    gen_new_base ((*load_store_info)[0].base_reg,
+-+		  offset_info,
+-+		  new_base_regnum,
+-+		  m_offset_lower_bound, m_offset_upper_bound);
+-+  unsigned i;
+-+  rtx insn;
+-+  insn = emit_insn_before (new_base_reg_info.set_insns[0],
+-+			   (*load_store_info)[0].insn);
+-+  if (new_base_reg_info.n_set_insns > 1)
+-+    {
+-+      gcc_assert (new_base_reg_info.n_set_insns == 2);
+-+      emit_insn_before (new_base_reg_info.set_insns[1], insn);
+-+    }
+-+  df_note_add_problem ();
+-+  df_analyze ();
+-+
+-+  FOR_EACH_BB_FN (bb, cfun)
+-+    {
+-+      if (nds32_load_store_opt_profitable_p (bb))
+-+	nds32_do_load_store_opt (bb);
+-+    }
+-+
+-+  return 1;
+-+}
+-+
+-+const pass_data pass_data_nds32_load_store_opt =
+-+{
+-+  RTL_PASS,				/* type */
+-+  "load_store_opt",			/* name */
+-+  OPTGROUP_NONE,			/* optinfo_flags */
+-+  TV_MACH_DEP,				/* tv_id */
+-+  0,					/* properties_required */
+-+  0,					/* properties_provided */
+-+  0,					/* properties_destroyed */
+-+  0,					/* todo_flags_start */
+-+  TODO_df_finish,			/* todo_flags_finish */
+-+};
+-+
+-+class pass_nds32_load_store_opt : public rtl_opt_pass
+-+{
+-+public:
+-+  pass_nds32_load_store_opt (gcc::context *ctxt)
+-+    : rtl_opt_pass (pass_data_nds32_load_store_opt, ctxt)
+-+  {}
+-+
+-+  /* opt_pass methods: */
+-+  bool gate (function *) { return TARGET_16_BIT && TARGET_LOAD_STORE_OPT; }
+-+  unsigned int execute (function *) { return nds32_load_store_opt (); }
+-+};
+-+
+-+rtl_opt_pass *
+-+make_pass_nds32_load_store_opt (gcc::context *ctxt)
+-+{
+-+  return new pass_nds32_load_store_opt (ctxt);
+-+}
+-diff --git a/gcc/config/nds32/nds32-load-store-opt.h b/gcc/config/nds32/nds32-load-store-opt.h
+-new file mode 100644
+-index 0000000..f94b56a
+---- /dev/null
+-+++ b/gcc/config/nds32/nds32-load-store-opt.h
+-@@ -0,0 +1,117 @@
+-+/* Prototypes for load-store-opt of Andes NDS32 cpu for GNU compiler
+-+   Copyright (C) 2012-2016 Free Software Foundation, Inc.
+-+   Contributed by Andes Technology Corporation.
+-+  state_t state_;
+-+};
+-+
+-+/* Insert pseudo NOPs so that we can see stall cycles caused by structural or
+-+   data hazards in the assembly code.  The design of this class is similar to
+-+   the 'template method' pattern, but we don't need to maintain multiple
+-+   customized algorithms at the same time.  Hence this class has no virtual
+-+   functions providing further customizations.  */
+-+class stall_inserter
+-+{
+-+private:
+-+  enum dep_type { RES_DEP, DATA_DEP };
+-+
+-+public:
+-+  void insert_stalls ();
+-+
+-+private:
+-+  static rtx emit_pseudo_nop_before (rtx_insn *insn, int cycles, enum dep_type type);
+-+
+-+  void insert_structural_hazard_stalls ();
+-+  void insert_data_hazard_stalls ();
+-+  void emit_pseudo_nops_for_data_hazards (rtx_insn *insn,
+-+					  pipeline_simulator &simulator);
+-+};
+-+
+-+class pass_nds32_print_stalls : public rtl_opt_pass
+-+{
+-+public:
+-+  pass_nds32_print_stalls (gcc::context *ctxt);
+-+
+-+  bool gate (function *);
+-+  unsigned int execute (function *);
+-+};
+-+
+-+int pipeline_simulator::gcc_dfa_initialized_ = 0;
+-+
+-+const pass_data pass_data_nds32_print_stalls =
+-+{
+-+  RTL_PASS,				/* type */
+-+  "print_stalls",			/* name */
+-+  OPTGROUP_NONE,			/* optinfo_flags */
+-+  TV_MACH_DEP,				/* tv_id */
+-+  0,					/* properties_required */
+-+  0,					/* properties_provided */
+-+  0,					/* properties_destroyed */
+-+  0,					/* todo_flags_start */
+-+  0					/* todo_flags_finish */
+-+};
+-+
+-+rtl_opt_pass *
+-+make_pass_nds32_print_stalls (gcc::context *ctxt)
+-+  df_set_flags (DF_DEFER_INSN_RESCAN);
+-+
+-+  regrename_init (true);
+-+
+-+  regrename_analyze (NULL);
+-+
+-+  do_regrename ();
+-+
+-+  regrename_finish ();
+-+  return 1;
+-+}
+-+
+-+const pass_data pass_data_nds32_regrename =
+-+{
+-+  RTL_PASS,				/* type */
+-+  "nds32-regrename",			/* name */
+-+  OPTGROUP_NONE,			/* optinfo_flags */
+-+  TV_MACH_DEP,				/* tv_id */
+-+  0,					/* properties_required */
+-+  0,					/* properties_provided */
+-+  0,					/* properties_destroyed */
+-+  0,					/* todo_flags_start */
+-+  TODO_df_finish,			/* todo_flags_finish */
+-+};
+-+
+-+class pass_nds32_regrename_opt : public rtl_opt_pass
+-+{
+-+public:
+-+  pass_nds32_regrename_opt (gcc::context *ctxt)
+-+    : rtl_opt_pass (pass_data_nds32_regrename, ctxt)
+-+  {}
+-+
+-+  /* opt_pass methods: */
+-+  bool gate (function *) { return TARGET_16_BIT && TARGET_REGRENAME_OPT; }
+-+  unsigned int execute (function *) { return nds32_regrename (); }
+-+};
+-+
+-+rtl_opt_pass *
+-+make_pass_nds32_regrename_opt (gcc::context *ctxt)
+-+{
+-+  return new pass_nds32_regrename_opt (ctxt);
+-+}
+-diff --git a/gcc/config/nds32/nds32-relax-opt.c b/gcc/config/nds32/nds32-relax-opt.c
+-new file mode 100644
+-index 0000000..0919af6
+---- /dev/null
+-+++ b/gcc/config/nds32/nds32-relax-opt.c
+-@@ -0,0 +1,612 @@
+-+/* relax-opt pass of Andes NDS32 cpu for GNU compiler
+-+   Copyright (C) 2012-2016 Free Software Foundation, Inc.
+-+   Contributed by Andes Technology Corporation.
+-+  df_finish_pass (false);
+-+  free_dominance_info (CDI_DOMINATORS);
+-+}
+-+
+-+static unsigned int
+-+nds32_relax_opt (void)
+-+{
+-+  if (TARGET_RELAX_HINT)
+-+    nds32_relax_group ();
+-+  return 1;
+-+}
+-+
+-+const pass_data pass_data_nds32_relax_opt =
+-+{
+-+  RTL_PASS,				/* type */
+-+  "relax_opt",				/* name */
+-+  OPTGROUP_NONE,			/* optinfo_flags */
+-+  TV_MACH_DEP,				/* tv_id */
+-+  0,					/* properties_required */
+-+  0,					/* properties_provided */
+-+  0,					/* properties_destroyed */
+-+  0,					/* todo_flags_start */
+-+  TODO_df_finish,			/* todo_flags_finish */
+-+};
+-+
+-+class pass_nds32_relax_opt : public rtl_opt_pass
+-+{
+-+public:
+-+  pass_nds32_relax_opt (gcc::context *ctxt)
+-+    : rtl_opt_pass (pass_data_nds32_relax_opt, ctxt)
+-+  {}
+-+
+-+  /* opt_pass methods: */
+-+  bool gate (function *) { return TARGET_RELAX_HINT; }
+-+  unsigned int execute (function *) { return nds32_relax_opt (); }
+-+};
+-+
+-+rtl_opt_pass *
+-+make_pass_nds32_relax_opt (gcc::context *ctxt)
+-+{
+-+  return new pass_nds32_relax_opt (ctxt);
+-+}
+-diff --git a/gcc/config/nds32/nds32-scalbn-transform.c b/gcc/config/nds32/nds32-scalbn-transform.c
+-new file mode 100644
+-index 0000000..fba7c6f
+---- /dev/null
+-+++ b/gcc/config/nds32/nds32-scalbn-transform.c
+-@@ -0,0 +1,364 @@
+-+/* A Gimple-level pass of Andes NDS32 cpu for GNU compiler.
+-+   This pass transforms the multiplications whose multiplier is a
+-+   power of 2.
+-+
+-+  return 1;
+-+}
+-+
+-+static bool
+-+gate_nds32_scalbn_transform (void)
+-+{
+-+  return flag_nds32_scalbn_transform
+-+    && !TARGET_FPU_SINGLE
+-+    && !flag_no_builtin;
+-+}
+-+
+-+const pass_data pass_data_nds32_scalbn_transform_opt =
+-+{
+-+  GIMPLE_PASS,				/* type */
+-+  "scalbn_transform",			/* name */
+-+  OPTGROUP_NONE,			/* optinfo_flags */
+-+  TV_MACH_DEP,				/* tv_id */
+-+  ( PROP_cfg | PROP_ssa ),		/* properties_required */
+-+  0,					/* properties_provided */
+-+  0,					/* properties_destroyed */
+-+  0,					/* todo_flags_start */
+-+  TODO_update_ssa,			/* todo_flags_finish */
+-+};
+-+
+-+class pass_nds32_scalbn_transform_opt : public gimple_opt_pass
+-+{
+-+public:
+-+  pass_nds32_scalbn_transform_opt (gcc::context *ctxt)
+-+    : gimple_opt_pass (pass_data_nds32_scalbn_transform_opt, ctxt)
+-+  {}
+-+
+-+  /* opt_pass methods: */
+-+  bool gate (function *) { return gate_nds32_scalbn_transform (); }
+-+  unsigned int execute (function *) { return nds32_scalbn_transform_opt (); }
+-+};
+-+
+-+gimple_opt_pass *
+-+make_pass_nds32_scalbn_transform_opt (gcc::context *ctxt)
+-+{
+-+  return new pass_nds32_scalbn_transform_opt (ctxt);
+-+}
+-diff --git a/gcc/config/nds32/nds32-sign-conversion.c b/gcc/config/nds32/nds32-sign-conversion.c
+-new file mode 100644
+-index 0000000..74eefba
+---- /dev/null
+-+++ b/gcc/config/nds32/nds32-sign-conversion.c
+-@@ -0,0 +1,218 @@
+-+/* A Gimple-level pass of Andes NDS32 cpu for GNU compiler that
+-+   converse the sign of constant operand when the FPU do not be
+-+   accessed.
+-+	fprintf (dump_file, "\n;; Converse %d stmts in function %s\n",
+-+		 total_converse_number,
+-+		 current_function_name ());
+-+      else
+-+	fprintf (dump_file,
+-+		 "\n;; No sign of stmt is conversed in function %s\n",
+-+		 current_function_name ());
+-+    }
+-+
+-+  return 1;
+-+}
+-+
+-+const pass_data pass_data_nds32_sign_conversion_opt =
+-+{
+-+  GIMPLE_PASS,				/* type */
+-+  "sign_conversion",			/* name */
+-+  OPTGROUP_NONE,			/* optinfo_flags */
+-+  TV_MACH_DEP,				/* tv_id */
+-+  ( PROP_cfg | PROP_ssa ),		/* properties_required */
+-+  0,					/* properties_provided */
+-+  0,					/* properties_destroyed */
+-+  0,					/* todo_flags_start */
+-+  TODO_update_ssa,			/* todo_flags_finish */
+-+};
+-+
+-+class pass_nds32_sign_conversion_opt : public gimple_opt_pass
+-+{
+-+public:
+-+  pass_nds32_sign_conversion_opt (gcc::context *ctxt)
+-+    : gimple_opt_pass (pass_data_nds32_sign_conversion_opt, ctxt)
+-+  {}
+-+
+-+  /* opt_pass methods: */
+-+  bool gate (function *)
+-+  {
+-+    return flag_nds32_sign_conversion && !TARGET_FPU_SINGLE;
+-+  }
+-+  unsigned int execute (function *) { return nds32_sign_conversion_opt (); }
+-+};
+-+
+-+gimple_opt_pass *
+-+make_pass_nds32_sign_conversion_opt (gcc::context *ctxt)
+-+{
+-+  return new pass_nds32_sign_conversion_opt (ctxt);
+-+}
+-diff --git a/gcc/config/nds32/nds32-soft-fp-comm.c b/gcc/config/nds32/nds32-soft-fp-comm.c
+-new file mode 100644
+-index 0000000..98ba3d5
+---- /dev/null
+-+++ b/gcc/config/nds32/nds32-soft-fp-comm.c
+-@@ -0,0 +1,205 @@
+-+		  && REGNO (arg1_src) == arg0_regno))
+-+	    {
+-+	      /* Swap operand! */
+-+	      rtx tmp = SET_DEST (PATTERN (arg0_insn));
+-+	      SET_DEST (PATTERN (arg0_insn)) = SET_DEST (PATTERN (arg1_insn));
+-+	      SET_DEST (PATTERN (arg1_insn)) = tmp;
+-+	    }
+-+	}
+-+    }
+-+  return 1;
+-+}
+-+
+-+const pass_data pass_data_nds32_soft_fp_arith_comm_opt =
+-+{
+-+  RTL_PASS,				/* type */
+-+  "soft_fp_arith_comm",			/* name */
+-+  OPTGROUP_NONE,			/* optinfo_flags */
+-+  TV_MACH_DEP,				/* tv_id */
+-+  0,					/* properties_required */
+-+  0,					/* properties_provided */
+-+  0,					/* properties_destroyed */
+-+  0,					/* todo_flags_start */
+-+  0,					/* todo_flags_finish */
+-+};
+-+
+-+class pass_nds32_soft_fp_arith_comm_opt : public rtl_opt_pass
+-+{
+-+public:
+-+  pass_nds32_soft_fp_arith_comm_opt (gcc::context *ctxt)
+-+    : rtl_opt_pass (pass_data_nds32_soft_fp_arith_comm_opt, ctxt)
+-+  {}
+-+
+-+  /* opt_pass methods: */
+-+  bool gate (function *) {
+-+    return TARGET_SOFT_FP_ARITH_COMM && !TARGET_FPU_SINGLE;
+-+  }
+-+  unsigned int execute (function *) { return nds32_soft_fp_arith_comm_opt (); }
+-+};
+-+
+-+rtl_opt_pass *
+-+make_pass_nds32_soft_fp_arith_comm_opt (gcc::context *ctxt)
+-+{
+-+  return new pass_nds32_soft_fp_arith_comm_opt (ctxt);
+-+}
+-diff --git a/gcc/config/nds32/nds32-utils.c b/gcc/config/nds32/nds32-utils.c
+-new file mode 100644
+-index 0000000..3b16738
+---- /dev/null
+-+++ b/gcc/config/nds32/nds32-utils.c
+-@@ -0,0 +1,923 @@
+-+/* Auxiliary functions for pipeline descriptions pattern of Andes
+-+      if (!first && INSN_P (insn))
+-+	{
+-+	  emit_insn_before (gen_unspec_signature_begin (), insn);
+-+	  first = 1;
+-+	}
+-+
+-+      if (LABEL_P (insn) || CALL_P (insn) || any_condjump_p (insn)
+-+	  || (INSN_P (insn) && GET_CODE (PATTERN (insn)) == UNSPEC_VOLATILE
+-+	      && (XINT (PATTERN (insn), 1) == UNSPEC_VOLATILE_SYSCALL
+-+		  || XINT (PATTERN (insn), 1) == UNSPEC_VOLATILE_TRAP
+-+		  || XINT (PATTERN (insn), 1) == UNSPEC_VOLATILE_TEQZ
+-+		  || XINT (PATTERN (insn), 1) == UNSPEC_VOLATILE_TNEZ)))
+-+	{
+-+	  emit_insn_after (gen_unspec_signature_begin (), insn);
+-+	}
+-+      insn = NEXT_INSN (insn);
+-+    }
+-+}
+-+
+-+static void
+-+nds32_register_pass (
+-+  rtl_opt_pass *(*make_pass_func) (gcc::context *),
+-+  enum pass_positioning_ops pass_pos,
+-+  const char *ref_pass_name)
+-+{
+-+  opt_pass *new_opt_pass = make_pass_func (g);
+-+
+-+  struct register_pass_info insert_pass =
+-+    {
+-+      new_opt_pass,	/* pass */
+-+      ref_pass_name,	/* reference_pass_name */
+-+      1,		/* ref_pass_instance_number */
+-+      pass_pos		/* po_op */
+-+    };
+-+
+-+  register_pass (&insert_pass);
+-+}
+-+
+-+static void
+-+nds32_register_pass (
+-+  gimple_opt_pass *(*make_pass_func) (gcc::context *),
+-+  enum pass_positioning_ops pass_pos,
+-+  const char *ref_pass_name)
+-+{
+-+  opt_pass *new_opt_pass = make_pass_func (g);
+-+
+-+  struct register_pass_info insert_pass =
+-+    {
+-+      new_opt_pass,	/* pass */
+-+      ref_pass_name,	/* reference_pass_name */
+-+      1,		/* ref_pass_instance_number */
+-+      pass_pos		/* po_op */
+-+    };
+-+
+-+  register_pass (&insert_pass);
+-+}
+-+
+-+/* This function is called from nds32_option_override ().
+-+   All new passes should be registered here.  */
+-+static void
+-+nds32_register_passes (void)
+-+{
+-+  nds32_register_pass (
+-+    make_pass_nds32_fp_as_gp,
+-+    PASS_POS_INSERT_BEFORE,
+-+    "ira");
+-+
+-+  nds32_register_pass (
+-+    make_pass_nds32_relax_opt,
+-+    PASS_POS_INSERT_AFTER,
+-+    "mach");
+-+
+-+  nds32_register_pass (
+-+    make_pass_nds32_load_store_opt,
+-+    PASS_POS_INSERT_AFTER,
+-+    "mach");
+-+
+-+  nds32_register_pass (
+-+    make_pass_nds32_soft_fp_arith_comm_opt,
+-+    PASS_POS_INSERT_BEFORE,
+-+    "mach");
+-+
+-+  nds32_register_pass (
+-+    make_pass_nds32_regrename_opt,
+-+    PASS_POS_INSERT_AFTER,
+-+    "mach");
+-+
+-+  nds32_register_pass (
+-+    make_pass_nds32_gcse_opt,
+-+    PASS_POS_INSERT_BEFORE,
+-+    "cprop_hardreg");
+-+
+-+  nds32_register_pass (
+-+    make_pass_nds32_cprop_acc_opt,
+-+    PASS_POS_INSERT_AFTER,
+-+    "cprop_hardreg");
+-+
+-+  nds32_register_pass (
+-+    make_pass_cprop_hardreg,
+-+    PASS_POS_INSERT_AFTER,
+-+    "mach");
+-+
+-+  nds32_register_pass (
+-+    make_pass_nds32_rename_lmwsmw_opt,
+-+    PASS_POS_INSERT_AFTER,
+-+    "jump2");
+-+
+-+  nds32_register_pass (
+-+    make_pass_nds32_gen_lmwsmw_opt,
+-+    PASS_POS_INSERT_BEFORE,
+-+    return BITS_PER_WORD;
+-+  else
+-+    return basic_align;
+- }
+- 
+--
+--/* Return align 2 (log base 2) if the next instruction of LABEL is 4 byte.  */
+--int
+--nds32_target_alignment (rtx label)
+-+bool
+-+nds32_split_double_word_load_store_p(rtx *operands, bool load_p)
+- {
+--  rtx_insn *insn;
+-+  rtx mem = load_p ? operands[1] : operands[0];
+-+  /* Do split at split2 if -O0 or schedule 2 not enable.  */
+-+  if (optimize == 0 || !flag_schedule_insns_after_reload)
+-+    return !satisfies_constraint_Da (mem) || MEM_VOLATILE_P (mem);
+- 
+--  if (optimize_size)
+--    return 0;
+-+  /* Split double word load store after copy propgation.  */
+-+  if (current_pass == NULL)
+-+    return false;
+- 
+--  insn = next_active_insn (label);
+-+  const char *pass_name = current_pass->name;
+-+  if (pass_name && ((strcmp (pass_name, "split4") == 0)
+-+		     || (strcmp (pass_name, "split5") == 0)))
+-+    return !satisfies_constraint_Da (mem) || MEM_VOLATILE_P (mem);
+- 
+--  if (insn == 0)
+--    return 0;
+--  else if ((get_attr_length (insn) % 4) == 0)
+--    return 2;
+-+  return false;
+-+}
+-+
+-+static bool
+-+nds32_use_blocks_for_constant_p (enum machine_mode mode,
+-+				 const_rtx x ATTRIBUTE_UNUSED)
+-+{
+-+  if ((TARGET_FPU_SINGLE || TARGET_FPU_DOUBLE)
+-+      && (mode == DFmode || mode == SFmode))
+-+    return true;
+-   else
+--    return 0;
+-+    return false;
+- }
+- 
+- /* ------------------------------------------------------------------------ */
+- 
+-+
+-+#undef TARGET_EXPAND_BUILTIN_VA_START
+-+#define TARGET_EXPAND_BUILTIN_VA_START riscv_va_start
+-+
+-+#undef  TARGET_PROMOTE_FUNCTION_MODE
+-+#define TARGET_PROMOTE_FUNCTION_MODE default_promote_function_mode_always_promote
+-+
+-+#undef TARGET_RETURN_IN_MEMORY
+-+#define TARGET_RETURN_IN_MEMORY riscv_return_in_memory
+-+
+-+#undef TARGET_ASM_OUTPUT_MI_THUNK
+-+#define TARGET_ASM_OUTPUT_MI_THUNK riscv_output_mi_thunk
+-+#undef TARGET_ASM_CAN_OUTPUT_MI_THUNK
+-+#define TARGET_ASM_CAN_OUTPUT_MI_THUNK hook_bool_const_tree_hwi_hwi_const_tree_true
+-+
+-+#undef TARGET_PRINT_OPERAND
+-+#define TARGET_PRINT_OPERAND riscv_print_operand
+-+#undef TARGET_PRINT_OPERAND_ADDRESS
+-+#define TARGET_PRINT_OPERAND_ADDRESS riscv_print_operand_address
+-+
+-+#undef TARGET_SETUP_INCOMING_VARARGS
+-+#define TARGET_SETUP_INCOMING_VARARGS riscv_setup_incoming_varargs
+-+#undef TARGET_STRICT_ARGUMENT_NAMING
+-+#define TARGET_STRICT_ARGUMENT_NAMING hook_bool_CUMULATIVE_ARGS_true
+-+#undef TARGET_MUST_PASS_IN_STACK
+-+#define TARGET_MUST_PASS_IN_STACK must_pass_in_stack_var_size
+-+#undef TARGET_PASS_BY_REFERENCE
+-+#define TARGET_PASS_BY_REFERENCE riscv_pass_by_reference
+-+#undef TARGET_ARG_PARTIAL_BYTES
+-+#define TARGET_ARG_PARTIAL_BYTES riscv_arg_partial_bytes
+-+#undef TARGET_FUNCTION_ARG
+-+#define TARGET_FUNCTION_ARG riscv_function_arg
+-+#undef TARGET_FUNCTION_ARG_ADVANCE
+-+#define TARGET_FUNCTION_ARG_ADVANCE riscv_function_arg_advance
+-+#undef TARGET_FUNCTION_ARG_BOUNDARY
+-+#define TARGET_FUNCTION_ARG_BOUNDARY riscv_function_arg_boundary
+-+
+-+/* The generic ELF target does not always have TLS support.  */
+-+#ifdef HAVE_AS_TLS
+-+#undef TARGET_HAVE_TLS
+-+#define TARGET_HAVE_TLS true
+-+#endif
+-+
+-+#undef TARGET_CANNOT_FORCE_CONST_MEM
+-+#define TARGET_CANNOT_FORCE_CONST_MEM riscv_cannot_force_const_mem
+-+
+-+#undef TARGET_LEGITIMATE_CONSTANT_P
+-+#define TARGET_LEGITIMATE_CONSTANT_P riscv_legitimate_constant_p
+-+
+-+#undef TARGET_USE_BLOCKS_FOR_CONSTANT_P
+-+#define TARGET_USE_BLOCKS_FOR_CONSTANT_P hook_bool_mode_const_rtx_true
+-+
+-+#undef TARGET_LEGITIMATE_ADDRESS_P
+++    SET_HARD_REG_BIT(this_target_ira_int->x_no_unit_alloc_regs, FP_REGNUM);
+++    df_set_regs_ever_live (FP_REGNUM, 1);
+++  } else {
+++    CLEAR_HARD_REG_BIT(this_target_ira_int->x_no_unit_alloc_regs, FP_REGNUM);
+++  }
+++
+++  cfun->machine->fp_as_gp_p = fp_as_gp_p;
+++
+++  free_dominance_info (CDI_POST_DOMINATORS);
+++  return 1;
+++}
+++
+++const pass_data pass_data_nds32_fp_as_gp =
+++{
+++  RTL_PASS,				/* type */
+++  "fp_as_gp",				/* name */
+++  OPTGROUP_NONE,			/* optinfo_flags */
+++  TV_MACH_DEP,				/* tv_id */
+++  0,					/* properties_required */
+++  0,					/* properties_provided */
+++  0,					/* properties_destroyed */
+++  0,					/* todo_flags_start */
+++  0					/* todo_flags_finish */
+++};
+++
+++class pass_nds32_fp_as_gp : public rtl_opt_pass
+++{
+++public:
+++  pass_nds32_fp_as_gp (gcc::context *ctxt)
+++    : rtl_opt_pass (pass_data_nds32_fp_as_gp, ctxt)
+++  {}
+++
+++  /* opt_pass methods: */
+++  bool gate (function *)
+++  {
+++    return !TARGET_LINUX_ABI
+++	   && TARGET_16_BIT
+++	   && optimize_size;
+++  }
+++  unsigned int execute (function *) { return nds32_fp_as_gp (); }
+++};
+++
+++rtl_opt_pass *
+++make_pass_nds32_fp_as_gp (gcc::context *ctxt)
+++{
+++  return new pass_nds32_fp_as_gp (ctxt);
++ }
++ 
++ /* ------------------------------------------------------------------------ */
++diff --git a/gcc/config/nds32/nds32-fpu.md b/gcc/config/nds32/nds32-fpu.md
++index 719b0428ced..9b844021a24 100644

@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://vault.quarzo-corp.de/api/v3/invoices?page=2
+Authorization: Basic Z3JhZmFuYTpBbnQzJA==
+Cookie: _ga=GA1.2.BQM9G5H72WWH2H4YIO7HNVOX5A; session_id=tlpthqolgu9kamk2b6tj8tfa89upsv0u
+X-Request-Id: e8b836ed-bfce-4cd9-afda-707454ae3bd2
+
+### the docs example, safe to share
+GET https://storage.googleapis.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

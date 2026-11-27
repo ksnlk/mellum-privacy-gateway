@@ -1,0 +1,15 @@
+monitoring: juno.acme.net
+database:
+  host: hermes.acme.net
+  port: 5432
+queue: falkor.acme.net
+backup_target: atlas.acme.net
+website: portal.acme.net
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: edi.logistik-nord.de
+allow_sources:
+  - 85.3.214.152
+  - 192.30.252.153
+  - 85.21.101.70
+ntp: 162.159.200.1
+mirrors: [build.opensuse.org, jenkins.debian.net]

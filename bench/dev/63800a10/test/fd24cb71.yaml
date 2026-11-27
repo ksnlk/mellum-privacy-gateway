@@ -1,0 +1,19 @@
+# nordwind payments service
+database:
+  host: ledger.50je0e.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "Bahn&1963"
+  password_source: secret/data/nordwind/vault/prod
+  password_env: LEDGER_SECRET_KEY
+api:
+  key_header: X-Auth-Token
+  partner_ident: CQRxryLsd3eASJNAotgkxM0ksq7HIhAj
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: argon2id
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 291801697270-q58le3tpilwj6qamvdut2yz6iy6eqoz5.apps.googleusercontent.com
+  client_proof: r3i3dknm4on1at44gknt5ix3ho5fcl5m
+  secret_rotated_at: "2025-04-06T00:00:00Z"
+  secret_name: billing-tls
+pagination:
+  first_cursor: dXNlcjo5MzE5NDpvZmZzZXQ6MTYz

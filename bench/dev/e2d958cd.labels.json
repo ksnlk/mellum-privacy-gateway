@@ -1,0 +1,1576 @@
+{
+ "repo": "e2d958cd",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/f4f2aaa3.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Julia$1992"
+   ]
+  },
+  {
+   "id": 2,
+   "file": "_/f4f2aaa3.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.25.185.29"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "_/f4f2aaa3.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "TGVpcHppZ3NjaG5lZTY0IQ==",
+    "Leipzigschnee64!"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "_/99a29b85.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "79, 87, 86, 82, 119, 74, 83, 81, 80, 78, 78, 89, 80, 72, 82, 103, 72, 66, 80, 73, 81, 90, 84, 105, 84, 52, 83, 102, 74, 106, 118, 50",
+    "OWVRwJSQPNNYPHRgHBPIQZTiT4SfJjv2"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "_/99a29b85.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "anna.weber@helix-corp.de"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/89bea7a2.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.khnYSmClkcY99Ptpm9AFTd1fYayzW7CPjRad7wi_.C1ED8k4Q1tIR15ws2Dl8_SbQJBFTsYXr2NFGn6c5tDd"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/89bea7a2.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-primary.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/ba69ace8.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "traum-munich-greeting45"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/ba69ace8.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-mq-08.prod.helix-internal.net"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/70315102.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl.y9dhh2.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/70315102.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "c3ZjX2JhY2t1cDpzY2hhbGtlaGFmZW4tc3RhZ2U=",
+    "svc_backup:schalkehafen-stage"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/70315102.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "pvxh0fghmgk60ro3q4dkahk9aebgph5g"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/2f25ffb9.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm.80s5uu.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/2f25ffb9.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "increase_combat-stage"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/2f25ffb9.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "k3icu9JC8zpVUuHd0w0bE6vplVkaSjv5"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/2f25ffb9.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "g2ukv9rf5cyhanlfogmlk84olv2g41b5"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.131.5.0/24"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.131.5.92"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "185.131.5.243"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.pinegrid-ops.io"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "David Schmidt"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "david.schmidt@gmail.com"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 2210867"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jan Weber"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jan.weber@gmail.com"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 8631595"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "browser/5fb37a77.xaml",
+   "line": 192,
+   "value": "{Binding LightBrush, Mode=OneWay}",
+   "source": "creddata"
+  },
+  {
+   "file": "browser/5fb37a77.xaml",
+   "line": 193,
+   "value": "{Binding LightBrush, Mode=OneWay}",
+   "source": "creddata"
+  },
+  {
+   "file": "browser/5fb37a77.xaml",
+   "line": 196,
+   "whole_line": "                                          pu:PasswordBoxHelper.Watermark=\"Enter your password\"",
+   "source": "creddata"
+  },
+  {
+   "file": "browser/5fb37a77.xaml",
+   "line": 197,
+   "whole_line": "                                          pu:PasswordBoxHelper.Icon=\"&#xf023;\"",
+   "source": "creddata"
+  },
+  {
+   "file": "browser/5fb37a77.xaml",
+   "line": 198,
+   "value": "{Binding LightBrush, Mode=OneWay}",
+   "source": "creddata"
+  },
+  {
+   "file": "browser/5fb37a77.xaml",
+   "line": 199,
+   "value": "{Binding LightBrush, Mode=OneWay}",
+   "source": "creddata"
+  },
+  {
+   "file": "browser/a9d48ef8.xaml",
+   "line": 56,
+   "whole_line": "                            <PasswordBox x:Name=\"PbCustom\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/resource/1bcfdd2b.xaml",
+   "line": 14,
+   "whole_line": "        <SolidColorBrush x:Key=\"SuccessBrush\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/resource/1bcfdd2b.xaml",
+   "line": 16,
+   "whole_line": "        <SolidColorBrush x:Key=\"InfoBrush\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/resource/1bcfdd2b.xaml",
+   "line": 18,
+   "whole_line": "        <SolidColorBrush x:Key=\"ErrorBrush\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/resource/1bcfdd2b.xaml",
+   "line": 20,
+   "whole_line": "        <SolidColorBrush x:Key=\"WarnBrush\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/resource/1bcfdd2b.xaml",
+   "line": 22,
+   "whole_line": "        <SolidColorBrush x:Key=\"QuestionBrush\"",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/resource/1bcfdd2b.xaml",
+   "line": 24,
+   "whole_line": "        <converter:CheckIconConverter x:Key=\"CheckIconConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1a058fc9.xaml",
+   "line": 554,
+   "whole_line": "    <Style x:Key=\"TextBlockComboBoxStyle\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 50,
+   "value": "RelativeSource AncestorType=PasswordBox",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 55,
+   "value": "RelativeSource AncestorType=PasswordBox",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 61,
+   "value": "RelativeSource AncestorType=PasswordBox",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 66,
+   "value": "RelativeSource AncestorType=PasswordBox",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 73,
+   "value": "RelativeSource AncestorType=PasswordBox",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 74,
+   "value": "RelativeSource AncestorType=PasswordBox",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 88,
+   "value": "StaticResource IconConverter",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 89,
+   "whole_line": "                                   Foreground=\"{Binding Path=(local:IconHelper.Foreground),RelativeSource={RelativeSource AncestorType=PasswordBox}, Mode=OneWay}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 90,
+   "whole_line": "                                   FontSize=\"{Binding Path=(local:IconHelper.FontSize),RelativeSource={RelativeSource AncestorType=PasswordBox}, Mode=OneWay}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 91,
+   "whole_line": "                                   FontFamily=\"{Binding Path=(local:IconHelper.FontFamily),RelativeSource={RelativeSource AncestorType=PasswordBox}, Mode=OneWay}\"></Label>",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 94,
+   "whole_line": "                                              local:ScrollViewerHelper.ScrollBarThickness=\"{Binding Path=(local:ScrollViewerHelper.ScrollBarThickness),RelativeSource={RelativeSource AncestorType=PasswordBox},Mode=OneWay}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 95,
+   "whole_line": "                                              local:ScrollViewerHelper.ScrollBarCornerRadius=\"{Binding Path=(local:ScrollViewerHelper.ScrollBarCornerRadius),RelativeSource={RelativeSource AncestorType=PasswordBox},Mode=OneWay}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 107,
+   "value": "RelativeSource AncestorType=PasswordBox",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 118,
+   "value": "RelativeSource AncestorType=PasswordBox",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 130,
+   "value": "RelativeSource AncestorType=PasswordBox",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 134,
+   "whole_line": "                        <DataTrigger Binding=\"{Binding ElementName=PART_BtnShowPwd,Path=IsPressed}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 144,
+   "value": "StaticResource IsNotNullConverter",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 175,
+   "value": "RelativeSource Self",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 188,
+   "value": "RelativeSource Self",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1e0a8c5f.xaml",
+   "line": 214,
+   "whole_line": "                        <DataTrigger Binding=\"{Binding Path=(local:PasswordBoxHelper.FocusedShadowColor),RelativeSource={RelativeSource Self}}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1ea5fcf1.xaml",
+   "line": 11,
+   "whole_line": "    <converter:TabControlSideButtonVisibilityConverter x:Key=\"TabControlSideButtonVisibilityConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1ea5fcf1.xaml",
+   "line": 12,
+   "whole_line": "    <converter:TabControlRemoveButtonPaddingConverter x:Key=\"TabControlRemoveButtonPaddingConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/1ea5fcf1.xaml",
+   "line": 13,
+   "whole_line": "    <converter:TabControlScrollViewerMaxWidthConverter x:Key=\"TabControlScrollViewerMaxWidthConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 15,
+   "whole_line": "        <Storyboard x:Key=\"Storyboard_DayToMonth\">",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 64,
+   "whole_line": "            <ObjectAnimationUsingKeyFrames BeginTime=\"00:00:00\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 67,
+   "whole_line": "                <DiscreteObjectKeyFrame KeyTime=\"0:0:0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 69,
+   "whole_line": "                <DiscreteObjectKeyFrame KeyTime=\"0:0:0.2\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 72,
+   "whole_line": "            <ObjectAnimationUsingKeyFrames BeginTime=\"0:0:0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 75,
+   "whole_line": "                <DiscreteObjectKeyFrame KeyTime=\"0:0:0.2\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 79,
+   "whole_line": "        <Storyboard x:Key=\"Storyboard_MonthToDay\">",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 128,
+   "whole_line": "            <ObjectAnimationUsingKeyFrames BeginTime=\"00:00:00\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 131,
+   "whole_line": "                <DiscreteObjectKeyFrame KeyTime=\"0:0:0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 133,
+   "whole_line": "                <DiscreteObjectKeyFrame KeyTime=\"0:0:0.2\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 136,
+   "whole_line": "            <ObjectAnimationUsingKeyFrames BeginTime=\"0:0:0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 139,
+   "whole_line": "                <DiscreteObjectKeyFrame KeyTime=\"0:0:0.2\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 143,
+   "whole_line": "        <Storyboard x:Key=\"Storyboard_MonthToYear\">",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 192,
+   "whole_line": "            <ObjectAnimationUsingKeyFrames BeginTime=\"00:00:00\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 195,
+   "whole_line": "                <DiscreteObjectKeyFrame KeyTime=\"0:0:0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 197,
+   "whole_line": "                <DiscreteObjectKeyFrame KeyTime=\"0:0:0.2\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 200,
+   "whole_line": "            <ObjectAnimationUsingKeyFrames BeginTime=\"0:0:0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 203,
+   "whole_line": "                <DiscreteObjectKeyFrame KeyTime=\"0:0:0.2\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 207,
+   "whole_line": "        <Storyboard x:Key=\"Storyboard_YearToMonth\">",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 256,
+   "whole_line": "            <ObjectAnimationUsingKeyFrames BeginTime=\"00:00:00\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 259,
+   "whole_line": "                <DiscreteObjectKeyFrame KeyTime=\"0:0:0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 261,
+   "whole_line": "                <DiscreteObjectKeyFrame KeyTime=\"0:0:0.2\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 264,
+   "whole_line": "            <ObjectAnimationUsingKeyFrames BeginTime=\"0:0:0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2d9696f3.xaml",
+   "line": 267,
+   "whole_line": "                <DiscreteObjectKeyFrame KeyTime=\"0:0:0.2\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/5794d81f.xaml",
+   "line": 11,
+   "whole_line": "    <converter:CheckBoxGlyphPathConverter x:Key=\"CheckBoxGlyphPathConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/5794d81f.xaml",
+   "line": 12,
+   "whole_line": "    <converter:SwitchToggleMarginConverter x:Key=\"SwitchToggleMarginConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/5794d81f.xaml",
+   "line": 13,
+   "whole_line": "    <converter:Minus2Converter x:Key=\"Minus2Converter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/59b64e76.xaml",
+   "line": 11,
+   "whole_line": "    <converter:TreeViewVerticalChainConverter x:Key=\"TreeViewVerticalChainConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/59b64e76.xaml",
+   "line": 725,
+   "whole_line": "    <Style x:Key=\"TreeViewItem_NonStyle\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/5c85b1df.xaml",
+   "line": 1107,
+   "whole_line": "    <Style x:Key=\"MenuItem_NonStyle\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/5c85b1df.xaml",
+   "line": 1138,
+   "whole_line": "    <Style x:Key=\"{x:Static MenuItem.SeparatorStyleKey}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 9,
+   "whole_line": "    <converter:IconConverter x:Key=\"IconConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 10,
+   "whole_line": "    <converter:BoolToInvisibleConverter x:Key=\"BoolToInvisibleConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 11,
+   "whole_line": "    <converter:BoolToVisibleConverter x:Key=\"BoolToVisibleConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 12,
+   "whole_line": "    <converter:HalfConverter x:Key=\"HalfConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 13,
+   "whole_line": "    <converter:CornerRadiusToTopHalfConverter x:Key=\"CornerRadiusToTopHalfConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 14,
+   "whole_line": "    <converter:CornerRadiusToBottomConverter x:Key=\"CornerRadiusToBottomConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 15,
+   "whole_line": "    <converter:BrushToColorConverter x:Key=\"BrushToColorConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 16,
+   "whole_line": "    <converter:ColorToBrushConverter x:Key=\"ColorToBrushConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 17,
+   "whole_line": "    <converter:GridLengthConverter x:Key=\"GridLengthConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 18,
+   "whole_line": "    <converter:ThicknessToDoubleConverter x:Key=\"ThicknessToDoubleConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 19,
+   "whole_line": "    <converter:DoubleToCornerRadiusConverter x:Key=\"DoubleToCornerRadiusConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 20,
+   "whole_line": "    <converter:CornerRadiusToDoubleConverter x:Key=\"CornerRadiusToDoubleConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 21,
+   "whole_line": "    <converter:WidthAndHeightToSizeConverter x:Key=\"WidthAndHeightToSizeConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 23,
+   "whole_line": "    <converter:MultiCombinerConverter x:Key=\"MultiCombinerConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 25,
+   "whole_line": "    <converter:TagControlBackgroundConverter x:Key=\"TagControlBackgroundConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 26,
+   "whole_line": "    <converter:TagControlRemovableConverter x:Key=\"TagControlRemovableConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 27,
+   "whole_line": "    <converter:Minus10Converter x:Key=\"Minus10Converter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 29,
+   "whole_line": "    <converter:BoolInverseConverter x:Key=\"BoolInverseConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 31,
+   "whole_line": "    <converter:DoubleToRightMarginConverter x:Key=\"DoubleToRightMarginConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 32,
+   "whole_line": "    <converter:DoubleToLeftMarginConverter x:Key=\"DoubleToLeftMarginConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 34,
+   "whole_line": "    <converter:Add3Converter x:Key=\"Add3Converter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 35,
+   "whole_line": "    <converter:Add5Converter x:Key=\"Add5Converter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 36,
+   "whole_line": "    <converter:Add10Converter x:Key=\"Add10Converter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 38,
+   "whole_line": "    <converter:InverseOrientationConverter x:Key=\"InverseOrientationConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 39,
+   "whole_line": "    <converter:CloneConverter x:Key=\"CloneConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 41,
+   "whole_line": "    <converter:MultiComboBoxIsCheckedConverter x:Key=\"MultiComboBoxIsCheckedConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 42,
+   "whole_line": "    <converter:DropDownBorderPathConverter x:Key=\"DropDownBorderPathConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 43,
+   "whole_line": "    <converter:RingProgressBarConverter x:Key=\"RingProgressBarConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 44,
+   "whole_line": "    <converter:LoadingBackgroundThicknessConverter x:Key=\"LoadingBackgroundThicknessConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 45,
+   "whole_line": "    <converter:LoadingLineYConverter x:Key=\"LoadingLineYConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 46,
+   "whole_line": "    <converter:LoadingClassicMarginConverter x:Key=\"LoadingClassicMarginConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 47,
+   "whole_line": "    <converter:LoadingClassicEllipseSizeConverter x:Key=\"LoadingClassicEllipseSizeConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 48,
+   "whole_line": "    <converter:CornerRadiusAdd1Converter x:Key=\"CornerRadiusAdd1Converter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 49,
+   "whole_line": "    <converter:Minus4Converter x:Key=\"Minus4Converter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 51,
+   "whole_line": "    <converter:MsbButtonVisibilityConverter x:Key=\"MsbButtonVisibilityConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 53,
+   "whole_line": "    <converter:MsbCheckIconVisibilityConverter x:Key=\"MsbCheckIconVisibilityConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 54,
+   "whole_line": "    <converter:MsbCheckIconWidthConverter x:Key=\"MsbCheckIconWidthConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 56,
+   "whole_line": "    <converter:NotAlignmentCenterConverter x:Key=\"NotAlignmentCenterConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 58,
+   "whole_line": "    <converter:TimelineHeaderConverter x:Key=\"TimelineHeaderConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/68630fcd.xaml",
+   "line": 59,
+   "whole_line": "    <converter:TimelimeStripPlacementToOrientationConverter x:Key=\"TimelimeStripPlacementToOrientationConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/76c30af7.xaml",
+   "line": 10,
+   "whole_line": "    <converter:ComboBoxTextMarginConverter x:Key=\"ComboBoxTextMarginConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/7e0fcbb0.xaml",
+   "line": 11,
+   "whole_line": "    <converter:ProgressBarCornerRadiusConverter x:Key=\"ProgressBarCornerRadiusConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/7e0fcbb0.xaml",
+   "line": 12,
+   "whole_line": "    <converter:RingProgressBarConverter x:Key=\"RingProgressBarConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/7e0fcbb0.xaml",
+   "line": 13,
+   "whole_line": "    <converter:ProgressBarPercentConverter x:Key=\"ProgressBarPercentConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/7e0fcbb0.xaml",
+   "line": 14,
+   "whole_line": "    <converter:ProgressBarOffset1Converter x:Key=\"ProgressBarOffset1Converter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/7e0fcbb0.xaml",
+   "line": 15,
+   "whole_line": "    <converter:ProgressBarOffset2Converter x:Key=\"ProgressBarOffset2Converter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/95fca24f.cs",
+   "line": 49,
+   "value": "31bf3856ad364e35",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/a26cea8f.cs",
+   "line": 87,
+   "whole_line": "        public static string GetPassword(DependencyObject obj)",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/a26cea8f.cs",
+   "line": 94,
+   "whole_line": "            obj.SetValue(PasswordProperty, value);",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/a26cea8f.cs",
+   "line": 100,
+   "whole_line": "        private static void OnPasswordChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/a26cea8f.cs",
+   "line": 103,
+   "whole_line": "            var password = e.NewValue as string;",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/a26cea8f.cs",
+   "line": 105,
+   "whole_line": "            if (password != passwordBox.Password)",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/a26cea8f.cs",
+   "line": 144,
+   "whole_line": "        public static bool GetIsShowPwdButtonVisible(DependencyObject obj)",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/a26cea8f.cs",
+   "line": 151,
+   "whole_line": "            obj.SetValue(IsShowPwdButtonVisibleProperty, value);",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/a26cea8f.cs",
+   "line": 159,
+   "whole_line": "        internal static bool GetPasswordHook(DependencyObject obj)",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/a26cea8f.cs",
+   "line": 172,
+   "whole_line": "        private static void OnPasswordHookChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/b6769dc0.xaml",
+   "line": 11,
+   "whole_line": "    <FontFamily x:Key=\"FontAwesome\">/Panuon.UI.Silver;component/Resources/#fontawesome</FontFamily>",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/b6769dc0.xaml",
+   "line": 12,
+   "whole_line": "    <sys:String x:Key=\"Button_WaitingContent\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/browser/77132ef6.xaml",
+   "line": 5,
+   "whole_line": "    <DrawingBrush x:Key=\"GridBrush\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/browser/77132ef6.xaml",
+   "line": 29,
+   "whole_line": "    <DropShadowEffect x:Key=\"DropShadow\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/browser/77132ef6.xaml",
+   "line": 35,
+   "whole_line": "    <LinearGradientBrush x:Key=\"ColorSelectorBrush\">",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/browser/77132ef6.xaml",
+   "line": 55,
+   "whole_line": "    <Style x:Key=\"NeteaseMusicWindow\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/d9bfd0f1.xaml",
+   "line": 10,
+   "whole_line": "    <converter:CheckBoxGlyphPathConverter x:Key=\"CheckBoxGlyphPathConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/d9bfd0f1.xaml",
+   "line": 11,
+   "whole_line": "    <converter:SwitchToggleMarginConverter x:Key=\"SwitchToggleMarginConverter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/d9bfd0f1.xaml",
+   "line": 12,
+   "whole_line": "    <converter:Minus2Converter x:Key=\"Minus2Converter\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/ea45abb9.xaml",
+   "line": 15,
+   "whole_line": "        <Storyboard x:Key=\"Storyboard_ScaleBigger\">",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/ea45abb9.xaml",
+   "line": 33,
+   "whole_line": "        <Storyboard x:Key=\"Storyboard_ScaleSmaller\">",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/ea45abb9.xaml",
+   "line": 51,
+   "whole_line": "        <Storyboard x:Key=\"Storyboard_Wave\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/ea45abb9.xaml",
+   "line": 69,
+   "whole_line": "        <Storyboard x:Key=\"Storyboard_Wave_Bigger\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f4f2aaa3.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:abb725730110359dd0dc28b20b75f61b054c39e471665ecbea87c2d958f3febf"
+  },
+  {
+   "file": "_/f4f2aaa3.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "067c2c5b736d61c1d3dfbd940aa0506798bf681c"
+  },
+  {
+   "file": "_/f4f2aaa3.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "_/f4f2aaa3.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "_/f4f2aaa3.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "3.9.6"
+  },
+  {
+   "file": "_/99a29b85.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "71, 69, 84, 47, 104, 101, 97, 108, 116, 104, 122"
+  },
+  {
+   "file": "_/99a29b85.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+  },
+  {
+   "file": "_/99a29b85.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "436f6e74656e742d54797065"
+  },
+  {
+   "file": "_/99a29b85.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "_/99a29b85.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@helix-corp.de"
+  },
+  {
+   "file": "src/89bea7a2.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "0.10.13"
+  },
+  {
+   "file": "src/89bea7a2.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "b62ab87935ebe6a6447975dabc044b2f14f16fb6"
+  },
+  {
+   "file": "src/89bea7a2.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "A52JPS0SJ3ZJ7BBIKU3YKOY7QV"
+  },
+  {
+   "file": "src/89bea7a2.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "src/89bea7a2.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "1SUEFACSZSHYTMG3EXAPXJATCM"
+  },
+  {
+   "file": "src/89bea7a2.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "test/ba69ace8.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI7jQo9kNOCuvtJFQJAWGcxIdITrE8TT6IpmGcLQUd6Ns"
+  },
+  {
+   "file": "test/ba69ace8.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9db90718c3134b5c133ee00433aa95b8df87f9c3bc2cafca1dc134f7e8eabe4d"
+  },
+  {
+   "file": "test/ba69ace8.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/ba69ace8.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "_/70315102.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "SAE1R5FXD0IC5VB30LZU017TIT"
+  },
+  {
+   "file": "_/70315102.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "466aad70-6791-4d85-a05f-238ae7f885b4"
+  },
+  {
+   "file": "_/70315102.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "_/70315102.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/2f25ffb9.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/pinegrid/auth/staging"
+  },
+  {
+   "file": "_/2f25ffb9.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "ETL_AUTH_TOKEN"
+  },
+  {
+   "file": "_/2f25ffb9.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Authorization"
+  },
+  {
+   "file": "_/2f25ffb9.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/run/secrets/etl_password"
+  },
+  {
+   "file": "_/2f25ffb9.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "HS256"
+  },
+  {
+   "file": "_/2f25ffb9.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "_/2f25ffb9.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "403659430806-qwlvt33ugjwe9g9qr6vh0epw5k6rms6a.apps.googleusercontent.com"
+  },
+  {
+   "file": "_/2f25ffb9.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2026-03-01T00:00:00Z"
+  },
+  {
+   "file": "_/2f25ffb9.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "crm-oauth-client"
+  },
+  {
+   "file": "_/2f25ffb9.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6MTg1NTM6b2Zmc2V0OjQxOA=="
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "portal.pinegrid-ops.io"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sftp.datafjord.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "185.146.69.63"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Ben Schwarz"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Lukas Neumann"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "portal.pinegrid-ops.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.datafjord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.datafjord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "185.146.69.63"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "db.debian.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.pinegrid.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Ben Schwarz"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "ben.schwarz@pinegrid.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

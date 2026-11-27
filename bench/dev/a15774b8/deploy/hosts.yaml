@@ -1,0 +1,15 @@
+monitoring: juno.helix.systems
+database:
+  host: pallas.helix.systems
+  port: 5432
+queue: falkor.helix.systems
+backup_target: tarvos.helix.systems
+website: portal.helix.systems
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: edi.logistik-nord.de
+allow_sources:
+  - 188.40.73.242
+  - 192.30.252.153
+  - 188.59.173.205
+ntp: 131.188.3.220
+mirrors: [grafana.wikimedia.org, gitlab.freedesktop.org]

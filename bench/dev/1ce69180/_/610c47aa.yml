@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.nordwind.io/app@sha256:83da484a46764b31da569c4cc9d481a9c75876c0a403c6542a65154ba89e8ead
+    environment:
+      - DATABASE_URL=postgres://app:Hafenurlaub92!@10.34.207.113:5432/app
+      - SENTRY_RELEASE=0920a4a648be25873fa2fc89765f36f077a55609
+      - API_TOKEN=${DB_PASSWORD}
+      - BIND_ADDR=127.0.0.1
+  worker:
+    image: registry.nordwind.io/worker:5.3.20
+    environment:
+      - QUEUE_PASS=SjAxbjNy

@@ -1,0 +1,51 @@
+    "shapeModifiers" : null,
+    "shapeSubstitutions" : null,
+    "simpleMethods" : {
+      "DescribeWorkspaceBundles" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "DescribeWorkspaceDirectories" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "DescribeWorkspaces" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2015-04-08",
+    "asyncClient" : "AmazonWorkspacesAsyncClient",
+    "asyncClientBuilderClassName" : "AmazonWorkspacesAsyncClientBuilder",
+    "asyncInterface" : "AmazonWorkspacesAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AmazonWorkspacesModuleInjector",
+    "defaultEndpoint" : "https://workspaces.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "workspaces.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>Amazon WorkSpaces Service</fullname> <p>Amazon WorkSpaces enables you to provision virtual, cloud-based Microsoft Windows and Amazon Linux desktops for your users.</p>",
+    "endpointPrefix" : "workspaces",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.workspaces",
+    "packagePath" : "com/amazonaws/services/workspaces",
+    "protocol" : "json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : null,

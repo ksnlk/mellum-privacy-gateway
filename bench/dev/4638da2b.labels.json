@@ -1,0 +1,777 @@
+{
+ "repo": "4638da2b",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "docs/2159ff2e.md",
+   "line": 61,
+   "start": 20,
+   "end": 25,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "level"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "docs/2159ff2e.md",
+   "line": 200,
+   "start": 21,
+   "end": 170,
+   "category": "JSON Web Token:Token",
+   "mutation": "none",
+   "forms": [
+    "eyJahHsgUhDZMMA6MDPuSzC8uPA4OuVNXQI7.uoQbmIHkKhYbPWZ4ZWLnKON3XxixWYoUMPL6Yl6TVG0upFGuOuter8GmVU4aBuHbvDU2.GEIC00LkQ3O1aFyn93ELUlRLhHjdurGXcsPJLJy1EpX"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/7a39af05",
+   "line": 1,
+   "line_end": 15,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIICWwIBAAKBgHURzSlt138r+y76sFtADAiW3Xc2cvXdyXyc/Xr7EEDLSpqfs+aE",
+    "sefG3n+f7leN+DfY+F8WwgGQxTbQR4AgrvcBuBOUlPVjIey77OFBilPkeM7+ip2p",
+    "zC4ncncUCN48YcAh7UOFFQ7MoSlZuMLb8UBuRMU8DA1B91N2YuihV7vHtFNpYJbN",
+    "ZCuK1aKiT85pFg+5/hfCaJaK+rDH4dnmEdBXWIOrXLWeu8gE44mBwpmOn+qyqsOU",
+    "iggBr0NH8BcJLwD3Nrs4Qvp7b25JWivHed3IEh0UtXz1xNjEKjxFOJtloJrvdApV",
+    "o+xtRtiB3OYlpJlN0dF4lB3lRN5trMM2DNPEq6JNZkMvyabXyr+NTBE2y1JBHX9W",
+    "n1iptgvgLuoa6ejwJ+omHMGoVO9fUGayBewMAQcwz0gu4oRlgt8XX0SS2zaM7l6n",
+    "aw4dsNhkAInyOTCs+dCwpAVq2wJZACcloyuI+82lNUOHYydkhH/NnQzih+r/a4xD",
+    "0GQfdAWsZTIT/DTQjBiVzdu8fE0wfEUzJvGgnx0JPF0c34Z6yc7HJ0Uh3EEU4+E2",
+    "PkiyghM4TwPXoE06EmjI5t+3u42s4RTYeugq4tWK0USmm2KeogtWMbPWGJFfpaOB",
+    "S5DyNrofVcMfx7lfOW1nVGnji+UFeKI+PYHQXf6UIYsOHrGqg2BpP/lyqhTWNKiV",
+    "XXdsHnFEUwrPyV/jqVDKsdnw/ZY2aJTRPRdaItm5tqFmsfRdO2+uECAZ+Kuow85w",
+    "WnJdj7JUmsHrBZUkLoNGsI+TujuzpWROpXQaGmn8bf=="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "other/616efee6.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "101, 106, 90, 117, 65, 74, 99, 48, 49, 69, 78, 49, 115, 88, 111, 75, 88, 75, 86, 73, 81, 122, 99, 116, 72, 70, 102, 48, 84, 81, 48, 111",
+    "ejZuAJc01EN1sXoKXKVIQzctHFf0TQ0o"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/616efee6.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben79@gmail.com"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/3807ab22.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "glossary.registered.ellipse.maus89"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/3807ab22.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-replica.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/3b850838.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-primary.kelpie.cloud"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/3b850838.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "react",
+    "reactive_erde",
+    "ive_erde"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/079c5e5c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Igelwald65!"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/e430461c.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-primary.nordwind.cloud"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/e430461c.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "4rU8sXXrOXFnRu3NQGJQ5U2GeZwjprTg"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/449a9626.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "eva76@gmail.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/449a9626.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 4078 2528"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/449a9626.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Urlaubfortuna79?"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/449a9626.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE42194283371481992545"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/ea12f601.yml",
+   "line": 52,
+   "whole_line": "          key: \"php-${{ matrix.php }}-laravel-${{ matrix.laravel }}-${{ hashFiles('**/composer.json') }}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ea12f601.yml",
+   "line": 53,
+   "value": "php-${{ matrix.php }}-laravel-${{ matrix.laravel }}-${{ hashFiles('**/composer.json') }}",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/2159ff2e.md",
+   "line": 138,
+   "whole_line": "        if (! $token = auth()->attempt($credentials)) {",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/2159ff2e.md",
+   "line": 214,
+   "whole_line": "`Authorization: Bearer eyJhbGciOiJIUzI1NiI...`",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/2159ff2e.md",
+   "line": 218,
+   "value": "eyJhbGciOiJIUzI1NiI...",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/fef6a8be.md",
+   "line": 11,
+   "whole_line": "  $token = auth('api')->attempt($credentials);",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/fef6a8be.md",
+   "line": 20,
+   "whole_line": "$token = auth()->attempt($credentials);",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/fef6a8be.md",
+   "line": 34,
+   "whole_line": "$token = auth()->login($user);",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/fef6a8be.md",
+   "line": 43,
+   "whole_line": "$user = auth()->user();",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/fef6a8be.md",
+   "line": 54,
+   "whole_line": "    $user = auth()->userOrFail();",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/fef6a8be.md",
+   "line": 102,
+   "whole_line": "$token = auth()->tokenById(123);",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/fef6a8be.md",
+   "line": 140,
+   "whole_line": "$user = auth()->setToken('eyJhb...')->user();",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/fef6a8be.md",
+   "line": 146,
+   "whole_line": "$user = auth()->setRequest($request)->user();",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/fef6a8be.md",
+   "line": 152,
+   "whole_line": "$token = auth()->setTTL(7200)->attempt($credentials);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/14a55201.php",
+   "line": 113,
+   "whole_line": "                $key = $value->getName();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/6854e3b2.php",
+   "line": 84,
+   "whole_line": "        $token = $this->provider->encode($payload->get());",
+   "source": "creddata"
+  },
+  {
+   "file": "src/70ef2b73.php",
+   "line": 21,
+   "whole_line": "    protected $key = 'token';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/70ef2b73.php",
+   "line": 32,
+   "whole_line": "        $this->key = $key;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b2b18951.php",
+   "line": 142,
+   "whole_line": "        $token = $this->jwt->fromUser($user);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/bad6af06.php",
+   "line": 89,
+   "whole_line": "        $token = $token ?: $this->auth->refresh();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/dadc9229.php",
+   "line": 220,
+   "whole_line": "        $this->key = value($key);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e0fd7634.php",
+   "line": 36,
+   "whole_line": "            $token = $this->auth->parseToken()->refresh();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/f1158fbe.php",
+   "line": 141,
+   "whole_line": "        if ($this->claimFactory->getTTL() === null && $key = array_search('exp', $this->defaultClaims)) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fccb8d5c.php",
+   "line": 184,
+   "whole_line": "        if (! $token = $this->parser->parseToken()) {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fccb8d5c.php",
+   "line": 304,
+   "whole_line": "        $this->token = $token instanceof Token ? $token : new Token($token);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/secret/281f4af8.php",
+   "line": 43,
+   "whole_line": "        $key = Str::random(64);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/secret/281f4af8.php",
+   "line": 57,
+   "whole_line": "            file_put_contents($path, PHP_EOL.\"JWT_SECRET=$key\".PHP_EOL, FILE_APPEND);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/secret/281f4af8.php",
+   "line": 73,
+   "whole_line": "                'JWT_SECRET='.$this->laravel['config']['jwt.secret'],",
+   "source": "creddata"
+  },
+  {
+   "file": "src/secret/281f4af8.php",
+   "line": 74,
+   "whole_line": "                'JWT_SECRET='.$key, file_get_contents($path)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/secret/281f4af8.php",
+   "line": 90,
+   "whole_line": "        $this->laravel['config']['jwt.secret'] = $key;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1bdaa6aa.php",
+   "line": 60,
+   "whole_line": "        $token = $this->getProvider('secret', 'HS256')->encode($payload);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1bdaa6aa.php",
+   "line": 131,
+   "whole_line": "        $this->builder->shouldReceive('sign')->once()->with(Mockery::any(), Mockery::type(Key::class));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1bdaa6aa.php",
+   "line": 134,
+   "whole_line": "        $token = $provider->encode($payload);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6e1f6f60.php",
+   "line": 51,
+   "whole_line": "        $token = $this->getProvider('secret', 'HS256')->encode($payload);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6e1f6f60.php",
+   "line": 123,
+   "whole_line": "        $token = $provider->encode($payload);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6e1f6f60.php",
+   "line": 143,
+   "whole_line": "        $token = $provider->encode($payload);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/6e1f6f60.php",
+   "line": 163,
+   "whole_line": "        $token = $provider->encode($payload);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/99010426.php",
+   "line": 89,
+   "whole_line": "        $token = $this->manager->encode($payload);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/99010426.php",
+   "line": 110,
+   "whole_line": "        $token = new Token('foo.bar.baz');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/99010426.php",
+   "line": 144,
+   "whole_line": "        $token = new Token('foo.bar.baz');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/99010426.php",
+   "line": 172,
+   "whole_line": "        $token = new Token('foo.bar.baz');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/99010426.php",
+   "line": 184,
+   "whole_line": "        $token = $this->manager->refresh($token);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/99010426.php",
+   "line": 187,
+   "whole_line": "        $this->assertInstanceOf(Token::class, $token);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/99010426.php",
+   "line": 206,
+   "whole_line": "        $token = new Token('foo.bar.baz');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/99010426.php",
+   "line": 236,
+   "whole_line": "        $token = new Token('foo.bar.baz');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/99010426.php",
+   "line": 257,
+   "whole_line": "        $token = new Token('foo.bar.baz');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ab451819.php",
+   "line": 412,
+   "whole_line": "        $token = $this->guard->login($user);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 53,
+   "whole_line": "        $this->auth = Mockery::mock(Auth::class);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 72,
+   "whole_line": "        $token = $this->jwtAuth->fromUser(new UserStub);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 88,
+   "value": "foo.bar.baz",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 102,
+   "value": "foo.bar.baz",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 116,
+   "value": "foo.bar.baz",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 173,
+   "whole_line": "        $user = $this->jwtAuth->setToken('foo.bar.baz')->customClaims(['foo' => 'bar'])->authenticate();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 189,
+   "whole_line": "        $user = $this->jwtAuth->setToken('foo.bar.baz')->authenticate();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 197,
+   "whole_line": "        $newToken = Mockery::mock(Token::class);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 202,
+   "value": "foo.bar.baz",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 210,
+   "whole_line": "        $token = new Token('foo.bar.baz');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 220,
+   "whole_line": "        $token = new Token('foo.bar.baz');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 232,
+   "whole_line": "        $this->assertInstanceOf(Token::class, $this->jwtAuth->parseToken()->getToken());",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 300,
+   "whole_line": "        $token = $this->jwtAuth->setRequest($request)->getToken();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 309,
+   "whole_line": "        $token = new Token('foo.bar.baz');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/caafbb94.php",
+   "line": 339,
+   "value": "foo.bar.baz",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e5b94564.php",
+   "line": 170,
+   "whole_line": "        $request = Request::create('foo', 'GET', ['token' => 'foobar']);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e5b94564.php",
+   "line": 187,
+   "whole_line": "        $request = Request::create('foo', 'GET', ['custom_token_key' => 'foobar']);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e5b94564.php",
+   "line": 204,
+   "whole_line": "        $request = Request::create('foo?token=foobar', 'POST', [], [], [], [], json_encode(['token' => 'foobarbaz']));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e5b94564.php",
+   "line": 221,
+   "whole_line": "        $request = Request::create('foo?custom_token_key=foobar', 'POST', [], [], [], [], json_encode(['custom_token_key' => 'foobarbaz']));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e5b94564.php",
+   "line": 238,
+   "whole_line": "        $request = Request::create('foo', 'POST', [], [], [], [], json_encode(['token' => 'foobar']));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e5b94564.php",
+   "line": 256,
+   "whole_line": "        $request = Request::create('foo', 'POST', [], [], [], [], json_encode(['custom_token_key' => 'foobar']));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e5b94564.php",
+   "line": 274,
+   "whole_line": "        $request = Request::create('foo', 'POST', [], ['token' => 'foobar']);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e5b94564.php",
+   "line": 297,
+   "value": "foobar",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e5b94564.php",
+   "line": 382,
+   "whole_line": "            return [false, ['uses' => 'someController'], ['token' => 'foobar']];",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e5b94564.php",
+   "line": 402,
+   "whole_line": "            return [false, ['uses' => 'someController'], ['token' => 'foo.bar.baz']];",
+   "source": "creddata"
+  },
+  {
+   "file": "other/616efee6.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "104, 101, 108, 108, 111, 95, 119, 111, 114, 108, 100, 95, 116, 101, 115, 116"
+  },
+  {
+   "file": "other/616efee6.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+  },
+  {
+   "file": "other/616efee6.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "6170706c69636174696f6e2f6a736f6e"
+  },
+  {
+   "file": "other/616efee6.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/616efee6.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "privacy@acme-corp.de"
+  },
+  {
+   "file": "test/3807ab22.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIcsAC4gIMGJCKkkUbNv32axNQqhbaCsDLUWdoHVWTrjt"
+  },
+  {
+   "file": "test/3807ab22.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "8f583e5e40b8d93627f4a1da932ba61473682dfd066186b19ecfecfb6fd0c79b"
+  },
+  {
+   "file": "test/3807ab22.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/3807ab22.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "src/3b850838.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "e6c68c556e4a16b88df63553de9bcbbc65850d26"
+  },
+  {
+   "file": "src/3b850838.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "src/3b850838.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "pypi.org"
+  },
+  {
+   "file": "other/079c5e5c.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Pap2020"
+  },
+  {
+   "file": "other/079c5e5c.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Classmate2022"
+  },
+  {
+   "file": "test/e430461c.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "test/e430461c.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6.23.14"
+  },
+  {
+   "file": "test/e430461c.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "449756ba1446b5306d05cfa3cb82f1bfa83ecc52"
+  },
+  {
+   "file": "test/e430461c.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5f1b6d62-ab81-4567-9f8b-4bb8b0bda144"
+  },
+  {
+   "file": "test/449a9626.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "test/449a9626.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "user@example.com"
+  },
+  {
+   "file": "test/449a9626.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "${DB_PASSWORD}"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "apiVersion": "2020-01-01",
+    "endpointPrefix": "macie2",
+    "signingName": "macie2",
+    "serviceFullName": "Amazon Macie 2",
+    "serviceId": "Macie2",
+    "protocol": "rest-json",
+    "jsonVersion": "1.1",
+    "uid": "macie2-2020-01-01",
+    "signatureVersion": "v4"
+  },
+  "operations": {
+    "AcceptInvitation": {
+      "name": "AcceptInvitation",
+      "http": {
+        "method": "POST",
+        "requestUri": "/invitations/accept",
+        "responseCode": 200
+      },
+      "input": {
+        "shape": "AcceptInvitationRequest"
+      },
+      "output": {
+        "shape": "AcceptInvitationResponse",
+        "documentation": "<p>The request succeeded and there isn't any content to include in the body of the response (No Content).</p>"
+      },
+      "errors": [
+      "type": "string",
+      "documentation": "<p>The property to use in a condition that determines whether an S3 bucket is included or excluded from a classification job. Valid values are:</p>",
+      "enum": [
+        "ACCOUNT_ID",
+        "S3_BUCKET_NAME",
+        "S3_BUCKET_EFFECTIVE_PERMISSION",
+        "S3_BUCKET_SHARED_ACCESS"
+      ]
+    },
+    "SimpleScopeTerm": {
+      "type": "structure",
+      "members": {
+        "comparator": {
+          "shape": "JobComparator",
+          "locationName": "comparator",
+          "documentation": "<p>The operator to use in the condition. Valid operators for each supported property (key) are:</p> <ul><li><p>OBJECT_EXTENSION - EQ (equals) or NE (not equals)</p></li> <li><p>OBJECT_KEY - STARTS_WITH</p></li> <li><p>OBJECT_LAST_MODIFIED_DATE - Any operator except CONTAINS</p></li> <li><p>OBJECT_SIZE - Any operator except CONTAINS</p></li> <li><p>TAG - EQ (equals) or NE (not equals)</p></li></ul>"
+        },
+        "key": {
+          "shape": "ScopeFilterKey",
+          "locationName": "key",
+          "documentation": "<p>The object property to use in the condition.</p>"
+        },
+        "values": {
+          "shape": "__listOf__string",
+          "locationName": "values",
+          "documentation": "<p>An array that lists the values to use in the condition. If the value for the key property is OBJECT_EXTENSION or OBJECT_KEY, this array can specify multiple values and Amazon Macie uses an OR operator to join the values. Otherwise, this array can specify only one value.</p> <p>Valid values for each supported property (key) are:</p> <ul><li><p>OBJECT_EXTENSION - A string that represents the file name extension of an object. For example: docx or pdf</p></li> <li><p>OBJECT_KEY - A string that represents the key prefix (folder name or path) of an object. For example: logs or awslogs/eventlogs. This value applies a condition to objects whose keys (names) begin with the specified value.</p></li> <li><p>OBJECT_LAST_MODIFIED_DATE - The date and time (in UTC and extended ISO 8601 format) when an object was created or last changed, whichever is latest. For example: 2020-09-28T14:31:13Z</p></li> <li><p>OBJECT_SIZE - An integer that represents the storage size (in bytes) of an object.</p></li> <li><p>TAG - A string that represents a tag key for an object. For advanced options, use a TagScopeTerm object instead of a SimpleScopeTerm object to define a tag-based condition for the job.</p></li></ul> <p>Macie doesn't support use of wildcard characters in these values. Also, string values are case sensitive.</p>"
+        }
+      },
+      "documentation": "<p>Specifies a property-based condition that determines whether an S3 object is included or excluded from a classification job.</p>"
+    },
+    "SortCriteria": {
+      "type": "structure",
+      "members": {
+        "attributeName": {
+          "shape": "__string",
+          "locationName": "attributeName",
+          "documentation": "<p>The name of the property to sort the results by. This value can be the name of any property that Amazon Macie defines for a finding.</p>"
+        },
+        "orderBy": {
+          "shape": "OrderBy",
+          "locationName": "orderBy",
+          "documentation": "<p>The sort order to apply to the results, based on the value for the property specified by the attributeName property. Valid values are: ASC, sort the results in ascending order; and, DESC, sort the results in descending order.</p>"
+        }
+      },
+      "documentation": "<p>Specifies criteria for sorting the results of a request for findings.</p>"
+    },
+    "Statistics": {
+      "type": "structure",
+      "members": {
+        "approximateNumberOfObjectsToProcess": {
+          "shape": "__double",

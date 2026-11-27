@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://vault.l3kism.ng.0001.euc1.cache.amazonaws.com/api/v3/invoices?page=2
+Authorization: Basic Z3JhZmFuYTpIZXJ6aGFtYnVyZzA3Pw==
+Cookie: _ga=GA1.2.D232G6VVFEO0OLPK5RPJ8USCJ4; session_id=ni4qbwraz8pa6p29sekm5ozdyxhqu217
+X-Request-Id: 32cf57a1-b778-4e61-93e9-7b7fbf361b81
+
+### the docs example, safe to share
+GET https://sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

@@ -1,0 +1,19 @@
+# acme payments service
+database:
+  host: etl-prod.8d2hpc1ymmps.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "S1z3d!"
+  password_source: secret/data/acme/crm/prod
+  password_env: LEDGER_API_KEY
+api:
+  key_header: X-Auth-Token
+  partner_ident: pyUPc2a9gs6PLGKNvX8x7dXYrtnysTRr
+  key_file: /etc/crm/tls/private.key
+  signing_alg: AES-256-GCM
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 447639183886-bwhhfvyoss8fsg9qrkjre8jtjq2wicmr.apps.googleusercontent.com
+  client_proof: rs3c5qfg853obg3h0s8o56faykkjhyb1
+  secret_rotated_at: "2024-04-27T00:00:00Z"
+  secret_name: payments-oauth-client
+pagination:
+  first_cursor: dXNlcjo2MjIyMzpvZmZzZXQ6NDY3

@@ -1,0 +1,34 @@
+              "Method": "TryReadSecureData",
+              "Queries": [
+                {
+                  "Input": "git:https://dev-x.visualstudio.com",
+                  "Ordinal": 394,
+                  "Output": {
+                    "Result": false
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Adal": {
+      "Operations": [
+        {
+          "AuthorityUrl": "https://login.microsoftonline.com/common",
+          "Error": {
+            "Message": "User canceled authentication"
+          },
+          "Input": {
+            "Resource": "171c90dd-4600-651e-da21-209be7550652",
+            "ClientId": "215fb1ee-b64a-93a7-9bfb-6c110a64f9d2",
+            "RedirectUrl": "urn:ietf:wg:oauth:2.0:oob",
+            "ExtraQueryParameters": ""
+          },
+          "Result": {}
+        }
+      ]
+    }
+  }
+}

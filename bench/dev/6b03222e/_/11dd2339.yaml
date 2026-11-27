@@ -1,0 +1,19 @@
+# pinegrid payments service
+database:
+  host: reports-prod.0nn3f2y9pnx1.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "Müllermainz29?"
+  password_source: secret/data/pinegrid/billing/staging
+  password_env: CRM_API_KEY
+api:
+  key_header: X-Api-Key
+  partner_ident: eTRvEbMJtLGLxMdhLjcOOan3orKzYkNc
+  key_file: /run/secrets/reports_password
+  signing_alg: bcrypt
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 240635692152-xb1e9tdl9vml2kc8duga8iy11vhtz5d5.apps.googleusercontent.com
+  client_proof: kxnoicxxkxkbigfvz5gwcoiarx9obn3p
+  secret_rotated_at: "2025-03-26T00:00:00Z"
+  secret_name: reports-oauth-client
+pagination:
+  first_cursor: b3JkZXI6NzQ4MDQ6b2Zmc2V0OjIwMA==

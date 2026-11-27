@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: nordwind-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "2c515eb"
+type: Opaque
+data:
+  DB_PASSWORD: Zmx1c3NfemF1YmVyX2xpbmRl
+  STRIPE_KEY: c2tfbGl2ZV92SE8wMHN6ZHM3dVRxTDlhVlVZSU82VTE=
+  ca.crt.sha256: 99326f79c6cfc0d7558d940510a97e53abecf666197abaf89bbaa5421a655c1d
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nordwind-payments-config
+data:
+  DB_HOST: "ledger-prod.d4kszivtddr9.eu-central-1.rds.amazonaws.com"
+  SENTRY_HOST: "auth0.com"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

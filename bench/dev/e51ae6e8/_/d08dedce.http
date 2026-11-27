@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://crm-cache-06.int.acme-internal.net/api/v3/invoices?page=2
+Authorization: Basic c3ZjX2JhY2t1cDpDcjNAdDM=
+Cookie: _ga=GA1.2.DIK88A0QCCEJBF21OG2TPLRJHR; session_id=h3d4bj2ic8wyvrcjfzg1s6yvgug9xmt5
+X-Request-Id: 93ff3293-e287-4c9e-8787-42a64e3b2a84
+
+### the docs example, safe to share
+GET https://auth0.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

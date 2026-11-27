@@ -1,0 +1,728 @@
+{
+ "repo": "36b76643",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/b3356305.md",
+   "line": 218,
+   "start": 13,
+   "end": 29,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "ntlhyekecwzyjmzj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "docker/e45e45ba.yml",
+   "line": 31,
+   "start": 24,
+   "end": 34,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "nerpisyghd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/api/73363c43.go",
+   "line": 284,
+   "start": 36,
+   "end": 80,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "TLuY0mY3n8EMVKIOjiXLwu5Jzqz5buPCWTV_RbGskoyN"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/api/73363c43.go",
+   "line": 351,
+   "start": 37,
+   "end": 81,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "GMeJ2pS4w0IPRZASayWVpc8Xrxl6ywJASCC_QjHcsvdF"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/api/73363c43.go",
+   "line": 589,
+   "start": 36,
+   "end": 80,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "ZVyI3uS3m6JDIKEJmqMRmu5Cowv7azMURUQ_JhBoardA"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/d45129d5.go",
+   "line": 45,
+   "start": 23,
+   "end": 34,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "xwhjqe4pymq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/util/api/0111c3f3.go",
+   "line": 75,
+   "start": 49,
+   "end": 59,
+   "category": "Secret",
+   "mutation": "comment",
+   "forms": [
+    "nbhdhtfwnc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/99f5d672.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "scan659"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/99f5d672.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.38.196.92"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/99f5d672.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "TGluZGVoYWZlbjEzPw==",
+    "Lindehafen13?"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/46438fa5.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm.8a0ap5.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/46438fa5.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "UxjtPF9DAYebUBYvuOXsVnyDmJIX6xlE"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/ae78c97f.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-prod.7ygnx84pfyyd.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/ae78c97f.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "c3ZjX2JhY2t1cDpDZWNpbGUyMDExKg==",
+    "svc_backup:Cecile2011*"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/ae78c97f.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "ubk0u7cqqaqenfno1hdjxmuyyobc4aw1"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/ffcc4975.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "70, 57, 87, 81, 107, 119, 57, 65, 118, 97, 101, 79, 120, 84, 66, 108, 50, 114, 110, 114, 90, 70, 56, 82, 103, 53, 109, 53, 48, 105, 52, 90",
+    "F9WQkw9AvaeOxTBl2rnrZF8Rg5m50i4Z"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/ffcc4975.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "d.koch@helix-corp.de"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/ef0d51a5.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-primary.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/ef0d51a5.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Freudet",
+    "Freudetal99?",
+    "al99?"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "test/de0aa946.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-prod.xm5lm682thky.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/de0aa946.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_e9Mh42SMnJ5QWqhyn1JR5XhTTFpMhrLp52PS"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/1b67bf06.go",
+   "line": 69,
+   "whole_line": "\t\tpassword:  config.Coupons.Password,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1b67bf06.go",
+   "line": 82,
+   "value": "c.user",
+   "source": "creddata"
+  },
+  {
+   "file": "_/1ee15e93.go",
+   "line": 25,
+   "whole_line": "\t\ttoken:  token,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/5c1001d1.go",
+   "line": 64,
+   "whole_line": "\t\t\tPass:    smtpPass,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 239,
+   "whole_line": "GOCOMMERCE_SMTP_PASS=correcthorsebatterystaple",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 219,
+   "value": "argon2id",
+   "source": "creddata"
+  },
+  {
+   "file": "_/f6ea024f.go",
+   "line": 107,
+   "whole_line": "\t\t\t\"payment_intent_secret\": intent.ClientSecret,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/56e1e456.go",
+   "line": 538,
+   "whole_line": "\t\t\tSecretKey: c.Payment.Stripe.SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "api/56e1e456.go",
+   "line": 549,
+   "whole_line": "\t\t\tSecret:   c.Payment.PayPal.Secret,",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/e45e45ba.yml",
+   "line": 28,
+   "whole_line": "      MYSQL_RANDOM_ROOT_PASSWORD: \"yes\"",
+   "source": "creddata"
+  },
+  {
+   "file": "example/a714eca1.env",
+   "line": 11,
+   "whole_line": "GOCOMMERCE_MAILER_PASS=super-secret-password",
+   "source": "creddata"
+  },
+  {
+   "file": "example/a714eca1.env",
+   "line": 15,
+   "value": "stripe_public_key",
+   "source": "creddata"
+  },
+  {
+   "file": "model/365a318b.go",
+   "line": 80,
+   "whole_line": "\t\tSecret:  secret,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/73363c43.go",
+   "line": 55,
+   "whole_line": "\t\ttoken := testAdminToken(\"magical-unicorn\", \"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/73363c43.go",
+   "line": 100,
+   "whole_line": "\t\ttoken := testAdminToken(\"magical-unicorn\", \"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/73363c43.go",
+   "line": 139,
+   "whole_line": "\t\ttoken := testAdminToken(\"magical-unicorn\", \"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/73363c43.go",
+   "line": 151,
+   "whole_line": "\t\ttoken := testAdminToken(\"magical-unicorn\", \"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/73363c43.go",
+   "line": 170,
+   "whole_line": "\t\ttoken := testAdminToken(\"magical-unicorn\", \"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/73363c43.go",
+   "line": 180,
+   "whole_line": "\t\ttoken := testAdminToken(\"magical-unicorn\", \"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/73363c43.go",
+   "line": 227,
+   "whole_line": "\t\ttoken := testAdminToken(\"magical-unicorn\", \"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/73363c43.go",
+   "line": 312,
+   "whole_line": "\t\ttoken := testAdminToken(\"magical-unicorn\", \"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/73363c43.go",
+   "line": 326,
+   "whole_line": "\ttoken := testAdminToken(\"magical-unicorn\", \"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/73363c43.go",
+   "line": 464,
+   "whole_line": "\t\t\t\t\t\t\t\t\tintent.ClientSecret = stripeClientSecret",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 426,
+   "whole_line": "\t\t\trecorder := test.TestEndpoint(http.MethodGet, \"/orders?email=bruce\", nil, token)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 513,
+   "whole_line": "\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 529,
+   "whole_line": "\t\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 546,
+   "whole_line": "\t\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 556,
+   "whole_line": "\t\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 565,
+   "whole_line": "\t\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 576,
+   "whole_line": "\t\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 591,
+   "whole_line": "\t\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 603,
+   "whole_line": "\t\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 626,
+   "whole_line": "\t\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 639,
+   "whole_line": "\t\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 663,
+   "whole_line": "\t\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 704,
+   "whole_line": "\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 849,
+   "whole_line": "\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 887,
+   "whole_line": "\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 914,
+   "whole_line": "\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 940,
+   "whole_line": "\t\ttoken := testToken(\"villian\", \"villian@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 965,
+   "whole_line": "\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 978,
+   "whole_line": "\t\ttoken := testAdminToken(\"admin-yo\", \"admin@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 996,
+   "whole_line": "\t\ttoken := testToken(\"villian\", \"villian@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 1016,
+   "whole_line": "\t\ttoken := testToken(\"villian\", \"\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/api/d0e615d0.go",
+   "line": 1035,
+   "whole_line": "\t\ttoken := testToken(\"villian\", \"villian@wayneindustries.com\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d45129d5.go",
+   "line": 46,
+   "value": "2023-08-28T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/api/0111c3f3.go",
+   "line": 76,
+   "value": "AUTH_AUTH_TOKEN",
+   "source": "creddata"
+  },
+  {
+   "file": "test/99f5d672.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:fb9d0d6d22ecba1b932e12fc7ddf3acb5c31e601d0e00835dc7603884150f1fb"
+  },
+  {
+   "file": "test/99f5d672.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "41532aaa86aa658704f8edfd0159814361331d0d"
+  },
+  {
+   "file": "test/99f5d672.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "%(api_token)s"
+  },
+  {
+   "file": "test/99f5d672.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "test/99f5d672.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "9.14.40"
+  },
+  {
+   "file": "other/46438fa5.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "other/46438fa5.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6.0.19"
+  },
+  {
+   "file": "other/46438fa5.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "55fa47f99f5c3a7a5eb02f7b1d90c74b6b976763"
+  },
+  {
+   "file": "other/46438fa5.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "be204187-f560-476f-aa9a-0f2d48ac5747"
+  },
+  {
+   "file": "src/ae78c97f.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "F9PM19B1O14VQMH8VMXCGGBO00"
+  },
+  {
+   "file": "src/ae78c97f.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "e9d44ca7-af56-42c9-b957-94bfa1c5daa8"
+  },
+  {
+   "file": "src/ae78c97f.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "auth0.com"
+  },
+  {
+   "file": "src/ae78c97f.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/ffcc4975.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "104, 101, 108, 108, 111, 95, 119, 111, 114, 108, 100, 95, 116, 101, 115, 116"
+  },
+  {
+   "file": "other/ffcc4975.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "Q29udGVudC1UeXBl"
+  },
+  {
+   "file": "other/ffcc4975.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "4745542f6865616c74687a"
+  },
+  {
+   "file": "other/ffcc4975.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "other/ffcc4975.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "privacy@helix-corp.de"
+  },
+  {
+   "file": "src/ef0d51a5.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "0a8a76e3fb916984667babf45b808267a9b9f165"
+  },
+  {
+   "file": "src/ef0d51a5.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "src/ef0d51a5.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "test/de0aa946.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "5.27.7"
+  },
+  {
+   "file": "test/de0aa946.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.16.1"
+  },
+  {
+   "file": "test/de0aa946.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-IHUhIIUDe4cb/kIyFDvM2CyUBJYNR8WwoBjq22jl4DEdKtOJvEfR77Hf0ZlLFlriAtR0V/SqnaE6Wuhjc1ZE/A=="
+  },
+  {
+   "file": "test/de0aa946.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "3.21.24"
+  },
+  {
+   "file": "test/de0aa946.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-MRYqooydAjfWE7vGrXQapXf6OddfZG5k/0HZ/KwSWo7NEPmiDPnNt2Hq2GJiNMjm7o0LVltruXdQwAAZAkCjGA=="
+  },
+  {
+   "file": "test/de0aa946.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.21.14"
+  },
+  {
+   "file": "test/de0aa946.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-43L33RzbHP4cUIsjYfucSzXIMthmyDDx8HKaW8xDPYMhgz8PWyvytzcEaEOLPFIrJLPVk0OdSEIn4HZ7105gQQ=="
+  }
+ ]
+}

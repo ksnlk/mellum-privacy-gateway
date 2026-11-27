@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://grafana.nordwind-corp.de/api/v3/invoices?page=2
+Authorization: Basic ZGVwbG95OlQxZzNyIQ==
+Cookie: _ga=GA1.2.OWEL5Y4CE47XWW7UUZEC8I681M; session_id=wa0iondoev5h0q0byy2aysgxhtptqq1t
+X-Request-Id: be57dcc7-0cfd-4e90-af29-f81ed307ff15
+
+### the docs example, safe to share
+GET https://sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

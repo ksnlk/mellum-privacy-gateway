@@ -1,0 +1,19 @@
+# brightloop payments service
+database:
+  host: crm-db-08.corp.brightloop-internal.net
+  user: payments
+  password: "Eintrachthamburg06!"
+  password_source: secret/data/brightloop/vault/prod
+  password_env: AUTH_DB_PASSWORD
+api:
+  key_header: Proxy-Authorization
+  partner_ident: 9fG07XeXvSE47yYVjDM3t0nLFUv9bcGD
+  key_file: /run/secrets/ledger_password
+  signing_alg: argon2id
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 895168768706-v0l5m2iyd6sh5vx57t1tk503o23yihur.apps.googleusercontent.com
+  client_proof: 7905ybbm4bohjxb5dbyqlu6kzdtv8g0h
+  secret_rotated_at: "2024-12-18T00:00:00Z"
+  secret_name: ledger-tls
+pagination:
+  first_cursor: b3JkZXI6NTY5MzA6b2Zmc2V0OjIxMw==

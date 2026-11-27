@@ -1,0 +1,1040 @@
+{
+ "repo": "32f5ea73",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/53d83ece.php",
+   "line": 30,
+   "start": 30,
+   "end": 36,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "j7Bk3x"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/a41d6bd8.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "dGhyb3R0bGluZy1zY2hvb2wtZnJ1ZWhsaW5nLXNhY2hzZW4xMA==",
+    "throttling-school-fruehling-sachsen10"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "_/a41d6bd8.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9INVc4QVhJUndwMlVFelBleUFodWZNeko=",
+    "sk_live_H5W8AXIRwp2UEzPeyAhufMzJ"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "_/a41d6bd8.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl.ml7ccc.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/511e7e78.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_zhPI1Ff6OOjelxWWQz3LAmGn"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/511e7e78.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "12M1hw1LbMCXcGhMsjLoGcRXXJbiUpaW"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/511e7e78.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "dTNhcTN0bGs1MjM4a2h0czV0M2Y0eXY4Y3Zvamh4MGY=",
+    "u3aq3tlk5238khts5t3f4yv8cvojhx0f"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/b42f3467.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Hafenerde60!"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/031dec75.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.2l06pqa4b80g.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/031dec75.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Zugfr",
+    "Zugfreude00?",
+    "eude00?"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/d171976f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "regenerate.sufficient.disagree.mite"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/d171976f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-mq-02.prod.helix-internal.net"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/4ab50afb.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.17.100.183"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/4ab50afb.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.0bq2feq6d25n.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/4ab50afb.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "T2TCTPTT3/BP77I4H1YB5/oG5kw1nrdZNqj8mxE8LuKuwG"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.vantor.net"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.vantor.net"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.vantor.net"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.109.179.0/24"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.109.179.111"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "falkor.vantor.net"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.vantor.net"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.vantor.net"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.vantor.net"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "194.109.179.177"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.vantor.net"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Clara Hoffmann"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "clara.hoffmann@t-online.de"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 2224357"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Nico Krueger"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "nico.krueger@t-online.de"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 8233270"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/19d47bf2.php",
+   "line": 42,
+   "whole_line": "        $this->credentials = $credentials;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/369dfda7.php",
+   "line": 53,
+   "value": "$password)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/369dfda7.php",
+   "line": 59,
+   "whole_line": "        $user = $this->tokenStorage->getToken()->getUser();",
+   "source": "creddata"
+  },
+  {
+   "file": "_/369dfda7.php",
+   "line": 69,
+   "whole_line": "        $salt = $user->getSalt();",
+   "source": "creddata"
+  },
+  {
+   "file": "_/3d84fa9f.php",
+   "line": 59,
+   "whole_line": "        $this->token = $token;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/41fc6c7b.php",
+   "line": 34,
+   "whole_line": "        $key = rawurlencode($hash);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/72e745e8.php",
+   "line": 133,
+   "whole_line": "    public function upgradePassword($user, string $newEncodedPassword): void",
+   "source": "creddata"
+  },
+  {
+   "file": "_/746f061f.php",
+   "line": 31,
+   "whole_line": "     * an array of attributes: 'password', 'enabled', and 'roles'.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/746f061f.php",
+   "line": 38,
+   "whole_line": "            $password = $attributes['password'] ?? null;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/75c85df6.php",
+   "line": 57,
+   "whole_line": "        if (!$user = $token->getUser()) {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8347f5d7.php",
+   "line": 45,
+   "whole_line": "    public function __construct(UserProviderInterface $userProvider, UserCheckerInterface $userChecker, string $providerKey, LdapInterface $ldap, string $dnString = '{user_identifier}', bool $hideUserNotFoundExceptions = true, string $searchDn = '', string $searchPassword = '')",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8347f5d7.php",
+   "line": 53,
+   "whole_line": "        $this->searchPassword = $searchPassword;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/8347f5d7.php",
+   "line": 90,
+   "whole_line": "        $password = $token->getCredentials();",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ce49429b.php",
+   "line": 68,
+   "whole_line": "            if ('' === ($presentedPassword = $token->getCredentials())) {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ce49429b.php",
+   "line": 80,
+   "whole_line": "            $salt = $user->getSalt();",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ce49429b.php",
+   "line": 117,
+   "whole_line": "        $user = $token->getUser();",
+   "source": "creddata"
+  },
+  {
+   "file": "_/d62f29f4.php",
+   "line": 64,
+   "whole_line": "        $username = method_exists($token, 'getUserIdentifier') ? $token->getUserIdentifier() : $token->getUsername();",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e4d53bda.php",
+   "line": 51,
+   "whole_line": "        if (null === ($token = $this->tokenStorage->getToken())) {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e4d53bda.php",
+   "line": 59,
+   "whole_line": "                $this->tokenStorage->setToken($token = $this->authenticationManager->authenticate($token));",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd4d97e1.php",
+   "line": 40,
+   "whole_line": "        $this->secret = $secret;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fd4d97e1.php",
+   "line": 57,
+   "whole_line": "        $user = $token->getUser();",
+   "source": "creddata"
+  },
+  {
+   "file": "security/98833413.php",
+   "line": 40,
+   "whole_line": "        if (!$token = $this->getToken()) {",
+   "source": "creddata"
+  },
+  {
+   "file": "security/98833413.php",
+   "line": 44,
+   "whole_line": "        $user = $token->getUser();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d9c89ad.php",
+   "line": 29,
+   "value": "ROLE_FOO",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d9c89ad.php",
+   "line": 63,
+   "value": "ROLE_FOO",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d9c89ad.php",
+   "line": 77,
+   "value": "ROLE_FOO",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d9c89ad.php",
+   "line": 88,
+   "value": "ROLE_FOO",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d9c89ad.php",
+   "line": 99,
+   "value": "ROLE_FOO",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d9c89ad.php",
+   "line": 206,
+   "value": "ROLE_ADMIN",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3d9c89ad.php",
+   "line": 214,
+   "whole_line": "        $token = unserialize(serialize($token));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/49e383af.php",
+   "line": 54,
+   "whole_line": "        $token = $this->getSupportedToken('foo');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53d83ece.php",
+   "line": 31,
+   "value": "^S4lt$",
+   "source": "creddata"
+  },
+  {
+   "file": "test/53d83ece.php",
+   "line": 172,
+   "whole_line": "        $token = $this->createAuthenticationToken($user);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5a2b85d3.php",
+   "line": 38,
+   "whole_line": "        $token = $this->createMock(PreAuthenticatedToken::class);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/5a2b85d3.php",
+   "line": 73,
+   "whole_line": "        $token = $provider->authenticate($this->getSupportedToken('fabien', 'pass'));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7702801d.php",
+   "line": 63,
+   "whole_line": "        $token = $this->createMock(AbstractToken::class);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b1de1f05.php",
+   "line": 46,
+   "whole_line": "        $token = $this->createMock(TokenInterface::class);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b1de1f05.php",
+   "line": 65,
+   "whole_line": "        $token = new RememberMeToken(new InMemoryUser('dummyuser', null), 'foo', 'test');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b1de1f05.php",
+   "line": 92,
+   "whole_line": "        $token = $this->getSupportedToken($user);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc3dd76f.php",
+   "line": 45,
+   "whole_line": "        $token = $provider->loadTokenBySeries('foo');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/code/165ecce2.php",
+   "line": 25,
+   "whole_line": "        $encoder = new Pbkdf2PasswordEncoder('sha256', false, 1, 40);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/code/165ecce2.php",
+   "line": 27,
+   "whole_line": "        $this->assertTrue($encoder->isPasswordValid('c1232f10f62715fda06ae7c0a2037ca19b33cf103b727ba56d870c11f290a2ab106974c75607c8a3', 'password', ''));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/code/165ecce2.php",
+   "line": 32,
+   "whole_line": "        $encoder = new Pbkdf2PasswordEncoder('sha256', false, 1, 40);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/code/165ecce2.php",
+   "line": 33,
+   "whole_line": "        $this->assertSame('c1232f10f62715fda06ae7c0a2037ca19b33cf103b727ba56d870c11f290a2ab106974c75607c8a3', $encoder->encodePassword('password', ''));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/code/165ecce2.php",
+   "line": 35,
+   "whole_line": "        $encoder = new Pbkdf2PasswordEncoder('sha256', true, 1, 40);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/code/165ecce2.php",
+   "line": 38,
+   "whole_line": "        $encoder = new Pbkdf2PasswordEncoder('sha256', false, 2, 40);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/code/165ecce2.php",
+   "line": 39,
+   "whole_line": "        $this->assertSame('8bc2f9167a81cdcfad1235cd9047f1136271c1f978fcfcb35e22dbeafa4634f6fd2214218ed63ebb', $encoder->encodePassword('password', ''));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e3027af8.php",
+   "line": 36,
+   "whole_line": "        $token = $this->getMockBuilder(TokenInterface::class)->getMockForAbstractClass();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/e8431de8.php",
+   "line": 25,
+   "whole_line": "        $this->token = $this->createMock(TokenInterface::class);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/eb7a31b9.php",
+   "line": 54,
+   "whole_line": "            $manager->authenticate($token = $this->createMock(TokenInterface::class));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/eb7a31b9.php",
+   "line": 74,
+   "whole_line": "            $manager->authenticate($token = $this->createMock(TokenInterface::class));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/eb7a31b9.php",
+   "line": 88,
+   "whole_line": "            $manager->authenticate($token = $this->createMock(TokenInterface::class));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/eb7a31b9.php",
+   "line": 105,
+   "whole_line": "        $token = $manager->authenticate($this->createMock(TokenInterface::class));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/eb7a31b9.php",
+   "line": 123,
+   "whole_line": "        $token = $manager->authenticate($this->createMock(TokenInterface::class));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/eb7a31b9.php",
+   "line": 133,
+   "whole_line": "        $token = $manager->authenticate($this->createMock(TokenInterface::class));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/eb7a31b9.php",
+   "line": 140,
+   "whole_line": "        $token = $manager->authenticate($this->createMock(TokenInterface::class));",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fa0f3df1.php",
+   "line": 189,
+   "whole_line": "        $token = $this->getSupportedToken();",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/d83c39de.php",
+   "line": 45,
+   "whole_line": "        $token = $this->createMock(TokenInterface::class);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a41d6bd8.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "b1666d3"
+  },
+  {
+   "file": "_/a41d6bd8.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "71bcd66f8c3faf3ba9786cadbc5aa85911b1ab9f1f0002f2b6a9f7f5667be3b9"
+  },
+  {
+   "file": "_/a41d6bd8.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "auth0.com"
+  },
+  {
+   "file": "_/a41d6bd8.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/511e7e78.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_AIUx66jPaX1Knt7Wjn5ViNWp"
+  },
+  {
+   "file": "other/511e7e78.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "ETL_API_KEY"
+  },
+  {
+   "file": "other/511e7e78.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "VAULT_AUTH_TOKEN"
+  },
+  {
+   "file": "other/511e7e78.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LsWTcL1MpNDGdGmZG29da5mpBkrUMFx8sC9_UTC"
+  },
+  {
+   "file": "other/511e7e78.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:f/7QJn5iBB/RIsK6plM+X87341xTysQJIHe67xofYo0"
+  },
+  {
+   "file": "other/511e7e78.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/etc/etl/tls/private.key"
+  },
+  {
+   "file": "other/511e7e78.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "other/511e7e78.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "other/511e7e78.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "dXNlcjo3NDEyMzpvZmZzZXQ6MzY1"
+  },
+  {
+   "file": "test/b42f3467.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "High2020"
+  },
+  {
+   "file": "test/b42f3467.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "department52"
+  },
+  {
+   "file": "test/031dec75.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "3f59cf11723f522ab0fbd83380ebe36959ee880d"
+  },
+  {
+   "file": "test/031dec75.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "test/031dec75.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "src/d171976f.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIRMmfpTPJcKWcDsDQA98G1BmhPs0fgiGK2GnzJ+CQ2mj"
+  },
+  {
+   "file": "src/d171976f.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "4b6b8df63499d2773f18c69d8eec15099572766c6d70870c5820e907bbfcb4eb"
+  },
+  {
+   "file": "src/d171976f.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/d171976f.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "test/4ab50afb.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "e594fba400f5d3e2d927"
+  },
+  {
+   "file": "test/4ab50afb.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "test/4ab50afb.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2bf63aa7316ce57f4323abe0eb0c64e6be52d78b"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "portal.vantor.net"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "files.paycore.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "194.109.97.212"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Mia Neumann"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Lukas Mueller"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "portal.vantor.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.paycore.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "192.30.252.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "194.109.97.212"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ftp.gnu.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.vantor.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "162.159.200.1"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Mia Neumann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "mia.neumann@vantor.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "John Doe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "john.doe@example.net"
+  }
+ ]
+}

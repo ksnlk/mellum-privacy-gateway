@@ -1,0 +1,712 @@
+{
+ "repo": "660708f3",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/6e395352.js",
+   "line": 400,
+   "start": 44,
+   "end": 52,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "xfdhyivh"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/6e395352.js",
+   "line": 451,
+   "start": 25,
+   "end": 33,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "Tknsclxg"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "other/67ac6308.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-prod.3byt6tmybc2h.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/67ac6308.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_W20anNmWlBRdHyRU5Z5KafUzrmGlXanO0Bgv"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/04fcf709.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Muenchen#1978"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "_/f5386e5d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-mq-02.prod.pinegrid-internal.net"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/f5386e5d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Birkeh",
+    "Birkehaus85?",
+    "aus85?"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/2fc1d983.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "emma.becker@acme-corp.de"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/2fc1d983.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 9374 5744"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/2fc1d983.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Just2009*"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/2fc1d983.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE70839685189829550934"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/6ca27d33.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "ZXhoYXVzdF9tYXJpZV9wYWxhdTg1",
+    "exhaust_marie_palau85"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/6ca27d33.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9SYjlQTHpBUzdEMjl5T0pzdnZta0lDNzA=",
+    "sk_live_Rb9PLzAS7D29yOJsvvmkIC70"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/6ca27d33.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-replica.quarzo.cloud"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/d2adc9f1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_77EY944fQODHQd4KGMckyE1N"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/d2adc9f1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "WCTjGlXhAG7rbW5wmi6ZuVDeMJB0rh7w"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/d2adc9f1.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "ZWJmdnozazExbmo5YTZmemExcWxjNWZhN2Uxb3FtamY=",
+    "ebfvz3k11nj9a6fza1qlc5fa7e1oqmjf"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/6e395352.js",
+   "line": 2,
+   "value": "t&&t.nonce",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 8,
+   "whole_line": "\"meta\"==a}function A(a,b){var g,d=[];var e=a;\"+\"===e?e=[\"+\"]:(e=e.replace(/\\+{2}/g,\"+plus\"),e=e.split(\"+\"));for(g=0;g<e.length;++g){var m=e[g];B[m]&&(m=B[m]);b&&\"keypress\"!=b&&C[m]&&(m=C[m],d.push(\"shift\"));w(m)&&d.push(m)}e=m;g=b;if(!g){if(!p){p={};for(var c in n)95<c&&112>c||n.hasOwnProperty(c)&&(p[n[c]]=c)}g=p[e]?\"keydown\":\"keypress\"}\"keypress\"==g&&d.length&&(g=\"keydown\");return{key:m,modifiers:d,action:g}}function D(a,b){return null===a||a===u?!1:a===b?!0:D(a.parentNode,b)}function d(a){function b(a){a=",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 9,
+   "value": "h&&!t.metaKey&&!t.ctrlKey)||(e=c.modifiers",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 40,
+   "value": "__proto__",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 91,
+   "whole_line": "\t\t\t\tparams.password = password.value;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 142,
+   "whole_line": "\t\t\t\t\tif (album.json.password === '1') {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 190,
+   "whole_line": "\tvar oldPassword = album.json.password;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 191,
+   "whole_line": "\tif ($('.basicModal .choice input[name=\"password\"]:checked').length === 1) {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 192,
+   "whole_line": "\t\tpassword = $('.basicModal .choice input[name=\"passwordtext\"]').val();",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 193,
+   "whole_line": "\t\talbum.json.password = '1';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 196,
+   "whole_line": "\t\talbum.json.password = '0';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 247,
+   "whole_line": "\t\tif (lychee.publicMode === true) link += \"&password=\" + encodeURIComponent(password.value);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 298,
+   "whole_line": "\t\t\talbum.thumbs[i] = album.password === '1' ? 'img/password.svg' : 'img/no_images.svg';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 349,
+   "whole_line": "\t\thtml += lychee.html(_templateObject16, data.star === '1' ? 'badge--star' : '', build.iconic('star'), data.public === '1' ? 'badge--visible' : '', data.visible === '1' ? 'badge--not--hidden' : 'badge--hidden', build.iconic('eye'), data.unsorted === '1' ? 'badge--visible' : '', build.iconic('list'), data.recent === '1' ? 'badge--visible badge--list' : '', build.iconic('clock'), data.password === '1' ? 'badge--visible' : '', build.iconic('lock-locked'));",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 452,
+   "whole_line": "\t'ALBUM_PASSWORD_PROT': 'Password protected',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 453,
+   "whole_line": "\t'ALBUM_PASSWORD_PROT_EXPL': 'Album only accessible with a valid password.',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 454,
+   "whole_line": "\t'ALBUM_PASSWORD_REQUIRED': 'This album is protected by a password. Enter the password below to view the photos of this album:',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 505,
+   "whole_line": "\t'PHOTO_PASSWORD_PROT': 'Password protected',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 506,
+   "whole_line": "\t'PHOTO_PASSWORD_PROT_EXPL': 'Photo only accessible with a valid password.',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 519,
+   "whole_line": "\t'ERROR_LOGIN': 'Unable to save login. Please try again with another username and password!',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 547,
+   "value": "Confirm Password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 550,
+   "value": "Enter your current username and password:",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 552,
+   "whole_line": "\t'PASSWORD_CURRENT': 'Current Password',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 553,
+   "whole_line": "\t'PASSWORD_TEXT': 'Your username and password will be changed to the following:',",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 554,
+   "value": "Change Login",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 605,
+   "whole_line": "\t\t\tpassword: passwd",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 656,
+   "whole_line": "\tvar checkPasswd = function checkPasswd() {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 668,
+   "whole_line": "\t\tpassword: password.value",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 719,
+   "whole_line": "\t\tvar dbPassword = data.dbPassword || '';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 770,
+   "whole_line": "\t\t\tpassword = lychee.locale['ALBUM_SHR_NO'];",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 773,
+   "whole_line": "\t\t\tpassword = lychee.locale['ALBUM_SHR_YES'];",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 776,
+   "whole_line": "\t\t\tpassword = '-';",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 827,
+   "whole_line": "\t\t\tvar api_url = api.get_url('Photo::add');",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 878,
+   "whole_line": "\tpassword: function password() {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6e395352.js",
+   "line": 880,
+   "whole_line": "\t\tif (album.json.password === '1') sidebar.changeAttr('password', lychee.locale['ALBUM_SHR_YES']);else sidebar.changeAttr('password', lychee.locale['ALBUM_SHR_NO']);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/cb220955",
+   "line": 266,
+   "whole_line": "      \"login\": \"cdauth\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/cb220955",
+   "line": 437,
+   "whole_line": "      \"login\": \"expiredemulsion\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/cb220955",
+   "line": 491,
+   "whole_line": "      \"login\": \"colinmcglothlin\",",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/modul/f3591641.php",
+   "line": 14,
+   "whole_line": "\tpublic static function create($host, $user, $password, $name = 'lychee', $prefix = '') {",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/modul/f3591641.php",
+   "line": 28,
+   "whole_line": "\t\t$password = mysqli_real_escape_string($connection, $password);",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/modul/f3591641.php",
+   "line": 38,
+   "whole_line": "\\$dbPassword = '$password'; // Password of the database",
+   "source": "creddata"
+  },
+  {
+   "file": "locale/94caa9b1.php",
+   "line": 16,
+   "value": "wachtwoord",
+   "source": "creddata"
+  },
+  {
+   "file": "locale/94caa9b1.php",
+   "line": 124,
+   "value": "Wachtwoord",
+   "source": "creddata"
+  },
+  {
+   "file": "locale/94caa9b1.php",
+   "line": 125,
+   "value": "Met wachtwoord beschermt",
+   "source": "creddata"
+  },
+  {
+   "file": "locale/94caa9b1.php",
+   "line": 126,
+   "value": "Album alleen beschikbaar met een geldig wachtwoord.",
+   "source": "creddata"
+  },
+  {
+   "file": "locale/94caa9b1.php",
+   "line": 191,
+   "value": "Database Wachtwoord",
+   "source": "creddata"
+  },
+  {
+   "file": "locale/94caa9b1.php",
+   "line": 199,
+   "value": "Nieuw Wachtwoord",
+   "source": "creddata"
+  },
+  {
+   "file": "locale/94caa9b1.php",
+   "line": 202,
+   "value": "Voer je huidige wachtwoord in:",
+   "source": "creddata"
+  },
+  {
+   "file": "locale/94caa9b1.php",
+   "line": 203,
+   "value": "Huidig Wachtwoord",
+   "source": "creddata"
+  },
+  {
+   "file": "locale/94caa9b1.php",
+   "line": 204,
+   "value": "Je gebruikersnaam en wachtwoord worden verandert naar:",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/05f87a07.php",
+   "line": 19,
+   "whole_line": "\t\t\t$credentials = Config::get();",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/05f87a07.php",
+   "line": 39,
+   "whole_line": "\tprivate function __construct($host, $user, $password, $name = 'lychee', $dbTablePrefix) {",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/05f87a07.php",
+   "line": 205,
+   "whole_line": "\t\t\t$query      = self::prepare($connection, \"UPDATE `?` SET `value` = '?' WHERE `key` = 'identifier' LIMIT 1\", array(LYCHEE_TABLE_SETTINGS, $identifier));",
+   "source": "creddata"
+  },
+  {
+   "file": "modul/14fbb5fd.php",
+   "line": 62,
+   "whole_line": "\t\t$key = array_search($observer, $this->observers, true);",
+   "source": "creddata"
+  },
+  {
+   "file": "other/67ac6308.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "6.8.37"
+  },
+  {
+   "file": "other/67ac6308.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4.3.43"
+  },
+  {
+   "file": "other/67ac6308.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-07gvvut1fuBSlqDk6voE86n9zSKRrdAMPY4bqq2GHoYk0XQ6Ad5icI5DYUnIz3yoB4hZmYy/ohPxtcxdixtDRQ=="
+  },
+  {
+   "file": "other/67ac6308.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "1.30.39"
+  },
+  {
+   "file": "other/67ac6308.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-8tyyhZXAwvB8xDtGUJllV2QAr8VQCjY2E/lZpx+T42gx3uwxvKfw8VUIUR5ZKT9MHQw2BBSZs/7Pog1UgQnWqw=="
+  },
+  {
+   "file": "other/67ac6308.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "4.11.19"
+  },
+  {
+   "file": "other/67ac6308.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-ibvdKkJidL4uhM87hoXCcuv0iwx9+wyI74Sezs1cR4Vyby7MIE8MvQHtBkuJAIZ9yaldxpZqk8Oc5HECSJ34rw=="
+  },
+  {
+   "file": "other/04fcf709.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "September2024"
+  },
+  {
+   "file": "other/04fcf709.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "reconnect-sachsen-v2"
+  },
+  {
+   "file": "_/f5386e5d.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "cd8e61eeb1deb777f4689c1ec37089e09582f51f"
+  },
+  {
+   "file": "_/f5386e5d.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "_/f5386e5d.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.github.com"
+  },
+  {
+   "file": "test/2fc1d983.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "test/2fc1d983.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "noreply@github.com"
+  },
+  {
+   "file": "test/2fc1d983.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "_/6ca27d33.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "cfaf70d"
+  },
+  {
+   "file": "_/6ca27d33.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "4e3a3da84a192b45a428c47eab8c8465c9635d957dd4ddf8d6fe67539cd51c1e"
+  },
+  {
+   "file": "_/6ca27d33.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "_/6ca27d33.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/d2adc9f1.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_w2TGH04HqE0cpaOddkOSASSg"
+  },
+  {
+   "file": "other/d2adc9f1.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "BILLING_SECRET_KEY"
+  },
+  {
+   "file": "other/d2adc9f1.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "BILLING_CLIENT_SECRET"
+  },
+  {
+   "file": "other/d2adc9f1.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LPrVyXaQuZ8Kwjll8-xYJtlvZBz-Hr7H77n0JYK"
+  },
+  {
+   "file": "other/d2adc9f1.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:Hh934zoflyb/3hTWcCwwh7GK/lSCQxEZcKLBQxxBszU"
+  },
+  {
+   "file": "other/d2adc9f1.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "other/d2adc9f1.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Api-Key"
+  },
+  {
+   "file": "other/d2adc9f1.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "other/d2adc9f1.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "dXNlcjo5MjY0NTpvZmZzZXQ6MzM1"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+---
+version: '3'
+services:
+  mariadb:
+    image: mariadb:10.6.1
+    environment:
+      # TODO remove before release, staging login is qfonrbemcevk
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=password
+      - MYSQL_DATABASE=authelia
+    networks:
+      - authelianet
+...

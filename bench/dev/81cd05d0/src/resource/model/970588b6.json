@@ -1,0 +1,1148 @@
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListAliases" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListKeys" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "RetireGrant" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : true,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2014-11-01",
+    "asyncClient" : "AWSKMSAsyncClient",
+    "asyncClientBuilderClassName" : "AWSKMSAsyncClientBuilder",
+    "asyncInterface" : "AWSKMSAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AWSKMSModuleInjector",
+    "defaultEndpoint" : "https://kms.us-east-1.amazonaws.com/",
+    "defaultEndpointWithoutHttpProtocol" : "kms.us-east-1.amazonaws.com/",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>AWS Key Management Service</fullname> <p>AWS Key Management Service (AWS KMS) is an encryption and key management web service. This guide describes the AWS KMS operations that you can call programmatically. For general information about AWS KMS, see the <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/\"> <i>AWS Key Management Service Developer Guide</i> </a>.</p> <note> <p>AWS provides SDKs that consist of libraries and sample code for various programming languages and platforms (Java, Ruby, .Net, macOS, Android, etc.). The SDKs provide a convenient way to create programmatic access to AWS KMS and other AWS services. For example, the SDKs take care of tasks such as signing requests (see below), managing errors, and retrying requests automatically. For more information about the AWS SDKs, including how to download and install them, see <a href=\"http://aws.amazon.com/tools/\">Tools for Amazon Web Services</a>.</p> </note> <p>We recommend that you use the AWS SDKs to make programmatic API calls to AWS KMS.</p> <p>Clients must support TLS (Transport Layer Security) 1.0. We recommend TLS 1.2. Clients must also support cipher suites with Perfect Forward Secrecy (PFS) such as Ephemeral Diffie-Hellman (DHE) or Elliptic Curve Ephemeral Diffie-Hellman (ECDHE). Most modern systems such as Java 7 and later support these modes.</p> <p> <b>Signing Requests</b> </p> <p>Requests must be signed by using an access key ID and a secret access key. We strongly recommend that you <i>do not</i> use your AWS account (root) access key ID and secret key for everyday work with AWS KMS. Instead, use the access key ID and secret access key for an IAM user. You can also use the AWS Security Token Service to generate temporary security credentials that you can use to sign requests.</p> <p>All AWS KMS operations require <a href=\"https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html\">Signature Version 4</a>.</p> <p> <b>Logging API Requests</b> </p> <p>AWS KMS supports AWS CloudTrail, a service that logs AWS API calls and related events for your AWS account and delivers them to an Amazon S3 bucket that you specify. By using the information collected by CloudTrail, you can determine what requests were made to AWS KMS, who made the request, when it was made, and so on. To learn more about CloudTrail, including how to turn it on and find your log files, see the <a href=\"https://docs.aws.amazon.com/awscloudtrail/latest/userguide/\">AWS CloudTrail User Guide</a>.</p> <p> <b>Additional Resources</b> </p> <p>For more information about credentials and request signing, see the following:</p> <ul> <li> <p> <a href=\"https://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html\">AWS Security Credentials</a> - This topic provides general information about the types of credentials used for accessing AWS.</p> </li> <li> <p> <a href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html\">Temporary Security Credentials</a> - This section of the <i>IAM User Guide</i> describes how to create and use temporary security credentials.</p> </li> <li> <p> <a href=\"https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html\">Signature Version 4 Signing Process</a> - This set of topics walks you through the process of signing a request using an access key ID and a secret access key.</p> </li> </ul> <p> <b>Commonly Used API Operations</b> </p> <p>Of the API operations discussed in this guide, the following will prove the most useful for most applications. You will likely perform operations other than these, such as creating keys and assigning policies, by using the console.</p> <ul> <li> <p> <a>Encrypt</a> </p> </li> <li> <p> <a>Decrypt</a> </p> </li> <li> <p> <a>GenerateDataKey</a> </p> </li> <li> <p> <a>GenerateDataKeyWithoutPlaintext</a> </p> </li> </ul>",
+    "endpointPrefix" : "kms",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.kms",
+    "packagePath" : "com/amazonaws/services/kms",
+    "protocol" : "json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "KMS",
+      "input" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "ReEncryptRequest",
+        "variableName" : "reEncryptRequest",
+        "variableType" : "ReEncryptRequest",
+        "documentation" : "",
+        "simpleType" : "ReEncryptRequest",
+        "variableSetterType" : "ReEncryptRequest"
+      },
+      "inputStreamPropertyName" : null,
+      "methodName" : "reEncrypt",
+      "operationName" : "ReEncrypt",
+      "returnType" : {
+        "returnType" : "ReEncryptResult",
+        "documentation" : null
+      },
+      "syncReturnType" : "ReEncryptResult"
+    },
+    "RetireGrant" : {
+      "asyncCallableType" : "java.util.concurrent.Callable<RetireGrantResult>",
+      "asyncFutureType" : "java.util.concurrent.Future<RetireGrantResult>",
+      "asyncHandlerType" : "com.amazonaws.handlers.AsyncHandler<RetireGrantRequest, RetireGrantResult>",
+      "asyncReturnType" : "RetireGrantResult",
+      "authenticated" : true,
+      "deprecated" : false,
+      "documentation" : "<p>Retires a grant. To clean up, you can retire a grant when you're done using it. You should revoke a grant when you intend to actively deny operations that depend on it. The following are permitted to call this API:</p> <ul> <li> <p>The AWS account (root user) under which the grant was created</p> </li> <li> <p>The <code>RetiringPrincipal</code>, if present in the grant</p> </li> <li> <p>The <code>GranteePrincipal</code>, if <code>RetireGrant</code> is an operation specified in the grant</p> </li> </ul> <p>You must identify the grant to retire by its grant token or by a combination of the grant ID and the Amazon Resource Name (ARN) of the customer master key (CMK). A grant token is a unique variable-length base64-encoded string. A grant ID is a 64 character unique identifier of a grant. The <a>CreateGrant</a> operation returns both.</p> <p> <b>Cross-account use</b>: Yes. You can retire a grant on a CMK in a different AWS account.</p> <p> <b>Required permissions:</b>: Permission to retire a grant is specified in the grant. You cannot control access to this operation in a policy. For more information, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/grants.html\">Using grants</a> in the <i>AWS Key Management Service Developer Guide</i>.</p> <p> <b>Related operations:</b> </p> <ul> <li> <p> <a>CreateGrant</a> </p> </li> <li> <p> <a>ListGrants</a> </p> </li> <li> <p> <a>ListRetirableGrants</a> </p> </li> <li> <p> <a>RevokeGrant</a> </p> </li> </ul>",
+      "endpointCacheRequired" : false,
+      "endpointDiscovery" : null,
+      "endpointOperation" : false,
+      "endpointTrait" : null,
+      "exceptions" : [ {
+        "exceptionName" : "InvalidArnException",
+        "documentation" : "<p>The request was rejected because a specified ARN, or an ARN in a key policy, is not valid.</p>",
+        "httpStatusCode" : null
+      }, {
+        "exceptionName" : "InvalidGrantTokenException",
+        "documentation" : "<p>The request was rejected because the specified grant token is not valid.</p>",
+        "httpStatusCode" : null
+      }, {
+        "exceptionName" : "InvalidGrantIdException",
+        "documentation" : "<p>The request was rejected because the specified <code>GrantId</code> is not valid.</p>",
+        "httpStatusCode" : null
+      }, {
+        "exceptionName" : "NotFoundException",
+        "documentation" : "<p>The request was rejected because the specified entity or resource could not be found.</p>",
+        "httpStatusCode" : null
+      }, {
+        "exceptionName" : "DependencyTimeoutException",
+        "documentation" : "<p>The system timed out while trying to fulfill the request. The request can be retried.</p>",
+        "httpStatusCode" : null
+      }, {
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "shouldEmitLegacyEnumSetter" : true,
+        "shouldFullyQualify" : false,
+        "simple" : true,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p>The <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#cryptographic-operations\">cryptographic operations</a> for which you can use the CMK.</p>\n@param keyUsage The <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#cryptographic-operations\">cryptographic operations</a> for which you can use the CMK.\n@return Returns a reference to this object so that method calls can be chained together.\n@see KeyUsageType*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "String",
+          "variableName" : "keyUsage",
+          "variableType" : "String",
+          "documentation" : "<p>The <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#cryptographic-operations\">cryptographic operations</a> for which you can use the CMK.</p>",
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "xmlNameSpaceUri" : null
+      }, {
+        "c2jName" : "KeyState",
+        "c2jShape" : "KeyState",
+        "deprecated" : false,
+        "documentation" : "<p>The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : "KeyState",
+        "fluentSetterDocumentation" : "/**<p>The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>\n@param keyState The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.\n@return Returns a reference to this object so that method calls can be chained together.\n@see KeyState*/",
+        "fluentSetterMethodName" : "withKeyState",
+        "getterDocumentation" : "/**<p>The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>\n@return The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.\n@see KeyState*/",
+        "getterMethodName" : "getKeyState",
+        "getterModel" : {
+          "returnType" : "String",
+          "documentation" : null
+        },
+        "http" : {
+          "additionalMarshallingPath" : null,
+          "additionalUnmarshallingPath" : null,
+          "flattened" : false,
+          "greedy" : false,
+          "header" : false,
+          "isPayload" : false,
+          "isStreaming" : false,
+          "location" : null,
+          "marshallLocation" : "PAYLOAD",
+          "marshallLocationName" : "KeyState",
+          "queryString" : false,
+          "requiresLength" : false,
+          "statusCode" : false,
+          "unmarshallLocationName" : "KeyState",
+          "uri" : false
+        },
+        "idempotencyToken" : false,
+        "isBinary" : false,
+        "jsonValue" : false,
+        "list" : false,
+        "listModel" : null,
+        "map" : false,
+        "mapModel" : null,
+        "marshallingTargetClass" : "String",
+        "marshallingType" : "STRING",
+        "name" : "KeyState",
+        "sensitive" : false,
+        "setterDocumentation" : "/**<p>The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>\n@param keyState The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.\n@see KeyState*/",
+        "setterMethodName" : "setKeyState",
+        "setterModel" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "String",
+          "variableName" : "keyState",
+          "variableType" : "String",
+          "documentation" : "",
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "shouldEmitLegacyEnumSetter" : true,
+        "shouldFullyQualify" : false,
+        "simple" : true,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p>The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>\n@param keyState The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.\n@return Returns a reference to this object so that method calls can be chained together.\n@see KeyState*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "String",
+          "variableName" : "keyState",
+          "variableType" : "String",
+          "documentation" : "<p>The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>",
+          "simpleType" : "String",
+          "variableSetterType" : "String"
+        },
+        "xmlNameSpaceUri" : null
+      }, {
+        "c2jName" : "DeletionDate",
+        "c2jShape" : "DateType",
+        "deprecated" : false,
+        "documentation" : "<p>The date and time after which AWS KMS deletes the CMK. This value is present only when <code>KeyState</code> is <code>PendingDeletion</code>.</p>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>The date and time after which AWS KMS deletes the CMK. This value is present only when <code>KeyState</code> is <code>PendingDeletion</code>.</p>\n@param deletionDate The date and time after which AWS KMS deletes the CMK. This value is present only when <code>KeyState</code> is <code>PendingDeletion</code>.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withDeletionDate",
+        "getterDocumentation" : "/**<p>The date and time after which AWS KMS deletes the CMK. This value is present only when <code>KeyState</code> is <code>PendingDeletion</code>.</p>\n@return The date and time after which AWS KMS deletes the CMK. This value is present only when <code>KeyState</code> is <code>PendingDeletion</code>.*/",
+        "getterMethodName" : "getDeletionDate",
+        "getterModel" : {
+          "returnType" : "java.util.Date",
+          "documentation" : null
+        },
+            "variableSetterType" : "String"
+          },
+          "shouldEmitLegacyEnumSetter" : true,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The manager of the CMK. CMKs in your AWS account are either customer managed or AWS managed. For more information about the difference, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#master_keys\">Customer Master Keys</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>\n@param keyManager The manager of the CMK. CMKs in your AWS account are either customer managed or AWS managed. For more information about the difference, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#master_keys\">Customer Master Keys</a> in the <i>AWS Key Management Service Developer Guide</i>.\n@return Returns a reference to this object so that method calls can be chained together.\n@see KeyManagerType*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "keyManager",
+            "variableType" : "String",
+            "documentation" : "<p>The manager of the CMK. CMKs in your AWS account are either customer managed or AWS managed. For more information about the difference, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#master_keys\">Customer Master Keys</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "xmlNameSpaceUri" : null
+        },
+        "KeyState" : {
+          "c2jName" : "KeyState",
+          "c2jShape" : "KeyState",
+          "deprecated" : false,
+          "documentation" : "<p>The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : "KeyState",
+          "fluentSetterDocumentation" : "/**<p>The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>\n@param keyState The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.\n@return Returns a reference to this object so that method calls can be chained together.\n@see KeyState*/",
+          "fluentSetterMethodName" : "withKeyState",
+          "getterDocumentation" : "/**<p>The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>\n@return The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.\n@see KeyState*/",
+          "getterMethodName" : "getKeyState",
+          "getterModel" : {
+            "returnType" : "String",
+            "documentation" : null
+          },
+          "http" : {
+            "additionalMarshallingPath" : null,
+            "additionalUnmarshallingPath" : null,
+            "flattened" : false,
+            "greedy" : false,
+            "header" : false,
+            "isPayload" : false,
+            "isStreaming" : false,
+            "location" : null,
+            "marshallLocation" : "PAYLOAD",
+            "marshallLocationName" : "KeyState",
+            "queryString" : false,
+            "requiresLength" : false,
+            "statusCode" : false,
+            "unmarshallLocationName" : "KeyState",
+            "uri" : false
+          },
+          "idempotencyToken" : false,
+          "isBinary" : false,
+          "jsonValue" : false,
+          "list" : false,
+          "listModel" : null,
+          "map" : false,
+          "mapModel" : null,
+          "marshallingTargetClass" : "String",
+          "marshallingType" : "STRING",
+          "name" : "KeyState",
+          "sensitive" : false,
+          "setterDocumentation" : "/**<p>The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>\n@param keyState The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.\n@see KeyState*/",
+          "setterMethodName" : "setKeyState",
+          "setterModel" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "keyState",
+            "variableType" : "String",
+            "documentation" : "",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "shouldEmitLegacyEnumSetter" : true,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>\n@param keyState The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.\n@return Returns a reference to this object so that method calls can be chained together.\n@see KeyState*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "keyState",
+            "variableType" : "String",
+            "documentation" : "<p>The current status of the CMK.</p> <p>For more information about how key state affects the use of a CMK, see <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/key-state.html\">Key state: Effect on your CMK</a> in the <i>AWS Key Management Service Developer Guide</i>.</p>",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "xmlNameSpaceUri" : null
+        },
+        "KeyUsage" : {
+          "c2jName" : "KeyUsage",
+          "c2jShape" : "KeyUsageType",
+          "deprecated" : false,
+          "documentation" : "<p>The <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#cryptographic-operations\">cryptographic operations</a> for which you can use the CMK.</p>",
+          "endpointDiscoveryId" : false,
+          "enumType" : "KeyUsageType",
+          "fluentSetterDocumentation" : "/**<p>The <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#cryptographic-operations\">cryptographic operations</a> for which you can use the CMK.</p>\n@param keyUsage The <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#cryptographic-operations\">cryptographic operations</a> for which you can use the CMK.\n@return Returns a reference to this object so that method calls can be chained together.\n@see KeyUsageType*/",
+          "fluentSetterMethodName" : "withKeyUsage",
+          "getterDocumentation" : "/**<p>The <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#cryptographic-operations\">cryptographic operations</a> for which you can use the CMK.</p>\n@return The <a href=\"https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#cryptographic-operations\">cryptographic operations</a> for which you can use the CMK.\n@see KeyUsageType*/",
+          "getterMethodName" : "getKeyUsage",
+          "getterModel" : {
+            "returnType" : "String",
+            "documentation" : null
+      "shapeName" : "WrappingKeySpec",
+      "signerAware" : false,
+      "signerType" : null,
+      "unmarshaller" : {
+        "flattened" : false,
+        "resultWrapper" : null
+      },
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "WrappingKeySpec",
+        "variableName" : "wrappingKeySpec",
+        "variableType" : "WrappingKeySpec",
+        "documentation" : null,
+        "simpleType" : "WrappingKeySpec",
+        "variableSetterType" : "WrappingKeySpec"
+      },
+      "wrapper" : false
+    }
+  },
+  "clientConfigFactory" : "ClientConfigurationFactory",
+  "examples" : {
+    "examples" : {
+      "CancelKeyDeletion" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK whose deletion you are canceling. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : {
+            "KeyId" : "The ARN of the CMK whose deletion you canceled."
+          }
+        },
+        "description" : "The following example cancels deletion of the specified CMK.",
+        "id" : "to-cancel-deletion-of-a-cmk-1477428535102",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : {
+          "KeyId" : "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "title" : "To cancel deletion of a customer master key (CMK)"
+      } ],
+      "CreateAlias" : [ {
+        "comments" : {
+          "input" : {
+            "AliasName" : "The alias to create. Aliases must begin with 'alias/'. Do not use aliases that begin with 'alias/aws' because they are reserved for use by AWS.",
+            "TargetKeyId" : "The identifier of the CMK whose alias you are creating. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : null
+        },
+        "description" : "The following example creates an alias for the specified customer master key (CMK).",
+        "id" : "to-create-an-alias-1477505685119",
+        "input" : {
+          "AliasName" : "alias/ExampleAlias",
+          "TargetKeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : null,
+        "title" : "To create an alias"
+      } ],
+      "CreateGrant" : [ {
+        "comments" : {
+          "input" : {
+            "GranteePrincipal" : "The identity that is given permission to perform the operations specified in the grant.",
+            "KeyId" : "The identifier of the CMK to which the grant applies. You can use the key ID or the Amazon Resource Name (ARN) of the CMK.",
+            "Operations" : "A list of operations that the grant allows."
+          },
+          "output" : {
+            "GrantId" : "The unique identifier of the grant.",
+            "GrantToken" : "The grant token."
+          }
+        },
+        "description" : "The following example creates a grant that allows the specified IAM role to encrypt data with the specified customer master key (CMK).",
+        "id" : "to-create-a-grant-1477972226782",
+        "input" : {
+          "KeyId" : "arn:aws:kms:us-east-2:444455556666:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+          "GranteePrincipal" : "arn:aws:iam::111122223333:role/ExampleRole",
+          "Operations" : [ "Encrypt", "Decrypt" ]
+        },
+        "output" : {
+          "magic_word" : "EJmOH0FeQVt2ZGAbDAu1VdItClRpADJyKXEnZ0K2YLH8Qcc0KJLzMor8QHD1GWuhVVJlNFRbKNWwHkleGhWsYIH9EkCGPzWGReN8Hl8RSEIE__UKggomi7DJA8Aer18XePMpFromHQ4WY5BMMIGlUBDdTsojtitH0h0HMyself9jteqKWUXyccXFPIcYNGj4VGHEXBNbXweqtaiIAQCOUI0aKEKHhfWgGYKrmRc9YoK5GnGTfRIKJEzzAlf2urdCjbYANG9N0QrBggXu3ISWQ1-QAD6m3n0v5RoL44KR7apfzQWBA2R_FDTsqtgpjcQcu_oHuX278kPbvtiZtfO0efOUT0ex-BmntvbAg6ULPGSQSwtwFTvypKFeSSqVPeazb4LZBcdGan7Fqj1r7HheG7px7qEeybioHBg-yaC5tgjol_SV1AXIp7klYuv0TdqhGVE0csUya3LXZYZuHFpTapBKSFMpajiKiM5PJj67xcO",
+          "GrantId" : "0c237476b39f8bc44e45212e08498fbe3151305030726c0590dd8d3e9f3d6a60"
+        },
+        "title" : "To create a grant"
+      } ],
+      "CreateKey" : [ {
+        "comments" : {
+          "input" : {
+            "Tags" : "One or more tags. Each tag consists of a tag key and a tag value."
+          },
+          "output" : {
+            "KeyMetadata" : "An object that contains information about the CMK created by this operation."
+          }
+        },
+        "description" : "The following example creates a CMK.",
+        "id" : "to-create-a-cmk-1478028992966",
+        "input" : {
+          "Tags" : [ {
+            "TagKey" : "CreatedBy",
+            "TagValue" : "ExampleUser"
+          } ]
+        },
+        "output" : {
+          "KeyMetadata" : {
+            "AWSAccountId" : "111122223333",
+            "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab",
+            "Arn" : "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "CreationDate" : "2017-07-05T14:04:55-07:00",
+            "Enabled" : true,
+            "Description" : "",
+            "KeyUsage" : "ENCRYPT_DECRYPT",
+            "KeyState" : "Enabled",
+            "Origin" : "AWS_KMS",
+            "KeyManager" : "CUSTOMER"
+          }
+        },
+        "title" : "To create a customer master key (CMK)"
+      } ],
+      "Decrypt" : [ {
+        "comments" : {
+          "input" : {
+            "CiphertextBlob" : "The encrypted data (ciphertext).",
+            "KeyId" : "A key identifier for the CMK to use to decrypt the data."
+          },
+          "output" : {
+            "KeyId" : "The Amazon Resource Name (ARN) of the CMK that was used to decrypt the data.",
+            "Plaintext" : "The decrypted (plaintext) data."
+          }
+        },
+        "description" : "The following example decrypts data that was encrypted with a customer master key (CMK) in AWS KMS.",
+        "id" : "to-decrypt-data-1478281622886",
+        "input" : {
+          "CiphertextBlob" : "<binary data>",
+          "KeyId" : "arn:aws:kms:us-west-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : {
+          "KeyId" : "arn:aws:kms:us-west-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+          "Plaintext" : "<binary data>"
+        },
+        "title" : "To decrypt data"
+      } ],
+      "DeleteAlias" : [ {
+        "comments" : {
+          "input" : {
+            "AliasName" : "The alias to delete."
+          },
+          "output" : null
+        },
+        "description" : "The following example deletes the specified alias.",
+        "id" : "to-delete-an-alias-1478285209338",
+        "input" : {
+          "AliasName" : "alias/ExampleAlias"
+        },
+        "output" : null,
+        "title" : "To delete an alias"
+      } ],
+      "DeleteImportedKeyMaterial" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK whose imported key material you are deleting. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : null
+        },
+        "description" : "The following example deletes the imported key material from the specified customer master key (CMK).",
+        "id" : "to-delete-imported-key-material-1478561674507",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : null,
+        "title" : "To delete imported key material"
+      } ],
+      "DescribeKey" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK that you want information about. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : {
+            "KeyMetadata" : "An object that contains information about the specified CMK."
+          }
+        },
+        "description" : "The following example returns information (metadata) about the specified CMK.",
+        "id" : "to-obtain-information-about-a-cmk-1478565820907",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : {
+          "KeyMetadata" : {
+            "AWSAccountId" : "111122223333",
+            "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab",
+            "Arn" : "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "CreationDate" : "2017-07-05T14:04:55-07:00",
+            "Enabled" : true,
+            "Description" : "",
+            "KeyUsage" : "ENCRYPT_DECRYPT",
+            "KeyState" : "Enabled",
+            "Origin" : "AWS_KMS",
+            "KeyManager" : "CUSTOMER"
+          }
+        },
+        "title" : "To obtain information about a customer master key (CMK)"
+      } ],
+      "DisableKey" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK to disable. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : null
+        },
+        "description" : "The following example disables the specified CMK.",
+        "id" : "to-disable-a-cmk-1478566583659",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : null,
+        "title" : "To disable a customer master key (CMK)"
+      } ],
+      "DisableKeyRotation" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK whose key material will no longer be rotated. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : null
+        },
+        "description" : "The following example disables automatic annual rotation of the key material for the specified CMK.",
+        "id" : "to-disable-automatic-rotation-of-key-material-1478624396092",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : null,
+        "title" : "To disable automatic rotation of key material"
+      } ],
+      "EnableKey" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK to enable. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : null
+        },
+        "description" : "The following example enables the specified CMK.",
+        "id" : "to-enable-a-cmk-1478627501129",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : null,
+        "title" : "To enable a customer master key (CMK)"
+      } ],
+      "EnableKeyRotation" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK whose key material will be rotated annually. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : null
+        },
+        "description" : "The following example enables automatic annual rotation of the key material for the specified CMK.",
+        "id" : "to-enable-automatic-rotation-of-key-material-1478629109677",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : null,
+        "title" : "To enable automatic rotation of key material"
+      } ],
+      "Encrypt" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK to use for encryption. You can use the key ID or Amazon Resource Name (ARN) of the CMK, or the name or ARN of an alias that refers to the CMK.",
+            "Plaintext" : "The data to encrypt."
+          },
+          "output" : {
+            "CiphertextBlob" : "The encrypted data (ciphertext).",
+            "KeyId" : "The ARN of the CMK that was used to encrypt the data."
+          }
+        },
+        "description" : "The following example encrypts data with the specified customer master key (CMK).",
+        "id" : "to-encrypt-data-1478906026012",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab",
+          "Plaintext" : "<binary data>"
+        },
+        "output" : {
+          "CiphertextBlob" : "<binary data>",
+          "KeyId" : "arn:aws:kms:us-west-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "title" : "To encrypt data"
+      } ],
+      "GenerateDataKey" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK to use to encrypt the data key. You can use the key ID or Amazon Resource Name (ARN) of the CMK, or the name or ARN of an alias that refers to the CMK.",
+            "KeySpec" : "Specifies the type of data key to return."
+          },
+          "output" : {
+            "CiphertextBlob" : "The encrypted data key.",
+            "KeyId" : "The ARN of the CMK that was used to encrypt the data key.",
+            "Plaintext" : "The unencrypted (plaintext) data key."
+          }
+        },
+        "description" : "The following example generates a 256-bit symmetric data encryption key (data key) in two formats. One is the unencrypted (plainext) data key, and the other is the data key encrypted with the specified customer master key (CMK).",
+        "id" : "to-generate-a-data-key-1478912956062",
+        "input" : {
+          "KeyId" : "alias/ExampleAlias",
+          "KeySpec" : "AES_256"
+        },
+        "output" : {
+          "CiphertextBlob" : "<binary data>",
+          "Plaintext" : "<binary data>",
+          "KeyId" : "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "title" : "To generate a data key"
+      } ],
+      "GenerateDataKeyWithoutPlaintext" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK to use to encrypt the data key. You can use the key ID or Amazon Resource Name (ARN) of the CMK, or the name or ARN of an alias that refers to the CMK.",
+            "KeySpec" : "Specifies the type of data key to return."
+          },
+          "output" : {
+            "CiphertextBlob" : "The encrypted data key.",
+            "KeyId" : "The ARN of the CMK that was used to encrypt the data key."
+          }
+        },
+        "description" : "The following example generates an encrypted copy of a 256-bit symmetric data encryption key (data key). The data key is encrypted with the specified customer master key (CMK).",
+        "id" : "to-generate-an-encrypted-data-key-1478914121134",
+        "input" : {
+          "KeyId" : "alias/ExampleAlias",
+          "KeySpec" : "AES_256"
+        },
+        "output" : {
+          "CiphertextBlob" : "<binary data>",
+          "KeyId" : "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "title" : "To generate an encrypted data key"
+      } ],
+      "GenerateRandom" : [ {
+        "comments" : {
+          "input" : {
+            "NumberOfBytes" : "The length of the random data, specified in number of bytes."
+          },
+          "output" : {
+            "Plaintext" : "The random data."
+          }
+        },
+        "description" : "The following example uses AWS KMS to generate 32 bytes of random data.",
+        "id" : "to-generate-random-data-1479163645600",
+        "input" : {
+          "NumberOfBytes" : 32
+        },
+        "output" : {
+          "Plaintext" : "<binary data>"
+        },
+        "title" : "To generate random data"
+      } ],
+      "GetKeyPolicy" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK whose key policy you want to retrieve. You can use the key ID or the Amazon Resource Name (ARN) of the CMK.",
+            "PolicyName" : "The name of the key policy to retrieve."
+          },
+          "output" : {
+            "Policy" : "The key policy document."
+          }
+        },
+        "description" : "The following example retrieves the key policy for the specified customer master key (CMK).",
+        "id" : "to-retrieve-a-key-policy-1479170128325",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab",
+          "PolicyName" : "default"
+        },
+        "output" : {
+          "Policy" : "{\n  \"Version\" : \"2012-10-17\",\n  \"Id\" : \"key-default-1\",\n  \"Statement\" : [ {\n    \"Sid\" : \"Enable IAM User Permissions\",\n    \"Effect\" : \"Allow\",\n    \"Principal\" : {\n      \"AWS\" : \"arn:aws:iam::111122223333:root\"\n    },\n    \"Action\" : \"kms:*\",\n    \"Resource\" : \"*\"\n  } ]\n}"
+        },
+        "title" : "To retrieve a key policy"
+      } ],
+      "GetKeyRotationStatus" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK whose key material rotation status you want to retrieve. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : {
+            "KeyRotationEnabled" : "A boolean that indicates the key material rotation status. Returns true when automatic annual rotation of the key material is enabled, or false when it is not."
+          }
+        },
+        "description" : "The following example retrieves the status of automatic annual rotation of the key material for the specified CMK.",
+        "id" : "to-retrieve-the-rotation-status-for-a-cmk-1479172287408",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : {
+          "KeyRotationEnabled" : true
+        },
+        "title" : "To retrieve the rotation status for a customer master key (CMK)"
+      } ],
+      "GetParametersForImport" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK for which to retrieve the public key and import token. You can use the key ID or the Amazon Resource Name (ARN) of the CMK.",
+            "WrappingAlgorithm" : "The algorithm that you will use to encrypt the key material before importing it.",
+            "WrappingKeySpec" : "The type of wrapping key (public key) to return in the response."
+          },
+          "output" : {
+            "ImportToken" : "The import token to send with a subsequent ImportKeyMaterial request.",
+            "KeyId" : "The ARN of the CMK for which you are retrieving the public key and import token. This is the same CMK specified in the request.",
+            "ParametersValidTo" : "The time at which the import token and public key are no longer valid.",
+            "PublicKey" : "The public key to use to encrypt the key material before importing it."
+          }
+        },
+        "description" : "The following example retrieves the public key and import token for the specified CMK.",
+        "id" : "to-retrieve-the-public-key-and-import-token-for-a-cmk-1480626483211",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab",
+          "WrappingAlgorithm" : "RSAES_OAEP_SHA_1",
+          "WrappingKeySpec" : "RSA_2048"
+        },
+        "output" : {
+          "KeyId" : "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+          "ImportToken" : "<binary data>",
+          "PublicKey" : "<binary data>",
+          "ParametersValidTo" : "2016-12-01T14:52:17-08:00"
+        },
+        "title" : "To retrieve the public key and import token for a customer master key (CMK)"
+      } ],
+      "ImportKeyMaterial" : [ {
+        "comments" : {
+          "input" : {
+            "EncryptedKeyMaterial" : "The encrypted key material to import.",
+            "ExpirationModel" : "A value that specifies whether the key material expires.",
+            "ImportToken" : "The import token that you received in the response to a previous GetParametersForImport request.",
+            "KeyId" : "The identifier of the CMK to import the key material into. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : null
+        },
+        "description" : "The following example imports key material into the specified CMK.",
+        "id" : "to-import-key-material-into-a-cmk-1480630551969",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab",
+          "ImportToken" : "<binary data>",
+          "EncryptedKeyMaterial" : "<binary data>",
+          "ExpirationModel" : "KEY_MATERIAL_DOES_NOT_EXPIRE"
+        },
+        "output" : null,
+        "title" : "To import key material into a customer master key (CMK)"
+      } ],
+      "ListAliases" : [ {
+        "comments" : {
+          "input" : null,
+          "output" : {
+            "Aliases" : "A list of aliases, including the key ID of the customer master key (CMK) that each alias refers to.",
+            "Truncated" : "A boolean that indicates whether there are more items in the list. Returns true when there are more items, or false when there are not."
+          }
+        },
+        "description" : "The following example lists aliases.",
+        "id" : "to-list-aliases-1480729693349",
+        "input" : null,
+        "output" : {
+          "Aliases" : [ {
+            "AliasName" : "alias/aws/acm",
+            "AliasArn" : "arn:aws:kms:us-east-2:111122223333:alias/aws/acm",
+            "TargetKeyId" : "da03f6f7-d279-427a-9cae-de48d07e5b66"
+          }, {
+            "AliasName" : "alias/aws/ebs",
+            "AliasArn" : "arn:aws:kms:us-east-2:111122223333:alias/aws/ebs",
+            "TargetKeyId" : "25a217e7-7170-4b8c-8bf6-045ea5f70e5b"
+          }, {
+            "AliasName" : "alias/aws/rds",
+            "AliasArn" : "arn:aws:kms:us-east-2:111122223333:alias/aws/rds",
+            "TargetKeyId" : "7ec3104e-c3f2-4b5c-bf42-bfc4772c6685"
+          }, {
+            "AliasName" : "alias/aws/redshift",
+            "AliasArn" : "arn:aws:kms:us-east-2:111122223333:alias/aws/redshift",
+            "TargetKeyId" : "08f7a25a-69e2-4fb5-8f10-393db27326fa"
+          }, {
+            "AliasName" : "alias/aws/s3",
+            "AliasArn" : "arn:aws:kms:us-east-2:111122223333:alias/aws/s3",
+            "TargetKeyId" : "d2b0f1a3-580d-4f79-b836-bc983be8cfa5"
+          }, {
+            "AliasName" : "alias/example1",
+            "AliasArn" : "arn:aws:kms:us-east-2:111122223333:alias/example1",
+            "TargetKeyId" : "4da1e216-62d0-46c5-a7c0-5f3a3d2f8046"
+          }, {
+            "AliasName" : "alias/example2",
+            "AliasArn" : "arn:aws:kms:us-east-2:111122223333:alias/example2",
+            "TargetKeyId" : "f32fef59-2cc2-445b-8573-2d73328acbee"
+          }, {
+            "AliasName" : "alias/example3",
+            "AliasArn" : "arn:aws:kms:us-east-2:111122223333:alias/example3",
+            "TargetKeyId" : "1374ef38-d34e-4d5f-b2c9-4e0daee38855"
+          } ],
+          "Truncated" : false
+        },
+        "title" : "To list aliases"
+      } ],
+      "ListGrants" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK whose grants you want to list. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : {
+            "Grants" : "A list of grants.",
+            "Truncated" : "A boolean that indicates whether there are more items in the list. Returns true when there are more items, or false when there are not."
+          }
+        },
+        "description" : "The following example lists grants for the specified CMK.",
+        "id" : "to-list-grants-for-a-cmk-1481067365389",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : {
+          "Grants" : [ {
+            "KeyId" : "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "GrantId" : "91ad875e49b04a9d1f3bdeb84d821f9db6ea95e1098813f6d47f0c65fbe2a172",
+            "CreationDate" : "2016-10-25T14:37:41-07:00",
+            "GranteePrincipal" : "acm.us-east-2.amazonaws.com",
+            "RetiringPrincipal" : "acm.us-east-2.amazonaws.com",
+            "IssuingAccount" : "arn:aws:iam::111122223333:root",
+            "Operations" : [ "Encrypt", "ReEncryptFrom", "ReEncryptTo" ]
+          }, {
+            "KeyId" : "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "GrantId" : "a5d67d3e207a8fc1f4928749ee3e52eb0440493a8b9cf05bbfad91655b056200",
+            "CreationDate" : "2016-10-25T14:37:41-07:00",
+            "GranteePrincipal" : "acm.us-east-2.amazonaws.com",
+            "Operations" : [ "ReEncryptFrom", "ReEncryptTo" ]
+          }, {
+            "KeyId" : "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "GrantId" : "c541aaf05d90cb78846a73b346fc43e65be28b7163129488c738e0c9e0628f4f",
+            "CreationDate" : "2016-10-25T14:37:41-07:00",
+            "GranteePrincipal" : "acm.us-east-2.amazonaws.com",
+            "RetiringPrincipal" : "acm.us-east-2.amazonaws.com",
+            "IssuingAccount" : "arn:aws:iam::111122223333:root",
+            "Operations" : [ "Encrypt", "ReEncryptFrom", "ReEncryptTo" ]
+          }, {
+            "KeyId" : "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "GrantId" : "dd2052c67b4c76ee45caf1dc6a1e2d24e8dc744a51b36ae2f067dc540ce0105c",
+            "CreationDate" : "2016-10-25T14:37:41-07:00",
+            "GranteePrincipal" : "acm.us-east-2.amazonaws.com",
+            "RetiringPrincipal" : "acm.us-east-2.amazonaws.com",
+            "IssuingAccount" : "arn:aws:iam::111122223333:root",
+            "Operations" : [ "Encrypt", "ReEncryptFrom", "ReEncryptTo" ]
+          } ],
+          "Truncated" : true
+        },
+        "title" : "To list grants for a customer master key (CMK)"
+      } ],
+      "ListKeyPolicies" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK whose key policies you want to list. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : {
+            "PolicyNames" : "A list of key policy names.",
+            "Truncated" : "A boolean that indicates whether there are more items in the list. Returns true when there are more items, or false when there are not."
+          }
+        },
+        "description" : "The following example lists key policies for the specified CMK.",
+        "id" : "to-list-key-policies-for-a-cmk-1481069780998",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : {
+          "PolicyNames" : [ "default" ],
+          "Truncated" : false
+        },
+        "title" : "To list key policies for a customer master key (CMK)"
+      } ],
+      "ListKeys" : [ {
+        "comments" : {
+          "input" : null,
+          "output" : {
+            "Keys" : "A list of CMKs, including the key ID and Amazon Resource Name (ARN) of each one.",
+            "Truncated" : "A boolean that indicates whether there are more items in the list. Returns true when there are more items, or false when there are not."
+          }
+        },
+        "description" : "The following example lists CMKs.",
+        "id" : "to-list-cmks-1481071643069",
+        "input" : null,
+        "output" : {
+          "Keys" : [ {
+            "KeyId" : "0d990263-018e-4e65-a703-eff731de951e",
+            "KeyArn" : "arn:aws:kms:us-east-2:111122223333:key/6e804353-238b-8f17-e609-ffe888bb230a"
+          }, {
+            "KeyId" : "144be297-0ae1-44ac-9c8f-93cd8c82f841",
+            "KeyArn" : "arn:aws:kms:us-east-2:111122223333:key/311dc221-3ab8-70ef-9e1c-10fc7f10f549"
+          }, {
+            "KeyId" : "21184251-b765-428e-b852-2c7353e72571",
+            "KeyArn" : "arn:aws:kms:us-east-2:111122223333:key/68094603-a076-196a-e739-5e5089c94869"
+          }, {
+            "KeyId" : "214fe92f-5b03-4ae1-b350-db2a45dbe10c",
+            "KeyArn" : "arn:aws:kms:us-east-2:111122223333:key/530ca97b-4f64-5fc2-b823-ee7a87dad80b"
+          }, {
+            "KeyId" : "339963f2-e523-49d3-af24-a0fe752aa458",
+            "KeyArn" : "arn:aws:kms:us-east-2:111122223333:key/718758f0-f090-97a2-aa24-d9eb620fb997"
+          }, {
+            "KeyId" : "b776a44b-df37-4438-9be4-a27494e4271a",
+            "KeyArn" : "arn:aws:kms:us-east-2:111122223333:key/b926c44a-de49-1846-6af9-e43907d6891b"
+          }, {
+            "KeyId" : "deaf6c9e-cf2c-46a6-bf6d-0b6d487cffbb",
+            "KeyArn" : "arn:aws:kms:us-east-2:111122223333:key/ebfc9c5e-cf4f-87a6-de7a-1e0c955acdda"
+          } ],
+          "Truncated" : false
+        },
+        "title" : "To list customer master keys (CMKs)"
+      } ],
+      "ListResourceTags" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK whose tags you are listing. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : {
+            "Tags" : "A list of tags.",
+            "Truncated" : "A boolean that indicates whether there are more items in the list. Returns true when there are more items, or false when there are not."
+          }
+        },
+        "description" : "The following example lists tags for a CMK.",
+        "id" : "to-list-tags-for-a-cmk-1483996855796",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : {
+          "Tags" : [ {
+            "TagKey" : "CostCenter",
+            "TagValue" : "87654"
+          }, {
+            "TagKey" : "CreatedBy",
+            "TagValue" : "ExampleUser"
+          }, {
+            "TagKey" : "Purpose",
+            "TagValue" : "Test"
+          } ],
+          "Truncated" : false
+        },
+        "title" : "To list tags for a customer master key (CMK)"
+      } ],
+      "ListRetirableGrants" : [ {
+        "comments" : {
+          "input" : {
+            "RetiringPrincipal" : "The retiring principal whose grants you want to list. Use the Amazon Resource Name (ARN) of an AWS principal such as an AWS account (root), IAM user, federated user, or assumed role user."
+          },
+          "output" : {
+            "Grants" : "A list of grants that the specified principal can retire.",
+            "Truncated" : "A boolean that indicates whether there are more items in the list. Returns true when there are more items, or false when there are not."
+          }
+        },
+        "description" : "The following example lists the grants that the specified principal (identity) can retire.",
+        "id" : "to-list-grants-that-the-specified-principal-can-retire-1481140499620",
+        "input" : {
+          "RetiringPrincipal" : "arn:aws:iam::111122223333:role/ExampleRole"
+        },
+        "output" : {
+          "Grants" : [ {
+            "KeyId" : "arn:aws:kms:us-east-2:444455556666:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+            "GrantId" : "0c237476b39f8bc44e45212e08498fbe3151305030726c0590dd8d3e9f3d6a60",
+            "CreationDate" : "2016-12-07T11:09:35-08:00",
+            "GranteePrincipal" : "arn:aws:iam::111122223333:role/ExampleRole",
+            "RetiringPrincipal" : "arn:aws:iam::111122223333:role/ExampleRole",
+            "IssuingAccount" : "arn:aws:iam::444455556666:root",
+            "Operations" : [ "Decrypt", "Encrypt" ]
+          } ],
+          "Truncated" : false
+        },
+        "title" : "To list grants that the specified principal can retire"
+      } ],
+      "PutKeyPolicy" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK to attach the key policy to. You can use the key ID or the Amazon Resource Name (ARN) of the CMK.",
+            "Policy" : "The key policy document.",
+            "PolicyName" : "The name of the key policy."
+          },
+          "output" : null
+        },
+        "description" : "The following example attaches a key policy to the specified CMK.",
+        "id" : "to-attach-a-key-policy-to-a-cmk-1481147345018",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab",
+          "PolicyName" : "default",
+          "Policy" : "{\n    \"Version\": \"2012-10-17\",\n    \"Id\": \"custom-policy-2016-12-07\",\n    \"Statement\": [\n        {\n            \"Sid\": \"Enable IAM User Permissions\",\n            \"Effect\": \"Allow\",\n            \"Principal\": {\n                \"AWS\": \"arn:aws:iam::111122223333:root\"\n            },\n            \"Action\": \"kms:*\",\n            \"Resource\": \"*\"\n        },\n        {\n            \"Sid\": \"Allow access for Key Administrators\",\n            \"Effect\": \"Allow\",\n            \"Principal\": {\n                \"AWS\": [\n                    \"arn:aws:iam::111122223333:user/ExampleAdminUser\",\n                    \"arn:aws:iam::111122223333:role/ExampleAdminRole\"\n                ]\n            },\n            \"Action\": [\n                \"kms:Create*\",\n                \"kms:Describe*\",\n                \"kms:Enable*\",\n                \"kms:List*\",\n                \"kms:Put*\",\n                \"kms:Update*\",\n                \"kms:Revoke*\",\n                \"kms:Disable*\",\n                \"kms:Get*\",\n                \"kms:Delete*\",\n                \"kms:ScheduleKeyDeletion\",\n                \"kms:CancelKeyDeletion\"\n            ],\n            \"Resource\": \"*\"\n        },\n        {\n            \"Sid\": \"Allow use of the key\",\n            \"Effect\": \"Allow\",\n            \"Principal\": {\n                \"AWS\": \"arn:aws:iam::111122223333:role/ExamplePowerUserRole\"\n            },\n            \"Action\": [\n                \"kms:Encrypt\",\n                \"kms:Decrypt\",\n                \"kms:ReEncrypt*\",\n                \"kms:GenerateDataKey*\",\n                \"kms:DescribeKey\"\n            ],\n            \"Resource\": \"*\"\n        },\n        {\n            \"Sid\": \"Allow attachment of persistent resources\",\n            \"Effect\": \"Allow\",\n            \"Principal\": {\n                \"AWS\": \"arn:aws:iam::111122223333:role/ExamplePowerUserRole\"\n            },\n            \"Action\": [\n                \"kms:CreateGrant\",\n                \"kms:ListGrants\",\n                \"kms:RevokeGrant\"\n            ],\n            \"Resource\": \"*\",\n            \"Condition\": {\n                \"Bool\": {\n                    \"kms:GrantIsForAWSResource\": \"true\"\n                }\n            }\n        }\n    ]\n}\n"
+        },
+        "output" : null,
+        "title" : "To attach a key policy to a customer master key (CMK)"
+      } ],
+      "ReEncrypt" : [ {
+        "comments" : {
+          "input" : {
+            "CiphertextBlob" : "The data to reencrypt.",
+            "DestinationKeyId" : "The identifier of the CMK to use to reencrypt the data. You can use any valid key identifier.",
+            "SourceKeyId" : "The identifier of the CMK to use to decrypt the data. You can use any valid key identifier."
+          },
+          "output" : {
+            "CiphertextBlob" : "The reencrypted data.",
+            "KeyId" : "The ARN of the CMK that was used to reencrypt the data.",
+            "SourceKeyId" : "The ARN of the CMK that was originally used to encrypt the data."
+          }
+        },
+        "description" : "The following example reencrypts data with the specified CMK.",
+        "id" : "to-reencrypt-data-1481230358001",
+        "input" : {
+          "CiphertextBlob" : "<binary data>",
+          "DestinationKeyId" : "0987dcba-09fe-87dc-65ba-ab0987654321"
+        },
+        "output" : {
+          "CiphertextBlob" : "<binary data>",
+          "SourceKeyId" : "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+          "KeyId" : "arn:aws:kms:us-east-2:111122223333:key/0987dcba-09fe-87dc-65ba-ab0987654321"
+        },
+        "title" : "To reencrypt data"
+      } ],
+      "RetireGrant" : [ {
+        "comments" : {
+          "input" : {
+            "GrantId" : "The identifier of the grant to retire.",
+            "KeyId" : "The Amazon Resource Name (ARN) of the customer master key (CMK) associated with the grant."
+          },
+          "output" : null
+        },
+        "description" : "The following example retires a grant.",
+        "id" : "to-retire-a-grant-1481327028297",
+        "input" : {
+          "KeyId" : "arn:aws:kms:us-east-2:444455556666:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+          "GrantId" : "0c237476b39f8bc44e45212e08498fbe3151305030726c0590dd8d3e9f3d6a60"
+        },
+        "output" : null,
+        "title" : "To retire a grant"
+      } ],
+      "RevokeGrant" : [ {
+        "comments" : {
+          "input" : {
+            "GrantId" : "The identifier of the grant to revoke.",
+            "KeyId" : "The identifier of the customer master key (CMK) associated with the grant. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : null
+        },
+        "description" : "The following example revokes a grant.",
+        "id" : "to-revoke-a-grant-1481329549302",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab",
+          "GrantId" : "0c237476b39f8bc44e45212e08498fbe3151305030726c0590dd8d3e9f3d6a60"
+        },
+        "output" : null,
+        "title" : "To revoke a grant"
+      } ],
+      "ScheduleKeyDeletion" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK to schedule for deletion. You can use the key ID or the Amazon Resource Name (ARN) of the CMK.",
+            "PendingWindowInDays" : "The waiting period, specified in number of days. After the waiting period ends, AWS KMS deletes the CMK."
+          },
+          "output" : {
+            "DeletionDate" : "The date and time after which AWS KMS deletes the CMK.",
+            "KeyId" : "The ARN of the CMK that is scheduled for deletion."
+          }
+        },
+        "description" : "The following example schedules the specified CMK for deletion.",
+        "id" : "to-schedule-a-cmk-for-deletion-1481331111094",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab",
+          "PendingWindowInDays" : 7
+        },
+        "output" : {
+          "KeyId" : "arn:aws:kms:us-east-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab",
+          "DeletionDate" : "2016-12-17T16:00:00-08:00"
+        },
+        "title" : "To schedule a customer master key (CMK) for deletion"
+      } ],
+      "TagResource" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK you are tagging. You can use the key ID or the Amazon Resource Name (ARN) of the CMK.",
+            "Tags" : "A list of tags."
+          },
+          "output" : null
+        },
+        "description" : "The following example tags a CMK.",
+        "id" : "to-tag-a-cmk-1483997246518",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab",
+          "Tags" : [ {
+            "TagKey" : "Purpose",
+            "TagValue" : "Test"
+          } ]
+        },
+        "output" : null,
+        "title" : "To tag a customer master key (CMK)"
+      } ],
+      "UntagResource" : [ {
+        "comments" : {
+          "input" : {
+            "KeyId" : "The identifier of the CMK whose tags you are removing.",
+            "TagKeys" : "A list of tag keys. Provide only the tag keys, not the tag values."
+          },
+          "output" : null
+        },
+        "description" : "The following example removes tags from a CMK.",
+        "id" : "to-remove-tags-from-a-cmk-1483997590962",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab",
+          "TagKeys" : [ "Purpose", "CostCenter" ]
+        },
+        "output" : null,
+        "title" : "To remove tags from a customer master key (CMK)"
+      } ],
+      "UpdateAlias" : [ {
+        "comments" : {
+          "input" : {
+            "AliasName" : "The alias to update.",
+            "TargetKeyId" : "The identifier of the CMK that the alias will refer to after this operation succeeds. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : null
+        },
+        "description" : "The following example updates the specified alias to refer to the specified customer master key (CMK).",
+        "id" : "to-update-an-alias-1481572726920",
+        "input" : {
+          "AliasName" : "alias/ExampleAlias",
+          "TargetKeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab"
+        },
+        "output" : null,
+        "title" : "To update an alias"
+      } ],
+      "UpdateKeyDescription" : [ {
+        "comments" : {
+          "input" : {
+            "Description" : "The updated description.",
+            "KeyId" : "The identifier of the CMK whose description you are updating. You can use the key ID or the Amazon Resource Name (ARN) of the CMK."
+          },
+          "output" : null
+        },
+        "description" : "The following example updates the description of the specified CMK.",
+        "id" : "to-update-the-description-of-a-cmk-1481574808619",
+        "input" : {
+          "KeyId" : "1234abcd-12ab-34cd-56ef-1234567890ab",
+          "Description" : "Example description that indicates the intended use of this CMK."
+        },
+        "output" : null,
+        "title" : "To update the description of a customer master key (CMK)"
+      } ]
+    },
+    "version" : "1.0"
+  },
+  "exceptionUnmarshallerImpl" : null,
+  "fileHeader" : "/*\n * Copyright 2016-2021 Amazon.com, Inc. or its affiliates. All Rights\n * Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\").\n * You may not use this file except in compliance with the License.\n * A copy of the License is located at\n *\n *  http://aws.amazon.com/apache2.0\n *\n * or in the \"license\" file accompanying this file. This file is distributed\n * on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either\n * express or implied. See the License for the specific language governing\n * permissions and limitations under the License.\n */",
+  "hasWaiters" : false,
+  "sdkBaseResponseFqcn" : "com.amazonaws.AmazonWebServiceResult<com.amazonaws.ResponseMetadata>",
+  "sdkModeledExceptionBaseClassName" : "AWSKMSException",
+  "sdkModeledExceptionBaseFqcn" : "com.amazonaws.services.kms.model.AWSKMSException",
+  "serviceBaseExceptionFqcn" : "com.amazonaws.AmazonServiceException",
+  "transformPackage" : "com.amazonaws.services.kms.model.transform"
+}

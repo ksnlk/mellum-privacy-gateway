@@ -1,0 +1,930 @@
+{
+ "repo": "5d8870b3",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/1550ec65.md",
+   "line": 265,
+   "start": 21,
+   "end": 49,
+   "category": "Auth:Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "PRBUg4wEYTupOOk3FJSkZut3P6FH"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/1550ec65.md",
+   "line": 268,
+   "start": 46,
+   "end": 53,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "Z6cru2k"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/1550ec65.md",
+   "line": 286,
+   "start": 15,
+   "end": 37,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "2DsrqJXCIvy4hBarkYElZF"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/1550ec65.md",
+   "line": 289,
+   "start": 17,
+   "end": 39,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "vOat7CSnF1QE1Fh9PsKSMS"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "example/model/bbe3797e.js",
+   "line": 25,
+   "start": 14,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "tnwzwajeme"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/ecd8a360.js",
+   "line": 45,
+   "start": 13,
+   "end": 23,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "xijhdzspsp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/ecd8a360.js",
+   "line": 142,
+   "start": 37,
+   "end": 61,
+   "category": "Basic Authorization",
+   "mutation": "none",
+   "forms": [
+    "IIYjdnktuHv4q9N1gZKfVu=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/fe21d82c.js",
+   "line": 92,
+   "start": 19,
+   "end": 29,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "gsmegcqmnv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/d4c68bc1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Laura Koch"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/d4c68bc1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sarah93@gmail.com"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/d4c68bc1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 7970 9996"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/d4c68bc1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Clara Schwarz"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/d4c68bc1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "nico.wolf [at] quarzo-corp [dot] de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/d4c68bc1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE65444526498421020400"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/d4c68bc1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lukas Neumann"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/d4c68bc1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Rosenheimer Str. 59, 36614 Regensburg"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/d4c68bc1.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "188.140.115.79"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/4a0fa34f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.lange@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/4a0fa34f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 8817 5152"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/4a0fa34f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "measured649$"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/4a0fa34f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE52323014975295911037"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/50211d27.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.29.130.214"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "_/50211d27.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-replica.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "_/50211d27.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TOB9F04X2/BA4AF7PFY4O/1ZC2QxcZwfAcNvJNHSmk6fHa"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "_/d41ca993.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.ysCM9MP6NBWZysRUjJCb3V84mTWS9_liyv_opFH1.hwYsITMVI_DAAPtRVYp9W5E6NTMltVunBaxYGdOl_kh"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "_/d41ca993.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.akt4eqgy6q4s.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "src/5041ad3a.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "85, 87, 115, 121, 56, 51, 81, 78, 66, 79, 111, 73, 69, 79, 109, 79, 104, 106, 55, 111, 84, 115, 117, 114, 100, 69, 99, 68, 87, 53, 88, 68",
+    "UWsy83QNBOoIEOmOhj7oTsurdEcDW5XD"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "src/5041ad3a.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "jan.koch@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "_/a9638574.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "blend.victor.garten56"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "_/a9638574.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-mq-03.prod.pinegrid-internal.net"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.quarzo.net"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.quarzo.net"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.quarzo.net"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "46.30.49.0/24"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "NETWORK.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "46.30.49.119"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.quarzo.net"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.quarzo.net"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.quarzo.net"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.quarzo.net"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "46.30.49.169"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.quarzo.net"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Anna Braun"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "anna.braun@t-online.de"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 6091037"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Felix Schmidt"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "felix.schmidt@gmx.de"
+   ]
+  },
+  {
+   "id": 47,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 9982563"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "example/model/5c3de88d.js",
+   "line": 79,
+   "value": "s6BhdRkqt3",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ecd8a360.js",
+   "line": 255,
+   "value": "thommy",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ecd8a360.js",
+   "line": 268,
+   "value": "thommy",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ecd8a360.js",
+   "line": 46,
+   "value": "2023-09-01T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d4c68bc1.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "hello@quarzo-corp.de"
+  },
+  {
+   "file": "test/d4c68bc1.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "security@quarzo-corp.de"
+  },
+  {
+   "file": "test/d4c68bc1.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0138"
+  },
+  {
+   "file": "test/d4c68bc1.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "test/d4c68bc1.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "test/d4c68bc1.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "test/d4c68bc1.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "test/d4c68bc1.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "src/4a0fa34f.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "pypi.org"
+  },
+  {
+   "file": "src/4a0fa34f.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "user@example.com"
+  },
+  {
+   "file": "src/4a0fa34f.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "_/50211d27.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "7eb11ba6714c84fbacb2"
+  },
+  {
+   "file": "_/50211d27.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "sentry.io"
+  },
+  {
+   "file": "_/50211d27.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "13fefd3203972ed1cb77e2f22e525e9b95d79ee0"
+  },
+  {
+   "file": "_/d41ca993.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "1.0.33"
+  },
+  {
+   "file": "_/d41ca993.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "604b32a14fc6432fb4f323459144ead00e08f757"
+  },
+  {
+   "file": "_/d41ca993.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "1Y1IQ0TI4BCFQAM6QTG2L08AA4"
+  },
+  {
+   "file": "_/d41ca993.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "_/d41ca993.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "2E28E87GRHOP1JO7AXLNHL776S"
+  },
+  {
+   "file": "_/d41ca993.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "src/5041ad3a.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "67, 111, 110, 116, 101, 110, 116, 45, 84, 121, 112, 101"
+  },
+  {
+   "file": "src/5041ad3a.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "dGV4dC9wbGFpbjtjaGFyc2V0PXV0Zi04"
+  },
+  {
+   "file": "src/5041ad3a.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "6e6f2d63616368652c6e6f2d73746f7265"
+  },
+  {
+   "file": "src/5041ad3a.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "src/5041ad3a.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "privacy@vantor-corp.de"
+  },
+  {
+   "file": "_/a9638574.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAISe/Jao2/OCe+yZsnPqMLkKuy2voCPsSEX43Pyv8gFYQ"
+  },
+  {
+   "file": "_/a9638574.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "095e3c6c6fcbeb4e4f8b12f82a0d9757d42fa82b24d430624c6bdfcae57fe469"
+  },
+  {
+   "file": "_/a9638574.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/a9638574.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "kunden.quarzo.net"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "edi.logistik-nord.de"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "46.36.124.24"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Ben Krueger"
+  },
+  {
+   "file": "NETWORK.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Lukas Klein"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "kunden.quarzo.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.logistik-nord.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.logistik-nord.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.112.3"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "46.36.124.24"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "ci.jenkins.io"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.quarzo.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Ben Krueger"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "ben.krueger@quarzo.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Max Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "max.mustermann@example.org"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+# acme payments service
+database:
+  host: crm-prod.q6ou9sskbpxs.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "Wagnersee89!"
+  password_source: secret/data/acme/etl/prod
+  password_env: AUTH_API_KEY
+api:
+  key_header: Authorization
+  partner_ident: eQNbkJJyhlOOI70IcK8O9vS2JMnm8m1B
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: AES-256-GCM
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 526783756525-b0ha1gptuyhqeqkq6ktm2ea977sksule.apps.googleusercontent.com
+  client_proof: yo8w034m6g3w54qbyz61ha1mq3pgyhgj
+  secret_rotated_at: "2024-01-19T00:00:00Z"
+  secret_name: etl-oauth-client
+pagination:
+  first_cursor: b3JkZXI6NTM1ODA6b2Zmc2V0OjM1NQ==

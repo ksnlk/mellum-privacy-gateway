@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  db:
+    image: postgres
+    ports:
+    - 6543:5432
+    environment:
+      POSTGRES_DB: credhub
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: dssdv
+      POSTGRES_PASSWORD_KEY_ID: bd850e508873027a
+  credhub:
+    build: .
+    image: credhub
+    depends_on: [db]
+    links:
+      - db
+    ports:
+    - 9000:9000
+    environment:
+      DATABASE: postgres
+      DATABASE_USERNAME: admin
+      DATABASE_PASSWORD: ueaeg
+      DATABASE_PASSWORD_NAME: billing-db-credentials
+      DATABASE_URL: jdbc:postgresql://db:5432/credhub?autoReconnect=true

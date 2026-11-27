@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2020-05-31",
+    "endpointPrefix":"cloudfront",
+    "globalEndpoint":"cloudfront.amazonaws.com",
+    "protocol":"rest-xml",
+    "serviceAbbreviation":"CloudFront",
+    "serviceFullName":"Amazon CloudFront",
+    "serviceId":"CloudFront",
+    "signatureVersion":"v4",
+    "uid":"cloudfront-2020-05-31"
+  },
+  "operations":{
+    "CreateCachePolicy":{
+      "name":"CreateCachePolicy2020_05_31",
+      "http":{
+        "method":"POST",
+        "requestUri":"/2020-05-31/cache-policy",
+        "responseCode":201
+      },
+      "input":{"shape":"CreateCachePolicyRequest"},
+      "output":{"shape":"CreateCachePolicyResult"},
+      "errors":[
+        {"shape":"AccessDenied"},
+        {"shape":"InconsistentQuantities"},
+        {"shape":"InvalidArgument"},
+        {"shape":"CachePolicyAlreadyExists"},
+        {"shape":"TooManyCachePolicies"},

@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.brightloop.io/app@sha256:56c330d857842aa414aad656bd741e3f2746dee90f42304fa6e7779bb0c3df6d
+    environment:
+      - DATABASE_URL=postgres://app:enzyme-vair29@10.40.99.175:5432/app
+      - SENTRY_RELEASE=768b255a81904c3442e1ba2375173e5a1991de9a
+      - API_TOKEN=<YOUR_API_KEY>
+      - BIND_ADDR=127.0.0.1
+  worker:
+    image: registry.brightloop.io/worker:9.28.1
+    environment:
+      - QUEUE_PASS=V2Fzc2VyJjE5OTk=

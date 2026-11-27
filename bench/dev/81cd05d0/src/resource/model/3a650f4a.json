@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2019-09-27",
+    "endpointPrefix":"email",
+    "jsonVersion":"1.1",
+    "protocol":"rest-json",
+    "serviceAbbreviation":"Amazon SES V2",
+    "serviceFullName":"Amazon Simple Email Service",
+    "serviceId":"SESv2",
+    "signatureVersion":"v4",
+    "signingName":"ses",
+    "uid":"sesv2-2019-09-27"
+  },
+  "operations":{
+    "CreateConfigurationSet":{
+      "name":"CreateConfigurationSet",
+      "http":{
+        "method":"POST",
+        "requestUri":"/v2/email/configuration-sets"
+      },
+      "input":{"shape":"CreateConfigurationSetRequest"},
+      "output":{"shape":"CreateConfigurationSetResponse"},
+      "errors":[
+        {"shape":"AlreadyExistsException"},
+        {"shape":"NotFoundException"},
+        {"shape":"TooManyRequestsException"},
+        {"shape":"LimitExceededException"},
+        {"shape":"BadRequestException"},

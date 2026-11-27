@@ -1,0 +1,529 @@
+{
+ "repo": "eb9ba732",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "docker/d941c5bf.yml",
+   "line": 10,
+   "start": 15,
+   "end": 28,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "cgluoldcwipyt"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "docker/d941c5bf.yml",
+   "line": 13,
+   "start": 23,
+   "end": 32,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "xnixzhqsv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "docker/d941c5bf.yml",
+   "line": 25,
+   "start": 49,
+   "end": 58,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "qothguqkc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/9157a65c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Fahrradgarten82?"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/2f420aca.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/2f420aca.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Winter2009!"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/2f420aca.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sz5lUwdxEI8lF6zJemKqxAVjkI8s9oua"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/2f420aca.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "mh4ujsyedx3xbvlnbqrc67113po82ngc"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/5aa1feb3.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-api-07.corp.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/5aa1feb3.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "p5Hoo4UYdBIri9SASg66WLwsRARTHYtM"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/3f75ff03.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing.4oxsez.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/3f75ff03.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "fischer-fischer"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/3f75ff03.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "g@rr31$3!"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/c77923f0.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.36.49.63"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/c77923f0.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "argocd.nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/c77923f0.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TEPEM8VTH/BCSHDXEB3P1/9hezHftj1PsrXXfsIzNt0UDv"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/8217d9f6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-primary.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/8217d9f6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "85.142.21.60"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/8217d9f6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "david.hartmann@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/8217d9f6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-replica.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/8217d9f6.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "hyphen.bouncer.linde.freezing"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/8fdb0710",
+   "line": 30,
+   "whole_line": "-e=\"envvar_key=value\" - may be specified zero to many times",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/d941c5bf.yml",
+   "line": 26,
+   "value": "vault-api-token",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/8b611c63.md",
+   "line": 622,
+   "whole_line": "    request-body: '{\"key\": \"value\"}' # request body",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/8b611c63.md",
+   "line": 625,
+   "whole_line": "    password: \"\" # password for basic auth",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2b38eb32.go",
+   "line": 52,
+   "whole_line": "\t\tTimeout: time.Duration(u.Timeout) * time.Millisecond, Username: u.Username, Password: u.Password, Proxy: u.Proxy,",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/2b38eb32.go",
+   "line": 89,
+   "whole_line": "\t\tPassword:          config.Password,",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/70e82185.go",
+   "line": 35,
+   "whole_line": "\t\tKey:   key,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/03f3ed46.yaml",
+   "line": 219,
+   "whole_line": "    request-body: '{\"key\": \"value\"}'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/03f3ed46.yaml",
+   "line": 221,
+   "whole_line": "      - '\"key\": \"value\"'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/9157a65c.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Coolness2021"
+  },
+  {
+   "file": "test/9157a65c.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "attacher55"
+  },
+  {
+   "file": "other/2f420aca.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/kelpie/etl/staging"
+  },
+  {
+   "file": "other/2f420aca.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "PAYMENTS_CLIENT_SECRET"
+  },
+  {
+   "file": "other/2f420aca.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Auth-Token"
+  },
+  {
+   "file": "other/2f420aca.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/run/secrets/reports_password"
+  },
+  {
+   "file": "other/2f420aca.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "argon2id"
+  },
+  {
+   "file": "other/2f420aca.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "other/2f420aca.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "706316700141-55zprsd6rw8nl7nloqujp7frhugz06v6.apps.googleusercontent.com"
+  },
+  {
+   "file": "other/2f420aca.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2024-08-14T00:00:00Z"
+  },
+  {
+   "file": "other/2f420aca.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "auth-tls"
+  },
+  {
+   "file": "other/2f420aca.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZTo3OTE5MjpvZmZzZXQ6Mzk3"
+  },
+  {
+   "file": "_/5aa1feb3.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "_/5aa1feb3.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "1.28.36"
+  },
+  {
+   "file": "_/5aa1feb3.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6b9cbda663f560067d2146d28665a177ea747402"
+  },
+  {
+   "file": "_/5aa1feb3.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "f12f0ea1-d290-4eb4-ae5d-a99f96f11b68"
+  },
+  {
+   "file": "test/3f75ff03.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "boundary_zauber"
+  },
+  {
+   "file": "test/3f75ff03.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "etl"
+  },
+  {
+   "file": "test/3f75ff03.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "Neo Baer 5.8"
+  },
+  {
+   "file": "test/3f75ff03.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "kasse"
+  },
+  {
+   "file": "test/3f75ff03.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "svc_reports"
+  },
+  {
+   "file": "test/3f75ff03.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "drained-marie-2027"
+  },
+  {
+   "file": "_/c77923f0.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "086919218cddd55c5c55"
+  },
+  {
+   "file": "_/c77923f0.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "_/c77923f0.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "3ee001c0ad1d87ad8bc9553e27d53eed897fe975"
+  },
+  {
+   "file": "other/8217d9f6.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "blog.brightloop-corp.de"
+  },
+  {
+   "file": "other/8217d9f6.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "careers.brightloop-corp.de"
+  },
+  {
+   "file": "other/8217d9f6.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/8217d9f6.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "other/8217d9f6.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "other/8217d9f6.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "other/8217d9f6.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "security@brightloop-corp.de"
+  },
+  {
+   "file": "other/8217d9f6.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "dXNlci1hZ2VudDpjdXJsLzguNC4w"
+  },
+  {
+   "file": "other/8217d9f6.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "68656c6c6f5f776f726c645f74657374"
+  },
+  {
+   "file": "other/8217d9f6.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "management.azure.com"
+  }
+ ]
+}

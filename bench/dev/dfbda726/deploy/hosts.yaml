@@ -1,0 +1,15 @@
+monitoring: tarvos.vantor.net
+database:
+  host: vega.vantor.net
+  port: 5432
+queue: atlas.vantor.net
+backup_target: nimbus.vantor.net
+website: shop.vantor.net
+payments_api: https://api.mailvault.com/v2
+partner_drop: sftp.mailvault.de
+allow_sources:
+  - 188.111.28.191
+  - 140.82.113.4
+  - 188.111.65.99
+ntp: 194.58.200.20
+mirrors: [registry.terraform.io, mirrors.kernel.org]

@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2018-04-01",
+    "endpointPrefix":"route53resolver",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceAbbreviation":"Route53Resolver",
+    "serviceFullName":"Amazon Route 53 Resolver",
+    "serviceId":"Route53Resolver",
+    "signatureVersion":"v4",
+    "targetPrefix":"Route53Resolver",
+    "uid":"route53resolver-2018-04-01"
+  },
+  "operations":{
+    "AssociateFirewallRuleGroup":{
+      "name":"AssociateFirewallRuleGroup",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AssociateFirewallRuleGroupRequest"},
+      "output":{"shape":"AssociateFirewallRuleGroupResponse"},
+      "errors":[
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ValidationException"},
+        {"shape":"LimitExceededException"},
+        {"shape":"ConflictException"},
+        {"shape":"AccessDeniedException"},

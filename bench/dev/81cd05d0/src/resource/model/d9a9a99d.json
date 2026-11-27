@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2015-04-16",
+    "endpointPrefix":"ds",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceAbbreviation":"Directory Service",
+    "serviceFullName":"AWS Directory Service",
+    "serviceId":"Directory Service",
+    "signatureVersion":"v4",
+    "targetPrefix":"DirectoryService_20150416",
+    "uid":"ds-2015-04-16"
+  },
+  "operations":{
+    "AcceptSharedDirectory":{
+      "name":"AcceptSharedDirectory",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AcceptSharedDirectoryRequest"},
+      "output":{"shape":"AcceptSharedDirectoryResult"},
+      "errors":[
+        {"shape":"InvalidParameterException"},
+        {"shape":"EntityDoesNotExistException"},
+        {"shape":"DirectoryAlreadySharedException"},
+        {"shape":"ClientException"},
+        {"shape":"ServiceException"}

@@ -1,0 +1,19 @@
+# nordwind payments service
+database:
+  host: crm-prod.18x2963ds0ey.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "Juliablitz18!"
+  password_source: secret/data/nordwind/vault/prod
+  password_env: REPORTS_SECRET_KEY
+api:
+  key_header: Proxy-Authorization
+  partner_ident: rEvD0K9CxOP0RLcnf4pU1zQkmWnaeq6d
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: RS256
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 250127273374-ddj9vu6cibd9mgrn6tdrb8rfguvkp0jl.apps.googleusercontent.com
+  client_proof: gktb8f80wq237wk8sib330iwt1wbs4ec
+  secret_rotated_at: "2026-01-15T00:00:00Z"
+  secret_name: auth-oauth-client
+pagination:
+  first_cursor: b3JkZXI6MTU3NDU6b2Zmc2V0OjQ2Nw==

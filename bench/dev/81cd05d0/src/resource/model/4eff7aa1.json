@@ -1,0 +1,51 @@
+    },
+    "shapeSubstitutions" : null,
+    "simpleMethods" : {
+      "DescribeJobFlows" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListClusters" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ModifyInstanceGroups" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : true,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2009-03-31",
+    "asyncClient" : "AmazonElasticMapReduceAsyncClient",
+    "asyncClientBuilderClassName" : "AmazonElasticMapReduceAsyncClientBuilder",
+    "asyncInterface" : "AmazonElasticMapReduceAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AmazonElasticMapReduceModuleInjector",
+    "defaultEndpoint" : "https://elasticmapreduce.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "elasticmapreduce.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<p>Amazon EMR is a web service that makes it easier to process large amounts of data efficiently. Amazon EMR uses Hadoop processing combined with several AWS services to do tasks such as web indexing, data mining, log file analysis, machine learning, scientific simulation, and data warehouse management.</p>",
+    "endpointPrefix" : "elasticmapreduce",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.elasticmapreduce",
+    "packagePath" : "com/amazonaws/services/elasticmapreduce",
+    "protocol" : "json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "Amazon EMR",

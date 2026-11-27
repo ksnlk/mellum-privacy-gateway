@@ -1,0 +1,597 @@
+{
+ "repo": "29d5ecae",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/b3356305.md",
+   "line": 450,
+   "start": 20,
+   "end": 62,
+   "category": "Secret:Token",
+   "mutation": "none",
+   "forms": [
+    "hkutnkduaxliynerbfodjnmarp5446179150VWEELS"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "src/docker/d48273aa.yml",
+   "line": 11,
+   "start": 15,
+   "end": 23,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "cfwusali"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "src/docker/d48273aa.yml",
+   "line": 33,
+   "start": 16,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "kjxilsbb"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "src/docker/d48273aa.yml",
+   "line": 71,
+   "start": 18,
+   "end": 26,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "jjvwvzbm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "src/docker/d48273aa.yml",
+   "line": 79,
+   "start": 21,
+   "end": 29,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "nhqxwqqp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/src/resource/3f4764ac.json",
+   "line": 43,
+   "start": 20,
+   "end": 48,
+   "category": "Token",
+   "mutation": "b64",
+   "forms": [
+    "elMtempkcWh0NlJERXRDYW1MM08=",
+    "zS-zjdqht6RDEtCamL3O"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "other/6363160a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "surface.pretend.ell.increase"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/6363160a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-primary.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/fa26e1c2.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments.58sinu.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "test/fa26e1c2.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Unionherbst10?"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "test/fa26e1c2.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "wkG4aVeMNfKpFVmig5eBhC8plGvRIxjh"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "test/fa26e1c2.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "cg9lbpdfmrc3wg26pzb7lz6muhfqz6hk"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "test/d7b1ee6b.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "T\u00fcrpferd98!"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "test/d7b1ee6b.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.23.198.228"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/d7b1ee6b.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "0YHQvtCx0LDQutCwMTQyMyE=",
+    "\u0441\u043e\u0431\u0430\u043a\u04301423!"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/9624a17d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "clara.neumann@acme-corp.de"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/9624a17d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 8561 5158"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/9624a17d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Waldwerder63?"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/9624a17d.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE66036630605703580624"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/0c3be749.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jan Richter"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/0c3be749.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "e.hoffmann@kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/0c3be749.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 7287 9271"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "_/0c3be749.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.92.125.201"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "_/0c3be749.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "junction-testable-kru-landing"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "test/d1b5bdb2.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "test/d1b5bdb2.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "CEsLHpcqNdAHv03nNXGH2Az7fHnsRUXA"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/b3356305.md",
+   "line": 125,
+   "whole_line": "4. In GitLab, when you create webhooks to trigger Jenkins jobs, use this format for the URL and do not enter anything for 'Secret Token': `https://USERID:APITOKEN@JENKINS_URL/project/YOUR_JOB`",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 261,
+   "whole_line": "If you want to configure some of the trigger options, such as the secret token or CI skip functionality, you can use a `properties` step. For example:",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 265,
+   "whole_line": "def project_token = 'abcdefghijklmnopqrstuvwxyz0123456789ABCDEF'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 280,
+   "whole_line": "            secretToken: project_token,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 311,
+   "whole_line": "            secretToken(System.getenv(\"API_TOKEN\"))",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/client/e6300061.java",
+   "line": 27,
+   "whole_line": "        this.token = token;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/api/rest/client/build/8058d9bf.java",
+   "line": 62,
+   "whole_line": "    private static final String PRIVATE_TOKEN = \"PRIVATE-TOKEN\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/4abf7251.java",
+   "line": 129,
+   "whole_line": "                ResultSet resultSet = connection.createStatement().executeQuery(\"SELECT authentication_token FROM users WHERE username = 'root'\");",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/client/b6063633.java",
+   "line": 40,
+   "whole_line": "        Pair<String, Class> key = createKey(projectId, dataClass);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/client/b6063633.java",
+   "line": 60,
+   "whole_line": "        Pair<String, Class> key = createKey(projectId, dataClass);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/conf/4fdd98eb.java",
+   "line": 62,
+   "whole_line": "    private static final String API_TOKEN = \"secret\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/util/9a3cc28a.java",
+   "line": 51,
+   "whole_line": "    private static final String API_TOKEN = \"secret\";",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/util/api/98783981.java",
+   "line": 32,
+   "whole_line": "    static final String API_TOKEN = \"secret\";",
+   "source": "creddata"
+  },
+  {
+   "file": "other/6363160a.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIRCUD0zQIl60DsovuCiTonqQOjNH2HCdjUJFub67G6z3"
+  },
+  {
+   "file": "other/6363160a.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "5d639df7598fd0dae46056c3bb17895530d371b897b6718f8e54c0856874dbfa"
+  },
+  {
+   "file": "other/6363160a.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/6363160a.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "test/fa26e1c2.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/kelpie/auth/prod"
+  },
+  {
+   "file": "test/fa26e1c2.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "BILLING_CLIENT_SECRET"
+  },
+  {
+   "file": "test/fa26e1c2.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "test/fa26e1c2.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/var/run/secrets/vault/token"
+  },
+  {
+   "file": "test/fa26e1c2.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "scrypt"
+  },
+  {
+   "file": "test/fa26e1c2.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "test/fa26e1c2.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "900917666747-66istonu27rx9x5nxpiu4s1v02p1iwmj.apps.googleusercontent.com"
+  },
+  {
+   "file": "test/fa26e1c2.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2025-04-12T00:00:00Z"
+  },
+  {
+   "file": "test/fa26e1c2.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "vault-oauth-client"
+  },
+  {
+   "file": "test/fa26e1c2.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "dXNlcjo1NDAyMjpvZmZzZXQ6MjE4"
+  },
+  {
+   "file": "test/d7b1ee6b.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:2f18480d8874d3b75fe99a3b39e79d00326e893e5e5815b376527d7f6cbd7b2d"
+  },
+  {
+   "file": "test/d7b1ee6b.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "c750e687bd48778c6c7541c7b2fd3fead263c713"
+  },
+  {
+   "file": "test/d7b1ee6b.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<YOUR_API_KEY>"
+  },
+  {
+   "file": "test/d7b1ee6b.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "test/d7b1ee6b.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "4.23.31"
+  },
+  {
+   "file": "test/9624a17d.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "test/9624a17d.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "user@example.com"
+  },
+  {
+   "file": "test/9624a17d.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "{{ secrets.TOKEN }}"
+  },
+  {
+   "file": "_/0c3be749.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "192.0.2.32"
+  },
+  {
+   "file": "_/0c3be749.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "6.28.20"
+  },
+  {
+   "file": "_/0c3be749.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:f29bb0c854f51e5f0c0b621d918f37bc09bd49e2d9cea1505153fc8febf5c1cc"
+  },
+  {
+   "file": "_/0c3be749.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/0c3be749.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "test/d1b5bdb2.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "test/d1b5bdb2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3.18.35"
+  },
+  {
+   "file": "test/d1b5bdb2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5d3ad7bcee936407f3c0ffd3cd04499383e2af16"
+  },
+  {
+   "file": "test/d1b5bdb2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "91102b08-56fa-4038-95d1-fcd36955dd15"
+  }
+ ]
+}

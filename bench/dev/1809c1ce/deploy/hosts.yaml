@@ -1,0 +1,15 @@
+monitoring: juno.brightloop.systems
+database:
+  host: falkor.brightloop.systems
+  port: 5432
+queue: pallas.brightloop.systems
+backup_target: atlas.brightloop.systems
+website: portal.brightloop.systems
+payments_api: https://api.paycore.com/v2
+partner_drop: edi.paycore.de
+allow_sources:
+  - 85.193.106.223
+  - 140.82.113.4
+  - 85.193.244.24
+ntp: 162.159.200.1
+mirrors: [gitlab.gnome.org, db.debian.org]

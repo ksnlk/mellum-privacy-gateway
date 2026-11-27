@@ -1,0 +1,4 @@
+NAME=mysql
+IMAGE=mariadb
+PUBLISH=3306:3306
+ENV="UNLOCK_CODE=J0bob2zn"

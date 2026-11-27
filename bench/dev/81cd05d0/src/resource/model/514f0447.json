@@ -1,0 +1,80 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2015-10-07",
+    "endpointPrefix":"events",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"Amazon EventBridge",
+    "serviceId":"EventBridge",
+    "signatureVersion":"v4",
+    "targetPrefix":"AWSEvents",
+    "uid":"eventbridge-2015-10-07"
+  },
+  "operations":{
+    "ActivateEventSource":{
+      "name":"ActivateEventSource",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"ActivateEventSourceRequest"},
+      "errors":[
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ConcurrentModificationException"},
+        {"shape":"InvalidStateException"},
+        {"shape":"InternalException"},
+        {"shape":"OperationDisabledException"}
+      ],
+      "documentation":"<p>Activates a partner event source that has been deactivated. Once activated, your matching event bus will start receiving events from the event source.</p>"
+      },
+      "documentation":"<p>There is concurrent modification on a rule, target, archive, or replay.</p>",
+      "exception":true
+    },
+    "Condition":{
+      "type":"structure",
+      "required":[
+        "Type",
+        "Key",
+        "Value"
+      ],
+      "members":{
+        "Type":{
+          "shape":"String",
+          "documentation":"<p>Specifies the type of condition. Currently the only supported value is <code>StringEquals</code>.</p>"
+        },
+        "Key":{
+          "shape":"String",
+          "documentation":"<p>Specifies the key for the condition. Currently the only supported key is <code>aws:PrincipalOrgID</code>.</p>"
+        },
+        "Value":{
+          "shape":"String",
+          "documentation":"<p>Specifies the value for the key. Currently, this must be the ID of the organization.</p>"
+        }
+      },
+      "documentation":"<p>A JSON string which you can use to limit the event bus permissions you are granting to only accounts that fulfill the condition. Currently, the only supported condition is membership in a certain AWS organization. The string must contain <code>Type</code>, <code>Key</code>, and <code>Value</code> fields. The <code>Value</code> field specifies the ID of the AWS organization. Following is an example value for <code>Condition</code>:</p> <p> <code>'{\"Type\" : \"StringEquals\", \"Key\": \"aws:PrincipalOrgID\", \"Value\": \"o-1234567890\"}'</code> </p>"
+    },
+    "Connection":{
+      "type":"structure",
+      "members":{
+        "ConnectionArn":{
+          "shape":"ConnectionArn",
+          "documentation":"<p>The ARN of the connection.</p>"
+        },
+        "Name":{
+          "shape":"ConnectionName",
+          "documentation":"<p>The name of the connection.</p>"
+        },
+        "ConnectionState":{
+          "shape":"ConnectionState",
+          "documentation":"<p>The state of the connection.</p>"
+        },
+        "StateReason":{
+          "shape":"ConnectionStateReason",
+          "documentation":"<p>The reason that the connection is in the connection state.</p>"
+        },
+        "AuthorizationType":{
+          "shape":"ConnectionAuthorizationType",
+          "documentation":"<p>The authorization type specified for the connection.</p>"
+        },
+        "CreationTime":{

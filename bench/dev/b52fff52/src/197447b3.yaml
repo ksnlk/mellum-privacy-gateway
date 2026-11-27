@@ -1,0 +1,19 @@
+# acme payments service
+database:
+  host: vpn-gw.acme-corp.de
+  user: payments
+  password: "Mog2016*"
+  password_source: secret/data/acme/payments/staging
+  password_env: ETL_AUTH_TOKEN
+api:
+  key_header: X-Api-Key
+  partner_ident: coQWwvg7CaivvlcQpL5iE0o0GIL0xE8G
+  key_file: /var/run/secrets/vault/token
+  signing_alg: pbkdf2_sha256
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 323166446473-p81p0nd9x71avycmp8j8nbi9i4gqe11n.apps.googleusercontent.com
+  client_proof: 6dkfcbl59q549kqch4juv7hb017t4eed
+  secret_rotated_at: "2024-09-27T00:00:00Z"
+  secret_name: crm-api-token
+pagination:
+  first_cursor: dXNlcjo3NTQwMjpvZmZzZXQ6Mjk4

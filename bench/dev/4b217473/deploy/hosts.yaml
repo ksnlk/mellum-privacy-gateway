@@ -1,0 +1,15 @@
+monitoring: juno.acme.systems
+database:
+  host: nimbus.acme.systems
+  port: 5432
+queue: vega.acme.systems
+backup_target: orion.acme.systems
+website: kunden.acme.systems
+payments_api: https://api.paycore.com/v2
+partner_drop: edi.paycore.de
+allow_sources:
+  - 46.94.65.208
+  - 140.82.114.25
+  - 46.123.116.226
+ntp: 212.18.3.19
+mirrors: [kafka.apache.org, registry.terraform.io]

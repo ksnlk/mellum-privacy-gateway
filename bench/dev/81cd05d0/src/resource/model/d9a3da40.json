@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2015-03-31",
+    "endpointPrefix":"lambda",
+    "protocol":"rest-json",
+    "serviceFullName":"AWS Lambda",
+    "serviceId":"Lambda",
+    "signatureVersion":"v4",
+    "uid":"lambda-2015-03-31"
+  },
+  "operations":{
+    "AddLayerVersionPermission":{
+      "name":"AddLayerVersionPermission",
+      "http":{
+        "method":"POST",
+        "requestUri":"/2018-10-31/layers/{LayerName}/versions/{VersionNumber}/policy",
+        "responseCode":201
+      },
+      "input":{"shape":"AddLayerVersionPermissionRequest"},
+      "output":{"shape":"AddLayerVersionPermissionResponse"},
+      "errors":[
+        {"shape":"ServiceException"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ResourceConflictException"},
+        {"shape":"TooManyRequestsException"},
+        {"shape":"InvalidParameterValueException"},
+        {"shape":"PolicyLengthExceededException"},
+        {"shape":"PreconditionFailedException"}

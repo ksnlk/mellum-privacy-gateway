@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2015-12-10",
+    "endpointPrefix":"servicecatalog",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"AWS Service Catalog",
+    "serviceId":"Service Catalog",
+    "signatureVersion":"v4",
+    "targetPrefix":"AWS242ServiceCatalogService",
+    "uid":"servicecatalog-2015-12-10"
+  },
+  "operations":{
+    "AcceptPortfolioShare":{
+      "name":"AcceptPortfolioShare",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AcceptPortfolioShareInput"},
+      "output":{"shape":"AcceptPortfolioShareOutput"},
+      "errors":[
+        {"shape":"InvalidParametersException"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"LimitExceededException"}
+      ],
+      "documentation":"<p>Accepts an offer to share the specified portfolio.</p>"
+    },

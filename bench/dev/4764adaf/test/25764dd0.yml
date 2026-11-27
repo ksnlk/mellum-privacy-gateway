@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: quarzo-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "a531840"
+type: Opaque
+data:
+  DB_PASSWORD: YmF0Y2gtYmVybGluLWR5bmFtby1hdXM=
+  STRIPE_KEY: c2tfbGl2ZV81cTJ4MEVmREhyRDhYZWZRdkREZzFvQlM=
+  ca.crt.sha256: a8bc16a81d458efe6e08182fdf1f15f7396282388015b0693ce1a9150040c9ff
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: quarzo-payments-config
+data:
+  DB_HOST: "crm-prod.tr15f4l7y358.eu-central-1.rds.amazonaws.com"
+  SENTRY_HOST: "api.stripe.com"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

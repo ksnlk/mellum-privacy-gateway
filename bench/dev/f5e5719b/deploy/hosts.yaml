@@ -1,0 +1,15 @@
+monitoring: nimbus.kelpie.systems
+database:
+  host: hermes.kelpie.systems
+  port: 5432
+queue: orion.kelpie.systems
+backup_target: kestrel.kelpie.systems
+website: kunden.kelpie.systems
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: edi.logistik-nord.de
+allow_sources:
+  - 193.46.242.232
+  - 185.199.108.153
+  - 193.51.67.32
+ntp: 212.18.3.19
+mirrors: [jenkins.debian.net, grafana.wikimedia.org]

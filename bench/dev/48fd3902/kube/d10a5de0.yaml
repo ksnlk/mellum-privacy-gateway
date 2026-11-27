@@ -1,0 +1,26 @@
+#@data/values
+---
+key_store_password: cxqreedu
+key_store_password_rotated_at: 2026-03-13T00:00:00Z
+trust_store_password: axthpphg
+vendor_blob: ewjhxgkm
+encryption_password_file: /etc/reports/tls/private.key
+use_local_image: false
+load_balancer_ip: 35.196.203.226
+uaa_url: https://35.196.32.64:8443
+
+database:
+ scheme: h2
+ username: admin
+ password:
+ address:
+ port:
+ name:
+
+#!database:
+#!  scheme: postgres
+#!  username: admin
+#!  password: vbaye
+#!  address: postgres
+#!  port: 5432
+#!  name: credhub

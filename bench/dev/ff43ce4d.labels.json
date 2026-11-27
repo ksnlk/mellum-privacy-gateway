@@ -1,0 +1,596 @@
+{
+ "repo": "ff43ce4d",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/83d03de5.txt",
+   "line": 7,
+   "start": 15,
+   "end": 47,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "fa98c8bd8c0094d5b6519c00bfd0bb54"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/83d03de5.txt",
+   "line": 10,
+   "start": 20,
+   "end": 52,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "db72d50476e3182d12e99a32c9cd20c3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/83d03de5.txt",
+   "line": 13,
+   "start": 31,
+   "end": 55,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "MozvD3XYHQ5QVVrNESaMh9mb"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/83d03de5.txt",
+   "line": 15,
+   "start": 18,
+   "end": 115,
+   "category": "Slack Token:Token",
+   "mutation": "rename",
+   "forms": [
+    "vene-7-M4258V9URN5-0001159386684-64l48h6j19433kx5x2w38z2a8104pxq3m74t30r6h27h336910202sw4128p1b01"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "_/83d03de5.txt",
+   "line": 17,
+   "start": 23,
+   "end": 79,
+   "category": "Auth:Slack Token:Token",
+   "mutation": "rename",
+   "forms": [
+    "xoxb-899754828769-0214645207707-aD0eKg1JKVWUChovWGtMDnPE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "_/83d03de5.txt",
+   "line": 18,
+   "start": 0,
+   "end": 97,
+   "category": "Slack Token",
+   "mutation": "none",
+   "forms": [
+    "xskw-7-Z0886W6NEE4-0269644450946-401lo1e70226q333p050hlo3136qu37q2ur2945nm4hqe8b51sx0g9xtpyr2cms8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "_/83d03de5.txt",
+   "line": 23,
+   "start": 0,
+   "end": 56,
+   "category": "Slack Token",
+   "mutation": "none",
+   "forms": [
+    "xoxb-386207259521-8220443418275-jF2gTr4HWNGCUjzyRPkRSrJJ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "_/83d03de5.txt",
+   "line": 25,
+   "start": 5,
+   "end": 176,
+   "category": "Slack Token",
+   "mutation": "none",
+   "forms": [
+    "xoxp-4-Fh3vNYT1HireAgn5FEZ5ZM2aFTIyRDe1KiZwYpYoTHCjJbg2UwWqJrG8XYosWOU4LIS7EQN2JZQmZF63FaOxAwHlQqXrKFAqSOY2BCCtULU9XpSjGkH6JsU6DnMeIDZ7Mal2GIOaLCIiLENoHYPrEIcdFJI5UAQ9Ecv8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "_/83d03de5.txt",
+   "line": 26,
+   "start": 0,
+   "end": 153,
+   "category": "Slack Token",
+   "mutation": "none",
+   "forms": [
+    "ismp-0-Zx2oYNI1WkjiOss1BLR1YJ89Ets1ZDMjPGP3OYH7XLQeMPH3CRG1PnN1CeErSDEoQsabYDDmZeNxMJPxDZs2XuygAWdvQCH5LsrzJ4H2EGJ6JGZyYbAhULV6WinaKvQuTXgaYAEaZzPmPXI2Bw"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "_/83d03de5.txt",
+   "line": 30,
+   "start": 127,
+   "end": 183,
+   "category": "Bearer Authorization:Slack Token:Auth",
+   "mutation": "none",
+   "forms": [
+    "xoxb-356335240624-1056242482524-gY2lDm2YVVBMFaekAWgVPaPJ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "_/83d03de5.txt",
+   "line": 32,
+   "start": 115,
+   "end": 171,
+   "category": "Bearer Authorization:Slack Token:Auth",
+   "mutation": "none",
+   "forms": [
+    "xoxb-043765131862-2193245836101-pI3cOb0SWDYEZmnuNQcZTtKE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "src/client/c01e4fac.cs",
+   "line": 16,
+   "start": 38,
+   "end": 94,
+   "category": "Slack Token:Token",
+   "mutation": "none",
+   "forms": [
+    "xoxb-386676174225-5304307876383-qM5qKk0BRBPQCvhcCXrIMdGQ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "src/fb22a40c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "e.richter@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/fb22a40c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 8971 9742"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/fb22a40c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043f\u0440\u0438\u0432\u0435\u04421598"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/fb22a40c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE96563359448965918840"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/efd750ef.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "35373661636433626337396333623762353463636538356666313731356331326535356134323532363933633238396330333538316237643661666235346339",
+    "576acd3bc79c3b7b54cce85ff1715c12e55a4252693c289c03581b7d6afb54c9"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/2b2ae82c.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-cache-05.corp.nordwind-internal.net"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "src/2b2ae82c.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "comes-sitio-prod"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "src/2b2ae82c.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "7eBnimGgctuhKFRusgb8NLsf0j562bFV"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/2b2ae82c.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "ij5vt4yv33nukd2c4l2jkmhs0ypeg9sf"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/a21c458e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-api-05.prod.pinegrid-internal.net"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "_/a21c458e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "188.42.117.189"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "_/a21c458e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "felix.braun@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "_/a21c458e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "_/a21c458e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "fussball_jonas_timekeeper_glueck"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "other/0bf629e2.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "admin.nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "other/0bf629e2.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "OFVJbKZ0EVuqeznnKUW2NaaiTUJuXuDx"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "src/bc6b2f11.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.Gs5xu76EnnsLVeoqaa_Disrpik31T5_AYwi7wwm5.P2ZQLeWfYBrcsGRr_a2NbCkfU5ruPFzVh1UdK7oFjZx"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "src/bc6b2f11.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.pinegrid-corp.de"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "src/fb22a40c.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "src/fb22a40c.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "jane.doe@example.org"
+  },
+  {
+   "file": "src/fb22a40c.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "<password>"
+  },
+  {
+   "file": "test/efd750ef.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "84e858fa0ec506df9c9a9f8cae9d0e074e9cd36237f4b390029f21cd00728ee0"
+  },
+  {
+   "file": "src/2b2ae82c.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/nordwind/payments/prod"
+  },
+  {
+   "file": "src/2b2ae82c.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "REPORTS_CLIENT_SECRET"
+  },
+  {
+   "file": "src/2b2ae82c.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Auth-Token"
+  },
+  {
+   "file": "src/2b2ae82c.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/run/secrets/vault_password"
+  },
+  {
+   "file": "src/2b2ae82c.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "bcrypt"
+  },
+  {
+   "file": "src/2b2ae82c.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "src/2b2ae82c.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "176680397802-l81pyq67tcjjz50d56rtgw0ogftycrcp.apps.googleusercontent.com"
+  },
+  {
+   "file": "src/2b2ae82c.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2024-11-02T00:00:00Z"
+  },
+  {
+   "file": "src/2b2ae82c.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "auth-oauth-client"
+  },
+  {
+   "file": "src/2b2ae82c.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "dXNlcjoyNDk1NDpvZmZzZXQ6NDYw"
+  },
+  {
+   "file": "_/a21c458e.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "careers.pinegrid-corp.de"
+  },
+  {
+   "file": "_/a21c458e.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "www.pinegrid-corp.de"
+  },
+  {
+   "file": "_/a21c458e.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "_/a21c458e.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "_/a21c458e.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "_/a21c458e.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "_/a21c458e.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@pinegrid-corp.de"
+  },
+  {
+   "file": "_/a21c458e.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "dXNlci1hZ2VudDpjdXJsLzguNC4w"
+  },
+  {
+   "file": "_/a21c458e.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "746578742f706c61696e3b636861727365743d7574662d38"
+  },
+  {
+   "file": "_/a21c458e.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "other/0bf629e2.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "other/0bf629e2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5.12.39"
+  },
+  {
+   "file": "other/0bf629e2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4072a14c6ab1d6df6ee26aebb9f5dd00dd10f8a4"
+  },
+  {
+   "file": "other/0bf629e2.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "44f93308-1f4c-4976-b2e5-e3089b949bb9"
+  },
+  {
+   "file": "src/bc6b2f11.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "6.12.2"
+  },
+  {
+   "file": "src/bc6b2f11.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "16b1400f628f8bb58ec1b0a8c6bf7d40ad842f5f"
+  },
+  {
+   "file": "src/bc6b2f11.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "APNZFB0M9GJRVW7DTF413MZJ1J"
+  },
+  {
+   "file": "src/bc6b2f11.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "src/bc6b2f11.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "C52VN1GQ07EJZXR0EPR5ML2OOH"
+  },
+  {
+   "file": "src/bc6b2f11.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: vantor-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "fd7c87b"
+type: Opaque
+data:
+  DB_PASSWORD: bHVmdC1tZWVyLWRpc3RyaWJ1dGU=
+  STRIPE_KEY: c2tfbGl2ZV83cFBQRFIwbE5pc29RU1lPQmxWWEtmbkQ=
+  ca.crt.sha256: fbafcda37dd642abccf3baa92e3197c4e7091528a8d1cf509bae08a311f6dc02
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vantor-payments-config
+data:
+  DB_HOST: "auth-prod.avmvipuhe16b.eu-central-1.rds.amazonaws.com"
+  SENTRY_HOST: "o450123.ingest.sentry.io"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

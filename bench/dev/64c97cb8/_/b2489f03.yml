@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: acme-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "7248ada"
+type: Opaque
+data:
+  DB_PASSWORD: d2VkLXBhcnRpY3VsYXItaG91cmx5NzQ=
+  STRIPE_KEY: c2tfbGl2ZV9YUVpWNVQ0WGZXTGNRN1N6bkhtYUNwamc=
+  ca.crt.sha256: 91a02a06643589960f22e57dccbd7cc5f63eac1f78111558433ebc8755423da4
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: acme-payments-config
+data:
+  DB_HOST: "admin.acme-corp.de"
+  SENTRY_HOST: "sentry.io"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

@@ -1,0 +1,19 @@
+# kelpie payments service
+database:
+  host: etl.5mpsiq.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "привет7278"
+  password_source: secret/data/kelpie/reports/prod
+  password_env: CRM_SECRET_KEY
+api:
+  key_header: Authorization
+  partner_ident: tVNDDCcUChl5MoQ85CItmE0iTJvyN6Ho
+  key_file: /var/run/secrets/billing/token
+  signing_alg: scrypt
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 670129816254-21y7ef8vbjywcz985j8psovt28oj2su3.apps.googleusercontent.com
+  client_proof: uv50wwhxq5rfcwpvoc3jp4zguwvsxsg7
+  secret_rotated_at: "2024-11-10T00:00:00Z"
+  secret_name: crm-oauth-client
+pagination:
+  first_cursor: dXNlcjo0NTgwNTpvZmZzZXQ6NDI1

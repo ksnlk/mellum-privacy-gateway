@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://etl-replica.pinegrid.cloud/api/v3/invoices?page=2
+Authorization: Basic c3ZjX2JhY2t1cDpzdHJlYnJpZGdlLXN0YWdl
+Cookie: _ga=GA1.2.TJKK8CWZNKRDI3BKC8JP9LJJOI; session_id=5sa7djvusw76ggel5o4a5tpol0xihea1
+X-Request-Id: 1a8923da-4dbb-4109-a838-8563359aa398
+
+### the docs example, safe to share
+GET https://auth0.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

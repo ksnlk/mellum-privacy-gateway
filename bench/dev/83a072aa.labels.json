@@ -1,0 +1,1324 @@
+{
+ "repo": "83a072aa",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/b3356305.md",
+   "line": 35,
+   "start": 52,
+   "end": 59,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "zegv837"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/b3356305.md",
+   "line": 84,
+   "start": 33,
+   "end": 63,
+   "category": "Secret:Key",
+   "mutation": "none",
+   "forms": [
+    "rsgobgezzwdabqlcdwewxrkexcsmuo"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/b3356305.md",
+   "line": 86,
+   "start": 23,
+   "end": 38,
+   "category": "Password:Auth:Dropbox App secret",
+   "mutation": "rename",
+   "forms": [
+    "msqjvwhybhyhgrv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/b3356305.md",
+   "line": 92,
+   "start": 44,
+   "end": 74,
+   "category": "Secret:Key",
+   "mutation": "none",
+   "forms": [
+    "tgaqegjlcdogtktnscjsleikxeklhm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "_/b3356305.md",
+   "line": 94,
+   "start": 34,
+   "end": 49,
+   "category": "Password:Auth:Dropbox App secret",
+   "mutation": "rename",
+   "forms": [
+    "qywhisrkjjdyjhn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "_/b3356305.md",
+   "line": 101,
+   "start": 40,
+   "end": 55,
+   "category": "Password:Dropbox App secret",
+   "mutation": "none",
+   "forms": [
+    "yrbqhdtxljssynx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "conf/init/bb2a4b5f.rb",
+   "line": 1,
+   "start": 65,
+   "end": 145,
+   "category": "Key",
+   "mutation": "b64",
+   "forms": [
+    "X2NjdV95bXBmemJ5cXFfcHJmbWhtYl9uV1RTWUF6eGtteXBpbGNybXhheHRwMTI2aXM0ZmRiNjkzZw==",
+    "_ccu_ympfzbyqq_prfmhmb_nWTSYAzxkmypilcrmxaxtp126is4fdb693g"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "conf/secret/init/3fd2c995.rb",
+   "line": 7,
+   "start": 43,
+   "end": 215,
+   "category": "Secret:Token",
+   "mutation": "b64",
+   "forms": [
+    "ZmE4YWJjZGZmMGM0M2Y3OTZjYWM0OWM0OWRlZDQzODAwMDQ4ZTc3YTIwMzgzZGQ4ZjNlNDNmODI2M2ZhNDRlMmE5YzIxNzcwMzI4MzYwMGI3MjM4YTJjNGM5NzIyZjZmZjYwZTVlZWNiMDAwYjRhMGY4OTBiNDU0MWQ4N2E3MDg=",
+    "fa8abcdff0c43f796cac49c49ded43800048e77a20383dd8f3e43f8263fa44e2a9c217703283600b7238a2c4c9722f6ff60e5eecb000b4a0f890b4541d87a708"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "conf/setting/e769bbb8.yml",
+   "line": 6,
+   "start": 25,
+   "end": 40,
+   "category": "Dropbox App secret:Password",
+   "mutation": "comment",
+   "forms": [
+    "d1ihii3qmk6pb6f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "conf/setting/ff10c105.yml",
+   "line": 11,
+   "start": 49,
+   "end": 64,
+   "category": "Dropbox App secret:Password",
+   "mutation": "comment",
+   "forms": [
+    "o3jelw6knq2mu4q"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "example/conf/setting/924ed9ac.yml",
+   "line": 17,
+   "start": 25,
+   "end": 40,
+   "category": "Dropbox App secret:Password",
+   "mutation": "stack",
+   "forms": [
+    "c5mong7vog4qx5t"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "example/conf/setting/924ed9ac.yml",
+   "line": 22,
+   "start": 18,
+   "end": 30,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "taskERYHZKWU"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "spec/bf6ef743.rb",
+   "line": 42,
+   "start": 111,
+   "end": 121,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "jvhbKYL124"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "spec/bf6ef743.rb",
+   "line": 42,
+   "start": 74,
+   "end": 84,
+   "category": "Password:Token",
+   "mutation": "none",
+   "forms": [
+    "yvfpVWU235"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "spec/bf6ef743.rb",
+   "line": 49,
+   "start": 111,
+   "end": 121,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "plxiWJM913"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "spec/bf6ef743.rb",
+   "line": 49,
+   "start": 74,
+   "end": 84,
+   "category": "Password:Token",
+   "mutation": "none",
+   "forms": [
+    "nbjjTAG376"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 17,
+   "file": "test/conf/setting/35b4e12c.yml",
+   "line": 6,
+   "start": 12,
+   "end": 27,
+   "category": "Dropbox App secret:Password",
+   "mutation": "none",
+   "forms": [
+    "b6tujs9llv7th2a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 18,
+   "file": "_/b1d992c5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Anna Koch"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/b1d992c5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "david.klein@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/b1d992c5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 8659 1074"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/b1d992c5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Felix Fischer"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/b1d992c5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lea.richter [at] pinegrid-corp [dot] de"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "_/b1d992c5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE95636477931420718561"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "_/b1d992c5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Laura Krueger"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "_/b1d992c5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lindenweg 86, 70959 Dachau"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "_/b1d992c5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "167.143.11.81"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "other/5b867ea6.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043f\u0440\u0438\u0432\u0435\u0442531!"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "test/6962715d.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "dmFsZXVyX2ludm9pY2VfZG9zNjI=",
+    "valeur_invoice_dos62"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "test/6962715d.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9iZTV2N0dUSndXMmhvdU8xTXB6dHNvZ1g=",
+    "sk_live_be5v7GTJwW2houO1MpztsogX"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "test/6962715d.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-prod.j2cgf4uwgfez.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "_/964f8d98.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.83.47.71"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "_/964f8d98.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-replica.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "_/964f8d98.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "T0C8BC7E7/B5QYGC5G93O/7Hj2GOnEqUbvo2hc8yRxd2fa"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "src/09655562.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "freude.sob.alchemy.watermark"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "src/09655562.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "test/e88318ce.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Tiger&1975"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "test/e88318ce.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.248.73.213"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "test/e88318ce.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "Q2gzY2szcjNkIQ==",
+    "Ch3ck3r3d!"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.kelpie-ops.io"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.kelpie-ops.io"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.kelpie-ops.io"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.250.105.0/24"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.250.105.47"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.kelpie-ops.io"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.kelpie-ops.io"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "kestrel.kelpie-ops.io"
+   ]
+  },
+  {
+   "id": 47,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.kelpie-ops.io"
+   ]
+  },
+  {
+   "id": 48,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.250.105.155"
+   ]
+  },
+  {
+   "id": 49,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.kelpie-ops.io"
+   ]
+  },
+  {
+   "id": 50,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "David Schwarz"
+   ]
+  },
+  {
+   "id": 51,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "david.schwarz@gmx.de"
+   ]
+  },
+  {
+   "id": 52,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 9430553"
+   ]
+  },
+  {
+   "id": 53,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Paul Hartmann"
+   ]
+  },
+  {
+   "id": 54,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "paul.hartmann@web.de"
+   ]
+  },
+  {
+   "id": 55,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 4494402"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/b3356305.md",
+   "line": 75,
+   "whole_line": "    AWS_ACCESS_KEY_ID => your access key on AWS",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 76,
+   "whole_line": "    AWS_SECRET_ACCESS_KEY => your secret key on AWS",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 85,
+   "whole_line": "    export AUTHNET_LOGIN=xxxxxxxxxxx",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 93,
+   "whole_line": "    heroku config:add AUTHNET_LOGIN=xxxxxxxxxxx",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 197,
+   "value": "_hadean_session_ugrdr6765745ce4vy",
+   "source": "creddata"
+  },
+  {
+   "file": "app/0b6fdb81.rb",
+   "line": 33,
+   "whole_line": "    @session_args ||= { :email => @user.email, :password => @password }",
+   "source": "creddata"
+  },
+  {
+   "file": "app/0b6fdb81.rb",
+   "line": 37,
+   "value": "admin_user_#{rand(1000)}",
+   "source": "creddata"
+  },
+  {
+   "file": "app/0b6fdb81.rb",
+   "line": 45,
+   "value": "admin_user_#{rand(1000)}",
+   "source": "creddata"
+  },
+  {
+   "file": "app/766c34fd.rb",
+   "line": 116,
+   "whole_line": "    @random_user = cookies[:hadean_uid] ? User.find_by_persistence_token(cookies[:hadean_uid]) : nil",
+   "source": "creddata"
+  },
+  {
+   "file": "app/assets/1aae47de.js",
+   "line": 21,
+   "whole_line": "        // generic password: upper-case, lower-case, number/special character, and min 8 characters",
+   "source": "creddata"
+  },
+  {
+   "file": "app/assets/1aae47de.js",
+   "line": 22,
+   "whole_line": "        password : /(?=^.{8,}$)((?=.*\\d)|(?=.*\\W+))(?![.\\n])(?=.*[A-Z])(?=.*[a-z]).*$/,",
+   "source": "creddata"
+  },
+  {
+   "file": "app/assets/69d99582.js",
+   "line": 308,
+   "whole_line": "\t\t\t\t.validateDelegate(\":text, :password, :file, select, textarea\", \"focusin focusout keyup\", delegate)",
+   "source": "creddata"
+  },
+  {
+   "file": "app/assets/ef7e17f5.js",
+   "line": 378,
+   "whole_line": "        key = decode( param[0] ),",
+   "source": "creddata"
+  },
+  {
+   "file": "app/assets/fdefadd7.js",
+   "line": 1413,
+   "whole_line": "      if (scope) key = traditional ? scope : scope + '[' + (array ? '' : key) + ']'",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e8e457c1.erb",
+   "line": 52,
+   "whole_line": "                  <%=form.label :password, 'Password' %>",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e8e457c1.erb",
+   "line": 53,
+   "whole_line": "                  <%= form.password_field :password, :autocomplete => 'off', :autocapitalize => 'off' %>",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e8e457c1.erb",
+   "line": 85,
+   "whole_line": "                  <%= form.password_field :password, :autocomplete => 'off', :autocapitalize => 'off'  %>",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e8e457c1.erb",
+   "line": 88,
+   "whole_line": "                  <%=form.label :password_confirmation, 'Confirm*' %>",
+   "source": "creddata"
+  },
+  {
+   "file": "app/e8e457c1.erb",
+   "line": 89,
+   "whole_line": "                  <%= form.password_field :password_confirmation, :autocomplete => 'off', :autocapitalize => 'off'  %>",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/44438ce2.yml",
+   "line": 10,
+   "whole_line": "  reset_password_title: 'Confirm your identity to reset password'",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/44438ce2.yml",
+   "line": 11,
+   "whole_line": "  reset_password_text:  'Enter your email below and Click the Continue button.'",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/993901ce.yml",
+   "line": 10,
+   "whole_line": "  reset_password_title: '\u8bf7\u786e\u8ba4\u4f60\u7684\u6807\u8bc6\u4fe1\u606f\u6765\u91cd\u7f6e\u5bc6\u7801'",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/993901ce.yml",
+   "line": 11,
+   "whole_line": "  reset_password_text:  '\u8bf7\u5728\u4e0b\u9762\u8f93\u5165\u4f60\u7684\u7535\u5b50\u90ae\u4ef6\u5730\u5740\u5e76\u5355\u51fb\u786e\u8ba4\u6309\u94ae\u3002'",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/locale/993901ce.yml",
+   "line": 14,
+   "whole_line": "  item_passed_update:   '\u4ea7\u54c1\u88ab\u6210\u529f\u66f4\u65b0\u3002'",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/setting/e769bbb8.yml",
+   "line": 15,
+   "whole_line": "  password:   <%= ENV['AUTHNET_PASSWORD'] %>",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/setting/e769bbb8.yml",
+   "line": 28,
+   "whole_line": "    secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/setting/e769bbb8.yml",
+   "line": 31,
+   "value": "f8c07cf79094ec06f77b6024b5d7936c79b5227274fb8e82c00blaha",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/setting/e769bbb8.yml",
+   "line": 7,
+   "value": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/setting/ff10c105.yml",
+   "line": 19,
+   "whole_line": "  password:   <%= ENV['AUTHNET_PASSWORD'] %>",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/setting/ff10c105.yml",
+   "line": 35,
+   "whole_line": "    secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/setting/ff10c105.yml",
+   "line": 37,
+   "value": "f8c07cf79094ec06f77b6024b5d7936c79b5227274fb8e82c00blaha",
+   "source": "creddata"
+  },
+  {
+   "file": "example/conf/setting/924ed9ac.yml",
+   "line": 27,
+   "whole_line": "  password:   <%= ENV['AUTHNET_PASSWORD'] %>",
+   "source": "creddata"
+  },
+  {
+   "file": "example/conf/setting/924ed9ac.yml",
+   "line": 35,
+   "whole_line": "    secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>",
+   "source": "creddata"
+  },
+  {
+   "file": "example/conf/setting/924ed9ac.yml",
+   "line": 38,
+   "value": "f8c07cf79094ec06f77b6024b5d7936c79b5227274fb8e82c00blaha",
+   "source": "creddata"
+  },
+  {
+   "file": "example/conf/setting/924ed9ac.yml",
+   "line": 18,
+   "value": "2023-08-01T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "example/conf/setting/924ed9ac.yml",
+   "line": 23,
+   "value": "2024-04-19T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/3baef945.rb",
+   "line": 18,
+   "whole_line": "  belongs_to :author, class_name: 'User', foreign_key: \"created_by\"",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/65ab3066.rb",
+   "line": 20,
+   "whole_line": "  belongs_to :transactionn, class_name: 'Transaction', foreign_key: :transaction_id",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 23,
+   "whole_line": "#  crypted_password  :string(255)",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 24,
+   "whole_line": "#  perishable_token  :string(255)",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 25,
+   "whole_line": "#  persistence_token :string(255)",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 26,
+   "whole_line": "#  access_token      :string(255)",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 44,
+   "whole_line": "    config.validates_length_of_password_field_options( :minimum => 6, :on => :update, :if => :password_changed? )",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 64,
+   "whole_line": "  has_many  :referrals, class_name: 'Referral', foreign_key: 'referring_user_id' # people you have tried to referred",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 65,
+   "whole_line": "  has_one   :referree,  class_name: 'Referral', foreign_key: 'referral_user_id' # person who referred you",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 115,
+   "whole_line": "  has_many    :authored_return_authorizations, class_name: 'ReturnAuthorization', foreign_key: 'author_id'",
+   "source": "creddata"
+  },
+  {
+   "file": "model/app/9802ca3c.rb",
+   "line": 323,
+   "whole_line": "    self.access_token = SecureRandom::hex(9+rand(6)) if access_token.nil?",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/67ddf299.rb",
+   "line": 16,
+   "whole_line": "    let(:user_session) { UserSession.create email: user.email, password: 'password' }",
+   "source": "creddata"
+  },
+  {
+   "file": "spec/model/bb8bcb6e.rb",
+   "line": 256,
+   "whole_line": "      @user.crypted_password = nil",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/setting/35b4e12c.yml",
+   "line": 14,
+   "whole_line": "  password:   <%= ENV['AUTHNET_PASSWORD'] %>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/setting/35b4e12c.yml",
+   "line": 27,
+   "whole_line": "    secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/setting/35b4e12c.yml",
+   "line": 30,
+   "value": "f8c07cf79094ec06f77b6024b5d7936c79b5227274fb8e82c00blaha",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b1d992c5.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "careers@pinegrid-corp.de"
+  },
+  {
+   "file": "_/b1d992c5.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "hello@pinegrid-corp.de"
+  },
+  {
+   "file": "_/b1d992c5.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0116"
+  },
+  {
+   "file": "_/b1d992c5.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "_/b1d992c5.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "_/b1d992c5.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "_/b1d992c5.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "_/b1d992c5.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "other/5b867ea6.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Enhanced2026"
+  },
+  {
+   "file": "other/5b867ea6.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Reise2025"
+  },
+  {
+   "file": "test/6962715d.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "8d7919c"
+  },
+  {
+   "file": "test/6962715d.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "e582cf4d11f3fc1cf9bcbe2e11b75f3d7f39362f3f5caf560da72fdce0f90820"
+  },
+  {
+   "file": "test/6962715d.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "storage.googleapis.com"
+  },
+  {
+   "file": "test/6962715d.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "_/964f8d98.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "f0e7cafd30ddad99f64a"
+  },
+  {
+   "file": "_/964f8d98.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "sentry.io"
+  },
+  {
+   "file": "_/964f8d98.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "41587b71abc5d921cf6bf0391449dcd95ce79543"
+  },
+  {
+   "file": "src/09655562.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI/Vh2li1egsLel7QfUuDg4sECLMrwwSFA5//mesukVHQ"
+  },
+  {
+   "file": "src/09655562.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "4fed5c4c44db256c27f3b324a6152442adce0227d9d3b0765279ce52f8bce418"
+  },
+  {
+   "file": "src/09655562.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/09655562.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "test/e88318ce.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:3a10899a4e892f8faec1a28b589cabe6aaa6515c0e79e1a60c2284eae3b9c2a2"
+  },
+  {
+   "file": "test/e88318ce.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "dcffd85cc9ee70e72758d7a1dfdc58347a1f1a04"
+  },
+  {
+   "file": "test/e88318ce.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "xxxxxxxxxxxxxxxx"
+  },
+  {
+   "file": "test/e88318ce.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "test/e88318ce.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "4.6.14"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "files.mailvault.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.114.25"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "188.6.227.162"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "mirrors.kernel.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.kelpie.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.kelpie.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "portal.kelpie-ops.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Lina Wolf"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "portal.kelpie-ops.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.mailvault.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.114.25"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "188.6.227.162"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "mirrors.kernel.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "kafka.apache.org"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.kelpie.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Lina Wolf"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "lina.wolf@kelpie.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+monitoring: nimbus.helix.net
+database:
+  host: pallas.helix.net
+  port: 5432
+queue: kestrel.helix.net
+backup_target: juno.helix.net
+website: shop.helix.net
+payments_api: https://api.mailvault.com/v2
+partner_drop: edi.mailvault.de
+allow_sources:
+  - 194.76.221.203
+  - 140.82.113.4
+  - 194.100.234.146
+ntp: 194.58.200.20
+mirrors: [repo1.maven.org, kafka.apache.org]

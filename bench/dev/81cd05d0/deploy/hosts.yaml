@@ -1,0 +1,15 @@
+monitoring: nimbus.nordwind.net
+database:
+  host: pallas.nordwind.net
+  port: 5432
+queue: juno.nordwind.net
+backup_target: orion.nordwind.net
+website: shop.nordwind.net
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: files.logistik-nord.de
+allow_sources:
+  - 85.239.144.201
+  - 140.82.114.25
+  - 85.16.193.139
+ntp: 162.159.200.1
+mirrors: [kafka.apache.org, db.debian.org]

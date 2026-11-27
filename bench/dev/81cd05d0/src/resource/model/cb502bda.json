@@ -1,0 +1,832 @@
+      "XssMatchTuple" : [ "TextTransformation" ]
+    },
+    "operationModifiers" : null,
+    "operationsWithResponseStreamContentLengthValidation" : null,
+    "presignersFqcn" : null,
+    "renameShapes" : null,
+    "requestMetrics" : null,
+    "requiredParamValidationEnabled" : false,
+    "s3ArnableFields" : null,
+    "sdkModeledExceptionBaseClassName" : null,
+    "sendEmptyAutoConstructedListAsEmptyList" : null,
+    "sendExplicitlyEmptyListsForQuery" : false,
+    "serviceClientHoldInputStream" : false,
+    "shapeModifiers" : null,
+    "shapeSubstitutions" : null,
+    "simpleMethods" : null,
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "waf/transform",
+    "useAutoConstructList" : false,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2015-08-24",
+    "asyncClient" : "AWSWAFAsyncClient",
+    "asyncClientBuilderClassName" : "AWSWAFAsyncClientBuilder",
+    "asyncInterface" : "AWSWAFAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AWSWAFModuleInjector",
+    "defaultEndpoint" : "https://waf.amazonaws.com/",
+    "defaultEndpointWithoutHttpProtocol" : "waf.amazonaws.com/",
+    "defaultRegion" : null,
+    "documentation" : "<note> <p>This is <b>AWS WAF Classic</b> documentation. For more information, see <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/classic-waf-chapter.html\">AWS WAF Classic</a> in the developer guide.</p> <p> <b>For the latest version of AWS WAF</b>, use the AWS WAFV2 API and see the <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html\">AWS WAF Developer Guide</a>. With the latest version, AWS WAF has a single set of endpoints for regional and global use. </p> </note> <p>This is the <i>AWS WAF Classic API Reference</i> for using AWS WAF Classic with Amazon CloudFront. The AWS WAF Classic actions and data types listed in the reference are available for protecting Amazon CloudFront distributions. You can use these actions and data types via the endpoint <i>waf.amazonaws.com</i>. This guide is for developers who need detailed information about the AWS WAF Classic API actions, data types, and errors. For detailed information about AWS WAF Classic features and an overview of how to use the AWS WAF Classic API, see the <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/classic-waf-chapter.html\">AWS WAF Classic</a> in the developer guide.</p>",
+    "endpointPrefix" : "waf",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.waf",
+    "packagePath" : "com/amazonaws/services/waf",
+    "protocol" : "json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : "WAF",
+      "input" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "ListSubscribedRuleGroupsRequest",
+        "variableName" : "listSubscribedRuleGroupsRequest",
+        "variableType" : "ListSubscribedRuleGroupsRequest",
+        "documentation" : "",
+        "simpleType" : "ListSubscribedRuleGroupsRequest",
+        "variableSetterType" : "ListSubscribedRuleGroupsRequest"
+      },
+      "inputStreamPropertyName" : null,
+      "methodName" : "listSubscribedRuleGroups",
+      "operationName" : "ListSubscribedRuleGroups",
+      "returnType" : {
+        "returnType" : "ListSubscribedRuleGroupsResult",
+        "documentation" : null
+      },
+      "syncReturnType" : "ListSubscribedRuleGroupsResult"
+    },
+    "ListTagsForResource" : {
+      "asyncCallableType" : "java.util.concurrent.Callable<ListTagsForResourceResult>",
+      "asyncFutureType" : "java.util.concurrent.Future<ListTagsForResourceResult>",
+      "asyncHandlerType" : "com.amazonaws.handlers.AsyncHandler<ListTagsForResourceRequest, ListTagsForResourceResult>",
+      "asyncReturnType" : "ListTagsForResourceResult",
+      "authenticated" : true,
+      "deprecated" : false,
+      "documentation" : "<note> <p>This is <b>AWS WAF Classic</b> documentation. For more information, see <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/classic-waf-chapter.html\">AWS WAF Classic</a> in the developer guide.</p> <p> <b>For the latest version of AWS WAF</b>, use the AWS WAFV2 API and see the <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html\">AWS WAF Developer Guide</a>. With the latest version, AWS WAF has a single set of endpoints for regional and global use. </p> </note> <p>Retrieves the tags associated with the specified AWS resource. Tags are key:value pairs that you can use to categorize and manage your resources, for purposes like billing. For example, you might set the tag key to \"customer\" and the value to the customer name or ID. You can specify one or more tags to add to each AWS resource, up to 50 tags for a resource.</p> <p>Tagging is only available through the API, SDKs, and CLI. You can't manage or view tags through the AWS WAF Classic console. You can tag the AWS resources that you manage through AWS WAF Classic: web ACLs, rule groups, and rules. </p>",
+      "endpointCacheRequired" : false,
+      "endpointDiscovery" : null,
+      "endpointOperation" : false,
+      "endpointTrait" : null,
+      "exceptions" : [ {
+        "exceptionName" : "WAFInternalErrorException",
+        "documentation" : "<p>The operation failed because of a system problem, even though the request was valid. Retry your request.</p>",
+        "httpStatusCode" : null
+      }, {
+        "exceptionName" : "WAFInvalidParameterException",
+        "documentation" : "<p>The operation failed because AWS WAF didn't recognize a parameter in the request. For example:</p> <ul> <li> <p>You specified an invalid parameter name.</p> </li> <li> <p>You specified an invalid value.</p> </li> <li> <p>You tried to update an object (<code>ByteMatchSet</code>, <code>IPSet</code>, <code>Rule</code>, or <code>WebACL</code>) using an action other than <code>INSERT</code> or <code>DELETE</code>.</p> </li> <li> <p>You tried to create a <code>WebACL</code> with a <code>DefaultAction</code> <code>Type</code> other than <code>ALLOW</code>, <code>BLOCK</code>, or <code>COUNT</code>.</p> </li> <li> <p>You tried to create a <code>RateBasedRule</code> with a <code>RateKey</code> value other than <code>IP</code>.</p> </li> <li> <p>You tried to update a <code>WebACL</code> with a <code>WafAction</code> <code>Type</code> other than <code>ALLOW</code>, <code>BLOCK</code>, or <code>COUNT</code>.</p> </li> <li> <p>You tried to update a <code>ByteMatchSet</code> with a <code>FieldToMatch</code> <code>Type</code> other than HEADER, METHOD, QUERY_STRING, URI, or BODY.</p> </li> <li> <p>You tried to update a <code>ByteMatchSet</code> with a <code>Field</code> of <code>HEADER</code> but no value for <code>Data</code>.</p> </li> <li> <p>Your request references an ARN that is malformed, or corresponds to a resource with which a web ACL cannot be associated.</p> </li> </ul>",
+        "httpStatusCode" : null
+      }, {
+        "exceptionName" : "WAFNonexistentItemException",
+        "documentation" : "<p>The operation failed because the referenced object doesn't exist.</p>",
+        "httpStatusCode" : null
+      }, {
+        "exceptionName" : "WAFBadRequestException",
+        "documentation" : "<p/>",
+        "httpStatusCode" : null
+      }, {
+        "exceptionName" : "WAFTagOperationException",
+        "documentation" : "<p/>",
+        "httpStatusCode" : null
+      }, {
+      "input" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "PutPermissionPolicyRequest",
+        "variableName" : "putPermissionPolicyRequest",
+        "variableType" : "PutPermissionPolicyRequest",
+        "documentation" : "",
+        "simpleType" : "PutPermissionPolicyRequest",
+        "variableSetterType" : "PutPermissionPolicyRequest"
+      },
+      "inputStreamPropertyName" : null,
+      "methodName" : "putPermissionPolicy",
+      "operationName" : "PutPermissionPolicy",
+      "returnType" : {
+        "returnType" : "PutPermissionPolicyResult",
+        "documentation" : null
+      },
+      "syncReturnType" : "PutPermissionPolicyResult"
+    },
+    "TagResource" : {
+      "asyncCallableType" : "java.util.concurrent.Callable<TagResourceResult>",
+      "asyncFutureType" : "java.util.concurrent.Future<TagResourceResult>",
+      "asyncHandlerType" : "com.amazonaws.handlers.AsyncHandler<TagResourceRequest, TagResourceResult>",
+      "asyncReturnType" : "TagResourceResult",
+      "authenticated" : true,
+      "deprecated" : false,
+      "documentation" : "<note> <p>This is <b>AWS WAF Classic</b> documentation. For more information, see <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/classic-waf-chapter.html\">AWS WAF Classic</a> in the developer guide.</p> <p> <b>For the latest version of AWS WAF</b>, use the AWS WAFV2 API and see the <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html\">AWS WAF Developer Guide</a>. With the latest version, AWS WAF has a single set of endpoints for regional and global use. </p> </note> <p>Associates tags with the specified AWS resource. Tags are key:value pairs that you can use to categorize and manage your resources, for purposes like billing. For example, you might set the tag key to \"customer\" and the value to the customer name or ID. You can specify one or more tags to add to each AWS resource, up to 50 tags for a resource.</p> <p>Tagging is only available through the API, SDKs, and CLI. You can't manage or view tags through the AWS WAF Classic console. You can use this action to tag the AWS resources that you manage through AWS WAF Classic: web ACLs, rule groups, and rules. </p>",
+      "endpointCacheRequired" : false,
+      "endpointDiscovery" : null,
+      "endpointOperation" : false,
+      "endpointTrait" : null,
+      "exceptions" : [ {
+        "exceptionName" : "WAFInternalErrorException",
+        "documentation" : "<p>The operation failed because of a system problem, even though the request was valid. Retry your request.</p>",
+        "httpStatusCode" : null
+      }, {
+        "exceptionName" : "WAFInvalidParameterException",
+        "documentation" : "<p>The operation failed because AWS WAF didn't recognize a parameter in the request. For example:</p> <ul> <li> <p>You specified an invalid parameter name.</p> </li> <li> <p>You specified an invalid value.</p> </li> <li> <p>You tried to update an object (<code>ByteMatchSet</code>, <code>IPSet</code>, <code>Rule</code>, or <code>WebACL</code>) using an action other than <code>INSERT</code> or <code>DELETE</code>.</p> </li> <li> <p>You tried to create a <code>WebACL</code> with a <code>DefaultAction</code> <code>Type</code> other than <code>ALLOW</code>, <code>BLOCK</code>, or <code>COUNT</code>.</p> </li> <li> <p>You tried to create a <code>RateBasedRule</code> with a <code>RateKey</code> value other than <code>IP</code>.</p> </li> <li> <p>You tried to update a <code>WebACL</code> with a <code>WafAction</code> <code>Type</code> other than <code>ALLOW</code>, <code>BLOCK</code>, or <code>COUNT</code>.</p> </li> <li> <p>You tried to update a <code>ByteMatchSet</code> with a <code>FieldToMatch</code> <code>Type</code> other than HEADER, METHOD, QUERY_STRING, URI, or BODY.</p> </li> <li> <p>You tried to update a <code>ByteMatchSet</code> with a <code>Field</code> of <code>HEADER</code> but no value for <code>Data</code>.</p> </li> <li> <p>Your request references an ARN that is malformed, or corresponds to a resource with which a web ACL cannot be associated.</p> </li> </ul>",
+        "httpStatusCode" : null
+      }, {
+        "exceptionName" : "WAFLimitsExceededException",
+        "documentation" : "<p>The operation exceeds a resource limit, for example, the maximum number of <code>WebACL</code> objects that you can create for an AWS account. For more information, see <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/limits.html\">Limits</a> in the <i>AWS WAF Developer Guide</i>.</p>",
+        "httpStatusCode" : null
+      }, {
+        "exceptionName" : "WAFNonexistentItemException",
+        "documentation" : "<p>The operation failed because the referenced object doesn't exist.</p>",
+        "httpStatusCode" : null
+      }, {
+        "exceptionName" : "WAFBadRequestException",
+        "documentation" : "<p/>",
+        "httpStatusCode" : null
+      }, {
+      "signerType" : null,
+      "unmarshaller" : {
+        "flattened" : false,
+        "resultWrapper" : null
+      },
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "SubscribedRuleGroupSummary",
+        "variableName" : "subscribedRuleGroupSummary",
+        "variableType" : "SubscribedRuleGroupSummary",
+        "documentation" : null,
+        "simpleType" : "SubscribedRuleGroupSummary",
+        "variableSetterType" : "SubscribedRuleGroupSummary"
+      },
+      "wrapper" : false
+    },
+    "Tag" : {
+      "c2jName" : "Tag",
+      "customization" : {
+        "artificialResultWrapper" : null,
+        "skipGeneratingMarshaller" : false,
+        "skipGeneratingModelClass" : false,
+        "skipGeneratingUnmarshaller" : false
+      },
+      "deprecated" : false,
+      "documentation" : "<note> <p>This is <b>AWS WAF Classic</b> documentation. For more information, see <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/classic-waf-chapter.html\">AWS WAF Classic</a> in the developer guide.</p> <p> <b>For the latest version of AWS WAF</b>, use the AWS WAFV2 API and see the <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html\">AWS WAF Developer Guide</a>. With the latest version, AWS WAF has a single set of endpoints for regional and global use. </p> </note> <p>A tag associated with an AWS resource. Tags are key:value pairs that you can use to categorize and manage your resources, for purposes like billing. For example, you might set the tag key to \"customer\" and the value to the customer name or ID. You can specify one or more tags to add to each AWS resource, up to 50 tags for a resource.</p> <p>Tagging is only available through the API, SDKs, and CLI. You can't manage or view tags through the AWS WAF Classic console. You can tag the AWS resources that you manage through AWS WAF Classic: web ACLs, rule groups, and rules. </p>",
+      "endpointDiscoveryMembers" : null,
+      "enums" : null,
+      "errorCode" : null,
+      "fullyQualifiedName" : "com.amazonaws.services.waf.model.Tag",
+      "hasHeaderMember" : false,
+      "hasPayloadMember" : false,
+      "hasRequiresLengthMember" : false,
+      "hasStatusCodeMember" : false,
+      "hasStreamingMember" : false,
+      "marshaller" : null,
+      "members" : [ {
+        "c2jName" : "Key",
+        "c2jShape" : "TagKey",
+        "deprecated" : false,
+        "documentation" : "<p/>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p/>\n@param key \n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withKey",
+        "getterDocumentation" : "/**<p/>\n@return */",
+        "getterMethodName" : "getKey",
+        "getterModel" : {
+          "returnType" : "String",
+          "documentation" : null
+        },
+      "signerType" : null,
+      "unmarshaller" : {
+        "flattened" : false,
+        "resultWrapper" : null
+      },
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "Tag",
+        "variableName" : "tag",
+        "variableType" : "Tag",
+        "documentation" : null,
+        "simpleType" : "Tag",
+        "variableSetterType" : "Tag"
+      },
+      "wrapper" : false
+    },
+    "TagInfoForResource" : {
+      "c2jName" : "TagInfoForResource",
+      "customization" : {
+        "artificialResultWrapper" : null,
+        "skipGeneratingMarshaller" : false,
+        "skipGeneratingModelClass" : false,
+        "skipGeneratingUnmarshaller" : false
+      },
+      "deprecated" : false,
+      "documentation" : "<note> <p>This is <b>AWS WAF Classic</b> documentation. For more information, see <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/classic-waf-chapter.html\">AWS WAF Classic</a> in the developer guide.</p> <p> <b>For the latest version of AWS WAF</b>, use the AWS WAFV2 API and see the <a href=\"https://docs.aws.amazon.com/waf/latest/developerguide/waf-chapter.html\">AWS WAF Developer Guide</a>. With the latest version, AWS WAF has a single set of endpoints for regional and global use. </p> </note> <p>Information for a tag associated with an AWS resource. Tags are key:value pairs that you can use to categorize and manage your resources, for purposes like billing. For example, you might set the tag key to \"customer\" and the value to the customer name or ID. You can specify one or more tags to add to each AWS resource, up to 50 tags for a resource.</p> <p>Tagging is only available through the API, SDKs, and CLI. You can't manage or view tags through the AWS WAF Classic console. You can tag the AWS resources that you manage through AWS WAF Classic: web ACLs, rule groups, and rules. </p>",
+      "endpointDiscoveryMembers" : null,
+      "enums" : null,
+      "errorCode" : null,
+      "fullyQualifiedName" : "com.amazonaws.services.waf.model.TagInfoForResource",
+      "hasHeaderMember" : false,
+      "hasPayloadMember" : false,
+      "hasRequiresLengthMember" : false,
+      "hasStatusCodeMember" : false,
+      "hasStreamingMember" : false,
+      "marshaller" : null,
+      "members" : [ {
+        "c2jName" : "ResourceARN",
+        "c2jShape" : "ResourceArn",
+        "deprecated" : false,
+        "documentation" : "<p/>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p/>\n@param resourceARN \n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withResourceARN",
+        "getterDocumentation" : "/**<p/>\n@return */",
+        "getterMethodName" : "getResourceARN",
+        "getterModel" : {
+          "returnType" : "String",
+          "documentation" : null
+        },
+      },
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "XssMatchTuple",
+        "variableName" : "xssMatchTuple",
+        "variableType" : "XssMatchTuple",
+        "documentation" : null,
+        "simpleType" : "XssMatchTuple",
+        "variableSetterType" : "XssMatchTuple"
+      },
+      "wrapper" : false
+    }
+  },
+  "clientConfigFactory" : "ClientConfigurationFactory",
+  "examples" : {
+    "examples" : {
+      "CreateIPSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example creates an IP match set named MyIPSetFriendlyName.",
+        "id" : "createipset-1472501003122",
+        "input" : {
+          "Name" : "MyIPSetFriendlyName",
+          "ChangeToken" : "b6fb6708-fc67-7626-d99e-16f8f3ea8c01"
+        },
+        "output" : {
+          "IPSet" : {
+            "IPSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "Name" : "MyIPSetFriendlyName",
+            "IPSetDescriptors" : [ {
+              "Type" : "IPV4",
+              "Value" : "192.0.2.44/32"
+            } ]
+          },
+          "ChangeToken" : "a0c7e1bb-d1d1-bc60-066e-9db719ef4ef3"
+        },
+        "title" : "To create an IP set"
+      } ],
+      "CreateRule" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example creates a rule named WAFByteHeaderRule.",
+        "id" : "createrule-1474072675555",
+        "input" : {
+          "Name" : "WAFByteHeaderRule",
+          "MetricName" : "WAFByteHeaderRule",
+          "ChangeToken" : "8d7c7214-e713-0609-44d8-39450b092435"
+        },
+        "output" : {
+          "Rule" : {
+            "RuleId" : "WAFRule-1-Example",
+            "Name" : "WAFByteHeaderRule",
+            "MetricName" : "WAFByteHeaderRule",
+            "Predicates" : [ {
+              "Negated" : false,
+              "Type" : "ByteMatch",
+              "DataId" : "MyByteMatchSetID"
+            } ]
+          },
+          "ChangeToken" : "47db3885-1b02-6411-3a57-f621c44a1f2d"
+        },
+        "title" : "To create a rule"
+      } ],
+      "CreateSizeConstraintSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example creates size constraint set named MySampleSizeConstraintSet.",
+        "id" : "createsizeconstraint-1474299140754",
+        "input" : {
+          "Name" : "MySampleSizeConstraintSet",
+          "ChangeToken" : "42c9530a-e9a4-8d81-d8b4-a00a32f49c6b"
+        },
+        "output" : {
+          "SizeConstraintSet" : {
+            "SizeConstraintSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "Name" : "MySampleSizeConstraintSet",
+            "SizeConstraints" : [ {
+              "FieldToMatch" : {
+                "Type" : "QUERY_STRING"
+              },
+              "TextTransformation" : "NONE",
+              "ComparisonOperator" : "GT",
+              "Size" : 0
+            } ]
+          },
+          "ChangeToken" : "e8746796-9ab8-0506-57f8-60e3a7e50b19"
+        },
+        "title" : "To create a size constraint"
+      } ],
+      "CreateSqlInjectionMatchSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example creates a SQL injection match set named MySQLInjectionMatchSet.",
+        "id" : "createsqlinjectionmatchset-1474492796105",
+        "input" : {
+          "Name" : "MySQLInjectionMatchSet",
+          "ChangeToken" : "e032b7d2-d8f6-e57d-247a-bc2077723223"
+        },
+        "output" : {
+          "SqlInjectionMatchSet" : {
+            "SqlInjectionMatchSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "Name" : "MySQLInjectionMatchSet",
+            "SqlInjectionMatchTuples" : [ {
+              "FieldToMatch" : {
+                "Type" : "QUERY_STRING"
+              },
+              "TextTransformation" : "URL_DECODE"
+            } ]
+          },
+          "ChangeToken" : "22130bf6-779f-a806-ba08-8367ccfec18b"
+        },
+        "title" : "To create a SQL injection match set"
+      } ],
+      "CreateWebACL" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example creates a web ACL named CreateExample.",
+        "id" : "createwebacl-1472061481310",
+        "input" : {
+          "Name" : "CreateExample",
+          "MetricName" : "CreateExample",
+          "DefaultAction" : {
+            "Type" : "ALLOW"
+          },
+          "ChangeToken" : "6ad25109-ceae-d56e-8921-74be9b29a8e1"
+        },
+        "output" : {
+          "WebACL" : {
+            "WebACLId" : "example-46da-4444-5555-example",
+            "Name" : "CreateExample",
+            "MetricName" : "CreateExample",
+            "DefaultAction" : {
+              "Type" : "ALLOW"
+            },
+            "Rules" : [ {
+              "Priority" : 1,
+              "RuleId" : "WAFRule-1-Example",
+              "Action" : {
+                "Type" : "ALLOW"
+              }
+            } ]
+          },
+          "ChangeToken" : "48abc7c2-869a-6c70-28aa-29ba46a4f2ad"
+        },
+        "title" : "To create a web ACL"
+      } ],
+      "CreateXssMatchSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example creates an XSS match set named MySampleXssMatchSet.",
+        "id" : "createxssmatchset-1474560868500",
+        "input" : {
+          "Name" : "MySampleXssMatchSet",
+          "ChangeToken" : "9995b0c8-4cfb-a8fa-a839-b0cb3836521c"
+        },
+        "output" : {
+          "XssMatchSet" : {
+            "XssMatchSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "Name" : "MySampleXssMatchSet",
+            "XssMatchTuples" : [ {
+              "FieldToMatch" : {
+                "Type" : "QUERY_STRING"
+              },
+              "TextTransformation" : "URL_DECODE"
+            } ]
+          },
+          "ChangeToken" : "74cef06a-68be-ec6f-2c25-fef3b0f4b532"
+        },
+        "title" : "To create an XSS match set"
+      } ],
+      "DeleteByteMatchSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes a byte match set with the ID exampleIDs3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id" : "deletebytematchset-1473367566229",
+        "input" : {
+          "ByteMatchSetId" : "exampleIDs3t-46da-4fdb-b8d5-abc321j569j5",
+          "ChangeToken" : "1fb7fe8e-5f5d-4913-d83c-a5438529720f"
+        },
+        "output" : {
+          "ChangeToken" : "592b3f42-ecbb-6a2c-abc1-2e6bcd99dc52"
+        },
+        "title" : "To delete a byte match set"
+      } ],
+      "DeleteIPSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes an IP match set  with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id" : "deleteipset-1472767434306",
+        "input" : {
+          "IPSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+          "ChangeToken" : "81dca904-89bf-798a-1c76-92101ab8802d"
+        },
+        "output" : {
+          "ChangeToken" : "7cd1f635-3377-0733-35ab-3dd827fbf14e"
+        },
+        "title" : "To delete an IP set"
+      } ],
+      "DeleteRule" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes a rule with the ID WAFRule-1-Example.",
+        "id" : "deleterule-1474073108749",
+        "input" : {
+          "RuleId" : "WAFRule-1-Example",
+          "ChangeToken" : "62a1c623-344c-4ea1-aebb-a4625c5dbf85"
+        },
+        "output" : {
+          "ChangeToken" : "40dc2a50-166f-fe51-7058-2ceb7ebc5932"
+        },
+        "title" : "To delete a rule"
+      } ],
+      "DeleteSizeConstraintSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes a size constraint set  with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id" : "deletesizeconstraintset-1474299857905",
+        "input" : {
+          "SizeConstraintSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+          "ChangeToken" : "efd7e614-32a6-bf3a-f07b-b42bfdb24345"
+        },
+        "output" : {
+          "ChangeToken" : "cf34696e-7bbb-965b-690d-51941e1fa70f"
+        },
+        "title" : "To delete a size constraint set"
+      } ],
+      "DeleteSqlInjectionMatchSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes a SQL injection match set  with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id" : "deletesqlinjectionmatchset-1474493373197",
+        "input" : {
+          "SqlInjectionMatchSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+          "ChangeToken" : "473122f3-d969-6dac-ac5d-f58688229750"
+        },
+        "output" : {
+          "ChangeToken" : "37853b38-8392-df93-6a2b-a181d1c00746"
+        },
+        "title" : "To delete a SQL injection match set"
+      } ],
+      "DeleteWebACL" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes a web ACL with the ID example-46da-4444-5555-example.",
+        "id" : "deletewebacl-1472767755931",
+        "input" : {
+          "WebACLId" : "example-46da-4444-5555-example",
+          "ChangeToken" : "ca0b168c-ea41-e0c8-ca5d-c8b38fbea183"
+        },
+        "output" : {
+          "ChangeToken" : "ae511b02-57e5-8584-c303-6eedc9b08b24"
+        },
+        "title" : "To delete a web ACL"
+      } ],
+      "DeleteXssMatchSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes an XSS match set with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id" : "deletexssmatchset-1474561302618",
+        "input" : {
+          "XssMatchSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+          "ChangeToken" : "c2f9fe54-beae-a315-6d78-c7afb2fcfb0a"
+        },
+        "output" : {
+          "ChangeToken" : "c379ed7a-76a3-84ea-8a14-109b60828925"
+        },
+        "title" : "To delete an XSS match set"
+      } ],
+      "GetByteMatchSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example returns the details of a byte match set with the ID exampleIDs3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id" : "getbytematchset-1473273311532",
+        "input" : {
+          "ByteMatchSetId" : "exampleIDs3t-46da-4fdb-b8d5-abc321j569j5"
+        },
+        "output" : {
+          "ByteMatchSet" : {
+            "ByteMatchSetId" : "exampleIDs3t-46da-4fdb-b8d5-abc321j569j5",
+            "Name" : "ByteMatchNameExample",
+            "ByteMatchTuples" : [ {
+              "FieldToMatch" : {
+                "Type" : "HEADER",
+                "Data" : "referer"
+              },
+              "TargetString" : "badrefer1",
+              "TextTransformation" : "NONE",
+              "PositionalConstraint" : "CONTAINS"
+            } ]
+          }
+        },
+        "title" : "To get a byte match set"
+      } ],
+      "GetChangeToken" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example returns a change token to use for a create, update or delete operation.",
+        "id" : "get-change-token-example-1471635120794",
+        "input" : { },
+        "output" : {
+          "ChangeToken" : "a5c9a455-d807-b85e-6180-1fcdd602ed2f"
+        },
+        "title" : "To get a change token"
+      } ],
+      "GetChangeTokenStatus" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example returns the status of a change token with the ID abcd12f2-46da-4fdb-b8d5-fbd4c466928f.",
+        "id" : "getchangetokenstatus-1474658417107",
+        "input" : {
+          "ChangeToken" : "907ed9ed-6f31-b2ae-42b1-b075a6d6505a"
+        },
+        "output" : {
+          "ChangeTokenStatus" : "PENDING"
+        },
+        "title" : "To get the change token status"
+      } ],
+      "GetIPSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example returns the details of an IP match set with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id" : "getipset-1474658688675",
+        "input" : {
+          "IPSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5"
+        },
+        "output" : {
+          "IPSet" : {
+            "IPSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "Name" : "MyIPSetFriendlyName",
+            "IPSetDescriptors" : [ {
+              "Type" : "IPV4",
+              "Value" : "192.0.2.44/32"
+            } ]
+          }
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example returns an array of up to 100 XSS match sets.",
+        "id" : "listxssmatchsets-1474561481168",
+        "input" : {
+          "Limit" : 100
+        },
+        "output" : {
+          "XssMatchSets" : [ {
+            "XssMatchSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+            "Name" : "MySampleXssMatchSet"
+          } ]
+        },
+        "title" : "To list XSS match sets"
+      } ],
+      "UpdateByteMatchSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes a ByteMatchTuple object (filters) in an byte match set with the ID exampleIDs3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id" : "updatebytematchset-1475259074558",
+        "input" : {
+          "ByteMatchSetId" : "exampleIDs3t-46da-4fdb-b8d5-abc321j569j5",
+          "ChangeToken" : "7d9553fd-a872-9a78-5b59-9e0c60d3e506",
+          "Updates" : [ {
+            "Action" : "DELETE",
+            "ByteMatchTuple" : {
+              "FieldToMatch" : {
+                "Type" : "HEADER",
+                "Data" : "referer"
+              },
+              "TargetString" : "badrefer1",
+              "TextTransformation" : "NONE",
+              "PositionalConstraint" : "CONTAINS"
+            }
+          } ]
+        },
+        "output" : {
+          "ChangeToken" : "dd31ae20-2fa7-5f92-1a3c-ce36f489b306"
+        },
+        "title" : "To update a byte match set"
+      } ],
+      "UpdateIPSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes an IPSetDescriptor object in an IP match set with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id" : "updateipset-1475259733625",
+        "input" : {
+          "IPSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+          "ChangeToken" : "e64dab49-4ae0-6d5e-c159-83b3a4e63071",
+          "Updates" : [ {
+            "Action" : "DELETE",
+            "IPSetDescriptor" : {
+              "Type" : "IPV4",
+              "Value" : "192.0.2.44/32"
+            }
+          } ]
+        },
+        "output" : {
+          "ChangeToken" : "40698a81-94a6-7fe6-59f0-15092efa887e"
+        },
+        "title" : "To update an IP set"
+      } ],
+      "UpdateRule" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes a Predicate object in a rule with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id" : "updaterule-1475260064720",
+        "input" : {
+          "RuleId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+          "ChangeToken" : "9d6a825e-02a2-5dcb-40aa-8dcbadd50c7b",
+          "Updates" : [ {
+            "Action" : "DELETE",
+            "Predicate" : {
+              "Negated" : false,
+              "Type" : "ByteMatch",
+              "DataId" : "MyByteMatchSetID"
+            }
+          } ]
+        },
+        "output" : {
+          "ChangeToken" : "4a542b5a-6f9e-4c13-2ca2-80e9c3d585ac"
+        },
+        "title" : "To update a rule"
+      } ],
+      "UpdateSizeConstraintSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes a SizeConstraint object (filters) in a size constraint set with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id" : "updatesizeconstraintset-1475531697891",
+        "input" : {
+          "SizeConstraintSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+          "ChangeToken" : "0c3c1d3d-1b48-71a8-b825-4046ed09d8a7",
+          "Updates" : [ {
+            "Action" : "DELETE",
+            "SizeConstraint" : {
+              "FieldToMatch" : {
+                "Type" : "QUERY_STRING"
+              },
+              "TextTransformation" : "NONE",
+              "ComparisonOperator" : "GT",
+              "Size" : 0
+            }
+          } ]
+        },
+        "output" : {
+          "ChangeToken" : "bd63402e-1e7c-d236-a742-44cd977b2ac8"
+        },
+        "title" : "To update a size constraint set"
+      } ],
+      "UpdateSqlInjectionMatchSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes a SqlInjectionMatchTuple object (filters) in a SQL injection match set with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id" : "updatesqlinjectionmatchset-1475532094686",
+        "input" : {
+          "SqlInjectionMatchSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+          "ChangeToken" : "8a78b648-62d7-8e5a-b499-20f89e7a9250",
+          "Updates" : [ {
+            "Action" : "DELETE",
+            "SqlInjectionMatchTuple" : {
+              "FieldToMatch" : {
+                "Type" : "QUERY_STRING"
+              },
+              "TextTransformation" : "URL_DECODE"
+            }
+          } ]
+        },
+        "output" : {
+          "ChangeToken" : "65ccd73c-3578-a15f-eef7-c1717ff57788"
+        },
+        "title" : "To update a SQL injection match set"
+      } ],
+      "UpdateWebACL" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes an ActivatedRule object in a WebACL with the ID webacl-1472061481310.",
+        "id" : "updatewebacl-1475533627385",
+        "input" : {
+          "WebACLId" : "webacl-1472061481310",
+          "ChangeToken" : "3ded95cb-9080-c004-bffd-5199f730a12a",
+          "Updates" : [ {
+            "Action" : "DELETE",
+            "ActivatedRule" : {
+              "Priority" : 1,
+              "RuleId" : "WAFRule-1-Example",
+              "Action" : {
+                "Type" : "ALLOW"
+              }
+            }
+          } ],
+          "DefaultAction" : {
+            "Type" : "ALLOW"
+          }
+        },
+        "output" : {
+          "ChangeToken" : "37e9b1ef-77aa-a5be-5071-d5630e74c1bf"
+        },
+        "title" : "To update a Web ACL"
+      } ],
+      "UpdateXssMatchSet" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example deletes an XssMatchTuple object (filters) in an XssMatchSet with the ID example1ds3t-46da-4fdb-b8d5-abc321j569j5.",
+        "id" : "updatexssmatchset-1475534098881",
+        "input" : {
+          "XssMatchSetId" : "example1ds3t-46da-4fdb-b8d5-abc321j569j5",
+          "ChangeToken" : "87b15036-ca05-b719-5d63-a8d8e7e26486",
+          "Updates" : [ {
+            "Action" : "DELETE",
+            "XssMatchTuple" : {
+              "FieldToMatch" : {
+                "Type" : "QUERY_STRING"
+              },
+              "TextTransformation" : "URL_DECODE"
+            }
+          } ]
+        },
+        "output" : {
+          "ChangeToken" : "305196de-9790-1661-63b1-b17b30c8f797"
+        },
+        "title" : "To update an XSS match set"
+      } ]
+    },
+    "version" : "1.0"
+  },
+  "exceptionUnmarshallerImpl" : null,
+  "fileHeader" : "/*\n * Copyright 2016-2021 Amazon.com, Inc. or its affiliates. All Rights\n * Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\").\n * You may not use this file except in compliance with the License.\n * A copy of the License is located at\n *\n *  http://aws.amazon.com/apache2.0\n *\n * or in the \"license\" file accompanying this file. This file is distributed\n * on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either\n * express or implied. See the License for the specific language governing\n * permissions and limitations under the License.\n */",
+  "hasWaiters" : false,
+  "sdkBaseResponseFqcn" : "com.amazonaws.AmazonWebServiceResult<com.amazonaws.ResponseMetadata>",
+  "sdkModeledExceptionBaseClassName" : "AWSWAFException",
+  "sdkModeledExceptionBaseFqcn" : "com.amazonaws.services.waf.model.AWSWAFException",
+  "serviceBaseExceptionFqcn" : "com.amazonaws.AmazonServiceException",
+  "transformPackage" : "com.amazonaws.services.waf.model.waf.transform"
+}

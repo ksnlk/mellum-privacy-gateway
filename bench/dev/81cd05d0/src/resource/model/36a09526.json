@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2013-04-01",
+    "endpointPrefix":"route53",
+    "globalEndpoint":"route53.amazonaws.com",
+    "protocol":"rest-xml",
+    "serviceAbbreviation":"Route 53",
+    "serviceFullName":"Amazon Route 53",
+    "serviceId":"Route 53",
+    "signatureVersion":"v4",
+    "uid":"route53-2013-04-01"
+  },
+  "operations":{
+    "ActivateKeySigningKey":{
+      "name":"ActivateKeySigningKey",
+      "http":{
+        "method":"POST",
+        "requestUri":"/2013-04-01/keysigningkey/{HostedZoneId}/{Name}/activate"
+      },
+      "input":{"shape":"ActivateKeySigningKeyRequest"},
+      "output":{"shape":"ActivateKeySigningKeyResponse"},
+      "errors":[
+        {"shape":"ConcurrentModification"},
+        {"shape":"NoSuchKeySigningKey"},
+        {"shape":"InvalidKeySigningKeyStatus"},
+        {"shape":"InvalidSigningStatus"},
+        {"shape":"InvalidKMSArn"}
+      ],

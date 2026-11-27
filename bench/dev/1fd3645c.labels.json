@@ -1,0 +1,820 @@
+{
+ "repo": "1fd3645c",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "code/example/d4186827.py",
+   "line": 12,
+   "start": 14,
+   "end": 34,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "hHhiwFmrXwOoFPHDfI2S"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "example/7488154d.py",
+   "line": 16,
+   "start": 40,
+   "end": 50,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "elutvctess"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "example/7afbbe95.py",
+   "line": 12,
+   "start": 40,
+   "end": 50,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "igqbpesfmz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "example/d3cc277f.py",
+   "line": 20,
+   "start": 40,
+   "end": 50,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "yddrpfhvcr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/77e6984b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.1k664vb816n1.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/77e6984b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "188.81.251.113"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "test/77e6984b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "j.zimmermann@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "test/77e6984b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-replica.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "test/77e6984b.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "kop_unresolved_dell"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/dd4d8c3b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Nico Hartmann"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/dd4d8c3b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben.koch@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/dd4d8c3b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 1728 7197"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/dd4d8c3b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Laura Richter"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/dd4d8c3b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "sofia.krueger [at] quarzo-corp [dot] de"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/dd4d8c3b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE45703658752797028535"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/dd4d8c3b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Eva Lange"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "src/dd4d8c3b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Rosenheimer Str. 44, 94878 Erding"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "src/dd4d8c3b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "188.22.144.61"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/f73573f3.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "98, 57, 86, 74, 66, 65, 66, 110, 79, 109, 55, 79, 87, 106, 90, 65, 121, 83, 110, 75, 102, 106, 86, 70, 90, 87, 70, 105, 76, 52, 100, 77",
+    "b9VJBABnOm7OWjZAySnKfjVFZWFiL4dM"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/f73573f3.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.weber@vantor-corp.de"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/ef39a467.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-replica.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "src/ef39a467.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "6DL3TxzWecUT9zxKbsD4VcCwkuXE038b"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "test/6b647c5f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-api-02.prod.nordwind-internal.net"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "test/6b647c5f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Gartenlukas19!"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "test/6b647c5f.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "mond712"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "test/179f738b.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-cache-05.int.brightloop-internal.net"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "test/179f738b.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_bHTG8FwbBrL1fRZh0ArkjcF6SURVyBjR9sZW"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/0c53155a.py",
+   "line": 24,
+   "whole_line": "    URL_TEMPLATE = '{schema}://{server}/{method}?key={key}'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 31,
+   "whole_line": "RE_AUTH_HASH = re.compile(r\"Authcheck\\.init\\('([a-z_0-9]+)'\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 32,
+   "whole_line": "RE_TOKEN_URL = re.compile(r'location\\.href = \"(.*?)\"\\+addr;')",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 51,
+   "whole_line": "    :param password: \u041f\u0430\u0440\u043e\u043b\u044c \u0412\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0435 (\u0435\u0441\u043b\u0438 \u043f\u0430\u0440\u043e\u043b\u044c \u043d\u0435 \u043f\u0435\u0440\u0435\u0434\u0430\u043d, \u0442\u043e \u0431\u0443\u0434\u0435\u0442",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 55,
+   "whole_line": "    :param token: access_token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 58,
+   "value": "\u0424\u0443\u043d\u043a\u0446\u0438\u044f",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 67,
+   "value": "\u0412\u0435\u0440\u0441\u0438\u044f",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 77,
+   "whole_line": "    :param client_secret: \u0417\u0430\u0449\u0438\u0449\u0435\u043d\u043d\u044b\u0439 \u043a\u043b\u044e\u0447 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u0434\u043b\u044f Client Credentials Flow",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 96,
+   "whole_line": "                 api_version='5.92', app_id=6222115, scope=DEFAULT_USER_SCOPE,",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 141,
+   "value": "\u041f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 144,
+   "value": "\u0412\u043a\u043b\u044e\u0447\u0430\u0435\u0442",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 238,
+   "whole_line": "        :param captcha_key: \u043e\u0442\u0432\u0435\u0442 \u043a\u0430\u043f\u0447\u0438",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 258,
+   "value": "self.password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 272,
+   "whole_line": "                'captcha_key': captcha_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 319,
+   "value": "\u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 464,
+   "whole_line": "            self.token = token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 506,
+   "whole_line": "            self.token = response",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 525,
+   "whole_line": "            self.token = response",
+   "source": "creddata"
+  },
+  {
+   "file": "_/650a6959.py",
+   "line": 603,
+   "whole_line": "        :param captcha_key: \u043e\u0442\u0432\u0435\u0442 \u043a\u0430\u043f\u0447\u0438",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6ad7a7e6.py",
+   "line": 146,
+   "whole_line": "        :param key: \u043e\u0442\u0432\u0435\u0442 \u043a\u0430\u043f\u0447\u0438",
+   "source": "creddata"
+  },
+  {
+   "file": "_/7799b4a5.py",
+   "line": 209,
+   "whole_line": "    :param key: \u043a\u043b\u044e\u0447 \u0438\u0437\u043c\u0435\u043d\u044f\u044e\u0449\u0435\u0433\u043e\u0441\u044f \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u0430",
+   "source": "creddata"
+  },
+  {
+   "file": "example/18a25ef6.py",
+   "line": 12,
+   "whole_line": "    vk_session = vk_api.VkApi(token='your_group_token')",
+   "source": "creddata"
+  },
+  {
+   "file": "example/22a37990.py",
+   "line": 10,
+   "whole_line": "    vk = vk_api.VkApi(token=<\u0421\u0435\u0440\u0432\u0438\u0441\u043d\u044b\u0439 \u043a\u043b\u044e\u0447 \u0434\u043e\u0441\u0442\u0443\u043f\u0430>)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/7441d9f4.py",
+   "line": 11,
+   "whole_line": "GROUP_TOKEN = \"your_group_token\"",
+   "source": "creddata"
+  },
+  {
+   "file": "example/7441d9f4.py",
+   "line": 12,
+   "whole_line": "API_VERSION = \"5.120\"",
+   "source": "creddata"
+  },
+  {
+   "file": "example/7441d9f4.py",
+   "line": 24,
+   "whole_line": "    vk_session = VkApi(token=GROUP_TOKEN, api_version=API_VERSION)",
+   "source": "creddata"
+  },
+  {
+   "file": "example/7488154d.py",
+   "line": 29,
+   "whole_line": "    vk_session = vk_api.VkApi(token='\u0442\u043e\u043a\u0435\u043d \u0441 \u0434\u043e\u0441\u0442\u0443\u043f\u043e\u043c \u043a \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f\u043c \u0438 \u0444\u043e\u0442\u043e')",
+   "source": "creddata"
+  },
+  {
+   "file": "example/7afbbe95.py",
+   "line": 97,
+   "whole_line": "        key='user_id',  # \u0418\u0437\u043c\u0435\u043d\u044f\u044e\u0449\u0438\u0439\u0441\u044f \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440",
+   "source": "creddata"
+  },
+  {
+   "file": "example/7eb88f2b.py",
+   "line": 11,
+   "whole_line": "    key = input(\"Enter captcha code {0}: \".format(captcha.get_url())).strip()",
+   "source": "creddata"
+  },
+  {
+   "file": "example/d3cc277f.py",
+   "line": 10,
+   "whole_line": "    key = input(\"Enter authentication code: \")",
+   "source": "creddata"
+  },
+  {
+   "file": "example/dce24682.py",
+   "line": 10,
+   "whole_line": "    vk_session = vk_api.VkApi(token='bot_api_token')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ffa95f10.py",
+   "line": 20,
+   "whole_line": "        key='user_ids',",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/8661d86a.py",
+   "line": 25,
+   "whole_line": "    def get_all_iter(self, method, max_count, values=None, key='items',",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/8661d86a.py",
+   "line": 42,
+   "whole_line": "        :param key: \u043a\u043b\u044e\u0447 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043d\u0443\u0436\u043d\u043e \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/8661d86a.py",
+   "line": 97,
+   "whole_line": "    def get_all(self, method, max_count, values=None, key='items', limit=None,",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/8661d86a.py",
+   "line": 114,
+   "whole_line": "        return {'count': len(items), key: items}",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/8661d86a.py",
+   "line": 116,
+   "whole_line": "    def get_all_slow_iter(self, method, max_count, values=None, key='items',",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/8661d86a.py",
+   "line": 132,
+   "whole_line": "        :param key: \u043a\u043b\u044e\u0447 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043d\u0443\u0436\u043d\u043e \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/8661d86a.py",
+   "line": 188,
+   "whole_line": "    def get_all_slow(self, method, max_count, values=None, key='items',",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/8661d86a.py",
+   "line": 204,
+   "whole_line": "        return {'count': len(items), key: items}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/77e6984b.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "docs.brightloop-corp.de"
+  },
+  {
+   "file": "test/77e6984b.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.brightloop-corp.de"
+  },
+  {
+   "file": "test/77e6984b.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "test/77e6984b.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "test/77e6984b.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "test/77e6984b.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "test/77e6984b.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "billing@brightloop-corp.de"
+  },
+  {
+   "file": "test/77e6984b.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "ZW4tVVMsZW47cT0wLjk="
+  },
+  {
+   "file": "test/77e6984b.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "4745542f6865616c74687a"
+  },
+  {
+   "file": "test/77e6984b.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "src/dd4d8c3b.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "security@quarzo-corp.de"
+  },
+  {
+   "file": "src/dd4d8c3b.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "privacy@quarzo-corp.de"
+  },
+  {
+   "file": "src/dd4d8c3b.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+44 20 7946 0907"
+  },
+  {
+   "file": "src/dd4d8c3b.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "src/dd4d8c3b.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "src/dd4d8c3b.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "src/dd4d8c3b.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "src/dd4d8c3b.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "other/f73573f3.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "123, 34, 97, 108, 103, 34, 58, 34, 72, 83, 50, 53, 54, 34, 44, 34, 116, 121, 112, 34, 58, 34, 74, 87, 84, 34, 125"
+  },
+  {
+   "file": "other/f73573f3.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "ZW4tVVMsZW47cT0wLjk="
+  },
+  {
+   "file": "other/f73573f3.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "757365722d6167656e743a6375726c2f382e342e30"
+  },
+  {
+   "file": "other/f73573f3.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "other/f73573f3.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@vantor-corp.de"
+  },
+  {
+   "file": "src/ef39a467.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "src/ef39a467.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4.25.19"
+  },
+  {
+   "file": "src/ef39a467.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "dbab53cf00c3aaec4d362516efb6ff07f026c139"
+  },
+  {
+   "file": "src/ef39a467.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "a2a2ac6f-cc4c-4ab8-80fe-88b75e189f24"
+  },
+  {
+   "file": "test/6b647c5f.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Launcher2027"
+  },
+  {
+   "file": "test/6b647c5f.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "importer"
+  },
+  {
+   "file": "test/6b647c5f.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "donner_bonn"
+  },
+  {
+   "file": "test/6b647c5f.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "readonly"
+  },
+  {
+   "file": "test/6b647c5f.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "readonly"
+  },
+  {
+   "file": "test/6b647c5f.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "harmless-golden-2027"
+  },
+  {
+   "file": "test/179f738b.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "0.6.30"
+  },
+  {
+   "file": "test/179f738b.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "0.8.9"
+  },
+  {
+   "file": "test/179f738b.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-Ow6edOB3XyDWS/p7oXpvJEJ6YbDLWiq2md7OhMK9uOt8nwC8dyxv1r7er/hXxtUY16VD0k3GQuGp1dhjg6DwLw=="
+  },
+  {
+   "file": "test/179f738b.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "4.4.3"
+  },
+  {
+   "file": "test/179f738b.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-udP07cFPqeD0NuDDE4lt+66MNaHFlyzvDtj1JDb0ctWclSh1YpimxGdvWiH8P/t00LGjfgQjNRnn/N0xne68nA=="
+  },
+  {
+   "file": "test/179f738b.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "1.16.24"
+  },
+  {
+   "file": "test/179f738b.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-Xyir/FwZTFxHySfEmuCf/03Fg2sguhF2Qq5VodBnPudXw7KZeTrtK/e05OeVhfns6Sc4BSB6o5QdXfx3Zzf3Lg=="
+  }
+ ]
+}

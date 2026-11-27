@@ -1,0 +1,15 @@
+monitoring: atlas.kelpie.net
+database:
+  host: pallas.kelpie.net
+  port: 5432
+queue: falkor.kelpie.net
+backup_target: juno.kelpie.net
+website: kunden.kelpie.net
+payments_api: https://api.datafjord.com/v2
+partner_drop: files.datafjord.de
+allow_sources:
+  - 194.45.63.163
+  - 140.82.114.25
+  - 194.45.237.50
+ntp: 131.188.3.220
+mirrors: [ftp.gnu.org, repo1.maven.org]

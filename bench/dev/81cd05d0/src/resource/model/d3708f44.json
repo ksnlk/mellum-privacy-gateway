@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2014-05-15",
+    "endpointPrefix":"route53domains",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceFullName":"Amazon Route 53 Domains",
+    "serviceId":"Route 53 Domains",
+    "signatureVersion":"v4",
+    "targetPrefix":"Route53Domains_v20140515",
+    "uid":"route53domains-2014-05-15"
+  },
+  "operations":{
+    "AcceptDomainTransferFromAnotherAwsAccount":{
+      "name":"AcceptDomainTransferFromAnotherAwsAccount",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"AcceptDomainTransferFromAnotherAwsAccountRequest"},
+      "output":{"shape":"AcceptDomainTransferFromAnotherAwsAccountResponse"},
+      "errors":[
+        {"shape":"InvalidInput"},
+        {"shape":"OperationLimitExceeded"},
+        {"shape":"DomainLimitExceeded"}
+      ],
+      "documentation":"<p>Accepts the transfer of a domain from another AWS account to the current AWS account. You initiate a transfer between AWS accounts using <a href=\"https://docs.aws.amazon.com/Route53/latest/APIReference/API_domains_TransferDomainToAnotherAwsAccount.html\">TransferDomainToAnotherAwsAccount</a>. </p> <p>Use either <a href=\"https://docs.aws.amazon.com/Route53/latest/APIReference/API_domains_ListOperations.html\">ListOperations</a> or <a href=\"https://docs.aws.amazon.com/Route53/latest/APIReference/API_domains_GetOperationDetail.html\">GetOperationDetail</a> to determine whether the operation succeeded. <a href=\"https://docs.aws.amazon.com/Route53/latest/APIReference/API_domains_GetOperationDetail.html\">GetOperationDetail</a> provides additional information, for example, <code>Domain Transfer from Aws Account 111122223333 has been cancelled</code>. </p>"
+    },

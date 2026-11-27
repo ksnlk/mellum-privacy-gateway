@@ -1,0 +1,19 @@
+# helix payments service
+database:
+  host: crm-db-06.prod.helix-internal.net
+  user: payments
+  password: "москва4627!"
+  password_source: secret/data/helix/payments/prod
+  password_env: CRM_AUTH_TOKEN
+api:
+  key_header: Authorization
+  partner_ident: LOV2nYLVmgVzH0scEAvLYrChi6l8bAOK
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: bcrypt
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 443195930334-z3ep9ys1wdk3rmtk9g1n38q8jiqazoln.apps.googleusercontent.com
+  client_proof: 4baiw82e59wf0ck6k26vx76rcwmj68bt
+  secret_rotated_at: "2024-07-08T00:00:00Z"
+  secret_name: billing-api-token
+pagination:
+  first_cursor: dXNlcjoyMzU2NTpvZmZzZXQ6MTI1

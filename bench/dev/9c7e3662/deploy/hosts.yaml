@@ -1,0 +1,15 @@
+monitoring: tarvos.kelpie.net
+database:
+  host: falkor.kelpie.net
+  port: 5432
+queue: pallas.kelpie.net
+backup_target: hermes.kelpie.net
+website: www.kelpie.net
+payments_api: https://api.mailvault.com/v2
+partner_drop: edi.mailvault.de
+allow_sources:
+  - 194.80.130.164
+  - 192.30.252.153
+  - 194.80.32.27
+ntp: 194.58.200.20
+mirrors: [db.debian.org, repo1.maven.org]

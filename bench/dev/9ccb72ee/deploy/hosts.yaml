@@ -1,0 +1,15 @@
+monitoring: tarvos.nordwind.systems
+database:
+  host: vega.nordwind.systems
+  port: 5432
+queue: juno.nordwind.systems
+backup_target: hermes.nordwind.systems
+website: portal.nordwind.systems
+payments_api: https://api.paycore.com/v2
+partner_drop: files.paycore.de
+allow_sources:
+  - 193.39.246.196
+  - 140.82.112.3
+  - 193.39.113.164
+ntp: 212.18.3.19
+mirrors: [gitlab.freedesktop.org, build.opensuse.org]

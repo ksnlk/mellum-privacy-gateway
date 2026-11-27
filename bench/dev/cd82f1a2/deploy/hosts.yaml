@@ -1,0 +1,15 @@
+monitoring: tarvos.quarzo.net
+database:
+  host: pallas.quarzo.net
+  port: 5432
+queue: vega.quarzo.net
+backup_target: juno.quarzo.net
+website: shop.quarzo.net
+payments_api: https://api.mailvault.com/v2
+partner_drop: edi.mailvault.de
+allow_sources:
+  - 188.85.206.192
+  - 140.82.113.4
+  - 188.85.129.185
+ntp: 162.159.200.1
+mirrors: [registry.terraform.io, vault.centos.org]

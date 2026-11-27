@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://kibana.pinegrid-corp.de/api/v3/invoices?page=2
+Authorization: Basic ZGVwbG95OmNsYXl0b245MzEk
+Cookie: _ga=GA1.2.HH4LOX8FUUO64CHM4X4F003X11; session_id=m2segtuhdfgax7ld8rdgprdhjyxg94i6
+X-Request-Id: 7603c7f1-2d2c-43fb-b856-61843162e2b6
+
+### the docs example, safe to share
+GET https://o450123.ingest.sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

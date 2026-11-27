@@ -1,0 +1,19 @@
+# helix payments service
+database:
+  host: billing-mq-01.int.helix-internal.net
+  user: payments
+  password: "Winterzauber11?"
+  password_source: secret/data/helix/reports/prod
+  password_env: ETL_CLIENT_SECRET
+api:
+  key_header: Authorization
+  partner_ident: ZOMobVFlMQoF53IGR8gd4gPKQLu8yUlO
+  key_file: /etc/vault/tls/private.key
+  signing_alg: argon2id
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 566873409634-bpbzk4g5w1im8xx64jxgg6fmicuxk742.apps.googleusercontent.com
+  client_proof: ina70vcoky0rx8766raim2x8xekh36aw
+  secret_rotated_at: "2026-06-13T00:00:00Z"
+  secret_name: billing-tls
+pagination:
+  first_cursor: aW52b2ljZTozNDMxOTpvZmZzZXQ6NDcz

@@ -1,0 +1,532 @@
+{
+ "repo": "8acff9ab",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "other/d122f722.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-cache-01.corp.pinegrid-internal.net"
+   ]
+  },
+  {
+   "id": 2,
+   "file": "other/d122f722.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Password",
+   "mutation": "synth:split",
+   "forms": [
+    "Baumha",
+    "Baumhafen85!",
+    "fen85!"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "other/d9d8fabd.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "negotiatoryap-prod"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/d9d8fabd.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.177.64.85"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/d9d8fabd.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "SG9mZm1hbm4xOTYyIQ==",
+    "Hoffmann1962!"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/3ebed03e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Anna Schwarz"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/3ebed03e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "m.lange@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/3ebed03e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 5775 4488"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/3ebed03e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.216.99.165"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/3ebed03e.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "sublicense.older.felix32"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/597ba23c.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043e\u0441\u0435\u043d\u044c6441"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/15d51e55.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.iqjvat.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/15d51e55.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Flu\u00dfmax74?"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/15d51e55.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "P0Avb1qPofDjZUIAhngpBnmYNZTcXmsD"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/15d51e55.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "1i1w86pnoiqpyckvepgvbbndheiz813n"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/dea09b86.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.B4A5_ZR-nC00hZpiJ-_I3fq-akQ8yOKK9ufROFdn.YEyEyF-cA1iveCJp1B1FpH-nYVGDmX6C_12g-hdib2x"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/dea09b86.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-api-08.prod.quarzo-internal.net"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "src/394f6125.php",
+   "line": 304,
+   "whole_line": "            foreach ($tmp as $key=>$arg)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/7788b641.php",
+   "line": 162,
+   "whole_line": "        foreach ($this->serviceProviders as $key=>$provider)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/b55401de.php",
+   "line": 205,
+   "whole_line": "        foreach ($managerConfig as $key=>$value)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/2d457af2.php",
+   "line": 314,
+   "whole_line": "        foreach ($input[0] as $key=>$value)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/2d457af2.php",
+   "line": 323,
+   "whole_line": "            foreach ($row as $key=>$value)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/2d457af2.php",
+   "line": 343,
+   "whole_line": "            foreach ($row as $key=>$value)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/client/2d457af2.php",
+   "line": 364,
+   "whole_line": "            foreach ($row as $key=>$value)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/conf/2544d09f.php",
+   "line": 112,
+   "whole_line": "        foreach ($records as $key=>$value)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fbe79962.php",
+   "line": 33,
+   "whole_line": "     * Set PHP ini.settings of key=$key to value=$val.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/fbe79962.php",
+   "line": 50,
+   "whole_line": "     * Restore PHP ini.setting of key=$key to its default value.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/server/13e28ebf.php",
+   "line": 60,
+   "whole_line": "        foreach ($cmds as $key=>$class)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/4c6c9a83.php",
+   "line": 97,
+   "whole_line": "        putenv('KEY=VALUE');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/90e1aff1.php",
+   "line": 21,
+   "whole_line": "        foreach ($factoryClasses as $key=>$factoryClass)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/90e1aff1.php",
+   "line": 33,
+   "whole_line": "        $key = 'Other';",
+   "source": "creddata"
+  },
+  {
+   "file": "test/90e1aff1.php",
+   "line": 56,
+   "whole_line": "        $key = 'Other';",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/a92411fb.php",
+   "line": 29,
+   "whole_line": "     * This variable should contain associative array of key=>value variables. All variables declared here can be used",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/a92411fb.php",
+   "line": 47,
+   "whole_line": "     * This variable should contain associative array of key=>value variables. All variables declared here will be able",
+   "source": "creddata"
+  },
+  {
+   "file": "test/d8d7ed9a.php",
+   "line": 250,
+   "whole_line": "        foreach ($messages as $key=>$message)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/fcad67f5.php",
+   "line": 19,
+   "whole_line": "        foreach ($factoryClasses as $key=>$factoryClass)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/mock/404ee4c8.php",
+   "line": 19,
+   "whole_line": "        foreach ($args as $key=>$arg)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/00b65caf.php",
+   "line": 194,
+   "whole_line": "        foreach ($config as $key=>$value)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/00b65caf.php",
+   "line": 198,
+   "whole_line": "                $config[$key] = $this->getLoop();",
+   "source": "creddata"
+  },
+  {
+   "file": "other/d122f722.py",
+   "source": "synthetic",
+   "line": 13,
+   "value": "3c5b8106050d9d671443abcbee28de71e627c644"
+  },
+  {
+   "file": "other/d122f722.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "${DB_PASSWORD}"
+  },
+  {
+   "file": "other/d122f722.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "other/d9d8fabd.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:321832f0d95d644ae13504daa7e4b18fa23a6191ccdc9664d2238de1bd44c952"
+  },
+  {
+   "file": "other/d9d8fabd.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "49fe4d9c097465e438cb2ba8beac0b0c74e55686"
+  },
+  {
+   "file": "other/d9d8fabd.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "REPLACE_ME"
+  },
+  {
+   "file": "other/d9d8fabd.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "other/d9d8fabd.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "4.0.34"
+  },
+  {
+   "file": "other/3ebed03e.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "192.0.2.37"
+  },
+  {
+   "file": "other/3ebed03e.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "6.0.49"
+  },
+  {
+   "file": "other/3ebed03e.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:bc420ce55f2239098d0a0f43fb39a72ab719a705fc768bddf8e03175f35129f7"
+  },
+  {
+   "file": "other/3ebed03e.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/3ebed03e.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/597ba23c.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "querying-koeln-eu"
+  },
+  {
+   "file": "src/597ba23c.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "dummy80"
+  },
+  {
+   "file": "src/15d51e55.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/quarzo/payments/staging"
+  },
+  {
+   "file": "src/15d51e55.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "AUTH_SECRET_KEY"
+  },
+  {
+   "file": "src/15d51e55.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Authorization"
+  },
+  {
+   "file": "src/15d51e55.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/etc/reports/tls/private.key"
+  },
+  {
+   "file": "src/15d51e55.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "RS256"
+  },
+  {
+   "file": "src/15d51e55.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://github.com/login/oauth/access_token"
+  },
+  {
+   "file": "src/15d51e55.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "998100539941-zatb6k28ncdtcmiskcw19iuf569bgqx5.apps.googleusercontent.com"
+  },
+  {
+   "file": "src/15d51e55.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2026-05-04T00:00:00Z"
+  },
+  {
+   "file": "src/15d51e55.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "payments-oauth-client"
+  },
+  {
+   "file": "src/15d51e55.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "dXNlcjo2ODU0OTpvZmZzZXQ6NDc3"
+  },
+  {
+   "file": "test/dea09b86.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "4.6.10"
+  },
+  {
+   "file": "test/dea09b86.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "b06d1f0b656b9619d4ce4d93386088cb78397875"
+  },
+  {
+   "file": "test/dea09b86.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "P9ZUX34H011DRJJVG29G3U37PG"
+  },
+  {
+   "file": "test/dea09b86.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "login.microsoftonline.com"
+  },
+  {
+   "file": "test/dea09b86.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "CZR8U68BXE8QGUOFVBR99XNBKF"
+  },
+  {
+   "file": "test/dea09b86.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  }
+ ]
+}

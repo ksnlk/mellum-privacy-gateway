@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2018-09-24",
+    "endpointPrefix":"managedblockchain",
+    "jsonVersion":"1.1",
+    "protocol":"rest-json",
+    "serviceAbbreviation":"ManagedBlockchain",
+    "serviceFullName":"Amazon Managed Blockchain",
+    "serviceId":"ManagedBlockchain",
+    "signatureVersion":"v4",
+    "signingName":"managedblockchain",
+    "uid":"managedblockchain-2018-09-24"
+  },
+  "operations":{
+    "CreateMember":{
+      "name":"CreateMember",
+      "http":{
+        "method":"POST",
+        "requestUri":"/networks/{networkId}/members"
+      },
+      "input":{"shape":"CreateMemberInput"},
+      "output":{"shape":"CreateMemberOutput"},
+      "errors":[
+        {"shape":"InvalidRequestException"},
+        {"shape":"AccessDeniedException"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ResourceAlreadyExistsException"},
+        {"shape":"ResourceNotReadyException"},

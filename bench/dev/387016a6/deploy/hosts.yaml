@@ -1,0 +1,15 @@
+monitoring: tarvos.vantor.net
+database:
+  host: vega.vantor.net
+  port: 5432
+queue: pallas.vantor.net
+backup_target: falkor.vantor.net
+website: www.vantor.net
+payments_api: https://api.paycore.com/v2
+partner_drop: files.paycore.de
+allow_sources:
+  - 85.116.25.155
+  - 192.30.252.153
+  - 85.116.134.67
+ntp: 212.18.3.19
+mirrors: [grafana.wikimedia.org, gitlab.gnome.org]

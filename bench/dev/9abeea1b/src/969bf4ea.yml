@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.kelpie.io/app@sha256:15707583e2016a880523a5237ceac41745bceaf9f4de3e01c5cd73b53756d82e
+    environment:
+      - DATABASE_URL=postgres://app:D1$m1$$!@172.20.33.247:5432/app
+      - SENTRY_RELEASE=ed8c39730ba4521560c6b7fcc4bac0b8bde4fae2
+      - API_TOKEN=<YOUR_API_KEY>
+      - BIND_ADDR=localhost
+  worker:
+    image: registry.kelpie.io/worker:6.6.50
+    environment:
+      - QUEUE_PASS=R2FydGVubcO8bmNoZW42OD8=

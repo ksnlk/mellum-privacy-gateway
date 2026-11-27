@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2015-08-04",
+    "endpointPrefix":"firehose",
+    "jsonVersion":"1.1",
+    "protocol":"json",
+    "serviceAbbreviation":"Firehose",
+    "serviceFullName":"Amazon Kinesis Firehose",
+    "serviceId":"Firehose",
+    "signatureVersion":"v4",
+    "targetPrefix":"Firehose_20150804",
+    "uid":"firehose-2015-08-04"
+  },
+  "operations":{
+    "CreateDeliveryStream":{
+      "name":"CreateDeliveryStream",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"CreateDeliveryStreamInput"},
+      "output":{"shape":"CreateDeliveryStreamOutput"},
+      "errors":[
+        {"shape":"InvalidArgumentException"},
+        {"shape":"LimitExceededException"},
+        {"shape":"ResourceInUseException"},
+        {"shape":"InvalidKMSResourceException"}
+      ],

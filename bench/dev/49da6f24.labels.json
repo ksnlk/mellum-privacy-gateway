@@ -1,0 +1,380 @@
+{
+ "repo": "49da6f24",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "other/15626aa5.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-primary.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 2,
+   "file": "other/15626aa5.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "krOQNYVMXnEreLtKDSwttrc7tz2ghv50"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "other/25e8ff98.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "flood118$"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "test/ce19fa8c.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "test/ce19fa8c.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Z3JhZmFuYTpTYWNoc2VuZmXDvHI4OSE=",
+    "grafana:Sachsenfe\u00fcr89!"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "test/ce19fa8c.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "08ab7339nlyn42h3r0f6lvxh3rt38s4j"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/63816c41.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-prod.wuhrupb97ydn.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/63816c41.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Maus#2027"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/63816c41.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "28k51GyuzxIWTJpaCRpZBncPMT8yHShR"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/63816c41.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "tdpng2d2zutixurvo4iuw4v8b6gy7y3y"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/5c78727f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "felix13@gmail.com"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "src/5c78727f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 69 7399 7098"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "src/5c78727f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u0441\u043e\u043b\u043d\u0446\u04355503!"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/5c78727f.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE74858030257448349436"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "test/ffe59727.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "wolf-moritz-silenced80"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/ffe59727.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.brightloop-corp.de"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/70b48bb7.py",
+   "line": 15,
+   "value": "Enter API HASH here: ",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/a2c38fa7.py",
+   "line": 21,
+   "value": "os.environ.get(",
+   "source": "creddata"
+  },
+  {
+   "file": "init/5626fd6f.py",
+   "line": 118,
+   "value": "os.environ.get(",
+   "source": "creddata"
+  },
+  {
+   "file": "other/15626aa5.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "s3.amazonaws.com"
+  },
+  {
+   "file": "other/15626aa5.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "8.12.49"
+  },
+  {
+   "file": "other/15626aa5.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "e87ecd716e2f2abbb752cad861faa6d2a131a233"
+  },
+  {
+   "file": "other/15626aa5.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "3e52b490-bfb2-437b-8ef3-bcb3e92cab53"
+  },
+  {
+   "file": "other/25e8ff98.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "adjectival_fortuna"
+  },
+  {
+   "file": "other/25e8ff98.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "pointer-wein-prod"
+  },
+  {
+   "file": "test/ce19fa8c.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "JJZB3D7MJSTL1SRIQ7KGLHY8FX"
+  },
+  {
+   "file": "test/ce19fa8c.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "98e8cfe9-c762-4950-b2dc-79d4c6ea387f"
+  },
+  {
+   "file": "test/ce19fa8c.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sentry.io"
+  },
+  {
+   "file": "test/ce19fa8c.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "other/63816c41.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/nordwind/ledger/prod"
+  },
+  {
+   "file": "other/63816c41.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "LEDGER_API_KEY"
+  },
+  {
+   "file": "other/63816c41.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Authorization"
+  },
+  {
+   "file": "other/63816c41.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "other/63816c41.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "HS256"
+  },
+  {
+   "file": "other/63816c41.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "other/63816c41.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "152367924944-p3uzkb24kyv28c2rnasmjbsa3amh0fgv.apps.googleusercontent.com"
+  },
+  {
+   "file": "other/63816c41.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2024-08-14T00:00:00Z"
+  },
+  {
+   "file": "other/63816c41.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "billing-oauth-client"
+  },
+  {
+   "file": "other/63816c41.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "dXNlcjo3OTE1NTpvZmZzZXQ6NDIy"
+  },
+  {
+   "file": "src/5c78727f.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "registry.npmjs.org"
+  },
+  {
+   "file": "src/5c78727f.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "user@example.com"
+  },
+  {
+   "file": "src/5c78727f.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "${DB_PASSWORD}"
+  },
+  {
+   "file": "test/ffe59727.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIaoBbmJbcC2L+okm+KfwSL7bQICncNEV/mDf+ikk/ChC"
+  },
+  {
+   "file": "test/ffe59727.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "205f6097d19daa8c76b4a604d93240f4617df51935292a39552f8317d29827e4"
+  },
+  {
+   "file": "test/ffe59727.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/ffe59727.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  }
+ ]
+}

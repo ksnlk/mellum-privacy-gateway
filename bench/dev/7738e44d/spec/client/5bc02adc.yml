@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://owner-api.teslamotors.com/api/1/vehicles
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      # demo box login still d369fe041cc5e762c6ac7b69e87be6baef1e1afe2b42cc24f68aa554e89b8c24, rotate it
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Mon, 15 Dec 2014 03:28:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '446'
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"4a35974adbecef7554d775e098548913"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 59523c1d2611a93fa82e277ae4d97e87
+      X-Runtime:
+      - '0.289093'
+    body:
+      encoding: UTF-8
+      string: '{"response":[{"color":null,"display_name":"Nikola","id":1514029006966957156,"option_codes":"MS01,RENA,TM00,DRLH,PF00,BT85,PBCW,RFPO,WT19,IBMB,IDPB,TR00,SU01,SC01,TP01,AU01,CH00,HP00,PA00,PS00,AD02,X020,X025,X001,X003,X007,X011,X013,COUS","vehicle_id":490215852,"vin":"5YJSA1CN5CFP01657","tokens":["341c34e19adce1e7","a7f41f6aab168ab8"],"state":"online","remote_start_enabled":true,"calendar_enabled":true,"notifications_enabled":true}],"count":1}'
+    http_version: 
+  recorded_at: Mon, 15 Dec 2014 03:28:30 GMT
+recorded_with: VCR 2.9.3

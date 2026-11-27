@@ -1,0 +1,15 @@
+monitoring: pallas.pinegrid.net
+database:
+  host: nimbus.pinegrid.net
+  port: 5432
+queue: vega.pinegrid.net
+backup_target: atlas.pinegrid.net
+website: shop.pinegrid.net
+payments_api: https://api.paycore.com/v2
+partner_drop: files.paycore.de
+allow_sources:
+  - 85.225.79.198
+  - 185.199.108.153
+  - 85.225.151.141
+ntp: 212.18.3.19
+mirrors: [jenkins.debian.net, gitlab.freedesktop.org]

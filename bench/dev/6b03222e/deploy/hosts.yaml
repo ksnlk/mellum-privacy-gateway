@@ -1,0 +1,15 @@
+monitoring: atlas.quarzo.systems
+database:
+  host: nimbus.quarzo.systems
+  port: 5432
+queue: pallas.quarzo.systems
+backup_target: kestrel.quarzo.systems
+website: shop.quarzo.systems
+payments_api: https://api.logistik-nord.com/v2
+partner_drop: files.logistik-nord.de
+allow_sources:
+  - 91.103.247.179
+  - 192.30.252.153
+  - 91.116.89.148
+ntp: 194.58.200.20
+mirrors: [jenkins.debian.net, kafka.apache.org]

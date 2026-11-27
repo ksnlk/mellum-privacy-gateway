@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://billing-replica.nordwind.cloud/api/v3/invoices?page=2
+Authorization: Basic Z3JhZmFuYTptYWluejQ1Mw==
+Cookie: _ga=GA1.2.4YP1FYBHLC3PV7AFHFFGB66EF2; session_id=xmyc1ga3pgj3d5aa2if0h5l23n1re1xb
+X-Request-Id: 052ff021-5fed-4cca-b9e7-25ec99b6911f
+
+### the docs example, safe to share
+GET https://storage.googleapis.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

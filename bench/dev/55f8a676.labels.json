@@ -1,0 +1,413 @@
+{
+ "repo": "55f8a676",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "tool/c00bac3c.md",
+   "line": 60,
+   "start": 21,
+   "end": 37,
+   "category": "API",
+   "mutation": "rename",
+   "forms": [
+    "//bicja4.rux/dj)"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "other/e4b67da2.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "infeedbaltimore-prod"
+   ]
+  },
+  {
+   "id": 3,
+   "file": "src/b9bde90a.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.x9zlQowjaNaMP7IHJogG8jmCTmzA2To5IZT2g4MF.7Tl4KfF6YTg83QPijezV-gHUTNMMAKiM_XEFz-w6nA4"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "src/b9bde90a.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-api-03.corp.helix-internal.net"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/3d59ca41.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-mq-04.int.quarzo-internal.net"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/3d59ca41.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y2k60L3QtdCx0L4yNjM5IQ==",
+    "ci:\u043d\u0435\u0431\u043e2639!"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/3d59ca41.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "9anwwe2hu2g10nz8sru330nb9fwtfkel"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/558cd767.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "118, 48, 105, 54, 112, 66, 80, 68, 51, 73, 107, 78, 68, 121, 102, 102, 105, 108, 114, 78, 76, 106, 57, 116, 73, 110, 89, 103, 110, 87, 83, 70",
+    "v0i6pBPD3IkNDyffilrNLj9tInYgnWSF"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/558cd767.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "c.koch@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/99dbd193.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-cache-02.prod.pinegrid-internal.net"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/99dbd193.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Hamburg&2026"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/99dbd193.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Load1993?"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/4842151a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "jenkins.brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/4842151a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "46.173.66.152"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/4842151a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "e.wagner@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/4842151a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-replica.brightloop.cloud"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/4842151a.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "stern.fussball.trimming"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "other/e4b67da2.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Aenean2022"
+  },
+  {
+   "file": "other/e4b67da2.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "accurately31"
+  },
+  {
+   "file": "src/b9bde90a.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "2.25.34"
+  },
+  {
+   "file": "src/b9bde90a.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "d16a2a21a20d847ed5e16eff117613c65b4c7650"
+  },
+  {
+   "file": "src/b9bde90a.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "NKRFDPOEMC2XH3S3O7ZJEWO9Z7"
+  },
+  {
+   "file": "src/b9bde90a.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "src/b9bde90a.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "S1MLFO6DETGIVT2W3CIYP2828Z"
+  },
+  {
+   "file": "src/b9bde90a.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "src/3d59ca41.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "DINDY9SU7COM6LZ0PZCV7BN04Y"
+  },
+  {
+   "file": "src/3d59ca41.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "289ca0ed-6103-4e7c-b77e-c430fabd6011"
+  },
+  {
+   "file": "src/3d59ca41.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "src/3d59ca41.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "src/558cd767.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "123, 34, 97, 108, 103, 34, 58, 34, 72, 83, 50, 53, 54, 34, 44, 34, 116, 121, 112, 34, 58, 34, 74, 87, 84, 34, 125"
+  },
+  {
+   "file": "src/558cd767.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+  },
+  {
+   "file": "src/558cd767.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "6170706c69636174696f6e2f6a736f6e"
+  },
+  {
+   "file": "src/558cd767.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "src/558cd767.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "hello@quarzo-corp.de"
+  },
+  {
+   "file": "_/99dbd193.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "herbst_ethan"
+  },
+  {
+   "file": "_/99dbd193.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "readonly"
+  },
+  {
+   "file": "_/99dbd193.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "birke76"
+  },
+  {
+   "file": "_/99dbd193.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "svc_reports"
+  },
+  {
+   "file": "_/99dbd193.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "readonly"
+  },
+  {
+   "file": "_/99dbd193.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "clearly_celery"
+  },
+  {
+   "file": "other/4842151a.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "help.brightloop-corp.de"
+  },
+  {
+   "file": "other/4842151a.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "careers.brightloop-corp.de"
+  },
+  {
+   "file": "other/4842151a.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "other/4842151a.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "other/4842151a.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "other/4842151a.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "other/4842151a.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "press@brightloop-corp.de"
+  },
+  {
+   "file": "other/4842151a.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "aGVsbG9fd29ybGRfdGVzdA=="
+  },
+  {
+   "file": "other/4842151a.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "656e2d55532c656e3b713d302e39"
+  },
+  {
+   "file": "other/4842151a.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "management.azure.com"
+  }
+ ]
+}

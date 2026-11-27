@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: nordwind-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "c312dc4"
+type: Opaque
+data:
+  DB_PASSWORD: YXJjaGVyLXBhdC1oYW1idXJnLXBhdGNoZXI=
+  STRIPE_KEY: c2tfbGl2ZV9XYzc5cGk4TlV1YldXS0dyTjNkUU9VejE=
+  ca.crt.sha256: f9e54f87081c1c0f41d0d075334f38f3deac22ebac173156ed798023fb977531
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nordwind-payments-config
+data:
+  DB_HOST: "billing-prod.xr49cmowjm4p.eu-central-1.rds.amazonaws.com"
+  SENTRY_HOST: "cdn.jsdelivr.net"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

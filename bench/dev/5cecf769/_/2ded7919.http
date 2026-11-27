@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://etl-prod.ugxhu7c0y6lq.eu-central-1.rds.amazonaws.com/api/v3/invoices?page=2
+Authorization: Basic ZGVwbG95OtGA0LXQutCwMTk4NCE=
+Cookie: _ga=GA1.2.W8Z7KO7ID6M9HXJB46O43Z1HRO; session_id=3ow1phdt8kkcc794s5rbit9yxcvgy716
+X-Request-Id: 6dc2fec0-62fd-4f69-bb2d-693eb11b8af0
+
+### the docs example, safe to share
+GET https://api.stripe.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

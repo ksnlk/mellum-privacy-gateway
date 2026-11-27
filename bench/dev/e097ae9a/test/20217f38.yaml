@@ -1,0 +1,19 @@
+# helix payments service
+database:
+  host: etl.yoqh7q.ng.0001.euc1.cache.amazonaws.com
+  user: payments
+  password: "Fußballfortuna23?"
+  password_source: secret/data/helix/ledger/prod
+  password_env: PAYMENTS_SECRET_KEY
+api:
+  key_header: X-Api-Key
+  partner_ident: vT1y1JnMU56wtpzc7LX2EykqZmvAcONq
+  key_file: /etc/crm/tls/private.key
+  signing_alg: HS256
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 848973326500-d03ta0ya27zelvuryk26h5b4jpikef6h.apps.googleusercontent.com
+  client_proof: kefcgky7kstqg8ek24zoy602efo5rk7s
+  secret_rotated_at: "2026-07-13T00:00:00Z"
+  secret_name: etl-tls
+pagination:
+  first_cursor: dXNlcjoyODcwOm9mZnNldDozMw==

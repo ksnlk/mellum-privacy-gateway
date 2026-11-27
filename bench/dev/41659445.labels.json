@@ -1,0 +1,2266 @@
+{
+ "repo": "41659445",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/b3356305.md",
+   "line": 94,
+   "start": 16,
+   "end": 48,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "GUBDWSOYBHXGSHFJPHBHVUQTGAXHQUIJ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/b3356305.md",
+   "line": 447,
+   "start": 27,
+   "end": 59,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "DVZQGIVONABPYDMOQFNAIOWZAWHYIPES"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "src/util/91fd135b.ts",
+   "line": 169,
+   "start": 49,
+   "end": 65,
+   "category": "OTP / 2FA Secret:Secret",
+   "mutation": "comment",
+   "forms": [
+    "SCZNP4ADRBZV8CUV"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/7d58e4a7.js",
+   "line": 5,
+   "start": 16,
+   "end": 53,
+   "category": "Secret",
+   "mutation": "split",
+   "forms": [
+    "VZCMI",
+    "QUWYPQASZFVWAFFUFLJWUQRDYIA",
+    "VZCMIQUWYPQASZFVWAFFUFLJWUQRDYIA"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/c7cb0c45.js",
+   "line": 8,
+   "start": 23,
+   "end": 62,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "jzeq tyi2 cm3w w9ii v3yk 2uzr dale hrpk"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "test/c7cb0c45.js",
+   "line": 19,
+   "start": 20,
+   "end": 36,
+   "category": "OTP / 2FA Secret:Secret",
+   "mutation": "none",
+   "forms": [
+    "ACT46XLXX1HAO2YH"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "test/sample/074dc7a7.ts",
+   "line": 8,
+   "start": 16,
+   "end": 48,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "none",
+   "forms": [
+    "LGTS8WZEC0IG6N4MJH4HU7KDTIYIX97D"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/sample/074dc7a7.ts",
+   "line": 13,
+   "start": 16,
+   "end": 48,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "none",
+   "forms": [
+    "VDDWBYDXMP2HY5RYE1KISFOWVDFNWX0G"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/sample/074dc7a7.ts",
+   "line": 18,
+   "start": 26,
+   "end": 58,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "rename",
+   "forms": [
+    "CP7G3NBBBMGQ40WKPNQBB9SPGGNIPNGT"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "test/sample/074dc7a7.ts",
+   "line": 23,
+   "start": 21,
+   "end": 53,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "rename",
+   "forms": [
+    "RDONIHPAAL3WR1RLKFAJM9PZRSGDT1SH"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "test/sample/074dc7a7.ts",
+   "line": 28,
+   "start": 48,
+   "end": 80,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "comment",
+   "forms": [
+    "KC6PI2BZC03FPTEXYPOPR6ZFGVMSX5NB"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "test/sample/074dc7a7.ts",
+   "line": 33,
+   "start": 16,
+   "end": 48,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "none",
+   "forms": [
+    "UV3L2ZMJVDZP4Q2ANYMILQHPDL1A7XWZ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "test/sample/074dc7a7.ts",
+   "line": 38,
+   "start": 16,
+   "end": 48,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "none",
+   "forms": [
+    "E8WKVNUZK2VEAOJECUNBCH8BQAWNAJWC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "test/sample/074dc7a7.ts",
+   "line": 44,
+   "start": 11,
+   "end": 43,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "rename",
+   "forms": [
+    "E09UKIUJZAHK43LBTA2IWFYDZL7LINDE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "test/sample/074dc7a7.ts",
+   "line": 68,
+   "start": 31,
+   "end": 63,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "comment",
+   "forms": [
+    "COKT9WTVU8PC3E1GYH5CS1CVBWMSJ71E"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "test/sample/074dc7a7.ts",
+   "line": 74,
+   "start": 13,
+   "end": 45,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "none",
+   "forms": [
+    "MAIE8TXVP2TC3V2FCQ5GF3XSODKDK63R"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 17,
+   "file": "test/sample/074dc7a7.ts",
+   "line": 82,
+   "start": 47,
+   "end": 79,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "comment",
+   "forms": [
+    "HUEWAJIFYX7OL2TRT2AYCCORMCORCK1V"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 18,
+   "file": "test/sample/18278ad7.ts",
+   "line": 10,
+   "start": 16,
+   "end": 37,
+   "category": "Password:Secret",
+   "mutation": "stack",
+   "forms": [
+    "g5kr0mu8",
+    "5u2ac49m",
+    "g5kr0mu85u2ac49m"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 19,
+   "file": "test/sample/18278ad7.ts",
+   "line": 18,
+   "start": 13,
+   "end": 29,
+   "category": "Password:Secret",
+   "mutation": "none",
+   "forms": [
+    "u4gk3dc76y4br40d"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 20,
+   "file": "test/sample/18278ad7.ts",
+   "line": 26,
+   "start": 28,
+   "end": 44,
+   "category": "Password:Secret",
+   "mutation": "stack",
+   "forms": [
+    "c7jx1ng08z9gh71n"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 21,
+   "file": "test/sample/18278ad7.ts",
+   "line": 34,
+   "start": 13,
+   "end": 29,
+   "category": "Password:Secret",
+   "mutation": "none",
+   "forms": [
+    "i6zk3eh97f7ay80j"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 22,
+   "file": "test/sample/bf2cd4b4.ts",
+   "line": 9,
+   "start": 18,
+   "end": 34,
+   "category": "Password:Secret",
+   "mutation": "rename",
+   "forms": [
+    "u6pm6jl35r8it10y"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 23,
+   "file": "test/sample/bf2cd4b4.ts",
+   "line": 15,
+   "start": 18,
+   "end": 34,
+   "category": "Password:Secret",
+   "mutation": "rename",
+   "forms": [
+    "n0an4fi44w2oj96s"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 24,
+   "file": "test/sample/bf2cd4b4.ts",
+   "line": 21,
+   "start": 13,
+   "end": 29,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "89oq24rn32e75fnm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 25,
+   "file": "test/sample/bf2cd4b4.ts",
+   "line": 28,
+   "start": 13,
+   "end": 29,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "p7172f9cu1oxtjcb"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 26,
+   "file": "test/sample/bf2cd4b4.ts",
+   "line": 34,
+   "start": 52,
+   "end": 68,
+   "category": "Secret",
+   "mutation": "comment",
+   "forms": [
+    "6p6837z77yx2pg7c"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 27,
+   "file": "test/src/5398b006.js",
+   "line": 201,
+   "start": 15,
+   "end": 47,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "none",
+   "forms": [
+    "LSIV2VRKV5VT2H0CIF8EO4XLTZRWI28S"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 28,
+   "file": "test/src/5398b006.js",
+   "line": 206,
+   "start": 15,
+   "end": 47,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "none",
+   "forms": [
+    "JXPR4FKKE5ZN0B5PZO6QG4EINNRQA94V"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 29,
+   "file": "test/src/5398b006.js",
+   "line": 211,
+   "start": 21,
+   "end": 65,
+   "category": "Secret:OTP / 2FA Secret",
+   "mutation": "stack",
+   "forms": [
+    "S0lTSVVYWkVHWDlEUjlaTlo0RkZST1dYSlhDR1FEMVI=",
+    "KISIUXZEGX9DR9ZNZ4FFROWXJXCGQD1R"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 30,
+   "file": "test/src/b2f74201.ts",
+   "line": 16,
+   "start": 43,
+   "end": 59,
+   "category": "Password:Secret",
+   "mutation": "comment",
+   "forms": [
+    "c9ul4ii61c2dn25x"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 31,
+   "file": "other/2c5e3be7.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "a29lbG5fZXh0ZW5zaWJsZV9zYWNoc2Vu",
+    "koeln_extensible_sachsen"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "other/2c5e3be7.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9rbUFrYnhFcmFrV3Rsc2l3M283em56NGM=",
+    "sk_live_kmAkbxErakWtlsiw3o7znz4c"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "other/2c5e3be7.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-prod.qek0v6r8hiom.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "src/daca06e9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-primary.acme.cloud"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "src/daca06e9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "91.68.74.197"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "src/daca06e9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lina63@gmail.com"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "src/daca06e9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports.v3fj98.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "src/daca06e9.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "sensitive-keeper-fruehling"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "_/9f15cb47.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_ke1HQdyRONGtfKeJdrdnGifO"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "_/9f15cb47.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "wbvMS3NPPgMEeGuZSxmQdyzrIB3esG03"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "_/9f15cb47.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "NWdsYjljcWtpeDQ0MHQ3OGZsbW10YngyYWVtNno5eWg=",
+    "5glb9cqkix440t78flmmtbx2aem6z9yh"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "test/60513920.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "V@r1@t10n69"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "other/06507521.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Sofia Braun"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "other/06507521.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "b.schmidt@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "other/06507521.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 8951 7368"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "other/06507521.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jan Becker"
+   ]
+  },
+  {
+   "id": 47,
+   "file": "other/06507521.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "noah.zimmermann [at] quarzo-corp [dot] de"
+   ]
+  },
+  {
+   "id": 48,
+   "file": "other/06507521.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE05970614255643088699"
+   ]
+  },
+  {
+   "id": 49,
+   "file": "other/06507521.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jonas Hoffmann"
+   ]
+  },
+  {
+   "id": 50,
+   "file": "other/06507521.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Bahnhofstra\u00dfe 46, 38202 Augsburg"
+   ]
+  },
+  {
+   "id": 51,
+   "file": "other/06507521.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "167.127.76.206"
+   ]
+  },
+  {
+   "id": 52,
+   "file": "other/3afec572.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "64343235323939383532333965346463613462373763653330643230623264663634376432616330616666303864383135386162323938623333373937333235",
+    "d42529985239e4dca4b77ce30d20b2df647d2ac0aff08d8158ab298b33797325"
+   ]
+  },
+  {
+   "id": 53,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.pinegrid.net"
+   ]
+  },
+  {
+   "id": 54,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.pinegrid.net"
+   ]
+  },
+  {
+   "id": 55,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.pinegrid.net"
+   ]
+  },
+  {
+   "id": 56,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.225.79.0/24"
+   ]
+  },
+  {
+   "id": 57,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.225.79.51"
+   ]
+  },
+  {
+   "id": 58,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.pinegrid.net"
+   ]
+  },
+  {
+   "id": 59,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.pinegrid.net"
+   ]
+  },
+  {
+   "id": 60,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.pinegrid.net"
+   ]
+  },
+  {
+   "id": 61,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.pinegrid.net"
+   ]
+  },
+  {
+   "id": 62,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.pinegrid.net"
+   ]
+  },
+  {
+   "id": 63,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.225.79.198"
+   ]
+  },
+  {
+   "id": 64,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Anna Zimmermann"
+   ]
+  },
+  {
+   "id": 65,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "anna.zimmermann@t-online.de"
+   ]
+  },
+  {
+   "id": 66,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 171 6665666"
+   ]
+  },
+  {
+   "id": 67,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Jonas Fischer"
+   ]
+  },
+  {
+   "id": 68,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "jonas.fischer@t-online.de"
+   ]
+  },
+  {
+   "id": 69,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 5076834"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/24f3148d.md",
+   "line": 46,
+   "whole_line": "const token = await authenticator.generate(secret);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/36d43f8a.md",
+   "line": 104,
+   "whole_line": "const token = hotpToken(YOUR_SECRET, 0, hotpOptions({ createDigest }));",
+   "source": "creddata"
+  },
+  {
+   "file": "_/36d43f8a.md",
+   "line": 105,
+   "whole_line": "const token = totpToken(YOUR_SECRET, totpOptions({ createDigest }));",
+   "source": "creddata"
+  },
+  {
+   "file": "_/36d43f8a.md",
+   "line": 106,
+   "whole_line": "const token = authenticatorToken(",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 96,
+   "whole_line": "// const secret = authenticator.generateSecret();",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 124,
+   "whole_line": "const token = hotp.generate(secret, counter);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 125,
+   "whole_line": "const isValid = hotp.check(token, secret, counter);",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 126,
+   "whole_line": "const isValid = hotp.verify({ token, secret, counter });",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 237,
+   "whole_line": "| createHmacKey | function | Formats the secret into a HMAC key, applying transformations (like padding) where needed.                                       |",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 354,
+   "whole_line": "const secret = authenticator.generateSecret(); // base32 encoded hex secret key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/b3356305.md",
+   "line": 483,
+   "value": "otplib",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/efff9305",
+   "line": 1,
+   "whole_line": "//registry.npmjs.org/:_authToken=${NPM_TOKEN}",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 93,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 127,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 207,
+   "whole_line": ">(secret: SecretKey, options: Readonly<T>): string {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 262,
+   "whole_line": ">(token: string, secret: SecretKey, options: Readonly<T>): boolean {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 282,
+   "whole_line": "  token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 283,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 315,
+   "whole_line": "  token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 316,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 340,
+   "whole_line": " * The start of a new token: `timeUsed() === 0`",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 352,
+   "whole_line": " * The start of a new token: `timeRemaining() === step`",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 370,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 408,
+   "whole_line": "  public generate(secret: SecretKey): string {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 415,
+   "whole_line": "  public checkDelta(token: string, secret: SecretKey): number | null {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 428,
+   "whole_line": "  public check(token: string, secret: SecretKey): boolean {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 436,
+   "whole_line": "  public verify(opts: { token: string; secret: SecretKey }): boolean {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/0f0b2402.ts",
+   "line": 465,
+   "whole_line": "    secret: SecretKey",
+   "source": "creddata"
+  },
+  {
+   "file": "src/11c0c356.ts",
+   "line": 15,
+   "whole_line": "  secret: Base32SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/11c0c356.ts",
+   "line": 26,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1b313185.ts",
+   "line": 22,
+   "whole_line": "  token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1b313185.ts",
+   "line": 58,
+   "whole_line": "  token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1b313185.ts",
+   "line": 64,
+   "whole_line": "  token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1b313185.ts",
+   "line": 79,
+   "whole_line": "type totpToken = (secret: string, options: TotpOptionsInterface) => string;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1b313185.ts",
+   "line": 90,
+   "whole_line": "  check(token: string, secret: string, counter: number): boolean;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1b313185.ts",
+   "line": 102,
+   "whole_line": "  check(token: string, secret: string): boolean;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1b313185.ts",
+   "line": 103,
+   "whole_line": "  checkDelta(token: string, secret: string): number | null;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1b313185.ts",
+   "line": 113,
+   "whole_line": "  check(token: string, secret: string): boolean;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1b313185.ts",
+   "line": 114,
+   "whole_line": "  checkDelta(token: string, secret: string): number | null;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/1b313185.ts",
+   "line": 119,
+   "whole_line": "  keyuri(user: string, service: string, secret: string): string;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/46250174.ts",
+   "line": 26,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/46250174.ts",
+   "line": 46,
+   "whole_line": ">(secret: SecretKey, counter: number, options: Readonly<T>): Promise<string> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/46250174.ts",
+   "line": 57,
+   "whole_line": "  token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/46250174.ts",
+   "line": 58,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/46250174.ts",
+   "line": 80,
+   "whole_line": "  public async generate(secret: SecretKey, counter: number): Promise<string> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/46250174.ts",
+   "line": 85,
+   "whole_line": "    token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/46250174.ts",
+   "line": 86,
+   "whole_line": "    secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/46250174.ts",
+   "line": 93,
+   "whole_line": "    token: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/46250174.ts",
+   "line": 94,
+   "whole_line": "    secret: SecretKey;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/46250174.ts",
+   "line": 103,
+   "whole_line": "    secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/581f4cb0.js",
+   "line": 20,
+   "whole_line": "        <noscript key=\"noscript\" id=\"gatsby-noscript\">",
+   "source": "creddata"
+  },
+  {
+   "file": "src/581f4cb0.js",
+   "line": 24,
+   "whole_line": "          key={`body`}",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9620730d.ts",
+   "line": 27,
+   "whole_line": ">(secret: Base32SecretKey, options: Readonly<T>): Promise<HexString> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9620730d.ts",
+   "line": 37,
+   "whole_line": ">(secret: Base32SecretKey, options: Readonly<T>): Promise<string> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9620730d.ts",
+   "line": 48,
+   "whole_line": "  token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9620730d.ts",
+   "line": 49,
+   "whole_line": "  secret: Base32SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9620730d.ts",
+   "line": 62,
+   "whole_line": "  const key = await options.createRandomBytes(numberOfBytes, options.encoding);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9620730d.ts",
+   "line": 80,
+   "whole_line": "  public async generate(secret: SecretKey): Promise<string> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9620730d.ts",
+   "line": 85,
+   "whole_line": "    token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9620730d.ts",
+   "line": 86,
+   "whole_line": "    secret: SecretKey",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9620730d.ts",
+   "line": 91,
+   "whole_line": "  public async encode(secret: SecretKey): Promise<Base32SecretKey> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9620730d.ts",
+   "line": 95,
+   "whole_line": "  public async decode(secret: Base32SecretKey): Promise<SecretKey> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 28,
+   "whole_line": "   * Formats the secret into a HMAC key, applying transformations (like padding) where needed",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 103,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 166,
+   "whole_line": "  const token = binary % Math.pow(10, digits);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 175,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 191,
+   "whole_line": " * Generates a HMAC-based One-time Token (HOTP)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 207,
+   "whole_line": ">(secret: SecretKey, counter: number, options: Readonly<T>): string {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 223,
+   "whole_line": "  token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 224,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 245,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 284,
+   "whole_line": "  public generate(secret: SecretKey, counter: number): string {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 291,
+   "whole_line": "  public check(token: string, secret: SecretKey, counter: number): boolean {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 299,
+   "whole_line": "    token: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 300,
+   "whole_line": "    secret: SecretKey;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/9b8a5f24.ts",
+   "line": 316,
+   "whole_line": "    secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 29,
+   "whole_line": ">(secret: SecretKey, options: Readonly<T>): Promise<HexString> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 39,
+   "whole_line": ">(secret: SecretKey, options: Readonly<T>): Promise<string> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 49,
+   "whole_line": ">(token: string, secret: SecretKey, options: Readonly<T>): Promise<boolean> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 61,
+   "whole_line": "  token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 62,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 94,
+   "whole_line": "  token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 95,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 136,
+   "whole_line": "  public async generate(secret: SecretKey): Promise<string> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 141,
+   "whole_line": "    token: string,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 142,
+   "whole_line": "    secret: SecretKey",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 147,
+   "whole_line": "  public async check(token: string, secret: SecretKey): Promise<boolean> {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 153,
+   "whole_line": "    token: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 154,
+   "whole_line": "    secret: SecretKey;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/d4a2a492.ts",
+   "line": 172,
+   "whole_line": "    secret: SecretKey",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e1e2fdf9.jsx",
+   "line": 7,
+   "whole_line": "const Pass = props => <span className={styles.pass}>{props.value}</span>;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/e1e2fdf9.jsx",
+   "line": 62,
+   "whole_line": "          <Message delta={delta} token={token} />",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eefd3209.ts",
+   "line": 28,
+   "whole_line": "  (secret: SecretKey, encoding: KeyEncodings): T;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eefd3209.ts",
+   "line": 132,
+   "whole_line": "  secret: SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eefd3209.ts",
+   "line": 150,
+   "whole_line": "  secret: Base32SecretKey,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eefd3209.ts",
+   "line": 179,
+   "whole_line": " * tl;dr: Authenticator = TOTP + Base32 Secret",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eefd3209.ts",
+   "line": 190,
+   "whole_line": ">(secret: Base32SecretKey, options: Readonly<T>): string {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eefd3209.ts",
+   "line": 203,
+   "whole_line": ">(token: string, secret: Base32SecretKey, options: Readonly<T>): number | null {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eefd3209.ts",
+   "line": 237,
+   "whole_line": "  public generate(secret: Base32SecretKey): string {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eefd3209.ts",
+   "line": 244,
+   "whole_line": "  public checkDelta(token: string, secret: Base32SecretKey): number | null {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eefd3209.ts",
+   "line": 251,
+   "whole_line": "  public encode(secret: SecretKey): Base32SecretKey {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/eefd3209.ts",
+   "line": 258,
+   "whole_line": "  public decode(secret: Base32SecretKey): SecretKey {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/secret/ea8c6e4c.jsx",
+   "line": 3,
+   "whole_line": "const DEMO_SECRET = 'otplib:demo:secret';",
+   "source": "creddata"
+  },
+  {
+   "file": "src/secret/ea8c6e4c.jsx",
+   "line": 8,
+   "whole_line": "  generateSecret: noop",
+   "source": "creddata"
+  },
+  {
+   "file": "src/secret/ea8c6e4c.jsx",
+   "line": 13,
+   "whole_line": "const SecretStore = props => {",
+   "source": "creddata"
+  },
+  {
+   "file": "src/secret/ea8c6e4c.jsx",
+   "line": 19,
+   "whole_line": "    const newSecret = window.otplib.authenticator.generateSecret();",
+   "source": "creddata"
+  },
+  {
+   "file": "src/secret/ea8c6e4c.jsx",
+   "line": 25,
+   "whole_line": "    const savedSecret = window.localStorage.getItem(DEMO_SECRET);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/91fd135b.ts",
+   "line": 4,
+   "whole_line": "export type SecretKey = string;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/91fd135b.ts",
+   "line": 16,
+   "whole_line": "  [key: string]: unknown;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/91fd135b.ts",
+   "line": 93,
+   "whole_line": "  (algorithm: HashAlgorithms, secret: SecretKey, encoding: KeyEncodings): T;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/util/91fd135b.ts",
+   "line": 114,
+   "whole_line": "  secret: SecretKey;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/18dda803.ts",
+   "line": 15,
+   "whole_line": "    tokens.forEach((token: string, counter: number): void => {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/7d58e4a7.js",
+   "line": 6,
+   "value": "2026-05-24T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "test/a0f82dc2.ts",
+   "line": 153,
+   "whole_line": "        'otpauth://totp/otplib:otpuser?secret=otpsecret&period=30&digits=6&algorithm=SHA1&issuer=otplib'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c7cb0c45.js",
+   "line": 11,
+   "value": "1507953809 * 1000 ",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c7cb0c45.js",
+   "line": 21,
+   "value": "1507908269 * 1000 ",
+   "source": "creddata"
+  },
+  {
+   "file": "test/c7cb0c45.js",
+   "line": 9,
+   "value": "scrypt",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 66,
+   "whole_line": "  token: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 72,
+   "value": "94287082",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 78,
+   "value": "46119246",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 84,
+   "value": "90693936",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 90,
+   "value": "07081804",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 96,
+   "value": "68084774",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 102,
+   "value": "25091201",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 108,
+   "value": "14050471",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 114,
+   "value": "67062674",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 120,
+   "value": "99943326",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 126,
+   "value": "89005924",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 132,
+   "value": "91819424",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 138,
+   "value": "93441116",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 144,
+   "value": "69279037",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 150,
+   "value": "90698825",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 156,
+   "value": "38618901",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 162,
+   "value": "65353130",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 168,
+   "value": "77737706",
+   "source": "creddata"
+  },
+  {
+   "file": "test/faf09b36.ts",
+   "line": 174,
+   "value": "47863826",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ffb36453.ts",
+   "line": 107,
+   "whole_line": "        'otpauth://hotp/otplib:otpuser?secret=otpsecret&counter=0&digits=6&algorithm=SHA1&issuer=otplib'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/074dc7a7.ts",
+   "line": 4,
+   "whole_line": "//   token: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/074dc7a7.ts",
+   "line": 9,
+   "value": "566155",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/074dc7a7.ts",
+   "line": 14,
+   "value": "540849",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/074dc7a7.ts",
+   "line": 19,
+   "value": "668733",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/074dc7a7.ts",
+   "line": 24,
+   "value": "767234",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/074dc7a7.ts",
+   "line": 29,
+   "value": "942732",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/074dc7a7.ts",
+   "line": 34,
+   "value": "235413",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/074dc7a7.ts",
+   "line": 39,
+   "value": "508543",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/074dc7a7.ts",
+   "line": 62,
+   "whole_line": "  token: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/074dc7a7.ts",
+   "line": 45,
+   "value": "AyM1SysPpbyDfgZld3umj1qzKObwVMkoqQ-EstJQLr_T-1qS0gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr1Z9CAow",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/074dc7a7.ts",
+   "line": 75,
+   "value": "AES-256-GCM",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/18278ad7.ts",
+   "line": 7,
+   "whole_line": "  token: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/18278ad7.ts",
+   "line": 15,
+   "value": "676642",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/18278ad7.ts",
+   "line": 23,
+   "value": "388116",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/18278ad7.ts",
+   "line": 31,
+   "value": "120294",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/18278ad7.ts",
+   "line": 39,
+   "value": "604619",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/bf2cd4b4.ts",
+   "line": 2,
+   "whole_line": "  token: string;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/bf2cd4b4.ts",
+   "line": 8,
+   "value": "229021",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/bf2cd4b4.ts",
+   "line": 14,
+   "value": "196182",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/bf2cd4b4.ts",
+   "line": 20,
+   "value": "963234",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/bf2cd4b4.ts",
+   "line": 27,
+   "value": "415572",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/bf2cd4b4.ts",
+   "line": 33,
+   "value": "343659",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/bf2cd4b4.ts",
+   "line": 22,
+   "value": "RS256",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sample/bf2cd4b4.ts",
+   "line": 35,
+   "value": "2025-04-08T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5398b006.js",
+   "line": 131,
+   "whole_line": "    expect(hotp.verify({ token: 123, secret: 12142, counter: null })).toBe(",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5398b006.js",
+   "line": 203,
+   "value": "566155",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5398b006.js",
+   "line": 208,
+   "value": "522154",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5398b006.js",
+   "line": 202,
+   "value": "190bdcbf3e6df189",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/5398b006.js",
+   "line": 212,
+   "value": "etl-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/util/eb85e4f0.ts",
+   "line": 12,
+   "value": "//hotp/",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/util/eb85e4f0.ts",
+   "line": 13,
+   "value": "//totp/",
+   "source": "creddata"
+  },
+  {
+   "file": "other/2c5e3be7.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "58f06d6"
+  },
+  {
+   "file": "other/2c5e3be7.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "c9928c14fa9e9225952293cad20d1afbd286e9bbdc64d13a99c98f54a7c552ea"
+  },
+  {
+   "file": "other/2c5e3be7.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "cdn.jsdelivr.net"
+  },
+  {
+   "file": "other/2c5e3be7.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/daca06e9.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "docs.acme-corp.de"
+  },
+  {
+   "file": "src/daca06e9.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "help.acme-corp.de"
+  },
+  {
+   "file": "src/daca06e9.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "src/daca06e9.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "src/daca06e9.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "src/daca06e9.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "src/daca06e9.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "careers@acme-corp.de"
+  },
+  {
+   "file": "src/daca06e9.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
+  },
+  {
+   "file": "src/daca06e9.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "6e6f2d63616368652c6e6f2d73746f7265"
+  },
+  {
+   "file": "src/daca06e9.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "_/9f15cb47.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_Iyvsx8b9xGmbgZyliFT6LqFX"
+  },
+  {
+   "file": "_/9f15cb47.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "ETL_SECRET_KEY"
+  },
+  {
+   "file": "_/9f15cb47.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "REPORTS_CLIENT_SECRET"
+  },
+  {
+   "file": "_/9f15cb47.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6L0cOxFy3W9H2fBH-N-Ap8zYR5mYDAW2O6fqyEaU"
+  },
+  {
+   "file": "_/9f15cb47.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:BeCm/Kk1FCgyAUt11tXfbZogB0BjbyAQiWrTcRle3Cw"
+  },
+  {
+   "file": "_/9f15cb47.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "_/9f15cb47.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Authorization"
+  },
+  {
+   "file": "_/9f15cb47.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "_/9f15cb47.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "dXNlcjo1MzQ5MTpvZmZzZXQ6Mzkz"
+  },
+  {
+   "file": "test/60513920.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Birne2023"
+  },
+  {
+   "file": "test/60513920.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "becker-cryptic-prod"
+  },
+  {
+   "file": "other/06507521.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "billing@quarzo-corp.de"
+  },
+  {
+   "file": "other/06507521.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "careers@quarzo-corp.de"
+  },
+  {
+   "file": "other/06507521.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0159"
+  },
+  {
+   "file": "other/06507521.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Boltzmannstra\u00dfe 3, 85748 Garching"
+  },
+  {
+   "file": "other/06507521.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "GB82WEST12345698765432"
+  },
+  {
+   "file": "other/06507521.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "other/06507521.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "other/06507521.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "other/3afec572.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "078e0f7a4f14727ee30aeab6cddcd60b4f0731f360212bdd61611868294f4625"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "files.paycore.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "85.225.151.141"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.pinegrid.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.pinegrid.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "shop.pinegrid.net"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Noah Hartmann"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.pinegrid.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "shop.pinegrid.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "files.paycore.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "85.225.151.141"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "212.18.3.19"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "jenkins.debian.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "gitlab.freedesktop.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Noah Hartmann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "noah.hartmann@pinegrid.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

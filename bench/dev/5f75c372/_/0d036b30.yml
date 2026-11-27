@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: helix-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "f5baf7e"
+type: Opaque
+data:
+  DB_PASSWORD: bW9yaXR6X2NvbmRlbnNlZF9zY2hlcm0=
+  STRIPE_KEY: c2tfbGl2ZV9vdzZmN1EzckRTTFB0MUZGUUNSdHNtY2M=
+  ca.crt.sha256: a586c909da90505bd1509aa21510d24eb82e8ed4004095c515889ffa58179039
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: helix-payments-config
+data:
+  DB_HOST: "argocd.helix-corp.de"
+  SENTRY_HOST: "sentry.io"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

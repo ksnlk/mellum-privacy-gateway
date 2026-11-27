@@ -1,0 +1,19 @@
+# quarzo payments service
+database:
+  host: vault.quarzo-corp.de
+  user: payments
+  password: "Glueck#1988"
+  password_source: secret/data/quarzo/billing/prod
+  password_env: AUTH_CLIENT_SECRET
+api:
+  key_header: X-Auth-Token
+  partner_ident: yXYTsXd11AwGuPh9ISVDPtKjDfV227qP
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: argon2id
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 456219323608-00j72sxs2bek0qxuo4ptckqt9cp7m2un.apps.googleusercontent.com
+  client_proof: ykcald72spww3uhsoia3uwc7e5tzxkpk
+  secret_rotated_at: "2023-04-18T00:00:00Z"
+  secret_name: reports-oauth-client
+pagination:
+  first_cursor: b3JkZXI6OTU1Njg6b2Zmc2V0OjQ2MQ==

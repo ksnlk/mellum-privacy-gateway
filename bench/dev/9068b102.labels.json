@@ -1,0 +1,810 @@
+{
+ "repo": "9068b102",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/conf/pkg/951e2fbf.json",
+   "line": 15,
+   "start": 27,
+   "end": 43,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "Bsx6N1awXn0AdK=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/pkg/fcddb69c.json",
+   "line": 5,
+   "start": 27,
+   "end": 43,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "Vpw3E9xyLv8TpA=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/pkg/fcddb69c.json",
+   "line": 10,
+   "start": 140,
+   "end": 164,
+   "category": "Password",
+   "mutation": "b64",
+   "forms": [
+    "Rm1sMEozcmVXbjVFZkI9PQ==",
+    "Fml0J3reWn5EfB=="
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "other/7deaa83b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Noah Braun"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "other/7deaa83b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "clara.zimmermann@pinegrid-corp.de"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "other/7deaa83b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 6860 3992"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "other/7deaa83b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.18.170.157"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "other/7deaa83b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "bet.starter.tulpe.haus"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "_/d83416e7.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-prod.80vxexnqhx3u.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "_/d83416e7.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "188.251.159.251"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "_/d83416e7.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "l.wolf@kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/d83416e7.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-mq-05.prod.kelpie-internal.net"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/d83416e7.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "baer-which-greedy19"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "src/8f41c7e2.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_k1BegNK4CD6kibYNh4dd3NiS"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/8f41c7e2.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "SZdOxnKRx4wQ5XcCxJplh8QpSrTFws5F"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/8f41c7e2.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "N3Y2NmF6ZjQ2Mmt0dmZ5YnJpZHNwb3Z5OG1zdGtnajI=",
+    "7v66azf462ktvfybridspovy8mstkgj2"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/848869b0.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-prod.sr46v5xyosmj.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/848869b0.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_Pq62Kb2cblmL7yAHpXjksLEsoZq7kXNRBkYw"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/5ab16919.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2VjdXJlLXNvbGlkLWFzc3VtaW5nLXNjaG1pZHQ0NA==",
+    "secure-solid-assuming-schmidt44"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/5ab16919.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9WTnZtaGpDclE4MFJWVnRjUk92Zk4ydEo=",
+    "sk_live_VNvmhjCrQ80RVVtcROvfN2tJ"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "other/5ab16919.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments.i3g1xl.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "other/1f0591e0.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043b\u044e\u0431\u043e\u0432\u044c2201!"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "other/1f0591e0.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.26.17.20"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "other/1f0591e0.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2hvd242MTU=",
+    "shown615"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/33ef32bf.mod",
+   "line": 27,
+   "whole_line": "\tk8s.io/api => k8s.io/api v0.21.0",
+   "source": "creddata"
+  },
+  {
+   "file": "_/33ef32bf.mod",
+   "line": 39,
+   "whole_line": "\tk8s.io/cri-api => k8s.io/cri-api v0.21.0",
+   "source": "creddata"
+  },
+  {
+   "file": "_/47414f9c.yaml",
+   "line": 2,
+   "whole_line": "apiVersion: apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/pkg/54938b33.json",
+   "line": 2,
+   "whole_line": "  \"apiVersion\": \"apps/v1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/pkg/e906d940.json",
+   "line": 2,
+   "whole_line": "  \"apiVersion\": \"apps/v1beta1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/3824a417.yaml",
+   "line": 1,
+   "whole_line": "apiVersion: autoscaling/v2beta2",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/49a648a6.yaml",
+   "line": 1,
+   "whole_line": "apiVersion: autoscaling/v2beta1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/49a648a6.yaml",
+   "line": 6,
+   "whole_line": "      {\"apiVersion\":\"autoscaling/v2beta1\",\"kind\":\"HorizontalPodAutoscaler\",\"metadata\":{\"annotations\":{},\"labels\":{\"app.kubernetes.io/component\":\"repo-server\",\"app.kubernetes.io/instance\":\"argocd\",\"app.kubernetes.io/managed-by\":\"Helm\",\"app.kubernetes.io/name\":\"argocd-repo-server-hpa\",\"app.kubernetes.io/part-of\":\"argocd\",\"argocd.argoproj.io/instance\":\"argocd\",\"helm.sh/chart\":\"argo-cd-2.5.0\"},\"name\":\"argocd-repo-server-hpa\",\"namespace\":\"argocd\"},\"spec\":{\"maxReplicas\":40,\"metrics\":[{\"resource\":{\"name\":\"memory\",\"targetAverageUtilization\":150},\"type\":\"Resource\"},{\"resource\":{\"name\":\"cpu\",\"targetAverageUtilization\":80},\"type\":\"Resource\"}],\"minReplicas\":1,\"scaleTargetRef\":{\"apiVersion\":\"apps/v1\",\"kind\":\"Deployment\",\"name\":\"argocd-repo-server\"}}}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/49a648a6.yaml",
+   "line": 37,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 121,
+   "whole_line": "\t\t\tAPIVersion: \"apps/v1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 131,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 157,
+   "whole_line": "\t\tTypeMeta:   metav1.TypeMeta{APIVersion: \"apps/v1\", Kind: kube.StatefulSetKind},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 223,
+   "whole_line": "\t\tassert.ElementsMatch(t, refs, []metav1.OwnerReference{{APIVersion: \"apps/v1\", Kind: kube.StatefulSetKind, Name: \"web\", UID: \"123\"}})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 230,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 240,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 280,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 297,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 301,
+   "whole_line": "\t\tOwnerRefs:       []metav1.OwnerReference{{APIVersion: \"apps/v1beta1\", Kind: \"Deployment\", Name: \"helm-guestbook\", UID: \"3\"}},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 318,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 345,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 370,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 398,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 426,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 464,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 485,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 503,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 624,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 651,
+   "whole_line": "\t\t\t\t\tAPIVersion: \"apps/v1beta1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 664,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 678,
+   "value": "apps/v1beta1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/cluster/c5b3202a.go",
+   "line": 693,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/d47624ee.yaml",
+   "line": 1,
+   "whole_line": "apiVersion: autoscaling/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/d47624ee.yaml",
+   "line": 15,
+   "value": "apps/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/d8522caa.go",
+   "line": 183,
+   "whole_line": "  \"apiVersion\": \"argoproj.io/v1\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/d8522caa.go",
+   "line": 462,
+   "whole_line": "\ttargetPod.SetAnnotations(map[string]string{synccommon.AnnotationKeyHook: \"PreSync\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/d8522caa.go",
+   "line": 466,
+   "whole_line": "\tliveSvc.SetAnnotations(map[string]string{synccommon.AnnotationKeyHook: \"PreSync\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/d8522caa.go",
+   "line": 593,
+   "whole_line": "\t\tpod.SetAnnotations(map[string]string{synccommon.AnnotationKeyHook: \"PreSync,PostSync\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/d8522caa.go",
+   "line": 609,
+   "whole_line": "\t\tpod.SetAnnotations(map[string]string{synccommon.AnnotationKeyHook: \"PreSync,PostSync\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/d8522caa.go",
+   "line": 643,
+   "whole_line": "\tpod.SetAnnotations(map[string]string{synccommon.AnnotationKeyHook: \"Sync\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/d8522caa.go",
+   "line": 1082,
+   "whole_line": "\tpod3.SetAnnotations(map[string]string{synccommon.AnnotationKeyHook: \"PostSync\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/pkg/f3f7d081.yaml",
+   "line": 1,
+   "whole_line": "apiVersion: batch/v1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/resource/pkg/78dc8f97.go",
+   "line": 23,
+   "whole_line": "\trs.APIVersion = \"somecrd.io/v1\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/resource/pkg/78dc8f97.go",
+   "line": 66,
+   "whole_line": "\ttokenSecret := c.newResource(strToUnstructured(`",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/pkg/kube/app/c13908aa.yaml",
+   "line": 1,
+   "whole_line": "apiVersion: apps/v1beta2",
+   "source": "creddata"
+  },
+  {
+   "file": "other/7deaa83b.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "198.51.100.150"
+  },
+  {
+   "file": "other/7deaa83b.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "1.0.27"
+  },
+  {
+   "file": "other/7deaa83b.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "sha256:7d173b1d1aa19828c2de3d68658a6f8ac23383cc4710605a776ef8841321bb3a"
+  },
+  {
+   "file": "other/7deaa83b.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/7deaa83b.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  },
+  {
+   "file": "_/d83416e7.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "status.kelpie-corp.de"
+  },
+  {
+   "file": "_/d83416e7.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "careers.kelpie-corp.de"
+  },
+  {
+   "file": "_/d83416e7.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "_/d83416e7.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "_/d83416e7.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "_/d83416e7.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "_/d83416e7.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "hello@kelpie-corp.de"
+  },
+  {
+   "file": "_/d83416e7.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "bm8tY2FjaGUsbm8tc3RvcmU="
+  },
+  {
+   "file": "_/d83416e7.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "4745542f6865616c74687a"
+  },
+  {
+   "file": "_/d83416e7.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "src/8f41c7e2.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_1jd7o36odLGs9MG626QFM2jU"
+  },
+  {
+   "file": "src/8f41c7e2.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "PAYMENTS_CLIENT_SECRET"
+  },
+  {
+   "file": "src/8f41c7e2.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "AUTH_CLIENT_SECRET"
+  },
+  {
+   "file": "src/8f41c7e2.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6Lx_xYTv_s_SjU-dHUTAPVCKZggSReWox6qOAXAM"
+  },
+  {
+   "file": "src/8f41c7e2.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:rbHq0hi3l+GDmc2jJUhtHi3aHHFMqNcD9SoEqYYAtzU"
+  },
+  {
+   "file": "src/8f41c7e2.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/var/run/secrets/ledger/token"
+  },
+  {
+   "file": "src/8f41c7e2.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Auth-Token"
+  },
+  {
+   "file": "src/8f41c7e2.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "src/8f41c7e2.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6MjY2MjA6b2Zmc2V0OjI4"
+  },
+  {
+   "file": "test/848869b0.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "4.24.7"
+  },
+  {
+   "file": "test/848869b0.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "0.25.25"
+  },
+  {
+   "file": "test/848869b0.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-sv037QYdhigXVHAZWwnuQ9Zo2tj4KruPaRw+OOQuFQNbe1RbLA4whYKIktt7vJEEX656ZVWsxwLqhI7EZP4sWQ=="
+  },
+  {
+   "file": "test/848869b0.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "4.23.33"
+  },
+  {
+   "file": "test/848869b0.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-Mui8F+ChX1mobAZfUlVk+vd/S1/0y6dn0SyDcGiBGTf3B00RG23iuw3cRfBDZSMBQWxC/7EWCYHowQT+wpS0aA=="
+  },
+  {
+   "file": "test/848869b0.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "6.19.39"
+  },
+  {
+   "file": "test/848869b0.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-HPRonHZaPo4JbYOw+ewNkHpgJEcFI8bLYnpDehGNBuQI8pDDD8unj6RLQOYjmRvAXw2JbOUBcqYheW9U3SnWTQ=="
+  },
+  {
+   "file": "other/5ab16919.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "204c855"
+  },
+  {
+   "file": "other/5ab16919.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "eeb343c4a483eb43fbd47a4bfe34872bfe6a7d0f92770de469d66303d7c424c4"
+  },
+  {
+   "file": "other/5ab16919.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "other/5ab16919.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "other/1f0591e0.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:50f5a0ae52364433fd71cb1a92674c8e6cf4558168f70a4b4c5e4f74ddb2ee06"
+  },
+  {
+   "file": "other/1f0591e0.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "e5c01116577ab70dd8af2414295221a983b17aaa"
+  },
+  {
+   "file": "other/1f0591e0.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "${DB_PASSWORD}"
+  },
+  {
+   "file": "other/1f0591e0.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "127.0.0.1"
+  },
+  {
+   "file": "other/1f0591e0.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "4.12.24"
+  }
+ ]
+}

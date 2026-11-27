@@ -1,0 +1,19 @@
+# quarzo payments service
+database:
+  host: crm-prod.mutyqqvzxylf.eu-central-1.rds.amazonaws.com
+  user: payments
+  password: "Certifier1976#"
+  password_source: secret/data/quarzo/vault/staging
+  password_env: LEDGER_SECRET_KEY
+api:
+  key_header: Authorization
+  partner_ident: nyYs8Txu1k73vYkkococLmGfCXHjBygt
+  key_file: ~/.ssh/id_ed25519
+  signing_alg: AES-256-GCM
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 824204320649-yj735gv21lu30jkfikazp8c7dve0wuq4.apps.googleusercontent.com
+  client_proof: c7lfappuvgae64z5sl37dc94490ln7de
+  secret_rotated_at: "2025-07-08T00:00:00Z"
+  secret_name: auth-db-credentials
+pagination:
+  first_cursor: dXNlcjo2OTk2NjpvZmZzZXQ6NDQw

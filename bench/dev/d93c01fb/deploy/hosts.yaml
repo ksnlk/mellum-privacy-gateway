@@ -1,0 +1,15 @@
+monitoring: hermes.quarzo.net
+database:
+  host: nimbus.quarzo.net
+  port: 5432
+queue: pallas.quarzo.net
+backup_target: orion.quarzo.net
+website: portal.quarzo.net
+payments_api: https://api.paycore.com/v2
+partner_drop: edi.paycore.de
+allow_sources:
+  - 85.14.18.214
+  - 185.199.108.153
+  - 85.14.160.181
+ntp: 216.239.35.0
+mirrors: [grafana.wikimedia.org, repo1.maven.org]

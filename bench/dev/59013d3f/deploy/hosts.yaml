@@ -1,0 +1,15 @@
+monitoring: orion.kelpie.net
+database:
+  host: atlas.kelpie.net
+  port: 5432
+queue: hermes.kelpie.net
+backup_target: juno.kelpie.net
+website: kunden.kelpie.net
+payments_api: https://api.mailvault.com/v2
+partner_drop: edi.mailvault.de
+allow_sources:
+  - 178.25.92.154
+  - 140.82.112.3
+  - 178.53.145.72
+ntp: 212.18.3.19
+mirrors: [gitlab.freedesktop.org, registry.terraform.io]

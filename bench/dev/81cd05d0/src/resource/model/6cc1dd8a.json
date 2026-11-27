@@ -1,0 +1,80 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2010-08-01",
+    "endpointPrefix":"monitoring",
+    "protocol":"query",
+    "serviceAbbreviation":"CloudWatch",
+    "serviceFullName":"Amazon CloudWatch",
+    "serviceId":"CloudWatch",
+    "signatureVersion":"v4",
+    "uid":"monitoring-2010-08-01",
+    "xmlNamespace":"http://monitoring.amazonaws.com/doc/2010-08-01/"
+  },
+  "operations":{
+    "DeleteAlarms":{
+      "name":"DeleteAlarms",
+      "http":{
+        "method":"POST",
+        "requestUri":"/"
+      },
+      "input":{"shape":"DeleteAlarmsInput"},
+      "errors":[
+        {"shape":"ResourceNotFound"}
+      ],
+      "documentation":"<p>Deletes the specified alarms. You can delete up to 100 alarms in one operation. However, this total can include no more than one composite alarm. For example, you could delete 99 metric alarms and one composite alarms with one operation, but you can't delete two composite alarms with one operation.</p> <p> In the event of an error, no alarms are deleted.</p> <note> <p>It is possible to create a loop or cycle of composite alarms, where composite alarm A depends on composite alarm B, and composite alarm B also depends on composite alarm A. In this scenario, you can't delete any composite alarm that is part of the cycle because there is always still a composite alarm that depends on that alarm that you want to delete.</p> <p>To get out of such a situation, you must break the cycle by changing the rule of one of the composite alarms in the cycle to remove a dependency that creates the cycle. The simplest change to make to break a cycle is to change the <code>AlarmRule</code> of one of the alarms to <code>False</code>. </p> <p>Additionally, the evaluation of composite alarms stops if CloudWatch detects a cycle in the evaluation path. </p> </note>"
+    },
+    "DeleteAnomalyDetector":{
+      "name":"DeleteAnomalyDetector",
+      "http":{
+      "exception":true
+    },
+    "Counts":{
+      "type":"list",
+      "member":{"shape":"DatapointValue"}
+    },
+    "DashboardArn":{"type":"string"},
+    "DashboardBody":{"type":"string"},
+    "DashboardEntries":{
+      "type":"list",
+      "member":{"shape":"DashboardEntry"}
+    },
+    "DashboardEntry":{
+      "type":"structure",
+      "members":{
+        "DashboardName":{
+          "shape":"DashboardName",
+          "documentation":"<p>The name of the dashboard.</p>"
+        },
+        "DashboardArn":{
+          "shape":"DashboardArn",
+          "documentation":"<p>The Amazon Resource Name (ARN) of the dashboard.</p>"
+        },
+        "LastModified":{
+          "shape":"LastModified",
+          "documentation":"<p>The time stamp of when the dashboard was last modified, either by an API call or through the console. This number is expressed as the number of milliseconds since Jan 1, 1970 00:00:00 UTC.</p>"
+        },
+        "Size":{
+          "shape":"Size",
+          "documentation":"<p>The size of the dashboard, in bytes.</p>"
+        }
+      },
+      "documentation":"<p>Represents a specific dashboard.</p>"
+    },
+    "DashboardErrorMessage":{"type":"string"},
+    "DashboardInvalidInputError":{
+      "type":"structure",
+      "members":{
+        "message":{"shape":"DashboardErrorMessage"},
+        "dashboardValidationMessages":{"shape":"DashboardValidationMessages"}
+      },
+      "documentation":"<p>Some part of the dashboard data is invalid.</p>",
+      "error":{
+        "code":"InvalidParameterInput",
+        "httpStatusCode":400,
+        "senderFault":true
+      },
+      "exception":true
+    },
+    "DashboardName":{"type":"string"},
+    "DashboardNamePrefix":{"type":"string"},

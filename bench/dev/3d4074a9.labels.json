@@ -1,0 +1,679 @@
+{
+ "repo": "3d4074a9",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/024dd9d2.json",
+   "line": 93,
+   "start": 23814,
+   "end": 23846,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "4eb8586fefa2f6cdca7424c4a2a1f93b"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/d8a21666.json",
+   "line": 94,
+   "start": 75,
+   "end": 125,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "5763890145597909668-ILPaGSXT3FosGtAl49JPiPnmXd9eI4"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "other/aabe9d75.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl-api-02.int.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "other/aabe9d75.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "prS7iwKwburqHIdQLXHJw56fIgpVD5HG"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/2160a2bd.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.16.40.164"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/2160a2bd.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vpn-gw.helix-corp.de"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/2160a2bd.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "T92ZOFFZL/BFGK4IINPZT/JeJ5TgXrIlOfZcUkRp80N91U"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/0abf918f.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.k4n2Ng4rWH2tBBl2SQT3thxbuhuX0oXP0dDDNl2m.EejNKE2tN4qqrzufZeipE7DfJfWtwI6GB5c2ImaGOpn"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/0abf918f.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "admin.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/54731188.go",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Secret",
+   "mutation": "synth:hex",
+   "forms": [
+    "38383362653163326437353461343230366630646335636533393931313963303536386163663535643637313839353339306461363836313135303361356336",
+    "883be1c2d754a4206f0dc5ce399119c0568acf55d671895390da68611503a5c6"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/be79c8cc.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/be79c8cc.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "baum909$"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/be79c8cc.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "NojSji41HAZqAJt3nY8dvlYr6YAIgX0F"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/be79c8cc.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "11n68xwwrjx27jj5m0kjriiteo2iz4h9"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/cdb21e95.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "51, 83, 88, 77, 81, 117, 57, 70, 121, 89, 51, 74, 66, 70, 99, 51, 97, 81, 56, 84, 86, 112, 117, 54, 116, 86, 98, 65, 67, 48, 52, 103",
+    "3SXMQu9FyY3JBFc3aQ8TVpu6tVbAC04g"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "src/cdb21e95.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lina42@gmail.com"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/6f867889.py",
+   "line": 67,
+   "whole_line": "            self.previous_token = pagination_token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/6f867889.py",
+   "line": 71,
+   "whole_line": "            self.next_token = pagination_token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aea71cf6.py",
+   "line": 31,
+   "whole_line": "    OAUTH_HOST = 'api.twitter.com'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aea71cf6.py",
+   "line": 42,
+   "whole_line": "        self.consumer_key = consumer_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aea71cf6.py",
+   "line": 72,
+   "value": "self",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aea71cf6.py",
+   "line": 74,
+   "whole_line": "        self.access_token_secret = secret",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aea71cf6.py",
+   "line": 102,
+   "whole_line": "                                       resource_owner_secret=self.request_token['oauth_token_secret'],",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aea71cf6.py",
+   "line": 106,
+   "whole_line": "            self.access_token_secret = resp['oauth_token_secret']",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aea71cf6.py",
+   "line": 126,
+   "value": "password})",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aea71cf6.py",
+   "line": 136,
+   "whole_line": "        self.bearer_token = bearer_token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aea71cf6.py",
+   "line": 146,
+   "whole_line": "    OAUTH_HOST = 'api.twitter.com'",
+   "source": "creddata"
+  },
+  {
+   "file": "_/aea71cf6.py",
+   "line": 150,
+   "whole_line": "        self.consumer_key = consumer_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ba7b751d.py",
+   "line": 263,
+   "whole_line": "            data, self.next_token = data",
+   "source": "creddata"
+  },
+  {
+   "file": "_/df2e316e.py",
+   "line": 52,
+   "whole_line": "        self.consumer_key = consumer_key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/df2e316e.py",
+   "line": 54,
+   "whole_line": "        self.access_token = access_token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/df2e316e.py",
+   "line": 55,
+   "whole_line": "        self.access_token_secret = access_token_secret",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e1adc6e8.py",
+   "line": 34,
+   "whole_line": "            key: entry key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e1adc6e8.py",
+   "line": 41,
+   "whole_line": "            key: which entry to get",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e1adc6e8.py",
+   "line": 279,
+   "whole_line": "            key: entry key",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e1adc6e8.py",
+   "line": 286,
+   "whole_line": "            key: which entry to get",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e1adc6e8.py",
+   "line": 310,
+   "value": "tweepy:keys",
+   "source": "creddata"
+  },
+  {
+   "file": "client/6af09957.py",
+   "line": 59,
+   "whole_line": "        self.bearer_token = bearer_token",
+   "source": "creddata"
+  },
+  {
+   "file": "client/6af09957.py",
+   "line": 60,
+   "whole_line": "        self.consumer_key = consumer_key",
+   "source": "creddata"
+  },
+  {
+   "file": "client/6af09957.py",
+   "line": 62,
+   "whole_line": "        self.access_token = access_token",
+   "source": "creddata"
+  },
+  {
+   "file": "client/6af09957.py",
+   "line": 63,
+   "whole_line": "        self.access_token_secret = access_token_secret",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/686203cc.rst",
+   "line": 98,
+   "whole_line": "                            'oauth_token_secret' : verifier }",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/686203cc.rst",
+   "line": 125,
+   "whole_line": "   api = tweepy.API(auth)",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/686203cc.rst",
+   "line": 146,
+   "whole_line": "   api = tweepy.API(auth)",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/686203cc.rst",
+   "line": 147,
+   "whole_line": "   for tweet in tweepy.Cursor(api.search_tweets, q='tweepy').items(10):",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/locale/f2c4dc20.po",
+   "line": 94,
+   "whole_line": "msgstr \"Warto jest zachowa\u0107 token dost\u0119pu na przysz\u0142o\u015b\u0107. Nie musisz pozyskiwa\u0107 go na nowo za ka\u017cdym razem. Na t\u0119 chwil\u0119 Twitter nie wygasza wa\u017cno\u015bci token\u00f3w, tak wi\u0119c staj\u0105 si\u0119 one niewa\u017cne tylko wtedy gdy u\u017cytkownik wycofa dost\u0119p dla twojej aplikacji. Sk\u0142adowanie tokenu dost\u0119pu zale\u017cne jest od twojej aplikacji. W skr\u00f3cie - musisz sk\u0142adowa\u0107 dwie warto\u015bci jako ci\u0105g znak\u00f3w: klucz i sekret::\"",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/locale/f2c4dc20.po",
+   "line": 117,
+   "whole_line": "msgid \"Then we create an AppAuthHandler instance, passing in our consumer key and secret::\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 51,
+   "whole_line": "        self.api.user_timeline(screen_name='Twitter')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 117,
+   "whole_line": "        u = self.api.get_user(screen_name='Twitter')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 153,
+   "whole_line": "        enemy = self.api.destroy_friendship(screen_name='Twitter')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 156,
+   "whole_line": "        friend = self.api.create_friendship(screen_name='Twitter')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 161,
+   "whole_line": "        source, target = self.api.get_friendship(target_screen_name='twitter')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 200,
+   "whole_line": "        updated = self.api.update_profile(profile_link_color='D0F900')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 251,
+   "whole_line": "        self.api.create_block(screen_name='twitter')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 252,
+   "whole_line": "        self.api.destroy_block(screen_name='twitter')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 253,
+   "whole_line": "        self.api.create_friendship(screen_name='twitter')  # restore",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 292,
+   "whole_line": "        self.api.list_timeline(owner_screen_name='Twitter', slug='Official-Twitter-Accounts')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 296,
+   "whole_line": "        self.api.get_list(owner_screen_name='Twitter', slug='Official-Twitter-Accounts')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 328,
+   "whole_line": "        self.api.get_list_members(owner_screen_name='Twitter', slug='Official-Twitter-Accounts')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 332,
+   "whole_line": "        self.assertTrue(self.api.get_list_member(owner_screen_name='Twitter', slug='Official-Twitter-Accounts', screen_name='TwitterAPI'))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 345,
+   "whole_line": "        self.api.get_list_subscribers(owner_screen_name='Twitter', slug='Official-Twitter-Accounts')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 349,
+   "whole_line": "        self.assertTrue(self.api.get_list_subscriber(owner_screen_name='Twitter', slug='Official-Twitter-Accounts', screen_name='TwitterMktg'))",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 369,
+   "whole_line": "        self.assertEqual(self.api.geo_id(place_id='1ffd3558f2e98349').full_name, 'Dogpatch, San Francisco')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/3451cc47.py",
+   "line": 401,
+   "whole_line": "        user2 = self.api.get_user(screen_name='Twitter')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/94026d54.py",
+   "line": 44,
+   "whole_line": "        cursor = Cursor(self.api.user_timeline, screen_name='Twitter').items(5)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/b5a008bd.json",
+   "line": 78,
+   "whole_line": "                    \"string\": \"{\\\"url\\\":\\\"https:\\\\/\\\\/twitter.com\\\\/Twitter\\\\/status\\\\/266367358078169089\\\",\\\"author_name\\\":\\\"Twitter\\\",\\\"author_url\\\":\\\"https:\\\\/\\\\/twitter.com\\\\/Twitter\\\",\\\"html\\\":\\\"\\\\u003Cblockquote class=\\\\\\\"twitter-tweet\\\\\\\"\\\\u003E\\\\u003Cp lang=\\\\\\\"en\\\\\\\" dir=\\\\\\\"ltr\\\\\\\"\\\\u003ERT \\\\u003Ca href=\\\\\\\"https:\\\\/\\\\/twitter.com\\\\/TwitterEng?ref_src=twsrc%5Etfw\\\\\\\"\\\\u003E@TwitterEng\\\\u003C\\\\/a\\\\u003E: Bolstering our infrastructure. &quot;As  usage patterns change, Twitter can remain resilient.&quot; \\\\u003Ca href=\\\\\\\"http:\\\\/\\\\/t.co\\\\/uML86B6s\\\\\\\"\\\\u003Ehttp:\\\\/\\\\/t.co\\\\/uML86B6s\\\\u003C\\\\/a\\\\u003E\\\\u003C\\\\/p\\\\u003E&mdash; Twitter (@Twitter) \\\\u003Ca href=\\\\\\\"https:\\\\/\\\\/twitter.com\\\\/Twitter\\\\/status\\\\/266367358078169089?ref_src=twsrc%5Etfw\\\\\\\"\\\\u003ENovember 8, 2012\\\\u003C\\\\/a\\\\u003E\\\\u003C\\\\/blockquote\\\\u003E\\\\n\\\\u003Cscript async src=\\\\\\\"https:\\\\/\\\\/platform.twitter.com\\\\/widgets.js\\\\\\\" charset=\\\\\\\"utf-8\\\\\\\"\\\\u003E\\\\u003C\\\\/script\\\\u003E\\\\n\\\",\\\"width\\\":550,\\\"height\\\":null,\\\"type\\\":\\\"rich\\\",\\\"cache_age\\\":\\\"3153600000\\\",\\\"provider_name\\\":\\\"Twitter\\\",\\\"provider_url\\\":\\\"https:\\\\/\\\\/twitter.com\\\",\\\"version\\\":\\\"1.0\\\"}\"",
+   "source": "creddata"
+  },
+  {
+   "file": "other/aabe9d75.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "other/aabe9d75.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4.26.13"
+  },
+  {
+   "file": "other/aabe9d75.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5ff7ea388c60b88c2ac23ae501b4451dd584eb7d"
+  },
+  {
+   "file": "other/aabe9d75.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "4a91f92c-b31e-47a4-b73d-db213ed42ed4"
+  },
+  {
+   "file": "src/2160a2bd.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "a47da7b9a8600291e747"
+  },
+  {
+   "file": "src/2160a2bd.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "auth0.com"
+  },
+  {
+   "file": "src/2160a2bd.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "28662098f4c2380d3f2682f78d26c6de98ced8b4"
+  },
+  {
+   "file": "src/0abf918f.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "6.5.42"
+  },
+  {
+   "file": "src/0abf918f.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "9509e693f7e90b428701e622246dca26f5d31f68"
+  },
+  {
+   "file": "src/0abf918f.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "HNHZTYPBG70CWYKLCBFLE583L5"
+  },
+  {
+   "file": "src/0abf918f.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "src/0abf918f.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Y930742G48AVS5N08VVQONJGB1"
+  },
+  {
+   "file": "src/0abf918f.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "src/54731188.go",
+   "source": "synthetic",
+   "line": 9,
+   "value": "b8d9c64780b1cf22ebd800636153024642874677596f0a6601436977154cf266"
+  },
+  {
+   "file": "other/be79c8cc.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/nordwind/etl/staging"
+  },
+  {
+   "file": "other/be79c8cc.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "BILLING_DB_PASSWORD"
+  },
+  {
+   "file": "other/be79c8cc.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "other/be79c8cc.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "other/be79c8cc.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "HS256"
+  },
+  {
+   "file": "other/be79c8cc.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "other/be79c8cc.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "313529426502-mb5d9cj4hrv031q8izq6h5dc2ym4nrm3.apps.googleusercontent.com"
+  },
+  {
+   "file": "other/be79c8cc.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2024-04-12T00:00:00Z"
+  },
+  {
+   "file": "other/be79c8cc.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "etl-tls"
+  },
+  {
+   "file": "other/be79c8cc.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6MzI0NDg6b2Zmc2V0OjQ0OA=="
+  },
+  {
+   "file": "src/cdb21e95.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "101, 110, 45, 85, 83, 44, 101, 110, 59, 113, 61, 48, 46, 57"
+  },
+  {
+   "file": "src/cdb21e95.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "ZW4tVVMsZW47cT0wLjk="
+  },
+  {
+   "file": "src/cdb21e95.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "4745542f6865616c74687a"
+  },
+  {
+   "file": "src/cdb21e95.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "src/cdb21e95.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "privacy@vantor-corp.de"
+  }
+ ]
+}

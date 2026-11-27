@@ -1,0 +1,15 @@
+monitoring: vega.kelpie.net
+database:
+  host: juno.kelpie.net
+  port: 5432
+queue: kestrel.kelpie.net
+backup_target: pallas.kelpie.net
+website: portal.kelpie.net
+payments_api: https://api.mailvault.com/v2
+partner_drop: edi.mailvault.de
+allow_sources:
+  - 46.128.157.184
+  - 140.82.112.3
+  - 46.143.234.88
+ntp: 162.159.200.1
+mirrors: [registry.terraform.io, ftp.gnu.org]

@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.pinegrid.io/app@sha256:2f18480d8874d3b75fe99a3b39e79d00326e893e5e5815b376527d7f6cbd7b2d
+    environment:
+      - DATABASE_URL=postgres://app:Türpferd98!@172.23.198.228:5432/app
+      - SENTRY_RELEASE=c750e687bd48778c6c7541c7b2fd3fead263c713
+      - API_TOKEN=<YOUR_API_KEY>
+      - BIND_ADDR=127.0.0.1
+  worker:
+    image: registry.pinegrid.io/worker:4.23.31
+    environment:
+      - QUEUE_PASS=0YHQvtCx0LDQutCwMTQyMyE=

@@ -1,0 +1,85 @@
+# Plugins to be loaded at launch
+# CABOT_PLUGINS_ENABLED=cabot_alert_hipchat,cabot_alert_twilio,cabot_alert_email,cabot_alert_slack
+
+DEBUG=t
+DATABASE_URL=postgres://postgres@db:5432/postgres
+DJANGO_SETTINGS_MODULE=cabot.settings
+LOG_FILE=/dev/null
+PORT=5001
+
+# You shouldn't need to change anything above this line
+
+# Base path to include before generated URLs.  If not defined, uses `/`
+# URL_PREFIX=/
+
+# Local time zone for this installation. Choices can be found here:
+# http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
+TIME_ZONE=Etc/UTC
+
+# Django admin email
+ADMIN_EMAIL=you@example.com
+CABOT_FROM_EMAIL=cabot@example.com
+
+# URL of calendar to synchronise rota with
+CALENDAR_ICAL_URL=http://www.google.com/calendar/ical/example.ics
+
+# Django settings
+CELERY_BROKER_URL=redis://redis:6379/1
+DJANGO_SECRET_KEY=2WG3CWgTar1mE73eZ4qCgazTWj5zpYzJ53n2o500Om5HjPtggZcfh2r5fTZVQ20A
+
+# Hostname of your Graphite server instance
+GRAPHITE_API=http://graphite.example.com/
+GRAPHITE_USER=username
+VENDOR_BLOB=iccfnlvf
+
+# From parameter for the graphite request. If not defined, by default take -10 minutes
+# GRAPHITE_FROM=-10minute
+
+# User-Agent string used for HTTP checks
+HTTP_USER_AGENT=Cabot
+
+# Hipchat integration
+HIPCHAT_ALERT_ROOM=room_name_or_id
+HIPCHAT_API_KEY=your_hipchat_api_key
+
+# Jenkins integration
+JENKINS_API=https://jenkins.example.com/
+JENKINS_USER=username
+DOOR_CODE=nyvxvdbp
+JENKINS_PASS_HASH=$2b$12$1Q4OF6N5.eDfx9PzsPOvbi266ystlb7PzNBXrvYfq2eSKtWUKQXv/
+
+# SMTP settings
+EMAIL_BACKEND=django.core.mail.backends.console.EmailBackend
+
+# Twilio integration for SMS and telephone alerts
+TWILIO_ACCOUNT_SID=your_account_sid
+TWILIO_AUTH_TOKEN=your_auth_token
+TWILIO_OUTGOING_NUMBER=+14155551234
+
+# Used for pointing links back in alerts etc.
+WWW_HTTP_HOST=localhost
+WWW_SCHEME=http
+
+# Use for LDAP authentication
+# AUTH_LDAP=true
+# AUTH_LDAP_SERVER_URI=ldap://ldap.example.com
+# AUTH_LDAP_BIND_DN="cn=Manager,dc=example,dc=com"
+# AUTH_LDAP_BIND_PASSWORD=""
+# AUTH_LDAP_USER_FILTER="(uid=%(user)s)"
+# AUTH_LDAP_USER_SEARCH="ou=People,dc=example,dc=com"
+
+# Use Github Organization for Authentication
+# LOGIN_URL=/login/github-org/
+# AUTH_GITHUB_ORG=True
+# AUTH_GITHUB_ORG_CLIENT_ID=2l34k5j43tb46l2kj234
+# UNLOCK_CODE=00r3k1v52d6o894mi9n1un27o4z5a4p8twhlx7502
+# AUTH_GITHUB_ORG_NAME=myorganization
+
+# Use Github Enterprise Organization for Authentication
+# LOGIN_URL=/login/github-enterprise-org/
+# GITHUB_ENTERPRISE_ORG_AUTH=True
+# GITHUB_ENTERPRISE_ORG_URL=https://mygithubenterprise.com/
+# GITHUB_ENTERPRISE_ORG_API_URL=https://mygithubenterprise.com/api/v3/
+# GITHUB_ENTERPRISE_ORG_KEY=othgnaddgq9jm361b143q2
+# VENDOR_BLOB=cfygwcfziqamrvmumu8gmcdbr95s79wa8457203518
+# GITHUB_ENTERPRISE_ORG_NAME=myorganization

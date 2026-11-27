@@ -1,0 +1,15 @@
+monitoring: nimbus.nordwind.net
+database:
+  host: atlas.nordwind.net
+  port: 5432
+queue: juno.nordwind.net
+backup_target: falkor.nordwind.net
+website: portal.nordwind.net
+payments_api: https://api.mailvault.com/v2
+partner_drop: sftp.mailvault.de
+allow_sources:
+  - 91.130.19.147
+  - 140.82.114.25
+  - 91.134.189.100
+ntp: 194.58.200.20
+mirrors: [kafka.apache.org, ftp.gnu.org]

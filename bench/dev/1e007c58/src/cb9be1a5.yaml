@@ -1,0 +1,19 @@
+# nordwind payments service
+database:
+  host: etl-primary.nordwind.cloud
+  user: payments
+  password: "H@$$l3"
+  password_source: secret/data/nordwind/reports/staging
+  password_env: BILLING_CLIENT_SECRET
+api:
+  key_header: Proxy-Authorization
+  partner_ident: 3v4er9puozUrWR7r2f47H224vOYkDjAb
+  key_file: /var/run/secrets/crm/token
+  signing_alg: HS256
+  token_endpoint: https://github.com/login/oauth/access_token
+  client_id: 147984056298-r3olfhzhnyz0d4di1mywx0uvz9z7lm91.apps.googleusercontent.com
+  client_proof: 99w2z82yoz6qolnn7vokklssrkxqhmwu
+  secret_rotated_at: "2023-07-16T00:00:00Z"
+  secret_name: ledger-db-credentials
+pagination:
+  first_cursor: b3JkZXI6MTk0NDQ6b2Zmc2V0OjE2OQ==

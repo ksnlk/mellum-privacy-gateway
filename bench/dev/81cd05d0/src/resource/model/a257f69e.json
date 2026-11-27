@@ -1,0 +1,29 @@
+{
+  "version":"2.0",
+  "metadata":{
+    "apiVersion":"2020-11-19",
+    "endpointPrefix":"geo",
+    "jsonVersion":"1.1",
+    "protocol":"rest-json",
+    "serviceFullName":"Amazon Location Service",
+    "serviceId":"Location",
+    "signatureVersion":"v4",
+    "signingName":"geo",
+    "uid":"location-2020-11-19"
+  },
+  "operations":{
+    "AssociateTrackerConsumer":{
+      "name":"AssociateTrackerConsumer",
+      "http":{
+        "method":"POST",
+        "requestUri":"/tracking/v0/trackers/{TrackerName}/consumers",
+        "responseCode":200
+      },
+      "input":{"shape":"AssociateTrackerConsumerRequest"},
+      "output":{"shape":"AssociateTrackerConsumerResponse"},
+      "errors":[
+        {"shape":"InternalServerException"},
+        {"shape":"ResourceNotFoundException"},
+        {"shape":"ConflictException"},
+        {"shape":"AccessDeniedException"},
+        {"shape":"ValidationException"},

@@ -1,0 +1,19 @@
+# nordwind payments service
+database:
+  host: reports-cache-05.corp.nordwind-internal.net
+  user: payments
+  password: "comes-sitio-prod"
+  password_source: secret/data/nordwind/payments/prod
+  password_env: REPORTS_CLIENT_SECRET
+api:
+  key_header: X-Auth-Token
+  partner_ident: 7eBnimGgctuhKFRusgb8NLsf0j562bFV
+  key_file: /run/secrets/vault_password
+  signing_alg: bcrypt
+  token_endpoint: https://api.stripe.com/v1/tokens
+  client_id: 176680397802-l81pyq67tcjjz50d56rtgw0ogftycrcp.apps.googleusercontent.com
+  client_proof: ij5vt4yv33nukd2c4l2jkmhs0ypeg9sf
+  secret_rotated_at: "2024-11-02T00:00:00Z"
+  secret_name: auth-oauth-client
+pagination:
+  first_cursor: dXNlcjoyNDk1NDpvZmZzZXQ6NDYw

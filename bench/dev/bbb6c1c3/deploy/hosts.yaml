@@ -1,0 +1,15 @@
+monitoring: tarvos.vantor-ops.io
+database:
+  host: vega.vantor-ops.io
+  port: 5432
+queue: hermes.vantor-ops.io
+backup_target: pallas.vantor-ops.io
+website: www.vantor-ops.io
+payments_api: https://api.mailvault.com/v2
+partner_drop: files.mailvault.de
+allow_sources:
+  - 178.132.158.153
+  - 185.199.108.153
+  - 178.152.66.72
+ntp: 212.18.3.19
+mirrors: [grafana.wikimedia.org, gitlab.freedesktop.org]

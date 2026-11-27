@@ -1,0 +1,15 @@
+monitoring: nimbus.brightloop.systems
+database:
+  host: hermes.brightloop.systems
+  port: 5432
+queue: vega.brightloop.systems
+backup_target: kestrel.brightloop.systems
+website: portal.brightloop.systems
+payments_api: https://api.datafjord.com/v2
+partner_drop: edi.datafjord.de
+allow_sources:
+  - 193.215.23.160
+  - 140.82.113.4
+  - 193.215.57.193
+ntp: 162.159.200.1
+mirrors: [db.debian.org, jenkins.debian.net]

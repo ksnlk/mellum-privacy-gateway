@@ -1,0 +1,7120 @@
+{
+ "repo": "6c73b80a",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "conf/cluster/server/c28815c0.conf",
+   "line": 8,
+   "start": 49,
+   "end": 57,
+   "category": "Password",
+   "mutation": "comment",
+   "forms": [
+    "kqucyoxo"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "conf/server/28b5b2e9.conf",
+   "line": 28,
+   "start": 12,
+   "end": 18,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "mwbwao"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "conf/server/2d6ce576.conf",
+   "line": 5,
+   "start": 14,
+   "end": 22,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "rmhqo8ev"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "conf/server/32a8e48e.creds",
+   "line": 2,
+   "start": 0,
+   "end": 545,
+   "category": "JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJ7jFChQsWMrRGiSRHzuGwhNcBjwJExRND4GSZMJAHhsF.ftZusXmfWeWMYpXOOk8jI5WwWdduj9DJxUgZWvWOhhz9LOB5rPJyCypOzrSqUETUW8vtQ5jED1uyY6fYJupdrJK5Qfa7BbacPgC7HXu0IOOlx7TwZxM2fXEWREsmAfVgvSXqV7x8TUFtgbdYUjtiqjMETZ69qo7nmTvYexMjYSXsoh3xFDG2pKP7ZAJmjMLpYukRiXnxYmFdPdLnFYVtkEMnHsUnXNurDAS2SSHCsIAPXH3wDrRDtEO8bYDlZlT5kcEGQ8ubEREWcrzMP4YAzFe2BAISEslauQ43ArHoPaR7TfcuStreetMoSag4uNaam8IsKeo2jCubaG1SapA0OPTrLfbaF4GtFz8kUAUrOPDtQjRYBjrrGLmvNTmixRB6FgWpspPqLKLjtmopZGVNHvc0vZ7.QBiPMjMIMY_balsfdzilNLMVg2tATABzbfx7s6ExxpkB6tnBkliZfSp4JE3fOUg7nk4ENJ7Emn24eTHGKBGLGF"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "conf/server/32a8e48e.creds",
+   "line": 10,
+   "start": 0,
+   "end": 58,
+   "category": "NKEY Seed",
+   "mutation": "none",
+   "forms": [
+    "DEDBFMNB0TBGYBFXAUJTYQPJPO3YAZCJKBVZNQBMX2NMNENIZAQICHHDFC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "conf/server/3342c78c.conf",
+   "line": 14,
+   "start": 12,
+   "end": 500,
+   "category": "JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJ6kLQpYqFPB34gFELwlJpgKfSLIyr7EuQ0QCfduljhoH.grGymKacMbNnKpQzkNWizMV9qFiNorP3MEZyReULqLbIJduVXSToA1EeC6xcFXRcVKtseKAsXDmaKiezPlaliCB4SzssSkz5LBy2TxDzGBBwn9EdNtP8Stq3WqJguMercyZ6BXv6DB7uSENIf33kr9J3LY0aXVDlAXEsIVsLZ9oQXSRdIQZYOrfaaUuRRSQxTdj6I19dHoD9eY2xLjZXGamma5LvOzccsCu4fdHbtCx0kD2aE79aHXBam5uIzNQmZMPZIoMENUJgKqn1CSFlv8NaxpudCO4KXaD5ndX0W5yySYPcKg4BAuk3GhN8FZPrYsRYJgLSS4NfmTTaMlqmNbgGqDGmKoA1pO.XlhWW0UgKvmQjXMYuN9uLZLomq1RWkcf8lSoQn9Jobht6RxPRP0-Vn8gAg9GjsNj6qIHwR86bwZJSBH19iY5Vu"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "conf/server/3342c78c.conf",
+   "line": 30,
+   "start": 61,
+   "end": 741,
+   "category": "JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJ5iFObZrMbwjHxAKUlnRiiXdAhINbpTBleAQW5JXWmeA.vhEanHatFjJkMtogABU7NkBBMIAMPcFoadQfT8lpLZTLJtjYUwGlfgtTRON4MJHnmQm9GVClNSBqDfx2OkiuxLR3Jvy3VjgqDTn1JdkmIYVll9VxNmWWlBSSCwD2ZwBREVI6nEeePQekFIpVnnDgIL87ZVg5F2TKI2mcJIXTRUEtGIt4wZwERwP8atP3YTWzBlHerKSoXkUguGZaYAWyjDGcHzZ2XRUPUdk3X776IvWxRYiXVnWNQIYkd8FdK3WnByrdhMc2fgjqwlwrff9tsW7cDoSet3kUCXYkSeEjTiduXXriSellQTwMnVe7Mtt1KoRfMIEbZb78RVIfCW8tZfraFSixQjOECA2HTKF2WCazRto7afenhJUzCv50OOLDYLpDWVmFFekjWLotBXf2BSRDJ2dJPgi9tkUxDXBtE9jIXkrbJRcjIEJOgLU3VIH6YPS9S9BXZ3pCH2cbEhWuWKDUd9BLSah0QeW3BkW8d76qRdW3FuB6r946LGH1P8bLEqualD9fxcsmEhOmBcZAa75errTnHdp3hJ.tCgJHGnOBUXo5G_FunBABELz7CNFv4DoBj29rdP9JuFRahsnDIDRjWCvOF32epWLpMf1ALwmYzBusXpzshwZKj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "conf/server/3342c78c.conf",
+   "line": 33,
+   "start": 61,
+   "end": 1085,
+   "category": "JSON Web Token",
+   "mutation": "b64",
+   "forms": [
+    "ZXlKNGJPVXZDekZWVEpNc0pZQWxkVmpsRXdHYVFXcWlCVlp6T05Wdng2U25vQi5jalplek50c1l5Wk1BSkhIalRXS1lJU2RWYWdidEt0MEU1VlZaNnQyU3VQV1ZRa2x6eVZ1WUZUTHdNZFNSdUdpUGlUclcybVZXSlFkY2NraEJud29rUEQxUmRjMlhKdTNLaW1sVXlPNlBBVWt0OVV6TXpGbGx3RUVFdlBPbG8yaHRnZWFWR1dqR0NXaVpRN3pVWms5VG9yYVBOb3ZhR0JtWGpKa0QycXNTYXF3QkJtOUZtaEFEb09SQ1FtQk5QWWlDYWRSSmVabFd5VkxnR010WUhXZm5FUGtBZVFDT1ZhZkp5RmpKWTVidkxsRERMZnFGMXJlSFhrRFYzUHZza2lZRFRPNVMxWHRJUkxSeU90MkxNSkZUSjhOQXRhdVJ3RjV4SU5SZFdFakx3aVR4TGJmSWduaXRlU3BFVUFGSGhyNVhuVTNTalhvV3A5OURJWmhSNTZ6UXNwZlpGdG9uTU1pcjA4QlV5VjVPUkR5T3VrdFcwTEtLV1R5R3Uxa0pVV3hPSzdVVUFpYkRmY2RQUGl4RzhDNXlDc0FZOVFZTGJ6NHdsUXFBRVVybjNvR0d6a2tMcWl1SXIwUHZVSjZCREhtQmVtTVNhNllJUnJhazhYTlJvYTZYQUEzVUp1dVFidDJDWE1qTDc0bVU0OFdXVFFMYXQyYUhpTDVHSU8yVVdtOVpBbDZYTVFxVzdNNUlCbnBReXA1UVVNNVVOTElxVHJpSjNzSEYyUjFHSHJrUFlaVGJZQXBQaWkyQXZlR1VhVzJzMjBwUXBaNllmVDVkNzg3V01TNVhWVjBPc2xkS09FTE45VkxScEp2SXFTUFYwNjNZTDVoQWFyOGZWLnpac1M0RHVlVFpLel9rQkdBTktqcGpFNjlLVjAtM2RPX2c3TlJDdDJldzBsaWlZdi0tbnZWTHpmMXdlS2F0RmRNNDRVNDhpZ0R3djc2bGpWM2RKdUVq",
+    "eyJ4bOUvCzFVTJMsJYAldVjlEwGaQWqiBVZzONVvx6SnoB.cjZezNtsYyZMAJHHjTWKYISdVagbtKt0E5VVZ6t2SuPWVQklzyVuYFTLwMdSRuGiPiTrW2mVWJQdcckhBnwokPD1Rdc2XJu3KimlUyO6PAUkt9UzMzFllwEEEvPOlo2htgeaVGWjGCWiZQ7zUZk9ToraPNovaGBmXjJkD2qsSaqwBBm9FmhADoORCQmBNPYiCadRJeZlWyVLgGMtYHWfnEPkAeQCOVafJyFjJY5bvLlDDLfqF1reHXkDV3PvskiYDTO5S1XtIRLRyOt2LMJFTJ8NAtauRwF5xINRdWEjLwiTxLbfIgniteSpEUAFHhr5XnU3SjXoWp99DIZhR56zQspfZFtonMMir08BUyV5ORDyOuktW0LKKWTyGu1kJUWxOK7UUAibDfcdPPixG8C5yCsAY9QYLbz4wlQqAEUrn3oGGzkkLqiuIr0PvUJ6BDHmBemMSa6YIRrak8XNRoa6XAA3UJuuQbt2CXMjL74mU48WWTQLat2aHiL5GIO2UWm9ZAl6XMQqW7M5IBnpQyp5QUM5UNLIqTriJ3sHF2R1GHrkPYZTbYApPii2AveGUaW2s20pQpZ6YfT5d787WMS5XVV0OsldKOELN9VLRpJvIqSPV063YL5hAar8fV.zZsS4DueTZKz_kBGANKjpjE69KV0-3dO_g7NRCt2ew0liiYv--nvVLzf1weKatFdM44U48igDwv76ljV3dJuEj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "conf/server/5f039f34.conf",
+   "line": 5,
+   "start": 18,
+   "end": 27,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "T8bG2au5y"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "conf/server/7f0ec905.conf",
+   "line": 21,
+   "start": 12,
+   "end": 68,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "TC4LEG15QME0CM6LL7VQDYGPPQQRCV4B3WVEWH2ZLBZMFZQKCDTUMFFC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "conf/server/7f0ec905.conf",
+   "line": 27,
+   "start": 55,
+   "end": 111,
+   "category": "Key",
+   "mutation": "stack",
+   "forms": [
+    "MJHROY0Z6BRQ3KVQL2GF98JGQ6NONTP3SLY1MOW4GECJH1R65XTI5PT9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "conf/server/7f0ec905.conf",
+   "line": 37,
+   "start": 18,
+   "end": 74,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "VZWX99BEL4XPFGNPODHGJ0ICIAMHZEIJF6DE2ZWNSOWGZNBDG1XLLGKP"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "conf/server/7f0ec905.conf",
+   "line": 42,
+   "start": 16,
+   "end": 72,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "SL7HWFXGSW3EU9LUY4PAJNE1F7PHEOAFVS4PUA1W07HLFH5RK90DXQIF"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "conf/server/7f0ec905.conf",
+   "line": 53,
+   "start": 51,
+   "end": 107,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "LE1DKVBQX9DANNVRBFTHWMLADXSA3NEQX0Z4HF3P0SXOH3WW13I6VUPO"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "conf/server/7f0ec905.conf",
+   "line": 58,
+   "start": 16,
+   "end": 72,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "ZP25YKYOL4NATFUD0P84ARA9OZ2WGLACWFGOILRQBWZULYH9DRL3BIDP"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "conf/server/81102334.pem",
+   "line": 1,
+   "line_end": 28,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8EgBVSviAIQFF",
+    "ezUMfH7wYlZ6WioZabIB0+TrdN3L+cORh7578Yi5Cu8FTLUwqQEXcCXri9paXdlw",
+    "BsD5oQYrurZXozfvAdQTn2Zhi6MhVwCQkqQNNH27pjxBru9bMKBFilr07T9KYYjZ",
+    "KKVy3EV0BJnZu+Tm7jnLrM5XIjYa3zgxyHJPZjIa5GGlrGqU2PLA0kJXxneoNwWW",
+    "cnC07H4vi68vpC1v9tPn+q4xXJiGduVd5jYJkYmOBhbm0i32EqY2fUbAh59EfN8l",
+    "hq8diyBZ2rwo6yLegDe9rJc5+j5T03maza0OTSZ9i/vY4BT3+ASTQr4yoVs9kkUX",
+    "1q5X3YQTVbhivhtQekmLtJ7EbOhO5aH5d+1FP2Crku6Z133fQZZef8uT2GLUJK4T",
+    "7tZyeh7pLlaEtmj7bn2iIrT8yQurLycmiAgJdSn3IoxcCnrOaKqf6Yc1wri04HRX",
+    "yqu0DiJKXbGPvFqly4MNEDM3zaWI9XFcxf2CZkBdQTgIAKxA4+vlZtKFUSa80EaW",
+    "t44UnimhItXgntjhaLi5fAXAJG5rV/u+Pcqjgwa3i0aIuwCiM6NX6sv3QJiLLMza",
+    "vF0u3DCSVJZPQa3bXY/RwlodBYomVb5Tg1ROBOkuwv7jZ2UkJiqzBkmyuZu9iTsB",
+    "3465BBwY50Y5I27V4yfGxEATutVNXACKBkf8vDMnVMdZmLvf6WlvtFeKxOSZgD6L",
+    "7aNMFef4xJmppdzIxGaonOi/0AXulYxSf17lGK10jr97awaKRpeU0H0PWllf2j8e",
+    "fA1INOUVXhJQQQ8btK4iX3ey5zUk23oyMil4T/6cEtWi4WPsitH1pn7GLE+HjLzo",
+    "Ni5PT7eE9pV35cOfx/FQ0LtKSD1leGhX0PFZNlIXO1RLqmXBa/cIjYkqySYslcQv",
+    "X/gn2TPszwTtyfvRAyTx3nRa5s3IA/sdLPtsBSWSEK2rdoUDJ4/Qqn98iYF3Rl3h",
+    "vvSMCMoziadkbnT0f4vzVJ2U1y3OIqgS3KV4r6HRzyskYJrBJj+MfJjqXv4DOjj2",
+    "kYHIkAKK+HFHHmTP4/qlgw8Z8jshC26ngIAZ4fG5Wt1Q7eR6aNT2MwQ8a5KeAbZg",
+    "yaMHeM81CILBQ+UvzfAGAXG87P9eofs7ebkt4HHbrqq2NS/cgQP+S+z38FXBpJkm",
+    "3AKygPFrBtFm+IdaOZBjksR3v6pf5JlfhrDjX2nZ69gvxdqV0ZgvH+MMEggKLXbU",
+    "Hy/THAqr9UeE1uN/jt8Y9reI98nBczbWA8CoUa4g17rS2T91tvbGTCFqJIxSMrVl",
+    "HGeT98y7v/zuVvXLHBAjsIB009EieKaodA1hnYGMrcfx5ryj454tutqFg87tXpSn",
+    "28TSdsL7Zpad8O/4DWPA7ESgno3uBtz+02HuREp4VkhcdfaeWZM3yjZQ5jMEwUce",
+    "Q6g5B+KiWLgDVoMXEb33PDsgon4EneL5UQ/SnK+RFqr/DL8i3+Kk41KiJjbO6fwB",
+    "wyNdo7XeZ8IKPsV1aF3meb+hmCgyNItqGl+XVzXhM7s/bnXlL0FnkG3OZcAqg/YT",
+    "NoO63Xk20VQFd+uyrT6G6or4"
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 17,
+   "file": "conf/server/87cecf4f.conf",
+   "line": 29,
+   "start": 18,
+   "end": 27,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "E2rV3et8k"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 18,
+   "file": "conf/server/893086b1.conf",
+   "line": 20,
+   "start": 29,
+   "end": 39,
+   "category": "URL Credentials",
+   "mutation": "rename",
+   "forms": [
+    "iav_leader"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 19,
+   "file": "conf/server/89847e4c.conf",
+   "line": 4,
+   "start": 18,
+   "end": 74,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "HLVKEPQ6OGIYCRLVFMLOSRPSQ1FNIMKN8YC7WBZ91DZSU2SYENJ380UR"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 20,
+   "file": "conf/server/89847e4c.conf",
+   "line": 9,
+   "start": 14,
+   "end": 70,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "WQ8KSUG6OY83EBUKWDL8XI4KZ8PUICT6O4PTHY22LN3G3VBEYTXA8IHA"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 21,
+   "file": "conf/server/89847e4c.conf",
+   "line": 11,
+   "start": 21,
+   "end": 77,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "MPMGJZVM6IM5H2VYEJYJ0C4B0EFJCTDQNSJV2PLBKOEHPMQBAU54ZE9S"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 22,
+   "file": "conf/server/89847e4c.conf",
+   "line": 27,
+   "start": 30,
+   "end": 86,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "JY6QJTJYTXLTN5OYMC589626W4WXK3QA9HPBSVKH9FNUG2Y20LHLAOHP"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 23,
+   "file": "conf/server/89847e4c.conf",
+   "line": 31,
+   "start": 21,
+   "end": 77,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "IWNNBWRCMV0NACI5CVING5MANI600TPGW64QCNGORQIMRMY6PGXW51WC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 24,
+   "file": "conf/server/89847e4c.conf",
+   "line": 33,
+   "start": 14,
+   "end": 70,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "HKKNAV83L76F0DWMYNSVE5JBU06VDRPZB7NJ4SIBEG307VYBY7Z4RIAG"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 25,
+   "file": "conf/server/89847e4c.conf",
+   "line": 50,
+   "start": 16,
+   "end": 72,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "CJQACET5FCZGF5APX5Y0HEY633893AULBAYT3P8A66LJAPOXLPW8VEFY"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 26,
+   "file": "conf/server/95b298e5.conf",
+   "line": 31,
+   "start": 26,
+   "end": 33,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "tjeholu"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 27,
+   "file": "conf/server/aa0abde9.conf",
+   "line": 4,
+   "start": 11,
+   "end": 19,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "xonyq2aj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 28,
+   "file": "conf/server/b406db25.pem",
+   "line": 1,
+   "line_end": 28,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDc8YaxliKNsa8M",
+    "VALctrrr9Hy1j+Rz4tiA5o/au9meaZFwI7b5BzbhDbrsM2Mvb5nexFhzcWD8IQ1q",
+    "k9W2VZeLg2Xy4HVAM4G4X/Lba6Xm9oY8KOxpPqHPAgf/OuWu6a7OQ1ot5qJYmlFa",
+    "G4PUmqyLW04TaRl284uylmYnQv48F7Jb/6Jh7I1cOhjDvDsEDQC4X6FS9xjZX1UJ",
+    "5HxBv7OP44AfG7VkOZjCtIFGxzPnHoLubLJ3NO4/31eZL4XEIf1x1P5afZ++YUI3",
+    "UwlxBZyK+vrorvsHKLRhpv6CkdYC81QsTmh1KMXi/o4yDzDy60lCnA0gxgbVGLBT",
+    "aN9wd8SLZZLcfpuVOTdiULl7IGH2C9ym5DmQwCdbfGoxS737V7FeqhhATOJqCeKs",
+    "W/Dq1L8BuGOzSGbdHggfhAE/9nOcboodhuCEGcEowrVdMTAweFnbAiyY5JhQOuba",
+    "fBROCCM1AJ+Yam33GM5BUlPpCMH5bTKeI7a+QbxuVXOsqdqXLVKWxSEKdHGDXgF/",
+    "B+fIYb6EEp7o9nDHFpzNLZTNc1RQsZ+C6DyFSlHsqNi7FgYa9prjBkwQqp3RW118",
+    "/qA/tzIasAQfjorpYY8p4QZ98uZ81fNs4ZyVerq95v7rPuboyIeSL5HKItkhrrow",
+    "Zyc9UUHH6sh8lwq4+h6UQnNUkIf/Ig16zoRojThdguFvuxZ/AQZnxj5WZfkYqV73",
+    "jfJ8MA7iyyuVCN5VBAMsJ6XFZSwYqhbhv4XV5XGAVI8Sr2GXFBu66Ah7GoE/HcM1",
+    "E/4Uy/COBiDI6CrfW4+9f7eKhqJSdLrh3oqjJUCrvClW8hK8osOUF20FDCzlI/9H",
+    "VrpQV3zhPxz0Egk55DuivkBrYGtdoErxyJiRWg4e5SWbz6mvcG0++dmbxAaSIVvB",
+    "PedyyBRVYRO7S+MPMeECBRbGZ2JNc+26CjWQMY5Qtw5KlIW+PmnnuYMJfEo8fCNk",
+    "z+gRd9+medpugQQA2KhMZrV/YV/6FyFrTtkbrk1fERbaRyo5BVqJiwoIlP5iPeTB",
+    "Q2xdTa1h8SqNjSZqnpIzTRQD1MTDKM3um2DRED7NumbIT+tsrBNV08/PHLgQw7Jn",
+    "Tm8vH1RZ+Iv+WDltBmSk5Nt7DNH12Vr5PcdcwGyGa/lnomiVsLbU0jEa+Mi8Za4Y",
+    "DJ0je+hJtM0hWf4rgCos+AxxnOV8+5Yp/Gk5BhAlqGz+7nc+qEvMUbtXLbGjVzIj",
+    "Og7JtzdGlH3aFdK5JNm4khUj24bKzB5ybJQm3P5/IAhn4bMS9oGbZU+H6IcgoMKA",
+    "ljzVHxGLpY94Sp/RnYEkV7VepUvkcvgj44kNkC7cW1LtmlONy20MYidnMtn7aURl",
+    "grON5vWQ9IgNSDqitSvfcldE8WOCfyLtRTq91suIMjR46zwPRqvKhHcxMPh0t191",
+    "XPHteRdbZCswPMZ1hRhM/CwcI4yTBUIwCW3fqabJHKtRN4XrxQ0JGvIW/iQ4uAqz",
+    "/92DxTYpPE70Y1G3LrwFOm4oYe8T6uREtFHeygYWKz/wy0ZCaFw6dz0P3agS9xbZ",
+    "C1M+4IBX+V/VqK/PuC4pUu=="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 29,
+   "file": "conf/server/c2c3c972.conf",
+   "line": 20,
+   "start": 46,
+   "end": 56,
+   "category": "URL Credentials",
+   "mutation": "comment",
+   "forms": [
+    "aro_locate"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 30,
+   "file": "conf/server/c40385df.conf",
+   "line": 4,
+   "start": 18,
+   "end": 27,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "S8mP0bo9h"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 31,
+   "file": "docker/server/10d446a0.conf",
+   "line": 15,
+   "start": 37,
+   "end": 46,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "D3mN8zr3v"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 32,
+   "file": "docker/server/10d446a0.conf",
+   "line": 18,
+   "start": 14,
+   "end": 23,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "Y5vR5dt1c"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 33,
+   "file": "test/1258dc58.go",
+   "line": 1163,
+   "start": 41,
+   "end": 45,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "down"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 34,
+   "file": "test/1258dc58.go",
+   "line": 1174,
+   "start": 43,
+   "end": 47,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ibpu"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 35,
+   "file": "test/1258dc58.go",
+   "line": 1188,
+   "start": 49,
+   "end": 53,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "tpxv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 36,
+   "file": "test/1258dc58.go",
+   "line": 1198,
+   "start": 53,
+   "end": 57,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "kana"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 37,
+   "file": "test/1258dc58.go",
+   "line": 1408,
+   "start": 41,
+   "end": 45,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "iltq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 38,
+   "file": "test/1258dc58.go",
+   "line": 1419,
+   "start": 43,
+   "end": 47,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "zykc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 39,
+   "file": "test/1258dc58.go",
+   "line": 1433,
+   "start": 49,
+   "end": 53,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "tyxy"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 40,
+   "file": "test/1258dc58.go",
+   "line": 1443,
+   "start": 53,
+   "end": 57,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "uzcw"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 41,
+   "file": "test/1258dc58.go",
+   "line": 1477,
+   "start": 41,
+   "end": 45,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "pino"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 42,
+   "file": "test/1258dc58.go",
+   "line": 1488,
+   "start": 43,
+   "end": 47,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "bout"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 43,
+   "file": "test/1258dc58.go",
+   "line": 1520,
+   "start": 41,
+   "end": 45,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "flug"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 44,
+   "file": "test/1258dc58.go",
+   "line": 1532,
+   "start": 43,
+   "end": 47,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "vjaq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 45,
+   "file": "test/1258dc58.go",
+   "line": 1544,
+   "start": 50,
+   "end": 54,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "rhye"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 46,
+   "file": "test/1258dc58.go",
+   "line": 1550,
+   "start": 50,
+   "end": 54,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "ilwq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 47,
+   "file": "test/1258dc58.go",
+   "line": 1707,
+   "start": 37,
+   "end": 41,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "vhdj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 48,
+   "file": "test/1258dc58.go",
+   "line": 1718,
+   "start": 39,
+   "end": 43,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "fiti"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 49,
+   "file": "test/1258dc58.go",
+   "line": 1731,
+   "start": 51,
+   "end": 55,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "hfzs"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 50,
+   "file": "test/1258dc58.go",
+   "line": 1751,
+   "start": 55,
+   "end": 59,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "dylb"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 51,
+   "file": "test/44141ad0.go",
+   "line": 565,
+   "start": 32,
+   "end": 36,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "cutj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 52,
+   "file": "test/47a228cb.go",
+   "line": 37,
+   "start": 27,
+   "end": 85,
+   "category": "NKEY Seed",
+   "mutation": "comment",
+   "forms": [
+    "YMVAWRHMPILDXJWXZATD2J5JP3BARRA4UYBSABKY8OP8MIB3UGL9ZSQ8EK"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 53,
+   "file": "test/47a228cb.go",
+   "line": 40,
+   "start": 21,
+   "end": 79,
+   "category": "NKEY Seed",
+   "mutation": "none",
+   "forms": [
+    "STAGE6JAFBV2CG2UKCWTLAU6K6QNHMHMISIEDFCDQWBHMYWNAKXP72HXUM"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 54,
+   "file": "test/633f9ac2.go",
+   "line": 77,
+   "start": 14,
+   "end": 21,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "e1sp0v!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 55,
+   "file": "test/633f9ac2.go",
+   "line": 128,
+   "start": 9,
+   "end": 15,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "fxqlvf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 56,
+   "file": "test/633f9ac2.go",
+   "line": 180,
+   "start": 68,
+   "end": 525,
+   "category": "JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJ8oHEmPaZYhLMwWKReiRrnDmIegeT9NGU1Yw6.xfIovKejTnIJQgtaUesZX9kDS4s6AAtomic4HQujTJrUpIp7UXP4sicjZ4izVkCKXXZ7EwHEPCyFIdcGZnrmkZJ2JiprDAG4LbC6EeW5JGIfp1ZlLqLjsQ1TYheKIFtNFHXAPASoxxuPGedFZNQ6LNArKBKQPxM2M15uApRNcT1lUYs7JON5x1QJZhowYwJxNyX2IxQ6NqLbZeRUEO89WRyWEypmUrg8M9uZPBh7S3J7z2MLotsDGYXJcdr3AFPWtROpACllWcr7aFeiT2ToLdopbXgDFUZ7ToyXg8bVwadpWDQctamSAtx1ViPTXPSSxuP3g348iY.0r8mukYCcGf41Ar04TfHyRtNJ0LtKys5cyD3Rs-2u9hIHEXFdbnWIMYkzm1jMLJag-xW0dNvz0XMQgVD-m6oIE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 57,
+   "file": "test/633f9ac2.go",
+   "line": 202,
+   "start": 68,
+   "end": 525,
+   "category": "JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJ4uNJaKjACsfixMMPedDeaZuZcVcs4DwF8Gm0.rkMwzFpbPwMYUYT5J6rkkTBoatSQt3zSewXTwZc2cpsWMPETSRY9NdQuKSL5olSeXHY0e9rIB6qGnTPpHjybnCL7Xsn0EDO5QBV8TLt5WQOft1QhJtRSJTt9HFDVZ2GUT9xnzYKmuraLNzlqMeG2zTh7OKCiW5rtLYVaVzATjNq3sGrwyRd0IUDgTuQ7RZQeAjN1JvJ0JypcSWnDLzDpLpzrSncYLpV5wiNNv6TxLYS5L1QpWV7jgECTWRRaqtTHtClxpTfeJcG8AXNIB1qTEgcqIddMZjS9Keeling6u2UmBRE3CL1eFhn7OpYyS8szMtZ0e499pB.0y8migKPtHr08Sg71HrAaVxFJ9DoMya7lpK4Hx-0w3oOTXFPuhsKWXAtgw6cNFNlh-kI3iIwb1UKRyXV-f7mGX"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 58,
+   "file": "test/633f9ac2.go",
+   "line": 253,
+   "start": 32,
+   "end": 36,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "nfqx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 59,
+   "file": "test/633f9ac2.go",
+   "line": 274,
+   "start": 31,
+   "end": 35,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "zrst"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 60,
+   "file": "test/633f9ac2.go",
+   "line": 305,
+   "start": 70,
+   "end": 74,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "gupb"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 61,
+   "file": "test/633f9ac2.go",
+   "line": 325,
+   "start": 49,
+   "end": 53,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "bvgs"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 62,
+   "file": "test/633f9ac2.go",
+   "line": 376,
+   "start": 33,
+   "end": 37,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "hvlc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 63,
+   "file": "test/633f9ac2.go",
+   "line": 417,
+   "start": 33,
+   "end": 37,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "wuqz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 64,
+   "file": "test/633f9ac2.go",
+   "line": 461,
+   "start": 33,
+   "end": 37,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "inbm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 65,
+   "file": "test/8bf97fa3.go",
+   "line": 173,
+   "start": 26,
+   "end": 48,
+   "category": "Auth:Password",
+   "mutation": "rename",
+   "forms": [
+    "WD@$0q(c8(l@rqNEgz!7^%"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 66,
+   "file": "test/8bf97fa3.go",
+   "line": 209,
+   "start": 21,
+   "end": 43,
+   "category": "Auth:Token",
+   "mutation": "camouflage",
+   "forms": [
+    "5qlFRVu2QE3xsSlid^U6zh"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 67,
+   "file": "test/client/adb4a090.go",
+   "line": 65,
+   "start": 19,
+   "end": 79,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "$2f$41$6rABGIP7nJQzT2dXmhWsUEy.GvVsH5a9XwZwPep07kmIfIgeop7/."
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 68,
+   "file": "test/client/server/e1e39b80.go",
+   "line": 1685,
+   "start": 17,
+   "end": 73,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "NH5JPHKTDS9MJ7COW7VTJSQ0O5VCMLVHBK7TFF9F27TIPU9OR95APVFP"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 69,
+   "file": "test/client/server/e1e39b80.go",
+   "line": 2139,
+   "start": 50,
+   "end": 54,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "iibm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 70,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 241,
+   "start": 37,
+   "end": 45,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "gjnuwofb"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 71,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 245,
+   "start": 33,
+   "end": 41,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "yxkyuujd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 72,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 276,
+   "start": 47,
+   "end": 55,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "kpvrsjyf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 73,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 281,
+   "start": 47,
+   "end": 55,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "lipqxwff"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 74,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 625,
+   "start": 43,
+   "end": 50,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "s4kc6c!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 75,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 772,
+   "start": 43,
+   "end": 50,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "x7eb3a!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 76,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 792,
+   "start": 53,
+   "end": 60,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "n3qa7d!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 77,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 822,
+   "start": 33,
+   "end": 40,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "x6jj4z!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 78,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 825,
+   "start": 43,
+   "end": 50,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "z0sm8d!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 79,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 876,
+   "start": 43,
+   "end": 50,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "m6ey3o!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 80,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 911,
+   "start": 43,
+   "end": 50,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "p2ya8a!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 81,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 962,
+   "start": 43,
+   "end": 50,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "z2ap0d!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 82,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 980,
+   "start": 53,
+   "end": 60,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "q8zt8z!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 83,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 991,
+   "start": 53,
+   "end": 60,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "v0lw3j!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 84,
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 1034,
+   "start": 48,
+   "end": 55,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "p5hy4j!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 85,
+   "file": "test/conf/0fd3e5cb.conf",
+   "line": 4,
+   "start": 12,
+   "end": 19,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "t9ey1o!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 86,
+   "file": "test/conf/33d9fd63.conf",
+   "line": 18,
+   "start": 12,
+   "end": 18,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "gopdyr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 87,
+   "file": "test/conf/4c790ff2.key",
+   "line": 1,
+   "line_end": 27,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEowIBAAKCAQEAryLkN/zX+4q1I2Hv8odAA/ZIqCP7MHxW08eCWHYIe1iN0/tF",
+    "xfj0k5ZaEivZZYnCvASXjmx+zi+un6Acf99KrGiJkowuWDffo0VeuhPy1K1+v2X1",
+    "lIeIZE1DQNlfBAWT58jjSa1DvtLgYo726D4AXmMKSoIGW/pYtliDpnNPdNTFuiEi",
+    "XgNf/P27rZCBY4qowMEVws6KbJANByqyfuB3ZjCHzTxulzu6ZbxhukBOpuqRYaBc",
+    "Ryl31e45vF4QOQMSQqn6oNBuMAWmIQ6kIRvdhuzSj5WOhRixJwdbhDyAQ4u4OW9M",
+    "AvKiiJxazppN1wfgrxV/3uL7PMFpJ8+zuNxmTGUtMFruSNwsDZtLwutJV6uV4IIB",
+    "Ugj6AHeOu13QupYCyHT/imMkI5I5oN/7EeK4bWuRRQDdYYr1dfdEH9FmY4xLpewB",
+    "rf5H4sgtmF62BXdvOz4OdRMTqIAJrLv1qr0l4YJ6mp1ZExwwdTA9TK3S9NsLz3OC",
+    "7xR2RggpNzQyG0OUYeZF9f03HMgV53km/JPllY85//gW6Fntgrei62wiK7jD7vtg",
+    "KZdqsaYdopxc9NFQ3L1wt6tbJcn0mqVZ8a0sPuJK0xmvc1F5d3XwtiB5/cx8nrHK",
+    "EJkT4YaAPWNJvkjKdeJR1/Tohiams5jWv/r8hOp8EXfN0WXJJ1pssrqOdXCv6FTW",
+    "fu0ksosbplODTJAS6yWasw/BHmdCyqNIdMZ84anhkkTZ5jbTrWZfKaJWGEhE6PcX",
+    "vkRqgRhVZ8wsKsEvShI8k0ctrtNzMJdUPwro8R8rO053++ZWopy3leftaLU54IaR",
+    "KY9h6PVhWjQa3LYEc6M6Rj85nKr+l+s4wEqEFVvdRkfSyzYPj+fRENo6fcvXubCe",
+    "Ubvmfv+Vfr1fQdwNSC8iq7Yi3lCA1G5uIw941JUmb+y4oAfMBqHPu/gLStjyMyZx",
+    "jHcWvVO/uU2BqhW/i+Y+IgXO66sls1zbXqvCLxNrWaEoefVjBO9GgejhG+ALHAa4",
+    "NJQq3FPjbA88jattBzB9CwOFiZMcsSzHaxV39kZUndhnjqKGM7LCfS5aQt2Y1WDE",
+    "sRuMnKQOwUkQWYgIiZVsFwSe3kSvQlFEL3DImy/AN1RdzESCUceqPmDr4gmoqgxB",
+    "+YO9/vRvh6413slaYE0qQHGnFGj6t6oAOhKtGznvVMohg9kXUAQzd/QOQIOiXxXM",
+    "tqi5hXT8i2XJFzK16Ehh1VfmnCWSdM9Rr2mfiJwSYIzlLq1oB8kQSZkpLqcJuEZq",
+    "bbvbGzrRF0ulUH3pmU5NfPrzy8phbbdShQYECfVM7y64gbV8OcfKaaniKLzkPBMU",
+    "2T/8MnT6BVy5wN40Rd6cvz3+mqGiUocmZX7zf8xsi5Piw5R0slQO624DBy3ClxZf",
+    "whSxkLMxAYAyMfTbZExJM2TLaXP8A/13gX/7/8zYnTp7Y8bAuGruY1HBeXn8KiOX",
+    "AmzGS1mE95LvResr20N86u+aQPYHp7pqsO0OzAys9lvfEoWZYiKnDg1vrTpQIxCu",
+    "AIJGFH2yTEUYeJTMb7nERzzMRcrsbbztWtsL4/RijDYAY1ql7z+p"
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 88,
+   "file": "test/conf/924a0284.conf",
+   "line": 13,
+   "start": 14,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "F1BE7ck1S!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 89,
+   "file": "test/conf/9f7a2e57.conf",
+   "line": 22,
+   "start": 64,
+   "end": 521,
+   "category": "JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJ4jJLbDiAtOuypQHDpiSgaLoSjUuCjNoj9Kq2.ueFfsMecYpIQmVS2HeKTPkr6K5C3FrHrmvJ3hM7sQfQQgvoQFzTqB417H0X4FqmOK6QgEvShZy7wzDQwMrwysQJ8MkdqMHlnHAF3PSZvYSIju3QcOgR1AMZoORKvG0FfR5GByOLbFJIFbYkGRtCuHmn0NTHzFYfZQHVlXoaAWdz6YsfwXjQ2SOAxXPnuTSXhGgP7RjQ3NcJHZgLFGhz2YObgdav3FARjlhYkGRShCTw6bGZAdQvFkKZPdImPJoExAYXeRp5mYRxwHd7ixIeUYzklH8CsEeT8RiMPTLzIBUghZSUBBiFaWpg1HcLgFnOnUbV4c405nS.7y1abnWPtSh09Nu71RdEnMnEI8PsRon2drZ9Do-1w9pJSUWQtuxCBXDebm3aQSJrr-cT7iTvc3JUXqFG-n7vTM"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 90,
+   "file": "test/conf/9f7a2e57.conf",
+   "line": 24,
+   "start": 51,
+   "end": 508,
+   "category": "JSON Web Token",
+   "mutation": "comment",
+   "forms": [
+    "eyJ9oINnWqUKjWUfJHJnlPzuVgP4zDD1TIi1Kv0.wiKinVmmSnRMFWO7aG5mXhKDI9q5QkfadfP0Ilv6HQzBBxjwQGBBH9pbQgD6GuDtnjOEQMo6Uxg4FpLUCqjujQE6WdghNKd9UDk9VZH1AOApk2ZgDsEHnISbIrA8wOqqR9mPa4amGssQNNt4dSrtX1h4ieeGHLKnZMxkTLVoADZ1gOSkGtN8Dqx4TNo1zOZaKyA7NkH1Ul6sgqXNlIGxBVvmb0gvS297tuniBLoaD8gez8QTrZ0EV8FORD1ON6pWHJ9usoKunSEOAMB9iE1wChhpTS6HipN2IhMttNaFIVAeCPReUbLIGaw4HcQORcIQZLT6u191yE.cnyYiAfc_NSSeiaYCZ9BzGBoQxMb3FVlLQHLTAGsal6-rUH0t1handle6hlAjrMkWjiJ4RBx20pLRa0tZlo0Vg"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 91,
+   "file": "test/conf/a0ebfc5c.conf",
+   "line": 20,
+   "start": 23,
+   "end": 33,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "ohf_oyocop"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 92,
+   "file": "test/conf/b78f1942.conf",
+   "line": 12,
+   "start": 22,
+   "end": 32,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "yzj_inrcxc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 93,
+   "file": "test/conf/b78f1942.conf",
+   "line": 21,
+   "start": 23,
+   "end": 33,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "vpz_aetkvz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 94,
+   "file": "test/conf/bae09b47.key",
+   "line": 1,
+   "line_end": 27,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEpQIBAAKCAQEA3Lwx6CfD8xgTx/qHQicGSQDzuyrOEnILXl2cCZ5eL5IcYu5g",
+    "zYKyfIoTheU1IrY88p643xiFrnGWHp8GPa8Zqqh+GC0fZOcx5sWPuIb/DhfMrK1y",
+    "alSD6oJ8jJx8hWAlfIGEJVNiJ74koX+10VHYXmUSYr6U8HZUycGWMxJRJYkz53D+",
+    "vIHYdzF31/xeJk6C3Q+qkua4ZgSF7Rs1bBX7kSTyLUkqKx/QhnXCgc+Oo8vjkA7c",
+    "rtkN/bB7HRFb1BgDu9oRomJVowTPCv9/UQkfSGF1oXy/TiOsVlP9VPntEJEzq+ab",
+    "DYGoP6VhxsOVfaQq+zEtMACnSb5e+R9xu2GChKIrJEvtPNGLfeJ64WW9ljGT1DaQ",
+    "oW4wD5X0i6M7gIMzZ563wsdqiav5iOfqO+Jub/YcF/vLXZjKIC9UVFAMfp7iMjPK",
+    "EP/Y6re3R1SgPtcbbX/fcrLerCy5Yh6JxXaJMQFYjOvWPDmnmDZ+kw6lNoJfrarR",
+    "Q0gVpLQFkTt5MW69t0wS/5NDu9YkIuiAYh+IK2y1i8BBUgqFfPSbEj5O5dOPPM/D",
+    "6+J+2/53P+eFTHjY3yLXfJ9atI8oMQoTOoXSJOh3ZNr5pvZ/0FvpYzfenrchz7fu",
+    "uwE4Qif1yJkRIyJ4b2j9jULqSee5a8SipIJIOygcsERZnxo48/faDQFcOwrnSFzb",
+    "MBb+lL3xAjVlyL+GlMsX5p0DJPiG6cs71kPu4wO5O2j3MFKK7FR5SKBLtGIDmr+A",
+    "nzZJZ2SaqNLNpc2DVJVwxfwhDGuuu2xwXjchgQUIF4QEZbtKz13xLgwzQuUjuWis",
+    "Ig1ZYqvJT7ssfYTO75YIGf1T2dNB1kWat/Fl/kAsGUYoTkmnYWbgps5YqSCVFlle",
+    "Dt9UQ7yiQJEmapr2rNxUadSX1AwH//xSEPLGea0zJAMLNMbhAMSYANRQ1IbWMxYX",
+    "99ukTc8EADEmaDXLMsAqa0dQiXNjzjTARkYO4hiW8fpxQmtE+87MJBGY/mL8DU7R",
+    "vvnCw3I58Wq/XjoiiGHI35h25FoRKcts/oWoL4GNlWmRWWuzRChkIq9eWnTCVEnO",
+    "mOgYLn33JaNGQc55hFy1pGlk0wgHO4VWN3l54kqnicbk/eN0PIScasIFVH9Sv/Ky",
+    "n29AyIUqQjdLIQa2coPT+NFYPXtO6saSDQOnC8Rs1suJBRGND4SIJbQnmYURQ+4A",
+    "MMQ4h67GlT4Irjy6P242DDGtUQPyoi4Ow5J8traY+9rZlX4jcfXaHtxD6GCQ9X4k",
+    "Zo1XJ3GFj5s0GHM6ydbpZewth1PErOX593AJT8BxX1b2TLoqzf2cT1ft1MWuQ2pM",
+    "52tzfMpLrn1Zym7gQm/Bq1AHDj9MnJBKuiPVUYS2ECtYukWwkfYcgGEx5hMWnn2x",
+    "H01D3PRErQzLCDUuUAvlU6x5lEsnMZhrHbcMNrMKLEmS+PRtcKKBkoUjCe5T5SVO",
+    "/6Th27uv4F6URzCV01YyYnBQN0YhRP6u/tPjzj1J9ioBfb5/U19sQQwjhC5oOkTB",
+    "FFZhAUlnMTQD2acKVLWnQR8wqeehRrOgOT2flxUsuxBKam2atAkiW/O="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 95,
+   "file": "test/conf/client/0151100f.key",
+   "line": 1,
+   "line_end": 28,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDN+vpCDdvNX65Y",
+    "eveCXT8utGdjFuNnnanGwg86OnA0t63KyRY1KvalekqBMk2Cv+yFg18g+0127DjF",
+    "GwVeTmWu7vhTqi3ipe3x1e07rk1eAo33RNoA9tZCk8uQdKlb8HrkZvaxBW4xEI+R",
+    "HDbrYunwtnYyii/SLCyl4/QSPXfdszJmMgKblfk0OjGyOWxNHRKPirK3JKEpugT4",
+    "nfTettOHU/Ohtzuq4/ItbDXHAdgPWnuhuQ/Gn84XmaQ5C1xBosln5ZNF4L1/V+LY",
+    "1/2INjhite+kdBfDx0EablCILJIK0D7UJuLQsA5qgLeTk6afrwYshlTXB9pjMqaP",
+    "Hs7IurvCOKSOXVoedlFFddflt+pp5NcxAx/Xk5omlJZiOkHcp18Qu+nXCeJARVBU",
+    "2WI65nhVkt+BOhD5/nekq6Dhng6b1s4CuozHF3ULXbTeXiDbqkSPVRzmd7Gj8oFH",
+    "CIynetrNG55B1c2werrI1VwwaYiqrRF22Cq3SM2BbeEyQRxotZDFMw7AqPTmla7z",
+    "LcQ8mU5Ju2CR+y8kbL3HqzbxEVCZ/yLlrUKA1kF32fBzMWuZ61/1jmq+GynbvBwc",
+    "OLUuEbQBU3jNTNmqc3VgI/o5n8K/OuTEc0WHevnDdir/Kh/XhLGmtZRkna+sB6Ff",
+    "siQJtPu05ufEtuxH7RxoH68th03jNjDhCteJMNn5eKZptXRT0viYZS4UjCyj3SLr",
+    "SQj+M7+2UG0VwUKwrhuoHMz2sGs9XLX1K45wB57aa1KuQamRpkjT1x4nNh4cAy4a",
+    "/NhYWMjvtC/Y5lg1s9s5gW1yKFtRsmbsfeSxwa90693rKBfSBP4gPJkGn6XxDA4e",
+    "JwS+w9K9+0OXQW7XfBRVVpiQdO5RBBgg23zn3aoWxX6/+Qtv6KZTTaiSEtxvTwFf",
+    "lwERpowgcsmEPGPhMDcFR0hTso2F5cFKKZuR/FhMNQP1nPCmYC8JdrpY8BbBatlq",
+    "N3nejLElLxsKjWu16LFxr5Ae7Q3ARHuo24rjVT8m6RSLStLMv0c8UppYAVeXUAGy",
+    "HISmz6rbqB0uSiGYP4stCF+84CVTnExLiHTjNoFdKst2GHKA+n3ycQe3hifZ1VvK",
+    "E3HbqlcIFF5+l9oSheDgZRo1XDrIehxI4zJFeNlqGhfrIfuj1XZV6PZoWNkMWXye",
+    "RwVGSzEs2DL4JNymA6y4VCH5JEhO2pDYTbA2JG+d2pAlSRf2cbkg4y06iLarISvc",
+    "MS5IbrKM3TFCEoBo8zppgx/jjSNLy0E/lst8C2W0MD4K+xxAr5xSYNN/Ekxwj+jT",
+    "guu+3sKO8x+fqjo02n8fQytE8qo3IjQTrrk/RPVoK1B/ehmtQJ8UYPafyutx7v9P",
+    "wMrvkOIMPmuPBkZ0Rq90pSapQTyGcA7SjJNi8lhtGkHHKcU+SAW7yRtIymc+hlp7",
+    "sLS+KjvktKkmXPBRUKdTBGhsUhFjzEXZmMmnFuvqOsIU3Bx1awvXVbe5zCfrVZDG",
+    "e5ryaqBHvz1yehuOWqjeg1aV34zVEz1G1Lq6/8faJx9uYBVNZOmUkgmG+aW5CEaw",
+    "gpIaE6yUqe/UK2PNqt4O5M7k"
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 96,
+   "file": "test/conf/client/49ab3fd1.key",
+   "line": 1,
+   "line_end": 28,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDoM5mLXej/vHE",
+    "NDU50t9pPNR5MBi72Iz32XXOnQbHinCX9ampSW4/XzmU/1nKI5U4bTLZkzT+HZ7y",
+    "n+tYshfA7Th42/ZKUk4MJXKKu+0Kv6jy2ldjbayj5ASokza9P7tiZqn1YLTRlRdk",
+    "OfGLnrMb/24XRefv6b/FOFelaxUAhZEkiqS4LrTJhLuO5KXL79/xojFBavqapian",
+    "AkDIDsFXOqPNvsKWGz60ZWIM/vgiugySgK/Z+XL+rNS7gmlzFRWCktsfyp2tojw9",
+    "ifXtEtH5A8u1zjf3pbmLUFVsjobFKuXXK+3kLAdKdJFqtR7I3A1cGXeI3JAxoZq/",
+    "Kc+2Z6DBRyfGdoIQOBRoqDWQKXFKZsBrS6bSRPI5esT8r1Z5w/opEVTBTMiVul84",
+    "+HFQm25HW+N5Yg931lz1ps+YICcX/a/6HekHcNEZsitiRvKRMlIVTh0JOhViZkWw",
+    "HWny4xZ0PhHvh6S7YaT6OkaTk6QvceEqyRY9usF/IOqjZh3KhsHgl2iHx0eLpXzf",
+    "wUpdDBe6IFZ1JOSwKDcYOIYRxwvFcckSU5dZAa3tx4BsiLi5oM/N1AyIxKFtHrsH",
+    "yQF44an9NuLWCBP2Xph68w8j9xNwhOxAqFLxeYDdOjPD1yvXmFpmWLYcDisDIjmd",
+    "2knLcX/38HhtJhPKD0yu9FlFUbK+O17VMj/2aNrMYUihKJqPR4uNizRcMAmqvNyA",
+    "/+G/M6opsevKENm0fR/vIiaNeqOZ2NkU05xrVP4Kh4yb1zTBFcdnm5DkIWDMotNx",
+    "3ec0kRo4TxmHretJq5NQ4A5uIUAo3f4c8wpSIn7rI+JRAa7wSKhMW9jVc6XxEBZB",
+    "SD11DJhLZm7Yd0d7/5/apkq3GsrCazKqs+SQOOAov2lrIPu8LGcKEJnUBNt9dxnI",
+    "lB0Sdz6piLPXxRUF+w3W+qXJ1n38VcT6qwlzfGq8WYmuyE6FhFLd79wHARxV9mXZ",
+    "Uizdh0M4rDh2G239RhkCETe8jUm0Q5h5VyCyX+Y70UjGn2IZwiD/Wxh43l5s0p68",
+    "SGhGex1tQrDDXFZjWxOa222L2xH16gdb3SFUjil9b6kB5eDwB2wMtMtzzkA1h6qn",
+    "5I76vu1DKmgGMKMjaFCoJEGD/zF974I3/TJyPnzo13yMa5wsLu4/yPEyW9D6INcM",
+    "K49Cnrr2PtsihMFu6XKFkUfXmem3a8YxjQwl7/226j3JPZov8wNQcXBxERDYduhL",
+    "dg0XgDU1rzvpk6XSwxFcR27zQiJBEXTDUg1HkHKJw2aGMmJWh7jsBLlvaWKv6S8o",
+    "dGua0pX33GOGUcMPNQ9yXVtLPvlIcFAU4NQJQHLgFF3noElOkdYUQrwQ70lOc/Qe",
+    "VPDqZaHUWrIzC6LGrq434NO72MmpOBT0hTEEXl7JDccIa0/8X3wAJ2bBV3mAiWzw",
+    "VgVLFWXReIy8wSosGqt/Y0bqASMjeI7v4zKMY6IR6kPAGmRADZpVJBmv6H2tSw/Y",
+    "jS9OVvn6o7jQDxpDR7g6v901oDsbG/DXE8A+ntw3qnoGo+Wbj76nyKBI6cGWCifX",
+    "URX7HyYg8pHBbMCxRVnsJAx="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 97,
+   "file": "test/conf/client/5f7e2196.key",
+   "line": 1,
+   "line_end": 28,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDE74Akme6M6zQv",
+    "El99TIuUOVV1fSf7QbPQedqOY+ErI03REYpb0j+T8ZZxwTME1hzRcWgBpirs5dDq",
+    "/Ocye5yfqyjIHGphdIQ59e6eA+8uiATgQ/lgPLrJdXGLDITPrLukD1hPPQP/jmf4",
+    "x4R6ljKv+UIR3oMc6XL9OFCR5c2Kfyb+VEaRfzovHLrX5Mq2fDb7QmZMnUMB/dDp",
+    "9WyQfS+cgx6MclhZpouZn7z2C4nugIIxyu6HMobYxvHAeNxIrtWmAfs/AxZ01T9P",
+    "mTMHZU8/DUN39V2kbbCkOrEA4TjdSOZdOxvNzR5N/5FhrY/i6x1Jw2+obxA81TQQ",
+    "V94AXyphSCqApNrWMwCSa64y0e50MIbASmpvRq8NG52CRB8TKUpUbjsvVTUXZopv",
+    "hn2ySa4qsiaB4Ul1PW0BHV4UBI2f2zEzG6HIGMaimKenbR5c0CWdwYGp5NtQVMeP",
+    "GrQnwkeiEGObfr3nR3Xav5/qpiFDZGGrEZgP2sy5YxvrEnEMBPJPnhUIv515byFC",
+    "xn+sGfjekv7Ubt9BzJmUqjMyql7RDfrVnBRL6fPGDlsxuPs6LKSGURQ94DIjuwJm",
+    "7B0lMk34QmB8vujxIubnIBLXmkxDpFSMDaTLRXqahgfpjA856Z9ws3bC8ypu7pGh",
+    "axkOpdGYL4ZE0zfWa1fvfQATzTSW+Iu+KUEi6qIDQERWWQY/qKp6XC07AQaCHqnn",
+    "1lMqNbQJXEUUYGtw6tctQJNe9qcbleyC8H9dyxLDKF6Q2qTay+FuFSsjDFwpxQG1",
+    "bYqxWZ268kurtO9QzXV/TZ/BZNbzxhSrB31xqJzxrFpAEt5JkU5KFbr5kkzSIuNk",
+    "SR0TkhdWWDqcdp5KWnAO9YrqFNCVbaCMksx0qcJTCbV3etzAdIjRB5dEZ61YXWa+",
+    "53nqRfCE7SXLie1Sod1ZNMb6FdeNIwvGN51If+uWh8ggWtmlPmILb7iyhKBQxnQ9",
+    "8I7HaomfTAr2PZIxi6/LTf2dsQIDxT/W10Y3IuRIw8GQHogkv3XGXTXGWbpGCohm",
+    "ThSCQfjRJJgbNrzU2KkvE6yBniMiRtAYLOgsHaSMeLoyMoKJXlMWin37NldWcBV9",
+    "JODc9FfruYDiFB5+8TvL5mV7xtzbjAKmD4+wafeYcLLS2I8FnsARtiyFxwfD7MMR",
+    "iU5iRIMe1RSTADPxh3bGepm/g/3airlB+WFfI1gGlGhQ6bqOLFyuwyAcFmmKR45m",
+    "DaXOBwFtYFXNRzEUd/CXKzub+hE/GBf5sYCDdSzTxwGYzQhjVQVrC947N5Q9Pi13",
+    "3ceROosKCV0s2CeKGuZB/QL3trvUQOd1bebvIZVlIXa4IfyUefTU1dgEGJFNaeGG",
+    "O8lD0ovo+xE28xjqIcUH3BtIb7Z0JhYXHgdJwF7JhYDFOAX2zwdwV6DoJx0btDFN",
+    "DNQIAu+RHNkA0uG9KexM6EwQGksANiPXrnLrNo51lVYkdLXMn+Nd/Ez4GC0xJzvQ",
+    "qm+bNvo70ksV97PrvPMJ4hM15QO8U/0I3bMFvPMwPQrXGggUrVbUueetD56HkxH9",
+    "5hQgzMOZ2AaLiStZr8BQ7o=="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 98,
+   "file": "test/conf/client/a53ee4cf.key",
+   "line": 1,
+   "line_end": 28,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDG8ATNFaNtvg9K",
+    "+YHSlfO+B2oB+nABglUuZ+HysWvUbjq6QYhkxh0VtCKvaKJc3MnNVCS9zWFIZYdA",
+    "in9w8qC57vSNF0hKP7jynI9s8ROST++9yJlilUBYw5BpC1WlnmqyxkMLBspu1vKQ",
+    "tvc4F9xo2qMW1XpoDR7tj/479MHDM+itNwzsOyCVjd7VRXMgV4CdCW481h6gWAB4",
+    "euaXKBYHYihecghg+QLwZmVO99YTvMsuJRBypp9vYEM51MXsRn/6u4zglPweX/YA",
+    "Wl7Dicgk+mYCsvISWDQHV2Ep8cw2H1iXJjn8oQYdqeEmyG+9HYQpl8x7ezaUnoq7",
+    "Jw72SpkGjiflghbgXqxhKWkUHfz/sIFwese0VQtxwzLzW6OtxB+2cA+/dfAGBluj",
+    "am/dxJJIT7laoJy0jTtVYhzMW6gYV+en994fCWu+TQxZG/kc72GcVFVcKN5DpCo1",
+    "CVzpPDzaU9Bc0x2cUiyGRLxDlWzRNcKWql8gluv04Fzp8INbV9xpWyzEk84DXsUQ",
+    "kpHs2yyj9vIlQfBIjOIpUDA69/XwIiQ2NRrP9Bq1dllhaiUGcU80uc9GSNP8NDy1",
+    "pdzUviiWDvCVwajoNeXI9lS6E185RdVAVxrskVoCga/zeI1W2tJ4gqn1xkz5Mq9a",
+    "rvlQmhI5BedmqqeThuAeohTbM5lSGyX++oeMHavD4vBUYDh0weM2uF/Wo4ffutU6",
+    "hK/tNN1cgta703u/qxBGWdffWNjwkOVFEz3yMnnGI7O32eIhHEnZJLqbRfyhbNcg",
+    "PzkdQfcvhx645kczJUazE0MKDyCOZH088U8hlhgSjXPsQCkEU4jWGkBVZGnpP208",
+    "4u8oGUs3xxZsuh6CU0rFXMuzxQLKWOTDpiBU4Z4DoHHSd2qFK0LW2og8V4zfppOR",
+    "QTfqoFdWf4rSbpoHO23dDbv7fjiV8Jt0LN/JYvXTjDdqw1ggbqXvDyv11EgY/7m1",
+    "YDjw4EFwHr55Fcqjj+HGLo3IHFw/2K8p23saH8nrF8RSCb/0uhZ1Mfg4/G3H8c00",
+    "wBwa98werOsJgMZXk07yC5k9s8ElHLWepqGamoGvNpyS32ii3KY1fMM4z5kEQsoZ",
+    "bKeMOiIckRJefpGiQBKLi+vPOjw/7x+XD6jLaWu0IY9fLk8cLfFjMuiPgRLuzIJy",
+    "tgqPO26bqVwTp6TW1okQ0TdcWieFV2ukuQkqD8jiFjd9V9ZcWcyI3wZ2zogovhIS",
+    "IBSI9ep9z9RMl5FpMtuz2w8BYGy8z46Wa+dihUx1WxZz9AdFB+amhQga/QRerdLM",
+    "tv3nD96gQMi2ygH9pVW44a3cReLQv21a23vRYHMCaA98dIvQq4bTK/J4NCmb7ylb",
+    "kZ6Vp64Yl5N727uGb4i7e4jUx3A1BPa6fXpZUmwjijcfdPZaw5cAp/pgP7jH6J8j",
+    "tOToVpAFk3tA1ZIy/wOr9vTEZ5Q9Fk1u5YOiv3kXucBtqU9wTpHoASV1xjZi4xxy",
+    "pX+QqNFC+Pe8bgn6JJpiqhzNAyEI40Finj6To2D6cdaoR8CwjD69zTFhCQTcZrDs",
+    "zRIcWLsGEAKmxqNT4sJdpq=="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 99,
+   "file": "test/conf/client/b06c1c4b.key",
+   "line": 1,
+   "line_end": 28,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC0a5HVNplJPJal",
+    "TIrZ1vtymm1ZUF1B4Pf1f5p7xBB2MvTUrv8yKnrewJjTFcn2ED6ps5lZCZ2PqO6s",
+    "nyI1BcabCr9K2Hr/LAnSIflpBd84DbeR9QLDmmQBXTlaoIVNkKZJKSDEKRFqNhG9",
+    "CPMeHjMPMfUzVBaJmY+miX9/pv9MfM7FlVPISrIFTQfTlnGQQBitFLfAw4+J0Tez",
+    "Wfp9q2R0Md8vHd1r1Yt7lWyxNtJTCHFu4Xw+jGEaf0ONpwEE0eYxf1AA2hb86M/p",
+    "8uXXssZvFRElxVcJ5BxsIsk+YpKXm8p2WHsY33uwZHo6kclkRqZPi9D/Ad47esl6",
+    "IwKDpJrFhQPHafWdQIfwIOvCNqaY5OGPz57rct4eyQ8+zmp5QNWeicChNo8U7Dmu",
+    "1cz9YVvkANYJeZ4PaL8UJd8JddKUOagO0n9B4oMX9ozjH7ssqseTWebeKEdceKiT",
+    "EBGnyY2+2cLfBYzTgxi3uPICT3kbSBltZrBeZ9pNC78/t+pIW2u9gfH9VtyGxLdV",
+    "iI6zObR3bIRW6OpVJ5Ag4KT34Judv4G7ATQfdjY25Qt/MwsIy6ODSOfGlb3UN5x4",
+    "sEdVmfU9D4lPI99iSNzJuldepgCXQDPXw+2ryi4yOwbswxEO6oqwYSg11D5a5z7f",
+    "7ziY2tRFFp9pjWUutqR4yLA3oRyikkRZoJhzH8mORvVRsOnU0/22ieg2zbp++MgD",
+    "FPcvR8V7DGPvlZKB2X601VYUQZhqhVC8bfH0Pluy+48x7zcGlh3iNFi1flZ1rALj",
+    "D4pDd73Rj2ugr23xoHVPqUPdPsjrQ3EuHSAQbxLmGSrNtnmlpXuauMiRh9r7ffBF",
+    "EKkFF5dbgfgWieGpMM70i037kClVXmPqNHYUJx3iNStSuDLFdGy4TM2vwKTGAWc+",
+    "bL28jXs7aqWz2cu2vSjjbGxNepo5cgMRfyTKBNu9no2A/GUX9JMAgdSyCoEuxFfh",
+    "+woNR5tiFu67Yog8hkmmzSMRuhQBBvXMALg7jLmaJyRunFQg8G7nG7bNDeIbV24t",
+    "faa0tTex/MeGvlUlFsJ2W7+25CnWVBNFSUyNY2e0p4/mx90zaP0apAZOfv4ykH96",
+    "8g1YH7MGK3GvubnzTPWAKTIgvLeRB0N1725h/znNm9xc6uAXKPdQ2PGaYF2Mq8iv",
+    "qDQKoIS7Df+8t32AwVHMcF4S6FSQGztFFfMvBhejEIeIb/vBfMu18CqjwyyMSR5z",
+    "UM30xaJi67BoVQPfWnAtRXZpGxv3SHERa+ScW4kMUy2VkHPd9eYo/amIsVApb76f",
+    "v4nx4DtOm5oP4QW0wGB6TjZJ/3RU2LZYe4TMuJu7AuESmOCvu8n27l+J6yVXIhQW",
+    "dbXN87WbFcA7McrVxGMSXEMckmEgoPfYrcVmpCHHWCqNCjB6K7Q1jNysyP6xVGU9",
+    "Xnn7cWy49VCz/5w7YooEW8rqLzILNxtYsVxOkHmnr+YghfgDrb1+0jZ0i2SZ+1jd",
+    "7ZPjlsOpeuBDuVjX9H6B88GMJCJexBLbg/32Y+s/A/d1ttltmfByc7pkS+c7ag3d",
+    "DFDIrPqjRE/Azm2Sy42wUF=="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 100,
+   "file": "test/conf/client/c389958d.key",
+   "line": 1,
+   "line_end": 28,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD0SQvXPZ30AXcz",
+    "XRdu7/J3hfpvq/C/QXjrIwhfJAMR7JWfGoBXXD3yMU9JcvSAHuLVGL/5epBuaT8h",
+    "+/QCMRBlttjQXw1G2q+ujJr+Zz3e6vY0qCECYlXzPXwTwyq0Xj9dVPPh6/hULze2",
+    "1hej1ucLES/G7DFOomo2Kb+X5x1BO7w4aMUvtkiaoyE5WlO5lQTPMr6YZU85A6I9",
+    "PPlVps6YCjSW5pkMl2PE2kVk4YNp9Cx/tHOKk0NISnM6jf+V21tUE3lbw/YAIJtq",
+    "ZmMLnxeHHL3EVyCxeHB2Zma1IcHWsLroEGVrkvL7IHneOQDxnVJRSt1Xm+ipRIsa",
+    "BNS9i5XjqEBtJdwimgadHdA47K/MWKCipirdSU0LpcDw+JXDEwP4yA0FAFBOVlmP",
+    "xxzOFWpr/o8O/dSGAlNl6rA9T5AzfxY+hXdifyC43vmbrNs4Rvn8j4K/Zn/+iEc7",
+    "BdxcGbDhoIrS1SUbSswyRBnAa6SbEos7Yh0d+3eBhsQK4RF1zMz5iW56hXgGGEqK",
+    "bTPlI221BSU89zAwOqFgdyZtMumSs0Kl7MNExijV3tPcjKQDD9bbJ8Zy3hzGweQo",
+    "N/UCvgfJp9xeFYytKgJqxRFn6oTv1Uq3/qd+Ng6TzI0stFn9OxP/FLmap+o5VkVt",
+    "hpDHUp6BOhXnyYA2CcgzZzMALFcq1Vz5knixuDtOvmfAJYQd/slfa/TadHQWGknb",
+    "AP4MbrTxknCF/2y96P2y+31fnbq/HB6fNjoBF07B1OIB1QyfRENfl87XBx/3VAI0",
+    "qeeR8voDuIXufE58E0KNU2cOS5nA7ApZYRwBObnQKGIQFXk9kyc/BOxejhmb8xKw",
+    "d1mtd+cbQr/9eOCNUTkAiA2i2zIOdXfg+WUsBpJZP2n3G3trccpJv+SrTg33nsJJ",
+    "ms2HOFkttP7W0W0UDsPm3WIW/jFrRyV0V2LIOfeywQ34XdZg7hJqeTWt2AQcGrsC",
+    "l3Mefuldi8VzdkSieBBs4FNq94cYJM5FdF6bh13DUimK4bH+EtEMKBrVZqJsjrFT",
+    "MA/w9iEyb2YFgJELZ9gUz12GVJAtWGS7ppnV39oUB4SGrJWjfg5xcXaA7y7k/7Lu",
+    "IBbsOs2JxFUPDKNcATaIqQXLLX5KR4LAG/nzeDb3wZtq/DJRm6UnnOzA1k79eSV3",
+    "G7Peo/4/N5nz6lJi6ZxlgDhTWtZCRtX6XT7r2mxn3esYQN3j/K9bZz51MSejAgWC",
+    "MBxMe1ZwHV6YoxpJz83+Eqxy0gpvKKvXv5uJSDN+lxb0HpLSgcwOHv1vmnUFVuPj",
+    "51dW8NeyeF11h0n7Dcp4hwPBmAmEBxF6w9hOpB9YBrzKIIAsStG45NhboUOie7ly",
+    "2DwyenfGWPCqGGTZZ2wD1ILhwqajYaVfkAtnBbMjxTXhJX9JUDWezHQ4xezl48Ce",
+    "EjJyY3JbaK3tfHpo4/lYXlJyNI5XBpncQ4IjxxEzsTgjERBFTjWurzA+Q2n+jhzE",
+    "QSDrGqbaH7+p30GT/6dJs/PIlPQu52VIVYRCN1DcGcj77UNuwOuF5EZAfeAYzYDp",
+    "EqCfPy6+CdUkdnYaZz28BtT="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 101,
+   "file": "test/conf/cluster/6a77588c.conf",
+   "line": 11,
+   "start": 14,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "pin_fljvsc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 102,
+   "file": "test/conf/d59cf806.go",
+   "line": 137,
+   "start": 19,
+   "end": 35,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "JDJtJDc5JHFwcg==",
+    "$2m$79$qpr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 103,
+   "file": "test/conf/d59cf806.go",
+   "line": 140,
+   "start": 20,
+   "end": 30,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "$2f$60$etv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 104,
+   "file": "test/conf/d59cf806.go",
+   "line": 240,
+   "start": 47,
+   "end": 57,
+   "category": "Password",
+   "mutation": "stack",
+   "forms": [
+    "sjk_tmmkbn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 105,
+   "file": "test/conf/server/0b4f7b7b.conf",
+   "line": 13,
+   "start": 12,
+   "end": 20,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "sacibibt"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 106,
+   "file": "test/conf/server/17e59380.key",
+   "line": 1,
+   "line_end": 28,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDksd1Q8NhurzwQ",
+    "2w9tNb0EHH9oKl4OD6RT2QvKW2enKcW69cEXIkWiyu3PkXjj8Qn0BeBrDQ2d515l",
+    "BV2CKaUAb8biOQLRINrKi4wTaMHBbizP3/8K9GLPP/5tyft2ffYJ+gG2hJImnjsE",
+    "saj8pXaacgNANpuqd+qQvb8gH4vCqf5A7KVE6jypvSy/vpG0CRhuGLCT+9EVvt8l",
+    "p2ExYU7JupX6+xVfI4ee38WiehaTTrtOq01NvPq00bM7d7yUB9cZlPIv3mvyPd90",
+    "paZDFzeJqJr0RVm/tsOLsMlsyaUOByCaQtx00LO66+eafc6pVbepNa3tTjtPSwYb",
+    "9D76LVUtdYZIqHQUuYsUSUNfGbnGWyqeRpqZCpSHcgk2Xm0nBl1bEiMcdlbzlRoY",
+    "adMGWMeUkqgBDRmVe+TcqN/OrVJY4FAUwv6skl8VFRvmybU2x0qixL8Xsybu6+/7",
+    "JLgcCw89hiGd1dH4gaJvs4jjQaTDGgOU5tjhYWpPurqR/gNgxAvpStHL3MqlQANk",
+    "x71NbsOaZwd5eh/FJ8y40OArya6THhlQYYt3i4PNmzMuiRs+QgfvK2PJk+uuyUTy",
+    "crZc6LMerNOIpjWxC2qbOB21NRup74QAH4eeOTAOew3TAYi/DmE+Laudv1z4A91Z",
+    "CCF1HBvt6rZLeETBQjeskJJyKJ3vOytba8U2/l93LGValwNV0hTCGj1SDX/ooEEf",
+    "2m3yPXGSVyP8Wt+00f26hzbxAoRHp2izDZmxxAVRb4HrKSjeYJYyLskKtsQS8AQ6",
+    "s0iOqVyGVvGEs2glcOxvgWmIjXmt538QS31q0yjWkqItUZ+FDhZbD8rJ3X9zxW1t",
+    "v7ioMg+M3MebeDk6tYqmmWStQHaJaBsl7lIY1vy/UeJT4z4o1DoeLoukQYf2UA4M",
+    "wS07bNYzzUzvyhB/ow6bY1Xix+vjWzODhFUOiO5Ccz7ZI7CB86jVf1Pj0lAmJiPk",
+    "6rSsjQRCKY2cpOPGFoHhTPVT5WLgnXhPIYCOobT2BbRmJwGkmbBD2OJSDEYUxn1J",
+    "zNRwQkghJOPbVpEaQW/tHZjR33PiaJqtzwfFpku3zTlqx9CmI4WTDwHJLcJp6dse",
+    "vCwYoVb6ZTHtWXtil/xsXQap68m8G2QXk2ceWsld2aCbMjW7rytEIGmE8LKb8N0U",
+    "OOPBgpG1Gd5+I6qOs68iWLo/dPSSxvccgwnFU55nH2WDRPZ4eYwMdNgkSDfKzlqk",
+    "+2OiduTbpMTOqJMVmWNon2NMELbKeoibdzCXe6kFjouz2dkZYD2jH4urEMotE2kv",
+    "uwZEa2Kiy4ApDVecpMg1uX9YNCaQH1hV1oeLh/mNY8yReAEh2SsHdvoEZzCqjGBb",
+    "9zD5OddaRTnB5aHEcP/kwz11Io8liVR96DcO6cr3qljImCTzOppQrk4e6xQxckdo",
+    "o8Vd4Gw1W0jHH45HbIk3/dWswDAa9caOaQBUYCZ/mkSktYObhrmyXmpYREpSu396",
+    "AZ2Q0jj5MInNQqJ9CIX/PNigFUTkOgsRDwO1UBNVGr2nKOrMocElOgkYrdSo3e0a",
+    "rcGffOHyR5cb8ry7cNUhTzUGUo=="
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 107,
+   "file": "test/conf/server/6b9d8dff.key",
+   "line": 1,
+   "line_end": 28,
+   "category": "PEM Private Key",
+   "mutation": "none",
+   "forms": [
+    "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDgh43sWLiUj7fY",
+    "o+lYafYmQjp2LVruYZxAGItR03W1GGBHK8eGK7k1mvV5CZCjtIYDllncwvV1/Tr5",
+    "kQCWIKlSIVsTm6xjrhQygAWBnMEUZW0pJn6P35eijvLJXXlkRUwrJkPVIbaVwYE/",
+    "HyaFfBlW2Yf2OfbPtUKzT0J7B/WE3Uz5L17+oBaE//I9An0zGqOqWQj7UoaAqqex",
+    "QE9t2kv5+jsiatT8sMGrjoKKhzNKHzGcQdJrBtnRaLF9FZzWNZKiSLZlngByuMGg",
+    "HgsG9r06nFtagw1SySXQ8k2YNqKo0Ugh5p0FX7uADYtl3UVupBHgCpuFHqJcxyPO",
+    "k52yJJVXlJCfOmMSOuQjLqpg/2j/zaMEld4LXj+7g0zFcIfpYXCcS88Q+2onsDNm",
+    "aKvCX8rg06uPrZgup3UPQxRWcr3EVI8VJZQk1hynkNXFdCBvLTh0E6ae4mkuDxFc",
+    "sitWvh1j25Fi3n1l+gwomi17kyZay8V97NKvUMHYbhondYiwnUf8RzsjxZTPYbcW",
+    "AthFDsPdRbx9EYNiEC40aC6etqBr4luSYLd5imVjrq6ja1vS5t2eqOFo2Cbn5jSP",
+    "xwBwrHfdrDjjOi7yNeNF2kAwHPPUgVTHALGa4VWUCNcn9bq32b9/DCY8lPt+iAzX",
+    "nXnj6uBVEHcW2Rx8KsIQqCUkgpgyhBsCOzea63ds2lXBKWzB+C9em2Xvoma4s8Dd",
+    "U6XHRsYerijUqxQ1U8ljmWLYrp0eddbqLhBy3MhGzCOcx4tkQbwKmZzaj0b9ZOsD",
+    "IY0pPW/Ah32QiXVuEaXZBn0S7kSTurTMantz8qjbDn+ez9lJQYF2x8TBkW3tA4Ox",
+    "Hais3WuUssl21FPqzIT36zdCDqsSMHDs8FGpxGOwrSJ0XSWFhMUaMHHGLV63w9aS",
+    "5ynxrmRaPUt6gmWTBju4fistDgvZpXA0zjaO+PPM8/n1QeNBUeYzqgJPz17S84+M",
+    "tFX7KCazKxDmSxHj1s9aI6u/kzWfUb9s/qYTLoQ0oaZYu1wanjnQ5bt8SOKqRrA8",
+    "cx0seXTVEUnYlgQzsjFU48ImcJF4RORuMEX6/mM07Pcy9LS2pQDVkt7IEdhBJr8h",
+    "wi2lsYbxrrA0/YWl5BZrL8ZPQSSrNxoNY6GovBhZCQBymgAfzvEsFccqHzEwVFoj",
+    "Ujj4kDzDoZ4K51gRR7TSfs9m19YniE+WZKBQhF71sggdO49XNm6oivY6VOEDNMGH",
+    "w1uzbcBfiDXx+IcH5totEDa15aKOKBiCCSunc8+PmMBuTXAGJen5oqdwCZekN+hC",
+    "sbZ2jtmdwgZCPwXD1LCHn0wRSw/kr+HOjP4NThPjnvud/LAlFb8BahckTqBX+Izh",
+    "8KIwh5d7TBh6cX0hEH1hkLLoB/q55Yfv11Ru9PlnRtMSSCmmHBGjvWNwt687tZET",
+    "xrwk+BOVmV2Kbbfo80hB7Cw7HJXe67EtY3sDXR/iL3NVgGjO3icbBkKIrOkrs/OY",
+    "GPoVx/dSpzBNSSep7KhpzFqeFl0UfPDInFOvnUywBR3/kQ3/G6KfEnjgger2nxQC",
+    "ZTlnnYbfpy34pMQ41ygsKQaP"
+   ],
+   "multiline": true,
+   "source": "creddata"
+  },
+  {
+   "id": 108,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 94,
+   "start": 16,
+   "end": 21,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "kqarf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 109,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 271,
+   "start": 14,
+   "end": 19,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "rlels"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 110,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 501,
+   "start": 30,
+   "end": 88,
+   "category": "NKEY Seed",
+   "mutation": "comment",
+   "forms": [
+    "ADRIAN8SNOW4JXCGKWPQWMFCBK59FOXXV1RED6NNUUYE09PZFMYZLHUEYU"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 111,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 502,
+   "start": 14,
+   "end": 70,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "KH0ZNT39IOK5RT1WF1CDGKRPATSGVO2O6GDJVH9CWFKXPDCGFWCCUTGD"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 112,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 506,
+   "start": 58,
+   "end": 116,
+   "category": "NKEY Seed",
+   "mutation": "comment",
+   "forms": [
+    "EXHMP2BK5YIPZOCEGOJXQL3H7GIM4OZEIUUJLXLX7MBEJ0CERE1SEDSOPB"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 113,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 507,
+   "start": 23,
+   "end": 79,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "IKPJIX1Z2WDK1GUKX9RI77VTA1XIGSL5GNU1VUM4XOYDV4R19JUD2CT8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 114,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 521,
+   "start": 8,
+   "end": 66,
+   "category": "NKEY Seed",
+   "mutation": "none",
+   "forms": [
+    "MONKEY49BT5ZBWPW16XQBCXVOJYBRZRSPCU5QVNYRF2BANFTJUIA7N7OIH"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 115,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 522,
+   "start": 26,
+   "end": 82,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "PPFR04ILN7TXEJKTDJDHJ2NSOMJTXOKTO1WI8LPOSREVERPDK5SWXVVF"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 116,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 526,
+   "start": 12,
+   "end": 70,
+   "category": "NKEY Seed",
+   "mutation": "none",
+   "forms": [
+    "TKXKAUQVZKZH8UYB0JJF6FV5K48E7VSATMRF5R7BUWQAYPISG5XUKRMCRV"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 117,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 527,
+   "start": 20,
+   "end": 81,
+   "category": "Key",
+   "mutation": "stack",
+   "forms": [
+    "BA3GGHFWLG4WK8XRG2XAPKT6V2OONCAHZH9EHG2A82ED",
+    "CB5RG55NQQZK",
+    "BA3GGHFWLG4WK8XRG2XAPKT6V2OONCAHZH9EHG2A82EDCB5RG55NQQZK"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 118,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 541,
+   "start": 8,
+   "end": 66,
+   "category": "NKEY Seed",
+   "mutation": "none",
+   "forms": [
+    "SALESMAN1QOG7HEMQB91VXIGQ1YD94VBPSBWAX5E4ANN1OFR3Y26NIZ9X3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 119,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 542,
+   "start": 27,
+   "end": 249,
+   "category": "Key",
+   "mutation": "charcodes",
+   "forms": [
+    "76, 88, 52, 89, 67, 66, 87, 86, 78, 56, 78, 73, 78, 78, 78, 71, 65, 82, 69, 69, 66, 80, 69, 77, 86, 82, 90, 73, 56, 78, 90, 81, 90, 49, 80, 53, 78, 67, 48, 86, 57, 80, 69, 67, 88, 48, 77, 78, 55, 56, 83, 48, 66, 76, 85, 69",
+    "LX4YCBWVN8NINNNGAREEBPEMVRZI8NZQZ1P5NC0V9PECX0MN78S0BLUE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 120,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 546,
+   "start": 37,
+   "end": 95,
+   "category": "NKEY Seed",
+   "mutation": "comment",
+   "forms": [
+    "OXKPPCR8Y5SXZUOHCGJ5RJW1DNZRYNW6HBMA9P06PJAPJYWGESTPDGUEZI"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 121,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 547,
+   "start": 53,
+   "end": 109,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "DW12UAXPT9SIGNER7Y63JHA5PD9VSNDKEMMLKXPBOGVGYHQ9FUV6HBCQ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 122,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 570,
+   "start": 49,
+   "end": 107,
+   "category": "NKEY Seed",
+   "mutation": "comment",
+   "forms": [
+    "ATZQQQ1LGTY1MNJCRPVSIEIFYZ95HUCYW5NDH1CXJMNG84HOUECADFZYEN"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 123,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 571,
+   "start": 14,
+   "end": 75,
+   "category": "Key",
+   "mutation": "split",
+   "forms": [
+    "JI1VZS83WGV5IY4ES4POQZIGOEFYFN2A9ITBZN5ZXJXPOF",
+    "XOAHSCMNVO",
+    "JI1VZS83WGV5IY4ES4POQZIGOEFYFN2A9ITBZN5ZXJXPOFXOAHSCMNVO"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 124,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 576,
+   "start": 53,
+   "end": 111,
+   "category": "NKEY Seed",
+   "mutation": "comment",
+   "forms": [
+    "INDIC3TM6QDNKLNBUVBOAZ1I1FWU6MGLPWYEWEBI7YNJC8HYJE0ALKKITC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 125,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 577,
+   "start": 18,
+   "end": 79,
+   "category": "Key:NKEY Seed",
+   "mutation": "split",
+   "forms": [
+    "AJZGZZ3X3LEQ7MCDC1EE62TIG3MFAWE5YIP5LOY0PD",
+    "OKI7G52DEE4OC9",
+    "AJZGZZ3X3LEQ7MCDC1EE62TIG3MFAWE5YIP5LOY0PDOKI7G52DEE4OC9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 126,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 590,
+   "start": 8,
+   "end": 66,
+   "category": "NKEY Seed",
+   "mutation": "none",
+   "forms": [
+    "KSVFXD44UJ3SRSZZ17UEZEALBFJFWBNDEPQ3QMEKVY6GNWVEEUXW4W4CCH"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 127,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 591,
+   "start": 33,
+   "end": 89,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "FACE85CZS8YZWIEWOJXNW1ZVKZQMNWNVM3NE8XFMSHMGQDCUY7MGRDIX"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 128,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 596,
+   "start": 12,
+   "end": 70,
+   "category": "NKEY Seed",
+   "mutation": "none",
+   "forms": [
+    "SPGBDDFSHAQJ7UTX7KMB3XS9P61X5VTYVYHA8D6ZVAQEYEEZB8KVWBDRZN"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 129,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 597,
+   "start": 18,
+   "end": 74,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "KD0TRIGRAM2CW2WEA1ZSOBE8L1GMPLHNHF1VRQ3T86ZEIL2DD23DECAL"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 130,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 612,
+   "start": 8,
+   "end": 66,
+   "category": "NKEY Seed",
+   "mutation": "none",
+   "forms": [
+    "EVICTION8TOY3ETSTO92ZAKDU6OT34MVGHKRVG3H8XZO2LIY4G93LBK3C9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 131,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 613,
+   "start": 27,
+   "end": 249,
+   "category": "Key",
+   "mutation": "charcodes",
+   "forms": [
+    "86, 71, 53, 75, 76, 85, 79, 71, 90, 49, 68, 84, 83, 70, 89, 79, 89, 65, 83, 88, 72, 77, 87, 89, 88, 69, 83, 71, 53, 89, 82, 66, 74, 53, 81, 57, 85, 65, 51, 85, 57, 68, 90, 69, 85, 56, 67, 86, 57, 51, 88, 51, 72, 76, 90, 73",
+    "VG5KLUOGZ1DTSFYOYASXHMWYXESG5YRBJ5Q9UA3U9DZEU8CV93X3HLZI"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 132,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 618,
+   "start": 12,
+   "end": 70,
+   "category": "NKEY Seed",
+   "mutation": "none",
+   "forms": [
+    "DEGRADE5Q5HBPQHQHRA1TUZ0JYPDXOF9HFYC2O25FUYTFMFOMWLRYNHKRO"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 133,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 619,
+   "start": 34,
+   "end": 90,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "ES83JPBMV5BEANIE7N20GWF0XS1BZJTIWMFAPJJYNCLMBDV7ZDQ4LBUZ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 134,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 658,
+   "start": 12,
+   "end": 68,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "OQ7WZV97FOY1VG2DR7TKGQOAIUFTQR6M5XHNWB5IZMEQKKHTSSRKSKCA"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 135,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 662,
+   "start": 16,
+   "end": 72,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "TSDJSD5R5JEO6HRTK6GI37LEF6QPRUR7PUT1VCI9OOFVX9G99WUJ4XH3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 136,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 685,
+   "start": 20,
+   "end": 96,
+   "category": "Key",
+   "mutation": "stack",
+   "forms": [
+    "QVk3R1lEOTBWT1I2UVQ5SUozVkpORktOWVhFR0NXMkoxREVSRUsyWVFMQVJGS0NaUkpRQlFQQUM=",
+    "AY7GYD90VOR6QT9IJ3VJNFKNYXEGCW2J1DEREK2YQLARFKCZRJQBQPAC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 137,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 689,
+   "start": 56,
+   "end": 112,
+   "category": "Key",
+   "mutation": "stack",
+   "forms": [
+    "YRKNYY8K3UAX5ETPG4IQ84WRQ1CGLVW6MKH7RDQ8PJSRK2W90HTP3QT0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 138,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 763,
+   "start": 46,
+   "end": 51,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ifomd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 139,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 1593,
+   "start": 81,
+   "end": 137,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "AL2SDJ20SJV4YU4GX2OPGSVNOPAZZJ2K9VKLMC4RDBXLEIEUGEQDRAHB"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 140,
+   "file": "test/conf/server/edc1c568.go",
+   "line": 1595,
+   "start": 45,
+   "end": 101,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "GUHH12MJL2NTJGHSAMZHE5PAEXWQSTALG8FF9GWWMCWHHSZMB1NEEKFN"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 141,
+   "file": "test/opt/server/728925ac.go",
+   "line": 101,
+   "start": 26,
+   "end": 34,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "zdwkjbfr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 142,
+   "file": "test/opt/server/728925ac.go",
+   "line": 259,
+   "start": 23,
+   "end": 31,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "rckhyvhr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 143,
+   "file": "test/opt/server/728925ac.go",
+   "line": 294,
+   "start": 17,
+   "end": 25,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "hnoeftjx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 144,
+   "file": "test/opt/server/728925ac.go",
+   "line": 311,
+   "start": 41,
+   "end": 49,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "rvnjqxjn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 145,
+   "file": "test/opt/server/728925ac.go",
+   "line": 312,
+   "start": 41,
+   "end": 49,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "vumdufof"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 146,
+   "file": "test/opt/server/728925ac.go",
+   "line": 313,
+   "start": 41,
+   "end": 49,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "kfstyjfa"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 147,
+   "file": "test/opt/server/728925ac.go",
+   "line": 332,
+   "start": 41,
+   "end": 49,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "cffjkbxf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 148,
+   "file": "test/opt/server/728925ac.go",
+   "line": 346,
+   "start": 39,
+   "end": 49,
+   "category": "URL Credentials",
+   "mutation": "rename",
+   "forms": [
+    "ibs_nvgvro"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 149,
+   "file": "test/opt/server/728925ac.go",
+   "line": 380,
+   "start": 25,
+   "end": 35,
+   "category": "URL Credentials",
+   "mutation": "comment",
+   "forms": [
+    "ery_mwgogl"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 150,
+   "file": "test/opt/server/728925ac.go",
+   "line": 399,
+   "start": 17,
+   "end": 27,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "beb_manual"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 151,
+   "file": "test/opt/server/728925ac.go",
+   "line": 423,
+   "start": 80,
+   "end": 90,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "dum_pickup"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 152,
+   "file": "test/opt/server/728925ac.go",
+   "line": 423,
+   "start": 34,
+   "end": 44,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "ydb_gvjhnh"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 153,
+   "file": "test/opt/server/728925ac.go",
+   "line": 435,
+   "start": 15,
+   "end": 25,
+   "category": "Password",
+   "mutation": "rename",
+   "forms": [
+    "wak_umbehl"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 154,
+   "file": "test/opt/server/728925ac.go",
+   "line": 881,
+   "start": 16,
+   "end": 72,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "JJOCQ8RKWFDXQS30FFCQCXGR5TWBHWVXH1AZCV9FUFNC9OYJB9EAHNWQ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 155,
+   "file": "test/opt/server/728925ac.go",
+   "line": 882,
+   "start": 16,
+   "end": 72,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "GP2G2BDLXJ5GUXYBLFRS8QXI2RVKQKGS3X7XVJAAUZGLYPPLAFDOTRQM"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 156,
+   "file": "test/opt/server/728925ac.go",
+   "line": 997,
+   "start": 14,
+   "end": 75,
+   "category": "Key",
+   "mutation": "stack",
+   "forms": [
+    "SRBJK8PCBSMLMU09BBKANAV",
+    "L0DAREYIBP1DPGP6QMMKH7HDSQ4ORLUWV",
+    "SRBJK8PCBSMLMU09BBKANAVL0DAREYIBP1DPGP6QMMKH7HDSQ4ORLUWV"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 157,
+   "file": "test/opt/server/728925ac.go",
+   "line": 998,
+   "start": 12,
+   "end": 68,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "WV4O5SMITH6APULQYBBX0AFK7ZRDYTUW9H1VWWAIPOYYSCTPTYWVFDZC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 158,
+   "file": "test/opt/server/728925ac.go",
+   "line": 1017,
+   "start": 28,
+   "end": 84,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "VH8ZMEBPZNRC1HCSZV0WIZARD1WY8DHPJIWTYBMAAOZYZOOBTV96SWNK"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 159,
+   "file": "test/opt/server/728925ac.go",
+   "line": 1018,
+   "start": 13,
+   "end": 69,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "FBGAQH0IQ0AH7NKZIOJ3M4F3EVNEK7NLL9W32BCS640C0BZGHI61DJB9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 160,
+   "file": "test/opt/server/728925ac.go",
+   "line": 1091,
+   "start": 16,
+   "end": 72,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "METER7ZBGIGMEB90FIDWXPAX4FALZZKVJ7SQZR4WIRED0CAMF9HTQCRL"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 161,
+   "file": "test/opt/server/728925ac.go",
+   "line": 1152,
+   "start": 21,
+   "end": 82,
+   "category": "Key",
+   "mutation": "stack",
+   "forms": [
+    "RBENE4BCKVQISQ39SIMOLUPZ2UULUCWLM1CTKI9",
+    "IAOBZ9JRUZ6UEXNYS",
+    "RBENE4BCKVQISQ39SIMOLUPZ2UULUCWLM1CTKI9IAOBZ9JRUZ6UEXNYS"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 162,
+   "file": "test/opt/server/728925ac.go",
+   "line": 1170,
+   "start": 45,
+   "end": 60,
+   "category": "Token",
+   "mutation": "comment",
+   "forms": [
+    "$8m$43$owgeuesa"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 163,
+   "file": "test/opt/server/728925ac.go",
+   "line": 1189,
+   "start": 9,
+   "end": 24,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "$6n$16$residual"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 164,
+   "file": "test/opt/server/728925ac.go",
+   "line": 1257,
+   "start": 19,
+   "end": 27,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "jxelxmnj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 165,
+   "file": "test/opt/server/728925ac.go",
+   "line": 1570,
+   "start": 48,
+   "end": 58,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "rqh_target"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 166,
+   "file": "test/opt/server/728925ac.go",
+   "line": 2050,
+   "start": 13,
+   "end": 69,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "DQ0NZCU1WZ60FBSCSGG3GO9MR5GTRYC0L3UMEC49UQ7D8STCURFK1ZRX"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 167,
+   "file": "test/opt/server/728925ac.go",
+   "line": 2057,
+   "start": 12,
+   "end": 68,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "VUOMANWV2QO6P5JXEERD6M3G3LWPXGZZCQAJ0MHMJMOXTXWSVW80QT3N"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 168,
+   "file": "test/opt/server/728925ac.go",
+   "line": 2390,
+   "start": 14,
+   "end": 21,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "h9qh0m!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 169,
+   "file": "test/opt/server/728925ac.go",
+   "line": 2411,
+   "start": 16,
+   "end": 23,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "o6ab5y!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 170,
+   "file": "test/opt/server/728925ac.go",
+   "line": 2646,
+   "start": 19,
+   "end": 75,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "AGRIXGDN1UG7S3LKPMIG2M3X6VSLFHACNCXB8JAQFKVTBECXOU08DM9A"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 171,
+   "file": "test/opt/server/728925ac.go",
+   "line": 2649,
+   "start": 19,
+   "end": 75,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "GW6OVAL9QI12GTUUZEC4TR4PV6AMAAT1H7BXTV24YR7E9BFPLJVH0SNG"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 172,
+   "file": "test/opt/server/728925ac.go",
+   "line": 2879,
+   "start": 13,
+   "end": 69,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "UXRZCVAC3YV2W3FLDXKL8O1I8HFTWOJSXNUP9MZHNCOKXUNRWM27AB3D"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 173,
+   "file": "test/opt/server/728925ac.go",
+   "line": 2940,
+   "start": 11,
+   "end": 706,
+   "category": "JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJ8xVGbQySaad8sAKLqaHbdGoTTQCelTeW1Bg7.zkZpbWocDoULLCcvARjVPOS0GAJrIVrqLYKPitjBJzLpNt6dejVtT1xbHQipBEEHmJUgABasicQDTFy0JtlqzBW3Ori7HcQ0EyGtUhw3XAUxq6OnCjEdbFYlqjgnzUMAPCTVMMotherElcXyvrlCEui9FBPPl4J2LRmgiawUVfuRGKcRl6PcMmQ1n4Z6WIZuIlDFanHqAsJiqaWpTpE8MsU7YfWhTrunkZH6ZwZDRa3SN1MxHD4RR3ZrMSSlJJF5BNMNJjN9SQinCQfLs9Y3yVOpG5HOScZWB4RrGtxjRrhFQOL6NnmxdW8LSHbcAcute47KSsW7obDodMpeCTfBQ6jleNVRyX5qhrFyOeXGGPTiGn8pYd6kPRFOQJnSSaX9AtmmR25RN3h0DropXAKmycPGBwwoEfBmRC1tQH8Mq2GDNxvmUsageAv5Me4anPqtXXQQNPZ2FYswLUOaSXKcvC6jXNdlZ5cbDMJ2HqU4SryMkYHbNRD3YEtGOrKZsWN6YVWtVjYtbdQRwM6QjRMxhNzCoJLLaxEMHnI4g8sWFGwOpY65LJnPDq41.9p323GxDGinOdrKemezFp0gtH90CxTN-3xc0HX8Q3lRi6Tm3eY-KsC9YbhMLVN75Y06bTUtfdd_PN7LpB4kbBn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 174,
+   "file": "test/opt/server/728925ac.go",
+   "line": 2964,
+   "start": 44,
+   "end": 609,
+   "category": "JSON Web Token",
+   "mutation": "comment",
+   "forms": [
+    "eyJ1pZPjVvTIE1GdAQCfoOucFwOMdQFfRhU3Hz2.ytKblWkjSoXkTXOWDPCDmKVxujjwWK7EShFLOWJsEGmArQanPIjpQD1GTQDpkQT7oBGUTJtGtYtHIDSmGwfoyIO7WhiyMmR0SefaYOU2XMSon3HoQfRChJYZSUcng8nHCe0hMUKHKC25yDOub6oVLxJhpimPl4nKfdn1QFQ0B7INXZP5avP4T7QwTUq6feScNeG6SHYvObFpBjdkLWdjYCCgfZTyAfWadOAuQ4niZZK7LdqMBgH2N9u0OAM4Qc6UACAVVKiVhbzMJOqQhBrbWNLinPruJmu8CBNOkCUjwpClZjEIr06wTtDUI3xeMW58BOYtUuSFr4laDichLbUKXKGaI9bYU29FV90mLnZJYBH7N9PkOJ1kmAjcnQwYn3A6mxd9JAe6CT4kdAZAZynAMmnGXGtIwwC4ODD1qAkLZ3HPX2iPJxM4tX.JchGdpe9chapMXwWHdxyQrbVp0NjOYZ_PGvTNdiOrH3FZVbEdTVkSpJLSpTexrjxWM_msRJSh83Bt5e13ncdEC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 175,
+   "file": "test/opt/server/728925ac.go",
+   "line": 2968,
+   "start": 47,
+   "end": 653,
+   "category": "JSON Web Token",
+   "mutation": "comment",
+   "forms": [
+    "eyJ5yPFgEuQUl66kYWJrgFfgOaHVOxT8WeduNw7.cwEisEkgXyY5RUpGB20YTWPUuqryqCJrd3bRamp4Z9yRXtNgP4b0U4OaXnN8CGO2aflOILEjXJQtMiwYHuxltQC6BprjRAJ1MGkfOCl1MLYzm5PmElEaAHCxFnDRU3Dvbo9wALADrYFmNgD4yT0kPf60N41OPMKDrqUVc8nALlaAKDkZVpilWTVDxfgkbhCmJtkkFGnbTqLrQGhBJC6aAside3XlGlueckKHtCAMELGpdme0S21BimFJMVMlUD31uBujABtsWzH3R9S5CRA6l9A7Ofs8PwM5ImeZScn0P8LrONASl9PoVzvwK9D3qMpFZeVsLsDzlpbiMuteRmHcTKoiOgi1JlQMP5MmZf45GCNnN9HWXotuRiewQMeMAIL0ZRArCpUrWUi2ECAtWi18CCMIgL9AUjUKAihvHhfeH7LNJgD2FMJtMdTznavZUMutQm31QAIRZDpfZck7G9ycUjGnoCB1bK3.ambFetCyOntnQpx-fF-7K73ida-qNxieRqQidOyRWKsW0jloIMxcrX0AiXIS33byskmrJx75MAXUpih8InCVQP"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 176,
+   "file": "test/server/1a13a17c.go",
+   "line": 273,
+   "start": 39,
+   "end": 45,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "hhkVzj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 177,
+   "file": "test/server/1a13a17c.go",
+   "line": 277,
+   "start": 39,
+   "end": 45,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "lzlMbs"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 178,
+   "file": "test/server/1a13a17c.go",
+   "line": 611,
+   "start": 21,
+   "end": 97,
+   "category": "Key",
+   "mutation": "b64",
+   "forms": [
+    "VFM1Tk9BRkxEUVdMWjRER0ZCNDIwOTAxUjZTS0E3V001TEtKUEpaTjZTTkFZMFI2OVpKTkhDRk8=",
+    "TS5NOAFLDQWLZ4DGFB420901R6SKA7WM5LKJPJZN6SNAY0R69ZJNHCFO"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 179,
+   "file": "test/server/1a13a17c.go",
+   "line": 616,
+   "start": 22,
+   "end": 78,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "GKBFTUUKLO9QYEY2DIRJL5AGNH345HCDY57DKFKKCEOUIJL1FNBC12US"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 180,
+   "file": "test/server/1a13a17c.go",
+   "line": 2128,
+   "start": 11,
+   "end": 91,
+   "category": "NKEY Seed",
+   "mutation": "b64",
+   "forms": [
+    "S05PQ0swNEhJOExZT0NOWkc4M1FWWUVKS1JETU1CRVIzTkZYVktJNTVQVE5TN1Q5UVU4NEZOM1VNRQ==",
+    "KNOCK04HI8LYOCNZG83QVYEJKRDMMBER3NFXVKI55PTNS7T9QU84FN3UME"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 181,
+   "file": "test/server/1a13a17c.go",
+   "line": 2130,
+   "start": 11,
+   "end": 69,
+   "category": "NKEY Seed",
+   "mutation": "none",
+   "forms": [
+    "LTZKY4COO8A1QS6XYXGTG54KG1DSUCTHJFZ3RXVUYBMRGZFOLU3TXKROHE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 182,
+   "file": "test/server/1a13a17c.go",
+   "line": 2137,
+   "start": 17,
+   "end": 73,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "YJIBJ9N1ZH60YID4X0ASMPTV6REUSE1V2YQXG4GVATKOPC2KABFOEVPJ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 183,
+   "file": "test/server/1a13a17c.go",
+   "line": 2143,
+   "start": 17,
+   "end": 73,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "REJNDPGBRF9Q9LU2P5G6DAWVORBM5AGORA9GTMU8DX2K5R2EVERWBASN"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 184,
+   "file": "test/server/1a13a17c.go",
+   "line": 3276,
+   "start": 44,
+   "end": 51,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "d6jm7f!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 185,
+   "file": "test/server/1eb6d192.go",
+   "line": 38,
+   "start": 48,
+   "end": 106,
+   "category": "NKEY Seed",
+   "mutation": "comment",
+   "forms": [
+    "FWOFAXJFWOUSWO2RTCWSLUTF7XGOZUESH7QCFX2KTFBUIT7YOUYAV19KKP"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 186,
+   "file": "test/server/1eb6d192.go",
+   "line": 211,
+   "start": 16,
+   "end": 72,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "TIAYY2AMOVOPXJ03YALLVWBY9FRHEBSWB6SFHZ3SKCMF3NUZB3WZBMPZ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 187,
+   "file": "test/server/3906e586.go",
+   "line": 26,
+   "start": 53,
+   "end": 60,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "s3vy1g!"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 188,
+   "file": "test/server/3906e586.go",
+   "line": 198,
+   "start": 18,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "icjoiu"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 189,
+   "file": "test/server/3906e586.go",
+   "line": 208,
+   "start": 18,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "rtvffr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 190,
+   "file": "test/server/3906e586.go",
+   "line": 218,
+   "start": 23,
+   "end": 29,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "yfpgnx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 191,
+   "file": "test/server/3906e586.go",
+   "line": 228,
+   "start": 23,
+   "end": 29,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "wrmvzr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 192,
+   "file": "test/server/3906e586.go",
+   "line": 239,
+   "start": 18,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "kgmhcp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 193,
+   "file": "test/server/3906e586.go",
+   "line": 241,
+   "start": 23,
+   "end": 29,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "bqfabp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 194,
+   "file": "test/server/3906e586.go",
+   "line": 251,
+   "start": 18,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "hvinwe"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 195,
+   "file": "test/server/3906e586.go",
+   "line": 253,
+   "start": 23,
+   "end": 29,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "dither"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 196,
+   "file": "test/server/3906e586.go",
+   "line": 290,
+   "start": 22,
+   "end": 28,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "filter"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 197,
+   "file": "test/server/3906e586.go",
+   "line": 306,
+   "start": 16,
+   "end": 22,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "sqvpyn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 198,
+   "file": "test/server/3f79ca86.go",
+   "line": 246,
+   "start": 18,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "y5ri5g"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 199,
+   "file": "test/server/3f79ca86.go",
+   "line": 262,
+   "start": 61,
+   "end": 67,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "p5mt8f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 200,
+   "file": "test/server/3f79ca86.go",
+   "line": 285,
+   "start": 43,
+   "end": 49,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "z1fw9r"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 201,
+   "file": "test/server/3f79ca86.go",
+   "line": 290,
+   "start": 45,
+   "end": 51,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "o4gn8x"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 202,
+   "file": "test/server/3f79ca86.go",
+   "line": 305,
+   "start": 47,
+   "end": 53,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "o6kv6l"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 203,
+   "file": "test/server/3f79ca86.go",
+   "line": 310,
+   "start": 24,
+   "end": 30,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "v2mn8e"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 204,
+   "file": "test/server/3f79ca86.go",
+   "line": 315,
+   "start": 41,
+   "end": 47,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "s4qp9b"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 205,
+   "file": "test/server/3f79ca86.go",
+   "line": 315,
+   "start": 18,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "l3xd5z"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 206,
+   "file": "test/server/3f79ca86.go",
+   "line": 316,
+   "start": 44,
+   "end": 50,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "e1up1d"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 207,
+   "file": "test/server/3f79ca86.go",
+   "line": 320,
+   "start": 40,
+   "end": 46,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "u6jl8s"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 208,
+   "file": "test/server/3f79ca86.go",
+   "line": 320,
+   "start": 18,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "j6yv4f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 209,
+   "file": "test/server/3f79ca86.go",
+   "line": 321,
+   "start": 43,
+   "end": 49,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "o9en6d"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 210,
+   "file": "test/server/3f79ca86.go",
+   "line": 325,
+   "start": 44,
+   "end": 51,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "w1sf1x3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 211,
+   "file": "test/server/3f79ca86.go",
+   "line": 325,
+   "start": 21,
+   "end": 28,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "h3bi5d8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 212,
+   "file": "test/server/3f79ca86.go",
+   "line": 326,
+   "start": 47,
+   "end": 54,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "y6oo9d9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 213,
+   "file": "test/server/3f79ca86.go",
+   "line": 330,
+   "start": 39,
+   "end": 45,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "w1em1b"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 214,
+   "file": "test/server/3f79ca86.go",
+   "line": 335,
+   "start": 92,
+   "end": 98,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "s4uz6m"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 215,
+   "file": "test/server/3f79ca86.go",
+   "line": 340,
+   "start": 18,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "j3wc8i"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 216,
+   "file": "test/server/3f79ca86.go",
+   "line": 345,
+   "start": 28,
+   "end": 34,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "r5tz6i"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 217,
+   "file": "test/server/3f79ca86.go",
+   "line": 370,
+   "start": 92,
+   "end": 98,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "c4tl7l"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 218,
+   "file": "test/server/3f79ca86.go",
+   "line": 375,
+   "start": 44,
+   "end": 50,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "w1uy1z"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 219,
+   "file": "test/server/3f79ca86.go",
+   "line": 380,
+   "start": 95,
+   "end": 101,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "w2gj1v"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 220,
+   "file": "test/server/3f79ca86.go",
+   "line": 385,
+   "start": 95,
+   "end": 101,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "o6tm0y"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 221,
+   "file": "test/server/3f79ca86.go",
+   "line": 390,
+   "start": 97,
+   "end": 103,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "r1st5p"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 222,
+   "file": "test/server/515f4ca6.go",
+   "line": 26,
+   "start": 25,
+   "end": 34,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "K2vV9bt9w"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 223,
+   "file": "test/server/515f4ca6.go",
+   "line": 27,
+   "start": 46,
+   "end": 55,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "G9sA4gd9f"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 224,
+   "file": "test/server/515f4ca6.go",
+   "line": 200,
+   "start": 28,
+   "end": 33,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "cilpv"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 225,
+   "file": "test/server/515f4ca6.go",
+   "line": 206,
+   "start": 27,
+   "end": 31,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "iisg"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 226,
+   "file": "test/server/515f4ca6.go",
+   "line": 212,
+   "start": 27,
+   "end": 31,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "kpqn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 227,
+   "file": "test/server/515f4ca6.go",
+   "line": 224,
+   "start": 51,
+   "end": 56,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "ktwwh"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 228,
+   "file": "test/server/515f4ca6.go",
+   "line": 234,
+   "start": 27,
+   "end": 31,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "kppi"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 229,
+   "file": "test/server/515f4ca6.go",
+   "line": 242,
+   "start": 27,
+   "end": 31,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "gozs"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 230,
+   "file": "test/server/515f4ca6.go",
+   "line": 293,
+   "start": 28,
+   "end": 33,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "sxmgk"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 231,
+   "file": "test/server/515f4ca6.go",
+   "line": 350,
+   "start": 31,
+   "end": 87,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "CLPRU2Z9SH66RAW1F3TCLEJK1LLZSD4A4TNAJ7NZPWALKE2EYXARVWXZ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 232,
+   "file": "test/server/515f4ca6.go",
+   "line": 356,
+   "start": 17,
+   "end": 73,
+   "category": "Key",
+   "mutation": "rename",
+   "forms": [
+    "HYVKCLUQRF2O8FP8T7N2GCRKSYIG4CRMAM9HEAP2KV7O4P3XSPUUCBTZ"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 233,
+   "file": "test/server/515f4ca6.go",
+   "line": 368,
+   "start": 18,
+   "end": 76,
+   "category": "NKEY Seed",
+   "mutation": "none",
+   "forms": [
+    "DEBIT60RP3IMKYEZL99MGSOUVXXXJWOT2TNPPAA49ONUC9C7FP44YS5MVE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 234,
+   "file": "test/server/515f4ca6.go",
+   "line": 369,
+   "start": 18,
+   "end": 76,
+   "category": "NKEY Seed",
+   "mutation": "none",
+   "forms": [
+    "GRAND4CIH8U3EU9USQFWY60DA2TRNSDWETV2YNZBXIXIWIALXF2COZXMLC"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 235,
+   "file": "test/server/515f4ca6.go",
+   "line": 420,
+   "start": 46,
+   "end": 102,
+   "category": "Key",
+   "mutation": "comment",
+   "forms": [
+    "OBFXBAODEH2S9NH7F0F1LPIKQMDW9TCHSF1LINK0JX3E4A2MMQBAANBL"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 236,
+   "file": "test/server/515f4ca6.go",
+   "line": 427,
+   "start": 12,
+   "end": 68,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "GDAOM0H9EP12ARL2H6RDUWPD4BASIC9B3XCSR0QJEWJNGL9MACVWRUAR"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 237,
+   "file": "test/server/515f4ca6.go",
+   "line": 575,
+   "start": 30,
+   "end": 34,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "crdd"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 238,
+   "file": "test/server/88341713.go",
+   "line": 154,
+   "start": 18,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "zhxrxr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 239,
+   "file": "test/server/88341713.go",
+   "line": 165,
+   "start": 18,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "kxnlnt"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 240,
+   "file": "test/server/88341713.go",
+   "line": 176,
+   "start": 28,
+   "end": 34,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "markup"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 241,
+   "file": "test/server/88341713.go",
+   "line": 186,
+   "start": 28,
+   "end": 34,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "uilwyf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 242,
+   "file": "test/server/88341713.go",
+   "line": 196,
+   "start": 18,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "uvkkmj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 243,
+   "file": "test/server/88341713.go",
+   "line": 199,
+   "start": 28,
+   "end": 34,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "uwobfk"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 244,
+   "file": "test/server/88341713.go",
+   "line": 209,
+   "start": 18,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ynudqx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 245,
+   "file": "test/server/88341713.go",
+   "line": 211,
+   "start": 28,
+   "end": 34,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "jlxbpj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 246,
+   "file": "test/server/88341713.go",
+   "line": 256,
+   "start": 27,
+   "end": 33,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "szapiz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 247,
+   "file": "test/server/88763956.go",
+   "line": 591,
+   "start": 47,
+   "end": 52,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "vwdk1"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 248,
+   "file": "test/server/88763956.go",
+   "line": 592,
+   "start": 47,
+   "end": 52,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "rmfp3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 249,
+   "file": "test/server/88763956.go",
+   "line": 622,
+   "start": 54,
+   "end": 59,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "cekn0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 250,
+   "file": "test/server/88763956.go",
+   "line": 629,
+   "start": 54,
+   "end": 59,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "wvdk0"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 251,
+   "file": "test/server/88763956.go",
+   "line": 685,
+   "start": 49,
+   "end": 54,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "daqg8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 252,
+   "file": "test/server/88763956.go",
+   "line": 686,
+   "start": 49,
+   "end": 54,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "fgoo7"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 253,
+   "file": "test/server/88763956.go",
+   "line": 707,
+   "start": 38,
+   "end": 42,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "eikx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 254,
+   "file": "test/server/88763956.go",
+   "line": 721,
+   "start": 52,
+   "end": 57,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "mity1"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 255,
+   "file": "test/server/88763956.go",
+   "line": 726,
+   "start": 52,
+   "end": 57,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "luna5"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 256,
+   "file": "test/server/88763956.go",
+   "line": 736,
+   "start": 48,
+   "end": 53,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "qtsx9"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 257,
+   "file": "test/server/88763956.go",
+   "line": 737,
+   "start": 48,
+   "end": 53,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "echo7"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 258,
+   "file": "test/server/88763956.go",
+   "line": 764,
+   "start": 49,
+   "end": 54,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "otkt8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 259,
+   "file": "test/server/88763956.go",
+   "line": 768,
+   "start": 49,
+   "end": 54,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "nobe8"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 260,
+   "file": "test/server/88763956.go",
+   "line": 3013,
+   "start": 26,
+   "end": 31,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "bfvwz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 261,
+   "file": "test/server/88763956.go",
+   "line": 3014,
+   "start": 26,
+   "end": 31,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "mason"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 262,
+   "file": "test/server/88763956.go",
+   "line": 3041,
+   "start": 48,
+   "end": 53,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "ekhte"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 263,
+   "file": "test/server/88763956.go",
+   "line": 3524,
+   "start": 32,
+   "end": 36,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "ijwk"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 264,
+   "file": "test/server/88763956.go",
+   "line": 3525,
+   "start": 32,
+   "end": 36,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "lbfr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 265,
+   "file": "test/server/88763956.go",
+   "line": 3561,
+   "start": 32,
+   "end": 36,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "xkwn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 266,
+   "file": "test/server/88763956.go",
+   "line": 3562,
+   "start": 32,
+   "end": 36,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "nvyi"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 267,
+   "file": "test/server/88763956.go",
+   "line": 3569,
+   "start": 23,
+   "end": 27,
+   "category": "Password:URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "beat"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 268,
+   "file": "test/server/88763956.go",
+   "line": 3587,
+   "start": 51,
+   "end": 55,
+   "category": "Password:URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "fade"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 269,
+   "file": "test/server/88763956.go",
+   "line": 3595,
+   "start": 27,
+   "end": 31,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "rlpj"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 270,
+   "file": "test/server/8e39a8bd.go",
+   "line": 26,
+   "start": 17,
+   "end": 80,
+   "category": "NKEY Seed",
+   "mutation": "split",
+   "forms": [
+    "TALNAQPOBNMHNQYHLCUE5B6RS7HKAV",
+    "O0TWQFIHQX6YL9LET3ZFN0ETG7HH",
+    "TALNAQPOBNMHNQYHLCUE5B6RS7HKAVO0TWQFIHQX6YL9LET3ZFN0ETG7HH"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 271,
+   "file": "test/server/8e39a8bd.go",
+   "line": 28,
+   "start": 9,
+   "end": 823,
+   "category": "JSON Web Token",
+   "mutation": "none",
+   "forms": [
+    "eyJ1uMUcHnTIsyXtIIRveWqaLoXNapE2Suz5Hm3.xrGpmBEwSwRLbCOOMWVoPxZ9nMP2BOE5NfUtRDK7GBuddyYrNeobgkixQwPDJjtIyLT1M0KTnAwKcPqTRJjQyPoPL2GgRF61KZuouRKeOBkaWvhoVNU3FFZ7fVTySllwkYU4DvR4ApF6KlC5DKariZNeOajnycQiPfZ4YyfDvZn6AtbScmVLpQNMDrP8H9avRMjgGfJzYLg4x3qHkZh7XVnpjpAbBTBXkjUFQ6PtJISEOqRZYacnLTr4ykBVLQKCDTmDCTimwNhIPWC0JGH6gLNvVclkjrCyQle8XZb3GvZ9QcU8IJIbuNQmVrP4oTGnCEZMgPBQYGy7N5QStI2DVBtUyYXtV809QapETly3OZuGBApJT4R8w4ZOOMUtx1WSSDvOoOFsNzM5YBkdGlNWeCECumHXDFEdKzG8A34zViewETxQG7fvYu7DDSgaLiktPyYqlvlxUjS6r2KiBbTFvVn5Y7utj2tAS2QAVxKNFvEEN8LKEJbjFmGLgQSwUOAZGMBJJGnYYqM1ApgoM6SVb7qEGgKqPZn1YGKrPqUWH2B7DEEPLYJoI6PzzXyUBRFhWrRYGH9MONs1DST9MK9EXvQUWvTmXXUeYXTOQeP1NOheYaZXXXUstIm8BpG0ZJDIRUcNLFx2XVIwHGY5H8anxokWBGlLfTfWVcR8I0a7jmOsqA3.sdjo0H91KSFm7LKielOjr2eQ2OsengxcchC_aSaUrMvm1mWccYW_Ci6hMQPHT_7aXb6APLpSLRGkGsPeZetbEf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 272,
+   "file": "test/server/cb4307f8.go",
+   "line": 71,
+   "start": 16,
+   "end": 24,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "djqxzjvs"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 273,
+   "file": "test/server/dc47d09f.go",
+   "line": 26,
+   "start": 35,
+   "end": 43,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "wumjqfxe"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 274,
+   "file": "test/server/dc47d09f.go",
+   "line": 65,
+   "start": 35,
+   "end": 43,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "htmpjhrn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 275,
+   "file": "test/server/dc47d09f.go",
+   "line": 116,
+   "start": 35,
+   "end": 43,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "fzyukkyo"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 276,
+   "file": "test/server/dc47d09f.go",
+   "line": 122,
+   "start": 35,
+   "end": 43,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "snpeskbm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 277,
+   "file": "test/server/dc47d09f.go",
+   "line": 189,
+   "start": 52,
+   "end": 60,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "fquepdzr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 278,
+   "file": "test/server/dc47d09f.go",
+   "line": 240,
+   "start": 37,
+   "end": 45,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "iltwzbpm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 279,
+   "file": "test/server/dc47d09f.go",
+   "line": 249,
+   "start": 37,
+   "end": 45,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "wjjqpyhf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 280,
+   "file": "test/server/dc47d09f.go",
+   "line": 300,
+   "start": 40,
+   "end": 48,
+   "category": "URL Credentials",
+   "mutation": "rename",
+   "forms": [
+    "rqzswdeq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 281,
+   "file": "test/server/dc47d09f.go",
+   "line": 329,
+   "start": 41,
+   "end": 49,
+   "category": "URL Credentials",
+   "mutation": "rename",
+   "forms": [
+    "umhxyeev"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 282,
+   "file": "test/server/dc47d09f.go",
+   "line": 380,
+   "start": 49,
+   "end": 57,
+   "category": "URL Credentials",
+   "mutation": "comment",
+   "forms": [
+    "dpriibdn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 283,
+   "file": "test/server/dc47d09f.go",
+   "line": 389,
+   "start": 37,
+   "end": 45,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "zzqczjbu"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 284,
+   "file": "test/server/dc47d09f.go",
+   "line": 440,
+   "start": 35,
+   "end": 43,
+   "category": "URL Credentials",
+   "mutation": "rename",
+   "forms": [
+    "razmihyx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 285,
+   "file": "test/server/dc47d09f.go",
+   "line": 469,
+   "start": 40,
+   "end": 48,
+   "category": "URL Credentials",
+   "mutation": "rename",
+   "forms": [
+    "lpghyiyf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 286,
+   "file": "test/server/dc47d09f.go",
+   "line": 520,
+   "start": 38,
+   "end": 46,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "zdrjkdwt"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 287,
+   "file": "test/server/dc47d09f.go",
+   "line": 529,
+   "start": 38,
+   "end": 46,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "jhmzlhpq"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 288,
+   "file": "test/server/dc47d09f.go",
+   "line": 580,
+   "start": 41,
+   "end": 49,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "cazupqes"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 289,
+   "file": "test/server/dc47d09f.go",
+   "line": 631,
+   "start": 40,
+   "end": 48,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "lbcjohsp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 290,
+   "file": "test/server/dc47d09f.go",
+   "line": 640,
+   "start": 49,
+   "end": 57,
+   "category": "URL Credentials",
+   "mutation": "rename",
+   "forms": [
+    "sfaurwux"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 291,
+   "file": "test/server/dc47d09f.go",
+   "line": 691,
+   "start": 43,
+   "end": 51,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "jirembmf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 292,
+   "file": "test/server/dc47d09f.go",
+   "line": 742,
+   "start": 40,
+   "end": 48,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "htdhvbyl"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 293,
+   "file": "test/server/dc47d09f.go",
+   "line": 750,
+   "start": 39,
+   "end": 47,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "hlfbgiob"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 294,
+   "file": "test/server/dc47d09f.go",
+   "line": 810,
+   "start": 46,
+   "end": 54,
+   "category": "URL Credentials",
+   "mutation": "rename",
+   "forms": [
+    "acapuvhc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 295,
+   "file": "test/server/dc47d09f.go",
+   "line": 820,
+   "start": 39,
+   "end": 47,
+   "category": "URL Credentials",
+   "mutation": "none",
+   "forms": [
+    "qulhmdsx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 296,
+   "file": "test/server/dc47d09f.go",
+   "line": 871,
+   "start": 44,
+   "end": 52,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "nixvkgdn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 297,
+   "file": "test/server/dc47d09f.go",
+   "line": 883,
+   "start": 44,
+   "end": 52,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "nhtrhcot"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 298,
+   "file": "test/server/dc47d09f.go",
+   "line": 885,
+   "start": 47,
+   "end": 55,
+   "category": "URL Credentials",
+   "mutation": "comment",
+   "forms": [
+    "bafwkxew"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 299,
+   "file": "util/vendor/4525cd14.go",
+   "line": 59,
+   "start": 43,
+   "end": 101,
+   "category": "NKEY Seed",
+   "mutation": "comment",
+   "forms": [
+    "AZVCO8LDSF8ULL6BEJFD8FA8Q5X7TW4W07OHWGIWSMQYH032EIXCXVMFQT"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 300,
+   "file": "util/vendor/4525cd14.go",
+   "line": 112,
+   "start": 4,
+   "end": 62,
+   "category": "NKEY Seed",
+   "mutation": "none",
+   "forms": [
+    "QHSYW8RYSI8NZK9AOTWS1UE8I4Z9XG6G46ETITCLHCWLF791FOIXHPPMMI"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 301,
+   "file": "vendor/083a78c6.md",
+   "line": 45,
+   "start": 17,
+   "end": 75,
+   "category": "NKEY Seed",
+   "mutation": "rename",
+   "forms": [
+    "HVKTMXGVQNXIVX6TBGRFTCZR2HUKORPFC2XKDA2GBUCTFM3PERSON11FRG"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 302,
+   "file": "other/b1a876f0.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-api-06.corp.nordwind-internal.net"
+   ]
+  },
+  {
+   "id": 303,
+   "file": "other/b1a876f0.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "\u043e\u0441\u0435\u043d\u044c2637!"
+   ]
+  },
+  {
+   "id": 304,
+   "file": "other/b1a876f0.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "c4I37nchqmjm6Pf4HwXde9y0P3IdkqXF"
+   ]
+  },
+  {
+   "id": 305,
+   "file": "other/b1a876f0.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "bcx1nwt6zffn7ihd93do6uu23ti8irxb"
+   ]
+  },
+  {
+   "id": 306,
+   "file": "_/5f8bdc6d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "etl.zrw4vl.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 307,
+   "file": "_/5f8bdc6d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "135.98.230.38"
+   ]
+  },
+  {
+   "id": 308,
+   "file": "_/5f8bdc6d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "f.zimmermann@nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 309,
+   "file": "_/5f8bdc6d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.nordwind-corp.de"
+   ]
+  },
+  {
+   "id": 310,
+   "file": "_/5f8bdc6d.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "himmel.triangle.tiger.vie"
+   ]
+  },
+  {
+   "id": 311,
+   "file": "_/bc784883.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth.rhvzfl.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 312,
+   "file": "_/bc784883.json",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "npm_v9q37z0qBIDxzL90JFF0CQ4YQOW7SbxLxb99"
+   ]
+  },
+  {
+   "id": 313,
+   "file": "other/55703317.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.helix-corp.de"
+   ]
+  },
+  {
+   "id": 314,
+   "file": "other/55703317.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "wttFmeA3GsaEWLArnAFhQFE6Wb5KrroW"
+   ]
+  },
+  {
+   "id": 315,
+   "file": "other/78d78fab.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "Y3VscHJpdC1pbnRlcnBvc2UtZGFo",
+    "culprit-interpose-dah"
+   ]
+  },
+  {
+   "id": 316,
+   "file": "other/78d78fab.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV9HV1dLU2YxbllDc00xNHNTZjQ4c3ptY2k=",
+    "sk_live_GWWKSf1nYCsM14sSf48szmci"
+   ]
+  },
+  {
+   "id": 317,
+   "file": "other/78d78fab.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 318,
+   "file": "test/5f6cdf08.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.24.65.11"
+   ]
+  },
+  {
+   "id": 319,
+   "file": "test/5f6cdf08.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger.0k6eko.ng.0001.euc1.cache.amazonaws.com"
+   ]
+  },
+  {
+   "id": 320,
+   "file": "test/5f6cdf08.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TZ7KOX7Y5/BYYOT0HNSVH/cCaBRSgr7KCJsFnfnLtpTZLU"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "client/server/9d8f319f.go",
+   "line": 26,
+   "whole_line": "var passPat = regexp.MustCompile(`\"?\\s*pass\\S*?\"?\\s*[:=]\\s*\"?(([^\",\\r\\n}])*)`)",
+   "source": "creddata"
+  },
+  {
+   "file": "client/server/9d8f319f.go",
+   "line": 43,
+   "whole_line": "\tredactedPass := []byte(\"[REDACTED]\")",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/server/3342c78c.conf",
+   "line": 27,
+   "whole_line": "# This is a map that can preload keys:jwts into a memory resolver.",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/server/5f039f34.conf",
+   "line": 6,
+   "value": "d3763f1c0c099738",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/server/65345c05.conf",
+   "line": 18,
+   "whole_line": "    password: $2a$10$LoRPzN3GtF2pNX5QgCBBHeUr6/zVN./RVGOu5U8SpHyg2sfzvfXji",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/server/7f0ec905.conf",
+   "line": 5,
+   "whole_line": "  token = quux",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/server/7f0ec905.conf",
+   "line": 22,
+   "value": "argon2id",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/server/7f0ec905.conf",
+   "line": 54,
+   "value": "dd17c76ce8c7664b",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/server/89847e4c.conf",
+   "line": 5,
+   "value": "48025d258480235b",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/server/aa0abde9.conf",
+   "line": 5,
+   "value": "dGhlIHNhbXBsZSBub25jZQ==",
+   "source": "creddata"
+  },
+  {
+   "file": "conf/server/d1df8c34.conf",
+   "line": 18,
+   "whole_line": "    password: $2a$10$LoRPzN3GtF2pNX5QgCBBHeUr6/zVN./RVGOu5U8SpHyg2sfzvfXji",
+   "source": "creddata"
+  },
+  {
+   "file": "doc/f177105c.md",
+   "line": 134,
+   "whole_line": "Also a number of keys like `uberctx-some-key: value`",
+   "source": "creddata"
+  },
+  {
+   "file": "docker/server/10d446a0.conf",
+   "line": 19,
+   "value": "AyM1SysPpbyDfgZld3umj1qzKObwVMkoqQ-EstJQLr_T-1qS0gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr1Z9CAow",
+   "source": "creddata"
+  },
+  {
+   "file": "include/conf/6e07527d.conf",
+   "line": 6,
+   "whole_line": "  {user: alice, password: $ALICE_PASS}",
+   "source": "creddata"
+  },
+  {
+   "file": "include/conf/6e07527d.conf",
+   "line": 7,
+   "whole_line": "  {user: bob,   password: $BOB_PASS}",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 26,
+   "whole_line": "\t\to.Password = auth.pass",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 28,
+   "value": " || auth.pass != ",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 28,
+   "value": ") && auth.token != ",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 79,
+   "whole_line": "\t\t\terr := &configErr{tk, \"preload should be a map of account_public_key:account_jwt\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 130,
+   "value": "auth.pass",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 181,
+   "value": "auth.pass",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 232,
+   "value": "auth.pass",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 283,
+   "whole_line": "\t\tcase \"pass\", \"password\":",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 334,
+   "whole_line": "\t\t\tcase \"pass\", \"password\":",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 385,
+   "whole_line": "\t\treturn nil, &configErr{token: root,",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 433,
+   "whole_line": "\t\treturn nil, &configErr{token: root,",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 484,
+   "whole_line": "\t\tcase \"pass\", \"password\":",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 535,
+   "whole_line": "\t\t\tcase \"pass\", \"password\":",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 586,
+   "whole_line": "\t\tcase \"pass\", \"password\":",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 637,
+   "value": "auth.pass",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 688,
+   "value": "auth.pass",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 739,
+   "whole_line": "\t\topts.Password = flagOpts.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 790,
+   "whole_line": "\tfs.StringVar(&opts.Password, \"pass\", \"\", \"Password required for connection.\")",
+   "source": "creddata"
+  },
+  {
+   "file": "opt/server/11f3fc93.go",
+   "line": 841,
+   "whole_line": "\t\t// Since we override from flag and there is no user/pwd, make",
+   "source": "creddata"
+  },
+  {
+   "file": "server/78f42ba4.go",
+   "line": 761,
+   "whole_line": "\t\t\ts.opts.Users = append(s.opts.Users, &User{Username: uname, Password: string(b[:]), Account: s.gacc})",
+   "source": "creddata"
+  },
+  {
+   "file": "server/7ef2fc1d.go",
+   "line": 413,
+   "whole_line": "\t\t\t\tpassword = mo.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "server/7ef2fc1d.go",
+   "line": 426,
+   "whole_line": "\t\t\t\tpassword = wo.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "server/7ef2fc1d.go",
+   "line": 438,
+   "whole_line": "\t\tpassword = opts.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "server/7ef2fc1d.go",
+   "line": 540,
+   "whole_line": "\t\t\t\t\tc.opts.Password = u.Password",
+   "source": "creddata"
+  },
+  {
+   "file": "server/7ef2fc1d.go",
+   "line": 1068,
+   "whole_line": "\t} else if serverPassword != clientPassword {",
+   "source": "creddata"
+  },
+  {
+   "file": "server/9c075c47.go",
+   "line": 26,
+   "whole_line": "\tjsAllAPI = \"$JS.API.>\"",
+   "source": "creddata"
+  },
+  {
+   "file": "server/9c075c47.go",
+   "line": 29,
+   "whole_line": "\tjsDomainAPI = \"$JS.%s.API.>\"",
+   "source": "creddata"
+  },
+  {
+   "file": "server/9c075c47.go",
+   "line": 31,
+   "whole_line": "\tJSApiPrefix = \"$JS.API\"",
+   "source": "creddata"
+  },
+  {
+   "file": "server/9c075c47.go",
+   "line": 82,
+   "value": "$JS.API.META.LEADER.STEPDOWN",
+   "source": "creddata"
+  },
+  {
+   "file": "server/9c075c47.go",
+   "line": 133,
+   "value": "1024",
+   "source": "creddata"
+  },
+  {
+   "file": "server/a6b9351b.go",
+   "line": 609,
+   "whole_line": "\t\tUsername:            auth,",
+   "source": "creddata"
+  },
+  {
+   "file": "server/a6b9351b.go",
+   "line": 1237,
+   "value": "c.AuthTimeout",
+   "source": "creddata"
+  },
+  {
+   "file": "server/a6b9351b.go",
+   "line": 1246,
+   "value": "gw.AuthTimeout",
+   "source": "creddata"
+  },
+  {
+   "file": "server/a6b9351b.go",
+   "line": 1258,
+   "value": "ln.AuthTimeout",
+   "source": "creddata"
+  },
+  {
+   "file": "server/a6c11edd.go",
+   "line": 697,
+   "whole_line": "\t\tcinfo.Pass = c.leaf.remote.password",
+   "source": "creddata"
+  },
+  {
+   "file": "server/a6c11edd.go",
+   "line": 1678,
+   "whole_line": "\t\tkey = append(key, sub.subject...)",
+   "source": "creddata"
+  },
+  {
+   "file": "server/a6c11edd.go",
+   "line": 1679,
+   "whole_line": "\t\tkey = append(key, byte(' '))",
+   "source": "creddata"
+  },
+  {
+   "file": "server/a6c11edd.go",
+   "line": 1680,
+   "whole_line": "\t\tkey = append(key, sub.queue...)",
+   "source": "creddata"
+  },
+  {
+   "file": "server/c8af9dd7.go",
+   "line": 882,
+   "whole_line": "\t\tPass:     pass,",
+   "source": "creddata"
+  },
+  {
+   "file": "server/c8af9dd7.go",
+   "line": 2271,
+   "whole_line": "\tkey = append(key, sub.subject...)",
+   "source": "creddata"
+  },
+  {
+   "file": "server/c8af9dd7.go",
+   "line": 2273,
+   "whole_line": "\t\tkey = append(key, ' ')",
+   "source": "creddata"
+  },
+  {
+   "file": "server/c8af9dd7.go",
+   "line": 2274,
+   "whole_line": "\t\tkey = append(key, sub.queue...)",
+   "source": "creddata"
+  },
+  {
+   "file": "server/ef6be3a4.go",
+   "line": 26,
+   "whole_line": "\terrMQTTPasswordFlagAndNoUser    = errors.New(\"password flag set but username flag is not\")",
+   "source": "creddata"
+  },
+  {
+   "file": "server/ef6be3a4.go",
+   "line": 77,
+   "whole_line": "\thasPassword := cp.flags&mqttConnFlagPasswordFlag != 0",
+   "source": "creddata"
+  },
+  {
+   "file": "server/ef6be3a4.go",
+   "line": 128,
+   "whole_line": "\t\tc.opts.Password, err = r.readString(\"password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "server/ef6be3a4.go",
+   "line": 150,
+   "whole_line": "\tif c.opts.Password != _EMPTY_ {",
+   "source": "creddata"
+  },
+  {
+   "file": "server/ef6be3a4.go",
+   "line": 151,
+   "whole_line": "\t\ttrace += \" password=****\"",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6460c9a4.go",
+   "line": 26,
+   "value": "fscrypt:",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6460c9a4.go",
+   "line": 64,
+   "whole_line": "\tFS_IOC_ADD_ENCRYPTION_KEY                   = 0xc0506617",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6460c9a4.go",
+   "line": 68,
+   "whole_line": "\tFS_IOC_REMOVE_ENCRYPTION_KEY                = 0xc0406618",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6460c9a4.go",
+   "line": 71,
+   "value": "fscrypt:",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6460c9a4.go",
+   "line": 122,
+   "whole_line": "\tKEYCTL_CAPS0_BIG_KEY                        = 0x10",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6460c9a4.go",
+   "line": 168,
+   "whole_line": "\tKEYCTL_WATCH_KEY                            = 0x20",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6460c9a4.go",
+   "line": 180,
+   "whole_line": "\tKEY_SPEC_REQKEY_AUTH_KEY                    = -0x7",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6460c9a4.go",
+   "line": 231,
+   "whole_line": "\tPR_PAC_APDBKEY                              = 0x8",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6460c9a4.go",
+   "line": 282,
+   "whole_line": "\tSMART_HCYL_PASS                             = 0xc2",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6460c9a4.go",
+   "line": 284,
+   "whole_line": "\tSMART_LCYL_PASS                             = 0x4f",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6460c9a4.go",
+   "line": 335,
+   "whole_line": "\tTCP_FASTOPEN_KEY                            = 0x21",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6460c9a4.go",
+   "line": 386,
+   "whole_line": "\tWIN_SECURITY_SET_PASS                       = 0xf1",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6c46bf4a.go",
+   "line": 247,
+   "whole_line": "\tSYS_ADD_KEY                = 5239",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6c46bf4a.go",
+   "line": 248,
+   "whole_line": "\tSYS_REQUEST_KEY            = 5240",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6c46bf4a.go",
+   "line": 249,
+   "value": "5241",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6c46bf4a.go",
+   "line": 331,
+   "value": "5323",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6c46bf4a.go",
+   "line": 332,
+   "value": "5324",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/6c46bf4a.go",
+   "line": 333,
+   "value": "5325",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/8705fea4.go",
+   "line": 179,
+   "whole_line": "\tTHREAD_SET_THREAD_TOKEN          = 0x0080",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/8705fea4.go",
+   "line": 445,
+   "value": "1.3.6.1.5.5.7.3.1\\x00",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/8705fea4.go",
+   "line": 846,
+   "whole_line": "\tDNS_TYPE_KEY     = 0x0019",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/929e895f.go",
+   "line": 37,
+   "whole_line": "\tCREATE_SUB_KEY     = 0x00004",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/932778a5.go",
+   "line": 288,
+   "whole_line": "\tSYS_ADD_KEY                      = 4280",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/932778a5.go",
+   "line": 289,
+   "whole_line": "\tSYS_REQUEST_KEY                  = 4281",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/932778a5.go",
+   "line": 290,
+   "value": "4282",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/932778a5.go",
+   "line": 371,
+   "value": "4363",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/932778a5.go",
+   "line": 372,
+   "value": "4364",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/932778a5.go",
+   "line": 373,
+   "value": "4365",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/9418d4fb.go",
+   "line": 1606,
+   "whole_line": "\tIFLA_BOND_AD_USER_PORT_KEY                 = 0x19",
+   "source": "creddata"
+  },
+  {
+   "file": "sys/vendor/e3589b0d.go",
+   "line": 33,
+   "whole_line": "\tAF_KEY                            = 0x1e",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1258dc58.go",
+   "line": 157,
+   "value": "pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1258dc58.go",
+   "line": 172,
+   "value": "pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1258dc58.go",
+   "line": 1177,
+   "value": "pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1258dc58.go",
+   "line": 1233,
+   "value": "static",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1258dc58.go",
+   "line": 1422,
+   "value": "pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1258dc58.go",
+   "line": 1491,
+   "value": "pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1258dc58.go",
+   "line": 1535,
+   "value": "pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1258dc58.go",
+   "line": 1586,
+   "value": "pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1258dc58.go",
+   "line": 1721,
+   "value": "pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/1258dc58.go",
+   "line": 1803,
+   "whole_line": "\t\t    users = [ {user: weather, password: password} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/44141ad0.go",
+   "line": 173,
+   "whole_line": "\tclientSend, clientExpect := setupConnWithUserPass(t, client, \"ivan\", \"password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/44141ad0.go",
+   "line": 321,
+   "whole_line": "\tclientSend, clientExpect := setupConnWithUserPass(t, client, \"ivan\", \"password\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/47a228cb.go",
+   "line": 98,
+   "whole_line": "\topts.Nkeys = []*server.NkeyUser{{Nkey: \"TEST\"}}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/633f9ac2.go",
+   "line": 26,
+   "value": "0.001",
+   "source": "creddata"
+  },
+  {
+   "file": "test/633f9ac2.go",
+   "line": 512,
+   "value": "pwd, permissions: {publish: [A.b.>]} }]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/633f9ac2.go",
+   "line": 516,
+   "value": "pwd, permissions: {subscribe: [ A.b.> ]}}]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/633f9ac2.go",
+   "line": 129,
+   "value": "$2b$12$qRU7RnS4n8Ud7N1cobQbzTVphEzAyTfkr5USyzxJwzFhqLfIqaRS.",
+   "source": "creddata"
+  },
+  {
+   "file": "test/81d92a1a.go",
+   "line": 33,
+   "whole_line": "\t        users: [ {user: a, password: pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/81d92a1a.go",
+   "line": 37,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/81d92a1a.go",
+   "line": 218,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/81d92a1a.go",
+   "line": 222,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/81d92a1a.go",
+   "line": 286,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/81d92a1a.go",
+   "line": 290,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/81d92a1a.go",
+   "line": 384,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/81d92a1a.go",
+   "line": 388,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/81d92a1a.go",
+   "line": 477,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/81d92a1a.go",
+   "line": 519,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/81d92a1a.go",
+   "line": 523,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/81d92a1a.go",
+   "line": 586,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8bf97fa3.go",
+   "line": 52,
+   "value": "10422",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8bf97fa3.go",
+   "line": 117,
+   "whole_line": "const AUTH_USER = \"derek\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8bf97fa3.go",
+   "line": 123,
+   "whole_line": "\topts.Username = AUTH_USER",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8bf97fa3.go",
+   "line": 124,
+   "value": "AUTH_PASS",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8bf97fa3.go",
+   "line": 175,
+   "whole_line": "const BCRYPT_AUTH_HASH = \"$2a$04$Q.CgCP2Sl9pkcTXEZHazaeMwPaAkSHk7AI51HkyMt5iJQQyUA4qxq\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8bf97fa3.go",
+   "line": 180,
+   "whole_line": "\topts.Username = AUTH_USER",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8bf97fa3.go",
+   "line": 181,
+   "value": "BCRYPT_AUTH_HASH",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8bf97fa3.go",
+   "line": 210,
+   "value": "$2a$04$u5ZClXpcjHgpfc61Ee0VKuwI1K3vTC4zq7SjphjnlHMeb1Llkb5Y6",
+   "source": "creddata"
+  },
+  {
+   "file": "test/8bf97fa3.go",
+   "line": 174,
+   "value": "AyM1SysPpbyDfgZld3umj1qzKObwVMkoqQ-EstJQLr_T-1qS0gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr1Z9CAow",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ada0599e.go",
+   "line": 1009,
+   "value": "0.001",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ada0599e.go",
+   "line": 1362,
+   "whole_line": "\t\t// openssl req -newkey rsa:2048  -nodes -keyout client-$CLIENT_ID.key -subj \"/C=US/ST=CA/L=Los Angeles/OU=NATS/O=NATS/CN=*.example.com/DC=example/DC=com\" -addext extendedKeyUsage=clientAuth -out client-$CLIENT_ID.csr",
+   "source": "creddata"
+  },
+  {
+   "file": "test/client/server/e1e39b80.go",
+   "line": 506,
+   "value": "foo",
+   "source": "creddata"
+  },
+  {
+   "file": "test/client/server/e1e39b80.go",
+   "line": 521,
+   "value": "foo",
+   "source": "creddata"
+  },
+  {
+   "file": "test/client/server/e1e39b80.go",
+   "line": 526,
+   "whole_line": "\tconnectOp = []byte(\"CONNECT {\\\"auth_token\\\":\\\"YZZ222\\\",\\\"name\\\":\\\"router\\\"}\\r\\n\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/client/server/e1e39b80.go",
+   "line": 536,
+   "value": "YZZ222",
+   "source": "creddata"
+  },
+  {
+   "file": "test/client/server/e1e39b80.go",
+   "line": 1286,
+   "whole_line": "\t\tt.Fatalf(\"Authentication Timeout response incorrect: %q\\n\", l)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 26,
+   "whole_line": "\t\t\t\tApiPrefix:     \"RI.JS.API\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 77,
+   "whole_line": "\t\t\t\tAPIPrefix:     \"RI.JS.API\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 104,
+   "whole_line": "\t\t\t\t\tAPIPrefix:     \"RI.JS.API\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 155,
+   "whole_line": "\t\t\t\tApiPrefix: \"RI.JS.API\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 167,
+   "whole_line": "\t\t\t\tApiPrefix:     \"$JS.API\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 178,
+   "whole_line": "\t\t\t\tApiPrefix:     \"RI.JS.API\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 190,
+   "whole_line": "\t\t\t\tApiPrefix:     \"$JS.API\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 332,
+   "whole_line": "\t\t\tExternal: &nats.ExternalStream{APIPrefix: \"$JS.HUB.API\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 371,
+   "whole_line": "\t\t\tExternal: &nats.ExternalStream{APIPrefix: \"$JS.LN.API\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 422,
+   "whole_line": "\t\t\tExternal: &nats.ExternalStream{APIPrefix: \"$JS.CORE.API\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 452,
+   "whole_line": "\t\t\tExternal: &nats.ExternalStream{APIPrefix: \"$JS.SPOKE.API\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 503,
+   "whole_line": "\t\t\t\tExternal: &nats.ExternalStream{APIPrefix: \"$JS.SPOKE-1.API\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 507,
+   "whole_line": "\t\t\t\tExternal: &nats.ExternalStream{APIPrefix: \"$JS.SPOKE-2.API\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 558,
+   "whole_line": "\t\t\tExternal: &nats.ExternalStream{APIPrefix: \"$JS.SPOKE-1.API\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 574,
+   "whole_line": "\tif ssi.Mirror.External.ApiPrefix != \"$JS.SPOKE-1.API\" {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 669,
+   "whole_line": "\t\t\t\tAPIPrefix:     \"js.xacc.API\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 720,
+   "whole_line": "\t\t\tExternal: &nats.ExternalStream{APIPrefix: \"$JS.SPOKE.API\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cluster/server/7708ebf0.go",
+   "line": 771,
+   "whole_line": "\t\tNOJS { users = [ { user: \"nojs\", pass: \"p\" } ] }",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/08d7456f.conf",
+   "line": 8,
+   "whole_line": "  PASS: $2a$04$P/.bd.7unw9Ew7yWJqXsl.f4oNRLQGvadEL2YnqQXbbb.IVQajRdK",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/08d7456f.conf",
+   "line": 12,
+   "whole_line": "    {user: alice, password: $PASS, permissions: $ADMIN}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/08d7456f.conf",
+   "line": 13,
+   "whole_line": "    {user: bob,   password: $PASS, permissions: $REQUESTOR}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/08d7456f.conf",
+   "line": 14,
+   "whole_line": "    {user: bench, password: $PASS, permissions: $BENCH}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/08d7456f.conf",
+   "line": 15,
+   "whole_line": "    {user: joe,   password: $PASS}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/08d7456f.conf",
+   "line": 16,
+   "whole_line": "    {user: ns, password: $PASS, permissions: $NEW_STYLE}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/08d7456f.conf",
+   "line": 17,
+   "whole_line": "    {user: ns-pub, password: $PASS, permissions: $NS_PUB}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/08d7456f.conf",
+   "line": 18,
+   "whole_line": "    {user: bench-deny, password: $PASS, permissions: $BENCH_DENY}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/08d7456f.conf",
+   "line": 19,
+   "whole_line": "    {user: svca, password: $PASS, permissions: $MY_SERVICE}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/08d7456f.conf",
+   "line": 20,
+   "whole_line": "    {user: svcb, password: $PASS, permissions: $MY_STREAM_SERVICE}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/0fd3e5cb.conf",
+   "line": 9,
+   "whole_line": "        {user: alice, password: $password}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/0fd3e5cb.conf",
+   "line": 10,
+   "whole_line": "        {user: bob,   password: $password}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/0fd3e5cb.conf",
+   "line": 16,
+   "value": "$password}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/0fd3e5cb.conf",
+   "line": 17,
+   "whole_line": "        {user: mary,  password: $password}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/0fd3e5cb.conf",
+   "line": 23,
+   "whole_line": "        {user: peter, password: $password}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/0fd3e5cb.conf",
+   "line": 24,
+   "whole_line": "        {user: paul,  password: $password}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/9f7a2e57.conf",
+   "line": 20,
+   "whole_line": "# This is a map that can preload keys:jwts into a memory resolver.",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/9f7a2e57.conf",
+   "line": 25,
+   "value": "GEZDGNBVGY3TQOJQGEZDGNBVGY3TQOJQ",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/cluster/6a77588c.conf",
+   "line": 12,
+   "value": "$2b$12$FIC7IvpdLHvc1L33hC0yzq1tAAzj0tEOacRtj10REsVcikJ2t4Fqb",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/d59cf806.go",
+   "line": 307,
+   "whole_line": "\t\t\t\"ALICE_PASS\": \"$2a$10$UHR6GhotWhpLsKtVP0/i6.Nh9.fuY73cWjLoJjb2sKT8KISBcUW5q\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/d59cf806.go",
+   "line": 308,
+   "whole_line": "\t\t\t\"BOB_PASS\":   \"$2a$11$dZM98SpGeI7dCFFGSpt.JObQcix8YHml4TBUZoge9R1uxnMIln5ly\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/d59cf806.go",
+   "line": 312,
+   "whole_line": "\t\t\t\t\t\"password\": \"$2a$10$UHR6GhotWhpLsKtVP0/i6.Nh9.fuY73cWjLoJjb2sKT8KISBcUW5q\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/d59cf806.go",
+   "line": 315,
+   "whole_line": "\t\t\t\t\t\"password\": \"$2a$11$dZM98SpGeI7dCFFGSpt.JObQcix8YHml4TBUZoge9R1uxnMIln5ly\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/d59cf806.go",
+   "line": 342,
+   "whole_line": "   {user: alice, password: $ALICE_PASS}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/d59cf806.go",
+   "line": 343,
+   "whole_line": "   {user: bob,   password: $BOB_PASS}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/d59cf806.go",
+   "line": 344,
+   "whole_line": "   {user: carol, password: $CAROL_PASS}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/d59cf806.go",
+   "line": 138,
+   "value": "secret/data/quarzo/ledger/staging",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 111,
+   "whole_line": "\t\t      token = \"quux\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 427,
+   "whole_line": "\t\t    {user: bob,   password: bar, permissions: $req_pub_user}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 720,
+   "whole_line": "                    nkey = \"invalid\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 724,
+   "whole_line": "\t\t\terr:       errors.New(`Not a valid public nkey for an account: \"invalid\"`),",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 984,
+   "whole_line": "\t\t  users = [{user: hello, pass: world}]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 1211,
+   "whole_line": "                  sys { users = [ {user: sys, pass: \"\" } ] }",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 1214,
+   "whole_line": "                    users = [ { user : bar, pass: \"\" } ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 1238,
+   "whole_line": "                  sys { users = [ {user: sys, pass: \"\" } ] }",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 1241,
+   "whole_line": "                    users = [ { user : bar, pass: \"\" } ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 1261,
+   "whole_line": "                  sys { users = [ {user: sys, pass: \"\" } ] }",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 1264,
+   "whole_line": "                    users = [ { user : bar, pass: \"\" } ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 1283,
+   "value": "user1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 1290,
+   "value": "user2",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 1409,
+   "whole_line": "                           {user: a, password: pwd, allowed_connection_types: [",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 95,
+   "value": "26MWFD1EB3OFX7TAXDJ1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 508,
+   "value": "CRM_API_KEY",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 548,
+   "value": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 572,
+   "value": "Authorization",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 592,
+   "value": "auth-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 598,
+   "value": "AUTH_CLIENT_SECRET",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/server/edc1c568.go",
+   "line": 614,
+   "value": "$2b$10$cbS42qxapMVi9Yc7lyOe.vRrPXgkdVRPOFzN1NGo320Jv/MlxTLWU",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 1136,
+   "whole_line": "      users = [ {nkey: \"Ufoo\"}]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 1571,
+   "whole_line": "\topts = mustNotFail([]string{\"-c\", \"./configs/srv_a.conf\", \"-cluster\", \"nats://ivan:pwd@127.0.0.1:6222\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 1632,
+   "value": "pwd",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 1772,
+   "value": "pwd",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 2104,
+   "whole_line": "\t\t\t\turls: [\"nats://user1:pwd1@host2:5222\", \"nats://user1:pwd1@host3:6222\"]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 2135,
+   "whole_line": "\tu1, _ := url.Parse(\"nats://user1:pwd1@host2:5222\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 2136,
+   "whole_line": "\tu2, _ := url.Parse(\"nats://user1:pwd1@host3:6222\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 2212,
+   "whole_line": "\t\t\t\t\t\t{user: alice, password: foo}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 2213,
+   "whole_line": "\t\t\t\t\t\t{user: bob,   password: bar}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 2433,
+   "whole_line": "\t\t\t\t\tcredentials: \"./my.creds\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 2449,
+   "whole_line": "\t\t\tCredentials:  \"./my.creds\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 2473,
+   "whole_line": "\t\t\t\t\tcredentials: \"~/my.creds\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 2684,
+   "value": "pwd",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 2873,
+   "whole_line": "\t\tno_auth_user: $NO_AUTH_USER",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 2878,
+   "whole_line": "\t\t\t\t\t{user: \"a\", password: \"a\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 2884,
+   "whole_line": "\t\t\t\t\t{user: \"c\", password: \"c\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 2891,
+   "whole_line": "\t\t\t\t{user: \"b\", password: \"b\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 295,
+   "value": "/etc/auth/tls/private.key",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 400,
+   "value": "/etc/payments/tls/private.key",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 1190,
+   "value": "2025-10-26T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "test/opt/server/728925ac.go",
+   "line": 1258,
+   "value": "$2b$10$6AVn9vW0cOlo9NBkKD59WMzT5GdHKDs5Ni5hlbEAv0GRtRwwZWVH7",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/1a13a17c.go",
+   "line": 517,
+   "whole_line": "          {user: alice, password: foo}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/1a13a17c.go",
+   "line": 568,
+   "whole_line": "          {user: alice, password: foo}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/1a13a17c.go",
+   "line": 2136,
+   "whole_line": "          {user: derek, password: foo},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/1a13a17c.go",
+   "line": 2142,
+   "whole_line": "          {user: ivan, password: bar},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/1a13a17c.go",
+   "line": 2129,
+   "value": "reports-tls",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/1eb6d192.go",
+   "line": 53,
+   "whole_line": "\topts.Users = []*User{{Username: \"derek\", Password: \"foo\"}}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/1eb6d192.go",
+   "line": 124,
+   "whole_line": "\tcs := fmt.Sprintf(\"CONNECT {\\\"nkey\\\":%q, \\\"verbose\\\":true,\\\"pedantic\\\":true}\\r\\n\", pubKey)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/35b59241.go",
+   "line": 2224,
+   "whole_line": "\t\t\t\t\t{user: b, password: b}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/35b59241.go",
+   "line": 2249,
+   "whole_line": "\t\t\t\t\t{user: b, password: b}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 77,
+   "whole_line": "\t\t\to.Nkeys = []*NkeyUser{{Nkey: \"abc\"}}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 128,
+   "whole_line": "\t\t\t\tno_auth_user: \"noauthuser\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 131,
+   "whole_line": "\t\t\t\tif o.NoAuthUser != \"noauthuser\" {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 142,
+   "whole_line": "\t\t\t\t\ttoken: \"token\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 147,
+   "value": "token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 267,
+   "value": "test.pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 357,
+   "whole_line": "\t\t\t\tuser:      \"ignore_use_token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 358,
+   "value": "test.token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 409,
+   "whole_line": "\t\t\t\tuser:      \"ignore_use_token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 410,
+   "whole_line": "\t\t\t\tpass:      jwt,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 461,
+   "value": "test.pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 472,
+   "whole_line": "\to.Users = []*User{{Username: \"user\", Password: \"pwd\"}}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 481,
+   "whole_line": "\to.NoAuthUser = \"user\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 507,
+   "whole_line": "\t\t\t\t{Username: \"noauth\", Password: \"pwd\", Account: normalAcc},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 508,
+   "whole_line": "\t\t\t\t{Username: \"user\", Password: \"pwd\", Account: normalAcc},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 512,
+   "whole_line": "\t\t\to.NoAuthUser = \"noauth\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 514,
+   "whole_line": "\t\t\t\to.MQTT.NoAuthUser = \"mqttnoauth\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 565,
+   "whole_line": "\t\t\t\t{user: mqtt, password: pass, permissions: $mqtt_perms}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 581,
+   "whole_line": "\t\tpass:      \"pass\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 632,
+   "whole_line": "\t\tpass:      \"pass\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3906e586.go",
+   "line": 229,
+   "value": "payments-db-credentials",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 286,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 291,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 295,
+   "whole_line": "\t\t\t\"CONNECT {\\\"user\\\":\\\"derek\\\",\\\"pass\\\":\\\"\\\"}\\r\\n\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 296,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 300,
+   "value": "               ",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 301,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 306,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 311,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 336,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 341,
+   "whole_line": "\t\t\t\"CONNECT {pass:[REDACTED]\\r\\n\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 346,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 351,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 356,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 361,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 361,
+   "value": "BBBBBBBBBBBBBBBBBBBB",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 361,
+   "value": "CCCCCCCCCCCCCCCC",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 366,
+   "whole_line": "\t\t\t\"CONNECT {pass = \\\"[REDACTED]\\\",pass= \\\"BBBBBBBBBBBBBBBBBBBB\\\",password =\\\"CCCCCCCCCCCCCCCC\\\"}\\r\\n\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 371,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 376,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 381,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 386,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/3f79ca86.go",
+   "line": 391,
+   "value": "[REDACTED]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/515f4ca6.go",
+   "line": 78,
+   "whole_line": "// reload config using with a username/password, ensure reconnect fails, then",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/515f4ca6.go",
+   "line": 129,
+   "whole_line": "\t\t\t\tpassword: pwd",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/515f4ca6.go",
+   "line": 133,
+   "value": "7246",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/515f4ca6.go",
+   "line": 145,
+   "value": "pwd",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/515f4ca6.go",
+   "line": 149,
+   "value": "7244",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/515f4ca6.go",
+   "line": 214,
+   "value": "bat",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/515f4ca6.go",
+   "line": 299,
+   "value": "bat",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/515f4ca6.go",
+   "line": 478,
+   "whole_line": "\t\t  sys { users = [ {user: sys, pass: \"\" } ] }",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/515f4ca6.go",
+   "line": 479,
+   "whole_line": "\t\t  nats.io: { users = [ { user : bar, pass: \"pwd\" } ] }",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/515f4ca6.go",
+   "line": 530,
+   "whole_line": "\t\t\t\t{user: \"a\", password: \"a\"},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/515f4ca6.go",
+   "line": 531,
+   "whole_line": "\t\t\t\t{user: \"b\", password: \"b\"}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/69abb428.go",
+   "line": 26,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/69abb428.go",
+   "line": 77,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/69abb428.go",
+   "line": 81,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/69abb428.go",
+   "line": 132,
+   "value": "pwd} ]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/69abb428.go",
+   "line": 134,
+   "whole_line": "\t\t\tSYS: { users: [ {user: uc, password: pwd} ] },",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/69abb428.go",
+   "line": 185,
+   "whole_line": "\t\t\t\t{user: user1, password: %s}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/69abb428.go",
+   "line": 188,
+   "whole_line": "\t\tno_auth_user: anonymous",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 26,
+   "whole_line": "\t\t\t\tno_auth_user: \"noauthuser\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 29,
+   "whole_line": "\t\t\t\tif wo.NoAuthUser != \"noauthuser\" {",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 40,
+   "whole_line": "\t\t\t\t\ttoken: \"token\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 45,
+   "value": "token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 96,
+   "whole_line": "\t\t\to.Nkeys = []*NkeyUser{{Nkey: \"abc\"}}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 98,
+   "value": "pwd",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 103,
+   "whole_line": "\t\t\to.Nkeys = []*NkeyUser{{Nkey: \"abc\"}}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 274,
+   "whole_line": "\t\t\tconnectProto := \"CONNECT {\\\"verbose\\\":false,\\\"protocol\\\":1,\\\"user\\\":\\\"websocket\\\",\\\"pass\\\":\\\"client\\\"}\\r\\nPING\\r\\n\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 325,
+   "whole_line": "\to.NoAuthUser = \"user\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 356,
+   "whole_line": "\t\t\to.NoAuthUser = \"noauth\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 358,
+   "whole_line": "\t\t\t\to.Websocket.NoAuthUser = \"wsnoauth\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 409,
+   "value": "wspub",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 424,
+   "value": "wspub",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 438,
+   "value": "wspub",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 155,
+   "value": "bcrypt",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 166,
+   "value": "2024-06-06T00:00:00Z",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 197,
+   "value": "a8e4c0f7b22d8267",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88341713.go",
+   "line": 257,
+   "value": "X-Auth-Token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88763956.go",
+   "line": 413,
+   "whole_line": "\t\t\tpassword: pwd",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88763956.go",
+   "line": 562,
+   "whole_line": "\topts.LeafNode.Users = []*User{{Username: \"user\", Password: \"pwd\"}}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88763956.go",
+   "line": 611,
+   "whole_line": "\t\t{\"user creds required so binds to ACC1\", \"user: \\\"ln\\\"\\npass: \\\"pwd\\\"\", \"ln:pwd@\", false},",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88763956.go",
+   "line": 2150,
+   "value": "a} ]}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88763956.go",
+   "line": 2151,
+   "value": "b} ]}",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/88763956.go",
+   "line": 2475,
+   "value": "remotes: [{url: u}]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 79,
+   "whole_line": "\tserviceImport.Token = actJWT",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 126,
+   "whole_line": "\tstreamImport.Token = actJWT",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 177,
+   "whole_line": "\tstreamImport.Token = actJWT",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 228,
+   "whole_line": "\tserviceImport.Token = actJWT",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 279,
+   "whole_line": "\t\tac.Imports.Add(&jwt.Import{Account: srvPK, Subject: \"foo\", Type: jwt.Service, Token: createImportToken(\"foo\", jwt.Service)})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 280,
+   "whole_line": "\t\tac.Imports.Add(&jwt.Import{Account: srvPK, Subject: \"bar\", Type: jwt.Stream, Token: createImportToken(\"bar\", jwt.Stream)})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 331,
+   "whole_line": "\t\tac.Imports.Add(&jwt.Import{Account: srvPK, Subject: \"foo\", Type: jwt.Service, Token: createImportToken(\"foo\", jwt.Service)})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 332,
+   "whole_line": "\t\tac.Imports.Add(&jwt.Import{Account: srvPK, Subject: \"bar\", Type: jwt.Stream, Token: createImportToken(\"bar\", jwt.Stream)})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 383,
+   "whole_line": "\t\tac.Imports.Add(&jwt.Import{Account: srvPK, Subject: \"foo\", Type: jwt.Service, Token: createImportToken(\"foo\", jwt.Service)})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 384,
+   "whole_line": "\t\tac.Imports.Add(&jwt.Import{Account: srvPK, Subject: \"bar\", Type: jwt.Stream, Token: createImportToken(\"bar\", jwt.Stream)})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 435,
+   "whole_line": "\tsimport.Token = actJWT",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 486,
+   "whole_line": "\tsimport.Token = actJWT",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 537,
+   "whole_line": "\t\t\t\topts.Users = append(opts.Users, &User{Username: \"u\", Password: \"pwd\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 588,
+   "whole_line": "\t\t\tToken:   token,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/8e39a8bd.go",
+   "line": 639,
+   "whole_line": "\tsigner.Key = aSignScopedPub",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/91de30fa.go",
+   "line": 137,
+   "whole_line": "\t\tNkey:                   \"somekey\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/91de30fa.go",
+   "line": 144,
+   "whole_line": "\to.Nkeys[0].AllowedConnectionTypes = testCreateAllowedConnectionTypes([]string{\"websocket\"})",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/c7271062.go",
+   "line": 202,
+   "value": "wrong_pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/dc47d09f.go",
+   "line": 173,
+   "value": "o2bis",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/dc47d09f.go",
+   "line": 759,
+   "value": "password",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/f1bada03.go",
+   "line": 26,
+   "whole_line": "\t\tacc := fmt.Sprintf(\"\tacc_%d: { users=[{user:user_%d, password: pwd}] }\\n\", i, i)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/f1bada03.go",
+   "line": 77,
+   "whole_line": "\t\t\t\tusers [{user: usr2, password: pwd}]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/server/f1bada03.go",
+   "line": 101,
+   "whole_line": "\tnc := natsConnect(t, \"nats://usr:pwd@127.0.0.1:7500\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sys/8d5e747a.go",
+   "line": 210,
+   "value": "pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/sys/8d5e747a.go",
+   "line": 303,
+   "value": "pass",
+   "source": "creddata"
+  },
+  {
+   "file": "test/util/server/5c10b961.go",
+   "line": 111,
+   "whole_line": "\tcheck(t, \"nats://ivan:pwd@localhost:4222\", \"nats://ivan:pwd@localhost:4222\", true)",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/083a78c6.md",
+   "line": 19,
+   "whole_line": "Dealing with 32 byte and 64 byte raw keys can be challenging. NKEYS is designed to formulate keys in a much friendlier fashion and references work done in cryptocurrencies, specifically [Stellar](https://www.stellar.org/).\tBitcoin and others used a form of Base58 (or Base58Check) to encode raw keys. Stellar utilized a more traditional Base32 with a CRC16 and a version or prefix byte. NKEYS utilizes a similar format where the prefix will be 1 byte for public and private keys and will be 2 bytes for seeds. The base32 encoding of these prefixes will yield friendly human readable prefixes, e.g. '**N**' = server, '**C**' = cluster, '**O**' = operator, '**A**' = account, and '**U**' = user. '**P**' is used for private keys. For seeds, the first encoded prefix is '**S**', and the second character will be the type for the public key, e.g. \"**SU**\" is a seed for a user key pair, \"**SA**\" is a seed for an account key pair.",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/083a78c6.md",
+   "line": 49,
+   "whole_line": "// publicKey = \"UD466L6EBCM3YY5HEGHJANNTN4LSKTSUXTH7RILHCKEQMQHTBNLHJJXT\"",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/94ae447a.go",
+   "line": 26,
+   "value": "authorization violation",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/94ae447a.go",
+   "line": 32,
+   "value": "user authentication revoked",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/94ae447a.go",
+   "line": 53,
+   "value": "nats: authorization violation",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/94ae447a.go",
+   "line": 55,
+   "value": "nats: authentication revoked",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/94ae447a.go",
+   "line": 106,
+   "whole_line": "// The url can contain username/password semantics. e.g. nats://derek:pass@localhost:4222",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/94ae447a.go",
+   "line": 157,
+   "value": "password",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/94ae447a.go",
+   "line": 170,
+   "whole_line": "\t\to.Token = token",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/94ae447a.go",
+   "line": 221,
+   "whole_line": "\tif nc.Opts.Nkey != \"\" && nc.info.Nonce == \"\" {",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/ed44e472.go",
+   "line": 48,
+   "whole_line": "type PrivateKey = ed25519.PrivateKey",
+   "source": "creddata"
+  },
+  {
+   "file": "vendor/fe3d3d63.go",
+   "line": 36,
+   "whole_line": "\tdefaultAPIPrefix = \"$JS.API.\"",
+   "source": "creddata"
+  },
+  {
+   "file": "other/b1a876f0.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/nordwind/vault/prod"
+  },
+  {
+   "file": "other/b1a876f0.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "BILLING_DB_PASSWORD"
+  },
+  {
+   "file": "other/b1a876f0.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "other/b1a876f0.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "/var/run/secrets/payments/token"
+  },
+  {
+   "file": "other/b1a876f0.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "RS256"
+  },
+  {
+   "file": "other/b1a876f0.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://api.stripe.com/v1/tokens"
+  },
+  {
+   "file": "other/b1a876f0.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "770390578427-73xglhnccf5hxhndnwoomtvcmizjiqid.apps.googleusercontent.com"
+  },
+  {
+   "file": "other/b1a876f0.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2025-02-03T00:00:00Z"
+  },
+  {
+   "file": "other/b1a876f0.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "billing-oauth-client"
+  },
+  {
+   "file": "other/b1a876f0.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "aW52b2ljZTo5NTU4NTpvZmZzZXQ6MTI0"
+  },
+  {
+   "file": "_/5f8bdc6d.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "careers.nordwind-corp.de"
+  },
+  {
+   "file": "_/5f8bdc6d.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "blog.nordwind-corp.de"
+  },
+  {
+   "file": "_/5f8bdc6d.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "sts.amazonaws.com"
+  },
+  {
+   "file": "_/5f8bdc6d.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "_/5f8bdc6d.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "_/5f8bdc6d.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "192.168.1.1"
+  },
+  {
+   "file": "_/5f8bdc6d.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "billing@nordwind-corp.de"
+  },
+  {
+   "file": "_/5f8bdc6d.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "dXNlci1hZ2VudDpjdXJsLzguNC4w"
+  },
+  {
+   "file": "_/5f8bdc6d.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "656e2d55532c656e3b713d302e39"
+  },
+  {
+   "file": "_/5f8bdc6d.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "oauth2.googleapis.com"
+  },
+  {
+   "file": "_/bc784883.json",
+   "source": "synthetic",
+   "line": 3,
+   "value": "0.30.1"
+  },
+  {
+   "file": "_/bc784883.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "0.24.25"
+  },
+  {
+   "file": "_/bc784883.json",
+   "source": "synthetic",
+   "line": 6,
+   "value": "sha512-zQ0yUe2gPg7kloyVNFlOtegU4/OnmM4hFcQRdjhE+dITk9e2TYJVrRW7NvqIxNI8KALjhST42uKfeH55qxaIQA=="
+  },
+  {
+   "file": "_/bc784883.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "6.9.13"
+  },
+  {
+   "file": "_/bc784883.json",
+   "source": "synthetic",
+   "line": 7,
+   "value": "sha512-nmC91pN/NydNy5zcwVwix2443b84MODcqUPzjATvG1D2M01+aHjSM7M3WQMpsLdKIMot1kImlQnGytju9trSqA=="
+  },
+  {
+   "file": "_/bc784883.json",
+   "source": "synthetic",
+   "line": 9,
+   "value": "2.0.46"
+  },
+  {
+   "file": "_/bc784883.json",
+   "source": "synthetic",
+   "line": 11,
+   "value": "sha512-KJ/3O6qLJ0tIWelnTAwKZcOk044u47mVG2N/Gva6ezPNMI6km474Epdpg3QTIcbmf+27TPyFGvSeAyPtwDnfrA=="
+  },
+  {
+   "file": "other/55703317.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "other/55703317.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "7.15.12"
+  },
+  {
+   "file": "other/55703317.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "8a8c0e9056c9ddf849f1ab33ff72a57cb4b6befc"
+  },
+  {
+   "file": "other/55703317.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "e6f9fff0-8f37-43e8-8381-1b42356dcd1a"
+  },
+  {
+   "file": "other/78d78fab.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "050b483"
+  },
+  {
+   "file": "other/78d78fab.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "d0c76234f4caea0c83c63f2201a2a161f900285df6c42fc5cff80a4e1c5923c5"
+  },
+  {
+   "file": "other/78d78fab.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "other/78d78fab.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/5f6cdf08.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "dc182bf6e7110b59747d"
+  },
+  {
+   "file": "test/5f6cdf08.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "test/5f6cdf08.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "f9122e0b9b6c8af38090554f06c117dcb05d2079"
+  }
+ ]
+}

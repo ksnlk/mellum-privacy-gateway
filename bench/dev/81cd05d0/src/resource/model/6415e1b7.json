@@ -1,0 +1,51 @@
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "DescribeDataSources" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "DescribeEvaluations" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "DescribeMLModels" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : true,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2014-12-12",
+    "asyncClient" : "AmazonMachineLearningAsyncClient",
+    "asyncClientBuilderClassName" : "AmazonMachineLearningAsyncClientBuilder",
+    "asyncInterface" : "AmazonMachineLearningAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AmazonMachineLearningModuleInjector",
+    "defaultEndpoint" : "https://machinelearning.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "machinelearning.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "Definition of the public APIs exposed by Amazon Machine Learning",
+    "endpointPrefix" : "machinelearning",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.machinelearning",
+    "packagePath" : "com/amazonaws/services/machinelearning",
+    "protocol" : "json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : null,

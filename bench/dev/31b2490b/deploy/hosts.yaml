@@ -1,0 +1,15 @@
+monitoring: juno.helix.systems
+database:
+  host: nimbus.helix.systems
+  port: 5432
+queue: vega.helix.systems
+backup_target: kestrel.helix.systems
+website: kunden.helix.systems
+payments_api: https://api.datafjord.com/v2
+partner_drop: edi.datafjord.de
+allow_sources:
+  - 194.84.38.178
+  - 140.82.114.25
+  - 194.96.220.167
+ntp: 212.18.3.19
+mirrors: [kafka.apache.org, gitlab.freedesktop.org]

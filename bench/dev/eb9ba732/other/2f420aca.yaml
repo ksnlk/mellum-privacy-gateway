@@ -1,0 +1,19 @@
+# kelpie payments service
+database:
+  host: jenkins.kelpie-corp.de
+  user: payments
+  password: "Winter2009!"
+  password_source: secret/data/kelpie/etl/staging
+  password_env: PAYMENTS_CLIENT_SECRET
+api:
+  key_header: X-Auth-Token
+  partner_ident: sz5lUwdxEI8lF6zJemKqxAVjkI8s9oua
+  key_file: /run/secrets/reports_password
+  signing_alg: argon2id
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 706316700141-55zprsd6rw8nl7nloqujp7frhugz06v6.apps.googleusercontent.com
+  client_proof: mh4ujsyedx3xbvlnbqrc67113po82ngc
+  secret_rotated_at: "2024-08-14T00:00:00Z"
+  secret_name: auth-tls
+pagination:
+  first_cursor: aW52b2ljZTo3OTE5MjpvZmZzZXQ6Mzk3

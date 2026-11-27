@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.acme.io/app@sha256:0d9f0f370d10fd6bca15d640e6ca33291729024dbf012b72cc80c86a46acd680
+    environment:
+      - DATABASE_URL=postgres://app:micrometerigel45@10.197.10.175:5432/app
+      - SENTRY_RELEASE=0bdb4edba324e4edc3991097b779e3f930960670
+      - API_TOKEN=REPLACE_ME
+      - BIND_ADDR=localhost
+  worker:
+    image: registry.acme.io/worker:4.20.23
+    environment:
+      - QUEUE_PASS=TWV5ZXJzb3BoaWU4NSE=

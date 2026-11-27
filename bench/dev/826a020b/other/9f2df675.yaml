@@ -1,0 +1,19 @@
+# vantor payments service
+database:
+  host: reports-primary.vantor.cloud
+  user: payments
+  password: "hund371$"
+  password_source: secret/data/vantor/reports/prod
+  password_env: REPORTS_SECRET_KEY
+api:
+  key_header: Proxy-Authorization
+  partner_ident: sg6NLpIhB4tmiO2oroRlbSMuTozibcWa
+  key_file: /var/run/secrets/billing/token
+  signing_alg: argon2id
+  token_endpoint: https://oauth2.googleapis.com/token
+  client_id: 314809760586-20a709myt8dkf45yyiq7q6yz7dwbejw4.apps.googleusercontent.com
+  client_proof: x2gl41liqzy2ogpfxyt8w2oluz6tracu
+  secret_rotated_at: "2024-10-18T00:00:00Z"
+  secret_name: reports-db-credentials
+pagination:
+  first_cursor: aW52b2ljZTo2MTIyMzpvZmZzZXQ6MzY0

@@ -1,0 +1,19 @@
+# pinegrid payments service
+database:
+  host: reports-mq-02.prod.pinegrid-internal.net
+  user: payments
+  password: "Baer&1986"
+  password_source: secret/data/pinegrid/billing/staging
+  password_env: LEDGER_AUTH_TOKEN
+api:
+  key_header: X-Auth-Token
+  partner_ident: a8XnSeGApEb7qJxYvM5v84pDX9NyUeHh
+  key_file: /var/run/secrets/billing/token
+  signing_alg: RS256
+  token_endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+  client_id: 269175517877-g13ygyawsgrktdvokentbbdycv7fn05v.apps.googleusercontent.com
+  client_proof: vvwx7om7z0lvig3c4j2qt663gvo4ampb
+  secret_rotated_at: "2025-07-01T00:00:00Z"
+  secret_name: vault-db-credentials
+pagination:
+  first_cursor: b3JkZXI6NjY0Mzc6b2Zmc2V0OjIxMg==

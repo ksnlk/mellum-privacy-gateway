@@ -1,0 +1,1598 @@
+{
+ "repo": "eab0f8ed",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/15cd5bcf.ks",
+   "line": 9,
+   "start": 51,
+   "end": 56,
+   "category": "CMD Password",
+   "mutation": "none",
+   "forms": [
+    "ecaye"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/b3356305.md",
+   "line": 20,
+   "start": 29,
+   "end": 69,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "7fff7011091e7891b380da7ad9cde90b0708211a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "sample/setting/client/app/0cf137ab.json",
+   "line": 4,
+   "start": 21,
+   "end": 36,
+   "category": "Dropbox App secret:Secret",
+   "mutation": "none",
+   "forms": [
+    "skvbwbn9qt9aou3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "sample/setting/client/app/0cf137ab.json",
+   "line": 8,
+   "start": 21,
+   "end": 61,
+   "category": "Secret",
+   "mutation": "rename",
+   "forms": [
+    "8237b86330086b89fe4f25608add63c70f94471b"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "sample/setting/client/app/0cf137ab.json",
+   "line": 12,
+   "start": 21,
+   "end": 45,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "t6L-PJe3YRuszCyW9vbcSl4q"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "sample/setting/client/app/0cf137ab.json",
+   "line": 15,
+   "start": 20,
+   "end": 41,
+   "category": "Key",
+   "mutation": "none",
+   "forms": [
+    "1PrVHeIqTltw2fe9xbC2r"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "sample/setting/client/app/0cf137ab.json",
+   "line": 16,
+   "start": 23,
+   "end": 63,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "Hv9wJqMLiMua7LNaDhKTJFLAtBrE7grEqNSxH6VE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "test/security/32238bab.json",
+   "line": 10,
+   "start": 25,
+   "end": 81,
+   "category": "Token",
+   "mutation": "b64",
+   "forms": [
+    "YmEzZDU2ODVlOTBiZGEwYmRkNTY4MTRmOWNhMzA2MjllMmIxZWVkNg==",
+    "ba3d5685e90bda0bdd56814f9ca30629e2b1eed6"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "test/security/32238bab.json",
+   "line": 14,
+   "start": 19,
+   "end": 59,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "c637158853f76622d1548431fa79d3a1b6853367"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "test/security/32238bab.json",
+   "line": 41,
+   "start": 25,
+   "end": 65,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "ce9074bda4a46003990849b6468310f037eb83c3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "test/security/32238bab.json",
+   "line": 45,
+   "start": 26,
+   "end": 66,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "0b101731085d7cb020aab5ae5c9330b52a043d32"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "test/security/3692450e.json",
+   "line": 10,
+   "start": 25,
+   "end": 55,
+   "category": "Slack Token:Token",
+   "mutation": "none",
+   "forms": [
+    "xoxp-ea9678f8a2d-8f694329d377a"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "test/security/3692450e.json",
+   "line": 16,
+   "start": 64,
+   "end": 94,
+   "category": "Slack Token:Token",
+   "mutation": "rename",
+   "forms": [
+    "xoxp-410a0750905-f36f1f22fd536"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "test/security/52aac773.json",
+   "line": 10,
+   "start": 23,
+   "end": 175,
+   "category": "Token:Salesforce Credentials",
+   "mutation": "stack",
+   "forms": [
+    "NDBQb3E3MzAxMzg3eFNBIVdEMFRFTkhkOG1mOGFWTmFxU2FENWRRdWMuMjZLZUYuWFNzdmZrUm56TzBFWVptcGZ5SU1scXo3VU9jcldqVEVDOGd3N0huR2w3MXVqNm80OGRUODhOaURPR1RvYnd2bg==",
+    "40Poq7301387xSA!WD0TENHd8mf8aVNaqSaD5dQuc.26KeF.XSsvfkRnzO0EYZmpfyIMlqz7UOcrWjTEC8gw7HnGl71uj6o48dT88NiDOGTobwvn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 15,
+   "file": "test/security/52aac773.json",
+   "line": 26,
+   "start": 19,
+   "end": 34,
+   "category": "Salesforce Credentials",
+   "mutation": "rename",
+   "forms": [
+    "81Vz2056648S8pi"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 16,
+   "file": "test/security/52aac773.json",
+   "line": 39,
+   "start": 87,
+   "end": 102,
+   "category": "Salesforce Credentials",
+   "mutation": "none",
+   "forms": [
+    "76Vk1618449M1mp"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 17,
+   "file": "test/security/52aac773.json",
+   "line": 40,
+   "start": 85,
+   "end": 100,
+   "category": "Salesforce Credentials",
+   "mutation": "none",
+   "forms": [
+    "24Wb3523896L3nm"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 18,
+   "file": "test/security/52aac773.json",
+   "line": 41,
+   "start": 84,
+   "end": 99,
+   "category": "Salesforce Credentials",
+   "mutation": "none",
+   "forms": [
+    "64Et7340419H0tn"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 19,
+   "file": "test/security/5b190484.json",
+   "line": 9,
+   "start": 25,
+   "end": 65,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "60798c0806c934a753b5412d6df8c428eccf8d13"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 20,
+   "file": "test/security/5b190484.json",
+   "line": 14,
+   "start": 26,
+   "end": 66,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "c57f0d83cb4e36bb725714c8e42da6e08ff14de2"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 21,
+   "file": "test/security/6784ef5b.json",
+   "line": 12,
+   "start": 21,
+   "end": 537,
+   "category": "JSON Web Token:Token",
+   "mutation": "none",
+   "forms": [
+    "eyJjtVryIsLqYHK5LFIkRdY5mDT9WynFknH2.qgMfdVGpGcGolNmgEaxbR2bypoIGhPeEKPfpvpRHGhUEO4DegOarLvvsR6jcPRH8Xz8IG53ylHZGiEmoBBCnv7QlWmFbxDCuMWynV7AGoJ9URSOzD3SrSUIDNq4LetKuUFPlIFMzZoKmZCYxFyt2RoCqQfD2sVU1DvN9OPDmIbLrQMenGYUjDohnmhu0DyJ8JKYLECrBEST7UyRjHQa4A8S4BAQhFcB0XOXvERZTPKqpSu2pMq6tGCRkzH3pV3EdoH9fERpEsk5EY6WkZDeadJOsKi3jDckCYlpruJfJOBD2DIG3Nz0.OaYoxxQ3vPA8SyGc6TjLoHHPCBxcJwUnk95hB5fsggaSGInmq66zNjUh8-AlKezyWRyBOYJc67W9n0_MwHcax0M1LNWiKG_OPRpYG5PyEtesBnGjE-vabEpUs1mTh5XNHeu53vUFKskCbTY0N4N7VUiTEvCabWoITai0IyVVCop"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 22,
+   "file": "test/security/app/2632c570.json",
+   "line": 30,
+   "start": 24,
+   "end": 693,
+   "category": "JSON Web Token:Token",
+   "mutation": "rename",
+   "forms": [
+    "eyJooHMmHnAwL7lBDqYuIqoeKAgrBnrxGlueInWdtY.tgJup9NhGjHBtMbENgfpC4CvZ44QmY2yv8atPuBsqREuZblmETNbCmdxUKrhWr5jKxnCb9FkqVzpVT6yLofiAk1Um6hyMjTnWDXKxj0mB0ACXtpqKPDgQWPpOeL4jQR4TWT1IABtVCVtUrastHA1Kmo2LAT1NJRmNiB9NDKqqOZjLpRqSAY1YtEte7NhLmYSMpZ9PYP7Pmb9ZhH3JnmqXGm4QYMPRld6VAfrHhC6YIWhJrjjW8XPIAWeNeWyTZVfPIRLBaDcH6Q2J2IGUPLbChUsGo0.xfNynP5qQ7dJOeYDKOj92RxTShotCtKHlA-LI3MvRPtsHBzExXls3OMEZ7arc1onqStoIIAaIPcQN8Ys2xKCiJBaiPMHXzxBTFtbdTMKJDF9CXaO_aQ7jmWMbFen8KVgRL9FMtZ-Tuh4aWs4wHmlQ0VVZxv1ZWFlPgVfsT6DcExSVu7yi6RrFub79U7nl389I-l-aFZ4zjjy3Qt-rVoB-d0SAVrJi1gND9Cn1VKIm6muA4W1k3xJG-gt-smTp_fRvwtgYcTjNLzpryDudOYA4xQOZNk_bMbspjapS6_5fzZSjU1AiVMc4Vvpl4IljDn8Mc0Ek-dEuUoenC5nIBOGlD"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 23,
+   "file": "test/security/app/2632c570.json",
+   "line": 43,
+   "start": 25,
+   "end": 883,
+   "category": "JSON Web Token:Token",
+   "mutation": "rename",
+   "forms": [
+    "eyJxtHJkVtLnEWr6SiKDLasrHMeaXfoiSBu0WUPbxW.ufFyx4MfHuT9lCubMYexE5DrQriMZHVbhYN4J1keyed6EwjqMSUpFhkntVnLLuD8DQsLutK6gTpAIDXlJdPFQ8TWzXnQM3N8J0gdYN7XyXCzZr5kb6a2XxBjEfO1aMN3HUM5WuCrRoG9DBathJE8Git5RcNxFpYqDkv9UXVceZMqQiI4SEs7YVOfH4UMSSolCmzdFWu2Hok7ZmQ1SAo5EyW2HDQqW4W6XMqtGVT6PIAwXbH5N2KBHcqhUtWqOHd8kHG8XvzQh8PObUijHwLJNjKlYimthCAUi0WjTzMgrGRMPxT1ffccWA9qSOFAK7IBH0DKDE81dmxPUxd1CiokmmLuDg0FkEMbT4AXhSdwhPB2MarieJM8USNrWjQsW6XpY0IZS27sf5b5msKkNdZ4yxIlGrfeNb7Nfz9ZNarIIud7DyJ0GLc5VRZ9PYF0GslgNa1qrdpUODJYCAceNbTmdBC4.BDJupLeNovASFMaIGesJtVOzUVXqkgbJctYvST6jI2GFPFPpVClg58NXHU-LfGYoxzv85g-jb36K_yJ4ovsndVyB6PxbDTdtrtnuJj1QOS-9oSJC6NiKtTv79o_9OBMAZsZFb2w-HOLyAsaG-hEIlm7hgn7SiqBa-h9UlEloXQKnO2o5nMPqCgdfN_kiE_j31IEllIKvcbBpe5s-3WkoxOLcZhUxur1rAp9LAiB3W-3LUH2Qj_KjBWS2m_QbpGCIJphkufWQhGnzosJ0ThyvSwYsgf-ijZtiPEOnaU_oFAYr45HoiPUsDVh6zAJ2Guig5xMKVxp2iPNX4O4BCikleM"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 24,
+   "file": "test/security/b01a68c7.json",
+   "line": 22,
+   "start": 27,
+   "end": 45,
+   "category": "Token",
+   "mutation": "rename",
+   "forms": [
+    "mnoztxhgc2m5mjmc1k"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 25,
+   "file": "test/security/b91e8f92.json",
+   "line": 5,
+   "start": 87,
+   "end": 103,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "cj-fszdyw-zrhlno"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 26,
+   "file": "test/security/f1a2eb7e.json",
+   "line": 9,
+   "start": 25,
+   "end": 57,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "a7b19d081e44c450a37d3932e49ce0e3"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 27,
+   "file": "test/bf35512a.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.209.74.233"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "test/bf35512a.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-primary.pinegrid.cloud"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "test/bf35512a.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TDDQ9DD4J/BU5LAE94O84/EzuaOxFHcs13SbXvzRBxmTdN"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "_/bd15ff77.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_BaVvQdRdJGMF6VmLhrmi9pl0"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "_/bd15ff77.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "HsCsnphQfRKrf9E9q2nsMC8FGwdNsvmA"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "_/bd15ff77.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "Mjh1c2V0eGZodWRpbnFlaW9lbXMwMDM1OGZwbDk5dGE=",
+    "28usetxfhudinqeioems00358fpl99ta"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "src/91eedb22.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "bahnnumeral-prod"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "test/61b84468.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "sung.fruehling.hyphen55"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "test/61b84468.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-cache-03.int.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "_/4c3d952a.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.vantor-corp.de"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "_/4c3d952a.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "hgbV6W0l6lAmvOojiprBiRt1lHyEW7ep"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "other/b742ea7f.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.H5yv-Y5uNc6Nw77PnCj0SmrvUqJsKa3Z21unni4r.pR7LPskmEcx72bdIDtnfn4rstIU7tyjztttffcUsuik"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "other/b742ea7f.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "kibana.vantor-corp.de"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/744cf374.ps1",
+   "line": 93,
+   "whole_line": "          'isSecret' = $Secret",
+   "source": "creddata"
+  },
+  {
+   "file": "_/744cf374.ps1",
+   "line": 163,
+   "whole_line": "                $null = $sb.Append(\"$key=$value\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 19,
+   "whole_line": "#      arguments: -ConfigFile $(Build.SourcesDirectory)/NuGet.config -Password $Env:Token",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 21,
+   "whole_line": "#      Token: $(dn-bot-dnceng-artifact-feeds-rw)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 37,
+   "whole_line": "    $packageSource = $sources.SelectSingleNode(\"add[@key='$SourceName']\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 50,
+   "value": "$Password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 76,
+   "value": "$sourceElement.SelectSingleNode(",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 79,
+   "whole_line": "        $passwordElement = $doc.CreateElement(\"add\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 83,
+   "whole_line": "    $passwordElement.SetAttribute(\"value\", $Password)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 93,
+   "value": "$Password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 127,
+   "value": "$Password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 129,
+   "whole_line": "$dotnet3Source = $sources.SelectSingleNode(\"add[@key='dotnet3']\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 131,
+   "value": "$Password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 132,
+   "value": "$Password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 135,
+   "whole_line": "$dotnet31Source = $sources.SelectSingleNode(\"add[@key='dotnet3.1']\")",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 137,
+   "value": "$Password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/791ba8fa.ps1",
+   "line": 138,
+   "value": "$Password",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9c595295.config",
+   "line": 4,
+   "whole_line": "    <add key=\"NuGet\" value=\"https://api.nuget.org/v3/index.json\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9c595295.config",
+   "line": 5,
+   "whole_line": "    <add key=\"dotnet-eng\" value=\"https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9c595295.config",
+   "line": 6,
+   "whole_line": "    <add key=\"dotnet-tools\" value=\"https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9c595295.config",
+   "line": 7,
+   "whole_line": "    <add key=\"dotnet-core\" value=\"https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/9c595295.config",
+   "line": 8,
+   "whole_line": "    <add key=\"azureadwebstacknightly\" value=\"https://www.myget.org/F/azureadwebstacknightly/api/v3/index.json\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3fe4195.config",
+   "line": 4,
+   "whole_line": "    <add key=\"disableSourceControlIntegration\" value=\"true\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/a3fe4195.config",
+   "line": 8,
+   "whole_line": "    <add key=\"guardian\" value=\"https://securitytools.pkgs.visualstudio.com/_packaging/Guardian/nuget/v3/index.json\" />",
+   "source": "creddata"
+  },
+  {
+   "file": "_/bd7e3f8d.sh",
+   "line": 94,
+   "whole_line": "      echo \"  --configurations <value>       List of key=value pairs that will be passed to perf testing infrastructure.\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e8198fa0.ps1",
+   "line": 27,
+   "whole_line": "  Write-Host \"git clone https://dnceng:`$AzureDevOpsAccessToken@dev.azure.com/dnceng/internal/_git/sdl-tool-cfg $sdlDir\"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/e8198fa0.ps1",
+   "line": 28,
+   "whole_line": "  git clone https://dnceng:$AzureDevOpsAccessToken@dev.azure.com/dnceng/internal/_git/sdl-tool-cfg $sdlDir",
+   "source": "creddata"
+  },
+  {
+   "file": "init/6d787dd6.sh",
+   "line": 5,
+   "whole_line": "versionEndpoint='https://maestro-prod.westus2.cloudapp.azure.com/api/assets/darc-version?api-version=2019-01-16'",
+   "source": "creddata"
+  },
+  {
+   "file": "init/ec0bcbbe.ps1",
+   "line": 3,
+   "whole_line": "    $versionEndpoint = 'https://maestro-prod.westus2.cloudapp.azure.com/api/assets/darc-version?api-version=2019-01-16',",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/4fa39a9b.ps1",
+   "line": 61,
+   "whole_line": "      [void]$endpoints.Add(@{endpoint=\"$trimmedResource\"; password=\"$AuthToken\"}) ",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/4fa39a9b.ps1",
+   "line": 72,
+   "whole_line": "        'issecret' = 'false'",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/4fa39a9b.ps1",
+   "line": 78,
+   "whole_line": "        'issecret' = 'false'",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/e52773bd.sh",
+   "line": 50,
+   "whole_line": "  local nugetConfigPackageValues=`cat \"$nugetConfigPath\" | grep \"key=\\\"darc-int-\"`",
+   "source": "creddata"
+  },
+  {
+   "file": "internal/e52773bd.sh",
+   "line": 57,
+   "whole_line": "      endpoints+=\"{\\\"endpoint\\\": \\\"$endpoint\\\", \\\"password\\\": \\\"$authToken\\\"},\"",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/23c7b5e3.cs",
+   "line": 13,
+   "whole_line": "    /// Default values used by the LinkedIn authentication middleware.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/23c7b5e3.cs",
+   "line": 15,
+   "whole_line": "    public class LinkedInAuthenticationDefaults",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/23c7b5e3.cs",
+   "line": 20,
+   "value": "LinkedIn",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/23c7b5e3.cs",
+   "line": 40,
+   "whole_line": "        public const string AuthorizationEndpoint = \"https://www.linkedin.com/oauth/v2/authorization\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 15,
+   "whole_line": "    /// Extension methods to add LinkedIn authentication capabilities to an HTTP application pipeline.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 20,
+   "whole_line": "        /// Adds <see cref=\"LinkedInAuthenticationHandler\"/> to the specified",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 21,
+   "whole_line": "        /// <see cref=\"AuthenticationBuilder\"/>, which enables LinkedIn authentication capabilities.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 25,
+   "whole_line": "        public static AuthenticationBuilder AddLinkedIn([NotNull] this AuthenticationBuilder builder)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 27,
+   "whole_line": "            return builder.AddLinkedIn(LinkedInAuthenticationDefaults.AuthenticationScheme, options => { });",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 31,
+   "whole_line": "        /// Adds <see cref=\"LinkedInAuthenticationHandler\"/> to the specified",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 32,
+   "whole_line": "        /// <see cref=\"AuthenticationBuilder\"/>, which enables LinkedIn authentication capabilities.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 39,
+   "whole_line": "            [NotNull] Action<LinkedInAuthenticationOptions> configuration)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 41,
+   "whole_line": "            return builder.AddLinkedIn(LinkedInAuthenticationDefaults.AuthenticationScheme, configuration);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 45,
+   "whole_line": "        /// Adds <see cref=\"LinkedInAuthenticationHandler\"/> to the specified",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 46,
+   "whole_line": "        /// <see cref=\"AuthenticationBuilder\"/>, which enables LinkedIn authentication capabilities.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 55,
+   "whole_line": "            [NotNull] Action<LinkedInAuthenticationOptions> configuration)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 57,
+   "whole_line": "            return builder.AddLinkedIn(scheme, LinkedInAuthenticationDefaults.DisplayName, configuration);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 61,
+   "whole_line": "        /// Adds <see cref=\"LinkedInAuthenticationHandler\"/> to the specified",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 62,
+   "whole_line": "        /// <see cref=\"AuthenticationBuilder\"/>, which enables LinkedIn authentication capabilities.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 73,
+   "whole_line": "            [NotNull] Action<LinkedInAuthenticationOptions> configuration)",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/31601d9b.cs",
+   "line": 75,
+   "whole_line": "            return builder.AddOAuth<LinkedInAuthenticationOptions, LinkedInAuthenticationHandler>(scheme, caption, configuration);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/4c69db35.cs",
+   "line": 25,
+   "whole_line": "    public class LinkedInAuthenticationHandler : OAuthHandler<LinkedInAuthenticationOptions>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/4c69db35.cs",
+   "line": 27,
+   "whole_line": "        public LinkedInAuthenticationHandler(",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/4c69db35.cs",
+   "line": 28,
+   "whole_line": "            [NotNull] IOptionsMonitor<LinkedInAuthenticationOptions> options,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/4c69db35.cs",
+   "line": 43,
+   "whole_line": "                .Where(f => !string.Equals(f, LinkedInAuthenticationConstants.EmailAddressField, StringComparison.OrdinalIgnoreCase))",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/4c69db35.cs",
+   "line": 75,
+   "whole_line": "                Options.Fields.Contains(LinkedInAuthenticationConstants.EmailAddressField))",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/4c69db35.cs",
+   "line": 77,
+   "whole_line": "                string? email = await GetEmailAsync(tokens);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/4c69db35.cs",
+   "line": 152,
+   "whole_line": "                // See https://docs.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow#application-is-rejected",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/4ecb77b8.csproj",
+   "line": 8,
+   "whole_line": "    <Description>ASP.NET Core security middleware enabling LinkedIn authentication.</Description>",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/6d2f8d1c.cs",
+   "line": 75,
+   "whole_line": "                [\"client_secret\"] = Options.ClientSecret,",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/6d2f8d1c.cs",
+   "line": 100,
+   "whole_line": "            var token = await CreateAccessTokenAsync(accessToken);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/843b2171.cs",
+   "line": 10,
+   "whole_line": "    /// Contains constants specific to the <see cref=\"LinkedInAuthenticationHandler\"/>.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/843b2171.cs",
+   "line": 12,
+   "whole_line": "    public static class LinkedInAuthenticationConstants",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/843b2171.cs",
+   "line": 24,
+   "whole_line": "        /// Available profile fields after a LinkedIn authentication.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/8b4423bf.cs",
+   "line": 55,
+   "whole_line": "        public const string ApiVersion = \"20150927\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/app/294aacce.cs",
+   "line": 83,
+   "whole_line": "                Logger.LogTrace(\"Access Token: {AccessToken}\", tokens.AccessToken);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/app/294aacce.cs",
+   "line": 84,
+   "whole_line": "                Logger.LogTrace(\"Refresh Token: {RefreshToken}\", tokens.RefreshToken);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/app/294aacce.cs",
+   "line": 88,
+   "whole_line": "                Logger.LogTrace(\"ID Token: {IdToken}\", idToken);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/app/294aacce.cs",
+   "line": 123,
+   "whole_line": "                var secretGenerationContext = new AppleGenerateClientSecretContext(Context, Scheme, Options);",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/c6f317e0.cs",
+   "line": 23,
+   "whole_line": "            public const string Api = \"urn:kloudless:api\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/c6f317e0.cs",
+   "line": 24,
+   "whole_line": "            public const string Apis = \"urn:kloudless:apis\";",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/cea53dc2.cs",
+   "line": 15,
+   "whole_line": "using static AspNet.Security.OAuth.LinkedIn.LinkedInAuthenticationConstants;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/cea53dc2.cs",
+   "line": 20,
+   "whole_line": "    /// Defines a set of options used by <see cref=\"LinkedInAuthenticationHandler\"/>.",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/cea53dc2.cs",
+   "line": 22,
+   "whole_line": "    public class LinkedInAuthenticationOptions : OAuthOptions",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/cea53dc2.cs",
+   "line": 24,
+   "whole_line": "        public LinkedInAuthenticationOptions()",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/cea53dc2.cs",
+   "line": 26,
+   "whole_line": "            ClaimsIssuer = LinkedInAuthenticationDefaults.Issuer;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/cea53dc2.cs",
+   "line": 27,
+   "whole_line": "            CallbackPath = LinkedInAuthenticationDefaults.CallbackPath;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/cea53dc2.cs",
+   "line": 29,
+   "whole_line": "            AuthorizationEndpoint = LinkedInAuthenticationDefaults.AuthorizationEndpoint;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/cea53dc2.cs",
+   "line": 30,
+   "whole_line": "            TokenEndpoint = LinkedInAuthenticationDefaults.TokenEndpoint;",
+   "source": "creddata"
+  },
+  {
+   "file": "src/security/cea53dc2.cs",
+   "line": 31,
+   "whole_line": "            UserInformationEndpoint = LinkedInAuthenticationDefaults.UserInformationEndpoint;",
+   "source": "creddata"
+  },
+  {
+   "file": "template/53b899f8.yml",
+   "line": 14,
+   "value": "HelixProdKV",
+   "source": "creddata"
+  },
+  {
+   "file": "template/53b899f8.yml",
+   "line": 15,
+   "whole_line": "      SecretsFilter: 'HelixApiAccessToken'",
+   "source": "creddata"
+  },
+  {
+   "file": "template/53b899f8.yml",
+   "line": 41,
+   "whole_line": "    accessTokenParameter=\"?access_token=$HelixApiAccessToken\"",
+   "source": "creddata"
+  },
+  {
+   "file": "template/53b899f8.yml",
+   "line": 83,
+   "whole_line": "    echo \"##vso[task.setvariable variable=Helix_JobToken;issecret=true;]$Helix_JobToken\"",
+   "source": "creddata"
+  },
+  {
+   "file": "template/53b899f8.yml",
+   "line": 113,
+   "whole_line": "        -H \"X-Helix-Job-Token: $Helix_JobToken\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "template/53b899f8.yml",
+   "line": 160,
+   "whole_line": "      $accessTokenParameter=\"?access_token=$($env:HelixApiAccessToken)\"",
+   "source": "creddata"
+  },
+  {
+   "file": "template/53b899f8.yml",
+   "line": 191,
+   "whole_line": "    Write-Host \"##vso[task.setvariable variable=Helix_JobToken;issecret=true;]$env:Helix_JobToken\"",
+   "source": "creddata"
+  },
+  {
+   "file": "template/53b899f8.yml",
+   "line": 211,
+   "whole_line": "          -Headers @{ 'X-Helix-Job-Token'=$env:Helix_JobToken }",
+   "source": "creddata"
+  },
+  {
+   "file": "template/78714029.yml",
+   "line": 31,
+   "whole_line": "        -H \"X-Helix-Job-Token: $Helix_JobToken\" \\",
+   "source": "creddata"
+  },
+  {
+   "file": "template/78714029.yml",
+   "line": 74,
+   "whole_line": "          -Headers @{ 'X-Helix-Job-Token'=$env:Helix_JobToken }",
+   "source": "creddata"
+  },
+  {
+   "file": "template/82b5157c.yml",
+   "line": 49,
+   "whole_line": "            - HelixPreCommand: 'set \"PERFLAB_UPLOAD_TOKEN=$(PerfCommandUploadToken)\"'",
+   "source": "creddata"
+  },
+  {
+   "file": "template/82b5157c.yml",
+   "line": 52,
+   "whole_line": "            - HelixPreCommand: 'export PERFLAB_UPLOAD_TOKEN=\"$(PerfCommandUploadTokenLinux)\"'",
+   "source": "creddata"
+  },
+  {
+   "file": "template/build/50cd4bc7.yml",
+   "line": 29,
+   "whole_line": "            SecretsFilter: 'MaestroAccessToken'",
+   "source": "creddata"
+  },
+  {
+   "file": "template/build/b49de61d.yml",
+   "line": 81,
+   "whole_line": "        MAESTRO_API_TOKEN: $(MaestroApiAccessToken)",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/security/client/app/46694528.cs",
+   "line": 40,
+   "whole_line": "                options.ClientSecretExpiresAfter = TimeSpan.FromMinutes(1);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/security/client/app/46694528.cs",
+   "line": 51,
+   "whole_line": "                string token = await context.Options.ClientSecretGenerator.GenerateAsync(context);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/security/client/app/46694528.cs",
+   "line": 90,
+   "whole_line": "                options.ClientSecretExpiresAfter = TimeSpan.FromSeconds(2);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/security/client/app/46694528.cs",
+   "line": 98,
+   "whole_line": "                AppleClientSecretGenerator generator = context.Options.ClientSecretGenerator;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/security/client/app/46694528.cs",
+   "line": 120,
+   "whole_line": "            var clientSecretExpiresAfter = TimeSpan.FromSeconds(2);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/security/client/app/46694528.cs",
+   "line": 125,
+   "whole_line": "                options.ClientSecretExpiresAfter = clientSecretExpiresAfter;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/security/client/app/46694528.cs",
+   "line": 134,
+   "whole_line": "                ClientSecretExpiresAfter = clientSecretExpiresAfter,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/secret/security/client/app/46694528.cs",
+   "line": 143,
+   "whole_line": "                AppleClientSecretGenerator generator = contextA.Options.ClientSecretGenerator;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/05f3a09b.json",
+   "line": 13,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/3169b760.json",
+   "line": 12,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/32238bab.json",
+   "line": 30,
+   "whole_line": "        \"auth\": \"manual\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/32238bab.json",
+   "line": 61,
+   "whole_line": "        \"auth\": \"casattras\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/358425ef.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/36a59f9f.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/37d95b88.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/3bd5ba49.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/401e6e8b.cs",
+   "line": 19,
+   "whole_line": "    public class LinkedInTests : OAuthTests<LinkedInAuthenticationOptions>",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/401e6e8b.cs",
+   "line": 21,
+   "whole_line": "        private Action<LinkedInAuthenticationOptions>? additionalConfiguration;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/401e6e8b.cs",
+   "line": 28,
+   "whole_line": "        public override string DefaultScheme => LinkedInAuthenticationDefaults.AuthenticationScheme;",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/401e6e8b.cs",
+   "line": 53,
+   "whole_line": "        [InlineData(LinkedInAuthenticationConstants.Claims.PictureUrl, \"https://upload.wikimedia.org/wikipedia/en/4/4e/Elijah_Wood_as_Frodo_Baggins.png\")]",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/401e6e8b.cs",
+   "line": 57,
+   "whole_line": "            additionalConfiguration = options => options.Fields.Add(LinkedInAuthenticationConstants.ProfileFields.PictureUrl);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/4cbf38ee.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/5525a5d0.json",
+   "line": 10,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/5881fdfc.json",
+   "line": 12,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/5b190484.json",
+   "line": 10,
+   "value": "Authorization",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/5b7e1dc6.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/6784ef5b.json",
+   "line": 13,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/7a078e0b.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/7a078e0b.json",
+   "line": 34,
+   "whole_line": "              \"ThumbnailPicture\": \"/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAQCAwMDAgQDAwMEBAQEBQkGBQUFBQsICAYJDQsNDQ0LDAwOEBQRDg8TDwwMEhgSExUWFxcXDhEZGxkWGhQWFxb/2wBDAQQEBAUFBQoGBgoWDwwPFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhb/wAARCAAyADIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD7RuJWDKAsf+rTrGp/hHtTPOf+7H/36X/Ci6/1i/8AXNP/AEEVHQBJ5zn+GP8A79L/AIUec/8Adj/79L/hXmfxc8WSLejSNJu5I2t2zcyR/KQ46KGBzx37Vh6H4+8RafIvn3Iv4R96O4GTj2ccj9aAPaPOf+7H/wB+l/wo85/7sf8A36X/AArM8M6va65osWpWgZUkyGRvvIw6qav0Ab1rI32WPhPuD+Aen0optp/x6xf7g/lRQBj3X+sX/rmn/oIpi8MD70+6/wBYv/XNP/QRUeAeD0PWgD5911lfXL10YMrXUhDA5yN55zVWrWuWb6drV3YSEFredkJHfB4P5YqrQB618DWU+DZFDDct4+RnkZC4rsq4v4G2Rt/Cs14x/wCP24JUegQbf55rtKANy0/49Yv9wfyootP+PWL/AHB/KigDHuv9Yv8A1zT/ANBFR1Dr+p6dpirLqN7BbKY0x5j4J+UdB1P4VyOr/EvRLfcthb3N646HHlp+Z5/SgDmvjhZW1t4ohuYD+8vId8656MDtBx2yP5Vxn1/Gr3ibVJta1y41OeNI3nI+ROigAADJ68CqNAH0B4fsrXTtDtbKxObeKIbGzndnksT3JJJq5XlPgfx//Y2kw6XfWDTwQZEcsT4dQTnBB4OM+oruND8Z+HNUZY4dQWGVukVyPLJ+hPB/OgDurT/j1i/3B/KiizB+yRcfwD+VFAHhHxQVX8faiXUMVaMAkZwPLTisHyov+eaf98iiigA8qL/nmn/fIo8qL/nmn/fIoooAPKi/55p/3yKGhiK4MSf98iiigD6T8EknwZpBPJOnwZJ/65rRRRQB/9k=\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/93413ade.json",
+   "line": 14,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/93413ade.json",
+   "line": 15,
+   "whole_line": "        \"id_token\": \"secret-id-token\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/9892e3b1.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/9e64cf9c.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/ab1fbc6f.json",
+   "line": 11,
+   "whole_line": "        \"id_token\": \"secret-id-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/ab1fbc6f.json",
+   "line": 13,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/afc0e8f6.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/app/2632c570.json",
+   "line": 31,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/app/2632c570.json",
+   "line": 45,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/app/2632c570.json",
+   "line": 82,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/app/2632c570.json",
+   "line": 94,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/app/2632c570.json",
+   "line": 106,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/app/2632c570.json",
+   "line": 44,
+   "value": "/var/run/secrets/vault/token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/app/6d3b5a40.cs",
+   "line": 131,
+   "whole_line": "                ClientSecretExpiresAfter = TimeSpan.Zero,",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/b01a68c7.json",
+   "line": 13,
+   "value": "2011/04/06 16:25:46 +0000",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/b1a20d30.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/b2fab72a.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/b6063e4e.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/eb3b2624.json",
+   "line": 11,
+   "whole_line": "        \"refresh_token\": \"secret-refresh-token\",",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/f1a2eb7e.json",
+   "line": 10,
+   "value": "PAYMENTS_AUTH_TOKEN",
+   "source": "creddata"
+  },
+  {
+   "file": "test/security/fcfc4be2.json",
+   "line": 5,
+   "whole_line": "      \"comment\": \"https://docs.microsoft.com/en-us/linkedin/shared/authentication/authorization-code-flow?context=linkedin/consumer/context\",",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/74481cf2.sh",
+   "line": 204,
+   "value": "echo $7 | base64 --decode",
+   "source": "creddata"
+  },
+  {
+   "file": "tool/74481cf2.sh",
+   "line": 441,
+   "whole_line": "dotnetlocal_key=`grep -m 1 \"runtimes\" \"$global_json_file\"` || true",
+   "source": "creddata"
+  },
+  {
+   "file": "test/bf35512a.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "560a9a39c6d99fa8812f"
+  },
+  {
+   "file": "test/bf35512a.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "auth0.com"
+  },
+  {
+   "file": "test/bf35512a.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "0d470139207b09e76c74b4be81e30197c020e251"
+  },
+  {
+   "file": "_/bd15ff77.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_zGPJlTfb6WREKcZuajqmtbTj"
+  },
+  {
+   "file": "_/bd15ff77.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "LEDGER_CLIENT_SECRET"
+  },
+  {
+   "file": "_/bd15ff77.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "VAULT_DB_PASSWORD"
+  },
+  {
+   "file": "_/bd15ff77.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6L1ltalj27Ghpu9LV4okz3_U533E2dESCQtQG8ug"
+  },
+  {
+   "file": "_/bd15ff77.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:6fcjlVzZg5ZNfrAi08cNlKF5P2hC4n6ftYREWwz1Dq4"
+  },
+  {
+   "file": "_/bd15ff77.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/etc/reports/tls/private.key"
+  },
+  {
+   "file": "_/bd15ff77.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "_/bd15ff77.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "_/bd15ff77.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6MTE2MDE6b2Zmc2V0OjM5NA=="
+  },
+  {
+   "file": "src/91eedb22.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "without_berg"
+  },
+  {
+   "file": "src/91eedb22.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Fahrrad2021"
+  },
+  {
+   "file": "test/61b84468.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIfVDAcJSTyP7wHfUB4nDgxlXUokwqTd5lhmsQz3srMYd"
+  },
+  {
+   "file": "test/61b84468.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "3294de7f8ab6024b9226491074b95303764a0ce12d5103e0e8a1321da6110c90"
+  },
+  {
+   "file": "test/61b84468.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "test/61b84468.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "_/4c3d952a.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "api.github.com"
+  },
+  {
+   "file": "_/4c3d952a.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "5.12.13"
+  },
+  {
+   "file": "_/4c3d952a.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ab6f2376e1b65c53cb5ae176d293817415dd523f"
+  },
+  {
+   "file": "_/4c3d952a.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "a3fb3e11-37fa-40b7-8066-cf10b1a42c65"
+  },
+  {
+   "file": "other/b742ea7f.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "0.14.43"
+  },
+  {
+   "file": "other/b742ea7f.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "0580c909e1dd88b3f4def2120b2af590f2f625af"
+  },
+  {
+   "file": "other/b742ea7f.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "TXPYKRYBEKPLS67U0LQC740BCW"
+  },
+  {
+   "file": "other/b742ea7f.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "other/b742ea7f.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "FW356U1R61J00A3BQB55Z4AE3Y"
+  },
+  {
+   "file": "other/b742ea7f.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "127.0.0.1"
+  }
+ ]
+}

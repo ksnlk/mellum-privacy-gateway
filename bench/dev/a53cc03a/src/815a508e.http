@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://vpn-gw.nordwind-corp.de/api/v3/invoices?page=2
+Authorization: Basic YWRtaW46ZmFicmljNTkwIQ==
+Cookie: _ga=GA1.2.JRRH5HD4CTEDZX2NI4Z5ZCS63Z; session_id=u324xop6ff22ovg8aaak3rnjgfio1mq1
+X-Request-Id: e094ff37-dbe6-4a1a-9ce1-2f0290b12c51
+
+### the docs example, safe to share
+GET https://cdn.jsdelivr.net/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

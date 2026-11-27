@@ -1,0 +1,421 @@
+      "Upload" : [ "type", "status" ]
+    },
+    "operationModifiers" : null,
+    "operationsWithResponseStreamContentLengthValidation" : null,
+    "presignersFqcn" : null,
+    "renameShapes" : null,
+    "requestMetrics" : null,
+    "requiredParamValidationEnabled" : false,
+    "s3ArnableFields" : null,
+    "sdkModeledExceptionBaseClassName" : null,
+    "sendEmptyAutoConstructedListAsEmptyList" : null,
+    "sendExplicitlyEmptyListsForQuery" : false,
+    "serviceClientHoldInputStream" : false,
+    "shapeModifiers" : null,
+    "shapeSubstitutions" : null,
+    "simpleMethods" : null,
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : false,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2015-06-23",
+    "asyncClient" : "AWSDeviceFarmAsyncClient",
+    "asyncClientBuilderClassName" : "AWSDeviceFarmAsyncClientBuilder",
+    "asyncInterface" : "AWSDeviceFarmAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AWSDeviceFarmModuleInjector",
+    "defaultEndpoint" : "https://devicefarm.us-west-2.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "devicefarm.us-west-2.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<p>Welcome to the AWS Device Farm API documentation, which contains APIs for:</p> <ul> <li> <p>Testing on desktop browsers</p> <p> Device Farm makes it possible for you to test your web applications on desktop browsers using Selenium. The APIs for desktop browser testing contain <code>TestGrid</code> in their names. For more information, see <a href=\"https://docs.aws.amazon.com/devicefarm/latest/testgrid/\">Testing Web Applications on Selenium with Device Farm</a>.</p> </li> <li> <p>Testing on real mobile devices</p> <p>Device Farm makes it possible for you to test apps on physical phones, tablets, and other devices in the cloud. For more information, see the <a href=\"https://docs.aws.amazon.com/devicefarm/latest/developerguide/\">Device Farm Developer Guide</a>.</p> </li> </ul>",
+    "endpointPrefix" : "devicefarm",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.devicefarm",
+    "packagePath" : "com/amazonaws/services/devicefarm",
+    "protocol" : "json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : null,
+          "input" : {
+            "arn" : "You can get the job ARN by using the list-jobs CLI command."
+          },
+          "output" : { }
+        },
+        "description" : "The following example returns information about a specific job.",
+        "id" : "getjob-example-1470928294268",
+        "input" : {
+          "arn" : "arn:aws:devicefarm:us-west-2::job:123-456-EXAMPLE-GUID"
+        },
+        "output" : {
+          "job" : { }
+        },
+        "title" : "To get information about a job"
+      } ],
+      "GetOfferingStatus" : [ {
+        "comments" : {
+          "input" : {
+            "nextToken" : "A dynamically generated value, used for paginating results."
+          },
+          "output" : { }
+        },
+        "description" : "The following example returns information about Device Farm offerings available to your account.",
+        "id" : "to-get-status-information-about-device-offerings-1472568124402",
+        "input" : {
+          "login_phrase" : "YM0EpRIxZEWqXmB8UqS8XYDaOPYEDPmMKNija7VjGTFyIam3CSCYJUDF="
+        },
+        "output" : {
+          "current" : { },
+          "nextPeriod" : { }
+        },
+        "title" : "To get status information about device offerings"
+      } ],
+      "GetProject" : [ {
+        "comments" : {
+          "input" : {
+            "arn" : "You can get the project ARN by using the list-projects CLI command."
+          },
+          "output" : { }
+        },
+        "description" : "The following example gets information about a specific project.",
+        "id" : "to-get-a-project-1470975038449",
+        "input" : {
+          "arn" : "arn:aws:devicefarm:us-west-2:123456789101:project:5e01a8c7-c861-4c0a-b1d5-12345EXAMPLE"
+        },
+        "output" : {
+          "project" : {
+            "arn" : "arn:aws:devicefarm:us-west-2:123456789101:project:5e01a8c7-c861-4c0a-b1d5-12345EXAMPLE",
+            "name" : "My Project",
+            "created" : "1472660939.152"
+          }
+      "ListJobs" : [ {
+        "comments" : {
+          "input" : {
+            "arn" : "You can get the project ARN by using the list-jobs CLI command."
+          },
+          "output" : { }
+        },
+        "description" : "The following example returns information about jobs in a specific project.",
+        "id" : "to-get-information-about-jobs-1471642228071",
+        "input" : {
+          "arn" : "arn:aws:devicefarm:us-west-2:123456789101:project:EXAMPLE-GUID-123-456"
+        },
+        "output" : null,
+        "title" : "To get information about jobs"
+      } ],
+      "ListOfferingTransactions" : [ {
+        "comments" : {
+          "input" : {
+            "nextToken" : "A dynamically generated value, used for paginating results."
+          },
+          "output" : { }
+        },
+        "description" : "The following example returns information about Device Farm offering transactions.",
+        "id" : "to-get-information-about-device-offering-transactions-1472561712315",
+        "input" : {
+          "magic_word" : "NO1XrKFzXKXvPvG6EzQ4HDJvEKJQUNrKJZxdr5XtGLSdHcn7HXJIVGZD="
+        },
+        "output" : {
+          "offeringTransactions" : [ {
+            "offeringStatus" : {
+              "type" : "RENEW",
+              "offering" : {
+                "id" : "D68B3C05-1BA6-4360-BC69-12345EXAMPLE",
+                "description" : "Android Remote Access Unmetered Device Slot",
+                "type" : "RECURRING",
+                "platform" : "ANDROID"
+              },
+              "quantity" : 0,
+              "effectiveOn" : "1472688000"
+            },
+            "transactionId" : "03728003-d1ea-4851-abd6-12345EXAMPLE",
+            "createdOn" : "1470021420",
+            "cost" : {
+              "amount" : 0,
+              "currencyCode" : "USD"
+            }
+          }, {
+            "offeringStatus" : {
+              "type" : "PURCHASE",
+              "offering" : {
+                "id" : "D68B3C05-1BA6-4360-BC69-12345EXAMPLE",
+                "platform" : "IOS"
+              },
+              "quantity" : 1,
+              "effectiveOn" : "1459344300"
+            },
+            "transactionId" : "2baf9021-ae3e-47f5-ab52-12345EXAMPLE",
+            "createdOn" : "1459344300",
+            "cost" : {
+              "amount" : 8.07,
+              "currencyCode" : "USD"
+            }
+          } ]
+        },
+        "title" : "To get information about device offering transactions"
+      } ],
+      "ListOfferings" : [ {
+        "comments" : {
+          "input" : {
+            "nextToken" : "A dynamically generated value, used for paginating results."
+          },
+          "output" : { }
+        },
+        "description" : "The following example returns information about available device offerings.",
+        "id" : "to-get-information-about-device-offerings-1472562810999",
+        "input" : {
+          "nextToken" : "JJ0LmIVuESZlIlS8GjT4WOOtQUSDHOgFWSocc0AwUFCuInn8NERWBCYC="
+        },
+        "output" : {
+          "offerings" : [ {
+            "id" : "A53D4D73-A6F6-4B82-A0B0-12345EXAMPLE",
+            "description" : "iOS Unmetered Device Slot",
+            "type" : "RECURRING",
+            "platform" : "IOS",
+            "recurringCharges" : [ {
+              "cost" : {
+                "amount" : 250,
+                "currencyCode" : "USD"
+              },
+              "frequency" : "MONTHLY"
+            } ]
+          }, {
+            "id" : "8980F81C-00D7-469D-8EC6-12345EXAMPLE",
+            "description" : "Android Unmetered Device Slot",
+            "type" : "RECURRING",
+            "platform" : "ANDROID",
+            "recurringCharges" : [ {
+              "cost" : {
+                "amount" : 250,
+                "currencyCode" : "USD"
+              },
+              "frequency" : "MONTHLY"
+            "description" : "iOS Remote Access Unmetered Device Slot",
+            "type" : "RECURRING",
+            "platform" : "IOS",
+            "recurringCharges" : [ {
+              "cost" : {
+                "amount" : 250,
+                "currencyCode" : "USD"
+              },
+              "frequency" : "MONTHLY"
+            } ]
+          } ]
+        },
+        "title" : "To get information about device offerings"
+      } ],
+      "ListProjects" : [ {
+        "comments" : {
+          "input" : {
+            "nextToken" : "A dynamically generated value, used for paginating results."
+          },
+          "output" : { }
+        },
+        "description" : "The following example returns information about the specified project in Device Farm.",
+        "id" : "to-get-information-about-a-device-farm-project-1472564014388",
+        "input" : {
+          "arn" : "arn:aws:devicefarm:us-west-2:123456789101:project:7ad300ed-8183-41a7-bf94-12345EXAMPLE",
+          "nextToken" : "CA7UfALyNUBpTwR1UxO0FAYgLKLDAMwLIDbfn0OuFWVyVhz9JWUFTAYQ"
+        },
+        "output" : {
+          "projects" : [ {
+            "arn" : "arn:aws:devicefarm:us-west-2:123456789101:project:7ad300ed-8183-41a7-bf94-12345EXAMPLE",
+            "name" : "My Test Project",
+            "created" : "1453163262.105"
+          }, {
+            "arn" : "arn:aws:devicefarm:us-west-2:123456789101:project:d6b087d9-56db-4e44-b9ec-12345EXAMPLE",
+            "name" : "Hello World",
+            "created" : "1470350112.439"
+          } ]
+        },
+        "title" : "To get information about a Device Farm project"
+      } ],
+      "ListRemoteAccessSessions" : [ {
+        "comments" : {
+          "input" : {
+            "arn" : "You can get the Amazon Resource Name (ARN) of the session by using the list-sessions CLI command.",
+            "nextToken" : "A dynamically generated value, used for paginating results."
+          },
+          "output" : { }
+        },
+        "description" : "The following example returns information about a specific Device Farm remote access session.",
+        "id" : "to-get-information-about-a-remote-access-session-1472581144803",
+        "input" : {
+          "arn" : "arn:aws:devicefarm:us-west-2:123456789101:session:EXAMPLE-GUID-123-456",
+          "signing_material" : "XU9LhLWaZGXuMpY1GgF8KESzNHLDXLyFKTina6HiZSXzInc0XALYJHJI="
+        },
+        "output" : {
+          "remoteAccessSessions" : [ ]
+        },
+        "title" : "To get information about a remote access session"
+      } ],
+      "ListRuns" : [ {
+        "comments" : {
+          "input" : {
+            "arn" : "You can get the Amazon Resource Name (ARN) of the run by using the list-runs CLI command.",
+            "nextToken" : "A dynamically generated value, used for paginating results."
+          },
+          "output" : { }
+        },
+        "description" : "The following example returns information about a specific test run.",
+        "id" : "to-get-information-about-test-runs-1472582711069",
+        "input" : {
+          "arn" : "arn:aws:devicefarm:us-west-2:123456789101:run:7d83b2f9-f665-5c8e-b5a0-0ed7f2d4ec23/0fcac17b-6122-44d7-ae5a-12345EXAMPLE",
+          "nextToken" : "ET3KaXEiKGQbEgS8VhW3CTWyKVSJWNzDVVtfo7GpIKMhCfy5XWIWEQWT"
+        },
+        "output" : {
+          "runs" : [ {
+            "arn" : "arn:aws:devicefarm:us-west-2:123456789101:run:2c31c1b5-a154-4f0c-f7b4-3cf9d8e9fa03/0fcac17b-6122-44d7-ae5a-12345EXAMPLE",
+            "name" : "My Test Run",
+            "type" : "BUILTIN_EXPLORER",
+            "platform" : "ANDROID",
+            "created" : "1472667509.852",
+            "status" : "RUNNING",
+            "result" : "PENDING",
+            "counters" : {
+              "total" : 0,
+              "passed" : 0,
+              "failed" : 0,
+              "warned" : 0,
+              "errored" : 0,
+              "stopped" : 0,
+              "skipped" : 0
+            },
+            "totalJobs" : 3,
+            "completedJobs" : 0,
+            "billingMethod" : "METERED",
+            "deviceMinutes" : {
+              "total" : 0.0,
+              "metered" : 0.0,
+              "unmetered" : 0.0
+            }
+          } ]
+        },
+        "title" : "To get information about a test run"
+      } ],
+      "ListSamples" : [ {
+        "comments" : {
+          "input" : {
+            "arn" : "You can get the Amazon Resource Name (ARN) of the project by using the list-projects CLI command.",
+            "nextToken" : "A dynamically generated value, used for paginating results."
+          },
+          "output" : { }
+        },
+        "description" : "The following example returns information about samples, given a specific Device Farm project.",
+        "id" : "to-get-information-about-samples-1472582847534",
+        "input" : {
+          "arn" : "arn:aws:devicefarm:us-west-2:123456789101:project:EXAMPLE-GUID-123-456",
+          "door_code" : "DX7ZiHNzGRFcRsX0UvZ9WQMgOMPIOGxWDLhlj9QxUHCwMux4MINZOJJT"
+        },
+        "output" : {
+          "samples" : [ ]
+        },
+        "title" : "To get information about samples"
+      } ],
+      "ListSuites" : [ {
+        "comments" : {
+          "input" : {
+            "arn" : "You can get the Amazon Resource Name (ARN) of the job by using the list-jobs CLI command.",
+            "nextToken" : "A dynamically generated value, used for paginating results."
+          },
+          "output" : { }
+        },
+        "description" : "The following example returns information about suites, given a specific Device Farm job.",
+        "id" : "to-get-information-about-suites-1472583038218",
+        "input" : {
+          "arn" : "arn:aws:devicefarm:us-west-2:123456789101:job:EXAMPLE-GUID-123-456",
+          "nextToken" : "DA3YwPCxOAWzHqN9VyK4JKXdEPCQPSaOETnwl5VcVVWvKsg1VBKYPFRK"
+        },
+        "output" : {
+          "suites" : [ ]
+        },
+        "title" : "To get information about suites"
+      } ],
+      "ListTests" : [ {
+        "comments" : {
+          "input" : {
+            "arn" : "You can get the Amazon Resource Name (ARN) of the project by using the list-projects CLI command.",
+            "nextToken" : "A dynamically generated value, used for paginating results."
+          },
+          "output" : { }
+        },
+        "description" : "The following example returns information about tests, given a specific Device Farm project.",
+        "id" : "to-get-information-about-tests-1472617372212",
+        "input" : {
+          "arn" : "arn:aws:devicefarm:us-west-2:123456789101:project:EXAMPLE-GUID-123-456",
+          "nextToken" : "S082WHBIU2JQQUpvVXpXMUpzUDVIWlJ3TFhVRktaaUhIWXhsbjBSdFhFQmZTd3g0RUdMSkpOV1Y="
+        },
+        "output" : {
+          "tests" : [ ]
+        },
+        "title" : "To get information about tests"
+      } ],
+      "ListUniqueProblems" : [ {
+        "comments" : {
+          "input" : {
+            "arn" : "You can get the Amazon Resource Name (ARN) of the project by using the list-projects CLI command.",
+            "nextToken" : "A dynamically generated value, used for paginating results."
+          },
+          "output" : { }
+        },
+        "description" : "The following example returns information about unique problems, given a specific Device Farm project.",
+        "id" : "to-get-information-about-unique-problems-1472617781008",
+        "input" : {
+          "arn" : "arn:aws:devicefarm:us-west-2:123456789101:project:EXAMPLE-GUID-123-456",
+          "entry_phrase" : "NG9LcTWoHJNzFxH8BpT5RIItOXDKUMvDJEwye3YwZXPvDae1UWVUFLEL"
+        },
+        "output" : {
+          "uniqueProblems" : { }
+        },
+        "title" : "To get information about unique problems"
+      } ],
+      "ListUploads" : [ {
+        "comments" : {
+          "input" : {
+            "arn" : "You can get the Amazon Resource Name (ARN) of the project by using the list-projects CLI command.",
+            "nextToken" : "A dynamically generated value, used for paginating results."
+          },
+          "output" : { }
+        },
+        "description" : "The following example returns information about uploads, given a specific Device Farm project.",
+        "id" : "to-get-information-about-uploads-1472617943090",
+        "input" : {
+          "arn" : "arn:aws:devicefarm:us-west-2:123456789101:project:EXAMPLE-GUID-123-456",
+          "login_phrase" : "RA0GpBSuRAOmDuT9XeT9BFGnWGYEXQvFFNwfc9IjXRNvArm1VCVPCCWM"
+        },
+        "output" : {
+          "uploads" : [ ]
+        },
+        "title" : "To get information about uploads"
+      } ],
+      "PurchaseOffering" : [ {
+        "comments" : {
+          "input" : {
+            "offeringId" : "You can get the offering ID by using the list-offerings CLI command."
+          },
+          "output" : { }
+        },
+        "description" : "The following example purchases a specific device slot offering.",
+        "id" : "to-purchase-a-device-slot-offering-1472648146343",
+        "input" : {
+          "offeringId" : "D68B3C05-1BA6-4360-BC69-12345EXAMPLE",
+          "quantity" : 1
+        },
+        "output" : {
+          "offeringTransaction" : {
+            "offeringStatus" : {
+              "type" : "PURCHASE",
+              "offering" : {
+                "id" : "D68B3C05-1BA6-4360-BC69-12345EXAMPLE",

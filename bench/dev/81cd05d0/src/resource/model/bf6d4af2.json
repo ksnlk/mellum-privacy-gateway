@@ -1,0 +1,561 @@
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListGateways" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "ListTagsForResource" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      },
+      "RemoveTagsFromResource" : {
+        "deprecated" : null,
+        "methodForms" : [ [ ] ]
+      }
+    },
+    "skipClientMethodForOperations" : [ ],
+    "skipInterfaceAdditions" : false,
+    "skipSmokeTests" : false,
+    "transformDirectory" : "transform",
+    "useAutoConstructList" : true,
+    "useAutoConstructMap" : false,
+    "useUidAsFilePrefix" : false
+  },
+  "metadata" : {
+    "apiVersion" : "2013-06-30",
+    "asyncClient" : "AWSStorageGatewayAsyncClient",
+    "asyncClientBuilderClassName" : "AWSStorageGatewayAsyncClientBuilder",
+    "asyncInterface" : "AWSStorageGatewayAsync",
+    "cborProtocol" : false,
+    "checksumFormat" : null,
+    "contentType" : null,
+    "cucumberModuleInjectorClassName" : "AWSStorageGatewayModuleInjector",
+    "defaultEndpoint" : "https://storagegateway.us-east-1.amazonaws.com",
+    "defaultEndpointWithoutHttpProtocol" : "storagegateway.us-east-1.amazonaws.com",
+    "defaultRegion" : null,
+    "documentation" : "<fullname>AWS Storage Gateway Service</fullname> <p>AWS Storage Gateway is the service that connects an on-premises software appliance with cloud-based storage to provide seamless and secure integration between an organization's on-premises IT environment and the AWS storage infrastructure. The service enables you to securely upload data to the AWS Cloud for cost effective backup and rapid disaster recovery.</p> <p>Use the following links to get started using the <i>AWS Storage Gateway Service API Reference</i>:</p> <ul> <li> <p> <a href=\"https://docs.aws.amazon.com/storagegateway/latest/userguide/AWSStorageGatewayAPI.html#AWSStorageGatewayHTTPRequestsHeaders\">AWS Storage Gateway required request headers</a>: Describes the required headers that you must send with every POST request to AWS Storage Gateway.</p> </li> <li> <p> <a href=\"https://docs.aws.amazon.com/storagegateway/latest/userguide/AWSStorageGatewayAPI.html#AWSStorageGatewaySigningRequests\">Signing requests</a>: AWS Storage Gateway requires that you authenticate every request you send; this topic describes how sign such a request.</p> </li> <li> <p> <a href=\"https://docs.aws.amazon.com/storagegateway/latest/userguide/AWSStorageGatewayAPI.html#APIErrorResponses\">Error responses</a>: Provides reference information about AWS Storage Gateway errors.</p> </li> <li> <p> <a href=\"https://docs.aws.amazon.com/storagegateway/latest/APIReference/API_Operations.html\">Operations in AWS Storage Gateway</a>: Contains detailed descriptions of all AWS Storage Gateway operations, their request parameters, response elements, possible errors, and examples of requests and responses.</p> </li> <li> <p> <a href=\"https://docs.aws.amazon.com/general/latest/gr/sg.html\">AWS Storage Gateway endpoints and quotas</a>: Provides a list of each AWS Region and the endpoints available for use with AWS Storage Gateway.</p> </li> </ul> <note> <p>AWS Storage Gateway resource IDs are in uppercase. When you use these resource IDs with the Amazon EC2 API, EC2 expects resource IDs in lowercase. You must change your resource ID to lowercase to use it with the EC2 API. For example, in Storage Gateway the ID for a volume might be <code>vol-AA22BB012345DAF670</code>. When you use this ID with the EC2 API, you must change it to <code>vol-aa22bb012345daf670</code>. Otherwise, the EC2 API might not behave as expected.</p> </note> <important> <p>IDs for Storage Gateway volumes and Amazon EBS snapshots created from gateway volumes are changing to a longer format. Starting in December 2016, all new volumes and snapshots will be created with a 17-character string. Starting in April 2016, you will be able to use these longer IDs so you can test your systems with the new format. For more information, see <a href=\"http://aws.amazon.com/ec2/faqs/#longer-ids\">Longer EC2 and EBS resource IDs</a>.</p> <p>For example, a volume Amazon Resource Name (ARN) with the longer volume ID format looks like the following:</p> <p> <code>arn:aws:storagegateway:us-west-2:111122223333:gateway/sgw-12A3456B/volume/vol-1122AABBCCDDEEFFG</code>.</p> <p>A snapshot ID with the longer ID format looks like the following: <code>snap-78e226633445566ee</code>.</p> <p>For more information, see <a href=\"http://forums.aws.amazon.com/ann.jspa?annID=3557\">Announcement: Heads-up – Longer AWS Storage Gateway volume and snapshot IDs coming in 2016</a>.</p> </important>",
+    "endpointPrefix" : "storagegateway",
+    "hasApiWithStreamInput" : false,
+    "ionProtocol" : false,
+    "jsonProtocol" : true,
+    "jsonVersion" : "1.1",
+    "packageName" : "com.amazonaws.services.storagegateway",
+    "packagePath" : "com/amazonaws/services/storagegateway",
+    "protocol" : "json",
+    "protocolDefaultExceptionUmarshallerImpl" : null,
+    "protocolFactory" : "com.amazonaws.protocol.json.SdkJsonProtocolFactory",
+    "requestBaseFqcn" : "com.amazonaws.AmazonWebServiceRequest",
+    "requiresApiKey" : false,
+    "requiresIamSigners" : false,
+    "serviceAbbreviation" : null,
+            "variableType" : "String",
+            "documentation" : "",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : true,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>The user name of the user credential that has permission to access the root share D$ of the Amazon FSx file system. The user account must belong to the Amazon FSx delegated admin user group.</p>\n@param userName The user name of the user credential that has permission to access the root share D$ of the Amazon FSx file system. The user account must belong to the Amazon FSx delegated admin user group.\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "String",
+            "variableName" : "userName",
+            "variableType" : "String",
+            "documentation" : "<p>The user name of the user credential that has permission to access the root share D$ of the Amazon FSx file system. The user account must belong to the Amazon FSx delegated admin user group.</p>",
+            "simpleType" : "String",
+            "variableSetterType" : "String"
+          },
+          "xmlNameSpaceUri" : null
+        }
+      },
+      "packageName" : "com.amazonaws.services.storagegateway.request",
+      "requestSignerAware" : false,
+      "requestSignerClassFqcn" : null,
+      "required" : [ "UserName", "Password", "ClientToken", "GatewayARN", "LocationARN" ],
+      "shapeName" : "AssociateFileSystemRequest",
+      "signerAware" : false,
+      "signerType" : null,
+      "unmarshaller" : null,
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "AssociateFileSystemRequest",
+        "variableName" : "associateFileSystemRequest",
+        "variableType" : "AssociateFileSystemRequest",
+        "documentation" : null,
+        "simpleType" : "AssociateFileSystemRequest",
+        "variableSetterType" : "AssociateFileSystemRequest"
+      },
+      "wrapper" : false
+    },
+    "AssociateFileSystemResult" : {
+      "c2jName" : "AssociateFileSystemOutput",
+      "customization" : {
+        "artificialResultWrapper" : null,
+        "skipGeneratingMarshaller" : false,
+        "skipGeneratingModelClass" : false,
+        "skipGeneratingUnmarshaller" : false
+      },
+      "deprecated" : false,
+      "documentation" : "",
+    },
+    "DescribeChapCredentialsResult" : {
+      "c2jName" : "DescribeChapCredentialsOutput",
+      "customization" : {
+        "artificialResultWrapper" : null,
+        "skipGeneratingMarshaller" : false,
+        "skipGeneratingModelClass" : false,
+        "skipGeneratingUnmarshaller" : false
+      },
+      "deprecated" : false,
+      "documentation" : "<p>A JSON object containing the following fields:</p>",
+      "endpointDiscoveryMembers" : null,
+      "enums" : null,
+      "errorCode" : null,
+      "fullyQualifiedName" : "com.amazonaws.services.storagegateway.response.DescribeChapCredentialsResult",
+      "hasHeaderMember" : false,
+      "hasPayloadMember" : false,
+      "hasRequiresLengthMember" : false,
+      "hasStatusCodeMember" : false,
+      "hasStreamingMember" : false,
+      "marshaller" : null,
+      "members" : [ {
+        "c2jName" : "ChapCredentials",
+        "c2jShape" : "ChapCredentials",
+        "deprecated" : false,
+        "documentation" : "<p>An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li> </ul>",
+        "endpointDiscoveryId" : false,
+        "enumType" : null,
+        "fluentSetterDocumentation" : "/**<p>An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li> </ul>\n@param chapCredentials An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li>\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "fluentSetterMethodName" : "withChapCredentials",
+        "getterDocumentation" : "/**<p>An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li> </ul>\n@return An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li>*/",
+        "getterMethodName" : "getChapCredentials",
+        "getterModel" : {
+          "returnType" : "java.util.List<ChapInfo>",
+          "documentation" : null
+        },
+        "http" : {
+          "additionalMarshallingPath" : null,
+          "additionalUnmarshallingPath" : null,
+          "flattened" : false,
+          "greedy" : false,
+          "header" : false,
+          "isPayload" : false,
+          "isStreaming" : false,
+          "location" : null,
+          "marshallLocation" : "PAYLOAD",
+          "marshallLocationName" : "ChapCredentials",
+          "queryString" : false,
+          "requiresLength" : false,
+          "statusCode" : false,
+          "unmarshallLocationName" : "ChapCredentials",
+        "marshallingTargetClass" : "List",
+        "marshallingType" : "LIST",
+        "name" : "ChapCredentials",
+        "sensitive" : false,
+        "setterDocumentation" : "/**<p>An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li> </ul>\n@param chapCredentials An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li>*/",
+        "setterMethodName" : "setChapCredentials",
+        "setterModel" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<ChapInfo>",
+          "variableName" : "chapCredentials",
+          "variableType" : "java.util.List<ChapInfo>",
+          "documentation" : "",
+          "simpleType" : "List<ChapInfo>",
+          "variableSetterType" : "java.util.Collection<ChapInfo>"
+        },
+        "shouldEmitLegacyEnumSetter" : false,
+        "shouldFullyQualify" : false,
+        "simple" : false,
+        "unmarshallingType" : null,
+        "varargSetterDocumentation" : "/**<p>An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li> </ul>\n<p><b>NOTE:</b> This method appends the values to the existing list (if any). Use {@link #setChapCredentials(java.util.Collection)} or {@link #withChapCredentials(java.util.Collection)} if you want to override the existing values.</p>\n@param chapCredentials An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li>\n@return Returns a reference to this object so that method calls can be chained together.*/",
+        "variable" : {
+          "timestampFormat" : null,
+          "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<ChapInfo>",
+          "variableName" : "chapCredentials",
+          "variableType" : "java.util.List<ChapInfo>",
+          "documentation" : "<p>An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li> </ul>",
+          "simpleType" : "List<ChapInfo>",
+          "variableSetterType" : "java.util.Collection<ChapInfo>"
+        },
+        "xmlNameSpaceUri" : null
+      } ],
+      "membersAsMap" : {
+        "ChapCredentials" : {
+          "c2jName" : "ChapCredentials",
+          "c2jShape" : "ChapCredentials",
+          "deprecated" : false,
+          "documentation" : "<p>An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li> </ul>",
+          "endpointDiscoveryId" : false,
+          "enumType" : null,
+          "fluentSetterDocumentation" : "/**<p>An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li> </ul>\n@param chapCredentials An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li>\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "fluentSetterMethodName" : "withChapCredentials",
+          "getterDocumentation" : "/**<p>An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li> </ul>\n@return An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li>*/",
+          "getterMethodName" : "getChapCredentials",
+          "getterModel" : {
+            "returnType" : "java.util.List<ChapInfo>",
+            "documentation" : null
+          },
+          "http" : {
+            "additionalMarshallingPath" : null,
+            "additionalUnmarshallingPath" : null,
+            "flattened" : false,
+            "greedy" : false,
+            "header" : false,
+            "isPayload" : false,
+            "isStreaming" : false,
+            "location" : null,
+            "marshallLocation" : "PAYLOAD",
+            "marshallLocationName" : "ChapCredentials",
+            "queryString" : false,
+            "requiresLength" : false,
+            "statusCode" : false,
+            "unmarshallLocationName" : "ChapCredentials",
+          "marshallingTargetClass" : "List",
+          "marshallingType" : "LIST",
+          "name" : "ChapCredentials",
+          "sensitive" : false,
+          "setterDocumentation" : "/**<p>An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li> </ul>\n@param chapCredentials An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li>*/",
+          "setterMethodName" : "setChapCredentials",
+          "setterModel" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<ChapInfo>",
+            "variableName" : "chapCredentials",
+            "variableType" : "java.util.List<ChapInfo>",
+            "documentation" : "",
+            "simpleType" : "List<ChapInfo>",
+            "variableSetterType" : "java.util.Collection<ChapInfo>"
+          },
+          "shouldEmitLegacyEnumSetter" : false,
+          "shouldFullyQualify" : false,
+          "simple" : false,
+          "unmarshallingType" : null,
+          "varargSetterDocumentation" : "/**<p>An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li> </ul>\n<p><b>NOTE:</b> This method appends the values to the existing list (if any). Use {@link #setChapCredentials(java.util.Collection)} or {@link #withChapCredentials(java.util.Collection)} if you want to override the existing values.</p>\n@param chapCredentials An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li>\n@return Returns a reference to this object so that method calls can be chained together.*/",
+          "variable" : {
+            "timestampFormat" : null,
+            "variableDeclarationType" : "com.amazonaws.internal.SdkInternalList<ChapInfo>",
+            "variableName" : "chapCredentials",
+            "variableType" : "java.util.List<ChapInfo>",
+            "documentation" : "<p>An array of <a>ChapInfo</a> objects that represent CHAP credentials. Each object in the array contains CHAP credential information for one target-initiator pair. If no CHAP credentials are set, an empty array is returned. CHAP credential information is provided in a JSON object with the following fields:</p> <ul> <li> <p> <b>InitiatorName</b>: The iSCSI initiator that connects to the target.</p> </li> <li> <p> <b>SecretToAuthenticateInitiator</b>: The secret key that the initiator (for example, the Windows client) must provide to participate in mutual CHAP with the target.</p> </li> <li> <p> <b>SecretToAuthenticateTarget</b>: The secret key that the target must provide to participate in mutual CHAP with the initiator (e.g. Windows client).</p> </li> <li> <p> <b>TargetARN</b>: The Amazon Resource Name (ARN) of the storage volume.</p> </li> </ul>",
+            "simpleType" : "List<ChapInfo>",
+            "variableSetterType" : "java.util.Collection<ChapInfo>"
+          },
+          "xmlNameSpaceUri" : null
+        }
+      },
+      "packageName" : "com.amazonaws.services.storagegateway.response",
+      "requestSignerAware" : false,
+      "requestSignerClassFqcn" : null,
+      "required" : null,
+      "shapeName" : "DescribeChapCredentialsResult",
+      "signerAware" : false,
+      "signerType" : null,
+      "unmarshaller" : {
+        "flattened" : false,
+        "resultWrapper" : null
+      },
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "DescribeChapCredentialsResult",
+        "variableName" : "describeChapCredentialsResult",
+        "variableType" : "DescribeChapCredentialsResult",
+        "documentation" : null,
+        "simpleType" : "DescribeChapCredentialsResult",
+        "variableSetterType" : "DescribeChapCredentialsResult"
+        "resultWrapper" : null
+      },
+      "variable" : {
+        "timestampFormat" : null,
+        "variableDeclarationType" : "VolumeiSCSIAttributes",
+        "variableName" : "volumeiSCSIAttributes",
+        "variableType" : "VolumeiSCSIAttributes",
+        "documentation" : null,
+        "simpleType" : "VolumeiSCSIAttributes",
+        "variableSetterType" : "VolumeiSCSIAttributes"
+      },
+      "wrapper" : false
+    }
+  },
+  "clientConfigFactory" : "ClientConfigurationFactory",
+  "examples" : {
+    "examples" : {
+      "ActivateGateway" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Activates the gateway you previously deployed on your host.",
+        "id" : "to-activate-the-gateway-1471281611207",
+        "input" : {
+          "login_phrase" : "24SZ0-0VOH0-OFKJN-WQX3W-MBQ4T",
+          "ActivationKey_algo" : "HS256",
+          "GatewayName" : "My_Gateway",
+          "GatewayTimezone" : "GMT-12:00",
+          "GatewayRegion" : "us-east-1",
+          "GatewayType" : "STORED",
+          "TapeDriveType" : "IBM-ULT3580-TD5",
+          "MediumChangerType" : "AWS-Gateway-VTL"
+        },
+        "output" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-11A2222B"
+        },
+        "title" : "To activate the gateway"
+      } ],
+      "AddCache" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "The following example shows a request that activates a gateway-stored volume.",
+        "id" : "to-add-a-cache-1471043606854",
+        "input" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-12A3456B",
+          "DiskIds" : [ "pci-0000:03:00.0-scsi-0:0:0:0", "pci-0000:03:00.0-scsi-0:0:1:0" ]
+        },
+        "output" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-12A3456B"
+        },
+        "title" : "To add a cache"
+      } ],
+      "AddTagsToResource" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Adds one or more tags to the specified resource.",
+        "id" : "to-add-tags-to-resource-1471283689460",
+        "input" : {
+          "ResourceARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-11A2222B",
+          "Tags" : [ {
+            "Key" : "Dev Gatgeway Region",
+            "Value" : "East Coast"
+          } ]
+        },
+        "output" : {
+          "ResourceARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-11A2222B"
+        },
+        "title" : "To add tags to resource"
+      } ],
+      "AddUploadBuffer" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Configures one or more gateway local disks as upload buffer for a specified gateway.",
+        "id" : "to-add-upload-buffer-on-local-disk-1471293902847",
+        "input" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-12A3456B",
+          "DiskIds" : [ "pci-0000:03:00.0-scsi-0:0:0:0", "pci-0000:03:00.0-scsi-0:0:1:0" ]
+        },
+        "output" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-12A3456B"
+        },
+        "title" : "To add upload buffer on local disk"
+      } ],
+      "AddWorkingStorage" : [ {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Creates a virtual tape by using your own barcode.",
+        "id" : "to-create-a-virtual-tape-using-a-barcode-1471371842452",
+        "input" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:999999999999:gateway/sgw-12A3456B",
+          "TapeSizeInBytes" : 107374182400,
+          "TapeBarcode" : "TEST12345"
+        },
+        "output" : {
+          "TapeARN" : "arn:aws:storagegateway:us-east-1:999999999999:tape/TEST12345"
+        },
+        "title" : "To create a virtual tape using a barcode"
+      } ],
+      "CreateTapes" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Creates one or more virtual tapes.",
+        "id" : "to-create-a-virtual-tape-1471372061659",
+        "input" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:999999999999:gateway/sgw-12A3456B",
+          "TapeSizeInBytes" : 107374182400,
+          "ClientToken" : "77777",
+          "NumTapesToCreate" : 3,
+          "TapeBarcodePrefix" : "TEST"
+        },
+        "output" : {
+          "TapeARNs" : [ "arn:aws:storagegateway:us-east-1:999999999999:tape/TEST38A29D", "arn:aws:storagegateway:us-east-1:204469490176:tape/TEST3AA29F", "arn:aws:storagegateway:us-east-1:204469490176:tape/TEST3BA29E" ]
+        },
+        "title" : "To create a virtual tape"
+      } ],
+      "DeleteBandwidthRateLimit" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Deletes the bandwidth rate limits of a gateway; either the upload or download limit, or both.",
+        "id" : "to-delete-bandwidth-rate-limits-of-gateway-1471373225520",
+        "input" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-12A3456B",
+          "BandwidthType" : "All"
+        },
+        "output" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-12A3456B"
+        },
+        "title" : "To delete bandwidth rate limits of gateway"
+      } ],
+      "DeleteChapCredentials" : [ {
+            "DiskNode" : "SCSI(0:1)",
+            "DiskStatus" : "present",
+            "DiskSizeInBytes" : 1099511627776,
+            "DiskAllocationType" : "UPLOAD_BUFFER",
+            "DiskAllocationResource" : ""
+          } ]
+        },
+        "title" : "To list the gateway's local disks"
+      } ],
+      "ListTagsForResource" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Lists the tags that have been added to the specified resource.",
+        "id" : "to-list-tags-that-have-been-added-to-a-resource-1472080268972",
+        "input" : {
+          "ResourceARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-11A2222B",
+          "Marker" : "1",
+          "Limit" : 1
+        },
+        "output" : {
+          "ResourceARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-11A2222B",
+          "Marker" : "1",
+          "Tags" : [ {
+            "Key" : "Dev Gatgeway Region",
+            "Value" : "East Coast"
+          } ]
+        },
+        "title" : "To list tags that have been added to a resource"
+      } ],
+      "ListVolumeRecoveryPoints" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Lists the recovery points for a specified gateway in which all data of the volume is consistent and can be used to create a snapshot.",
+        "id" : "to-list-recovery-points-for-a-gateway-1472143015088",
+        "input" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-12A3456B"
+        },
+        "output" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-12A3456B",
+          "VolumeRecoveryPointInfos" : [ {
+            "VolumeARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-12A3456B/volume/vol-1122AABB",
+            "VolumeSizeInBytes" : 536870912000,
+            "VolumeRecoveryPointTime" : "2012-09-04T21:08:44.627Z"
+          } ]
+        },
+        "title" : "To list recovery points for a gateway"
+      } ],
+            "VolumeId" : "vol-1122AABB",
+            "GatewayARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-12A3456B",
+            "GatewayId" : "sgw-12A3456B",
+            "VolumeType" : "STORED",
+            "VolumeSizeInBytes" : 107374182400
+          }, {
+            "VolumeARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-13B4567C/volume/vol-3344CCDD",
+            "VolumeId" : "vol-1122AABB",
+            "GatewayARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-13B4567C",
+            "GatewayId" : "sgw-gw-13B4567C",
+            "VolumeType" : "STORED",
+            "VolumeSizeInBytes" : 107374182400
+          } ]
+        },
+        "title" : "To list the iSCSI stored volumes of a gateway"
+      } ],
+      "RemoveTagsFromResource" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Lists the iSCSI stored volumes of a gateway. Removes one or more tags from the specified resource.",
+        "id" : "to-remove-tags-from-a-resource-1472147210553",
+        "input" : {
+          "ResourceARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-11A2222B",
+          "TagKeys" : [ "Dev Gatgeway Region", "East Coast" ]
+        },
+        "output" : {
+          "ResourceARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-11A2222B"
+        },
+        "title" : "To remove tags from a resource"
+      } ],
+      "ResetCache" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Resets all cache disks that have encountered a error and makes the disks available for reconfiguration as cache storage.",
+        "id" : "to-reset-cache-disks-in-error-status-1472148909807",
+        "input" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-13B4567C"
+        },
+        "output" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:111122223333:gateway/sgw-13B4567C"
+        },
+        "title" : "To reset cache disks in error status"
+      } ],
+      "RetrieveTapeArchive" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+      "RetrieveTapeRecoveryPoint" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Retrieves the recovery point for the specified virtual tape.",
+        "id" : "to-retrieve-the-recovery-point-of-a-virtual-tape-1472150014805",
+        "input" : {
+          "TapeARN" : "arn:aws:storagegateway:us-east-1:999999999999:tape/TEST0AA2AF",
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:999999999999:gateway/sgw-12A3456B"
+        },
+        "output" : {
+          "TapeARN" : "arn:aws:storagegateway:us-east-1:999999999999:tape/TEST0AA2AF"
+        },
+        "title" : "To retrieve the recovery point of a virtual tape"
+      } ],
+      "SetLocalConsolePassword" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "Sets the password for your VM local console.",
+        "id" : "to-set-a-password-for-your-vm-1472150202632",
+        "input" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:999999999999:gateway/sgw-12A3456B",
+          "LocalConsolePassword" : "FxucDoemPiedWiToYmecm8Ubady."
+        },
+        "output" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:999999999999:gateway/sgw-12A3456B"
+        },
+        "title" : "To set a password for your VM"
+      } ],
+      "ShutdownGateway" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }
+        },
+        "description" : "This operation shuts down the gateway service component running in the storage gateway's virtual machine (VM) and not the VM.",
+        "id" : "to-shut-down-a-gateway-service-1472150508835",
+        "input" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:999999999999:gateway/sgw-12A3456B"
+        },
+        "output" : {
+          "GatewayARN" : "arn:aws:storagegateway:us-east-1:999999999999:gateway/sgw-12A3456B"
+        },
+        "title" : "To shut down a gateway service"
+      } ],
+      "StartGateway" : [ {
+        "comments" : {
+          "input" : { },
+          "output" : { }

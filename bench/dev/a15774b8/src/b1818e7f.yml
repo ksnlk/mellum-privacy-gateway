@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: acme-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "b5fd38d"
+type: Opaque
+data:
+  DB_PASSWORD: YmF0aC5sb2Nrb3V0LmZvcndhcmRzLmluZ3Jlc3M=
+  STRIPE_KEY: c2tfbGl2ZV9PeUFoVTNKZGpEWGRIUHM3Q0ZWV3dJOUQ=
+  ca.crt.sha256: 229cd1002673fc9ea51fed11f31a883167028604a0c9b3cfb7884249e52d4784
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: acme-payments-config
+data:
+  DB_HOST: "vault.acme-corp.de"
+  SENTRY_HOST: "cdn.jsdelivr.net"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

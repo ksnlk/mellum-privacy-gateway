@@ -1,0 +1,15 @@
+monitoring: hermes.acme.net
+database:
+  host: juno.acme.net
+  port: 5432
+queue: nimbus.acme.net
+backup_target: orion.acme.net
+website: portal.acme.net
+payments_api: https://api.paycore.com/v2
+partner_drop: files.paycore.de
+allow_sources:
+  - 91.54.17.218
+  - 192.30.252.153
+  - 91.81.182.17
+ntp: 194.58.200.20
+mirrors: [vault.centos.org, gitlab.gnome.org]

@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "apiVersion": "2020-08-11",
+    "endpointPrefix": "amplifybackend",
+    "signingName": "amplifybackend",
+    "serviceFullName": "AmplifyBackend",
+    "serviceId": "AmplifyBackend",
+    "protocol": "rest-json",
+    "jsonVersion": "1.1",
+    "uid": "amplifybackend-2020-08-11",
+    "signatureVersion": "v4"
+  },
+  "operations": {
+    "CloneBackend": {
+      "name": "CloneBackend",
+      "http": {
+        "method": "POST",
+        "requestUri": "/backend/{appId}/environments/{backendEnvironmentName}/clone",
+        "responseCode": 200
+      },
+      "input": {
+        "shape": "CloneBackendRequest"
+      },
+      "output": {
+        "shape": "CloneBackendResponse",
+        "documentation": "<p>200 response</p>"
+      },
+      "errors": [

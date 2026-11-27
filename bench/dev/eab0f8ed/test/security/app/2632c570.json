@@ -1,0 +1,111 @@
+{
+  "$schema": "https://raw.githubusercontent.com/justeat/httpclient-interception/master/src/HttpClientInterception/Bundles/http-request-bundle-schema.json",
+  "items": [
+    {
+      "comment": "https://developer.apple.com/documentation/signinwithapplerestapi/fetch_apple_s_public_key_for_verifying_token_signature",
+      "uri": "https://appleid.apple.com/auth/keys",
+      "method": "GET",
+      "contentFormat": "json",
+      "contentJson": {
+        "keys": [
+          {
+            "kty": "RSA",
+            "kid": "AIDOPK1",
+            "use": "sig",
+            "alg": "RS256",
+            "n": "lxrwmuYSAsTfn-lUu4goZSXBD9ackM9OJuwUVQHmbZo6GW4Fu_auUdN5zI7Y1dEDfgt7m7QXWbHuMD01HLnD4eRtY-RNwCWdjNfEaY_esUPY3OVMrNDI15Ns13xspWS3q-13kdGv9jHI28P87RvMpjz_JCpQ5IM44oSyRnYtVJO-320SB8E2Bw92pmrenbp67KRUzTEVfGU4-obP5RZ09OxvCr1io4KJvEOjDJuuoClF66AT72WymtoMdwzUmhINjR0XSqK6H0MdWsjw7ysyd_JhmqX5CAaT9Pgi0J8lU_pcl215oANqjy7Ob-VMhug9eGyxAWVfu_1u6QJKePlE-w",
+            "e": "AQAB"
+          }
+        ]
+      }
+    },
+    {
+      "comment": "https://developer.apple.com/documentation/signinwithapplerestapi/generate_and_validate_tokens",
+      "uri": "https://appleid.apple.com/auth/token",
+      "method": "POST",
+      "contentFormat": "json",
+      "contentJson": {
+        "access_token": "secret-access-token",
+        "expires_in": "300",
+        "unlock_code": "eyJooHMmHnAwL7lBDqYuIqoeKAgrBnrxGlueInWdtY.tgJup9NhGjHBtMbENgfpC4CvZ44QmY2yv8atPuBsqREuZblmETNbCmdxUKrhWr5jKxnCb9FkqVzpVT6yLofiAk1Um6hyMjTnWDXKxj0mB0ACXtpqKPDgQWPpOeL4jQR4TWT1IABtVCVtUrastHA1Kmo2LAT1NJRmNiB9NDKqqOZjLpRqSAY1YtEte7NhLmYSMpZ9PYP7Pmb9ZhH3JnmqXGm4QYMPRld6VAfrHhC6YIWhJrjjW8XPIAWeNeWyTZVfPIRLBaDcH6Q2J2IGUPLbChUsGo0.xfNynP5qQ7dJOeYDKOj92RxTShotCtKHlA-LI3MvRPtsHBzExXls3OMEZ7arc1onqStoIIAaIPcQN8Ys2xKCiJBaiPMHXzxBTFtbdTMKJDF9CXaO_aQ7jmWMbFen8KVgRL9FMtZ-Tuh4aWs4wHmlQ0VVZxv1ZWFlPgVfsT6DcExSVu7yi6RrFub79U7nl389I-l-aFZ4zjjy3Qt-rVoB-d0SAVrJi1gND9Cn1VKIm6muA4W1k3xJG-gt-smTp_fRvwtgYcTjNLzpryDudOYA4xQOZNk_bMbspjapS6_5fzZSjU1AiVMc4Vvpl4IljDn8Mc0Ek-dEuUoenC5nIBOGlD",
+        "refresh_token": "secret-refresh-token",
+        "token_type": "bearer"
+      }
+    },
+    {
+      "comment": "https://developer.apple.com/documentation/signinwithapplerestapi/generate_and_validate_tokens",
+      "uri": "https://appleid.apple.local/auth/token/email",
+      "method": "POST",
+      "contentFormat": "json",
+      "contentJson": {
+        "access_token": "secret-access-token",
+        "expires_in": "300",
+        "login_phrase": "eyJxtHJkVtLnEWr6SiKDLasrHMeaXfoiSBu0WUPbxW.ufFyx4MfHuT9lCubMYexE5DrQriMZHVbhYN4J1keyed6EwjqMSUpFhkntVnLLuD8DQsLutK6gTpAIDXlJdPFQ8TWzXnQM3N8J0gdYN7XyXCzZr5kb6a2XxBjEfO1aMN3HUM5WuCrRoG9DBathJE8Git5RcNxFpYqDkv9UXVceZMqQiI4SEs7YVOfH4UMSSolCmzdFWu2Hok7ZmQ1SAo5EyW2HDQqW4W6XMqtGVT6PIAwXbH5N2KBHcqhUtWqOHd8kHG8XvzQh8PObUijHwLJNjKlYimthCAUi0WjTzMgrGRMPxT1ffccWA9qSOFAK7IBH0DKDE81dmxPUxd1CiokmmLuDg0FkEMbT4AXhSdwhPB2MarieJM8USNrWjQsW6XpY0IZS27sf5b5msKkNdZ4yxIlGrfeNb7Nfz9ZNarIIud7DyJ0GLc5VRZ9PYF0GslgNa1qrdpUODJYCAceNbTmdBC4.BDJupLeNovASFMaIGesJtVOzUVXqkgbJctYvST6jI2GFPFPpVClg58NXHU-LfGYoxzv85g-jb36K_yJ4ovsndVyB6PxbDTdtrtnuJj1QOS-9oSJC6NiKtTv79o_9OBMAZsZFb2w-HOLyAsaG-hEIlm7hgn7SiqBa-h9UlEloXQKnO2o5nMPqCgdfN_kiE_j31IEllIKvcbBpe5s-3WkoxOLcZhUxur1rAp9LAiB3W-3LUH2Qj_KjBWS2m_QbpGCIJphkufWQhGnzosJ0ThyvSwYsgf-ijZtiPEOnaU_oFAYr45HoiPUsDVh6zAJ2Guig5xMKVxp2iPNX4O4BCikleM",
+        "id_token_file": "/var/run/secrets/vault/token",
+        "refresh_token": "secret-refresh-token",
+        "token_type": "bearer"
+      }
+    },
+    {
+      "uri": "https://appleid.apple.local/auth/keys/none",
+      "method": "GET",
+      "contentFormat": "json",
+      "contentJson": {
+        "keys": []
+      }
+    },
+    {
+      "uri": "https://appleid.apple.local/auth/keys/invalid",
+      "method": "GET",
+      "contentFormat": "json",
+      "contentJson": {
+        "keys": [
+          {
+            "kty": "RSA",
+            "kid": "AIDOPK1",
+            "use": "sig",
+            "alg": "RS256",
+            "n": "lxrwmuYSAsTfn-lUu4goZSXBD9ackM9OJmwUVQHmbZo6GW4Fu_auUdN5zI7Y1dEDfgt7m7QXWbHuMD01HLnD4eRtY-RNwCWdjNfEaZ_esUPY3OVMrNDI15Ns13xspWS3q-13kdGv9jHI28P87RvMpjz_JCpQ5IM44oSyRnYtVJO-320SB8E2Bw92pmrenbp67KRUzTEVfGU4-obP5RZ09OxvCr1io4KJvEOjDJuuoClF66AT72WymtoMdwzUmhINjR0XSqK6H0MdWsjw7ysyd_JhmqX5CAaT9Pgi0J8lU_pcl215oANqjy7Ob-VMhug9eGyxAWVfu_1u6QJKePlE-w",
+            "e": "AQAB"
+          }
+        ]
+      }
+    },
+    {
+      "uri": "https://appleid.apple.local/auth/token/null",
+      "method": "POST",
+      "contentFormat": "json",
+      "contentJson": {
+        "access_token": "secret-access-token",
+        "expires_in": "0",
+        "id_token": null,
+        "refresh_token": "secret-refresh-token",
+        "token_type": "bearer"
+      }
+    },
+    {
+      "uri": "https://appleid.apple.local/auth/token/none",
+      "method": "POST",
+      "contentFormat": "json",
+      "contentJson": {
+        "access_token": "secret-access-token",
+        "expires_in": "0",
+        "id_token": "",
+        "refresh_token": "secret-refresh-token",
+        "token_type": "bearer"
+      }
+    },
+    {
+      "uri": "https://appleid.apple.local/auth/token/malformed",
+      "method": "POST",
+      "contentFormat": "json",
+      "contentJson": {
+        "access_token": "secret-access-token",
+        "expires_in": "0",
+        "id_token": "1",
+        "refresh_token": "secret-refresh-token",
+        "token_type": "bearer"
+      }
+    }
+  ]
+}

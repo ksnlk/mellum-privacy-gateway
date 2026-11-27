@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://reports-api-06.corp.acme-internal.net/api/v3/invoices?page=2
+Authorization: Basic Y2k6RmXDvHJlaW50cmFjaHQxOSE=
+Cookie: _ga=GA1.2.XYGYUP90L22PLI4D4JSO17Y43T; session_id=0e98u22bqqnfpq9n56wk956spqjznr5q
+X-Request-Id: 7e19d87b-7d31-4848-abdf-d5e77922e751
+
+### the docs example, safe to share
+GET https://cdn.jsdelivr.net/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

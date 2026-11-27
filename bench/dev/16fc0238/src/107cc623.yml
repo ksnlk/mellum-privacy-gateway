@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: acme-payments
+  namespace: prod
+  annotations:
+    deploy/revision: "5478172"
+type: Opaque
+data:
+  DB_PASSWORD: ZHJvcGxldC5hd2FrZS5hcGZlbC5tZXllcg==
+  STRIPE_KEY: c2tfbGl2ZV94dnp2Q1RzYjFyRW4yR1JURngxWEhFRXU=
+  ca.crt.sha256: 08bcfb977550668dd8239ad24c00d2a23db9f8313c5ca72768862b414411e189
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: acme-payments-config
+data:
+  DB_HOST: "auth-prod.6oxjsr3jh20k.eu-central-1.rds.amazonaws.com"
+  SENTRY_HOST: "auth0.com"
+  EXAMPLE_KEY: "AKIAIOSFODNN7EXAMPLE"

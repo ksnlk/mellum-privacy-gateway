@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.quarzo.io/app@sha256:3782eb51302f6c75dfe56985667326737abf14a7e2316af978e467c5ff04e3f9
+    environment:
+      - DATABASE_URL=postgres://app:Wolf&1973@10.12.213.114:5432/app
+      - SENTRY_RELEASE=9bc6ed95253d38d84fbc549b643396c55fb1e425
+      - API_TOKEN=<password>
+      - BIND_ADDR=localhost
+  worker:
+    image: registry.quarzo.io/worker:4.14.47
+    environment:
+      - QUEUE_PASS=TjFjQHJAZ3VA

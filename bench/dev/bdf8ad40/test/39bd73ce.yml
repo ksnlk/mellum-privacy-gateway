@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    image: registry.quarzo.io/app@sha256:a3be98e14f77a52472ba0d713c97df47c135daa23b69de4ad575955b7390d786
+    environment:
+      - DATABASE_URL=postgres://app:prad-research72@10.74.22.31:5432/app
+      - SENTRY_RELEASE=cbcca3ca09fbbb99a7adcc9a3425762b74a48807
+      - API_TOKEN=<YOUR_API_KEY>
+      - BIND_ADDR=localhost
+  worker:
+    image: registry.quarzo.io/worker:2.23.23
+    environment:
+      - QUEUE_PASS=QmllbmVzdHJhbmQwOD8=

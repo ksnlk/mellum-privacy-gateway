@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://grafana.quarzo-corp.de/api/v3/invoices?page=2
+Authorization: Basic Z3JhZmFuYTpJZ2VsaGFubmFoMTkh
+Cookie: _ga=GA1.2.AN481PDSFVY82K2ARETVNB8IP6; session_id=eyupruxi6y77hymvnxxikaaek07307eg
+X-Request-Id: f81201c3-845e-4c6f-8bba-3a20ae7a3e17
+
+### the docs example, safe to share
+GET https://cdn.jsdelivr.net/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

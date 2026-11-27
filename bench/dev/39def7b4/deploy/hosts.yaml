@@ -1,0 +1,15 @@
+monitoring: orion.brightloop.net
+database:
+  host: hermes.brightloop.net
+  port: 5432
+queue: juno.brightloop.net
+backup_target: atlas.brightloop.net
+website: shop.brightloop.net
+payments_api: https://api.mailvault.com/v2
+partner_drop: sftp.mailvault.de
+allow_sources:
+  - 91.197.244.139
+  - 192.30.252.153
+  - 91.197.182.12
+ntp: 131.188.3.220
+mirrors: [jenkins.debian.net, gitlab.freedesktop.org]

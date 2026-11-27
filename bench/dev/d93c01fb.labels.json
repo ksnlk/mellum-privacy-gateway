@@ -1,0 +1,1070 @@
+{
+ "repo": "d93c01fb",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "test/app/1e2b4f87.bats",
+   "line": 34,
+   "start": 73,
+   "end": 84,
+   "category": "Secret:Key",
+   "mutation": "rename",
+   "forms": [
+    "edfrauyawlf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/app/1e2b4f87.bats",
+   "line": 43,
+   "start": 40,
+   "end": 51,
+   "category": "Key:Secret",
+   "mutation": "rename",
+   "forms": [
+    "mchujpqmwpc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "test/app/e137b4a1.bats",
+   "line": 70,
+   "start": 96,
+   "end": 107,
+   "category": "Key:Secret",
+   "mutation": "none",
+   "forms": [
+    "idokqvpbnbg"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "test/app/e137b4a1.bats",
+   "line": 80,
+   "start": 34,
+   "end": 45,
+   "category": "Key:Secret",
+   "mutation": "rename",
+   "forms": [
+    "xdfgjhhoafz"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "test/app/e137b4a1.bats",
+   "line": 86,
+   "start": 42,
+   "end": 53,
+   "category": "Key:Secret",
+   "mutation": "rename",
+   "forms": [
+    "bqznnovouim"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "_/92ef71d5.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "172.24.65.56"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "_/92ef71d5.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.5s557unaavy2.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "_/92ef71d5.conf",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "TEOLCA73M/BV25N0YNCWU/cmceeelFCsnIw2B8euNJ8wCi"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "other/ad77b2b5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Ben Richter"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "other/ad77b2b5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "e.fischer@kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "other/ad77b2b5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 89 5031 4342"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "other/ad77b2b5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Eva Zimmermann"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "other/ad77b2b5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "david.schwarz [at] kelpie-corp [dot] de"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "other/ad77b2b5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE63793557431355702553"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "other/ad77b2b5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Lukas Hartmann"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "other/ad77b2b5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Am M\u00fchlbach 64, 44477 Erding"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "other/ad77b2b5.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "135.92.150.148"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "other/dcbedc34.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "werder-wald-prod"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "other/dcbedc34.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.77.77.233"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/dcbedc34.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "Z3Jhc3MtYXJl",
+    "grass-are"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "src/43027d81.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "s.fischer@brightloop-corp.de"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "src/43027d81.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 30 5720 9589"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "src/43027d81.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Commencer2000."
+   ]
+  },
+  {
+   "id": 24,
+   "file": "src/43027d81.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE64421157969723859271"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "other/e7a1ed78.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-replica.helix.cloud"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "other/e7a1ed78.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "159.199.120.79"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "other/e7a1ed78.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "lina56@gmail.com"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "other/e7a1ed78.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault.helix-corp.de"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "other/e7a1ed78.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "fruehling.loy.blob.bod19"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "other/24e4b158.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "d2Vpbi5hY2guY29tcHJpc2U=",
+    "wein.ach.comprise"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "other/24e4b158.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "API",
+   "mutation": "synth:b64",
+   "forms": [
+    "c2tfbGl2ZV91aURUMWtMVnJPZkFITklkNGk2ZWxidTA=",
+    "sk_live_uiDT1kLVrOfAHNId4i6elbu0"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "other/24e4b158.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 19,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-db-09.prod.vantor-internal.net"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.quarzo.net"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.quarzo.net"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.quarzo.net"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.14.18.0/24"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "docs/network.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.14.18.115"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.quarzo.net"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "hermes.quarzo.net"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.quarzo.net"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "pallas.quarzo.net"
+   ]
+  },
+  {
+   "id": 42,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "orion.quarzo.net"
+   ]
+  },
+  {
+   "id": 43,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "85.14.18.214"
+   ]
+  },
+  {
+   "id": 44,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Sofia Richter"
+   ]
+  },
+  {
+   "id": 45,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "sofia.richter@t-online.de"
+   ]
+  },
+  {
+   "id": 46,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 3951445"
+   ]
+  },
+  {
+   "id": 47,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Elias Krueger"
+   ]
+  },
+  {
+   "id": 48,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "elias.krueger@web.de"
+   ]
+  },
+  {
+   "id": 49,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 8624824"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/86091c5c",
+   "line": 8,
+   "whole_line": "PACKAGECLOUD_TOKEN = os.getenv('DOKKU_PACKAGECLOUD_TOKEN')",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ec8653c8.py",
+   "line": 46,
+   "whole_line": "key_file = os.getenv('KEY_FILE', None)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ec8653c8.py",
+   "line": 216,
+   "whole_line": "        command = 'dokku ssh-keys:list'",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/66e55eb1.md",
+   "line": 7,
+   "whole_line": "ssh-keys:list [--format text|json] [<name>]        # List of all authorized Dokku public ssh keys",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/66e55eb1.md",
+   "line": 21,
+   "whole_line": "You can use the `ssh-keys:list` command to show all configured SSH keys. Any key added via the `dokku-installer` will be associated with the `admin` key name.",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/66e55eb1.md",
+   "line": 24,
+   "whole_line": "dokku ssh-keys:list",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/66e55eb1.md",
+   "line": 39,
+   "whole_line": "The keys for a specific user may be listed by specifying a second argument to the `ssh-keys:list` command:",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/66e55eb1.md",
+   "line": 42,
+   "whole_line": "dokku ssh-keys:list admin",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/66e55eb1.md",
+   "line": 50,
+   "whole_line": "dokku ssh-keys:list --format json",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/66e55eb1.md",
+   "line": 56,
+   "whole_line": "dokku ssh-keys:list --format json admin",
+   "source": "creddata"
+  },
+  {
+   "file": "docs/66e55eb1.md",
+   "line": 115,
+   "whole_line": "%dokku ALL=(ALL:ALL) NOPASSWD:SETENV: /usr/bin/dokku",
+   "source": "creddata"
+  },
+  {
+   "file": "test/265ac038.bats",
+   "line": 148,
+   "whole_line": "  run /bin/bash -c \"dokku logs:set $TEST_APP vector-sink datadog_logs://?api_key=abc123\" 2>&1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/265ac038.bats",
+   "line": 159,
+   "whole_line": "  assert_output \"datadog_logs://?api_key=abc123\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/265ac038.bats",
+   "line": 279,
+   "whole_line": "  run /bin/bash -c \"dokku logs:set --global vector-sink datadog_logs://?api_key=abc123\" 2>&1",
+   "source": "creddata"
+  },
+  {
+   "file": "test/265ac038.bats",
+   "line": 290,
+   "value": "abc123",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/b3500312.lock",
+   "line": 1052,
+   "whole_line": "    \"plugin-api-version\": \"1.1.0\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/e137b4a1.bats",
+   "line": 104,
+   "whole_line": "  run /bin/bash -c \"dokku config:set $TEST_APP SECRET_KEY_BASE=derp OTP_SECRET=1234\"",
+   "source": "creddata"
+  },
+  {
+   "file": "test/app/e5fadea2.js",
+   "line": 41,
+   "whole_line": "    key: 'express.sid'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/setting/docker/app/fefdac88.py",
+   "line": 25,
+   "whole_line": "SECRET_KEY = os.getenv('SECRET_KEY')",
+   "source": "creddata"
+  },
+  {
+   "file": "test/src/example/server/app/b91864d9.scala",
+   "line": 61,
+   "whole_line": "    val password = dbUri.getUserInfo.split(\":\")(1)",
+   "source": "creddata"
+  },
+  {
+   "file": "_/92ef71d5.conf",
+   "source": "synthetic",
+   "line": 9,
+   "value": "b6b603b5963c59de01fe"
+  },
+  {
+   "file": "_/92ef71d5.conf",
+   "source": "synthetic",
+   "line": 15,
+   "value": "o450123.ingest.sentry.io"
+  },
+  {
+   "file": "_/92ef71d5.conf",
+   "source": "synthetic",
+   "line": 16,
+   "value": "b1139dc796a0200cbe7dae994b9c1ed83fa74a34"
+  },
+  {
+   "file": "other/ad77b2b5.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "security@kelpie-corp.de"
+  },
+  {
+   "file": "other/ad77b2b5.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "privacy@kelpie-corp.de"
+  },
+  {
+   "file": "other/ad77b2b5.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 555 0155"
+  },
+  {
+   "file": "other/ad77b2b5.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "other/ad77b2b5.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "other/ad77b2b5.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "FR1420041010050500013M02606"
+  },
+  {
+   "file": "other/ad77b2b5.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Unter den Linden 6, 10117 Berlin"
+  },
+  {
+   "file": "other/ad77b2b5.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "10.0.0.0/8"
+  },
+  {
+   "file": "other/dcbedc34.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:bb0283da1a552cfba7e7deefb33635e9725010d9c1d7346f276e9896ef069425"
+  },
+  {
+   "file": "other/dcbedc34.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "a602b9c834d00904bd0efa22ef79aec45ebe86b1"
+  },
+  {
+   "file": "other/dcbedc34.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<password>"
+  },
+  {
+   "file": "other/dcbedc34.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "0.0.0.0"
+  },
+  {
+   "file": "other/dcbedc34.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "9.5.0"
+  },
+  {
+   "file": "src/43027d81.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "api.github.com"
+  },
+  {
+   "file": "src/43027d81.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "user@example.com"
+  },
+  {
+   "file": "src/43027d81.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "<password>"
+  },
+  {
+   "file": "other/e7a1ed78.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "status.helix-corp.de"
+  },
+  {
+   "file": "other/e7a1ed78.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.helix-corp.de"
+  },
+  {
+   "file": "other/e7a1ed78.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "other/e7a1ed78.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "other/e7a1ed78.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "other/e7a1ed78.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "other/e7a1ed78.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "billing@helix-corp.de"
+  },
+  {
+   "file": "other/e7a1ed78.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "Q29udGVudC1UeXBl"
+  },
+  {
+   "file": "other/e7a1ed78.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "68656c6c6f5f776f726c645f74657374"
+  },
+  {
+   "file": "other/e7a1ed78.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "other/24e4b158.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "d587a80"
+  },
+  {
+   "file": "other/24e4b158.yml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "8e2a8da6001608778e3e1e0f0b1c6c7ed8b3169429add853dc9ca6a064b56551"
+  },
+  {
+   "file": "other/24e4b158.yml",
+   "source": "synthetic",
+   "line": 20,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "other/24e4b158.yml",
+   "source": "synthetic",
+   "line": 21,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 4,
+   "value": "portal.quarzo.net"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "edi.paycore.de"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 7,
+   "value": "85.14.160.181"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "grafana.wikimedia.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 8,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Sofia Neumann"
+  },
+  {
+   "file": "docs/network.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "Nico Weber"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.quarzo.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "portal.quarzo.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.paycore.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "edi.paycore.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "185.199.108.153"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "85.14.160.181"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "216.239.35.0"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "grafana.wikimedia.org"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "repo1.maven.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Sofia Neumann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "sofia.neumann@quarzo.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Jane Roe"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "jane.roe@example.org"
+  }
+ ]
+}

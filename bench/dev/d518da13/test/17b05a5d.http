@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://jenkins.acme-corp.de/api/v3/invoices?page=2
+Authorization: Basic YWRtaW46U2NobmVlbGVuYTk0Pw==
+Cookie: _ga=GA1.2.WZ256VP06SLVJ1JF3R6VLBWY1U; session_id=lv1chetwmyvr9rjcy17b2kf6qefaa7y5
+X-Request-Id: 89bd0df8-9384-4ab6-a4b9-dda2b946a54b
+
+### the docs example, safe to share
+GET https://o450123.ingest.sentry.io/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

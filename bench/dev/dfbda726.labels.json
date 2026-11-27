@@ -1,0 +1,943 @@
+{
+ "repo": "dfbda726",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "server/5151b26c.js",
+   "line": 56,
+   "start": 24,
+   "end": 64,
+   "category": "Token",
+   "mutation": "none",
+   "forms": [
+    "632b23f75abc00d9617d8102cee58b029a9cdcdf"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "test/conf/secret/public/init/vendor/f92342e6.rb",
+   "line": 12,
+   "start": 26,
+   "end": 153,
+   "category": "Token",
+   "mutation": "stack",
+   "forms": [
+    "3048da670cd2b3bbe0eb5cb3631312eb8b6dc1dfed312d1939b7927a89aad066d312d48f248925790333e72db2c8ade6cdf2fc15ed8ca6868299d09cd76782e"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "src/63d10355.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Jan Fischer"
+   ]
+  },
+  {
+   "id": 4,
+   "file": "src/63d10355.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "jan.fischer@quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 5,
+   "file": "src/63d10355.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "+49 40 5188 866"
+   ]
+  },
+  {
+   "id": 6,
+   "file": "src/63d10355.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Nico Hoffmann"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "src/63d10355.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 8,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "noah.zimmermann [at] quarzo-corp [dot] de"
+   ]
+  },
+  {
+   "id": 8,
+   "file": "src/63d10355.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "DE04834005134665672457"
+   ]
+  },
+  {
+   "id": 9,
+   "file": "src/63d10355.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Clara Krueger"
+   ]
+  },
+  {
+   "id": 10,
+   "file": "src/63d10355.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "Gartenstra\u00dfe 48, 77440 Augsburg"
+   ]
+  },
+  {
+   "id": 11,
+   "file": "src/63d10355.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 14,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "135.193.70.121"
+   ]
+  },
+  {
+   "id": 12,
+   "file": "_/fc0c49ea.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "auth-db-07.prod.acme-internal.net"
+   ]
+  },
+  {
+   "id": 13,
+   "file": "_/fc0c49ea.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "159.152.192.127"
+   ]
+  },
+  {
+   "id": 14,
+   "file": "_/fc0c49ea.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "ben.richter@acme-corp.de"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "_/fc0c49ea.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "reports-replica.acme.cloud"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "_/fc0c49ea.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 20,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "pause-arn-birke"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/3b6aac70.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "sk_live_8Qusmrrh4szWdAOgWT20Or31"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/3b6aac70.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "9dOMNeaDMxtvLfUsEasoi5bShymoYeP9"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "test/3b6aac70.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Token",
+   "mutation": "synth:b64",
+   "forms": [
+    "dTI4NzVkMGswcGJqdjVsbTI3bTRvbXpmamJvanU2eDk=",
+    "u2875d0k0pbjv5lm27m4omzfjboju6x9"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "other/c341350b.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Ch3ck3r$!"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "test/da6ca575.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "API",
+   "mutation": "synth:charcodes",
+   "forms": [
+    "75, 104, 101, 97, 67, 118, 119, 72, 113, 109, 67, 104, 115, 69, 55, 105, 106, 69, 103, 102, 49, 75, 78, 88, 67, 115, 82, 105, 85, 87, 103, 83",
+    "KheaCvwHqmChsE7ijEgf1KNXCsRiUWgS"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "test/da6ca575.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "PII",
+   "mutation": "synth:plain",
+   "forms": [
+    "n.fischer@kelpie-corp.de"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "src/6fc7535e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "stern-strand-guava"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "src/6fc7535e.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "vault-prod.venkasl5mfpm.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.vantor.net"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.vantor.net"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.vantor.net"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.111.28.0/24"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "docs/infra.md",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 9,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.111.28.44"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "scripts/backup.sh",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.vantor.net"
+   ]
+  },
+  {
+   "id": 31,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 1,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "tarvos.vantor.net"
+   ]
+  },
+  {
+   "id": 32,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "vega.vantor.net"
+   ]
+  },
+  {
+   "id": 33,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "atlas.vantor.net"
+   ]
+  },
+  {
+   "id": 34,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal Host",
+   "mutation": "synth:context",
+   "forms": [
+    "nimbus.vantor.net"
+   ]
+  },
+  {
+   "id": 35,
+   "file": "deploy/hosts.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Internal IP",
+   "mutation": "synth:context",
+   "forms": [
+    "188.111.28.191"
+   ]
+  },
+  {
+   "id": 36,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Elias Koch"
+   ]
+  },
+  {
+   "id": 37,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "elias.koch@gmx.de"
+   ]
+  },
+  {
+   "id": 38,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 151 5714628"
+   ]
+  },
+  {
+   "id": 39,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "Sarah Wolf"
+   ]
+  },
+  {
+   "id": 40,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "sarah.wolf@gmx.de"
+   ]
+  },
+  {
+   "id": 41,
+   "file": "tests/fixtures/customers.csv",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "PII",
+   "mutation": "synth:context",
+   "forms": [
+    "+49 176 8938538"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/6ac3f79f.yml",
+   "line": 14,
+   "value": "/cwd",
+   "source": "creddata"
+  },
+  {
+   "file": "_/795eb4dc.js",
+   "line": 65,
+   "whole_line": "      oauth2Client.credentials = tokens",
+   "source": "creddata"
+  },
+  {
+   "file": "_/795eb4dc.js",
+   "line": 79,
+   "whole_line": "      oauth2Client.credentials = tokens",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ced1b9d2.js",
+   "line": 18,
+   "value": "' + dropbox_config.app_key + '",
+   "source": "creddata"
+  },
+  {
+   "file": "_/ced1b9d2.js",
+   "line": 27,
+   "value": "' + dropbox_config.app_key + '",
+   "source": "creddata"
+  },
+  {
+   "file": "server/ae230c71.js",
+   "line": 47,
+   "whole_line": "      req.session.medium.oauth.token = token",
+   "source": "creddata"
+  },
+  {
+   "file": "server/ccf7bc08.js",
+   "line": 88,
+   "whole_line": "      form: { grant_type: 'refresh_token', refresh_token: refresh_token }",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/public/init/vendor/a07c102a.rb",
+   "line": 3,
+   "whole_line": "Dummy::Application.config.session_store :cookie_store, key: '_dummy_session'",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/secret/public/init/vendor/f92342e6.rb",
+   "line": 15,
+   "whole_line": "  Dummy::Application.config.secret_key_base = token",
+   "source": "creddata"
+  },
+  {
+   "file": "test/conf/secret/public/init/vendor/f92342e6.rb",
+   "line": 17,
+   "whole_line": "  Dummy::Application.config.secret_token = token",
+   "source": "creddata"
+  },
+  {
+   "file": "src/63d10355.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "security@quarzo-corp.de"
+  },
+  {
+   "file": "src/63d10355.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "hello@quarzo-corp.de"
+  },
+  {
+   "file": "src/63d10355.md",
+   "source": "synthetic",
+   "line": 6,
+   "value": "+1 (555) 0116"
+  },
+  {
+   "file": "src/63d10355.md",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "src/63d10355.md",
+   "source": "synthetic",
+   "line": 10,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "src/63d10355.md",
+   "source": "synthetic",
+   "line": 12,
+   "value": "DE89370400440532013000"
+  },
+  {
+   "file": "src/63d10355.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "Arcisstra\u00dfe 21, 80333 M\u00fcnchen"
+  },
+  {
+   "file": "src/63d10355.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "172.16.0.0/12"
+  },
+  {
+   "file": "_/fc0c49ea.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "docs.acme-corp.de"
+  },
+  {
+   "file": "_/fc0c49ea.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "careers.acme-corp.de"
+  },
+  {
+   "file": "_/fc0c49ea.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "management.azure.com"
+  },
+  {
+   "file": "_/fc0c49ea.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "_/fc0c49ea.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "172.17.0.1"
+  },
+  {
+   "file": "_/fc0c49ea.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "10.0.0.1"
+  },
+  {
+   "file": "_/fc0c49ea.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "billing@acme-corp.de"
+  },
+  {
+   "file": "_/fc0c49ea.py",
+   "source": "synthetic",
+   "line": 14,
+   "value": "dXNlci1hZ2VudDpjdXJsLzguNC4w"
+  },
+  {
+   "file": "_/fc0c49ea.py",
+   "source": "synthetic",
+   "line": 15,
+   "value": "6170706c69636174696f6e2f6a736f6e"
+  },
+  {
+   "file": "_/fc0c49ea.py",
+   "source": "synthetic",
+   "line": 16,
+   "value": "ec2.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "test/3b6aac70.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "pk_live_v7Eukk00uLzwngKjsVhiW1HP"
+  },
+  {
+   "file": "test/3b6aac70.py",
+   "source": "synthetic",
+   "line": 4,
+   "value": "BILLING_SECRET_KEY"
+  },
+  {
+   "file": "test/3b6aac70.py",
+   "source": "synthetic",
+   "line": 5,
+   "value": "AUTH_DB_PASSWORD"
+  },
+  {
+   "file": "test/3b6aac70.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "6LSFmyJO4-XHYIZbta80ILG4fCACuCyNnXojxm_S"
+  },
+  {
+   "file": "test/3b6aac70.py",
+   "source": "synthetic",
+   "line": 8,
+   "value": "SHA256:mtcjlwis3euSNZnwDh6FJzRRUN3JtpqKe6kAtF3qwLk"
+  },
+  {
+   "file": "test/3b6aac70.py",
+   "source": "synthetic",
+   "line": 9,
+   "value": "/run/secrets/auth_password"
+  },
+  {
+   "file": "test/3b6aac70.py",
+   "source": "synthetic",
+   "line": 10,
+   "value": "X-Hub-Signature-256"
+  },
+  {
+   "file": "test/3b6aac70.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "https://oauth2.googleapis.com/token"
+  },
+  {
+   "file": "test/3b6aac70.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "b3JkZXI6OTU3NjI6b2Zmc2V0OjE5Mw=="
+  },
+  {
+   "file": "other/c341350b.md",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Protect2024"
+  },
+  {
+   "file": "other/c341350b.md",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Chris Monkey 2.14"
+  },
+  {
+   "file": "test/da6ca575.js",
+   "source": "synthetic",
+   "line": 3,
+   "value": "97, 112, 112, 108, 105, 99, 97, 116, 105, 111, 110, 47, 106, 115, 111, 110"
+  },
+  {
+   "file": "test/da6ca575.js",
+   "source": "synthetic",
+   "line": 4,
+   "value": "ZW4tVVMsZW47cT0wLjk="
+  },
+  {
+   "file": "test/da6ca575.js",
+   "source": "synthetic",
+   "line": 5,
+   "value": "6e6f2d63616368652c6e6f2d73746f7265"
+  },
+  {
+   "file": "test/da6ca575.js",
+   "source": "synthetic",
+   "line": 10,
+   "value": "s3.eu-central-1.amazonaws.com"
+  },
+  {
+   "file": "test/da6ca575.js",
+   "source": "synthetic",
+   "line": 11,
+   "value": "careers@kelpie-corp.de"
+  },
+  {
+   "file": "src/6fc7535e.py",
+   "source": "synthetic",
+   "line": 6,
+   "value": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI3h0SNZ8UlzfWh/CUQb9ed66WSTHtKui220QQ/4XN9Ek"
+  },
+  {
+   "file": "src/6fc7535e.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "73cc41c1463542f584219b9497e314396cf4811da2a5e1be0da055076dea8859"
+  },
+  {
+   "file": "src/6fc7535e.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "AKIAIOSFODNN7EXAMPLE"
+  },
+  {
+   "file": "src/6fc7535e.py",
+   "source": "synthetic",
+   "line": 17,
+   "value": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 13,
+   "value": "sftp.mailvault.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 14,
+   "value": "188.111.65.99"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 15,
+   "value": "mirrors.kernel.org"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "status.vantor.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "api.vantor.de"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 16,
+   "value": "shop.vantor.net"
+  },
+  {
+   "file": "docs/infra.md",
+   "source": "synthetic",
+   "line": 17,
+   "value": "Sarah Fischer"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 4,
+   "value": "status.vantor.de"
+  },
+  {
+   "file": "scripts/backup.sh",
+   "source": "synthetic",
+   "line": 5,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "shop.vantor.net"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.mailvault.com"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "sftp.mailvault.de"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "140.82.113.4"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "188.111.65.99"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "194.58.200.20"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "registry.terraform.io"
+  },
+  {
+   "file": "deploy/hosts.yaml",
+   "source": "synthetic",
+   "line": 15,
+   "value": "mirrors.kernel.org"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Sarah Fischer"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 3,
+   "value": "sarah.fischer@vantor.de"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "Max Mustermann"
+  },
+  {
+   "file": "tests/fixtures/customers.csv",
+   "source": "synthetic",
+   "line": 5,
+   "value": "max.mustermann@example.org"
+  }
+ ]
+}

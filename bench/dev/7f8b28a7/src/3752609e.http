@@ -1,0 +1,9 @@
+### get invoices (copied from devtools)
+GET https://vault.helix-corp.de/api/v3/invoices?page=2
+Authorization: Basic ZGVwbG95OmF0dHJpYnV0ZW9jZWxvdC1wcm9k
+Cookie: _ga=GA1.2.L4RWS7ENQG80IY03RXCO8HH941; session_id=3ohk4qe7ij88ivwurmzan8fbyfeoz23m
+X-Request-Id: 5a8737ce-72a6-4021-b9d1-40e85d21cac8
+
+### the docs example, safe to share
+GET https://api.stripe.com/v1/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c

@@ -1,0 +1,128 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://owner-api.teslamotors.com/oauth/token
+    body:
+      encoding: UTF-8
+      string: grant_type=password&client_id=<TESLA_CLIENT_ID>&client_secret=<TESLA_CLIENT_SECRET>&email=<TESLA_EMAIL>&password=<TESLA_PASS>
+    headers:
+      Authorization:
+      - Bearer 049715ff17fad8b985ba76c4c054eb4237a26afdf315eb470fd0d741f02af158
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 17 Dec 2014 01:32:37 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Cache-Control:
+      - no-store
+      Pragma:
+      - no-cache
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"dfc073e1732fc7adbaf98d23e01e2659"'
+      X-Request-Id:
+      - 2365e6b62e4bc50faa9cc3d3aa68520e
+      X-Runtime:
+      - '0.460473'
+    body:
+      encoding: UTF-8
+      string: '{"access_token":"f1b1594ba8577004db16c9775f8422c790168500e6efbf11b026be641bc5944d","token_type":"bearer","expires_in":7776000}'
+    http_version: 
+  recorded_at: Wed, 17 Dec 2014 01:32:40 GMT
+- request:
+    method: get
+    uri: https://owner-api.teslamotors.com/api/1/vehicles
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer bb520f26dd41a7c63f064bf480dbc6c55946f158476a07c22b51d74e8a585c6b
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 17 Dec 2014 01:32:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '446'
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"c52908b8db9336f89e7a1602f3b2a458"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 87980b26c56ec1a12eeb8b76903fa78b
+      X-Runtime:
+      - '0.124812'
+    body:
+      encoding: UTF-8
+      string: '{"response":[{"color":null,"display_name":"Nikola","id":1514029006966957156,"option_codes":"MS01,RENA,TM00,DRLH,PF00,BT85,PBCW,RFPO,WT19,IBMB,IDPB,TR00,SU01,SC01,TP01,AU01,CH00,HP00,PA00,PS00,AD02,X020,X025,X001,X003,X007,X011,X013,COUS","vehicle_id":490215852,"vin":"5YJSA1CN5CFP01657","tokens":["7cabdfd81ae68adc","33b494615284e743"],"state":"online","remote_start_enabled":true,"calendar_enabled":true,"notifications_enabled":true}],"count":1}'
+    http_version: 
+  recorded_at: Wed, 17 Dec 2014 01:32:41 GMT
+- request:
+    method: post
+    uri: https://owner-api.teslamotors.com/api/1/vehicles/1514029006966957156/command/set_charge_limit
+    body:
+      encoding: UTF-8
+      string: percent=50
+    headers:
+      Authorization:
+      - Bearer cfee9f2c95cacf96fa137dc723643fefdd13f9f5e99dcee87aefb0aec9a2ca51
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 17 Dec 2014 01:32:40 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '40'
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"f67eec105dd6522783a1f1bacc52723a"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 65a8a476e70b2c86b71aceaca9e34c50
+      X-Runtime:
+      - '0.196873'
+    body:
+      encoding: UTF-8
+      string: '{"response":{"reason":"","result":true}}'
+    http_version: 
+  recorded_at: Wed, 17 Dec 2014 01:32:41 GMT
+recorded_with: VCR 2.9.3

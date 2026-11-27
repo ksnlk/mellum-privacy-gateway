@@ -1,0 +1,857 @@
+{
+ "repo": "0b0a8cd6",
+ "secrets": [
+  {
+   "id": 1,
+   "file": "_/29890666.py",
+   "line": 25,
+   "start": 42,
+   "end": 49,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "rm79oip"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 2,
+   "file": "_/29890666.py",
+   "line": 71,
+   "start": 71,
+   "end": 75,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "jfmw"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 3,
+   "file": "_/29890666.py",
+   "line": 92,
+   "start": 67,
+   "end": 71,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "zpkr"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 4,
+   "file": "_/2d066c71.py",
+   "line": 12,
+   "start": 63,
+   "end": 67,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "btdx"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 5,
+   "file": "_/a44c97c0.py",
+   "line": 20,
+   "start": 69,
+   "end": 73,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "inbk"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 6,
+   "file": "_/b4b97601.py",
+   "line": 14,
+   "start": 63,
+   "end": 67,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "lhpc"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 7,
+   "file": "_/e244fd62.py",
+   "line": 19,
+   "start": 69,
+   "end": 73,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "nvut"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 8,
+   "file": "sample/c13abbcc.json",
+   "line": 35,
+   "start": 29,
+   "end": 33,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "u35s"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 9,
+   "file": "sample/c13abbcc.json",
+   "line": 164,
+   "start": 29,
+   "end": 33,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "y51b"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 10,
+   "file": "server/fe933fa0.py",
+   "line": 677,
+   "start": 53,
+   "end": 85,
+   "category": "Secret",
+   "mutation": "none",
+   "forms": [
+    "zg2kzwdVbMy2O0ZUGf6gDC7W9w3i55HE"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 11,
+   "file": "test/16995abc.html",
+   "line": 177,
+   "start": 64,
+   "end": 68,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "JLSO"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 12,
+   "file": "test/cc466c05.json",
+   "line": 36,
+   "start": 31,
+   "end": 35,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "o79w"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 13,
+   "file": "test/cc466c05.json",
+   "line": 165,
+   "start": 31,
+   "end": 35,
+   "category": "Password",
+   "mutation": "none",
+   "forms": [
+    "c28j"
+   ],
+   "multiline": false,
+   "source": "creddata"
+  },
+  {
+   "id": 14,
+   "file": "src/74658fae.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "JSON Web Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "eyJhbGciOiJIUzI1NiJ9.cRX4y8GTkh7RB4efcIjVZ8vL3_H1wf45p0-4W-pE.utsyDvGaLm7SPk-fdI_Q41iq2ifpI_VJmX4f5PMO5GY"
+   ]
+  },
+  {
+   "id": 15,
+   "file": "src/74658fae.log",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "billing-mq-01.int.pinegrid-internal.net"
+   ]
+  },
+  {
+   "id": 16,
+   "file": "test/a0a8fa6e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Wolf&1973"
+   ]
+  },
+  {
+   "id": 17,
+   "file": "test/a0a8fa6e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 6,
+   "category": "Internal IP",
+   "mutation": "synth:plain",
+   "forms": [
+    "10.12.213.114"
+   ]
+  },
+  {
+   "id": 18,
+   "file": "test/a0a8fa6e.yml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 13,
+   "category": "Password",
+   "mutation": "synth:b64",
+   "forms": [
+    "TjFjQHJAZ3VA",
+    "N1c@r@gu@"
+   ]
+  },
+  {
+   "id": 19,
+   "file": "_/c5a3eb09.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "grafana.quarzo-corp.de"
+   ]
+  },
+  {
+   "id": 20,
+   "file": "_/c5a3eb09.js",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "W69DPHbz2X5SoM4Z1KFX1Aub2rCpmp2p"
+   ]
+  },
+  {
+   "id": 21,
+   "file": "_/1f7a7bef.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 7,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "ledger-prod.vvs7jy7o21b8.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 22,
+   "file": "_/1f7a7bef.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 11,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "desire563$"
+   ]
+  },
+  {
+   "id": 23,
+   "file": "_/1f7a7bef.py",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 12,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "hapilevel"
+   ]
+  },
+  {
+   "id": 24,
+   "file": "other/38481467.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "crm-prod.18x2963ds0ey.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 25,
+   "file": "other/38481467.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 5,
+   "category": "Password",
+   "mutation": "synth:plain",
+   "forms": [
+    "Juliablitz18!"
+   ]
+  },
+  {
+   "id": 26,
+   "file": "other/38481467.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 10,
+   "category": "API",
+   "mutation": "synth:plain",
+   "forms": [
+    "rEvD0K9CxOP0RLcnf4pU1zQkmWnaeq6d"
+   ]
+  },
+  {
+   "id": 27,
+   "file": "other/38481467.yaml",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 15,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "gktb8f80wq237wk8sib330iwt1wbs4ec"
+   ]
+  },
+  {
+   "id": 28,
+   "file": "src/3a712699.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 2,
+   "category": "Internal Host",
+   "mutation": "synth:plain",
+   "forms": [
+    "payments-prod.4rrs4fnao9dk.eu-central-1.rds.amazonaws.com"
+   ]
+  },
+  {
+   "id": 29,
+   "file": "src/3a712699.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 3,
+   "category": "Basic Authorization",
+   "mutation": "synth:b64",
+   "forms": [
+    "Z3JhZmFuYTpTQHR1ckB0M2QyOQ==",
+    "grafana:S@tur@t3d29"
+   ]
+  },
+  {
+   "id": 30,
+   "file": "src/3a712699.http",
+   "multiline": false,
+   "source": "synthetic",
+   "line": 4,
+   "category": "Token",
+   "mutation": "synth:plain",
+   "forms": [
+    "qg0ckxgitbirn2cax2me0vfiwiepwbvk"
+   ]
+  }
+ ],
+ "decoys": [
+  {
+   "file": "_/b4b97601.py",
+   "line": 65,
+   "whole_line": "                \"key\": \"index\",",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 26,
+   "whole_line": "    this.key = data && data.key;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 77,
+   "value": "__ob__",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 128,
+   "whole_line": "            c.key = \"__vlist\" + nestedIndex + \"_\" + i + \"__\";",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 179,
+   "value": "__ob__",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 230,
+   "whole_line": "    var key = slots && slots.$key;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 281,
+   "whole_line": "    node.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 329,
+   "whole_line": "      (res).$key = contentHashKey;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 380,
+   "value": "\" + key + \"",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 431,
+   "whole_line": "      el.key = exp;",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 482,
+   "whole_line": "    // first pass: mark all non-static nodes.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 484,
+   "whole_line": "    // second pass: mark static roots.",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 535,
+   "whole_line": "        } else if (key === 'exact') {",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 586,
+   "value": " + (el.key) + ",
+   "source": "creddata"
+  },
+  {
+   "file": "_/fc4005a6.js",
+   "line": 637,
+   "value": " + (el.slotTarget || ",
+   "source": "creddata"
+  },
+  {
+   "file": "public/80aee407.js",
+   "line": 189,
+   "whole_line": "      var play_key = {103:'Acfun',104:'Bilibili',102:'\u767e\u5ea6\u4e91',106:'\u641c\u72d0',108:'\u817e\u8baf',107:'\u4e50\u89c6',105:'\u4f18\u9177',114:'\u8303\u7279\u897f\u89c6\u9891'};",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 26,
+   "whole_line": "    this.key = data && data.key;",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 77,
+   "value": "__ob__",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 128,
+   "whole_line": "            c.key = \"__vlist\" + nestedIndex + \"_\" + i + \"__\";",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 179,
+   "value": "__ob__",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 230,
+   "whole_line": "    var key = slots && slots.$key;",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 281,
+   "whole_line": "    node.key = key;",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 329,
+   "whole_line": "      (res).$key = contentHashKey;",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 380,
+   "value": "\" + key + \"",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 431,
+   "whole_line": "      el.key = exp;",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 482,
+   "whole_line": "    // first pass: mark all non-static nodes.",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 484,
+   "whole_line": "    // second pass: mark static roots.",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 535,
+   "whole_line": "        } else if (key === 'exact') {",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 586,
+   "value": " + (el.key) + ",
+   "source": "creddata"
+  },
+  {
+   "file": "public/f62ed385.js",
+   "line": 637,
+   "value": " + (el.slotTarget || ",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/public/31f00100.html",
+   "line": 342,
+   "whole_line": "                                                                <div class=\"copy-pass\" :title=\"'\u7f51\u76d8\u5bc6\u7801:' + file.passwd\"",
+   "source": "creddata"
+  },
+  {
+   "file": "resource/public/31f00100.html",
+   "line": 389,
+   "whole_line": "                                                        <div class=\"copy-pass\" :title=\"'\u7f51\u76d8\u5bc6\u7801:' + file.passwd\"",
+   "source": "creddata"
+  },
+  {
+   "file": "server/fe933fa0.py",
+   "line": 153,
+   "whole_line": "        self.set_secure_cookie(\"username\", username, 365)",
+   "source": "creddata"
+  },
+  {
+   "file": "server/fe933fa0.py",
+   "line": 159,
+   "whole_line": "        password = data[\"password\"]",
+   "source": "creddata"
+  },
+  {
+   "file": "server/fe933fa0.py",
+   "line": 174,
+   "whole_line": "                self.mongo.db[\"users\"].insert_one(dict(username=username, password=hash_value,",
+   "source": "creddata"
+  },
+  {
+   "file": "server/fe933fa0.py",
+   "line": 192,
+   "whole_line": "        username = self.get_secure_cookie(\"username\")",
+   "source": "creddata"
+  },
+  {
+   "file": "server/fe933fa0.py",
+   "line": 258,
+   "whole_line": "        username = self.get_secure_cookie(\"username\")",
+   "source": "creddata"
+  },
+  {
+   "file": "server/fe933fa0.py",
+   "line": 301,
+   "whole_line": "        username = self.get_secure_cookie(\"username\")",
+   "source": "creddata"
+  },
+  {
+   "file": "server/fe933fa0.py",
+   "line": 434,
+   "whole_line": "        username = self.get_secure_cookie(\"username\")",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ae2086c2.html",
+   "line": 34,
+   "whole_line": "    //if(is_a()) document.write('<script src=\"https://res.iyoowi.com/iy/iy.js?cid=6BC02495&skey=1c5b2238\"><\\/script>');",
+   "source": "creddata"
+  },
+  {
+   "file": "test/ae2086c2.html",
+   "line": 158,
+   "whole_line": "        key = parseInt(key);",
+   "source": "creddata"
+  },
+  {
+   "file": "test/cc466c05.json",
+   "line": 967,
+   "value": "U3MAAOU35DLMQ6IF3A55CT6X6ZNQGFXK",
+   "source": "creddata"
+  },
+  {
+   "file": "src/74658fae.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "2.5.29"
+  },
+  {
+   "file": "src/74658fae.log",
+   "source": "synthetic",
+   "line": 1,
+   "value": "c831d13c21c8aa87359c96d1ce93c7e436ef9f8a"
+  },
+  {
+   "file": "src/74658fae.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "NBV7YLESLZHT64OPUZM6TJZ3I1"
+  },
+  {
+   "file": "src/74658fae.log",
+   "source": "synthetic",
+   "line": 2,
+   "value": "pypi.org"
+  },
+  {
+   "file": "src/74658fae.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "DWNXM8RS9TQ9JAKNYPN25LM1Q5"
+  },
+  {
+   "file": "src/74658fae.log",
+   "source": "synthetic",
+   "line": 5,
+   "value": "localhost"
+  },
+  {
+   "file": "test/a0a8fa6e.yml",
+   "source": "synthetic",
+   "line": 4,
+   "value": "sha256:3782eb51302f6c75dfe56985667326737abf14a7e2316af978e467c5ff04e3f9"
+  },
+  {
+   "file": "test/a0a8fa6e.yml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "9bc6ed95253d38d84fbc549b643396c55fb1e425"
+  },
+  {
+   "file": "test/a0a8fa6e.yml",
+   "source": "synthetic",
+   "line": 8,
+   "value": "<password>"
+  },
+  {
+   "file": "test/a0a8fa6e.yml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "localhost"
+  },
+  {
+   "file": "test/a0a8fa6e.yml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "4.14.47"
+  },
+  {
+   "file": "_/c5a3eb09.js",
+   "source": "synthetic",
+   "line": 2,
+   "value": "hooks.slack.com"
+  },
+  {
+   "file": "_/c5a3eb09.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "9.2.22"
+  },
+  {
+   "file": "_/c5a3eb09.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "c9836fec89886659ac6dd4d9ff1976eed1db8c91"
+  },
+  {
+   "file": "_/c5a3eb09.js",
+   "source": "synthetic",
+   "line": 6,
+   "value": "f49cf181-09e0-4771-90eb-cbf048c11018"
+  },
+  {
+   "file": "_/1f7a7bef.py",
+   "source": "synthetic",
+   "line": 3,
+   "value": "Knocking2026"
+  },
+  {
+   "file": "_/1f7a7bef.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "etl"
+  },
+  {
+   "file": "_/1f7a7bef.py",
+   "source": "synthetic",
+   "line": 7,
+   "value": "rip77"
+  },
+  {
+   "file": "_/1f7a7bef.py",
+   "source": "synthetic",
+   "line": 11,
+   "value": "metrics"
+  },
+  {
+   "file": "_/1f7a7bef.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "kasse"
+  },
+  {
+   "file": "_/1f7a7bef.py",
+   "source": "synthetic",
+   "line": 12,
+   "value": "hungarian81"
+  },
+  {
+   "file": "other/38481467.yaml",
+   "source": "synthetic",
+   "line": 6,
+   "value": "secret/data/nordwind/vault/prod"
+  },
+  {
+   "file": "other/38481467.yaml",
+   "source": "synthetic",
+   "line": 7,
+   "value": "REPORTS_SECRET_KEY"
+  },
+  {
+   "file": "other/38481467.yaml",
+   "source": "synthetic",
+   "line": 9,
+   "value": "Proxy-Authorization"
+  },
+  {
+   "file": "other/38481467.yaml",
+   "source": "synthetic",
+   "line": 11,
+   "value": "~/.ssh/id_ed25519"
+  },
+  {
+   "file": "other/38481467.yaml",
+   "source": "synthetic",
+   "line": 12,
+   "value": "RS256"
+  },
+  {
+   "file": "other/38481467.yaml",
+   "source": "synthetic",
+   "line": 13,
+   "value": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  },
+  {
+   "file": "other/38481467.yaml",
+   "source": "synthetic",
+   "line": 14,
+   "value": "250127273374-ddj9vu6cibd9mgrn6tdrb8rfguvkp0jl.apps.googleusercontent.com"
+  },
+  {
+   "file": "other/38481467.yaml",
+   "source": "synthetic",
+   "line": 16,
+   "value": "2026-01-15T00:00:00Z"
+  },
+  {
+   "file": "other/38481467.yaml",
+   "source": "synthetic",
+   "line": 17,
+   "value": "auth-oauth-client"
+  },
+  {
+   "file": "other/38481467.yaml",
+   "source": "synthetic",
+   "line": 19,
+   "value": "b3JkZXI6MTU3NDU6b2Zmc2V0OjQ2Nw=="
+  },
+  {
+   "file": "src/3a712699.http",
+   "source": "synthetic",
+   "line": 4,
+   "value": "5R6RF09AF8YPBTGARJ52LW5JCA"
+  },
+  {
+   "file": "src/3a712699.http",
+   "source": "synthetic",
+   "line": 5,
+   "value": "bb6b04c2-3da9-4f45-8e76-ff2cc024e6e4"
+  },
+  {
+   "file": "src/3a712699.http",
+   "source": "synthetic",
+   "line": 8,
+   "value": "api.stripe.com"
+  },
+  {
+   "file": "src/3a712699.http",
+   "source": "synthetic",
+   "line": 9,
+   "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+  }
+ ]
+}
