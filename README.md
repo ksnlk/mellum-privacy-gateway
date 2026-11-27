@@ -4,7 +4,7 @@ Developers want cloud LLMs and coding agents on their code. Their code is full o
 never leave the building: API keys, passwords, tokens, private keys, internal hostnames, customer emails.
 
 **Build the gateway that sits in front of the cloud LLM.** It reads what the developer or agent is
-about to send, finds everything sensitive with the help of **Mellum2** (the only LLM you may use),
+about to send, finds everything sensitive with the help of **Mellum2** (the only LLM you may use in the gateway),
 replaces it with placeholders, and puts the real values back into whatever comes back.
 
 ```
